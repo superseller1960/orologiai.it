@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+npm-debug.log*
+.env
+
+# WordPress sensitive / large
+wp-config.php
+.htaccess
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+backups/
+*.sql
+*.zip
+
+# GitHub Actions artefacts
+.github/workflows/
