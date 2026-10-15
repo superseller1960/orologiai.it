@@ -1,22 +1,36 @@
-  - name: Installa wget
-    run: sudo apt-get update && sudo apt-get install -y wget
+name: Import sito statico
 
-  - name: Scarica mirror del sito in public/
-    run: |
-      rm -rf public || true
-      mkdir -p public
-      wget --mirror --convert-links --adjust-extension --page-requisites --no-parent \
-        --reject-regex "/wp-login.php|/wp-admin" \
-        -P public https://orologiai.it/
+on:
+  workflow_dispatch: {}
 
-  - name: Commit e push dei file importati
-    run: |
-      git config user.name "github-actions[bot]"
-      git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      git add public || true
-      if git diff --staged --quiet; then
-        echo "Nessuna modifica da committare"
-      else
-        git commit -m "Import statico del sito orologiai.it"
-        git push
-      fi
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Installa wget
+        run: sudo apt-get update && sudo apt-get install -y wget
+
+      - name: Scarica mirror del sito in public/
+        run: |
+          rm -rf public || true
+          mkdir -p public
+          wget --mirror --convert-links --adjust-extension --page-requisites --no-parent \
+            --reject-regex "/wp-login.php|/wp-admin" \
+            -P public https://orologiai.it/
+
+      - name: Commit e push dei file importati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public || true
+          if git diff --staged --quiet; then
+            echo "Nessuna modifica da committare"
+          else
+            git commit -m "Import statico del sito orologiai.it"
+            git push
+          fi
