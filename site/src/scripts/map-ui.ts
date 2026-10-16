@@ -3,11 +3,15 @@ import L from 'leaflet';
 
 type Point = { id: string; nome: string; comune: string; indirizzo: string | null; lat: number; lon: number; href: string };
 
+// URL dei tile configurabile senza modificare la logica: PUBLIC_TILE_URL nel build, altrimenti OSM standard.
+// Il default OSM è adatto a traffico basso: con più traffico usare un fornitore dedicato (vedi docs/LICENZA-OSM.md).
+const TILE_URL: string = (import.meta.env.PUBLIC_TILE_URL as string | undefined) || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+
 const el = document.querySelector<HTMLElement>('#directory-map');
 if (el) {
   const points: Point[] = JSON.parse(el.dataset.points ?? '[]');
   const map = L.map(el, { scrollWheelZoom: false }).setView([43.77, 11.25], 9);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer(TILE_URL, {
     maxZoom: 19,
     attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
   }).addTo(map);
@@ -15,7 +19,7 @@ if (el) {
   const markers = new Map<string, L.Marker>();
   for (const p of points) {
     const marker = L.marker([p.lat, p.lon]).bindPopup(
-      `<strong><a href="${p.href}">${p.nome}</a></strong><br>${p.indirizzo ?? ''}<br><small>${p.comune}</small>`,
+      `<strong><a href="${p.href}">${p.nome}</a></strong><br>${p.indirizzo ?? ''}<br><small>${p.comune}</small><br><small>Posizione geocodificata e confrontata con l’indirizzo disponibile.</small>`,
     );
     marker.addTo(map);
     markers.set(p.id, marker);

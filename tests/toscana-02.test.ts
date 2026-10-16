@@ -43,18 +43,20 @@ test('migrazione reale riproducibile dal commit iniziale e rifiuto doppia integr
   const args=[resolve('node_modules/tsx/dist/cli.mjs'),resolve('scripts/integrate-toscana-02.ts')];
   execFileSync(process.execPath,args,{cwd:temp,stdio:'pipe'});
   // Confronto sui dati dell'incremento 02: l'incremento 03 aggiunge fonti e campi geografici verificati.
-  const norm=(d:any)=>({...d,fonti:d.fonti.filter((f:any)=>!f.id.startsWith('t03-')),attivita:d.attivita.map((b:any)=>({...b,posizione:undefined,attendibilita:{...b.attendibilita,cronologia:undefined}}))});
+  // Incremento 04 aggiunge fonti t04-, due attività e la località Campi Bisenzio: esclusi dal confronto.
+  const t04=['lamberti-sesto','massari-campi'];
+  const norm=(d:any)=>({...d,localita:d.localita.filter((p:any)=>p.id!=='campi-bisenzio'),fonti:d.fonti.filter((f:any)=>!/^t0[34]-/.test(f.id)),attivita:d.attivita.filter((b:any)=>!t04.includes(b.id)).map((b:any)=>({...b,posizione:undefined,attendibilita:{...b.attendibilita,cronologia:undefined}}))});
   assert.deepEqual(norm(JSON.parse(await readFile(join(temp,'site/data/directory.json'),'utf8'))),norm(directory));
   assert.deepEqual(JSON.parse(await readFile(join(temp,'data/import/toscana-02-report.json'),'utf8')),report);
   assert.throws(()=>execFileSync(process.execPath,args,{cwd:temp,stdio:'pipe'}));
  } finally {await rm(temp,{recursive:true,force:true});}
 });
 test('bilancio A/B/C coerente e soli 25 nuovi record revisionati pubblicati',()=>{
- assert.equal(added.length,25);assert.equal(directory.attivita.length,33);
+ assert.equal(added.length,25);assert.equal(directory.attivita.length,35); // 33 dell'incremento 02 + 2 dell'incremento 04
  assert.equal(report.contatori.candidatiConNome,54);assert.equal(report.contatori.stagingB,28);assert.equal(report.contatori.esclusiC,3);
  assert.equal(report.decisioni.length,56);
- for(const d of report.decisioni){if(d.gruppo==='A')assert.ok(ids.has(d.id));else assert.ok(!directory.attivita.some(b=>b.id===d.id));}
- assert.equal(new Set(directory.attivita.map(b=>b.slug)).size,33);
+ for(const d of report.decisioni){if(d.gruppo==='A')assert.ok(ids.has(d.id));else assert.ok(!directory.attivita.some(b=>b.id===d.id && !['lamberti-sesto','massari-campi'].includes(b.id)),`Decisione B/C ${d.id} non integrata nell'incremento 02`);}
+ assert.equal(new Set(directory.attivita.map(b=>b.slug)).size,35);
  assert.equal(directory.attivita.filter(b=>b.origine.sistema==='legacy-8dc29a5').length,8);
 });
 test('ogni nuova attività ha fonti e verifica, senza inventare storia o coordinate',()=>{

@@ -1,0 +1,56 @@
+{
+  "lotto": "incremento-04",
+  "data": "2026-10-16",
+  "nota": "Registro di audit. Il report dell'incremento 02 (data/import/toscana-02-report.json) resta invariato: le decisioni sotto aggiornano lo stato dei candidati.",
+  "integrate": [
+    {
+      "id": "lamberti-sesto",
+      "statoPrecedente": "B (in revisione, incremento 02)",
+      "statoAttuale": "integrata",
+      "identita": "Gioielleria Lamberti, Via Antonio Gramsci 298, 50019 Sesto Fiorentino, telefono +39 055 4421133: riscontrata sul sito ufficiale del negozio.",
+      "servizi": "vendita (sezione Orologeria del sito ufficiale, pagina letta solo in parte).",
+      "nonAttribuito": ["autorizzazione Bulova (non documentata da fonte del marchio)", "riparazioni di orologi (citate solo da directory esterne, non confermate dal sito ufficiale)"],
+      "coordinate": "non pubblicate: nessuna geocodifica eseguita in questo incremento",
+      "fonti": ["t04-lamberti-sito", "t04-lamberti-orologeria"]
+    },
+    {
+      "id": "massari-campi",
+      "statoPrecedente": "B (in revisione, incremento 02)",
+      "statoAttuale": "integrata",
+      "identita": "Massari Gioielli, Via Santo Stefano 45/47, 50013 Campi Bisenzio, telefono 055 8954352: indirizzo e telefono riscontrati sul locator Hamilton (fonte del marchio) e sul sito del negozio.",
+      "servizi": "vendita.",
+      "marchi": "rivenditore ufficiale Hamilton, documentato dal locator del marchio.",
+      "nonAttribuito": ["assistenza o riparazioni Swatch (autorizzazione non confermata da fonte del marchio)"],
+      "coordinate": "non pubblicate: nessuna geocodifica eseguita in questo incremento",
+      "fonti": ["t04-massari-hamilton", "t04-massari-sito"]
+    }
+  ],
+  "restanoInStaging": [
+    {
+      "id": "giglio-campi",
+      "nome": "Il Giglio d'Oro — Campi Bisenzio",
+      "motivo": "Il sito ufficiale (ilgigliodoro.com/contatti/) riporta per il Centro Commerciale I Gigli, Via di San Quirico 165, il CAP 50100. Una ricerca precedente indicava 50013 da fonti di terzi (centro commerciale, Breil). Il CAP non è stato corretto per supposizione geografica: la discordanza tra fonte ufficiale e fonti di terzi resta aperta.",
+      "decisione": "resta in staging",
+      "prossimoPasso": "chiedere conferma al negozio o consultare l'elenco ufficiale del centro commerciale prima di correggere il CAP"
+    },
+    {
+      "id": "giglio-sesto",
+      "nome": "Il Giglio d'Oro — Sesto Fiorentino",
+      "motivo": "Il sito ufficiale riporta Via Cavallotti 35, 50019, telefono 055 4494818 come punto vendita. Il pie di pagina riporta la sede legale di IGMA s.r.l. in Via Gramsci 409. Sono due dati diversi per due ruoli diversi: la sede del negozio è documentata, ma il dato va confermato come sede di vendita prima della pubblicazione.",
+      "decisione": "resta in staging",
+      "prossimoPasso": "confermare che Via Cavallotti 35 sia il punto vendita, poi valutare l'integrazione"
+    },
+    {
+      "id": "osm-candidati",
+      "nome": "La Macchina del Tempo, Hora Mundi, Tudor Boutique Ronchi, altri candidati OSM",
+      "motivo": "Non ancora verificati con fonti dell'attività o del marchio in questo incremento.",
+      "decisione": "restano in staging"
+    }
+  ],
+  "coordinateNonPubblicate": [
+    { "id": "scardi", "motivo": "CAP del geocoder 50136 discordante dalla fonte ufficiale 50135" },
+    { "id": "bigalli", "motivo": "CAP del geocoder 50100 discordante dalla fonte 50123" },
+    { "id": "rocca", "motivo": "il geocoder restituisce Piazza del Duomo senza numero civico" },
+    { "id": "massari-campi", "motivo": "nessuna geocodifica eseguita in questo incremento; indirizzo documentato dal marchio" }
+  ]
+}
