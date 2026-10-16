@@ -12,6 +12,7 @@
     "validate": "tsx scripts/validate.ts",
     "test": "tsx --test tests/*.test.ts",
     "test:ui": "tsx scripts/test-ui.ts",
+    "test:gemini:live": "tsx scripts/verify-gemini-live.ts",
     "verify": "npm run check && npm test && npm run build && npm run test:ui",
     "build": "npm run validate && astro build && tsx scripts/check-build.ts",
     "migrate:legacy": "tsx scripts/migrate-legacy.ts",

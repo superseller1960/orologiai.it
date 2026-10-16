@@ -54,6 +54,7 @@ export function schemaCriteri(dir: Directory) {
       apertoOggi: { type: 'boolean', description: 'true solo se l’utente chiede attività aperte oggi.' },
       bisognoPosizione: { type: 'boolean', description: 'true se l’utente chiede “vicino a me” senza indicare una località.' },
     },
+    additionalProperties: false,
   };
 }
 
@@ -83,7 +84,8 @@ export function corpoRichiesta(dir: Directory, messaggio: string) {
     generationConfig: {
       temperature: 0,
       maxOutputTokens: 300,
-      responseFormat: { text: { mimeType: 'application/json', schema: schemaCriteri(dir) } },
+      responseMimeType: 'application/json',
+      responseJsonSchema: schemaCriteri(dir),
     },
   };
 }

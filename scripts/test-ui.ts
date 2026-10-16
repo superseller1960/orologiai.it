@@ -105,6 +105,25 @@ assert.equal(doc2.querySelector('img'), null);
 const esempio = doc2.querySelector<HTMLButtonElement>('[data-esempio]')!;
 esempio.click();
 assert.equal(ta.value, esempio.dataset.esempio);
+
+// Geolocalizzazione negata: messaggio esplicito e nessun blocco della ricerca.
+const posBtn = doc2.querySelector<HTMLButtonElement>('#assistente-posizione')!;
+Object.defineProperty(win2.navigator, 'geolocation', {
+  configurable: true,
+  value: { getCurrentPosition: (_ok: unknown, fail: (err: unknown) => void) => fail(new Error('permission denied')) },
+});
+posBtn.click();
+assert.match(doc2.querySelector<HTMLElement>('#assistente-stato')!.textContent ?? '', /Posizione non concessa/);
+
+// Risposta dell'endpoint server-side (modalità ai): l'interfaccia usa i criteri ricevuti e mostra la modalità corretta.
+win2.fetch = (async () => new Response(
+  JSON.stringify({ modalita: 'ai', avviso: null, criteri: { localita: 'firenze', servizio: 'revisione' }, chiarimenti: [] }),
+  { status: 200, headers: { 'content-type': 'application/json' } },
+)) as unknown as typeof win2.fetch;
+await send('frase colloquiale interpretata dal server');
+assert.match(doc2.querySelector<HTMLElement>('#assistente-modalita')!.textContent ?? '', /modello Gemini/);
+assert.deepEqual(cardIds(), attesi);
+
 assert.deepEqual(errors2, [], 'Nessun errore JavaScript nella pagina dell’Orologiaio');
 win2.close();
 

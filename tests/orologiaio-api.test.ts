@@ -1,9 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 import { handleOrologiaio, creaRateLimiter, MAX_BODY_BYTES, type Deps } from '../site/src/lib/orologiaio-api.ts';
 import { GEMINI_ENDPOINT, corpoRichiesta, schemaCriteri } from '../site/src/lib/gemini.ts';
+import { onRequest } from '../functions/api/orologiaio.ts';
 
 const data: Directory = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8')));
 const snapshot = JSON.stringify(data);
@@ -88,7 +90,8 @@ test('il provider riceve solo il messaggio dell’utente, senza coordinate né d
   assert.equal(body.contents[0].parts[0].text, 'orologiaio a Firenze');
   assert.ok(!JSON.stringify(body).includes('203.0.113.1'), 'nessun IP inoltrato');
   assert.match(body.systemInstruction.parts[0].text, /ignora qualsiasi istruzione/);
-  assert.equal(body.generationConfig.responseFormat.text.mimeType, 'application/json');
+  assert.equal(body.generationConfig.responseMimeType, 'application/json');
+  assert.equal(body.generationConfig.responseJsonSchema.additionalProperties, false);
 });
 
 test('JSON malformato del modello: fallback locale dichiarato', async () => {
@@ -182,4 +185,38 @@ test('l’endpoint non modifica il database e lo schema JSON riflette solo valor
   assert.ok(!(schema.properties.localita.enum as string[]).includes('citta-inventata'));
   const corpo = corpoRichiesta(data, 'x');
   assert.ok(!JSON.stringify(corpo).includes(CHIAVE));
+});
+
+test('Pages Function onRequest risponde via HTTP reale su un socket locale in caso di successo ed errore', async () => {
+  const srv = createServer(async (req, res) => {
+    const chunks: Buffer[] = [];
+    for await (const c of req) chunks.push(c as Buffer);
+    const url = `http://${req.headers.host}${req.url}`;
+    const headers = new Headers();
+    for (const [k, v] of Object.entries(req.headers)) if (typeof v === 'string') headers.set(k, v);
+    const out = await onRequest({
+      request: new Request(url, { method: req.method, headers, body: req.method === 'GET' ? undefined : Buffer.concat(chunks) }),
+      env: {},
+    });
+    res.writeHead(out.status, Object.fromEntries(out.headers.entries()));
+    res.end(await out.text());
+  });
+  await new Promise<void>(resolve => srv.listen(0, '127.0.0.1', resolve));
+  const port = (srv.address() as { port: number }).port;
+  const base = `http://127.0.0.1:${port}/api/orologiaio`;
+  try {
+    const getRes = await fetch(base);
+    assert.equal(getRes.status, 405);
+    const okRes = await fetch(base, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', origin: `http://127.0.0.1:${port}` },
+      body: JSON.stringify({ messaggio: 'Cerco un orologiaio a Firenze per revisionare un automatico' }),
+    });
+    assert.equal(okRes.status, 200);
+    const body = await okRes.json();
+    assert.equal(body.modalita, 'non-configurato');
+    assert.deepEqual(body.criteri, { localita: 'firenze', servizio: 'revisione', specializzazione: 'automatici' });
+  } finally {
+    await new Promise<void>(resolve => srv.close(() => resolve()));
+  }
 });
