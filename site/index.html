@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orologiai.it – Trova l'orologiaio di fiducia vicino a te</title>
+  <meta name="description" content="Il punto di riferimento per trovare orologerie e orologiai professionisti in Italia: confronta servizi e contatta il tuo esperto.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="#top">Orologiai<span>.it</span></a>
+      <nav aria-label="Principale">
+        <a href="#cerca">Cerca</a>
+        <a href="#citta">Città</a>
+        <a href="rolex/">Rolex</a>
+        <a href="blog/">Blog</a>
+        <a href="#aggiungi">Aggiungi la tua</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Orologeria italiana</p>
+        <h1>Trova l'orologiaio di fiducia più vicino a te</h1>
+        <p class="lead">Confronta botteghe storiche e laboratori, scopri i servizi offerti e contatta il professionista giusto per il tuo orologio.</p>
+        <a class="btn" href="#cerca">Inizia la ricerca</a>
+      </div>
+    </section>
+
+    <section id="cerca" class="container section">
+      <h2>Cerca un'orologeria</h2>
+      <form class="search" id="search-form" role="search">
+        <label>Città
+          <select id="filtro-citta"><option value="">Tutte le città</option></select>
+        </label>
+        <label>Servizio
+          <select id="filtro-servizio">
+            <option value="">Tutti i servizi</option>
+            <option value="vendita">Vendita</option>
+            <option value="riparazione">Riparazione</option>
+            <option value="assistenza">Assistenza</option>
+            <option value="ricambi">Ricambi</option>
+            <option value="gioielleria">Gioielleria</option>
+          </select>
+        </label>
+        <label>Marca
+          <input id="filtro-testo" type="search" placeholder="Es. Rolex">
+        </label>
+      </form>
+      <p class="count" id="conteggio" aria-live="polite"></p>
+      <ul class="grid" id="lista"></ul>
+    </section>
+
+    <section id="citta" class="section alt">
+      <div class="container">
+        <h2>Le città</h2>
+        <div class="cities" id="elenco-citta"></div>
+      </div>
+    </section>
+
+    <section id="aggiungi" class="container section cta">
+      <h2>Hai un'orologeria?</h2>
+      <p>Entra nel database degli orologiai d'Italia. Scrivici e ti inseriamo nella tua città.</p>
+      <a class="btn" href="mailto:info@orologiai.it">Scrivici a info@orologiai.it</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Orologiai.it</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
