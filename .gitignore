@@ -13,6 +13,8 @@ npm-debug.log*
 !/data/staging/toscana-02-osm-source/
 !/data/staging/toscana-02-osm/
 !/data/staging/toscana-02-review/
+# Incremento 03: risultati di geocodifica di verifica (ODbL, vedi docs/LICENZA-OSM.md)
+!/data/staging/toscana-03-geocode/
 
 # WordPress sensitive / large
 wp-config.php

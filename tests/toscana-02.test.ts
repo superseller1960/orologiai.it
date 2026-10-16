@@ -19,7 +19,9 @@ const ids=new Set<string>(reviewed.attivita.map((b:{id:string})=>b.id));
 const added=directory.attivita.filter(b=>ids.has(b.id));
 test('mirror e otto record autorevoli invariati rispetto al commit iniziale',()=>{
  const base=JSON.parse(execFileSync('git',['show','6cb31fc:site/data/directory.json'],{encoding:'utf8'}));
- for(const b of base.attivita)assert.deepEqual(directory.attivita.find(current=>current.id===b.id),b);
+ // Incremento 03: posizione e cronologia possono ricevere campi verificati; il resto resta identico.
+ const norm=(x:any)=>({...x,posizione:undefined,attendibilita:{...x.attendibilita,cronologia:undefined}});
+ for(const b of base.attivita)assert.deepEqual(norm(directory.attivita.find(current=>current.id===b.id)),norm(b));
  assert.equal(execFileSync('git',['diff','6cb31fc','--','public/','site/data/orologerie.json'],{encoding:'utf8'}),'');
 });
 test('estratto OSM reale: hash e 27 elementi riproducibili, non fixture sintetica',()=>{
@@ -40,7 +42,9 @@ test('migrazione reale riproducibile dal commit iniziale e rifiuto doppia integr
   for(const file of ['data/import/toscana-02-reviewed.json','data/import/pilot-toscana.json','data/staging/toscana-02-osm-source/extract.json','data/staging/toscana-02-osm-source/acquisition.json'])await writeFile(join(temp,file),await readFile(file));
   const args=[resolve('node_modules/tsx/dist/cli.mjs'),resolve('scripts/integrate-toscana-02.ts')];
   execFileSync(process.execPath,args,{cwd:temp,stdio:'pipe'});
-  assert.deepEqual(JSON.parse(await readFile(join(temp,'site/data/directory.json'),'utf8')),directory);
+  // Confronto sui dati dell'incremento 02: l'incremento 03 aggiunge fonti e campi geografici verificati.
+  const norm=(d:any)=>({...d,fonti:d.fonti.filter((f:any)=>!f.id.startsWith('t03-')),attivita:d.attivita.map((b:any)=>({...b,posizione:undefined,attendibilita:{...b.attendibilita,cronologia:undefined}}))});
+  assert.deepEqual(norm(JSON.parse(await readFile(join(temp,'site/data/directory.json'),'utf8'))),norm(directory));
   assert.deepEqual(JSON.parse(await readFile(join(temp,'data/import/toscana-02-report.json'),'utf8')),report);
   assert.throws(()=>execFileSync(process.execPath,args,{cwd:temp,stdio:'pipe'}));
  } finally {await rm(temp,{recursive:true,force:true});}
@@ -73,7 +77,7 @@ test('ricerca reale per nome, comune, provincia, servizio, marchio e combinazion
  assert.deepEqual(search({localita:'figline-e-incisa-valdarno',marca:'Hamilton',ruoloMarca:'rivenditaUfficiale'}),['sottili-figline']);
  assert.deepEqual(search({marca:'Rolex',ruoloMarca:'assistenzaUfficiale'}),[]);
  assert.deepEqual(search({q:'nessuna-corrispondenza-1234567'}),[]);
- assert.ok(searchDirectory(directory,{origine:{lat:43.77,lon:11.25},ordine:'distanza'}).every(r=>r.distanzaKm===null));
+ assert.ok(searchDirectory(directory,{origine:{lat:43.77,lon:11.25},ordine:'distanza'}).filter(r=>!r.business.posizione.coordinate).every(r=>r.distanzaKm===null));
 });
 test('deduplicazione conserva sedi distinte e trova variazioni nome/indirizzo/telefono',()=>{
  const duplicates=findDuplicates(directory);assert.equal(duplicates.length,3);assert.ok(duplicates.every(d=>d.esito==='sedi-distinte'));

@@ -32,7 +32,18 @@ export const localitySchema = z.object({
 }).strict();
 const claim = z.object({ id: serviceId, fonti: refs }).strict();
 const brandClaim = z.object({ marca: text, fonti: refs }).strict();
-export const coordinatesSchema = z.object({ lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180), fonti: refs }).strict();
+export const coordinatesSchema = z.object({
+  lat: z.number().min(-90).max(90), lon: z.number().min(-180).max(180), fonti: refs,
+  // Incremento 03 (Fase 5): provenienza e stato di attendibilità della posizione.
+  provenienza: z.enum(['osm-node', 'geocodifica-osm', 'fonte-ufficiale', 'rilievo']).optional(),
+  verificataIl: date.optional(),
+  indirizzoConfrontato: text.optional(),
+  stato: z.enum(['verificata', 'da-verificare']).optional(),
+}).strict();
+export type Coordinates = z.infer<typeof coordinatesSchema>;
+// Una coordinata è pubblicabile (mappa e distanze) solo se verificata e con provenienza nota.
+export const isUsableCoordinate = (c: Coordinates | null | undefined): c is Coordinates =>
+  !!c && c.stato === 'verificata' && !!c.provenienza && !!c.verificataIl;
 const interval = z.object({ apertura: z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/), chiusura: z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/) }).strict().refine(v => v.apertura < v.chiusura, 'Intervallo non valido; spezzare a mezzanotte');
 export const businessSchema = z.object({
   id: slugSchema, slug: slugSchema, nome: text, tipi: z.array(z.enum(businessTypes)).min(1),
@@ -69,6 +80,11 @@ export const directorySchema = z.object({
       ...Object.values(b.marchi).flat().map(x => x.fonti), ...b.storia.eventi.map(x => x.fonti), ...b.attendibilita.cronologia.map(x => x.fonti)];
     if (b.posizione.coordinate) sourceRefs.push(b.posizione.coordinate.fonti);
     sourceRefs.forEach(checkRefs);
+    if (b.posizione.coordinate) {
+      const c = b.posizione.coordinate;
+      if (!c.provenienza || !c.verificataIl || !c.stato) issue(`${b.id}: coordinate senza provenienza, data o stato di attendibilità`);
+      if (c.stato === 'verificata' && !c.indirizzoConfrontato) issue(`${b.id}: coordinate pubblicate senza indirizzo confrontato`);
+    }
     for (const field of ['servizi', 'specializzazioni'] as const) if (new Set(b[field].map(x => x.id)).size !== b[field].length) issue(`${b.id}: ${field} duplicati`);
     if (new Set(b.orari.giorni.map(x => x.giorno)).size !== b.orari.giorni.length) issue(`${b.id}: giorni duplicati`);
     if ((b.storia.testo || b.storia.annoFondazione || b.storia.fondatore || b.storia.eventi.length) && !b.storia.fonti.length) issue(`${b.id}: storia senza fonti`);

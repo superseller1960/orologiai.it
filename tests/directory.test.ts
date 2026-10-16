@@ -19,7 +19,8 @@ test('tutte le otto attività e informazioni originali sono conservate', async (
     assert.ok(b); assert.equal(b.nome,o.nome); assert.equal(b.storia.testo,o.storia); assert.equal(b.storia.annoFondazione,o.anno);
     assert.deepEqual(b.servizi.map(s => s.id),o.servizi);
     assert.deepEqual(b.marchi.menzionati.map(m => m.marca),o.marche);
-    assert.equal(b.attendibilita.stato,'da-verificare'); assert.equal(b.posizione.coordinate,null);
+    assert.equal(b.attendibilita.stato,'da-verificare');
+    if (b.posizione.coordinate) assert.equal(b.posizione.coordinate.stato,'verificata');
   }
 });
 test('rifiuta ID, slug e percorsi territoriali duplicati', () => {
@@ -56,10 +57,11 @@ test('filtri reali per comune, regione, provincia, servizio, testo e ruolo march
   assert.equal(searchDirectory(data,{specializzazione:'antichi'}).length,0);
 });
 test('ricerca CAP e indirizzo solo se realmente presenti; non deduce servizi', () => {
-  const d=copy(); d.attivita[0].posizione.cap='50122'; d.attivita[0].posizione.indirizzo='Via Sintetica 5';
-  assert.equal(searchDirectory(d,{q:'50122'}).length,1);
+  const d=copy(); d.attivita[0].posizione.cap='50199'; d.attivita[0].posizione.indirizzo='Via Sintetica 5';
+  assert.equal(searchDirectory(d,{q:'50199'}).length,1);
   assert.equal(searchDirectory(d,{q:'via sintetica'}).length,1);
-  assert.equal(searchDirectory(data,{q:'50122'}).length,0);
+  assert.deepEqual(searchDirectory(data,{q:'50122'}).map(r=>r.business.id),['marretti']);
+  assert.equal(searchDirectory(data,{q:'50999'}).length,0);
   assert.equal(searchDirectory(data,{servizio:'batterie'}).length,0);
 });
 test('distanze corrette, mancanti in coda e nessuna precisione simulata', () => {
@@ -68,7 +70,9 @@ test('distanze corrette, mancanti in coda e nessuna precisione simulata', () => 
   const d=copy(); d.attivita[0].posizione.coordinate={lat:43.77,lon:11.25,fonti:['mirror-firenze']};
   const result=searchDirectory(d,{origine:{lat:43.77,lon:11.25},ordine:'distanza'});
   assert.equal(result[0].business.id,'scardi'); assert.equal(result[0].distanzaKm,0);
-  assert.equal(result[1].distanzaKm,null); assert.ok(searchDirectory(data).every(r=>r.distanzaKm===null));
+  const withoutCoords=result.filter(r=>!r.business.posizione.coordinate);
+  assert.ok(withoutCoords.length>0); assert.ok(withoutCoords.every(r=>r.distanzaKm===null));
+  assert.ok(searchDirectory(data).every(r=>r.distanzaKm===null));
 });
 test('chiusure e ruoli URL invalidi sono gestiti esplicitamente', () => {
   const d=copy();d.attivita[0].attendibilita.stato='chiusa';

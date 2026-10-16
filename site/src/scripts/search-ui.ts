@@ -23,6 +23,9 @@ if (form && count && empty && list) {
     for (const card of cards.values()) card.hidden = true;
     for (const r of results) { const card = cards.get(r.business.id); if (card) { card.hidden = false; list.append(card); } }
     count.textContent = `${results.length} ${results.length === 1 ? 'attività trovata' : 'attività trovate'}`;
+    const ids = results.map(r => r.business.id);
+    (window as unknown as { __directoryResults?: string[] }).__directoryResults = ids;
+    document.dispatchEvent(new CustomEvent('directory:results', { detail: { ids } }));
     empty.hidden = results.length > 0;
     if (syncUrl) history.replaceState(null, '', `/cerca/${params.size ? '?' + params.toString() : ''}`);
   }

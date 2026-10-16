@@ -1,8 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import BusinessCard from '../components/BusinessCard.astro';
-import { directory, brandNames } from '../lib/directory';
-import { services, businessTypes, specializations, statuses } from '../lib/schema';
+import { directory, brandNames, businessUrl, placeOf } from '../lib/directory';
+import { services, businessTypes, specializations, statuses, isUsableCoordinate } from '../lib/schema';
+const mapPoints = directory.attivita.filter(b => isUsableCoordinate(b.posizione.coordinate)).map(b => ({ id: b.id, nome: b.nome, comune: placeOf(b).comune, indirizzo: b.posizione.indirizzo ? `${b.posizione.indirizzo}${b.posizione.cap ? ', ' + b.posizione.cap : ''}` : null, lat: b.posizione.coordinate!.lat, lon: b.posizione.coordinate!.lon, href: businessUrl(b) }));
 const regioni = [...new Map(directory.localita.map(p => [p.regioneSlug,p.regione])).entries()];
 const province = [...new Map(directory.localita.map(p => [p.provinciaSlug,p.provincia])).entries()];
 ---
@@ -27,8 +28,10 @@ const province = [...new Map(directory.localita.map(p => [p.provinciaSlug,p.prov
     <noscript><p class="notice">JavaScript è disattivato: qui trovi tutte le attività. Per navigare senza filtri usa le <a href="/orologerie/">pagine territoriali</a>. I filtri interattivi richiedono JavaScript.</p></noscript>
     <p class="notice">Censimento iniziale: {directory.attivita.length} attività, non l’intera offerta italiana. Gli orari sono riportati soltanto dove riscontrati; nessuna apertura odierna viene dedotta. Coordinate non pubblicate in questo lotto: distanza e mappa interattiva non sono disponibili. Non è necessario condividere la posizione.</p>
     <p id="search-count" role="status" aria-live="polite">{directory.attivita.length} attività nel database</p>
+    <section aria-label="Mappa delle attività"><div id="directory-map" data-points={JSON.stringify(mapPoints)} style="height:420px;margin-bottom:1.5rem;border-radius:8px"></div><p class="small muted">Mappa: solo le attività con coordinate verificate ({mapPoints.length} su {directory.attivita.length}). Le altre restano nell’elenco.</p></section>
     <ul class="grid" id="search-results">{directory.attivita.map(b => <BusinessCard business={b} />)}</ul>
     <p id="search-empty" class="notice" hidden>Nessuna attività soddisfa tutti i filtri. Prova ad allargare la località o a rimuovere un requisito: non aggiungiamo risultati con competenze non documentate.</p>
   </section>
   <script src="../scripts/search-ui.ts"></script>
+  <script src="../scripts/map-ui.ts"></script>
 </Layout>

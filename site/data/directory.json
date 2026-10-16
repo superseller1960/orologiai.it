@@ -414,6 +414,87 @@
       "consultataIl": "2026-10-16",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "t03-scardi-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://scardi.it/contatti/dove_siamo/",
+      "titolo": "Scardi — dove siamo",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-marretti-elenco",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.cmcwatches.com/en/resellers/",
+      "titolo": "CMC — elenco rivenditori",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-fani-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fanishops.it/boutiques/",
+      "titolo": "Fani Gioielli — boutique",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-bigalli-sede",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/bigalli-di-bolgi-giuseppe-c-snc-firenze-143385",
+      "titolo": "Longines — scheda Bigalli",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-senzatempo-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.senzatempofirenze.it/contatti/",
+      "titolo": "Senzatempo Firenze — contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-sangalli-sede",
+      "tipo": "directory",
+      "url": "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900",
+      "titolo": "Unioncamere — imprese storiche, Sangalli",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-rocca-sede",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/us/store-locator/italy/milano/rocca-1794-a1vnn000001zlmvyae",
+      "titolo": "MIDO — scheda rivenditore Rocca",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-ronchi-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ronchigioielli.com/contatti",
+      "titolo": "Ronchi Gioielli — contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t03-nominatim",
+      "tipo": "osm",
+      "url": "https://nominatim.openstreetmap.org/",
+      "titolo": "Nominatim (OpenStreetMap) — geocodifica di verifica",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": "data/staging/toscana-03-geocode/results.json",
+      "licenza": "ODbL-1.0"
     }
   ],
   "localita": [
@@ -709,10 +790,12 @@
       "gruppoId": null,
       "localitaId": "firenze",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
+        "indirizzo": "Via Gabriele D’Annunzio 8/A",
+        "cap": "50135",
         "coordinate": null,
-        "fonti": []
+        "fonti": [
+          "t03-scardi-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -776,6 +859,13 @@
             "fonti": [
               "mirror-firenze"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
+            "fonti": [
+              "t03-scardi-sede"
+            ]
           }
         ],
         "segnalazioni": []
@@ -797,10 +887,12 @@
       "gruppoId": null,
       "localitaId": "firenze",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
+        "indirizzo": "Via dei Calzaiuoli 86/R",
+        "cap": "50122",
         "coordinate": null,
-        "fonti": []
+        "fonti": [
+          "t03-marretti-elenco"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -858,6 +950,13 @@
             "fonti": [
               "mirror-firenze"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
+            "fonti": [
+              "t03-marretti-elenco"
+            ]
           }
         ],
         "segnalazioni": []
@@ -879,10 +978,23 @@
       "gruppoId": null,
       "localitaId": "firenze",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
-        "coordinate": null,
-        "fonti": []
+        "indirizzo": "Via de’ Tornabuoni 72/R",
+        "cap": "50123",
+        "coordinate": {
+          "lat": 43.7720632,
+          "lon": 11.2514195,
+          "fonti": [
+            "t03-fani-sede",
+            "t03-nominatim"
+          ],
+          "provenienza": "geocodifica-osm",
+          "verificataIl": "2026-10-16",
+          "indirizzoConfrontato": "Via de’ Tornabuoni 72/R, 50123 Firenze (Nominatim: 72 R, Via dei Tornabuoni, 50123)",
+          "stato": "verificata"
+        },
+        "fonti": [
+          "t03-fani-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -946,6 +1058,14 @@
             "fonti": [
               "mirror-firenze"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP",
+            "fonti": [
+              "t03-fani-sede",
+              "t03-nominatim"
+            ]
           }
         ],
         "segnalazioni": []
@@ -967,10 +1087,12 @@
       "gruppoId": null,
       "localitaId": "firenze",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
+        "indirizzo": "Via Maso Finiguerra 4/A–4/B",
+        "cap": "50123",
         "coordinate": null,
-        "fonti": []
+        "fonti": [
+          "t03-bigalli-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -1040,6 +1162,13 @@
             "fonti": [
               "mirror-firenze"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
+            "fonti": [
+              "t03-bigalli-sede"
+            ]
           }
         ],
         "segnalazioni": []
@@ -1061,10 +1190,23 @@
       "gruppoId": null,
       "localitaId": "firenze",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
-        "coordinate": null,
-        "fonti": []
+        "indirizzo": "Piazza Madonna degli Aldobrandini 14/R",
+        "cap": "50123",
+        "coordinate": {
+          "lat": 43.7748032,
+          "lon": 11.2530216,
+          "fonti": [
+            "t03-senzatempo-sede",
+            "t03-nominatim"
+          ],
+          "provenienza": "geocodifica-osm",
+          "verificataIl": "2026-10-16",
+          "indirizzoConfrontato": "Piazza Madonna degli Aldobrandini 14/R, 50123 Firenze (Nominatim: 14 R)",
+          "stato": "verificata"
+        },
+        "fonti": [
+          "t03-senzatempo-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -1128,6 +1270,14 @@
             "fonti": [
               "mirror-firenze"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP",
+            "fonti": [
+              "t03-senzatempo-sede",
+              "t03-nominatim"
+            ]
           }
         ],
         "segnalazioni": []
@@ -1149,10 +1299,23 @@
       "gruppoId": null,
       "localitaId": "milano",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
-        "coordinate": null,
-        "fonti": []
+        "indirizzo": "Via Bergamini 7",
+        "cap": "20122",
+        "coordinate": {
+          "lat": 45.4618,
+          "lon": 9.1941462,
+          "fonti": [
+            "t03-sangalli-sede",
+            "t03-nominatim"
+          ],
+          "provenienza": "geocodifica-osm",
+          "verificataIl": "2026-10-16",
+          "indirizzoConfrontato": "Via Bergamini 7, 20122 Milano (Nominatim: 7, Via Bergamini, 20122)",
+          "stato": "verificata"
+        },
+        "fonti": [
+          "t03-sangalli-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -1216,6 +1379,14 @@
             "fonti": [
               "mirror-milano"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP",
+            "fonti": [
+              "t03-sangalli-sede",
+              "t03-nominatim"
+            ]
           }
         ],
         "segnalazioni": []
@@ -1237,10 +1408,12 @@
       "gruppoId": null,
       "localitaId": "milano",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
+        "indirizzo": "Piazza Duomo 25",
+        "cap": "20121",
         "coordinate": null,
-        "fonti": []
+        "fonti": [
+          "t03-rocca-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -1311,6 +1484,13 @@
             "fonti": [
               "mirror-milano"
             ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
+            "fonti": [
+              "t03-rocca-sede"
+            ]
           }
         ],
         "segnalazioni": []
@@ -1332,10 +1512,23 @@
       "gruppoId": null,
       "localitaId": "milano",
       "posizione": {
-        "indirizzo": null,
-        "cap": null,
-        "coordinate": null,
-        "fonti": []
+        "indirizzo": "Via Maurizio Gonzaga 5",
+        "cap": "20123",
+        "coordinate": {
+          "lat": 45.4615199,
+          "lon": 9.18922,
+          "fonti": [
+            "t03-ronchi-sede",
+            "t03-nominatim"
+          ],
+          "provenienza": "geocodifica-osm",
+          "verificataIl": "2026-10-16",
+          "indirizzoConfrontato": "Via Maurizio Gonzaga 5, 20123 Milano (Nominatim: 5, Via Maurizio Gonzaga, 20123)",
+          "stato": "verificata"
+        },
+        "fonti": [
+          "t03-ronchi-sede"
+        ]
       },
       "contatti": {
         "telefono": null,
@@ -1405,6 +1598,14 @@
             "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare.",
             "fonti": [
               "mirror-milano"
+            ]
+          },
+          {
+            "data": "2026-10-16",
+            "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP",
+            "fonti": [
+              "t03-ronchi-sede",
+              "t03-nominatim"
             ]
           }
         ],
