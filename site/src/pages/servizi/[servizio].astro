@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BusinessCard from '../../components/BusinessCard.astro';
+import { directory, servicePages } from '../../lib/directory';
+import { services } from '../../lib/schema';
+export function getStaticPaths() { return servicePages.map(id => ({ params: { servizio: id }, props: { id } })); }
+interface Props { id: keyof typeof services; }
+const { id } = Astro.props;
+const records = directory.attivita.filter(b => b.servizi.some(s => s.id === id));
+const advice: Partial<Record<keyof typeof services, string>> = {
+ vendita: 'Prima di scegliere un orologio, chiedi informazioni su condizioni, garanzia e assistenza successiva. La presenza di un marchio in una fonte storica non prova una concessione ufficiale attuale.',
+ riparazione: 'Descrivi il difetto, il modello e gli eventuali interventi precedenti. Chiedi un preventivo e verifica chi eseguirà il lavoro: un servizio generico di riparazione non documenta automaticamente competenza su ogni meccanismo.',
+ assistenza: 'Assistenza è una categoria generale: non significa necessariamente centro autorizzato di un marchio. Per un intervento in garanzia verifica sempre la rete ufficiale del produttore.',
+ gioielleria: 'Una gioielleria può affiancare la vendita di orologi ad altri prodotti. Non presumere che disponga di un laboratorio di riparazione: consulta i servizi documentati nella singola scheda.',
+};
+---
+<Layout title={`${services[id]} — attività censite`} description={`${services[id]}: consulta le attività che riportano questo servizio nelle fonti e controlla i dettagli prima di contattarle.`}>
+<section class="page-hero"><div class="container"><p class="eyebrow">Cerca per esigenza</p><h1>{services[id]}</h1><p class="lead">{advice[id] ?? 'Consulta le fonti della singola attività e conferma direttamente disponibilità e condizioni del servizio.'}</p></div></section>
+<section class="container section"><h2>{records.length} attività con questo servizio nelle fonti</h2><p class="notice">Indicazioni dal primo censimento storico. Non sono preventivi né una verifica dell’operatività attuale.</p><ul class="grid">{records.map(b => <BusinessCard business={b} />)}</ul><a class="btn" href={`/cerca/?servizio=${id}`}>Affina per località e altri criteri →</a></section>
+</Layout>

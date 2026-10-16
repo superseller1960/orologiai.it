@@ -1,0 +1,10 @@
+---
+import LocalityPage from '../../../../components/LocalityPage.astro';
+import { directory } from '../../../../lib/directory';
+import type { Locality } from '../../../../lib/schema';
+export function getStaticPaths() {
+  return directory.localita.filter(p => directory.attivita.some(b => b.localitaId === p.id)).map(place => ({ params: { regione: place.regioneSlug, provincia: place.provinciaSlug, comune: place.comuneSlug }, props: { place } }));
+}
+interface Props { place: Locality; }
+---
+<LocalityPage place={Astro.props.place} />

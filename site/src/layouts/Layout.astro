@@ -1,0 +1,30 @@
+---
+import '../styles/directory.css';
+interface Props { title: string; description: string; canonical?: string; noindex?: boolean; schema?: Record<string, unknown>; }
+const { title, description, canonical = Astro.url.pathname, noindex = false, schema } = Astro.props;
+const canonicalUrl = new URL(canonical, Astro.site).href;
+---
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#123c35" />
+    <title>{title} | Orologiai.it</title>
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex,follow" />}
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
+  </head>
+  <body>
+    <a class="skip" href="#contenuto">Salta al contenuto</a>
+    <header class="site-header"><div class="container bar">
+      <a class="brand" href="/" aria-label="Orologiai.it, homepage"><span class="brand-mark" aria-hidden="true">◷</span> orologiai<span>.it</span></a>
+      <nav aria-label="Navigazione principale">
+        <a href="/cerca/">Trova un orologiaio</a><a href="/orologerie/">Territori</a><a href="/blog/">Storie e guide</a><a class="nav-cta" href="/partecipa/">Segnala un’attività</a>
+      </nav>
+    </div></header>
+    <main id="contenuto"><slot /></main>
+    <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="/">orologiai<span>.it</span></a><p>Il tempo ha i suoi professionisti.<br />Stiamo costruendo la directory, una fonte alla volta.</p></div><div><a href="/metodo/">Fonti e metodo di verifica</a><br /><a href="/partecipa/">Inserimenti e correzioni</a><br /><a href="/orologerie/">Esplora i territori</a></div><p class="small">Progetto in costruzione · Italia<br />Le informazioni storiche non sono una verifica attuale.<br />© {new Date().getFullYear()} Orologiai.it</p></div></footer>
+  </body>
+</html>

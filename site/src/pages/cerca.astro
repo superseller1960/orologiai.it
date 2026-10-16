@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BusinessCard from '../components/BusinessCard.astro';
+import { directory, brandNames } from '../lib/directory';
+import { services, businessTypes, specializations, statuses } from '../lib/schema';
+const regioni = [...new Map(directory.localita.map(p => [p.regioneSlug,p.regione])).entries()];
+const province = [...new Map(directory.localita.map(p => [p.provinciaSlug,p.provincia])).entries()];
+---
+<Layout title="Cerca orologerie e laboratori" description="Cerca nel database per nome, località, servizio, tipo di attività e ruolo del marchio. Nessuna autorizzazione viene dedotta dalle sole menzioni." noindex>
+  <section class="page-hero compact"><div class="container"><p class="eyebrow">La directory, a modo tuo</p><h1>Quali mani stai cercando?</h1><p class="lead">Combina i filtri. Le informazioni non disponibili restano tali.</p></div></section>
+  <section class="container section" data-search-root>
+    <form class="search" id="directory-search" role="search" action="/cerca/">
+      <label class="wide">Nome, comune, CAP o indirizzo<input type="search" name="q" placeholder="Es. Sangalli, Firenze, Rolex…" /></label>
+      <label>Comune<select name="localita"><option value="">Tutti i comuni censiti</option>{directory.localita.map(p => <option value={p.id}>{p.comune}</option>)}</select></label>
+      <label>Servizio<select name="servizio"><option value="">Tutti i servizi</option>{Object.entries(services).map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
+      <details class="wide"><summary>Altri filtri: territorio, marchi e competenze</summary><div class="search secondary">
+        <label>Regione<select name="regione"><option value="">Tutte</option>{regioni.map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
+        <label>Provincia<select name="provincia"><option value="">Tutte</option>{province.map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
+        <label>Marchio<select name="marca"><option value="">Tutti</option>{brandNames.map(name => <option>{name}</option>)}</select></label>
+        <label>Relazione con il marchio<select name="ruoloMarca"><option value="qualsiasi">Qualsiasi, incluse menzioni storiche</option><option value="venduti">Vendita documentata</option><option value="riparati">Riparazione documentata</option><option value="esperienza">Esperienza dichiarata</option><option value="assistenzaUfficiale">Assistenza ufficialmente autorizzata</option><option value="rivenditaUfficiale">Rivendita ufficialmente autorizzata</option><option value="menzionati">Solo menzione storica</option></select></label>
+        <label>Tipologia<select name="tipo"><option value="">Tutte</option>{businessTypes.map(t => <option>{t}</option>)}</select></label>
+        <label>Specializzazione<select name="specializzazione"><option value="">Tutte</option>{specializations.map(t => <option>{t}</option>)}</select></label>
+        <label>Attendibilità<select name="stato"><option value="">Tutti gli stati attivi</option>{Object.entries(statuses).map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
+      </div></details>
+      <div class="search-actions wide"><button class="btn" type="submit">Applica filtri</button><button class="btn btn-ghost" type="reset">Azzera</button></div>
+    </form>
+    <noscript><p class="notice">JavaScript è disattivato: qui trovi tutte le attività. Per navigare senza filtri usa le <a href="/orologerie/">pagine territoriali</a>. I filtri interattivi richiedono JavaScript.</p></noscript>
+    <p class="notice">Censimento iniziale: {directory.attivita.length} attività, non l’intera offerta italiana. Coordinate e orari non ancora verificati: distanza, mappa e filtro “aperto oggi” non sono disponibili. Non è necessario condividere la posizione.</p>
+    <p id="search-count" role="status" aria-live="polite">{directory.attivita.length} attività nel database</p>
+    <ul class="grid" id="search-results">{directory.attivita.map(b => <BusinessCard business={b} />)}</ul>
+    <p id="search-empty" class="notice" hidden>Nessuna attività soddisfa tutti i filtri. Prova ad allargare la località o a rimuovere un requisito: non aggiungiamo risultati con competenze non documentate.</p>
+  </section>
+  <script src="../scripts/search-ui.ts"></script>
+</Layout>

@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { directory, businessUrl, placeOf, localityUrl } from '../../lib/directory';
+import { services, statuses, type Business } from '../../lib/schema';
+export function getStaticPaths() { return directory.attivita.map(b => ({ params: { slug: b.slug }, props: { business: b } })); }
+interface Props { business: Business; }
+const { business: b } = Astro.props;
+const place = placeOf(b);
+const sources = directory.fonti.filter(s => b.attendibilita.fonti.includes(s.id));
+const roles = { venduti: 'Marchi venduti', riparati: 'Marchi riparati', esperienza: 'Esperienza dichiarata', assistenzaUfficiale: 'Assistenza ufficialmente autorizzata', rivenditaUfficiale: 'Rivendita ufficialmente autorizzata', menzionati: 'Marchi citati nelle fonti storiche' };
+const schema = { '@context': 'https://schema.org', '@type': 'WebPage', name: b.nome, description: b.descrizione, url: new URL(businessUrl(b), Astro.site).href };
+const report = `mailto:info@orologiai.it?subject=${encodeURIComponent(`Correzione scheda: ${b.id}`)}&body=${encodeURIComponent(`Scheda: https://orologiai.it${businessUrl(b)}\nDato da correggere:\nFonte pubblica:\n`)}`;
+---
+<Layout title={`${b.nome} — ${place.comune}`} description={b.descrizione} schema={schema}>
+  <section class="page-hero"><div class="container"><a class="breadcrumb" href={localityUrl(place)}>← {place.comune}, {place.regione}</a><p class="eyebrow">Scheda attività · {b.tipi.join(' / ')}</p><h1>{b.nome}</h1><p class="lead">{b.descrizione}</p><span class="status">{statuses[b.attendibilita.stato]}</span></div></section>
+  <div class="container section profile-grid"><div>
+    <section class="panel"><h2>Servizi documentati</h2><div class="tags">{b.servizi.map(s => <span class="tag">{services[s.id]}</span>)}</div>{b.altriServizi.map(s => <p>{s.nome}</p>)}<p class="small muted">Presenti nelle fonti citate; disponibilità attuale da confermare con l’attività.</p></section>
+    <section class="panel"><h2>Marchi e competenze</h2>
+      {Object.entries(roles).map(([key, label]) => { const claims = b.marchi[key as keyof typeof b.marchi]; return <div class="fact"><h3>{label}</h3><p>{claims.length ? claims.map(c => c.marca).join(', ') : 'Nessuna informazione verificata disponibile.'}</p></div>; })}
+      <p class="notice">La citazione di un marchio non prova un’autorizzazione ufficiale, né alla vendita né all’assistenza.</p>
+    </section>
+    <section class="panel"><p class="eyebrow dark">Memoria delle botteghe</p><h2>La storia</h2><p>{b.storia.testo}</p>{b.storia.annoFondazione && <p>Anno riportato dalle fonti: <strong>{b.storia.annoFondazione}</strong>.</p>}<p class="small muted">Informazioni provenienti dall’archivio storico, non riconfermate sul sito ufficiale attuale.</p></section>
+    <section class="panel" id="fonti"><h2>Fonti e aggiornamenti</h2><p>Raccolta: <time datetime={b.attendibilita.raccoltaIl}>{b.attendibilita.raccoltaIl}</time>. Verifica indipendente: {b.attendibilita.verificataIl ?? 'non ancora eseguita'}. Conferma titolare: {b.attendibilita.confermataTitolareIl ?? 'non ricevuta'}.</p>
+      <ul>{sources.map(s => <li><a href={s.url} rel="noreferrer">{s.titolo}</a> · consultazione {s.consultataIl}{s.percorsoArchivio && <span> · archivio conservato: <code>{s.percorsoArchivio}</code></span>}</li>)}</ul>
+      <details><summary>Cronologia della scheda</summary><ul>{b.attendibilita.cronologia.map(e => <li>{e.data} — {e.azione}</li>)}</ul></details><a class="text-link" href={report}>Segnala un’informazione errata →</a>
+    </section>
+  </div><aside><section class="panel contact-panel"><p class="eyebrow dark">Prima di metterti in viaggio</p><h2>Dove e quando</h2><address>{b.posizione.indirizzo ?? 'Indirizzo non disponibile'}<br />{b.posizione.cap} {place.comune} ({place.siglaProvincia})<br />{place.regione}</address><h3>Contatti</h3>
+    {b.contatti.telefono ? <p><a href={`tel:${b.contatti.telefono.replace(/[^+\d]/g, '')}`}>{b.contatti.telefono}</a></p> : <p>Telefono non verificato.</p>}
+    {b.contatti.sito && <p><a href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a></p>}
+    {b.contatti.email && <p><a href={`mailto:${b.contatti.email}`}>{b.contatti.email}</a></p>}
+    {b.contatti.whatsapp && <p><a href={`https://wa.me/${b.contatti.whatsapp.replace('+', '')}`}>WhatsApp ↗</a></p>}
+    <h3>Orari</h3>{b.orari.giorni.length ? <ul>{b.orari.giorni.map(g => <li>{['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'][g.giorno - 1]}: {g.intervalli.length ? g.intervalli.map(i => `${i.apertura}–${i.chiusura}`).join(', ') : 'chiuso'}</li>)}</ul> : <p>Orari non disponibili. Non possiamo indicare se l’attività è aperta oggi.</p>}
+    {b.posizione.coordinate ? <a class="btn" href={`https://www.openstreetmap.org/?mlat=${b.posizione.coordinate.lat}&mlon=${b.posizione.coordinate.lon}#map=17/${b.posizione.coordinate.lat}/${b.posizione.coordinate.lon}`}>Apri la posizione su OSM ↗</a> : <p class="small muted">Coordinate non verificate: mappa e distanza non disponibili.</p>}
+    <hr /><h3>È la tua attività?</h3><p>Proponi un aggiornamento, allegando fonti pubbliche. Le modifiche saranno revisionate.</p><a href="/partecipa/">Come richiedere una correzione →</a>
+  </section></aside></div>
+</Layout>

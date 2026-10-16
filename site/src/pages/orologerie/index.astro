@@ -1,0 +1,9 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { directory, localityUrl } from '../../lib/directory';
+const regions = [...new Set(directory.localita.map(p => p.regione))];
+---
+<Layout title="Orologerie d’Italia — territori censiti" description="Esplora le località con attività censite nella directory Orologiai.it. Un progetto nazionale che cresce per comuni, non solo per grandi città.">
+<section class="page-hero"><div class="container"><p class="eyebrow">Italia, una bottega alla volta</p><h1>Le competenze<br />abitano i territori.</h1><p class="lead">Dal piccolo comune alla città. Qui trovi solo località con schede già presenti: nessuna pagina vuota per gonfiare il censimento.</p></div></section>
+<section class="container section">{regions.map(region => <section class="region"><h2>{region}</h2><div class="cities">{directory.localita.filter(p => p.regione === region && directory.attivita.some(b => b.localitaId === p.id)).map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} ↗</h3><p>Provincia di {p.provincia} · {directory.attivita.filter(b => b.localitaId === p.id).length} attività censite</p><p>{p.descrizione}</p></a>)}</div></section>)}<p class="notice">Il primo nucleo conserva le otto attività storiche. La raccolta pilota partirà dalla Toscana, includendo anche i comuni minori, con revisione dei dati prima della pubblicazione.</p><a class="btn" href="/partecipa/">Manca la tua località? Segnala un’attività →</a></section>
+</Layout>

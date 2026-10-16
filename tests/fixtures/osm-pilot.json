@@ -1,0 +1,15 @@
+{
+  "version": 0.6,
+  "generator": "SYNTHETIC TEST FIXTURE — NOT REAL BUSINESSES",
+  "osm3s": { "timestamp_osm_base": "2026-10-16T00:00:00Z", "copyright": "Fixture sintetica; struttura compatibile con Overpass JSON" },
+  "elements": [
+    { "type": "node", "id": 1, "lat": 43.77, "lon": 11.25, "tags": { "shop": "watches", "name": "Attività Fittizia Test", "addr:city": "Firenze", "addr:street": "Via Test", "addr:housenumber": "1", "addr:postcode": "50100", "website": "https://example.org", "brand": "Marca Test" } },
+    { "type": "node", "id": 1, "lat": 43.77, "lon": 11.25, "tags": { "shop": "watches", "name": "Duplicato ID" } },
+    { "type": "way", "id": 2, "center": { "lat": 43.7701, "lon": 11.25 }, "tags": { "craft": "watchmaker", "name": "ATTIVITÀ FITTIZIA TEST", "addr:city": "Firenze" } },
+    { "type": "node", "id": 3, "lat": 43.78, "lon": 11.2, "tags": { "craft": "clockmaker", "name": "Pendoleria Fittizia", "addr:city": "Comune Piccolo Test", "email": "non-valida", "addr:postcode": "x", "opening_hours": "Mo-Fr 09:00-18:00" } },
+    { "type": "node", "id": 4, "lat": 43.7, "lon": 11.3, "tags": { "shop": "bakery", "name": "Non pertinente" } },
+    { "type": "node", "id": 5, "lat": 43.7, "lon": 11.3, "tags": { "shop": "watches" } },
+    { "type": "node", "id": 6, "lat": 45.0, "lon": 11.3, "tags": { "craft": "watchmaker", "name": "Fuori area" } },
+    { "type": "node", "id": 7, "lat": 130, "lon": 11.3, "tags": { "craft": "watchmaker", "name": "Coordinate errate" } }
+  ]
+}

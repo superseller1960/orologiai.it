@@ -12,12 +12,18 @@ jobs:
         with:
           persist-credentials: true
 
+      - name: Proteggi il mirror storico esistente
+        run: |
+          if [ -n "$(git ls-files public/)" ]; then
+            echo "Mirror storico già presente: importazione disabilitata per evitarne la sovrascrittura."
+            exit 1
+          fi
+
       - name: Installa wget
         run: sudo apt-get update && sudo apt-get install -y wget
 
       - name: Scarica mirror del sito in public/
         run: |
-          rm -rf public || true
           mkdir -p public
           wget --mirror --convert-links --adjust-extension --page-requisites --no-parent \
             --reject-regex "/wp-login.php|/wp-admin" \

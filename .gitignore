@@ -2,6 +2,13 @@
 node_modules/
 npm-debug.log*
 .env
+.env.*
+!.env.example
+/dist/
+/.astro/
+/.runtime/
+/data/staging/*
+!/data/staging/README.md
 
 # WordPress sensitive / large
 wp-config.php
