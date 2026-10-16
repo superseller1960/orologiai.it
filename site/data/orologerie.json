@@ -1,0 +1,89 @@
+{
+  "citta": [
+    { "id": "firenze", "nome": "Firenze", "descrizione": "Botteghe storiche tra Ponte Vecchio e il centro, tramandate di generazione in generazione.", "pagina": true },
+    { "id": "milano", "nome": "Milano", "descrizione": "Orologerie e gioiellerie selezionate, con laboratori interni e rivenditori autorizzati.", "pagina": true },
+    { "id": "roma", "nome": "Roma", "descrizione": "Presto disponibile: stiamo selezionando i professionisti della città.", "pagina": false }
+  ],
+  "orologerie": [
+    {
+      "id": "scardi",
+      "nome": "Scardi Orologeria Oreficeria",
+      "citta": "firenze",
+      "anno": 1959,
+      "servizi": ["vendita", "gioielleria"],
+      "marche": [],
+      "storia": "Punto vendita di famiglia dal 1959: da padre a figlio e nipote, con le migliori marche di orologeria e gioielleria per uomo e donna.",
+      "indirizzo": null
+    },
+    {
+      "id": "marretti",
+      "nome": "Orologeria Marretti",
+      "citta": "firenze",
+      "anno": 1952,
+      "servizi": ["vendita"],
+      "marche": [],
+      "storia": "Fondata nel 1952 da Renato Marretti, poi tramandata al figlio Alberto, che ne ha fatto crescere la reputazione.",
+      "indirizzo": null
+    },
+    {
+      "id": "fani-gioielli",
+      "nome": "Fani Gioielli",
+      "citta": "firenze",
+      "anno": null,
+      "servizi": ["gioielleria", "vendita"],
+      "marche": [],
+      "storia": "Una storia di eccellenza e tradizione nella culla dell'oreficeria fiorentina, tra famiglia e amore per il lavoro ben fatto.",
+      "indirizzo": null
+    },
+    {
+      "id": "bigalli",
+      "nome": "Bigalli Orologerie",
+      "citta": "firenze",
+      "anno": 1927,
+      "servizi": ["vendita", "ricambi", "riparazione"],
+      "marche": [],
+      "storia": "Nata nel 1927 da Tullio e Bruna Bigalli come bottega di forniture per orologiai presso Ponte Vecchio, con ricambi svizzeri per riparazioni artigianali.",
+      "indirizzo": null
+    },
+    {
+      "id": "senzatempo-firenze",
+      "nome": "Senzatempo Firenze",
+      "citta": "firenze",
+      "anno": null,
+      "servizi": ["vendita", "assistenza"],
+      "marche": [],
+      "storia": "Lunga esperienza nell'orologeria di prestigio, con assistenza e originalità garantite sugli articoli proposti.",
+      "indirizzo": null
+    },
+    {
+      "id": "sangalli",
+      "nome": "Orologeria Gioielleria Sangalli",
+      "citta": "milano",
+      "anno": 1900,
+      "servizi": ["riparazione", "vendita"],
+      "marche": [],
+      "storia": "Fondata nel 1900 da Egidio Casini. Ripara ogni tipo di orologio, dalle pendole parigine agli orologi da polso, con laboratorio interno.",
+      "indirizzo": null
+    },
+    {
+      "id": "rocca",
+      "nome": "Gioiellerie Rocca",
+      "citta": "milano",
+      "anno": 1794,
+      "servizi": ["vendita", "gioielleria"],
+      "marche": ["Rolex"],
+      "storia": "Dal 1794 selezionano i più prestigiosi marchi internazionali, con elevata qualità di servizio e consulenza.",
+      "indirizzo": null
+    },
+    {
+      "id": "ronchi-gioielli",
+      "nome": "Ronchi Gioielli",
+      "citta": "milano",
+      "anno": 1929,
+      "servizi": ["vendita", "assistenza"],
+      "marche": ["Rolex"],
+      "storia": "Primo rivenditore autorizzato Rolex in Italia dal 1929, con laboratorio di proprietà per manutenzioni e riparazioni straordinarie.",
+      "indirizzo": null
+    }
+  ]
+}
