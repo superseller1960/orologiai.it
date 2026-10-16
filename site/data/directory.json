@@ -18,6 +18,402 @@
       "consultataIl": "2026-10-16",
       "percorsoArchivio": "public/milano/index.html",
       "licenza": null
+    },
+    {
+      "id": "t02-pisani-matteotti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pisanigioielleria.com/pisani-gioielleria-piazza-giacomo-matteotti-scandicci",
+      "titolo": "www.pisanigioielleria.com — pisani-matteotti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-pisani-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pisanigioielleria.com/laboratorio-orologeria",
+      "titolo": "www.pisanigioielleria.com — pisani-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-pisani-maschera",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pisanigioielleria.com/pisani-gioielleria-galleria-la-maschera-scandicci",
+      "titolo": "www.pisanigioielleria.com — pisani-maschera",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-maggini-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriamaggini.com/contatti",
+      "titolo": "www.oreficeriamaggini.com — maggini-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-maggini-marchi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriamaggini.com/articoli",
+      "titolo": "www.oreficeriamaggini.com — maggini-marchi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-rutili-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaempoli.it/contatti/",
+      "titolo": "www.gioielleriaempoli.it — rutili-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-rutili-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaempoli.it/servizi-gioielleria/",
+      "titolo": "www.gioielleriaempoli.it — rutili-servizi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-fici-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ficioro.it/contatti/",
+      "titolo": "www.ficioro.it — fici-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-fici-orologi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ficioro.it/servizio-orologeria/",
+      "titolo": "www.ficioro.it — fici-orologi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-agnolucci-signa",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.agnoluccigioielleria.com/signa/",
+      "titolo": "www.agnoluccigioielleria.com — agnolucci-signa",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-agnolucci-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.agnoluccigioielleria.com/laboratorio/",
+      "titolo": "www.agnoluccigioielleria.com — agnolucci-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-calamai-rete",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.orologicalamai.com/resellers/",
+      "titolo": "www.orologicalamai.com — calamai-rete",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-follie-sedi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.folliedoro.it/",
+      "titolo": "www.folliedoro.it — follie-sedi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-renai-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.renai.it/2014-11-30-08-20-23",
+      "titolo": "www.renai.it — renai-servizi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-renai-storia",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.renai.it/la-nostra-storia/item/105",
+      "titolo": "www.renai.it — renai-storia",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-renzo-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.renzopreziosi.com/",
+      "titolo": "www.renzopreziosi.com — renzo-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-renzo-vendita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.renzopreziosi.com/vuole-vendere-il-suo-orologio/",
+      "titolo": "www.renzopreziosi.com — renzo-vendita",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-comune-fiv",
+      "tipo": "directory",
+      "url": "https://www.comunefiv.it/",
+      "titolo": "www.comunefiv.it — comune-fiv",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-sottili-hamilton",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italie/toscana/figline-valdarno/sottili-franco",
+      "titolo": "www.hamiltonwatch.com — sottili-hamilton",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-gabbani-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gabbanigioielleria.it/contatti/",
+      "titolo": "www.gabbanigioielleria.it — gabbani-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-gabbani-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gabbanigioielleria.it/laboratorio-orologi-e-gioielli/",
+      "titolo": "www.gabbanigioielleria.it — gabbani-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-gabbani-tissot",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gabbanigioielleria.it/tissot/",
+      "titolo": "www.gabbanigioielleria.it — gabbani-tissot",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-cerri-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacerrimarco.it/privacy-policy/",
+      "titolo": "www.gioielleriacerrimarco.it — cerri-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-cerri-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacerrimarco.it/",
+      "titolo": "www.gioielleriacerrimarco.it — cerri-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-orogenesi-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orogenesi85.it/laboratorio/",
+      "titolo": "www.orogenesi85.it — orogenesi-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-oreoro-sedi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreoro.it/negozi.html",
+      "titolo": "www.oreoro.it — oreoro-sedi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-oreoro-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreoro.it/",
+      "titolo": "www.oreoro.it — oreoro-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-spazio-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.spaziotempoboutique.com/privacy-policy/",
+      "titolo": "www.spaziotempoboutique.com — spazio-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-spazio-boutique",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.spaziotempoboutique.com/boutique-orologi-di-lusso/",
+      "titolo": "www.spaziotempoboutique.com — spazio-boutique",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-lombardi-breil",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/rivenditori-manta/gioielleria-e-orologeria-lombardi/",
+      "titolo": "www.breil.com — lombardi-breil",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-lombardi-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialombardi.com/",
+      "titolo": "www.gioiellerialombardi.com — lombardi-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-rabiti-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriarabiti.com/",
+      "titolo": "www.orologeriarabiti.com — rabiti-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-zagli-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://zagli.it/contatti/",
+      "titolo": "zagli.it — zagli-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-zagli-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://zagli.it/laboratorio-orologi/",
+      "titolo": "zagli.it — zagli-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-calistri-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologifirenze.it/",
+      "titolo": "www.riparazioneorologifirenze.it — calistri-home",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-ugolini-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaugolini.com/contatti",
+      "titolo": "www.orologeriaugolini.com — ugolini-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-ugolini-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaugolini.com/laboratorio",
+      "titolo": "www.orologeriaugolini.com — ugolini-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-swatch-calzaiuoli",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.swatch.com/it-it/storedetails?sid=R282371",
+      "titolo": "www.swatch.com — swatch-calzaiuoli",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-metalli-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.metallipreziosi.it/contatti/",
+      "titolo": "www.metallipreziosi.it — metalli-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-metalli-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.metallipreziosi.it/servizi/",
+      "titolo": "www.metallipreziosi.it — metalli-servizi",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-giglio-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.ilgigliodoro.com/contatti.html",
+      "titolo": "www.ilgigliodoro.com — giglio-contatti",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-giglio-lab",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.ilgigliodoro.com/laboratorio/",
+      "titolo": "www.ilgigliodoro.com — giglio-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-lamberti-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialamberti.it/laboratorio-lamberti",
+      "titolo": "www.gioiellerialamberti.it — lamberti-lab",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t02-scardi-contatti-02",
+      "tipo": "sito-ufficiale",
+      "url": "https://scardi.it/contatti/dove_siamo/",
+      "titolo": "scardi.it — scardi-contatti-02",
+      "consultataIl": "2026-10-16",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -49,6 +445,254 @@
       "descrizione": "Orologerie e gioiellerie selezionate, con laboratori interni e rivenditori autorizzati.",
       "fonti": [
         "mirror-milano"
+      ]
+    },
+    {
+      "id": "scandicci",
+      "comune": "Scandicci",
+      "comuneSlug": "scandicci",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Scandicci documenta Pisani Gioielleria — Piazza Matteotti, Pisani Gioielleria — Galleria La Maschera, Metalli Preziosi — Scandicci. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-pisani-matteotti",
+        "t02-pisani-lab",
+        "t02-pisani-maschera",
+        "t02-metalli-contatti",
+        "t02-metalli-servizi"
+      ]
+    },
+    {
+      "id": "sesto-fiorentino",
+      "comune": "Sesto Fiorentino",
+      "comuneSlug": "sesto-fiorentino",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Sesto Fiorentino documenta Oreficeria Orologeria Maggini. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-maggini-contatti",
+        "t02-maggini-marchi"
+      ]
+    },
+    {
+      "id": "empoli",
+      "comune": "Empoli",
+      "comuneSlug": "empoli",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Empoli documenta Gioielleria Rutili, FiciOro. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-rutili-contatti",
+        "t02-rutili-servizi",
+        "t02-fici-contatti",
+        "t02-fici-orologi"
+      ]
+    },
+    {
+      "id": "signa",
+      "comune": "Signa",
+      "comuneSlug": "signa",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Signa documenta Agnolucci Gioielleria — Signa. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-agnolucci-signa"
+      ]
+    },
+    {
+      "id": "poggio-a-caiano",
+      "comune": "Poggio a Caiano",
+      "comuneSlug": "poggio-a-caiano",
+      "provincia": "Prato",
+      "provinciaSlug": "prato",
+      "siglaProvincia": "PO",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Poggio a Caiano documenta Agnolucci Gioielleria — Poggio a Caiano. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-agnolucci-lab"
+      ]
+    },
+    {
+      "id": "bagno-a-ripoli",
+      "comune": "Bagno a Ripoli",
+      "comuneSlug": "bagno-a-ripoli",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Bagno a Ripoli documenta L’Ora di Piazza di Rusconi Paolo. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-calamai-rete"
+      ]
+    },
+    {
+      "id": "calenzano",
+      "comune": "Calenzano",
+      "comuneSlug": "calenzano",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Calenzano documenta Follie d’Oro — Calenzano. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-follie-sedi"
+      ]
+    },
+    {
+      "id": "pontassieve",
+      "comune": "Pontassieve",
+      "comuneSlug": "pontassieve",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Pontassieve documenta Renai. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-renai-servizi",
+        "t02-renai-storia"
+      ]
+    },
+    {
+      "id": "figline-e-incisa-valdarno",
+      "comune": "Figline e Incisa Valdarno",
+      "comuneSlug": "figline-e-incisa-valdarno",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Figline e Incisa Valdarno documenta RenzoPreziosi, Sottili Franco. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-renzo-home",
+        "t02-renzo-vendita",
+        "t02-comune-fiv",
+        "t02-sottili-hamilton"
+      ]
+    },
+    {
+      "id": "pontedera",
+      "comune": "Pontedera",
+      "comuneSlug": "pontedera",
+      "provincia": "Pisa",
+      "provinciaSlug": "pisa",
+      "siglaProvincia": "PI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Pontedera documenta Gioielleria Gabbani, Gioielleria Cerri Marco, Gioielleria Orogenesi. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-gabbani-contatti",
+        "t02-gabbani-lab",
+        "t02-gabbani-tissot",
+        "t02-cerri-contatti",
+        "t02-cerri-home",
+        "t02-orogenesi-lab"
+      ]
+    },
+    {
+      "id": "poggibonsi",
+      "comune": "Poggibonsi",
+      "comuneSlug": "poggibonsi",
+      "provincia": "Siena",
+      "provinciaSlug": "siena",
+      "siglaProvincia": "SI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Poggibonsi documenta Ore & Oro — Poggibonsi. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-oreoro-sedi",
+        "t02-oreoro-home"
+      ]
+    },
+    {
+      "id": "colle-di-val-d-elsa",
+      "comune": "Colle di Val d’Elsa",
+      "comuneSlug": "colle-di-val-d-elsa",
+      "provincia": "Siena",
+      "provinciaSlug": "siena",
+      "siglaProvincia": "SI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Colle di Val d’Elsa documenta Ore & Oro — Colle di Val d’Elsa. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-oreoro-sedi",
+        "t02-oreoro-home"
+      ]
+    },
+    {
+      "id": "san-miniato",
+      "comune": "San Miniato",
+      "comuneSlug": "san-miniato",
+      "provincia": "Pisa",
+      "provinciaSlug": "pisa",
+      "siglaProvincia": "PI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a San Miniato documenta Spazio Tempo. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-spazio-contatti",
+        "t02-spazio-boutique"
+      ]
+    },
+    {
+      "id": "montevarchi",
+      "comune": "Montevarchi",
+      "comuneSlug": "montevarchi",
+      "provincia": "Arezzo",
+      "provinciaSlug": "arezzo",
+      "siglaProvincia": "AR",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Montevarchi documenta Gioielleria e Orologeria Lombardi. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-lombardi-breil",
+        "t02-lombardi-home"
+      ]
+    },
+    {
+      "id": "firenzuola",
+      "comune": "Firenzuola",
+      "comuneSlug": "firenzuola",
+      "provincia": "Firenze",
+      "provinciaSlug": "firenze",
+      "siglaProvincia": "FI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Il primo censimento a Firenzuola documenta Orologeria Ugolini. Consulta le singole schede per recapiti e servizi supportati dalle fonti.",
+      "fonti": [
+        "t02-ugolini-contatti",
+        "t02-ugolini-lab",
+        "t02-calamai-rete"
       ]
     }
   ],
@@ -769,6 +1413,2993 @@
       "origine": {
         "sistema": "legacy-8dc29a5",
         "idOriginale": "ronchi-gioielli"
+      }
+    },
+    {
+      "id": "pisani-scandicci-matteotti",
+      "slug": "pisani-scandicci-matteotti",
+      "nome": "Pisani Gioielleria — Piazza Matteotti",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Punto vendita di Piazza Matteotti a Scandicci, con orologi e accesso ai servizi del laboratorio della rete Pisani; sede fisica del laboratorio non specificata.",
+      "nomiPrecedenti": [],
+      "gruppoId": "pisani",
+      "localitaId": "scandicci",
+      "posizione": {
+        "indirizzo": "Piazza G. Matteotti, 16",
+        "cap": "50018",
+        "coordinate": null,
+        "fonti": [
+          "t02-pisani-matteotti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 250228",
+        "email": null,
+        "sito": "https://www.pisanigioielleria.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-pisani-matteotti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-pisani-matteotti"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-pisani-lab"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-pisani-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-pisani-lab"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t02-pisani-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t02-pisani-lab"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "t02-pisani-matteotti"
+            ]
+          },
+          {
+            "marca": "Montblanc",
+            "fonti": [
+              "t02-pisani-matteotti"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t02-pisani-matteotti"
+            ]
+          },
+          {
+            "marca": "Philip Watch",
+            "fonti": [
+              "t02-pisani-matteotti"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-pisani-matteotti",
+          "t02-pisani-lab"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-pisani-matteotti",
+              "t02-pisani-lab"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "pisani-scandicci-matteotti"
+      }
+    },
+    {
+      "id": "pisani-scandicci-maschera",
+      "slug": "pisani-scandicci-maschera",
+      "nome": "Pisani Gioielleria — Galleria La Maschera",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Sede Pisani presso la Galleria La Maschera, vicina alla fermata Resistenza. La pagina della sede documenta la gamma di orologi e il supporto successivo all’acquisto.",
+      "nomiPrecedenti": [],
+      "gruppoId": "pisani",
+      "localitaId": "scandicci",
+      "posizione": {
+        "indirizzo": "Piazzale della Resistenza, 6/c",
+        "cap": "50018",
+        "coordinate": null,
+        "fonti": [
+          "t02-pisani-maschera"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 252598",
+        "email": null,
+        "sito": "https://www.pisanigioielleria.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-pisani-maschera"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-pisani-maschera"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-pisani-maschera"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Breil",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "Daniel Wellington",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "Locman",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "Swatch",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "Flik Flak",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "Casio",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          },
+          {
+            "marca": "G-Shock",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-pisani-maschera"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-pisani-maschera"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "pisani-scandicci-maschera"
+      }
+    },
+    {
+      "id": "maggini-sesto",
+      "slug": "maggini-sesto",
+      "nome": "Oreficeria Orologeria Maggini",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Oreficeria e orologeria in Via Cavallotti a Sesto Fiorentino. I marchi sono riportati dalla pagina della gamma; servizi di riparazione non confermati in questa raccolta.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "sesto-fiorentino",
+      "posizione": {
+        "indirizzo": "Via F. Cavallotti, 14",
+        "cap": "50019",
+        "coordinate": null,
+        "fonti": [
+          "t02-maggini-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 4489197",
+        "email": "oreficeria.maggini@gmail.com",
+        "sito": "https://www.oreficeriamaggini.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-maggini-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-maggini-marchi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Lorenz",
+            "fonti": [
+              "t02-maggini-marchi"
+            ]
+          },
+          {
+            "marca": "Casio",
+            "fonti": [
+              "t02-maggini-marchi"
+            ]
+          },
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "t02-maggini-marchi"
+            ]
+          },
+          {
+            "marca": "Sector",
+            "fonti": [
+              "t02-maggini-marchi"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-maggini-contatti",
+          "t02-maggini-marchi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-maggini-contatti",
+              "t02-maggini-marchi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "maggini-sesto"
+      }
+    },
+    {
+      "id": "rutili-empoli",
+      "slug": "rutili-empoli",
+      "nome": "Gioielleria Rutili",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Attività del centro di Empoli con servizio di assistenza e riparazione orologi. I recapiti sono pubblicati nella pagina contatti; gli orari stagionali non sono stati trattati come attuali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "empoli",
+      "posizione": {
+        "indirizzo": "Via Giuseppe del Papa, 58/60",
+        "cap": "50053",
+        "coordinate": null,
+        "fonti": [
+          "t02-rutili-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0571 74690",
+        "email": "rutiligioielleria@virgilio.it",
+        "sito": "https://www.gioielleriaempoli.it/",
+        "whatsapp": "+39335399340",
+        "social": [],
+        "fonti": [
+          "t02-rutili-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-rutili-servizi"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-rutili-servizi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-rutili-contatti",
+          "t02-rutili-servizi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-rutili-contatti",
+              "t02-rutili-servizi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "rutili-empoli"
+      }
+    },
+    {
+      "id": "ficioro-empoli",
+      "slug": "ficioro-empoli",
+      "nome": "FiciOro",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Negozio di Empoli con offerta di orologi nuovi e modelli descritti come vintage e accompagnamento del cliente nella manutenzione e in caso di riparazione. Non è documentato che gli interventi siano eseguiti in sede.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "empoli",
+      "posizione": {
+        "indirizzo": "Via Jacopo Carrucci, 73",
+        "cap": "50053",
+        "coordinate": null,
+        "fonti": [
+          "t02-fici-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0571 72465",
+        "email": "info@ficioro.it",
+        "sito": "https://www.ficioro.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-fici-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-fici-orologi"
+          ]
+        },
+        {
+          "id": "vendita-nuovi",
+          "fonti": [
+            "t02-fici-orologi"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-fici-orologi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Swatch",
+            "fonti": [
+              "t02-fici-orologi"
+            ]
+          },
+          {
+            "marca": "Lorus",
+            "fonti": [
+              "t02-fici-orologi"
+            ]
+          },
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "t02-fici-orologi"
+            ]
+          },
+          {
+            "marca": "Lorenz",
+            "fonti": [
+              "t02-fici-orologi"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-fici-contatti",
+          "t02-fici-orologi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-fici-contatti",
+              "t02-fici-orologi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "ficioro-empoli"
+      }
+    },
+    {
+      "id": "agnolucci-signa",
+      "slug": "agnolucci-signa",
+      "nome": "Agnolucci Gioielleria — Signa",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Sede nel centro storico di Signa con offerta di orologeria. Il laboratorio della rete è documentato separatamente: non si attribuiscono a questa sede tutte le competenze del laboratorio.",
+      "nomiPrecedenti": [],
+      "gruppoId": "agnolucci",
+      "localitaId": "signa",
+      "posizione": {
+        "indirizzo": "Via Mazzini, 12",
+        "cap": "50058",
+        "coordinate": null,
+        "fonti": [
+          "t02-agnolucci-signa"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 8734483",
+        "email": null,
+        "sito": "https://www.agnoluccigioielleria.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-agnolucci-signa"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-agnolucci-signa"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 2010,
+        "fondatore": null,
+        "testo": "La pagina ufficiale della sede indica l’apertura a Signa nel 2010, come sviluppo dell’attività di Poggio a Caiano.",
+        "eventi": [],
+        "fonti": [
+          "t02-agnolucci-signa"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-agnolucci-signa"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-agnolucci-signa"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "agnolucci-signa"
+      }
+    },
+    {
+      "id": "agnolucci-poggio",
+      "slug": "agnolucci-poggio",
+      "nome": "Agnolucci Gioielleria — Poggio a Caiano",
+      "tipi": [
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Sede di Poggio a Caiano della rete Agnolucci. La pagina del laboratorio descrive cambio pila, revisione e interventi su pendole e orologi d’epoca; le autorizzazioni autodichiarate richiedono conferma del marchio.",
+      "nomiPrecedenti": [],
+      "gruppoId": "agnolucci",
+      "localitaId": "poggio-a-caiano",
+      "posizione": {
+        "indirizzo": "Via Vittorio Emanuele II, 9",
+        "cap": "59016",
+        "coordinate": null,
+        "fonti": [
+          "t02-agnolucci-lab"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 877485",
+        "email": null,
+        "sito": "https://www.agnoluccigioielleria.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-agnolucci-lab"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-agnolucci-lab"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t02-agnolucci-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-agnolucci-lab"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t02-agnolucci-lab"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-agnolucci-lab"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-agnolucci-lab"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "agnolucci-poggio"
+      }
+    },
+    {
+      "id": "ora-di-piazza-bagno",
+      "slug": "ora-di-piazza-bagno",
+      "nome": "L’Ora di Piazza di Rusconi Paolo",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Attività di Bagno a Ripoli presente nell’elenco ufficiale dei rivenditori Calamai. La fonte documenta vendita e recapiti, non servizi di riparazione.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bagno-a-ripoli",
+      "posizione": {
+        "indirizzo": "Via Roma, 159",
+        "cap": "50012",
+        "coordinate": null,
+        "fonti": [
+          "t02-calamai-rete"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 632549",
+        "email": null,
+        "sito": null,
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-calamai-rete"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-calamai-rete"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Calamai",
+            "fonti": [
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Calamai",
+            "fonti": [
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-calamai-rete"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "ora-di-piazza-bagno"
+      }
+    },
+    {
+      "id": "follie-oro-calenzano",
+      "slug": "follie-oro-calenzano",
+      "nome": "Follie d’Oro — Calenzano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Punto vendita Follie d’Oro presso il centro commerciale Il Parco di Calenzano. La rete dichiara nei negozi riparazioni di orologeria, assistenza e sostituzione batterie.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "calenzano",
+      "posizione": {
+        "indirizzo": "CC Il Parco — Via Prato angolo Via Ciolli",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-follie-sedi"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 342 9132156",
+        "email": null,
+        "sito": "https://www.folliedoro.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-follie-sedi"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-follie-sedi"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-follie-sedi"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t02-follie-sedi"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-follie-sedi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-follie-sedi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-follie-sedi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "follie-oro-calenzano"
+      }
+    },
+    {
+      "id": "renai-pontassieve",
+      "slug": "renai-pontassieve",
+      "nome": "Renai",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Bottega di Pontassieve con vendita e riparazione di orologi, documentate dal sito dell’attività. La storia familiare è riportata come racconto della fonte, non come ricerca archivistica indipendente.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "pontassieve",
+      "posizione": {
+        "indirizzo": "Via Ghiberti, 115",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-renai-servizi"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": null,
+        "sito": "http://www.renai.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-renai-servizi"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-renai-storia"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-renai-storia"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-renai-servizi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1870,
+        "fondatore": "Agostino Renai",
+        "testo": "Secondo la storia pubblicata dall’attività, Agostino Renai aprì a Pontassieve nel 1870. Il racconto documenta il passaggio del mestiere fra più generazioni della famiglia.",
+        "eventi": [],
+        "fonti": [
+          "t02-renai-storia"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-renai-servizi",
+          "t02-renai-storia"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-renai-servizi",
+              "t02-renai-storia"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "renai-pontassieve"
+      }
+    },
+    {
+      "id": "renzopreziosi-figline",
+      "slug": "renzopreziosi-figline",
+      "nome": "RenzoPreziosi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Attività in Corso Matteotti a Figline Valdarno con assistenza su orologi moderni e d’epoca e acquisto/ritiro in conto vendita. L’indirizzo ricorre in due pagine; una meta description cita invece Reggello e richiede aggiornamento della fonte.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "figline-e-incisa-valdarno",
+      "posizione": {
+        "indirizzo": "Corso Matteotti, 47 — Figline Valdarno",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-renzo-home"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 7098034",
+        "email": null,
+        "sito": "https://www.renzopreziosi.com/",
+        "whatsapp": "+393475282214",
+        "social": [],
+        "fonti": [
+          "t02-renzo-home"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-renzo-home"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-renzo-home"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "t02-renzo-vendita"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1985,
+        "fondatore": null,
+        "testo": "Il sito presenta l’attività dei fratelli Pigionanti dal 1985.",
+        "eventi": [],
+        "fonti": [
+          "t02-renzo-home"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-renzo-home",
+          "t02-renzo-vendita",
+          "t02-comune-fiv"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-renzo-home",
+              "t02-renzo-vendita",
+              "t02-comune-fiv"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "renzopreziosi-figline"
+      }
+    },
+    {
+      "id": "sottili-figline",
+      "slug": "sottili-figline",
+      "nome": "Sottili Franco",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Punto vendita a Figline Valdarno indicato da Hamilton come Official Retailer. La scheda non attribuisce riparazioni né assistenza tecnica autorizzata.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "figline-e-incisa-valdarno",
+      "posizione": {
+        "indirizzo": "Piazza M. Ficino, 73 — Figline Valdarno",
+        "cap": "50063",
+        "coordinate": null,
+        "fonti": [
+          "t02-sottili-hamilton"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 9152013",
+        "email": "info@sottili.com",
+        "sito": null,
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-sottili-hamilton"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-sottili-hamilton"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t02-sottili-hamilton"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t02-sottili-hamilton"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-sottili-hamilton",
+          "t02-comune-fiv"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-sottili-hamilton",
+              "t02-comune-fiv"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "sottili-figline"
+      }
+    },
+    {
+      "id": "gabbani-pontedera",
+      "slug": "gabbani-pontedera",
+      "nome": "Gioielleria Gabbani",
+      "tipi": [
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Gioielleria con laboratorio a Pontedera. Il sito documenta riparazione, revisione e restauro di orologi di epoche diverse; l’offerta Tissot non viene confusa con un’autorizzazione alla riparazione.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "pontedera",
+      "posizione": {
+        "indirizzo": "Via I° Maggio, 6",
+        "cap": "56025",
+        "coordinate": null,
+        "fonti": [
+          "t02-gabbani-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0587 53826",
+        "email": "graziano.gabbani@hotmail.it",
+        "sito": "https://www.gabbanigioielleria.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-gabbani-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-gabbani-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-gabbani-lab"
+          ]
+        },
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-gabbani-tissot"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t02-gabbani-tissot"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1967,
+        "fondatore": null,
+        "testo": "Il sito data al 1967 la nascita del laboratorio orafo a Pontedera e descrive una tradizione familiare. Il laboratorio attuale documenta anche interventi su orologi.",
+        "eventi": [],
+        "fonti": [
+          "t02-gabbani-lab"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-gabbani-contatti",
+          "t02-gabbani-lab",
+          "t02-gabbani-tissot"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-gabbani-contatti",
+              "t02-gabbani-lab",
+              "t02-gabbani-tissot"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "gabbani-pontedera"
+      }
+    },
+    {
+      "id": "cerri-pontedera",
+      "slug": "cerri-pontedera",
+      "nome": "Gioielleria Cerri Marco",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Negozio di Pontedera con vendita di orologi e servizio di riparazione. Indirizzo e recapiti sono riscontrati nelle pagine pubbliche dell’attività.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "pontedera",
+      "posizione": {
+        "indirizzo": "Via Alessandro Manzoni, 15",
+        "cap": "56025",
+        "coordinate": null,
+        "fonti": [
+          "t02-cerri-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0587 54588",
+        "email": "patrizia_cerri@virgilio.it",
+        "sito": "https://www.gioielleriacerrimarco.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-cerri-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-cerri-home"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-cerri-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1964,
+        "fondatore": null,
+        "testo": "La presentazione ufficiale colloca l’attività a Pontedera dal 1964.",
+        "eventi": [],
+        "fonti": [
+          "t02-cerri-home"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-cerri-contatti",
+          "t02-cerri-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-cerri-contatti",
+              "t02-cerri-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "cerri-pontedera"
+      }
+    },
+    {
+      "id": "orogenesi-pontedera",
+      "slug": "orogenesi-pontedera",
+      "nome": "Gioielleria Orogenesi",
+      "tipi": [
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Attività di Pontedera con laboratorio interno. Tra le lavorazioni pubblicate compaiono riparazioni, batterie, restauro di orologi antichi, vetri e quadranti e valutazioni per assicurazioni.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "pontedera",
+      "posizione": {
+        "indirizzo": "Corso Matteotti, 84",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-orogenesi-lab"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0587 54676",
+        "email": null,
+        "sito": "https://www.orogenesi85.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-orogenesi-lab"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t02-orogenesi-lab"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-orogenesi-lab"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-orogenesi-lab"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "orogenesi-pontedera"
+      }
+    },
+    {
+      "id": "oreoro-poggibonsi",
+      "slug": "oreoro-poggibonsi",
+      "nome": "Ore & Oro — Poggibonsi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Sede Ore & Oro di Poggibonsi. La rete documenta vendita di orologi; disponibilità dei singoli marchi e ubicazione del laboratorio sono da confermare per questa sede.",
+      "nomiPrecedenti": [],
+      "gruppoId": "oreoro",
+      "localitaId": "poggibonsi",
+      "posizione": {
+        "indirizzo": "Via della Repubblica, 102/104",
+        "cap": "53036",
+        "coordinate": null,
+        "fonti": [
+          "t02-oreoro-sedi"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0577 935118",
+        "email": null,
+        "sito": "https://www.oreoro.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-oreoro-sedi"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-oreoro-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-oreoro-sedi",
+          "t02-oreoro-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-oreoro-sedi",
+              "t02-oreoro-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "oreoro-poggibonsi"
+      }
+    },
+    {
+      "id": "oreoro-colle",
+      "slug": "oreoro-colle",
+      "nome": "Ore & Oro — Colle di Val d’Elsa",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Sede Ore & Oro di Colle di Val d’Elsa, distinta dal negozio di Poggibonsi. La vendita di orologi è documentata dalla rete; marchi e servizi specifici della sede richiedono conferma.",
+      "nomiPrecedenti": [],
+      "gruppoId": "oreoro",
+      "localitaId": "colle-di-val-d-elsa",
+      "posizione": {
+        "indirizzo": "Via Mazzini, 27",
+        "cap": "53034",
+        "coordinate": null,
+        "fonti": [
+          "t02-oreoro-sedi"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0577 922980",
+        "email": null,
+        "sito": "https://www.oreoro.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-oreoro-sedi"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-oreoro-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-oreoro-sedi",
+          "t02-oreoro-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-oreoro-sedi",
+              "t02-oreoro-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "oreoro-colle"
+      }
+    },
+    {
+      "id": "spaziotempo-sanminiato",
+      "slug": "spaziotempo-sanminiato",
+      "nome": "Spazio Tempo",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Boutique di San Miniato dedicata alla compravendita di orologi di lusso usati. Rolex e Panerai sono esempi di secondo polso: non indicano una concessione ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "san-miniato",
+      "posizione": {
+        "indirizzo": "Via 4 Novembre, 14",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-spazio-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": "spaziotempodifiaschivoria@gmail.com",
+        "sito": "https://www.spaziotempoboutique.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-spazio-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t02-spazio-boutique"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "t02-spazio-boutique"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "lusso",
+          "fonti": [
+            "t02-spazio-boutique"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t02-spazio-boutique"
+            ]
+          },
+          {
+            "marca": "Panerai",
+            "fonti": [
+              "t02-spazio-boutique"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-spazio-contatti",
+          "t02-spazio-boutique"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-spazio-contatti",
+              "t02-spazio-boutique"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "spaziotempo-sanminiato"
+      }
+    },
+    {
+      "id": "lombardi-montevarchi",
+      "slug": "lombardi-montevarchi",
+      "nome": "Gioielleria e Orologeria Lombardi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Negozio di Montevarchi con vendita e riparazione di orologi. La presenza nella rete Breil documenta la rivendita autorizzata, non l’assistenza tecnica ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "montevarchi",
+      "posizione": {
+        "indirizzo": "Via Roma, 48/50",
+        "cap": "52025",
+        "coordinate": null,
+        "fonti": [
+          "t02-lombardi-breil"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 980948",
+        "email": "gioiellerialombardi@alice.it",
+        "sito": "https://www.gioiellerialombardi.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-lombardi-breil"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-lombardi-breil"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-lombardi-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Breil",
+            "fonti": [
+              "t02-lombardi-breil"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Breil",
+            "fonti": [
+              "t02-lombardi-breil"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1960,
+        "fondatore": null,
+        "testo": "Il sito dell’attività presenta la gioielleria a Montevarchi dal 1960.",
+        "eventi": [],
+        "fonti": [
+          "t02-lombardi-home"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-lombardi-breil",
+          "t02-lombardi-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-lombardi-breil",
+              "t02-lombardi-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "lombardi-montevarchi"
+      }
+    },
+    {
+      "id": "rabiti-firenze",
+      "slug": "rabiti-firenze",
+      "nome": "Orologeria Rabiti",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio fiorentino che documenta revisioni generali, lucidatura di casse e bracciali e prove di impermeabilità. I recapiti e gli orari sono pubblicati sul sito dell’attività.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": "Piazza Taddeo Gaddi, 22/R",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-rabiti-home"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 7131688",
+        "email": "rabitimaurizio@libero.it",
+        "sito": "https://www.orologeriarabiti.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-rabiti-home"
+        ]
+      },
+      "orari": {
+        "giorni": [
+          {
+            "giorno": 1,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "15:00",
+                "chiusura": "18:30"
+              }
+            ]
+          },
+          {
+            "giorno": 2,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "15:00",
+                "chiusura": "18:30"
+              }
+            ]
+          },
+          {
+            "giorno": 3,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "15:00",
+                "chiusura": "18:30"
+              }
+            ]
+          },
+          {
+            "giorno": 4,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "15:00",
+                "chiusura": "18:30"
+              }
+            ]
+          },
+          {
+            "giorno": 5,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "15:00",
+                "chiusura": "18:30"
+              }
+            ]
+          },
+          {
+            "giorno": 6,
+            "intervalli": []
+          },
+          {
+            "giorno": 7,
+            "intervalli": []
+          }
+        ],
+        "chiusure": [],
+        "verificatiIl": "2026-10-16",
+        "fonti": [
+          "t02-rabiti-home"
+        ]
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-rabiti-home"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-rabiti-home"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t02-rabiti-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1995,
+        "fondatore": null,
+        "testo": "La presentazione ufficiale indica il 1995 come anno di nascita dell’Orologeria Rabiti a Firenze.",
+        "eventi": [],
+        "fonti": [
+          "t02-rabiti-home"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-rabiti-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-rabiti-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "rabiti-firenze"
+      }
+    },
+    {
+      "id": "zagli-firenze",
+      "slug": "zagli-firenze",
+      "nome": "Zagli Gioielli",
+      "tipi": [
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio e gioielleria di Firenze con manutenzione, riparazioni e orologi di secondo polso. Le autorizzazioni citate sul sito sono autodichiarazioni: in questo lotto non sono certificate come ufficiali senza una fonte del marchio.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": "Via Luigi Boccherini, 45",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t02-zagli-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 330872",
+        "email": "info@zagli.it",
+        "sito": "https://zagli.it/",
+        "whatsapp": "+393394160068",
+        "social": [],
+        "fonti": [
+          "t02-zagli-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-zagli-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t02-zagli-lab"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t02-zagli-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-zagli-lab"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Jaeger-LeCoultre",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Panerai",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "IWC",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Montblanc",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          }
+        ],
+        "esperienza": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          },
+          {
+            "marca": "Audemars Piguet",
+            "fonti": [
+              "t02-zagli-lab"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1987,
+        "fondatore": null,
+        "testo": "Il sito indica la nascita di Zagli Gioielli nel 1987 a partire dal laboratorio di orologeria.",
+        "eventi": [],
+        "fonti": [
+          "t02-zagli-lab"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-zagli-contatti",
+          "t02-zagli-lab"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-zagli-contatti",
+              "t02-zagli-lab"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "zagli-firenze"
+      }
+    },
+    {
+      "id": "calistri-firenze",
+      "slug": "calistri-firenze",
+      "nome": "Ruben Calistri — Riparazione Orologi Firenze",
+      "tipi": [
+        "professionista",
+        "laboratorio"
+      ],
+      "descrizione": "Professionista che dichiara un laboratorio a Firenze e interventi su orologi da polso, da tasca e pendole. L’indirizzo visitabile non è pubblicato nella fonte: contattare prima di recarsi sul posto.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": null,
+        "cap": null,
+        "coordinate": null,
+        "fonti": []
+      },
+      "contatti": {
+        "telefono": "+39 353 4794203",
+        "email": "info@riparazioneorologifirenze.it",
+        "sito": "https://www.riparazioneorologifirenze.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-calistri-home"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          "id": "collezione",
+          "fonti": [
+            "t02-calistri-home"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Seiko",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-calistri-home"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-calistri-home"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "calistri-firenze"
+      }
+    },
+    {
+      "id": "ugolini-firenzuola",
+      "slug": "ugolini-firenzuola",
+      "nome": "Orologeria Ugolini",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria di Firenzuola con laboratorio dietro al negozio. L’identità e i recapiti sono riscontrati sul sito dell’attività; la rivendita Calamai è documentata dalla rete ufficiale del marchio.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenzuola",
+      "posizione": {
+        "indirizzo": "Via G. Villani, 16/18/20",
+        "cap": "50033",
+        "coordinate": null,
+        "fonti": [
+          "t02-ugolini-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 819275",
+        "email": "info@orologeriaugolini.com",
+        "sito": "https://www.orologeriaugolini.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-ugolini-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-calamai-rete"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t02-ugolini-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Calamai",
+            "fonti": [
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Calamai",
+            "fonti": [
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-ugolini-contatti",
+          "t02-ugolini-lab",
+          "t02-calamai-rete"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-ugolini-contatti",
+              "t02-ugolini-lab",
+              "t02-calamai-rete"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "ugolini-firenzuola"
+      }
+    },
+    {
+      "id": "swatch-firenze-calzaiuoli",
+      "slug": "swatch-firenze-calzaiuoli",
+      "nome": "Swatch Store Firenze — Via dei Calzaiuoli",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Negozio Swatch di Via dei Calzaiuoli, individuato anche in OSM e riscontrato sul sito del marchio. La pagina documenta cambio batterie e cinturini e assistenza in garanzia in negozio; non una revisione ufficiale di ogni movimento.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": "Via dei Calzaiuoli, 94",
+        "cap": "50122",
+        "coordinate": null,
+        "fonti": [
+          "t02-swatch-calzaiuoli"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 348 2303982",
+        "email": null,
+        "sito": "https://www.swatch.com/it-it/storedetails?sid=R282371",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-swatch-calzaiuoli"
+        ]
+      },
+      "orari": {
+        "giorni": [
+          {
+            "giorno": 1,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 2,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 3,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 4,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 5,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 6,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          },
+          {
+            "giorno": 7,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "20:00"
+              }
+            ]
+          }
+        ],
+        "chiusure": [],
+        "verificatiIl": "2026-10-16",
+        "fonti": [
+          "t02-swatch-calzaiuoli"
+        ]
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t02-swatch-calzaiuoli"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t02-swatch-calzaiuoli"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t02-swatch-calzaiuoli"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t02-swatch-calzaiuoli"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Swatch",
+            "fonti": [
+              "t02-swatch-calzaiuoli"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Swatch",
+            "fonti": [
+              "t02-swatch-calzaiuoli"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-swatch-calzaiuoli"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-swatch-calzaiuoli"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "osm",
+        "idOriginale": "node/11833445469"
+      }
+    },
+    {
+      "id": "metalli-scandicci",
+      "slug": "metalli-scandicci",
+      "nome": "Metalli Preziosi — Scandicci",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Attività di Scandicci con compravendita di orologi nuovi e usati. Restauro, ispezione e revisione sono offerti tramite collaborazione con un orologiaio esterno, non un laboratorio interno documentato.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "scandicci",
+      "posizione": {
+        "indirizzo": "Via Baccio da Montelupo, 15",
+        "cap": "50018",
+        "coordinate": null,
+        "fonti": [
+          "t02-metalli-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 7356742",
+        "email": "info@metallipreziosi.it",
+        "sito": "https://www.metallipreziosi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t02-metalli-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita-nuovi",
+          "fonti": [
+            "t02-metalli-servizi"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t02-metalli-servizi"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "t02-metalli-servizi"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t02-metalli-servizi"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t02-metalli-servizi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t02-metalli-servizi"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-16",
+        "verificataIl": "2026-10-16",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t02-metalli-contatti",
+          "t02-metalli-servizi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-16",
+            "azione": "toscana-02-20261016: revisione manuale A. Identità e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo né conferma del titolare. Campi assenti non dedotti.",
+            "fonti": [
+              "t02-metalli-contatti",
+              "t02-metalli-servizi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-toscana-02",
+        "idOriginale": "metalli-scandicci"
       }
     }
   ]

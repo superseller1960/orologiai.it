@@ -6,7 +6,7 @@ const text = z.string().trim().min(1);
 const url = z.url().refine(v => /^https?:\/\//.test(v), 'Solo URL HTTP(S)');
 export const services = {
   vendita: 'Vendita di orologi', 'vendita-nuovi': 'Orologi nuovi', 'vendita-usati': 'Orologi usati',
-  'acquisto-permuta': 'Acquisto e permuta', riparazione: 'Riparazione', revisione: 'Revisione',
+  'acquisto-permuta': 'Acquisto / permuta (vedi dettagli)', riparazione: 'Riparazione', revisione: 'Revisione',
   manutenzione: 'Manutenzione', batterie: 'Sostituzione batterie', cinturini: 'Sostituzione cinturini',
   'riparazione-meccanici': 'Riparazione meccanici', 'riparazione-automatici': 'Riparazione automatici',
   'riparazione-quarzo': 'Riparazione al quarzo', 'restauro-vintage': 'Restauro vintage',
@@ -44,7 +44,7 @@ export const businessSchema = z.object({
   servizi: z.array(claim), altriServizi: z.array(z.object({ nome: text, fonti: refs }).strict()),
   specializzazioni: z.array(z.object({ id: z.enum(specializations), fonti: refs }).strict()),
   marchi: z.object({ venduti: z.array(brandClaim), riparati: z.array(brandClaim), esperienza: z.array(brandClaim), assistenzaUfficiale: z.array(brandClaim), rivenditaUfficiale: z.array(brandClaim), menzionati: z.array(brandClaim) }).strict(),
-  storia: z.object({ annoFondazione: z.number().int().min(1000).max(new Date().getUTCFullYear()).nullable(), fondatore: text.nullable(), testo: text, eventi: z.array(z.object({ data: text, descrizione: text, fonti: refs }).strict()), fonti: refs }).strict(),
+  storia: z.object({ annoFondazione: z.number().int().min(1000).max(new Date().getUTCFullYear()).nullable(), fondatore: text.nullable(), testo: text.nullable(), eventi: z.array(z.object({ data: text, descrizione: text, fonti: refs }).strict()), fonti: z.array(slugSchema) }).strict(),
   attendibilita: z.object({ stato: z.enum(Object.keys(statuses) as [keyof typeof statuses, ...(keyof typeof statuses)[]]), raccoltaIl: date, verificataIl: date.nullable(), confermataTitolareIl: date.nullable(), fonti: refs, cronologia: z.array(z.object({ data: date, azione: text, fonti: refs }).strict()).min(1), segnalazioni: z.array(z.object({ data: date, motivo: text, stato: z.enum(['aperta', 'risolta']) }).strict()) }).strict(),
   origine: z.object({ sistema: text, idOriginale: text }).strict(),
 }).strict();
@@ -71,6 +71,7 @@ export const directorySchema = z.object({
     sourceRefs.forEach(checkRefs);
     for (const field of ['servizi', 'specializzazioni'] as const) if (new Set(b[field].map(x => x.id)).size !== b[field].length) issue(`${b.id}: ${field} duplicati`);
     if (new Set(b.orari.giorni.map(x => x.giorno)).size !== b.orari.giorni.length) issue(`${b.id}: giorni duplicati`);
+    if ((b.storia.testo || b.storia.annoFondazione || b.storia.fondatore || b.storia.eventi.length) && !b.storia.fonti.length) issue(`${b.id}: storia senza fonti`);
     if (b.orari.giorni.length && (!b.orari.verificatiIl || !b.orari.fonti.length)) issue(`${b.id}: orari senza verifica/fonti`);
     if ((b.posizione.indirizzo || b.posizione.cap) && !b.posizione.fonti.length) issue(`${b.id}: posizione senza fonti`);
     if ((b.contatti.telefono || b.contatti.email || b.contatti.sito || b.contatti.whatsapp || b.contatti.social.length) && !b.contatti.fonti.length) issue(`${b.id}: contatti senza fonti`);

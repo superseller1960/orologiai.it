@@ -2,7 +2,7 @@ name: Verifica directory
 on:
   pull_request:
   push:
-    branches: ['directory-*', 'site-nuovo-*']
+    branches: ['directory-*', 'site-nuovo-*', 'censimento-*']
 permissions:
   contents: read
 jobs:
@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Test di conservazione confrontano il commit storico 6cb31fc.
       - uses: actions/setup-node@v4
         with:
           node-version: '24'

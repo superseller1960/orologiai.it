@@ -25,7 +25,7 @@ const province = [...new Map(directory.localita.map(p => [p.provinciaSlug,p.prov
       <div class="search-actions wide"><button class="btn" type="submit">Applica filtri</button><button class="btn btn-ghost" type="reset">Azzera</button></div>
     </form>
     <noscript><p class="notice">JavaScript è disattivato: qui trovi tutte le attività. Per navigare senza filtri usa le <a href="/orologerie/">pagine territoriali</a>. I filtri interattivi richiedono JavaScript.</p></noscript>
-    <p class="notice">Censimento iniziale: {directory.attivita.length} attività, non l’intera offerta italiana. Coordinate e orari non ancora verificati: distanza, mappa e filtro “aperto oggi” non sono disponibili. Non è necessario condividere la posizione.</p>
+    <p class="notice">Censimento iniziale: {directory.attivita.length} attività, non l’intera offerta italiana. Gli orari sono riportati soltanto dove riscontrati; nessuna apertura odierna viene dedotta. Coordinate non pubblicate in questo lotto: distanza e mappa interattiva non sono disponibili. Non è necessario condividere la posizione.</p>
     <p id="search-count" role="status" aria-live="polite">{directory.attivita.length} attività nel database</p>
     <ul class="grid" id="search-results">{directory.attivita.map(b => <BusinessCard business={b} />)}</ul>
     <p id="search-empty" class="notice" hidden>Nessuna attività soddisfa tutti i filtri. Prova ad allargare la località o a rimuovere un requisito: non aggiungiamo risultati con competenze non documentate.</p>

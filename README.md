@@ -1,6 +1,6 @@
 # Orologiai.it — directory nazionale dei professionisti del tempo
 
-Directory italiana di orologerie, laboratori e botteghe storiche. Incremento 01: dati validati, generazione statica delle pagine, ricerca e importazione offline in revisione. **Non è ancora un censimento nazionale completo.**
+Directory italiana di orologerie, laboratori e botteghe storiche. Incremento 02: 25 nuove sedi toscane documentate, 33 attività complessive, ricerca e importazione reale con revisione A/B/C. **Non è ancora un censimento nazionale completo.**
 
 ## Avvio
 
@@ -49,8 +49,10 @@ Prima di trasferire dati nel dataset seguire `data/staging/README.md`, distingue
 
 ## Stato e limiti
 
-Otto attività storiche conservate, tutte da verificare; nessun indirizzo o orario inventato. Schede e località sono HTML statico. I filtri interattivi richiedono JavaScript; senza JS restano navigabili tutte le schede. Mappa, AI reale, titolari e moderazione persistente non sono ancora attivi. Il collegamento email apre il client di posta: non registra richieste e la ricezione non è stata verificata.
+Otto attività storiche conservate, tutte da verificare, più 25 nuove sedi riscontrate su fonti ufficiali in 16 comuni toscani. Totale: 33 schede in 17 comuni. Nessun indirizzo o orario inventato. I tre lotti `data/staging/toscana-02-*` sono versionati per audit e test senza rete, esclusi dall’applicazione; i candidati non integrati restano fuori dal dataset autorevole. Schede e località sono HTML statico. I filtri interattivi richiedono JavaScript; senza JS restano navigabili tutte le schede. Mappa, AI reale, titolari e moderazione persistente non sono ancora attivi. Il collegamento email apre il client di posta: non registra richieste e la ricezione non è stata verificata.
 
 Nessuna pubblicazione automatica o configurazione di produzione verificata. Il vecchio workflow di import è ora protetto contro la sovrascrittura del mirror esistente. Non inserire credenziali o dump nel repository. Non eseguire il merge o il deploy prima della revisione.
 
-Audit, scelte tecniche, fonti, URL, recupero del lavoro e prossimo incremento: **[docs/INCREMENTO-01.md](docs/INCREMENTO-01.md)**.
+Rapporto corrente con conteggi, fonti, limiti, verifiche e situazione PR #2: **[docs/INCREMENTO-02.md](docs/INCREMENTO-02.md)**. Descrizione PR pronta: `docs/PR-INCREMENTO-02.md`. Audit e scelte iniziali: [docs/INCREMENTO-01.md](docs/INCREMENTO-01.md).
+
+`npm run fetch:osm:pilot` e `npm run integrate:toscana-02` sono operazioni one-shot già eseguite: rifiutano di sovrascrivere il lotto o database integrato. Non eseguirle per avviare il sito; basta `npm ci && npm run verify`.

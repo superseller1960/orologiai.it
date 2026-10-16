@@ -3,6 +3,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { directory, businessUrl, localityUrl } from '../site/src/lib/directory.ts';
 import { statuses } from '../site/src/lib/schema.ts';
+import { JSDOM } from 'jsdom';
 async function files(dir: string): Promise<string[]> {
   const entries = await readdir(dir, { withFileTypes: true });
   return (await Promise.all(entries.map(e => e.isDirectory() ? files(join(dir,e.name)) : Promise.resolve([join(dir,e.name)])))).flat();
@@ -25,7 +26,9 @@ for (const file of htmlFiles) {
   assert.ok(canonical[1].startsWith('https://orologiai.it/'));
   await exists(new URL(canonical[1]));
   assert.equal((html.match(/<h1(?:\s|>)/g) ?? []).length, 1, `Titolo principale: ${file}`);
-  const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]);
+  const dom = new JSDOM(html);
+  const ids = Array.from(dom.window.document.querySelectorAll('[id]')).map(el => el.id);
+  dom.window.close();
   assert.equal(new Set(ids).size, ids.length, `ID HTML duplicati: ${file}`);
   for (const match of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
     const url = new URL(match[1].replaceAll('&amp;', '&'), base);

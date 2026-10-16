@@ -9,6 +9,10 @@ npm-debug.log*
 /.runtime/
 /data/staging/*
 !/data/staging/README.md
+# Incremento 02: lotti revisionati versionati per riproducibilità dei test, non asset pubblici
+!/data/staging/toscana-02-osm-source/
+!/data/staging/toscana-02-osm/
+!/data/staging/toscana-02-review/
 
 # WordPress sensitive / large
 wp-config.php

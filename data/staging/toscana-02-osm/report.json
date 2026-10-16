@@ -1,0 +1,17 @@
+{
+  "letti": 27,
+  "candidati": 25,
+  "duplicatiIdIgnorati": 0,
+  "possibiliDuplicati": 0,
+  "scartati": [
+    {
+      "indice": 16,
+      "motivo": "Nome mancante: richiede ricerca separata"
+    },
+    {
+      "indice": 19,
+      "motivo": "Nome mancante: richiede ricerca separata"
+    }
+  ],
+  "pubblicati": 0
+}

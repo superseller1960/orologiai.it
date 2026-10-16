@@ -1,6 +1,6 @@
 # Raccolte intermedie — non pubbliche
 
-Le sottocartelle sono ignorate da Git e non entrano in `dist/`. Ogni lotto contiene `manifest.json`, `candidates.json`, `report.json`. Il manifest conserva URL dell’estratto, hash SHA-256, data, area e licenza. Conservare anche il file sorgente originale in un archivio di raccolta esterno all'output pubblico.
+Le sottocartelle sono normalmente ignorate da Git e non entrano in `dist/`. Eccezione esplicita: i tre lotti `toscana-02-osm-source`, `toscana-02-osm` e `toscana-02-review` sono versionati per consentire audit e test riproducibili, senza richieste di rete in CI. Contengono dati pubblici di attività e riferimenti alle fonti, mai segreti. Sono consultabili nel repository ma non pubblicati nell’applicazione. Ogni lotto contiene `manifest.json`, `candidates.json`, `report.json`. Il manifest conserva URL dell’estratto, hash SHA-256, data, area e licenza. Conservare anche il file sorgente originale in un archivio di raccolta esterno all'output pubblico.
 
 I candidati non sono attività approvate: non vengono caricati dall’applicazione. Nessuna procedura di importazione modifica `site/data/directory.json`.
 

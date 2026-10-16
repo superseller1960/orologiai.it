@@ -15,7 +15,9 @@
     "verify": "npm run check && npm test && npm run build && npm run test:ui",
     "build": "npm run validate && astro build && tsx scripts/check-build.ts",
     "migrate:legacy": "tsx scripts/migrate-legacy.ts",
-    "import:osm": "tsx scripts/import-osm.ts"
+    "import:osm": "tsx scripts/import-osm.ts",
+    "fetch:osm:pilot": "tsx scripts/fetch-osm-pilot.ts",
+    "integrate:toscana-02": "tsx scripts/integrate-toscana-02.ts"
   },
   "dependencies": {
     "astro": "7.4.0",

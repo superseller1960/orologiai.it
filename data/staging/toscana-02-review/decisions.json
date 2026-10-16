@@ -1,0 +1,379 @@
+[
+  {
+    "id": "pisani-scandicci-matteotti",
+    "nome": "Pisani Gioielleria — Piazza Matteotti",
+    "gruppo": "A",
+    "integrataCome": "pisani-scandicci-matteotti",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "pisani-scandicci-maschera",
+    "nome": "Pisani Gioielleria — Galleria La Maschera",
+    "gruppo": "A",
+    "integrataCome": "pisani-scandicci-maschera",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "maggini-sesto",
+    "nome": "Oreficeria Orologeria Maggini",
+    "gruppo": "A",
+    "integrataCome": "maggini-sesto",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "rutili-empoli",
+    "nome": "Gioielleria Rutili",
+    "gruppo": "A",
+    "integrataCome": "rutili-empoli",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "ficioro-empoli",
+    "nome": "FiciOro",
+    "gruppo": "A",
+    "integrataCome": "ficioro-empoli",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "agnolucci-signa",
+    "nome": "Agnolucci Gioielleria — Signa",
+    "gruppo": "A",
+    "integrataCome": "agnolucci-signa",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "agnolucci-poggio",
+    "nome": "Agnolucci Gioielleria — Poggio a Caiano",
+    "gruppo": "A",
+    "integrataCome": "agnolucci-poggio",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "ora-di-piazza-bagno",
+    "nome": "L’Ora di Piazza di Rusconi Paolo",
+    "gruppo": "A",
+    "integrataCome": "ora-di-piazza-bagno",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "follie-oro-calenzano",
+    "nome": "Follie d’Oro — Calenzano",
+    "gruppo": "A",
+    "integrataCome": "follie-oro-calenzano",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "renai-pontassieve",
+    "nome": "Renai",
+    "gruppo": "A",
+    "integrataCome": "renai-pontassieve",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "renzopreziosi-figline",
+    "nome": "RenzoPreziosi",
+    "gruppo": "A",
+    "integrataCome": "renzopreziosi-figline",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "sottili-figline",
+    "nome": "Sottili Franco",
+    "gruppo": "A",
+    "integrataCome": "sottili-figline",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "gabbani-pontedera",
+    "nome": "Gioielleria Gabbani",
+    "gruppo": "A",
+    "integrataCome": "gabbani-pontedera",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "cerri-pontedera",
+    "nome": "Gioielleria Cerri Marco",
+    "gruppo": "A",
+    "integrataCome": "cerri-pontedera",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "orogenesi-pontedera",
+    "nome": "Gioielleria Orogenesi",
+    "gruppo": "A",
+    "integrataCome": "orogenesi-pontedera",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "oreoro-poggibonsi",
+    "nome": "Ore & Oro — Poggibonsi",
+    "gruppo": "A",
+    "integrataCome": "oreoro-poggibonsi",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "oreoro-colle",
+    "nome": "Ore & Oro — Colle di Val d’Elsa",
+    "gruppo": "A",
+    "integrataCome": "oreoro-colle",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "spaziotempo-sanminiato",
+    "nome": "Spazio Tempo",
+    "gruppo": "A",
+    "integrataCome": "spaziotempo-sanminiato",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "lombardi-montevarchi",
+    "nome": "Gioielleria e Orologeria Lombardi",
+    "gruppo": "A",
+    "integrataCome": "lombardi-montevarchi",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "rabiti-firenze",
+    "nome": "Orologeria Rabiti",
+    "gruppo": "A",
+    "integrataCome": "rabiti-firenze",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "zagli-firenze",
+    "nome": "Zagli Gioielli",
+    "gruppo": "A",
+    "integrataCome": "zagli-firenze",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "calistri-firenze",
+    "nome": "Ruben Calistri — Riparazione Orologi Firenze",
+    "gruppo": "A",
+    "integrataCome": "calistri-firenze",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "ugolini-firenzuola",
+    "nome": "Orologeria Ugolini",
+    "gruppo": "A",
+    "integrataCome": "ugolini-firenzuola",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "swatch-firenze-calzaiuoli",
+    "nome": "Swatch Store Firenze — Via dei Calzaiuoli",
+    "gruppo": "A",
+    "integrataCome": "swatch-firenze-calzaiuoli",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "metalli-scandicci",
+    "nome": "Metalli Preziosi — Scandicci",
+    "gruppo": "A",
+    "integrataCome": "metalli-scandicci",
+    "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+  },
+  {
+    "id": "osm-node-2361869726",
+    "nome": "Tomasini Francia",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-2361870945",
+    "nome": "TAG Heuer",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-3285951655",
+    "nome": "il Laboratorio dell'Orologiaio",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-3851961310",
+    "nome": "Omega",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-3999086974",
+    "nome": "Panerai",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-5961487988",
+    "nome": "Tissot",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-6008487549",
+    "nome": "Rolex",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-6334066424",
+    "nome": "Orologeria Kronos",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-6401491620",
+    "nome": "Orologeria",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-6869668013",
+    "nome": "Innocenti & Puggelli",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-6913736911",
+    "nome": "Orologeria Preziosi Perizie",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-7475750989",
+    "nome": "Dini & C.",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-7476789818",
+    "nome": "Antichi Orologi Nuti",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-7485085150",
+    "nome": "Hora Mundi",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-7489921337",
+    "nome": "Collini e C.",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-7489924914",
+    "nome": "Vannini",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-10804755206",
+    "nome": "La Macchina Del Tempo",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-13094606763",
+    "nome": "G B Zanieri Oro",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-13134546787",
+    "nome": "Crono",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-13446989801",
+    "nome": "Bracali Orlogeria",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-13678989954",
+    "nome": "Tictac",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-13752085171",
+    "nome": "Boutique Cassetti Jaeger-LeCoultre",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-14214485750",
+    "nome": "Firenzeraku",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "osm-node-14238531101",
+    "nome": "L’Orologiaio",
+    "gruppo": "B",
+    "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+  },
+  {
+    "id": "giglio-campi",
+    "nome": "Il Giglio d’Oro — Campi Bisenzio",
+    "fonti": [
+      "giglio-contatti",
+      "giglio-lab"
+    ],
+    "motivo": "Sito con pagine storiche, CAP 50100 incongruo per Campi e orari potenzialmente obsoleti: confermare sede attuale prima della pubblicazione.",
+    "gruppo": "B"
+  },
+  {
+    "id": "giglio-sesto",
+    "nome": "Il Giglio d’Oro — Sesto Fiorentino",
+    "fonti": [
+      "giglio-contatti",
+      "giglio-lab"
+    ],
+    "motivo": "Due indirizzi diversi nelle fonti ufficiali: Via Gramsci 409 e Via Cavallotti 35. Non scegliere arbitrariamente.",
+    "gruppo": "B"
+  },
+  {
+    "id": "lamberti-sesto",
+    "nome": "Gioielleria Lamberti",
+    "fonti": [
+      "lamberti-lab"
+    ],
+    "motivo": "L’estrazione leggibile non restituisce i fatti necessari: prevale CSS/JSON. Richiesta verifica nel browser.",
+    "gruppo": "B"
+  },
+  {
+    "id": "massari-campi",
+    "nome": "Massari Gioielli",
+    "url": "https://massarigioielli.it/",
+    "motivo": "Pertinenza e telefono documentati; indirizzo emerso solo nello snippet. Raccolta successiva deve consolidare la sede senza basarsi soltanto sul motore di ricerca.",
+    "gruppo": "B"
+  },
+  {
+    "id": "scardi-candidato-02",
+    "nome": "Scardi Orologeria Oreficeria",
+    "fonti": [
+      "scardi-contatti-02"
+    ],
+    "duplicatoDi": "scardi",
+    "motivo": "Attività già presente fra le otto storiche; non creare una seconda scheda. Riscontro attuale conservato per un futuro aggiornamento della scheda originale.",
+    "gruppo": "C"
+  },
+  {
+    "id": "osm-scarto-16",
+    "nome": null,
+    "gruppo": "C",
+    "motivo": "Nome mancante: richiede ricerca separata"
+  },
+  {
+    "id": "osm-scarto-19",
+    "nome": null,
+    "gruppo": "C",
+    "motivo": "Nome mancante: richiede ricerca separata"
+  }
+]

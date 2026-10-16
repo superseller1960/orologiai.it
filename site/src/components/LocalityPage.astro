@@ -10,6 +10,6 @@ const records = directory.attivita.filter(b => b.localitaId === place.id);
 <Layout title={`Orologerie a ${place.comune}`} description={`${records.length} attività censite a ${place.comune}: storie, servizi documentati e fonti da consultare.`} canonical={localityUrl(place)}>
   <section class="page-hero"><div class="container"><p class="eyebrow">{place.regione} / {place.provincia}</p><h1>Il tempo, a {place.comune}.</h1><p class="lead">{place.descrizione}</p><a class="btn" href={`/cerca/?localita=${place.id}`}>Cerca in questa località</a></div></section>
   <section class="container section"><div class="section-heading"><div><p class="eyebrow dark">Directory locale</p><h2>{records.length} attività, le loro storie.</h2></div><a href="/orologerie/">Tutti i territori →</a></div>
-  <p class="notice">Censimento iniziale, non elenco completo. Queste schede provengono dall’archivio storico: contatti, orari e operatività attuale sono da verificare. Nessun punto mappa viene inventato.</p>
+  <p class="notice">Censimento iniziale, non elenco completo. Ogni scheda distingue i dati storici dalle informazioni riscontrate nelle fonti online: controlla stato e data di verifica. Nessun punto mappa viene inventato.</p>
   <ul class="grid">{records.map(b => <BusinessCard business={b} />)}</ul></section>
 </Layout>

@@ -1,0 +1,13 @@
+{
+  "stato": "scaricato",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "iniziatoIl": "2026-10-16T03:49:54.593Z",
+  "completatoIl": "2026-10-16T03:50:30.960Z",
+  "sha256": "fb94973bd59f47d281ead736cc04425d917b95e64b8b94174991d5e3449f4014",
+  "query": "query.overpass",
+  "estratto": "extract.json",
+  "elementi": 27,
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "nota": "Una richiesta bbox pilota; non confine amministrativo regionale. Dati grezzi, non pubblicati."
+}

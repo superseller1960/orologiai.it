@@ -1,0 +1,360 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-16T03:49:25Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2361869726,
+  "lat": 43.7677359,
+  "lon": 11.2530191,
+  "tags": {
+    "addr:city": "Firenze",
+    "addr:country": "IT",
+    "addr:housenumber": "45 R",
+    "addr:street": "Ponte Vecchio",
+    "name": "Tomasini Francia",
+    "shop": "watches",
+    "source": "Comune di Firenze"
+  }
+},
+{
+  "type": "node",
+  "id": 2361870945,
+  "lat": 43.7677741,
+  "lon": 11.2529213,
+  "tags": {
+    "addr:city": "Firenze",
+    "addr:country": "IT",
+    "addr:housenumber": "46 R",
+    "addr:street": "Ponte Vecchio",
+    "brand": "TAG Heuer",
+    "brand:wikidata": "Q645984",
+    "name": "TAG Heuer",
+    "shop": "watches",
+    "source": "Comune di Firenze"
+  }
+},
+{
+  "type": "node",
+  "id": 3285951655,
+  "lat": 43.8767196,
+  "lon": 11.0940328,
+  "tags": {
+    "addr:city": "Prato",
+    "addr:housenumber": "52",
+    "addr:postcode": "59100",
+    "addr:street": "Via Marianna Nistri",
+    "craft": "clockmaker",
+    "name": "il Laboratorio dell'Orologiaio",
+    "note": "#pratoartigianoinbottega"
+  }
+},
+{
+  "type": "node",
+  "id": 3851961310,
+  "lat": 43.7703306,
+  "lon": 11.2511844,
+  "tags": {
+    "brand": "Omega",
+    "brand:wikidata": "Q659224",
+    "check_date": "2026-07-17",
+    "name": "Omega",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 3999086974,
+  "lat": 43.7731247,
+  "lon": 11.2543961,
+  "tags": {
+    "brand": "Panerai",
+    "brand:wikidata": "Q1475590",
+    "name": "Panerai",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 5961487988,
+  "lat": 43.7703163,
+  "lon": 11.2553653,
+  "tags": {
+    "brand": "Tissot",
+    "brand:wikidata": "Q659530",
+    "check_date": "2026-09-25",
+    "name": "Tissot",
+    "shop": "watches",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6008487549,
+  "lat": 43.7678994,
+  "lon": 11.2531608,
+  "tags": {
+    "brand": "Rolex",
+    "brand:wikidata": "Q62288",
+    "check_date:opening_hours": "2023-02-01",
+    "name": "Rolex",
+    "opening_hours:signed": "no",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 6334066424,
+  "lat": 43.7634166,
+  "lon": 11.2725503,
+  "tags": {
+    "name": "Orologeria Kronos",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 6401491620,
+  "lat": 43.7859253,
+  "lon": 11.2504857,
+  "tags": {
+    "name": "Orologeria",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 6869668013,
+  "lat": 43.7900226,
+  "lon": 11.2443233,
+  "tags": {
+    "check_date:opening_hours": "2024-11-13",
+    "name": "Innocenti & Puggelli",
+    "opening_hours:signed": "no",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 6913736911,
+  "lat": 43.7989267,
+  "lon": 11.2401117,
+  "tags": {
+    "check_date:opening_hours": "2026-02-28",
+    "craft": "watchmaker",
+    "name": "Orologeria Preziosi Perizie",
+    "opening_hours:signed": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7475750989,
+  "lat": 43.7846972,
+  "lon": 11.2733650,
+  "tags": {
+    "name": "Dini & C.",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 7476789818,
+  "lat": 43.7734382,
+  "lon": 11.2486714,
+  "tags": {
+    "name": "Antichi Orologi Nuti",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 7485085150,
+  "lat": 43.7716355,
+  "lon": 11.2481781,
+  "tags": {
+    "name": "Hora Mundi",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 7489921337,
+  "lat": 43.7815469,
+  "lon": 11.2380103,
+  "tags": {
+    "check_date": "2023-06-22",
+    "name": "Collini e C.",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 7489924914,
+  "lat": 43.7788271,
+  "lon": 11.2388042,
+  "tags": {
+    "check_date": "2024-11-11",
+    "name": "Vannini",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 9981489670,
+  "lat": 43.8027312,
+  "lon": 11.2017325,
+  "tags": {
+    "addr:city": "Firenze",
+    "addr:floor": "1",
+    "addr:postcode": "50127",
+    "addr:street": "Via del Termine",
+    "check_date": "2022-08-27",
+    "level": "1",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "shop": "watches",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10804755206,
+  "lat": 43.7768523,
+  "lon": 11.2568264,
+  "tags": {
+    "addr:city": "Firenze",
+    "addr:housenumber": "1/G R",
+    "addr:postcode": "50129",
+    "addr:street": "Via Guelfa",
+    "name": "La Macchina Del Tempo",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 11833445469,
+  "lat": 43.7719412,
+  "lon": 11.2554396,
+  "tags": {
+    "addr:housenumber": "94",
+    "addr:postcode": "50122",
+    "addr:street": "Via dei Calzaiuoli",
+    "brand": "Swatch",
+    "brand:wikidata": "Q573422",
+    "contact:instagram": "swatch_it",
+    "contact:twitter": "swatchitaly",
+    "name": "Swatch",
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "operator": "Swatch AG",
+    "phone": "+39 3482303982",
+    "shop": "watches",
+    "website": "https://www.swatch.com/it-it/storedetails?sid=R282371"
+  }
+},
+{
+  "type": "node",
+  "id": 12134288682,
+  "lat": 43.7707307,
+  "lon": 11.2560402,
+  "tags": {
+    "opening_hours": "Mo-Su 10:00-20:00",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 13094606763,
+  "lat": 43.6570775,
+  "lon": 11.1855786,
+  "tags": {
+    "addr:floor": "G",
+    "addr:housenumber": "2",
+    "addr:street": "Piazza Orazio Pierozzi",
+    "check_date": "2025-08-24",
+    "level": "0",
+    "name": "G B Zanieri Oro",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 13134546787,
+  "lat": 43.7667436,
+  "lon": 11.2759378,
+  "tags": {
+    "name": "Crono",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 13446989801,
+  "lat": 43.7762205,
+  "lon": 11.2506602,
+  "tags": {
+    "addr:housenumber": "17",
+    "addr:postcode": "50123",
+    "addr:street": "Via Nazionale",
+    "contact:facebook": "p/Orologeria-Bracali-Firenze-100057313584320",
+    "contact:instagram": "bracaliorologeria",
+    "craft": "watchmaker",
+    "name": "Bracali Orlogeria",
+    "opening_hours": "Mo-Sa 09:30-19:30",
+    "phone": "+39 055 283765"
+  }
+},
+{
+  "type": "node",
+  "id": 13678989954,
+  "lat": 43.8275758,
+  "lon": 11.1992538,
+  "tags": {
+    "craft": "watchmaker",
+    "name": "Tictac",
+    "opening_hours": "Mo-Fr 09:00-13:00"
+  }
+},
+{
+  "type": "node",
+  "id": 13752085171,
+  "lat": 43.7715940,
+  "lon": 11.2532141,
+  "tags": {
+    "contact:city": "Firenze",
+    "contact:country": "IT",
+    "contact:housenumber": "8 R",
+    "contact:street": "Via degli Strozzi",
+    "name": "Boutique Cassetti Jaeger-LeCoultre",
+    "shop": "watches",
+    "website": "https://www.cassetti.it/"
+  }
+},
+{
+  "type": "node",
+  "id": 14214485750,
+  "lat": 43.7704630,
+  "lon": 11.2552092,
+  "tags": {
+    "check_date": "2026-09-25",
+    "name": "Firenzeraku",
+    "shop": "watches"
+  }
+},
+{
+  "type": "node",
+  "id": 14238531101,
+  "lat": 43.7538065,
+  "lon": 11.1854680,
+  "tags": {
+    "craft": "watchmaker",
+    "name": "L’Orologiaio"
+  }
+}
+
+  ]
+}
