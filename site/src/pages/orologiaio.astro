@@ -29,12 +29,13 @@ const esempi = [
       <ul class="tags">{esempi.map(e => <li><button class="tag" type="button" data-esempio={e}>{e}</button></li>)}</ul>
     </div>
     <p id="assistente-stato" role="status" aria-live="polite" aria-busy="false"></p>
+    <p id="assistente-modalita" class="small muted" hidden></p>
     <div id="assistente-spiegazione" class="notice" hidden></div>
     <div id="assistente-messaggi" class="notice" hidden></div>
     <ul class="grid" id="assistente-risultati"></ul>
     <h2 id="assistente-alternative-titolo" hidden>Alternative da verificare (non autorizzate)</h2>
     <ul class="grid" id="assistente-alternative"></ul>
-    <p class="small muted">Assistente in modalità locale: interpreta le richieste con regole verificabili sul database. Un servizio di interpretazione esterno non è collegato in questo sito e non è attivo. Gli orari sono mostrati solo se indicati dalla fonte; nessuna disponibilità immediata viene dedotta.</p>
+    <p class="small muted">L’interpretazione usa il modello AI solo quando è configurato e raggiungibile; altrimenti usa regole locali. In entrambi i casi i risultati vengono dal database. Gli orari sono mostrati solo se indicati dalla fonte; nessuna disponibilità immediata viene dedotta.</p>
   </section>
   <script src="../scripts/assistant-ui.ts"></script>
 </Layout>

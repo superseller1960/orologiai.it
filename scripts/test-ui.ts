@@ -74,6 +74,9 @@ const cardIds = () => Array.from(doc2.querySelectorAll<HTMLElement>('#assistente
 const messaggiTesto = () => doc2.querySelector<HTMLElement>('#assistente-messaggi')!.textContent ?? '';
 
 await send('Cerco un orologiaio a Firenze per la revisione');
+// Nel DOM simulato non esiste fetch: la pagina deve dichiarare l'interpretazione locale, mai un modello AI.
+assert.match(doc2.querySelector<HTMLElement>('#assistente-modalita')!.textContent ?? '', /Interpretazione locale/);
+assert.doesNotMatch(doc2.querySelector<HTMLElement>('#assistente-modalita')!.textContent ?? '', /Gemini/);
 const attesi = cercaOrologiaio(directory, interpretaRichiesta('Cerco un orologiaio a Firenze per la revisione', directory).criteri).risultati.map(r => r.id);
 assert.ok(attesi.length > 0);
 assert.deepEqual(cardIds(), attesi, 'Le schede visualizzate coincidono con il motore di ricerca');

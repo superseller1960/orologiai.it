@@ -1,6 +1,17 @@
 import raw from '../../data/directory.json';
+import { z } from 'zod';
 import { directorySchema, services } from '../lib/schema';
-import { MAX_MESSAGGIO, cercaOrologiaio, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaio, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+
+// Risposta dell'endpoint: solo criteri validati e la modalità reale usata.
+const rispostaSchema = z.object({
+  modalita: z.enum(['ai', 'non-configurato', 'fallback']),
+  avviso: z.string().nullable(),
+  criteri: criteriSchema,
+  chiarimenti: z.array(z.string()).max(5),
+});
+type Modalita = 'ai' | 'non-configurato' | 'locale';
+type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita };
 
 const data = directorySchema.parse(raw);
 const form = document.querySelector<HTMLFormElement>('#assistente-form');
@@ -12,8 +23,9 @@ const alternative = document.querySelector<HTMLElement>('#assistente-alternative
 const alternativeTitolo = document.querySelector<HTMLElement>('#assistente-alternative-titolo');
 const contatore = document.querySelector<HTMLElement>('#assistente-contatore');
 const posizioneBtn = document.querySelector<HTMLButtonElement>('#assistente-posizione');
+const modalitaEl = document.querySelector<HTMLElement>('#assistente-modalita');
 
-if (form && stato && spiegazione && messaggi && risultati && alternative && alternativeTitolo && contatore && posizioneBtn) {
+if (form && stato && spiegazione && messaggi && risultati && alternative && alternativeTitolo && contatore && posizioneBtn && modalitaEl) {
   // La posizione resta solo in memoria per la ricerca in corso: non viene salvata né inviata.
   let origine: { lat: number; lon: number } | undefined;
   const textarea = form.querySelector<HTMLTextAreaElement>('textarea[name="messaggio"]')!;
@@ -143,9 +155,49 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
     return li;
   };
 
+  // Prova l'endpoint server-side; se non è raggiungibile o non valido, usa l'interpretazione locale dichiarandolo.
+  const interpreta = async (testo: string): Promise<Interpretazione> => {
+    const locale = async (avviso: string | null): Promise<Interpretazione> => {
+      const r = await interpretaConProvider(testo, data, null);
+      return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale' };
+    };
+    let res: Response;
+    try {
+      res = await fetch('/api/orologiaio', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ messaggio: testo }),
+        signal: AbortSignal.timeout(10_000),
+      });
+    } catch {
+      return locale('Servizio AI non raggiungibile in questo ambiente: uso l’interpretazione locale.');
+    }
+    if (res.status === 429) return locale('Troppe richieste in poco tempo: uso l’interpretazione locale. Riprova tra un minuto.');
+    if (!res.ok) return locale('Servizio AI non disponibile in questo momento: uso l’interpretazione locale.');
+    const parsed = rispostaSchema.safeParse(await res.json().catch(() => null));
+    if (!parsed.success) return locale('Risposta del servizio non valida: uso l’interpretazione locale.');
+    const { modalita, criteri, chiarimenti, avviso } = parsed.data;
+    return {
+      criteri,
+      chiarimenti,
+      avviso,
+      modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale',
+    };
+  };
+
+  const mostraModalita = (m: Modalita) => {
+    modalitaEl.hidden = false;
+    modalitaEl.textContent = m === 'ai'
+      ? 'Interpretazione: modello Gemini (Google AI). I risultati arrivano dal database di Orologiai.it.'
+      : m === 'non-configurato'
+        ? 'Interpretazione locale: il modello AI non è configurato su questo ambiente. I risultati arrivano dal database.'
+        : 'Interpretazione locale (regole). I risultati arrivano dal database di Orologiai.it.';
+  };
+
   const esegui = async (event: Event) => {
     event.preventDefault();
     clearResults();
+    modalitaEl.hidden = true;
     const testo = textarea.value.trim();
     if (!testo) { stato.textContent = 'Scrivi una richiesta, oppure scegli un esempio.'; return; }
     if (testo.length > MAX_MESSAGGIO) { stato.textContent = `La richiesta supera ${MAX_MESSAGGIO} caratteri.`; return; }
@@ -153,13 +205,14 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
     stato.setAttribute('aria-busy', 'true');
     stato.textContent = 'Sto cercando nel database…';
     try {
-      const interp = await interpretaConProvider(testo, data, null);
+      const interp = await interpreta(testo);
       const criteri: Criteri = { ...interp.criteri };
       if (selectLocalita.value && !criteri.localita && !criteri.provincia && !criteri.regione && !criteri.localitaNonCensita) {
         criteri.localita = selectLocalita.value;
       }
       if (criteri.localita) delete criteri.bisognoPosizione;
       const esito: EsitoRicerca = cercaOrologiaio(data, criteri, { origine });
+      mostraModalita(interp.modalita);
       mostra(esito, [...interp.chiarimenti, ...(interp.avviso ? [interp.avviso] : [])], riassunto(criteri));
       stato.textContent = esito.totale > 0 ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente' : 'attività pertinenti'}.` : '';
     } catch {
