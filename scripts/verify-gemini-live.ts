@@ -1,14 +1,24 @@
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
 import { directory } from '../site/src/lib/directory.ts';
 import { cercaOrologiaio, criteriSchema } from '../site/src/lib/assistant.ts';
 import { handleOrologiaio, type RispostaOrologiaio } from '../site/src/lib/orologiaio-api.ts';
 
-// Prova reale contro Gemini: eseguibile solo quando GEMINI_API_KEY è configurata nell'ambiente.
+// Prova reale contro Gemini: eseguibile solo quando GEMINI_API_KEY è configurata nell'ambiente
+// o in un file locale non tracciato da Git (.env o .dev.vars).
 // Non fa parte di npm test per non generare chiamate o costi non richiesti.
+if (!process.env.GEMINI_API_KEY) {
+  for (const file of ['.env', '.dev.vars']) {
+    if (existsSync(file)) {
+      try { process.loadEnvFile(file); } catch { /* file non leggibile: ignorato */ }
+      if (process.env.GEMINI_API_KEY) break;
+    }
+  }
+}
 const apiKey = (process.env.GEMINI_API_KEY ?? '').trim();
 if (!apiKey) {
-  console.error('PROVA REALE BLOCCATA: GEMINI_API_KEY non è presente nell’ambiente.');
-  console.error('Imposta la chiave nel tuo ambiente locale (es. GEMINI_API_KEY=... npm run test:gemini:live) e riesegui.');
+  console.error('PROVA REALE BLOCCATA: GEMINI_API_KEY non è presente nell’ambiente né in .env / .dev.vars.');
+  console.error('Imposta la chiave in .env o .dev.vars (non tracciati da Git) oppure nell’ambiente e riesegui npm run test:gemini:live.');
   process.exit(2);
 }
 
