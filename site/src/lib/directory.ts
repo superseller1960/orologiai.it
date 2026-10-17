@@ -1,4 +1,4 @@
-import raw from '../../data/directory.json' with { type: 'json' };
+import raw from '../../data/directory.json';
 import { directorySchema, type Business, type Locality } from './schema.ts';
 export const directory = directorySchema.parse(raw);
 export const businessUrl = (b: Pick<Business, 'slug'>) => `/orologeria/${b.slug}/`;
