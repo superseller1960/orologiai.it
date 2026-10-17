@@ -55,7 +55,9 @@ export const businessSchema = z.object({
   servizi: z.array(claim), altriServizi: z.array(z.object({ nome: text, fonti: refs }).strict()),
   specializzazioni: z.array(z.object({ id: z.enum(specializations), fonti: refs }).strict()),
   marchi: z.object({ venduti: z.array(brandClaim), riparati: z.array(brandClaim), esperienza: z.array(brandClaim), assistenzaUfficiale: z.array(brandClaim), rivenditaUfficiale: z.array(brandClaim), menzionati: z.array(brandClaim) }).strict(),
-  storia: z.object({ annoFondazione: z.number().int().min(1000).max(new Date().getUTCFullYear()).nullable(), fondatore: text.nullable(), testo: text.nullable(), eventi: z.array(z.object({ data: text, descrizione: text, fonti: refs }).strict()), fonti: z.array(slugSchema) }).strict(),
+  // Limite statico: in workerd `new Date()` vale l'epoch durante l'avvio dell'isolate,
+  // quindi il controllo "non nel futuro" vive in scripts/validate.ts, dove l'orologio è reale.
+  storia: z.object({ annoFondazione: z.number().int().min(1000).max(2100).nullable(), fondatore: text.nullable(), testo: text.nullable(), eventi: z.array(z.object({ data: text, descrizione: text, fonti: refs }).strict()), fonti: z.array(slugSchema) }).strict(),
   attendibilita: z.object({ stato: z.enum(Object.keys(statuses) as [keyof typeof statuses, ...(keyof typeof statuses)[]]), raccoltaIl: date, verificataIl: date.nullable(), confermataTitolareIl: date.nullable(), fonti: refs, cronologia: z.array(z.object({ data: date, azione: text, fonti: refs }).strict()).min(1), segnalazioni: z.array(z.object({ data: date, motivo: text, stato: z.enum(['aperta', 'risolta']) }).strict()) }).strict(),
   origine: z.object({ sistema: text, idOriginale: text }).strict(),
 }).strict();

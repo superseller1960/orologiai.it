@@ -2,6 +2,14 @@ import { readFile } from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import { directorySchema } from '../site/src/lib/schema.ts';
 const data = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8')));
+// Lo schema usa un limite statico per l'anno di fondazione (workerd avvia l'isolate
+// con l'orologio a epoch), quindi il controllo sul futuro resta qui, a orologio reale.
+const annoCorrente = new Date().getUTCFullYear();
+for (const b of data.attivita) {
+  if (b.storia.annoFondazione !== null) {
+    assert.ok(b.storia.annoFondazione <= annoCorrente, `Anno di fondazione nel futuro: ${b.id} (${b.storia.annoFondazione})`);
+  }
+}
 const old = JSON.parse(await readFile('site/data/orologerie.json', 'utf8'));
 for (const original of old.orologerie) {
   const current = data.attivita.find(b => b.id === original.id);
