@@ -54,4 +54,6 @@ for (const place of directory.localita) {
 const sitemap = await readFile('dist/sitemap.xml','utf8');
 for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) await exists(new URL(match[1]));
 assert.ok(!sitemap.includes('/cerca/'));
-console.log(`Build verificata: ${htmlFiles.length} documenti HTML; link, frammenti, canonical, sitemap e ${directory.attivita.length} schede validi.`);
+const routes = JSON.parse(await readFile('dist/_routes.json', 'utf8'));
+assert.deepEqual(routes, { version: 1, include: ['/api/orologiaio'], exclude: [] }, '_routes.json deve invocare la Function solo per /api/orologiaio');
+console.log(`Build verificata: ${htmlFiles.length} documenti HTML; link, frammenti, canonical, sitemap, _routes.json e ${directory.attivita.length} schede validi.`);

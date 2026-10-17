@@ -73,6 +73,10 @@ const send = async (text: string) => {
 const cardIds = () => Array.from(doc2.querySelectorAll<HTMLElement>('#assistente-risultati [data-business-id]')).map(el => el.dataset.businessId);
 const messaggiTesto = () => doc2.querySelector<HTMLElement>('#assistente-messaggi')!.textContent ?? '';
 
+// Verifica responsive / smartphone: viewport e regole @media(max-width:700px) presenti.
+assert.equal(doc2.querySelector('meta[name="viewport"]')?.getAttribute('content'), 'width=device-width, initial-scale=1');
+assert.equal(doc.querySelector('meta[name="viewport"]')?.getAttribute('content'), 'width=device-width, initial-scale=1');
+
 await send('Cerco un orologiaio a Firenze per la revisione');
 // Nel DOM simulato non esiste fetch: la pagina deve dichiarare l'interpretazione locale, mai un modello AI.
 assert.match(doc2.querySelector<HTMLElement>('#assistente-modalita')!.textContent ?? '', /Interpretazione locale/);
@@ -81,7 +85,10 @@ const attesi = cercaOrologiaio(directory, interpretaRichiesta('Cerco un orologia
 assert.ok(attesi.length > 0);
 assert.deepEqual(cardIds(), attesi, 'Le schede visualizzate coincidono con il motore di ricerca');
 for (const a of Array.from(doc2.querySelectorAll<HTMLAnchorElement>('#assistente-risultati a[href^="/orologeria/"]'))) {
-  assert.match(a.getAttribute('href') ?? '', /^\/orologeria\/[a-z0-9-]+\/$/);
+  const href = a.getAttribute('href') ?? '';
+  assert.match(href, /^\/orologeria\/[a-z0-9-]+\/$/);
+  // Navigazione verso le schede: ogni link punta a una scheda statica realmente generata in dist/.
+  await readFile(`dist${href}index.html`, 'utf8');
 }
 
 await send('Cerco un orologiaio a Roma');
@@ -115,14 +122,29 @@ Object.defineProperty(win2.navigator, 'geolocation', {
 posBtn.click();
 assert.match(doc2.querySelector<HTMLElement>('#assistente-stato')!.textContent ?? '', /Posizione non concessa/);
 
-// Risposta dell'endpoint server-side (modalità ai): l'interfaccia usa i criteri ricevuti e mostra la modalità corretta.
-win2.fetch = (async () => new Response(
-  JSON.stringify({ modalita: 'ai', avviso: null, criteri: { localita: 'firenze', servizio: 'revisione' }, chiarimenti: [] }),
-  { status: 200, headers: { 'content-type': 'application/json' } },
-)) as unknown as typeof win2.fetch;
+// Risposta dell'endpoint server-side (modalità ai) + verifica stato di caricamento (aria-busy / "Sto cercando nel database…"):
+let vistoCaricamento = false;
+win2.fetch = (async () => {
+  if (doc2.querySelector<HTMLElement>('#assistente-stato')?.getAttribute('aria-busy') === 'true' &&
+      (doc2.querySelector<HTMLElement>('#assistente-stato')?.textContent ?? '').includes('Sto cercando nel database')) {
+    vistoCaricamento = true;
+  }
+  return new Response(
+    JSON.stringify({ modalita: 'ai', avviso: null, criteri: { localita: 'firenze', servizio: 'revisione' }, chiarimenti: [] }),
+    { status: 200, headers: { 'content-type': 'application/json' } },
+  );
+}) as unknown as typeof win2.fetch;
 await send('frase colloquiale interpretata dal server');
+assert.equal(vistoCaricamento, true, 'Lo stato di caricamento (aria-busy=true) deve essere mostrato durante la richiesta');
+assert.equal(doc2.querySelector<HTMLElement>('#assistente-stato')?.getAttribute('aria-busy'), 'false', 'Al termine aria-busy torna false');
 assert.match(doc2.querySelector<HTMLElement>('#assistente-modalita')!.textContent ?? '', /modello Gemini/);
 assert.deepEqual(cardIds(), attesi);
+
+// Verifica reset dell'Orologiaio: pulisce risultati, contatore e stato.
+form2.reset();
+await wait();
+assert.equal(cardIds().length, 0, 'Il reset deve svuotare i risultati');
+assert.equal(doc2.querySelector<HTMLElement>('#assistente-contatore')!.textContent, '0 / 500 caratteri');
 
 assert.deepEqual(errors2, [], 'Nessun errore JavaScript nella pagina dell’Orologiaio');
 win2.close();

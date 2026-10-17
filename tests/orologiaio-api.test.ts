@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
+import { build } from 'esbuild';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 import { handleOrologiaio, creaRateLimiter, MAX_BODY_BYTES, type Deps } from '../site/src/lib/orologiaio-api.ts';
 import { GEMINI_ENDPOINT, corpoRichiesta, schemaCriteri } from '../site/src/lib/gemini.ts';
@@ -220,3 +221,31 @@ test('Pages Function onRequest risponde via HTTP reale su un socket locale in ca
     await new Promise<void>(resolve => srv.close(() => resolve()));
   }
 });
+
+test('functions/api/orologiaio.ts si compila in un singolo modulo ESM autosufficiente (compatibile Workers/Pages) ed espone onRequest', async () => {
+  const bundled = await build({
+    entryPoints: ['functions/api/orologiaio.ts'],
+    bundle: true,
+    format: 'esm',
+    platform: 'neutral',
+    mainFields: ['module', 'main'],
+    write: false,
+  });
+  assert.equal(bundled.errors.length, 0);
+  const code = bundled.outputFiles[0].text;
+  assert.ok(!code.includes('node:'), 'il bundle Worker non deve dipendere da moduli Node built-in');
+  const mod = await import(`data:text/javascript;base64,${Buffer.from(code).toString('base64')}`) as { onRequest: typeof onRequest };
+  const res = await mod.onRequest({
+    request: new Request('https://orologiai.it/api/orologiaio', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json', origin: 'https://orologiai.it' },
+      body: JSON.stringify({ messaggio: 'Cerco un orologiaio a Firenze per revisionare un automatico' }),
+    }),
+    env: {},
+  });
+  assert.equal(res.status, 200);
+  const body = await res.json();
+  assert.equal(body.modalita, 'non-configurato');
+  assert.deepEqual(body.criteri, { localita: 'firenze', servizio: 'revisione', specializzazione: 'automatici' });
+});
+
