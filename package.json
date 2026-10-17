@@ -11,7 +11,7 @@
     "check": "astro check && tsc --noEmit -p tsconfig.tools.json",
     "validate": "tsx scripts/validate.ts",
     "test": "tsx --test tests/*.test.ts",
-    "test:ui": "tsx scripts/test-ui.ts",
+    "test:ui": "tsx scripts/test-ui.ts && tsx scripts/test-assistant-ui.ts",
     "test:gemini:live": "tsx scripts/verify-gemini-live.ts",
     "verify": "npm run check && npm test && npm run build && npm run test:ui",
     "build": "npm run validate && astro build && tsx scripts/check-build.ts",

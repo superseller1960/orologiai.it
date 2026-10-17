@@ -14,22 +14,23 @@ type Modalita = 'ai' | 'non-configurato' | 'locale';
 type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita };
 
 const data = directorySchema.parse(raw);
-const form = document.querySelector<HTMLFormElement>('#assistente-form');
-const stato = document.querySelector<HTMLElement>('#assistente-stato');
-const spiegazione = document.querySelector<HTMLElement>('#assistente-spiegazione');
-const messaggi = document.querySelector<HTMLElement>('#assistente-messaggi');
-const risultati = document.querySelector<HTMLElement>('#assistente-risultati');
-const alternative = document.querySelector<HTMLElement>('#assistente-alternative');
-const alternativeTitolo = document.querySelector<HTMLElement>('#assistente-alternative-titolo');
-const contatore = document.querySelector<HTMLElement>('#assistente-contatore');
-const posizioneBtn = document.querySelector<HTMLButtonElement>('#assistente-posizione');
-const modalitaEl = document.querySelector<HTMLElement>('#assistente-modalita');
 
-if (form && stato && spiegazione && messaggi && risultati && alternative && alternativeTitolo && contatore && posizioneBtn && modalitaEl) {
+const chat = document.querySelector<HTMLElement>('#assistente-chat');
+const form = document.querySelector<HTMLFormElement>('#assistente-form');
+const textarea = document.querySelector<HTMLTextAreaElement>('#assistente-messaggio');
+const inviaBtn = document.querySelector<HTMLButtonElement>('#assistente-invia');
+const contatore = document.querySelector<HTMLElement>('#assistente-contatore');
+const stato = document.querySelector<HTMLElement>('#assistente-stato');
+const modalitaEl = document.querySelector<HTMLElement>('#assistente-modalita');
+const suggerimentiBox = document.querySelector<HTMLElement>('#assistente-suggerimenti');
+const campoErrore = document.querySelector<HTMLElement>('#assistente-campo-errore');
+
+if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && suggerimentiBox && campoErrore) {
   // La posizione resta solo in memoria per la ricerca in corso: non viene salvata né inviata.
   let origine: { lat: number; lon: number } | undefined;
-  const textarea = form.querySelector<HTMLTextAreaElement>('textarea[name="messaggio"]')!;
-  const selectLocalita = form.querySelector<HTMLSelectElement>('select[name="localita"]')!;
+  let inviando = false;
+  let ultimiCriteri: Criteri = {};
+  let ultimoTesto = '';
 
   const ORARI: Record<StatoOrari, string> = {
     'indicato-oggi': 'Orari di oggi indicati dalla fonte',
@@ -46,50 +47,60 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
     return node;
   };
 
-  const updateCounter = () => { contatore.textContent = `${textarea.value.length} / ${MAX_MESSAGGIO} caratteri`; };
-  textarea.addEventListener('input', updateCounter);
-  updateCounter();
+  const scorri = () => { chat.scrollTop = chat.scrollHeight; };
+  const annuncia = (testo: string) => { stato.textContent = testo; };
 
-  document.querySelectorAll<HTMLButtonElement>('[data-esempio]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      textarea.value = btn.dataset.esempio ?? '';
-      updateCounter();
-      textarea.focus();
-    });
-  });
+  const aggiornaContatore = () => { contatore.textContent = `${textarea.value.length} / ${MAX_MESSAGGIO} caratteri`; };
+  const aggiornaInvia = () => { inviaBtn.disabled = inviando || textarea.value.trim().length === 0; };
+  const altezzaAutomatica = () => {
+    textarea.style.height = 'auto';
+    textarea.style.height = `${Math.min(textarea.scrollHeight, 140)}px`;
+  };
+  const aggiornaComposer = () => { aggiornaContatore(); aggiornaInvia(); altezzaAutomatica(); };
 
-  posizioneBtn.addEventListener('click', () => {
-    if (!('geolocation' in navigator)) {
-      stato.textContent = 'Il browser non offre la posizione. Indica una città nel campo località.';
-      return;
+  const mostraCampoErrore = (testo: string | null) => {
+    campoErrore.hidden = testo === null;
+    campoErrore.textContent = testo ?? '';
+  };
+
+  const bolla = (autore: 'utente' | 'assistente', classe = ''): HTMLElement => {
+    const article = el('article', undefined, `msg msg-${autore === 'utente' ? 'utente' : 'bot'}${classe ? ` ${classe}` : ''}`);
+    if (autore === 'assistente') article.append(el('p', 'Orologiaio', 'msg-autore'));
+    return article;
+  };
+
+  const messaggioUtente = (testo: string) => {
+    const article = bolla('utente');
+    const p = el('p', testo, 'msg-testo');
+    article.append(p);
+    chat.append(article);
+    scorri();
+  };
+
+  const messaggioAssistente = (righe: string[], extra?: (contenitore: HTMLElement) => void, classe = '') => {
+    const article = bolla('assistente', classe);
+    for (const riga of righe) article.append(el('p', riga, 'msg-testo'));
+    if (extra) extra(article);
+    chat.append(article);
+    scorri();
+    return article;
+  };
+
+  const chip = (testo: string, azione: () => void, classe = 'chip'): HTMLButtonElement => {
+    const bottone = el('button', testo, classe);
+    bottone.type = 'button';
+    bottone.addEventListener('click', azione);
+    return bottone;
+  };
+
+  const chipLista = (voci: { testo: string; azione: () => void }[]): HTMLElement => {
+    const ul = el('ul', undefined, 'chips');
+    for (const voce of voci) {
+      const li = el('li');
+      li.append(chip(voce.testo, voce.azione));
+      ul.append(li);
     }
-    stato.textContent = 'Richiesta di posizione in corso…';
-    navigator.geolocation.getCurrentPosition(
-      pos => {
-        origine = { lat: pos.coords.latitude, lon: pos.coords.longitude };
-        stato.textContent = 'Posizione ricevuta: sarà usata solo per questa ricerca.';
-      },
-      () => {
-        origine = undefined;
-        stato.textContent = 'Posizione non concessa. Puoi indicare una città o un indirizzo nel testo o nel campo località.';
-      },
-      { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 },
-    );
-  });
-
-  form.addEventListener('reset', () => {
-    origine = undefined;
-    setTimeout(() => { updateCounter(); clearResults(); stato.textContent = ''; }, 0);
-  });
-
-  const clearResults = () => {
-    risultati.replaceChildren();
-    alternative.replaceChildren();
-    alternativeTitolo.hidden = true;
-    messaggi.hidden = true;
-    messaggi.replaceChildren();
-    spiegazione.hidden = true;
-    spiegazione.replaceChildren();
+    return ul;
   };
 
   const riassunto = (c: Criteri): string => {
@@ -105,10 +116,10 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
   };
 
   const card = (r: RisultatoAttivita): HTMLElement => {
-    const li = el('li', undefined, 'card');
+    const li = el('li', undefined, 'chat-result');
     li.dataset.businessId = r.id;
-    const top = el('div', undefined, 'card-top');
-    top.append(el('span', `${r.comune}`, 'eyebrow dark'), el('span', r.stato, 'status'));
+    const top = el('div', undefined, 'chat-result-top');
+    top.append(el('span', r.comune, 'chat-result-comune'), el('span', r.stato, 'status'));
     const h = el('h3');
     const a = el('a', r.nome);
     a.href = r.href;
@@ -149,10 +160,22 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
       dir.rel = 'noopener noreferrer';
       li.append(dir);
     }
-    const scheda = el('a', 'Apri la scheda →');
+    const scheda = el('a', 'Apri la scheda →', 'chat-result-link');
     scheda.href = r.href;
     li.append(scheda);
     return li;
+  };
+
+  const listaRisultati = (voci: RisultatoAttivita[]): HTMLElement => {
+    const ul = el('ul', undefined, 'chat-results');
+    for (const r of voci) ul.append(card(r));
+    return ul;
+  };
+
+  const mostraModalita = (m: Modalita) => {
+    modalitaEl.hidden = false;
+    modalitaEl.textContent = m === 'ai' ? 'Risposte con AI Gemini' : 'Interpretazione locale';
+    modalitaEl.className = `chat-badge chat-badge-${m === 'ai' ? 'ai' : 'locale'}`;
   };
 
   // Prova l'endpoint server-side; se non è raggiungibile o non valido, usa l'interpretazione locale dichiarandolo.
@@ -170,73 +193,169 @@ if (form && stato && spiegazione && messaggi && risultati && alternative && alte
         signal: AbortSignal.timeout(10_000),
       });
     } catch {
-      return locale('Servizio AI non raggiungibile in questo ambiente: uso l’interpretazione locale.');
+      return locale('Servizio AI non raggiungibile in questo momento: ho usato l’interpretazione locale. I risultati arrivano comunque dal database.');
     }
-    if (res.status === 429) return locale('Troppe richieste in poco tempo: uso l’interpretazione locale. Riprova tra un minuto.');
-    if (!res.ok) return locale('Servizio AI non disponibile in questo momento: uso l’interpretazione locale.');
+    if (res.status === 429) return locale('Troppe richieste in poco tempo: ho usato l’interpretazione locale. Riprova tra un minuto.');
+    if (!res.ok) return locale('Servizio AI non disponibile in questo momento: ho usato l’interpretazione locale.');
     const parsed = rispostaSchema.safeParse(await res.json().catch(() => null));
-    if (!parsed.success) return locale('Risposta del servizio non valida: uso l’interpretazione locale.');
+    if (!parsed.success) return locale('Il servizio ha risposto in modo non valido: ho usato l’interpretazione locale.');
     const { modalita, criteri, chiarimenti, avviso } = parsed.data;
-    return {
-      criteri,
-      chiarimenti,
-      avviso,
-      modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale',
-    };
+    return { criteri, chiarimenti, avviso, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
   };
 
-  const mostraModalita = (m: Modalita) => {
-    modalitaEl.hidden = false;
-    modalitaEl.textContent = m === 'ai'
-      ? 'Interpretazione: modello Gemini (Google AI). I risultati arrivano dal database di Orologiai.it.'
-      : m === 'non-configurato'
-        ? 'Interpretazione locale: il modello AI non è configurato su questo ambiente. I risultati arrivano dal database.'
-        : 'Interpretazione locale (regole). I risultati arrivano dal database di Orologiai.it.';
+  // Continuità: la località si mantiene, gli altri criteri restano solo se la nuova frase non ne propone di nuovi.
+  const combinaCriteri = (nuovi: Criteri): { criteri: Criteri; ereditati: string[] } => {
+    const temaNuovo = (['servizio', 'marca', 'tipo', 'specializzazione', 'apertoOggi'] as const).some(k => nuovi[k] !== undefined);
+    const criteri: Criteri = temaNuovo ? {} : { ...ultimiCriteri };
+    for (const [chiave, valore] of Object.entries(nuovi) as [keyof Criteri, Criteri[keyof Criteri]][]) {
+      if (valore !== undefined) (criteri as Record<string, unknown>)[chiave] = valore;
+    }
+    if (temaNuovo && !criteri.localita && !criteri.localitaNonCensita && ultimiCriteri.localita) criteri.localita = ultimiCriteri.localita;
+    if (criteri.localita) delete criteri.bisognoPosizione;
+    const ereditati = (Object.keys(criteri) as (keyof Criteri)[])
+      .filter(k => nuovi[k] === undefined && criteri[k] !== undefined)
+      .map(k => String(k));
+    return { criteri, ereditati };
   };
 
-  const esegui = async (event: Event) => {
-    event.preventDefault();
-    clearResults();
-    modalitaEl.hidden = true;
-    const testo = textarea.value.trim();
-    if (!testo) { stato.textContent = 'Scrivi una richiesta, oppure scegli un esempio.'; return; }
-    if (testo.length > MAX_MESSAGGIO) { stato.textContent = `La richiesta supera ${MAX_MESSAGGIO} caratteri.`; return; }
+  const etichettaCriterio = (chiave: string, c: Criteri): string => {
+    switch (chiave) {
+      case 'localita': return `comune: ${data.localita.find(p => p.id === c.localita)?.comune ?? c.localita}`;
+      case 'servizio': return `servizio: ${c.servizio ? services[c.servizio] : ''}`;
+      case 'marca': return `marchio: ${c.marca ?? ''}`;
+      case 'tipo': return `tipologia: ${c.tipo ?? ''}`;
+      case 'specializzazione': return `specializzazione: ${c.specializzazione ?? ''}`;
+      case 'apertoOggi': return 'aperto oggi';
+      default: return chiave;
+    }
+  };
 
-    stato.setAttribute('aria-busy', 'true');
-    stato.textContent = 'Sto cercando nel database…';
+  const riprova = (testo: string) => () => { void invia(testo, { ripetizione: true }); };
+
+  const chiediPosizione = (testo: string, bottone: HTMLButtonElement) => {
+    if (!('geolocation' in navigator)) {
+      messaggioAssistente(['Il browser non offre la posizione. Puoi indicare una città o un indirizzo nel messaggio, per esempio “revisione a Firenze”.']);
+      return;
+    }
+    bottone.disabled = true;
+    annuncia('Richiesta della posizione in corso…');
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        origine = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+        void invia(testo, { ripetizione: true });
+      },
+      () => {
+        origine = undefined;
+        bottone.disabled = false;
+        messaggioAssistente(['Posizione non concessa dal browser. Scrivi una città o un indirizzo e cerco lì, oppure riprova con la posizione.']);
+      },
+      { enableHighAccuracy: false, timeout: 8000, maximumAge: 300000 },
+    );
+  };
+
+  const invia = async (testoGrezzo: string, opzioni: { ripetizione?: boolean } = {}) => {
+    if (inviando) return;
+    const testo = testoGrezzo.trim();
+    if (!testo) { mostraCampoErrore('Scrivi una richiesta, oppure scegli uno dei suggerimenti.'); aggiornaInvia(); return; }
+    if (testo.length > MAX_MESSAGGIO) { mostraCampoErrore(`La richiesta supera ${MAX_MESSAGGIO} caratteri: accorciala di ${testo.length - MAX_MESSAGGIO}.`); annuncia(`La richiesta supera ${MAX_MESSAGGIO} caratteri.`); return; }
+
+    mostraCampoErrore(null);
+    inviando = true;
+    ultimoTesto = testo;
+    aggiornaInvia();
+    suggerimentiBox.hidden = true;
+    textarea.value = '';
+    aggiornaComposer();
+    if (!opzioni.ripetizione) messaggioUtente(testo);
+
+    const caricamento = bolla('assistente', 'msg-loading');
+    caricamento.append(el('span', undefined, 'dots'));
+    caricamento.append(el('span', 'Sto cercando nel database…', 'msg-loading-testo'));
+    chat.append(caricamento);
+    chat.setAttribute('aria-busy', 'true');
+    annuncia('Sto cercando nel database…');
+    scorri();
+
     try {
       const interp = await interpreta(testo);
-      const criteri: Criteri = { ...interp.criteri };
-      if (selectLocalita.value && !criteri.localita && !criteri.provincia && !criteri.regione && !criteri.localitaNonCensita) {
-        criteri.localita = selectLocalita.value;
-      }
-      if (criteri.localita) delete criteri.bisognoPosizione;
+      const { criteri, ereditati } = combinaCriteri(interp.criteri);
       const esito: EsitoRicerca = cercaOrologiaio(data, criteri, { origine });
+      ultimiCriteri = criteri;
       mostraModalita(interp.modalita);
-      mostra(esito, [...interp.chiarimenti, ...(interp.avviso ? [interp.avviso] : [])], riassunto(criteri));
-      stato.textContent = esito.totale > 0 ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente' : 'attività pertinenti'}.` : '';
+
+      const righe: string[] = [];
+      const riepilogo = riassunto(criteri);
+      if (riepilogo) righe.push(riepilogo);
+      if (ereditati.length) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
+      if (interp.avviso) righe.push(interp.avviso);
+      righe.push(...interp.chiarimenti, ...esito.messaggi);
+      if (!righe.length && !esito.risultati.length) righe.push('Non ho trovato attività con questi criteri. Prova a indicare una località o un servizio diverso.');
+
+      caricamento.remove();
+      const risposta = messaggioAssistente(righe);
+
+      if (esito.stato === 'serve-posizione') {
+        const azione = chip('Usa la mia posizione', () => undefined);
+        azione.addEventListener('click', () => chiediPosizione(testo, azione));
+        const ul = el('ul', undefined, 'chips');
+        const li = el('li');
+        li.append(azione);
+        ul.append(li);
+        risposta.append(ul);
+      }
+
+      if (esito.risultati.length) {
+        risposta.append(listaRisultati(esito.risultati));
+        if (esito.totale > esito.risultati.length) risposta.append(el('p', `Mostro ${esito.risultati.length} attività su ${esito.totale}. Aggiungi un criterio per restringere.`, 'small muted'));
+      }
+      if (esito.alternative.length) {
+        const titolo = el('p', 'Alternative da verificare (non autorizzate)', 'msg-sottotitolo');
+        risposta.append(titolo, listaRisultati(esito.alternative));
+      }
+      if (ereditati.length) {
+        risposta.append(chipLista([{ testo: 'Ricomincia da zero', azione: () => {
+          ultimiCriteri = {};
+          messaggioAssistente(['Va bene, ripartiamo: dimmi che cosa ti serve e cerco senza i criteri precedenti.']);
+          annuncia('Criteri precedenti azzerati.');
+        } }]));
+      }
+      if (interp.avviso) {
+        risposta.append(chipLista([{ testo: 'Riprova con il servizio AI', azione: riprova(testo) }]));
+      }
+
+      annuncia(esito.totale > 0 ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente trovata' : 'attività pertinenti trovate'}.` : 'Nessuna attività trovata con questi criteri.');
     } catch {
-      messaggi.hidden = false;
-      messaggi.textContent = 'Non è stato possibile completare la ricerca. Riprova, oppure usa la ricerca classica con i filtri.';
-      stato.textContent = '';
+      caricamento.remove();
+      const errore = messaggioAssistente(['Non sono riuscito a completare la ricerca: si è verificato un errore imprevisto. Puoi riprovare o usare la ricerca con i filtri.'], undefined, 'msg-errore');
+      errore.append(chipLista([{ testo: 'Riprova', azione: riprova(testo) }]));
+      annuncia('Errore durante la ricerca.');
     } finally {
-      stato.setAttribute('aria-busy', 'false');
+      inviando = false;
+      chat.setAttribute('aria-busy', 'false');
+      aggiornaInvia();
+      altezzaAutomatica();
     }
   };
 
-  const mostra = (esito: EsitoRicerca, extra: string[], riepilogo: string) => {
-    if (riepilogo) { spiegazione.hidden = false; spiegazione.textContent = riepilogo; }
-    const righe = [...extra, ...esito.messaggi];
-    if (righe.length) {
-      messaggi.hidden = false;
-      for (const r of righe) messaggi.append(el('p', r));
-    }
-    for (const r of esito.risultati) risultati.append(card(r));
-    if (esito.alternative.length) {
-      alternativeTitolo.hidden = false;
-      for (const r of esito.alternative) alternative.append(card(r));
-    }
-  };
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    void invia(textarea.value);
+  });
 
-  form.addEventListener('submit', esegui);
+  textarea.addEventListener('input', () => { aggiornaComposer(); if (!campoErrore.hidden) mostraCampoErrore(null); });
+  textarea.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' || event.shiftKey || event.isComposing) return;
+    // Su telefono e desktop Invio invia; Maiusc + Invio va a capo.
+    event.preventDefault();
+    if (inviando) return;
+    void invia(textarea.value);
+  });
+
+  for (const bottone of Array.from(document.querySelectorAll<HTMLButtonElement>('[data-suggerimento]'))) {
+    bottone.addEventListener('click', () => { void invia(bottone.dataset.suggerimento ?? ''); });
+  }
+
+  form.addEventListener('reset', () => { ultimiCriteri = {}; origine = undefined; setTimeout(aggiornaComposer, 0); });
+
+  aggiornaComposer();
 }

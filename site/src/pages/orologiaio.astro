@@ -1,41 +1,56 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { directory } from '../lib/directory';
+import '../styles/chat.css';
 import { MAX_MESSAGGIO } from '../lib/assistant';
-const localita = directory.localita.map(p => ({ id: p.id, label: `${p.comune} (${p.siglaProvincia})` })).sort((a, b) => a.label.localeCompare(b.label, 'it'));
-const esempi = [
-  'Cerco un orologiaio a Firenze che possa revisionare un orologio automatico',
-  'Vorrei trovare un laboratorio esperto in Omega, anche se non è un centro ufficiale',
-  'Cerco un centro assistenza ufficiale Rolex vicino a Milano',
-  'Mi si è fermato l’orologio: vorrei trovare un professionista vicino a me',
-  'Cerco un orologiaio che restauri orologi da tasca antichi',
-  'Vorrei sostituire il cinturino di un orologio',
-  'Cerco un negozio che acquisti orologi usati',
-  'Vorrei trovare un’orologeria aperta oggi a Firenze',
+const suggerimenti = [
+  'Cerco un orologiaio vicino a me.',
+  'Devo revisionare un orologio automatico.',
+  'Cerco assistenza ufficiale per un marchio.',
+  'Devo riparare un orologio.',
+  'Vorrei informazioni sulla manutenzione.',
 ];
 ---
-<Layout title="Chiedi all’Orologiaio" description="Descrivi che cosa ti serve: l’Orologiaio consulta il database delle orologerie, mostra le fonti e distingue servizi e autorizzazioni ufficiali." noindex={false}>
+<Layout title="Chiedi all’Orologiaio" description="Scrivi che cosa ti serve: l’Orologiaio cerca nel database delle orologerie, mostra le fonti e distingue i servizi documentati dalle autorizzazioni ufficiali dei marchi." noindex={false}>
   <section class="page-hero compact"><div class="container"><p class="eyebrow">Orologiaio</p><h1>Descrivi il problema,<br />troviamo la bottega giusta.</h1><p class="lead">Scrivi in linguaggio naturale. L’Orologiaio cerca nel database reale e spiega perché ogni attività compare. Dove un’informazione manca, lo dice.</p></div></section>
-  <section class="container section">
-    <form id="assistente-form" class="search" role="search" aria-describedby="assistente-note">
-      <label class="wide">La tua richiesta<textarea name="messaggio" rows="3" maxlength={MAX_MESSAGGIO} placeholder="Es. Cerco un orologiaio a Firenze per revisionare un automatico" required></textarea></label>
-      <p id="assistente-contatore" class="small muted wide" aria-live="polite">0 / {MAX_MESSAGGIO} caratteri</p>
-      <label>Località (facoltativa)<select name="localita"><option value="">Nessuna preferenza</option>{localita.map(p => <option value={p.id}>{p.label}</option>)}</select></label>
-      <div class="search-actions"><button class="btn" type="submit">Cerca con l’Orologiaio</button><button class="btn btn-ghost" type="button" id="assistente-posizione">Usa la mia posizione</button><button class="btn btn-ghost" type="reset">Azzera</button></div>
-      <p id="assistente-note" class="small muted wide">La posizione è facoltativa: viene usata solo per questa ricerca, non viene salvata né inviata a servizi esterni. Puoi anche indicare una città nel testo o nel campo località. <a href="/cerca/">Preferisci i filtri classici? Usa la ricerca del database →</a></p>
-    </form>
-    <div class="search-examples wide">
-      <p class="small muted">Esempi di richieste:</p>
-      <ul class="tags">{esempi.map(e => <li><button class="tag" type="button" data-esempio={e}>{e}</button></li>)}</ul>
+  <section class="container section chat-section">
+    <div class="chat" id="assistente">
+      <div class="chat-top">
+        <div>
+          <p class="chat-kicker">Assistente</p>
+          <h2 class="chat-title">Orologiaio</h2>
+        </div>
+        <p id="assistente-modalita" class="chat-badge" hidden></p>
+      </div>
+      <div class="chat-log" id="assistente-chat" role="log" aria-live="polite" aria-relevant="additions text" aria-busy="false">
+        <article class="msg msg-bot">
+          <p class="msg-autore">Orologiaio</p>
+          <p>Ciao! Ti aiuto a trovare l’orologiaio giusto per le tue esigenze. Raccontami che cosa ti serve: una revisione, una riparazione, assistenza per un marchio specifico o semplicemente un professionista vicino a te.</p>
+        </article>
+        <div class="chat-suggerimenti" id="assistente-suggerimenti">
+          <p class="msg-suggerimenti-intro">Non sai da dove iniziare? Prova una di queste richieste:</p>
+          <ul class="chips">
+            {suggerimenti.map(s => <li><button type="button" class="chip" data-suggerimento={s}>{s}</button></li>)}
+          </ul>
+        </div>
+      </div>
+      <form id="assistente-form" class="composer" novalidate>
+        <label class="sr-only" for="assistente-messaggio">Che cosa ti serve?</label>
+        <div class="composer-row">
+          <textarea id="assistente-messaggio" name="messaggio" rows="1" maxlength={MAX_MESSAGGIO} placeholder="Scrivi qui che cosa ti serve…" enterkeyhint="send" autocomplete="off" aria-describedby="assistente-contatore assistente-aiuto"></textarea>
+          <button type="submit" id="assistente-invia" class="composer-send" aria-label="Invia il messaggio">
+            <svg class="composer-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3 20.5 21 12 3 3.5 3 10l12 2-12 2z" fill="currentColor" /></svg>
+            <span class="composer-label">Invia</span>
+          </button>
+        </div>
+        <div class="composer-meta">
+          <span id="assistente-contatore" class="contatore">0 / {MAX_MESSAGGIO}</span>
+          <span id="assistente-aiuto" class="composer-hint">Invio per inviare · Maiusc + Invio per andare a capo</span>
+        </div>
+        <p id="assistente-campo-errore" class="composer-errore" hidden></p>
+      </form>
+      <p id="assistente-stato" class="sr-only" role="status" aria-live="polite"></p>
     </div>
-    <p id="assistente-stato" role="status" aria-live="polite" aria-busy="false"></p>
-    <p id="assistente-modalita" class="small muted" hidden></p>
-    <div id="assistente-spiegazione" class="notice" hidden></div>
-    <div id="assistente-messaggi" class="notice" hidden></div>
-    <ul class="grid" id="assistente-risultati"></ul>
-    <h2 id="assistente-alternative-titolo" hidden>Alternative da verificare (non autorizzate)</h2>
-    <ul class="grid" id="assistente-alternative"></ul>
-    <p class="small muted">L’interpretazione usa il modello AI solo quando è configurato e raggiungibile; altrimenti usa regole locali. In entrambi i casi i risultati vengono dal database. Gli orari sono mostrati solo se indicati dalla fonte; nessuna disponibilità immediata viene dedotta.</p>
+    <p class="chat-note small muted">L’interpretazione usa il modello AI solo quando è configurato e raggiungibile; altrimenti usa regole locali dichiarate. In entrambi i casi i risultati vengono dal database di Orologiai.it, con le fonti nella scheda. Nessuna disponibilità immediata o autorizzazione ufficiale viene dedotta se non è documentata. <a href="/cerca/">Preferisci i filtri classici? Usa la ricerca del database →</a></p>
   </section>
   <script src="../scripts/assistant-ui.ts"></script>
 </Layout>
