@@ -18,7 +18,7 @@
    - client REST `site/src/lib/gemini.ts` per `gemini-3.5-flash-lite` con `responseMimeType: "application/json"` e `responseJsonSchema` (`additionalProperties: false`);
    - handler `site/src/lib/orologiaio-api.ts` con validazione, controllo `Origin`, limiti di dimensione e frequenza, timeout e fallback deterministico dichiarato;
    - script di prova reale separato `npm run test:gemini:live` (`scripts/verify-gemini-live.ts`);
-   - documentazione di costi, privacy, esecuzione locale con Wrangler (`npx wrangler pages dev dist`), configurazione del secret `GEMINI_API_KEY` e regola WAF Cloudflare in `docs/ASSISTENTE-AI.md`.
+   - documentazione della configurazione **a costo zero ($0.00)** sul Free Tier di Gemini API (senza account di fatturazione collegato), dell’esecuzione locale con Wrangler (`npx wrangler pages dev dist`), del secret `GEMINI_API_KEY` e della regola WAF gratuita su Cloudflare Free in `docs/ASSISTENTE-AI.md`.
 
 ## Verifiche eseguite
 - `npm run verify`: typecheck Astro + TypeScript (0 errori), 74 test automatici tutti verdi (inclusa la compilazione ESM isolata di `functions/api/orologiaio.ts` e l’esecuzione HTTP locale), build statica (106 documenti HTML, 35 schede e `dist/_routes.json`), test DOM compilato (`test:ui`) su `/cerca/` e `/orologiaio/`.
