@@ -4,7 +4,7 @@ import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { build } from 'esbuild';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
-import { handleOrologiaio, creaRateLimiter, MAX_BODY_BYTES, type Deps } from '../site/src/lib/orologiaio-api.ts';
+import { handleOrologiaio, creaRateLimiter, MAX_BODY_BYTES, RATE_LIMIT_PER_MINUTE, type Deps } from '../site/src/lib/orologiaio-api.ts';
 import { GEMINI_ENDPOINT, corpoRichiesta, schemaCriteri } from '../site/src/lib/gemini.ts';
 import { onRequest } from '../functions/api/orologiaio.ts';
 
@@ -220,6 +220,15 @@ test('Pages Function onRequest risponde via HTTP reale su un socket locale in ca
   } finally {
     await new Promise<void>(resolve => srv.close(() => resolve()));
   }
+});
+
+test('la Pages Function condivide il rate limiter fra le richieste, non ne crea uno per richiesta', async () => {
+  const ip = '198.51.100.42';
+  const invia = () => onRequest({ request: richiesta({ messaggio: 'revisione a Firenze' }, { ip }), env: {} });
+  for (let i = 1; i <= RATE_LIMIT_PER_MINUTE; i += 1) assert.equal((await invia()).status, 200, `richiesta ${i}`);
+  const bloccata = await invia();
+  assert.equal(bloccata.status, 429);
+  assert.equal(bloccata.headers.get('retry-after'), '60');
 });
 
 test('functions/api/orologiaio.ts si compila in un singolo modulo ESM autosufficiente (compatibile Workers/Pages) ed espone onRequest', async () => {
