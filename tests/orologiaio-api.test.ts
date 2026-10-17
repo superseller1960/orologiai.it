@@ -6,11 +6,12 @@ import { build } from 'esbuild';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 import { handleOrologiaio, creaRateLimiter, MAX_BODY_BYTES, RATE_LIMIT_PER_MINUTE, type Deps } from '../site/src/lib/orologiaio-api.ts';
 import { GEMINI_ENDPOINT, corpoRichiesta, schemaCriteri } from '../site/src/lib/gemini.ts';
+import { interpretaConProvider } from '../site/src/lib/assistant.ts';
 import { onRequest } from '../functions/api/orologiaio.ts';
 
 const data: Directory = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8')));
-const snapshot = JSON.stringify(data);
 const CHIAVE = 'TEST-CHIAVE-NON-REALE-123';
+const snapshot = JSON.stringify(data);
 const ORIGIN = 'https://orologiai.it';
 
 type Call = { url: string; init?: RequestInit };
@@ -141,6 +142,28 @@ test('timeout del provider: fallback entro il limite', async () => {
   assert.equal(body.criteri.servizio, 'revisione');
 });
 
+test('il contritto conversazionale del provider è opzionale, connetto e validato come i criteri', async () => {
+  const dir = data;
+  const con = await interpretaConProvider('revisione a Firenze', dir, {
+    interpreta: async () => ({ risposta: 'Guardo subito i laboratori di Firenze.', localita: 'firenze', servizio: 'revisione' }),
+  });
+  assert.equal(con.origine, 'provider');
+  assert.equal(con.risposta, 'Guardo subito i laboratori di Firenze.');
+  assert.equal(con.criteri.localita, 'firenze');
+  // Il testo del modello non trasforma i fatti: i criteri restano l'unica base della ricerca.
+  const sprovvisto = await interpretaConProvider('cinturino a Milano', dir, {
+    interpreta: async () => ({ risposta: 'Ecco gli artigiani che potresti contattare.', servizio: 'cinturini', localita: 'milano' }),
+  });
+  assert.equal(sprovvisto.risposta, 'Ecco gli artigiani che potresti contattare.');
+  assert.equal(sprovvisto.criteri.localita, 'milano');
+  // Una risposta fuori tetto (500+) viene scartata: l'assistente resta nel formato previsto.
+  const lungo = await interpretaConProvider('revisione a Firenze', dir, {
+    interpreta: async () => ({ risposta: 'a'.repeat(501), localita: 'firenze', servizio: 'revisione' }),
+  });
+  assert.equal(lungo.origine, 'deterministica');
+  assert.equal(lungo.risposta, null);
+});
+
 test('provider che lancia errore di rete: fallback', async () => {
   const f = finto(() => { throw new Error('rete non disponibile'); });
   const body = await (await handleOrologiaio(richiesta({ messaggio: 'revisione a Firenze' }), env(CHIAVE), deps({ fetch: f.fetch }))).json();
@@ -185,6 +208,12 @@ test('l’endpoint non modifica il database e lo schema JSON riflette solo valor
   assert.ok((schema.properties.localita.enum as string[]).includes('firenze'));
   assert.ok(!(schema.properties.localita.enum as string[]).includes('citta-inventata'));
   const corpo = corpoRichiesta(data, 'x');
+  // Il contesto conversazionale entra come turno separato, sempre dopo il messaggio del cliente.
+  const conContesto = corpoRichiesta(data, 'specializzato negli automatici', { localita: 'firenze' });
+  assert.ok((conContesto.contents.length ?? 0) > (corpo.contents.length ?? 0), 'Il contesto aggiunge un turno');
+  assert.match(conContesto.contents[0]?.parts[0]?.text ?? '', /Contesto della conversazione/);
+  assert.equal(conContesto.contents[1]?.parts[0]?.text, 'Nuovo messaggio del cliente, da qui estrai i criteri:');
+  assert.equal(conContesto.contents.at(-1)?.parts.at(-1)?.text, 'specializzato negli automatici');
   assert.ok(!JSON.stringify(corpo).includes(CHIAVE));
 });
 

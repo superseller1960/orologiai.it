@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { interpretaConProvider, MAX_MESSAGGIO, type Criteri } from './assistant.ts';
+import { interpretaConProvider, MAX_MESSAGGIO, criteriSchema, type Criteri } from './assistant.ts';
 import { geminiProvider, type FetchLike } from './gemini.ts';
 import type { Directory } from './schema.ts';
 
@@ -11,6 +11,8 @@ export type ModalitaAssistente = 'ai' | 'non-configurato' | 'fallback';
 export type RispostaOrologiaio = {
   modalita: ModalitaAssistente;
   avviso: string | null;
+  // Testo conversazionale del modello, coerente con i criteri: solo interpretazione, mai fatti.
+  risposta: string | null;
   criteri: Criteri;
   chiarimenti: string[];
 };
@@ -23,7 +25,11 @@ export type Deps = {
   timeoutMs?: number;
 };
 
-const richiestaSchema = z.object({ messaggio: z.string() }).strict();
+const richiestaSchema = z.object({
+  messaggio: z.string(),
+  // Contesto conversazionale: criteri già confermati nei turni precedenti, validati come i criteri attuali.
+  contesto: criteriSchema.optional(),
+}).strict();
 
 // Limite best-effort per istanza: non sostituisce una regola di rate limiting della piattaforma (vedi docs/ASSISTENTE-AI.md).
 export type RateLimiter = { allow(chiave: string, now: number): boolean };
@@ -85,19 +91,20 @@ export async function handleOrologiaio(request: Request, env: Env, deps: Deps): 
   const provider = apiKey ? geminiProvider(apiKey, deps.dir, deps.fetch ?? defaultFetch) : null;
 
   try {
-    const esito = await interpretaConProvider(messaggio, deps.dir, provider, deps.timeoutMs ?? SERVER_TIMEOUT_MS);
+    // Il contesto arriva dal client (Turni precedenti, non dal browser: body JSON validato) e positivo a criteri.
+    const esito = await interpretaConProvider(messaggio, deps.dir, provider, deps.timeoutMs ?? SERVER_TIMEOUT_MS, parsed.data.contesto);
     if (!apiKey) {
       return json({
         modalita: 'non-configurato', avviso: 'Il modello AI non è configurato su questo ambiente: interpretazione locale.',
-        criteri: esito.criteri, chiarimenti: esito.chiarimenti,
+        risposta: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
       } satisfies RispostaOrologiaio);
     }
     if (esito.origine === 'provider') {
-      return json({ modalita: 'ai', avviso: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti } satisfies RispostaOrologiaio);
+      return json({ modalita: 'ai', avviso: null, risposta: esito.risposta, criteri: esito.criteri, chiarimenti: esito.chiarimenti } satisfies RispostaOrologiaio);
     }
     return json({
       modalita: 'fallback', avviso: 'Il modello AI non ha risposto in modo utilizzabile: interpretazione locale.',
-      criteri: esito.criteri, chiarimenti: esito.chiarimenti,
+      risposta: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
     } satisfies RispostaOrologiaio);
   } catch {
     return errore(500, 'Errore interno: riprova o usa la ricerca con i filtri.');

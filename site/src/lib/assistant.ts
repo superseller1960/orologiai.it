@@ -308,13 +308,17 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
   };
 }
 
-// Interfaccia del provider AI. Il provider restituisce solo criteri JSON: non esegue query, non scrive dati.
+// Interfaccia del provider AI. Il provider restituisce una breve risposta conversazionale
+// e criteri JSON: non esegue query, non scrive dati. La risposta è solo testo, i fatti restano del database.
 export interface AssistantProvider {
-  interpreta(messaggio: string, signal: AbortSignal): Promise<unknown>;
+  interpreta(messaggio: string, signal: AbortSignal, contesto?: Criteri): Promise<unknown>;
 }
 
 export type OrigineInterpretazione = 'provider' | 'deterministica';
-export type RisultatoInterpretazione = Interpretazione & { origine: OrigineInterpretazione; avviso: string | null };
+export type RisultatoInterpretazione = Interpretazione & { origine: OrigineInterpretazione; avviso: string | null; risposta: string | null };
+
+// Out del provider: la risposta è opzionale e con un tetto preciso; i criteri sono validati da criteriSchema.
+const providerOutputSchema = z.looseObject({ risposta: z.string().min(1).max(500).nullable().optional() });
 
 // Il provider propone criteri; questa funzione li valida e li riduce ai valori esistenti nel database.
 export async function interpretaConProvider(
@@ -322,19 +326,23 @@ export async function interpretaConProvider(
   dir: Directory,
   provider: AssistantProvider | null,
   timeoutMs = PROVIDER_TIMEOUT_MS,
+  contesto?: Criteri,
 ): Promise<RisultatoInterpretazione> {
   if (messaggio.length > MAX_MESSAGGIO) throw new RangeError(`Messaggio oltre ${MAX_MESSAGGIO} caratteri`);
   const locale = interpretaRichiesta(messaggio, dir);
-  if (!provider) return { ...locale, origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.' };
+  if (!provider) return { ...locale, origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.', risposta: null };
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
     const raw = await Promise.race([
-      provider.interpreta(messaggio, controller.signal),
+      provider.interpreta(messaggio, controller.signal, contesto),
       new Promise<never>((_, reject) => controller.signal.addEventListener('abort', () => reject(new Error('timeout')))),
     ]);
-    const parsed = criteriSchema.safeParse(raw);
+    const out = providerOutputSchema.safeParse(raw);
+    if (!out.success) throw new Error('risposta malformata');
+    const { risposta, ...criteriOu } = out.data;
+    const parsed = criteriSchema.safeParse(criteriOu);
     if (!parsed.success) throw new Error('risposta malformata');
     const c = parsed.data;
     const ammessi: Criteri = { ...c };
@@ -343,9 +351,9 @@ export async function interpretaConProvider(
     if (c.regione && !dir.localita.some(p => p.regioneSlug === c.regione)) delete ammessi.regione;
     const marche = new Set(dir.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)));
     if (c.marca && !marche.has(c.marca)) delete ammessi.marca;
-    return { criteri: criteriSchema.parse(ammessi), chiarimenti: locale.chiarimenti, origine: 'provider', avviso: null };
+    return { criteri: criteriSchema.parse(ammessi), chiarimenti: locale.chiarimenti, origine: 'provider', avviso: null, risposta: risposta ?? null };
   } catch {
-    return { ...locale, origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.' };
+    return { ...locale, origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.', risposta: null };
   } finally {
     clearTimeout(timer);
   }

@@ -4,14 +4,15 @@ import { directorySchema, services } from '../lib/schema';
 import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaio, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
 
 // Risposta dell'endpoint: solo criteri validati e la modalità reale usata.
-const rispostaSchema = z.object({
+  const rispostaSchema = z.object({
   modalita: z.enum(['ai', 'non-configurato', 'fallback']),
   avviso: z.string().nullable(),
+  risposta: z.string().max(500).nullable(),
   criteri: criteriSchema,
   chiarimenti: z.array(z.string()).max(5),
 });
 type Modalita = 'ai' | 'non-configurato' | 'locale';
-type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita };
+type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita; risposta: string | null };
 
 const data = directorySchema.parse(raw);
 
@@ -182,14 +183,15 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
   const interpreta = async (testo: string): Promise<Interpretazione> => {
     const locale = async (avviso: string | null): Promise<Interpretazione> => {
       const r = await interpretaConProvider(testo, data, null);
-      return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale' };
+      return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale', risposta: null };
     };
     let res: Response;
     try {
       res = await fetch('/api/orologiaio', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ messaggio: testo }),
+        // Il contesto (criteri già confermati) parte col messaggio: il server lo valida come i criteri.
+        body: JSON.stringify({ messaggio: testo, contesto: Object.keys(ultimiCriteri).length ? ultimiCriteri : undefined }),
         signal: AbortSignal.timeout(10_000),
       });
     } catch {
@@ -199,8 +201,8 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     if (!res.ok) return locale('Servizio AI non disponibile in questo momento: ho usato l’interpretazione locale.');
     const parsed = rispostaSchema.safeParse(await res.json().catch(() => null));
     if (!parsed.success) return locale('Il servizio ha risposto in modo non valido: ho usato l’interpretazione locale.');
-    const { modalita, criteri, chiarimenti, avviso } = parsed.data;
-    return { criteri, chiarimenti, avviso, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
+    const { modalita, criteri, chiarimenti, avviso, risposta } = parsed.data;
+    return { criteri, chiarimenti, avviso, risposta, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
   };
 
   // Continuità: la località si mantiene, gli altri criteri restano solo se la nuova frase non ne propone di nuovi.
@@ -284,12 +286,18 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       mostraModalita(interp.modalita);
 
       const righe: string[] = [];
+      // Il testo conversazionale del modello (se presente) apre la bolla: è di per sé il riconoscimento della richiesta.
+      if (interp.risposta) righe.push(interp.risposta);
       const riepilogo = riassunto(criteri);
-      if (riepilogo) righe.push(riepilogo);
-      if (ereditati.length) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
+      if (!interp.risposta && riepilogo) righe.push(riepilogo);
+      if (ereditati.length && !interp.risposta) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
       if (interp.avviso) righe.push(interp.avviso);
-      righe.push(...interp.chiarimenti, ...esito.messaggi);
-      if (!righe.length && !esito.risultati.length) righe.push('Non ho trovato attività con questi criteri. Prova a indicare una località o un servizio diverso.');
+      // I chiarimenti del parser restano: in fallback sono l'unica voce; con il modello guidano il passo successivo.
+      const chiarimenti = interp.risposta
+        ? interp.chiarimenti.filter(c => !/Indica un servizio, una marca o una località/.test(c))
+        : interp.chiarimenti;
+      righe.push(...chiarimenti, ...esito.messaggi);
+      if (!righe.length && !esito.risultati.length) righe.push('Non ho ancora trovato attività con questi criteri: indica una località o un servizio diverso.');
 
       caricamento.remove();
       const risposta = messaggioAssistente(righe);

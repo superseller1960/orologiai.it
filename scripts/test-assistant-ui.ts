@@ -23,7 +23,8 @@ const w = dom.window;
 const doc = w.document;
 
 const risposta = (body: unknown, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json' } });
-const ai = (criteri: Record<string, unknown>, chiarimenti: string[] = []) => risposta({ modalita: 'ai', avviso: null, criteri, chiarimenti });
+const ai = (criteri: Record<string, unknown>, chiarimenti: string[] = [], risposta: string | null = null) =>
+  new Response(JSON.stringify({ modalita: 'ai', avviso: null, risposta, criteri, chiarimenti }), { status: 200, headers: { 'content-type': 'application/json' } });
 
 let chiamate = 0;
 let sblocca: ((r: Response) => void) | null = null;
@@ -76,7 +77,8 @@ await attesa(10);
 assert.equal(chiamate, 1, 'Il suggerimento avvia subito una richiesta');
 assert.match(testoChat(), new RegExp(testoPrimoSuggerimento.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')), 'Il testo del suggerimento compare nella conversazione');
 assert.equal(doc.querySelector<HTMLElement>('#assistente-suggerimenti')!.hidden, true, 'I suggerimenti spariscono dopo il primo messaggio');
-sblocca!(ai({ localita: 'firenze' }));
+// Il contesto della conversazione parte col primo turno: il body contiene anche i criteri ereditati (qui vuoti).
+sblocca!(ai({ localita: 'firenze' }, [], 'Ottima scelta, guardo subito chi lavora a Firenze.'));
 await attesa(40);
 
 // C. Click sul pulsante: messaggio, caricamento, blocco dei duplicati, risposta con schede.
@@ -92,10 +94,11 @@ invia!.click();
 premutoInvio();
 await attesa(10);
 assert.equal(chiamate, 2, 'Il pulsante disabilitato e Invio non producono richieste duplicate');
-sblocca!(ai({ localita: 'firenze', servizio: 'revisione' }));
+sblocca!(ai({ localita: 'firenze', servizio: 'revisione' }, [], 'Per la revisione a Firenze ho alcune attività che potrebbero fare al caso tuo.'));
 await attesa(60);
 assert.equal(chat!.getAttribute('aria-busy'), 'false');
-assert.match(testoChat(), /Ho interpretato la richiesta come/);
+assert.match(testoChat(), /Per la revisione a Firenze ho alcune attività/);
+assert.doesNotMatch(testoChat(), /Ho interpretato la richiesta come/, 'Il formulario tecnico sparisce quando parla il modello');
 assert.equal(modalita!.textContent, 'Risposte con AI Gemini');
 const attesi = cercaOrologiaio(directory, { localita: 'firenze', servizio: 'revisione' }).risultati.map(r => r.id);
 assert.ok(attesi.length > 0, 'Il motore reale restituisce attività per Firenze e revisione');
@@ -104,8 +107,9 @@ for (const a of Array.from(doc.querySelectorAll<HTMLAnchorElement>('.chat-result
   await readFile(`dist${a.getAttribute('href')}index.html`, 'utf8');
 }
 
-// D. Invio da tastiera: Invio invia, Maiusc+Invio no.
-w.fetch = (async () => { chiamate += 1; return ai({ localita: 'firenze' }); }) as unknown as typeof w.fetch;
+// D. Continuità: il secondo turno porta col sé il contesto del primo e il piccqet della località resta almeno nel body.
+let ultimoBody: string | null = null;
+w.fetch = (async (_url: string, init?: RequestInit) => { chiamate += 1; ultimoBody = init?.body as string; return ai({ servizio: 'cinturini' }, [], 'Per il cinturino procediamo con gli artigiani già visti a Firenze.'); }) as unknown as typeof w.fetch;
 await scrivi('cinturino a Firenze');
 const primaDiInvio = chiamate;
 premutoInvio(true);
@@ -115,6 +119,8 @@ premutoInvio();
 await attesa(60);
 assert.equal(chiamate, primaDiInvio + 1, 'Invio da tastiera invia il messaggio');
 assert.match(testoChat(), /cinturino a Firenze/);
+const corpoTurno = JSON.parse(ultimoBody!) as { messaggio: string; contesto?: Record<string, unknown> };
+assert.equal(corpoTurno.contesto?.localita, 'firenze', 'Il contesto con la località del turno precedente accompagna il messaggio');
 
 // E. Messaggio vuoto: nessuna richiesta, errore spiegato accanto al campo.
 await scrivi('   ');
