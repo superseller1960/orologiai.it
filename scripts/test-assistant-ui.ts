@@ -99,7 +99,7 @@ await attesa(60);
 assert.equal(chat!.getAttribute('aria-busy'), 'false');
 assert.match(testoChat(), /Per la revisione a Firenze ho alcune attività/);
 assert.doesNotMatch(testoChat(), /Ho interpretato la richiesta come/, 'Il formulario tecnico sparisce quando parla il modello');
-assert.equal(modalita!.textContent, 'Risposte con AI Gemini');
+assert.equal(modalita!.textContent, 'AI attiva');
 const attesi = cercaOrologiaio(directory, { localita: 'firenze', servizio: 'revisione' }).risultati.map(r => r.id);
 assert.ok(attesi.length > 0, 'Il motore reale restituisce attività per Firenze e revisione');
 assert.deepEqual(schede(), attesi, 'Le schede mostrate coincidono con il motore di ricerca');
@@ -154,7 +154,7 @@ assert.ok(riprova, 'Viene offerto un comando per riprovare');
 riprova!.click();
 await attesa(80);
 assert.equal(tentativi, 2, 'Il comando Riprova richiama il servizio');
-assert.equal(modalita!.textContent, 'Risposte con AI Gemini');
+assert.equal(modalita!.textContent, 'AI attiva');
 assert.ok(schede().length > 0);
 
 // H. Testo ostile: resta testo, non diventa HTML.
