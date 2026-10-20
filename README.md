@@ -1,58 +1,39 @@
-# Orologiai.it — directory nazionale dei professionisti del tempo
+# Orologiai.it — directory dei professionisti del tempo
 
-Directory italiana di orologerie, laboratori e botteghe storiche. Incremento 02: 25 nuove sedi toscane documentate, 33 attività complessive, ricerca e importazione reale con revisione A/B/C. **Non è ancora un censimento nazionale completo.**
+Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. La versione proposta in questa PR contiene 35 attività in 18 località. **La copertura non è ancora nazionale completa**: una ricerca in una città non presente nel dataset non può mostrare attività verificate.
 
-## Avvio
+## Funzioni
 
-Node **22.22+** e npm. Le dipendenze sono fissate nel lockfile.
+- Ricerca per testo, territorio, servizi e marchi, con pagine statiche indicizzabili.
+- Ricerca rapida dei servizi anche con espressioni comuni come “tagliando”, “cambio batteria” e “cinturino”. I risultati restano limitati ai servizi documentati per ogni attività.
+- Mappa delle sole posizioni verificate.
+- Assistente Orologiaio: interfaccia con interpretazione Gemini lato server e fallback deterministico. La chiamata AI richiede `GEMINI_API_KEY` configurata come secret sulla piattaforma; senza la chiave resta disponibile il fallback. La chiamata reale e la configurazione sul dominio di produzione non sono ancora verificate.
+
+## Avvio e verifiche
+
+Richiede Node **22.22+** e npm.
 
 ```bash
 npm ci
 npm run dev -- --host 0.0.0.0 --port 3000
+npm run verify
 ```
 
-Aprire http://localhost:3000. Per host di anteprima usare `--allowed-hosts HOST_ESATTO`, mai una wildcard. Il server di sviluppo non è un deploy.
+`npm run verify` esegue typecheck, test, validazione del dataset, build e controlli HTML/SEO/interazione. L’output di build è `dist/`. Per configurazione e collaudo dell’assistente vedere [docs/ASSISTENTE-AI.md](docs/ASSISTENTE-AI.md).
 
-```bash
-npm run verify    # typecheck, test, validazione, build/link/SEO, interazioni DOM
-npm run build     # output statico dedicato in dist/
-npm run validate  # integrità del dataset e conservazione legacy
-```
+## Dati e copertura
 
-## Dove lavorare
+Il dataset autorevole è `site/data/directory.json`; le schede riportano fonti e stato di verifica. Le attività storiche e le informazioni operative non devono essere considerate confermate senza riscontro aggiornato. Le nuove voci vanno documentate e revisionate prima dell’inserimento; i candidati d’importazione non diventano automaticamente schede pubbliche. Non aggiungere indirizzi, orari o servizi non riscontrati.
 
-- `site/src/`: applicazione attiva Astro/TypeScript, layout e pagine generate.
-- `site/src/lib/schema.ts`: modello Zod e regole di attendibilità.
-- `site/src/lib/search.ts`: motore di ricerca condiviso, senza dipendenze UI/AI.
-- `site/data/directory.json`: dataset autorevole, con fonti e cronologia.
-- `site/data/orologerie.json`: dataset originale delle otto attività, conservato senza modifiche.
-- I vecchi HTML/CSS/JS in `site/` restano come riferimento recuperabile; il blog e Rolex sono riutilizzati con avviso editoriale.
-- `public/`: mirror storico **da non sovrascrivere**. Non è l’output né il publicDir di Astro.
-- `data/import/`: configurazione pilota e query documentata.
-- `data/staging/`: lotti locali non pubblici e non versionati automaticamente.
-- `scripts/`, `tests/`: migrazione, validazione, importazione e verifiche.
+Per estendere la copertura italiana: usare la procedura di raccolta e revisione in [data/staging/README.md](data/staging/README.md), procedere per lotti regionali e trasferire nel dataset solo le attività con fonti adeguate. La copertura attuale non va presentata come censimento nazionale completo.
 
-## Importazione pilota, senza pubblicazione automatica
+## Struttura importante
 
-La CLI non scarica dati e non geocodifica. Procurarsi un singolo estratto autorizzato compatibile Overpass JSON, conservando la fonte. Poi:
+- `site/src/`: applicazione Astro/TypeScript.
+- `site/src/lib/search.ts`: motore di ricerca condiviso.
+- `site/data/directory.json`: dati pubblicati dall’applicazione.
+- `scripts/` e `tests/`: importazione controllata, validazione e verifiche.
+- `public/`: mirror storico da conservare; non è l’output della nuova app.
+- `data/staging/`: candidati e lotti di revisione, distinti dal dataset pubblico.
 
-```bash
-npm run import:osm -- --input /percorso/estratto.json \
-  --area data/import/pilot-toscana.json \
-  --out data/staging/pilota-001 \
-  --source-url https://fonte.example/estratto.json
-```
-
-L’URL è un esempio, non una fonte reale. La cartella del lotto non deve esistere: non si sovrascrivono raccolte precedenti. Output: manifest, candidati validati, rapporto scarti/duplicati. Per provare senza rete usare `tests/fixtures/osm-pilot.json` con una fonte chiaramente sintetica. **Non pubblicare la fixture.**
-
-Prima di trasferire dati nel dataset seguire `data/staging/README.md`, distinguere provenienza OSM dai successivi riscontri ufficiali e valutare gli obblighi ODbL. Un import non conferisce autorizzazioni ufficiali dei marchi.
-
-## Stato e limiti
-
-Otto attività storiche conservate, tutte da verificare, più 25 nuove sedi riscontrate su fonti ufficiali in 16 comuni toscani. Totale: 33 schede in 17 comuni. Nessun indirizzo o orario inventato. I tre lotti `data/staging/toscana-02-*` sono versionati per audit e test senza rete, esclusi dall’applicazione; i candidati non integrati restano fuori dal dataset autorevole. Schede e località sono HTML statico. I filtri interattivi richiedono JavaScript; senza JS restano navigabili tutte le schede. Mappa, AI reale, titolari e moderazione persistente non sono ancora attivi. Il collegamento email apre il client di posta: non registra richieste e la ricezione non è stata verificata.
-
-Nessuna pubblicazione automatica o configurazione di produzione verificata. Il vecchio workflow di import è ora protetto contro la sovrascrittura del mirror esistente. Non inserire credenziali o dump nel repository. Non eseguire il merge o il deploy prima della revisione.
-
-Rapporto corrente con conteggi, fonti, limiti, verifiche e situazione PR #2: **[docs/INCREMENTO-02.md](docs/INCREMENTO-02.md)**. Descrizione PR pronta: `docs/PR-INCREMENTO-02.md`. Audit e scelte iniziali: [docs/INCREMENTO-01.md](docs/INCREMENTO-01.md).
-
-`npm run fetch:osm:pilot` e `npm run integrate:toscana-02` sono operazioni one-shot già eseguite: rifiutano di sovrascrivere il lotto o database integrato. Non eseguirle per avviare il sito; basta `npm ci && npm run verify`.
+Non committare chiavi API, file `.env` reali o dump. Le modifiche della PR devono essere revisionate prima del merge; il merge può avviare la pubblicazione di produzione secondo la configurazione del repository.
