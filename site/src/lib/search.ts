@@ -1,5 +1,5 @@
 import type { Business, Directory } from './schema.ts';
-import { services } from './schema.ts';
+import { isUsableCoordinate, services } from './schema.ts';
 export const brandRoles = ['qualsiasi', 'venduti', 'riparati', 'esperienza', 'assistenzaUfficiale', 'rivenditaUfficiale', 'menzionati'] as const;
 export type SearchFilters = {
   q?: string; localita?: string; regione?: string; provincia?: string; servizio?: string;
@@ -43,7 +43,7 @@ export function searchDirectory(data: Directory, f: SearchFilters = {}): { busin
       ...b.altriServizi.map(s => s.nome), ...b.tipi, ...b.specializzazioni.map(s => s.id),
     ].filter(Boolean).join(' '));
     return tokens.every(t => haystack.includes(t));
-  }).map(b => ({ business: b, distanzaKm: f.origine && b.posizione.coordinate ? distanceKm(f.origine, b.posizione.coordinate) : null }))
+  }).map(b => ({ business: b, distanzaKm: f.origine && isUsableCoordinate(b.posizione.coordinate) ? distanceKm(f.origine, b.posizione.coordinate) : null }))
     .sort((a, b) => {
       if (f.ordine === 'distanza' && f.origine) {
         const delta = (a.distanzaKm ?? Infinity) - (b.distanzaKm ?? Infinity);

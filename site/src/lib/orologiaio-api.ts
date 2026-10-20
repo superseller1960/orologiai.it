@@ -3,7 +3,8 @@ import { interpretaConProvider, MAX_MESSAGGIO, criteriSchema, type Criteri } fro
 import { geminiProvider, type FetchLike } from './gemini.ts';
 import type { Directory } from './schema.ts';
 
-export const MAX_BODY_BYTES = 1024;
+// 500 caratteri Unicode più i criteri dei turni precedenti; resta un payload limitato.
+export const MAX_BODY_BYTES = 4096;
 export const RATE_LIMIT_PER_MINUTE = 10;
 export const SERVER_TIMEOUT_MS = 8000;
 
