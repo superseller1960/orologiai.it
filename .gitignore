@@ -2,6 +2,23 @@
 node_modules/
 npm-debug.log*
 .env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+/dist/
+/.astro/
+/.runtime/
+/data/staging/*
+!/data/staging/README.md
+# Incremento 02: lotti revisionati versionati per riproducibilità dei test, non asset pubblici
+!/data/staging/toscana-02-osm-source/
+!/data/staging/toscana-02-osm/
+!/data/staging/toscana-02-review/
+# Incremento 03: risultati di geocodifica di verifica (ODbL, vedi docs/LICENZA-OSM.md)
+!/data/staging/toscana-03-geocode/
+!/data/staging/toscana-04-review/
 
 # WordPress sensitive / large
 wp-config.php

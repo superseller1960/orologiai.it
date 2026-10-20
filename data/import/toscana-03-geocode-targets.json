@@ -1,0 +1,16 @@
+[
+  { "id": "scardi", "indirizzo": "Via Gabriele D'Annunzio 8/A", "cap": "50135", "comune": "Firenze" },
+  { "id": "marretti", "indirizzo": "Via dei Calzaiuoli 86/R", "cap": "50122", "comune": "Firenze" },
+  { "id": "fani-gioielli", "indirizzo": "Via de' Tornabuoni 72/R", "cap": "50123", "comune": "Firenze" },
+  { "id": "bigalli", "indirizzo": "Via Maso Finiguerra 4/A", "cap": "50123", "comune": "Firenze" },
+  { "id": "senzatempo-firenze", "indirizzo": "Piazza Madonna degli Aldobrandini 14/R", "cap": "50123", "comune": "Firenze" },
+  { "id": "sangalli", "indirizzo": "Via Bergamini 7", "cap": "20122", "comune": "Milano" },
+  { "id": "rocca", "indirizzo": "Piazza Duomo 25", "cap": "20121", "comune": "Milano" },
+  { "id": "ronchi-gioielli", "indirizzo": "Via Maurizio Gonzaga 5", "cap": "20123", "comune": "Milano" },
+  { "id": "ronchi-tudor-milano", "indirizzo": "Via Alessandro Manzoni 23", "cap": "20121", "comune": "Milano" },
+  { "id": "giglio-campi", "indirizzo": "Via di San Quirico 165", "cap": "50013", "comune": "Campi Bisenzio" },
+  { "id": "lamberti-sesto", "indirizzo": "Via Gramsci 298", "cap": "50019", "comune": "Sesto Fiorentino" },
+  { "id": "massari-campi", "indirizzo": "Via Santo Stefano 45/47", "cap": "50013", "comune": "Campi Bisenzio" },
+  { "id": "macchina-del-tempo-firenze", "indirizzo": "Via Guelfa 1/G", "cap": "50129", "comune": "Firenze" },
+  { "id": "hora-mundi-firenze", "indirizzo": "Via dei Fossi 21/R", "cap": "50123", "comune": "Firenze" }
+]

@@ -1,18 +1,39 @@
-# Orologiai.it — repository di importazione
+# Orologiai.it — directory dei professionisti del tempo
 
-Questa repository conterrà una copia statica del sito https://orologiai.it per permettere modifiche via Git (es. da Freebuff) e deployment su Vercel.
+Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. La versione proposta in questa PR contiene 35 attività in 18 località. **La copertura non è ancora nazionale completa**: una ricerca in una città non presente nel dataset non può mostrare attività verificate.
 
-Cosa fa questo repository ora:
-- aggiunge uno script/Workflow GitHub Actions che può scaricare (mirror) il sito pubblico e committarlo nella repo (workflow manuale - "Import site").
-- contiene un .gitignore consigliato.
+## Funzioni
 
-Istruzioni rapide:
-1. Vai su Actions → Import site → Run workflow per avviare l'importazione statica (workflow_dispatch).
-2. Il workflow creerà una cartella `public/` con i file statici e li committerà nel branch principale (main).
-3. Controlla i file importati nella repo (cartella `public/`). Se vuoi pubblicare su Vercel, connetti questa repo a Vercel e imposta la directory di output su `public/` (o sposta i file in root se preferisci).
+- Ricerca per testo, territorio, servizi e marchi, con pagine statiche indicizzabili.
+- Ricerca rapida dei servizi anche con espressioni comuni come “tagliando”, “cambio batteria” e “cinturino”. I risultati restano limitati ai servizi documentati per ogni attività.
+- Mappa delle sole posizioni verificate.
+- Assistente Orologiaio: interfaccia con interpretazione Gemini lato server e fallback deterministico. La chiamata AI richiede `GEMINI_API_KEY` configurata come secret sulla piattaforma; senza la chiave resta disponibile il fallback. La chiamata reale e la configurazione sul dominio di produzione non sono ancora verificate.
 
-Avvertenze:
-- Questa è una copia statica: tutte le parti dinamiche (login, carrelli, commenti, form che inviano dati al server, ricerca dinamica) non funzioneranno più a meno di sostituirle con soluzioni esterne.
-- Non caricare mai credenziali o il dump del database in questa repo.
+## Avvio e verifiche
 
-Se preferisci che importi io direttamente i file (caricando lo zip che hai), carica lo zip qui o condividi un link al backup e lo committerò io.
+Richiede Node **22.22+** e npm.
+
+```bash
+npm ci
+npm run dev -- --host 0.0.0.0 --port 3000
+npm run verify
+```
+
+`npm run verify` esegue typecheck, test, validazione del dataset, build e controlli HTML/SEO/interazione. L’output di build è `dist/`. Per configurazione e collaudo dell’assistente vedere [docs/ASSISTENTE-AI.md](docs/ASSISTENTE-AI.md).
+
+## Dati e copertura
+
+Il dataset autorevole è `site/data/directory.json`; le schede riportano fonti e stato di verifica. Le attività storiche e le informazioni operative non devono essere considerate confermate senza riscontro aggiornato. Le nuove voci vanno documentate e revisionate prima dell’inserimento; i candidati d’importazione non diventano automaticamente schede pubbliche. Non aggiungere indirizzi, orari o servizi non riscontrati.
+
+Per estendere la copertura italiana: usare la procedura di raccolta e revisione in [data/staging/README.md](data/staging/README.md), procedere per lotti regionali e trasferire nel dataset solo le attività con fonti adeguate. La copertura attuale non va presentata come censimento nazionale completo.
+
+## Struttura importante
+
+- `site/src/`: applicazione Astro/TypeScript.
+- `site/src/lib/search.ts`: motore di ricerca condiviso.
+- `site/data/directory.json`: dati pubblicati dall’applicazione.
+- `scripts/` e `tests/`: importazione controllata, validazione e verifiche.
+- `public/`: mirror storico da conservare; non è l’output della nuova app.
+- `data/staging/`: candidati e lotti di revisione, distinti dal dataset pubblico.
+
+Non committare chiavi API, file `.env` reali o dump. Le modifiche della PR devono essere revisionate prima del merge; il merge può avviare la pubblicazione di produzione secondo la configurazione del repository.

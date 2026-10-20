@@ -1,0 +1,688 @@
+{
+  "lotto": "toscana-02-20261016",
+  "data": "2026-10-16",
+  "contatori": {
+    "osmElementi": 27,
+    "osmCandidati": 25,
+    "candidatiConNome": 54,
+    "integrati": 25,
+    "stagingB": 28,
+    "esclusiC": 3,
+    "possibiliDuplicati": 4,
+    "totaleDatabase": 33
+  },
+  "decisioni": [
+    {
+      "id": "pisani-scandicci-matteotti",
+      "nome": "Pisani Gioielleria — Piazza Matteotti",
+      "gruppo": "A",
+      "integrataCome": "pisani-scandicci-matteotti",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "pisani-scandicci-maschera",
+      "nome": "Pisani Gioielleria — Galleria La Maschera",
+      "gruppo": "A",
+      "integrataCome": "pisani-scandicci-maschera",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "maggini-sesto",
+      "nome": "Oreficeria Orologeria Maggini",
+      "gruppo": "A",
+      "integrataCome": "maggini-sesto",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "rutili-empoli",
+      "nome": "Gioielleria Rutili",
+      "gruppo": "A",
+      "integrataCome": "rutili-empoli",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "ficioro-empoli",
+      "nome": "FiciOro",
+      "gruppo": "A",
+      "integrataCome": "ficioro-empoli",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "agnolucci-signa",
+      "nome": "Agnolucci Gioielleria — Signa",
+      "gruppo": "A",
+      "integrataCome": "agnolucci-signa",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "agnolucci-poggio",
+      "nome": "Agnolucci Gioielleria — Poggio a Caiano",
+      "gruppo": "A",
+      "integrataCome": "agnolucci-poggio",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "ora-di-piazza-bagno",
+      "nome": "L’Ora di Piazza di Rusconi Paolo",
+      "gruppo": "A",
+      "integrataCome": "ora-di-piazza-bagno",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "follie-oro-calenzano",
+      "nome": "Follie d’Oro — Calenzano",
+      "gruppo": "A",
+      "integrataCome": "follie-oro-calenzano",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "renai-pontassieve",
+      "nome": "Renai",
+      "gruppo": "A",
+      "integrataCome": "renai-pontassieve",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "renzopreziosi-figline",
+      "nome": "RenzoPreziosi",
+      "gruppo": "A",
+      "integrataCome": "renzopreziosi-figline",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "sottili-figline",
+      "nome": "Sottili Franco",
+      "gruppo": "A",
+      "integrataCome": "sottili-figline",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "gabbani-pontedera",
+      "nome": "Gioielleria Gabbani",
+      "gruppo": "A",
+      "integrataCome": "gabbani-pontedera",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "cerri-pontedera",
+      "nome": "Gioielleria Cerri Marco",
+      "gruppo": "A",
+      "integrataCome": "cerri-pontedera",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "orogenesi-pontedera",
+      "nome": "Gioielleria Orogenesi",
+      "gruppo": "A",
+      "integrataCome": "orogenesi-pontedera",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "oreoro-poggibonsi",
+      "nome": "Ore & Oro — Poggibonsi",
+      "gruppo": "A",
+      "integrataCome": "oreoro-poggibonsi",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "oreoro-colle",
+      "nome": "Ore & Oro — Colle di Val d’Elsa",
+      "gruppo": "A",
+      "integrataCome": "oreoro-colle",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "spaziotempo-sanminiato",
+      "nome": "Spazio Tempo",
+      "gruppo": "A",
+      "integrataCome": "spaziotempo-sanminiato",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "lombardi-montevarchi",
+      "nome": "Gioielleria e Orologeria Lombardi",
+      "gruppo": "A",
+      "integrataCome": "lombardi-montevarchi",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "rabiti-firenze",
+      "nome": "Orologeria Rabiti",
+      "gruppo": "A",
+      "integrataCome": "rabiti-firenze",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "zagli-firenze",
+      "nome": "Zagli Gioielli",
+      "gruppo": "A",
+      "integrataCome": "zagli-firenze",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "calistri-firenze",
+      "nome": "Ruben Calistri — Riparazione Orologi Firenze",
+      "gruppo": "A",
+      "integrataCome": "calistri-firenze",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "ugolini-firenzuola",
+      "nome": "Orologeria Ugolini",
+      "gruppo": "A",
+      "integrataCome": "ugolini-firenzuola",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "swatch-firenze-calzaiuoli",
+      "nome": "Swatch Store Firenze — Via dei Calzaiuoli",
+      "gruppo": "A",
+      "integrataCome": "swatch-firenze-calzaiuoli",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "metalli-scandicci",
+      "nome": "Metalli Preziosi — Scandicci",
+      "gruppo": "A",
+      "integrataCome": "metalli-scandicci",
+      "motivo": "Identità e pertinenza riscontrate con fonti ufficiali; solo campi documentati trasferiti."
+    },
+    {
+      "id": "osm-node-2361869726",
+      "nome": "Tomasini Francia",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-2361870945",
+      "nome": "TAG Heuer",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-3285951655",
+      "nome": "il Laboratorio dell'Orologiaio",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-3851961310",
+      "nome": "Omega",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-3999086974",
+      "nome": "Panerai",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-5961487988",
+      "nome": "Tissot",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-6008487549",
+      "nome": "Rolex",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-6334066424",
+      "nome": "Orologeria Kronos",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-6401491620",
+      "nome": "Orologeria",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-6869668013",
+      "nome": "Innocenti & Puggelli",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-6913736911",
+      "nome": "Orologeria Preziosi Perizie",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-7475750989",
+      "nome": "Dini & C.",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-7476789818",
+      "nome": "Antichi Orologi Nuti",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-7485085150",
+      "nome": "Hora Mundi",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-7489921337",
+      "nome": "Collini e C.",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-7489924914",
+      "nome": "Vannini",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-10804755206",
+      "nome": "La Macchina Del Tempo",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-13094606763",
+      "nome": "G B Zanieri Oro",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-13134546787",
+      "nome": "Crono",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-13446989801",
+      "nome": "Bracali Orlogeria",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-13678989954",
+      "nome": "Tictac",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-13752085171",
+      "nome": "Boutique Cassetti Jaeger-LeCoultre",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-14214485750",
+      "nome": "Firenzeraku",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "osm-node-14238531101",
+      "nome": "L’Orologiaio",
+      "gruppo": "B",
+      "motivo": "Individuazione OSM reale, ma non completato riscontro ufficiale e/o località/identità esatta. Nessuna promozione automatica."
+    },
+    {
+      "id": "giglio-campi",
+      "nome": "Il Giglio d’Oro — Campi Bisenzio",
+      "fonti": [
+        "giglio-contatti",
+        "giglio-lab"
+      ],
+      "motivo": "Sito con pagine storiche, CAP 50100 incongruo per Campi e orari potenzialmente obsoleti: confermare sede attuale prima della pubblicazione.",
+      "gruppo": "B"
+    },
+    {
+      "id": "giglio-sesto",
+      "nome": "Il Giglio d’Oro — Sesto Fiorentino",
+      "fonti": [
+        "giglio-contatti",
+        "giglio-lab"
+      ],
+      "motivo": "Due indirizzi diversi nelle fonti ufficiali: Via Gramsci 409 e Via Cavallotti 35. Non scegliere arbitrariamente.",
+      "gruppo": "B"
+    },
+    {
+      "id": "lamberti-sesto",
+      "nome": "Gioielleria Lamberti",
+      "fonti": [
+        "lamberti-lab"
+      ],
+      "motivo": "L’estrazione leggibile non restituisce i fatti necessari: prevale CSS/JSON. Richiesta verifica nel browser.",
+      "gruppo": "B"
+    },
+    {
+      "id": "massari-campi",
+      "nome": "Massari Gioielli",
+      "url": "https://massarigioielli.it/",
+      "motivo": "Pertinenza e telefono documentati; indirizzo emerso solo nello snippet. Raccolta successiva deve consolidare la sede senza basarsi soltanto sul motore di ricerca.",
+      "gruppo": "B"
+    },
+    {
+      "id": "scardi-candidato-02",
+      "nome": "Scardi Orologeria Oreficeria",
+      "fonti": [
+        "scardi-contatti-02"
+      ],
+      "duplicatoDi": "scardi",
+      "motivo": "Attività già presente fra le otto storiche; non creare una seconda scheda. Riscontro attuale conservato per un futuro aggiornamento della scheda originale.",
+      "gruppo": "C"
+    },
+    {
+      "id": "osm-scarto-16",
+      "nome": null,
+      "gruppo": "C",
+      "motivo": "Nome mancante: richiede ricerca separata"
+    },
+    {
+      "id": "osm-scarto-19",
+      "nome": null,
+      "gruppo": "C",
+      "motivo": "Nome mancante: richiede ricerca separata"
+    }
+  ],
+  "duplicati": [
+    {
+      "primo": "pisani-scandicci-matteotti",
+      "secondo": "pisani-scandicci-maschera",
+      "motivi": [
+        "Dominio ufficiale condiviso: possibile rete con più sedi"
+      ],
+      "esito": "sedi-distinte"
+    },
+    {
+      "primo": "agnolucci-signa",
+      "secondo": "agnolucci-poggio",
+      "motivi": [
+        "Dominio ufficiale condiviso: possibile rete con più sedi"
+      ],
+      "esito": "sedi-distinte"
+    },
+    {
+      "primo": "oreoro-poggibonsi",
+      "secondo": "oreoro-colle",
+      "motivi": [
+        "Dominio ufficiale condiviso: possibile rete con più sedi"
+      ],
+      "esito": "sedi-distinte"
+    }
+  ],
+  "confrontoLegacy": [
+    {
+      "id": "scardi-candidato-02",
+      "nome": "Scardi Orologeria Oreficeria",
+      "fonti": [
+        "scardi-contatti-02"
+      ],
+      "duplicatoDi": "scardi",
+      "motivo": "Attività già presente fra le otto storiche; non creare una seconda scheda. Riscontro attuale conservato per un futuro aggiornamento della scheda originale."
+    }
+  ],
+  "comuni": [
+    "Scandicci",
+    "Sesto Fiorentino",
+    "Empoli",
+    "Signa",
+    "Poggio a Caiano",
+    "Bagno a Ripoli",
+    "Calenzano",
+    "Pontassieve",
+    "Figline e Incisa Valdarno",
+    "Pontedera",
+    "Poggibonsi",
+    "Colle di Val d’Elsa",
+    "San Miniato",
+    "Montevarchi",
+    "Firenze",
+    "Firenzuola"
+  ],
+  "province": [
+    "Firenze",
+    "Prato",
+    "Pisa",
+    "Siena",
+    "Arezzo"
+  ],
+  "fonti": [
+    {
+      "id": "pisani-matteotti",
+      "url": "https://www.pisanigioielleria.com/pisani-gioielleria-piazza-giacomo-matteotti-scandicci",
+      "evidenza": "Piazza G. Matteotti 16, 50018 Scandicci (FI), 055 250228; TAG Heuer, Montblanc, Hamilton, Philip Watch nel punto vendita."
+    },
+    {
+      "id": "pisani-lab",
+      "url": "https://www.pisanigioielleria.com/laboratorio-orologeria",
+      "evidenza": "Servizio di rete: sostituzione cinturino, riparazione e revisione di meccanici/elettronici, manutenzione e lucidatura. Ubicazione del laboratorio non precisata."
+    },
+    {
+      "id": "pisani-maschera",
+      "url": "https://www.pisanigioielleria.com/pisani-gioielleria-galleria-la-maschera-scandicci",
+      "evidenza": "Piazzale della Resistenza 6/c, 50018 Scandicci, 055 252598; Breil, Daniel Wellington, Locman, Swatch, Flikflak, Casio, G-Shock."
+    },
+    {
+      "id": "maggini-contatti",
+      "url": "https://www.oreficeriamaggini.com/contatti",
+      "evidenza": "Via F. Cavallotti 14, 50019 Sesto Fiorentino FI; 055 4489197; oreficeria.maggini@gmail.com; martedì-sabato 9-13 e 16-19:30. Lunedì e domenica non specificati."
+    },
+    {
+      "id": "maggini-marchi",
+      "url": "https://www.oreficeriamaggini.com/articoli",
+      "evidenza": "Brand della gamma: Lorenz, Casio, Citizen, Sector. Non prova autorizzazioni né riparazioni."
+    },
+    {
+      "id": "rutili-contatti",
+      "url": "https://www.gioielleriaempoli.it/contatti/",
+      "evidenza": "Via Giuseppe del Papa 58/60, 50053 Empoli FI; 0571 74690, WhatsApp 335 399340, rutiligioielleria@virgilio.it. Orari festivi/stagionali senza anno esclusi."
+    },
+    {
+      "id": "rutili-servizi",
+      "url": "https://www.gioielleriaempoli.it/servizi-gioielleria/",
+      "evidenza": "Servizio di assistenza e riparazione orologi; incisioni su gioielli e orologi."
+    },
+    {
+      "id": "fici-contatti",
+      "url": "https://www.ficioro.it/contatti/",
+      "evidenza": "Via Jacopo Carrucci 73, 50053 Empoli FI, 0571 72465, info@ficioro.it."
+    },
+    {
+      "id": "fici-orologi",
+      "url": "https://www.ficioro.it/servizio-orologeria/",
+      "evidenza": "Vendita nuovi e modelli descritti come vintage; vintage non implica necessariamente usato. Segue clienti anche in caso di riparazione. Swatch, Lorus, Citizen, Lorenz. I consigli sulle batterie non provano un servizio di cambio pila."
+    },
+    {
+      "id": "agnolucci-signa",
+      "url": "https://www.agnoluccigioielleria.com/signa/",
+      "evidenza": "Sede nata nel 2010, Via Mazzini 12, 50058 Signa Firenze, 055 8734483; brand di orologeria e servizio riparazioni. Orari stagionali non normalizzati."
+    },
+    {
+      "id": "agnolucci-lab",
+      "url": "https://www.agnoluccigioielleria.com/laboratorio/",
+      "evidenza": "Sede/laboratorio Poggio a Caiano: Via Vittorio Emanuele II 9, 59016 PO, 055 877485; cambio pila, revisione, orologi d’epoca, pendolo e parete. Autorizzazioni dichiarate dal negozio non trasferite come ufficiali senza marchio."
+    },
+    {
+      "id": "calamai-rete",
+      "url": "https://www.orologicalamai.com/resellers/",
+      "tipo": "marchio-ufficiale",
+      "evidenza": "Rivenditori: L’Ora di Piazza di Rusconi Paolo, Via Roma 159, 50012 Bagno a Ripoli FI, 055 632549; Ugolini Via G. Villani 16/20 Firenzuola. Nessuna autorizzazione riparazione implicita."
+    },
+    {
+      "id": "follie-sedi",
+      "url": "https://www.folliedoro.it/",
+      "evidenza": "Sede Calenzano FI: CC Il Parco, Via Prato angolo Via Ciolli, 3429132156. Servizi di rete nei punti vendita: riparazioni orologi, cambio batterie, regolazioni e assistenza tecnica."
+    },
+    {
+      "id": "renai-servizi",
+      "url": "http://www.renai.it/2014-11-30-08-20-23",
+      "evidenza": "Via Ghiberti 115 Pontassieve FI; assistenza post-vendita per orologeria."
+    },
+    {
+      "id": "renai-storia",
+      "url": "http://www.renai.it/la-nostra-storia/item/105",
+      "evidenza": "Nel 1870 Agostino Renai aprì il negozio a Pontassieve; vendita e riparazione orologi, passaggi familiari documentati. Nessun marchio attuale dedotto da Renai/Janer storici."
+    },
+    {
+      "id": "renzo-home",
+      "url": "https://www.renzopreziosi.com/",
+      "evidenza": "Corso Matteotti 47 Figline Valdarno Firenze, 055 7098034, WhatsApp +39 347 5282214; dal 1985; assistenza/riparazione moderni e d’epoca. Meta description cita Reggello: indirizzo di pagina scelto e conflitto annotato."
+    },
+    {
+      "id": "renzo-vendita",
+      "url": "https://www.renzopreziosi.com/vuole-vendere-il-suo-orologio/",
+      "evidenza": "Acquisto orologi e intere collezioni, conto vendita; stesso indirizzo Figline Valdarno."
+    },
+    {
+      "id": "comune-fiv",
+      "url": "https://www.comunefiv.it/",
+      "evidenza": "Denominazione amministrativa corrente: Comune di Figline e Incisa Valdarno; le sedi delle attività indicano Figline Valdarno.",
+      "tipo": "directory"
+    },
+    {
+      "id": "sottili-hamilton",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italie/toscana/figline-valdarno/sottili-franco",
+      "tipo": "marchio-ufficiale",
+      "evidenza": "Sottili Franco, Piazza M. Ficino 73, 50063 Figline Valdarno, 055/9152013, info@sottili.com, Official Retailer Hamilton. Non riparatore ufficiale."
+    },
+    {
+      "id": "gabbani-contatti",
+      "url": "https://www.gabbanigioielleria.it/contatti/",
+      "evidenza": "Via I° Maggio 6, 56025 Pontedera PI, 0587 53826, graziano.gabbani@hotmail.it."
+    },
+    {
+      "id": "gabbani-lab",
+      "url": "https://www.gabbanigioielleria.it/laboratorio-orologi-e-gioielli/",
+      "evidenza": "Riparare, revisionare e restaurare orologi di oggi e ieri; laboratorio orafo nato a Pontedera nel 1967."
+    },
+    {
+      "id": "gabbani-tissot",
+      "url": "https://www.gabbanigioielleria.it/tissot/",
+      "evidenza": "Tissot uomo/donna nell’offerta; non fonte di autorizzazione."
+    },
+    {
+      "id": "cerri-contatti",
+      "url": "https://www.gioielleriacerrimarco.it/privacy-policy/",
+      "evidenza": "Recapiti commerciali pubblici: Via Alessandro Manzoni 15, 56025 Pontedera PI, +39 0587 54588, patrizia_cerri@virgilio.it."
+    },
+    {
+      "id": "cerri-home",
+      "url": "https://www.gioielleriacerrimarco.it/",
+      "evidenza": "Vendita e riparazione orologi; dal 1964 a Pontedera. Non raccolti dati personali degli utenti o recensioni."
+    },
+    {
+      "id": "orogenesi-lab",
+      "url": "https://www.orogenesi85.it/laboratorio/",
+      "evidenza": "Corso Matteotti 84 Pontedera PI, 0587 54676; riparazione orologi, batterie, restauro antichi, sostituzione vetri/quadranti, valutazioni. Nessuna recensione copiata."
+    },
+    {
+      "id": "oreoro-sedi",
+      "url": "https://www.oreoro.it/negozi.html",
+      "evidenza": "Poggibonsi: Via della Repubblica 102/104 53036 SI, 0577 935118. Colle di Val d’Elsa: Via Mazzini 27 53034 SI, 0577 922980."
+    },
+    {
+      "id": "oreoro-home",
+      "url": "https://www.oreoro.it/",
+      "evidenza": "Dal 1990 vendita orologeria e laboratorio. Marchi di rete, non assegnati a singole sedi senza conferma: Locman, Montblanc, Casio, Citizen e altri."
+    },
+    {
+      "id": "spazio-contatti",
+      "url": "https://www.spaziotempoboutique.com/privacy-policy/",
+      "evidenza": "Recapiti attività: Via 4 Novembre 14 San Miniato Pisa; spaziotempodifiaschivoria@gmail.com. Non raccolti dati personali degli utenti."
+    },
+    {
+      "id": "spazio-boutique",
+      "url": "https://www.spaziotempoboutique.com/boutique-orologi-di-lusso/",
+      "evidenza": "Compravendita orologi di lusso usati a San Miniato; esempi Rolex/Panerai di secondo polso. Non concessionario ufficiale."
+    },
+    {
+      "id": "lombardi-breil",
+      "url": "https://www.breil.com/store/rivenditori-manta/gioielleria-e-orologeria-lombardi/",
+      "tipo": "marchio-ufficiale",
+      "evidenza": "Via Roma 48/50 Montevarchi 52025 AR, 055980948, gioiellerialombardi@alice.it; Rivenditori Autorizzati Breil."
+    },
+    {
+      "id": "lombardi-home",
+      "url": "https://www.gioiellerialombardi.com/",
+      "evidenza": "Dal 1960; vendita orologi e riparazioni gioielli/orologi. Non dedotta assistenza ufficiale dalla concessione Breil."
+    },
+    {
+      "id": "rabiti-home",
+      "url": "https://www.orologeriarabiti.com/",
+      "evidenza": "Piazza Taddeo Gaddi 22/R Firenze; 055 7131688, rabitimaurizio@libero.it; dal 1995, revisioni, lucidatura, prove impermeabilità. Lun-ven 09-13/15-18:30, sab/dom chiusi."
+    },
+    {
+      "id": "zagli-contatti",
+      "url": "https://zagli.it/contatti/",
+      "evidenza": "Via Luigi Boccherini 45 Firenze FI, +39 055 330872, info@zagli.it, WhatsApp 3394160068."
+    },
+    {
+      "id": "zagli-lab",
+      "url": "https://zagli.it/laboratorio-orologi/",
+      "evidenza": "Nato nel 1987; manutenzione, riparazione e secondo polso. Elenca marchi riparati e specializzazioni Rolex/Audemars Piguet; autorizzazioni non confermate su rete del marchio."
+    },
+    {
+      "id": "calistri-home",
+      "url": "https://www.riparazioneorologifirenze.it/",
+      "evidenza": "Laboratorio Firenze senza indirizzo visitabile pubblicato; 3534794203, info@riparazioneorologifirenze.it. Riparazione meccanici/automatici, tasca, pendole, restauro e lucidatura; lista marchi riparati. Nessuna autorizzazione dichiarata ufficiale."
+    },
+    {
+      "id": "ugolini-contatti",
+      "url": "https://www.orologeriaugolini.com/contatti",
+      "evidenza": "Via G. Villani 16,18,20 50033 Firenzuola Firenze; 055819275; info@orologeriaugolini.com. Vendita/riparazione/restauro indicati nella descrizione della pagina."
+    },
+    {
+      "id": "ugolini-lab",
+      "url": "https://www.orologeriaugolini.com/laboratorio",
+      "evidenza": "Laboratorio dietro al negozio. Nessun elenco nominativo di autorizzazioni leggibile trasferito."
+    },
+    {
+      "id": "swatch-calzaiuoli",
+      "url": "https://www.swatch.com/it-it/storedetails?sid=R282371",
+      "tipo": "marchio-ufficiale",
+      "evidenza": "Via dei Calzaiuoli 94, 50122 Firenze, +39 3482303982; tutti i giorni 10-20. Cambio batteria/cinturino, assistenza in garanzia in negozio. Non prova revisione meccanica autorizzata."
+    },
+    {
+      "id": "metalli-contatti",
+      "url": "https://www.metallipreziosi.it/contatti/",
+      "evidenza": "Via Baccio da Montelupo 15, 50018 Scandicci FI, 0557356742, info@metallipreziosi.it. Orari settimanali leggibili."
+    },
+    {
+      "id": "metalli-servizi",
+      "url": "https://www.metallipreziosi.it/servizi/",
+      "evidenza": "Compravendita nuovi/usati e collaborazione con orologiaio esterno per restauro/ispezione/revisione. Rolex è esempio di marchio lavorato, non autorizzazione."
+    },
+    {
+      "id": "giglio-contatti",
+      "url": "http://www.ilgigliodoro.com/contatti.html",
+      "evidenza": "Campi: Via San Quirico 165 ma CAP 50100 sospetto; Sesto Via Gramsci 409. Pagina storica con copyright 2008-2014."
+    },
+    {
+      "id": "giglio-lab",
+      "url": "http://www.ilgigliodoro.com/laboratorio/",
+      "evidenza": "Sesto Via Cavallotti 35 in conflitto con contatti; Campi stesso CAP sospetto. Autorizzazioni del laboratorio solo autodichiarate. Entrambe sedi mantenute B."
+    },
+    {
+      "id": "lamberti-lab",
+      "url": "https://www.gioiellerialamberti.it/laboratorio-lamberti",
+      "evidenza": "Estrazione restituisce prevalentemente CSS/JSON: identità e dati da controllare con browser, non pubblicati."
+    },
+    {
+      "id": "scardi-contatti-02",
+      "url": "https://scardi.it/contatti/dove_siamo/",
+      "evidenza": "Scardi, Via Gabriele D’Annunzio 8/A 50135 Firenze, 055676615. Stessa identità legacy scardi: nessuna seconda scheda."
+    }
+  ],
+  "osm": {
+    "sha256": "fb94973bd59f47d281ead736cc04425d917b95e64b8b94174991d5e3449f4014",
+    "licenza": "ODbL-1.0",
+    "attribuzione": "© OpenStreetMap contributors",
+    "nota": "I candidati e le coordinate OSM restano nella raccolta intermedia. Unica corrispondenza pubblicata: Swatch, riscontrata indipendentemente sul sito ufficiale; ID OSM conservato, nessun campo geografico OSM copiato nel dataset pubblico."
+  }
+}

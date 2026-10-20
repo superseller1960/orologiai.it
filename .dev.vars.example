@@ -1,0 +1,2 @@
+# Esempio per Cloudflare Pages in locale (wrangler pages dev). Copiare in .dev.vars; non committare.
+GEMINI_API_KEY=

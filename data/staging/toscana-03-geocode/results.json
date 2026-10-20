@@ -1,0 +1,619 @@
+{
+  "lotto": "qualita-mappa-03-20261016",
+  "fornitore": "Nominatim (OpenStreetMap Foundation)",
+  "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+  "raccoltaIl": "2026-10-16",
+  "nota": "Geocodifica di sola verifica: le coordinate pubblicate derivano da un confronto manuale tra indirizzo ufficiale e risultato, mai da un accettazione automatica.",
+  "results": [
+    {
+      "target": {
+        "id": "scardi",
+        "indirizzo": "Via Gabriele D'Annunzio 8/A",
+        "cap": "50135",
+        "comune": "Firenze"
+      },
+      "query": "Via Gabriele D'Annunzio 8/A, 50135, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81454059,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361941837,
+          "lat": "43.7745561",
+          "lon": "11.2874469",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "8a, Via Gabriele D'Annunzio, San Salvi, Quartiere 2, Firenze, Toscana, 50136, Italia",
+          "address": {
+            "house_number": "8a",
+            "road": "Via Gabriele D'Annunzio",
+            "neighbourhood": "San Salvi",
+            "suburb": "Quartiere 2",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50136",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7745061",
+            "43.7746061",
+            "11.2873969",
+            "11.2874969"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "marretti",
+        "indirizzo": "Via dei Calzaiuoli 86/R",
+        "cap": "50122",
+        "comune": "Firenze"
+      },
+      "query": "Via dei Calzaiuoli 86/R, 50122, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81460151,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361951025,
+          "lat": "43.7717704",
+          "lon": "11.2554084",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "86 R, Via dei Calzaiuoli, Quartiere 1, Firenze, Toscana, 50122, Italia",
+          "address": {
+            "house_number": "86 R",
+            "road": "Via dei Calzaiuoli",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50122",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7717204",
+            "43.7718204",
+            "11.2553584",
+            "11.2554584"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "fani-gioielli",
+        "indirizzo": "Via de' Tornabuoni 72/R",
+        "cap": "50123",
+        "comune": "Firenze"
+      },
+      "query": "Via de' Tornabuoni 72/R, 50123, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81932034,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361920594,
+          "lat": "43.7720632",
+          "lon": "11.2514195",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "72 R, Via dei Tornabuoni, Quartiere 1, Firenze, Toscana, 50123, Italia",
+          "address": {
+            "house_number": "72 R",
+            "road": "Via dei Tornabuoni",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50123",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7720132",
+            "43.7721132",
+            "11.2513695",
+            "11.2514695"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "bigalli",
+        "indirizzo": "Via Maso Finiguerra 4/A",
+        "cap": "50123",
+        "comune": "Firenze"
+      },
+      "query": "Via Maso Finiguerra 4/A, 50123, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81270993,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361858998,
+          "lat": "43.7736300",
+          "lon": "11.2450248",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "4a, Via Maso Finiguerra, San Frediano, Quartiere 1, Firenze, Toscana, 50100, Italia",
+          "address": {
+            "house_number": "4a",
+            "road": "Via Maso Finiguerra",
+            "neighbourhood": "San Frediano",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50100",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7735800",
+            "43.7736800",
+            "11.2449748",
+            "11.2450748"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "senzatempo-firenze",
+        "indirizzo": "Piazza Madonna degli Aldobrandini 14/R",
+        "cap": "50123",
+        "comune": "Firenze"
+      },
+      "query": "Piazza Madonna degli Aldobrandini 14/R, 50123, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81899090,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361684033,
+          "lat": "43.7748032",
+          "lon": "11.2530216",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "14 R, Piazza Madonna degli Aldobrandini, Quartiere 1, Firenze, Toscana, 50123, Italia",
+          "address": {
+            "house_number": "14 R",
+            "road": "Piazza Madonna degli Aldobrandini",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50123",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7747532",
+            "43.7748532",
+            "11.2529716",
+            "11.2530716"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "sangalli",
+        "indirizzo": "Via Bergamini 7",
+        "cap": "20122",
+        "comune": "Milano"
+      },
+      "query": "Via Bergamini 7, 20122, Milano, Italia",
+      "risultati": [
+        {
+          "place_id": 75915745,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 13171207931,
+          "lat": "45.4618000",
+          "lon": "9.1941462",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008390707255660361,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "7, Via Bergamini, Duomo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, Lombardia, 20122, Italia",
+          "address": {
+            "house_number": "7",
+            "road": "Via Bergamini",
+            "census": "Duomo",
+            "subdivision": "Cerchia dei Navigli",
+            "suburb": "Municipio 1",
+            "city": "Milano",
+            "municipality": "Rodano",
+            "county": "Milano",
+            "ISO3166-2-lvl6": "IT-MI",
+            "state": "Lombardia",
+            "ISO3166-2-lvl4": "IT-25",
+            "postcode": "20122",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "45.4617500",
+            "45.4618500",
+            "9.1940962",
+            "9.1941962"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "rocca",
+        "indirizzo": "Piazza Duomo 25",
+        "cap": "20121",
+        "comune": "Milano"
+      },
+      "query": "Piazza Duomo 25, 20121, Milano, Italia",
+      "risultati": [
+        {
+          "place_id": 76163751,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 463529462,
+          "lat": "45.4639102",
+          "lon": "9.1906398",
+          "category": "place",
+          "type": "square",
+          "place_rank": 25,
+          "importance": 0.45987298670095283,
+          "addresstype": "square",
+          "name": "Piazza del Duomo",
+          "display_name": "Piazza del Duomo, Duomo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, Lombardia, Italia",
+          "address": {
+            "square": "Piazza del Duomo",
+            "census": "Duomo",
+            "subdivision": "Cerchia dei Navigli",
+            "suburb": "Municipio 1",
+            "city": "Milano",
+            "municipality": "Rodano",
+            "county": "Milano",
+            "ISO3166-2-lvl6": "IT-MI",
+            "state": "Lombardia",
+            "ISO3166-2-lvl4": "IT-25",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "45.4629966",
+            "45.4647918",
+            "9.1883468",
+            "9.1929820"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "ronchi-gioielli",
+        "indirizzo": "Via Maurizio Gonzaga 5",
+        "cap": "20123",
+        "comune": "Milano"
+      },
+      "query": "Via Maurizio Gonzaga 5, 20123, Milano, Italia",
+      "risultati": [
+        {
+          "place_id": 76056613,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 7235042669,
+          "lat": "45.4615199",
+          "lon": "9.1892200",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008390707255660361,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "5, Via Maurizio Gonzaga, Duomo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, Lombardia, 20123, Italia",
+          "address": {
+            "house_number": "5",
+            "road": "Via Maurizio Gonzaga",
+            "census": "Duomo",
+            "subdivision": "Cerchia dei Navigli",
+            "suburb": "Municipio 1",
+            "city": "Milano",
+            "municipality": "Rodano",
+            "county": "Milano",
+            "ISO3166-2-lvl6": "IT-MI",
+            "state": "Lombardia",
+            "ISO3166-2-lvl4": "IT-25",
+            "postcode": "20123",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "45.4614699",
+            "45.4615699",
+            "9.1891700",
+            "9.1892700"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "ronchi-tudor-milano",
+        "indirizzo": "Via Alessandro Manzoni 23",
+        "cap": "20121",
+        "comune": "Milano"
+      },
+      "query": "Via Alessandro Manzoni 23, 20121, Milano, Italia",
+      "risultati": [
+        {
+          "place_id": 75865432,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 13230415883,
+          "lat": "45.4696693",
+          "lon": "9.1922227",
+          "category": "shop",
+          "type": "watches",
+          "place_rank": 30,
+          "importance": 0.00008390707255660361,
+          "addresstype": "shop",
+          "name": "Tudor",
+          "display_name": "Tudor, 23, Via Alessandro Manzoni, Borgonuovo, Cerchia dei Navigli, Municipio 1, Milano, Rodano, Milano, Lombardia, 20121, Italia",
+          "address": {
+            "shop": "Tudor",
+            "house_number": "23",
+            "road": "Via Alessandro Manzoni",
+            "neighbourhood": "Borgonuovo",
+            "subdivision": "Cerchia dei Navigli",
+            "suburb": "Municipio 1",
+            "city": "Milano",
+            "municipality": "Rodano",
+            "county": "Milano",
+            "ISO3166-2-lvl6": "IT-MI",
+            "state": "Lombardia",
+            "ISO3166-2-lvl4": "IT-25",
+            "postcode": "20121",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "45.4696193",
+            "45.4697193",
+            "9.1921727",
+            "9.1922727"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "giglio-campi",
+        "indirizzo": "Via di San Quirico 165",
+        "cap": "50013",
+        "comune": "Campi Bisenzio"
+      },
+      "query": "Via di San Quirico 165, 50013, Campi Bisenzio, Italia",
+      "risultati": []
+    },
+    {
+      "target": {
+        "id": "lamberti-sesto",
+        "indirizzo": "Via Gramsci 298",
+        "cap": "50019",
+        "comune": "Sesto Fiorentino"
+      },
+      "query": "Via Gramsci 298, 50019, Sesto Fiorentino, Italia",
+      "risultati": [
+        {
+          "place_id": 81906376,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 7306758763,
+          "lat": "43.8339326",
+          "lon": "11.2005283",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.000058412298771603224,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "298, Via Antonio Gramsci, Zambra, Sesto Fiorentino, Firenze, Toscana, 50019, Italia",
+          "address": {
+            "house_number": "298",
+            "road": "Via Antonio Gramsci",
+            "suburb": "Zambra",
+            "town": "Sesto Fiorentino",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50019",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.8338826",
+            "43.8339826",
+            "11.2004783",
+            "11.2005783"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "massari-campi",
+        "indirizzo": "Via Santo Stefano 45/47",
+        "cap": "50013",
+        "comune": "Campi Bisenzio"
+      },
+      "query": "Via Santo Stefano 45/47, 50013, Campi Bisenzio, Italia",
+      "risultati": [
+        {
+          "place_id": 82110492,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "way",
+          "osm_id": 588183820,
+          "lat": "43.8215594",
+          "lon": "11.1362041",
+          "category": "highway",
+          "type": "residential",
+          "place_rank": 26,
+          "importance": 0.05339160219729912,
+          "addresstype": "road",
+          "name": "Via Santo Stefano",
+          "display_name": "Via Santo Stefano, Santa Maria, Capalle, Campi Bisenzio, Firenze, Toscana, 50013, Italia",
+          "address": {
+            "road": "Via Santo Stefano",
+            "suburb": "Santa Maria",
+            "village": "Capalle",
+            "town": "Campi Bisenzio",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50013",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.8210754",
+            "43.8220434",
+            "11.1349814",
+            "11.1374267"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "macchina-del-tempo-firenze",
+        "indirizzo": "Via Guelfa 1/G",
+        "cap": "50129",
+        "comune": "Firenze"
+      },
+      "query": "Via Guelfa 1/G, 50129, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81643385,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 10804755206,
+          "lat": "43.7768523",
+          "lon": "11.2568264",
+          "category": "shop",
+          "type": "watches",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "shop",
+          "name": "La Macchina Del Tempo",
+          "display_name": "La Macchina Del Tempo, 1/G R, Via Guelfa, Quartiere 1, Firenze, Toscana, 50129, Italia",
+          "address": {
+            "shop": "La Macchina Del Tempo",
+            "house_number": "1/G R",
+            "road": "Via Guelfa",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50129",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7768023",
+            "43.7769023",
+            "11.2567764",
+            "11.2568764"
+          ]
+        }
+      ]
+    },
+    {
+      "target": {
+        "id": "hora-mundi-firenze",
+        "indirizzo": "Via dei Fossi 21/R",
+        "cap": "50123",
+        "comune": "Firenze"
+      },
+      "query": "Via dei Fossi 21/R, 50123, Firenze, Italia",
+      "risultati": [
+        {
+          "place_id": 81965779,
+          "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+          "osm_type": "node",
+          "osm_id": 2361726800,
+          "lat": "43.7716238",
+          "lon": "11.2481944",
+          "category": "place",
+          "type": "house",
+          "place_rank": 30,
+          "importance": 0.00008105668726630072,
+          "addresstype": "place",
+          "name": "",
+          "display_name": "21 R, Via dei Fossi, San Frediano, Quartiere 1, Firenze, Toscana, 50123, Italia",
+          "address": {
+            "house_number": "21 R",
+            "road": "Via dei Fossi",
+            "neighbourhood": "San Frediano",
+            "suburb": "Quartiere 1",
+            "city": "Firenze",
+            "county": "Firenze",
+            "ISO3166-2-lvl6": "IT-FI",
+            "state": "Toscana",
+            "ISO3166-2-lvl4": "IT-52",
+            "postcode": "50123",
+            "country": "Italia",
+            "country_code": "it"
+          },
+          "boundingbox": [
+            "43.7715738",
+            "43.7716738",
+            "11.2481444",
+            "11.2482444"
+          ]
+        }
+      ]
+    }
+  ]
+}

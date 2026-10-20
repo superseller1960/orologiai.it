@@ -1,0 +1,10 @@
+/* Una singola raccolta pilota; salvare il risultato JSON e non ripetere a ogni build.
+   BBox Firenze e comuni limitrofi, NON confine amministrativo della Toscana.
+   Non usare loop di bbox per ricostruire l'Italia tramite istanze pubbliche. */
+[out:json][timeout:25];
+(
+  nwr["shop"="watches"](43.55,11.0,43.95,11.5);
+  nwr["craft"="watchmaker"](43.55,11.0,43.95,11.5);
+  nwr["craft"="clockmaker"](43.55,11.0,43.95,11.5);
+);
+out body center;

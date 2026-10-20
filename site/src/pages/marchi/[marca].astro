@@ -1,0 +1,13 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BusinessCard from '../../components/BusinessCard.astro';
+import { directory, brandNames, slugify } from '../../lib/directory';
+export function getStaticPaths() { return brandNames.map(name => ({ params: { marca: slugify(name) }, props: { name } })); }
+interface Props { name: string; }
+const { name } = Astro.props;
+const groups = { venduti: 'Vendita documentata', riparati: 'Riparazione documentata', esperienza: 'Esperienza dichiarata', assistenzaUfficiale: 'Assistenza ufficialmente autorizzata', rivenditaUfficiale: 'Rivendita ufficialmente autorizzata', menzionati: 'Menzioni nelle fonti storiche' };
+---
+<Layout title={`${name} — attività e informazioni documentate`} description={`Distingui vendita, riparazione e assistenza ufficiale ${name}. Le menzioni storiche non certificano autorizzazioni attuali.`}>
+<section class="page-hero"><div class="container"><p class="eyebrow">Marchi e competenze</p><h1>{name}, senza equivoci.</h1><p class="lead">Vendere, riparare e offrire assistenza ufficiale sono ruoli diversi. Li teniamo separati, insieme alle relative fonti.</p></div></section>
+<section class="container section"><p class="notice">Le autorizzazioni ufficiali richiedono una fonte attuale del marchio. Il solo archivio storico non è sufficiente.</p>{Object.entries(groups).map(([key,label]) => { const records = directory.attivita.filter(b => b.marchi[key as keyof typeof b.marchi].some(c => c.marca === name)); return <section class="brand-group"><h2>{label}</h2>{records.length ? <ul class="grid">{records.map(b => <BusinessCard business={b} />)}</ul> : <p class="muted">Nessuna attività documentata per questo ruolo nel database attuale.</p>}</section>; })}</section>
+</Layout>

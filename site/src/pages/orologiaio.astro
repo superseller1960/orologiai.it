@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/chat.css';
+import { MAX_MESSAGGIO } from '../lib/assistant';
+const suggerimenti = [
+  'Cerco un orologiaio vicino a me.',
+  'Devo revisionare un orologio automatico.',
+  'Cerco assistenza ufficiale per un marchio.',
+  'Devo riparare un orologio.',
+  'Vorrei informazioni sulla manutenzione.',
+];
+---
+<Layout title="Chiedi all’Orologiaio" description="Scrivi che cosa ti serve: l’Orologiaio cerca nel database delle orologerie, mostra le fonti e distingue i servizi documentati dalle autorizzazioni ufficiali dei marchi." noindex={false}>
+  <section class="page-hero compact"><div class="container"><p class="eyebrow">Orologiaio</p><h1>Descrivi il problema,<br />troviamo la bottega giusta.</h1><p class="lead">Scrivi in linguaggio naturale. L’Orologiaio cerca nel database reale e spiega perché ogni attività compare. Dove un’informazione manca, lo dice.</p></div></section>
+  <section class="container section chat-section">
+    <div class="chat" id="assistente">
+      <div class="chat-top">
+        <div>
+          <p class="chat-kicker">Assistente</p>
+          <h2 class="chat-title">Orologiaio</h2>
+        </div>
+        <p id="assistente-modalita" class="chat-badge" hidden></p>
+      </div>
+      <div class="chat-log" id="assistente-chat" role="log" aria-live="polite" aria-relevant="additions text" aria-busy="false">
+        <article class="msg msg-bot">
+          <p class="msg-autore">Orologiaio</p>
+          <p>Ciao! Ti aiuto a trovare l’orologiaio giusto per le tue esigenze. Raccontami che cosa ti serve: una revisione, una riparazione, assistenza per un marchio specifico o semplicemente un professionista vicino a te.</p>
+        </article>
+        <div class="chat-suggerimenti" id="assistente-suggerimenti">
+          <p class="msg-suggerimenti-intro">Non sai da dove iniziare? Prova una di queste richieste:</p>
+          <ul class="chips">
+            {suggerimenti.map(s => <li><button type="button" class="chip" data-suggerimento={s}>{s}</button></li>)}
+          </ul>
+        </div>
+      </div>
+      <form id="assistente-form" class="composer" novalidate>
+        <label class="sr-only" for="assistente-messaggio">Che cosa ti serve?</label>
+        <div class="composer-row">
+          <textarea id="assistente-messaggio" name="messaggio" rows="1" maxlength={MAX_MESSAGGIO} placeholder="Scrivi qui che cosa ti serve…" enterkeyhint="send" autocomplete="off" aria-describedby="assistente-contatore assistente-aiuto"></textarea>
+          <button type="submit" id="assistente-invia" class="composer-send" aria-label="Invia il messaggio">
+            <svg class="composer-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3 20.5 21 12 3 3.5 3 10l12 2-12 2z" fill="currentColor" /></svg>
+            <span class="composer-label">Invia</span>
+          </button>
+        </div>
+        <div class="composer-meta">
+          <span id="assistente-contatore" class="contatore">0 / {MAX_MESSAGGIO}</span>
+          <span id="assistente-aiuto" class="composer-hint">Invio per inviare · Maiusc + Invio per andare a capo</span>
+        </div>
+        <p id="assistente-campo-errore" class="composer-errore" hidden></p>
+      </form>
+      <p id="assistente-stato" class="sr-only" role="status" aria-live="polite"></p>
+    </div>
+    <p class="chat-note small muted">L’interpretazione usa il modello AI solo quando è configurato e raggiungibile; altrimenti usa regole locali dichiarate. In entrambi i casi i risultati vengono dal database di Orologiai.it, con le fonti nella scheda. Nessuna disponibilità immediata o autorizzazione ufficiale viene dedotta se non è documentata. <a href="/cerca/">Preferisci i filtri classici? Usa la ricerca del database →</a></p>
+  </section>
+  <script src="../scripts/assistant-ui.ts"></script>
+</Layout>

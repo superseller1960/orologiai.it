@@ -1,0 +1,14 @@
+---
+import blogHtml from '../../blog/index.html?raw';
+import rolexHtml from '../../rolex/index.html?raw';
+import Layout from '../layouts/Layout.astro';
+interface Props { page: 'rolex' | 'blog'; title: string; }
+const { page, title } = Astro.props;
+const file = page === 'blog' ? blogHtml : rolexHtml;
+const main = file.match(/<main>([\s\S]*?)<\/main>/)?.[1];
+if (!main) throw new Error(`Articolo storico non leggibile: ${page}`);
+---
+<Layout title={title} description="Contenuto editoriale conservato dalla prima versione del sito, in attesa di revisione delle fonti attuali." noindex>
+  <div class="container"><p class="notice">Contenuto della prima versione, conservato integralmente e in attesa di revisione editoriale. Le indicazioni storiche, le date e le autorizzazioni citate non costituiscono una verifica attuale. <a href="/metodo/">Leggi il metodo</a>.</p>{page === 'rolex' && <p><a href="/marchi/rolex/">Vai alle relazioni con il marchio nel database aggiornato →</a></p>}</div>
+  <div set:html={main}></div>
+</Layout>

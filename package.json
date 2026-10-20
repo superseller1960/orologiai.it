@@ -1,0 +1,40 @@
+{
+  "name": "orologiai-directory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check && tsc --noEmit -p tsconfig.tools.json",
+    "validate": "tsx scripts/validate.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "test:ui": "tsx scripts/test-ui.ts && tsx scripts/test-assistant-ui.ts",
+    "test:gemini:live": "tsx scripts/verify-gemini-live.ts",
+    "verify": "npm run check && npm test && npm run build && npm run test:ui",
+    "build": "npm run validate && astro build && tsx scripts/check-build.ts",
+    "migrate:legacy": "tsx scripts/migrate-legacy.ts",
+    "import:osm": "tsx scripts/import-osm.ts",
+    "fetch:osm:pilot": "tsx scripts/fetch-osm-pilot.ts",
+    "integrate:toscana-02": "tsx scripts/integrate-toscana-02.ts"
+  },
+  "dependencies": {
+    "astro": "7.4.0",
+    "leaflet": "^1.9.4",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/jsdom": "27.0.0",
+    "@types/leaflet": "^1.9.20",
+    "@types/leaflet.markercluster": "^1.5.5",
+    "@types/node": "24.19.2",
+    "esbuild": "0.28.2",
+    "jsdom": "27.4.0",
+    "leaflet.markercluster": "^1.5.3",
+    "tsx": "4.23.15",
+    "typescript": "6.0.3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "versione": 1,
+  "area": {
+    "id": "firenze-area-pilota",
+    "nome": "Area pilota Firenze e comuni limitrofi — appartenenza amministrativa da verificare",
+    "bbox": [
+      43.55,
+      11,
+      43.95,
+      11.5
+    ]
+  },
+  "sha256": "fb94973bd59f47d281ead736cc04425d917b95e64b8b94174991d5e3449f4014",
+  "estrattoUrl": "https://overpass-api.de/api/interpreter",
+  "importatoIl": "2026-10-16T03:53:26.371Z",
+  "timestampDati": "2026-10-16T03:49:25Z",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "copyrightOriginale": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+}
