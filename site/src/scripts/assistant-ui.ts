@@ -317,7 +317,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         if (esito.totale > esito.risultati.length) risposta.append(el('p', `Mostro ${esito.risultati.length} attività su ${esito.totale}. Aggiungi un criterio per restringere.`, 'small muted'));
       }
       if (esito.alternative.length) {
-        const titolo = el('p', 'Alternative da verificare (non autorizzate)', 'msg-sottotitolo');
+        const titolo = el('p', criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale' ? 'Alternative da verificare (non autorizzate)' : criteri.localitaNonCensita || criteri.localita || criteri.provincia || criteri.regione ? 'Altre località censite (non necessariamente vicine)' : 'Altre attività da verificare', 'msg-sottotitolo');
         risposta.append(titolo, listaRisultati(esito.alternative));
       }
       if (ereditati.length) {
