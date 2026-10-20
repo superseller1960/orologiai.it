@@ -220,3 +220,24 @@ test('risultati vuoti spiegati senza invenzioni', () => {
   const r = cerca('restauro di orologi da tasca antichi a Pontedera', {});
   if (r.totale === 0) assert.match(r.messaggi.join(' '), /Nessuna attività soddisfa/);
 });
+
+
+test('città non censita in minuscolo propone lo stesso servizio in altri comuni', () => {
+  const criteri = interpretaRichiesta('Cerco cambio batteria a milano', data).criteri;
+  assert.equal(criteri.localitaNonCensita, 'milano');
+  assert.equal(criteri.servizio, 'batterie');
+  const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
+  assert.equal(risultato.stato, 'localita-non-censita');
+  assert.ok(risultato.alternative.length > 0);
+  for (const alternativa of risultato.alternative) {
+    const attivita = data.attivita.find(x => x.id === alternativa.id)!;
+    assert.ok(attivita.servizi.some(s => s.id === 'batterie'));
+  }
+  assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);
+});
+
+test('richieste senza città non scambiano le preposizioni per località', () => {
+  const telefono = interpretaRichiesta('Dammi il numero di telefono personale del titolare', data).criteri;
+  assert.equal(telefono.localitaNonCensita, undefined);
+  assert.equal(cerca('Dammi il numero di telefono personale del titolare').stato, 'nessun-criterio');
+});
