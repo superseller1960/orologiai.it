@@ -67,7 +67,7 @@ test('ricerca CAP e indirizzo solo se realmente presenti; non deduce servizi', (
 test('distanze corrette, mancanti in coda e nessuna precisione simulata', () => {
   assert.equal(distanceKm({lat:0,lon:0},{lat:0,lon:0}),0);
   assert.ok(Math.abs(distanceKm({lat:0,lon:0},{lat:1,lon:0})-111.195)<.01);
-  const d=copy(); d.attivita[0].posizione.coordinate={lat:43.77,lon:11.25,fonti:['mirror-firenze']};
+  const d=copy(); d.attivita[0].posizione.coordinate={lat:43.77,lon:11.25,fonti:['mirror-firenze'],stato:'verificata',provenienza:'rilievo',verificataIl:'2026-10-16',indirizzoConfrontato:'Indirizzo sintetico nel test'};
   const result=searchDirectory(d,{origine:{lat:43.77,lon:11.25},ordine:'distanza'});
   assert.equal(result[0].business.id,'scardi'); assert.equal(result[0].distanzaKm,0);
   const withoutCoords=result.filter(r=>!r.business.posizione.coordinate);
