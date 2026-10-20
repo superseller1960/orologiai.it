@@ -84,8 +84,8 @@ const TIPI_REGOLE: [RegExp, (typeof businessTypes)[number]][] = [
   [/ laborator/, 'laboratorio'], [/ gioielleri/, 'gioielleria'], [/ professionist| indipendent/, 'professionista'],
 ];
 
-// Preposizioni che introducono una località; la parola successiva deve essere maiuscola nel testo originale.
-const LOCALITA_RE = /\b(?:a|ad|in|di|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
+// Preposizioni che introducono una località; il nome può essere digitato anche in minuscolo.
+const LOCALITA_RE = /\b(?:a|ad|in|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
 const NON_LOCALITA = new Set(['me', 'qui', 'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini']);
 
 export function interpretaRichiesta(messaggio: string, dir: Directory): Interpretazione {
