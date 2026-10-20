@@ -175,7 +175,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
   const mostraModalita = (m: Modalita) => {
     modalitaEl.hidden = false;
-    modalitaEl.textContent = m === 'ai' ? 'Risposte con AI Gemini' : 'Interpretazione locale';
+    modalitaEl.textContent = m === 'ai' ? 'AI attiva' : m === 'non-configurato' ? 'AI da configurare · ricerca locale' : 'Ricerca locale';
     modalitaEl.className = `chat-badge chat-badge-${m === 'ai' ? 'ai' : 'locale'}`;
   };
 
