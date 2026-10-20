@@ -65,7 +65,7 @@ const padded = (s: string) => ` ${normalize(s)} `;
 const has = (t: string, re: RegExp) => re.test(t);
 
 const SERVIZI_REGOLE: [RegExp, keyof typeof services][] = [
-  [/ revision/, 'revisione'],
+  [/ tagliand| revision/, 'revisione'],
   [/ cinturin| bracciale/, 'cinturini'],
   [/ batteri| pila | pile /, 'batterie'],
   [/ pendol/, 'pendoleria'],
@@ -85,7 +85,8 @@ const TIPI_REGOLE: [RegExp, (typeof businessTypes)[number]][] = [
 ];
 
 // Preposizioni che introducono una località; la parola successiva deve essere maiuscola nel testo originale.
-const LOCALITA_RE = /\b(?:a|ad|in|di|vicino a|nei pressi di|nelle vicinanze di)\s+([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)?)/u;
+const LOCALITA_RE = /\b(?:a|ad|in|di|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
+const NON_LOCALITA = new Set(['me', 'qui', 'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini']);
 
 export function interpretaRichiesta(messaggio: string, dir: Directory): Interpretazione {
   const original = messaggio.trim();
@@ -117,7 +118,7 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   }
   if (!comune && !criteri.provincia && !criteri.regione) {
     const m = LOCALITA_RE.exec(original);
-    if (m && !(marca && normalize(m[1]).includes(normalize(marca)))) {
+    if (m && !NON_LOCALITA.has(normalize(m[1])) && !(marca && normalize(m[1]).includes(normalize(marca)))) {
       const nome = m[1].trim();
       // Non è una località già nota: segnalo che non risulta censita (non la ignoro).
       criteri.localitaNonCensita = nome;
@@ -204,18 +205,18 @@ export function cercaOrologiaio(
 ): EsitoRicerca {
   const now = opzioni.now ?? new Date();
   if (criteri.localitaNonCensita) {
-    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative: [], messaggi: [
-      `“${criteri.localitaNonCensita}” non è tra i comuni censiti. Le località disponibili sono nella pagina dei territori.`,
+    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
+      `“${criteri.localitaNonCensita}” non è ancora censita: non posso indicare attività in quel comune. ${criteri.servizio ? 'Ho cercato lo stesso servizio in altri comuni; le opzioni sotto potrebbero essere lontane.' : 'Prova un servizio o una località già censita.'}`,
     ] };
   }
   if (!haCriteri(criteri)) {
     // Nessun criterio riconosciuto: non elenco l'intero database come se fosse un risultato.
-    return { stato: 'nessun-criterio', totale: 0, risultati: [], alternative: [], messaggi: [
+    return { stato: 'nessun-criterio', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
       'Non ho riconosciuto un servizio, una marca o una località. Puoi scrivere, per esempio, “revisione a Firenze”.',
     ] };
   }
   if (criteri.bisognoPosizione && !opzioni.origine) {
-    return { stato: 'serve-posizione', totale: 0, risultati: [], alternative: [], messaggi: [
+    return { stato: 'serve-posizione', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
       'Per cercare vicino a te serve una città, un indirizzo o la posizione concessa dal browser.',
     ] };
   }
@@ -251,7 +252,7 @@ export function cercaOrologiaio(
     alternative = generiche.slice(0, 3).map(r => descrivi(dir, r.business, { ...criteri, ruoloMarca: 'qualsiasi' }, now, r.distanzaKm));
   }
 
-  if (trovate.length === 0) messaggi.push('Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.');
+  if (trovate.length === 0 && alternative.length === 0 && (criteri.localita || criteri.provincia || criteri.regione)) { const { localita: _localita, provincia: _provincia, regione: _regione, origine: _origine, ...filtriAperti } = filtri; alternative = searchDirectory(dir, filtriAperti).slice(0, 3).map(r => descrivi(dir, r.business, criteri, now, null)); } if (trovate.length === 0) messaggi.push(alternative.length ? 'Nessuna attività soddisfa tutti i criteri in questa località. Le opzioni sotto sono in altri comuni censiti e potrebbero essere lontane.' : 'Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.');
   if (trovate.length > MAX_RISULTATI) messaggi.push(`Mostro ${MAX_RISULTATI} risultati su ${trovate.length}. Aggiungi un criterio per restringere la ricerca.`);
 
   return { stato: trovate.length === 0 ? 'nessun-risultato' : 'ok', totale: trovate.length, risultati, alternative, messaggi };
