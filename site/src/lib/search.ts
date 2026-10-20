@@ -7,6 +7,12 @@ export type SearchFilters = {
   stato?: string; origine?: { lat: number; lon: number }; ordine?: 'nome' | 'distanza';
 };
 export const normalize = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const serviceSearchTerms: Partial<Record<keyof typeof services, string[]>> = {
+  revisione: ['tagliando'],
+  riparazione: ['riparare', 'orologio fermo', 'orologio guasto'],
+  batterie: ['batteria', 'cambio batteria', 'cambio pila', 'sostituzione batteria'],
+  cinturini: ['cinturino', 'bracciale'],
+};
 export function distanceKm(a: { lat: number; lon: number }, b: { lat: number; lon: number }): number {
   const rad = (n: number) => n * Math.PI / 180;
   const h = Math.sin(rad(b.lat - a.lat) / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lon - a.lon) / 2) ** 2;
@@ -33,8 +39,8 @@ export function searchDirectory(data: Directory, f: SearchFilters = {}): { busin
       b.nome, ...b.nomiPrecedenti, b.descrizione, place.comune, place.provincia, place.siglaProvincia,
       place.regione, b.posizione.indirizzo, b.posizione.cap,
       ...Object.values(b.marchi).flat().map(m => m.marca),
-      ...b.servizi.map(s => services[s.id]), ...b.altriServizi.map(s => s.nome),
-      ...b.tipi, ...b.specializzazioni.map(s => s.id),
+      ...b.servizi.flatMap(s => [services[s.id], ...(serviceSearchTerms[s.id] ?? [])]),
+      ...b.altriServizi.map(s => s.nome), ...b.tipi, ...b.specializzazioni.map(s => s.id),
     ].filter(Boolean).join(' '));
     return tokens.every(t => haystack.includes(t));
   }).map(b => ({ business: b, distanzaKm: f.origine && b.posizione.coordinate ? distanceKm(f.origine, b.posizione.coordinate) : null }))
