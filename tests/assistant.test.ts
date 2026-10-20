@@ -222,12 +222,12 @@ test('risultati vuoti spiegati senza invenzioni', () => {
 });
 
 
-test('città non censita in minuscolo propone lo stesso servizio in altri comuni', () => {
+test('città in minuscolo senza servizio locale propone alternative', () => {
   const criteri = interpretaRichiesta('Cerco cambio batteria a milano', data).criteri;
-  assert.equal(criteri.localitaNonCensita, 'milano');
+  assert.equal(criteri.localita, 'milano');
   assert.equal(criteri.servizio, 'batterie');
   const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
-  assert.equal(risultato.stato, 'localita-non-censita');
+  assert.equal(risultato.stato, 'nessun-risultato');
   assert.ok(risultato.alternative.length > 0);
   for (const alternativa of risultato.alternative) {
     const attivita = data.attivita.find(x => x.id === alternativa.id)!;
@@ -240,4 +240,15 @@ test('richieste senza città non scambiano le preposizioni per località', () =>
   const telefono = interpretaRichiesta('Dammi il numero di telefono personale del titolare', data).criteri;
   assert.equal(telefono.localitaNonCensita, undefined);
   assert.equal(cerca('Dammi il numero di telefono personale del titolare').stato, 'nessun-criterio');
+});
+
+
+test('città non censita in minuscolo propone alternative dichiarate', () => {
+  const criteri = interpretaRichiesta('Cerco cambio batteria a venezia', data).criteri;
+  assert.equal(criteri.localitaNonCensita, 'venezia');
+  assert.equal(criteri.servizio, 'batterie');
+  const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
+  assert.equal(risultato.stato, 'localita-non-censita');
+  assert.ok(risultato.alternative.length > 0);
+  assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);
 });
