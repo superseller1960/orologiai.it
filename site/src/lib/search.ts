@@ -1,4 +1,5 @@
 import type { Business, Directory } from './schema.ts';
+import { services } from './schema.ts';
 export const brandRoles = ['qualsiasi', 'venduti', 'riparati', 'esperienza', 'assistenzaUfficiale', 'rivenditaUfficiale', 'menzionati'] as const;
 export type SearchFilters = {
   q?: string; localita?: string; regione?: string; provincia?: string; servizio?: string;
@@ -28,7 +29,13 @@ export function searchDirectory(data: Directory, f: SearchFilters = {}): { busin
     const claims = role === 'qualsiasi' ? Object.values(b.marchi).flat() : b.marchi[role];
     if (f.marca && !claims.some(m => normalize(m.marca) === normalize(f.marca!))) return false;
     if (role !== 'qualsiasi' && !claims.length) return false;
-    const haystack = normalize([b.nome, ...b.nomiPrecedenti, b.descrizione, place.comune, place.provincia, place.siglaProvincia, place.regione, b.posizione.indirizzo, b.posizione.cap, ...Object.values(b.marchi).flat().map(m => m.marca)].filter(Boolean).join(' '));
+    const haystack = normalize([
+      b.nome, ...b.nomiPrecedenti, b.descrizione, place.comune, place.provincia, place.siglaProvincia,
+      place.regione, b.posizione.indirizzo, b.posizione.cap,
+      ...Object.values(b.marchi).flat().map(m => m.marca),
+      ...b.servizi.map(s => services[s.id]), ...b.altriServizi.map(s => s.nome),
+      ...b.tipi, ...b.specializzazioni.map(s => s.id),
+    ].filter(Boolean).join(' '));
     return tokens.every(t => haystack.includes(t));
   }).map(b => ({ business: b, distanzaKm: f.origine && b.posizione.coordinate ? distanceKm(f.origine, b.posizione.coordinate) : null }))
     .sort((a, b) => {
