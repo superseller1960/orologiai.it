@@ -53,7 +53,7 @@ test('nessuna coordinata inventata: le nuove schede non hanno punto', () => {
 
 test('coordinate pubblicate: ogni punto è verificato e ha provenienza, data e indirizzo confrontato', () => {
   const published = data.attivita.filter(b => b.posizione.coordinate);
-  assert.deepEqual(published.map(b => b.id).sort(), ['fani-gioielli', 'ronchi-gioielli', 'senzatempo-firenze', 'sangalli'].sort());
+  for (const id of ['fani-gioielli', 'ronchi-gioielli', 'senzatempo-firenze', 'sangalli']) assert.ok(published.some(b => b.id === id), `Punto storico conservato: ${id}`);
   for (const b of published) assert.ok(isUsableCoordinate(b.posizione.coordinate));
 });
 

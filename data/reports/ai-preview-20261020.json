@@ -1,0 +1,16 @@
+{
+  "data": "2026-10-20",
+  "ambiente": "anteprima Cloudflare, commit 089a56752cc0fe830290383a06145ffc88f581e1",
+  "endpoint": "https://9497f5d8.orologiai-it.pages.dev/api/orologiaio",
+  "metodo": "POST",
+  "messaggio": "Cerco una revisione a Firenze",
+  "httpStatus": 200,
+  "rispostaOsservata": {
+    "modalita": "ai",
+    "avviso": null,
+    "risposta": "Sto cercando le attività che effettuano revisioni a Firenze.",
+    "criteri": { "localita": "firenze", "servizio": "revisione" },
+    "chiarimenti": []
+  },
+  "limiti": "Prova reale del collegamento esistente su questa preview, non simulata. Non verifica il dominio di produzione, tutte le conversazioni o le credenziali di altri ambienti. Nessun secret letto o registrato. Nessun servizio a pagamento attivato."
+}

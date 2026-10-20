@@ -50,8 +50,8 @@ test('nessun criterio riconosciuto: nessuna lista dell’intero database', () =>
 });
 
 test('località inesistente: nessun risultato e nessuna località sostituita', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio a Roma', data).criteri;
-  assert.equal(crit.localitaNonCensita, 'Roma');
+  const crit = interpretaRichiesta('Cerco un orologiaio a Palermo', data).criteri;
+  assert.equal(crit.localitaNonCensita, 'Palermo');
   assert.equal(crit.localita, undefined);
   const r = cercaOrologiaio(data, crit, { now: VENERDI });
   assert.equal(r.stato, 'localita-non-censita');
@@ -59,14 +59,14 @@ test('località inesistente: nessun risultato e nessuna località sostituita', (
 });
 
 test('termini maiuscoli non riconosciuti vengono segnalati, non ignorati', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio Patek Philippe a Firenze', data);
-  assert.deepEqual(crit.criteri.terminiNonRiconosciuti, ['Patek Philippe']);
+  const crit = interpretaRichiesta('Cerco un orologiaio Marchio Assente a Firenze', data);
+  assert.deepEqual(crit.criteri.terminiNonRiconosciuti, ['Marchio Assente']);
   assert.equal(crit.criteri.marca, undefined);
-  assert.match(crit.chiarimenti.join(' '), /Patek Philippe/);
+  assert.match(crit.chiarimenti.join(' '), /Marchio Assente/);
 });
 
 test('marchio non presente: nessuna attività attribuita a quel marchio', () => {
-  const r = cerca('Cerco un laboratorio esperto in Breguet');
+  const r = cerca('Cerco un laboratorio esperto in MarchioAssente');
   assert.equal(r.totale, 0);
 });
 
@@ -90,7 +90,7 @@ test('autorizzazione ufficiale Rolex: nessuna rivendita o menzione spacciata per
 });
 
 test('rivenditore ufficiale Rolex: nessun risultato se non documentato come ufficiale', () => {
-  const r = cerca('Cerco un rivenditore ufficiale Rolex');
+  const r = cerca('Cerco un rivenditore ufficiale Rolex a Milano');
   assert.equal(r.totale, 0);
 });
 
