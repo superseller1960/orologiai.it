@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import type { Business, Directory } from './schema.ts';
 import { businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema.ts';
+import { REGIONI_ITALIA } from './geo.ts';
 import { normalize, searchDirectory, type SearchFilters } from './search.ts';
 
 // Limiti di input: il messaggio dell'utente è un dato non attendibile e viene sempre misurato.
@@ -69,20 +70,21 @@ const has = (t: string, re: RegExp) => re.test(t);
 const SERVIZI_REGOLE: [RegExp, keyof typeof services][] = [
   [/ tagliand| revision/, 'revisione'],
   [/ cinturin| bracciale/, 'cinturini'],
-  [/ batteri| pila | pile /, 'batterie'],
-  [/ pendol/, 'pendoleria'],
-  [/ lucida| lucidat/, 'lucidatura'],
-  [/ vetr[oi]| cristall[oi]| esalite| zaffiro| coron[ae]| guarnizion[ei]| quadrante| lancett[ae]| ghiera| molla | bilanciere| asse /, 'ricambi'],
-  [/ ricambi/, 'ricambi'],
-  [/ da tasca| tasca /, 'orologi-tasca'],
+  [/ batteri| pila | pile | cambio pila/, 'batterie'],
+  [/ pendol| cucu | orologio a muro| cassa lunga/, 'pendoleria'],
+  [/ lucida| lucidat| satinat/, 'lucidatura'],
+  [/ vetr[oi]| cristall[oi]| esalite| zaffiro| coron[ae]| tige | albero di carica| pulsante| pulsanti| quadrante| lancett[ae]| sfere | ghiera| lunetta| molla | bariletto| bilanciere| spirale| ancora | asse /, 'ricambi'],
+  [/ ricambi| fornitur/, 'ricambi'],
+  [/ da tasca| tasca | cipolla /, 'orologi-tasca'],
   [/ restaur/, 'restauro-vintage'],
-  [/ valutaz| stima| quotaz| perizi| quanto vale| far valutare/, 'valutazioni'],
-  [/ ripar| fermat| non funziona| guast| aggiust| sistemar/, 'riparazione'],
-  [/ manutenz| controll| impermeabil| prova sub| tenuta/, 'manutenzione'],
+  [/ valut| stima| quotaz| perizi| quanto vale| far valutare| ereditat.*valut/, 'valutazioni'],
+  [/ impermeabil| prova sub| tenuta| prende acqua| entra acqua| entrata acqua| infiltrazion| condensa| appannat| guarnizion/, 'manutenzione'],
+  [/ si ferma| fermat| non funziona| non parte| non tiene il tempo| perde tempo| corre troppo| ritarda| anticipa| bloccato| rotto| caduto| urto| cronografo.*ripar| ripar.*cronografo| ripar| guast| aggiust| sistemar/, 'riparazione'],
+  [/ manutenz| controll/, 'manutenzione'],
 ];
 const SPECIALIZZAZIONI_REGOLE: [RegExp, (typeof specializations)[number]][] = [
-  [/ automatic/, 'automatici'], [/ antich/, 'antichi'], [/ vintage| d epoca| epoca/, 'vintage'],
-  [/ lusso| alta orologeria/, 'lusso'], [/ meccanic| carica manuale/, 'meccanici'], [/ collezion/, 'collezione'],
+  [/ automatic| carica automatica| rotore/, 'automatici'], [/ antich| d epoca| ottocento| settecento/, 'antichi'], [/ vintage| secondo polso| epoca/, 'vintage'],
+  [/ lusso| alta orologeria/, 'lusso'], [/ meccanic| carica manuale| cronograf/, 'meccanici'], [/ collezion/, 'collezione'],
 ];
 const TIPI_REGOLE: [RegExp, (typeof businessTypes)[number]][] = [
   [/ laborator/, 'laboratorio'], [/ gioielleri/, 'gioielleria'], [/ professionist| indipendent| maestro orologiaio| artigian/, 'professionista'],
@@ -92,6 +94,11 @@ const TIPI_REGOLE: [RegExp, (typeof businessTypes)[number]][] = [
 const SERVIZI_AFFINI: Partial<Record<keyof typeof services, (keyof typeof services)[]>> = {
   pendoleria: ['restauro-vintage', 'riparazione'],
   'orologi-tasca': ['restauro-vintage', 'riparazione'],
+  ricambi: ['riparazione', 'manutenzione'],
+  manutenzione: ['riparazione', 'revisione'],
+  'riparazione-automatici': ['riparazione', 'revisione'],
+  'riparazione-meccanici': ['riparazione', 'revisione'],
+  'riparazione-quarzo': ['riparazione', 'batterie'],
 };
 
 const SERVIZI_TECNICI = new Set<keyof typeof services>([
@@ -103,7 +110,13 @@ const SERVIZI_TECNICI = new Set<keyof typeof services>([
 // Preposizioni che introducono una località; il nome può essere digitato anche in minuscolo.
 // La preposizione "di" è esclusa: "numero di telefono", "prima di venderlo" non sono località.
 const LOCALITA_RE = /\b(?:a|ad|in|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
-const NON_LOCALITA = new Set(['me', 'qui', 'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini']);
+const NON_LOCALITA = new Set([
+  'me', 'qui', 'un', 'una', 'uno', 'il', 'lo', 'la', 'gli', 'le',
+  'oro', 'acciaio', 'titanio', 'argento', 'platino', 'bronzo',
+  'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'cronografo',
+  'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini',
+  'notte', 'giorno', 'acqua', 'vetro', 'ereditato', 'casa', 'zona',
+]);
 
 export function interpretaRichiesta(messaggio: string, dir: Directory): Interpretazione {
   const original = messaggio.trim();
@@ -118,29 +131,38 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
     .sort((a, b) => b.length - a.length)[0];
   if (marca) {
     criteri.marca = marca;
-    if (has(t, / ufficial/) && has(t, / assistenz/)) criteri.ruoloMarca = 'assistenzaUfficiale';
-    else if (has(t, / ufficial/) && has(t, / rivendit| vendit/)) criteri.ruoloMarca = 'rivenditaUfficiale';
+    if (has(t, / anche se non| anche non| non serve.*(?:ufficial|autorizzat)| senza autorizzazione/)) criteri.ruoloMarca = 'qualsiasi';
+    else if (has(t, / ufficial| autorizzat/) && has(t, / assistenz| centro /)) criteri.ruoloMarca = 'assistenzaUfficiale';
+    else if (has(t, / ufficial| autorizzat/) && has(t, / rivendit| vendit| concessionari/)) criteri.ruoloMarca = 'rivenditaUfficiale';
     else if (has(t, / ripar| laborator| esperto| esperienz/)) criteri.ruoloMarca = 'qualsiasi';
   }
 
-  // Località: comune, poi provincia, poi regione, tutti presenti nel database.
+  // Località: comune, poi provincia, poi regione (incluse tutte le 20 regioni italiane).
   const comuni = [...dir.localita].sort((a, b) => b.comune.length - a.comune.length);
   const comune = comuni.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.comune))} `)))
     ?? comuni.find(p => {
       const primo = normalize(p.comune).split(' ')[0] ?? '';
-      return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san'].includes(primo) && has(t, new RegExp(` ${escapeRe(primo)} `));
+      return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san', 'monte', 'castel'].includes(primo) && has(t, new RegExp(` ${escapeRe(primo)} `));
     });
   if (comune) criteri.localita = comune.id;
   else {
+    const cittaEsplicita = /\b(?:a|ad)\s+[\p{L}]/iu.test(original);
     const prov = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.provincia))} `)));
-    const reg = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.regione))} `)));
-    if (prov) criteri.provincia = prov.provinciaSlug;
-    else if (reg) criteri.regione = reg.regioneSlug;
+    const regDb = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.regione))} `)));
+    const regItalia = Object.values(REGIONI_ITALIA).find(r =>
+      r.alias.some(al => has(t, new RegExp(` ${escapeRe(normalize(al))} `))) ||
+      has(t, new RegExp(` ${escapeRe(normalize(r.nome))} `)),
+    );
+    if (!cittaEsplicita && prov) criteri.provincia = prov.provinciaSlug;
+    else if (!cittaEsplicita && regDb) criteri.regione = regDb.regioneSlug;
+    else if (!cittaEsplicita && regItalia) criteri.regione = regItalia.slug;
   }
   if (!comune && !criteri.provincia && !criteri.regione) {
     const m = LOCALITA_RE.exec(original);
-    if (m && !NON_LOCALITA.has(normalize(m[1])) && !(marca && normalize(m[1]).includes(normalize(marca)))) {
-      const nome = m[1].trim();
+    const prima = m ? original.slice(0, m.index) : '';
+    const descriveCompetenza = /(?:esperto|esperienza|specializzato|specialista)\s*$/iu.test(prima);
+    const nome = m?.[1].split(/\s+(?:per|con|che|oppure|e|durante|quando|prima|dopo)\b/iu)[0].trim();
+    if (nome && !descriveCompetenza && !has(t, / tutta italia | in italia | ovunque /) && !NON_LOCALITA.has(normalize(nome).split(' ')[0]) && !(marca && normalize(nome).includes(normalize(marca)))) {
       // Non è una località già nota: segnalo che non risulta censita (non la ignoro).
       criteri.localitaNonCensita = nome;
     }
@@ -156,11 +178,11 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   const cap = /\b(\d{5})\b/.exec(t);
   if (cap) criteri.cap = cap[1];
 
-  // Servizi: il primo termine trovato in ordine di priorità; "usati" distingue vendita e acquisto.
+  // Servizi: il primo termine trovato in ordine di priorità; "usati" distingue vendita e acquisto dal punto di vista del cliente.
   // Se compaiono insieme valutazione e vendita ("valutare prima di venderlo"), prevale la valutazione.
-  if (has(t, / valutaz| stima| quotaz| perizi| quanto vale| far valutare/)) criteri.servizio = 'valutazioni';
-  else if (has(t, / usat/) && has(t, / acquist| compr| permut/)) criteri.servizio = 'acquisto-permuta';
-  else if (has(t, / usat/) && has(t, / vend/)) criteri.servizio = 'vendita-usati';
+  if (has(t, / valut| stima| quotaz| perizi| quanto vale| far valutare/)) criteri.servizio = 'valutazioni';
+  else if (has(t, / permut| vendo | (?:vorrei |voglio )?vendere (?:il |un |l )| (?:chi|che) acquist| (?:chi|che) compr| ritir.*usat/)) criteri.servizio = 'acquisto-permuta';
+  else if (has(t, / usat/) && has(t, / acquist| compr| vend/)) criteri.servizio = 'vendita-usati';
   else {
     const s = SERVIZI_REGOLE.find(([re]) => has(t, re));
     if (s) criteri.servizio = s[1];
@@ -175,7 +197,9 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   if (!criteri.localitaNonCensita) {
     const conosciuti = new Set([
       ...dir.localita.flatMap(p => [p.comune, normalize(p.comune).split(' ')[0] ?? '', p.provincia, p.regione]),
+      ...Object.values(REGIONI_ITALIA).flatMap(r => [r.nome, ...r.alias]),
       ...marche,
+      'italia',
     ].map(normalize));
     const termini = [...original.matchAll(/\s([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)*)/gu)]
       .map(m => m[1].trim())
@@ -197,6 +221,28 @@ const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 // Criteri effettivi: località, servizi, marche, competenze, orari o distanza. Senza di essi non si cerca.
 export const haCriteri = (c: Criteri) =>
   Object.keys(c).some(k => !['terminiNonRiconosciuti', 'bisognoPosizione'].includes(k));
+
+// Stessa regola sul server e nel browser: un dettaglio aggiunto non azzera la ricerca.
+// Comune, provincia, regione e località non censita sono invece alternative fra loro.
+export function combinaCriteri(precedenti: Criteri, nuovi: Criteri, messaggio = ''): Criteri {
+  const t = padded(messaggio);
+  const criteri: Criteri = has(t, / ricomincia| ripartiamo| nuova ricerca| azzera/) ? {} : { ...precedenti };
+  const territorio = ['localita', 'provincia', 'regione', 'localitaNonCensita', 'bisognoPosizione'] as const;
+  if (territorio.some(k => nuovi[k] !== undefined) || has(t, / tutta italia | tutte le regioni | ovunque /)) {
+    for (const k of territorio) delete criteri[k];
+  }
+  if (nuovi.marca) delete criteri.terminiNonRiconosciuti;
+  Object.assign(criteri, nuovi);
+  if (has(t, / qualsiasi marchio| qualsiasi marca| tutti i marchi| tutte le marche/)) {
+    delete criteri.marca;
+    delete criteri.ruoloMarca;
+    delete criteri.terminiNonRiconosciuti;
+  }
+  if (has(t, / anche se non| anche non| non serve.*(?:ufficial|autorizzat)| senza autorizzazione/)) criteri.ruoloMarca = 'qualsiasi';
+  if (has(t, / qualsiasi servizio| tutti i servizi/)) delete criteri.servizio;
+  if (has(t, / senza specializzazione| qualsiasi specializzazione/)) delete criteri.specializzazione;
+  return criteriSchema.parse(criteri);
+}
 
 export type RisultatoAttivita = {
   id: string;
@@ -237,20 +283,9 @@ export function cercaOrologiaio(
   const now = opzioni.now ?? new Date();
   // La chat usa MAX_RISULTATI; la pagina di ricerca può chiedere l'elenco completo dei risultati esatti.
   const limite = Math.max(1, Math.min(opzioni.limite ?? MAX_RISULTATI, 200));
-  if (criteri.localitaNonCensita) {
-    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
-      `“${criteri.localitaNonCensita}” non è ancora censita: non posso indicare attività in quel comune. ${criteri.servizio ? 'Ho cercato lo stesso servizio in altri comuni; le opzioni sotto potrebbero essere lontane.' : 'Prova un servizio o una località già censita.'}`,
-    ] };
-  }
-  if (!haCriteri(criteri)) {
-    // Nessun criterio riconosciuto: non elenco l'intero database come se fosse un risultato.
-    return { stato: 'nessun-criterio', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
-      'Non ho riconosciuto un servizio, una marca o una località. Puoi scrivere, per esempio, “revisione a Firenze”.',
-    ] };
-  }
-  if (criteri.bisognoPosizione && !opzioni.origine) {
-    return { stato: 'serve-posizione', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
-      'Per cercare vicino a te serve una città, un indirizzo o la posizione concessa dal browser.',
+  if (criteri.terminiNonRiconosciuti?.length) {
+    return { stato: 'nessun-risultato', totale: 0, risultati: [], alternative: [], messaggi: [
+      `Non ho dati sufficienti per “${criteri.terminiNonRiconosciuti.join('”, “')}”. Specifica il marchio o correggi il termine prima di cercare: la copertura è ancora incompleta.`,
     ] };
   }
 
@@ -261,16 +296,39 @@ export function cercaOrologiaio(
     q: criteri.cap,
     origine: opzioni.origine, ordine: opzioni.origine ? 'distanza' : 'nome',
   };
-  let trovate = searchDirectory(dir, filtri);
+  const cerca = (f: SearchFilters) => searchDirectory(dir, f).filter(r =>
+    (criteri.distanzaMaxKm === undefined || (r.distanzaKm !== null && r.distanzaKm <= criteri.distanzaMaxKm)) &&
+    (!criteri.apertoOggi || statoOrari(r.business, now) === 'indicato-oggi'),
+  );
+  const descriviRisultati = (risultati: ReturnType<typeof searchDirectory>, c = criteri) =>
+    risultati.map(r => descrivi(dir, r.business, c, now, r.distanzaKm));
+  const { localita: _localita, provincia: _provincia, regione: _regione, ...senzaTerritorio } = filtri;
+  const alternativeTerritoriali = () =>
+    (criteri.servizio || criteri.marca || criteri.specializzazione || criteri.tipo)
+      ? descriviRisultati(cerca(senzaTerritorio).slice(0, 3)) : [];
 
-  if (criteri.distanzaMaxKm !== undefined) {
-    trovate = trovate.filter(r => r.distanzaKm !== null && r.distanzaKm <= criteri.distanzaMaxKm!);
+  if (criteri.localitaNonCensita) {
+    const alternative = alternativeTerritoriali();
+    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative, messaggi: [
+      `Non ho attività censite per “${criteri.localitaNonCensita}”: la copertura è ancora incompleta. ${alternative.length ? 'Le alternative rispettano gli altri criteri ma sono in altri comuni e potrebbero essere lontane. Senza coordinate sufficienti non posso indicare la distanza.' : 'Puoi ampliare la ricerca o segnalare un’attività nella zona.'}`,
+    ] };
   }
+  if (!haCriteri(criteri)) {
+    // Nessun criterio riconosciuto: non elenco l'intero database come se fosse un risultato.
+    return { stato: 'nessun-criterio', totale: 0, risultati: [], alternative: [], messaggi: [
+      'Non ho riconosciuto un servizio, una marca o una località. Puoi scrivere, per esempio, “revisione a Firenze”.',
+    ] };
+  }
+  if (criteri.bisognoPosizione && !opzioni.origine) {
+    return { stato: 'serve-posizione', totale: 0, risultati: [], alternative: [], messaggi: [
+      'Per cercare vicino a te serve una città, un indirizzo o la posizione concessa dal browser.',
+    ] };
+  }
+
+  let trovate = cerca(filtri);
   const messaggi: string[] = [];
-  if (criteri.apertoOggi) {
-    const aperte = trovate.filter(r => statoOrari(r.business, now) === 'indicato-oggi');
-    if (aperte.length === 0) messaggi.push('Nessuna attività risulta aperta oggi con orari verificati. Gli orari mancanti non vengono considerati aperture.');
-    trovate = aperte;
+  if (criteri.apertoOggi && !trovate.length) {
+    messaggi.push('Nessuna attività risulta aperta oggi con orari verificati. Gli orari mancanti non vengono considerati aperture.');
   }
 
   // Se l'utente chiede un intervento tecnico (es. revisione o riparazione) su una marca specifica
@@ -305,9 +363,9 @@ export function cercaOrologiaio(
   if ((criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale') && criteri.marca) {
     if (trovate.length === 0) {
       messaggi.push(criteri.ruoloMarca === 'assistenzaUfficiale'
-        ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non documentano un’autorizzazione ufficiale per ${criteri.marca}: sono alternative da verificare direttamente con il negozio.`
-        : `Non risulta nel database nessuna rivendita ufficialmente autorizzata per ${criteri.marca}.`);
-      const generiche = searchDirectory(dir, { ...filtri, ruoloMarca: 'qualsiasi' })
+        ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non documentano un’autorizzazione ufficiale per ${criteri.marca} (l’autorizzazione richiesta non è documentata): sono alternative da verificare direttamente con il negozio o il marchio.`
+        : `Non risulta nel database nessuna rivendita ufficialmente autorizzata per ${criteri.marca} (l’autorizzazione richiesta non è documentata).`);
+      const generiche = cerca({ ...filtri, ruoloMarca: 'qualsiasi' })
         .filter(r => !risultati.some(x => x.id === r.business.id));
       alternative = generiche.slice(0, 3).map(r => descrivi(dir, r.business, { ...criteri, ruoloMarca: 'qualsiasi' }, now, r.distanzaKm));
     }
@@ -379,8 +437,7 @@ export function cercaOrologiaio(
   // Le opzioni proposte sono in altri comuni censiti e vengono dichiarate come possibilmente lontane.
   let alternativeFuoriComune = false;
   if (trovate.length === 0 && alternative.length === 0 && (criteri.localita || criteri.provincia || criteri.regione)) {
-    const { localita: _localita, provincia: _provincia, regione: _regione, origine: _origine, ...filtriAperti } = filtri;
-    alternative = searchDirectory(dir, filtriAperti).slice(0, 3).map(r => descrivi(dir, r.business, criteri, now, null));
+    alternative = alternativeTerritoriali();
     alternativeFuoriComune = alternative.length > 0;
   }
 
@@ -471,7 +528,14 @@ export async function interpretaConProvider(
 ): Promise<RisultatoInterpretazione> {
   if (messaggio.length > MAX_MESSAGGIO) throw new RangeError(`Messaggio oltre ${MAX_MESSAGGIO} caratteri`);
   const locale = interpretaRichiesta(messaggio, dir);
-  if (!provider) return { ...locale, origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.', risposta: null };
+  const risolvi = (nuovi: Criteri) => {
+    const criteri = combinaCriteri(contesto ?? {}, nuovi, messaggio);
+    const chiarimenti = locale.chiarimenti.filter(c =>
+      !(/Indica un servizio, una marca o una località/.test(c) && haCriteri(criteri)),
+    );
+    return { criteri, chiarimenti };
+  };
+  if (!provider) return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.', risposta: null };
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -487,14 +551,28 @@ export async function interpretaConProvider(
     if (!parsed.success) throw new Error('risposta malformata');
     const c = parsed.data;
     const ammessi: Criteri = { ...c };
-    if (c.localita && !dir.localita.some(p => p.id === c.localita)) delete ammessi.localita;
-    if (c.provincia && !dir.localita.some(p => p.provinciaSlug === c.provincia)) delete ammessi.provincia;
-    if (c.regione && !dir.localita.some(p => p.regioneSlug === c.regione)) delete ammessi.regione;
+    if (c.localita && !dir.localita.some(p => p.id === c.localita)) {
+      delete ammessi.localita;
+      ammessi.localitaNonCensita = c.localita;
+    }
+    const sconosciuti = [...(c.terminiNonRiconosciuti ?? [])];
+    if (c.provincia && !dir.localita.some(p => p.provinciaSlug === c.provincia)) {
+      delete ammessi.provincia;
+      sconosciuti.push(c.provincia);
+    }
+    if (c.regione && !dir.localita.some(p => p.regioneSlug === c.regione) && !(c.regione in REGIONI_ITALIA)) {
+      delete ammessi.regione;
+      sconosciuti.push(c.regione);
+    }
     const marche = new Set(dir.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)));
-    if (c.marca && !marche.has(c.marca)) delete ammessi.marca;
-    return { criteri: criteriSchema.parse(ammessi), chiarimenti: locale.chiarimenti, origine: 'provider', avviso: null, risposta: risposta ?? null };
+    if (c.marca && !marche.has(c.marca)) {
+      delete ammessi.marca;
+      sconosciuti.push(c.marca);
+    }
+    if (sconosciuti.length) ammessi.terminiNonRiconosciuti = [...new Set(sconosciuti)].slice(0, 3);
+    return { ...risolvi({ ...locale.criteri, ...ammessi }), origine: 'provider', avviso: null, risposta: risposta ?? null };
   } catch {
-    return { ...locale, origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.', risposta: null };
+    return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.', risposta: null };
   } finally {
     clearTimeout(timer);
   }

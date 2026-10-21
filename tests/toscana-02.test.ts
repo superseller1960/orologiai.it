@@ -4,12 +4,21 @@ import { readFile, mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { createHash } from 'node:crypto';
-import { directory } from '../site/src/lib/directory.ts';
+import { directory as publishedDirectory } from '../site/src/lib/directory.ts';
 import { directorySchema } from '../site/src/lib/schema.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 import { importOsm } from '../site/src/lib/osm-import.ts';
 import { duplicateSignals, findDuplicates } from '../site/src/lib/duplicates.ts';
 import { execFileSync } from 'node:child_process';
+// Regressioni della coorte pre-espansione nazionale (commit 27f927a): le nuove schede non cambiano
+// i conteggi storici, mentre i record vengono comunque letti dal dataset corrente pubblicato.
+const coorte = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '27f927a:site/data/directory.json'], { encoding: 'utf8' })));
+const directory = {
+ ...publishedDirectory,
+ attivita: publishedDirectory.attivita.filter(b => coorte.attivita.some(x => x.id === b.id)),
+ localita: publishedDirectory.localita.filter(p => coorte.localita.some(x => x.id === p.id)),
+ fonti: publishedDirectory.fonti.filter(s => coorte.fonti.some(x => x.id === s.id)),
+};
 const reviewed=JSON.parse(await readFile('data/import/toscana-02-reviewed.json','utf8'));
 const report=JSON.parse(await readFile('data/import/toscana-02-report.json','utf8'));
 const raw=await readFile('data/staging/toscana-02-osm-source/extract.json','utf8');

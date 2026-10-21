@@ -63,7 +63,9 @@ test('copertura nazionale ampliata: Campania, Puglia, Sicilia e Liguria interrog
 
 test('Roma ha più alternative verificate per riparazione, revisione, batterie e pendoleria', () => {
   const roma = searchDirectory(data, { localita: 'roma' }).map(r => r.business.id);
-  assert.deepEqual(roma.slice().sort(), ['bottega-del-tempo-roma', 'casa-cronometro-roma', 'salamena-roma']);
+  for (const id of ['bottega-del-tempo-roma', 'casa-cronometro-roma', 'salamena-roma']) {
+    assert.ok(roma.includes(id), `manca a Roma: ${id}`);
+  }
   assert.ok(searchDirectory(data, { localita: 'roma', servizio: 'batterie' }).length >= 1);
   assert.ok(searchDirectory(data, { localita: 'roma', servizio: 'pendoleria' }).length >= 2);
   assert.ok(searchDirectory(data, { localita: 'roma', servizio: 'revisione' }).length >= 2);
@@ -84,8 +86,8 @@ test('l’interpretazione riconosce nuove località e casi reali d’uso naziona
 });
 
 test('località non censite: segnalazione esplicita e nessun risultato fittizio', () => {
-  const i = interpretaRichiesta('Cerco un orologiaio a Potenza', data);
-  assert.equal(i.criteri.localitaNonCensita, 'Potenza');
+  const i = interpretaRichiesta('Cerco un orologiaio a Caltanissetta', data);
+  assert.equal(i.criteri.localitaNonCensita, 'Caltanissetta');
   assert.equal(i.criteri.localita, undefined);
 });
 

@@ -990,6 +990,105 @@
       "consultataIl": "2026-10-19",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "l07-caldani-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.caldaniorologi.it/contatti/",
+      "titolo": "Caldani — contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-caldani-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.caldaniorologi.it/laboratorio-orologi-roma/",
+      "titolo": "Caldani — laboratorio di Roma",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-gold-time",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiantichi.eu/",
+      "titolo": "Gold & Time — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-emporio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaemporio.it/",
+      "titolo": "Orologeria Emporio — servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-tempoidea-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoidea.it/preventivo-orologio/",
+      "titolo": "Tempoidea — contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-tempoidea",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoidea.it/orologeria/",
+      "titolo": "Tempoidea — laboratorio",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-verardi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tecnicasvizzera.it/",
+      "titolo": "Verardi Tecnica Svizzera — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-tardani",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologi.eu/",
+      "titolo": "L’Ora Esatta di Roberto Tardani — servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-brusaporci-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.brusaporci.it/laboratorio",
+      "titolo": "Brusaporci — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-brusaporci-rolex",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it/rolex-dealers/brusaporci-481/rswi_1946-latina-italy",
+      "titolo": "Rolex — Brusaporci Latina, rivenditore autorizzato",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l07-milioni",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriamilioni.it/",
+      "titolo": "Gioielleria Milioni — orologeria e laboratorio",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -1456,6 +1555,54 @@
       "descrizione": "Comune piemontese con laboratorio orologiaio per riparazioni di ogni genere, pile, cinturini e pendole.",
       "fonti": [
         "t08-lab-alessandria-orari"
+      ]
+    },
+    {
+      "id": "viterbo",
+      "comune": "Viterbo",
+      "comuneSlug": "viterbo",
+      "provincia": "Viterbo",
+      "provinciaSlug": "viterbo",
+      "siglaProvincia": "VT",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Attività di orologeria documentate a Viterbo. Le singole schede distinguono servizi, fonti e rapporti con i marchi.",
+      "fonti": [
+        "l07-tempoidea-contatti",
+        "l07-verardi",
+        "l07-tardani"
+      ]
+    },
+    {
+      "id": "latina",
+      "comune": "Latina",
+      "comuneSlug": "latina",
+      "provincia": "Latina",
+      "provinciaSlug": "latina",
+      "siglaProvincia": "LT",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Attività di orologeria documentate a Latina. Le singole schede distinguono servizi, fonti e rapporti con i marchi.",
+      "fonti": [
+        "l07-brusaporci-laboratorio",
+        "l07-brusaporci-rolex"
+      ]
+    },
+    {
+      "id": "montefiascone",
+      "comune": "Montefiascone",
+      "comuneSlug": "montefiascone",
+      "provincia": "Viterbo",
+      "provinciaSlug": "viterbo",
+      "siglaProvincia": "VT",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Attività di orologeria documentate a Montefiascone. Le singole schede distinguono servizi, fonti e rapporti con i marchi.",
+      "fonti": [
+        "l07-milioni"
       ]
     }
   ],
@@ -9905,6 +10052,1052 @@
       "origine": {
         "sistema": "ricerca-ufficiale-nazionale-08",
         "idOriginale": "portanova-bologna"
+      }
+    },
+    {
+      "id": "caldani-roma",
+      "slug": "caldani-roma",
+      "nome": "Caldani Orologi",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio nel quartiere Prati che documenta riparazione, revisione e restauro di orologi di alta gamma. Le qualifiche dichiarate dal negozio non sono trasferite come autorizzazioni ufficiali senza riscontro del marchio.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Via degli Scipioni 298",
+        "cap": "00192",
+        "coordinate": null,
+        "fonti": [
+          "l07-caldani-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 06 3217684",
+        "email": "info@caldaniorologi.it",
+        "sito": "https://www.caldaniorologi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-caldani-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-caldani-laboratorio"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "l07-caldani-laboratorio"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "l07-caldani-laboratorio"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "lusso",
+          "fonti": [
+            "l07-caldani-laboratorio"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-caldani-contatti",
+          "l07-caldani-laboratorio"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-caldani-contatti",
+              "l07-caldani-laboratorio"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "caldani-roma"
+      }
+    },
+    {
+      "id": "gold-time-roma",
+      "slug": "gold-time-roma",
+      "nome": "Gold & Time — Orologi Antichi",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio a Roma dedicato al restauro di orologi antichi e alla riparazione di modelli moderni. Le lavorazioni pubblicate comprendono meccanismi, pendole, orologi da tasca, cinturini e lucidatura.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Via Buonarroti 8/a",
+        "cap": "00185",
+        "coordinate": null,
+        "fonti": [
+          "l07-gold-time"
+        ]
+      },
+      "contatti": {
+        "telefono": "06 4872354",
+        "email": "a.pantano@live.it",
+        "sito": "https://www.orologiantichi.eu/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-gold-time"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "l07-gold-time"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-gold-time"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-gold-time"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "gold-time-roma"
+      }
+    },
+    {
+      "id": "emporio-roma",
+      "slug": "emporio-roma",
+      "nome": "Orologeria Emporio",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Orologeria di Roma con vendita, manutenzione e riparazione documentate dal sito. I loghi o le qualifiche generiche esposti non vengono trattati come una conferma di assistenza ufficiale per un marchio specifico.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Piazza dell’Emporio 18",
+        "cap": "00153",
+        "coordinate": null,
+        "fonti": [
+          "l07-emporio"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 338 347 3691",
+        "email": "info@orologeriaemporio.it",
+        "sito": "https://www.orologeriaemporio.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-emporio"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "l07-emporio"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "l07-emporio"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-emporio"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-emporio"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-emporio"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "emporio-roma"
+      }
+    },
+    {
+      "id": "tempoidea-viterbo",
+      "slug": "tempoidea-viterbo",
+      "nome": "Tempoidea",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio a Viterbo che documenta revisioni, riparazioni, batterie, cinturini, restauro di orologi antichi e valutazioni. I marchi riparati sono dichiarati dal laboratorio e restano distinti dalle autorizzazioni ufficiali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "viterbo",
+      "posizione": {
+        "indirizzo": "Piazza della Rocca 13",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "l07-tempoidea-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "0761 223679",
+        "email": null,
+        "sito": "https://www.tempoidea.it/",
+        "whatsapp": "+393398258297",
+        "social": [],
+        "fonti": [
+          "l07-tempoidea-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "l07-tempoidea"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          },
+          {
+            "marca": "Breguet",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          },
+          {
+            "marca": "Patek Philippe",
+            "fonti": [
+              "l07-tempoidea"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-tempoidea-contatti",
+          "l07-tempoidea"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-tempoidea-contatti",
+              "l07-tempoidea"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "tempoidea-viterbo"
+      }
+    },
+    {
+      "id": "verardi-viterbo",
+      "slug": "verardi-viterbo",
+      "nome": "Verardi Tecnica Svizzera",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Negozio e laboratorio a Viterbo con vendita di orologi e riparazioni documentate dal sito. Il laboratorio descrive interventi su orologi meccanici, elettronici e al quarzo.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "viterbo",
+      "posizione": {
+        "indirizzo": "Via Cattaneo 38 c",
+        "cap": "01100",
+        "coordinate": null,
+        "fonti": [
+          "l07-verardi"
+        ]
+      },
+      "contatti": {
+        "telefono": "0761 38943",
+        "email": "info@tecnicasvizzera.it",
+        "sito": "https://www.tecnicasvizzera.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-verardi"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "l07-verardi"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-verardi"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "l07-verardi"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "l07-verardi"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "meccanici",
+          "fonti": [
+            "l07-verardi"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-verardi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-verardi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "verardi-viterbo"
+      }
+    },
+    {
+      "id": "tardani-viterbo",
+      "slug": "tardani-viterbo",
+      "nome": "L’Ora Esatta di Roberto Tardani",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Centro riparazioni a Viterbo con interventi su orologi manuali, automatici e al quarzo. Il sito documenta anche revisioni di pendole, cambio pile e cinturini e lucidature; la revisione delle pendole non è estesa automaticamente a tutti gli orologi da polso.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "viterbo",
+      "posizione": {
+        "indirizzo": "Via A. Marini 22-24",
+        "cap": "01100",
+        "coordinate": null,
+        "fonti": [
+          "l07-tardani"
+        ]
+      },
+      "contatti": {
+        "telefono": "0761 332005",
+        "email": "tardaniroberto@libero.it",
+        "sito": "https://www.riparazioneorologi.eu/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-tardani"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "l07-tardani"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "automatici",
+          "fonti": [
+            "l07-tardani"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "l07-tardani"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "l07-tardani"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "l07-tardani"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "l07-tardani"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "l07-tardani"
+            ]
+          },
+          {
+            "marca": "Swatch",
+            "fonti": [
+              "l07-tardani"
+            ]
+          },
+          {
+            "marca": "Breitling",
+            "fonti": [
+              "l07-tardani"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-tardani"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-tardani"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "tardani-viterbo"
+      }
+    },
+    {
+      "id": "brusaporci-latina",
+      "slug": "brusaporci-latina",
+      "nome": "Gioielleria Brusaporci",
+      "tipi": [
+        "orologeria",
+        "laboratorio",
+        "gioielleria"
+      ],
+      "descrizione": "Gioielleria con laboratorio a Latina. Il sito descrive manutenzione, revisione e lucidatura; la rivendita ufficiale Rolex è confermata dal produttore. Il ruolo di rivenditore resta distinto da quello di centro assistenza ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "latina",
+      "posizione": {
+        "indirizzo": "Via Eugenio di Savoia 44",
+        "cap": "04100",
+        "coordinate": null,
+        "fonti": [
+          "l07-brusaporci-laboratorio"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0773 1753746",
+        "email": "info@brusaporci.it",
+        "sito": "https://www.brusaporci.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-brusaporci-laboratorio"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-brusaporci-laboratorio"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "l07-brusaporci-laboratorio"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "l07-brusaporci-laboratorio"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "l07-brusaporci-laboratorio"
+          ]
+        },
+        {
+          "id": "vendita",
+          "fonti": [
+            "l07-brusaporci-rolex"
+          ]
+        },
+        {
+          "id": "vendita-nuovi",
+          "fonti": [
+            "l07-brusaporci-rolex"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "l07-brusaporci-rolex"
+            ]
+          }
+        ],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "l07-brusaporci-laboratorio"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "l07-brusaporci-laboratorio"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "l07-brusaporci-rolex"
+            ]
+          }
+        ],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-brusaporci-laboratorio",
+          "l07-brusaporci-rolex"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-brusaporci-laboratorio",
+              "l07-brusaporci-rolex"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "brusaporci-latina"
+      }
+    },
+    {
+      "id": "milioni-montefiascone",
+      "slug": "milioni-montefiascone",
+      "nome": "Gioielleria Milioni",
+      "tipi": [
+        "orologeria",
+        "laboratorio",
+        "gioielleria"
+      ],
+      "descrizione": "Gioielleria a Montefiascone con vendita di orologi e laboratorio di riparazione descritti dal sito. Breil e Philip Watch sono riportati come marchi trattati nella vendita; non vengono attribuite autorizzazioni tecniche.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "montefiascone",
+      "posizione": {
+        "indirizzo": "Piazza Vittorio Emanuele 1",
+        "cap": "01027",
+        "coordinate": null,
+        "fonti": [
+          "l07-milioni"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0761 959038",
+        "email": "info@gioielleriamilioni.it",
+        "sito": "https://gioielleriamilioni.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "l07-milioni"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "l07-milioni"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "l07-milioni"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Breil",
+            "fonti": [
+              "l07-milioni"
+            ]
+          },
+          {
+            "marca": "Philip Watch",
+            "fonti": [
+              "l07-milioni"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-20",
+        "verificataIl": "2026-10-20",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "l07-milioni"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-20",
+            "azione": "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            "fonti": [
+              "l07-milioni"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-lazio-07b",
+        "idOriginale": "milioni-montefiascone"
       }
     }
   ]

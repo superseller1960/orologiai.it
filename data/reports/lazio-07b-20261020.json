@@ -1,0 +1,399 @@
+{
+  "lotto": "lazio-07b-20261020",
+  "data": "2026-10-20",
+  "conteggi": {
+    "nuove": 10,
+    "aggiornate": 0,
+    "giaPresenti": 0,
+    "inRevisione": 2,
+    "scartate": 1,
+    "duplicatiRilevati": 0
+  },
+  "prima": {
+    "attivita": 35,
+    "regioni": [
+      "Lombardia",
+      "Toscana"
+    ],
+    "province": [
+      "AR",
+      "FI",
+      "MI",
+      "PI",
+      "PO",
+      "SI"
+    ],
+    "comuni": [
+      "Bagno a Ripoli (FI)",
+      "Calenzano (FI)",
+      "Campi Bisenzio (FI)",
+      "Colle di Val d’Elsa (SI)",
+      "Empoli (FI)",
+      "Figline e Incisa Valdarno (FI)",
+      "Firenze (FI)",
+      "Firenzuola (FI)",
+      "Milano (MI)",
+      "Montevarchi (AR)",
+      "Poggibonsi (SI)",
+      "Poggio a Caiano (PO)",
+      "Pontassieve (FI)",
+      "Pontedera (PI)",
+      "San Miniato (PI)",
+      "Scandicci (FI)",
+      "Sesto Fiorentino (FI)",
+      "Signa (FI)"
+    ],
+    "servizi": [
+      "acquisto-permuta",
+      "assistenza",
+      "batterie",
+      "cinturini",
+      "gioielleria",
+      "lucidatura",
+      "manutenzione",
+      "orologi-tasca",
+      "pendoleria",
+      "revisione",
+      "ricambi",
+      "riparazione",
+      "riparazione-automatici",
+      "riparazione-meccanici",
+      "valutazioni",
+      "vendita",
+      "vendita-nuovi",
+      "vendita-usati"
+    ],
+    "coordinateValide": 4,
+    "conContatti": 27,
+    "perRegione": {
+      "Lombardia": 3,
+      "Toscana": 32
+    }
+  },
+  "dopo": {
+    "attivita": 45,
+    "regioni": [
+      "Lazio",
+      "Lombardia",
+      "Toscana"
+    ],
+    "province": [
+      "AR",
+      "FI",
+      "LT",
+      "MI",
+      "PI",
+      "PO",
+      "RM",
+      "SI",
+      "VT"
+    ],
+    "comuni": [
+      "Bagno a Ripoli (FI)",
+      "Calenzano (FI)",
+      "Campi Bisenzio (FI)",
+      "Colle di Val d’Elsa (SI)",
+      "Empoli (FI)",
+      "Figline e Incisa Valdarno (FI)",
+      "Firenze (FI)",
+      "Firenzuola (FI)",
+      "Latina (LT)",
+      "Milano (MI)",
+      "Montefiascone (VT)",
+      "Montevarchi (AR)",
+      "Poggibonsi (SI)",
+      "Poggio a Caiano (PO)",
+      "Pontassieve (FI)",
+      "Pontedera (PI)",
+      "Roma (RM)",
+      "San Miniato (PI)",
+      "Scandicci (FI)",
+      "Sesto Fiorentino (FI)",
+      "Signa (FI)",
+      "Viterbo (VT)"
+    ],
+    "servizi": [
+      "acquisto-permuta",
+      "assistenza",
+      "batterie",
+      "cinturini",
+      "gioielleria",
+      "lucidatura",
+      "manutenzione",
+      "orologi-tasca",
+      "pendoleria",
+      "restauro-vintage",
+      "revisione",
+      "ricambi",
+      "riparazione",
+      "riparazione-automatici",
+      "riparazione-meccanici",
+      "riparazione-quarzo",
+      "valutazioni",
+      "vendita",
+      "vendita-nuovi",
+      "vendita-usati"
+    ],
+    "coordinateValide": 4,
+    "conContatti": 37,
+    "perRegione": {
+      "Lazio": 10,
+      "Lombardia": 3,
+      "Toscana": 32
+    }
+  },
+  "decisioni": [
+    {
+      "id": "salamena-roma",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "caldani-roma",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "gold-time-roma",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "emporio-roma",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "tempoidea-viterbo",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "verardi-viterbo",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "tardani-viterbo",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "brusaporci-latina",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "milioni-montefiascone",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "casa-cronometro-roma",
+      "esito": "nuova",
+      "motivo": "Identità, località e servizi riscontrati nelle fonti ufficiali indicate; campi assenti non dedotti.",
+      "duplicati": []
+    },
+    {
+      "id": "ceccacci-viterbo-candidato",
+      "esito": "in-revisione",
+      "motivo": "Il sito individuato redirige a un indirizzo malformato: riconfermare la fonte ufficiale prima di trasferire dati operativi.",
+      "duplicati": []
+    },
+    {
+      "id": "horology-lab-rieti-candidato",
+      "esito": "in-revisione",
+      "motivo": "Disponibile una directory di terzi; riscontro sul sito ufficiale non completato. Nessun dato trasferito nel dataset pubblico.",
+      "duplicati": []
+    },
+    {
+      "id": "bibiani-castel-ritaldi-candidato",
+      "esito": "scartata",
+      "motivo": "Fuori dal perimetro del lotto Lazio: il sito ufficiale indica Castel Ritaldi (PG), in Umbria. Candidato conservato per un futuro lotto Umbria.",
+      "duplicati": []
+    }
+  ],
+  "fonti": [
+    {
+      "id": "l07-salamena",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioniorologiroma.it/",
+      "titolo": "Salamena — attività, servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio a Roma: riparazione e revisione di orologi da polso, pendoleria antica e valutazioni. Indirizzo, telefono ed email nel sito. Marchi elencati come riparati, senza promuovere autorizzazioni."
+    },
+    {
+      "id": "l07-salamena-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioniorologiroma.it/laboratorio-di-orologeria/",
+      "titolo": "Salamena — laboratorio",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Documenta restauro e riparazione di pendole e orologi da tasca, revisioni, sostituzione di pile e cinturini."
+    },
+    {
+      "id": "l07-caldani-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.caldaniorologi.it/laboratorio-orologi-roma/",
+      "titolo": "Caldani — laboratorio di Roma",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio in Via degli Scipioni: riparazione, revisione e restauro di orologi di alta gamma. Qualifiche ufficiali non trasferite senza riscontro del marchio."
+    },
+    {
+      "id": "l07-caldani-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.caldaniorologi.it/contatti/",
+      "titolo": "Caldani — contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Indirizzo Via degli Scipioni 298, 00192 Roma, telefono 06 3217684 ed email info@caldaniorologi.it. Orari non importati in questo lotto."
+    },
+    {
+      "id": "l07-gold-time",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiantichi.eu/",
+      "titolo": "Gold & Time — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "A Roma documenta restauro di orologi antichi, riparazioni, revisione del meccanismo, cinturini e lucidatura. Contatti e indirizzo in Via Buonarroti 8/a."
+    },
+    {
+      "id": "l07-emporio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaemporio.it/",
+      "titolo": "Orologeria Emporio — servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Vendita, manutenzione e riparazione di orologi a Roma, Piazza dell’Emporio 18. La dicitura centro ufficiale non identifica testualmente i marchi: nessuna autorizzazione viene trasferita."
+    },
+    {
+      "id": "l07-tempoidea",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoidea.it/orologeria/",
+      "titolo": "Tempoidea — laboratorio",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio a Viterbo: riparazione, revisione, batterie, cinturini, restauro di orologi antichi, orologi da tasca, lucidatura e valutazione. Elenco di marchi riparati; non è una fonte del produttore per autorizzazioni."
+    },
+    {
+      "id": "l07-tempoidea-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoidea.it/preventivo-orologio/",
+      "titolo": "Tempoidea — contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Piazza della Rocca 13, Viterbo; telefono 0761 223679 e WhatsApp 339 8258297. Il CAP non è riportato in questa fonte e viene omesso."
+    },
+    {
+      "id": "l07-verardi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tecnicasvizzera.it/",
+      "titolo": "Verardi Tecnica Svizzera — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Negozio e laboratorio a Viterbo in Via Cattaneo 38 c, 01100. Vendita e riparazione di orologi; riparazioni di meccanici ed elettronici al quarzo. Telefono ed email pubblicati."
+    },
+    {
+      "id": "l07-tardani",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologi.eu/",
+      "titolo": "L’Ora Esatta di Roberto Tardani — servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "A Viterbo: riparazioni di orologi manuali, automatici e al quarzo; revisioni di pendole, pile, cinturini e lucidature. Via A. Marini 22-24, 01100; contatti pubblicati. La revisione pubblicata riguarda le pendole."
+    },
+    {
+      "id": "l07-brusaporci-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.brusaporci.it/laboratorio",
+      "titolo": "Brusaporci — laboratorio e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "A Latina: revisione, manutenzione, riparazione e lucidatura. Indirizzo Via Eugenio di Savoia 44, 04100 e telefono 0773 1753746. La qualifica di centro assistenza dichiarata dal negozio resta distinta dal ruolo confermato da fonte Rolex."
+    },
+    {
+      "id": "l07-brusaporci-rolex",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it/rolex-dealers/brusaporci-481/rswi_1946-latina-italy",
+      "titolo": "Rolex — Brusaporci Latina, rivenditore autorizzato",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Il produttore identifica Brusaporci a Latina come rivenditore autorizzato e descrive la vendita di Rolex nuovi. Questo record non promuove automaticamente il ruolo di rivenditore a centro assistenza ufficiale."
+    },
+    {
+      "id": "l07-milioni",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriamilioni.it/",
+      "titolo": "Gioielleria Milioni — orologeria e laboratorio",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Vendita di orologi Breil e Philip Watch e laboratorio riparazioni. Piazza Vittorio Emanuele 1, 01027 Montefiascone (VT), telefono 0761 959038, email info@gioielleriamilioni.it. Le perizie di preziosi non diventano valutazioni di orologi."
+    },
+    {
+      "id": "l07-casa-cronometro",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.casadelcronometro.it/",
+      "titolo": "Casa del Cronometro — laboratorio, servizi e contatti",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio a Roma: riparazioni meccaniche, automatiche e al quarzo, revisioni, restauro, pendole, tasca, batterie e cinturini; vendita di nuovo e usato. Via Silla 80, 00192, telefono 06 3210971 ed email pubblicata."
+    },
+    {
+      "id": "l07-ceccacci-revisione",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaceccacci.it/it/riparazioni/",
+      "titolo": "Ceccacci — candidato da riconfermare",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina individuata, ma l’apertura reindirizza a un URL malformato non consultabile. Nessuna scheda promossa da questo solo riscontro."
+    },
+    {
+      "id": "l07-horology-revisione",
+      "tipo": "directory",
+      "url": "https://lazioshopping.it/attivita/horology-lab-orologeria-rieti/",
+      "titolo": "Lazio Shopping — Horology Lab",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco di terzi per Rieti. Sito ufficiale e dati operativi non confermati: il candidato resta in revisione."
+    },
+    {
+      "id": "l07-bibiani-altro-lotto",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.bibiani.it/",
+      "titolo": "Bibiani — candidato per un futuro lotto Umbria",
+      "consultataIl": "2026-10-20",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Il sito ufficiale indica Castel Ritaldi (PG), in Umbria. Escluso dal lotto Lazio per appartenenza territoriale; da considerare per il lotto Umbria."
+    }
+  ],
+  "applicato": true,
+  "inputSha256": "0702e24930b7b2f3d83ff8b1cd634b5e1dcb6d71f3e4db25f2540e2843fb8fc4"
+}

@@ -18,7 +18,8 @@
     "migrate:legacy": "tsx scripts/migrate-legacy.ts",
     "import:osm": "tsx scripts/import-osm.ts",
     "fetch:osm:pilot": "tsx scripts/fetch-osm-pilot.ts",
-    "integrate:toscana-02": "tsx scripts/integrate-toscana-02.ts"
+    "integrate:toscana-02": "tsx scripts/integrate-toscana-02.ts",
+    "integrate:reviewed": "tsx scripts/integrate-reviewed-batch.ts"
   },
   "dependencies": {
     "astro": "7.4.0",

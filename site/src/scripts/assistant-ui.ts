@@ -1,7 +1,7 @@
 import raw from '../../data/directory.json';
 import { z } from 'zod';
 import { directorySchema, services } from '../lib/schema';
-import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaio, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaio, combinaCriteri as aggiornaCriteri, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
 
 // Risposta dell'endpoint: solo criteri validati e la modalità reale usata.
   const rispostaSchema = z.object({
@@ -181,7 +181,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
   // Prova l'endpoint server-side; se non è raggiungibile o non valido, usa l'interpretazione locale dichiarandolo.
   const interpreta = async (testo: string): Promise<Interpretazione> => {
     const locale = async (avviso: string | null): Promise<Interpretazione> => {
-      const r = await interpretaConProvider(testo, data, null);
+      const r = await interpretaConProvider(testo, data, null, undefined, ultimiCriteri);
       return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale', risposta: null };
     };
     let res: Response;
@@ -204,15 +204,8 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     return { criteri, chiarimenti, avviso, risposta, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
   };
 
-  // Continuità: la località si mantiene, gli altri criteri restano solo se la nuova frase non ne propone di nuovi.
-  const combinaCriteri = (nuovi: Criteri): { criteri: Criteri; ereditati: string[] } => {
-    const temaNuovo = (['servizio', 'marca', 'tipo', 'specializzazione', 'apertoOggi'] as const).some(k => nuovi[k] !== undefined);
-    const criteri: Criteri = temaNuovo ? {} : { ...ultimiCriteri };
-    for (const [chiave, valore] of Object.entries(nuovi) as [keyof Criteri, Criteri[keyof Criteri]][]) {
-      if (valore !== undefined) (criteri as Record<string, unknown>)[chiave] = valore;
-    }
-    if (temaNuovo && !criteri.localita && !criteri.localitaNonCensita && ultimiCriteri.localita) criteri.localita = ultimiCriteri.localita;
-    if (criteri.localita) delete criteri.bisognoPosizione;
+  const combinaCriteri = (nuovi: Criteri, testo: string): { criteri: Criteri; ereditati: string[] } => {
+    const criteri = aggiornaCriteri(ultimiCriteri, nuovi, testo);
     const ereditati = (Object.keys(criteri) as (keyof Criteri)[])
       .filter(k => nuovi[k] === undefined && criteri[k] !== undefined)
       .map(k => String(k));
@@ -278,7 +271,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
     try {
       const interp = await interpreta(testo);
-      const { criteri, ereditati } = combinaCriteri(interp.criteri);
+      const { criteri, ereditati } = combinaCriteri(interp.criteri, testo);
       const esito: EsitoRicerca = cercaOrologiaio(data, criteri, { origine });
       ultimiCriteri = criteri;
       mostraModalita(interp.modalita);

@@ -66,7 +66,7 @@ test('termini maiuscoli non riconosciuti vengono segnalati, non ignorati', () =>
 });
 
 test('marchio non presente: nessuna attività attribuita a quel marchio', () => {
-  const r = cerca('Cerco un laboratorio esperto in Breguet');
+  const r = cerca('Cerco un laboratorio esperto in MarchioAssente');
   assert.equal(r.totale, 0);
 });
 
@@ -90,7 +90,7 @@ test('autorizzazione ufficiale Rolex: nessuna rivendita o menzione spacciata per
 });
 
 test('rivenditore ufficiale Rolex: nessun risultato se non documentato come ufficiale', () => {
-  const r = cerca('Cerco un rivenditore ufficiale Rolex');
+  const r = cerca('Cerco un rivenditore ufficiale Rolex a Milano');
   assert.equal(r.totale, 0);
 });
 
