@@ -32,3 +32,7 @@ backups/
 
 # GitHub Actions artefacts
 .github/workflows/
+
+# Collaudo locale: script e screenshot di verifica, non fanno parte del sito
+/.audit/
+/artifacts/

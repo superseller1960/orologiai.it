@@ -165,7 +165,23 @@ await attesa(60);
 assert.equal(doc.querySelector('img'), null, 'Il testo del cliente non viene interpretato come HTML');
 assert.match(testoChat(), /onerror=alert\(1\)/);
 
-// I. Regole CSS della chat presenti nel foglio di stile compilato (mobile-first, composer aderente).
+// I. Contesto ereditato che svuota i risultati: si riparte dai soli criteri nuovi, dichiarandolo.
+w.fetch = (async () => ai({ servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage' })) as unknown as typeof w.fetch;
+await scrivi('Vorrei vendere un Omega vintage');
+invia!.click();
+await attesa(60);
+// Il server risponde con i criteri già uniti al contesto, come in produzione.
+w.fetch = (async () => ai({ servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage', regione: 'molise' })) as unknown as typeof w.fetch;
+await scrivi('Ci sono orologiai in Molise?');
+invia!.click();
+await attesa(80);
+assert.match(testoChat(), /regione: Molise\b/, 'Il riepilogo nomina la regione cercata');
+assert.match(testoChat(), /ho cercato solo la nuova richiesta/, 'La chat dichiara di aver ignorato il contesto precedente');
+const molise = cercaOrologiaio(directory, { regione: 'molise' }).risultati.map(r => r.id);
+assert.ok(molise.length > 0, 'Il database ha attività in Molise');
+assert.deepEqual(schede(), molise, 'Le schede mostrate sono quelle del Molise, non un elenco vuoto');
+
+// J. Regole CSS della chat presenti nel foglio di stile compilato (mobile-first, composer aderente).
 const cssFiles = (await readdir('dist/_astro')).filter(f => f.endsWith('.css'));
 const css = (await Promise.all(cssFiles.map(f => readFile(`dist/_astro/${f}`, 'utf8')))).join('\n');
 assert.match(css, /\.chat-log\{/, 'Il foglio di stile della chat è incluso');

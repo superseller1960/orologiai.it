@@ -1,5 +1,11 @@
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
+// Leaflet deduce l'URL dei pin dal CSS. Nel bundle l'immagine resta inline e la deduzione
+// può produrre richieste relative alla pagina (404 /cerca/marker-icon.png): usiamo gli asset emessi da Vite.
+import markerIcon from 'leaflet/dist/images/marker-icon.png?url';
+import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png?url';
+import markerShadow from 'leaflet/dist/images/marker-shadow.png?url';
+L.Icon.Default.mergeOptions({ iconUrl: markerIcon, iconRetinaUrl: markerIcon2x, shadowUrl: markerShadow });
 type Point = { id: string; nome: string; comune: string; indirizzo: string | null; lat: number; lon: number; href: string };
 const TILE_URL: string = (import.meta.env.PUBLIC_TILE_URL as string | undefined) || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const el = document.querySelector<HTMLElement>('#directory-map');

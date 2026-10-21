@@ -506,6 +506,21 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
   };
 }
 
+// Un contesto ereditato può svuotare i risultati anche quando la nuova richiesta da sola ne ha:
+// in quel caso la chat riparte dai soli criteri nuovi, dichiarandolo, invece di rispondere “nessuna attività”.
+export function cercaConContesto(
+  dir: Directory,
+  criteriUniti: Criteri,
+  criteriNuovi: Criteri,
+  opzioni: { origine?: { lat: number; lon: number }; now?: Date; limite?: number } = {},
+): { criteri: Criteri; esito: EsitoRicerca; daSoliNuoviCriteri: boolean } {
+  const esito = cercaOrologiaio(dir, criteriUniti, opzioni);
+  if (esito.stato !== 'nessun-risultato' || !haCriteri(criteriNuovi)) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false };
+  const soloNuovi = cercaOrologiaio(dir, criteriNuovi, opzioni);
+  if (soloNuovi.stato !== 'ok' || soloNuovi.risultati.length === 0) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false };
+  return { criteri: criteriNuovi, esito: soloNuovi, daSoliNuoviCriteri: true };
+}
+
 // Interfaccia del provider AI. Il provider restituisce una breve risposta conversazionale
 // e criteri JSON: non esegue query, non scrive dati. La risposta è solo testo, i fatti restano del database.
 export interface AssistantProvider {

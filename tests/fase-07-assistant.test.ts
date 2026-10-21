@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { directorySchema } from '../site/src/lib/schema.ts';
-import { cercaOrologiaio, combinaCriteri, interpretaConProvider, interpretaRichiesta, type Criteri } from '../site/src/lib/assistant.ts';
+import { cercaConContesto, cercaOrologiaio, combinaCriteri, interpretaConProvider, interpretaRichiesta, type Criteri } from '../site/src/lib/assistant.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 import { handleOrologiaio, creaRateLimiter } from '../site/src/lib/orologiaio-api.ts';
 
@@ -187,4 +187,29 @@ test('07A: endpoint senza chiave mantiene la conversazione e distingue il fallba
   const body = await res.json();
   assert.equal(body.modalita, 'non-configurato');
   assert.deepEqual(body.criteri, { localita: 'firenze', servizio: 'revisione', marca: 'Rolex', specializzazione: 'automatici' });
+});
+
+test('07A: un contesto ereditato che svuota i risultati non nasconde le attività della nuova richiesta', async () => {
+  // Conversazione reale: dopo una ricerca su Omega vintage, "Ci sono orologiai in Molise?" deve mostrare il Molise.
+  const uniti = await turno('Ci sono orologiai in Molise?', { servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage' });
+  assert.deepEqual(uniti, { servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage', regione: 'molise' });
+  const nuovi = interpretaRichiesta('Ci sono orologiai in Molise?', dir).criteri;
+  const ricerca = cercaConContesto(dir, uniti, nuovi);
+  assert.equal(ricerca.daSoliNuoviCriteri, true);
+  assert.deepEqual(ricerca.criteri, { regione: 'molise' });
+  assert.deepEqual(ricerca.esito.risultati.map(r => r.id).sort(), cercaOrologiaio(dir, { regione: 'molise' }).risultati.map(r => r.id).sort());
+});
+
+test('07A: con risultati dal contesto unito il ripiego non scatta e i criteri restano quelli uniti', () => {
+  const uniti: Criteri = { localita: 'milano', servizio: 'riparazione' };
+  const ricerca = cercaConContesto(dir, uniti, { servizio: 'riparazione' });
+  assert.equal(ricerca.daSoliNuoviCriteri, false);
+  assert.deepEqual(ricerca.criteri, uniti);
+  assert.equal(ricerca.esito.stato, 'ok');
+});
+
+test('07A: senza alternative reali il ripiego non inventa risultati', () => {
+  const ricerca = cercaConContesto(dir, { marca: 'MarchioInesistente', servizio: 'revisione' }, { marca: 'MarchioInesistente' });
+  assert.equal(ricerca.daSoliNuoviCriteri, false);
+  assert.equal(ricerca.esito.risultati.length, 0);
 });

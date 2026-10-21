@@ -1,7 +1,8 @@
 import raw from '../../data/directory.json';
 import { z } from 'zod';
 import { directorySchema, services } from '../lib/schema';
-import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaio, combinaCriteri as aggiornaCriteri, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+import { MAX_MESSAGGIO, criteriSchema, cercaConContesto, combinaCriteri as aggiornaCriteri, interpretaRichiesta, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+import { REGIONI_ITALIA } from '../lib/geo';
 
 // Risposta dell'endpoint: solo criteri validati e la modalità reale usata.
   const rispostaSchema = z.object({
@@ -110,6 +111,9 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     if (c.tipo) parti.push(`tipologia: ${c.tipo}`);
     if (c.specializzazione) parti.push(`specializzazione: ${c.specializzazione}`);
     if (c.localita) parti.push(`comune: ${data.localita.find(p => p.id === c.localita)?.comune ?? c.localita}`);
+    if (c.localitaNonCensita) parti.push(`comune non ancora censito: ${c.localitaNonCensita}`);
+    if (c.provincia) parti.push(`provincia: ${c.provincia}`);
+    if (c.regione) parti.push(`regione: ${REGIONI_ITALIA[c.regione]?.nome ?? c.regione}`);
     if (c.apertoOggi) parti.push('aperto oggi (solo orari verificati)');
     if (c.distanzaMaxKm) parti.push(`entro ${c.distanzaMaxKm} km`);
     return parti.length ? `Ho interpretato la richiesta come: ${parti.join(' · ')}.` : '';
@@ -204,18 +208,13 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     return { criteri, chiarimenti, avviso, risposta, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
   };
 
-  const combinaCriteri = (nuovi: Criteri, testo: string): { criteri: Criteri; ereditati: string[] } => {
-    const criteri = aggiornaCriteri(ultimiCriteri, nuovi, testo);
-    const ereditati = (Object.keys(criteri) as (keyof Criteri)[])
-      .filter(k => nuovi[k] === undefined && criteri[k] !== undefined)
-      .map(k => String(k));
-    return { criteri, ereditati };
-  };
-
   const etichettaCriterio = (chiave: string, c: Criteri): string => {
     switch (chiave) {
       case 'localita': return `comune: ${data.localita.find(p => p.id === c.localita)?.comune ?? c.localita}`;
       case 'servizio': return `servizio: ${c.servizio ? services[c.servizio] : ''}`;
+      case 'regione': return `regione: ${c.regione ? REGIONI_ITALIA[c.regione]?.nome ?? c.regione : ''}`;
+      case 'provincia': return `provincia: ${c.provincia ?? ''}`;
+      case 'localitaNonCensita': return `comune non ancora censito: ${c.localitaNonCensita ?? ''}`;
       case 'marca': return `marchio: ${c.marca ?? ''}`;
       case 'tipo': return `tipologia: ${c.tipo ?? ''}`;
       case 'specializzazione': return `specializzazione: ${c.specializzazione ?? ''}`;
@@ -271,8 +270,18 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
     try {
       const interp = await interpreta(testo);
-      const { criteri, ereditati } = combinaCriteri(interp.criteri, testo);
-      const esito: EsitoRicerca = cercaOrologiaio(data, criteri, { origine });
+      // I criteri dei soli nuovi messaggi, senza il contesto: servono al riepilogo e al ripiego.
+      const nuovi = interpretaRichiesta(testo, data).criteri;
+      const uniti = aggiornaCriteri(ultimiCriteri, interp.criteri, testo);
+      // Se il contesto ereditato azzera i risultati ma la nuova richiesta da sola ne ha, si usano i soli criteri nuovi.
+      const ricerca = cercaConContesto(data, uniti, nuovi, { origine });
+      const criteri: Criteri = ricerca.criteri;
+      const esito: EsitoRicerca = ricerca.esito;
+      const ereditati = ricerca.daSoliNuoviCriteri
+        ? []
+        : (Object.keys(criteri) as (keyof Criteri)[])
+            .filter(k => nuovi[k] === undefined && criteri[k] !== undefined)
+            .map(k => String(k));
       ultimiCriteri = criteri;
       mostraModalita(interp.modalita);
 
@@ -281,6 +290,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       if (interp.risposta) righe.push(interp.risposta);
       const riepilogo = riassunto(criteri);
       if (!interp.risposta && riepilogo) righe.push(riepilogo);
+      if (ricerca.daSoliNuoviCriteri) righe.push('I criteri della richiesta precedente non davano risultati: ho cercato solo la nuova richiesta.');
       if (ereditati.length && !interp.risposta) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
       if (interp.avviso) righe.push(interp.avviso);
       // I chiarimenti del parser restano: in fallback sono l'unica voce; con il modello guidano il passo successivo.
