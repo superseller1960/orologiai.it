@@ -85,8 +85,31 @@ if (form && count && empty && list) {
 
   const emptyDefault = empty.textContent ?? '';
 
+  // Coerenza regione-provincia-città: la regione scelta nasconde le province di altre regioni
+  // e azzera una città o una provincia che non appartengono più alla regione selezionata.
+  const regionSelect = form.elements.namedItem('regione') as HTMLSelectElement | null;
+  const provinceSelect = form.elements.namedItem('provincia') as HTMLSelectElement | null;
+  function syncRegione() {
+    const reg = regionSelect?.value ?? '';
+    if (provinceSelect) {
+      for (const opt of Array.from(provinceSelect.options)) {
+        if (!opt.value) continue;
+        const visibile = !reg || opt.dataset.regione === reg;
+        opt.hidden = !visibile;
+        opt.disabled = !visibile;
+        if (!visibile && opt.selected) provinceSelect.value = '';
+      }
+    }
+    const city = cityInput?.value.trim() ?? '';
+    if (reg && city && cityInput) {
+      const match = data.localita.find(p => normalize(p.comune) === normalize(city));
+      if (match && match.regioneSlug !== reg) cityInput.value = '';
+    }
+  }
+
   function update(syncUrl: boolean) {
     if (!form || !count || !empty || !list) return;
+    syncRegione();
     const params = new URLSearchParams();
     const city = cityInput?.value.trim() ?? '';
     for (const [key, value] of new FormData(form)) {

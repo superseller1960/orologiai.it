@@ -50,8 +50,8 @@ test('nessun criterio riconosciuto: nessuna lista dell’intero database', () =>
 });
 
 test('località inesistente: nessun risultato e nessuna località sostituita', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio a Sanremo', data).criteri;
-  assert.equal(crit.localitaNonCensita, 'Sanremo');
+  const crit = interpretaRichiesta('Cerco un orologiaio a Cesena', data).criteri;
+  assert.equal(crit.localitaNonCensita, 'Cesena');
   assert.equal(crit.localita, undefined);
   const r = cercaOrologiaio(data, crit, { now: VENERDI });
   assert.equal(r.stato, 'localita-non-censita');

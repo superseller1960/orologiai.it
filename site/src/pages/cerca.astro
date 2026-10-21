@@ -5,9 +5,12 @@ import '../styles/chat.css';
 import { MAX_MESSAGGIO } from '../lib/assistant';
 import { directory, brandNames, businessUrl, placeOf } from '../lib/directory';
 import { services, businessTypes, specializations, statuses, isUsableCoordinate } from '../lib/schema';
+import { REGIONI_ITALIA } from '../lib/geo';
 const mapPoints = directory.attivita.filter(b => isUsableCoordinate(b.posizione.coordinate)).map(b => ({ id: b.id, nome: b.nome, comune: placeOf(b).comune, indirizzo: b.posizione.indirizzo ? b.posizione.indirizzo + (b.posizione.cap ? ', ' + b.posizione.cap : '') : null, lat: b.posizione.coordinate!.lat, lon: b.posizione.coordinate!.lon, href: businessUrl(b) }));
-const regioni = [...new Map(directory.localita.map(p => [p.regioneSlug,p.regione])).entries()];
-const province = [...new Map(directory.localita.map(p => [p.provinciaSlug,p.provincia])).entries()];
+// Tutte e 20 le regioni sono selezionabili subito, anche quelle ancora senza schede.
+const regioni = Object.values(REGIONI_ITALIA).map(r => [r.slug, r.nome] as const).sort((a, b) => a[1].localeCompare(b[1], 'it'));
+// Ogni provincia porta la propria regione: lo script nasconde le province fuori regione.
+const province = [...new Map(directory.localita.map(p => [p.provinciaSlug, { label: p.provincia, regione: p.regioneSlug }])).entries()].sort((a, b) => a[1].label.localeCompare(b[1].label, 'it'));
 const suggerimenti = ['Cerco cambio batteria a Milano', 'Vorrei una revisione a Roma', 'Vorrei valutare e vendere un orologio'];
 ---
 <Layout title="Trova un orologiaio in Italia" description="Trova un orologiaio per servizio e città. Mappa, risultati documentati e assistente in un solo percorso." noindex>
@@ -20,18 +23,19 @@ const suggerimenti = ['Cerco cambio batteria a Milano', 'Vorrei una revisione a 
         </div>
         <div class="search-fields"><label class="wide">Oppure cerca per servizio, nome o marchio<input type="search" name="q" list="service-suggestions" placeholder="Es. revisione, Rolex, riparazione…" /><datalist id="service-suggestions">{Object.values(services).map(label => <option value={label} />)}</datalist></label><label>Servizio<select name="servizio"><option value="">Tutti i servizi</option>{Object.entries(services).map(([id,label]) => <option value={id}>{label}</option>)}</select></label></div>
       </section>
-      <section class="search-step" aria-labelledby="step-city"><div class="step-heading"><span class="step-number">02</span><div><h2 id="step-city">In quale città?</h2><p>Puoi digitare anche una città non ancora censita.</p></div></div>
-        <label class="city-field">Città o comune<input type="search" name="comune" list="city-suggestions" placeholder="Es. Milano, Roma, Napoli…" autocomplete="address-level2" /><datalist id="city-suggestions">{directory.localita.map(p => <option value={p.comune} />)}</datalist></label>
+      <section class="search-step" aria-labelledby="step-region"><div class="step-heading"><span class="step-number">02</span><div><h2 id="step-region">In quale regione cerchi?</h2><p>Scegli la regione: la città è facoltativa.</p></div></div>
+        <div class="search-fields"><label>Regione<select name="regione" id="regione-select"><option value="">Tutta Italia</option>{regioni.map(([id,label]) => <option value={id}>{label}</option>)}</select></label></div>
+        <label class="city-field">Città o comune (facoltativa)<input type="search" name="comune" list="city-suggestions" placeholder="Es. Milano, Roma, Napoli…" autocomplete="address-level2" /><datalist id="city-suggestions">{directory.localita.map(p => <option value={p.comune} />)}</datalist></label>
         <div id="zone-badge" hidden style="margin-top:12px;background:#e8ede5;border:1px solid #c2cdc0;border-radius:6px;padding:8px 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:0.85rem">
           <span id="zone-info">Zona suggerita dalla connessione (senza GPS)</span>
           <button type="button" id="zone-modify" class="btn btn-ghost" style="padding:4px 10px;min-height:32px;font-size:0.8rem">Modifica zona</button>
         </div>
       </section>
       <details class="advanced-filters"><summary>Affina per territorio, marchio e competenze</summary><div class="search-fields secondary">
-        <label>Regione<select name="regione"><option value="">Tutte</option>{regioni.map(([id,label]) => <option value={id}>{label}</option>)}</select></label><label>Provincia<select name="provincia"><option value="">Tutte</option>{province.map(([id,label]) => <option value={id}>{label}</option>)}</select></label><label>Marchio<select name="marca"><option value="">Tutti</option>{brandNames.map(name => <option>{name}</option>)}</select></label>
+        <label>Provincia<select name="provincia" id="provincia-select"><option value="">Tutte</option>{province.map(([id,p]) => <option value={id} data-regione={p.regione}>{p.label}</option>)}</select></label><label>Marchio<select name="marca"><option value="">Tutti</option>{brandNames.map(name => <option>{name}</option>)}</select></label>
         <label>Relazione con il marchio<select name="ruoloMarca"><option value="qualsiasi">Qualsiasi</option><option value="venduti">Vendita documentata</option><option value="riparati">Riparazione documentata</option><option value="esperienza">Esperienza dichiarata</option><option value="assistenzaUfficiale">Assistenza ufficiale documentata</option><option value="rivenditaUfficiale">Rivendita ufficiale documentata</option><option value="menzionati">Menzione storica</option></select></label><label>Tipologia<select name="tipo"><option value="">Tutte</option>{businessTypes.map(t => <option>{t}</option>)}</select></label><label>Specializzazione<select name="specializzazione"><option value="">Tutte</option>{specializations.map(t => <option>{t}</option>)}</select></label><label>Attendibilità<select name="stato"><option value="">Tutti gli stati attivi</option>{Object.entries(statuses).map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
       </div></details>
-      <section class="search-step search-submit-step" aria-labelledby="step-results"><div class="step-heading"><span class="step-number">03</span><div><h2 id="step-results">Guarda dove si trova</h2><p>Apri i risultati sulla mappa e scegli a chi chiedere.</p></div></div><div class="search-actions"><button class="btn" type="submit">Mostra risultati</button><button class="btn btn-ghost" type="reset">Azzera</button></div></section>
+      <section class="search-step search-submit-step" aria-labelledby="step-results"><div class="step-heading"><span class="step-number">03</span><div><h2 id="step-results">Confronta i professionisti</h2><p>Confronta servizi, marchi e fonti, poi apri la scheda o la mappa.</p></div></div><div class="search-actions"><button class="btn" type="submit">Mostra risultati</button><button class="btn btn-ghost" type="reset">Azzera</button></div></section>
     </form>
     <noscript><p class="notice">I filtri interattivi richiedono JavaScript. Puoi consultare le <a href="/orologerie/">pagine territoriali</a>.</p></noscript>
     <p class="notice coverage-note">Il censimento conta {directory.attivita.length} attività in {directory.localita.length} comuni e non copre ancora tutta Italia. I risultati e i punti in mappa sono mostrati solo quando esistono informazioni documentate e coordinate verificate.</p>

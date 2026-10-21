@@ -122,7 +122,8 @@ assert.match(doc.querySelector('#zone-info')!.textContent!, /Lombardia/);
 const dual = doc.querySelector<HTMLButtonElement>('[data-service="revisione"]');
 assert.ok(dual?.classList.contains('search-shortcut'), 'Il pulsante Revisione unifica servizi rapidi e scorciatoie');
 assert.ok(dual?.dataset.shortcutValue === 'revisione' && dual?.dataset.shortcutField === 'servizio');
-assert.ok(doc.querySelector('#step-service') && doc.querySelector('#step-city') && doc.querySelector('#step-results'), 'I tre passi della ricerca guidata restano presenti');
+assert.ok(doc.querySelector('#step-service') && doc.querySelector('#step-region') && doc.querySelector('#step-results'), 'I tre passi della ricerca guidata restano presenti');
+assert.ok(doc.querySelector('#step-region')!.closest('.search-step')!.querySelector('select[name="regione"]'), 'La regione è nel passo 2, selezionabile subito');
 
 console.log('UI di ricerca semplificata verificata: campo unico, semantica, scorciatoie, zona suggerita e compatibilità filtri.');
 window.close();

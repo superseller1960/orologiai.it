@@ -54,6 +54,21 @@ batteryChip.click();assert.equal(form.querySelector<HTMLSelectElement>('[name="s
 select('comune','Venezia');form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
 assert.equal(visible().length,0);assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);
 assert.equal(doc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value,'Sostituzione batterie a Venezia');
+// Passo 2: la regione è selezionabile senza città; la città è facoltativa.
+form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
+select('regione','molise');
+const regioneDi=(id:string)=>directory.localita.find(p=>p.id===id)?.regioneSlug;
+const molise=directory.attivita.filter(b=>regioneDi(b.localitaId)==='molise').map(b=>b.id).sort();
+assert.ok(molise.length>0,'Il Molise ha schede');
+assert.deepEqual(visible().map(el=>el.dataset.businessId).sort(),molise,'Regione senza città: tutte le schede della regione');
+// Province di altre regioni non selezionabili con la regione scelta.
+const toscanaOpt=Array.from(form.querySelectorAll<HTMLOptionElement>('#provincia-select option[data-regione="toscana"]'));
+assert.ok(toscanaOpt.length>0 && toscanaOpt.every(o=>o.disabled),'Province di altre regioni disabilitate');
+// Città di un'altra regione: azzerata senza filtri contraddittori.
+select('comune','Milano');
+assert.equal(form.querySelector<HTMLInputElement>('[name="comune"]')!.value,'','Città fuori regione azzerata');
+assert.deepEqual(visible().map(el=>el.dataset.businessId).sort(),molise,'Dopo l’azzeramento resta il filtro regionale');
+form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 assert.equal(errors.length,0,'Nessun errore DOM durante i filtri');
 console.log('Ricerca verificata nel DOM: deep link, filtri, reset, servizio rapido, città non censita, precompilazione assistente, mappa e input ostile.');
 window.close();
