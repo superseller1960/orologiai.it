@@ -11,10 +11,10 @@ export default {
         report[nome] = `ERRORE: ${(e as Error).name}: ${(e as Error).message}`;
       }
     };
-    await prova('posizione-api', async () => await import('../site/src/lib/posizione-api.ts'));
-    await prova('geo', async () => await import('../site/src/lib/geo.ts'));
-    await prova('directory', async () => await import('../site/src/lib/directory.ts'));
-    await prova('orologiaio-api', async () => await import('../site/src/lib/orologiaio-api.ts'));
+    await prova('posizione-api', async () => await import('../site/src/lib/posizione-api'));
+    await prova('geo', async () => await import('../site/src/lib/geo'));
+    await prova('directory', async () => await import('../site/src/lib/directory'));
+    await prova('orologiaio-api', async () => await import('../site/src/lib/orologiaio-api'));
     return new Response(JSON.stringify(report, null, 2), {
       headers: { 'content-type': 'application/json; charset=utf-8' },
     });

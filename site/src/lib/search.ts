@@ -1,5 +1,5 @@
-import type { Business, Directory } from './schema.ts';
-import { isUsableCoordinate, services } from './schema.ts';
+import type { Business, Directory } from './schema';
+import { isUsableCoordinate, services } from './schema';
 export const brandRoles = ['qualsiasi', 'venduti', 'riparati', 'esperienza', 'assistenzaUfficiale', 'rivenditaUfficiale', 'menzionati'] as const;
 export type SearchFilters = {
   q?: string; localita?: string; regione?: string; provincia?: string; servizio?: string;

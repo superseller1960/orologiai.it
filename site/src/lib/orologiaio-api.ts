@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import { interpretaConProvider, MAX_MESSAGGIO, criteriSchema, type Criteri } from './assistant.ts';
-import { geminiProvider, type FetchLike } from './gemini.ts';
-import type { Directory } from './schema.ts';
+import { interpretaConProvider, MAX_MESSAGGIO, criteriSchema, type Criteri } from './assistant';
+import { geminiProvider, type FetchLike } from './gemini';
+import type { Directory } from './schema';
 
 // 500 caratteri Unicode più i criteri dei turni precedenti; resta un payload limitato.
 export const MAX_BODY_BYTES = 4096;
