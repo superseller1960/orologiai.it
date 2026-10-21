@@ -2189,7 +2189,7 @@
       "tipi": [
         "orologeria"
       ],
-      "descrizione": "Primo rivenditore autorizzato Rolex in Italia dal 1929, con laboratorio di proprietà per manutenzioni e riparazioni straordinarie.",
+      "descrizione": "Il vecchio sito la presentava come «primo rivenditore autorizzato Rolex in Italia dal 1929», con laboratorio di proprietà per manutenzioni e riparazioni straordinarie; l’autorizzazione non è riscontrata da fonti del marchio.",
       "nomiPrecedenti": [],
       "gruppoId": null,
       "localitaId": "milano",
@@ -2260,7 +2260,7 @@
       "storia": {
         "annoFondazione": 1929,
         "fondatore": null,
-        "testo": "Primo rivenditore autorizzato Rolex in Italia dal 1929, con laboratorio di proprietà per manutenzioni e riparazioni straordinarie.",
+        "testo": "Il vecchio sito la presentava come «primo rivenditore autorizzato Rolex in Italia dal 1929», con laboratorio di proprietà per manutenzioni e riparazioni straordinarie; l’autorizzazione non è riscontrata da fonti del marchio.",
         "eventi": [],
         "fonti": [
           "mirror-milano"
@@ -2288,6 +2288,13 @@
             "fonti": [
               "t03-ronchi-sede",
               "t03-nominatim"
+            ]
+          },
+          {
+            "data": "2026-10-21",
+            "azione": "Fase 3 (tutela legale): la frase «primo rivenditore autorizzato Rolex in Italia dal 1929» risultava attribuita come fatto senza una fonte del marchio. Il testo storico è conservato integralmente ma attribuito alla fonte storica; nessuna rivendita ufficiale è registrata.",
+            "fonti": [
+              "mirror-milano"
             ]
           }
         ],

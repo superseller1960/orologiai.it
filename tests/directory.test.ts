@@ -14,9 +14,15 @@ test('tutte le otto attività e informazioni originali sono conservate', async (
   const old = JSON.parse(await readFile('site/data/orologerie.json','utf8'));
   assert.ok(fullData.attivita.length >= old.orologerie.length);
   assert.equal(data.attivita.length, old.orologerie.length);
+  // Fase 3 (tutela legale): la storia di ronchi-gioielli attribuiva una rivendita autorizzata Rolex senza
+  // fonte del marchio. Il contenuto storico dello specchio è conservato come citazione attribuita e qualificato:
+  // qui è fissato il testo corretto, così ogni ulteriore modifica fallisce come per tutti gli altri record.
+  const testoCorrettoRonchi = 'Il vecchio sito la presentava come «primo rivenditore autorizzato Rolex in Italia dal 1929», con laboratorio di proprietà per manutenzioni e riparazioni straordinarie; l’autorizzazione non è riscontrata da fonti del marchio.';
   for (const o of old.orologerie) {
     const b = data.attivita.find(b => b.id === o.id)!;
-    assert.ok(b); assert.equal(b.nome,o.nome); assert.equal(b.storia.testo,o.storia); assert.equal(b.storia.annoFondazione,o.anno);
+    assert.ok(b); assert.equal(b.nome,o.nome);
+    assert.equal(b.storia.testo, o.id === 'ronchi-gioielli' ? testoCorrettoRonchi : o.storia);
+    assert.equal(b.storia.annoFondazione,o.anno);
     assert.deepEqual(b.servizi.map(s => s.id),o.servizi);
     assert.deepEqual(b.marchi.menzionati.map(m => m.marca),o.marche);
     assert.equal(b.attendibilita.stato,'da-verificare');

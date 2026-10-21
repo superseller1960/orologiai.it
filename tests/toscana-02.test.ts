@@ -20,8 +20,22 @@ const added=directory.attivita.filter(b=>ids.has(b.id));
 test('mirror e otto record autorevoli invariati rispetto al commit iniziale',()=>{
  const base=JSON.parse(execFileSync('git',['show','6cb31fc:site/data/directory.json'],{encoding:'utf8'}));
  // Incremento 03: posizione e cronologia possono ricevere campi verificati; il resto resta identico.
+ // Fase 3 (tutela legale): per ronchi-gioielli la descrizione e il testo storico sono stati qualificati
+ // perché attribuivano una rivendita autorizzata Rolex senza una fonte del marchio. Il contenuto storico è
+ // conservato integralmente e attribuito alla fonte: qui è fissato il testo corretto, così qualsiasi
+ // ulteriore modifica fallisce il confronto come per tutti gli altri record.
+ const testoCorrettoRonchi='Il vecchio sito la presentava come «primo rivenditore autorizzato Rolex in Italia dal 1929», con laboratorio di proprietà per manutenzioni e riparazioni straordinarie; l’autorizzazione non è riscontrata da fonti del marchio.';
  const norm=(x:any)=>({...x,posizione:undefined,attendibilita:{...x.attendibilita,cronologia:undefined}});
- for(const b of base.attivita)assert.deepEqual(norm(directory.attivita.find(current=>current.id===b.id)),norm(b));
+ for(const b of base.attivita){
+  const attuale=directory.attivita.find(current=>current.id===b.id)!;
+  if(b.id==='ronchi-gioielli'){
+   assert.equal(attuale.descrizione,testoCorrettoRonchi,'la qualifica Fase 3 della descrizione è cambiata');
+   assert.equal(attuale.storia.testo,testoCorrettoRonchi,'la qualifica Fase 3 della storia è cambiata');
+   assert.deepEqual(norm({...attuale,descrizione:b.descrizione,storia:b.storia}),norm(b),'altri campi di ronchi alterati');
+  }else{
+   assert.deepEqual(norm(attuale),norm(b));
+  }
+ }
  assert.equal(execFileSync('git',['diff','6cb31fc','--','public/','site/data/orologerie.json'],{encoding:'utf8'}),'');
 });
 test('estratto OSM reale: hash e 27 elementi riproducibili, non fixture sintetica',()=>{
@@ -51,7 +65,11 @@ test('migrazione reale riproducibile dal commit iniziale e rifiuto doppia integr
   const keepAttivita=new Set<string>((migrato.attivita as any[]).map((b:any)=>b.id));
   const keepLocalita=new Set<string>((migrato.localita as any[]).map((p:any)=>p.id));
   const keepFonti=new Set<string>((migrato.fonti as any[]).map((f:any)=>f.id));
-  const norm=(d:any)=>({...d,localita:d.localita.filter((p:any)=>keepLocalita.has(p.id)),fonti:d.fonti.filter((f:any)=>keepFonti.has(f.id)),attivita:d.attivita.filter((b:any)=>keepAttivita.has(b.id)).map((b:any)=>({...b,posizione:undefined,attendibilita:{...b.attendibilita,cronologia:undefined}}))});
+  // Fase 3 (tutela legale): la migrazione riproduce i testi originali dello specchio. Per ronchi-gioielli
+  // descrizione e storia sono stati qualificati perché attribuivano una rivendita autorizzata Rolex senza fonte
+  // del marchio: il testo corretto è fissato dal test "mirror e otto record autorevoli invariati". Qui quei due
+  // campi sono esclusi dal confronto, come posizione e cronologia arricchite dall'incremento 03.
+  const norm=(d:any)=>({...d,localita:d.localita.filter((p:any)=>keepLocalita.has(p.id)),fonti:d.fonti.filter((f:any)=>keepFonti.has(f.id)),attivita:d.attivita.filter((b:any)=>keepAttivita.has(b.id)).map((b:any)=>({...b,posizione:undefined,attendibilita:{...b.attendibilita,cronologia:undefined},...(b.id==='ronchi-gioielli'?{descrizione:undefined,storia:{...b.storia,testo:undefined}}:{})}))});
   assert.deepEqual(norm(migrato),norm(directory));
   assert.deepEqual(JSON.parse(await readFile(join(temp,'data/import/toscana-02-report.json'),'utf8')),report);
   assert.throws(()=>execFileSync(process.execPath,args,{cwd:temp,stdio:'pipe'}));
