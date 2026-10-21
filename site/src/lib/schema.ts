@@ -13,6 +13,14 @@ export const services = {
   pendoleria: 'Pendoleria', 'orologi-tasca': 'Orologi da tasca', ricambi: 'Ricambi',
   valutazioni: 'Valutazioni', lucidatura: 'Lucidatura', assistenza: 'Assistenza', gioielleria: 'Gioielleria',
 } as const;
+// Raggruppamento solo presentazionale dei servizi già esistenti: non assegna servizi alle attività.
+export const macroAreeServizi: { titolo: string; servizi: (keyof typeof services)[] }[] = [
+  { titolo: 'Vendita e valutazione', servizi: ['vendita', 'vendita-nuovi', 'vendita-usati', 'acquisto-permuta', 'valutazioni'] },
+  { titolo: 'Riparazione e manutenzione', servizi: ['riparazione', 'riparazione-meccanici', 'riparazione-automatici', 'riparazione-quarzo', 'revisione', 'manutenzione', 'batterie'] },
+  { titolo: 'Restauro e antiquariato', servizi: ['restauro-vintage', 'orologi-tasca', 'ricambi'] },
+  { titolo: 'Pendole e orologi da parete', servizi: ['pendoleria'] },
+  { titolo: 'Cura, accessori e assistenza', servizi: ['cinturini', 'lucidatura', 'gioielleria', 'assistenza'] },
+];
 export const businessTypes = ['orologeria', 'laboratorio', 'gioielleria', 'professionista'] as const;
 export const specializations = ['lusso', 'vintage', 'antichi', 'meccanici', 'automatici', 'collezione'] as const;
 export const statuses = {

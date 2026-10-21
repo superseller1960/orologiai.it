@@ -27,7 +27,7 @@ const form = doc.querySelector<HTMLFormElement>('#directory-search')!;
 const visible = () => Array.from(doc.querySelectorAll<HTMLElement>('[data-business-id]')).filter(el=>!el.hidden);
 const select = (name: string, value: string) => { const el=form.querySelector<HTMLInputElement | HTMLSelectElement>('[name="'+name+'"]');assert.ok(el,'Campo '+name+' presente');el.value=value;el.dispatchEvent(new window.Event(name==='comune'||name==='q'?'input':'change',{bubbles:true})); };
 assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='firenze').length,'Il filtro nel deep link deve essere applicato');
-select('comune','milano');assert.equal(visible().length,3);
+select('comune','milano');assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='milano').length,'Milano: tutte le schede del comune');
 select('marca','Rolex');assert.equal(visible().length,2);
 select('ruoloMarca','assistenzaUfficiale');assert.equal(visible().length,0);
 assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);

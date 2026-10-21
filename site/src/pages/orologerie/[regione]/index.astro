@@ -1,0 +1,40 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import BusinessCard from '../../../components/BusinessCard.astro';
+import { directory, localityUrl } from '../../../lib/directory';
+import { REGIONI_ITALIA } from '../../../lib/geo';
+import { services } from '../../../lib/schema';
+
+// Pagine generate solo per regioni con almeno un’attività verificata: nessuna pagina regionale vuota.
+export function getStaticPaths() {
+  const regioniConAttivita = [...new Set(directory.localita
+    .filter(p => directory.attivita.some(b => b.localitaId === p.id))
+    .map(p => p.regioneSlug))];
+  return regioniConAttivita.map(slug => ({ params: { regione: slug }, props: { slug } }));
+}
+interface Props { slug: string; }
+const { slug } = Astro.props;
+const info = REGIONI_ITALIA[slug];
+if (!info) throw new Error(`Regione sconosciuta: ${slug}`);
+const luoghi = directory.localita.filter(p => p.regioneSlug === slug && directory.attivita.some(b => b.localitaId === p.id));
+const attivita = directory.attivita.filter(b => luoghi.some(p => p.id === b.localitaId));
+const province = [...new Set(luoghi.map(p => p.provincia))].sort((a, b) => a.localeCompare(b, 'it'));
+const servizi = [...new Set(attivita.flatMap(b => b.servizi.map(s => s.id)))].sort();
+const marchi = [...new Set(attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)))].sort((a, b) => a.localeCompare(b, 'it'));
+const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: `Orologerie in ${info.nome}`, url: new URL(`/orologerie/${slug}/`, Astro.site).href };
+---
+<Layout title={`Orologerie in ${info.nome} — attività censite`} description={`${attivita.length} ${attivita.length === 1 ? 'attività censita' : 'attività censite'} in ${info.nome}, con fonti e servizi documentati.`} schema={schema}>
+  <section class="page-hero"><div class="container"><a class="breadcrumb" href="/orologerie/">← Tutte le regioni</a><p class="eyebrow">Regione · {attivita.length} attività censite</p><h1>Orologerie in {info.nome}</h1><p class="lead">Province, comuni, servizi e marchi documentati nelle schede. Le informazioni mancanti restano assenti.</p><a class="btn" href={`/cerca/?regione=${slug}`}>Cerca in {info.nome} →</a></div></section>
+  <section class="container section reading">
+    <h2>Province rappresentate</h2>
+    <p>{province.join(' · ')}</p>
+    <h2>Comuni censiti</h2>
+    <div class="cities">{luoghi.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} ↗</h3><p>Provincia di {p.provincia} · {attivita.filter(b => b.localitaId === p.id).length} attività</p></a>)}</div>
+    <h2>Servizi documentati</h2>
+    <ul>{servizi.map(id => <li>{services[id as keyof typeof services]}</li>)}</ul>
+    {marchi.length > 0 && <><h2>Marchi citati nelle fonti</h2><p class="small muted">Presenza in vendita, esperienza dichiarata o menzione: il ruolo di ciascun marchio è indicato nella scheda.</p><p>{marchi.join(' · ')}</p></>}
+    <h2>Schede delle attività</h2>
+    <ul class="grid">{attivita.map(b => <BusinessCard business={b} />)}</ul>
+    <p><a class="btn" href="/partecipa/">Manca un’attività di {info.nome}? Segnalala →</a></p>
+  </section>
+</Layout>

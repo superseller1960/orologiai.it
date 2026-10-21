@@ -1089,6 +1089,177 @@
       "consultataIl": "2026-10-20",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "r26-ranieri-laquila",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaranieri.com/",
+      "titolo": "Sito ufficiale — Gioielleria Raffaello Ranieri",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-pietro-roberto-cosenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pietroroberto.it/",
+      "titolo": "Sito ufficiale — Pietro Roberto L’orologiaio",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-paolo-vale-reggio-calabria",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.paolovalegioielleria.it/",
+      "titolo": "Sito ufficiale — Paolo Vale Gioielleria",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-fotia-reggio-calabria",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fotiaorafo.it/",
+      "titolo": "Sito ufficiale — Fotia Orafo",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-golden-business-potenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagoldenbusiness.it/",
+      "titolo": "Sito ufficiale — Gioielleria Golden Business",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-rolli-poniz-trieste",
+      "tipo": "sito-ufficiale",
+      "url": "https://rolliponiz.it/",
+      "titolo": "Sito ufficiale — Rolli Poniz",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-spangaro-udine",
+      "tipo": "sito-ufficiale",
+      "url": "https://spangaroandco.com/",
+      "titolo": "Sito ufficiale — Spangaro & Co",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-ronzoni-udine",
+      "tipo": "sito-ufficiale",
+      "url": "https://italicoronzoni.it/",
+      "titolo": "Sito ufficiale — Italico Ronzoni",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-fronza-trento",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriafronzamarco.it/",
+      "titolo": "Sito ufficiale — Orologeria Fronza Marco",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-miconi-civitanova",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamiconi.it/",
+      "titolo": "Sito ufficiale — Laboratorio di Orologeria Miconi",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-biagini-perugia",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.biagini1863.it/",
+      "titolo": "Sito ufficiale — Biagini 1863",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-paccara-terni",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapaccarafranco.it/orologeria.php",
+      "titolo": "Sito ufficiale — Gioielleria Paccara Franco",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-murgia-cagliari",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.giampieromurgia.com/",
+      "titolo": "Sito ufficiale — Giampiero Murgia Orologeria",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-trossello-courmayeur",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerietrossello.com/",
+      "titolo": "Sito ufficiale — Gioiellerie Trossello — Courmayeur",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-mazzucchi-milano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratoriomazzucchi.it/",
+      "titolo": "Sito ufficiale — Laboratorio Mazzucchi",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-curato-brescia",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratoriocurato.it/",
+      "titolo": "Sito ufficiale — Laboratorio Curato",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-ciesse-padova",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ciesse-orologi.it/",
+      "titolo": "Sito ufficiale — CieSSe Laboratorio d’Orologeria",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-martini-parma",
+      "tipo": "sito-ufficiale",
+      "url": "https://martinigiancarlo.com/",
+      "titolo": "Sito ufficiale — Martini Gian Carlo & Co.",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "r26-valenti-parma",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.valentiparma.it/",
+      "titolo": "Sito ufficiale — Valenti",
+      "consultataIl": "2026-10-21",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -1603,6 +1774,231 @@
       "descrizione": "Attività di orologeria documentate a Montefiascone. Le singole schede distinguono servizi, fonti e rapporti con i marchi.",
       "fonti": [
         "l07-milioni"
+      ]
+    },
+    {
+      "id": "l-aquila",
+      "comune": "L'Aquila",
+      "comuneSlug": "l-aquila",
+      "provincia": "L'Aquila",
+      "provinciaSlug": "l-aquila",
+      "siglaProvincia": "AQ",
+      "regione": "Abruzzo",
+      "regioneSlug": "abruzzo",
+      "codiceIstat": null,
+      "descrizione": "L'Aquila: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-ranieri-laquila"
+      ]
+    },
+    {
+      "id": "cosenza",
+      "comune": "Cosenza",
+      "comuneSlug": "cosenza",
+      "provincia": "Cosenza",
+      "provinciaSlug": "cosenza",
+      "siglaProvincia": "CS",
+      "regione": "Calabria",
+      "regioneSlug": "calabria",
+      "codiceIstat": null,
+      "descrizione": "Cosenza: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-pietro-roberto-cosenza"
+      ]
+    },
+    {
+      "id": "reggio-calabria",
+      "comune": "Reggio Calabria",
+      "comuneSlug": "reggio-calabria",
+      "provincia": "Reggio Calabria",
+      "provinciaSlug": "reggio-calabria",
+      "siglaProvincia": "RC",
+      "regione": "Calabria",
+      "regioneSlug": "calabria",
+      "codiceIstat": null,
+      "descrizione": "Reggio Calabria: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-paolo-vale-reggio-calabria"
+      ]
+    },
+    {
+      "id": "potenza",
+      "comune": "Potenza",
+      "comuneSlug": "potenza",
+      "provincia": "Potenza",
+      "provinciaSlug": "potenza",
+      "siglaProvincia": "PZ",
+      "regione": "Basilicata",
+      "regioneSlug": "basilicata",
+      "codiceIstat": null,
+      "descrizione": "Potenza: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-golden-business-potenza"
+      ]
+    },
+    {
+      "id": "trieste",
+      "comune": "Trieste",
+      "comuneSlug": "trieste",
+      "provincia": "Trieste",
+      "provinciaSlug": "trieste",
+      "siglaProvincia": "TS",
+      "regione": "Friuli-Venezia Giulia",
+      "regioneSlug": "friuli-venezia-giulia",
+      "codiceIstat": null,
+      "descrizione": "Trieste: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-rolli-poniz-trieste"
+      ]
+    },
+    {
+      "id": "udine",
+      "comune": "Udine",
+      "comuneSlug": "udine",
+      "provincia": "Udine",
+      "provinciaSlug": "udine",
+      "siglaProvincia": "UD",
+      "regione": "Friuli-Venezia Giulia",
+      "regioneSlug": "friuli-venezia-giulia",
+      "codiceIstat": null,
+      "descrizione": "Udine: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-spangaro-udine"
+      ]
+    },
+    {
+      "id": "trento",
+      "comune": "Trento",
+      "comuneSlug": "trento",
+      "provincia": "Trento",
+      "provinciaSlug": "trento",
+      "siglaProvincia": "TN",
+      "regione": "Trentino-Alto Adige",
+      "regioneSlug": "trentino-alto-adige",
+      "codiceIstat": null,
+      "descrizione": "Trento: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-fronza-trento"
+      ]
+    },
+    {
+      "id": "civitanova-marche",
+      "comune": "Civitanova Marche",
+      "comuneSlug": "civitanova-marche",
+      "provincia": "Macerata",
+      "provinciaSlug": "macerata",
+      "siglaProvincia": "MC",
+      "regione": "Marche",
+      "regioneSlug": "marche",
+      "codiceIstat": null,
+      "descrizione": "Civitanova Marche: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-miconi-civitanova"
+      ]
+    },
+    {
+      "id": "perugia",
+      "comune": "Perugia",
+      "comuneSlug": "perugia",
+      "provincia": "Perugia",
+      "provinciaSlug": "perugia",
+      "siglaProvincia": "PG",
+      "regione": "Umbria",
+      "regioneSlug": "umbria",
+      "codiceIstat": null,
+      "descrizione": "Perugia: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-biagini-perugia"
+      ]
+    },
+    {
+      "id": "terni",
+      "comune": "Terni",
+      "comuneSlug": "terni",
+      "provincia": "Terni",
+      "provinciaSlug": "terni",
+      "siglaProvincia": "TR",
+      "regione": "Umbria",
+      "regioneSlug": "umbria",
+      "codiceIstat": null,
+      "descrizione": "Terni: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-paccara-terni"
+      ]
+    },
+    {
+      "id": "cagliari",
+      "comune": "Cagliari",
+      "comuneSlug": "cagliari",
+      "provincia": "Cagliari",
+      "provinciaSlug": "cagliari",
+      "siglaProvincia": "CA",
+      "regione": "Sardegna",
+      "regioneSlug": "sardegna",
+      "codiceIstat": null,
+      "descrizione": "Cagliari: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-murgia-cagliari"
+      ]
+    },
+    {
+      "id": "courmayeur",
+      "comune": "Courmayeur",
+      "comuneSlug": "courmayeur",
+      "provincia": "Aosta",
+      "provinciaSlug": "aosta",
+      "siglaProvincia": "AO",
+      "regione": "Valle d'Aosta",
+      "regioneSlug": "valle-daosta",
+      "codiceIstat": null,
+      "descrizione": "Courmayeur: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-trossello-courmayeur"
+      ]
+    },
+    {
+      "id": "brescia",
+      "comune": "Brescia",
+      "comuneSlug": "brescia",
+      "provincia": "Brescia",
+      "provinciaSlug": "brescia",
+      "siglaProvincia": "BS",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Brescia: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-curato-brescia"
+      ]
+    },
+    {
+      "id": "padova",
+      "comune": "Padova",
+      "comuneSlug": "padova",
+      "provincia": "Padova",
+      "provinciaSlug": "padova",
+      "siglaProvincia": "PD",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": null,
+      "descrizione": "Padova: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-ciesse-padova"
+      ]
+    },
+    {
+      "id": "parma",
+      "comune": "Parma",
+      "comuneSlug": "parma",
+      "provincia": "Parma",
+      "provinciaSlug": "parma",
+      "siglaProvincia": "PR",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Parma: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "r26-martini-parma"
       ]
     }
   ],
@@ -11098,6 +11494,2351 @@
       "origine": {
         "sistema": "ricerca-ufficiale-lazio-07b",
         "idOriginale": "milioni-montefiascone"
+      }
+    },
+    {
+      "id": "ranieri-laquila",
+      "slug": "ranieri-laquila",
+      "nome": "Gioielleria Raffaello Ranieri",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Gioielleria con laboratorio: preventivi e riparazioni, revisione del movimento, lucidatura e valutazioni di orologi nuovi, usati e d’epoca.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "l-aquila",
+      "posizione": {
+        "indirizzo": "Corso Vittorio Emanuele 47",
+        "cap": "67100",
+        "coordinate": null,
+        "fonti": [
+          "r26-ranieri-laquila"
+        ]
+      },
+      "contatti": {
+        "telefono": "0862 25159",
+        "email": "info@gioielleriaranieri.com",
+        "sito": "https://www.gioielleriaranieri.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-ranieri-laquila"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-ranieri-laquila"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-ranieri-laquila"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-ranieri-laquila"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "r26-ranieri-laquila"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "r26-ranieri-laquila"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "r26-ranieri-laquila"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-ranieri-laquila"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-ranieri-laquila"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "ranieri-laquila"
+      }
+    },
+    {
+      "id": "pietro-roberto-cosenza",
+      "slug": "pietro-roberto-cosenza",
+      "nome": "Pietro Roberto L’orologiaio",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Riparazione e restauro di orologi da polso e da arredamento, antichi e moderni, con ricambi originali e preventivi gratuiti.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "cosenza",
+      "posizione": {
+        "indirizzo": "Via F. Simonetta 27/A",
+        "cap": "87100",
+        "coordinate": null,
+        "fonti": [
+          "r26-pietro-roberto-cosenza"
+        ]
+      },
+      "contatti": {
+        "telefono": "0984 32884",
+        "email": "info@pietroroberto.it",
+        "sito": "https://www.pietroroberto.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-pietro-roberto-cosenza"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-pietro-roberto-cosenza"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-pietro-roberto-cosenza"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-pietro-roberto-cosenza"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "r26-pietro-roberto-cosenza"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          },
+          {
+            "marca": "Mido",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-pietro-roberto-cosenza"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-pietro-roberto-cosenza"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "pietro-roberto-cosenza"
+      }
+    },
+    {
+      "id": "paolo-vale-reggio-calabria",
+      "slug": "paolo-vale-reggio-calabria",
+      "nome": "Paolo Vale Gioielleria",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Gioielleria con orologeria: valutazione iniziale del mastro orologiaio, manutenzione e assistenza, con invio ai centri per le riparazioni più complesse.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "reggio-calabria",
+      "posizione": {
+        "indirizzo": "Via Sbarre Centrali 146",
+        "cap": "89133",
+        "coordinate": null,
+        "fonti": [
+          "r26-paolo-vale-reggio-calabria"
+        ]
+      },
+      "contatti": {
+        "telefono": "0965 51007",
+        "email": null,
+        "sito": "https://www.paolovalegioielleria.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-paolo-vale-reggio-calabria"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-paolo-vale-reggio-calabria"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Baume et Mercier",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Eberhard",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Frederique Constant",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Locman",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Bulova",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Breil",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Lorenz",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          },
+          {
+            "marca": "Sector",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-paolo-vale-reggio-calabria"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-paolo-vale-reggio-calabria"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "paolo-vale-reggio-calabria"
+      }
+    },
+    {
+      "id": "fotia-reggio-calabria",
+      "slug": "fotia-reggio-calabria",
+      "nome": "Fotia Orafo",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Orafo con laboratorio: restauro di orologi antichi, riparazione di meccanici e al quarzo, sostituzione delle batterie.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "reggio-calabria",
+      "posizione": {
+        "indirizzo": "Via del Torrione 1B",
+        "cap": "89100",
+        "coordinate": null,
+        "fonti": [
+          "r26-fotia-reggio-calabria"
+        ]
+      },
+      "contatti": {
+        "telefono": "0965 25774",
+        "email": "sebi1969@alice.it",
+        "sito": "https://www.fotiaorafo.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-fotia-reggio-calabria"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-fotia-reggio-calabria"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "r26-fotia-reggio-calabria"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "r26-fotia-reggio-calabria"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-fotia-reggio-calabria"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "r26-fotia-reggio-calabria"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-fotia-reggio-calabria"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-fotia-reggio-calabria"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "fotia-reggio-calabria"
+      }
+    },
+    {
+      "id": "golden-business-potenza",
+      "slug": "golden-business-potenza",
+      "nome": "Gioielleria Golden Business",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Gioielleria con servizi di orologeria: riparazioni, pulizia e manutenzione, sostituzione batteria e verifica dell’impermeabilità.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "potenza",
+      "posizione": {
+        "indirizzo": "Via del Gallitello 102",
+        "cap": "85100",
+        "coordinate": null,
+        "fonti": [
+          "r26-golden-business-potenza"
+        ]
+      },
+      "contatti": {
+        "telefono": "329 4176210",
+        "email": null,
+        "sito": "https://www.gioielleriagoldenbusiness.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-golden-business-potenza"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-golden-business-potenza"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-golden-business-potenza"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-golden-business-potenza"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Lorenz",
+            "fonti": [
+              "r26-golden-business-potenza"
+            ]
+          },
+          {
+            "marca": "Stroili Watches",
+            "fonti": [
+              "r26-golden-business-potenza"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-golden-business-potenza"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-golden-business-potenza"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "golden-business-potenza"
+      }
+    },
+    {
+      "id": "rolli-poniz-trieste",
+      "slug": "rolli-poniz-trieste",
+      "nome": "Rolli Poniz",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Orologeria a Trieste: riparazioni, regolazione dei movimenti, cinturini, cambio batterie e revisioni complete.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "trieste",
+      "posizione": {
+        "indirizzo": "Corso Umberto Saba 31",
+        "cap": "34131",
+        "coordinate": null,
+        "fonti": [
+          "r26-rolli-poniz-trieste"
+        ]
+      },
+      "contatti": {
+        "telefono": "040 368901",
+        "email": "rolli.poniz@gmail.com",
+        "sito": "https://rolliponiz.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-rolli-poniz-trieste"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-rolli-poniz-trieste"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-rolli-poniz-trieste"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "r26-rolli-poniz-trieste"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-rolli-poniz-trieste"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          },
+          {
+            "marca": "Bulova",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          },
+          {
+            "marca": "Casio",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          },
+          {
+            "marca": "Lorenz",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          },
+          {
+            "marca": "Fossil",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-rolli-poniz-trieste"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-rolli-poniz-trieste"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "rolli-poniz-trieste"
+      }
+    },
+    {
+      "id": "spangaro-udine",
+      "slug": "spangaro-udine",
+      "nome": "Spangaro & Co",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Reparto orologeria: acquisto e vendita, riparazione e restauro, revisione completa, prova d’impermeabilità e lucidatura.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "udine",
+      "posizione": {
+        "indirizzo": "Via Girardini 20/A",
+        "cap": "33100",
+        "coordinate": null,
+        "fonti": [
+          "r26-spangaro-udine"
+        ]
+      },
+      "contatti": {
+        "telefono": "0432 1507535",
+        "email": "orologeria@spangaroandco.com",
+        "sito": "https://spangaroandco.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-spangaro-udine"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          "id": "vendita",
+          "fonti": [
+            "r26-spangaro-udine"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Patek Philippe",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Audemars Piguet",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Vacheron Constantin",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "IWC",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          },
+          {
+            "marca": "Jaeger-LeCoultre",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-spangaro-udine"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-spangaro-udine"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "spangaro-udine"
+      }
+    },
+    {
+      "id": "ronzoni-udine",
+      "slug": "ronzoni-udine",
+      "nome": "Italico Ronzoni",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Punto vendita orologeria con assistenza tecnica, revisione meccanica, restauro di orologi antichi e vintage e fornitura di ricambi.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "udine",
+      "posizione": {
+        "indirizzo": "Via Mercatovecchio 10",
+        "cap": "33100",
+        "coordinate": null,
+        "fonti": [
+          "r26-ronzoni-udine"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0432 501526",
+        "email": null,
+        "sito": "https://italicoronzoni.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-ronzoni-udine"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "r26-ronzoni-udine"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "r26-ronzoni-udine"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "r26-ronzoni-udine"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-ronzoni-udine"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-ronzoni-udine"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "ronzoni-udine"
+      }
+    },
+    {
+      "id": "fronza-trento",
+      "slug": "fronza-trento",
+      "nome": "Orologeria Fronza Marco",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Orologeria a Trento: riparazione di orologi di ogni tipo e cambio pile.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "trento",
+      "posizione": {
+        "indirizzo": "Via Sant’Antonio 21",
+        "cap": "38122",
+        "coordinate": null,
+        "fonti": [
+          "r26-fronza-trento"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0461 921848",
+        "email": "orologeriafronzamarco@gmail.com",
+        "sito": "https://www.orologeriafronzamarco.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-fronza-trento"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-fronza-trento"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-fronza-trento"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-fronza-trento"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-fronza-trento"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "fronza-trento"
+      }
+    },
+    {
+      "id": "miconi-civitanova",
+      "slug": "miconi-civitanova",
+      "nome": "Laboratorio di Orologeria Miconi",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria: revisione e riparazione, lucidatura, verifica dell’impermeabilità, pile, cinturini e restauro di orologi antichi e da tasca.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "civitanova-marche",
+      "posizione": {
+        "indirizzo": "Corso Dalmazia 113",
+        "cap": "62012",
+        "coordinate": null,
+        "fonti": [
+          "r26-miconi-civitanova"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 335 180 7768",
+        "email": null,
+        "sito": "https://www.orologeriamiconi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-miconi-civitanova"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "r26-miconi-civitanova"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-miconi-civitanova"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-miconi-civitanova"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "miconi-civitanova"
+      }
+    },
+    {
+      "id": "biagini-perugia",
+      "slug": "biagini-perugia",
+      "nome": "Biagini 1863",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria per riparazione e manutenzione degli orologi delle case svizzere.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "perugia",
+      "posizione": {
+        "indirizzo": "Via Calderini 13",
+        "cap": "06122",
+        "coordinate": null,
+        "fonti": [
+          "r26-biagini-perugia"
+        ]
+      },
+      "contatti": {
+        "telefono": "075 5736300",
+        "email": "info@biagini1863.it",
+        "sito": "https://www.biagini1863.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-biagini-perugia"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-biagini-perugia"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-biagini-perugia"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-biagini-perugia"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-biagini-perugia"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "biagini-perugia"
+      }
+    },
+    {
+      "id": "paccara-terni",
+      "slug": "paccara-terni",
+      "nome": "Gioielleria Paccara Franco",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Laboratorio di orologeria: riparazioni di orologi meccanici e al quarzo, ricambi originali e revisione periodica.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "terni",
+      "posizione": {
+        "indirizzo": "Via Tre Venezie 17",
+        "cap": "05100",
+        "coordinate": null,
+        "fonti": [
+          "r26-paccara-terni"
+        ]
+      },
+      "contatti": {
+        "telefono": "0744 406306",
+        "email": "lucapaccara@virgilio.it",
+        "sito": "https://www.gioielleriapaccarafranco.it/orologeria.php",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-paccara-terni"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "r26-paccara-terni"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "r26-paccara-terni"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-paccara-terni"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-paccara-terni"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Philip Watch",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            "marca": "Breil",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            "marca": "Sector",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            "marca": "Morellato",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            "marca": "Lorus",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            "marca": "Trussardi",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-paccara-terni"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-paccara-terni"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "paccara-terni"
+      }
+    },
+    {
+      "id": "murgia-cagliari",
+      "slug": "murgia-cagliari",
+      "nome": "Giampiero Murgia Orologeria",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio di assistenza e riparazione di orologi, con ricambi originali e interventi su orologi datati.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "cagliari",
+      "posizione": {
+        "indirizzo": "Via Francesco Fara 15",
+        "cap": "09124",
+        "coordinate": null,
+        "fonti": [
+          "r26-murgia-cagliari"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": null,
+        "sito": "https://www.giampieromurgia.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-murgia-cagliari"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-murgia-cagliari"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-murgia-cagliari"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-murgia-cagliari"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          },
+          {
+            "marca": "Eberhard",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-murgia-cagliari"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-murgia-cagliari"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "murgia-cagliari"
+      }
+    },
+    {
+      "id": "trossello-courmayeur",
+      "slug": "trossello-courmayeur",
+      "nome": "Gioiellerie Trossello — Courmayeur",
+      "tipi": [
+        "gioielleria"
+      ],
+      "descrizione": "Sede di Courmayeur: revisioni di sveglie e orologi di ogni marca, ricostruzione di ricambi e garanzia di un anno sull’intervento.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "courmayeur",
+      "posizione": {
+        "indirizzo": "Via Roma 34",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "r26-trossello-courmayeur"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": null,
+        "sito": "https://www.gioiellerietrossello.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-trossello-courmayeur"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-trossello-courmayeur"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-trossello-courmayeur"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-trossello-courmayeur"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "r26-trossello-courmayeur"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-trossello-courmayeur"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-trossello-courmayeur"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "trossello-courmayeur"
+      }
+    },
+    {
+      "id": "mazzucchi-milano",
+      "slug": "mazzucchi-milano",
+      "nome": "Laboratorio Mazzucchi",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di riparazione, revisione e restauro: meccanici, automatici, cronografi e calendari perpetui, controllo impermeabilità e rifacimento quadranti.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "milano",
+      "posizione": {
+        "indirizzo": "Via San Tomaso 6, terzo piano",
+        "cap": "20121",
+        "coordinate": null,
+        "fonti": [
+          "r26-mazzucchi-milano"
+        ]
+      },
+      "contatti": {
+        "telefono": "02 86460549",
+        "email": null,
+        "sito": "https://www.laboratoriomazzucchi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-mazzucchi-milano"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-mazzucchi-milano"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-mazzucchi-milano"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-mazzucchi-milano"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "mazzucchi-milano"
+      }
+    },
+    {
+      "id": "curato-brescia",
+      "slug": "curato-brescia",
+      "nome": "Laboratorio Curato",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di riparazione e revisione di orologi, con interventi completi e parziali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "brescia",
+      "posizione": {
+        "indirizzo": "Via XX Settembre 40, 2° piano",
+        "cap": "25121",
+        "coordinate": null,
+        "fonti": [
+          "r26-curato-brescia"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 030 29 35 46",
+        "email": "info@laboratoriocurato.it",
+        "sito": "https://www.laboratoriocurato.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-curato-brescia"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-curato-brescia"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-curato-brescia"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-curato-brescia"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-curato-brescia"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "curato-brescia"
+      }
+    },
+    {
+      "id": "ciesse-padova",
+      "slug": "ciesse-padova",
+      "nome": "CieSSe Laboratorio d’Orologeria",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria: sostituzione pila, prova d’impermeabilità, sostituzione di vetro, corona e cinturino, revisione e lucidatura.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "padova",
+      "posizione": {
+        "indirizzo": "Via Piovese 79",
+        "cap": "35127",
+        "coordinate": null,
+        "fonti": [
+          "r26-ciesse-padova"
+        ]
+      },
+      "contatti": {
+        "telefono": "049 8042059",
+        "email": "ciesseorologi@gmail.com",
+        "sito": "https://www.ciesse-orologi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-ciesse-padova"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "batterie",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-ciesse-padova"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-ciesse-padova"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-ciesse-padova"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "ciesse-padova"
+      }
+    },
+    {
+      "id": "martini-parma",
+      "slug": "martini-parma",
+      "nome": "Martini Gian Carlo & Co.",
+      "tipi": [
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di riparazione e restauro: restauro estetico di casse e bracciali, revisione, ricostruzione laser e restauro dei quadranti.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "parma",
+      "posizione": {
+        "indirizzo": "Via Golfo dei Poeti 1/A",
+        "cap": "43126",
+        "coordinate": null,
+        "fonti": [
+          "r26-martini-parma"
+        ]
+      },
+      "contatti": {
+        "telefono": "0521 992861",
+        "email": null,
+        "sito": "https://martinigiancarlo.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-martini-parma"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-martini-parma"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-martini-parma"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-martini-parma"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "r26-martini-parma"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-martini-parma"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-martini-parma"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "martini-parma"
+      }
+    },
+    {
+      "id": "valenti-parma",
+      "slug": "valenti-parma",
+      "nome": "Valenti",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio e punto vendita a Parma: riparazione, revisione, lucidatura e ricambi originali ordinati presso le case madri.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "parma",
+      "posizione": {
+        "indirizzo": "Strada Nino Bixio 63",
+        "cap": "43125",
+        "coordinate": null,
+        "fonti": [
+          "r26-valenti-parma"
+        ]
+      },
+      "contatti": {
+        "telefono": "0521 283343",
+        "email": "info@valentiparma.it",
+        "sito": "https://www.valentiparma.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "r26-valenti-parma"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "r26-valenti-parma"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "r26-valenti-parma"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "r26-valenti-parma"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "r26-valenti-parma"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          },
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-21",
+        "verificataIl": "2026-10-21",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "r26-valenti-parma"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-21",
+            "azione": "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            "fonti": [
+              "r26-valenti-parma"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-rilancio-01",
+        "idOriginale": "valenti-parma"
       }
     }
   ]
