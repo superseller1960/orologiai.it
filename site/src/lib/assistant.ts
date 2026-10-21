@@ -305,7 +305,7 @@ export function cercaOrologiaio(
   if ((criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale') && criteri.marca) {
     if (trovate.length === 0) {
       messaggi.push(criteri.ruoloMarca === 'assistenzaUfficiale'
-        ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non sono autorizzate: sono alternative da verificare direttamente con il negozio.`
+        ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non documentano un’autorizzazione ufficiale per ${criteri.marca}: sono alternative da verificare direttamente con il negozio.`
         : `Non risulta nel database nessuna rivendita ufficialmente autorizzata per ${criteri.marca}.`);
       const generiche = searchDirectory(dir, { ...filtri, ruoloMarca: 'qualsiasi' })
         .filter(r => !risultati.some(x => x.id === r.business.id));

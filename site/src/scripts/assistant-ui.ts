@@ -317,7 +317,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       if (esito.alternative.length) {
         const richiedeUfficiale = criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale';
         const etichettaAlt = richiedeUfficiale
-          ? 'Alternative da verificare (non autorizzate)'
+          ? 'Alternative da verificare (autorizzazione non documentata)'
           : criteri.localitaNonCensita || criteri.localita || criteri.provincia || criteri.regione
             ? 'Altre località censite (non necessariamente vicine)'
             : 'Alternative pertinenti da verificare (non soddisfano tutti i requisiti esatti)';
