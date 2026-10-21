@@ -531,6 +531,465 @@
       "consultataIl": "2026-10-16",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "t07-macchina-tempo-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamacchinadeltempo.org/",
+      "titolo": "La Macchina del Tempo — homepage e servizi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-macchina-tempo-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamacchinadeltempo.org/contatti/",
+      "titolo": "La Macchina del Tempo — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-horamundi-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.horamundi.it/",
+      "titolo": "Hora Mundi — Orologi da Collezione Firenze",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-horae-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.horaeorologeria.it/laboratorio/",
+      "titolo": "Horae Orologeria — Laboratorio di Orologeria",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-horae-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.horaeorologeria.it/contatti/",
+      "titolo": "Horae Orologeria — Contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-fontana-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.natalefontana.it/it/laboratorio-gioielleria-orologeria",
+      "titolo": "Natale Fontana Lab Bologna — Laboratorio gioielleria e orologeria",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-orologica-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologicatorino.it/",
+      "titolo": "Orologica Torino — Laboratorio Orologiaio e servizi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-orologica-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologicatorino.it/contatti-laboratorio-orologi-torino/",
+      "titolo": "Orologica Torino — Contatti e sede",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-casa-cronometro-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.casadelcronometro.it/",
+      "titolo": "La Casa del Cronometro di Marco Musto — Laboratorio Orologeria Roma",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-soprana-lab",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.soprana.com/laboratorio-orologeria/",
+      "titolo": "Soprana dal 1910 — Laboratorio di orologeria e restauro",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t07-soprana-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.soprana.com/contatti/",
+      "titolo": "Soprana dal 1910 — Boutique e contatti Vicenza",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-monetti-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://monettiorologi.com/",
+      "titolo": "Monetti Orologeria e Gioielleria — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-monetti-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://monettiorologi.com/laboratorio/",
+      "titolo": "Monetti — Laboratorio di assistenza",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-monetti-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://monettiorologi.com/contatti/",
+      "titolo": "Monetti — contatti e sedi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-deluca-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.assistenzaorologideluca.it/",
+      "titolo": "Centro Assistenza Orologi De Luca — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-deluca-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.assistenzaorologideluca.it/contatti",
+      "titolo": "Centro Assistenza Orologi De Luca — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-deluca-restauri",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.assistenzaorologideluca.it/restaurazioni-vintage",
+      "titolo": "Centro Assistenza Orologi De Luca — restaurazioni vintage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-pirone-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pironeorologi.it/",
+      "titolo": "Orologeria Pirone — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-pirone-riparazione",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pironeorologi.it/riparazione-orologi-napoli",
+      "titolo": "Orologeria Pirone — servizio di vendita e riparazione",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-mazzone-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamazzonesalerno.it/",
+      "titolo": "Orologeria Mazzone Salerno — servizi e contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-carrieri-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacarrieri.com/",
+      "titolo": "Carrieri Mastri Orologiai — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-carrieri-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacarrieri.com/laboratorio-di-orologeria",
+      "titolo": "Carrieri Mastri Orologiai — laboratorio di orologeria",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-carrieri-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacarrieri.com/contatti",
+      "titolo": "Carrieri Mastri Orologiai — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-macchtempo-bari",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologerialamacchinadeltempo.it/",
+      "titolo": "Orologeria La Macchina del Tempo Bari — homepage, servizi e marche",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-chlw-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chlw.it/",
+      "titolo": "CHLW Bari — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-chlw-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chlw.it/pages/i-nostri-servizi",
+      "titolo": "CHLW Bari — i nostri servizi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-chlw-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chlw.it/pages/laboratorio",
+      "titolo": "CHLW Bari — laboratorio",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-chlw-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chlw.it/pages/contact",
+      "titolo": "CHLW Bari — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-bruno-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://brunoemanuele.com/",
+      "titolo": "Bruno Emanuele Orologeria Palermo — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-bruno-riparazione",
+      "tipo": "sito-ufficiale",
+      "url": "https://brunoemanuele.com/riparazione-orologi/",
+      "titolo": "Bruno Emanuele Orologeria — riparazione orologi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-cagnina-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologerialacagninadario.com/",
+      "titolo": "La Cagnina Dario — Laboratorio di Orologeria Palermo",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-dicaro-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriadicaro.com/",
+      "titolo": "Orologeria Di Caro Palermo — servizi e assistenza",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-dicaro-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriadicaro.com/contatti/",
+      "titolo": "Orologeria Di Caro — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-watchcenter-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://watch-center.eu/",
+      "titolo": "Watch Center Palermo — servizi di assistenza",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-watchcenter-termini",
+      "tipo": "sito-ufficiale",
+      "url": "https://watch-center.eu/termini-condizioni",
+      "titolo": "Watch Center — dati aziendali e contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-censi-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.alfiocensi.it/",
+      "titolo": "Alfio Censi Genova — riparazione, restauro e perizie",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-astrua-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/",
+      "titolo": "Astrua 1860 — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-astrua-genova",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/sedi-astrua-boutiques-genova",
+      "titolo": "Astrua 1860 — sede di Genova",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-astrua-riparazione-genova",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/riparazione-orologi-genova",
+      "titolo": "Astrua 1860 — riparazione orologi Genova",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-astrua-torino",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/sedi-astrua-boutiques-torino",
+      "titolo": "Astrua 1860 — sede di Torino",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-astrua-riparazione-torino",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/riparazione-orologi-torino",
+      "titolo": "Astrua 1860 — riparazione orologi Torino",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-capo-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratoriocapo.com/",
+      "titolo": "Laboratorio Capo Torino — servizi del laboratorio",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-lab-alessandria-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://laboratorio-di-orologeria.webnode.it/",
+      "titolo": "Laboratorio di Orologeria Alessandria — servizi",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-lab-alessandria-orari",
+      "tipo": "sito-ufficiale",
+      "url": "https://laboratorio-di-orologeria.webnode.it/orari/",
+      "titolo": "Laboratorio di Orologeria Alessandria — orari e recapito",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-bottega-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labottegadeltempo.it/",
+      "titolo": "La Bottega del Tempo Roma — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-bottega-riparazione",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labottegadeltempo.it/riparazione-orologi-roma/",
+      "titolo": "La Bottega del Tempo — riparazione orologi Roma",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-bottega-chisiamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labottegadeltempo.it/chi-siamo/",
+      "titolo": "La Bottega del Tempo — chi siamo",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-salamena-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioniorologiroma.it/",
+      "titolo": "Salamena Laboratorio di Orologeria Roma — homepage",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-salamena-pagine",
+      "tipo": "sito-ufficiale",
+      "url": "https://pagine.riparazioniorologiroma.it/",
+      "titolo": "Salamena — servizi e contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-portanova-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratorioportanova.eu/",
+      "titolo": "Laboratorio PortaNova Bologna — interventi e restauri",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "t08-portanova-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratorioportanova.eu/contatti/",
+      "titolo": "Laboratorio PortaNova — contatti",
+      "consultataIl": "2026-10-19",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -825,6 +1284,178 @@
       "descrizione": "Comune della provincia di Firenze con un’attività censita in questa directory.",
       "fonti": [
         "t04-massari-hamilton"
+      ]
+    },
+    {
+      "id": "san-giovanni-valdarno",
+      "comune": "San Giovanni Valdarno",
+      "comuneSlug": "san-giovanni-valdarno",
+      "provincia": "Arezzo",
+      "provinciaSlug": "arezzo",
+      "siglaProvincia": "AR",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "051033",
+      "descrizione": "Centro del Valdarno Superiore in provincia di Arezzo, con attività orologiaia e laboratorio censiti.",
+      "fonti": [
+        "t07-horae-contatti"
+      ]
+    },
+    {
+      "id": "bologna",
+      "comune": "Bologna",
+      "comuneSlug": "bologna",
+      "provincia": "Bologna",
+      "provinciaSlug": "bologna",
+      "siglaProvincia": "BO",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "037006",
+      "descrizione": "Capoluogo dell’Emilia-Romagna, con laboratori storici di riparazione, restauro e assistenza orologiaia.",
+      "fonti": [
+        "t07-fontana-lab"
+      ]
+    },
+    {
+      "id": "torino",
+      "comune": "Torino",
+      "comuneSlug": "torino",
+      "provincia": "Torino",
+      "provinciaSlug": "torino",
+      "siglaProvincia": "TO",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": "001272",
+      "descrizione": "Capoluogo piemontese con tradizione nella tecnica orologiaia, nella revisione e nella riparazione di segnatempo.",
+      "fonti": [
+        "t07-orologica-contatti"
+      ]
+    },
+    {
+      "id": "roma",
+      "comune": "Roma",
+      "comuneSlug": "roma",
+      "provincia": "Roma",
+      "provinciaSlug": "roma",
+      "siglaProvincia": "RM",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": "058091",
+      "descrizione": "Capitale d’Italia, con laboratori specializzati nella riparazione di cronografi, orologi da polso, da tasca e pendoleria.",
+      "fonti": [
+        "t07-casa-cronometro-sito"
+      ]
+    },
+    {
+      "id": "vicenza",
+      "comune": "Vicenza",
+      "comuneSlug": "vicenza",
+      "provincia": "Vicenza",
+      "provinciaSlug": "vicenza",
+      "siglaProvincia": "VI",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "024116",
+      "descrizione": "Storico polo orafo e orologiaio veneto, con laboratori di manutenzione e restauro di segnatempo antichi e moderni.",
+      "fonti": [
+        "t07-soprana-contatti"
+      ]
+    },
+    {
+      "id": "napoli",
+      "comune": "Napoli",
+      "comuneSlug": "napoli",
+      "provincia": "Napoli",
+      "provinciaSlug": "napoli",
+      "siglaProvincia": "NA",
+      "regione": "Campania",
+      "regioneSlug": "campania",
+      "codiceIstat": "063049",
+      "descrizione": "Capoluogo campano, con laboratori di orologeria, assistenza e restauro censiti tramite siti ufficiali.",
+      "fonti": [
+        "t08-monetti-contatti",
+        "t08-deluca-contatti",
+        "t08-pirone-riparazione"
+      ]
+    },
+    {
+      "id": "salerno",
+      "comune": "Salerno",
+      "comuneSlug": "salerno",
+      "provincia": "Salerno",
+      "provinciaSlug": "salerno",
+      "siglaProvincia": "SA",
+      "regione": "Campania",
+      "regioneSlug": "campania",
+      "codiceIstat": "065116",
+      "descrizione": "Capoluogo campano con orologeria specializzata in riparazione meccanica, pendoli e sostituzione batterie.",
+      "fonti": [
+        "t08-mazzone-sito"
+      ]
+    },
+    {
+      "id": "bari",
+      "comune": "Bari",
+      "comuneSlug": "bari",
+      "provincia": "Bari",
+      "provinciaSlug": "bari",
+      "siglaProvincia": "BA",
+      "regione": "Puglia",
+      "regioneSlug": "puglia",
+      "codiceIstat": "072006",
+      "descrizione": "Capoluogo pugliese con laboratori di orologeria, restauro, revisione e valutazione censiti tramite siti ufficiali.",
+      "fonti": [
+        "t08-carrieri-contatti",
+        "t08-chlw-contatti",
+        "t08-macchtempo-bari"
+      ]
+    },
+    {
+      "id": "palermo",
+      "comune": "Palermo",
+      "comuneSlug": "palermo",
+      "provincia": "Palermo",
+      "provinciaSlug": "palermo",
+      "siglaProvincia": "PA",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "082053",
+      "descrizione": "Capoluogo siciliano con laboratori di orologeria, riparazione, restauro e vendita di orologi usati.",
+      "fonti": [
+        "t08-bruno-riparazione",
+        "t08-dicaro-contatti",
+        "t08-watchcenter-termini"
+      ]
+    },
+    {
+      "id": "genova",
+      "comune": "Genova",
+      "comuneSlug": "genova",
+      "provincia": "Genova",
+      "provinciaSlug": "genova",
+      "siglaProvincia": "GE",
+      "regione": "Liguria",
+      "regioneSlug": "liguria",
+      "codiceIstat": "010025",
+      "descrizione": "Capoluogo ligure con laboratori di riparazione, restauro di orologi antichi e assistenza orologiaia.",
+      "fonti": [
+        "t08-censi-sito",
+        "t08-astrua-genova"
+      ]
+    },
+    {
+      "id": "alessandria",
+      "comune": "Alessandria",
+      "comuneSlug": "alessandria",
+      "provincia": "Alessandria",
+      "provinciaSlug": "alessandria",
+      "siglaProvincia": "AL",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": "006003",
+      "descrizione": "Comune piemontese con laboratorio orologiaio per riparazioni di ogni genere, pile, cinturini e pendole.",
+      "fonti": [
+        "t08-lab-alessandria-orari"
       ]
     }
   ],
@@ -4834,6 +5465,4439 @@
       "origine": {
         "sistema": "ricerca-ufficiale-toscana-04",
         "idOriginale": "massari-campi"
+      }
+    },
+    {
+      "id": "macchina-tempo-firenze",
+      "slug": "macchina-tempo-firenze",
+      "nome": "La Macchina del Tempo",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Officina del tempo a Firenze che offre revisioni e manutenzioni per orologi automatici, a carica manuale e al quarzo, restauro di orologi meccanici a pendolo e cucù e cinturini personalizzati.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": "Via Guelfa 1/G",
+        "cap": "50129",
+        "coordinate": null,
+        "fonti": [
+          "t07-macchina-tempo-sito",
+          "t07-macchina-tempo-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 291994",
+        "email": "leobiagi72@gmail.com",
+        "sito": "https://www.lamacchinadeltempo.org/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t07-macchina-tempo-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "automatici",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        },
+        {
+          "id": "antichi",
+          "fonti": [
+            "t07-macchina-tempo-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-macchina-tempo-sito",
+          "t07-macchina-tempo-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: candidato OSM node/10804755206 promosso dopo riscontro sul sito ufficiale (lamacchinadeltempo.org). Indirizzo, contatti e servizi di revisione, restauro pendoleria e cinturini documentati.",
+            "fonti": [
+              "t07-macchina-tempo-sito",
+              "t07-macchina-tempo-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "osm",
+        "idOriginale": "node/10804755206"
+      }
+    },
+    {
+      "id": "horamundi-firenze",
+      "slug": "horamundi-firenze",
+      "nome": "Hora Mundi — Orologi da Collezione",
+      "tipi": [
+        "orologeria"
+      ],
+      "descrizione": "Orologeria a Firenze dedicata a orologi antichi e moderni da collezione, vendita, acquisto, permute e valutazioni.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "firenze",
+      "posizione": {
+        "indirizzo": "Via dei Fossi 21r",
+        "cap": "50123",
+        "coordinate": null,
+        "fonti": [
+          "t07-horamundi-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 219020",
+        "email": "info@horamundi.it",
+        "sito": "https://www.horamundi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t07-horamundi-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        },
+        {
+          "id": "collezione",
+          "fonti": [
+            "t07-horamundi-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-horamundi-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: candidato OSM node/7485085150 promosso dopo riscontro sul sito ufficiale (horamundi.it). Sede in Via dei Fossi 21r, contatti e servizi di vendita, acquisto, permuta e valutazioni di orologi da collezione documentati.",
+            "fonti": [
+              "t07-horamundi-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "osm",
+        "idOriginale": "node/7485085150"
+      }
+    },
+    {
+      "id": "horae-san-giovanni",
+      "slug": "horae-san-giovanni",
+      "nome": "Horae Orologeria e Gioielleria",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria e laboratorio interno a San Giovanni Valdarno (AR) attivo dal 1986, con servizi di revisione completa, riparazione, lucidatura e vendita di orologi di secondo polso.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "san-giovanni-valdarno",
+      "posizione": {
+        "indirizzo": "Piazza Cavour 11",
+        "cap": "52027",
+        "coordinate": null,
+        "fonti": [
+          "t07-horae-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 055 941596",
+        "email": "info@horaeorologeria.it",
+        "sito": "https://www.horaeorologeria.it/",
+        "whatsapp": "+393394165545",
+        "social": [],
+        "fonti": [
+          "t07-horae-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "lusso",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t07-horae-lab"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Audemars Piguet",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          }
+        ],
+        "riparati": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Seiko",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          }
+        ],
+        "esperienza": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Audemars Piguet",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t07-horae-lab"
+            ]
+          }
+        ],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1986,
+        "fondatore": null,
+        "testo": "Attività fondata nel 1986 a San Giovanni Valdarno, dotata di laboratorio orologiaio interno per la revisione e la manutenzione di orologi di prestigio.",
+        "eventi": [],
+        "fonti": [
+          "t07-horae-lab"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-horae-lab",
+          "t07-horae-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: scheda verificata tramite sito ufficiale (horaeorologeria.it). Certificazioni dei tecnici riportate come marchi riparati/esperienza; nessuna assistenza ufficiale attribuita in assenza di locator diretto della casa madre.",
+            "fonti": [
+              "t07-horae-lab",
+              "t07-horae-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-07",
+        "idOriginale": "horae-san-giovanni"
+      }
+    },
+    {
+      "id": "fontana-bologna",
+      "slug": "fontana-bologna",
+      "nome": "Natale Fontana Lab",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Storico laboratorio di riparazione, revisione e restauro orologi a Bologna, attivo dal 1909 per orologi meccanici, automatici, al quarzo e antichi, con servizio di ricambi, lucidatura, cinturini e test di impermeabilità.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bologna",
+      "posizione": {
+        "indirizzo": "Via Indipendenza 15",
+        "cap": "40121",
+        "coordinate": null,
+        "fonti": [
+          "t07-fontana-lab"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 051 239544",
+        "email": "info@natalefontana.it",
+        "sito": "https://www.natalefontana.it/it/laboratorio-gioielleria-orologeria",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t07-fontana-lab"
+        ]
+      },
+      "orari": {
+        "giorni": [
+          {
+            "giorno": 1,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "18:00"
+              }
+            ]
+          },
+          {
+            "giorno": 2,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "18:00"
+              }
+            ]
+          },
+          {
+            "giorno": 3,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "18:00"
+              }
+            ]
+          },
+          {
+            "giorno": 4,
+            "intervalli": []
+          },
+          {
+            "giorno": 5,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "18:00"
+              }
+            ]
+          },
+          {
+            "giorno": 6,
+            "intervalli": [
+              {
+                "apertura": "10:00",
+                "chiusura": "18:00"
+              }
+            ]
+          }
+        ],
+        "chiusure": [
+          "Giovedì chiuso",
+          "Domenica chiuso"
+        ],
+        "verificatiIl": "2026-10-19",
+        "fonti": [
+          "t07-fontana-lab"
+        ]
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Test di impermeabilità fino a 8 ATM e violettatura viti del movimento",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        }
+      ],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t07-fontana-lab"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1909,
+        "fondatore": "Natale Fontana",
+        "testo": "Dal 1909 la famiglia Fontana affianca alla vendita un laboratorio di riparazione e restauro di orologi nuovi e antichi sotto i portici di Via Indipendenza a Bologna.",
+        "eventi": [],
+        "fonti": [
+          "t07-fontana-lab"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-fontana-lab"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: scheda verificata tramite pagina ufficiale del laboratorio (natalefontana.it). Indirizzo, contatti, orari e servizi tecnici documentati.",
+            "fonti": [
+              "t07-fontana-lab"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-07",
+        "idOriginale": "fontana-bologna"
+      }
+    },
+    {
+      "id": "orologica-torino",
+      "slug": "orologica-torino",
+      "nome": "Orologica — Laboratorio Orologiaio",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio di orologeria a Torino (quartiere Crocetta) specializzato in riparazione, revisione con garanzia, sostituzione vetri, pile e cinturini, restauro cassa e bracciale e ripristino impermeabilità.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "torino",
+      "posizione": {
+        "indirizzo": "Corso Alcide De Gasperi 5/M",
+        "cap": "10129",
+        "coordinate": null,
+        "fonti": [
+          "t07-orologica-sito",
+          "t07-orologica-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 011 364404",
+        "email": "info@orologicatorino.it",
+        "sito": "https://www.orologicatorino.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t07-orologica-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [
+          {
+            "giorno": 1,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "14:00",
+                "chiusura": "19:00"
+              }
+            ]
+          },
+          {
+            "giorno": 2,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "14:00",
+                "chiusura": "19:00"
+              }
+            ]
+          },
+          {
+            "giorno": 3,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "14:00",
+                "chiusura": "19:00"
+              }
+            ]
+          },
+          {
+            "giorno": 4,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "14:00",
+                "chiusura": "19:00"
+              }
+            ]
+          },
+          {
+            "giorno": 5,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "14:00",
+                "chiusura": "19:00"
+              }
+            ]
+          },
+          {
+            "giorno": 6,
+            "intervalli": [
+              {
+                "apertura": "09:00",
+                "chiusura": "13:00"
+              }
+            ]
+          }
+        ],
+        "chiusure": [
+          "Sabato pomeriggio chiuso",
+          "Domenica chiuso"
+        ],
+        "verificatiIl": "2026-10-19",
+        "fonti": [
+          "t07-orologica-sito",
+          "t07-orologica-contatti"
+        ]
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "acquisto-permuta",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Sostituzione vetri e ripristino impermeabilità per orologi subacquei",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        }
+      ],
+      "specializzazioni": [
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t07-orologica-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "t07-orologica-sito"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-orologica-sito",
+          "t07-orologica-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: scheda verificata tramite sito ufficiale (orologicatorino.it). I marchi per cui il laboratorio dichiara assistenza sono registrati come marchi riparati (nessuna assistenzaUfficiale attribuita senza riscontro diretto sul locator della casa madre).",
+            "fonti": [
+              "t07-orologica-sito",
+              "t07-orologica-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-07",
+        "idOriginale": "orologica-torino"
+      }
+    },
+    {
+      "id": "casa-cronometro-roma",
+      "slug": "casa-cronometro-roma",
+      "nome": "La Casa del Cronometro di Marco Musto",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio di orologeria a Roma (zona Prati) attivo dal 1965, specializzato in riparazione, revisione e restauro di orologi da polso, orologi da tasca e pendoleria, sostituzione vetri anche su misura e cinturini artigianali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Via Silla 80",
+        "cap": "00192",
+        "coordinate": null,
+        "fonti": [
+          "t07-casa-cronometro-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 06 3210971",
+        "email": "marcomusto@virgilio.it",
+        "sito": "https://www.casadelcronometro.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t07-casa-cronometro-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "vendita-nuovi",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Lucidatura vetri in esalite, sostituzione vetri su misura e prove di impermeabilità fino a 10 bar",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        }
+      ],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t07-casa-cronometro-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "t07-casa-cronometro-sito"
+            ]
+          }
+        ],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t07-casa-cronometro-sito"
+            ]
+          },
+          {
+            "marca": "Audemars Piguet",
+            "fonti": [
+              "t07-casa-cronometro-sito"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1965,
+        "fondatore": null,
+        "testo": "Laboratorio di orologeria attivo dal 1965 a Roma nel quartiere Prati, alle spalle di Via Cola di Rienzo.",
+        "eventi": [],
+        "fonti": [
+          "t07-casa-cronometro-sito"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-casa-cronometro-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: scheda verificata tramite sito ufficiale (casadelcronometro.it). Indirizzo, contatti e servizi di riparazione orologi da polso, tasca, pendoleria, vetri e cinturini documentati.",
+            "fonti": [
+              "t07-casa-cronometro-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-07",
+        "idOriginale": "casa-cronometro-roma"
+      }
+    },
+    {
+      "id": "soprana-vicenza",
+      "slug": "soprana-vicenza",
+      "nome": "Soprana dal 1910 — Laboratorio di Orologeria e Restauro",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Storica orologeria e gioielleria sotto la Basilica Palladiana a Vicenza, dotata di laboratorio di orologeria con tecnici diplomati WOSTEP e laboratorio di restauro per orologi da polso, da tasca e pendoleria antica.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "vicenza",
+      "posizione": {
+        "indirizzo": "Piazzetta Palladio 2",
+        "cap": "36100",
+        "coordinate": null,
+        "fonti": [
+          "t07-soprana-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0444 320788",
+        "email": "soprana@soprana.com",
+        "sito": "https://www.soprana.com/laboratorio-orologeria/",
+        "whatsapp": "+393383033363",
+        "social": [],
+        "fonti": [
+          "t07-soprana-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [
+          {
+            "giorno": 2,
+            "intervalli": [
+              {
+                "apertura": "09:30",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "16:00",
+                "chiusura": "19:30"
+              }
+            ]
+          },
+          {
+            "giorno": 3,
+            "intervalli": [
+              {
+                "apertura": "09:30",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "16:00",
+                "chiusura": "19:30"
+              }
+            ]
+          },
+          {
+            "giorno": 4,
+            "intervalli": [
+              {
+                "apertura": "09:30",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "16:00",
+                "chiusura": "19:30"
+              }
+            ]
+          },
+          {
+            "giorno": 5,
+            "intervalli": [
+              {
+                "apertura": "09:30",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "16:00",
+                "chiusura": "19:30"
+              }
+            ]
+          },
+          {
+            "giorno": 6,
+            "intervalli": [
+              {
+                "apertura": "09:30",
+                "chiusura": "13:00"
+              },
+              {
+                "apertura": "16:00",
+                "chiusura": "19:30"
+              }
+            ]
+          }
+        ],
+        "chiusure": [
+          "Lunedì chiuso",
+          "Domenica chiuso"
+        ],
+        "verificatiIl": "2026-10-19",
+        "fonti": [
+          "t07-soprana-contatti"
+        ]
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "t07-soprana-contatti"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Sostituzione guarnizioni e vetri sintetici, smagnetizzazione e prove di impermeabilità",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        }
+      ],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        },
+        {
+          "id": "lusso",
+          "fonti": [
+            "t07-soprana-lab"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": 1910,
+        "fondatore": null,
+        "testo": "Attiva dal 1910 sotto le logge della Basilica Palladiana a Vicenza, affianca alla boutique di orologeria un laboratorio tecnico e un laboratorio dedicato al restauro di orologi da polso, da tasca e da arredamento.",
+        "eventi": [],
+        "fonti": [
+          "t07-soprana-lab",
+          "t07-soprana-contatti"
+        ]
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t07-soprana-lab",
+          "t07-soprana-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 07: scheda verificata tramite sito ufficiale (soprana.com). Sede, contatti, orari e le 16 fasi di manutenzione e restauro su orologi da polso, da tasca e da arredamento documentate.",
+            "fonti": [
+              "t07-soprana-lab",
+              "t07-soprana-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-07",
+        "idOriginale": "soprana-vicenza"
+      }
+    },
+    {
+      "id": "monetti-napoli-mille",
+      "slug": "monetti-napoli-mille",
+      "nome": "Monetti Orologeria e Gioielleria — Via dei Mille",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "descrizione": "Sede di Via dei Mille dell’orologeria Monetti a Napoli, con laboratorio che il sito ufficiale dichiara di assistenza ufficiale Rolex/Tudor (autorizzazione non riscontrata su fonte del marchio: non attribuita come ufficiale) e riparazione di orologi di alta gamma.",
+      "nomiPrecedenti": [],
+      "gruppoId": "monetti-napoli",
+      "localitaId": "napoli",
+      "posizione": {
+        "indirizzo": "Via Dei Mille 27",
+        "cap": "80121",
+        "coordinate": null,
+        "fonti": [
+          "t08-monetti-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 081 5518416",
+        "email": "info27@monettiorologi.com",
+        "sito": "https://monettiorologi.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-monetti-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-laboratorio",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-laboratorio",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-laboratorio",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-laboratorio",
+            "t08-monetti-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Vacheron Constantin",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "IWC",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Panerai",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Jaeger-LeCoultre",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Chanel",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-monetti-laboratorio"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-monetti-sito",
+          "t08-monetti-laboratorio",
+          "t08-monetti-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, sede e contatti riscontrati sul sito ufficiale (monettiorologi.com). Servizi di assistenza, revisione, manutenzione e riparazione dichiarati dalla pagina Laboratorio. La dichiarazione di laboratorio di assistenza ufficiale Rolex/Tudor proviene dal solo sito dell’attività: non attribuita come autorizzazione ufficiale perché non confermata da fonte del marchio.",
+            "fonti": [
+              "t08-monetti-sito",
+              "t08-monetti-laboratorio",
+              "t08-monetti-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "monetti-napoli-mille"
+      }
+    },
+    {
+      "id": "monetti-napoli-brigida",
+      "slug": "monetti-napoli-brigida",
+      "nome": "Monetti Orologeria e Gioielleria — Via Santa Brigida",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Seconda sede dell’orologeria Monetti a Napoli, in Via Santa Brigida, con servizi di assistenza, revisione e manutenzione orologiaia dichiarati dal sito ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": "monetti-napoli",
+      "localitaId": "napoli",
+      "posizione": {
+        "indirizzo": "Via Santa Brigida 60",
+        "cap": "80132",
+        "coordinate": null,
+        "fonti": [
+          "t08-monetti-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 081 5523867",
+        "email": "infobrigida@monettiorologi.com",
+        "sito": "https://monettiorologi.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-monetti-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-contatti"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-monetti-sito",
+            "t08-monetti-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-monetti-sito",
+          "t08-monetti-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: seconda sede di Monetti riscontrata sul sito ufficiale (pagina contatti). Il sito non specifica quale sede ospiti il laboratorio: laboratorio e autorizzazioni non attribuiti a questa sede.",
+            "fonti": [
+              "t08-monetti-sito",
+              "t08-monetti-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "monetti-napoli-brigida"
+      }
+    },
+    {
+      "id": "deluca-napoli",
+      "slug": "deluca-napoli",
+      "nome": "Centro Assistenza Orologi De Luca",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio di orologeria a Napoli in Via Port’Alba che si dichiara laboratorio certificato per interventi su orologi da polso e a pendolo, con restauro di orologi d’epoca, da pendolo e da tavolo.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "napoli",
+      "posizione": {
+        "indirizzo": "Via Port’Alba 7",
+        "cap": "80134",
+        "coordinate": null,
+        "fonti": [
+          "t08-deluca-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 081 5499720",
+        "email": "assistenzaorologideluca@gmail.com",
+        "sito": "https://www.assistenzaorologideluca.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-deluca-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-deluca-sito",
+            "t08-deluca-contatti",
+            "t08-deluca-restauri"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-deluca-sito",
+            "t08-deluca-contatti",
+            "t08-deluca-restauri"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-deluca-sito",
+            "t08-deluca-contatti",
+            "t08-deluca-restauri"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-deluca-sito",
+            "t08-deluca-contatti",
+            "t08-deluca-restauri"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-deluca-sito",
+            "t08-deluca-contatti",
+            "t08-deluca-restauri"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t08-deluca-restauri"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t08-deluca-restauri"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-deluca-sito",
+          "t08-deluca-contatti",
+          "t08-deluca-restauri"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale. Restauro di orologi d’epoca, a pendolo o da tavolo documentato dalla pagina Restaurazioni vintage. CAP pubblicato dal sito ufficiale (80134); una fonte di terzi riportava un CAP diverso, non corretto per supposizione. Marchi e autorizzazioni non documentati: non attribuiti.",
+            "fonti": [
+              "t08-deluca-sito",
+              "t08-deluca-contatti",
+              "t08-deluca-restauri"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "deluca-napoli"
+      }
+    },
+    {
+      "id": "pirone-napoli",
+      "slug": "pirone-napoli",
+      "nome": "Orologeria Pirone",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Napoli in Riviera di Chiaia che dichiara di riparare e restaurare ogni tipo di orologio a carica automatica o manuale, con ricambi originali, riparazione di orologi antichi e moderni e ricostruzione di parti meccaniche.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "napoli",
+      "posizione": {
+        "indirizzo": "Riviera di Chiaia 26",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t08-pirone-riparazione"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": null,
+        "sito": "https://www.pironeorologi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-pirone-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-pirone-sito",
+            "t08-pirone-riparazione"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-pirone-sito",
+            "t08-pirone-riparazione"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t08-pirone-sito",
+            "t08-pirone-riparazione"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t08-pirone-sito",
+            "t08-pirone-riparazione"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t08-pirone-sito",
+            "t08-pirone-riparazione"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t08-pirone-sito"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t08-pirone-riparazione"
+          ]
+        },
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t08-pirone-riparazione"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-pirone-sito",
+          "t08-pirone-riparazione"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità e indirizzo riscontrati sul sito ufficiale (pagina riparazione orologi Napoli). CAP, telefono e-mail non pubblicati nelle pagine consultate: non dedotti. Restauro di orologi antichi e ricostruzione di parti meccaniche dichiarate dal sito.",
+            "fonti": [
+              "t08-pirone-sito",
+              "t08-pirone-riparazione"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "pirone-napoli"
+      }
+    },
+    {
+      "id": "mazzone-salerno",
+      "slug": "mazzone-salerno",
+      "nome": "Orologeria Mazzone",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Salerno con assistenza tecnica per orologi meccanici, sostituzione batterie, revisione periodica e riparazione di pendoli, come dichiarato dal sito ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "salerno",
+      "posizione": {
+        "indirizzo": "Via Posidonia 277/B",
+        "cap": "84128",
+        "coordinate": null,
+        "fonti": [
+          "t08-mazzone-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 089 754297",
+        "email": null,
+        "sito": "https://www.orologeriamazzonesalerno.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-mazzone-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-mazzone-sito"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-mazzone-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (orologeriamazzonesalerno.it). Servizi dichiarati: riparazioni pendoli, assistenza tecnica e riparazioni meccaniche, sostituzione batterie, revisione periodica. Il sito dichiara interventi «di ogni modello e marca» senza elenco specifico: nessun marchio attribuito.",
+            "fonti": [
+              "t08-mazzone-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "mazzone-salerno"
+      }
+    },
+    {
+      "id": "carrieri-bari",
+      "slug": "carrieri-bari",
+      "nome": "Carrieri Mastri Orologiai",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria e laboratorio a Bari in Via Sparano, con assistenza e manutenzione di cronografi, orologi da polso e da tasca, riparazione e costruzione di ricambi come documentato dalle pagine ufficiali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bari",
+      "posizione": {
+        "indirizzo": "Via Sparano 50",
+        "cap": "70121",
+        "coordinate": null,
+        "fonti": [
+          "t08-carrieri-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 080 5210194",
+        "email": "carrieriorologeria@libero.it",
+        "sito": "https://www.orologeriacarrieri.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-carrieri-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t08-carrieri-sito",
+            "t08-carrieri-laboratorio",
+            "t08-carrieri-contatti"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-carrieri-sito",
+            "t08-carrieri-laboratorio",
+            "t08-carrieri-contatti"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-carrieri-sito",
+            "t08-carrieri-laboratorio",
+            "t08-carrieri-contatti"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t08-carrieri-sito",
+            "t08-carrieri-laboratorio",
+            "t08-carrieri-contatti"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t08-carrieri-sito",
+            "t08-carrieri-laboratorio",
+            "t08-carrieri-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t08-carrieri-laboratorio"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-carrieri-sito",
+          "t08-carrieri-laboratorio",
+          "t08-carrieri-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (orologeriacarrieri.com). Servizi di laboratorio documentati: assistenza e manutenzione di cronografi, orologi da polso e da tasca, riparazione e costruzione di ricambi. Elenco marchi e autorizzazioni non pubblicati: non attribuiti.",
+            "fonti": [
+              "t08-carrieri-sito",
+              "t08-carrieri-laboratorio",
+              "t08-carrieri-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "carrieri-bari"
+      }
+    },
+    {
+      "id": "macchina-tempo-bari",
+      "slug": "macchina-tempo-bari",
+      "nome": "Orologeria La Macchina del Tempo",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Bari specializzata, come dichiara il sito ufficiale, in manutenzione e riparazione di orologi prestigiosi, con ricambi dichiarati originali per i marchi elencati e certificati di garanzia sugli interventi.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bari",
+      "posizione": {
+        "indirizzo": "Via Argiro 29",
+        "cap": "70122",
+        "coordinate": null,
+        "fonti": [
+          "t08-macchtempo-bari"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 080 5218963",
+        "email": "deltempo@libero.it",
+        "sito": "https://www.orologerialamacchinadeltempo.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-macchtempo-bari"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-macchtempo-bari"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-macchtempo-bari"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t08-macchtempo-bari"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          },
+          {
+            "marca": "Rado",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          },
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-macchtempo-bari"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo, recapiti e marche riscontrati sul sito ufficiale (orologerialamacchinadeltempo.it). Le marche Omega, Longines, Rado, Tissot, Baume & Mercier e Hamilton sono elencate dal sito per manutenzione e ricambi: registrate come riparati, non come assistenza autorizzata (non dichiarata).",
+            "fonti": [
+              "t08-macchtempo-bari"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "macchina-tempo-bari"
+      }
+    },
+    {
+      "id": "chlw-bari",
+      "slug": "chlw-bari",
+      "nome": "CHLW Orologeria — Laboratorio",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria a Bari che documenta test con crono-comparatore, simulatore del tempo e prove di impermeabilità, con revisione, riparazione, restauro, lucidatura e valutazione gratuita dichiarate nelle pagine ufficiali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bari",
+      "posizione": {
+        "indirizzo": "Via Nicolò Putignani 54",
+        "cap": "70124",
+        "coordinate": null,
+        "fonti": [
+          "t08-chlw-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 080 6977150",
+        "email": "orologi@chlw.it",
+        "sito": "https://www.chlw.it/",
+        "whatsapp": "+393920917747",
+        "social": [],
+        "fonti": [
+          "t08-chlw-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "t08-chlw-sito",
+            "t08-chlw-servizi",
+            "t08-chlw-laboratorio",
+            "t08-chlw-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Test di impermeabilità, prove al crono-comparatore e simulatore del tempo",
+          "fonti": [
+            "t08-chlw-laboratorio"
+          ]
+        },
+        {
+          "nome": "Garanzia di quattro anni dichiarata dopo la manutenzione",
+          "fonti": [
+            "t08-chlw-laboratorio"
+          ]
+        }
+      ],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-chlw-sito"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "t08-chlw-sito"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-chlw-sito",
+          "t08-chlw-servizi",
+          "t08-chlw-laboratorio",
+          "t08-chlw-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (chlw.it). Servizi dichiarati dalla pagina I Nostri Servizi e dal Laboratorio. Rolex e Tudor sono citati dal sito nell’offerta di orologi di lusso: registrati come menzionati, non come riparati o autorizzati.",
+            "fonti": [
+              "t08-chlw-sito",
+              "t08-chlw-servizi",
+              "t08-chlw-laboratorio",
+              "t08-chlw-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "chlw-bari"
+      }
+    },
+    {
+      "id": "bruno-emanuele-palermo",
+      "slug": "bruno-emanuele-palermo",
+      "nome": "Bruno Emanuele Orologeria",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Palermo che dichiara riparazione di sveglie, cronometri, pendole ed orologi prestigiosi, sostituzione di cinturini, pile, quadranti, vetri e corone, manutenzione di orologi da polso, da tasca e da tavolo con rispetto dei meccanismi originali.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "palermo",
+      "posizione": {
+        "indirizzo": "Via Antonio Gagini 93",
+        "cap": "90133",
+        "coordinate": null,
+        "fonti": [
+          "t08-bruno-riparazione"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 091 583467",
+        "email": "brunoemanuele@live.it",
+        "sito": "https://brunoemanuele.com/",
+        "whatsapp": "+39091583467",
+        "social": [],
+        "fonti": [
+          "t08-bruno-riparazione"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t08-bruno-sito",
+            "t08-bruno-riparazione"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Sostituzione quadranti, vetri e corone",
+          "fonti": [
+            "t08-bruno-riparazione"
+          ]
+        }
+      ],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-bruno-sito",
+          "t08-bruno-riparazione"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (brunoemanuele.com, pagina riparazione orologi). Elenco marchi e autorizzazioni non pubblicati: non attribuiti.",
+            "fonti": [
+              "t08-bruno-sito",
+              "t08-bruno-riparazione"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "bruno-emanuele-palermo"
+      }
+    },
+    {
+      "id": "cagnina-palermo",
+      "slug": "cagnina-palermo",
+      "nome": "La Cagnina Dario — Laboratorio di Orologeria",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria a Palermo che dichiara polissage (pulitura e lucidatura) e riparazione di orologi, oltre a vendita di orologi nuovi e occasioni di secondo polso vintage.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "palermo",
+      "posizione": {
+        "indirizzo": "Via Terrasanta 61",
+        "cap": "90141",
+        "coordinate": null,
+        "fonti": [
+          "t08-cagnina-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 091 7527734",
+        "email": "dariolacagnina@hotmail.com",
+        "sito": "https://www.orologerialacagninadario.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-cagnina-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-cagnina-sito"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-cagnina-sito"
+          ]
+        },
+        {
+          "id": "vendita-nuovi",
+          "fonti": [
+            "t08-cagnina-sito"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t08-cagnina-sito"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "vintage",
+          "fonti": [
+            "t08-cagnina-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Orient",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Seiko",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Ferrari",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Invicta",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          }
+        ],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-cagnina-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (orologerialacagninadario.com). Vendita di orologi nuovi (Orient, Seiko, Ferrari, Invicta) e occasioni vintage di secondo polso (Cartier, Omega, Rolex, Zenith, Baume & Mercier) dichiarate dal sito. Il sito cita un orologiaio «accreditato presso una delle maggiori case svizzere» senza nominarla: nessuna autorizzazione attribuita.",
+            "fonti": [
+              "t08-cagnina-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "cagnina-palermo"
+      }
+    },
+    {
+      "id": "di-caro-palermo",
+      "slug": "di-caro-palermo",
+      "nome": "Orologeria Di Caro",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Palermo con riparazione e manutenzione di orologi e vendita di orologi da collezione, pezzi unici e vintage. Il sito si dichiara centro assistenza ufficiale per alcuni marchi: autorizzazione non riscontrata su fonte del marchio e non attribuita come ufficiale.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "palermo",
+      "posizione": {
+        "indirizzo": "Via Villareale 67",
+        "cap": "90141",
+        "coordinate": null,
+        "fonti": [
+          "t08-dicaro-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 091 584512",
+        "email": null,
+        "sito": "https://www.orologeriadicaro.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-dicaro-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-dicaro-sito",
+            "t08-dicaro-contatti"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-dicaro-sito",
+            "t08-dicaro-contatti"
+          ]
+        },
+        {
+          "id": "vendita",
+          "fonti": [
+            "t08-dicaro-sito",
+            "t08-dicaro-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          },
+          {
+            "marca": "Seiko",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          },
+          {
+            "marca": "Citizen",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          }
+        ],
+        "riparati": [
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-dicaro-sito"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-dicaro-sito",
+          "t08-dicaro-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e telefono riscontrati sul sito ufficiale (orologeriadicaro.com). Riparazione, manutenzione e vendita dichiarate dal sito. La dichiarazione «centro assistenza ufficiale e certificato» per Cartier, Baume & Mercier, Omega e Hamilton proviene dal solo sito dell’attività: non trascritta in assistenzaUfficiale perché priva di fonte del marchio.",
+            "fonti": [
+              "t08-dicaro-sito",
+              "t08-dicaro-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "di-caro-palermo"
+      }
+    },
+    {
+      "id": "watch-center-palermo",
+      "slug": "watch-center-palermo",
+      "nome": "Watch Center — Laboratorio di Assistenza",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di assistenza a Palermo che dichiara interventi su ogni tipo di orologio: sostituzione batterie, vetri e cinturini, revisione di orologi meccanici, restauro di orologi antichi e a pendolo, controllo impermeabilità, rifacimento quadranti e lucidatura, oltre a orologi di secondo polso garantiti.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "palermo",
+      "posizione": {
+        "indirizzo": "Via Nunzio Morello 18/E",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "t08-watchcenter-termini"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 091 586773",
+        "email": "info@watchcenterassistance.it",
+        "sito": "https://watch-center.eu/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-watchcenter-termini"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        },
+        {
+          "id": "vendita-usati",
+          "fonti": [
+            "t08-watchcenter-sito",
+            "t08-watchcenter-termini"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Controllo impermeabilità e rifacimento quadranti",
+          "fonti": [
+            "t08-watchcenter-sito"
+          ]
+        }
+      ],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Breitling",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Eberhard",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Maurice Lacroix",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          },
+          {
+            "marca": "Bulova",
+            "fonti": [
+              "t08-watchcenter-sito"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-watchcenter-sito",
+          "t08-watchcenter-termini"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (watch-center.eu, pagina Termini e condizioni). CAP non pubblicato nelle pagine consultate: non dedotto. Le marche citate dal sito sono registrate come menzionati; la dicitura «Laboratorio Certificato» non è stata trascritta come autorizzazione di marca.",
+            "fonti": [
+              "t08-watchcenter-sito",
+              "t08-watchcenter-termini"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "watch-center-palermo"
+      }
+    },
+    {
+      "id": "censi-genova",
+      "slug": "censi-genova",
+      "nome": "Alfio Censi",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio orologiaio a Genova che dichiara riparazione di orologi di qualsiasi marca, restauro di orologi antichi (pendole, orologi, sveglie e ogni segnatempo), perizie e stime.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "genova",
+      "posizione": {
+        "indirizzo": "Via Canevari 264 R",
+        "cap": "16137",
+        "coordinate": null,
+        "fonti": [
+          "t08-censi-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": null,
+        "email": "info@censi.it",
+        "sito": "https://www.alfiocensi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-censi-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-censi-sito"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-censi-sito"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-censi-sito"
+          ]
+        },
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t08-censi-sito"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t08-censi-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-censi-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-censi-sito"
+            ]
+          },
+          {
+            "marca": "Zenith",
+            "fonti": [
+              "t08-censi-sito"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-censi-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo ed e-mail riscontrati sul sito ufficiale (alfiocensi.it). Riparazione di qualsiasi marca, restauro di orologi antichi, pendole e sveglie, perizie e stime dichiarate dal sito. Nessuna autorizzazione di marchio dichiarata o attribuita.",
+            "fonti": [
+              "t08-censi-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "censi-genova"
+      }
+    },
+    {
+      "id": "astrua-genova",
+      "slug": "astrua-genova",
+      "nome": "Astrua 1860 — sede di Genova",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Sede di Genova di Astrua 1860, con valutazione, restauro, riparazione, manutenzione e revisione di orologi come documentato dalle pagine ufficiali della sede.",
+      "nomiPrecedenti": [],
+      "gruppoId": "astrua-1860",
+      "localitaId": "genova",
+      "posizione": {
+        "indirizzo": "Via Roma 68",
+        "cap": "16121",
+        "coordinate": null,
+        "fonti": [
+          "t08-astrua-genova"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 010 5959737",
+        "email": null,
+        "sito": "https://www.astrua.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-astrua-genova"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-genova",
+            "t08-astrua-riparazione-genova"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-genova",
+            "t08-astrua-riparazione-genova"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-genova",
+            "t08-astrua-riparazione-genova"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-genova",
+            "t08-astrua-riparazione-genova"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-genova",
+            "t08-astrua-riparazione-genova"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-astrua-riparazione-genova"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-astrua-riparazione-genova"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "t08-astrua-riparazione-genova"
+            ]
+          },
+          {
+            "marca": "IWC Schaffhausen",
+            "fonti": [
+              "t08-astrua-riparazione-genova"
+            ]
+          },
+          {
+            "marca": "Jaeger-LeCoultre",
+            "fonti": [
+              "t08-astrua-riparazione-genova"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-astrua-sito",
+          "t08-astrua-genova",
+          "t08-astrua-riparazione-genova"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: sede, indirizzo e telefono riscontrati sul sito ufficiale (astrua.com). Servizi di valutazione, restauro, riparazione, manutenzione e revisione documentati dalle pagine della sede. Le marche indicate per l’assistenza sono registrate come riparati; la dicitura «Laboratorio di Assistenza Orologiera Ufficiale» non è trascritta come autorizzazione per singole marche, non confermate da fonti del marchio.",
+            "fonti": [
+              "t08-astrua-sito",
+              "t08-astrua-genova",
+              "t08-astrua-riparazione-genova"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "astrua-genova"
+      }
+    },
+    {
+      "id": "astrua-torino",
+      "slug": "astrua-torino",
+      "nome": "Astrua 1860 — sede di Torino",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Sede di Torino di Astrua 1860, in Piazza Carlo Alberto, con valutazione, restauro, riparazione, manutenzione e revisione di orologi come documentato dalle pagine ufficiali della sede.",
+      "nomiPrecedenti": [],
+      "gruppoId": "astrua-1860",
+      "localitaId": "torino",
+      "posizione": {
+        "indirizzo": "Via Cesare Battisti 15",
+        "cap": "10123",
+        "coordinate": null,
+        "fonti": [
+          "t08-astrua-torino"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 011 5613873",
+        "email": null,
+        "sito": "https://www.astrua.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-astrua-torino"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "valutazioni",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-torino",
+            "t08-astrua-riparazione-torino"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-torino",
+            "t08-astrua-riparazione-torino"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-torino",
+            "t08-astrua-riparazione-torino"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-torino",
+            "t08-astrua-riparazione-torino"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "t08-astrua-sito",
+            "t08-astrua-torino",
+            "t08-astrua-riparazione-torino"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-astrua-riparazione-torino"
+            ]
+          },
+          {
+            "marca": "Patek Philippe",
+            "fonti": [
+              "t08-astrua-riparazione-torino"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-astrua-riparazione-torino"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-astrua-riparazione-torino"
+            ]
+          },
+          {
+            "marca": "Tudor",
+            "fonti": [
+              "t08-astrua-riparazione-torino"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-astrua-sito",
+          "t08-astrua-torino",
+          "t08-astrua-riparazione-torino"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: sede, indirizzo e telefono riscontrati sul sito ufficiale (astrua.com). Le marche indicate per l’assistenza sono registrate come riparati; dichiarazioni di ufficialità non trascritte senza fonte del marchio.",
+            "fonti": [
+              "t08-astrua-sito",
+              "t08-astrua-torino",
+              "t08-astrua-riparazione-torino"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "astrua-torino"
+      }
+    },
+    {
+      "id": "capo-torino",
+      "slug": "capo-torino",
+      "nome": "Laboratorio Capo",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio orologiaio a Torino che dichiara revisioni complete, test di impermeabilità, smontaggi e lavaggi di ogni componente, lucidatura di cassa e bracciale e prove al cronocomparatore.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "torino",
+      "posizione": {
+        "indirizzo": "Corso Vittorio Emanuele II 78",
+        "cap": "10121",
+        "coordinate": null,
+        "fonti": [
+          "t08-capo-sito"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 011 5621712",
+        "email": "capo.roberto@libero.it",
+        "sito": "https://www.laboratoriocapo.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-capo-sito"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-capo-sito"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-capo-sito"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-capo-sito"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-capo-sito"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Test di impermeabilità e prove al cronocomparatore",
+          "fonti": [
+            "t08-capo-sito"
+          ]
+        }
+      ],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Tissot",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "Baume & Mercier",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "Hamilton",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          },
+          {
+            "marca": "TAG Heuer",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-capo-sito"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (laboratoriocapo.com). Il sito si dichiara «Centro assistenza ufficiale» per sette marche: la dichiarazione resta dell’attività, le marche sono registrate come riparati e nessuna autorizzazione è attribuita senza fonte del marchio.",
+            "fonti": [
+              "t08-capo-sito"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "capo-torino"
+      }
+    },
+    {
+      "id": "lab-alessandria",
+      "slug": "lab-alessandria",
+      "nome": "Laboratorio di Orologeria — Alessandria",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio orologiaio a Alessandria che dichiara sostituzione immediata di pile e cinturini, riparazioni di ogni genere su orologi da polso, da parete, pendole e da tasca, lucidature, roditure e placcature in oro, con preventivi gratuiti.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "alessandria",
+      "posizione": {
+        "indirizzo": "Via Milano 22",
+        "cap": "15121",
+        "coordinate": null,
+        "fonti": [
+          "t08-lab-alessandria-orari"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 348 7557349",
+        "email": null,
+        "sito": "https://laboratorio-di-orologeria.webnode.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-lab-alessandria-orari"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-lab-alessandria-sito",
+            "t08-lab-alessandria-orari"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Roditure e placcature in oro, preventivi gratuiti",
+          "fonti": [
+            "t08-lab-alessandria-sito"
+          ]
+        }
+      ],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-lab-alessandria-sito",
+          "t08-lab-alessandria-orari"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e cellulare riscontrati sul sito ufficiale dell’attività (laboratorio-di-orologeria.webnode.it, pagina orari e recapito). Marchi e autorizzazioni non pubblicati: non attribuiti.",
+            "fonti": [
+              "t08-lab-alessandria-sito",
+              "t08-lab-alessandria-orari"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "lab-alessandria"
+      }
+    },
+    {
+      "id": "bottega-del-tempo-roma",
+      "slug": "bottega-del-tempo-roma",
+      "nome": "La Bottega del Tempo",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio orologiaio a Roma in Via dell’Oca che dichiara riparazioni, restauri e collaudi di orologi storici, assistenza con parti originali, revisione, test di impermeabilità, sostituzione di batterie, cinturini e vetri, lucidatura e assistenza a orologi da tavolo e a pendolo.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Via dell’Oca 32",
+        "cap": "00186",
+        "coordinate": null,
+        "fonti": [
+          "t08-bottega-riparazione"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 06 3224855",
+        "email": "info@labottegadeltempo.it",
+        "sito": "https://www.labottegadeltempo.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-bottega-riparazione"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-bottega-sito",
+            "t08-bottega-riparazione",
+            "t08-bottega-chisiamo"
+          ]
+        }
+      ],
+      "altriServizi": [
+        {
+          "nome": "Collaudi, test di impermeabilità e sostituzione vetri",
+          "fonti": [
+            "t08-bottega-riparazione"
+          ]
+        }
+      ],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t08-bottega-riparazione"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t08-bottega-riparazione"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-bottega-riparazione"
+            ]
+          },
+          {
+            "marca": "Vacheron Constantin",
+            "fonti": [
+              "t08-bottega-riparazione"
+            ]
+          },
+          {
+            "marca": "Valjoux",
+            "fonti": [
+              "t08-bottega-riparazione"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-bottega-sito",
+          "t08-bottega-riparazione",
+          "t08-bottega-chisiamo"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (labottegadeltempo.it). Servizi e restauro di orologi storici, da tavolo e a pendolo documentati dalle pagine ufficiali. Le marche citate per la disponibilità di ricambi sono registrate come menzionati; nessuna autorizzazione dichiarata o attribuita.",
+            "fonti": [
+              "t08-bottega-sito",
+              "t08-bottega-riparazione",
+              "t08-bottega-chisiamo"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "bottega-del-tempo-roma"
+      }
+    },
+    {
+      "id": "salamena-roma",
+      "slug": "salamena-roma",
+      "nome": "Salamena — Laboratorio di Orologeria",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria a Roma che dichiara riparazioni di orologi da polso e a pendolo, revisioni, assistenza e sostituzioni, restauro di pendole antiche, lucidatura e rimozione graffi e consulenze.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "roma",
+      "posizione": {
+        "indirizzo": "Via Tommaso Campanella 33",
+        "cap": "00195",
+        "coordinate": null,
+        "fonti": [
+          "t08-salamena-pagine"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 06 39735621",
+        "email": "info@riparazioniorologiroma.it",
+        "sito": "https://www.riparazioniorologiroma.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-salamena-pagine"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        },
+        {
+          "id": "pendoleria",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "t08-salamena-sito",
+            "t08-salamena-pagine"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "antichi",
+          "fonti": [
+            "t08-salamena-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          },
+          {
+            "marca": "Bulova",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          },
+          {
+            "marca": "Cartier",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          },
+          {
+            "marca": "Longines",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          },
+          {
+            "marca": "Omega",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          },
+          {
+            "marca": "Patek Philippe",
+            "fonti": [
+              "t08-salamena-sito"
+            ]
+          }
+        ],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-salamena-sito",
+          "t08-salamena-pagine"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (riparazioniorologiroma.it). Riparazione e revisione di orologi dei marchi elencati dichiarate dal sito come «certificata»: marchi registrati come riparati, la certificazione non trascritta come autorizzazione ufficiale (priva di fonte del marchio).",
+            "fonti": [
+              "t08-salamena-sito",
+              "t08-salamena-pagine"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "salamena-roma"
+      }
+    },
+    {
+      "id": "portanova-bologna",
+      "slug": "portanova-bologna",
+      "nome": "Laboratorio PortaNova",
+      "tipi": [
+        "laboratorio",
+        "orologeria"
+      ],
+      "descrizione": "Laboratorio di orologeria a Bologna, a 300 metri da Piazza Maggiore, specializzato come dichiara il sito in orologi meccanici, automatici, al quarzo e cronografi, con interventi su movimenti (ripristino dell’usura, tornitura, lavaggio, lubrificazione) e restauro di casse.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bologna",
+      "posizione": {
+        "indirizzo": "Via Portanova 10/A",
+        "cap": "40123",
+        "coordinate": null,
+        "fonti": [
+          "t08-portanova-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 051 264988",
+        "email": "laboratorioportanova@gmail.com",
+        "sito": "https://www.laboratorioportanova.eu/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "t08-portanova-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "riparazione-automatici",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "t08-portanova-sito",
+            "t08-portanova-contatti"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [
+        {
+          "id": "meccanici",
+          "fonti": [
+            "t08-portanova-sito"
+          ]
+        },
+        {
+          "id": "automatici",
+          "fonti": [
+            "t08-portanova-sito"
+          ]
+        },
+        {
+          "id": "vintage",
+          "fonti": [
+            "t08-portanova-sito"
+          ]
+        }
+      ],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": [
+          {
+            "marca": "Rolex",
+            "fonti": [
+              "t08-portanova-sito"
+            ]
+          },
+          {
+            "marca": "Universal",
+            "fonti": [
+              "t08-portanova-sito"
+            ]
+          }
+        ]
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-19",
+        "verificataIl": "2026-10-19",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "t08-portanova-sito",
+          "t08-portanova-contatti"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-19",
+            "azione": "Incremento 08: identità, indirizzo e recapiti riscontrati sul sito ufficiale (laboratorioportanova.eu, pagine Contatti e Dove Siamo). Interventi su movimenti automatici e restauro di casse documentati dalle pagine del sito; interventi mostrati su movimento Rolex e Universal Tricompax registrati come menzionati. Nessuna autorizzazione di marchio dichiarata o attribuita.",
+            "fonti": [
+              "t08-portanova-sito",
+              "t08-portanova-contatti"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-ufficiale-nazionale-08",
+        "idOriginale": "portanova-bologna"
       }
     }
   ]

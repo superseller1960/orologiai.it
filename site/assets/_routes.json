@@ -1,5 +1,5 @@
 {
   "version": 1,
-  "include": ["/api/orologiaio"],
+  "include": ["/api/orologiaio", "/api/posizione"],
   "exclude": []
 }

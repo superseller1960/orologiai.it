@@ -31,7 +31,6 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
   let origine: { lat: number; lon: number } | undefined;
   let inviando = false;
   let ultimiCriteri: Criteri = {};
-  let ultimoTesto = '';
 
   const ORARI: Record<StatoOrari, string> = {
     'indicato-oggi': 'Orari di oggi indicati dalla fonte',
@@ -263,7 +262,6 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
     mostraCampoErrore(null);
     inviando = true;
-    ultimoTesto = testo;
     aggiornaInvia();
     suggerimentiBox.hidden = true;
     textarea.value = '';
@@ -317,7 +315,11 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         if (esito.totale > esito.risultati.length) risposta.append(el('p', `Mostro ${esito.risultati.length} attività su ${esito.totale}. Aggiungi un criterio per restringere.`, 'small muted'));
       }
       if (esito.alternative.length) {
-        const titolo = el('p', 'Alternative da verificare (non autorizzate)', 'msg-sottotitolo');
+        const richiedeUfficiale = criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale';
+        const etichettaAlt = richiedeUfficiale
+          ? 'Alternative da verificare (non autorizzate)'
+          : 'Alternative pertinenti da verificare (non soddisfano tutti i requisiti esatti)';
+        const titolo = el('p', etichettaAlt, 'msg-sottotitolo');
         risposta.append(titolo, listaRisultati(esito.alternative));
       }
       if (ereditati.length) {
