@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="Privacy e dati personali" description="Informativa sul trattamento dei dati personali di Orologiai.it: dati delle attività pubblicate, fonti, basi giuridiche, assistente Gemini, geolocalizzazione e diritti degli interessati.">
+<section class="page-hero"><div class="container"><p class="eyebrow">Trasparenza sui dati</p><h1>Privacy e dati personali.</h1><p class="lead">Questa è una directory di attività di orologeria costruita su fonti pubbliche. Qui spieghiamo quali dati trattiamo, perché e come esercitare i tuoi diritti.</p></div></section>
+<section class="container section reading">
+<div class="notice"><strong>Dati da completare prima della pubblicazione.</strong> Questa informativa contiene segnalazioni <strong>[DA FORNIRE]</strong> e <strong>[DA COMPLETARE]</strong> che il titolare del progetto deve colmare prima del lancio: dati identificativi del titolare del trattamento, indirizzo privacy ufficiale (PEC o email), tempi di conservazione, hosting definitivo e relativa informativa, verifica dei documenti contrattuali di Google Gemini e valutazione d'impatto del legittimo interesse. La pagina non è da considerarsi definitiva.</div>
+
+<h2>1. Chi è il titolare del trattamento</h2>
+<p>Orologiai.it è un progetto indipendente di directory. Il titolare del trattamento è il gestore del progetto.</p>
+<p><strong>[DA FORNIRE]</strong> denominazione o nome del titolare, sede, indirizzo di posta elettronica per le richieste privacy (consigliata PEC o indirizzo istituzionale), e, se richiesto, il rappresentante o il responsabile del trattamento designato.</p>
+<p>Contatto attualmente indicato nel sito: <a href="mailto:info@orologiai.it">info@orologiai.it</a> (indirizzo ripreso dal sito storico, la cui ricezione non è stata verificata: va confermato o sostituito prima del lancio).</p>
+
+<h2>2. Ambito dell'informativa</h2>
+<p>Questa informativa copre il sito Orologiai.it e risponde agli obblighi degli articoli 13 e 14 del Regolamento (UE) 2016/679 (GDPR): l'articolo 13 per i dati raccolti direttamente dalle persone (chi naviga, chi scrive), l'articolo 14 per i dati delle attività e dei loro titolari raccolti da fonti pubbliche e pubblicati nella directory.</p>
+
+<h2>3. Quali dati trattiamo</h2>
+<h3>3.1 Dati delle attività pubblicate</h3>
+<p>Pubblichiamo informazioni professionali sulle attività di orologeria: nome commerciale, indirizzo, recapiti pubblici, orari, servizi dichiarati, marchi trattati e fonti consultate. I dati provengono da fonti pubbliche e ogni scheda riporta stato e provenienza delle verifiche. Non pubblichiamo partite IVA, documenti, dati dei clienti o informazioni raccolte in modo non pubblico.</p>
+<h3>3.2 Dati personali dei titolari di attività</h3>
+<p>Quando un'attività è una ditta individuale o la ragione sociale include il nome della persona, il nome e i recapiti professionali pubblicati sulle fonti ufficiali possono costituire dati personali. Sono trattati per la sola finalità di identificare e rendere contattabile l'attività nel contesto della directory.</p>
+<h3>3.3 Dati delle persone che ci scrivono</h3>
+<p>Chi invia una segnalazione, una correzione o una richiesta privacy comunica il proprio indirizzo email e il contenuto del messaggio. Non chiediamo dati d'identità per una semplice segnalazione: ti invitiamo a non inviare documenti o informazioni riservate.</p>
+<h3>3.4 Dati di navigazione</h3>
+<p>I sistemi che erogano il sito (hosting e rete di distribuzione) registrano dati tecnici come indirizzo IP, data e ora, pagina richiesta, user agent ed esito della richiesta. Sono usati per sicurezza, prevenzione abusi e funzionamento del servizio.</p>
+<h3>3.5 Posizione geografica</h3>
+<p>La ricerca per vicinanza è <strong>facoltativa</strong>. Quando premi “Usa la mia posizione”, il browser chiede il tuo consenso e le coordinate restano nel browser: servono solo a ordinare i risultati e non vengono inviate al server né a terzi. In alternativa, l'endpoint <code>/api/posizione</code> stima solo la regione dalla connessione (informazioni fornite dall'hosting), senza GPS, senza cookie e con risposta <code>no-store</code> che impedisce la memorizzazione della posizione di un utente a vantaggio di altri.</p>
+<h3>3.6 Assistente “Orologiaio” (Gemini)</h3>
+<p>Il testo che scrivi all'assistente viene elaborato dal nostro server e, per l'interpretazione della richiesta, trasmesso al servizio Google Gemini. Non inviamo a Google indirizzi, coordinate, contatti o dati della tua sessione: riceve il solo testo del messaggio. La chiave di accesso al servizio resta sul server e non è mai esposta al browser. In assenza di risposta utile del modello, la ricerca procede con interpretazione locale dichiarata all'utente.</p>
+<p><strong>[DA VERIFICARE]</strong> prima del lancio: documenti contrattuali applicabili al servizio Gemini (informativa e condizioni di trattamento dati di Google) vanno letti e collegati, e va definita la base giuridica della trasmissione del testo a un fornitore terzo.</p>
+
+<h2>4. Da dove provengono le informazioni</h2>
+<ul>
+  <li>Siti ufficiali delle attività e pagine dei loro canali pubblici.</li>
+  <li>Reti e store locator ufficiali dei marchi, per le sole qualifiche documentate.</li>
+  <li>Il mirror storico di Orologiai.it, conservato come “da verificare” con cronologia esplicita.</li>
+  <li>OpenStreetMap (licenza ODbL, <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>) per individuazione candidati e geocodifica di verifica.</li>
+</ul>
+<p>Le informazioni storiche non costituiscono una verifica attuale: ogni scheda mostra il proprio stato.</p>
+
+<h2>5. Finalità e basi giuridiche</h2>
+<ul>
+  <li><strong>Pubblicare e aggiornare la directory</strong> (dati professionali delle attività): base indicata il legittimo interesse del titolare e dell'utenza a informazioni su servizi professionali pubblici (art. 6, par. 1, lett. f GDPR). <strong>[DA COMPLETARE]</strong> il test di bilanciamento (LIA) fra legittimo interesse e diritti degli interessati non è ancora documentato: va redatto e conservato prima del lancio e, ove l'esito non fosse soddisfacente, va individuata una base giuridica alternativa. Il legittimo interesse non è dato per sufficiente in via automatica.</li>
+  <li><strong>Rispondere a segnalazioni, correzioni e richieste</strong>: misure precontrarttuali o adempimento della richiesta dell'interessato (art. 6, par. 1, lett. b) e, per le richieste privacy, adempimento di un obbligo di legge (art. 6, par. 1, lett. c).</li>
+  <li><strong>Sicurezza e funzionamento del sito</strong> (log tecnici): legittimo interesse alla sicurezza della rete (art. 6, par. 1, lett. f) e obblighi di legge.</li>
+  <li><strong>Assistente AI</strong>: esecuzione della funzionalità richiesta dall'utente. <strong>[DA COMPLETARE]</strong> la valutazione definitiva della base giuridica (consenso o misure precontrattuali) va documentata insieme ai termini del fornitore.</li>
+</ul>
+
+<h2>6. Informativa verso i titolari delle attività (art. 14 GDPR)</h2>
+<p>Per i dati non raccolti direttamente dalla persona, l'informativa è fornita con mezzi ragionevoli entro un mese dalla pubblicazione o, se i dati sono usati per comunicare con l'interessato, non oltre la prima comunicazione. In concreto: questa pagina è raggiungibile da ogni scheda e dal footer; le schede riportano la provenienza dei dati; i titolari che ci contattano ricevono il rinvio a questa informativa. <strong>[DA COMPLETARE]</strong> valutare un meccanismo di notifica diretta ai titolari già censiti all'apertura al pubblico.</p>
+
+<h2>7. Conservazione</h2>
+<p><strong>[DA FORNIRE]</strong> i tempi di conservazione dei log dell'hosting e della corrispondenza email. I dati delle attività sono conservati finché sono pertinenti con la finalità della directory o fino a una richiesta motivata di aggiornamento o cancellazione, fatta salva la valutazione delle eccezioni di legge.</p>
+
+<h2>8. Trasferimenti fuori dall'UE</h2>
+<p><strong>[DA VERIFICARE]</strong> i fornitori coinvolti (hosting, servizio Gemini) possono trattare dati in Paesi terzi. Prima del lancio vanno individuate e documentate le garanzie applicabili (articoli 44 e ss. GDPR, clausole contrattuali standard o decisioni di adeguatezza) e citate in questa pagina.</p>
+
+<h2>9. Diritti degli interessati</h2>
+<p>Hai diritto di: accedere ai tuoi dati (art. 15), ottenerne la rettifica o la cancellazione (artt. 16-17), la limitazione del trattamento (art. 18), la portabilità (art. 20), opporti al trattamento basato sul legittimo interesse (art. 21) e revocare un eventuale consenso senza pregiudicare la liceità del trattamento precedente.</p>
+<p><strong>Le cancellazioni non sono automatiche:</strong> ogni richiesta viene valutata caso per caso. La cancellazione può essere rifiutata o limitata quando la conservazione è necessaria, per esempio per l'esercizio del diritto di libertà di espressione e di informazione (art. 17, par. 3, lett. a), per un obbligo di legge o per l'accertamento, l'esercizio o la difesa di un diritto in sede giudiziaria. I dati professionali pubblici di un'attività possono essere conservati per la finalità informativa della directory anche dopo una richiesta, con motivazione esplicita.</p>
+
+<h2 id="come-esercitare-i-diritti">10. Come esercitare i diritti</h2>
+<p>Scrivi a <a href="mailto:info@orologiai.it?subject=Diritti%20privacy%20%E2%80%94%20richiesta">info@orologiai.it con oggetto “Diritti privacy — richiesta”</a> indicando la scheda o l'interessato. Per evitare richieste di terzi potremmo chiederti un riscontro dell'identità e informazioni utili a individuare i dati. Il riscontro avviene entro un mese, prorogabile nei casi previsti dall'art. 12, par. 3 GDPR.</p>
+<p><strong>[DA FORNIRE]</strong> un canale ufficiale e stabile per le richieste privacy (idealmente PEC o indirizzo dedicato), da sostituire all'indirizzo attuale prima del lancio.</p>
+<p>Puoi proporre reclamo al Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it">garanteprivacy.it</a>) o all'autorità di controllo dello Stato membro in cui risiedi o lavori.</p>
+
+<h2>11. Aggiornamenti</h2>
+<p>Questa informativa può essere aggiornata: la data dell'ultima versione è riportata qui sotto. Le modifiche rilevanti saranno evidenziate sul sito.</p>
+<p class="small muted">Ultimo aggiornamento: 20 ottobre 2026 · Versione bozza, da completare con i dati segnalati in apertura.</p>
+</section>
+</Layout>

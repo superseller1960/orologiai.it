@@ -50,8 +50,8 @@ test('nessun criterio riconosciuto: nessuna lista dell’intero database', () =>
 });
 
 test('località inesistente: nessun risultato e nessuna località sostituita', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio a Roma', data).criteri;
-  assert.equal(crit.localitaNonCensita, 'Roma');
+  const crit = interpretaRichiesta('Cerco un orologiaio a Cagliari', data).criteri;
+  assert.equal(crit.localitaNonCensita, 'Cagliari');
   assert.equal(crit.localita, undefined);
   const r = cercaOrologiaio(data, crit, { now: VENERDI });
   assert.equal(r.stato, 'localita-non-censita');
@@ -59,10 +59,10 @@ test('località inesistente: nessun risultato e nessuna località sostituita', (
 });
 
 test('termini maiuscoli non riconosciuti vengono segnalati, non ignorati', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio Patek Philippe a Firenze', data);
-  assert.deepEqual(crit.criteri.terminiNonRiconosciuti, ['Patek Philippe']);
+  const crit = interpretaRichiesta('Cerco un orologiaio Blancpain a Firenze', data);
+  assert.deepEqual(crit.criteri.terminiNonRiconosciuti, ['Blancpain']);
   assert.equal(crit.criteri.marca, undefined);
-  assert.match(crit.chiarimenti.join(' '), /Patek Philippe/);
+  assert.match(crit.chiarimenti.join(' '), /Blancpain/);
 });
 
 test('marchio non presente: nessuna attività attribuita a quel marchio', () => {
@@ -220,8 +220,6 @@ test('risultati vuoti spiegati senza invenzioni', () => {
   const r = cerca('restauro di orologi da tasca antichi a Pontedera', {});
   if (r.totale === 0) assert.match(r.messaggi.join(' '), /Nessuna attività soddisfa/);
 });
-
-
 test('città in minuscolo senza servizio locale propone alternative', () => {
   const criteri = interpretaRichiesta('Cerco cambio batteria a milano', data).criteri;
   assert.equal(criteri.localita, 'milano');
@@ -242,7 +240,6 @@ test('richieste senza città non scambiano le preposizioni per località', () =>
   assert.equal(cerca('Dammi il numero di telefono personale del titolare').stato, 'nessun-criterio');
 });
 
-
 test('città non censita in minuscolo propone alternative dichiarate', () => {
   const criteri = interpretaRichiesta('Cerco cambio batteria a venezia', data).criteri;
   assert.equal(criteri.localitaNonCensita, 'venezia');
@@ -251,4 +248,60 @@ test('città non censita in minuscolo propone alternative dichiarate', () => {
   assert.equal(risultato.stato, 'localita-non-censita');
   assert.ok(risultato.alternative.length > 0);
   assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);
+});
+
+test('richiesta tecnica su marchio separa chi ripara la marca da chi la vende soltanto', () => {
+  const r = cerca('Dove posso revisionare un Hamilton a Scandicci?');
+  assert.equal(r.stato, 'nessun-risultato');
+  assert.equal(r.totale, 0);
+  assert.equal(r.risultati.length, 0);
+  assert.ok(r.alternative.some(x => x.id === 'pisani-scandicci-matteotti'), 'chi vende il marchio ed effettua revisioni compare solo tra le alternative');
+  assert.match(r.messaggi.join(' '), /non documentano riparazioni specifiche su Hamilton/);
+});
+
+test('esempi chiave del servizio: vetro, valutazione vintage, pendola antica, tasca vintage e movimento', () => {
+  const vetro = cerca('Dove posso sostituire il vetro del mio orologio?');
+  assert.equal(vetro.stato, 'ok');
+  assert.ok(vetro.totale > 0);
+  for (const x of vetro.risultati) {
+    const b = data.attivita.find(y => y.id === x.id)!;
+    assert.ok(b.servizi.some(s => s.id === 'ricambi'));
+  }
+
+  const valut = cerca('Vorrei far valutare un orologio vintage prima di venderlo');
+  assert.equal(valut.stato, 'ok');
+  assert.ok(valut.risultati.some(x => x.id === 'horamundi-firenze'));
+
+  const pendola = cerca('Devo restaurare una pendola antica');
+  assert.equal(pendola.stato, 'ok');
+  assert.ok(pendola.totale >= 3);
+
+  const tasca = cerca('Chi può riparare un orologio da tasca vintage?');
+  assert.equal(tasca.stato, 'ok');
+  assert.ok(tasca.totale >= 2);
+
+  const torino = cerca('Dove riparo un orologio meccanico a Torino?');
+  assert.equal(torino.stato, 'ok');
+  assert.ok(torino.risultati.some(x => x.id === 'orologica-torino'));
+
+  const bologna = cerca('Dove posso revisionare un Rolex automatico a Bologna?');
+  assert.equal(bologna.stato, 'nessun-risultato');
+  assert.ok(bologna.alternative.some(x => x.id === 'fontana-bologna'), 'Bologna propone laboratorio locale come alternativa pertinente');
+});
+
+test('ricerche geografiche di servizi per cinturini distinguono città coperte e non coperte', () => {
+  for (const [msg, attesoId] of [
+    ['Vorrei sostituire il cinturino a Firenze', 'macchina-tempo-firenze'],
+    ['Vorrei sostituire il cinturino a Scandicci', 'pisani-scandicci-matteotti'],
+    ['Vorrei sostituire il cinturino a Bologna', 'fontana-bologna'],
+    ['Vorrei sostituire il cinturino a Torino', 'orologica-torino'],
+    ['Vorrei sostituire il cinturino a Roma', 'casa-cronometro-roma'],
+  ] as const) {
+    const r = cerca(msg);
+    assert.equal(r.stato, 'ok', msg);
+    assert.ok(r.risultati.some(x => x.id === attesoId), `${msg} -> ${attesoId}`);
+  }
+  const milano = cerca('Vorrei sostituire il cinturino a Milano');
+  assert.equal(milano.stato, 'nessun-risultato');
+  assert.equal(milano.risultati.length, 0);
 });

@@ -21,6 +21,13 @@ const advice: Partial<Record<keyof typeof services, string>> = {
  pendoleria: 'Pendole e orologi da parete possono richiedere competenze e modalità di trasporto differenti rispetto agli orologi da polso. Prima di spostarli chiedi se sono disponibili sopralluogo, ritiro o intervento sul posto.',
  'acquisto-permuta': 'Questa categoria comprende attività che documentano acquisto, compravendita o permuta. La singola scheda precisa il caso: non tutte offrono scambio, conto vendita o acquisto di ogni marca. Chiedi modalità e condizioni prima di consegnare un orologio.',
  lucidatura: 'La lucidatura modifica le superfici e va valutata in rapporto a finiture, materiale e valore storico. Prima di autorizzarla chiedi quali parti saranno trattate e se è preferibile una conservazione delle finiture esistenti.',
+ ricambi: 'Per la sostituzione di vetri, corone, guarnizioni o componenti meccaniche occorre verificare la disponibilità di forniture compatibili o originali della casa. Chiedi sempre quali componenti verranno impiegati prima di confermare l’intervento.',
+ valutazioni: 'Una valutazione o stima richiede l’esame diretto dell’orologio, del movimento e dell’eventuale corredo. Chiedi se la perizia è verbale o scritta e se è finalizzata a una vendita o permuta presso la stessa attività.',
+ 'restauro-vintage': 'Il restauro di un orologio d’epoca richiede equilibrio fra recupero funzionale e rispetto dell’originalità di quadrante, cassa, sfere e movimento. Concorda in anticipo ogni intervento estetico.',
+ 'orologi-tasca': 'Gli orologi da tasca presentano spesso meccanismi storici che richiedono competenze specifiche di orologeria tradizionale e, talvolta, ricostruzione artigianale di parti non più in commercio.',
+ 'riparazione-meccanici': 'La riparazione di un movimento meccanico a carica manuale richiede smontaggio, lavaggio, lubrificazione e regolazione al cronocomparatore. Chiedi preventivo e garanzia sull’intervento.',
+ 'riparazione-automatici': 'Negli orologi automatici, oltre al treno del tempo, va verificato il gruppo di ricarica automatica (massa oscillante, invertitori, cuscinetti). Affida l’orologio a un laboratorio attrezzato.',
+ 'riparazione-quarzo': 'Oltre al semplice cambio pila, un orologio al quarzo può richiedere controllo dei consumi del circuito, pulizia dei contatti o sostituzione della bobina e del movimento.',
 };
 ---
 <Layout title={`${services[id]} — attività censite`} description={`${services[id]}: consulta le attività che riportano questo servizio nelle fonti e controlla i dettagli prima di contattarle.`}>

@@ -21,6 +21,8 @@ export const criteriSchema = z.object({
   localitaNonCensita: z.string().min(1).max(60).optional(),
   // Termini in maiuscolo non riconosciuti (nomi, marchi assenti): mai trasformati in criteri.
   terminiNonRiconosciuti: z.array(z.string().min(1).max(60)).max(3).optional(),
+  // CAP digitato dall'utente: cercato solo se realmente presente nelle schede, mai dedotto per area.
+  cap: z.string().regex(/^\d{5}$/).optional(),
   servizio: z.enum(serviceIds).optional(),
   marca: z.string().min(1).max(60).optional(),
   ruoloMarca: z.enum(brandRoles).optional(),
@@ -70,21 +72,36 @@ const SERVIZI_REGOLE: [RegExp, keyof typeof services][] = [
   [/ batteri| pila | pile /, 'batterie'],
   [/ pendol/, 'pendoleria'],
   [/ lucida| lucidat/, 'lucidatura'],
+  [/ vetr[oi]| cristall[oi]| esalite| zaffiro| coron[ae]| guarnizion[ei]| quadrante| lancett[ae]| ghiera| molla | bilanciere| asse /, 'ricambi'],
   [/ ricambi/, 'ricambi'],
-  [/ restaur/, 'restauro-vintage'],
   [/ da tasca| tasca /, 'orologi-tasca'],
-  [/ ripar| fermat| non funziona| guast/, 'riparazione'],
-  [/ valutaz| stima/, 'valutazioni'],
+  [/ restaur/, 'restauro-vintage'],
+  [/ valutaz| stima| quotaz| perizi| quanto vale| far valutare/, 'valutazioni'],
+  [/ ripar| fermat| non funziona| guast| aggiust| sistemar/, 'riparazione'],
+  [/ manutenz| controll| impermeabil| prova sub| tenuta/, 'manutenzione'],
 ];
 const SPECIALIZZAZIONI_REGOLE: [RegExp, (typeof specializations)[number]][] = [
-  [/ automatic/, 'automatici'], [/ antich/, 'antichi'], [/ vintage/, 'vintage'],
-  [/ lusso/, 'lusso'], [/ meccanic/, 'meccanici'], [/ collezion/, 'collezione'],
+  [/ automatic/, 'automatici'], [/ antich/, 'antichi'], [/ vintage| d epoca| epoca/, 'vintage'],
+  [/ lusso| alta orologeria/, 'lusso'], [/ meccanic| carica manuale/, 'meccanici'], [/ collezion/, 'collezione'],
 ];
 const TIPI_REGOLE: [RegExp, (typeof businessTypes)[number]][] = [
-  [/ laborator/, 'laboratorio'], [/ gioielleri/, 'gioielleria'], [/ professionist| indipendent/, 'professionista'],
+  [/ laborator/, 'laboratorio'], [/ gioielleri/, 'gioielleria'], [/ professionist| indipendent| maestro orologiaio| artigian/, 'professionista'],
 ];
 
+// Voci di servizio collegate da proporre come alternative quando la voce esatta manca in zona.
+const SERVIZI_AFFINI: Partial<Record<keyof typeof services, (keyof typeof services)[]>> = {
+  pendoleria: ['restauro-vintage', 'riparazione'],
+  'orologi-tasca': ['restauro-vintage', 'riparazione'],
+};
+
+const SERVIZI_TECNICI = new Set<keyof typeof services>([
+  'riparazione', 'revisione', 'manutenzione', 'batterie', 'cinturini',
+  'riparazione-meccanici', 'riparazione-automatici', 'riparazione-quarzo',
+  'restauro-vintage', 'pendoleria', 'orologi-tasca', 'ricambi', 'lucidatura', 'assistenza',
+]);
+
 // Preposizioni che introducono una località; il nome può essere digitato anche in minuscolo.
+// La preposizione "di" è esclusa: "numero di telefono", "prima di venderlo" non sono località.
 const LOCALITA_RE = /\b(?:a|ad|in|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
 const NON_LOCALITA = new Set(['me', 'qui', 'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini']);
 
@@ -108,7 +125,11 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
 
   // Località: comune, poi provincia, poi regione, tutti presenti nel database.
   const comuni = [...dir.localita].sort((a, b) => b.comune.length - a.comune.length);
-  const comune = comuni.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.comune))} `)));
+  const comune = comuni.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.comune))} `)))
+    ?? comuni.find(p => {
+      const primo = normalize(p.comune).split(' ')[0] ?? '';
+      return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san'].includes(primo) && has(t, new RegExp(` ${escapeRe(primo)} `));
+    });
   if (comune) criteri.localita = comune.id;
   else {
     const prov = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.provincia))} `)));
@@ -131,21 +152,31 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   const km = /\b(\d{1,3})\s*km\b/.exec(t);
   if (km) criteri.distanzaMaxKm = Math.min(500, Math.max(1, Number(km[1])));
 
+  // CAP a 5 cifre isolato (es. “00186”): cercato fra i CAP realmente pubblicati, senza attribuzioni geografiche.
+  const cap = /\b(\d{5})\b/.exec(t);
+  if (cap) criteri.cap = cap[1];
+
   // Servizi: il primo termine trovato in ordine di priorità; "usati" distingue vendita e acquisto.
-  if (has(t, / usat/) && has(t, / acquist| compr| permut/)) criteri.servizio = 'acquisto-permuta';
+  // Se compaiono insieme valutazione e vendita ("valutare prima di venderlo"), prevale la valutazione.
+  if (has(t, / valutaz| stima| quotaz| perizi| quanto vale| far valutare/)) criteri.servizio = 'valutazioni';
+  else if (has(t, / usat/) && has(t, / acquist| compr| permut/)) criteri.servizio = 'acquisto-permuta';
   else if (has(t, / usat/) && has(t, / vend/)) criteri.servizio = 'vendita-usati';
   else {
     const s = SERVIZI_REGOLE.find(([re]) => has(t, re));
     if (s) criteri.servizio = s[1];
   }
+  if (has(t, / pendol/) && has(t, / restaur| antich/)) criteri.specializzazione = 'antichi';
   const spec = SPECIALIZZAZIONI_REGOLE.find(([re]) => has(t, re));
-  if (spec) criteri.specializzazione = spec[1];
+  if (spec && !criteri.specializzazione) criteri.specializzazione = spec[1];
   const tipo = TIPI_REGOLE.find(([re]) => has(t, re));
   if (tipo) criteri.tipo = tipo[1];
 
   // Termini maiuscoli sconosciuti (es. un marchio non censito): segnalati, non ignorati in silenzio.
   if (!criteri.localitaNonCensita) {
-    const conosciuti = new Set([...dir.localita.flatMap(p => [p.comune, p.provincia, p.regione]), ...marche].map(normalize));
+    const conosciuti = new Set([
+      ...dir.localita.flatMap(p => [p.comune, normalize(p.comune).split(' ')[0] ?? '', p.provincia, p.regione]),
+      ...marche,
+    ].map(normalize));
     const termini = [...original.matchAll(/\s([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)*)/gu)]
       .map(m => m[1].trim())
       .filter(term => term !== term.toUpperCase() && !conosciuti.has(normalize(term)) && !conosciuti.has(normalize(term.split(/\s+/)[0] ?? '')));
@@ -201,9 +232,11 @@ const LABEL_RUOLO: Record<string, string> = {
 export function cercaOrologiaio(
   dir: Directory,
   criteri: Criteri,
-  opzioni: { origine?: { lat: number; lon: number }; now?: Date } = {},
+  opzioni: { origine?: { lat: number; lon: number }; now?: Date; limite?: number } = {},
 ): EsitoRicerca {
   const now = opzioni.now ?? new Date();
+  // La chat usa MAX_RISULTATI; la pagina di ricerca può chiedere l'elenco completo dei risultati esatti.
+  const limite = Math.max(1, Math.min(opzioni.limite ?? MAX_RISULTATI, 200));
   if (criteri.localitaNonCensita) {
     return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative: criteri.servizio ? searchDirectory(dir, { servizio: criteri.servizio }).slice(0, 3).map(r => descrivi(dir, r.business, { servizio: criteri.servizio }, now, null)) : [], messaggi: [
       `“${criteri.localitaNonCensita}” non è ancora censita: non posso indicare attività in quel comune. ${criteri.servizio ? 'Ho cercato lo stesso servizio in altri comuni; le opzioni sotto potrebbero essere lontane.' : 'Prova un servizio o una località già censita.'}`,
@@ -225,6 +258,7 @@ export function cercaOrologiaio(
     localita: criteri.localita, provincia: criteri.provincia, regione: criteri.regione,
     servizio: criteri.servizio, marca: criteri.marca, ruoloMarca: criteri.ruoloMarca,
     tipo: criteri.tipo, specializzazione: criteri.specializzazione,
+    q: criteri.cap,
     origine: opzioni.origine, ordine: opzioni.origine ? 'distanza' : 'nome',
   };
   let trovate = searchDirectory(dir, filtri);
@@ -239,21 +273,127 @@ export function cercaOrologiaio(
     trovate = aperte;
   }
 
-  const risultati = trovate.slice(0, MAX_RISULTATI).map(r => descrivi(dir, r.business, criteri, now, r.distanzaKm));
-
-  // Autorizzazioni ufficiali: se non documentate, offro alternative chiaramente distinte.
-  let alternative: RisultatoAttivita[] = [];
-  if ((criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale') && criteri.marca) {
-    messaggi.push(criteri.ruoloMarca === 'assistenzaUfficiale'
-      ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non sono autorizzate: sono alternative da verificare direttamente con il negozio.`
-      : `Non risulta nel database nessuna rivendita ufficialmente autorizzata per ${criteri.marca}.`);
-    const generiche = searchDirectory(dir, { ...filtri, ruoloMarca: 'qualsiasi' })
-      .filter(r => !risultati.some(x => x.id === r.business.id));
-    alternative = generiche.slice(0, 3).map(r => descrivi(dir, r.business, { ...criteri, ruoloMarca: 'qualsiasi' }, now, r.distanzaKm));
+  // Se l'utente chiede un intervento tecnico (es. revisione o riparazione) su una marca specifica
+  // senza aver fissato un ruolo, distinguiamo chi ripara/ha esperienza documentata su quella marca
+  // da chi la tratta solo per la vendita o per menzione storica.
+  let alternativeVendita: { business: Business; distanzaKm: number | null }[] = [];
+  const richiedeInterventoSuMarca = Boolean(
+    criteri.marca &&
+    (!criteri.ruoloMarca || criteri.ruoloMarca === 'qualsiasi') &&
+    ((criteri.servizio && SERVIZI_TECNICI.has(criteri.servizio)) || criteri.tipo === 'laboratorio' || criteri.tipo === 'professionista'),
+  );
+  if (richiedeInterventoSuMarca && trovate.length > 0) {
+    const normMarca = normalize(criteri.marca!);
+    const haCompetenzaTecnica = (b: Business) =>
+      [...b.marchi.riparati, ...b.marchi.esperienza, ...b.marchi.assistenzaUfficiale].some(m => normalize(m.marca) === normMarca);
+    const esatte = trovate.filter(r => haCompetenzaTecnica(r.business));
+    const soloVenditaOMenzione = trovate.filter(r => !haCompetenzaTecnica(r.business));
+    if (soloVenditaOMenzione.length > 0) {
+      trovate = esatte;
+      alternativeVendita = soloVenditaOMenzione;
+      if (esatte.length === 0) {
+        messaggi.push(`Nessuna attività documenta specificamente l’intervento richiesto su ${criteri.marca}: le attività qui sotto offrono il servizio generale o trattano il marchio, ma non documentano riparazioni specifiche su ${criteri.marca}.`);
+      }
+    }
   }
 
-  if (trovate.length === 0 && alternative.length === 0 && (criteri.localita || criteri.provincia || criteri.regione)) { const { localita: _localita, provincia: _provincia, regione: _regione, origine: _origine, ...filtriAperti } = filtri; alternative = searchDirectory(dir, filtriAperti).slice(0, 3).map(r => descrivi(dir, r.business, criteri, now, null)); } if (trovate.length === 0) messaggi.push(alternative.length ? 'Nessuna attività soddisfa tutti i criteri in questa località. Le opzioni sotto sono in altri comuni censiti e potrebbero essere lontane.' : 'Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.');
-  if (trovate.length > MAX_RISULTATI) messaggi.push(`Mostro ${MAX_RISULTATI} risultati su ${trovate.length}. Aggiungi un criterio per restringere la ricerca.`);
+
+  const risultati = trovate.slice(0, limite).map(r => descrivi(dir, r.business, criteri, now, r.distanzaKm));
+
+  // Autorizzazioni ufficiali o alternative pertinenti: sempre chiaramente distinte dai risultati esatti.
+  let alternative: RisultatoAttivita[] = [];
+  if ((criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale') && criteri.marca) {
+    if (trovate.length === 0) {
+      messaggi.push(criteri.ruoloMarca === 'assistenzaUfficiale'
+        ? `Non risulta nel database nessuna assistenza ufficialmente autorizzata per ${criteri.marca}. Le attività sotto non sono autorizzate: sono alternative da verificare direttamente con il negozio.`
+        : `Non risulta nel database nessuna rivendita ufficialmente autorizzata per ${criteri.marca}.`);
+      const generiche = searchDirectory(dir, { ...filtri, ruoloMarca: 'qualsiasi' })
+        .filter(r => !risultati.some(x => x.id === r.business.id));
+      alternative = generiche.slice(0, 3).map(r => descrivi(dir, r.business, { ...criteri, ruoloMarca: 'qualsiasi' }, now, r.distanzaKm));
+    }
+  } else if (alternativeVendita.length > 0 || (trovate.length === 0 && !criteri.apertoOggi)) {
+    // Alternative pertinenti, mai risultati esatti: chi tratta il marchio senza competenza tecnica
+    // documentata (vendita o menzione) e, quando non ci sono risultati esatti, chi rilassa un
+    // vincolo secondario o allarga alla provincia, spiegando sempre la differenza.
+    alternative = alternativeVendita.slice(0, 3).map(r => descrivi(dir, r.business, criteri, now, r.distanzaKm));
+    if (trovate.length === 0 && !criteri.apertoOggi) {
+    // Se una combinazione molto specifica (es. comune + servizio + specializzazione/tipo/marca) non dà
+    // corrispondenze esatte, proponiamo fino a 3 alternative pertinenti che rilassano un vincolo secondario
+    // o allargano alla provincia, spiegando la differenza.
+    const candidatiAlt: { voce: { business: Business; distanzaKm: number | null }; nota: string }[] = [];
+    const visti = new Set(alternative.map(x => x.id));
+    const aggiungi = (lista: { business: Business; distanzaKm: number | null }[], nota: string) => {
+      for (const item of lista) {
+        if (!visti.has(item.business.id)) {
+          visti.add(item.business.id);
+          candidatiAlt.push({ voce: item, nota });
+        }
+      }
+    };
+    if (criteri.specializzazione && (criteri.servizio || criteri.marca || criteri.localita)) {
+      aggiungi(searchDirectory(dir, { ...filtri, specializzazione: undefined }), `Non documenta la specializzazione “${criteri.specializzazione}”, ma risponde agli altri criteri.`);
+    }
+    if (criteri.tipo && (criteri.servizio || criteri.marca || criteri.localita)) {
+      aggiungi(searchDirectory(dir, { ...filtri, tipo: undefined }), `Non ha tipologia “${criteri.tipo}”, ma offre il servizio richiesto.`);
+    }
+    if (criteri.servizio === 'revisione') {
+      const PlaceFilter = { ...filtri, servizio: 'riparazione' as const, specializzazione: undefined, tipo: undefined };
+      aggiungi(searchDirectory(dir, PlaceFilter), 'Documenta riparazione e manutenzione, ma non elenca separatamente la voce “Revisione”.');
+    }
+    // Servizi affini: se la voce richiesta (es. pendoleria) non è elencata in zona, proponiamo
+    // chi documenta un intervento collegato, dichiarando esplicitamente la differenza.
+    const servizioRichiesto = criteri.servizio;
+    if (servizioRichiesto) {
+      for (const affine of SERVIZI_AFFINI[servizioRichiesto] ?? []) {
+        aggiungi(
+          searchDirectory(dir, { ...filtri, servizio: affine, specializzazione: undefined, tipo: undefined }),
+          `Non elenca la voce “${services[servizioRichiesto]}”, ma documenta “${services[affine]}” nella zona richiesta.`,
+        );
+      }
+    }
+    if (criteri.marca && (criteri.servizio || criteri.localita)) {
+      aggiungi(
+        searchDirectory(dir, { ...filtri, marca: undefined, ruoloMarca: undefined }),
+        `Offre il servizio richiesto nella località indicata, ma non elenca specificamente il marchio ${criteri.marca} nelle fonti.`,
+      );
+    }
+    if (criteri.localita && (criteri.servizio || criteri.marca)) {
+      const loc = dir.localita.find(p => p.id === criteri.localita);
+      if (loc) {
+        aggiungi(
+          searchDirectory(dir, { ...filtri, localita: undefined, provincia: loc.provinciaSlug }),
+          `Si trova nella provincia di ${loc.provincia} (fuori dal comune di ${loc.comune}).`,
+        );
+      }
+    }
+    for (const { voce, nota } of candidatiAlt) {
+      if (alternative.length >= 3) break;
+      const desc = descrivi(dir, voce.business, criteri, now, voce.distanzaKm);
+      desc.attenzione.unshift(nota);
+      alternative.push(desc);
+    }
+    }
+  }
+
+  // Fallback di territorio: senza risultati né alternative pertinenti, allarghiamo la sola località.
+  // Le opzioni proposte sono in altri comuni censiti e vengono dichiarate come possibilmente lontane.
+  let alternativeFuoriComune = false;
+  if (trovate.length === 0 && alternative.length === 0 && (criteri.localita || criteri.provincia || criteri.regione)) {
+    const { localita: _localita, provincia: _provincia, regione: _regione, origine: _origine, ...filtriAperti } = filtri;
+    alternative = searchDirectory(dir, filtriAperti).slice(0, 3).map(r => descrivi(dir, r.business, criteri, now, null));
+    alternativeFuoriComune = alternative.length > 0;
+  }
+
+  if (trovate.length === 0) {
+    messaggi.push(
+      alternativeFuoriComune
+        ? 'Nessuna attività soddisfa tutti i criteri in questa località. Le opzioni sotto sono in altri comuni censiti e potrebbero essere lontane.'
+        : alternative.length > 0
+          ? 'Nessuna attività soddisfa contemporaneamente tutti i criteri esatti; sotto trovi le alternative più vicine per competenza o territorio.'
+          : 'Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.',
+    );
+  }
+  if (trovate.length > limite) messaggi.push(`Mostro ${limite} risultati su ${trovate.length}. Aggiungi un criterio per restringere la ricerca.`);
 
   return { stato: trovate.length === 0 ? 'nessun-risultato' : 'ok', totale: trovate.length, risultati, alternative, messaggi };
 }
