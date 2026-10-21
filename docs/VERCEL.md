@@ -13,12 +13,14 @@ Entrambe usano la firma `onRequest(context)` di Cloudflare, con `context.request
 
 ## Equivalenti Vercel
 
-Su Vercel le stesse rotte diventano Route Handlers o Serverless Functions in `api/`:
+Su Vercel le stesse rotte sono Serverless Functions in `api/`, generate a ogni build:
 
-- `api/orologiaio.ts` con `export async function POST(request: Request)` (Web API standard, nessun adattatore).
-- `api/posizione.ts` con `export function GET(request: Request)`; la logica di `site/src/lib/geo.ts` (`estraiPosizioneApprossimativa`) usa solo `Request`, quindi è riutilizzabile senza modifiche.
+- `site/src/api/orologiaio.ts` e `site/src/api/posizione.ts` sono le sorgenti entry (firma `export default { fetch }`, Web API standard, nessun adattatore); condividono la logica con le Pages Function Cloudflare.
+- `scripts/bundle-vercel-api.mjs` (esbuild, step `npm run build:api`) le bundla in `api/orologiaio.js` e `api/posizione.js` **autosufficienti** (zod e `directory.json` incorporati) e i bundle sono versionati.
 
-La logica condivisa resta in `site/src/lib/` (assistente, ricerca, geo): il cambio riguarda solo il sottile wrapper di rotta.
+Motivo: verificato su preview che la Lambda di questo progetto contiene solo la entry compilata — né il file tracing né `functions.includeFiles` aggiungono file locali importati (`/var/task` contiene solo `api/*.js` e `package.json`), quindi qualsiasi import da `site/src/lib/` falliva con `FUNCTION_INVOCATION_FAILED`. Le entry pre-bundlate non hanno import da risolvere a runtime.
+
+La logica condivisa resta in `site/src/lib/` (assistente, ricerca, geo): il bundling rigenera i wrapper senza toccarla.
 
 ## Cosa cambia
 
@@ -28,9 +30,10 @@ La logica condivisa resta in `site/src/lib/` (assistente, ricerca, geo): il camb
 - IP per il rate limit su Vercel: solo `x-vercel-forwarded-for` o `x-real-ip`, e solo se è presente `x-vercel-id`. `x-forwarded-for` non viene usato.
 - Il limitatore in memoria resta best-effort per istanza; la protezione globale va configurata a livello di piattaforma.
 
-## Passi suggeriti (non eseguiti)
+## Stato (preview verificata 2026-10-21)
 
-1. Creare `api/` con i due wrapper sopra, importando da `site/src/lib/`.
-2. Aggiungere `vercel.json` con l'output statico di Astro (`site/dist` o la cartella indicata dal build).
-3. Eseguire `npm run build` e una preview Vercel, poi verificare `/api/orologiaio` (risposta e timeout del provider) e `/api/posizione`.
-4. Solo dopo la verifica: decidere il dominio di produzione.
+La preview della branch `preparazione-vercel-20261021` è verificata: `/api/posizione` (200 + `private, no-store`, geo da header Vercel, 405 con `Allow` per POST), `/api/orologiaio` (fallback AI, rate limit 10/min, nessuna chiave esposta) e le 270 pagine statiche.
+
+1. La preview è protetta da Vercel Authentication (SSO): per i controlli automatici è stato generato un automation bypass secret nel pannello del progetto (rotta `x-vercel-protection-bypass`).
+2. Rimane da verificare una richiesta reale a Gemini impostando `GEMINI_API_KEY` nelle variabili d'ambiente Preview.
+3. Solo dopo la verifica: decidere il dominio di produzione.
