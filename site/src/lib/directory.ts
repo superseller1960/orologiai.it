@@ -10,4 +10,8 @@ export const placeOf = (b: Business) => {
 };
 export const slugify = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const brandNames = [...new Set(directory.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)))];
+// Regioni con almeno una località e un'attività: sono le sole pagine regionali generate e inserite in sitemap.
+export const regioniConAttivita = [...new Set(directory.localita
+  .filter(p => directory.attivita.some(b => b.localitaId === p.id))
+  .map(p => p.regioneSlug))];
 export const servicePages = [...new Set(directory.attivita.flatMap(b => b.servizi.map(s => s.id)))].filter(id => directory.attivita.filter(b => b.servizi.some(s => s.id === id)).length >= 2);

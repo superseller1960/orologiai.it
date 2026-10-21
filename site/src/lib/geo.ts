@@ -50,12 +50,28 @@ export function normalizzaRegioneItaliana(valore?: string | null): InfoRegione |
   return null;
 }
 
+function decodificaCitta(valore: string): string {
+  try { return decodeURIComponent(valore); } catch { return valore; }
+}
+
 // Estrae la posizione stimata senza mai usare GPS, cookie o memorizzazione permanente.
+// Su Vercel usa gli header x-vercel-ip-country, x-vercel-ip-country-region e x-vercel-ip-city (documentazione Vercel,
+// "Request headers"); la città è codificata RFC 3986. Fuori da Vercel resta il fallback Cloudflare.
 export function estraiPosizioneApprossimativa(req: Request): PosizioneApprossimativa {
+  const h = req.headers;
+  const viaVercel = h.has('x-vercel-id');
   const cf = (req as unknown as { cf?: Record<string, unknown> }).cf ?? {};
-  const country = typeof cf.country === 'string' ? cf.country : (req.headers.get('cf-ipcountry') ?? null);
-  const regionRaw = typeof cf.region === 'string' ? cf.region : (req.headers.get('cf-region') ?? req.headers.get('cf-region-code') ?? null);
-  const city = typeof cf.city === 'string' ? cf.city : (req.headers.get('cf-ipcity') ?? null);
+  const nonVuoto = (v: string | null) => (v && v.trim() ? v.trim() : null);
+  const country = viaVercel
+    ? nonVuoto(h.get('x-vercel-ip-country'))
+    : (typeof cf.country === 'string' ? cf.country : nonVuoto(h.get('cf-ipcountry')));
+  const regionRaw = viaVercel
+    ? nonVuoto(h.get('x-vercel-ip-country-region'))
+    : (typeof cf.region === 'string' ? cf.region : (nonVuoto(h.get('cf-region')) ?? nonVuoto(h.get('cf-region-code'))));
+  const cityHeader = viaVercel
+    ? nonVuoto(h.get('x-vercel-ip-city'))
+    : (typeof cf.city === 'string' ? cf.city : nonVuoto(h.get('cf-ipcity')));
+  const city = cityHeader ? decodificaCitta(cityHeader) : null;
 
   const regInfo = normalizzaRegioneItaliana(regionRaw);
 

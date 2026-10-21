@@ -48,6 +48,18 @@ export function creaRateLimiter(maxPerMinute = RATE_LIMIT_PER_MINUTE): RateLimit
   };
 }
 
+// IP del client per il limitatore. Su Vercel x-vercel-id è presente solo se la richiesta passa dal proxy della piattaforma,
+// che imposta x-vercel-forwarded-for e x-real-ip: solo allora questi header sono affidabili. Fuori da Vercel usa cf-connecting-ip.
+export function ipClient(headers: Headers): string {
+  if (headers.has('x-vercel-id')) {
+    // x-forwarded-for non è usato: può essere forgiato dal client e non è garantito dalla piattaforma.
+    const vercel = (headers.get('x-vercel-forwarded-for') ?? headers.get('x-real-ip') ?? '').split(',')[0].trim();
+    if (vercel) return vercel;
+    return 'vercel-sconosciuto';
+  }
+  return (headers.get('cf-connecting-ip') ?? '').trim() || 'sconosciuto';
+}
+
 const json = (body: unknown, status = 200, extra: Record<string, string> = {}) =>
   new Response(JSON.stringify(body), {
     status,
@@ -71,7 +83,7 @@ export async function handleOrologiaio(request: Request, env: Env, deps: Deps): 
   }
 
   const limiter = deps.limiter ?? creaRateLimiter();
-  const chiave = request.headers.get('cf-connecting-ip') ?? 'sconosciuto';
+  const chiave = ipClient(request.headers);
   if (!limiter.allow(chiave, Date.now())) {
     return errore(429, 'Troppe richieste in poco tempo. Riprova tra un minuto.', { 'retry-after': '60' });
   }

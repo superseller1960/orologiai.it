@@ -1,15 +1,12 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import BusinessCard from '../../../components/BusinessCard.astro';
-import { directory, localityUrl } from '../../../lib/directory';
+import { directory, localityUrl, regioniConAttivita } from '../../../lib/directory';
 import { REGIONI_ITALIA } from '../../../lib/geo';
 import { services } from '../../../lib/schema';
 
 // Pagine generate solo per regioni con almeno un’attività verificata: nessuna pagina regionale vuota.
 export function getStaticPaths() {
-  const regioniConAttivita = [...new Set(directory.localita
-    .filter(p => directory.attivita.some(b => b.localitaId === p.id))
-    .map(p => p.regioneSlug))];
   return regioniConAttivita.map(slug => ({ params: { regione: slug }, props: { slug } }));
 }
 interface Props { slug: string; }
