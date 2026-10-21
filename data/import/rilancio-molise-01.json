@@ -1,0 +1,70 @@
+{
+  "lotto": "rilancio-molise-01",
+  "data": "2026-10-21",
+  "fonti": [
+    { "id": "molise-sammartino-sito", "tipo": "sito-ufficiale", "url": "https://gioielleriasammartino.com/", "titolo": "Gioielleria Sammartino — homepage", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Homepage con recapiti, marchi elencati e servizi artigianali; riparazione di gioielli e orologi dichiarata nella pagina Chi siamo; revisione, batterie e cinturini non dichiarati." },
+    { "id": "molise-sammartino-contatti", "tipo": "sito-ufficiale", "url": "https://gioielleriasammartino.com/contatti/", "titolo": "Gioielleria Sammartino — contatti", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Indirizzo Via Cesare Gazzani 22/D, 86100 Campobasso; telefono 0874 412880; email info@gioielleriasammartino.com." },
+    { "id": "molise-sammartino-chisiamo", "tipo": "sito-ufficiale", "url": "https://gioielleriasammartino.com/gioielleria-campobasso/", "titolo": "Gioielleria Sammartino — Chi siamo", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Dichiara riparazione, creazione e valutazione di gioielli, orologi e oggetti di pregio. Breguet, Vacheron Constantin, IWC, Jaeger-LeCoultre e Ulysse Nardin citati come marchi trattati in passato, non come offerta attuale." },
+    { "id": "molise-stema-contatti", "tipo": "sito-ufficiale", "url": "https://www.stemagioielli.com/it/contatti.html", "titolo": "Ste.Ma. Gioielli — contatti", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Punto vendita in Via Corsica 180 Bis, 86039 Termoli (CB); telefono 0875 704533; email stemagioielli@gmail.com." },
+    { "id": "molise-stema-catalogo", "tipo": "sito-ufficiale", "url": "https://www.stemagioielli.com/it/negozio.html?bra=323", "titolo": "Ste.Ma. Gioielli — catalogo Longines", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Catalogo con orologi Longines in vendita. Dichiara vendita di orologi, acquisto su prenotazione e personalizzazione; riparazione e assistenza tecniche non dichiarate." },
+    { "id": "molise-stema-condizioni", "tipo": "sito-ufficiale", "url": "https://www.stemagioielli.com/it/condizioni.html", "titolo": "Ste.Ma. Gioielli — condizioni di vendita", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Sede legale indicata in Via Molise 68, Termoli: diversa dal punto vendita, non confermata come indirizzo del negozio." },
+    { "id": "molise-longines-locator", "tipo": "marchio-ufficiale", "url": "https://www.longines.com/it/store/id/stema-di-de-sanctis-saverio-e-c-sas-termoli-1643709", "titolo": "Longines — store locator, Ste.Ma. Termoli", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Attività elencata come punto vendita Longines. Pagina non leggibile durante la verifica (errore 503): nessuna autorizzazione ufficiale attribuita." },
+    { "id": "molise-santoro-breil-store", "tipo": "marchio-ufficiale", "url": "https://www.breil.com/store/assistenza-ricambi/santoro-orologiai-dal-1964/", "titolo": "Breil — store locator, Santoro Orologiai dal 1964", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Indirizzo Via Giuseppe Mazzini 16 indicato a Termoli, telefono 320 0546648; categoria Assistenza e Ricambi." },
+    { "id": "molise-santoro-breil-centri", "tipo": "marchio-ufficiale", "url": "https://www.breil.com/it/centri-di-assistenza/", "titolo": "Breil — centri di assistenza", "consultataIl": "2026-10-21", "percorsoArchivio": null, "licenza": null, "evidenza": "Elenco che colloca Santoro in Via Mazzini 16, 86100 Campobasso: in contrasto con la scheda store Breil (Termoli)." }
+  ],
+  "localita": [
+    { "id": "termoli", "comune": "Termoli", "comuneSlug": "termoli", "provincia": "Campobasso", "provinciaSlug": "campobasso", "siglaProvincia": "CB", "regione": "Molise", "regioneSlug": "molise", "codiceIstat": null, "descrizione": "Termoli: attività di orologeria censite con fonti ufficiali.", "fonti": ["molise-stema-contatti"] },
+    { "id": "campobasso", "comune": "Campobasso", "comuneSlug": "campobasso", "provincia": "Campobasso", "provinciaSlug": "campobasso", "siglaProvincia": "CB", "regione": "Molise", "regioneSlug": "molise", "codiceIstat": null, "descrizione": "Campobasso: attività di orologeria censite con fonti ufficiali.", "fonti": ["molise-sammartino-contatti"] }
+  ],
+  "candidati": [
+    {
+      "id": "stema-termoli",
+      "nome": "Ste.Ma. di De Sanctis Saverio e C. Sas",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale, indirizzo, telefono ed email verificati. Vendita di orologi documentata; riparazione non dichiarata. Rivendita Longines non attribuita come autorizzata: la pagina del marchio non era leggibile.",
+      "fonti": ["molise-stema-contatti", "molise-stema-catalogo", "molise-stema-condizioni", "molise-longines-locator"],
+      "attivita": {
+        "id": "stema-termoli", "slug": "stema-termoli", "nome": "Ste.Ma. di De Sanctis Saverio e C. Sas", "tipi": ["gioielleria"],
+        "descrizione": "Gioielleria a Termoli che dichiara vendita di orologi, acquisto su prenotazione e personalizzazione. Il catalogo include orologi Longines; riparazioni non dichiarate.",
+        "nomiPrecedenti": [], "gruppoId": null, "localitaId": "termoli",
+        "posizione": { "indirizzo": "Via Corsica 180 Bis", "cap": "86039", "coordinate": null, "fonti": ["molise-stema-contatti"] },
+        "contatti": { "telefono": "0875 704533", "email": "stemagioielli@gmail.com", "sito": "https://www.stemagioielli.com/it/", "whatsapp": null, "social": [], "fonti": ["molise-stema-contatti"] },
+        "orari": { "giorni": [], "chiusure": [], "verificatiIl": null, "fonti": [] },
+        "servizi": [ { "id": "vendita", "fonti": ["molise-stema-catalogo"] } ],
+        "altriServizi": [], "specializzazioni": [],
+        "marchi": { "venduti": [ { "marca": "Longines", "fonti": ["molise-stema-catalogo", "molise-longines-locator"] } ], "riparati": [], "esperienza": [], "assistenzaUfficiale": [], "rivenditaUfficiale": [], "menzionati": [] },
+        "storia": { "annoFondazione": null, "fondatore": null, "testo": null, "eventi": [], "fonti": [] },
+        "attendibilita": { "stato": "fonti-verificate", "raccoltaIl": "2026-10-21", "verificataIl": "2026-10-21", "confermataTitolareIl": null, "fonti": ["molise-stema-contatti", "molise-stema-catalogo"], "cronologia": [ { "data": "2026-10-21", "azione": "Acquisizione da sito ufficiale e locator del marchio: indirizzo, recapiti e vendita dichiarata.", "fonti": ["molise-stema-contatti", "molise-stema-catalogo"] } ], "segnalazioni": [] },
+        "origine": { "sistema": "ricerca-ufficiale-rilancio-molise-01", "idOriginale": "stema-termoli" }
+      }
+    },
+    {
+      "id": "gioielleria-sammartino-campobasso",
+      "nome": "Gioielleria Sammartino",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale, indirizzo, telefono ed email verificati. Riparazione generica di orologi dichiarata; revisione, sostituzione batterie e cinturini non dichiarate e quindi non attribuite.",
+      "fonti": ["molise-sammartino-sito", "molise-sammartino-contatti", "molise-sammartino-chisiamo"],
+      "attivita": {
+        "id": "gioielleria-sammartino-campobasso", "slug": "gioielleria-sammartino-campobasso", "nome": "Gioielleria Sammartino", "tipi": ["gioielleria"],
+        "descrizione": "Gioielleria a Campobasso che dichiara riparazione, creazione e valutazione di gioielli, orologi e oggetti di pregio. Revisione, batterie e cinturini non risultano dichiarati.",
+        "nomiPrecedenti": [], "gruppoId": null, "localitaId": "campobasso",
+        "posizione": { "indirizzo": "Via Cesare Gazzani 22/D", "cap": "86100", "coordinate": null, "fonti": ["molise-sammartino-contatti"] },
+        "contatti": { "telefono": "0874 412880", "email": "info@gioielleriasammartino.com", "sito": "https://gioielleriasammartino.com/", "whatsapp": null, "social": [], "fonti": ["molise-sammartino-contatti"] },
+        "orari": { "giorni": [], "chiusure": [], "verificatiIl": null, "fonti": [] },
+        "servizi": [ { "id": "riparazione", "fonti": ["molise-sammartino-chisiamo"] }, { "id": "vendita", "fonti": ["molise-sammartino-sito"] } ],
+        "altriServizi": [], "specializzazioni": [],
+        "marchi": { "venduti": [ { "marca": "Salvini", "fonti": ["molise-sammartino-sito"] }, { "marca": "Locman", "fonti": ["molise-sammartino-sito"] }, { "marca": "Eberhard", "fonti": ["molise-sammartino-sito"] }, { "marca": "Comete", "fonti": ["molise-sammartino-sito"] }, { "marca": "Frederique Constant", "fonti": ["molise-sammartino-sito"] }, { "marca": "Amen", "fonti": ["molise-sammartino-sito"] }, { "marca": "Daniel Wellington", "fonti": ["molise-sammartino-sito"] } ], "riparati": [], "esperienza": [], "assistenzaUfficiale": [], "rivenditaUfficiale": [], "menzionati": [ { "marca": "Breguet", "fonti": ["molise-sammartino-chisiamo"] }, { "marca": "Vacheron Constantin", "fonti": ["molise-sammartino-chisiamo"] }, { "marca": "IWC", "fonti": ["molise-sammartino-chisiamo"] }, { "marca": "Jaeger-LeCoultre", "fonti": ["molise-sammartino-chisiamo"] }, { "marca": "Ulysse Nardin", "fonti": ["molise-sammartino-chisiamo"] } ] },
+        "storia": { "annoFondazione": null, "fondatore": null, "testo": null, "eventi": [], "fonti": [] },
+        "attendibilita": { "stato": "fonti-verificate", "raccoltaIl": "2026-10-21", "verificataIl": "2026-10-21", "confermataTitolareIl": null, "fonti": ["molise-sammartino-sito", "molise-sammartino-contatti", "molise-sammartino-chisiamo"], "cronologia": [ { "data": "2026-10-21", "azione": "Acquisizione da sito ufficiale: indirizzo, recapiti, riparazione generica e marchi dichiarati.", "fonti": ["molise-sammartino-sito", "molise-sammartino-contatti"] } ], "segnalazioni": [] },
+        "origine": { "sistema": "ricerca-ufficiale-rilancio-molise-01", "idOriginale": "gioielleria-sammartino-campobasso" }
+      }
+    },
+    {
+      "id": "santoro-orologiai-termoli",
+      "nome": "Santoro Orologiai dal 1964",
+      "decisione": "in-revisione",
+      "motivo": "Fonti discordanti sulla localit\u00e0 (Termoli nella scheda store Breil, Campobasso nell'elenco centri di assistenza Breil con CAP 86100). Nessun sito ufficiale dell'attivit\u00e0 individuato. Servizi di riparazione non dichiarati: nessuna pubblicazione finch\u00e9 la localit\u00e0 non \u00e8 confermata.",
+      "fonti": ["molise-santoro-breil-store", "molise-santoro-breil-centri"]
+    }
+  ]
+}
