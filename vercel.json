@@ -6,7 +6,7 @@
   "outputDirectory": "dist",
   "functions": {
     "api/*.ts": {
-      "includeFiles": "site/src/lib/**/*,site/data/**/*"
+      "includeFiles": "site/src/lib/geo.ts,site/src/lib/schema.ts,site/src/lib/search.ts,site/src/lib/assistant.ts,site/src/lib/gemini.ts,site/src/lib/directory.ts,site/src/lib/posizione-api.ts,site/src/lib/orologiaio-api.ts,site/data/directory.json"
     }
   }
 }
