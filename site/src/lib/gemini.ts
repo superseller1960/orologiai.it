@@ -1,7 +1,7 @@
 import { z } from 'zod';
-import type { AssistantProvider, Criteri } from './assistant';
-import type { Directory } from './schema';
-import { businessTypes, services, specializations } from './schema';
+import type { AssistantProvider, Criteri } from './assistant.ts';
+import type { Directory } from './schema.ts';
+import { businessTypes, services, specializations } from './schema.ts';
 
 // Modello scelto: Flash-Lite, stabile, con output strutturato; il più economico tra quelli adatti.
 // Verificato sulla documentazione ufficiale (ai.google.dev, pricing e model page) il 16/10/2026.

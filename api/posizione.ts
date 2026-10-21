@@ -1,6 +1,5 @@
 // Vercel Function: GET /api/posizione. Stessa logica della funzione Cloudflare in functions/api/posizione.ts.
-// Import senza estensione .ts: il tracer di Vercel non segue gli specifier con estensione.
-import { handlePosizione } from '../site/src/lib/posizione-api';
+import { handlePosizione } from '../site/src/lib/posizione-api.ts';
 
 export default {
   fetch(request: Request) {

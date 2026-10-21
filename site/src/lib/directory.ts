@@ -1,6 +1,6 @@
 // L'attributo type: 'json' è obbligatorio per NodeNext (build funzioni Vercel) e resta compatibile con Vite, esbuild e tsx.
 import raw from '../../data/directory.json' with { type: 'json' };
-import { directorySchema, type Business, type Locality } from './schema';
+import { directorySchema, type Business, type Locality } from './schema.ts';
 export const directory = directorySchema.parse(raw);
 export const businessUrl = (b: Pick<Business, 'slug'>) => `/orologeria/${b.slug}/`;
 export const localityUrl = (p: Locality) => `/orologerie/${p.regioneSlug}/${p.provinciaSlug}/${p.comuneSlug}/`;

@@ -1,4 +1,4 @@
-import { estraiPosizioneApprossimativa } from './geo';
+import { estraiPosizioneApprossimativa } from './geo.ts';
 
 // Gestisce GET/HEAD /api/posizione. Nessun GPS: solo stima dagli header geografici della piattaforma.
 export function handlePosizione(request: Request): Response {

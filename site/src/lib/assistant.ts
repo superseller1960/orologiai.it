@@ -1,8 +1,8 @@
 import { z } from 'zod';
-import type { Business, Directory } from './schema';
-import { businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema';
-import { REGIONI_ITALIA } from './geo';
-import { normalize, searchDirectory, type SearchFilters } from './search';
+import type { Business, Directory } from './schema.ts';
+import { businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema.ts';
+import { REGIONI_ITALIA } from './geo.ts';
+import { normalize, searchDirectory, type SearchFilters } from './search.ts';
 
 // Limiti di input: il messaggio dell'utente è un dato non attendibile e viene sempre misurato.
 export const MAX_MESSAGGIO = 500;
