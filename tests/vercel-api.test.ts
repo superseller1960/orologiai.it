@@ -1,12 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { build } from 'esbuild';
 import { directory } from '../site/src/lib/directory.ts';
 import { ipClient, RATE_LIMIT_PER_MINUTE } from '../site/src/lib/orologiaio-api.ts';
 import { estraiPosizioneApprossimativa } from '../site/src/lib/geo.ts';
 import { handlePosizione } from '../site/src/lib/posizione-api.ts';
 import { GET as sitemapGet } from '../site/src/pages/sitemap.xml.ts';
-import orologiaioApi from '../api/orologiaio.ts';
-import posizioneApi from '../api/posizione.ts';
+import orologiaioApi from '../site/src/api/orologiaio.ts';
+import posizioneApi from '../site/src/api/posizione.ts';
 
 const ORIGIN = 'https://orologiai.it';
 const CHIAVE = 'TEST-CHIAVE-NON-REALE-VERCEL';
@@ -159,6 +160,30 @@ test('sitemap regionale: contiene le 20 regioni pubblicate, senza duplicati', as
     assert.ok(locs.includes(`${ORIGIN}/orologerie/${slug}/`), `manca ${slug}`);
   }
   assert.ok(locs.includes(`${ORIGIN}/orologerie/`), 'le altre URL restano presenti');
+});
+
+// La Lambda Vercel contiene solo la entry compilata: le entry devono quindi compilarsi in
+// moduli ESM senza alcun import residuo (stesso schema del test per functions/api/ orologiaio).
+test('le entry Vercel si compilano in ESM autosufficienti senza import relativi e invocano correttamente', async () => {
+  for (const sorgente of ['site/src/api/orologiaio.ts', 'site/src/api/posizione.ts']) {
+    const bundled = await build({ entryPoints: [sorgente], bundle: true, format: 'esm', platform: 'node', target: 'node22', mainFields: ['module', 'main'], write: false });
+    assert.equal(bundled.errors.length, 0, sorgente);
+    const code = bundled.outputFiles[0].text;
+    assert.ok(!/(?:from|import|require\s*\()\s*["']\.{1,2}\//.test(code), `${sorgente}: nessun import relativo può restare nella Lambda`);
+  }
+  const posizioneMod = await (async () => {
+    const bundled = await build({ entryPoints: ['site/src/api/posizione.ts'], bundle: true, format: 'esm', platform: 'node', target: 'node22', write: false });
+    return await import(`data:text/javascript;base64,${Buffer.from(bundled.outputFiles[0].text).toString('base64')}`) as { default: typeof posizioneApi };
+  })();
+  const res = await posizioneMod.default.fetch(new Request(`${ORIGIN}/api/posizione`));
+  assert.equal(res.status, 200);
+  const orologiaioMod = await (async () => {
+    const bundled = await build({ entryPoints: ['site/src/api/orologiaio.ts'], bundle: true, format: 'esm', platform: 'node', target: 'node22', write: false });
+    return await import(`data:text/javascript;base64,${Buffer.from(bundled.outputFiles[0].text).toString('base64')}`) as { default: typeof orologiaioApi };
+  })();
+  const resOro = await orologiaioMod.default.fetch(orologiaioReq());
+  assert.equal(resOro.status, 200);
+  assert.equal((await resOro.json()).modalita, 'non-configurato');
 });
 
 test('dati: restano 103 attività e tutte le regioni con località valide', () => {
