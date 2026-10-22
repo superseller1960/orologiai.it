@@ -1,8 +1,8 @@
 # Compatibilità con Vercel
 
-Stato: documentazione di preparazione. Nessun deploy è stato eseguito e il progetto resta configurato per Cloudflare Pages.
+Stato: la piattaforma di distribuzione è **Vercel**. La preview della branch `collaudo-preview-20261021` è verificata (vedi sotto); le entry in `functions/api/` restano come percorso di compatibilità Cloudflare Pages, non usato dal deploy Vercel.
 
-## Funzioni attuali (Cloudflare Pages Functions)
+## Funzioni di compatibilità (Cloudflare Pages Functions)
 
 | Percorso | File | Scopo |
 | --- | --- | --- |

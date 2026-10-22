@@ -2,7 +2,7 @@
 // Viene bundlata in un singolo api/orologiaio.js autosufficiente da scripts/bundle-vercel-api.mjs
 // durante `npm run build`: la Lambda Vercel contiene solo la entry compilata, quindi nessun
 // import può restare risolto a runtime. La logica rimane in site/src/lib/orologiaio-api.ts
-// e viene condivisa con la Pages Function Cloudflare.
+// e viene condivisa con la entry di compatibilità Cloudflare Pages in functions/api/orologiaio.ts.
 import { handleOrologiaio, creaRateLimiter, type Env } from '../lib/orologiaio-api.ts';
 import { directory } from '../lib/directory.ts';
 

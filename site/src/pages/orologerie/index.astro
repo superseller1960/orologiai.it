@@ -1,9 +1,58 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { directory, localityUrl } from '../../lib/directory';
-const regions = [...new Set(directory.localita.map(p => p.regione))];
+import { directory, localityUrl, servicePages } from '../../lib/directory';
+import { REGIONI_ITALIA } from '../../lib/geo';
+import { services, macroAreeServizi } from '../../lib/schema';
+
+// Conteggi derivati dal database: nessun numero inserito a mano, nessuna regione inventata.
+const attive = (p: { id: string }) => directory.attivita.some(b => b.localitaId === p.id);
+const regioni = Object.values(REGIONI_ITALIA).map(r => {
+  const luoghi = directory.localita.filter(p => p.regioneSlug === r.slug && attive(p));
+  return {
+    ...r,
+    attivita: directory.attivita.filter(b => luoghi.some(p => p.id === b.localitaId)).length,
+    province: [...new Set(luoghi.map(p => p.provincia))].sort((a, b) => a.localeCompare(b, 'it')),
+    perProvincia: [...new Set(luoghi.map(p => p.provincia))].sort((a, b) => a.localeCompare(b, 'it')).map(pr => ({
+      provincia: pr,
+      comuni: luoghi.filter(p => p.provincia === pr).sort((a, b) => a.comune.localeCompare(b.comune, 'it')),
+    })),
+  };
+}).filter(r => r.attivita > 0).sort((a, b) => b.attivita - a.attivita || a.nome.localeCompare(b.nome, 'it'));
+
+const totali = {
+  attivita: directory.attivita.length,
+  localita: directory.localita.filter(attive).length,
+  regioni: regioni.length,
+  fonti: directory.fonti.length,
+};
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Orologerie d’Italia — regioni, province e comuni censiti',
+  url: new URL('/orologerie/', Astro.site).href,
+  about: regioni.map(r => ({ '@type': 'AdministrativeArea', name: r.nome, url: new URL(`/orologerie/${r.slug}/`, Astro.site).href })),
+};
 ---
-<Layout title="Orologerie d’Italia — territori censiti" description="Esplora le località con attività censite nella directory Orologiai.it. Un progetto nazionale che cresce per comuni, non solo per grandi città.">
-<section class="page-hero"><div class="container"><p class="eyebrow">Italia, una bottega alla volta</p><h1>Le competenze<br />abitano i territori.</h1><p class="lead">Dal piccolo comune alla città. Qui trovi solo località con schede già presenti: nessuna pagina vuota per gonfiare il censimento.</p></div></section>
-<section class="container section">{regions.map(region => <section class="region"><h2>{region}</h2><div class="cities">{directory.localita.filter(p => p.regione === region && directory.attivita.some(b => b.localitaId === p.id)).map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} ↗</h3><p>Provincia di {p.provincia} · {directory.attivita.filter(b => b.localitaId === p.id).length} attività censite</p><p>{p.descrizione}</p></a>)}</div></section>)}<p class="notice">Le otto attività storiche sono conservate insieme al primo lotto reale toscano, comprendente anche comuni minori. La raccolta è un campione iniziale, non un censimento completo della Toscana o dell’Italia.</p><a class="btn" href="/partecipa/">Manca la tua località? Segnala un’attività →</a></section>
+<Layout title="Orologerie d’Italia — regioni, province e comuni censiti" description={`${totali.attivita} attività documentate in ${totali.localita} località, in tutte le ${totali.regioni} regioni italiane. Esplora regioni, province e comuni, oppure cerca per servizio.`} schema={schema}>
+  <section class="page-hero"><div class="container"><p class="eyebrow">Italia, una bottega alla volta</p><h1>Le competenze<br />abitano i territori.</h1><p class="lead">L’ingresso alla directory nazionale: scegli la regione, scendi fra province e comuni, oppure parti dal servizio che ti serve. Qui trovi solo località con schede già presenti: nessuna pagina vuota per gonfiare il censimento.</p></div></section>
+
+  <div class="coverage"><div class="container coverage-inner"><strong>{totali.attivita} attività nel database</strong><span>{totali.localita} località</span><span>{totali.regioni} regioni</span><span>{totali.fonti} fonti consultabili</span><a href="/metodo/\">Come verifichiamo →</a></div></div>
+
+  <section class="container section" id="regioni"><div class="section-heading"><div><p class="eyebrow dark">Tutte le regioni</p><h2>Dalla regione alla singola scheda</h2></div><p class="muted">Ogni regione porta a province, comuni e attività documentate.</p></div>
+    <div class="cities">{regioni.map(r => <a class="city" href={`/orologerie/${r.slug}/`}><p class="eyebrow dark">Regione</p><h3>{r.nome} <span aria-hidden="true">↗</span></h3><strong>{r.attivita} {r.attivita === 1 ? 'attività censita' : 'attività censite'}</strong><p class="small muted">{r.perProvincia.length} {r.perProvincia.length === 1 ? 'provincia' : 'province'} · {r.perProvincia.reduce((n, p) => n + p.comuni.length, 0)} comuni censiti</p></a>)}</div>
+    <p class="small muted">Le 20 regioni italiane sono tutte rappresentate, ma la copertura non è un censimento completo: compaiono solo le attività con fonti pubbliche. Una località assente dall’elenco non significa che non esistano orologerie.</p>
+  </section>
+
+  <section class="section alt" id="servizi"><div class="container"><div class="section-heading"><div><p class="eyebrow dark">Parti da quello che ti serve</p><h2>Cerca per servizio</h2></div><a href="/cerca/">Ricerca con filtri →</a></div>
+    {macroAreeServizi.map(area => { const visibili = area.servizi.filter(id => servicePages.includes(id)); return visibili.length > 0 && <div class="service-area"><h3>{area.titolo}</h3><div class="service-grid">{visibili.map((id, i) => <a class="service-tile" href={`/servizi/${id}/`}><span class="service-number">0{i + 1}</span><h3>{services[id]}</h3><span aria-hidden="true">↗</span></a>)}</div></div>; })}
+    <p class="small muted">Ogni pagina di servizio elenca le attività che lo documentano nelle fonti; per filtrare anche per località usa la <a href="/cerca/">ricerca con filtri</a>.</p>
+  </div></section>
+
+  <section class="container section" id="comuni"><div class="section-heading"><div><p class="eyebrow dark">Province e comuni</p><h2>I territori censiti</h2></div><p class="muted">Ogni comune porta alle schede delle attività presenti.</p></div>
+    {regioni.map(r => <section class="region"><h2>{r.nome} <a class="small" href={`/orologerie/${r.slug}/`}>Pagina regionale →</a></h2>
+      {r.perProvincia.map(pr => <><h3 class="muted">Provincia di {pr.provincia}</h3><div class="cities">{pr.comuni.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} <span aria-hidden="true">↗</span></h3><p class="small muted">{p.provincia} ({p.siglaProvincia}) · {directory.attivita.filter(b => b.localitaId === p.id).length} attività censite</p><p>{p.descrizione}</p></a>)}</div></>)}
+    </section>)}
+    <a class="btn" href="/partecipa/">Manca la tua località? Segnala un’attività →</a>
+  </section>
 </Layout>

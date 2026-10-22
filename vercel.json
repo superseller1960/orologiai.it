@@ -3,5 +3,15 @@
   "framework": "astro",
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    { "source": "/contact", "destination": "/partecipa/", "permanent": true },
+    { "source": "/contact/", "destination": "/partecipa/", "permanent": true },
+    { "source": "/modulo-di-contatto", "destination": "/partecipa/", "permanent": true },
+    { "source": "/modulo-di-contatto/", "destination": "/partecipa/", "permanent": true },
+    { "source": "/termini-e-condizioni", "destination": "/note-legali/", "permanent": true },
+    { "source": "/termini-e-condizioni/", "destination": "/note-legali/", "permanent": true },
+    { "source": "/rivenditori-e-concessionari-rolex-milano", "destination": "/marchi/rolex/", "permanent": true },
+    { "source": "/rivenditori-e-concessionari-rolex-milano/", "destination": "/marchi/rolex/", "permanent": true }
+  ]
 }
