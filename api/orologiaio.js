@@ -36254,13 +36254,8 @@ var directory_default = {
   ]
 };
 
-// site/src/lib/directory.ts
-var directory = directorySchema.parse(directory_default);
-var brandNames = [...new Set(directory.attivita.flatMap((b) => Object.values(b.marchi).flat().map((m) => m.marca)))];
-var regioniConAttivita = [...new Set(directory.localita.filter((p) => directory.attivita.some((b) => b.localitaId === p.id)).map((p) => p.regioneSlug))];
-var servicePages = [...new Set(directory.attivita.flatMap((b) => b.servizi.map((s) => s.id)))].filter((id) => directory.attivita.filter((b) => b.servizi.some((s) => s.id === id)).length >= 2);
-
 // site/src/api/orologiaio.ts
+var directory = directory_default;
 var limiter = creaRateLimiter();
 var orologiaio_default = {
   fetch(request) {

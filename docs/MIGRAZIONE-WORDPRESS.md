@@ -26,7 +26,7 @@ Stato: piano preparato per il futuro passaggio di `orologiai.it` su Vercel. **Ne
 | `/termini-e-condizioni` | `/note-legali/` | Condizioni d'uso → note legali |
 | `/rivenditori-e-concessionari-rolex-milano` | `/marchi/rolex/` | Pagina dedicata al marchio Rolex nel database aggiornato |
 
-Sono redirect 301 espliciti, uno per URL: nessun redirect generico verso la homepage.
+Sono redirect 301 espliciti, uno per URL: nessun redirect generico verso la homepage. Gli stessi 8 redirect sono implementati anche per Cloudflare Pages in `site/assets/_redirects` (formato `_redirects`, verificato in locale con `wrangler pages dev`): `vercel.json` resta valido per le preview Vercel, `_redirects` per l'hosting Cloudflare.
 
 ### 3. Pagine obsolete — devono restituire 404 (pagina 404 esplicativa già presente)
 | Vecchio URL | Motivo |

@@ -36,3 +36,6 @@ backups/
 # Collaudo locale: script e screenshot di verifica, non fanno parte del sito
 /.audit/
 /artifacts/
+
+# Cache locale di wrangler (collaudo Cloudflare Pages in workerd)
+/.wrangler/

@@ -13,17 +13,17 @@ Documento operativo: per ogni voce sono indicati il file coinvolto e l'azione ne
 | A4 | Sul progetto Vercel esiste un deployment di Production con il vecchio mirror statico (`main` = `56e34a0`). Non serve finché il dominio punta al WordPress. | Pannello Vercel → Production | Al lancio: promuovere il build nuovo (branch candidata), **mai** prima dell'approvazione |
 | A5 | Verifica su dispositivo fisico non eseguita: le larghezze 320/375/390/768/1440 sono simulate in Chromium. | — | Ultimo passaggio su smartphone reale prima del lancio |
 
-## B. Informazioni del proprietario indispensabili
+## B. Informazioni del proprietario
 
-Tutte da fornire dal titolare: **non vanno inventate né dedotte**.
+Fornite il 22/10/2026 e inserite nelle pagine: **Orologeria Oreficeria Scardi**, P. IVA 05904700480, REA FI-590494, indirizzo commerciale Via Gabriele D'Annunzio 8/A, 50135 Firenze, contatto `acquistiscardi@gmail.com` (fonte: scardi.it). Michele Scardi gestisce operativamente il portale (senza attribuzione del ruolo di rappresentante legale).
 
-| # | Informazione | File / sezione | Segnaposto |
+Restano da completare:
+
+| # | Informazione | File / sezione | Stato |
 | --- | --- | --- | --- |
-| B1 | Denominazione o nome del titolare del trattamento, sede | `site/src/pages/privacy.astro` §1 | `[DA FORNIRE]` |
-| B2 | Canale privacy ufficiale (PEC o indirizzo dedicato) da sostituire a `info@orologiai.it` | `site/src/pages/privacy.astro` §10 | `[DA FORNIRE]` |
-| B3 | Tempi di conservazione dei log hosting e della corrispondenza email | `site/src/pages/privacy.astro` §7 | `[DA FORNIRE]` |
-| B4 | Dati identificativi del gestore del progetto (denominazione, sede, contatto) | `site/src/pages/note-legali.astro` apertura | `[DA FORNIRE]` |
-| B5 | Licenza dei testi e degli elementi originali (es. Creative Commons o riserva dei diritti) | `site/src/pages/note-legali.astro` §7 | `[DA FORNIRE]` |
+| B1 | Denominazione giuridica esatta dell'impresa e sede legale da visura camerale (possono differire dal nome commerciale). Lead NON verificato da directory di terzi: “SCARDI DI BARTOLOZZI MARCO” — da confermare solo con visura | `site/src/pages/privacy.astro` §1, `note-legali.astro` §1 | `[DA VERIFICARE]` |
+| B2 | Tempi di conservazione dei log hosting e della corrispondenza email | `site/src/pages/privacy.astro` §7 | `[DA FORNIRE]` |
+| B3 | Licenza dei testi e degli elementi originali (es. Creative Commons o riserva dei diritti) | `site/src/pages/note-legali.astro` §7 | `[DA FORNIRE]` |
 
 ## C. Verifiche legali da completare
 
@@ -35,13 +35,13 @@ Tutte da fornire dal titolare: **non vanno inventate né dedotte**.
 | C4 | Valutare la notifica diretta ai titolari già censiti (art. 14 GDPR) all'apertura al pubblico | `site/src/pages/privacy.astro` §6 | `[DA COMPLETARE]` |
 | C5 | Trasferimenti extra-UE (hosting, Gemini): individuare e citare le garanzie (artt. 44 ss. GDPR) | `site/src/pages/privacy.astro` §8 | `[DA VERIFICARE]` |
 | C6 | Elenco effettivo dei cookie tecnici dell'hosting definitivo e relativa informativa del provider | `site/src/pages/cookie-policy.astro` §2 | `[DA VERIFICARE]` |
-| C7 | Ricezione di `info@orologiai.it` non verificata (indirizzo ripreso dal sito storico) | `site/src/pages/partecipa.astro`, `privacy.astro`, `note-legali.astro` | Confermare la casella o sostituire l'indirizzo in tutti e tre i file |
+| C7 | Contatto email: sostituito `info@orologiai.it` (non verificato) con `acquistiscardi@gmail.com` in tutte le pagine istituzionali e nei link di segnalazione | `privacy.astro`, `note-legali.astro`, `partecipa.astro`, `orologeria/[slug].astro` | **Risolto** il 22/10/2026 |
 | C8 | Conformità complessiva alla normativa: revisione di un professionista prima della pubblicazione | `site/src/pages/note-legali.astro` §9 | Da pianificare |
 
 ## D. Configurazioni necessarie al lancio
 
-1. **Vercel:** impostare `GEMINI_API_KEY` (se si vuole l'AI reale) — vedi A1; decidere sui deploy automatici (A3).
-2. **Dominio:** associare `orologiai.it` al progetto Vercel e aggiornare i DNS — operazione da pannello, **non** da questo repository; il vecchio WordPress resta online fino al passaggio. **Prima del cambio DNS verificare che i record email (MX, SPF, DKIM, DMARC) restino invariati**: il passaggio non deve compromettere la posta.
+1. **Hosting di produzione:** **Cloudflare Pages Free** (scelta fatta il 22/10/2026: il piano Hobby di Vercel è riservato all'uso personale non commerciale, mentre il sito è gestito da un'impresa). Vercel resta come ambiente di preview. Tutto il necessario è pronto nella build: `functions/api/*` (Pages Functions), `_routes.json`, `_redirects` (8 redirect 301 equivalenti a `vercel.json`), collaudati in locale con `wrangler pages dev`. **Manca solo la creazione del progetto Cloudflare Pages e il deploy** (richiede l'account Cloudflare del titolare — vedi report). Nessun costo: piano Free.
+2. **Dominio:** DNS attuali documentati in [docs/DNS-OROLOGIAI.md](DNS-OROLOGIAI.md) (Register.it, MX su `mail.register.it`, nessun SPF/DKIM/DMARC). Il passaggio richiede il cambio dei nameserver (serve il pannello Register.it) con la configurazione equivalente e la procedura di rollback già predisposte. **La posta non deve subire interruzioni**; `scardi.it` e l'hosting WordPress non vengono toccati.
 3. **Email:** verificare la ricezione di `info@orologiai.it` o attivare l'indirizzo definitivo (C7).
 4. **Google Search Console:** il dominio resta `orologiai.it`, quindi la proprietà esistente **si conserva** e lo strumento "Cambio di indirizzo" **non si usa**. Piano: verificare la nuova sitemap nella proprietà esistente, redirect 301 per gli URL modificati, controllo dei canonical, verifica dell'indicizzazione, monitoraggio dei 404, controllo degli URL spam precedentemente indicizzati. Mapping URL completo in [docs/MIGRAZIONE-WORDPRESS.md](MIGRAZIONE-WORDPRESS.md).
 5. **Assistente:** dopo A1, rieseguire il collaudo reale dei 5 esempi d'uso e verificare che la modalità sia dichiarata correttamente.
@@ -77,3 +77,4 @@ Prerequisiti, in ordine:
 - Cookie: nessun `Set-Cookie`, nessun `localStorage`/`sessionStorage` — coerente con la cookie policy.
 - Migrazione: redirect certi implementati in `vercel.json` (8 voci), nessun redirect generico, mirror WordPress **non** pubblicato (`publicDir: ./site/assets`), nessun link esterno sospetto nei contenuti legacy pubblicati.
 - Pagine legali: segnaposto **mantenuti visibili** e censiti qui sopra; nessun dato personale presunto inserito.
+- Hosting gratuito: build collaudata sul runtime Cloudflare (`wrangler pages dev` / workerd) il 22/10/2026: pagine 200 (270 documenti), 8 redirect `_redirects` 301 veri, `_routes.json` con entrambe le API, `/api/posizione` e `/api/orologiaio` funzionanti (fallback locale, 405/403/415 corretti), mappa con pin (icone inlinate come data URI, nessun asset esterno), 0 errori console. Compatibilità CPU: rimosso il parse Zod a runtime dalle entry delle function (~38 ms misurati, oltre il limite di 10 ms/invocazione del piano gratuito): il dataset resta validato a build da `scripts/validate.ts`.
