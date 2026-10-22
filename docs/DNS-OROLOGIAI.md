@@ -40,15 +40,15 @@ Record da creare nella zona Cloudflare **prima** del cambio dei nameserver (pron
 
 | Record | Valore | Note |
 | --- | --- | --- |
-| `orologiai.it` | CNAME `<progetto>.pages.dev` | Cloudflare esegue il flattening sull'apex; oppure A/AAAA indicati dalla dashboard Pages al momento dell'aggiunta del dominio custom |
-| `www` CNAME | `<progetto>.pages.dev` | Oppure CNAME `orologiai.it` |
+| `orologiai.it` | CNAME `orologiai-it.pages.dev` | Cloudflare esegue il flattening sull'apex; oppure A/AAAA indicati dalla dashboard Pages al momento dell'aggiunta del dominio custom |
+| `www` CNAME | `orologiai-it.pages.dev` | Oppure CNAME `orologiai.it` |
 | MX `@` | `10 mail.register.it` | **Invariato** |
 | `ftp` A | `81.88.53.48` | Sostituisce l'attuale CNAME all'apex (vedi punto 3.2) |
 | `pop` CNAME | `mail.register.it` | Invariato |
 
 Procedura consigliata:
-1. Creare il progetto Cloudflare Pages (piano Free) e pubblicare la build (`dist/` + `functions/`).
-2. Aggiungere il dominio custom `orologiai.it` e `www.orologiai.it` dalla dashboard Pages.
+1. ~~Creare il progetto Cloudflare Pages e pubblicare la build~~ **Fatto**: progetto `orologiai-it` (piano Free), sito online su https://orologiai-it.pages.dev con `dist/` + `functions/` (build verificata il 22/10/2026).
+2. Aggiungere il dominio custom `orologiai.it` e `www.orologiai.it` dalla dashboard Pages (Workers & Pages → orologiai-it → Custom domains).
 3. Esportare/verificare la zona attuale nel pannello Register.it (confrontarla con questo documento).
 4. Predisporre la zona Cloudflare con i record sopra (posta inclusa).
 5. Solo allora cambiare i nameserver su Register.it verso quelli assegnati da Cloudflare.
