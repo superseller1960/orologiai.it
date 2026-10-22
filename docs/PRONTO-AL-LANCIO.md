@@ -7,7 +7,7 @@ Documento operativo: per ogni voce sono indicati il file coinvolto e l'azione ne
 
 | # | Problema | File / luogo | Azione necessaria |
 | --- | --- | --- | --- |
-| A1 | `GEMINI_API_KEY` non configurata: verificato sul progetto Vercel (0 variabili d'ambiente). L'assistente funziona in interpretazione locale dichiarata. | `site/src/lib/gemini.ts`, `site/src/lib/orologiaio-api.ts` | Creare una chiave Free Tier su Google AI Studio e impostarla in Vercel (Preview prima, Production al lancio), poi eseguire `npm run test:gemini:live` e un test reale sulla preview |
+| A1 | Gemini disattivato per codice sul deployment pubblico: kill-switch in `functions/api/orologiaio.ts` — l'assistente risponde sempre `modalita: "non-configurato"` in interpretazione locale, anche se `GEMINI_API_KEY` fosse configurata sull'ambiente Pages. Verificato con test a chiave fittizia: nessuna richiesta esterna. | `functions/api/orologiaio.ts`, `site/src/lib/orologiaio-api.ts` | Nessuna azione per il pubblico (opzione A in vigore per codice). Per test privati dell'AI: `npm run test:gemini:live` con chiave Free Tier nell'ambiente di sviluppo. Non abilitare Gemini al pubblico prima di C1 e di un piano a pagamento |
 | A2 | Rate limit dell'API assistente solo in memoria per istanza (10 req/min/IP): non è una protezione globale. | `site/src/lib/orologiaio-api.ts` | Configurare una regola di rate limiting su `/api/orologiaio` a livello di piattaforma (Vercel Firewall/WAF) |
 | A3 | Deployment automatici Git disattivati nel progetto Vercel (`createDeployments: disabled`): ogni preview va triggerata manualmente. | Pannello Vercel → progetto `orologiai.it` → Git | Decidere se riattivare i deploy automatici al momento del lancio |
 | A4 | Sul progetto Vercel esiste un deployment di Production con il vecchio mirror statico (`main` = `56e34a0`). Non serve finché il dominio punta al WordPress. | Pannello Vercel → Production | Al lancio: promuovere il build nuovo (branch candidata), **mai** prima dell'approvazione |
@@ -48,7 +48,7 @@ Restano da completare:
 
 ## E. Scelte per l'assistente al lancio
 
-Due opzioni mutualmente esclusive; la scelta va fatta esplicitamente prima del lancio.
+Due opzioni mutualmente esclusive; la scelta va fatta esplicitamente prima del lancio. **L'opzione A è attualmente in vigore per codice**: il deployment pubblico ha un kill-switch che disabilita il provider Gemini indipendentemente dalla configurazione dell'ambiente (test a chiave fittizia superato il 22/10/2026).
 
 ### Opzione A — Lancio con assistente locale (senza Gemini)
 - L'assistente interpreta le richieste in locale sul server con regole deterministiche; **nessun messaggio viene inviato a Google**.

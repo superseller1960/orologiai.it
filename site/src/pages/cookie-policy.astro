@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="Cookie policy" description="Quali cookie e strumenti di tracciamento usa realmente Orologiai.it: nessun cookie di profilazione o analitico, richieste tecniche e servizi esterni (OpenStreetMap) descritti nel dettaglio.">
 <section class="page-hero"><div class="container"><p class="eyebrow">Nessun tracciamento nascosto</p><h1>Cookie e strumenti di tracciamento.</h1><p class="lead">Abbiamo verificato il codice del sito e l'elenco che segue descrive solo ciò che accade davvero: se uno strumento non è in questa pagina, non è installato.</p></div></section>
 <section class="container section reading">
-<div class="notice"><strong>Verifica aperta.</strong> All'attivazione dell'hosting definitivo vanno controllati gli eventuali cookie tecnici imposti dalla piattaforma di erogazione e aggiornati i riferimenti <strong>[DA VERIFICARE]</strong> indicati di seguito.</div>
+<div class="notice"><strong>Verifica aperta.</strong> L'hosting definitivo è attivo su Cloudflare Pages dal 22/10/2026: sulle risposte delle pagine principali e di <code>/api/posizione</code> non è stato riscontrato alcun cookie (nessun header <code>Set-Cookie</code>, verifica del 22/10/2026). Restano da controllare gli eventuali identificatori tecnici su altri endpoint della piattaforma e da aggiornare i riferimenti <strong>[DA VERIFICARE]</strong> indicati di seguito.</div>
 
 <h2>In sintesi</h2>
 <p><strong>Il sito non installa cookie di profilazione né cookie analitici, non usa strumenti di marketing e non memorizza dati nel browser</strong> (nessun <code>localStorage</code>, <code>sessionStorage</code> o archivio simile). Per questo <strong>non è presente un banner di consenso</strong>: non ci sono strumenti che lo richiedano. Se in futuro venisse introdotta una misurazione di analisi o un contenuto esterno che imposta cookie, il banner e questa pagina saranno aggiornati prima dell'attivazione.</p>
@@ -13,7 +13,7 @@ import Layout from '../layouts/Layout.astro';
 <p>Nessuno. Il codice del sito non scrive cookie sul dispositivo del visitatore.</p>
 
 <h2>2. Cookie tecnici dell'hosting</h2>
-<p>Il sito è erogato da piattaforme di hosting (attualmente Vercel per le preview di collaudo; previsto Cloudflare Pages per la pubblicazione). La piattaforma può impostare cookie o identificatori tecnici strettamente necessari alla sicurezza e alla consegna delle pagine (per esempio, protezioni contro abusi automatizzati). Questi cookie non sono usati per profilazione e sono gestiti interamente dal provider. <strong>[DA VERIFICARE]</strong> l'elenco effettivo dei cookie sulla configurazione di hosting definitiva e il riferimento all'informativa del provider, da collegare qui.</p>
+<p>Il sito è erogato da Cloudflare Pages (produzione, <code>orologi-it.pages.dev</code>) e da Vercel per le preview di collaudo protette. La piattaforma può impostare cookie o identificatori tecnici strettamente necessari alla sicurezza e alla consegna delle pagine (per esempio, protezioni contro abusi automatizzati). Questi cookie non sono usati per profilazione e sono gestiti interamente dal provider. <strong>[DA VERIFICARE]</strong> l'elenco effettivo dei cookie sulla configurazione di hosting definitiva e il riferimento all'informativa del provider, da collegare qui.</p>
 
 <h2>3. Dati di navigazione (log del server)</h2>
 <p>Indirizzo IP, data e ora, pagina richiesta, user agent ed esito della richiesta vengono registrati dai sistemi che erogano il sito per sicurezza e funzionamento. Non sono cookie: per dettagli, conservazione e basi giuridiche vedi la <a href="/privacy/">privacy policy</a>.</p>
@@ -25,7 +25,7 @@ import Layout from '../layouts/Layout.astro';
 <h3>4.2 Link verso siti esterni</h3>
 <p>Alcuni collegamenti (per esempio il sito di un'attività, OpenStreetMap o WhatsApp) portano a siti di terzi. Si attivano solo se li premi e si applicano le regole del sito di destinazione, che può usare propri cookie: consultate le rispettive informative.</p>
 <h3>4.3 Assistente “Orologiaio”</h3>
-<p><strong>Stato attuale: l'AI generativa esterna non è configurata.</strong> L'assistente funziona con interpretazione locale sul nostro server: nessuna richiesta verso Google o altri fornitori di modelli AI, né dal browser né dal server. Non si tratta di un cookie né di un contenuto incorporato di terze parti. Se in futuro verrà attivata l'interpretazione con Google Gemini, questa pagina e la <a href="/privacy/">privacy policy</a> saranno aggiornate prima dell'attivazione.</p>
+<p><strong>Stato attuale: l'AI generativa esterna è disattivata sul sito pubblico.</strong> L'assistente funziona con interpretazione locale sul nostro server: nessuna richiesta verso Google o altri fornitori di modelli AI, né dal browser né dal server. Il codice del sito pubblico disabilita in modo permanente il collegamento ai modelli AI esterni (kill-switch), anche se una chiave di accesso venisse configurata sull'ambiente di erogazione. Non si tratta di un cookie né di un contenuto incorporato di terze parti. Se in futuro verrà attivata l'interpretazione con Google Gemini, questa pagina e la <a href="/privacy/">privacy policy</a> saranno aggiornate prima dell'attivazione.</p>
 
 <h2>5. Geolocalizzazione</h2>
 <p>La posizione del browser è richiesta solo se premi “Usa la mia posizione”, con il consenso del browser, e resta locale al dispositivo. La stima di zona della ricerca usa l'endpoint <code>/api/posizione</code>, che non imposta cookie e invia la risposta con intestazione <code>no-store</code> affinché nessuna posizione venga memorizzata in cache condivisa.</p>
@@ -35,6 +35,6 @@ import Layout from '../layouts/Layout.astro';
 
 <h2>7. Aggiornamenti</h2>
 <p>Questa pagina viene aggiornata quando cambiano gli strumenti effettivamente usati dal sito.</p>
-<p class="small muted">Ultimo aggiornamento: 20 ottobre 2026 · Verifica effettuata sul codice sorgente del sito.</p>
+<p class="small muted">Ultimo aggiornamento: 22 ottobre 2026 · Verifica effettuata sul codice sorgente del sito.</p>
 </section>
 </Layout>

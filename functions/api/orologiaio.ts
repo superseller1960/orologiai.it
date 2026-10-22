@@ -12,5 +12,16 @@ const directory = raw as unknown as Directory;
 // ripartirebbe da zero ogni volta e il limite di 10/minuto non si applicherebbe mai.
 const limiter = creaRateLimiter();
 
+// Kill-switch deliberato per il deployment pubblico: il provider Gemini resta
+// DISABILITATO anche se una chiave venisse accidentalmente configurata nell'ambiente
+// Pages. Le Condizioni aggiuntive del Gemini API richiedono i Paid Services per i
+// client offerti a utenti EEA/CH/UK e questo sito è gratuito: qui non viene passata
+// alcuna chiave e l'assistente risponde solo con l'interpretazione locale
+// ("modalita": "non-configurato"). L'integrazione Gemini per i test privati vive
+// fuori da questa entry ed è isolata: scripts/verify-gemini-live.ts (chiamate dirette
+// al provider) e le preview Vercel protette. Non rimuovere questo blocco.
+const envPubblico: Env = {};
 export const onRequest = (context: { request: Request; env: Env }) =>
-  handleOrologiaio(context.request, context.env, { dir: directory, limiter });
+  // context.env resta accettato per compatibilità con il runtime Pages, ma viene
+  // ignorato: è il kill-switch descritto sopra.
+  handleOrologiaio(context.request, envPubblico, { dir: directory, limiter });

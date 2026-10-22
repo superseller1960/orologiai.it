@@ -287,3 +287,27 @@ test('functions/api/orologiaio.ts si compila in un singolo modulo ESM autosuffic
   assert.deepEqual(body.criteri, { localita: 'firenze', servizio: 'revisione', specializzazione: 'automatici' });
 });
 
+test('kill-switch pubblico: la Pages Function ignora GEMINI_API_KEY (anche fittizia) e non effettua richieste esterne', async () => {
+  // Il deployment pubblico non deve contattare Gemini né alcun provider, nemmeno se
+  // una chiave venisse accidentalmente configurata nell'ambiente Pages.
+  const chiamateEsterne: string[] = [];
+  const originale = globalThis.fetch;
+  globalThis.fetch = ((input: RequestInfo | URL) => {
+    chiamateEsterne.push(String(input));
+    return Promise.reject(new Error('nessuna chiamata esterna attesa dal deployment pubblico'));
+  }) as typeof fetch;
+  try {
+    const res = await onRequest({
+      request: richiesta({ messaggio: 'revisione a Firenze' }, { ip: '203.0.113.77' }),
+      env: { GEMINI_API_KEY: 'CHIAVE_FITTIZIA_SOLO_PROVA' },
+    });
+    assert.equal(res.status, 200);
+    const body = await res.json();
+    assert.equal(body.modalita, 'non-configurato');
+    assert.equal(body.criteri.localita, 'firenze');
+  } finally {
+    globalThis.fetch = originale;
+  }
+  assert.deepEqual(chiamateEsterne, [], 'la entry pubblica non deve effettuare richieste esterne');
+});
+
