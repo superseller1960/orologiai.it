@@ -77,3 +77,17 @@
   - Solo `POST` (405 sugli altri metodi con header `Allow`), controllo `Origin` same-origin (403), `Content-Type: application/json` (415), corpo massimo **4.096 byte** (413), messaggio massimo 500 caratteri (413), schema stretto `{ messaggio, contesto? }` (400), timeout di 8 s verso Gemini.
   - Rate limiter in memoria da 10 richieste/minuto per IP con risposta `429` e `Retry-After: 60`. L'IP del client su Vercel è ricavato solo da `x-vercel-forwarded-for`/`x-real-ip` quando è presente `x-vercel-id`; fuori da Vercel da `cf-connecting-ip`. `x-forwarded-for` non è usato perché forgiabile.
 - **Protezione di piattaforma:** il limitatore in memoria è best-effort per istanza. Una regola di rate limiting sul percorso `/api/orologiaio` va configurata a livello di piattaforma (Vercel Firewall/WAF o, sul percorso di compatibilità Cloudflare, una WAF Rate Limiting rule): la disponibilità e i parametri dipendono dal piano effettivamente attivo e vanno verificati nel pannello.
+
+## Attivazione dell'AI reale: solo ambiente privato (verifiche 22/10/2026)
+
+**Vincolo Google per l'utente europeo:** le Condizioni aggiuntive del Gemini API richiedono i **Paid Services** per i client API offerti a utenti in EEA, Svizzera o UK ([termini](https://ai.google.dev/gemini-api/terms)). Con un progetto gratuito, senza Cloud Billing, l'AI reale **non va attivata sul sito pubblico**: si usa solo in ambiente di sviluppo privato, finché il vincolo non viene superato con un piano a pagamento (attualmente escluso dal budget).
+
+- **Modello confermato disponibile:** `gemini-3.5-flash-lite` ([modelli Google](https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite)). Le quote Free (richieste/token per minuto e per giorno) non sono pubblicate da Google: vanno lette in AI Studio → [Rate limits](https://aistudio.google.com/rate-limit) con l'account del progetto; sono per progetto, non per chiave.
+- **Dati e GDPR:** sul free tier Google può usare prompt e risposte per migliorare i prodotti e prevede revisione umana: non inviare dati personali nelle richieste dell'assistente. Nessuna residenza UE garantita per i log dell'API.
+- **Età:** l'uso dell'API richiede 18 anni compiuti e il client non deve essere diretto a minori.
+- **Procedura di attivazione privata** (la chiave resta solo variabile d'ambiente lato server: mai in codice, log, Git o chat):
+  1. Esportare la chiave nell'ambiente della shell — `export GEMINI_API_KEY=...` — oppure come secret di progetto nell'ambiente Cloud privato.
+  2. Avviare il runtime Cloudflare solo in locale: `npx wrangler pages dev dist --port 8788 --ip 127.0.0.1`.
+  3. Collaudare con richieste reali: `curl -s -X POST http://localhost:8788/api/orologiaio -H 'Content-Type: application/json' -H 'Origin: http://localhost:8788' -d '{"messaggio":"..."}'` → atteso `"modalita":"ai"` con criteri validati dallo schema stretto.
+  4. Eseguire `npm run test:gemini:live`: 2 richieste reali e verifica che la chiave non compaia mai nell'output.
+- **Fallback confermato:** senza chiave (`non-configurato`) o con risposta non utilizzabile (`fallback`) risponde l'interpretazione locale; i risultati restano sempre tra le 103 attività del database (verificato con criteri reali restituiti dall'API).
