@@ -5,7 +5,7 @@
 // e viene condivisa con la entry di compatibilità Cloudflare Pages in functions/api/orologiaio.ts.
 import { handleOrologiaio, creaRateLimiter, type Env } from '../lib/orologiaio-api.ts';
 import type { Directory } from '../lib/schema.ts';
-import raw from '../../data/directory.json' with { type: 'json' };
+import raw from '../../data/directory.json';
 
 // Come in functions/api/orologiaio.ts: il dataset è validato a build da scripts/validate.ts
 // e il parse Zod a runtime (~38 ms di CPU) supererebbe il limite di 10 ms delle function gratuite.

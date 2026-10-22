@@ -1,5 +1,10 @@
-// L'attributo type: 'json' è obbligatorio per NodeNext (build funzioni Vercel) e resta compatibile con Vite, esbuild e tsx.
-import raw from '../../data/directory.json' with { type: 'json' };
+// Import JSON senza attributo `with { type: 'json' }`: il bundler esbuild di Cloudflare Pages
+// (linea < 0.20) non supporta quella sintassi e fallisce in fase di build delle Functions.
+// L'import semplice è risolto da tutte le toolchain del progetto: Vite/Astro, TypeScript
+// (resolveJsonModule + moduleResolution bundler), esbuild (bundle Vercel), tsx e Wrangler.
+// Node ESM nativo richiederebbe l'attributo, ma nessun file viene eseguito con node nativo:
+// script e test passano da tsx, le funzioni Vercel e Pages sono sempre bundlate.
+import raw from '../../data/directory.json';
 import { directorySchema, type Business, type Locality } from './schema.ts';
 export const directory = directorySchema.parse(raw);
 export const businessUrl = (b: Pick<Business, 'slug'>) => `/orologeria/${b.slug}/`;

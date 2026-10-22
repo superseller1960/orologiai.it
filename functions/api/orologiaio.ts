@@ -1,7 +1,7 @@
 // Pages Function: POST /api/orologiaio. Il codice vero è in site/src/lib/orologiaio-api.ts.
 import { handleOrologiaio, creaRateLimiter, type Env } from '../../site/src/lib/orologiaio-api.ts';
 import type { Directory } from '../../site/src/lib/schema.ts';
-import raw from '../../site/data/directory.json' with { type: 'json' };
+import raw from '../../site/data/directory.json';
 
 // Il dataset è già validato da scripts/validate.ts durante `npm run build`, prima del bundling.
 // Il parse Zod completo a runtime (~38 ms di CPU misurati) supera il limite di 10 ms per
