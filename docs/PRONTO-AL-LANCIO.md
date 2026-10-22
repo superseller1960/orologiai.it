@@ -29,7 +29,7 @@ Tutte da fornire dal titolare: **non vanno inventate né dedotte**.
 
 | # | Verifica | File / sezione | Segnaposto |
 | --- | --- | --- | --- |
-| C1 | Documenti contrattuali Google Gemini (informativa e condizioni di trattamento) da leggere e collegare; base giuridica della trasmissione del testo al fornitore | `site/src/pages/privacy.astro` §3.6 | `[DA VERIFICARE]` |
+| C1 | Condizioni Gemini verificate il 22/10/2026 ([Gemini API Additional Terms](https://ai.google.dev/gemini-api/terms)): sui servizi gratuiti Google può usare input/output per migliorare i prodotti, anche con revisione umana; clausola EEA: per client API destinati a utenti dell'UE le condizioni richiedono servizi a pagamento. Da valutare con un professionista prima di abilitare Gemini al pubblico | `site/src/pages/privacy.astro` §3.6, `docs/ASSISTENTE-AI.md` | `[DA VERIFICARE]` |
 | C2 | Test di bilanciamento del legittimo interesse (LIA) per la pubblicazione dei dati delle attività | `site/src/pages/privacy.astro` §5 | `[DA COMPLETARE]` |
 | C3 | Base giuridica definitiva dell'assistente AI (consenso o misure precontrattuali) | `site/src/pages/privacy.astro` §5 | `[DA COMPLETARE]` |
 | C4 | Valutare la notifica diretta ai titolari già censiti (art. 14 GDPR) all'apertura al pubblico | `site/src/pages/privacy.astro` §6 | `[DA COMPLETARE]` |
@@ -41,12 +41,31 @@ Tutte da fornire dal titolare: **non vanno inventate né dedotte**.
 ## D. Configurazioni necessarie al lancio
 
 1. **Vercel:** impostare `GEMINI_API_KEY` (se si vuole l'AI reale) — vedi A1; decidere sui deploy automatici (A3).
-2. **Dominio:** associare `orologiai.it` al progetto Vercel e aggiornare i DNS — operazione da pannello, **non** da questo repository; il vecchio WordPress resta online fino al passaggio.
+2. **Dominio:** associare `orologiai.it` al progetto Vercel e aggiornare i DNS — operazione da pannello, **non** da questo repository; il vecchio WordPress resta online fino al passaggio. **Prima del cambio DNS verificare che i record email (MX, SPF, DKIM, DMARC) restino invariati**: il passaggio non deve compromettere la posta.
 3. **Email:** verificare la ricezione di `info@orologiai.it` o attivare l'indirizzo definitivo (C7).
-4. **Google Search Console:** aggiungere la proprietà, inviare `/sitemap.xml`, avviare il "Cambio di indirizzo" dopo il passaggio. Mapping URL e regole per spam/404 in [docs/MIGRAZIONE-WORDPRESS.md](MIGRAZIONE-WORDPRESS.md).
+4. **Google Search Console:** il dominio resta `orologiai.it`, quindi la proprietà esistente **si conserva** e lo strumento "Cambio di indirizzo" **non si usa**. Piano: verificare la nuova sitemap nella proprietà esistente, redirect 301 per gli URL modificati, controllo dei canonical, verifica dell'indicizzazione, monitoraggio dei 404, controllo degli URL spam precedentemente indicizzati. Mapping URL completo in [docs/MIGRAZIONE-WORDPRESS.md](MIGRAZIONE-WORDPRESS.md).
 5. **Assistente:** dopo A1, rieseguire il collaudo reale dei 5 esempi d'uso e verificare che la modalità sia dichiarata correttamente.
 
-## E. Controlli già superati (2026-10-22)
+## E. Scelte per l'assistente al lancio
+
+Due opzioni mutualmente esclusive; la scelta va fatta esplicitamente prima del lancio.
+
+### Opzione A — Lancio con assistente locale (senza Gemini)
+- L'assistente interpreta le richieste in locale sul server con regole deterministiche; **nessun messaggio viene inviato a Google**.
+- Già implementata e verificata: è lo stato attuale del sito, dichiarato all'utente nell'interfaccia.
+- Nessuna chiave da configurare, nessun rapporto contrattuale con Google da verificare, nessun impatto sulla privacy oltre i log tecnici già descritti.
+- Le pagine `privacy` e `cookie-policy` descrivono correttamente questo stato: **non richiedono modifiche per il lancio**.
+
+### Opzione B — Lancio con Gemini (solo dopo verifiche e autorizzazione)
+Prerequisiti, in ordine:
+1. Verifica delle condizioni Gemini Developer API applicabili (C1), inclusa la clausola EEA che per client API destinati a utenti UE prevede servizi a pagamento: **potrebbe richiedere un piano diverso da quello gratuito**, da attivare solo con autorizzazione esplicita (mai automaticamente).
+2. Valutazione con un professionista della base giuridica della trasmissione del testo a Google e delle conseguenze del trattamento descritto nelle condizioni (uso per miglioramento prodotti e revisione umana sui servizi gratuiti).
+3. Aggiornamento di `privacy.astro` §3.6 e `cookie-policy.astro` §4.3 con le condizioni effettive e la base giuridica individuata.
+4. Configurazione della chiave in Vercel e test reale (`npm run test:gemini:live` + collaudo sulla preview).
+5. Verifica che il fallback locale resti disponibile e dichiarato in caso di errore o quota esaurita.
+- Fino a quando tutti i punti non sono completati, resta valida l'**opzione A**.
+
+## F. Controlli già superati (2026-10-22)
 
 - `npm run verify`: **exit 0** — `astro check` + `tsc` puliti, **169/169 test**, build **270 pagine**, test DOM della ricerca e della chat.
 - Dataset invariato: **103 attività, 58 località, 20 regioni, 168 fonti**.

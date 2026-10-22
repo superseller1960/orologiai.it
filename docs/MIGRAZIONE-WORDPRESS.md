@@ -41,22 +41,26 @@ Sono redirect 301 espliciti, uno per URL: nessun redirect generico verso la home
 | `/css/*` | 404: fogli del vecchio tema |
 | Qualsiasi URL spam rilevato in Google (inject, pagine di spam) | 404/410: **mai** reindirizzare indiscriminatamente |
 
-## Verifiche da fare in Google Search Console (al momento del cambio dominio)
+## Verifiche da fare in Google Search Console (al momento del passaggio)
 
-Questo ambiente non ha accesso al vecchio sito in scrittura né a Search Console: i seguenti passi sono per chi gestisce la proprietà.
+Il passaggio **mantiene il dominio `orologiai.it`**: cambia solo la piattaforma che serve il sito (da WordPress a Vercel). Lo strumento "Cambio di indirizzo" di Search Console è riservato ai cambi di dominio e **non va usato** in questa migrazione. Questo ambiente non ha accesso al vecchio sito in scrittura né a Search Console: i seguenti passi sono per chi gestisce la proprietà.
 
-1. Esportare l'elenco delle URL indicizzate del vecchio sito (Copertura / Pagine) e confrontarlo con il mapping sopra: le URL non elencate qui **non** vanno reindirizzate d'ufficio.
-2. Individuare gli URL spam risultanti dall'inject e richiederne la rimozione (Rimozioni + pulizia del CMS), senza creare redirect.
-3. Aggiungere la proprietà del nuovo dominio e inviare la nuova sitemap (`/sitemap.xml`).
-4. Usare "Cambio di indirizzo" solo dopo il passaggio effettivo del dominio.
-5. Monitorare i 404 importanti (pagine con link o traffico) e aggiungere redirect **caso per caso** solo con destinazione certa.
+1. **Conservare la proprietà Search Console esistente** su `orologiai.it`: non crearne una nuova, non rimuoverla. La storia dell'indicizzazione resta collegata allo stesso dominio.
+2. **Verificare la nuova sitemap** (`https://orologiai.it/sitemap.xml`) nella proprietà esistente e controllarne l'elaborazione.
+3. **Redirect permanenti (301) per gli URL effettivamente modificati**: sono quelli del mapping sopra, già implementati in `vercel.json`. Gli URL invariati (`/`, `/blog/`, `/rolex/`, `/firenze/`, `/milano/`) non ricevono redirect.
+4. **Controllo dei canonical**: ogni pagina deve canonizzare a se stessa tranne gli alias `/firenze/` e `/milano/`, che puntano alle pagine comune; verificare sul dominio reale dopo il passaggio.
+5. **Verifica dell'indicizzazione**: confrontare le URL indicizzate prima e dopo (Copertura / Pagine). Esportare l'elenco delle URL storiche e confrontarlo con il mapping: le URL non elencate qui **non** vanno reindirizzate d'ufficio.
+6. **Monitoraggio dei 404**: segnalare i 404 importanti (pagine con link o traffico) e aggiungere redirect **caso per caso** solo con destinazione certa.
+7. **Controllo degli URL spam precedentemente indicizzati**: individuarli nell'elenco storico e richiederne la rimozione (Rimozioni + pulizia), **senza creare redirect**: devono restituire 404/410.
+8. **Verifica che il cambio DNS non comprometta i servizi email**: prima di modificare qualsiasi record, controllare i record MX, TXT (SPF/DKIM/DMARC) e CNAME di posta attuali e assicurarsi che restino invariati quando il DNS inizia a puntare a Vercel. Se la posta passa per un proxy o un servizio che dipende dall'hosting WordPress, va migrata separatamente e prima del cambio DNS.
 
 ## Sequenza operativa al momento del lancio
 
 1. Completare le voci di `docs/PRONTO-AL-LANCIO.md`.
-2. Configurare il dominio su Vercel (Production) — da fare nel pannello, non da questo repository.
-3. Verificare redirect, sitemap, robots e canonical sul dominio reale.
-4. Pubblicare la sitemap in Search Console e avviare il monitoraggio.
+2. Verificare i record email (MX/SPF/DKIM) e decidere dove resterà la posta.
+3. Configurare il dominio su Vercel (Production) e aggiornare i DNS **senza toccare i record di posta** — da fare nel pannello, non da questo repository.
+4. Verificare redirect, sitemap, robots e canonical sul dominio reale.
+5. Verificare la sitemap in Search Console (stessa proprietà), avviare il monitoraggio di indicizzazione, 404 e URL spam.
 
 ## Vincoli rispettati
 

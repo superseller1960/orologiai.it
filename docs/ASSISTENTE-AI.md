@@ -17,6 +17,13 @@
 - **Nessuna funzionalità opzionale usata:** no Context Caching, no Batch API, no Grounding.
 - Il modello è un singolo punto di modifica: cambiare `GEMINI_MODEL` aggiorna anche l'endpoint.
 
+## Condizioni del servizio e privacy (verificate il 22/10/2026 sulle fonti ufficiali)
+- Fonte: [Gemini API Additional Terms](https://ai.google.dev/gemini-api/terms) (versione "Effective March 23, 2026"), [pagina prezzi Gemini API](https://ai.google.dev/gemini-api/docs/pricing), [Google Cloud Data Processing Addendum](https://cloud.google.com/terms/data-processing-addendum).
+- **Servizi gratuiti (Unpaid Services):** Google dichiara di usare input e output per migliorare e sviluppare i propri prodotti e le proprie tecnologie ML, e che revisori umani possono leggere, annotare e elaborare input e output (dati scollegati da account, chiave API e progetto Cloud prima della revisione). Le condizioni sconsigliano di inviare informazioni sensibili, riservate o personali.
+- **Servizi a pagamento:** i prompt e le risposte non sono usati per migliorare i prodotti; restano log limitati per sicurezza e obblighi di legge, con DPA come data processor. Un progetto è "a pagamento" solo se associato a un account di fatturazione attivo.
+- **Clausola EEA/Svizzera/Regno Unito:** le condizioni d'uso dei dati dei servizi a pagamento si applicano a tutti i servizi (inclusa la quota gratuita), e le condizioni prevedono che per client API messi a disposizione di utenti in EEA/Svizzera/UK si usino **solo** servizi a pagamento. Per un progetto con utenti pubblici italiani questa clausola va valutata con attenzione: potrebbe richiedere un piano diverso da quello gratuito (mai attivare piani a pagamento senza autorizzazione esplicita).
+- **Stato attuale del progetto:** nessuna chiave configurata, nessun messaggio inviato a Google, interpretazione locale attiva. Le pagine `privacy` e `cookie-policy` descrivono questo stato; l'eventuale attivazione richiede prima l'aggiornamento della documentazione privacy e la verifica delle condizioni applicabili.
+
 ## Architettura
 - Il sito è statico (`output: 'static'`); solo `/api/orologiaio` e `/api/posizione` invocano le funzioni (`api/*.js` su Vercel).
 - Flusso a 3 livelli:

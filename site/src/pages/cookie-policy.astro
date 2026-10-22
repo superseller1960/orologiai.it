@@ -24,8 +24,8 @@ import Layout from '../layouts/Layout.astro';
 <p>Il provider delle mappe può essere sostituito con un fornitore dedicato in futuro: questa pagina verrà aggiornata in quel caso.</p>
 <h3>4.2 Link verso siti esterni</h3>
 <p>Alcuni collegamenti (per esempio il sito di un'attività, OpenStreetMap o WhatsApp) portano a siti di terzi. Si attivano solo se li premi e si applicano le regole del sito di destinazione, che può usare propri cookie: consultate le rispettive informative.</p>
-<h3>4.3 Assistente “Orologiaio” e Google Gemini</h3>
-<p>L'assistente non fa arrivare richieste dal tuo browser a Google: il messaggio viene inviato al nostro server e, per l'interpretazione, trasmesso al servizio Google Gemini. Non si tratta di un cookie o di un contenuto incorporato di terze parti nella pagina. Maggiori dettagli nella <a href="/privacy/">privacy policy</a>.</p>
+<h3>4.3 Assistente “Orologiaio”</h3>
+<p><strong>Stato attuale: l'AI generativa esterna non è configurata.</strong> L'assistente funziona con interpretazione locale sul nostro server: nessuna richiesta verso Google o altri fornitori di modelli AI, né dal browser né dal server. Non si tratta di un cookie né di un contenuto incorporato di terze parti. Se in futuro verrà attivata l'interpretazione con Google Gemini, questa pagina e la <a href="/privacy/">privacy policy</a> saranno aggiornate prima dell'attivazione.</p>
 
 <h2>5. Geolocalizzazione</h2>
 <p>La posizione del browser è richiesta solo se premi “Usa la mia posizione”, con il consenso del browser, e resta locale al dispositivo. La stima di zona della ricerca usa l'endpoint <code>/api/posizione</code>, che non imposta cookie e invia la risposta con intestazione <code>no-store</code> affinché nessuna posizione venga memorizzata in cache condivisa.</p>
