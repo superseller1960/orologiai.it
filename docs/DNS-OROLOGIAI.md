@@ -18,6 +18,7 @@ Rilievo eseguito in sola lettura (`dig`) il 22 ottobre 2026. **Nessun record è 
 | `default._domainkey` TXT | assente | Nessun DKIM riscontrato |
 | `_dmarc` TXT | assente | Nessun DMARC riscontrato |
 | `google._domainkey` TXT | assente | |
+| `orologiai.it` DS | nessuno | **DNSSEC non attivo**: il cambio nameserver non richiede rimozione di deleghe firmate (verificato il 22/10/2026) |
 | `ftp.orologiai.it` CNAME | `orologiai.it` | Accesso FTP dell'hosting Register.it: oggi segue l'apex |
 | `pop.orologiai.it` CNAME | `mail.register.it` | |
 | `mail`, `webmail`, `cpanel`, `autodiscover`, `blog`, `shop`, `smtp`, `imap` | nessun record riscontrato | |

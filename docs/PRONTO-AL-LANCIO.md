@@ -15,7 +15,7 @@ Documento operativo: per ogni voce sono indicati il file coinvolto e l'azione ne
 
 ## B. Informazioni del proprietario
 
-Fornite il 22/10/2026 e inserite nelle pagine: **Orologeria Oreficeria Scardi**, P. IVA 05904700480, REA FI-590494, indirizzo commerciale Via Gabriele D'Annunzio 8/A, 50135 Firenze, contatto `acquistiscardi@gmail.com` (fonte: scardi.it). Michele Scardi gestisce operativamente il portale (senza attribuzione del ruolo di rappresentante legale).
+Fornite il 22/10/2026 e inserite nelle pagine: **Orologeria Oreficeria Scardi**, P. IVA 05904700480, REA FI-590494, indirizzo commerciale Via Gabriele D'Annunzio 8/A, 50135 Firenze, contatto `acquistiscardi@gmail.com` (fonte: scardi.it). La gestione operativa del portale è curata da un familiare del titolare: il dato personale non viene pubblicato (non indispensabile) e non comporta l'attribuzione del ruolo di rappresentante legale.
 
 Restano da completare:
 
