@@ -1,0 +1,2265 @@
+{
+  "lotto": "national02-c",
+  "data": "2026-10-23",
+  "fonti": [
+    {
+      "id": "n02-orologeria-mancuso-como-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamancuso.com/",
+      "titolo": "Orologeria Mancuso — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio indipendente non affiliato a marchi: revisioni meccaniche, restauro vintage, lucidatura, cambio pile/cinturini/vetri, acquisto e vendita usato. Via Maurizio Monti 34 Como. CAP non documentato."
+    },
+    {
+      "id": "n02-orologeria-cotifava-dal-1946-mantova-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacotifava.com/",
+      "titolo": "Orologeria Cotifava dal 1946 — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta: nuova sede via Fernelli 8 Mantova; laboratorio riparazione e assistenza, revisioni complete, vendita e compravendita usato. Nessuna autorizzazione attribuita."
+    },
+    {
+      "id": "n02-vergari-gioielli-botrugno-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.vergarigioielli.it/",
+      "titolo": "Vergari Gioielli — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta: Via Vittorio Emanuele 11 Botrugno; vendita orologi, riparazione orologi e cambio pile e cinturini. Laboratorio gioielli non assunto automaticamente come laboratorio tecnico interno di orologi."
+    },
+    {
+      "id": "n02-benenati-msd-catania-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://benenati-msd4.webnode.it/",
+      "titolo": "Benenati MSD — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito letto: riparazione quarzo, meccanici, pendoli e orologi antichi; restauri, vetri su misura e ristampa quadranti; Via G. D’Annunzio 126 Catania. Nessuna autorizzazione o CAP attribuiti."
+    },
+    {
+      "id": "n02-clock-service-catania-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.clockservice.it/",
+      "titolo": "Clock Service — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito e contatti letti: riparazione, revisione e restauro, orologi da parete/tavolo/cucù e polso; Via Gabriele D’Annunzio 134, 95127 Catania."
+    },
+    {
+      "id": "n02-clock-service-catania-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.clockservice.it/contatti/",
+      "titolo": "Clock Service — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito e contatti letti: riparazione, revisione e restauro, orologi da parete/tavolo/cucù e polso; Via Gabriele D’Annunzio 134, 95127 Catania."
+    },
+    {
+      "id": "n02-centrorologi-gravina-di-catania-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://centrorologi.net/servizi/",
+      "titolo": "Centrorologi — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Servizi e sede letti: laboratorio riparazioni e lucidatura, quarzo/meccanici/pendoli/cucù/modelli antichi; Via Carrubella 191 Gravina di Catania. Non esteso automaticamente a restauro."
+    },
+    {
+      "id": "n02-centrorologi-gravina-di-catania-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://centrorologi.net/chi-siamo/",
+      "titolo": "Centrorologi — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Servizi e sede letti: laboratorio riparazioni e lucidatura, quarzo/meccanici/pendoli/cucù/modelli antichi; Via Carrubella 191 Gravina di Catania. Non esteso automaticamente a restauro."
+    },
+    {
+      "id": "n02-la-motta-gioielli-messina-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamottagioielli.it/laboratorio/",
+      "titolo": "La Motta Gioielli — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine lette: revisione completa Rolex, rifinitura casse e bracciali, test precisione/impermeabilità e indirizzo Viale San Martino 188 Messina. Nessuna autorizzazione assegnata dal solo sito negozio."
+    },
+    {
+      "id": "n02-la-motta-gioielli-messina-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamottagioielli.it/rolex/contattaci/",
+      "titolo": "La Motta Gioielli — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine lette: revisione completa Rolex, rifinitura casse e bracciali, test precisione/impermeabilità e indirizzo Viale San Martino 188 Messina. Nessuna autorizzazione assegnata dal solo sito negozio."
+    },
+    {
+      "id": "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italie/sicilia/trapani/laboratorio-orologi-di-andrea-d-ale",
+      "titolo": "Laboratorio Orologi di Andrea D’Ale — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: centro assistenza ufficiale Hamilton, sostituzione batteria e cinturino; Via G. B. Fardella 214 Trapani. Nessuna altra competenza inferita."
+    },
+    {
+      "id": "n02-gioielleria-di-marco-nicosia-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriadimarco.it/chisiamo.php",
+      "titolo": "Gioielleria Di Marco — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine chi siamo e contatti lette: laboratorio creazione e riparazione di orologi e gioielli; Via San Benedetto 26, 94014 Nicosia."
+    },
+    {
+      "id": "n02-gioielleria-di-marco-nicosia-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriadimarco.it/contatti.php",
+      "titolo": "Gioielleria Di Marco — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine chi siamo e contatti lette: laboratorio creazione e riparazione di orologi e gioielli; Via San Benedetto 26, 94014 Nicosia."
+    },
+    {
+      "id": "n02-gioielleria-de-nurra-sassari-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.denurra.it/",
+      "titolo": "Gioielleria De Nurra — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito e contatti letti: laboratorio interno assistenza, piccole riparazioni, revisione completa, cambio pila e restauro orologi epoca. Via Maurizio Zanfarino 9 Sassari; CAP non documentato. Provincia corrente da ISTAT 2026."
+    },
+    {
+      "id": "n02-gioielleria-de-nurra-sassari-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.denurra.it/contatti/",
+      "titolo": "Gioielleria De Nurra — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito e contatti letti: laboratorio interno assistenza, piccole riparazioni, revisione completa, cambio pila e restauro orologi epoca. Via Maurizio Zanfarino 9 Sassari; CAP non documentato. Provincia corrente da ISTAT 2026."
+    },
+    {
+      "id": "n02-gioielleria-chiocchetti-lucca-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chiocchetti1896.com/laboratorio/",
+      "titolo": "Gioielleria Chiocchetti — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito letto: laboratorio cura/riparazione, revisione completa e manutenzione; Via Fillungo 20 Lucca. Certificazioni dichiarate dal negozio non registrate senza fonte produttore."
+    },
+    {
+      "id": "n02-gioielleria-chiocchetti-lucca-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chiocchetti1896.com/contatti/",
+      "titolo": "Gioielleria Chiocchetti — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito letto: laboratorio cura/riparazione, revisione completa e manutenzione; Via Fillungo 20 Lucca. Certificazioni dichiarate dal negozio non registrate senza fonte produttore."
+    },
+    {
+      "id": "n02-de-marco-belluno-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.demarco-belluno.it/contatti/",
+      "titolo": "De Marco — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: laboratorio riparazione orologi, Piazza Mazzini 3 Belluno. Nessun intervento specifico o autorizzazione inferiti."
+    },
+    {
+      "id": "n02-de-marco-belluno-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.demarco-belluno.it/gioielleria-a-belluno/",
+      "titolo": "De Marco — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: laboratorio riparazione orologi, Piazza Mazzini 3 Belluno. Nessun intervento specifico o autorizzazione inferiti."
+    },
+    {
+      "id": "n02-gioielleria-orafi-italiani-rovigo-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://orafiitaliani.it/laboratorio-gioielleria-orologeria/",
+      "titolo": "Gioielleria Orafi Italiani — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: manutenzione orologi, batterie/cinturini, riparazioni e revisione completa; Viale Porta Adige 45G Rovigo. Nessuna autorizzazione attribuita."
+    },
+    {
+      "id": "n02-gioielleria-orafi-italiani-rovigo-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://orafiitaliani.it/contatti/",
+      "titolo": "Gioielleria Orafi Italiani — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: manutenzione orologi, batterie/cinturini, riparazioni e revisione completa; Viale Porta Adige 45G Rovigo. Nessuna autorizzazione attribuita."
+    },
+    {
+      "id": "n02-gioielleria-grande-frosinone-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagrande.it/centro-assistenza/",
+      "titolo": "Gioielleria Grande — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: riparazioni e manutenzione, cambio batteria/vetro/cinturino, smontaggio/revisione movimento; sede Piazzale De Matthaeis 4 Frosinone. Nessuna autorizzazione ufficiale assegnata."
+    },
+    {
+      "id": "n02-gioielleria-grande-frosinone-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagrande.it/chi-siamo/",
+      "titolo": "Gioielleria Grande — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine ufficiali lette: riparazioni e manutenzione, cambio batteria/vetro/cinturino, smontaggio/revisione movimento; sede Piazzale De Matthaeis 4 Frosinone. Nessuna autorizzazione ufficiale assegnata."
+    },
+    {
+      "id": "n02-bottega-watches-pistoia-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://bottegawatches.com/laboratorio",
+      "titolo": "Bottega Watches — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine laboratorio e riparazione lette: riparazione, revisione, ripristino, lucidatura e restauro; Piazza San Francesco d’Assisi 50 Pistoia. Nessuna autorizzazione inferita."
+    },
+    {
+      "id": "n02-bottega-watches-pistoia-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://bottegawatches.com/riparazione-orologi-pistoia",
+      "titolo": "Bottega Watches — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagine laboratorio e riparazione lette: riparazione, revisione, ripristino, lucidatura e restauro; Piazza San Francesco d’Assisi 50 Pistoia. Nessuna autorizzazione inferita."
+    }
+  ],
+  "localita": [
+    {
+      "id": "como",
+      "comune": "Como",
+      "comuneSlug": "como",
+      "provincia": "Como",
+      "provinciaSlug": "como",
+      "siglaProvincia": "CO",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": "013075",
+      "descrizione": "Como: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-fasola-gioielleria-como-1"
+      ]
+    },
+    {
+      "id": "mantova",
+      "comune": "Mantova",
+      "comuneSlug": "mantova",
+      "provincia": "Mantova",
+      "provinciaSlug": "mantova",
+      "siglaProvincia": "MN",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": "020030",
+      "descrizione": "Mantova: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-orologeria-cotifava-dal-1946-mantova-1"
+      ]
+    },
+    {
+      "id": "botrugno",
+      "comune": "Botrugno",
+      "comuneSlug": "botrugno",
+      "provincia": "Lecce",
+      "provinciaSlug": "lecce",
+      "siglaProvincia": "LE",
+      "regione": "Puglia",
+      "regioneSlug": "puglia",
+      "codiceIstat": "075009",
+      "descrizione": "Botrugno: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-vergari-gioielli-botrugno-1"
+      ]
+    },
+    {
+      "id": "catania",
+      "comune": "Catania",
+      "comuneSlug": "catania",
+      "provincia": "Catania",
+      "provinciaSlug": "catania",
+      "siglaProvincia": "CT",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "087015",
+      "descrizione": "Catania: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-benenati-msd-catania-1"
+      ]
+    },
+    {
+      "id": "gravina-di-catania",
+      "comune": "Gravina di Catania",
+      "comuneSlug": "gravina-di-catania",
+      "provincia": "Catania",
+      "provinciaSlug": "catania",
+      "siglaProvincia": "CT",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "087019",
+      "descrizione": "Gravina di Catania: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-centrorologi-gravina-di-catania-1",
+        "n02-centrorologi-gravina-di-catania-2"
+      ]
+    },
+    {
+      "id": "messina",
+      "comune": "Messina",
+      "comuneSlug": "messina",
+      "provincia": "Messina",
+      "provinciaSlug": "messina",
+      "siglaProvincia": "ME",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "083048",
+      "descrizione": "Messina: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-la-motta-gioielli-messina-1",
+        "n02-la-motta-gioielli-messina-2"
+      ]
+    },
+    {
+      "id": "trapani",
+      "comune": "Trapani",
+      "comuneSlug": "trapani",
+      "provincia": "Trapani",
+      "provinciaSlug": "trapani",
+      "siglaProvincia": "TP",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "081021",
+      "descrizione": "Trapani: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+      ]
+    },
+    {
+      "id": "nicosia",
+      "comune": "Nicosia",
+      "comuneSlug": "nicosia",
+      "provincia": "Enna",
+      "provinciaSlug": "enna",
+      "siglaProvincia": "EN",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "086012",
+      "descrizione": "Nicosia: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-di-marco-nicosia-1",
+        "n02-gioielleria-di-marco-nicosia-2"
+      ]
+    },
+    {
+      "id": "sassari",
+      "comune": "Sassari",
+      "comuneSlug": "sassari",
+      "provincia": "Sassari",
+      "provinciaSlug": "sassari",
+      "siglaProvincia": "SS",
+      "regione": "Sardegna",
+      "regioneSlug": "sardegna",
+      "codiceIstat": "112050",
+      "descrizione": "Sassari: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-de-nurra-sassari-1",
+        "n02-gioielleria-de-nurra-sassari-2"
+      ]
+    },
+    {
+      "id": "lucca",
+      "comune": "Lucca",
+      "comuneSlug": "lucca",
+      "provincia": "Lucca",
+      "provinciaSlug": "lucca",
+      "siglaProvincia": "LU",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "046017",
+      "descrizione": "Lucca: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-pedonesi-lucca-1"
+      ]
+    },
+    {
+      "id": "belluno",
+      "comune": "Belluno",
+      "comuneSlug": "belluno",
+      "provincia": "Belluno",
+      "provinciaSlug": "belluno",
+      "siglaProvincia": "BL",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "025006",
+      "descrizione": "Belluno: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-boni-belluno-1"
+      ]
+    },
+    {
+      "id": "rovigo",
+      "comune": "Rovigo",
+      "comuneSlug": "rovigo",
+      "provincia": "Rovigo",
+      "provinciaSlug": "rovigo",
+      "siglaProvincia": "RO",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "029041",
+      "descrizione": "Rovigo: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-b-b-gioielli-rovigo-1"
+      ]
+    },
+    {
+      "id": "frosinone",
+      "comune": "Frosinone",
+      "comuneSlug": "frosinone",
+      "provincia": "Frosinone",
+      "provinciaSlug": "frosinone",
+      "siglaProvincia": "FR",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": "060038",
+      "descrizione": "Frosinone: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-grande-frosinone-1",
+        "n02-gioielleria-grande-frosinone-2"
+      ]
+    },
+    {
+      "id": "pistoia",
+      "comune": "Pistoia",
+      "comuneSlug": "pistoia",
+      "provincia": "Pistoia",
+      "provinciaSlug": "pistoia",
+      "siglaProvincia": "PT",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "047014",
+      "descrizione": "Pistoia: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-fabiani-gioiellerie-pistoia-1"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "orologeria-mancuso-como",
+      "nome": "Orologeria Mancuso",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-orologeria-mancuso-como-1"
+      ],
+      "attivita": {
+        "id": "orologeria-mancuso-como",
+        "slug": "orologeria-mancuso-como",
+        "nome": "Orologeria Mancuso",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria Mancuso a Como. La fonte ufficiale documenta riparazione, revisione, lucidatura, restauro di orologi d’epoca, sostituzione batterie, sostituzione cinturini, vendita di orologi usati, acquisto di orologi usati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "como",
+        "posizione": {
+          "indirizzo": "Via Maurizio Monti 34",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.orologeriamancuso.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          },
+          {
+            "id": "acquisto-permuta",
+            "fonti": [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-orologeria-mancuso-como-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-orologeria-mancuso-como-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "orologeria-mancuso-como"
+        }
+      }
+    },
+    {
+      "id": "orologeria-cotifava-dal-1946-mantova",
+      "nome": "Orologeria Cotifava dal 1946",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-orologeria-cotifava-dal-1946-mantova-1"
+      ],
+      "attivita": {
+        "id": "orologeria-cotifava-dal-1946-mantova",
+        "slug": "orologeria-cotifava-dal-1946-mantova",
+        "nome": "Orologeria Cotifava dal 1946",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria Cotifava dal 1946 a Mantova. La fonte ufficiale documenta riparazione, assistenza, revisione, vendita di orologi, vendita di orologi usati, acquisto di orologi usati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "mantova",
+        "posizione": {
+          "indirizzo": "Via Domenico Fernelli 8",
+          "cap": "46100",
+          "coordinate": null,
+          "fonti": [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.orologeriacotifava.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          },
+          {
+            "id": "acquisto-permuta",
+            "fonti": [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-orologeria-cotifava-dal-1946-mantova-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "orologeria-cotifava-dal-1946-mantova"
+        }
+      }
+    },
+    {
+      "id": "vergari-gioielli-botrugno",
+      "nome": "Vergari Gioielli",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-vergari-gioielli-botrugno-1"
+      ],
+      "attivita": {
+        "id": "vergari-gioielli-botrugno",
+        "slug": "vergari-gioielli-botrugno",
+        "nome": "Vergari Gioielli",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Vergari Gioielli a Botrugno. La fonte ufficiale documenta vendita di orologi, riparazione, sostituzione batterie, sostituzione cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "botrugno",
+        "posizione": {
+          "indirizzo": "Via Vittorio Emanuele 11",
+          "cap": "73020",
+          "coordinate": null,
+          "fonti": [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.vergarigioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-vergari-gioielli-botrugno-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-vergari-gioielli-botrugno-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "vergari-gioielli-botrugno"
+        }
+      }
+    },
+    {
+      "id": "benenati-msd-catania",
+      "nome": "Benenati MSD",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-benenati-msd-catania-1"
+      ],
+      "attivita": {
+        "id": "benenati-msd-catania",
+        "slug": "benenati-msd-catania",
+        "nome": "Benenati MSD",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Benenati MSD a Catania. La fonte ufficiale documenta riparazione, riparazione al quarzo, riparazione di orologi meccanici, interventi di pendoleria, restauro di orologi d’epoca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via G. D’Annunzio 126",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://benenati-msd4.webnode.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-benenati-msd-catania-1"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "n02-benenati-msd-catania-1"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "n02-benenati-msd-catania-1"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "n02-benenati-msd-catania-1"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "n02-benenati-msd-catania-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-benenati-msd-catania-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-benenati-msd-catania-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "benenati-msd-catania"
+        }
+      }
+    },
+    {
+      "id": "clock-service-catania",
+      "nome": "Clock Service",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-clock-service-catania-1",
+        "n02-clock-service-catania-2"
+      ],
+      "attivita": {
+        "id": "clock-service-catania",
+        "slug": "clock-service-catania",
+        "nome": "Clock Service",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Clock Service a Catania. La fonte ufficiale documenta riparazione, revisione, restauro di orologi d’epoca, interventi di pendoleria.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via Gabriele D’Annunzio 134",
+          "cap": "95127",
+          "coordinate": null,
+          "fonti": [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.clockservice.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-clock-service-catania-1",
+                "n02-clock-service-catania-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "clock-service-catania"
+        }
+      }
+    },
+    {
+      "id": "centrorologi-gravina-di-catania",
+      "nome": "Centrorologi",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-centrorologi-gravina-di-catania-1",
+        "n02-centrorologi-gravina-di-catania-2"
+      ],
+      "attivita": {
+        "id": "centrorologi-gravina-di-catania",
+        "slug": "centrorologi-gravina-di-catania",
+        "nome": "Centrorologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centrorologi a Gravina di Catania. La fonte ufficiale documenta riparazione, lucidatura, riparazione al quarzo, riparazione di orologi meccanici, interventi di pendoleria.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "gravina-di-catania",
+        "posizione": {
+          "indirizzo": "Via Carrubella 191",
+          "cap": "95030",
+          "coordinate": null,
+          "fonti": [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://centrorologi.net/servizi/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-centrorologi-gravina-di-catania-1",
+                "n02-centrorologi-gravina-di-catania-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "centrorologi-gravina-di-catania"
+        }
+      }
+    },
+    {
+      "id": "la-motta-gioielli-messina",
+      "nome": "La Motta Gioielli",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-la-motta-gioielli-messina-1",
+        "n02-la-motta-gioielli-messina-2"
+      ],
+      "attivita": {
+        "id": "la-motta-gioielli-messina",
+        "slug": "la-motta-gioielli-messina",
+        "nome": "La Motta Gioielli",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "La Motta Gioielli a Messina. La fonte ufficiale documenta revisione, lucidatura, manutenzione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "messina",
+        "posizione": {
+          "indirizzo": "Viale San Martino 188",
+          "cap": "98123",
+          "coordinate": null,
+          "fonti": [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.lamottagioielli.it/laboratorio/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-la-motta-gioielli-messina-1",
+              "n02-la-motta-gioielli-messina-2"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "n02-la-motta-gioielli-messina-1",
+              "n02-la-motta-gioielli-messina-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-la-motta-gioielli-messina-1",
+              "n02-la-motta-gioielli-messina-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-la-motta-gioielli-messina-1",
+                "n02-la-motta-gioielli-messina-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "la-motta-gioielli-messina"
+        }
+      }
+    },
+    {
+      "id": "laboratorio-orologi-di-andrea-d-ale-trapani",
+      "nome": "Laboratorio Orologi di Andrea D’Ale",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+      ],
+      "attivita": {
+        "id": "laboratorio-orologi-di-andrea-d-ale-trapani",
+        "slug": "laboratorio-orologi-di-andrea-d-ale-trapani",
+        "nome": "Laboratorio Orologi di Andrea D’Ale",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio Orologi di Andrea D’Ale a Trapani. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trapani",
+        "posizione": {
+          "indirizzo": "Via Giovanni Battista Fardella 214",
+          "cap": "91100",
+          "coordinate": null,
+          "fonti": [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "laboratorio-orologi-di-andrea-d-ale-trapani"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-di-marco-nicosia",
+      "nome": "Gioielleria Di Marco",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-di-marco-nicosia-1",
+        "n02-gioielleria-di-marco-nicosia-2"
+      ],
+      "attivita": {
+        "id": "gioielleria-di-marco-nicosia",
+        "slug": "gioielleria-di-marco-nicosia",
+        "nome": "Gioielleria Di Marco",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria Di Marco a Nicosia. La fonte ufficiale documenta riparazione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "nicosia",
+        "posizione": {
+          "indirizzo": "Via San Benedetto 26",
+          "cap": "94014",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-di-marco-nicosia-1",
+            "n02-gioielleria-di-marco-nicosia-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.gioielleriadimarco.it/chisiamo.php",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-di-marco-nicosia-1",
+            "n02-gioielleria-di-marco-nicosia-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-gioielleria-di-marco-nicosia-1",
+              "n02-gioielleria-di-marco-nicosia-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-di-marco-nicosia-1",
+            "n02-gioielleria-di-marco-nicosia-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-di-marco-nicosia-1",
+                "n02-gioielleria-di-marco-nicosia-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-di-marco-nicosia"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-de-nurra-sassari",
+      "nome": "Gioielleria De Nurra",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-de-nurra-sassari-1",
+        "n02-gioielleria-de-nurra-sassari-2"
+      ],
+      "attivita": {
+        "id": "gioielleria-de-nurra-sassari",
+        "slug": "gioielleria-de-nurra-sassari",
+        "nome": "Gioielleria De Nurra",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria De Nurra a Sassari. La fonte ufficiale documenta riparazione, assistenza, revisione, sostituzione batterie, restauro di orologi d’epoca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "sassari",
+        "posizione": {
+          "indirizzo": "Via Maurizio Zanfarino 9",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.denurra.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-de-nurra-sassari-1",
+                "n02-gioielleria-de-nurra-sassari-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-de-nurra-sassari"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-chiocchetti-lucca",
+      "nome": "Gioielleria Chiocchetti",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-chiocchetti-lucca-1",
+        "n02-gioielleria-chiocchetti-lucca-2"
+      ],
+      "attivita": {
+        "id": "gioielleria-chiocchetti-lucca",
+        "slug": "gioielleria-chiocchetti-lucca",
+        "nome": "Gioielleria Chiocchetti",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria Chiocchetti a Lucca. La fonte ufficiale documenta riparazione, revisione, manutenzione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "lucca",
+        "posizione": {
+          "indirizzo": "Via Fillungo 20",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.chiocchetti1896.com/laboratorio/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-gioielleria-chiocchetti-lucca-1",
+              "n02-gioielleria-chiocchetti-lucca-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-gioielleria-chiocchetti-lucca-1",
+              "n02-gioielleria-chiocchetti-lucca-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-gioielleria-chiocchetti-lucca-1",
+              "n02-gioielleria-chiocchetti-lucca-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-chiocchetti-lucca-1",
+                "n02-gioielleria-chiocchetti-lucca-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-chiocchetti-lucca"
+        }
+      }
+    },
+    {
+      "id": "de-marco-belluno",
+      "nome": "De Marco",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-de-marco-belluno-1",
+        "n02-de-marco-belluno-2"
+      ],
+      "attivita": {
+        "id": "de-marco-belluno",
+        "slug": "de-marco-belluno",
+        "nome": "De Marco",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "De Marco a Belluno. La fonte ufficiale documenta riparazione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "belluno",
+        "posizione": {
+          "indirizzo": "Piazza Mazzini 3",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-de-marco-belluno-1",
+            "n02-de-marco-belluno-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.demarco-belluno.it/contatti/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-de-marco-belluno-1",
+            "n02-de-marco-belluno-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-de-marco-belluno-1",
+              "n02-de-marco-belluno-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-de-marco-belluno-1",
+            "n02-de-marco-belluno-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-de-marco-belluno-1",
+                "n02-de-marco-belluno-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "de-marco-belluno"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-orafi-italiani-rovigo",
+      "nome": "Gioielleria Orafi Italiani",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-orafi-italiani-rovigo-1",
+        "n02-gioielleria-orafi-italiani-rovigo-2"
+      ],
+      "attivita": {
+        "id": "gioielleria-orafi-italiani-rovigo",
+        "slug": "gioielleria-orafi-italiani-rovigo",
+        "nome": "Gioielleria Orafi Italiani",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria Orafi Italiani a Rovigo. La fonte ufficiale documenta riparazione, revisione, manutenzione, sostituzione batterie, sostituzione cinturini, assistenza.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rovigo",
+        "posizione": {
+          "indirizzo": "Viale Porta Adige 45G",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://orafiitaliani.it/laboratorio-gioielleria-orologeria/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-orafi-italiani-rovigo-1",
+                "n02-gioielleria-orafi-italiani-rovigo-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-orafi-italiani-rovigo"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-grande-frosinone",
+      "nome": "Gioielleria Grande",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-grande-frosinone-1",
+        "n02-gioielleria-grande-frosinone-2"
+      ],
+      "attivita": {
+        "id": "gioielleria-grande-frosinone",
+        "slug": "gioielleria-grande-frosinone",
+        "nome": "Gioielleria Grande",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria Grande a Frosinone. La fonte ufficiale documenta riparazione, manutenzione, revisione, sostituzione batterie, sostituzione cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "frosinone",
+        "posizione": {
+          "indirizzo": "Piazzale De Matthaeis 4",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.gioielleriagrande.it/centro-assistenza/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-grande-frosinone-1",
+                "n02-gioielleria-grande-frosinone-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-grande-frosinone"
+        }
+      }
+    },
+    {
+      "id": "bottega-watches-pistoia",
+      "nome": "Bottega Watches",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-bottega-watches-pistoia-1",
+        "n02-bottega-watches-pistoia-2"
+      ],
+      "attivita": {
+        "id": "bottega-watches-pistoia",
+        "slug": "bottega-watches-pistoia",
+        "nome": "Bottega Watches",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Bottega Watches a Pistoia. La fonte ufficiale documenta riparazione, revisione, lucidatura, restauro di orologi d’epoca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pistoia",
+        "posizione": {
+          "indirizzo": "Piazza San Francesco d’Assisi 50",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://bottegawatches.com/laboratorio",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-bottega-watches-pistoia-1",
+                "n02-bottega-watches-pistoia-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "bottega-watches-pistoia"
+        }
+      }
+    }
+  ]
+}
