@@ -1,0 +1,421 @@
+{
+  "lotto": "national02-d",
+  "data": "2026-10-23",
+  "fonti": [
+    {
+      "id": "n02-birbio-gioielli-siracusa-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orobirbio.com/vendita-orologi-a-siracusa/",
+      "titolo": "Birbio Gioielli — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta: vendita orologi contemporanei e vintage, Corso Umberto I 67, 96100 Siracusa. Revisione descritta sui propri pezzi vintage in vendita: NON assegnata come servizio generale al pubblico."
+    },
+    {
+      "id": "n02-martines-gioielleria-canicatti-canicatti-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
+      "titolo": "Martines Gioielleria — Canicattì — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Servizi letti: vendita orologi e laboratorio accanto alla boutique Piazza IV Novembre 13 Canicattì, cura/manutenzione Rolex e altri marchi. CAP documentato nella pagina privacy. Nessuna autorizzazione ufficiale assegnata dal solo sito attività."
+    },
+    {
+      "id": "n02-martines-gioielleria-canicatti-canicatti-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamartines.it/privacy.html",
+      "titolo": "Martines Gioielleria — Canicattì — fonte 2",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Servizi letti: vendita orologi e laboratorio accanto alla boutique Piazza IV Novembre 13 Canicattì, cura/manutenzione Rolex e altri marchi. CAP documentato nella pagina privacy. Nessuna autorizzazione ufficiale assegnata dal solo sito attività."
+    },
+    {
+      "id": "n02-mirolli-grosseto-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://mirolli.it/rolex/contatti/",
+      "titolo": "Mirolli — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta: sede Piazza Monte dei Paschi 6, 58100 Grosseto; vendita nuovi e secondo polso, manutenzione e revisione completa. Nessuna autorizzazione assegnata senza fonte produttore. Diverso indirizzo Corso Carducci del locator Hamilton: NON uniti automaticamente né creata seconda sede."
+    }
+  ],
+  "localita": [
+    {
+      "id": "siracusa",
+      "comune": "Siracusa",
+      "comuneSlug": "siracusa",
+      "provincia": "Siracusa",
+      "provinciaSlug": "siracusa",
+      "siglaProvincia": "SR",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "089017",
+      "descrizione": "Siracusa: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-birbio-gioielli-siracusa-1"
+      ]
+    },
+    {
+      "id": "canicatti",
+      "comune": "Canicattì",
+      "comuneSlug": "canicatti",
+      "provincia": "Agrigento",
+      "provinciaSlug": "agrigento",
+      "siglaProvincia": "AG",
+      "regione": "Sicilia",
+      "regioneSlug": "sicilia",
+      "codiceIstat": "084011",
+      "descrizione": "Canicattì: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-martines-gioielleria-canicatti-canicatti-1",
+        "n02-martines-gioielleria-canicatti-canicatti-2"
+      ]
+    },
+    {
+      "id": "grosseto",
+      "comune": "Grosseto",
+      "comuneSlug": "grosseto",
+      "provincia": "Grosseto",
+      "provinciaSlug": "grosseto",
+      "siglaProvincia": "GR",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "053011",
+      "descrizione": "Grosseto: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-mirolli-grosseto-1"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "birbio-gioielli-siracusa",
+      "nome": "Birbio Gioielli",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-birbio-gioielli-siracusa-1"
+      ],
+      "attivita": {
+        "id": "birbio-gioielli-siracusa",
+        "slug": "birbio-gioielli-siracusa",
+        "nome": "Birbio Gioielli",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Birbio Gioielli a Siracusa. La fonte ufficiale documenta vendita di orologi, vendita di orologi usati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "siracusa",
+        "posizione": {
+          "indirizzo": "Corso Umberto I 67",
+          "cap": "96100",
+          "coordinate": null,
+          "fonti": [
+            "n02-birbio-gioielli-siracusa-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.orobirbio.com/vendita-orologi-a-siracusa/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-birbio-gioielli-siracusa-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-birbio-gioielli-siracusa-1"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "n02-birbio-gioielli-siracusa-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-birbio-gioielli-siracusa-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-birbio-gioielli-siracusa-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "birbio-gioielli-siracusa"
+        }
+      }
+    },
+    {
+      "id": "martines-gioielleria-canicatti-canicatti",
+      "nome": "Martines Gioielleria — Canicattì",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-martines-gioielleria-canicatti-canicatti-1",
+        "n02-martines-gioielleria-canicatti-canicatti-2"
+      ],
+      "attivita": {
+        "id": "martines-gioielleria-canicatti-canicatti",
+        "slug": "martines-gioielleria-canicatti-canicatti",
+        "nome": "Martines Gioielleria — Canicattì",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Martines Gioielleria — Canicattì a Canicattì. La fonte ufficiale documenta vendita di orologi, manutenzione, assistenza.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "canicatti",
+        "posizione": {
+          "indirizzo": "Piazza IV Novembre 13",
+          "cap": "92024",
+          "coordinate": null,
+          "fonti": [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-martines-gioielleria-canicatti-canicatti-1",
+              "n02-martines-gioielleria-canicatti-canicatti-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-martines-gioielleria-canicatti-canicatti-1",
+              "n02-martines-gioielleria-canicatti-canicatti-2"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-martines-gioielleria-canicatti-canicatti-1",
+              "n02-martines-gioielleria-canicatti-canicatti-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-martines-gioielleria-canicatti-canicatti-1",
+                "n02-martines-gioielleria-canicatti-canicatti-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "martines-gioielleria-canicatti-canicatti"
+        }
+      }
+    },
+    {
+      "id": "mirolli-grosseto",
+      "nome": "Mirolli",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-mirolli-grosseto-1"
+      ],
+      "attivita": {
+        "id": "mirolli-grosseto",
+        "slug": "mirolli-grosseto",
+        "nome": "Mirolli",
+        "tipi": [
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Mirolli a Grosseto. La fonte ufficiale documenta vendita di orologi, vendita di orologi usati, manutenzione, revisione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "grosseto",
+        "posizione": {
+          "indirizzo": "Piazza Monte dei Paschi 6",
+          "cap": "58100",
+          "coordinate": null,
+          "fonti": [
+            "n02-mirolli-grosseto-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://mirolli.it/rolex/contatti/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-mirolli-grosseto-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-mirolli-grosseto-1"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "n02-mirolli-grosseto-1"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "n02-mirolli-grosseto-1"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "n02-mirolli-grosseto-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-mirolli-grosseto-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-mirolli-grosseto-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "mirolli-grosseto"
+        }
+      }
+    }
+  ]
+}

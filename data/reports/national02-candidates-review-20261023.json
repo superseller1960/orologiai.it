@@ -1,0 +1,21 @@
+{
+  "data": "2026-10-23",
+  "nota": "Registro di revisione non caricato dall'applicazione. Nessun candidato qui elencato è una nuova scheda pubblicata da national02.",
+  "candidati": [
+    {"nome":"Satolli — Pescara","stato":"da-approfondire","motivo":"Già rinviato nella PR5; patch territoriali 28–31 non disponibili in questa copia. Non ricreato."},
+    {"nome":"Digiesi — Matera","stato":"da-approfondire","motivo":"Già rinviato nella PR5; patch mancanti, nessuna ricostruzione automatica."},
+    {"nome":"Clementi — Bolzano","stato":"da-approfondire","motivo":"Già rinviato nella PR5; patch mancanti, nessuna ricostruzione automatica."},
+    {"nome":"Dobner — Gorizia","stato":"da-approfondire","motivo":"Già rinviato nella PR5; patch mancanti, nessuna ricostruzione automatica."},
+    {"nome":"Orologi il Collezionista — Pordenone","stato":"non-pubblicabile","motivo":"Dubbi sui termini di riutilizzo già registrati nella PR5; nessuna nuova autorizzazione legale ottenuta."},
+    {"nome":"Gioielleria Cichetti","stato":"da-approfondire","url":"https://www.hamiltonwatch.com/it-it/store-locator/italia/abruzzo/teramo/gioielleria-cichetti","motivo":"Pagina produttore letta: etichetta Teramo ma CAP 64011 e indirizzo da verificare amministrativamente. Non assegnato automaticamente al comune capoluogo."},
+    {"nome":"Gioielli Rossetti","stato":"da-approfondire","url":"https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/avellino/gioielli-rossetti","motivo":"Pagina produttore letta: etichetta Avellino e CAP 83035; comune effettivo non confermato. Non integrato."},
+    {"nome":"Artigiani Orafi Associati","stato":"da-approfondire","url":"https://www.hamiltonwatch.com/en-sg/store-locator/italy/veneto/venezia/artigiani-orafi-associati","motivo":"Locator indica Venezia ma CAP 30030; comune amministrativo non confermato."},
+    {"nome":"Orologeria Burrascano","stato":"da-approfondire","url":"https://gioielleriaburrascano.it/riparazione-orologi/","motivo":"Servizi documentati a livello azienda ma laboratorio non associato a una delle tre sedi; evitare servizi attribuiti indistintamente alle filiali."},
+    {"nome":"Gioielleria Marino Nicola","stato":"da-approfondire","url":"https://www.gioielleriamarino.com/orologi.html","motivo":"CAP contraddittorio e dettaglio interventi tecnici insufficiente; non incluso nel lotto attuale."},
+    {"nome":"Time Lab — Fiuggi","stato":"da-approfondire","url":"https://www.timelabfiuggi.it/","motivo":"Servizi pertinenti, ma via e civico non verificati nella pagina letta."},
+    {"nome":"L’Orologiaio — Taranto","stato":"da-approfondire","url":"https://orologiaiostore.it/riparazioni-orologi-taranto/","motivo":"Servizi pertinenti, indirizzo completo non verificato."},
+    {"nome":"Laboratorio Orologiaio SRL — Marcianise","stato":"da-approfondire","url":"https://tari.it/azienda/laboratorio-orologiaio-srl/","motivo":"Sede generale al Tarì documentata, ma indirizzo completo/unità non verificati."},
+    {"nome":"Biondi — Vercelli; Clivio — Verbania; Dutto Livio — Cuneo; Astrua — Piacenza; Ferrari — Reggio Emilia","stato":"da-approfondire","motivo":"Lettura ufficiale non sufficiente a confermare insieme indirizzo completo e servizi; non inseriti da soli snippet."},
+    {"nome":"TG Electronic; Fix3; RAEM; Esse Music; In Out; TecnicaMarchetti; Velostazione; Gi.Elle Bike; C.B. Motor; Satel; Punto-e; SETI; CATRE; AM System","stato":"non-pertinente","motivo":"Risultati delegati non relativi a orologeria: elettronica, biciclette, informatica o elettrodomestici. Scartati integralmente prima di qualsiasi importazione."}
+  ]
+}

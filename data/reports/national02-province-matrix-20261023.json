@@ -145,7 +145,7 @@
       "regione": "Campania",
       "sigla": "CE",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -185,7 +185,7 @@
       "regione": "Emilia-Romagna",
       "sigla": "FE",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -195,7 +195,7 @@
       "regione": "Emilia-Romagna",
       "sigla": "FC",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -205,7 +205,7 @@
       "regione": "Emilia-Romagna",
       "sigla": "MO",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -235,7 +235,7 @@
       "regione": "Emilia-Romagna",
       "sigla": "RA",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -305,9 +305,9 @@
       "regione": "Lazio",
       "sigla": "FR",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "059",
@@ -325,7 +325,7 @@
       "regione": "Lazio",
       "sigla": "RI",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -415,9 +415,9 @@
       "regione": "Lombardia",
       "sigla": "CO",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "019",
@@ -425,7 +425,7 @@
       "regione": "Lombardia",
       "sigla": "CR",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -435,7 +435,7 @@
       "regione": "Lombardia",
       "sigla": "LC",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -455,9 +455,9 @@
       "regione": "Lombardia",
       "sigla": "MN",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "215",
@@ -475,7 +475,7 @@
       "regione": "Lombardia",
       "sigla": "MB",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -485,7 +485,7 @@
       "regione": "Lombardia",
       "sigla": "PV",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -495,7 +495,7 @@
       "regione": "Lombardia",
       "sigla": "SO",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -505,7 +505,7 @@
       "regione": "Lombardia",
       "sigla": "VA",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -515,7 +515,7 @@
       "regione": "Marche",
       "sigla": "AN",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -595,7 +595,7 @@
       "regione": "Piemonte",
       "sigla": "AT",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -625,9 +625,9 @@
       "regione": "Piemonte",
       "sigla": "NO",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "201",
@@ -645,7 +645,7 @@
       "regione": "Piemonte",
       "sigla": "VB",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -655,7 +655,7 @@
       "regione": "Piemonte",
       "sigla": "VC",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -705,7 +705,7 @@
       "regione": "Puglia",
       "sigla": "LE",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -785,9 +785,9 @@
       "regione": "Sardegna",
       "sigla": "SS",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "119",
@@ -805,9 +805,9 @@
       "regione": "Sicilia",
       "sigla": "AG",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "085",
@@ -825,9 +825,9 @@
       "regione": "Sicilia",
       "sigla": "CT",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 3,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 3
     },
     {
       "codice": "086",
@@ -835,9 +835,9 @@
       "regione": "Sicilia",
       "sigla": "EN",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "283",
@@ -845,9 +845,9 @@
       "regione": "Sicilia",
       "sigla": "ME",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "282",
@@ -875,7 +875,7 @@
       "regione": "Sicilia",
       "sigla": "SR",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -885,9 +885,9 @@
       "regione": "Sicilia",
       "sigla": "TP",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "051",
@@ -915,9 +915,9 @@
       "regione": "Toscana",
       "sigla": "GR",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "049",
@@ -925,7 +925,7 @@
       "regione": "Toscana",
       "sigla": "LI",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -935,9 +935,9 @@
       "regione": "Toscana",
       "sigla": "LU",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 3,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 2
     },
     {
       "codice": "045",
@@ -945,9 +945,9 @@
       "regione": "Toscana",
       "sigla": "MS",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "050",
@@ -965,9 +965,9 @@
       "regione": "Toscana",
       "sigla": "PT",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "100",
@@ -1035,7 +1035,7 @@
       "regione": "Valle d'Aosta/Vallée d'Aoste",
       "sigla": "AO",
       "attivitaIniziali": 1,
-      "attivitaFinali": 1,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -1045,9 +1045,9 @@
       "regione": "Veneto",
       "sigla": "BL",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "028",
@@ -1065,9 +1065,9 @@
       "regione": "Veneto",
       "sigla": "RO",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
-      "laboratoriFinali": 0
+      "laboratoriFinali": 1
     },
     {
       "codice": "026",
@@ -1075,7 +1075,7 @@
       "regione": "Veneto",
       "sigla": "TV",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -1085,7 +1085,7 @@
       "regione": "Veneto",
       "sigla": "VE",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 1,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },
@@ -1095,7 +1095,7 @@
       "regione": "Veneto",
       "sigla": "VR",
       "attivitaIniziali": 0,
-      "attivitaFinali": 0,
+      "attivitaFinali": 2,
       "laboratoriIniziali": 0,
       "laboratoriFinali": 0
     },

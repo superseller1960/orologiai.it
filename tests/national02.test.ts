@@ -10,7 +10,7 @@ import { searchDirectory, type SearchFilters } from '../site/src/lib/search.ts';
 
 const base = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '2a207dfd006c2729c774743889888c5e736e3f25:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString()));
 const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8')));
-const letters = ['a', 'b', 'c'].filter(k => existsSync(`data/reports/national02-${k}-applied.json`));
+const letters = ['a', 'b', 'c', 'd'].filter(k => existsSync(`data/reports/national02-${k}-applied.json`));
 const batches = letters.map(k => JSON.parse(readFileSync(`data/import/national02-${k}-reviewed.json`, 'utf8')));
 const fresh = data.attivita.filter(b => !base.attivita.some(x => x.id === b.id));
 const found = (f: SearchFilters) => searchDirectory(data, f).map(r => r.business.id);

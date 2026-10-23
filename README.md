@@ -1,6 +1,6 @@
 # Orologiai.it — directory dei professionisti del tempo
 
-Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. Il dataset pubblicato copre tutte le **20 regioni italiane** con **106 attività in 61 località** e **174 fonti** (conteggi aggiornati ricavabili da `site/data/directory.json`). **La copertura di tutte le regioni non è un censimento completo dell'Italia**: una ricerca in una località non presente nel dataset non può mostrare attività verificate, e non vengono creati elenchi vuoti o attività inventate.
+Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. Il dataset pubblicato copre tutte le **20 regioni italiane** con **155 attività in 101 località** e **236 fonti** (conteggi aggiornati ricavabili da `site/data/directory.json`). **La copertura di tutte le regioni non è un censimento completo dell'Italia**: una ricerca in una località non presente nel dataset non può mostrare attività verificate, e non vengono creati elenchi vuoti o attività inventate.
 
 ## Funzioni
 
