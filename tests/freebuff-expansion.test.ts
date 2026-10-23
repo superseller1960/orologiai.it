@@ -8,7 +8,8 @@ import { findDuplicates } from '../site/src/lib/duplicates.ts';
 import { searchDirectory, type SearchFilters } from '../site/src/lib/search.ts';
 
 const base = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '71e47a536344cd337e68761dcf58cbfe6b4dcb8f:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString()));
-const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8')));
+// Il lotto storico FB23 si verifica sul proprio snapshot; i lotti successivi hanno test di conservazione separati.
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '2a207dfd006c2729c774743889888c5e736e3f25:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString()));
 const batch = JSON.parse(readFileSync('data/import/freebuff-national-20261023-reviewed.json', 'utf8'));
 const ids = ['magie-in-oro-chieti', 'lombardi-ercolino-isernia', 'fenocchi-san-benedetto-del-tronto'];
 const found = (f: SearchFilters) => searchDirectory(data, f).map(r => r.business.id);

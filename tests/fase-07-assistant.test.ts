@@ -26,7 +26,7 @@ test('07A: caratteristiche dell’orologio non sono interpretate come comuni', (
 });
 
 test('07A: un rivenditore ufficiale presente non riceve un messaggio di assenza', () => {
-  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale' });
+  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale' }, { limite: dir.attivita.length });
   assert.ok(r.risultati.some(b => b.id === 'massari-campi'));
   assert.ok(!r.messaggi.some(m => /Non risulta|non autorizzat/i.test(m)));
   assert.deepEqual(r.alternative, []);
@@ -36,7 +36,7 @@ test('07A: un centro ufficiale presente non riceve alternative generiche (fixtur
   const fixture = structuredClone(dir);
   const b = fixture.attivita.find(b => b.id === 'massari-campi')!;
   b.marchi.assistenzaUfficiale = structuredClone(b.marchi.rivenditaUfficiale);
-  const r = cercaOrologiaio(fixture, { marca: 'Hamilton', ruoloMarca: 'assistenzaUfficiale' });
+  const r = cercaOrologiaio(fixture, { marca: 'Hamilton', ruoloMarca: 'assistenzaUfficiale' }, { limite: fixture.attivita.length });
   assert.equal(r.stato, 'ok');
   assert.ok(r.risultati.some(x => x.id === b.id));
   assert.deepEqual(r.messaggi, []);

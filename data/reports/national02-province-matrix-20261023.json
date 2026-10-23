@@ -1,0 +1,1113 @@
+{
+  "fonte": "https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.xlsx",
+  "paginaFonte": "https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/",
+  "consultataIl": "2026-10-23",
+  "aggiornamentoDichiarato": "2026-02-21",
+  "sha256": "83842076860450f7e482daecea6b7a769f5f93d0bf5b0d48802b44896d7a26d5",
+  "comuni": 7894,
+  "unitaSovracomunali": 110,
+  "base": "2a207dfd006c2729c774743889888c5e736e3f25",
+  "nota": "Join per nome italiano normalizzato; alias esplicito Reggio Calabria -> Reggio di Calabria. Olbia-Tempio -> Gallura Nord-Est Sardegna solo nel report corrente: record storici invariati. Nessun comune non associato.",
+  "province": [
+    {
+      "codice": "069",
+      "provincia": "Chieti",
+      "regione": "Abruzzo",
+      "sigla": "CH",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "066",
+      "provincia": "L'Aquila",
+      "regione": "Abruzzo",
+      "sigla": "AQ",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "068",
+      "provincia": "Pescara",
+      "regione": "Abruzzo",
+      "sigla": "PE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "067",
+      "provincia": "Teramo",
+      "regione": "Abruzzo",
+      "sigla": "TE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "077",
+      "provincia": "Matera",
+      "regione": "Basilicata",
+      "sigla": "MT",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "076",
+      "provincia": "Potenza",
+      "regione": "Basilicata",
+      "sigla": "PZ",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "079",
+      "provincia": "Catanzaro",
+      "regione": "Calabria",
+      "sigla": "CZ",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "078",
+      "provincia": "Cosenza",
+      "regione": "Calabria",
+      "sigla": "CS",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "101",
+      "provincia": "Crotone",
+      "regione": "Calabria",
+      "sigla": "KR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "280",
+      "provincia": "Reggio Calabria",
+      "regione": "Calabria",
+      "sigla": "RC",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "102",
+      "provincia": "Vibo Valentia",
+      "regione": "Calabria",
+      "sigla": "VV",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "064",
+      "provincia": "Avellino",
+      "regione": "Campania",
+      "sigla": "AV",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "062",
+      "provincia": "Benevento",
+      "regione": "Campania",
+      "sigla": "BN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "061",
+      "provincia": "Caserta",
+      "regione": "Campania",
+      "sigla": "CE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "263",
+      "provincia": "Napoli",
+      "regione": "Campania",
+      "sigla": "NA",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 3,
+      "laboratoriFinali": 3
+    },
+    {
+      "codice": "065",
+      "provincia": "Salerno",
+      "regione": "Campania",
+      "sigla": "SA",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "237",
+      "provincia": "Bologna",
+      "regione": "Emilia-Romagna",
+      "sigla": "BO",
+      "attivitaIniziali": 3,
+      "attivitaFinali": 3,
+      "laboratoriIniziali": 2,
+      "laboratoriFinali": 2
+    },
+    {
+      "codice": "038",
+      "provincia": "Ferrara",
+      "regione": "Emilia-Romagna",
+      "sigla": "FE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "040",
+      "provincia": "Forlì-Cesena",
+      "regione": "Emilia-Romagna",
+      "sigla": "FC",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "036",
+      "provincia": "Modena",
+      "regione": "Emilia-Romagna",
+      "sigla": "MO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "034",
+      "provincia": "Parma",
+      "regione": "Emilia-Romagna",
+      "sigla": "PR",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "033",
+      "provincia": "Piacenza",
+      "regione": "Emilia-Romagna",
+      "sigla": "PC",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "039",
+      "provincia": "Ravenna",
+      "regione": "Emilia-Romagna",
+      "sigla": "RA",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "035",
+      "provincia": "Reggio nell'Emilia",
+      "regione": "Emilia-Romagna",
+      "sigla": "RE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "099",
+      "provincia": "Rimini",
+      "regione": "Emilia-Romagna",
+      "sigla": "RN",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "031",
+      "provincia": "Gorizia",
+      "regione": "Friuli-Venezia Giulia",
+      "sigla": "GO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "093",
+      "provincia": "Pordenone",
+      "regione": "Friuli-Venezia Giulia",
+      "sigla": "PN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "032",
+      "provincia": "Trieste",
+      "regione": "Friuli-Venezia Giulia",
+      "sigla": "TS",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "030",
+      "provincia": "Udine",
+      "regione": "Friuli-Venezia Giulia",
+      "sigla": "UD",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "060",
+      "provincia": "Frosinone",
+      "regione": "Lazio",
+      "sigla": "FR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "059",
+      "provincia": "Latina",
+      "regione": "Lazio",
+      "sigla": "LT",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "057",
+      "provincia": "Rieti",
+      "regione": "Lazio",
+      "sigla": "RI",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "258",
+      "provincia": "Roma",
+      "regione": "Lazio",
+      "sigla": "RM",
+      "attivitaIniziali": 6,
+      "attivitaFinali": 6,
+      "laboratoriIniziali": 5,
+      "laboratoriFinali": 5
+    },
+    {
+      "codice": "056",
+      "provincia": "Viterbo",
+      "regione": "Lazio",
+      "sigla": "VT",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 4,
+      "laboratoriFinali": 4
+    },
+    {
+      "codice": "210",
+      "provincia": "Genova",
+      "regione": "Liguria",
+      "sigla": "GE",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 2,
+      "laboratoriFinali": 2
+    },
+    {
+      "codice": "008",
+      "provincia": "Imperia",
+      "regione": "Liguria",
+      "sigla": "IM",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "011",
+      "provincia": "La Spezia",
+      "regione": "Liguria",
+      "sigla": "SP",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "009",
+      "provincia": "Savona",
+      "regione": "Liguria",
+      "sigla": "SV",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "016",
+      "provincia": "Bergamo",
+      "regione": "Lombardia",
+      "sigla": "BG",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "017",
+      "provincia": "Brescia",
+      "regione": "Lombardia",
+      "sigla": "BS",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "013",
+      "provincia": "Como",
+      "regione": "Lombardia",
+      "sigla": "CO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "019",
+      "provincia": "Cremona",
+      "regione": "Lombardia",
+      "sigla": "CR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "097",
+      "provincia": "Lecco",
+      "regione": "Lombardia",
+      "sigla": "LC",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "098",
+      "provincia": "Lodi",
+      "regione": "Lombardia",
+      "sigla": "LO",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "020",
+      "provincia": "Mantova",
+      "regione": "Lombardia",
+      "sigla": "MN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "215",
+      "provincia": "Milano",
+      "regione": "Lombardia",
+      "sigla": "MI",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "108",
+      "provincia": "Monza e della Brianza",
+      "regione": "Lombardia",
+      "sigla": "MB",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "018",
+      "provincia": "Pavia",
+      "regione": "Lombardia",
+      "sigla": "PV",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "014",
+      "provincia": "Sondrio",
+      "regione": "Lombardia",
+      "sigla": "SO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "012",
+      "provincia": "Varese",
+      "regione": "Lombardia",
+      "sigla": "VA",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "042",
+      "provincia": "Ancona",
+      "regione": "Marche",
+      "sigla": "AN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "044",
+      "provincia": "Ascoli Piceno",
+      "regione": "Marche",
+      "sigla": "AP",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "109",
+      "provincia": "Fermo",
+      "regione": "Marche",
+      "sigla": "FM",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "043",
+      "provincia": "Macerata",
+      "regione": "Marche",
+      "sigla": "MC",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "041",
+      "provincia": "Pesaro e Urbino",
+      "regione": "Marche",
+      "sigla": "PU",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "070",
+      "provincia": "Campobasso",
+      "regione": "Molise",
+      "sigla": "CB",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "094",
+      "provincia": "Isernia",
+      "regione": "Molise",
+      "sigla": "IS",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "006",
+      "provincia": "Alessandria",
+      "regione": "Piemonte",
+      "sigla": "AL",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "005",
+      "provincia": "Asti",
+      "regione": "Piemonte",
+      "sigla": "AT",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "096",
+      "provincia": "Biella",
+      "regione": "Piemonte",
+      "sigla": "BI",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "004",
+      "provincia": "Cuneo",
+      "regione": "Piemonte",
+      "sigla": "CN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "003",
+      "provincia": "Novara",
+      "regione": "Piemonte",
+      "sigla": "NO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "201",
+      "provincia": "Torino",
+      "regione": "Piemonte",
+      "sigla": "TO",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 4,
+      "laboratoriFinali": 4
+    },
+    {
+      "codice": "103",
+      "provincia": "Verbano-Cusio-Ossola",
+      "regione": "Piemonte",
+      "sigla": "VB",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "002",
+      "provincia": "Vercelli",
+      "regione": "Piemonte",
+      "sigla": "VC",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "272",
+      "provincia": "Bari",
+      "regione": "Puglia",
+      "sigla": "BA",
+      "attivitaIniziali": 3,
+      "attivitaFinali": 3,
+      "laboratoriIniziali": 3,
+      "laboratoriFinali": 3
+    },
+    {
+      "codice": "110",
+      "provincia": "Barletta-Andria-Trani",
+      "regione": "Puglia",
+      "sigla": "BT",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "074",
+      "provincia": "Brindisi",
+      "regione": "Puglia",
+      "sigla": "BR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "071",
+      "provincia": "Foggia",
+      "regione": "Puglia",
+      "sigla": "FG",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "075",
+      "provincia": "Lecce",
+      "regione": "Puglia",
+      "sigla": "LE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "073",
+      "provincia": "Taranto",
+      "regione": "Puglia",
+      "sigla": "TA",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "318",
+      "provincia": "Cagliari",
+      "regione": "Sardegna",
+      "sigla": "CA",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "113",
+      "provincia": "Gallura Nord-Est Sardegna",
+      "regione": "Sardegna",
+      "sigla": "OT",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "117",
+      "provincia": "Medio Campidano",
+      "regione": "Sardegna",
+      "sigla": "VS",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "114",
+      "provincia": "Nuoro",
+      "regione": "Sardegna",
+      "sigla": "NU",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "116",
+      "provincia": "Ogliastra",
+      "regione": "Sardegna",
+      "sigla": "OG",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "115",
+      "provincia": "Oristano",
+      "regione": "Sardegna",
+      "sigla": "OR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "312",
+      "provincia": "Sassari",
+      "regione": "Sardegna",
+      "sigla": "SS",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "119",
+      "provincia": "Sulcis Iglesiente",
+      "regione": "Sardegna",
+      "sigla": "CI",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "084",
+      "provincia": "Agrigento",
+      "regione": "Sicilia",
+      "sigla": "AG",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "085",
+      "provincia": "Caltanissetta",
+      "regione": "Sicilia",
+      "sigla": "CL",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "287",
+      "provincia": "Catania",
+      "regione": "Sicilia",
+      "sigla": "CT",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "086",
+      "provincia": "Enna",
+      "regione": "Sicilia",
+      "sigla": "EN",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "283",
+      "provincia": "Messina",
+      "regione": "Sicilia",
+      "sigla": "ME",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "282",
+      "provincia": "Palermo",
+      "regione": "Sicilia",
+      "sigla": "PA",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 4,
+      "laboratoriFinali": 4
+    },
+    {
+      "codice": "088",
+      "provincia": "Ragusa",
+      "regione": "Sicilia",
+      "sigla": "RG",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "089",
+      "provincia": "Siracusa",
+      "regione": "Sicilia",
+      "sigla": "SR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "081",
+      "provincia": "Trapani",
+      "regione": "Sicilia",
+      "sigla": "TP",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "051",
+      "provincia": "Arezzo",
+      "regione": "Toscana",
+      "sigla": "AR",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "248",
+      "provincia": "Firenze",
+      "regione": "Toscana",
+      "sigla": "FI",
+      "attivitaIniziali": 26,
+      "attivitaFinali": 26,
+      "laboratoriIniziali": 5,
+      "laboratoriFinali": 5
+    },
+    {
+      "codice": "053",
+      "provincia": "Grosseto",
+      "regione": "Toscana",
+      "sigla": "GR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "049",
+      "provincia": "Livorno",
+      "regione": "Toscana",
+      "sigla": "LI",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "046",
+      "provincia": "Lucca",
+      "regione": "Toscana",
+      "sigla": "LU",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "045",
+      "provincia": "Massa-Carrara",
+      "regione": "Toscana",
+      "sigla": "MS",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "050",
+      "provincia": "Pisa",
+      "regione": "Toscana",
+      "sigla": "PI",
+      "attivitaIniziali": 4,
+      "attivitaFinali": 4,
+      "laboratoriIniziali": 2,
+      "laboratoriFinali": 2
+    },
+    {
+      "codice": "047",
+      "provincia": "Pistoia",
+      "regione": "Toscana",
+      "sigla": "PT",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "100",
+      "provincia": "Prato",
+      "regione": "Toscana",
+      "sigla": "PO",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "052",
+      "provincia": "Siena",
+      "regione": "Toscana",
+      "sigla": "SI",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "021",
+      "provincia": "Bolzano/Bozen",
+      "regione": "Trentino-Alto Adige/Südtirol",
+      "sigla": "BZ",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "022",
+      "provincia": "Trento",
+      "regione": "Trentino-Alto Adige/Südtirol",
+      "sigla": "TN",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "054",
+      "provincia": "Perugia",
+      "regione": "Umbria",
+      "sigla": "PG",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "055",
+      "provincia": "Terni",
+      "regione": "Umbria",
+      "sigla": "TR",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "007",
+      "provincia": "Valle d'Aosta/Vallée d'Aoste",
+      "regione": "Valle d'Aosta/Vallée d'Aoste",
+      "sigla": "AO",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "025",
+      "provincia": "Belluno",
+      "regione": "Veneto",
+      "sigla": "BL",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "028",
+      "provincia": "Padova",
+      "regione": "Veneto",
+      "sigla": "PD",
+      "attivitaIniziali": 1,
+      "attivitaFinali": 1,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    },
+    {
+      "codice": "029",
+      "provincia": "Rovigo",
+      "regione": "Veneto",
+      "sigla": "RO",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "026",
+      "provincia": "Treviso",
+      "regione": "Veneto",
+      "sigla": "TV",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "227",
+      "provincia": "Venezia",
+      "regione": "Veneto",
+      "sigla": "VE",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "023",
+      "provincia": "Verona",
+      "regione": "Veneto",
+      "sigla": "VR",
+      "attivitaIniziali": 0,
+      "attivitaFinali": 0,
+      "laboratoriIniziali": 0,
+      "laboratoriFinali": 0
+    },
+    {
+      "codice": "024",
+      "provincia": "Vicenza",
+      "regione": "Veneto",
+      "sigla": "VI",
+      "attivitaIniziali": 2,
+      "attivitaFinali": 2,
+      "laboratoriIniziali": 1,
+      "laboratoriFinali": 1
+    }
+  ]
+}
