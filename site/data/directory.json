@@ -1566,6 +1566,105 @@
       "consultataIl": "2026-10-23",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "cg23-satolli-pescara-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/dove-siamo/",
+      "titolo": "Satolli — sede e recapiti",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-satolli-pescara-assistenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/assistenza/",
+      "titolo": "Satolli — assistenza e interventi",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-digiesi-matera-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriadigiesi.it/",
+      "titolo": "Digiesi — sede e presentazione",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-digiesi-matera-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriadigiesi.it/servizi/",
+      "titolo": "Digiesi — assistenza e manutenzione",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-clementi-bolzano-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/infoline/",
+      "titolo": "Clementi — sede e contatti",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-clementi-bolzano-revisione",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/revisione-e-restauro/",
+      "titolo": "Clementi — revisione e restauro",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-clementi-bolzano-parti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/costruzione-parti/",
+      "titolo": "Clementi — ricostruzione parti",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-clementi-bolzano-pile",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/cambio-cinturini-e-pile/",
+      "titolo": "Clementi — pile e cinturini",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-clementi-bolzano-lucidatura",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/lucidatura-casse/",
+      "titolo": "Clementi — lucidatura",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-dobner-gorizia-sede",
+      "tipo": "sito-ufficiale",
+      "url": "https://dobner.it/it/negozi/dobner-gorizia/",
+      "titolo": "Dobner — sede di Gorizia",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "cg23-dobner-gorizia-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://dobner.it/it/laboratorio/",
+      "titolo": "Dobner — laboratorio e revisione",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -2523,6 +2622,66 @@
       "descrizione": "San Benedetto del Tronto: attività di orologeria censite con servizi documentati e fonti consultabili.",
       "fonti": [
         "fb23-fenocchi-contatti"
+      ]
+    },
+    {
+      "id": "pescara",
+      "comune": "Pescara",
+      "comuneSlug": "pescara",
+      "provincia": "Pescara",
+      "provinciaSlug": "pescara",
+      "siglaProvincia": "PE",
+      "regione": "Abruzzo",
+      "regioneSlug": "abruzzo",
+      "codiceIstat": null,
+      "descrizione": "Pescara: attività di orologeria censite con indirizzo e servizi documentati da fonti pubbliche primarie.",
+      "fonti": [
+        "cg23-satolli-pescara-sede"
+      ]
+    },
+    {
+      "id": "matera",
+      "comune": "Matera",
+      "comuneSlug": "matera",
+      "provincia": "Matera",
+      "provinciaSlug": "matera",
+      "siglaProvincia": "MT",
+      "regione": "Basilicata",
+      "regioneSlug": "basilicata",
+      "codiceIstat": null,
+      "descrizione": "Matera: attività di orologeria censite con indirizzo e servizi documentati da fonti pubbliche primarie.",
+      "fonti": [
+        "cg23-digiesi-matera-sede"
+      ]
+    },
+    {
+      "id": "bolzano",
+      "comune": "Bolzano",
+      "comuneSlug": "bolzano",
+      "provincia": "Bolzano",
+      "provinciaSlug": "bolzano",
+      "siglaProvincia": "BZ",
+      "regione": "Trentino-Alto Adige",
+      "regioneSlug": "trentino-alto-adige",
+      "codiceIstat": null,
+      "descrizione": "Bolzano: attività di orologeria censite con indirizzo e servizi documentati da fonti pubbliche primarie.",
+      "fonti": [
+        "cg23-clementi-bolzano-sede"
+      ]
+    },
+    {
+      "id": "gorizia",
+      "comune": "Gorizia",
+      "comuneSlug": "gorizia",
+      "provincia": "Gorizia",
+      "provinciaSlug": "gorizia",
+      "siglaProvincia": "GO",
+      "regione": "Friuli-Venezia Giulia",
+      "regioneSlug": "friuli-venezia-giulia",
+      "codiceIstat": null,
+      "descrizione": "Gorizia: attività di orologeria censite con indirizzo e servizi documentati da fonti pubbliche primarie.",
+      "fonti": [
+        "cg23-dobner-gorizia-sede"
       ]
     }
   ],
@@ -16434,6 +16593,475 @@
       "origine": {
         "sistema": "ricerca-ufficiale-freebuff-20261023",
         "idOriginale": "fenocchi-san-benedetto-del-tronto"
+      }
+    },
+    {
+      "id": "satolli-pescara",
+      "slug": "satolli-pescara",
+      "nome": "Orologeria Satolli",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Orologeria a Pescara con attività di assistenza, revisione e riparazione di orologi. Il laboratorio dichiara interventi anche su orologi antichi, da tasca e da parete; le autorizzazioni ai marchi non sono qui considerate confermate dai produttori.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "pescara",
+      "posizione": {
+        "indirizzo": "Via Galileo Galilei 8/1",
+        "cap": "65122",
+        "coordinate": null,
+        "fonti": [
+          "cg23-satolli-pescara-sede"
+        ]
+      },
+      "contatti": {
+        "telefono": "085.4212934",
+        "email": null,
+        "sito": "https://www.orologeriasatolli.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "cg23-satolli-pescara-sede"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "cg23-satolli-pescara-assistenza"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "cg23-satolli-pescara-assistenza"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "cg23-satolli-pescara-assistenza"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "cg23-satolli-pescara-assistenza"
+          ]
+        },
+        {
+          "id": "orologi-tasca",
+          "fonti": [
+            "cg23-satolli-pescara-assistenza"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-23",
+        "verificataIl": "2026-10-23",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "cg23-satolli-pescara-sede",
+          "cg23-satolli-pescara-assistenza"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-23",
+            "azione": "Consultazione delle fonti ufficiali e inserimento conservativo; nessuna autorizzazione di marchio attribuita, nessuna coordinata non verificata.",
+            "fonti": [
+              "cg23-satolli-pescara-sede",
+              "cg23-satolli-pescara-assistenza"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-manuale-chatgpt-20261023",
+        "idOriginale": "satolli-pescara"
+      }
+    },
+    {
+      "id": "digiesi-matera",
+      "slug": "digiesi-matera",
+      "nome": "Digiesi 1959 Gioiellieri",
+      "tipi": [
+        "gioielleria",
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Gioielleria a Matera che propone orologi e documenta un servizio tecnico di manutenzione, riparazione e assistenza su orologi. Le dichiarazioni di certificazione presenti sul sito non equivalgono a un'autorizzazione verificata direttamente presso i produttori.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "matera",
+      "posizione": {
+        "indirizzo": "Via Roma 6",
+        "cap": "75100",
+        "coordinate": null,
+        "fonti": [
+          "cg23-digiesi-matera-sede"
+        ]
+      },
+      "contatti": {
+        "telefono": "0835335461",
+        "email": null,
+        "sito": "https://gioielleriadigiesi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "cg23-digiesi-matera-sede"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "cg23-digiesi-matera-sede"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "cg23-digiesi-matera-servizi"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "cg23-digiesi-matera-servizi"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "cg23-digiesi-matera-servizi"
+          ]
+        },
+        {
+          "id": "gioielleria",
+          "fonti": [
+            "cg23-digiesi-matera-sede"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-23",
+        "verificataIl": "2026-10-23",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "cg23-digiesi-matera-sede",
+          "cg23-digiesi-matera-servizi"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-23",
+            "azione": "Consultazione delle fonti ufficiali e inserimento conservativo; nessuna autorizzazione di marchio attribuita, nessuna coordinata non verificata.",
+            "fonti": [
+              "cg23-digiesi-matera-sede",
+              "cg23-digiesi-matera-servizi"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-manuale-chatgpt-20261023",
+        "idOriginale": "digiesi-matera"
+      }
+    },
+    {
+      "id": "clementi-bolzano",
+      "slug": "clementi-bolzano",
+      "nome": "Orologiaio Clementi",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Laboratorio di orologeria a Bolzano con revisione, riparazione e restauro di orologi. Documenta la ricostruzione di parti, la sostituzione di pile e cinturini e la lucidatura di casse e bracciali; non dichiariamo affiliazioni ufficiali ai marchi.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "bolzano",
+      "posizione": {
+        "indirizzo": "Piazza delle Erbe 24/A, 1° piano",
+        "cap": "39100",
+        "coordinate": null,
+        "fonti": [
+          "cg23-clementi-bolzano-sede"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0471 974482",
+        "email": null,
+        "sito": "https://www.orologiaio-clementi.it/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "cg23-clementi-bolzano-sede"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "riparazione",
+          "fonti": [
+            "cg23-clementi-bolzano-revisione"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "cg23-clementi-bolzano-revisione"
+          ]
+        },
+        {
+          "id": "manutenzione",
+          "fonti": [
+            "cg23-clementi-bolzano-revisione"
+          ]
+        },
+        {
+          "id": "restauro-vintage",
+          "fonti": [
+            "cg23-clementi-bolzano-revisione"
+          ]
+        },
+        {
+          "id": "ricambi",
+          "fonti": [
+            "cg23-clementi-bolzano-parti"
+          ]
+        },
+        {
+          "id": "batterie",
+          "fonti": [
+            "cg23-clementi-bolzano-pile"
+          ]
+        },
+        {
+          "id": "cinturini",
+          "fonti": [
+            "cg23-clementi-bolzano-pile"
+          ]
+        },
+        {
+          "id": "lucidatura",
+          "fonti": [
+            "cg23-clementi-bolzano-lucidatura"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-23",
+        "verificataIl": "2026-10-23",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "cg23-clementi-bolzano-sede",
+          "cg23-clementi-bolzano-revisione",
+          "cg23-clementi-bolzano-parti",
+          "cg23-clementi-bolzano-pile",
+          "cg23-clementi-bolzano-lucidatura"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-23",
+            "azione": "Consultazione delle fonti ufficiali e inserimento conservativo; nessuna autorizzazione di marchio attribuita, nessuna coordinata non verificata.",
+            "fonti": [
+              "cg23-clementi-bolzano-sede",
+              "cg23-clementi-bolzano-revisione",
+              "cg23-clementi-bolzano-parti",
+              "cg23-clementi-bolzano-pile",
+              "cg23-clementi-bolzano-lucidatura"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-manuale-chatgpt-20261023",
+        "idOriginale": "clementi-bolzano"
+      }
+    },
+    {
+      "id": "dobner-gorizia",
+      "slug": "dobner-gorizia",
+      "nome": "Dobner — Gorizia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "descrizione": "Punto vendita Dobner a Gorizia con orologi e gioielli. L'azienda documenta servizi di assistenza e revisione attraverso il proprio laboratorio, senza attribuire alla singola sede autorizzazioni di marchi non verificate dai produttori.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "gorizia",
+      "posizione": {
+        "indirizzo": "Corso Italia 34",
+        "cap": null,
+        "coordinate": null,
+        "fonti": [
+          "cg23-dobner-gorizia-sede"
+        ]
+      },
+      "contatti": {
+        "telefono": "0481 532270",
+        "email": null,
+        "sito": "https://dobner.it/it/negozi/dobner-gorizia/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "cg23-dobner-gorizia-sede"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "cg23-dobner-gorizia-sede"
+          ]
+        },
+        {
+          "id": "gioielleria",
+          "fonti": [
+            "cg23-dobner-gorizia-sede"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "cg23-dobner-gorizia-laboratorio"
+          ]
+        },
+        {
+          "id": "revisione",
+          "fonti": [
+            "cg23-dobner-gorizia-laboratorio"
+          ]
+        },
+        {
+          "id": "assistenza",
+          "fonti": [
+            "cg23-dobner-gorizia-laboratorio"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-23",
+        "verificataIl": "2026-10-23",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "cg23-dobner-gorizia-sede",
+          "cg23-dobner-gorizia-laboratorio"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-23",
+            "azione": "Consultazione delle fonti ufficiali e inserimento conservativo; nessuna autorizzazione di marchio attribuita, nessuna coordinata non verificata.",
+            "fonti": [
+              "cg23-dobner-gorizia-sede",
+              "cg23-dobner-gorizia-laboratorio"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "ricerca-manuale-chatgpt-20261023",
+        "idOriginale": "dobner-gorizia"
       }
     }
   ]
