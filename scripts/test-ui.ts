@@ -51,9 +51,9 @@ assert.equal(visible().length,0);assert.equal(doc.querySelector('img'),null);
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 const batteryChip=doc.querySelector<HTMLButtonElement>('[data-service="batterie"]')!;
 batteryChip.click();assert.equal(form.querySelector<HTMLSelectElement>('[name="servizio"]')!.value,'batterie');
-select('comune','Venezia');form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
+select('comune','Imola');form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
 assert.equal(visible().length,0);assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);
-assert.equal(doc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value,'Sostituzione batterie a Venezia');
+assert.equal(doc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value,'Sostituzione batterie a Imola');
 // Passo 2: la regione è selezionabile senza città; la città è facoltativa.
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 select('regione','molise');

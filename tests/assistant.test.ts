@@ -241,8 +241,9 @@ test('richieste senza città non scambiano le preposizioni per località', () =>
 });
 
 test('città non censita in minuscolo propone alternative dichiarate', () => {
-  const criteri = interpretaRichiesta('Cerco cambio batteria a venezia', data).criteri;
-  assert.equal(criteri.localitaNonCensita, 'venezia');
+  // Venezia ora è censita: il caso negativo usa una città realmente assente.
+  const criteri = interpretaRichiesta('Cerco cambio batteria a imola', data).criteri;
+  assert.equal(criteri.localitaNonCensita, 'imola');
   assert.equal(criteri.servizio, 'batterie');
   const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
   assert.equal(risultato.stato, 'localita-non-censita');

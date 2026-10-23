@@ -1,0 +1,2102 @@
+{
+  "lotto": "national02-b",
+  "data": "2026-10-23",
+  "fonti": [
+    {
+      "id": "n02-de-marchi-gianotti-aosta-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/valle-d-aosta/aosta/de-marchi-gianotti",
+      "titolo": "De Marchi Gianotti — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Piazza Chanoux 22, 11100 Aosta; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-benetti-verona-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/veneto/verona/gioielleria-benetti-1820494",
+      "titolo": "Gioielleria Benetti — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Piazza delle Erbe 37, 37121 Verona; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-amighini-verona-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-hk/store-locator/italy/veneto/verona/gioielleria-amighini",
+      "titolo": "Gioielleria Amighini — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Piazzetta Monte 3, 37121 Verona; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-oreficeria-de-rui-treviso-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/treviso/oreficeria-de-rui",
+      "titolo": "Oreficeria De Rui — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Borgo Giuseppe Mazzini 33, 31100 Treviso; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-eyes-on-time-venezia-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/venezia/eyes-on-time",
+      "titolo": "Eyes On Time — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Aeroporto Marco Polo, Via L. Broglio 7, VC 15, 30173 Venezia; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-tebaldi-ferrara-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-gb/store-locator/italy/emilia-romagna/ferrara/gioielleria-tebaldi",
+      "titolo": "Gioielleria Tebaldi — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Mazzini 7, 44100 Ferrara; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-f-lli-cimatti-ravenna-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/ravenna/gioielleria-f-lli-cimatti",
+      "titolo": "Gioielleria F.lli Cimatti — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Matteotti 20, 48121 Ravenna; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-ricci-forli-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/forli/gioielleria-ricci",
+      "titolo": "Gioielleria Ricci — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Piazza A. Saffi 49, 47121 Forlì; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-zaccarelli-orologeria-modena-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/emilia-romagna/modena/zaccarelli-orologeria",
+      "titolo": "Zaccarelli Orologeria — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Taglio 3, 41121 Modena; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-boni-belluno-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/belluno/gioielleria-boni-a1vnn000001zwc5yam",
+      "titolo": "Gioielleria Boni — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Store locator MIDO letto: rivenditore ufficiale, indirizzo Viale Fantuzzi 22 Belluno, consulenza acquisto orologi. Non esteso a servizi tecnici specifici."
+    },
+    {
+      "id": "n02-b-b-gioielli-rovigo-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italy/veneto/rovigo/b-b-gioielli",
+      "titolo": "B&B Gioielli — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Piazza Vittorio Emanuele 30, 45100 Rovigo; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-gioielleria-pedonesi-lucca-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/gioielleria-pedonesi",
+      "titolo": "Gioielleria Pedonesi — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Fillungo 187, 55100 Lucca; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-casa-avelardi-livorno-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/livorno/casa-avelardi",
+      "titolo": "Casa Avelardi — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Ricasoli 119, 57126 Livorno; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-fabiani-gioiellerie-pistoia-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/pistoia/fabiani-gioiellerie",
+      "titolo": "Fabiani Gioiellerie — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda produttore letta: Via Cino da Pistoia 13, 51100 Pistoia; Official Retailer / RIVENDITORE UFFICIALE; selezione orologi Hamilton. Nessun servizio tecnico attribuito."
+    },
+    {
+      "id": "n02-law-watch-di-paolo-simi-lucca-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/law-watch-di-paolo-simi",
+      "titolo": "Law & Watch di Paolo Simi — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda Hamilton letta: centro assistenza ufficiale e sostituzione batteria/cinturino; indirizzo documentato. Nessuna vendita o revisione generale inferita."
+    },
+    {
+      "id": "n02-luccini-ivano-aulla-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/aulla/luccini-ivano",
+      "titolo": "Luccini Ivano — fonte 1",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Scheda Hamilton letta: centro assistenza ufficiale e sostituzione batteria/cinturino; indirizzo documentato. Nessuna vendita o revisione generale inferita."
+    }
+  ],
+  "localita": [
+    {
+      "id": "aosta",
+      "comune": "Aosta",
+      "comuneSlug": "aosta",
+      "provincia": "Valle d'Aosta/Vallée d'Aoste",
+      "provinciaSlug": "valle-d-aosta-vallee-d-aoste",
+      "siglaProvincia": "AO",
+      "regione": "Valle d'Aosta",
+      "regioneSlug": "valle-daosta",
+      "codiceIstat": "007003",
+      "descrizione": "Aosta: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-de-marchi-gianotti-aosta-1"
+      ]
+    },
+    {
+      "id": "verona",
+      "comune": "Verona",
+      "comuneSlug": "verona",
+      "provincia": "Verona",
+      "provinciaSlug": "verona",
+      "siglaProvincia": "VR",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "023091",
+      "descrizione": "Verona: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-benetti-verona-1"
+      ]
+    },
+    {
+      "id": "treviso",
+      "comune": "Treviso",
+      "comuneSlug": "treviso",
+      "provincia": "Treviso",
+      "provinciaSlug": "treviso",
+      "siglaProvincia": "TV",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "026086",
+      "descrizione": "Treviso: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-oreficeria-de-rui-treviso-1"
+      ]
+    },
+    {
+      "id": "venezia",
+      "comune": "Venezia",
+      "comuneSlug": "venezia",
+      "provincia": "Venezia",
+      "provinciaSlug": "venezia",
+      "siglaProvincia": "VE",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "027042",
+      "descrizione": "Venezia: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-eyes-on-time-venezia-1"
+      ]
+    },
+    {
+      "id": "ferrara",
+      "comune": "Ferrara",
+      "comuneSlug": "ferrara",
+      "provincia": "Ferrara",
+      "provinciaSlug": "ferrara",
+      "siglaProvincia": "FE",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "038008",
+      "descrizione": "Ferrara: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-tebaldi-ferrara-1"
+      ]
+    },
+    {
+      "id": "ravenna",
+      "comune": "Ravenna",
+      "comuneSlug": "ravenna",
+      "provincia": "Ravenna",
+      "provinciaSlug": "ravenna",
+      "siglaProvincia": "RA",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "039014",
+      "descrizione": "Ravenna: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-f-lli-cimatti-ravenna-1"
+      ]
+    },
+    {
+      "id": "forli",
+      "comune": "Forlì",
+      "comuneSlug": "forli",
+      "provincia": "Forlì-Cesena",
+      "provinciaSlug": "forli-cesena",
+      "siglaProvincia": "FC",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "040012",
+      "descrizione": "Forlì: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-ricci-forli-1"
+      ]
+    },
+    {
+      "id": "modena",
+      "comune": "Modena",
+      "comuneSlug": "modena",
+      "provincia": "Modena",
+      "provinciaSlug": "modena",
+      "siglaProvincia": "MO",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "036023",
+      "descrizione": "Modena: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-zaccarelli-orologeria-modena-1"
+      ]
+    },
+    {
+      "id": "belluno",
+      "comune": "Belluno",
+      "comuneSlug": "belluno",
+      "provincia": "Belluno",
+      "provinciaSlug": "belluno",
+      "siglaProvincia": "BL",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "025006",
+      "descrizione": "Belluno: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-boni-belluno-1"
+      ]
+    },
+    {
+      "id": "rovigo",
+      "comune": "Rovigo",
+      "comuneSlug": "rovigo",
+      "provincia": "Rovigo",
+      "provinciaSlug": "rovigo",
+      "siglaProvincia": "RO",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "029041",
+      "descrizione": "Rovigo: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-b-b-gioielli-rovigo-1"
+      ]
+    },
+    {
+      "id": "lucca",
+      "comune": "Lucca",
+      "comuneSlug": "lucca",
+      "provincia": "Lucca",
+      "provinciaSlug": "lucca",
+      "siglaProvincia": "LU",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "046017",
+      "descrizione": "Lucca: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-gioielleria-pedonesi-lucca-1"
+      ]
+    },
+    {
+      "id": "livorno",
+      "comune": "Livorno",
+      "comuneSlug": "livorno",
+      "provincia": "Livorno",
+      "provinciaSlug": "livorno",
+      "siglaProvincia": "LI",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "049009",
+      "descrizione": "Livorno: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-casa-avelardi-livorno-1"
+      ]
+    },
+    {
+      "id": "pistoia",
+      "comune": "Pistoia",
+      "comuneSlug": "pistoia",
+      "provincia": "Pistoia",
+      "provinciaSlug": "pistoia",
+      "siglaProvincia": "PT",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "047014",
+      "descrizione": "Pistoia: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-fabiani-gioiellerie-pistoia-1"
+      ]
+    },
+    {
+      "id": "aulla",
+      "comune": "Aulla",
+      "comuneSlug": "aulla",
+      "provincia": "Massa-Carrara",
+      "provinciaSlug": "massa-carrara",
+      "siglaProvincia": "MS",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": "045001",
+      "descrizione": "Aulla: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "n02-luccini-ivano-aulla-1"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "de-marchi-gianotti-aosta",
+      "nome": "De Marchi Gianotti",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-de-marchi-gianotti-aosta-1"
+      ],
+      "attivita": {
+        "id": "de-marchi-gianotti-aosta",
+        "slug": "de-marchi-gianotti-aosta",
+        "nome": "De Marchi Gianotti",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "De Marchi Gianotti a Aosta. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "aosta",
+        "posizione": {
+          "indirizzo": "Piazza Chanoux 22",
+          "cap": "11100",
+          "coordinate": null,
+          "fonti": [
+            "n02-de-marchi-gianotti-aosta-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-de-marchi-gianotti-aosta-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-de-marchi-gianotti-aosta-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-de-marchi-gianotti-aosta-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-de-marchi-gianotti-aosta-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-de-marchi-gianotti-aosta-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-de-marchi-gianotti-aosta-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "de-marchi-gianotti-aosta"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-benetti-verona",
+      "nome": "Gioielleria Benetti",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-benetti-verona-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-benetti-verona",
+        "slug": "gioielleria-benetti-verona",
+        "nome": "Gioielleria Benetti",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Benetti a Verona. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "verona",
+        "posizione": {
+          "indirizzo": "Piazza delle Erbe 37",
+          "cap": "37121",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-benetti-verona-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-benetti-verona-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-benetti-verona-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-benetti-verona-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-benetti-verona-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-benetti-verona-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-benetti-verona-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-benetti-verona"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-amighini-verona",
+      "nome": "Gioielleria Amighini",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-amighini-verona-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-amighini-verona",
+        "slug": "gioielleria-amighini-verona",
+        "nome": "Gioielleria Amighini",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Amighini a Verona. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "verona",
+        "posizione": {
+          "indirizzo": "Piazzetta Monte 3",
+          "cap": "37121",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-amighini-verona-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-amighini-verona-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-amighini-verona-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-amighini-verona-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-amighini-verona-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-amighini-verona-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-amighini-verona-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-amighini-verona"
+        }
+      }
+    },
+    {
+      "id": "oreficeria-de-rui-treviso",
+      "nome": "Oreficeria De Rui",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-oreficeria-de-rui-treviso-1"
+      ],
+      "attivita": {
+        "id": "oreficeria-de-rui-treviso",
+        "slug": "oreficeria-de-rui-treviso",
+        "nome": "Oreficeria De Rui",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Oreficeria De Rui a Treviso. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "treviso",
+        "posizione": {
+          "indirizzo": "Borgo Giuseppe Mazzini 33",
+          "cap": "31100",
+          "coordinate": null,
+          "fonti": [
+            "n02-oreficeria-de-rui-treviso-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-oreficeria-de-rui-treviso-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-oreficeria-de-rui-treviso-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-oreficeria-de-rui-treviso-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-oreficeria-de-rui-treviso-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-oreficeria-de-rui-treviso-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-oreficeria-de-rui-treviso-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "oreficeria-de-rui-treviso"
+        }
+      }
+    },
+    {
+      "id": "eyes-on-time-venezia",
+      "nome": "Eyes On Time",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-eyes-on-time-venezia-1"
+      ],
+      "attivita": {
+        "id": "eyes-on-time-venezia",
+        "slug": "eyes-on-time-venezia",
+        "nome": "Eyes On Time",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Eyes On Time a Venezia. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "venezia",
+        "posizione": {
+          "indirizzo": "Aeroporto Marco Polo, Via L. Broglio 7, VC 15",
+          "cap": "30173",
+          "coordinate": null,
+          "fonti": [
+            "n02-eyes-on-time-venezia-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-eyes-on-time-venezia-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-eyes-on-time-venezia-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-eyes-on-time-venezia-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-eyes-on-time-venezia-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-eyes-on-time-venezia-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-eyes-on-time-venezia-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "eyes-on-time-venezia"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-tebaldi-ferrara",
+      "nome": "Gioielleria Tebaldi",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-tebaldi-ferrara-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-tebaldi-ferrara",
+        "slug": "gioielleria-tebaldi-ferrara",
+        "nome": "Gioielleria Tebaldi",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Tebaldi a Ferrara. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ferrara",
+        "posizione": {
+          "indirizzo": "Via Mazzini 7",
+          "cap": "44100",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-tebaldi-ferrara-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-tebaldi-ferrara-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-tebaldi-ferrara-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-tebaldi-ferrara-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-tebaldi-ferrara-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-tebaldi-ferrara-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-tebaldi-ferrara-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-tebaldi-ferrara"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-f-lli-cimatti-ravenna",
+      "nome": "Gioielleria F.lli Cimatti",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-f-lli-cimatti-ravenna-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-f-lli-cimatti-ravenna",
+        "slug": "gioielleria-f-lli-cimatti-ravenna",
+        "nome": "Gioielleria F.lli Cimatti",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria F.lli Cimatti a Ravenna. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ravenna",
+        "posizione": {
+          "indirizzo": "Via Matteotti 20",
+          "cap": "48121",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-f-lli-cimatti-ravenna-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-f-lli-cimatti-ravenna-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-f-lli-cimatti-ravenna-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-f-lli-cimatti-ravenna-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-f-lli-cimatti-ravenna"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-ricci-forli",
+      "nome": "Gioielleria Ricci",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-ricci-forli-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-ricci-forli",
+        "slug": "gioielleria-ricci-forli",
+        "nome": "Gioielleria Ricci",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Ricci a Forlì. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "forli",
+        "posizione": {
+          "indirizzo": "Piazza A. Saffi 49",
+          "cap": "47121",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-ricci-forli-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-ricci-forli-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-ricci-forli-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-ricci-forli-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-ricci-forli-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-ricci-forli-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-ricci-forli-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-ricci-forli"
+        }
+      }
+    },
+    {
+      "id": "zaccarelli-orologeria-modena",
+      "nome": "Zaccarelli Orologeria",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-zaccarelli-orologeria-modena-1"
+      ],
+      "attivita": {
+        "id": "zaccarelli-orologeria-modena",
+        "slug": "zaccarelli-orologeria-modena",
+        "nome": "Zaccarelli Orologeria",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Zaccarelli Orologeria a Modena. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "modena",
+        "posizione": {
+          "indirizzo": "Via Taglio 3",
+          "cap": "41121",
+          "coordinate": null,
+          "fonti": [
+            "n02-zaccarelli-orologeria-modena-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-zaccarelli-orologeria-modena-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-zaccarelli-orologeria-modena-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-zaccarelli-orologeria-modena-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-zaccarelli-orologeria-modena-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-zaccarelli-orologeria-modena-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-zaccarelli-orologeria-modena-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "zaccarelli-orologeria-modena"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-boni-belluno",
+      "nome": "Gioielleria Boni",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-boni-belluno-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-boni-belluno",
+        "slug": "gioielleria-boni-belluno",
+        "nome": "Gioielleria Boni",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Boni a Belluno. La fonte ufficiale documenta vendita di orologi. Rivendita Mido confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "belluno",
+        "posizione": {
+          "indirizzo": "Viale Fantuzzi 22",
+          "cap": "32100",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-boni-belluno-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-boni-belluno-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-boni-belluno-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Mido",
+              "fonti": [
+                "n02-gioielleria-boni-belluno-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Mido",
+              "fonti": [
+                "n02-gioielleria-boni-belluno-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-boni-belluno-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-boni-belluno-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-boni-belluno"
+        }
+      }
+    },
+    {
+      "id": "b-b-gioielli-rovigo",
+      "nome": "B&B Gioielli",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-b-b-gioielli-rovigo-1"
+      ],
+      "attivita": {
+        "id": "b-b-gioielli-rovigo",
+        "slug": "b-b-gioielli-rovigo",
+        "nome": "B&B Gioielli",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "B&B Gioielli a Rovigo. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rovigo",
+        "posizione": {
+          "indirizzo": "Piazza Vittorio Emanuele 30",
+          "cap": "45100",
+          "coordinate": null,
+          "fonti": [
+            "n02-b-b-gioielli-rovigo-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-b-b-gioielli-rovigo-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-b-b-gioielli-rovigo-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-b-b-gioielli-rovigo-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-b-b-gioielli-rovigo-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-b-b-gioielli-rovigo-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-b-b-gioielli-rovigo-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "b-b-gioielli-rovigo"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-pedonesi-lucca",
+      "nome": "Gioielleria Pedonesi",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-gioielleria-pedonesi-lucca-1"
+      ],
+      "attivita": {
+        "id": "gioielleria-pedonesi-lucca",
+        "slug": "gioielleria-pedonesi-lucca",
+        "nome": "Gioielleria Pedonesi",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Pedonesi a Lucca. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "lucca",
+        "posizione": {
+          "indirizzo": "Via Fillungo 187",
+          "cap": "55100",
+          "coordinate": null,
+          "fonti": [
+            "n02-gioielleria-pedonesi-lucca-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-gioielleria-pedonesi-lucca-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-gioielleria-pedonesi-lucca-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-pedonesi-lucca-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-gioielleria-pedonesi-lucca-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-gioielleria-pedonesi-lucca-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-gioielleria-pedonesi-lucca-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "gioielleria-pedonesi-lucca"
+        }
+      }
+    },
+    {
+      "id": "casa-avelardi-livorno",
+      "nome": "Casa Avelardi",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-casa-avelardi-livorno-1"
+      ],
+      "attivita": {
+        "id": "casa-avelardi-livorno",
+        "slug": "casa-avelardi-livorno",
+        "nome": "Casa Avelardi",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Casa Avelardi a Livorno. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "livorno",
+        "posizione": {
+          "indirizzo": "Via Ricasoli 119",
+          "cap": "57126",
+          "coordinate": null,
+          "fonti": [
+            "n02-casa-avelardi-livorno-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-casa-avelardi-livorno-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-casa-avelardi-livorno-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-casa-avelardi-livorno-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-casa-avelardi-livorno-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-casa-avelardi-livorno-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-casa-avelardi-livorno-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "casa-avelardi-livorno"
+        }
+      }
+    },
+    {
+      "id": "fabiani-gioiellerie-pistoia",
+      "nome": "Fabiani Gioiellerie",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-fabiani-gioiellerie-pistoia-1"
+      ],
+      "attivita": {
+        "id": "fabiani-gioiellerie-pistoia",
+        "slug": "fabiani-gioiellerie-pistoia",
+        "nome": "Fabiani Gioiellerie",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Fabiani Gioiellerie a Pistoia. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pistoia",
+        "posizione": {
+          "indirizzo": "Via Cino da Pistoia 13",
+          "cap": "51100",
+          "coordinate": null,
+          "fonti": [
+            "n02-fabiani-gioiellerie-pistoia-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-fabiani-gioiellerie-pistoia-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-fabiani-gioiellerie-pistoia-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-fabiani-gioiellerie-pistoia-1"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-fabiani-gioiellerie-pistoia-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-fabiani-gioiellerie-pistoia-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "fabiani-gioiellerie-pistoia"
+        }
+      }
+    },
+    {
+      "id": "law-watch-di-paolo-simi-lucca",
+      "nome": "Law & Watch di Paolo Simi",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-law-watch-di-paolo-simi-lucca-1"
+      ],
+      "attivita": {
+        "id": "law-watch-di-paolo-simi-lucca",
+        "slug": "law-watch-di-paolo-simi-lucca",
+        "nome": "Law & Watch di Paolo Simi",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Law & Watch di Paolo Simi a Lucca. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "lucca",
+        "posizione": {
+          "indirizzo": "Via di Tiglio 552",
+          "cap": "55100",
+          "coordinate": null,
+          "fonti": [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-law-watch-di-paolo-simi-lucca-1"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-law-watch-di-paolo-simi-lucca-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "law-watch-di-paolo-simi-lucca"
+        }
+      }
+    },
+    {
+      "id": "luccini-ivano-aulla",
+      "nome": "Luccini Ivano",
+      "decisione": "approvata",
+      "motivo": "Fonte primaria letta, indirizzo e comune verificati; descrizione originale e servizi espliciti. Duplicati verificati dalla pipeline e dai test.",
+      "fonti": [
+        "n02-luccini-ivano-aulla-1"
+      ],
+      "attivita": {
+        "id": "luccini-ivano-aulla",
+        "slug": "luccini-ivano-aulla",
+        "nome": "Luccini Ivano",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Luccini Ivano a Aulla. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "aulla",
+        "posizione": {
+          "indirizzo": "Via XX Settembre 26",
+          "cap": "54011",
+          "coordinate": null,
+          "fonti": [
+            "n02-luccini-ivano-aulla-1"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "n02-luccini-ivano-aulla-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "n02-luccini-ivano-aulla-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "n02-luccini-ivano-aulla-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "n02-luccini-ivano-aulla-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "n02-luccini-ivano-aulla-1"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "n02-luccini-ivano-aulla-1"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+              "fonti": [
+                "n02-luccini-ivano-aulla-1"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-national02",
+          "idOriginale": "luccini-ivano-aulla"
+        }
+      }
+    }
+  ]
+}
