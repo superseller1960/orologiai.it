@@ -1,0 +1,687 @@
+{
+  "lotto": "freebuff-national-20261023",
+  "data": "2026-10-23",
+  "fonti": [
+    {
+      "id": "fb23-magie-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://magieinoro.com/contatti/",
+      "titolo": "Magie In Oro — contatti e servizi",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: Viale Abruzzo 98, 66100 Chieti; telefono 0871 552723. Riparazione e manutenzione meccanici e quarzo, revisioni complete, lucidatura e vendita orologi esplicite."
+    },
+    {
+      "id": "fb23-magie-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://magieinoro.com/",
+      "titolo": "Magie In Oro — orologeria",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: vendita orologi e secondo polso; prodotti Perseo, Fonderia, Bulova e Longines. Nessuna autorizzazione attribuita."
+    },
+    {
+      "id": "fb23-lombardi-hamilton",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/molise/isernia/gioielleria-lombardi-ercolino",
+      "titolo": "Hamilton — Gioielleria Lombardi Ercolino",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: Corso Garibaldi 267/271, 86170 Isernia, telefono 0865/414261, RIVENDITORE UFFICIALE Hamilton. Nessuna riparazione dichiarata. Sito autonomo non individuato."
+    },
+    {
+      "id": "fb23-fenocchi-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafenocchi.com/rolex/contatti",
+      "titolo": "Fenocchi — contatti San Benedetto del Tronto",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: Via Ugo Bassi 25, 63074 San Benedetto del Tronto (AP), telefono +39 0735 584115. Vendita Rolex dichiarata. Orari venerdì discordanti nella stessa pagina: non importati. Le autorizzazioni dichiarate qui non sono confermate da fonte del produttore."
+    },
+    {
+      "id": "fb23-fenocchi-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafenocchi.com/il-laboratorio",
+      "titolo": "Fenocchi — laboratorio",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: laboratorio interno, revisioni complete, riparazioni, manutenzione, lucidatura, riparazione orologi d’epoca e restauro di cassa e bracciale. Riparati Rolex, Tudor, Cartier, Panerai, Omega, Baume et Mercier, IWC ed Eberhard dichiarati. Nessuna autorizzazione assegnata senza fonte marchio."
+    },
+    {
+      "id": "fb23-fenocchi-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafenocchi.com/",
+      "titolo": "Fenocchi — orologi in vendita",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200, lettura diretta: catalogo di orologi Tudor ed Eberhard con prezzi e acquisto. Vendita non equivale ad autorizzazione."
+    },
+    {
+      "id": "fb23-collezionista-termini",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologilcollezionista.it/assistenza/termini-e-condizioni",
+      "titolo": "Orologi il Collezionista — termini",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "HTTP 200: restrizioni esplicite sul riuso commerciale dei contenuti e sui deep link. Nessun contenuto trasferito nella directory: richiesta valutazione legale o permesso prima dell’integrazione."
+    },
+    {
+      "id": "fb23-collezionista-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologilcollezionista.it/",
+      "titolo": "Orologi il Collezionista — sito",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Lettura diretta HTTP 200: vendita, acquisto usato e revisione dichiarati; dati non integrati per revisione termini."
+    },
+    {
+      "id": "fb23-satolli-pescara",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/assistenza/",
+      "titolo": "Orologeria Satolli — candidato rinviato",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta durante la ricerca. Territorio interessato da patch precedenti segnalate ma non disponibili in repository: nessuna integrazione per evitare sovrapposizioni."
+    },
+    {
+      "id": "fb23-digiesi-matera",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriadigiesi.it/",
+      "titolo": "Digiesi 1959 Gioiellieri — candidato rinviato",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta durante la ricerca. Territorio interessato da patch precedenti segnalate ma non disponibili in repository: nessuna integrazione per evitare sovrapposizioni."
+    },
+    {
+      "id": "fb23-clementi-bolzano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/infoline/",
+      "titolo": "Orologiaio Clementi — candidato rinviato",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta durante la ricerca. Territorio interessato da patch precedenti segnalate ma non disponibili in repository: nessuna integrazione per evitare sovrapposizioni."
+    },
+    {
+      "id": "fb23-dobner-gorizia",
+      "tipo": "sito-ufficiale",
+      "url": "https://dobner.it/it/negozi/dobner-gorizia/",
+      "titolo": "Dobner Gorizia — candidato rinviato",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale letta durante la ricerca. Territorio interessato da patch precedenti segnalate ma non disponibili in repository: nessuna integrazione per evitare sovrapposizioni."
+    }
+  ],
+  "localita": [
+    {
+      "id": "chieti",
+      "comune": "Chieti",
+      "comuneSlug": "chieti",
+      "provincia": "Chieti",
+      "provinciaSlug": "chieti",
+      "siglaProvincia": "CH",
+      "regione": "Abruzzo",
+      "regioneSlug": "abruzzo",
+      "codiceIstat": null,
+      "descrizione": "Chieti: attività di orologeria censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "fb23-magie-contatti"
+      ]
+    },
+    {
+      "id": "isernia",
+      "comune": "Isernia",
+      "comuneSlug": "isernia",
+      "provincia": "Isernia",
+      "provinciaSlug": "isernia",
+      "siglaProvincia": "IS",
+      "regione": "Molise",
+      "regioneSlug": "molise",
+      "codiceIstat": null,
+      "descrizione": "Isernia: attività di orologeria censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "fb23-lombardi-hamilton"
+      ]
+    },
+    {
+      "id": "san-benedetto-del-tronto",
+      "comune": "San Benedetto del Tronto",
+      "comuneSlug": "san-benedetto-del-tronto",
+      "provincia": "Ascoli Piceno",
+      "provinciaSlug": "ascoli-piceno",
+      "siglaProvincia": "AP",
+      "regione": "Marche",
+      "regioneSlug": "marche",
+      "codiceIstat": null,
+      "descrizione": "San Benedetto del Tronto: attività di orologeria censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "fb23-fenocchi-contatti"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "magie-in-oro-chieti",
+      "nome": "Magie In Oro",
+      "decisione": "approvata",
+      "motivo": "Indirizzo e servizi verificati direttamente su fonte primaria; assenza di collisioni da confermare tramite importatore e test. Descrizione originale, nessuna immagine o testo promozionale copiato.",
+      "fonti": [
+        "fb23-magie-contatti",
+        "fb23-magie-sito"
+      ],
+      "attivita": {
+        "id": "magie-in-oro-chieti",
+        "slug": "magie-in-oro-chieti",
+        "nome": "Magie In Oro",
+        "tipi": [
+          "orologeria",
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria e gioielleria a Chieti con vendita di orologi, anche di secondo polso. Il laboratorio dichiara riparazione e manutenzione di orologi meccanici e al quarzo, revisioni complete e lucidatura.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "chieti",
+        "posizione": {
+          "indirizzo": "Viale Abruzzo 98",
+          "cap": "66100",
+          "coordinate": null,
+          "fonti": [
+            "fb23-magie-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0871 552723",
+          "email": null,
+          "sito": "https://magieinoro.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "fb23-magie-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "fb23-magie-contatti"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "fb23-magie-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Perseo",
+              "fonti": [
+                "fb23-magie-sito"
+              ]
+            },
+            {
+              "marca": "Fonderia",
+              "fonti": [
+                "fb23-magie-sito"
+              ]
+            },
+            {
+              "marca": "Bulova",
+              "fonti": [
+                "fb23-magie-sito"
+              ]
+            },
+            {
+              "marca": "Longines",
+              "fonti": [
+                "fb23-magie-sito"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "fb23-magie-contatti",
+            "fb23-magie-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+              "fonti": [
+                "fb23-magie-contatti",
+                "fb23-magie-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-freebuff-20261023",
+          "idOriginale": "magie-in-oro-chieti"
+        }
+      }
+    },
+    {
+      "id": "lombardi-ercolino-isernia",
+      "nome": "Gioielleria Lombardi Ercolino",
+      "decisione": "approvata",
+      "motivo": "Indirizzo e servizi verificati direttamente su fonte primaria; assenza di collisioni da confermare tramite importatore e test. Descrizione originale, nessuna immagine o testo promozionale copiato.",
+      "fonti": [
+        "fb23-lombardi-hamilton"
+      ],
+      "attivita": {
+        "id": "lombardi-ercolino-isernia",
+        "slug": "lombardi-ercolino-isernia",
+        "nome": "Gioielleria Lombardi Ercolino",
+        "tipi": [
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria a Isernia presente nello store locator Hamilton come rivenditore ufficiale del marchio. La fonte documenta la vendita di orologi Hamilton, non servizi di riparazione.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "isernia",
+        "posizione": {
+          "indirizzo": "Corso Garibaldi 267/271",
+          "cap": "86170",
+          "coordinate": null,
+          "fonti": [
+            "fb23-lombardi-hamilton"
+          ]
+        },
+        "contatti": {
+          "telefono": "0865/414261",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "fb23-lombardi-hamilton"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "fb23-lombardi-hamilton"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "fb23-lombardi-hamilton"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "fb23-lombardi-hamilton"
+              ]
+            }
+          ],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "fb23-lombardi-hamilton"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+              "fonti": [
+                "fb23-lombardi-hamilton"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-freebuff-20261023",
+          "idOriginale": "lombardi-ercolino-isernia"
+        }
+      }
+    },
+    {
+      "id": "fenocchi-san-benedetto-del-tronto",
+      "nome": "Gioielleria Fenocchi",
+      "decisione": "approvata",
+      "motivo": "Indirizzo e servizi verificati direttamente su fonte primaria; assenza di collisioni da confermare tramite importatore e test. Descrizione originale, nessuna immagine o testo promozionale copiato.",
+      "fonti": [
+        "fb23-fenocchi-contatti",
+        "fb23-fenocchi-laboratorio",
+        "fb23-fenocchi-sito"
+      ],
+      "attivita": {
+        "id": "fenocchi-san-benedetto-del-tronto",
+        "slug": "fenocchi-san-benedetto-del-tronto",
+        "nome": "Gioielleria Fenocchi",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a San Benedetto del Tronto con vendita di orologi e laboratorio interno. Sono documentate revisioni, riparazioni anche di orologi d’epoca, manutenzione e lucidatura. Le dichiarazioni di autorizzazione del negozio non sono qui registrate come autorizzazioni verificate dal produttore.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "san-benedetto-del-tronto",
+        "posizione": {
+          "indirizzo": "Via Ugo Bassi 25",
+          "cap": "63074",
+          "coordinate": null,
+          "fonti": [
+            "fb23-fenocchi-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0735 584115",
+          "email": null,
+          "sito": "https://www.gioielleriafenocchi.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "fb23-fenocchi-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "fb23-fenocchi-contatti",
+              "fb23-fenocchi-sito"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "fb23-fenocchi-laboratorio"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "fb23-fenocchi-contatti"
+              ]
+            },
+            {
+              "marca": "Tudor",
+              "fonti": [
+                "fb23-fenocchi-sito"
+              ]
+            },
+            {
+              "marca": "Eberhard",
+              "fonti": [
+                "fb23-fenocchi-sito"
+              ]
+            }
+          ],
+          "riparati": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Tudor",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Cartier",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Panerai",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Omega",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Baume & Mercier",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "IWC",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            },
+            {
+              "marca": "Eberhard",
+              "fonti": [
+                "fb23-fenocchi-laboratorio"
+              ]
+            }
+          ],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-23",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "fb23-fenocchi-contatti",
+            "fb23-fenocchi-laboratorio",
+            "fb23-fenocchi-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+              "fonti": [
+                "fb23-fenocchi-contatti",
+                "fb23-fenocchi-laboratorio",
+                "fb23-fenocchi-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-freebuff-20261023",
+          "idOriginale": "fenocchi-san-benedetto-del-tronto"
+        }
+      }
+    },
+    {
+      "id": "collezionista-pordenone",
+      "nome": "Orologi il Collezionista",
+      "decisione": "in-revisione",
+      "motivo": "Fonte ufficiale leggibile ma termini restrittivi sul riuso commerciale e deep link: sospeso per valutazione legale o permesso. Nessuna scheda pubblicata.",
+      "fonti": [
+        "fb23-collezionista-termini",
+        "fb23-collezionista-sito"
+      ]
+    },
+    {
+      "id": "satolli-pescara",
+      "nome": "Orologeria Satolli",
+      "decisione": "in-revisione",
+      "motivo": "Patch territoriali precedenti non disponibili e non considerate integrate; rinviato per coordinamento, non ricreato.",
+      "fonti": [
+        "fb23-satolli-pescara"
+      ]
+    },
+    {
+      "id": "digiesi-matera",
+      "nome": "Digiesi 1959 Gioiellieri",
+      "decisione": "in-revisione",
+      "motivo": "Patch territoriali precedenti non disponibili e non considerate integrate; rinviato per coordinamento, non ricreato.",
+      "fonti": [
+        "fb23-digiesi-matera"
+      ]
+    },
+    {
+      "id": "clementi-bolzano",
+      "nome": "Orologiaio Clementi",
+      "decisione": "in-revisione",
+      "motivo": "Patch territoriali precedenti non disponibili e non considerate integrate; rinviato per coordinamento, non ricreato.",
+      "fonti": [
+        "fb23-clementi-bolzano"
+      ]
+    },
+    {
+      "id": "dobner-gorizia",
+      "nome": "Dobner Gorizia",
+      "decisione": "in-revisione",
+      "motivo": "Patch territoriali precedenti non disponibili e non considerate integrate; rinviato per coordinamento, non ricreato.",
+      "fonti": [
+        "fb23-dobner-gorizia"
+      ]
+    }
+  ]
+}

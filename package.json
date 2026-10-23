@@ -13,7 +13,7 @@
     "test": "tsx --test tests/*.test.ts",
     "test:ui": "tsx scripts/test-ui.ts && tsx scripts/test-assistant-ui.ts",
     "test:gemini:live": "tsx scripts/verify-gemini-live.ts",
-    "verify": "npm run check && npm test && npm run build && npm run test:ui",
+    "verify": "npm run check && npm run build && npm test && npm run test:ui",
     "build": "npm run validate && astro build && tsx scripts/check-build.ts && npm run build:api",
     "build:api": "node scripts/bundle-vercel-api.mjs",
     "migrate:legacy": "tsx scripts/migrate-legacy.ts",
