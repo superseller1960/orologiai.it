@@ -36,7 +36,14 @@ test('PR6: 159 attività, tutti i record storici presenti con ID, slug e localit
     assert.deepEqual(data.fonti.find(f => f.id === vecchio.id), vecchio, `fonte alterata: ${vecchio.id}`);
   }
   for (const vecchio of prima.localita) {
-    assert.deepEqual(data.localita.find(l => l.id === vecchio.id), vecchio, `località alterata: ${vecchio.id}`);
+    // Correzione documentata (audit di qualità 24/10): la provincia AO aveva due nomi diversi
+    // («Aosta» per Courmayeur, «Valle d'Aosta/Vallée d'Aoste» per il capoluogo), spezzando la
+    // ricerca per provincia in due filtri separati. La voce di Courmayeur è allineata al nome
+    // ufficiale già in uso; ogni altra differenza fallisce come prima.
+    const corretto = vecchio.id === 'courmayeur'
+      ? { ...vecchio, provincia: "Valle d'Aosta/Vallée d'Aoste", provinciaSlug: 'valle-d-aosta-vallee-d-aoste' }
+      : vecchio;
+    assert.deepEqual(data.localita.find(l => l.id === vecchio.id), corretto, `località alterata: ${vecchio.id}`);
   }
 });
 

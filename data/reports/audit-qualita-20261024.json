@@ -1,0 +1,2228 @@
+{
+  "generatoIl": "2026-10-24T13:18:08.506Z",
+  "database": {
+    "attivita": 159,
+    "localita": 102,
+    "fonti": 257
+  },
+  "riepilogo": {
+    "fontiServizio": {
+      "errori": 0,
+      "daControllare": 16
+    },
+    "geografia": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "cap": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "localita": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "contatti": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "orari": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "storia": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "duplicati": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "ricerca": {
+      "errori": 0,
+      "daControllare": 0
+    },
+    "url": {
+      "errori": 0,
+      "daControllare": 53,
+      "ok": 231
+    }
+  },
+  "sezioni": {
+    "fontiServizio": [
+      {
+        "gravita": "da-controllare",
+        "id": "scardi",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "scardi",
+        "dettaglio": "servizio “Gioielleria” (gioielleria) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "marretti",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "fani-gioielli",
+        "dettaglio": "servizio “Gioielleria” (gioielleria) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "fani-gioielli",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "bigalli",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "bigalli",
+        "dettaglio": "servizio “Ricambi” (ricambi) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "bigalli",
+        "dettaglio": "servizio “Riparazione” (riparazione) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "senzatempo-firenze",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "senzatempo-firenze",
+        "dettaglio": "servizio “Assistenza” (assistenza) senza fonte primaria: mirror-firenze"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "sangalli",
+        "dettaglio": "servizio “Riparazione” (riparazione) senza fonte primaria: mirror-milano"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "sangalli",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-milano"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "rocca",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-milano"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "rocca",
+        "dettaglio": "servizio “Gioielleria” (gioielleria) senza fonte primaria: mirror-milano"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "ronchi-gioielli",
+        "dettaglio": "servizio “Vendita di orologi” (vendita) senza fonte primaria: mirror-milano"
+      },
+      {
+        "gravita": "da-controllare",
+        "id": "ronchi-gioielli",
+        "dettaglio": "servizio “Assistenza” (assistenza) senza fonte primaria: mirror-milano"
+      }
+    ],
+    "geografia": [],
+    "cap": [],
+    "localita": [],
+    "contatti": [],
+    "orari": [],
+    "storia": [],
+    "duplicati": [],
+    "ricerca": []
+  },
+  "url": {
+    "https://www.oreficeriamaggini.com/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-maggini-contatti"
+      ]
+    },
+    "https://www.oreficeriamaggini.com/articoli": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-maggini-marchi"
+      ]
+    },
+    "https://orologiai.it/firenze/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:mirror-firenze"
+      ]
+    },
+    "https://orologiai.it/milano/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:mirror-milano"
+      ]
+    },
+    "https://www.pisanigioielleria.com/pisani-gioielleria-piazza-giacomo-matteotti-scandicci": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-pisani-matteotti"
+      ]
+    },
+    "https://www.pisanigioielleria.com/laboratorio-orologeria": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-pisani-lab"
+      ]
+    },
+    "https://www.pisanigioielleria.com/pisani-gioielleria-galleria-la-maschera-scandicci": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-pisani-maschera"
+      ]
+    },
+    "https://www.gioielleriaempoli.it/servizi-gioielleria/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-rutili-servizi"
+      ]
+    },
+    "https://www.agnoluccigioielleria.com/signa/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-agnolucci-signa"
+      ]
+    },
+    "https://www.gioielleriaempoli.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-rutili-contatti"
+      ]
+    },
+    "https://www.ficioro.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-fici-contatti"
+      ]
+    },
+    "https://www.ficioro.it/servizio-orologeria/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-fici-orologi"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italie/toscana/figline-valdarno/sottili-franco": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:t02-sottili-hamilton"
+      ]
+    },
+    "https://www.renzopreziosi.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-renzo-home",
+        "sito:renzopreziosi-figline"
+      ]
+    },
+    "https://www.renzopreziosi.com/vuole-vendere-il-suo-orologio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-renzo-vendita"
+      ]
+    },
+    "https://www.orologicalamai.com/resellers/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-calamai-rete"
+      ]
+    },
+    "https://www.agnoluccigioielleria.com/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-agnolucci-lab"
+      ]
+    },
+    "https://www.folliedoro.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-follie-sedi",
+        "sito:follie-oro-calenzano"
+      ]
+    },
+    "http://www.renai.it/2014-11-30-08-20-23": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-renai-servizi"
+      ]
+    },
+    "http://www.renai.it/la-nostra-storia/item/105": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-renai-storia"
+      ]
+    },
+    "https://www.comunefiv.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-comune-fiv"
+      ]
+    },
+    "https://www.gabbanigioielleria.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-gabbani-contatti"
+      ]
+    },
+    "https://www.gabbanigioielleria.it/laboratorio-orologi-e-gioielli/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-gabbani-lab"
+      ]
+    },
+    "https://www.gabbanigioielleria.it/tissot/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-gabbani-tissot"
+      ]
+    },
+    "https://www.orologeriarabiti.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-rabiti-home",
+        "sito:rabiti-firenze"
+      ]
+    },
+    "https://www.oreoro.it/negozi.html": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-oreoro-sedi"
+      ]
+    },
+    "https://www.oreoro.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-oreoro-home",
+        "sito:oreoro-poggibonsi",
+        "sito:oreoro-colle"
+      ]
+    },
+    "https://www.orogenesi85.it/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-orogenesi-lab"
+      ]
+    },
+    "https://www.gioielleriacerrimarco.it/privacy-policy/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-cerri-contatti"
+      ]
+    },
+    "https://www.gioielleriacerrimarco.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-cerri-home",
+        "sito:cerri-pontedera"
+      ]
+    },
+    "https://zagli.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-zagli-contatti"
+      ]
+    },
+    "https://zagli.it/laboratorio-orologi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-zagli-lab"
+      ]
+    },
+    "https://www.gioiellerialombardi.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-lombardi-home",
+        "sito:lombardi-montevarchi"
+      ]
+    },
+    "https://www.breil.com/store/rivenditori-manta/gioielleria-e-orologeria-lombardi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-lombardi-breil"
+      ]
+    },
+    "https://www.spaziotempoboutique.com/privacy-policy/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-spazio-contatti"
+      ]
+    },
+    "https://www.spaziotempoboutique.com/boutique-orologi-di-lusso/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-spazio-boutique"
+      ]
+    },
+    "https://www.orologeriaugolini.com/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-ugolini-contatti"
+      ]
+    },
+    "https://www.swatch.com/it-it/storedetails?sid=R282371": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:t02-swatch-calzaiuoli",
+        "sito:swatch-firenze-calzaiuoli"
+      ]
+    },
+    "https://www.orologeriaugolini.com/laboratorio": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-ugolini-lab"
+      ]
+    },
+    "http://www.ilgigliodoro.com/contatti.html": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-giglio-contatti"
+      ]
+    },
+    "https://www.gioiellerialamberti.it/laboratorio-lamberti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-lamberti-lab"
+      ]
+    },
+    "https://www.riparazioneorologifirenze.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-calistri-home",
+        "sito:calistri-firenze"
+      ]
+    },
+    "http://www.ilgigliodoro.com/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-giglio-lab"
+      ]
+    },
+    "https://scardi.it/contatti/dove_siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-scardi-contatti-02",
+        "fonte:t03-scardi-sede"
+      ]
+    },
+    "https://www.cmcwatches.com/en/resellers/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-marretti-elenco"
+      ]
+    },
+    "https://www.fanishops.it/boutiques/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-fani-sede"
+      ]
+    },
+    "https://www.metallipreziosi.it/servizi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-metalli-servizi"
+      ]
+    },
+    "https://www.metallipreziosi.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t02-metalli-contatti"
+      ]
+    },
+    "https://www.longines.com/en-us/store/id/bigalli-di-bolgi-giuseppe-c-snc-firenze-143385": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:t03-bigalli-sede"
+      ]
+    },
+    "https://www.midowatches.com/us/store-locator/italy/milano/rocca-1794-a1vnn000001zlmvyae": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:t03-rocca-sede"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/campi-bisenzio/massari-gioielli": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:t04-massari-hamilton"
+      ]
+    },
+    "https://www.gioiellerialamberti.it/orologi": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t04-lamberti-orologeria"
+      ]
+    },
+    "https://nominatim.openstreetmap.org/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-nominatim"
+      ]
+    },
+    "https://www.gioiellerialamberti.it/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t04-lamberti-sito"
+      ]
+    },
+    "https://www.senzatempofirenze.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-senzatempo-sede"
+      ]
+    },
+    "https://www.lamacchinadeltempo.org/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-macchina-tempo-contatti"
+      ]
+    },
+    "https://www.lamacchinadeltempo.org/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-macchina-tempo-sito",
+        "sito:macchina-tempo-firenze"
+      ]
+    },
+    "https://www.ronchigioielli.com/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-ronchi-sede"
+      ]
+    },
+    "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t03-sangalli-sede",
+        "fonte:pr6-sangalli-2"
+      ]
+    },
+    "https://massarigioielli.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t04-massari-sito"
+      ]
+    },
+    "https://www.horamundi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-horamundi-sito",
+        "sito:horamundi-firenze"
+      ]
+    },
+    "https://www.soprana.com/laboratorio-orologeria/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-soprana-lab",
+        "sito:soprana-vicenza"
+      ]
+    },
+    "https://monettiorologi.com/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-monetti-laboratorio"
+      ]
+    },
+    "https://www.natalefontana.it/it/laboratorio-gioielleria-orologeria": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-fontana-lab",
+        "sito:fontana-bologna"
+      ]
+    },
+    "https://monettiorologi.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-monetti-sito",
+        "sito:monetti-napoli-mille",
+        "sito:monetti-napoli-brigida"
+      ]
+    },
+    "https://monettiorologi.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-monetti-contatti"
+      ]
+    },
+    "https://www.soprana.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-soprana-contatti"
+      ]
+    },
+    "https://www.orologicatorino.it/contatti-laboratorio-orologi-torino/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-orologica-contatti"
+      ]
+    },
+    "https://www.orologicatorino.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-orologica-sito",
+        "sito:orologica-torino"
+      ]
+    },
+    "https://www.horaeorologeria.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-horae-contatti"
+      ]
+    },
+    "https://www.horaeorologeria.it/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-horae-lab"
+      ]
+    },
+    "https://www.casadelcronometro.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t07-casa-cronometro-sito",
+        "sito:casa-cronometro-roma"
+      ]
+    },
+    "https://www.chlw.it/pages/i-nostri-servizi": {
+      "stato": "protetto",
+      "http": 429,
+      "riferimenti": [
+        "fonte:t08-chlw-servizi"
+      ]
+    },
+    "https://www.chlw.it/": {
+      "stato": "protetto",
+      "http": 429,
+      "riferimenti": [
+        "fonte:t08-chlw-sito",
+        "sito:chlw-bari"
+      ]
+    },
+    "https://www.assistenzaorologideluca.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-deluca-sito",
+        "sito:deluca-napoli"
+      ]
+    },
+    "https://www.assistenzaorologideluca.it/restaurazioni-vintage": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-deluca-restauri"
+      ]
+    },
+    "https://www.orologeriacarrieri.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-carrieri-sito",
+        "sito:carrieri-bari"
+      ]
+    },
+    "https://www.assistenzaorologideluca.it/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-deluca-contatti"
+      ]
+    },
+    "https://www.orologeriacarrieri.com/laboratorio-di-orologeria": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-carrieri-laboratorio"
+      ]
+    },
+    "https://www.orologeriacarrieri.com/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-carrieri-contatti"
+      ]
+    },
+    "https://www.orologerialamacchinadeltempo.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-macchtempo-bari",
+        "sito:macchina-tempo-bari"
+      ]
+    },
+    "https://www.pironeorologi.it/riparazione-orologi-napoli": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-pirone-riparazione"
+      ]
+    },
+    "https://www.pironeorologi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-pirone-sito",
+        "sito:pirone-napoli"
+      ]
+    },
+    "https://www.orologeriamazzonesalerno.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-mazzone-sito",
+        "sito:mazzone-salerno"
+      ]
+    },
+    "https://www.astrua.com/it/sedi-astrua-boutiques-genova": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:t08-astrua-genova"
+      ]
+    },
+    "https://www.chlw.it/pages/contact": {
+      "stato": "protetto",
+      "http": 429,
+      "riferimenti": [
+        "fonte:t08-chlw-contatti"
+      ]
+    },
+    "https://www.astrua.com/": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:t08-astrua-sito",
+        "sito:astrua-genova",
+        "sito:astrua-torino"
+      ]
+    },
+    "https://www.alfiocensi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-censi-sito",
+        "sito:censi-genova"
+      ]
+    },
+    "https://www.chlw.it/pages/laboratorio": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-chlw-laboratorio"
+      ]
+    },
+    "https://www.orologerialacagninadario.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-cagnina-sito",
+        "sito:cagnina-palermo"
+      ]
+    },
+    "https://watch-center.eu/termini-condizioni": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-watchcenter-termini"
+      ]
+    },
+    "https://watch-center.eu/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-watchcenter-sito",
+        "sito:watch-center-palermo"
+      ]
+    },
+    "https://brunoemanuele.com/riparazione-orologi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-bruno-riparazione"
+      ]
+    },
+    "https://brunoemanuele.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-bruno-sito",
+        "sito:bruno-emanuele-palermo"
+      ]
+    },
+    "https://www.orologeriadicaro.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-dicaro-contatti"
+      ]
+    },
+    "https://www.orologeriadicaro.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-dicaro-sito",
+        "sito:di-caro-palermo"
+      ]
+    },
+    "https://www.astrua.com/it/sedi-astrua-boutiques-torino": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:t08-astrua-torino"
+      ]
+    },
+    "https://www.astrua.com/it/riparazione-orologi-torino": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:t08-astrua-riparazione-torino"
+      ]
+    },
+    "https://www.astrua.com/it/riparazione-orologi-genova": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:t08-astrua-riparazione-genova"
+      ]
+    },
+    "https://laboratorio-di-orologeria.webnode.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-lab-alessandria-sito",
+        "sito:lab-alessandria"
+      ]
+    },
+    "https://laboratorio-di-orologeria.webnode.it/orari/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-lab-alessandria-orari"
+      ]
+    },
+    "https://www.laboratoriocapo.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-capo-sito",
+        "sito:capo-torino"
+      ]
+    },
+    "https://www.laboratorioportanova.eu/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-portanova-sito",
+        "sito:portanova-bologna"
+      ]
+    },
+    "https://www.riparazioniorologiroma.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-salamena-sito",
+        "sito:salamena-roma"
+      ]
+    },
+    "https://www.labottegadeltempo.it/chi-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-bottega-chisiamo"
+      ]
+    },
+    "https://pagine.riparazioniorologiroma.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-salamena-pagine"
+      ]
+    },
+    "https://www.labottegadeltempo.it/riparazione-orologi-roma/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-bottega-riparazione"
+      ]
+    },
+    "https://www.labottegadeltempo.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-bottega-sito",
+        "sito:bottega-del-tempo-roma"
+      ]
+    },
+    "https://www.rolex.com/it/rolex-dealers/brusaporci-481/rswi_1946-latina-italy": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:l07-brusaporci-rolex"
+      ]
+    },
+    "https://www.orologeriaemporio.it/": {
+      "stato": "protetto",
+      "http": 429,
+      "riferimenti": [
+        "fonte:l07-emporio",
+        "sito:emporio-roma"
+      ]
+    },
+    "https://www.orologiantichi.eu/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-gold-time",
+        "sito:gold-time-roma"
+      ]
+    },
+    "https://www.tempoidea.it/orologeria/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-tempoidea"
+      ]
+    },
+    "https://www.tempoidea.it/preventivo-orologio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-tempoidea-contatti"
+      ]
+    },
+    "https://www.tecnicasvizzera.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-verardi",
+        "sito:verardi-viterbo"
+      ]
+    },
+    "https://gioielleriamilioni.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-milioni",
+        "sito:milioni-montefiascone"
+      ]
+    },
+    "https://www.brusaporci.it/laboratorio": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-brusaporci-laboratorio"
+      ]
+    },
+    "https://www.laboratorioportanova.eu/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:t08-portanova-contatti"
+      ]
+    },
+    "https://www.riparazioneorologi.eu/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-tardani",
+        "sito:tardani-viterbo"
+      ]
+    },
+    "https://www.caldaniorologi.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-caldani-contatti"
+      ]
+    },
+    "https://www.caldaniorologi.it/laboratorio-orologi-roma/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:l07-caldani-laboratorio"
+      ]
+    },
+    "https://rolliponiz.it/": {
+      "stato": "protetto",
+      "http": 429,
+      "riferimenti": [
+        "fonte:r26-rolli-poniz-trieste",
+        "sito:rolli-poniz-trieste"
+      ]
+    },
+    "https://www.paolovalegioielleria.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-paolo-vale-reggio-calabria",
+        "sito:paolo-vale-reggio-calabria"
+      ]
+    },
+    "https://www.gioielleriagoldenbusiness.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-golden-business-potenza",
+        "sito:golden-business-potenza"
+      ]
+    },
+    "https://www.orologeriafronzamarco.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-fronza-trento",
+        "sito:fronza-trento"
+      ]
+    },
+    "https://www.orologeriamiconi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-miconi-civitanova",
+        "sito:miconi-civitanova"
+      ]
+    },
+    "https://www.gioielleriapaccarafranco.it/orologeria.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-paccara-terni",
+        "sito:paccara-terni"
+      ]
+    },
+    "https://www.gioielleriaranieri.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-ranieri-laquila",
+        "sito:ranieri-laquila"
+      ]
+    },
+    "https://www.pietroroberto.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-pietro-roberto-cosenza",
+        "sito:pietro-roberto-cosenza"
+      ]
+    },
+    "https://italicoronzoni.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-ronzoni-udine",
+        "sito:ronzoni-udine"
+      ]
+    },
+    "https://www.fotiaorafo.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-fotia-reggio-calabria",
+        "sito:fotia-reggio-calabria"
+      ]
+    },
+    "https://spangaroandco.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-spangaro-udine",
+        "sito:spangaro-udine"
+      ]
+    },
+    "https://www.biagini1863.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-biagini-perugia",
+        "sito:biagini-perugia"
+      ]
+    },
+    "https://www.longines.com/it/store/id/stema-di-de-sanctis-saverio-e-c-sas-termoli-1643709": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:molise-longines-locator"
+      ]
+    },
+    "https://www.giampieromurgia.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-murgia-cagliari",
+        "sito:murgia-cagliari"
+      ]
+    },
+    "https://gioielleriasammartino.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:molise-sammartino-contatti"
+      ]
+    },
+    "https://www.ciesse-orologi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-ciesse-padova",
+        "sito:ciesse-padova"
+      ]
+    },
+    "https://gioielleriasammartino.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:molise-sammartino-sito",
+        "sito:gioielleria-sammartino-campobasso"
+      ]
+    },
+    "https://www.valentiparma.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-valenti-parma",
+        "sito:valenti-parma"
+      ]
+    },
+    "https://www.laboratoriocurato.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-curato-brescia",
+        "sito:curato-brescia"
+      ]
+    },
+    "https://www.laboratoriomazzucchi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-mazzucchi-milano",
+        "sito:mazzucchi-milano"
+      ]
+    },
+    "https://www.stemagioielli.com/it/contatti.html": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:molise-stema-contatti"
+      ]
+    },
+    "https://martinigiancarlo.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-martini-parma",
+        "sito:martini-parma"
+      ]
+    },
+    "https://www.gioiellerietrossello.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r26-trossello-courmayeur",
+        "sito:trossello-courmayeur"
+      ]
+    },
+    "https://www.stemagioielli.com/it/negozio.html?bra=323": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:molise-stema-catalogo"
+      ]
+    },
+    "https://gioielleriasammartino.com/gioielleria-campobasso/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:molise-sammartino-chisiamo"
+      ]
+    },
+    "https://www.orologeriepalladio.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-palladio",
+        "sito:orologerie-palladio-vicenza"
+      ]
+    },
+    "https://www.robbiorologiaio.com/contattami/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-robbi-contatti"
+      ]
+    },
+    "https://www.robbiorologiaio.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-robbi",
+        "sito:robbi-orologiaio-lodi"
+      ]
+    },
+    "https://abate1920.it/i-negozi/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-abate"
+      ]
+    },
+    "https://www.piazzoli.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-piazzoli",
+        "sito:piazzoli-bagnatica"
+      ]
+    },
+    "https://www.dellaroccagioielli.it/riparazione-orologi.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-della-rocca"
+      ]
+    },
+    "https://www.dellaroccagioielli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-della-rocca-contatti",
+        "sito:della-rocca-gioielli-bologna"
+      ]
+    },
+    "https://www.orologeriacasadei.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-casadei-contatti"
+      ]
+    },
+    "https://www.orologeriacasadei.it/servizi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-casadei"
+      ]
+    },
+    "https://gamba-gioielli.it/i-nostri-servizi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-gamba"
+      ]
+    },
+    "https://gamba-gioielli.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-gamba-contatti"
+      ]
+    },
+    "https://www.lorologiaiobiella.it/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-di-liddo-contatti"
+      ]
+    },
+    "https://www.gioiellerialiparota.com/contattaci.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-liparota-contatti"
+      ]
+    },
+    "https://www.gioiellerialiparota.com/orologi.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-liparota"
+      ]
+    },
+    "https://www.orologeriaoreficeriagiacomobruni.it/contact-us": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-bruni-contatti"
+      ]
+    },
+    "https://www.orologeriaoreficeriagiacomobruni.it/page/restauro-orologi": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-bruni"
+      ]
+    },
+    "https://abate1920.it/rolex/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-abate-contatti"
+      ]
+    },
+    "https://rosasgioiellerie.com/it/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-rosas-contatti"
+      ]
+    },
+    "https://magieinoro.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:fb23-magie-contatti"
+      ]
+    },
+    "https://rosasgioiellerie.com/it/prodotti/orologeria": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-rosas"
+      ]
+    },
+    "https://mauropasetto.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-pasetto-contatti"
+      ]
+    },
+    "https://mauropasetto.it/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-pasetto"
+      ]
+    },
+    "https://www.lorologiaiobiella.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:r27-di-liddo",
+        "sito:orologiaio-di-liddo-biella"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/verbania/orsi-gioielleria": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-orsi-gioielleria-verbania-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/asti/gioielleria-bisio": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-bisio-asti-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italie/lombardy/varese/gioielleria-fontana": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-fontana-varese-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/vercelli/gioielleria-simonini": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-simonini-vercelli-1"
+      ]
+    },
+    "https://www.longines.com/it/store/id/gioielleria-gaddi-zucchi-novara-1852354": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-gaddi-zucchi-novara-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/molise/isernia/gioielleria-lombardi-ercolino": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:fb23-lombardi-hamilton"
+      ]
+    },
+    "https://magieinoro.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:fb23-magie-sito",
+        "sito:magie-in-oro-chieti"
+      ]
+    },
+    "https://www.gioielleriafenocchi.com/il-laboratorio": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:fb23-fenocchi-laboratorio"
+      ]
+    },
+    "https://www.gioielleriafenocchi.com/rolex/contatti": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:fb23-fenocchi-contatti"
+      ]
+    },
+    "https://www.gioielleriafenocchi.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:fb23-fenocchi-sito",
+        "sito:fenocchi-san-benedetto-del-tronto"
+      ]
+    },
+    "https://www.angolodelleore.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-l-angolo-delle-ore-novara-2"
+      ]
+    },
+    "https://www.angolodelleore.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-l-angolo-delle-ore-novara-1",
+        "sito:l-angolo-delle-ore-novara"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/como/fasola-gioielleria": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-fasola-gioielleria-como-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italia/lombardia/pavia/gioielleria-la-marca-vittorio": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-la-marca-vittorio-pavia-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/caserta/gioielleria-iannicelli": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-iannicelli-caserta-1"
+      ]
+    },
+    "https://www.longines.com/it/store/id/gioiellerie-torelli-cremona-1799010": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioiellerie-torelli-cremona-1"
+      ]
+    },
+    "https://www.longines.com/it/store/id/de-pascalis-spa-lecco-143569": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-de-pascalis-spa-lecco-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/lazio/rieti/gioielleria-fraschetti": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-fraschetti-rieti-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-int/store-locator/italy/veneto/verona/gioielleria-benetti-1820494": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-benetti-verona-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italien/marche/ancona/gioielleria-giorgi-mario": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-giorgi-mario-ancona-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/valle-d-aosta/aosta/de-marchi-gianotti": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-de-marchi-gianotti-aosta-1"
+      ]
+    },
+    "https://www.longines.com/it/store/id/gioielleria-angelini-srl-monza-1678291": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-angelini-srl-monza-1"
+      ]
+    },
+    "https://www.floriofolini.it/it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-florio-folini-srl-sondrio-1",
+        "sito:florio-folini-srl-sondrio"
+      ]
+    },
+    "https://www.floriofolini.it/it/dove-trovarci": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-florio-folini-srl-sondrio-2"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/treviso/oreficeria-de-rui": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-oreficeria-de-rui-treviso-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-gb/store-locator/italy/emilia-romagna/ferrara/gioielleria-tebaldi": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-tebaldi-ferrara-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/gioielleria-pedonesi": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-pedonesi-lucca-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italy/veneto/rovigo/b-b-gioielli": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-b-b-gioielli-rovigo-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-hk/store-locator/italy/veneto/verona/gioielleria-amighini": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-amighini-verona-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-int/store-locator/italy/emilia-romagna/modena/zaccarelli-orologeria": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-zaccarelli-orologeria-modena-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/forli/gioielleria-ricci": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-ricci-forli-1"
+      ]
+    },
+    "https://www.midowatches.com/it/store-locator/italy/belluno/gioielleria-boni-a1vnn000001zwc5yam": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-boni-belluno-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/ravenna/gioielleria-f-lli-cimatti": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-gioielleria-f-lli-cimatti-ravenna-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/venezia/eyes-on-time": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-eyes-on-time-venezia-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/livorno/casa-avelardi": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-casa-avelardi-livorno-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/pistoia/fabiani-gioiellerie": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-fabiani-gioiellerie-pistoia-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/aulla/luccini-ivano": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-luccini-ivano-aulla-1"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/law-watch-di-paolo-simi": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-law-watch-di-paolo-simi-lucca-1"
+      ]
+    },
+    "https://www.orologeriacotifava.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-orologeria-cotifava-dal-1946-mantova-1",
+        "sito:orologeria-cotifava-dal-1946-mantova"
+      ]
+    },
+    "https://benenati-msd4.webnode.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-benenati-msd-catania-1",
+        "sito:benenati-msd-catania"
+      ]
+    },
+    "https://www.orologeriamancuso.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-orologeria-mancuso-como-1",
+        "sito:orologeria-mancuso-como"
+      ]
+    },
+    "https://www.clockservice.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-clock-service-catania-2"
+      ]
+    },
+    "https://www.clockservice.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-clock-service-catania-1",
+        "sito:clock-service-catania"
+      ]
+    },
+    "https://centrorologi.net/servizi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-centrorologi-gravina-di-catania-1",
+        "sito:centrorologi-gravina-di-catania"
+      ]
+    },
+    "https://www.vergarigioielli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-vergari-gioielli-botrugno-1",
+        "sito:vergari-gioielli-botrugno"
+      ]
+    },
+    "https://centrorologi.net/chi-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-centrorologi-gravina-di-catania-2"
+      ]
+    },
+    "https://www.lamottagioielli.it/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-la-motta-gioielli-messina-1",
+        "sito:la-motta-gioielli-messina"
+      ]
+    },
+    "https://www.lamottagioielli.it/rolex/contattaci/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-la-motta-gioielli-messina-2"
+      ]
+    },
+    "https://www.hamiltonwatch.com/it-it/store-locator/italie/sicilia/trapani/laboratorio-orologi-di-andrea-d-ale": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+      ]
+    },
+    "https://www.gioielleriadimarco.it/contatti.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-di-marco-nicosia-2"
+      ]
+    },
+    "https://www.gioielleriadimarco.it/chisiamo.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-di-marco-nicosia-1",
+        "sito:gioielleria-di-marco-nicosia"
+      ]
+    },
+    "https://www.denurra.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-de-nurra-sassari-2"
+      ]
+    },
+    "https://www.denurra.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-de-nurra-sassari-1",
+        "sito:gioielleria-de-nurra-sassari"
+      ]
+    },
+    "https://www.gioielleriagrande.it/centro-assistenza/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-grande-frosinone-1",
+        "sito:gioielleria-grande-frosinone"
+      ]
+    },
+    "https://www.chiocchetti1896.com/laboratorio/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-chiocchetti-lucca-1",
+        "sito:gioielleria-chiocchetti-lucca"
+      ]
+    },
+    "https://www.chiocchetti1896.com/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-chiocchetti-lucca-2"
+      ]
+    },
+    "https://www.demarco-belluno.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-de-marco-belluno-1",
+        "sito:de-marco-belluno"
+      ]
+    },
+    "https://www.demarco-belluno.it/gioielleria-a-belluno/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-de-marco-belluno-2"
+      ]
+    },
+    "https://orafiitaliani.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-orafi-italiani-rovigo-2"
+      ]
+    },
+    "https://orafiitaliani.it/laboratorio-gioielleria-orologeria/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-orafi-italiani-rovigo-1",
+        "sito:gioielleria-orafi-italiani-rovigo"
+      ]
+    },
+    "https://bottegawatches.com/riparazione-orologi-pistoia": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-bottega-watches-pistoia-2"
+      ]
+    },
+    "https://bottegawatches.com/laboratorio": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-bottega-watches-pistoia-1",
+        "sito:bottega-watches-pistoia"
+      ]
+    },
+    "https://www.gibishop.com/assistenza.php": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-gibi-shop-ancona-1",
+        "fonte:pr6-gibi-shop-ancona-2"
+      ]
+    },
+    "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-martines-gioielleria-canicatti-canicatti-1",
+        "sito:martines-gioielleria-canicatti-canicatti"
+      ]
+    },
+    "https://www.orologeriasatolli.it/dove-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-satolli-pescara-1"
+      ]
+    },
+    "https://www.orologeriasatolli.it/chi-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-satolli-pescara-3"
+      ]
+    },
+    "https://www.orologeriasatolli.it/assistenza/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-satolli-pescara-2"
+      ]
+    },
+    "https://www.gioielleriamartines.it/privacy.html": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-martines-gioielleria-canicatti-canicatti-2"
+      ]
+    },
+    "https://www.gioielleriagrande.it/chi-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-gioielleria-grande-frosinone-2"
+      ]
+    },
+    "https://www.ceresciolipaolo.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-cerescioli-paolo-ancona-1",
+        "fonte:pr6-cerescioli-paolo-ancona-2",
+        "sito:cerescioli-paolo-ancona"
+      ]
+    },
+    "https://mirolli.it/rolex/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-mirolli-grosseto-1",
+        "sito:mirolli-grosseto"
+      ]
+    },
+    "https://www.orobirbio.com/vendita-orologi-a-siracusa/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:n02-birbio-gioielli-siracusa-1",
+        "sito:birbio-gioielli-siracusa"
+      ]
+    },
+    "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:pr6-fani-gioielli-2"
+      ]
+    },
+    "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:pr6-wargas-sisti-ancona-1",
+        "fonte:pr6-wargas-sisti-ancona-2"
+      ]
+    },
+    "https://www.bigallifirenze.com/it/contattaci": {
+      "stato": "ok",
+      "http": 202,
+      "riferimenti": [
+        "fonte:pr6-bigalli-1"
+      ]
+    },
+    "https://www.bigallifirenze.com/it/info/4-la-nostra-storia": {
+      "stato": "ok",
+      "http": 202,
+      "riferimenti": [
+        "fonte:pr6-bigalli-3"
+      ]
+    },
+    "https://www.bigallifirenze.com/en/info/5-repairs": {
+      "stato": "ok",
+      "http": 202,
+      "riferimenti": [
+        "fonte:pr6-bigalli-2"
+      ]
+    },
+    "https://www.senzatempofirenze.it/chi-siamo/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-senzatempo-firenze-2"
+      ]
+    },
+    "https://scardi.it/servizi/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-scardi-2"
+      ]
+    },
+    "https://scardi.it/contatti/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-scardi-1"
+      ]
+    },
+    "https://www.salvini.com/it_it/storelocator/GIOIELLERIA-MARETTI-FIRENZE": {
+      "stato": "protetto",
+      "http": 403,
+      "riferimenti": [
+        "fonte:pr6-marretti-1"
+      ]
+    },
+    "https://www.senzatempofirenze.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-senzatempo-firenze-1",
+        "sito:senzatempo-firenze"
+      ]
+    },
+    "https://www.fanishops.it/rolex/contatti/firenze/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "fonte:pr6-fani-gioielli-1"
+      ]
+    },
+    "https://www.orologeriasangalli.com/it/contattaci": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "fonte:pr6-sangalli-1"
+      ]
+    },
+    "https://www.oreficeriamaggini.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:maggini-sesto"
+      ]
+    },
+    "https://www.bigallifirenze.com/": {
+      "stato": "ok",
+      "http": 202,
+      "riferimenti": [
+        "sito:bigalli"
+      ]
+    },
+    "http://www.renai.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:renai-pontassieve"
+      ]
+    },
+    "https://www.orogenesi85.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:orogenesi-pontedera"
+      ]
+    },
+    "https://www.fanishops.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:fani-gioielli"
+      ]
+    },
+    "https://www.gioielleriaempoli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:rutili-empoli"
+      ]
+    },
+    "https://www.agnoluccigioielleria.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:agnolucci-signa",
+        "sito:agnolucci-poggio"
+      ]
+    },
+    "https://www.ficioro.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:ficioro-empoli"
+      ]
+    },
+    "https://www.pisanigioielleria.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:pisani-scandicci-matteotti",
+        "sito:pisani-scandicci-maschera"
+      ]
+    },
+    "https://scardi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:scardi"
+      ]
+    },
+    "https://www.gabbanigioielleria.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:gabbani-pontedera"
+      ]
+    },
+    "https://www.orologeriasangalli.com/": {
+      "stato": "irraggiungibile",
+      "http": null,
+      "riferimenti": [
+        "sito:sangalli"
+      ]
+    },
+    "https://www.orologeriaugolini.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:ugolini-firenzuola"
+      ]
+    },
+    "https://www.gioiellerialamberti.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:lamberti-sesto"
+      ]
+    },
+    "https://www.tempoidea.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:tempoidea-viterbo"
+      ]
+    },
+    "https://www.spaziotempoboutique.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:spaziotempo-sanminiato"
+      ]
+    },
+    "https://www.brusaporci.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:brusaporci-latina"
+      ]
+    },
+    "https://www.stemagioielli.com/it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:stema-termoli"
+      ]
+    },
+    "https://www.caldaniorologi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:caldani-roma"
+      ]
+    },
+    "https://www.horaeorologeria.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:horae-san-giovanni"
+      ]
+    },
+    "https://zagli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:zagli-firenze"
+      ]
+    },
+    "https://www.metallipreziosi.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:metalli-scandicci"
+      ]
+    },
+    "https://gamba-gioielli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:gamba-orologi-bergamo"
+      ]
+    },
+    "https://massarigioielli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:massari-campi"
+      ]
+    },
+    "https://www.orologeriasatolli.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:satolli-pescara"
+      ]
+    },
+    "https://www.orologeriaoreficeriagiacomobruni.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:giacomo-bruni-imperia"
+      ]
+    },
+    "https://www.gioiellerialiparota.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:gioielleria-liparota-lamezia"
+      ]
+    },
+    "https://abate1920.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:abate-1920-sanremo"
+      ]
+    },
+    "https://www.orologeriacasadei.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:casadei-rimini"
+      ]
+    },
+    "https://mauropasetto.it/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:pasetto-torino"
+      ]
+    },
+    "https://rosasgioiellerie.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:gioielleria-rosas-olbia"
+      ]
+    },
+    "https://www.gibishop.com/": {
+      "stato": "ok",
+      "http": 200,
+      "riferimenti": [
+        "sito:gibi-shop-ancona"
+      ]
+    }
+  }
+}

@@ -179,3 +179,24 @@ Collaudo sull'origine reale: home 200 (text/html), 301 apex → www, scheda
 schede, API `/api/orologiaio` 405/200/415/403 e `/api/posizione` 200. La risposta API riporta
 `modalita: "non-configurato"` con interpretazione locale: il kill-switch di Codex è invariato e la
 sua revisione UX resta la base viva del sito, estesa dal PR #6 e dalla fusione documentata qui sopra.
+
+## Audit di qualità del database — 24/10/2026
+
+Audit completo su tutte le 159 schede (`scripts/audit-dati.ts`, report in
+`data/reports/audit-qualita-20261024.json`): riferimenti delle fonti, plausibilità geografica, CAP,
+contatti, orari, duplicati e raggiungibilità dalla ricerca. Esito: tutti i 102 comuni risolvibili
+dall’assistente, tutte le schede raggiungibili per comune, provincia e servizio, nessun duplicato da
+revisionare, nessun CAP o coordinata incoerente.
+
+Trovato e corretto un solo errore: la provincia AO era registrata con due nomi diversi («Aosta» per
+Courmayeur, «Valle d'Aosta/Vallée d'Aoste» per il capoluogo), spezzando la ricerca per provincia in
+due filtri separati. Unificata sul nome ufficiale già in uso, con redirect 301 dal vecchio URL di
+Courmayeur (`/orologerie/valle-daosta/aosta/courmayeur/`); la correzione è annotata nel test di
+conservazione PR #6, che resta stretto su ogni altro campo.
+
+Sondati anche i 284 URL di fonti e contatti: nessun link morto (zero 404/410, tutti i domini
+risolvibili). 231 raggiungibili in automatico; i restanti rispondono con protezioni bot (403/429) o
+sono pagine store-locator di grandi marchi non verificabili in automatico, alcune confermate
+manualmente con user-agent di browser. I 16 servizi storici senza fonte primaria restano attribuiti
+allo specchio «mirror-storico» con stato «da verificare», come da progetto: nessuna pretesa nuova,
+provenienza trasparente.
