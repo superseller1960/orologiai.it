@@ -20255,6 +20255,45 @@ function geminiProvider(apiKey, dir, fetchImpl) {
   };
 }
 
+// site/src/lib/cloudflare-ai.ts
+var CLOUDFLARE_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct";
+var MAX_OUTPUT_TOKENS = 400;
+function corpoRichiestaAI(dir, messaggio, contesto) {
+  const messages = [
+    { role: "system", content: istruzioniSistema(dir) }
+  ];
+  if (contesto && Object.keys(contesto).length > 0) {
+    messages.push({
+      role: "user",
+      content: `Contesto della conversazione fino a qui (criteri gi\xE0 confermati): ${JSON.stringify(contesto)}`
+    });
+    messages.push({ role: "user", content: "Nuovo messaggio del cliente, da qui estrai i criteri:" });
+  }
+  messages.push({ role: "user", content: messaggio });
+  return {
+    messages,
+    response_format: { type: "json_schema", json_schema: schemaCriteri(dir) },
+    temperature: 0,
+    max_tokens: MAX_OUTPUT_TOKENS
+  };
+}
+function estraiJSONRisposta(out) {
+  const radice = out;
+  const contenuto = radice?.response ?? radice?.result?.response;
+  if (contenuto === void 0 || contenuto === null) throw new Error("risposta vuota");
+  const oggetto = typeof contenuto === "string" ? JSON.parse(contenuto) : contenuto;
+  if (typeof oggetto !== "object" || oggetto === null || Array.isArray(oggetto)) throw new Error("risposta malformata");
+  return oggetto;
+}
+function cloudflareAiProvider(ai, dir) {
+  return {
+    async interpreta(messaggio, _signal, contesto) {
+      const out = await ai.run(CLOUDFLARE_AI_MODEL, corpoRichiestaAI(dir, messaggio, contesto));
+      return estraiJSONRisposta(out);
+    }
+  };
+}
+
 // site/src/lib/orologiaio-api.ts
 var MAX_BODY_BYTES = 4096;
 var RATE_LIMIT_PER_MINUTE = 10;
@@ -20319,11 +20358,12 @@ async function handleOrologiaio(request, env, deps) {
   const messaggio = parsed.data.messaggio.trim();
   if (!messaggio) return errore(400, "Scrivi una richiesta.");
   if (messaggio.length > MAX_MESSAGGIO) return errore(413, `Il messaggio supera ${MAX_MESSAGGIO} caratteri.`);
+  const cloudflare = env.AI_PROVIDER === "cloudflare" && env.AI ? cloudflareAiProvider(env.AI, deps.dir) : null;
   const apiKey = (env.GEMINI_API_KEY ?? "").trim();
-  const provider = apiKey ? geminiProvider(apiKey, deps.dir, deps.fetch ?? defaultFetch) : null;
+  const provider = cloudflare ?? (apiKey ? geminiProvider(apiKey, deps.dir, deps.fetch ?? defaultFetch) : null);
   try {
     const esito = await interpretaConProvider(messaggio, deps.dir, provider, deps.timeoutMs ?? SERVER_TIMEOUT_MS, parsed.data.contesto);
-    if (!apiKey) {
+    if (!provider) {
       return json2({
         modalita: "non-configurato",
         avviso: "Il modello AI non \xE8 configurato su questo ambiente: interpretazione locale.",
@@ -21862,6 +21902,807 @@ var directory_default = {
       consultataIl: "2026-10-21",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "fb23-magie-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://magieinoro.com/contatti/",
+      titolo: "Magie In Oro \u2014 contatti e servizi",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fb23-magie-sito",
+      tipo: "sito-ufficiale",
+      url: "https://magieinoro.com/",
+      titolo: "Magie In Oro \u2014 orologeria",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fb23-lombardi-hamilton",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/molise/isernia/gioielleria-lombardi-ercolino",
+      titolo: "Hamilton \u2014 Gioielleria Lombardi Ercolino",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fb23-fenocchi-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriafenocchi.com/rolex/contatti",
+      titolo: "Fenocchi \u2014 contatti San Benedetto del Tronto",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fb23-fenocchi-laboratorio",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriafenocchi.com/il-laboratorio",
+      titolo: "Fenocchi \u2014 laboratorio",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fb23-fenocchi-sito",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriafenocchi.com/",
+      titolo: "Fenocchi \u2014 orologi in vendita",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-l-angolo-delle-ore-novara-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.angolodelleore.it/",
+      titolo: "L\u2019Angolo delle Ore \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-l-angolo-delle-ore-novara-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.angolodelleore.it/contatti/",
+      titolo: "L\u2019Angolo delle Ore \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-gaddi-zucchi-novara-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/gioielleria-gaddi-zucchi-novara-1852354",
+      titolo: "Gioielleria Gaddi Zucchi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-simonini-vercelli-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/vercelli/gioielleria-simonini",
+      titolo: "Gioielleria Simonini \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-orsi-gioielleria-verbania-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/verbania/orsi-gioielleria",
+      titolo: "Orsi Gioielleria \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-bisio-asti-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/asti/gioielleria-bisio",
+      titolo: "Gioielleria Bisio \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-fontana-varese-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italie/lombardy/varese/gioielleria-fontana",
+      titolo: "Gioielleria Fontana \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-fasola-gioielleria-como-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/como/fasola-gioielleria",
+      titolo: "Fasola Gioielleria \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-de-pascalis-spa-lecco-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/de-pascalis-spa-lecco-143569",
+      titolo: "De Pascalis Spa \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-florio-folini-srl-sondrio-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.floriofolini.it/it/",
+      titolo: "Florio Folini Srl \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-florio-folini-srl-sondrio-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.floriofolini.it/it/dove-trovarci",
+      titolo: "Florio Folini Srl \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-la-marca-vittorio-pavia-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italia/lombardia/pavia/gioielleria-la-marca-vittorio",
+      titolo: "Gioielleria La Marca Vittorio \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioiellerie-torelli-cremona-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/gioiellerie-torelli-cremona-1799010",
+      titolo: "Gioiellerie Torelli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-angelini-srl-monza-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/gioielleria-angelini-srl-monza-1678291",
+      titolo: "Gioielleria Angelini Srl \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-giorgi-mario-ancona-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italien/marche/ancona/gioielleria-giorgi-mario",
+      titolo: "Gioielleria Giorgi Mario \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-fraschetti-rieti-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/lazio/rieti/gioielleria-fraschetti",
+      titolo: "Gioielleria Fraschetti \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-iannicelli-caserta-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/caserta/gioielleria-iannicelli",
+      titolo: "Gioielleria Iannicelli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-de-marchi-gianotti-aosta-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/valle-d-aosta/aosta/de-marchi-gianotti",
+      titolo: "De Marchi Gianotti \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-benetti-verona-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-int/store-locator/italy/veneto/verona/gioielleria-benetti-1820494",
+      titolo: "Gioielleria Benetti \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-amighini-verona-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-hk/store-locator/italy/veneto/verona/gioielleria-amighini",
+      titolo: "Gioielleria Amighini \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-oreficeria-de-rui-treviso-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/treviso/oreficeria-de-rui",
+      titolo: "Oreficeria De Rui \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-eyes-on-time-venezia-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/venezia/eyes-on-time",
+      titolo: "Eyes On Time \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-tebaldi-ferrara-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-gb/store-locator/italy/emilia-romagna/ferrara/gioielleria-tebaldi",
+      titolo: "Gioielleria Tebaldi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-f-lli-cimatti-ravenna-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/ravenna/gioielleria-f-lli-cimatti",
+      titolo: "Gioielleria F.lli Cimatti \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-ricci-forli-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italy/emilia-romagna/forli/gioielleria-ricci",
+      titolo: "Gioielleria Ricci \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-zaccarelli-orologeria-modena-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-int/store-locator/italy/emilia-romagna/modena/zaccarelli-orologeria",
+      titolo: "Zaccarelli Orologeria \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-boni-belluno-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.midowatches.com/it/store-locator/italy/belluno/gioielleria-boni-a1vnn000001zwc5yam",
+      titolo: "Gioielleria Boni \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-b-b-gioielli-rovigo-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italy/veneto/rovigo/b-b-gioielli",
+      titolo: "B&B Gioielli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-pedonesi-lucca-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/gioielleria-pedonesi",
+      titolo: "Gioielleria Pedonesi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-casa-avelardi-livorno-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/livorno/casa-avelardi",
+      titolo: "Casa Avelardi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-fabiani-gioiellerie-pistoia-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/pistoia/fabiani-gioiellerie",
+      titolo: "Fabiani Gioiellerie \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-law-watch-di-paolo-simi-lucca-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/lucca/law-watch-di-paolo-simi",
+      titolo: "Law & Watch di Paolo Simi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-luccini-ivano-aulla-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/toscana/aulla/luccini-ivano",
+      titolo: "Luccini Ivano \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-orologeria-mancuso-como-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriamancuso.com/",
+      titolo: "Orologeria Mancuso \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-orologeria-cotifava-dal-1946-mantova-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriacotifava.com/",
+      titolo: "Orologeria Cotifava dal 1946 \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-vergari-gioielli-botrugno-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.vergarigioielli.it/",
+      titolo: "Vergari Gioielli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-benenati-msd-catania-1",
+      tipo: "sito-ufficiale",
+      url: "https://benenati-msd4.webnode.it/",
+      titolo: "Benenati MSD \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-clock-service-catania-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.clockservice.it/",
+      titolo: "Clock Service \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-clock-service-catania-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.clockservice.it/contatti/",
+      titolo: "Clock Service \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-centrorologi-gravina-di-catania-1",
+      tipo: "sito-ufficiale",
+      url: "https://centrorologi.net/servizi/",
+      titolo: "Centrorologi \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-centrorologi-gravina-di-catania-2",
+      tipo: "sito-ufficiale",
+      url: "https://centrorologi.net/chi-siamo/",
+      titolo: "Centrorologi \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-la-motta-gioielli-messina-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.lamottagioielli.it/laboratorio/",
+      titolo: "La Motta Gioielli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-la-motta-gioielli-messina-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.lamottagioielli.it/rolex/contattaci/",
+      titolo: "La Motta Gioielli \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italie/sicilia/trapani/laboratorio-orologi-di-andrea-d-ale",
+      titolo: "Laboratorio Orologi di Andrea D\u2019Ale \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-di-marco-nicosia-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriadimarco.it/chisiamo.php",
+      titolo: "Gioielleria Di Marco \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-di-marco-nicosia-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriadimarco.it/contatti.php",
+      titolo: "Gioielleria Di Marco \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-de-nurra-sassari-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.denurra.it/",
+      titolo: "Gioielleria De Nurra \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-de-nurra-sassari-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.denurra.it/contatti/",
+      titolo: "Gioielleria De Nurra \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-chiocchetti-lucca-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.chiocchetti1896.com/laboratorio/",
+      titolo: "Gioielleria Chiocchetti \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-chiocchetti-lucca-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.chiocchetti1896.com/contatti/",
+      titolo: "Gioielleria Chiocchetti \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-de-marco-belluno-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.demarco-belluno.it/contatti/",
+      titolo: "De Marco \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-de-marco-belluno-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.demarco-belluno.it/gioielleria-a-belluno/",
+      titolo: "De Marco \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-orafi-italiani-rovigo-1",
+      tipo: "sito-ufficiale",
+      url: "https://orafiitaliani.it/laboratorio-gioielleria-orologeria/",
+      titolo: "Gioielleria Orafi Italiani \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-orafi-italiani-rovigo-2",
+      tipo: "sito-ufficiale",
+      url: "https://orafiitaliani.it/contatti/",
+      titolo: "Gioielleria Orafi Italiani \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-grande-frosinone-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagrande.it/centro-assistenza/",
+      titolo: "Gioielleria Grande \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-gioielleria-grande-frosinone-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagrande.it/chi-siamo/",
+      titolo: "Gioielleria Grande \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-bottega-watches-pistoia-1",
+      tipo: "sito-ufficiale",
+      url: "https://bottegawatches.com/laboratorio",
+      titolo: "Bottega Watches \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-bottega-watches-pistoia-2",
+      tipo: "sito-ufficiale",
+      url: "https://bottegawatches.com/riparazione-orologi-pistoia",
+      titolo: "Bottega Watches \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-birbio-gioielli-siracusa-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.orobirbio.com/vendita-orologi-a-siracusa/",
+      titolo: "Birbio Gioielli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-martines-gioielleria-canicatti-canicatti-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
+      titolo: "Martines Gioielleria \u2014 Canicatt\xEC \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-martines-gioielleria-canicatti-canicatti-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriamartines.it/privacy.html",
+      titolo: "Martines Gioielleria \u2014 Canicatt\xEC \u2014 fonte 2",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "n02-mirolli-grosseto-1",
+      tipo: "sito-ufficiale",
+      url: "https://mirolli.it/rolex/contatti/",
+      titolo: "Mirolli \u2014 fonte 1",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-cerescioli-paolo-ancona-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.ceresciolipaolo.it/",
+      titolo: "Cerescioli Paolo & C. Sas \u2014 servizi, ricambi e contatti Ancona",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-cerescioli-paolo-ancona-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.ceresciolipaolo.it/",
+      titolo: "Cerescioli Paolo & C. Sas \u2014 riconferma delle fonti",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-gibi-shop-ancona-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.gibishop.com/assistenza.php",
+      titolo: "Gi.Bi. Shop \u2014 assistenza orologi e recapiti Ancona",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-gibi-shop-ancona-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.gibishop.com/assistenza.php",
+      titolo: "Gi.Bi. Shop \u2014 riconferma delle fonti",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-satolli-pescara-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriasatolli.it/dove-siamo/",
+      titolo: "Orologeria Satolli \u2014 sede, telefono e orari",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-satolli-pescara-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriasatolli.it/assistenza/",
+      titolo: "Orologeria Satolli \u2014 interventi e competenze dichiarate",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-satolli-pescara-3",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriasatolli.it/chi-siamo/",
+      titolo: "Orologeria Satolli \u2014 storia familiare e delle sedi",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-wargas-sisti-ancona-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      titolo: "Longines \u2014 scheda boutique Wargas Sisti, Ancona",
+      consultataIl: "2026-10-23",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-wargas-sisti-ancona-2",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      titolo: "Wargas Sisti dei F.lli Melani Srl \u2014 riconferma delle fonti",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-bigalli-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.bigallifirenze.com/it/contattaci",
+      titolo: "https://www.bigallifirenze.com/it/contattaci",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-bigalli-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.bigallifirenze.com/en/info/5-repairs",
+      titolo: "https://www.bigallifirenze.com/en/info/5-repairs",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-bigalli-3",
+      tipo: "sito-ufficiale",
+      url: "https://www.bigallifirenze.com/it/info/4-la-nostra-storia",
+      titolo: "https://www.bigallifirenze.com/it/info/4-la-nostra-storia",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-fani-gioielli-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.fanishops.it/rolex/contatti/firenze/",
+      titolo: "https://www.fanishops.it/rolex/contatti/firenze/",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-fani-gioielli-2",
+      tipo: "marchio-ufficiale",
+      url: "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661",
+      titolo: "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-marretti-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.salvini.com/it_it/storelocator/GIOIELLERIA-MARETTI-FIRENZE",
+      titolo: "https://www.salvini.com/it_it/storelocator/GIOIELLERIA-MARETTI-FIRENZE",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-sangalli-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriasangalli.com/it/contattaci",
+      titolo: "https://www.orologeriasangalli.com/it/contattaci",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-sangalli-2",
+      tipo: "directory",
+      url: "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900",
+      titolo: "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-scardi-1",
+      tipo: "sito-ufficiale",
+      url: "https://scardi.it/contatti/",
+      titolo: "https://scardi.it/contatti/",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-scardi-2",
+      tipo: "sito-ufficiale",
+      url: "https://scardi.it/servizi/",
+      titolo: "https://scardi.it/servizi/",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-senzatempo-firenze-1",
+      tipo: "sito-ufficiale",
+      url: "https://www.senzatempofirenze.it/",
+      titolo: "https://www.senzatempofirenze.it/",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pr6-senzatempo-firenze-2",
+      tipo: "sito-ufficiale",
+      url: "https://www.senzatempofirenze.it/chi-siamo/",
+      titolo: "https://www.senzatempofirenze.it/chi-siamo/",
+      consultataIl: "2026-10-24",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -22775,6 +23616,674 @@ var directory_default = {
         "r27-liparota",
         "r27-liparota-contatti"
       ]
+    },
+    {
+      id: "chieti",
+      comune: "Chieti",
+      comuneSlug: "chieti",
+      provincia: "Chieti",
+      provinciaSlug: "chieti",
+      siglaProvincia: "CH",
+      regione: "Abruzzo",
+      regioneSlug: "abruzzo",
+      codiceIstat: null,
+      descrizione: "Chieti: attivit\xE0 di orologeria censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "fb23-magie-contatti"
+      ]
+    },
+    {
+      id: "isernia",
+      comune: "Isernia",
+      comuneSlug: "isernia",
+      provincia: "Isernia",
+      provinciaSlug: "isernia",
+      siglaProvincia: "IS",
+      regione: "Molise",
+      regioneSlug: "molise",
+      codiceIstat: null,
+      descrizione: "Isernia: attivit\xE0 di orologeria censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "fb23-lombardi-hamilton"
+      ]
+    },
+    {
+      id: "san-benedetto-del-tronto",
+      comune: "San Benedetto del Tronto",
+      comuneSlug: "san-benedetto-del-tronto",
+      provincia: "Ascoli Piceno",
+      provinciaSlug: "ascoli-piceno",
+      siglaProvincia: "AP",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "San Benedetto del Tronto: attivit\xE0 di orologeria censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "fb23-fenocchi-contatti"
+      ]
+    },
+    {
+      id: "novara",
+      comune: "Novara",
+      comuneSlug: "novara",
+      provincia: "Novara",
+      provinciaSlug: "novara",
+      siglaProvincia: "NO",
+      regione: "Piemonte",
+      regioneSlug: "piemonte",
+      codiceIstat: "003106",
+      descrizione: "Novara: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-l-angolo-delle-ore-novara-1",
+        "n02-l-angolo-delle-ore-novara-2"
+      ]
+    },
+    {
+      id: "vercelli",
+      comune: "Vercelli",
+      comuneSlug: "vercelli",
+      provincia: "Vercelli",
+      provinciaSlug: "vercelli",
+      siglaProvincia: "VC",
+      regione: "Piemonte",
+      regioneSlug: "piemonte",
+      codiceIstat: "002158",
+      descrizione: "Vercelli: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-simonini-vercelli-1"
+      ]
+    },
+    {
+      id: "verbania",
+      comune: "Verbania",
+      comuneSlug: "verbania",
+      provincia: "Verbano-Cusio-Ossola",
+      provinciaSlug: "verbano-cusio-ossola",
+      siglaProvincia: "VB",
+      regione: "Piemonte",
+      regioneSlug: "piemonte",
+      codiceIstat: "103072",
+      descrizione: "Verbania: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-orsi-gioielleria-verbania-1"
+      ]
+    },
+    {
+      id: "asti",
+      comune: "Asti",
+      comuneSlug: "asti",
+      provincia: "Asti",
+      provinciaSlug: "asti",
+      siglaProvincia: "AT",
+      regione: "Piemonte",
+      regioneSlug: "piemonte",
+      codiceIstat: "005005",
+      descrizione: "Asti: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-bisio-asti-1"
+      ]
+    },
+    {
+      id: "varese",
+      comune: "Varese",
+      comuneSlug: "varese",
+      provincia: "Varese",
+      provinciaSlug: "varese",
+      siglaProvincia: "VA",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "012133",
+      descrizione: "Varese: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-fontana-varese-1"
+      ]
+    },
+    {
+      id: "como",
+      comune: "Como",
+      comuneSlug: "como",
+      provincia: "Como",
+      provinciaSlug: "como",
+      siglaProvincia: "CO",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "013075",
+      descrizione: "Como: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-fasola-gioielleria-como-1"
+      ]
+    },
+    {
+      id: "lecco",
+      comune: "Lecco",
+      comuneSlug: "lecco",
+      provincia: "Lecco",
+      provinciaSlug: "lecco",
+      siglaProvincia: "LC",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "097042",
+      descrizione: "Lecco: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-de-pascalis-spa-lecco-1"
+      ]
+    },
+    {
+      id: "sondrio",
+      comune: "Sondrio",
+      comuneSlug: "sondrio",
+      provincia: "Sondrio",
+      provinciaSlug: "sondrio",
+      siglaProvincia: "SO",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "014061",
+      descrizione: "Sondrio: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-florio-folini-srl-sondrio-1",
+        "n02-florio-folini-srl-sondrio-2"
+      ]
+    },
+    {
+      id: "pavia",
+      comune: "Pavia",
+      comuneSlug: "pavia",
+      provincia: "Pavia",
+      provinciaSlug: "pavia",
+      siglaProvincia: "PV",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "018110",
+      descrizione: "Pavia: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-la-marca-vittorio-pavia-1"
+      ]
+    },
+    {
+      id: "cremona",
+      comune: "Cremona",
+      comuneSlug: "cremona",
+      provincia: "Cremona",
+      provinciaSlug: "cremona",
+      siglaProvincia: "CR",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "019036",
+      descrizione: "Cremona: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioiellerie-torelli-cremona-1"
+      ]
+    },
+    {
+      id: "monza",
+      comune: "Monza",
+      comuneSlug: "monza",
+      provincia: "Monza e della Brianza",
+      provinciaSlug: "monza-e-della-brianza",
+      siglaProvincia: "MB",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "108033",
+      descrizione: "Monza: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-angelini-srl-monza-1"
+      ]
+    },
+    {
+      id: "ancona",
+      comune: "Ancona",
+      comuneSlug: "ancona",
+      provincia: "Ancona",
+      provinciaSlug: "ancona",
+      siglaProvincia: "AN",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: "042002",
+      descrizione: "Ancona: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-giorgi-mario-ancona-1"
+      ]
+    },
+    {
+      id: "rieti",
+      comune: "Rieti",
+      comuneSlug: "rieti",
+      provincia: "Rieti",
+      provinciaSlug: "rieti",
+      siglaProvincia: "RI",
+      regione: "Lazio",
+      regioneSlug: "lazio",
+      codiceIstat: "057059",
+      descrizione: "Rieti: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-fraschetti-rieti-1"
+      ]
+    },
+    {
+      id: "caserta",
+      comune: "Caserta",
+      comuneSlug: "caserta",
+      provincia: "Caserta",
+      provinciaSlug: "caserta",
+      siglaProvincia: "CE",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: "061022",
+      descrizione: "Caserta: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-iannicelli-caserta-1"
+      ]
+    },
+    {
+      id: "aosta",
+      comune: "Aosta",
+      comuneSlug: "aosta",
+      provincia: "Valle d'Aosta/Vall\xE9e d'Aoste",
+      provinciaSlug: "valle-d-aosta-vallee-d-aoste",
+      siglaProvincia: "AO",
+      regione: "Valle d'Aosta",
+      regioneSlug: "valle-daosta",
+      codiceIstat: "007003",
+      descrizione: "Aosta: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-de-marchi-gianotti-aosta-1"
+      ]
+    },
+    {
+      id: "verona",
+      comune: "Verona",
+      comuneSlug: "verona",
+      provincia: "Verona",
+      provinciaSlug: "verona",
+      siglaProvincia: "VR",
+      regione: "Veneto",
+      regioneSlug: "veneto",
+      codiceIstat: "023091",
+      descrizione: "Verona: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-benetti-verona-1"
+      ]
+    },
+    {
+      id: "treviso",
+      comune: "Treviso",
+      comuneSlug: "treviso",
+      provincia: "Treviso",
+      provinciaSlug: "treviso",
+      siglaProvincia: "TV",
+      regione: "Veneto",
+      regioneSlug: "veneto",
+      codiceIstat: "026086",
+      descrizione: "Treviso: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-oreficeria-de-rui-treviso-1"
+      ]
+    },
+    {
+      id: "venezia",
+      comune: "Venezia",
+      comuneSlug: "venezia",
+      provincia: "Venezia",
+      provinciaSlug: "venezia",
+      siglaProvincia: "VE",
+      regione: "Veneto",
+      regioneSlug: "veneto",
+      codiceIstat: "027042",
+      descrizione: "Venezia: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-eyes-on-time-venezia-1"
+      ]
+    },
+    {
+      id: "ferrara",
+      comune: "Ferrara",
+      comuneSlug: "ferrara",
+      provincia: "Ferrara",
+      provinciaSlug: "ferrara",
+      siglaProvincia: "FE",
+      regione: "Emilia-Romagna",
+      regioneSlug: "emilia-romagna",
+      codiceIstat: "038008",
+      descrizione: "Ferrara: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-tebaldi-ferrara-1"
+      ]
+    },
+    {
+      id: "ravenna",
+      comune: "Ravenna",
+      comuneSlug: "ravenna",
+      provincia: "Ravenna",
+      provinciaSlug: "ravenna",
+      siglaProvincia: "RA",
+      regione: "Emilia-Romagna",
+      regioneSlug: "emilia-romagna",
+      codiceIstat: "039014",
+      descrizione: "Ravenna: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-f-lli-cimatti-ravenna-1"
+      ]
+    },
+    {
+      id: "forli",
+      comune: "Forl\xEC",
+      comuneSlug: "forli",
+      provincia: "Forl\xEC-Cesena",
+      provinciaSlug: "forli-cesena",
+      siglaProvincia: "FC",
+      regione: "Emilia-Romagna",
+      regioneSlug: "emilia-romagna",
+      codiceIstat: "040012",
+      descrizione: "Forl\xEC: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-ricci-forli-1"
+      ]
+    },
+    {
+      id: "modena",
+      comune: "Modena",
+      comuneSlug: "modena",
+      provincia: "Modena",
+      provinciaSlug: "modena",
+      siglaProvincia: "MO",
+      regione: "Emilia-Romagna",
+      regioneSlug: "emilia-romagna",
+      codiceIstat: "036023",
+      descrizione: "Modena: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-zaccarelli-orologeria-modena-1"
+      ]
+    },
+    {
+      id: "belluno",
+      comune: "Belluno",
+      comuneSlug: "belluno",
+      provincia: "Belluno",
+      provinciaSlug: "belluno",
+      siglaProvincia: "BL",
+      regione: "Veneto",
+      regioneSlug: "veneto",
+      codiceIstat: "025006",
+      descrizione: "Belluno: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-boni-belluno-1"
+      ]
+    },
+    {
+      id: "rovigo",
+      comune: "Rovigo",
+      comuneSlug: "rovigo",
+      provincia: "Rovigo",
+      provinciaSlug: "rovigo",
+      siglaProvincia: "RO",
+      regione: "Veneto",
+      regioneSlug: "veneto",
+      codiceIstat: "029041",
+      descrizione: "Rovigo: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-b-b-gioielli-rovigo-1"
+      ]
+    },
+    {
+      id: "lucca",
+      comune: "Lucca",
+      comuneSlug: "lucca",
+      provincia: "Lucca",
+      provinciaSlug: "lucca",
+      siglaProvincia: "LU",
+      regione: "Toscana",
+      regioneSlug: "toscana",
+      codiceIstat: "046017",
+      descrizione: "Lucca: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-pedonesi-lucca-1"
+      ]
+    },
+    {
+      id: "livorno",
+      comune: "Livorno",
+      comuneSlug: "livorno",
+      provincia: "Livorno",
+      provinciaSlug: "livorno",
+      siglaProvincia: "LI",
+      regione: "Toscana",
+      regioneSlug: "toscana",
+      codiceIstat: "049009",
+      descrizione: "Livorno: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-casa-avelardi-livorno-1"
+      ]
+    },
+    {
+      id: "pistoia",
+      comune: "Pistoia",
+      comuneSlug: "pistoia",
+      provincia: "Pistoia",
+      provinciaSlug: "pistoia",
+      siglaProvincia: "PT",
+      regione: "Toscana",
+      regioneSlug: "toscana",
+      codiceIstat: "047014",
+      descrizione: "Pistoia: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-fabiani-gioiellerie-pistoia-1"
+      ]
+    },
+    {
+      id: "aulla",
+      comune: "Aulla",
+      comuneSlug: "aulla",
+      provincia: "Massa-Carrara",
+      provinciaSlug: "massa-carrara",
+      siglaProvincia: "MS",
+      regione: "Toscana",
+      regioneSlug: "toscana",
+      codiceIstat: "045001",
+      descrizione: "Aulla: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-luccini-ivano-aulla-1"
+      ]
+    },
+    {
+      id: "mantova",
+      comune: "Mantova",
+      comuneSlug: "mantova",
+      provincia: "Mantova",
+      provinciaSlug: "mantova",
+      siglaProvincia: "MN",
+      regione: "Lombardia",
+      regioneSlug: "lombardia",
+      codiceIstat: "020030",
+      descrizione: "Mantova: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-orologeria-cotifava-dal-1946-mantova-1"
+      ]
+    },
+    {
+      id: "botrugno",
+      comune: "Botrugno",
+      comuneSlug: "botrugno",
+      provincia: "Lecce",
+      provinciaSlug: "lecce",
+      siglaProvincia: "LE",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: "075009",
+      descrizione: "Botrugno: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-vergari-gioielli-botrugno-1"
+      ]
+    },
+    {
+      id: "catania",
+      comune: "Catania",
+      comuneSlug: "catania",
+      provincia: "Catania",
+      provinciaSlug: "catania",
+      siglaProvincia: "CT",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "087015",
+      descrizione: "Catania: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-benenati-msd-catania-1"
+      ]
+    },
+    {
+      id: "gravina-di-catania",
+      comune: "Gravina di Catania",
+      comuneSlug: "gravina-di-catania",
+      provincia: "Catania",
+      provinciaSlug: "catania",
+      siglaProvincia: "CT",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "087019",
+      descrizione: "Gravina di Catania: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-centrorologi-gravina-di-catania-1",
+        "n02-centrorologi-gravina-di-catania-2"
+      ]
+    },
+    {
+      id: "messina",
+      comune: "Messina",
+      comuneSlug: "messina",
+      provincia: "Messina",
+      provinciaSlug: "messina",
+      siglaProvincia: "ME",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "083048",
+      descrizione: "Messina: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-la-motta-gioielli-messina-1",
+        "n02-la-motta-gioielli-messina-2"
+      ]
+    },
+    {
+      id: "trapani",
+      comune: "Trapani",
+      comuneSlug: "trapani",
+      provincia: "Trapani",
+      provinciaSlug: "trapani",
+      siglaProvincia: "TP",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "081021",
+      descrizione: "Trapani: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+      ]
+    },
+    {
+      id: "nicosia",
+      comune: "Nicosia",
+      comuneSlug: "nicosia",
+      provincia: "Enna",
+      provinciaSlug: "enna",
+      siglaProvincia: "EN",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "086012",
+      descrizione: "Nicosia: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-di-marco-nicosia-1",
+        "n02-gioielleria-di-marco-nicosia-2"
+      ]
+    },
+    {
+      id: "sassari",
+      comune: "Sassari",
+      comuneSlug: "sassari",
+      provincia: "Sassari",
+      provinciaSlug: "sassari",
+      siglaProvincia: "SS",
+      regione: "Sardegna",
+      regioneSlug: "sardegna",
+      codiceIstat: "112050",
+      descrizione: "Sassari: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-de-nurra-sassari-1",
+        "n02-gioielleria-de-nurra-sassari-2"
+      ]
+    },
+    {
+      id: "frosinone",
+      comune: "Frosinone",
+      comuneSlug: "frosinone",
+      provincia: "Frosinone",
+      provinciaSlug: "frosinone",
+      siglaProvincia: "FR",
+      regione: "Lazio",
+      regioneSlug: "lazio",
+      codiceIstat: "060038",
+      descrizione: "Frosinone: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-gioielleria-grande-frosinone-1",
+        "n02-gioielleria-grande-frosinone-2"
+      ]
+    },
+    {
+      id: "siracusa",
+      comune: "Siracusa",
+      comuneSlug: "siracusa",
+      provincia: "Siracusa",
+      provinciaSlug: "siracusa",
+      siglaProvincia: "SR",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "089017",
+      descrizione: "Siracusa: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-birbio-gioielli-siracusa-1"
+      ]
+    },
+    {
+      id: "canicatti",
+      comune: "Canicatt\xEC",
+      comuneSlug: "canicatti",
+      provincia: "Agrigento",
+      provinciaSlug: "agrigento",
+      siglaProvincia: "AG",
+      regione: "Sicilia",
+      regioneSlug: "sicilia",
+      codiceIstat: "084011",
+      descrizione: "Canicatt\xEC: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-martines-gioielleria-canicatti-canicatti-1",
+        "n02-martines-gioielleria-canicatti-canicatti-2"
+      ]
+    },
+    {
+      id: "grosseto",
+      comune: "Grosseto",
+      comuneSlug: "grosseto",
+      provincia: "Grosseto",
+      provinciaSlug: "grosseto",
+      siglaProvincia: "GR",
+      regione: "Toscana",
+      regioneSlug: "toscana",
+      codiceIstat: "053011",
+      descrizione: "Grosseto: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "n02-mirolli-grosseto-1"
+      ]
+    },
+    {
+      id: "pescara",
+      comune: "Pescara",
+      comuneSlug: "pescara",
+      provincia: "Pescara",
+      provinciaSlug: "pescara",
+      siglaProvincia: "PE",
+      regione: "Abruzzo",
+      regioneSlug: "abruzzo",
+      codiceIstat: null,
+      descrizione: "Pescara: attivit\xE0 censite con servizi documentati e fonti consultabili.",
+      fonti: [
+        "pr6-satolli-pescara-1"
+      ]
     }
   ],
   attivita: [
@@ -22785,7 +24294,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Punto vendita di famiglia dal 1959: da padre a figlio e nipote, con le migliori marche di orologeria e gioielleria per uomo e donna.",
+      descrizione: "Orologeria e oreficeria a Firenze con laboratorio per riparazione, manutenzione e restauro di orologi da polso, da tasca e pendoli. Il sito propone anche orologi d\u2019epoca e descrive ritiro e consegna degli esemplari ingombranti.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "firenze",
@@ -22798,12 +24307,16 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 055 676615",
         email: null,
-        sito: null,
+        sito: "https://scardi.it/",
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-firenze",
+          "pr6-scardi-1",
+          "pr6-scardi-2"
+        ]
       },
       orari: {
         giorni: [],
@@ -22823,9 +24336,54 @@ var directory_default = {
           fonti: [
             "mirror-firenze"
           ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "pr6-scardi-2"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "pr6-scardi-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "pr6-scardi-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "pr6-scardi-2"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "pr6-scardi-2"
+          ]
+        },
+        {
+          id: "orologi-tasca",
+          fonti: [
+            "pr6-scardi-2"
+          ]
         }
       ],
-      altriServizi: [],
+      altriServizi: [
+        {
+          nome: "Interventi a domicilio e ritiro/consegna di orologi ingombranti, da concordare con la bottega.",
+          fonti: [
+            "mirror-firenze",
+            "pr6-scardi-1",
+            "pr6-scardi-2"
+          ]
+        }
+      ],
       specializzazioni: [],
       marchi: {
         venduti: [],
@@ -22841,16 +24399,20 @@ var directory_default = {
         testo: "Punto vendita di famiglia dal 1959: da padre a figlio e nipote, con le migliori marche di orologeria e gioielleria per uomo e donna.",
         eventi: [],
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-scardi-1",
+          "pr6-scardi-2"
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-24",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-scardi-1",
+          "pr6-scardi-2"
         ],
         cronologia: [
           {
@@ -22865,6 +24427,24 @@ var directory_default = {
             azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
             fonti: [
               "t03-scardi-sede"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-scardi-1",
+              "pr6-scardi-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Aggiunti recapito e sito ufficiale; precisati i servizi di laboratorio. Testo storico, ID e indirizzo precedente conservati. Orari non dedotti.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-scardi-1",
+              "pr6-scardi-2"
             ]
           }
         ],
@@ -22895,12 +24475,15 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 055 215603",
         email: null,
         sito: null,
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-firenze",
+          "pr6-marretti-1"
+        ]
       },
       orari: {
         giorni: [],
@@ -22932,7 +24515,8 @@ var directory_default = {
         testo: "Fondata nel 1952 da Renato Marretti, poi tramandata al figlio Alberto, che ne ha fatto crescere la reputazione.",
         eventi: [],
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-marretti-1"
         ]
       },
       attendibilita: {
@@ -22941,7 +24525,8 @@ var directory_default = {
         verificataIl: null,
         confermataTitolareIl: null,
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-marretti-1"
         ],
         cronologia: [
           {
@@ -22956,6 +24541,22 @@ var directory_default = {
             azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
             fonti: [
               "t03-marretti-elenco"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-marretti-1"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Aggiunto il recapito pubblico riportato dal locator Salvini per la stessa sede. Verifica parziale da contenuto indicizzato: stato da-verificare e storia invariati.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-marretti-1"
             ]
           }
         ],
@@ -22973,7 +24574,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Una storia di eccellenza e tradizione nella culla dell'oreficeria fiorentina, tra famiglia e amore per il lavoro ben fatto.",
+      descrizione: "Punto vendita di gioielleria e orologeria in Via de\u2019 Tornabuoni a Firenze. La sede \xE8 presente nella rete di rivenditori ufficiali Rolex; sono disponibili telefono e orari pubblicati dalla boutique.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "firenze",
@@ -22997,18 +24598,85 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 055 212075",
         email: null,
-        sito: null,
+        sito: "https://www.fanishops.it/",
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-firenze",
+          "pr6-fani-gioielli-1",
+          "pr6-fani-gioielli-2"
+        ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "mirror-firenze",
+          "pr6-fani-gioielli-1",
+          "pr6-fani-gioielli-2"
+        ]
       },
       servizi: [
         {
@@ -23027,11 +24695,25 @@ var directory_default = {
       altriServizi: [],
       specializzazioni: [],
       marchi: {
-        venduti: [],
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "pr6-fani-gioielli-2"
+            ]
+          }
+        ],
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "pr6-fani-gioielli-2"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -23040,16 +24722,20 @@ var directory_default = {
         testo: "Una storia di eccellenza e tradizione nella culla dell'oreficeria fiorentina, tra famiglia e amore per il lavoro ben fatto.",
         eventi: [],
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-fani-gioielli-1",
+          "pr6-fani-gioielli-2"
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-24",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-fani-gioielli-1",
+          "pr6-fani-gioielli-2"
         ],
         cronologia: [
           {
@@ -23065,6 +24751,24 @@ var directory_default = {
             fonti: [
               "t03-fani-sede",
               "t03-nominatim"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-fani-gioielli-1",
+              "pr6-fani-gioielli-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Aggiunti contatti, orari e rivendita Rolex riscontrata presso il marchio. Ignorato il CAP a sei cifre del sito; conservati sede e URL storici.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-fani-gioielli-1",
+              "pr6-fani-gioielli-2"
             ]
           }
         ],
@@ -23082,7 +24786,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Nata nel 1927 da Tullio e Bruna Bigalli come bottega di forniture per orologiai presso Ponte Vecchio, con ricambi svizzeri per riparazioni artigianali.",
+      descrizione: "Bottega fiorentina di forniture e ricambi con vendita di orologi e laboratorio. Documenta revisioni, manutenzione e riparazioni di orologi automatici, manuali e al quarzo, oltre a interventi su pendoli e cuc\xF9.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "firenze",
@@ -23095,18 +24799,83 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "+39 055 212733",
+        email: "info@bigallifirenze.com",
+        sito: "https://www.bigallifirenze.com/",
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-firenze",
+          "pr6-bigalli-1",
+          "pr6-bigalli-2",
+          "pr6-bigalli-3"
+        ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "mirror-firenze",
+          "pr6-bigalli-1",
+          "pr6-bigalli-2",
+          "pr6-bigalli-3"
+        ]
       },
       servizi: [
         {
@@ -23126,6 +24895,42 @@ var directory_default = {
           fonti: [
             "mirror-firenze"
           ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
+        },
+        {
+          id: "riparazione-meccanici",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
+        },
+        {
+          id: "riparazione-automatici",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
+        },
+        {
+          id: "riparazione-quarzo",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "pr6-bigalli-2"
+          ]
         }
       ],
       altriServizi: [],
@@ -23133,27 +24938,78 @@ var directory_default = {
       marchi: {
         venduti: [],
         riparati: [],
-        esperienza: [],
+        esperienza: [
+          {
+            marca: "Omega",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          },
+          {
+            marca: "Rado",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          },
+          {
+            marca: "Calvin Klein",
+            fonti: [
+              "pr6-bigalli-2"
+            ]
+          }
+        ],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
         menzionati: []
       },
       storia: {
         annoFondazione: 1927,
-        fondatore: null,
+        fondatore: "Tullio e Bruna Bigalli",
         testo: "Nata nel 1927 da Tullio e Bruna Bigalli come bottega di forniture per orologiai presso Ponte Vecchio, con ricambi svizzeri per riparazioni artigianali.",
-        eventi: [],
+        eventi: [
+          {
+            data: "2003",
+            descrizione: "Trasferimento nella sede di Via Maso Finiguerra.",
+            fonti: [
+              "pr6-bigalli-3"
+            ]
+          }
+        ],
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-bigalli-1",
+          "pr6-bigalli-2",
+          "pr6-bigalli-3"
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-24",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-bigalli-1",
+          "pr6-bigalli-2",
+          "pr6-bigalli-3"
         ],
         cronologia: [
           {
@@ -23168,6 +25024,26 @@ var directory_default = {
             azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati",
             fonti: [
               "t03-bigalli-sede"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-bigalli-1",
+              "pr6-bigalli-2",
+              "pr6-bigalli-3"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Scheda storica arricchita con contatti, orari, competenze dichiarate e storia corroborata. Nessuna certificazione del negozio promossa ad autorizzazione del marchio.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-bigalli-1",
+              "pr6-bigalli-2",
+              "pr6-bigalli-3"
             ]
           }
         ],
@@ -23185,7 +25061,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Lunga esperienza nell'orologeria di prestigio, con assistenza e originalit\xE0 garantite sugli articoli proposti.",
+      descrizione: "Orologeria di Firenze dedicata a orologi di prestigio usati e d\u2019epoca. Documenta acquisto, permuta e valutazione dell\u2019usato, con riparazioni, revisioni e manutenzione affidate ai tecnici del laboratorio.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "firenze",
@@ -23209,18 +25085,72 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "+39 055 2382267",
+        email: "info@senzatempofirenze.it",
+        sito: "https://www.senzatempofirenze.it/",
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-firenze",
+          "pr6-senzatempo-firenze-1",
+          "pr6-senzatempo-firenze-2"
+        ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:30",
+                chiusura: "18:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "mirror-firenze",
+          "pr6-senzatempo-firenze-1",
+          "pr6-senzatempo-firenze-2"
+        ]
       },
       servizi: [
         {
@@ -23233,6 +25163,42 @@ var directory_default = {
           id: "assistenza",
           fonti: [
             "mirror-firenze"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
+          ]
+        },
+        {
+          id: "acquisto-permuta",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "pr6-senzatempo-firenze-2"
           ]
         }
       ],
@@ -23252,16 +25218,20 @@ var directory_default = {
         testo: "Lunga esperienza nell'orologeria di prestigio, con assistenza e originalit\xE0 garantite sugli articoli proposti.",
         eventi: [],
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-senzatempo-firenze-1",
+          "pr6-senzatempo-firenze-2"
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-24",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-firenze"
+          "mirror-firenze",
+          "pr6-senzatempo-firenze-1",
+          "pr6-senzatempo-firenze-2"
         ],
         cronologia: [
           {
@@ -23277,6 +25247,24 @@ var directory_default = {
             fonti: [
               "t03-senzatempo-sede",
               "t03-nominatim"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-senzatempo-firenze-1",
+              "pr6-senzatempo-firenze-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Aggiunti contatti completi, orari e servizi documentati. Risolta la discordanza fra il fisso tronco nella pagina contatti e quello completo del sito; nessun numero ricostruito per supposizione.",
+            fonti: [
+              "mirror-firenze",
+              "pr6-senzatempo-firenze-1",
+              "pr6-senzatempo-firenze-2"
             ]
           }
         ],
@@ -23294,7 +25282,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Fondata nel 1900 da Egidio Casini. Ripara ogni tipo di orologio, dalle pendole parigine agli orologi da polso, con laboratorio interno.",
+      descrizione: "Orologeria e gioielleria storica in Via Bergamini a Milano, con vendita e riparazione di orologi. La fondazione nel 1900 a opera di Egidio Casini \xE8 documentata anche nel registro delle imprese storiche di Unioncamere.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "milano",
@@ -23318,18 +25306,108 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "+39 02 58304415",
+        email: "info@orologeriasangalli.com",
+        sito: "https://www.orologeriasangalli.com/",
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "mirror-milano",
+          "pr6-sangalli-1",
+          "pr6-sangalli-2"
+        ]
       },
       orari: {
-        giorni: [],
-        chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
+        chiusure: [
+          "Giugno e luglio: chiuso il sabato pomeriggio.",
+          "Dicembre: il sito indica apertura tutti i giorni, anche festivi, fino al 24 compreso; confermare gli orari delle aperture straordinarie."
+        ],
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "mirror-milano",
+          "pr6-sangalli-1",
+          "pr6-sangalli-2"
+        ]
       },
       servizi: [
         {
@@ -23357,20 +25435,24 @@ var directory_default = {
       },
       storia: {
         annoFondazione: 1900,
-        fondatore: null,
+        fondatore: "Egidio Casini",
         testo: "Fondata nel 1900 da Egidio Casini. Ripara ogni tipo di orologio, dalle pendole parigine agli orologi da polso, con laboratorio interno.",
         eventi: [],
         fonti: [
-          "mirror-milano"
+          "mirror-milano",
+          "pr6-sangalli-1",
+          "pr6-sangalli-2"
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-24",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-milano"
+          "mirror-milano",
+          "pr6-sangalli-1",
+          "pr6-sangalli-2"
         ],
         cronologia: [
           {
@@ -23386,6 +25468,24 @@ var directory_default = {
             fonti: [
               "t03-sangalli-sede",
               "t03-nominatim"
+            ]
+          },
+          {
+            data: "2026-10-16",
+            azione: "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP.",
+            fonti: [
+              "mirror-milano",
+              "pr6-sangalli-1",
+              "pr6-sangalli-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Aggiunti telefono, email, sito e orari con eccezioni stagionali esplicite. Fondazione e fondatore corroborati dalla fonte istituzionale, senza riscrivere il testo storico.",
+            fonti: [
+              "mirror-milano",
+              "pr6-sangalli-1",
+              "pr6-sangalli-2"
             ]
           }
         ],
@@ -36249,6 +38349,6224 @@ var directory_default = {
       origine: {
         sistema: "ricerca-ufficiale-rilancio-nazionale-02",
         idOriginale: "gioielleria-liparota-lamezia"
+      }
+    },
+    {
+      id: "magie-in-oro-chieti",
+      slug: "magie-in-oro-chieti",
+      nome: "Magie In Oro",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Orologeria e gioielleria a Chieti con vendita di orologi, anche di secondo polso. Il laboratorio dichiara riparazione e manutenzione di orologi meccanici e al quarzo, revisioni complete e lucidatura.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "chieti",
+      posizione: {
+        indirizzo: "Viale Abruzzo 98",
+        cap: "66100",
+        coordinate: null,
+        fonti: [
+          "fb23-magie-contatti"
+        ]
+      },
+      contatti: {
+        telefono: "0871 552723",
+        email: null,
+        sito: "https://magieinoro.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "fb23-magie-contatti"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "riparazione-meccanici",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "riparazione-quarzo",
+          fonti: [
+            "fb23-magie-contatti"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "fb23-magie-sito"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Perseo",
+            fonti: [
+              "fb23-magie-sito"
+            ]
+          },
+          {
+            marca: "Fonderia",
+            fonti: [
+              "fb23-magie-sito"
+            ]
+          },
+          {
+            marca: "Bulova",
+            fonti: [
+              "fb23-magie-sito"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "fb23-magie-sito"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "fb23-magie-contatti",
+          "fb23-magie-sito"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+            fonti: [
+              "fb23-magie-contatti",
+              "fb23-magie-sito"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-freebuff-20261023",
+        idOriginale: "magie-in-oro-chieti"
+      }
+    },
+    {
+      id: "lombardi-ercolino-isernia",
+      slug: "lombardi-ercolino-isernia",
+      nome: "Gioielleria Lombardi Ercolino",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria a Isernia presente nello store locator Hamilton come rivenditore ufficiale del marchio. La fonte documenta la vendita di orologi Hamilton, non servizi di riparazione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "isernia",
+      posizione: {
+        indirizzo: "Corso Garibaldi 267/271",
+        cap: "86170",
+        coordinate: null,
+        fonti: [
+          "fb23-lombardi-hamilton"
+        ]
+      },
+      contatti: {
+        telefono: "0865/414261",
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "fb23-lombardi-hamilton"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "fb23-lombardi-hamilton"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "fb23-lombardi-hamilton"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "fb23-lombardi-hamilton"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "fb23-lombardi-hamilton"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+            fonti: [
+              "fb23-lombardi-hamilton"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-freebuff-20261023",
+        idOriginale: "lombardi-ercolino-isernia"
+      }
+    },
+    {
+      id: "fenocchi-san-benedetto-del-tronto",
+      slug: "fenocchi-san-benedetto-del-tronto",
+      nome: "Gioielleria Fenocchi",
+      tipi: [
+        "gioielleria",
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria a San Benedetto del Tronto con vendita di orologi e laboratorio interno. Sono documentate revisioni, riparazioni anche di orologi d\u2019epoca, manutenzione e lucidatura. Le dichiarazioni di autorizzazione del negozio non sono qui registrate come autorizzazioni verificate dal produttore.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "san-benedetto-del-tronto",
+      posizione: {
+        indirizzo: "Via Ugo Bassi 25",
+        cap: "63074",
+        coordinate: null,
+        fonti: [
+          "fb23-fenocchi-contatti"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0735 584115",
+        email: null,
+        sito: "https://www.gioielleriafenocchi.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "fb23-fenocchi-contatti"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "fb23-fenocchi-contatti",
+            "fb23-fenocchi-sito"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "fb23-fenocchi-laboratorio"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "fb23-fenocchi-laboratorio"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "fb23-fenocchi-laboratorio"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "fb23-fenocchi-laboratorio"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "fb23-fenocchi-contatti"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "fb23-fenocchi-sito"
+            ]
+          },
+          {
+            marca: "Eberhard",
+            fonti: [
+              "fb23-fenocchi-sito"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Panerai",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Baume & Mercier",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "IWC",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          },
+          {
+            marca: "Eberhard",
+            fonti: [
+              "fb23-fenocchi-laboratorio"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "fb23-fenocchi-contatti",
+          "fb23-fenocchi-laboratorio",
+          "fb23-fenocchi-sito"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione manuale di fonti primarie: indirizzo e soli servizi documentati. Coordinate, orari e competenze non riscontrati non aggiunti.",
+            fonti: [
+              "fb23-fenocchi-contatti",
+              "fb23-fenocchi-laboratorio",
+              "fb23-fenocchi-sito"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-freebuff-20261023",
+        idOriginale: "fenocchi-san-benedetto-del-tronto"
+      }
+    },
+    {
+      id: "l-angolo-delle-ore-novara",
+      slug: "l-angolo-delle-ore-novara",
+      nome: "L\u2019Angolo delle Ore",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "L\u2019Angolo delle Ore a Novara. La fonte ufficiale documenta vendita di orologi, riparazione, assistenza.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "novara",
+      posizione: {
+        indirizzo: "Corso Cavour 1/E",
+        cap: "28100",
+        coordinate: null,
+        fonti: [
+          "n02-l-angolo-delle-ore-novara-1",
+          "n02-l-angolo-delle-ore-novara-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.angolodelleore.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-l-angolo-delle-ore-novara-1",
+          "n02-l-angolo-delle-ore-novara-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-l-angolo-delle-ore-novara-1",
+            "n02-l-angolo-delle-ore-novara-2"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-l-angolo-delle-ore-novara-1",
+            "n02-l-angolo-delle-ore-novara-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-l-angolo-delle-ore-novara-1",
+            "n02-l-angolo-delle-ore-novara-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-l-angolo-delle-ore-novara-1",
+          "n02-l-angolo-delle-ore-novara-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-l-angolo-delle-ore-novara-1",
+              "n02-l-angolo-delle-ore-novara-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "l-angolo-delle-ore-novara"
+      }
+    },
+    {
+      id: "gioielleria-gaddi-zucchi-novara",
+      slug: "gioielleria-gaddi-zucchi-novara",
+      nome: "Gioielleria Gaddi Zucchi",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Gaddi Zucchi a Novara. La fonte ufficiale documenta vendita di orologi, manutenzione, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "novara",
+      posizione: {
+        indirizzo: "Corso Cavour 15",
+        cap: "28100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-gaddi-zucchi-novara-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-gaddi-zucchi-novara-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-gaddi-zucchi-novara-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioielleria-gaddi-zucchi-novara-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-gioielleria-gaddi-zucchi-novara-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "n02-gioielleria-gaddi-zucchi-novara-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-gaddi-zucchi-novara-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-gaddi-zucchi-novara-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-gaddi-zucchi-novara"
+      }
+    },
+    {
+      id: "gioielleria-simonini-vercelli",
+      slug: "gioielleria-simonini-vercelli",
+      nome: "Gioielleria Simonini",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Simonini a Vercelli. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "vercelli",
+      posizione: {
+        indirizzo: "Via F. Crispi 24",
+        cap: "13100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-simonini-vercelli-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-simonini-vercelli-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-simonini-vercelli-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-simonini-vercelli-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-simonini-vercelli-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-simonini-vercelli-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-simonini-vercelli-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-simonini-vercelli"
+      }
+    },
+    {
+      id: "orsi-gioielleria-verbania",
+      slug: "orsi-gioielleria-verbania",
+      nome: "Orsi Gioielleria",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Orsi Gioielleria a Verbania. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "verbania",
+      posizione: {
+        indirizzo: "Via San Fabiano 5",
+        cap: "28921",
+        coordinate: null,
+        fonti: [
+          "n02-orsi-gioielleria-verbania-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-orsi-gioielleria-verbania-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-orsi-gioielleria-verbania-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-orsi-gioielleria-verbania-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-orsi-gioielleria-verbania-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-orsi-gioielleria-verbania-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-orsi-gioielleria-verbania-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "orsi-gioielleria-verbania"
+      }
+    },
+    {
+      id: "gioielleria-bisio-asti",
+      slug: "gioielleria-bisio-asti",
+      nome: "Gioielleria Bisio",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Bisio a Asti. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "asti",
+      posizione: {
+        indirizzo: "Corso Vittorio Alfieri 270",
+        cap: "14100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-bisio-asti-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-bisio-asti-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-bisio-asti-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-bisio-asti-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-bisio-asti-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-bisio-asti-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-bisio-asti-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-bisio-asti"
+      }
+    },
+    {
+      id: "gioielleria-fontana-varese",
+      slug: "gioielleria-fontana-varese",
+      nome: "Gioielleria Fontana",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Fontana a Varese. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "varese",
+      posizione: {
+        indirizzo: "Via C. Croce 9",
+        cap: "21100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-fontana-varese-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-fontana-varese-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-fontana-varese-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-fontana-varese-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-fontana-varese-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-fontana-varese-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-fontana-varese-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-fontana-varese"
+      }
+    },
+    {
+      id: "fasola-gioielleria-como",
+      slug: "fasola-gioielleria-como",
+      nome: "Fasola Gioielleria",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Fasola Gioielleria a Como. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "como",
+      posizione: {
+        indirizzo: "Via Giuseppe Garibaldi 9",
+        cap: "22100",
+        coordinate: null,
+        fonti: [
+          "n02-fasola-gioielleria-como-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-fasola-gioielleria-como-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-fasola-gioielleria-como-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-fasola-gioielleria-como-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-fasola-gioielleria-como-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-fasola-gioielleria-como-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-fasola-gioielleria-como-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "fasola-gioielleria-como"
+      }
+    },
+    {
+      id: "de-pascalis-spa-lecco",
+      slug: "de-pascalis-spa-lecco",
+      nome: "De Pascalis Spa",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "De Pascalis Spa a Lecco. La fonte ufficiale documenta vendita di orologi, manutenzione, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "lecco",
+      posizione: {
+        indirizzo: "Via Cavour 30",
+        cap: "23900",
+        coordinate: null,
+        fonti: [
+          "n02-de-pascalis-spa-lecco-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-de-pascalis-spa-lecco-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-de-pascalis-spa-lecco-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-de-pascalis-spa-lecco-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-de-pascalis-spa-lecco-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "n02-de-pascalis-spa-lecco-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-de-pascalis-spa-lecco-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-de-pascalis-spa-lecco-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "de-pascalis-spa-lecco"
+      }
+    },
+    {
+      id: "florio-folini-srl-sondrio",
+      slug: "florio-folini-srl-sondrio",
+      nome: "Florio Folini Srl",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Florio Folini Srl a Sondrio. La fonte ufficiale documenta vendita di orologi, assistenza.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "sondrio",
+      posizione: {
+        indirizzo: "Galleria Venticinque Aprile 1",
+        cap: "23100",
+        coordinate: null,
+        fonti: [
+          "n02-florio-folini-srl-sondrio-1",
+          "n02-florio-folini-srl-sondrio-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.floriofolini.it/it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-florio-folini-srl-sondrio-1",
+          "n02-florio-folini-srl-sondrio-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-florio-folini-srl-sondrio-1",
+            "n02-florio-folini-srl-sondrio-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-florio-folini-srl-sondrio-1",
+            "n02-florio-folini-srl-sondrio-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-florio-folini-srl-sondrio-1",
+          "n02-florio-folini-srl-sondrio-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-florio-folini-srl-sondrio-1",
+              "n02-florio-folini-srl-sondrio-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "florio-folini-srl-sondrio"
+      }
+    },
+    {
+      id: "gioielleria-la-marca-vittorio-pavia",
+      slug: "gioielleria-la-marca-vittorio-pavia",
+      nome: "Gioielleria La Marca Vittorio",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria La Marca Vittorio a Pavia. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pavia",
+      posizione: {
+        indirizzo: "Viale Sardegna 98/b",
+        cap: "27100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-la-marca-vittorio-pavia-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-la-marca-vittorio-pavia-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-la-marca-vittorio-pavia-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-la-marca-vittorio-pavia-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-la-marca-vittorio-pavia-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-la-marca-vittorio-pavia-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-la-marca-vittorio-pavia-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-la-marca-vittorio-pavia"
+      }
+    },
+    {
+      id: "gioiellerie-torelli-cremona",
+      slug: "gioiellerie-torelli-cremona",
+      nome: "Gioiellerie Torelli",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioiellerie Torelli a Cremona. La fonte ufficiale documenta vendita di orologi, manutenzione, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "cremona",
+      posizione: {
+        indirizzo: "Corso Campi 15",
+        cap: "26100",
+        coordinate: null,
+        fonti: [
+          "n02-gioiellerie-torelli-cremona-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioiellerie-torelli-cremona-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioiellerie-torelli-cremona-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioiellerie-torelli-cremona-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-gioiellerie-torelli-cremona-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "n02-gioiellerie-torelli-cremona-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioiellerie-torelli-cremona-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioiellerie-torelli-cremona-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioiellerie-torelli-cremona"
+      }
+    },
+    {
+      id: "gioielleria-angelini-srl-monza",
+      slug: "gioielleria-angelini-srl-monza",
+      nome: "Gioielleria Angelini Srl",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Angelini Srl a Monza. La fonte ufficiale documenta vendita di orologi, manutenzione, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "monza",
+      posizione: {
+        indirizzo: "Via Carlo Alberto 32",
+        cap: "20900",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-angelini-srl-monza-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-angelini-srl-monza-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-angelini-srl-monza-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioielleria-angelini-srl-monza-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-gioielleria-angelini-srl-monza-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "n02-gioielleria-angelini-srl-monza-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-angelini-srl-monza-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-angelini-srl-monza-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-angelini-srl-monza"
+      }
+    },
+    {
+      id: "gioielleria-giorgi-mario-ancona",
+      slug: "gioielleria-giorgi-mario-ancona",
+      nome: "Gioielleria Giorgi Mario",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Giorgi Mario a Ancona. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ancona",
+      posizione: {
+        indirizzo: "Corso Giuseppe Mazzini 102",
+        cap: "60121",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-giorgi-mario-ancona-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-giorgi-mario-ancona-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-giorgi-mario-ancona-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-giorgi-mario-ancona-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-giorgi-mario-ancona-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-giorgi-mario-ancona-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-giorgi-mario-ancona-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-giorgi-mario-ancona"
+      }
+    },
+    {
+      id: "gioielleria-fraschetti-rieti",
+      slug: "gioielleria-fraschetti-rieti",
+      nome: "Gioielleria Fraschetti",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Fraschetti a Rieti. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "rieti",
+      posizione: {
+        indirizzo: "Via Roma 110/112",
+        cap: "02100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-fraschetti-rieti-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-fraschetti-rieti-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-fraschetti-rieti-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-fraschetti-rieti-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-fraschetti-rieti-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-fraschetti-rieti-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-fraschetti-rieti-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-fraschetti-rieti"
+      }
+    },
+    {
+      id: "gioielleria-iannicelli-caserta",
+      slug: "gioielleria-iannicelli-caserta",
+      nome: "Gioielleria Iannicelli",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Iannicelli a Caserta. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "caserta",
+      posizione: {
+        indirizzo: "Via Mazzini 73/75",
+        cap: "81100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-iannicelli-caserta-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-iannicelli-caserta-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-iannicelli-caserta-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-iannicelli-caserta-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-iannicelli-caserta-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-iannicelli-caserta-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-iannicelli-caserta-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-iannicelli-caserta"
+      }
+    },
+    {
+      id: "de-marchi-gianotti-aosta",
+      slug: "de-marchi-gianotti-aosta",
+      nome: "De Marchi Gianotti",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "De Marchi Gianotti a Aosta. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "aosta",
+      posizione: {
+        indirizzo: "Piazza Chanoux 22",
+        cap: "11100",
+        coordinate: null,
+        fonti: [
+          "n02-de-marchi-gianotti-aosta-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-de-marchi-gianotti-aosta-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-de-marchi-gianotti-aosta-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-de-marchi-gianotti-aosta-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-de-marchi-gianotti-aosta-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-de-marchi-gianotti-aosta-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-de-marchi-gianotti-aosta-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "de-marchi-gianotti-aosta"
+      }
+    },
+    {
+      id: "gioielleria-benetti-verona",
+      slug: "gioielleria-benetti-verona",
+      nome: "Gioielleria Benetti",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Benetti a Verona. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "verona",
+      posizione: {
+        indirizzo: "Piazza delle Erbe 37",
+        cap: "37121",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-benetti-verona-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-benetti-verona-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-benetti-verona-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-benetti-verona-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-benetti-verona-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-benetti-verona-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-benetti-verona-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-benetti-verona"
+      }
+    },
+    {
+      id: "gioielleria-amighini-verona",
+      slug: "gioielleria-amighini-verona",
+      nome: "Gioielleria Amighini",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Amighini a Verona. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "verona",
+      posizione: {
+        indirizzo: "Piazzetta Monte 3",
+        cap: "37121",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-amighini-verona-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-amighini-verona-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-amighini-verona-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-amighini-verona-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-amighini-verona-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-amighini-verona-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-amighini-verona-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-amighini-verona"
+      }
+    },
+    {
+      id: "oreficeria-de-rui-treviso",
+      slug: "oreficeria-de-rui-treviso",
+      nome: "Oreficeria De Rui",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Oreficeria De Rui a Treviso. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "treviso",
+      posizione: {
+        indirizzo: "Borgo Giuseppe Mazzini 33",
+        cap: "31100",
+        coordinate: null,
+        fonti: [
+          "n02-oreficeria-de-rui-treviso-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-oreficeria-de-rui-treviso-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-oreficeria-de-rui-treviso-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-oreficeria-de-rui-treviso-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-oreficeria-de-rui-treviso-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-oreficeria-de-rui-treviso-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-oreficeria-de-rui-treviso-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "oreficeria-de-rui-treviso"
+      }
+    },
+    {
+      id: "eyes-on-time-venezia",
+      slug: "eyes-on-time-venezia",
+      nome: "Eyes On Time",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Eyes On Time a Venezia. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "venezia",
+      posizione: {
+        indirizzo: "Aeroporto Marco Polo, Via L. Broglio 7, VC 15",
+        cap: "30173",
+        coordinate: null,
+        fonti: [
+          "n02-eyes-on-time-venezia-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-eyes-on-time-venezia-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-eyes-on-time-venezia-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-eyes-on-time-venezia-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-eyes-on-time-venezia-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-eyes-on-time-venezia-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-eyes-on-time-venezia-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "eyes-on-time-venezia"
+      }
+    },
+    {
+      id: "gioielleria-tebaldi-ferrara",
+      slug: "gioielleria-tebaldi-ferrara",
+      nome: "Gioielleria Tebaldi",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Tebaldi a Ferrara. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ferrara",
+      posizione: {
+        indirizzo: "Via Mazzini 7",
+        cap: "44100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-tebaldi-ferrara-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-tebaldi-ferrara-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-tebaldi-ferrara-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-tebaldi-ferrara-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-tebaldi-ferrara-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-tebaldi-ferrara-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-tebaldi-ferrara-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-tebaldi-ferrara"
+      }
+    },
+    {
+      id: "gioielleria-f-lli-cimatti-ravenna",
+      slug: "gioielleria-f-lli-cimatti-ravenna",
+      nome: "Gioielleria F.lli Cimatti",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria F.lli Cimatti a Ravenna. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ravenna",
+      posizione: {
+        indirizzo: "Via Matteotti 20",
+        cap: "48121",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-f-lli-cimatti-ravenna-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-f-lli-cimatti-ravenna-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-f-lli-cimatti-ravenna-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-f-lli-cimatti-ravenna-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-f-lli-cimatti-ravenna-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-f-lli-cimatti-ravenna-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-f-lli-cimatti-ravenna"
+      }
+    },
+    {
+      id: "gioielleria-ricci-forli",
+      slug: "gioielleria-ricci-forli",
+      nome: "Gioielleria Ricci",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Ricci a Forl\xEC. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "forli",
+      posizione: {
+        indirizzo: "Piazza A. Saffi 49",
+        cap: "47121",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-ricci-forli-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-ricci-forli-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-ricci-forli-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-ricci-forli-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-ricci-forli-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-ricci-forli-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-ricci-forli-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-ricci-forli"
+      }
+    },
+    {
+      id: "zaccarelli-orologeria-modena",
+      slug: "zaccarelli-orologeria-modena",
+      nome: "Zaccarelli Orologeria",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Zaccarelli Orologeria a Modena. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "modena",
+      posizione: {
+        indirizzo: "Via Taglio 3",
+        cap: "41121",
+        coordinate: null,
+        fonti: [
+          "n02-zaccarelli-orologeria-modena-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-zaccarelli-orologeria-modena-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-zaccarelli-orologeria-modena-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-zaccarelli-orologeria-modena-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-zaccarelli-orologeria-modena-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-zaccarelli-orologeria-modena-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-zaccarelli-orologeria-modena-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "zaccarelli-orologeria-modena"
+      }
+    },
+    {
+      id: "gioielleria-boni-belluno",
+      slug: "gioielleria-boni-belluno",
+      nome: "Gioielleria Boni",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Boni a Belluno. La fonte ufficiale documenta vendita di orologi. Rivendita Mido confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "belluno",
+      posizione: {
+        indirizzo: "Viale Fantuzzi 22",
+        cap: "32100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-boni-belluno-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-boni-belluno-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-boni-belluno-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "n02-gioielleria-boni-belluno-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "n02-gioielleria-boni-belluno-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-boni-belluno-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-boni-belluno-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-boni-belluno"
+      }
+    },
+    {
+      id: "b-b-gioielli-rovigo",
+      slug: "b-b-gioielli-rovigo",
+      nome: "B&B Gioielli",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "B&B Gioielli a Rovigo. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "rovigo",
+      posizione: {
+        indirizzo: "Piazza Vittorio Emanuele 30",
+        cap: "45100",
+        coordinate: null,
+        fonti: [
+          "n02-b-b-gioielli-rovigo-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-b-b-gioielli-rovigo-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-b-b-gioielli-rovigo-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-b-b-gioielli-rovigo-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-b-b-gioielli-rovigo-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-b-b-gioielli-rovigo-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-b-b-gioielli-rovigo-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "b-b-gioielli-rovigo"
+      }
+    },
+    {
+      id: "gioielleria-pedonesi-lucca",
+      slug: "gioielleria-pedonesi-lucca",
+      nome: "Gioielleria Pedonesi",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Pedonesi a Lucca. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "lucca",
+      posizione: {
+        indirizzo: "Via Fillungo 187",
+        cap: "55100",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-pedonesi-lucca-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-pedonesi-lucca-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-pedonesi-lucca-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-pedonesi-lucca-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-gioielleria-pedonesi-lucca-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-pedonesi-lucca-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-pedonesi-lucca-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-pedonesi-lucca"
+      }
+    },
+    {
+      id: "casa-avelardi-livorno",
+      slug: "casa-avelardi-livorno",
+      nome: "Casa Avelardi",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Casa Avelardi a Livorno. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "livorno",
+      posizione: {
+        indirizzo: "Via Ricasoli 119",
+        cap: "57126",
+        coordinate: null,
+        fonti: [
+          "n02-casa-avelardi-livorno-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-casa-avelardi-livorno-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-casa-avelardi-livorno-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-casa-avelardi-livorno-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-casa-avelardi-livorno-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-casa-avelardi-livorno-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-casa-avelardi-livorno-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "casa-avelardi-livorno"
+      }
+    },
+    {
+      id: "fabiani-gioiellerie-pistoia",
+      slug: "fabiani-gioiellerie-pistoia",
+      nome: "Fabiani Gioiellerie",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Fabiani Gioiellerie a Pistoia. La fonte ufficiale documenta vendita di orologi. Rivendita Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pistoia",
+      posizione: {
+        indirizzo: "Via Cino da Pistoia 13",
+        cap: "51100",
+        coordinate: null,
+        fonti: [
+          "n02-fabiani-gioiellerie-pistoia-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-fabiani-gioiellerie-pistoia-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-fabiani-gioiellerie-pistoia-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-fabiani-gioiellerie-pistoia-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "fabiani-gioiellerie-pistoia"
+      }
+    },
+    {
+      id: "law-watch-di-paolo-simi-lucca",
+      slug: "law-watch-di-paolo-simi-lucca",
+      nome: "Law & Watch di Paolo Simi",
+      tipi: [
+        "laboratorio"
+      ],
+      descrizione: "Law & Watch di Paolo Simi a Lucca. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "lucca",
+      posizione: {
+        indirizzo: "Via di Tiglio 552",
+        cap: "55100",
+        coordinate: null,
+        fonti: [
+          "n02-law-watch-di-paolo-simi-lucca-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-law-watch-di-paolo-simi-lucca-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-law-watch-di-paolo-simi-lucca-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          }
+        ],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-law-watch-di-paolo-simi-lucca-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "law-watch-di-paolo-simi-lucca"
+      }
+    },
+    {
+      id: "luccini-ivano-aulla",
+      slug: "luccini-ivano-aulla",
+      nome: "Luccini Ivano",
+      tipi: [
+        "laboratorio"
+      ],
+      descrizione: "Luccini Ivano a Aulla. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "aulla",
+      posizione: {
+        indirizzo: "Via XX Settembre 26",
+        cap: "54011",
+        coordinate: null,
+        fonti: [
+          "n02-luccini-ivano-aulla-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-luccini-ivano-aulla-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-luccini-ivano-aulla-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-luccini-ivano-aulla-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-luccini-ivano-aulla-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-luccini-ivano-aulla-1"
+            ]
+          }
+        ],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-luccini-ivano-aulla-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-luccini-ivano-aulla-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "luccini-ivano-aulla"
+      }
+    },
+    {
+      id: "orologeria-mancuso-como",
+      slug: "orologeria-mancuso-como",
+      nome: "Orologeria Mancuso",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Orologeria Mancuso a Como. La fonte ufficiale documenta riparazione, revisione, lucidatura, restauro di orologi d\u2019epoca, sostituzione batterie, sostituzione cinturini, vendita di orologi usati, acquisto di orologi usati.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "como",
+      posizione: {
+        indirizzo: "Via Maurizio Monti 34",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-orologeria-mancuso-como-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.orologeriamancuso.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-orologeria-mancuso-como-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        },
+        {
+          id: "acquisto-permuta",
+          fonti: [
+            "n02-orologeria-mancuso-como-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-orologeria-mancuso-como-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-orologeria-mancuso-como-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "orologeria-mancuso-como"
+      }
+    },
+    {
+      id: "orologeria-cotifava-dal-1946-mantova",
+      slug: "orologeria-cotifava-dal-1946-mantova",
+      nome: "Orologeria Cotifava dal 1946",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Orologeria Cotifava dal 1946 a Mantova. La fonte ufficiale documenta riparazione, assistenza, revisione, vendita di orologi, vendita di orologi usati, acquisto di orologi usati.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "mantova",
+      posizione: {
+        indirizzo: "Via Domenico Fernelli 8",
+        cap: "46100",
+        coordinate: null,
+        fonti: [
+          "n02-orologeria-cotifava-dal-1946-mantova-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.orologeriacotifava.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-orologeria-cotifava-dal-1946-mantova-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        },
+        {
+          id: "acquisto-permuta",
+          fonti: [
+            "n02-orologeria-cotifava-dal-1946-mantova-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-orologeria-cotifava-dal-1946-mantova-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-orologeria-cotifava-dal-1946-mantova-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "orologeria-cotifava-dal-1946-mantova"
+      }
+    },
+    {
+      id: "vergari-gioielli-botrugno",
+      slug: "vergari-gioielli-botrugno",
+      nome: "Vergari Gioielli",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Vergari Gioielli a Botrugno. La fonte ufficiale documenta vendita di orologi, riparazione, sostituzione batterie, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "botrugno",
+      posizione: {
+        indirizzo: "Via Vittorio Emanuele 11",
+        cap: "73020",
+        coordinate: null,
+        fonti: [
+          "n02-vergari-gioielli-botrugno-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.vergarigioielli.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-vergari-gioielli-botrugno-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-vergari-gioielli-botrugno-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-vergari-gioielli-botrugno-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "vergari-gioielli-botrugno"
+      }
+    },
+    {
+      id: "benenati-msd-catania",
+      slug: "benenati-msd-catania",
+      nome: "Benenati MSD",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Benenati MSD a Catania. La fonte ufficiale documenta riparazione, riparazione al quarzo, riparazione di orologi meccanici, interventi di pendoleria, restauro di orologi d\u2019epoca.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "catania",
+      posizione: {
+        indirizzo: "Via G. D\u2019Annunzio 126",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-benenati-msd-catania-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://benenati-msd4.webnode.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-benenati-msd-catania-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        {
+          id: "riparazione-quarzo",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        {
+          id: "riparazione-meccanici",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-benenati-msd-catania-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-benenati-msd-catania-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "benenati-msd-catania"
+      }
+    },
+    {
+      id: "clock-service-catania",
+      slug: "clock-service-catania",
+      nome: "Clock Service",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Clock Service a Catania. La fonte ufficiale documenta riparazione, revisione, restauro di orologi d\u2019epoca, interventi di pendoleria.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "catania",
+      posizione: {
+        indirizzo: "Via Gabriele D\u2019Annunzio 134",
+        cap: "95127",
+        coordinate: null,
+        fonti: [
+          "n02-clock-service-catania-1",
+          "n02-clock-service-catania-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.clockservice.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-clock-service-catania-1",
+          "n02-clock-service-catania-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "n02-clock-service-catania-1",
+            "n02-clock-service-catania-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-clock-service-catania-1",
+          "n02-clock-service-catania-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "clock-service-catania"
+      }
+    },
+    {
+      id: "centrorologi-gravina-di-catania",
+      slug: "centrorologi-gravina-di-catania",
+      nome: "Centrorologi",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Centrorologi a Gravina di Catania. La fonte ufficiale documenta riparazione, lucidatura, riparazione al quarzo, riparazione di orologi meccanici, interventi di pendoleria.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "gravina-di-catania",
+      posizione: {
+        indirizzo: "Via Carrubella 191",
+        cap: "95030",
+        coordinate: null,
+        fonti: [
+          "n02-centrorologi-gravina-di-catania-1",
+          "n02-centrorologi-gravina-di-catania-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://centrorologi.net/servizi/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-centrorologi-gravina-di-catania-1",
+          "n02-centrorologi-gravina-di-catania-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        {
+          id: "riparazione-quarzo",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        {
+          id: "riparazione-meccanici",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1",
+            "n02-centrorologi-gravina-di-catania-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-centrorologi-gravina-di-catania-1",
+          "n02-centrorologi-gravina-di-catania-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "centrorologi-gravina-di-catania"
+      }
+    },
+    {
+      id: "la-motta-gioielli-messina",
+      slug: "la-motta-gioielli-messina",
+      nome: "La Motta Gioielli",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "La Motta Gioielli a Messina. La fonte ufficiale documenta revisione, lucidatura, manutenzione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "messina",
+      posizione: {
+        indirizzo: "Viale San Martino 188",
+        cap: "98123",
+        coordinate: null,
+        fonti: [
+          "n02-la-motta-gioielli-messina-1",
+          "n02-la-motta-gioielli-messina-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.lamottagioielli.it/laboratorio/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-la-motta-gioielli-messina-1",
+          "n02-la-motta-gioielli-messina-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "revisione",
+          fonti: [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-la-motta-gioielli-messina-1",
+            "n02-la-motta-gioielli-messina-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-la-motta-gioielli-messina-1",
+          "n02-la-motta-gioielli-messina-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-la-motta-gioielli-messina-1",
+              "n02-la-motta-gioielli-messina-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "la-motta-gioielli-messina"
+      }
+    },
+    {
+      id: "laboratorio-orologi-di-andrea-d-ale-trapani",
+      slug: "laboratorio-orologi-di-andrea-d-ale-trapani",
+      nome: "Laboratorio Orologi di Andrea D\u2019Ale",
+      tipi: [
+        "laboratorio"
+      ],
+      descrizione: "Laboratorio Orologi di Andrea D\u2019Ale a Trapani. La fonte ufficiale documenta assistenza, sostituzione batterie, sostituzione cinturini. Centro assistenza Hamilton confermata dal produttore; nessuna estensione ad altri marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "trapani",
+      posizione: {
+        indirizzo: "Via Giovanni Battista Fardella 214",
+        cap: "91100",
+        coordinate: null,
+        fonti: [
+          "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+            ]
+          }
+        ],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "laboratorio-orologi-di-andrea-d-ale-trapani"
+      }
+    },
+    {
+      id: "gioielleria-di-marco-nicosia",
+      slug: "gioielleria-di-marco-nicosia",
+      nome: "Gioielleria Di Marco",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Di Marco a Nicosia. La fonte ufficiale documenta riparazione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "nicosia",
+      posizione: {
+        indirizzo: "Via San Benedetto 26",
+        cap: "94014",
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-di-marco-nicosia-1",
+          "n02-gioielleria-di-marco-nicosia-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.gioielleriadimarco.it/chisiamo.php",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-di-marco-nicosia-1",
+          "n02-gioielleria-di-marco-nicosia-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-gioielleria-di-marco-nicosia-1",
+            "n02-gioielleria-di-marco-nicosia-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-di-marco-nicosia-1",
+          "n02-gioielleria-di-marco-nicosia-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-di-marco-nicosia-1",
+              "n02-gioielleria-di-marco-nicosia-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-di-marco-nicosia"
+      }
+    },
+    {
+      id: "gioielleria-de-nurra-sassari",
+      slug: "gioielleria-de-nurra-sassari",
+      nome: "Gioielleria De Nurra",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria De Nurra a Sassari. La fonte ufficiale documenta riparazione, assistenza, revisione, sostituzione batterie, restauro di orologi d\u2019epoca.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "sassari",
+      posizione: {
+        indirizzo: "Via Maurizio Zanfarino 9",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-de-nurra-sassari-1",
+          "n02-gioielleria-de-nurra-sassari-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.denurra.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-de-nurra-sassari-1",
+          "n02-gioielleria-de-nurra-sassari-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1",
+            "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-de-nurra-sassari-1",
+          "n02-gioielleria-de-nurra-sassari-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-de-nurra-sassari"
+      }
+    },
+    {
+      id: "gioielleria-chiocchetti-lucca",
+      slug: "gioielleria-chiocchetti-lucca",
+      nome: "Gioielleria Chiocchetti",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Chiocchetti a Lucca. La fonte ufficiale documenta riparazione, revisione, manutenzione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "lucca",
+      posizione: {
+        indirizzo: "Via Fillungo 20",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-chiocchetti-lucca-1",
+          "n02-gioielleria-chiocchetti-lucca-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.chiocchetti1896.com/laboratorio/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-chiocchetti-lucca-1",
+          "n02-gioielleria-chiocchetti-lucca-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioielleria-chiocchetti-lucca-1",
+            "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-chiocchetti-lucca-1",
+          "n02-gioielleria-chiocchetti-lucca-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-chiocchetti-lucca-1",
+              "n02-gioielleria-chiocchetti-lucca-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-chiocchetti-lucca"
+      }
+    },
+    {
+      id: "de-marco-belluno",
+      slug: "de-marco-belluno",
+      nome: "De Marco",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "De Marco a Belluno. La fonte ufficiale documenta riparazione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "belluno",
+      posizione: {
+        indirizzo: "Piazza Mazzini 3",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-de-marco-belluno-1",
+          "n02-de-marco-belluno-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.demarco-belluno.it/contatti/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-de-marco-belluno-1",
+          "n02-de-marco-belluno-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-de-marco-belluno-1",
+            "n02-de-marco-belluno-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-de-marco-belluno-1",
+          "n02-de-marco-belluno-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-de-marco-belluno-1",
+              "n02-de-marco-belluno-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "de-marco-belluno"
+      }
+    },
+    {
+      id: "gioielleria-orafi-italiani-rovigo",
+      slug: "gioielleria-orafi-italiani-rovigo",
+      nome: "Gioielleria Orafi Italiani",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Orafi Italiani a Rovigo. La fonte ufficiale documenta riparazione, revisione, manutenzione, sostituzione batterie, sostituzione cinturini, assistenza.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "rovigo",
+      posizione: {
+        indirizzo: "Viale Porta Adige 45G",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-orafi-italiani-rovigo-1",
+          "n02-gioielleria-orafi-italiani-rovigo-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://orafiitaliani.it/laboratorio-gioielleria-orologeria/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-orafi-italiani-rovigo-1",
+          "n02-gioielleria-orafi-italiani-rovigo-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-gioielleria-orafi-italiani-rovigo-1",
+            "n02-gioielleria-orafi-italiani-rovigo-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-orafi-italiani-rovigo-1",
+          "n02-gioielleria-orafi-italiani-rovigo-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-orafi-italiani-rovigo-1",
+              "n02-gioielleria-orafi-italiani-rovigo-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-orafi-italiani-rovigo"
+      }
+    },
+    {
+      id: "gioielleria-grande-frosinone",
+      slug: "gioielleria-grande-frosinone",
+      nome: "Gioielleria Grande",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Grande a Frosinone. La fonte ufficiale documenta riparazione, manutenzione, revisione, sostituzione batterie, sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "frosinone",
+      posizione: {
+        indirizzo: "Piazzale De Matthaeis 4",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-gioielleria-grande-frosinone-1",
+          "n02-gioielleria-grande-frosinone-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.gioielleriagrande.it/centro-assistenza/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-gioielleria-grande-frosinone-1",
+          "n02-gioielleria-grande-frosinone-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1",
+            "n02-gioielleria-grande-frosinone-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-gioielleria-grande-frosinone-1",
+          "n02-gioielleria-grande-frosinone-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "gioielleria-grande-frosinone"
+      }
+    },
+    {
+      id: "bottega-watches-pistoia",
+      slug: "bottega-watches-pistoia",
+      nome: "Bottega Watches",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Bottega Watches a Pistoia. La fonte ufficiale documenta riparazione, revisione, lucidatura, restauro di orologi d\u2019epoca.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pistoia",
+      posizione: {
+        indirizzo: "Piazza San Francesco d\u2019Assisi 50",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "n02-bottega-watches-pistoia-1",
+          "n02-bottega-watches-pistoia-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://bottegawatches.com/laboratorio",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-bottega-watches-pistoia-1",
+          "n02-bottega-watches-pistoia-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "n02-bottega-watches-pistoia-1",
+            "n02-bottega-watches-pistoia-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-bottega-watches-pistoia-1",
+          "n02-bottega-watches-pistoia-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "bottega-watches-pistoia"
+      }
+    },
+    {
+      id: "birbio-gioielli-siracusa",
+      slug: "birbio-gioielli-siracusa",
+      nome: "Birbio Gioielli",
+      tipi: [
+        "gioielleria"
+      ],
+      descrizione: "Birbio Gioielli a Siracusa. La fonte ufficiale documenta vendita di orologi, vendita di orologi usati.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "siracusa",
+      posizione: {
+        indirizzo: "Corso Umberto I 67",
+        cap: "96100",
+        coordinate: null,
+        fonti: [
+          "n02-birbio-gioielli-siracusa-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.orobirbio.com/vendita-orologi-a-siracusa/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-birbio-gioielli-siracusa-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-birbio-gioielli-siracusa-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "n02-birbio-gioielli-siracusa-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-birbio-gioielli-siracusa-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-birbio-gioielli-siracusa-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "birbio-gioielli-siracusa"
+      }
+    },
+    {
+      id: "martines-gioielleria-canicatti-canicatti",
+      slug: "martines-gioielleria-canicatti-canicatti",
+      nome: "Martines Gioielleria \u2014 Canicatt\xEC",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Martines Gioielleria \u2014 Canicatt\xEC a Canicatt\xEC. La fonte ufficiale documenta vendita di orologi, manutenzione, assistenza.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "canicatti",
+      posizione: {
+        indirizzo: "Piazza IV Novembre 13",
+        cap: "92024",
+        coordinate: null,
+        fonti: [
+          "n02-martines-gioielleria-canicatti-canicatti-1",
+          "n02-martines-gioielleria-canicatti-canicatti-2"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-martines-gioielleria-canicatti-canicatti-1",
+          "n02-martines-gioielleria-canicatti-canicatti-2"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "n02-martines-gioielleria-canicatti-canicatti-1",
+            "n02-martines-gioielleria-canicatti-canicatti-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-martines-gioielleria-canicatti-canicatti-1",
+          "n02-martines-gioielleria-canicatti-canicatti-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-martines-gioielleria-canicatti-canicatti-1",
+              "n02-martines-gioielleria-canicatti-canicatti-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "martines-gioielleria-canicatti-canicatti"
+      }
+    },
+    {
+      id: "mirolli-grosseto",
+      slug: "mirolli-grosseto",
+      nome: "Mirolli",
+      tipi: [
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Mirolli a Grosseto. La fonte ufficiale documenta vendita di orologi, vendita di orologi usati, manutenzione, revisione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "grosseto",
+      posizione: {
+        indirizzo: "Piazza Monte dei Paschi 6",
+        cap: "58100",
+        coordinate: null,
+        fonti: [
+          "n02-mirolli-grosseto-1"
+        ]
+      },
+      contatti: {
+        telefono: null,
+        email: null,
+        sito: "https://mirolli.it/rolex/contatti/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "n02-mirolli-grosseto-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "n02-mirolli-grosseto-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "n02-mirolli-grosseto-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "n02-mirolli-grosseto-1"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "n02-mirolli-grosseto-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-23",
+        confermataTitolareIl: null,
+        fonti: [
+          "n02-mirolli-grosseto-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-mirolli-grosseto-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "ricerca-ufficiale-national02",
+        idOriginale: "mirolli-grosseto"
+      }
+    },
+    {
+      id: "cerescioli-paolo-ancona",
+      slug: "cerescioli-paolo-ancona",
+      nome: "Cerescioli Paolo & C. Sas",
+      tipi: [
+        "orologeria"
+      ],
+      descrizione: "Attivit\xE0 di Ancona rivolta anche agli operatori dell\u2019orologeria: distribuzione di ricambi e attrezzature, rigenerazione di quadranti e realizzazione di vetri per orologi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ancona",
+      posizione: {
+        indirizzo: "Via San Martino 43",
+        cap: "60122",
+        coordinate: null,
+        fonti: [
+          "pr6-cerescioli-paolo-ancona-1"
+        ]
+      },
+      contatti: {
+        telefono: "071 202091",
+        email: "info@ceresciolipaolo.it",
+        sito: "https://www.ceresciolipaolo.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "pr6-cerescioli-paolo-ancona-1"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:15",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:15",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:15",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:15",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:15",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "pr6-cerescioli-paolo-ancona-1"
+        ]
+      },
+      servizi: [
+        {
+          id: "ricambi",
+          fonti: [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Rigenerazione di quadranti per orologi da polso.",
+          fonti: [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        },
+        {
+          nome: "Realizzazione di vetri per orologi in plastica o cristallo.",
+          fonti: [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        }
+      ],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1968,
+        fondatore: null,
+        testo: "L\u2019attivit\xE0 dichiara di operare dal 1968 nel settore delle forniture e dei ricambi per orologi. Dal 2008 si trova in Via San Martino 43 ad Ancona.",
+        eventi: [
+          {
+            data: "2008",
+            descrizione: "Trasferimento nella sede di Via San Martino 43.",
+            fonti: [
+              "pr6-cerescioli-paolo-ancona-1"
+            ]
+          }
+        ],
+        fonti: [
+          "pr6-cerescioli-paolo-ancona-1",
+          "pr6-cerescioli-paolo-ancona-2"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-24",
+        confermataTitolareIl: null,
+        fonti: [
+          "pr6-cerescioli-paolo-ancona-1",
+          "pr6-cerescioli-paolo-ancona-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilit\xE0 corrente \xE8 da confermare direttamente con l\u2019attivit\xE0.",
+            fonti: [
+              "pr6-cerescioli-paolo-ancona-1",
+              "pr6-cerescioli-paolo-ancona-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+            fonti: [
+              "pr6-cerescioli-paolo-ancona-1",
+              "pr6-cerescioli-paolo-ancona-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "recupero-arricchimento-20261024",
+        idOriginale: "cerescioli-paolo-ancona"
+      }
+    },
+    {
+      id: "gibi-shop-ancona",
+      slug: "gibi-shop-ancona",
+      nome: "Gi.Bi. Shop",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Orologeria e gioielleria di Ancona che documenta attivit\xE0 di riparazione, assistenza e restauro di orologi, oltre alla sostituzione di cinturini e batterie.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ancona",
+      posizione: {
+        indirizzo: "Corso Giovanni Amendola 22/B",
+        cap: "60123",
+        coordinate: null,
+        fonti: [
+          "pr6-gibi-shop-ancona-1"
+        ]
+      },
+      contatti: {
+        telefono: "+39 071 202314",
+        email: "info@gibishop.com",
+        sito: "https://www.gibishop.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "pr6-gibi-shop-ancona-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Prova di impermeabilit\xE0, da concordare con il negozio.",
+          fonti: [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        }
+      ],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-24",
+        confermataTitolareIl: null,
+        fonti: [
+          "pr6-gibi-shop-ancona-1",
+          "pr6-gibi-shop-ancona-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilit\xE0 corrente \xE8 da confermare direttamente con l\u2019attivit\xE0.",
+            fonti: [
+              "pr6-gibi-shop-ancona-1",
+              "pr6-gibi-shop-ancona-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+            fonti: [
+              "pr6-gibi-shop-ancona-1",
+              "pr6-gibi-shop-ancona-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "recupero-arricchimento-20261024",
+        idOriginale: "gibi-shop-ancona"
+      }
+    },
+    {
+      id: "satolli-pescara",
+      slug: "satolli-pescara",
+      nome: "Orologeria Satolli",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Laboratorio di orologeria a Pescara che documenta riparazione, revisione e manutenzione di orologi moderni e antichi, anche da tasca e a pendolo. Le certificazioni dichiarate dal negozio sono distinte dalle autorizzazioni confermate dai marchi.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pescara",
+      posizione: {
+        indirizzo: "Via Galileo Galilei 8/1",
+        cap: "65122",
+        coordinate: null,
+        fonti: [
+          "pr6-satolli-pescara-1"
+        ]
+      },
+      contatti: {
+        telefono: "+39 085 4212934",
+        email: null,
+        sito: "https://www.orologeriasatolli.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "pr6-satolli-pescara-1"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "pr6-satolli-pescara-1"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        },
+        {
+          id: "orologi-tasca",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [
+          {
+            marca: "Eberhard",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Paul Picot",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Rado",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            marca: "Calvin Klein",
+            fonti: [
+              "pr6-satolli-pescara-2"
+            ]
+          }
+        ],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "La famiglia Satolli collega la propria tradizione orologiaia al trasferimento di Angelo a Chieti nel 1908. La storia pubblicata distingue l\u2019attivit\xE0 avviata a Pescara nel 1964, l\u2019apertura al civico 8/1 nel 1976 e la successiva unificazione delle botteghe nel 2009.",
+        eventi: [
+          {
+            data: "1976",
+            descrizione: "Attivit\xE0 Satolli Augusto e figlio in Via Galilei 8/1.",
+            fonti: [
+              "pr6-satolli-pescara-3"
+            ]
+          },
+          {
+            data: "2009",
+            descrizione: "Unificazione con La bottega del tempo nella Orologeria Satolli.",
+            fonti: [
+              "pr6-satolli-pescara-3"
+            ]
+          }
+        ],
+        fonti: [
+          "pr6-satolli-pescara-1",
+          "pr6-satolli-pescara-2",
+          "pr6-satolli-pescara-3"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-24",
+        verificataIl: "2026-10-24",
+        confermataTitolareIl: null,
+        fonti: [
+          "pr6-satolli-pescara-1",
+          "pr6-satolli-pescara-2",
+          "pr6-satolli-pescara-3"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-24",
+            azione: "Nuova scheda basata sulle pagine ufficiali di sede, servizi e storia; nessuna autorizzazione di marca dedotta dal sito del negozio.",
+            fonti: [
+              "pr6-satolli-pescara-1",
+              "pr6-satolli-pescara-2",
+              "pr6-satolli-pescara-3"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "recupero-arricchimento-20261024",
+        idOriginale: "satolli-pescara"
+      }
+    },
+    {
+      id: "wargas-sisti-ancona",
+      slug: "wargas-sisti-ancona",
+      nome: "Wargas Sisti dei F.lli Melani Srl",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Punto vendita di Ancona presente nel localizzatore ufficiale Longines; la fonte del marchio documenta vendita di orologi, sostituzione batterie e bracciali.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "ancona",
+      posizione: {
+        indirizzo: "Corso Garibaldi 37/39",
+        cap: "60121",
+        coordinate: null,
+        fonti: [
+          "pr6-wargas-sisti-ancona-1"
+        ]
+      },
+      contatti: {
+        telefono: "+39 071 201269",
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "pr6-wargas-sisti-ancona-1"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-24",
+        fonti: [
+          "pr6-wargas-sisti-ancona-1"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "pr6-wargas-sisti-ancona-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-23",
+        verificataIl: "2026-10-24",
+        confermataTitolareIl: null,
+        fonti: [
+          "pr6-wargas-sisti-ancona-1",
+          "pr6-wargas-sisti-ancona-2"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-23",
+            azione: "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilit\xE0 corrente \xE8 da confermare direttamente con l\u2019attivit\xE0.",
+            fonti: [
+              "pr6-wargas-sisti-ancona-1",
+              "pr6-wargas-sisti-ancona-2"
+            ]
+          },
+          {
+            data: "2026-10-24",
+            azione: "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+            fonti: [
+              "pr6-wargas-sisti-ancona-1",
+              "pr6-wargas-sisti-ancona-2"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "recupero-arricchimento-20261024",
+        idOriginale: "wargas-sisti-ancona"
       }
     }
   ]

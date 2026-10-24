@@ -19,6 +19,7 @@ npm-debug.log*
 # Incremento 03: risultati di geocodifica di verifica (ODbL, vedi docs/LICENZA-OSM.md)
 !/data/staging/toscana-03-geocode/
 !/data/staging/toscana-04-review/
+!/data/staging/pr6-arricchimento-20261024/
 
 # WordPress sensitive / large
 wp-config.php

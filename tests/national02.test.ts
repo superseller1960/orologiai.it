@@ -9,7 +9,9 @@ import { findDuplicates } from '../site/src/lib/duplicates.ts';
 import { searchDirectory, type SearchFilters } from '../site/src/lib/search.ts';
 
 const base = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '2a207dfd006c2729c774743889888c5e736e3f25:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString()));
-const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8')));
+// Il lotto N02 si verifica sul proprio snapshot (commit 3759dcb): le asserzioni esatte restano
+// valide senza vietare incrementi successivi, come già fatto per FB23 sullo snapshot PR5.
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '3759dcb4fd7c4e200c6e00790e0f963326259779:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString()));
 const letters = ['a', 'b', 'c', 'd'].filter(k => existsSync(`data/reports/national02-${k}-applied.json`));
 const batches = letters.map(k => JSON.parse(readFileSync(`data/import/national02-${k}-reviewed.json`, 'utf8')));
 const fresh = data.attivita.filter(b => !base.attivita.some(x => x.id === b.id));

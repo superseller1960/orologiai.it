@@ -1,0 +1,1502 @@
+{
+  "bigalli": {
+    "slug": "bigalli",
+    "nome": "Bigalli Orologerie",
+    "descrizione": "Bottega fiorentina di forniture e ricambi con vendita di orologi e laboratorio. Documenta revisioni, manutenzione e riparazioni di orologi automatici, manuali e al quarzo, oltre a interventi su pendoli e cucù.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via Maso Finiguerra 4/A–4/B",
+    "cap": "50123",
+    "citta": "Firenze",
+    "provincia_sigla": "FI",
+    "regione": "Toscana",
+    "telefono": "+39 055 212733",
+    "email": "info@bigallifirenze.com",
+    "sito": "https://www.bigallifirenze.com/",
+    "servizi_claims": [
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Ricambi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Revisione",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      },
+      {
+        "nome": "Manutenzione",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      },
+      {
+        "nome": "Riparazione meccanici",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      },
+      {
+        "nome": "Riparazione automatici",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      },
+      {
+        "nome": "Riparazione al quarzo",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      },
+      {
+        "nome": "Pendoleria",
+        "fonti_url": [
+          "https://www.bigallifirenze.com/en/info/5-repairs"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {
+      "esperienza": [
+        {
+          "nome": "Omega",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        },
+        {
+          "nome": "Longines",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        },
+        {
+          "nome": "Rado",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        },
+        {
+          "nome": "Hamilton",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        },
+        {
+          "nome": "Tissot",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        },
+        {
+          "nome": "Calvin Klein",
+          "fonti_url": [
+            "https://www.bigallifirenze.com/en/info/5-repairs"
+          ]
+        }
+      ]
+    },
+    "fonti": [
+      {
+        "url": "https://orologiai.it/firenze/",
+        "titolo": "Mirror storico Orologiai.it — firenze",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/firenze/index.html"
+      },
+      {
+        "url": "https://www.bigallifirenze.com/it/contattaci",
+        "titolo": "Bigalli — contatti e orari",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.bigallifirenze.com/en/info/5-repairs",
+        "titolo": "Bigalli — attività del laboratorio",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.bigallifirenze.com/it/info/4-la-nostra-storia",
+        "titolo": "Bigalli — storia della bottega",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Scheda storica arricchita con contatti, orari, competenze dichiarate e storia corroborata. Nessuna certificazione del negozio promossa ad autorizzazione del marchio."
+      }
+    ],
+    "storia_testo": "Nata nel 1927 da Tullio e Bruna Bigalli come bottega di forniture per orologiai presso Ponte Vecchio, con ricambi svizzeri per riparazioni artigianali.",
+    "annoFondazione": 1927,
+    "fondatore": "Tullio e Bruna Bigalli",
+    "storia_eventi": [
+      {
+        "data": "2003",
+        "descrizione": "Trasferimento nella sede di Via Maso Finiguerra.",
+        "fonte_url": "https://www.bigallifirenze.com/it/info/4-la-nostra-storia"
+      }
+    ],
+    "orari_giorni": [
+      {
+        "giorno": 1,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "08:30",
+            "chiusura": "12:30"
+          }
+        ]
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "fani-gioielli": {
+    "slug": "fani-gioielli",
+    "nome": "Fani Gioielli",
+    "descrizione": "Punto vendita di gioielleria e orologeria in Via de’ Tornabuoni a Firenze. La sede è presente nella rete di rivenditori ufficiali Rolex; sono disponibili telefono e orari pubblicati dalla boutique.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via de’ Tornabuoni 72/R",
+    "cap": "50123",
+    "citta": "Firenze",
+    "provincia_sigla": "FI",
+    "regione": "Toscana",
+    "telefono": "+39 055 212075",
+    "email": null,
+    "sito": "https://www.fanishops.it/",
+    "servizi_claims": [
+      {
+        "nome": "Gioielleria",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {
+      "venduti": [
+        {
+          "nome": "Rolex",
+          "fonti_url": [
+            "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661"
+          ]
+        }
+      ],
+      "rivenditaUfficiale": [
+        {
+          "nome": "Rolex",
+          "fonti_url": [
+            "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661"
+          ]
+        }
+      ]
+    },
+    "fonti": [
+      {
+        "url": "https://orologiai.it/firenze/",
+        "titolo": "Mirror storico Orologiai.it — firenze",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/firenze/index.html"
+      },
+      {
+        "url": "https://www.fanishops.it/rolex/contatti/firenze/",
+        "titolo": "Fani Firenze — sede, telefono e orari",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.rolex.com/en-us/rolex-dealers/fanigioielli-661",
+        "titolo": "Rolex — Fani Gioielli nella rete ufficiale",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Aggiunti contatti, orari e rivendita Rolex riscontrata presso il marchio. Ignorato il CAP a sei cifre del sito; conservati sede e URL storici."
+      }
+    ],
+    "storia_testo": "Una storia di eccellenza e tradizione nella culla dell'oreficeria fiorentina, tra famiglia e amore per il lavoro ben fatto.",
+    "annoFondazione": null,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [
+      {
+        "giorno": 1,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 7,
+        "intervalli": []
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "marretti": {
+    "slug": "marretti",
+    "nome": "Orologeria Marretti",
+    "descrizione": "Fondata nel 1952 da Renato Marretti, poi tramandata al figlio Alberto, che ne ha fatto crescere la reputazione.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via dei Calzaiuoli 86/R",
+    "cap": "50122",
+    "citta": "Firenze",
+    "provincia_sigla": "FI",
+    "regione": "Toscana",
+    "telefono": "+39 055 215603",
+    "email": null,
+    "sito": null,
+    "servizi_claims": [
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://orologiai.it/firenze/",
+        "titolo": "Mirror storico Orologiai.it — firenze",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/firenze/index.html"
+      },
+      {
+        "url": "https://www.salvini.com/it_it/storelocator/GIOIELLERIA-MARETTI-FIRENZE",
+        "titolo": "Salvini — recapito della Gioielleria Marretti Massimiliano",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": null,
+    "confermataTitolareIl": null,
+    "stato_label": "Da verificare",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Aggiunto il recapito pubblico riportato dal locator Salvini per la stessa sede. Verifica parziale da contenuto indicizzato: stato da-verificare e storia invariati."
+      }
+    ],
+    "storia_testo": "Fondata nel 1952 da Renato Marretti, poi tramandata al figlio Alberto, che ne ha fatto crescere la reputazione.",
+    "annoFondazione": 1952,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [],
+    "orari_variazioni": [],
+    "orari_verificatiIl": null
+  },
+  "sangalli": {
+    "slug": "sangalli",
+    "nome": "Orologeria Gioielleria Sangalli",
+    "descrizione": "Orologeria e gioielleria storica in Via Bergamini a Milano, con vendita e riparazione di orologi. La fondazione nel 1900 a opera di Egidio Casini è documentata anche nel registro delle imprese storiche di Unioncamere.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via Bergamini 7",
+    "cap": "20122",
+    "citta": "Milano",
+    "provincia_sigla": "MI",
+    "regione": "Lombardia",
+    "telefono": "+39 02 58304415",
+    "email": "info@orologeriasangalli.com",
+    "sito": "https://www.orologeriasangalli.com/",
+    "servizi_claims": [
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://orologiai.it/milano/"
+        ]
+      },
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/milano/"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://orologiai.it/milano/",
+        "titolo": "Mirror storico Orologiai.it — milano",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/milano/index.html"
+      },
+      {
+        "url": "https://www.orologeriasangalli.com/it/contattaci",
+        "titolo": "Sangalli — contatti, orari e variazioni stagionali",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900",
+        "titolo": "Unioncamere — Sangalli nel registro delle imprese storiche",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Aggiunti telefono, email, sito e orari con eccezioni stagionali esplicite. Fondazione e fondatore corroborati dalla fonte istituzionale, senza riscrivere il testo storico."
+      }
+    ],
+    "storia_testo": "Fondata nel 1900 da Egidio Casini. Ripara ogni tipo di orologio, dalle pendole parigine agli orologi da polso, con laboratorio interno.",
+    "annoFondazione": 1900,
+    "fondatore": "Egidio Casini",
+    "storia_eventi": [],
+    "orari_giorni": [
+      {
+        "giorno": 1,
+        "intervalli": [
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "10:00",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:00"
+          }
+        ]
+      },
+      {
+        "giorno": 7,
+        "intervalli": []
+      }
+    ],
+    "orari_variazioni": [
+      "Giugno e luglio: chiuso il sabato pomeriggio.",
+      "Dicembre: il sito indica apertura tutti i giorni, anche festivi, fino al 24 compreso; confermare gli orari delle aperture straordinarie."
+    ],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "scardi": {
+    "slug": "scardi",
+    "nome": "Scardi Orologeria Oreficeria",
+    "descrizione": "Orologeria e oreficeria a Firenze con laboratorio per riparazione, manutenzione e restauro di orologi da polso, da tasca e pendoli. Il sito propone anche orologi d’epoca e descrive ritiro e consegna degli esemplari ingombranti.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via Gabriele D’Annunzio 8/A",
+    "cap": "50135",
+    "citta": "Firenze",
+    "provincia_sigla": "FI",
+    "regione": "Toscana",
+    "telefono": "+39 055 676615",
+    "email": null,
+    "sito": "https://scardi.it/",
+    "servizi_claims": [
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Gioielleria",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Orologi usati",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      },
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      },
+      {
+        "nome": "Manutenzione",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      },
+      {
+        "nome": "Assistenza",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      },
+      {
+        "nome": "Pendoleria",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      },
+      {
+        "nome": "Orologi da tasca",
+        "fonti_url": [
+          "https://scardi.it/servizi/"
+        ]
+      }
+    ],
+    "altri_servizi": [
+      "Interventi a domicilio e ritiro/consegna di orologi ingombranti, da concordare con la bottega."
+    ],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://orologiai.it/firenze/",
+        "titolo": "Mirror storico Orologiai.it — firenze",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/firenze/index.html"
+      },
+      {
+        "url": "https://scardi.it/contatti/",
+        "titolo": "Scardi — recapiti pubblici",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://scardi.it/servizi/",
+        "titolo": "Scardi — laboratorio e servizi dichiarati",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate non pubblicate: CAP o numero civico non coincidenti o non verificati."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Aggiunti recapito e sito ufficiale; precisati i servizi di laboratorio. Testo storico, ID e indirizzo precedente conservati. Orari non dedotti."
+      }
+    ],
+    "storia_testo": "Punto vendita di famiglia dal 1959: da padre a figlio e nipote, con le migliori marche di orologeria e gioielleria per uomo e donna.",
+    "annoFondazione": 1959,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [],
+    "orari_variazioni": [],
+    "orari_verificatiIl": null
+  },
+  "senzatempo-firenze": {
+    "slug": "senzatempo-firenze",
+    "nome": "Senzatempo Firenze",
+    "descrizione": "Orologeria di Firenze dedicata a orologi di prestigio usati e d’epoca. Documenta acquisto, permuta e valutazione dell’usato, con riparazioni, revisioni e manutenzione affidate ai tecnici del laboratorio.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Piazza Madonna degli Aldobrandini 14/R",
+    "cap": "50123",
+    "citta": "Firenze",
+    "provincia_sigla": "FI",
+    "regione": "Toscana",
+    "telefono": "+39 055 2382267",
+    "email": "info@senzatempofirenze.it",
+    "sito": "https://www.senzatempofirenze.it/",
+    "servizi_claims": [
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Assistenza",
+        "fonti_url": [
+          "https://orologiai.it/firenze/"
+        ]
+      },
+      {
+        "nome": "Orologi usati",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      },
+      {
+        "nome": "Acquisto / permuta (vedi dettagli)",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      },
+      {
+        "nome": "Valutazioni",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      },
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      },
+      {
+        "nome": "Revisione",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      },
+      {
+        "nome": "Manutenzione",
+        "fonti_url": [
+          "https://www.senzatempofirenze.it/chi-siamo/"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://orologiai.it/firenze/",
+        "titolo": "Mirror storico Orologiai.it — firenze",
+        "consultataIl": "2026-10-16",
+        "percorsoArchivio": "public/firenze/index.html"
+      },
+      {
+        "url": "https://www.senzatempofirenze.it/",
+        "titolo": "Senzatempo Firenze — sede, recapiti e orari",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.senzatempofirenze.it/chi-siamo/",
+        "titolo": "Senzatempo Firenze — servizi dichiarati",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-16",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-16",
+        "azione": "Migrazione conservativa dal dataset storico 8dc29a5. Dati operativi e autorizzazioni da riconfermare."
+      },
+      {
+        "data": "2026-10-16",
+        "azione": "Incremento 03: indirizzo e CAP confermati da fonte pubblica ; coordinate da geocodifica OSM confrontata con indirizzo e CAP."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Aggiunti contatti completi, orari e servizi documentati. Risolta la discordanza fra il fisso tronco nella pagina contatti e quello completo del sito; nessun numero ricostruito per supposizione."
+      }
+    ],
+    "storia_testo": "Lunga esperienza nell'orologeria di prestigio, con assistenza e originalità garantite sugli articoli proposti.",
+    "annoFondazione": null,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "10:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "10:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "10:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "10:30",
+            "chiusura": "18:30"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "10:30",
+            "chiusura": "18:30"
+          }
+        ]
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "cerescioli-paolo-ancona": {
+    "slug": "cerescioli-paolo-ancona",
+    "nome": "Cerescioli Paolo & C. Sas",
+    "descrizione": "Attività di Ancona rivolta anche agli operatori dell’orologeria: distribuzione di ricambi e attrezzature, rigenerazione di quadranti e realizzazione di vetri per orologi.",
+    "tipi": [
+      "orologeria"
+    ],
+    "indirizzo": "Via San Martino 43",
+    "cap": "60122",
+    "citta": "Ancona",
+    "provincia_sigla": "AN",
+    "regione": "Marche",
+    "telefono": "071 202091",
+    "email": "info@ceresciolipaolo.it",
+    "sito": "https://www.ceresciolipaolo.it/",
+    "servizi_claims": [
+      {
+        "nome": "Ricambi",
+        "fonti_url": [
+          "https://www.ceresciolipaolo.it/",
+          "https://www.ceresciolipaolo.it/"
+        ]
+      }
+    ],
+    "altri_servizi": [
+      "Rigenerazione di quadranti per orologi da polso.",
+      "Realizzazione di vetri per orologi in plastica o cristallo."
+    ],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://www.ceresciolipaolo.it/",
+        "titolo": "Cerescioli Paolo & C. Sas — servizi, ricambi e contatti Ancona",
+        "consultataIl": "2026-10-23",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.ceresciolipaolo.it/",
+        "titolo": "Cerescioli Paolo & C. Sas — riconferma delle fonti",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-23",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-23",
+        "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6."
+      }
+    ],
+    "storia_testo": "L’attività dichiara di operare dal 1968 nel settore delle forniture e dei ricambi per orologi. Dal 2008 si trova in Via San Martino 43 ad Ancona.",
+    "annoFondazione": 1968,
+    "fondatore": null,
+    "storia_eventi": [
+      {
+        "data": "2008",
+        "descrizione": "Trasferimento nella sede di Via San Martino 43.",
+        "fonte_url": "https://www.ceresciolipaolo.it/"
+      }
+    ],
+    "orari_giorni": [
+      {
+        "giorno": 1,
+        "intervalli": [
+          {
+            "apertura": "08:15",
+            "chiusura": "12:45"
+          },
+          {
+            "apertura": "15:00",
+            "chiusura": "18:00"
+          }
+        ]
+      },
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "08:15",
+            "chiusura": "12:45"
+          },
+          {
+            "apertura": "15:00",
+            "chiusura": "18:00"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "08:15",
+            "chiusura": "12:45"
+          },
+          {
+            "apertura": "15:00",
+            "chiusura": "18:00"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "08:15",
+            "chiusura": "12:45"
+          },
+          {
+            "apertura": "15:00",
+            "chiusura": "18:00"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "08:15",
+            "chiusura": "12:45"
+          },
+          {
+            "apertura": "15:00",
+            "chiusura": "18:00"
+          }
+        ]
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "gibi-shop-ancona": {
+    "slug": "gibi-shop-ancona",
+    "nome": "Gi.Bi. Shop",
+    "descrizione": "Orologeria e gioielleria di Ancona che documenta attività di riparazione, assistenza e restauro di orologi, oltre alla sostituzione di cinturini e batterie.",
+    "tipi": [
+      "orologeria",
+      "gioielleria"
+    ],
+    "indirizzo": "Corso Giovanni Amendola 22/B",
+    "cap": "60123",
+    "citta": "Ancona",
+    "provincia_sigla": "AN",
+    "regione": "Marche",
+    "telefono": "+39 071 202314",
+    "email": "info@gibishop.com",
+    "sito": "https://www.gibishop.com/",
+    "servizi_claims": [
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      },
+      {
+        "nome": "Assistenza",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      },
+      {
+        "nome": "Manutenzione",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      },
+      {
+        "nome": "Sostituzione batterie",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      },
+      {
+        "nome": "Sostituzione cinturini",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      },
+      {
+        "nome": "Gioielleria",
+        "fonti_url": [
+          "https://www.gibishop.com/assistenza.php",
+          "https://www.gibishop.com/assistenza.php"
+        ]
+      }
+    ],
+    "altri_servizi": [
+      "Prova di impermeabilità, da concordare con il negozio."
+    ],
+    "marchi": {},
+    "fonti": [
+      {
+        "url": "https://www.gibishop.com/assistenza.php",
+        "titolo": "Gi.Bi. Shop — assistenza orologi e recapiti Ancona",
+        "consultataIl": "2026-10-23",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.gibishop.com/assistenza.php",
+        "titolo": "Gi.Bi. Shop — riconferma delle fonti",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-23",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-23",
+        "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6."
+      }
+    ],
+    "storia_testo": null,
+    "annoFondazione": null,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [],
+    "orari_variazioni": [],
+    "orari_verificatiIl": null
+  },
+  "satolli-pescara": {
+    "slug": "satolli-pescara",
+    "nome": "Orologeria Satolli",
+    "descrizione": "Laboratorio di orologeria a Pescara che documenta riparazione, revisione e manutenzione di orologi moderni e antichi, anche da tasca e a pendolo. Le certificazioni dichiarate dal negozio sono distinte dalle autorizzazioni confermate dai marchi.",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "indirizzo": "Via Galileo Galilei 8/1",
+    "cap": "65122",
+    "citta": "Pescara",
+    "provincia_sigla": "PE",
+    "regione": "Abruzzo",
+    "telefono": "+39 085 4212934",
+    "email": null,
+    "sito": "https://www.orologeriasatolli.it/",
+    "servizi_claims": [
+      {
+        "nome": "Riparazione",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      },
+      {
+        "nome": "Revisione",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      },
+      {
+        "nome": "Manutenzione",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      },
+      {
+        "nome": "Restauro vintage",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      },
+      {
+        "nome": "Pendoleria",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      },
+      {
+        "nome": "Orologi da tasca",
+        "fonti_url": [
+          "https://www.orologeriasatolli.it/assistenza/"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {
+      "esperienza": [
+        {
+          "nome": "Eberhard",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Paul Picot",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Omega",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Longines",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Rado",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Tissot",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Hamilton",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        },
+        {
+          "nome": "Calvin Klein",
+          "fonti_url": [
+            "https://www.orologeriasatolli.it/assistenza/"
+          ]
+        }
+      ]
+    },
+    "fonti": [
+      {
+        "url": "https://www.orologeriasatolli.it/dove-siamo/",
+        "titolo": "Orologeria Satolli — sede, telefono e orari",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.orologeriasatolli.it/assistenza/",
+        "titolo": "Orologeria Satolli — interventi e competenze dichiarate",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.orologeriasatolli.it/chi-siamo/",
+        "titolo": "Orologeria Satolli — storia familiare e delle sedi",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-24",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-24",
+        "azione": "Nuova scheda basata sulle pagine ufficiali di sede, servizi e storia; nessuna autorizzazione di marca dedotta dal sito del negozio."
+      }
+    ],
+    "storia_testo": "La famiglia Satolli collega la propria tradizione orologiaia al trasferimento di Angelo a Chieti nel 1908. La storia pubblicata distingue l’attività avviata a Pescara nel 1964, l’apertura al civico 8/1 nel 1976 e la successiva unificazione delle botteghe nel 2009.",
+    "annoFondazione": null,
+    "fondatore": null,
+    "storia_eventi": [
+      {
+        "data": "1976",
+        "descrizione": "Attività Satolli Augusto e figlio in Via Galilei 8/1.",
+        "fonte_url": "https://www.orologeriasatolli.it/chi-siamo/"
+      },
+      {
+        "data": "2009",
+        "descrizione": "Unificazione con La bottega del tempo nella Orologeria Satolli.",
+        "fonte_url": "https://www.orologeriasatolli.it/chi-siamo/"
+      }
+    ],
+    "orari_giorni": [
+      {
+        "giorno": 1,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:30"
+          }
+        ]
+      },
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:30"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:30"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:30"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          },
+          {
+            "apertura": "15:30",
+            "chiusura": "19:30"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "09:15",
+            "chiusura": "13:00"
+          }
+        ]
+      },
+      {
+        "giorno": 7,
+        "intervalli": []
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  },
+  "wargas-sisti-ancona": {
+    "slug": "wargas-sisti-ancona",
+    "nome": "Wargas Sisti dei F.lli Melani Srl",
+    "descrizione": "Punto vendita di Ancona presente nel localizzatore ufficiale Longines; la fonte del marchio documenta vendita di orologi, sostituzione batterie e bracciali.",
+    "tipi": [
+      "orologeria",
+      "gioielleria"
+    ],
+    "indirizzo": "Corso Garibaldi 37/39",
+    "cap": "60121",
+    "citta": "Ancona",
+    "provincia_sigla": "AN",
+    "regione": "Marche",
+    "telefono": "+39 071 201269",
+    "email": null,
+    "sito": null,
+    "servizi_claims": [
+      {
+        "nome": "Vendita di orologi",
+        "fonti_url": [
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217"
+        ]
+      },
+      {
+        "nome": "Sostituzione batterie",
+        "fonti_url": [
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217"
+        ]
+      },
+      {
+        "nome": "Sostituzione cinturini",
+        "fonti_url": [
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+          "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217"
+        ]
+      }
+    ],
+    "altri_servizi": [],
+    "marchi": {
+      "venduti": [
+        {
+          "nome": "Longines",
+          "fonti_url": [
+            "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217"
+          ]
+        }
+      ]
+    },
+    "fonti": [
+      {
+        "url": "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+        "titolo": "Longines — scheda boutique Wargas Sisti, Ancona",
+        "consultataIl": "2026-10-23",
+        "percorsoArchivio": null
+      },
+      {
+        "url": "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+        "titolo": "Wargas Sisti dei F.lli Melani Srl — riconferma delle fonti",
+        "consultataIl": "2026-10-24",
+        "percorsoArchivio": null
+      }
+    ],
+    "raccoltaIl": "2026-10-23",
+    "verificataIl": "2026-10-24",
+    "confermataTitolareIl": null,
+    "stato_label": "Verificata tramite fonti",
+    "cronologia": [
+      {
+        "data": "2026-10-23",
+        "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività."
+      },
+      {
+        "data": "2026-10-24",
+        "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6."
+      }
+    ],
+    "storia_testo": null,
+    "annoFondazione": null,
+    "fondatore": null,
+    "storia_eventi": [],
+    "orari_giorni": [
+      {
+        "giorno": 2,
+        "intervalli": [
+          {
+            "apertura": "09:00",
+            "chiusura": "12:30"
+          },
+          {
+            "apertura": "16:15",
+            "chiusura": "19:45"
+          }
+        ]
+      },
+      {
+        "giorno": 3,
+        "intervalli": [
+          {
+            "apertura": "09:00",
+            "chiusura": "12:30"
+          },
+          {
+            "apertura": "16:15",
+            "chiusura": "19:45"
+          }
+        ]
+      },
+      {
+        "giorno": 4,
+        "intervalli": [
+          {
+            "apertura": "09:00",
+            "chiusura": "12:30"
+          },
+          {
+            "apertura": "16:15",
+            "chiusura": "19:45"
+          }
+        ]
+      },
+      {
+        "giorno": 5,
+        "intervalli": [
+          {
+            "apertura": "09:00",
+            "chiusura": "12:30"
+          },
+          {
+            "apertura": "16:15",
+            "chiusura": "19:45"
+          }
+        ]
+      },
+      {
+        "giorno": 6,
+        "intervalli": [
+          {
+            "apertura": "09:00",
+            "chiusura": "12:30"
+          },
+          {
+            "apertura": "16:15",
+            "chiusura": "19:45"
+          }
+        ]
+      }
+    ],
+    "orari_variazioni": [],
+    "orari_verificatiIl": "2026-10-24"
+  }
+}

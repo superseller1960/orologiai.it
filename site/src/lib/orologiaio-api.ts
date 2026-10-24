@@ -1,6 +1,7 @@
 import { z } from 'zod';
 import { interpretaConProvider, MAX_MESSAGGIO, criteriSchema, type Criteri } from './assistant.ts';
 import { geminiProvider, type FetchLike } from './gemini.ts';
+import { cloudflareAiProvider, type WorkersAiBinding } from './cloudflare-ai.ts';
 import type { Directory } from './schema.ts';
 
 // 500 caratteri Unicode più i criteri dei turni precedenti; resta un payload limitato.
@@ -18,7 +19,11 @@ export type RispostaOrologiaio = {
   chiarimenti: string[];
 };
 
-export type Env = { GEMINI_API_KEY?: string };
+// La entry pubblica di produzione passa solo il percorso Workers AI (binding AI con
+// AI_PROVIDER=cloudflare) oppure un ambiente vuoto: GEMINI_API_KEY resta ai soli percorsi
+// privati/legacy e non viene mai inoltrato dal deployment pubblico. Vedi
+// functions/api/orologiaio.ts e docs/ASSISTENTE-AI.md.
+export type Env = { GEMINI_API_KEY?: string; AI_PROVIDER?: string; AI?: WorkersAiBinding };
 export type Deps = {
   dir: Directory;
   fetch?: FetchLike;
@@ -100,13 +105,16 @@ export async function handleOrologiaio(request: Request, env: Env, deps: Deps): 
   if (!messaggio) return errore(400, 'Scrivi una richiesta.');
   if (messaggio.length > MAX_MESSAGGIO) return errore(413, `Il messaggio supera ${MAX_MESSAGGIO} caratteri.`);
 
+  // Workers AI è attivo solo con binding AI presente e AI_PROVIDER=cloudflare esplicito;
+  // altrimenti resta il percorso Gemini privato/legacy e infine l'interpretazione locale.
+  const cloudflare = env.AI_PROVIDER === 'cloudflare' && env.AI ? cloudflareAiProvider(env.AI, deps.dir) : null;
   const apiKey = (env.GEMINI_API_KEY ?? '').trim();
-  const provider = apiKey ? geminiProvider(apiKey, deps.dir, deps.fetch ?? defaultFetch) : null;
+  const provider = cloudflare ?? (apiKey ? geminiProvider(apiKey, deps.dir, deps.fetch ?? defaultFetch) : null);
 
   try {
     // Il contesto arriva dal client (Turni precedenti, non dal browser: body JSON validato) e positivo a criteri.
     const esito = await interpretaConProvider(messaggio, deps.dir, provider, deps.timeoutMs ?? SERVER_TIMEOUT_MS, parsed.data.contesto);
-    if (!apiKey) {
+    if (!provider) {
       return json({
         modalita: 'non-configurato', avviso: 'Il modello AI non è configurato su questo ambiente: interpretazione locale.',
         risposta: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti,

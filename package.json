@@ -16,6 +16,7 @@
     "verify": "npm run check && npm run build && npm test && npm run test:ui",
     "build": "npm run validate && astro build && tsx scripts/check-build.ts && npm run build:api",
     "build:api": "node scripts/bundle-vercel-api.mjs",
+    "package:pages": "node scripts/package-pages.mjs",
     "migrate:legacy": "tsx scripts/migrate-legacy.ts",
     "import:osm": "tsx scripts/import-osm.ts",
     "fetch:osm:pilot": "tsx scripts/fetch-osm-pilot.ts",

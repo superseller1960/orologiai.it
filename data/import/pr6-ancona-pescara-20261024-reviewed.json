@@ -1,0 +1,924 @@
+{
+  "lotto": "pr6-ancona-pescara-20261024",
+  "data": "2026-10-24",
+  "fonti": [
+    {
+      "id": "pr6-cerescioli-paolo-ancona-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ceresciolipaolo.it/",
+      "titolo": "Cerescioli Paolo & C. Sas — servizi, ricambi e contatti Ancona",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-cerescioli-paolo-ancona-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ceresciolipaolo.it/",
+      "titolo": "Cerescioli Paolo & C. Sas — riconferma delle fonti",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-gibi-shop-ancona-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibishop.com/assistenza.php",
+      "titolo": "Gi.Bi. Shop — assistenza orologi e recapiti Ancona",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-gibi-shop-ancona-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibishop.com/assistenza.php",
+      "titolo": "Gi.Bi. Shop — riconferma delle fonti",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-satolli-pescara-1",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/dove-siamo/",
+      "titolo": "Orologeria Satolli — sede, telefono e orari",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-satolli-pescara-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/assistenza/",
+      "titolo": "Orologeria Satolli — interventi e competenze dichiarate",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-satolli-pescara-3",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasatolli.it/chi-siamo/",
+      "titolo": "Orologeria Satolli — storia familiare e delle sedi",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-wargas-sisti-ancona-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      "titolo": "Longines — scheda boutique Wargas Sisti, Ancona",
+      "consultataIl": "2026-10-23",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    },
+    {
+      "id": "pr6-wargas-sisti-ancona-2",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      "titolo": "Wargas Sisti dei F.lli Melani Srl — riconferma delle fonti",
+      "consultataIl": "2026-10-24",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Fonte pubblica consultata nelle schede PR #6 recuperate dal deployment 9deeca12."
+    }
+  ],
+  "localita": [
+    {
+      "id": "pescara",
+      "comune": "Pescara",
+      "comuneSlug": "pescara",
+      "provincia": "Pescara",
+      "provinciaSlug": "pescara",
+      "siglaProvincia": "PE",
+      "regione": "Abruzzo",
+      "regioneSlug": "abruzzo",
+      "codiceIstat": null,
+      "descrizione": "Pescara: attività censite con servizi documentati e fonti consultabili.",
+      "fonti": [
+        "pr6-satolli-pescara-1"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "cerescioli-paolo-ancona",
+      "nome": "Cerescioli Paolo & C. Sas",
+      "decisione": "approvata",
+      "motivo": "Inserimento PR #6 recuperato dal deployment preview 9deeca12 (commit 50170df) e ricontrollato sulle fonti pubbliche consultate il 2026-10-23; nessun dato dedotto.",
+      "fonti": [
+        "pr6-cerescioli-paolo-ancona-1",
+        "pr6-cerescioli-paolo-ancona-2"
+      ],
+      "attivita": {
+        "id": "cerescioli-paolo-ancona",
+        "slug": "cerescioli-paolo-ancona",
+        "nome": "Cerescioli Paolo & C. Sas",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Attività di Ancona rivolta anche agli operatori dell’orologeria: distribuzione di ricambi e attrezzature, rigenerazione di quadranti e realizzazione di vetri per orologi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ancona",
+        "posizione": {
+          "indirizzo": "Via San Martino 43",
+          "cap": "60122",
+          "coordinate": null,
+          "fonti": [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        },
+        "contatti": {
+          "telefono": "071 202091",
+          "email": "info@ceresciolipaolo.it",
+          "sito": "https://www.ceresciolipaolo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        },
+        "orari": {
+          "giorni": [
+            {
+              "giorno": 1,
+              "intervalli": [
+                {
+                  "apertura": "08:15",
+                  "chiusura": "12:45"
+                },
+                {
+                  "apertura": "15:00",
+                  "chiusura": "18:00"
+                }
+              ]
+            },
+            {
+              "giorno": 2,
+              "intervalli": [
+                {
+                  "apertura": "08:15",
+                  "chiusura": "12:45"
+                },
+                {
+                  "apertura": "15:00",
+                  "chiusura": "18:00"
+                }
+              ]
+            },
+            {
+              "giorno": 3,
+              "intervalli": [
+                {
+                  "apertura": "08:15",
+                  "chiusura": "12:45"
+                },
+                {
+                  "apertura": "15:00",
+                  "chiusura": "18:00"
+                }
+              ]
+            },
+            {
+              "giorno": 4,
+              "intervalli": [
+                {
+                  "apertura": "08:15",
+                  "chiusura": "12:45"
+                },
+                {
+                  "apertura": "15:00",
+                  "chiusura": "18:00"
+                }
+              ]
+            },
+            {
+              "giorno": 5,
+              "intervalli": [
+                {
+                  "apertura": "08:15",
+                  "chiusura": "12:45"
+                },
+                {
+                  "apertura": "15:00",
+                  "chiusura": "18:00"
+                }
+              ]
+            }
+          ],
+          "chiusure": [],
+          "verificatiIl": "2026-10-24",
+          "fonti": [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "ricambi",
+            "fonti": [
+              "pr6-cerescioli-paolo-ancona-1"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Rigenerazione di quadranti per orologi da polso.",
+            "fonti": [
+              "pr6-cerescioli-paolo-ancona-1"
+            ]
+          },
+          {
+            "nome": "Realizzazione di vetri per orologi in plastica o cristallo.",
+            "fonti": [
+              "pr6-cerescioli-paolo-ancona-1"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1968,
+          "fondatore": null,
+          "testo": "L’attività dichiara di operare dal 1968 nel settore delle forniture e dei ricambi per orologi. Dal 2008 si trova in Via San Martino 43 ad Ancona.",
+          "eventi": [
+            {
+              "data": "2008",
+              "descrizione": "Trasferimento nella sede di Via San Martino 43.",
+              "fonti": [
+                "pr6-cerescioli-paolo-ancona-1"
+              ]
+            }
+          ],
+          "fonti": [
+            "pr6-cerescioli-paolo-ancona-1",
+            "pr6-cerescioli-paolo-ancona-2"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-24",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "pr6-cerescioli-paolo-ancona-1",
+            "pr6-cerescioli-paolo-ancona-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività.",
+              "fonti": [
+                "pr6-cerescioli-paolo-ancona-1",
+                "pr6-cerescioli-paolo-ancona-2"
+              ]
+            },
+            {
+              "data": "2026-10-24",
+              "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+              "fonti": [
+                "pr6-cerescioli-paolo-ancona-1",
+                "pr6-cerescioli-paolo-ancona-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "recupero-arricchimento-20261024",
+          "idOriginale": "cerescioli-paolo-ancona"
+        }
+      }
+    },
+    {
+      "id": "gibi-shop-ancona",
+      "nome": "Gi.Bi. Shop",
+      "decisione": "approvata",
+      "motivo": "Inserimento PR #6 recuperato dal deployment preview 9deeca12 (commit 50170df) e ricontrollato sulle fonti pubbliche consultate il 2026-10-23; nessun dato dedotto.",
+      "fonti": [
+        "pr6-gibi-shop-ancona-1",
+        "pr6-gibi-shop-ancona-2"
+      ],
+      "attivita": {
+        "id": "gibi-shop-ancona",
+        "slug": "gibi-shop-ancona",
+        "nome": "Gi.Bi. Shop",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "Orologeria e gioielleria di Ancona che documenta attività di riparazione, assistenza e restauro di orologi, oltre alla sostituzione di cinturini e batterie.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ancona",
+        "posizione": {
+          "indirizzo": "Corso Giovanni Amendola 22/B",
+          "cap": "60123",
+          "coordinate": null,
+          "fonti": [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 071 202314",
+          "email": "info@gibishop.com",
+          "sito": "https://www.gibishop.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "pr6-gibi-shop-ancona-1"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Prova di impermeabilità, da concordare con il negozio.",
+            "fonti": [
+              "pr6-gibi-shop-ancona-1"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-24",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "pr6-gibi-shop-ancona-1",
+            "pr6-gibi-shop-ancona-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività.",
+              "fonti": [
+                "pr6-gibi-shop-ancona-1",
+                "pr6-gibi-shop-ancona-2"
+              ]
+            },
+            {
+              "data": "2026-10-24",
+              "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+              "fonti": [
+                "pr6-gibi-shop-ancona-1",
+                "pr6-gibi-shop-ancona-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "recupero-arricchimento-20261024",
+          "idOriginale": "gibi-shop-ancona"
+        }
+      }
+    },
+    {
+      "id": "satolli-pescara",
+      "nome": "Orologeria Satolli",
+      "decisione": "approvata",
+      "motivo": "Inserimento PR #6 recuperato dal deployment preview 9deeca12 (commit 50170df) e ricontrollato sulle fonti pubbliche consultate il 2026-10-24; nessun dato dedotto.",
+      "fonti": [
+        "pr6-satolli-pescara-1",
+        "pr6-satolli-pescara-2",
+        "pr6-satolli-pescara-3"
+      ],
+      "attivita": {
+        "id": "satolli-pescara",
+        "slug": "satolli-pescara",
+        "nome": "Orologeria Satolli",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria a Pescara che documenta riparazione, revisione e manutenzione di orologi moderni e antichi, anche da tasca e a pendolo. Le certificazioni dichiarate dal negozio sono distinte dalle autorizzazioni confermate dai marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pescara",
+        "posizione": {
+          "indirizzo": "Via Galileo Galilei 8/1",
+          "cap": "65122",
+          "coordinate": null,
+          "fonti": [
+            "pr6-satolli-pescara-1"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 085 4212934",
+          "email": null,
+          "sito": "https://www.orologeriasatolli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "pr6-satolli-pescara-1"
+          ]
+        },
+        "orari": {
+          "giorni": [
+            {
+              "giorno": 1,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                },
+                {
+                  "apertura": "15:30",
+                  "chiusura": "19:30"
+                }
+              ]
+            },
+            {
+              "giorno": 2,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                },
+                {
+                  "apertura": "15:30",
+                  "chiusura": "19:30"
+                }
+              ]
+            },
+            {
+              "giorno": 3,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                },
+                {
+                  "apertura": "15:30",
+                  "chiusura": "19:30"
+                }
+              ]
+            },
+            {
+              "giorno": 4,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                },
+                {
+                  "apertura": "15:30",
+                  "chiusura": "19:30"
+                }
+              ]
+            },
+            {
+              "giorno": 5,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                },
+                {
+                  "apertura": "15:30",
+                  "chiusura": "19:30"
+                }
+              ]
+            },
+            {
+              "giorno": 6,
+              "intervalli": [
+                {
+                  "apertura": "09:15",
+                  "chiusura": "13:00"
+                }
+              ]
+            },
+            {
+              "giorno": 7,
+              "intervalli": []
+            }
+          ],
+          "chiusure": [],
+          "verificatiIl": "2026-10-24",
+          "fonti": [
+            "pr6-satolli-pescara-1"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "pr6-satolli-pescara-2"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [
+            {
+              "marca": "Eberhard",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Paul Picot",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Omega",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Longines",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Rado",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Tissot",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            },
+            {
+              "marca": "Calvin Klein",
+              "fonti": [
+                "pr6-satolli-pescara-2"
+              ]
+            }
+          ],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": "La famiglia Satolli collega la propria tradizione orologiaia al trasferimento di Angelo a Chieti nel 1908. La storia pubblicata distingue l’attività avviata a Pescara nel 1964, l’apertura al civico 8/1 nel 1976 e la successiva unificazione delle botteghe nel 2009.",
+          "eventi": [
+            {
+              "data": "1976",
+              "descrizione": "Attività Satolli Augusto e figlio in Via Galilei 8/1.",
+              "fonti": [
+                "pr6-satolli-pescara-3"
+              ]
+            },
+            {
+              "data": "2009",
+              "descrizione": "Unificazione con La bottega del tempo nella Orologeria Satolli.",
+              "fonti": [
+                "pr6-satolli-pescara-3"
+              ]
+            }
+          ],
+          "fonti": [
+            "pr6-satolli-pescara-1",
+            "pr6-satolli-pescara-2",
+            "pr6-satolli-pescara-3"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-24",
+          "verificataIl": "2026-10-24",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "pr6-satolli-pescara-1",
+            "pr6-satolli-pescara-2",
+            "pr6-satolli-pescara-3"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-24",
+              "azione": "Nuova scheda basata sulle pagine ufficiali di sede, servizi e storia; nessuna autorizzazione di marca dedotta dal sito del negozio.",
+              "fonti": [
+                "pr6-satolli-pescara-1",
+                "pr6-satolli-pescara-2",
+                "pr6-satolli-pescara-3"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "recupero-arricchimento-20261024",
+          "idOriginale": "satolli-pescara"
+        }
+      }
+    },
+    {
+      "id": "wargas-sisti-ancona",
+      "nome": "Wargas Sisti dei F.lli Melani Srl",
+      "decisione": "approvata",
+      "motivo": "Inserimento PR #6 recuperato dal deployment preview 9deeca12 (commit 50170df) e ricontrollato sulle fonti pubbliche consultate il 2026-10-23; nessun dato dedotto.",
+      "fonti": [
+        "pr6-wargas-sisti-ancona-1",
+        "pr6-wargas-sisti-ancona-2"
+      ],
+      "attivita": {
+        "id": "wargas-sisti-ancona",
+        "slug": "wargas-sisti-ancona",
+        "nome": "Wargas Sisti dei F.lli Melani Srl",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "Punto vendita di Ancona presente nel localizzatore ufficiale Longines; la fonte del marchio documenta vendita di orologi, sostituzione batterie e bracciali.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ancona",
+        "posizione": {
+          "indirizzo": "Corso Garibaldi 37/39",
+          "cap": "60121",
+          "coordinate": null,
+          "fonti": [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 071 201269",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        },
+        "orari": {
+          "giorni": [
+            {
+              "giorno": 2,
+              "intervalli": [
+                {
+                  "apertura": "09:00",
+                  "chiusura": "12:30"
+                },
+                {
+                  "apertura": "16:15",
+                  "chiusura": "19:45"
+                }
+              ]
+            },
+            {
+              "giorno": 3,
+              "intervalli": [
+                {
+                  "apertura": "09:00",
+                  "chiusura": "12:30"
+                },
+                {
+                  "apertura": "16:15",
+                  "chiusura": "19:45"
+                }
+              ]
+            },
+            {
+              "giorno": 4,
+              "intervalli": [
+                {
+                  "apertura": "09:00",
+                  "chiusura": "12:30"
+                },
+                {
+                  "apertura": "16:15",
+                  "chiusura": "19:45"
+                }
+              ]
+            },
+            {
+              "giorno": 5,
+              "intervalli": [
+                {
+                  "apertura": "09:00",
+                  "chiusura": "12:30"
+                },
+                {
+                  "apertura": "16:15",
+                  "chiusura": "19:45"
+                }
+              ]
+            },
+            {
+              "giorno": 6,
+              "intervalli": [
+                {
+                  "apertura": "09:00",
+                  "chiusura": "12:30"
+                },
+                {
+                  "apertura": "16:15",
+                  "chiusura": "19:45"
+                }
+              ]
+            }
+          ],
+          "chiusure": [],
+          "verificatiIl": "2026-10-24",
+          "fonti": [
+            "pr6-wargas-sisti-ancona-1"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "pr6-wargas-sisti-ancona-1"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "pr6-wargas-sisti-ancona-1"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "pr6-wargas-sisti-ancona-1"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [
+            {
+              "marca": "Longines",
+              "fonti": [
+                "pr6-wargas-sisti-ancona-1"
+              ]
+            }
+          ],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-23",
+          "verificataIl": "2026-10-24",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "pr6-wargas-sisti-ancona-1",
+            "pr6-wargas-sisti-ancona-2"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-23",
+              "azione": "Scheda compilata con informazioni professionali attribuite alla fonte pubblica indicata; la disponibilità corrente è da confermare direttamente con l’attività.",
+              "fonti": [
+                "pr6-wargas-sisti-ancona-1",
+                "pr6-wargas-sisti-ancona-2"
+              ]
+            },
+            {
+              "data": "2026-10-24",
+              "azione": "Recuperato il lotto Ancona del 23 ottobre e ricontrollato sulla fonte ufficiale; integrazione conservativa, senza attribuzione non provata alla PR #5 o #6.",
+              "fonti": [
+                "pr6-wargas-sisti-ancona-1",
+                "pr6-wargas-sisti-ancona-2"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "recupero-arricchimento-20261024",
+          "idOriginale": "wargas-sisti-ancona"
+        }
+      }
+    }
+  ]
+}

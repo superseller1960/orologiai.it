@@ -1,14 +1,23 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 import { searchDirectory, distanceKm, filtersFromParams } from '../site/src/lib/search.ts';
 const raw = JSON.parse(await readFile('site/data/directory.json','utf8'));
 const fullData = directorySchema.parse(raw);
 const legacy = JSON.parse(await readFile('site/data/orologerie.json','utf8'));
 const legacyIds = new Set(legacy.orologerie.map((b: { id: string }) => b.id));
-// Search regression uses the original cohort: adding new businesses does not require editing expected counts.
-const data = { ...fullData, attivita: fullData.attivita.filter(b => legacyIds.has(b.id)) };
+// Search regression uses the original cohort: adding new businesses does not require editing
+// expected counts. The cohort is read from the 3759dcb snapshot (state before the documented
+// PR #6 enrichments of six historic listings): exact assertions stay valid without forbidding
+// later documented increments, as already done for FB23, N02 and Toscana-02; the conservation
+// of the current dataset is covered by tests/pr6-20261024.test.ts.
+const snapshot = directorySchema.parse(JSON.parse(execFileSync(
+  'git', ['show', '3759dcb4fd7c4e200c6e00790e0f963326259779:site/data/directory.json'],
+  { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 },
+)));
+const data = { ...snapshot, attivita: snapshot.attivita.filter(b => legacyIds.has(b.id)) };
 const copy = (): Directory => structuredClone(data);
 test('tutte le otto attività e informazioni originali sono conservate', async () => {
   const old = JSON.parse(await readFile('site/data/orologerie.json','utf8'));

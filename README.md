@@ -1,6 +1,6 @@
 # Orologiai.it — directory dei professionisti del tempo
 
-Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. Il dataset pubblicato copre tutte le **20 regioni italiane** con **155 attività in 101 località** e **236 fonti** (conteggi aggiornati ricavabili da `site/data/directory.json`). **La copertura di tutte le regioni non è un censimento completo dell'Italia**: una ricerca in una località non presente nel dataset non può mostrare attività verificate, e non vengono creati elenchi vuoti o attività inventate.
+Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con Astro e TypeScript. Il dataset pubblicato copre tutte le **20 regioni italiane** con **159 attività in 102 località** e **257 fonti** (conteggi aggiornati ricavabili da `site/data/directory.json`). **La copertura di tutte le regioni non è un censimento completo dell'Italia**: una ricerca in una località non presente nel dataset non può mostrare attività verificate, e non vengono creati elenchi vuoti o attività inventate.
 
 ## Funzioni
 
@@ -8,7 +8,8 @@ Directory italiana di orologerie, laboratori e botteghe storiche, realizzata con
 - Ricerca rapida dei servizi anche con espressioni comuni come “tagliando”, “cambio batteria” e “cinturino”. I risultati restano limitati ai servizi documentati per ogni attività.
 - Pagine regionali, per provincia/comune e per servizio, con ingresso nazionale in `/orologerie/`.
 - Mappa delle sole posizioni verificate.
-- Assistente Orologiaio: interfaccia con interpretazione Gemini lato server e fallback deterministico. La chiamata AI richiede `GEMINI_API_KEY` configurata come variabile d'ambiente del progetto Vercel; senza la chiave resta disponibile il fallback, che dichiara la propria modalità. La chiamata reale e la configurazione sul dominio di produzione non sono ancora verificate.
+- Ricerca guidata in tre passaggi in `/cerca/`: bisogno → città/regione/tutta Italia → risultati, con filtri rimovibili, unico elenco con alternative distinte, contatti rapidi e mappa facoltativa.
+- Assistente Orologiaio: interpretazione con fallback deterministico che dichiara sempre la propria modalità. Sul deployment pubblico l'AI è **spenta per impostazione predefinita**: Gemini resta disattivato (kill-switch esplicito nella entry) e Workers AI si attiva solo con binding `AI` e variabile `AI_PROVIDER=cloudflare`, con ricerca locale comunque disponibile in caso di quota esaurita o errori. Vedi [docs/ASSISTENTE-AI.md](docs/ASSISTENTE-AI.md).
 
 ## Avvio e verifiche
 

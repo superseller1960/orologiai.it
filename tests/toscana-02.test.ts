@@ -4,15 +4,18 @@ import { readFile, mkdtemp, mkdir, writeFile, rm } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import { tmpdir } from 'node:os';
 import { createHash } from 'node:crypto';
-import { directory as publishedDirectory } from '../site/src/lib/directory.ts';
 import { directorySchema } from '../site/src/lib/schema.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 import { importOsm } from '../site/src/lib/osm-import.ts';
 import { duplicateSignals, findDuplicates } from '../site/src/lib/duplicates.ts';
 import { execFileSync } from 'node:child_process';
 // Regressioni della coorte pre-espansione nazionale (commit 27f927a): le nuove schede non cambiano
-// i conteggi storici, mentre i record vengono comunque letti dal dataset corrente pubblicato.
+// i conteggi storici. I record sono letti dallo snapshot 3759dcb (stato immediatamente precedente
+// alla fusione PR #6): le asserzioni esatte restano valide senza vietare incrementi documentati
+// successivi, come già fatto per FB23 e N02; la conservazione del dataset corrente è coperta da
+// tests/pr6-20261024.test.ts.
 const coorte = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '27f927a:site/data/directory.json'], { encoding: 'utf8' })));
+const publishedDirectory = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '3759dcb4fd7c4e200c6e00790e0f963326259779:site/data/directory.json'], { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 })));
 const directory = {
  ...publishedDirectory,
  attivita: publishedDirectory.attivita.filter(b => coorte.attivita.some(x => x.id === b.id)),
