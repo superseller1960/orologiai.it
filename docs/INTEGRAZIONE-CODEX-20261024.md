@@ -164,3 +164,18 @@ HTTP/HTTPS elencate sopra e ripetuto il collaudo API sull'origine reale.
 - Estrazione documentata della PR #6: `data/staging/pr6-arricchimento-20261024/estrazioni.json`.
 - Artefatto deployabile `.runtime/pages-build` + manifest SHA-256 + manifest upload Pages.
 - Esportazione completa senza credenziali: `artifacts/orologiai-integrazione-20261024.zip`.
+
+## Aggiornamento post-deploy — 24/10/2026
+
+Con GitHub sospeso il rilascio è avvenuto in Direct Upload con Wrangler seguendo la procedura di
+`docs/RILASCIO-UX-CLOUDFLARE.md`, stessa build verificata per anteprima e produzione:
+
+- anteprima: https://merge-pr6-20261024.orologiai-it.pages.dev (deployment `b73ef69d`), collaudo superato;
+- produzione: deployment `5a5d5b04` sul ramo `pubblicazione-gratuita-scardi-20261022`, servito su
+  https://www.orologiai.it.
+
+Collaudo sull'origine reale: home 200 (text/html), 301 apex → www, scheda
+`/orologeria/b-b-gioielli-rovigo` 200 (404 sul deployment pre-fusione `9deeca12`), sitemap a 159
+schede, API `/api/orologiaio` 405/200/415/403 e `/api/posizione` 200. La risposta API riporta
+`modalita: "non-configurato"` con interpretazione locale: il kill-switch di Codex è invariato e la
+sua revisione UX resta la base viva del sito, estesa dal PR #6 e dalla fusione documentata qui sopra.
