@@ -306,3 +306,17 @@ test('ricerche geografiche di servizi per cinturini distinguono città coperte e
   assert.equal(milano.stato, 'nessun-risultato');
   assert.equal(milano.risultati.length, 0);
 });
+
+test('regioni composte e capoluoghi: «Valle d’Aosta» resta una regione, «Aosta» resta il comune', () => {
+  for (const msg of ["Cerco un orologiaio in Valle d'Aosta", "Cerco un orologiaio a Valle d'Aosta"]) {
+    const r = interpretaRichiesta(msg, data);
+    assert.equal(r.criteri.regione, 'valle-daosta', msg);
+    assert.equal(r.criteri.localita, undefined, msg);
+    assert.equal(r.criteri.localitaNonCensita, undefined, msg);
+    assert.equal(r.criteri.terminiNonRiconosciuti, undefined, msg);
+  }
+  assert.equal(interpretaRichiesta('Cerco un orologiaio ad Aosta', data).criteri.localita, 'aosta');
+  assert.equal(interpretaRichiesta('Cerco un orologiaio a Courmayeur', data).criteri.localita, 'courmayeur');
+  // Un capoluogo citato insieme alla propria regione resta un comune, non una regione.
+  assert.equal(interpretaRichiesta('Cerco un orologiaio a Firenze in Toscana', data).criteri.localita, 'firenze');
+});

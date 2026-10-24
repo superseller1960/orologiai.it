@@ -20010,14 +20010,20 @@ function interpretaRichiesta(messaggio, dir) {
     else if (has(t, / ufficial| autorizzat/) && has(t, / rivendit| vendit| concessionari/)) criteri.ruoloMarca = "rivenditaUfficiale";
     else if (has(t, / ripar| laborator| esperto| esperienz/)) criteri.ruoloMarca = "qualsiasi";
   }
+  const nomiComposti = [
+    ...dir.localita.map((p) => p.provincia),
+    ...Object.values(REGIONI_ITALIA).flatMap((r) => [r.nome, ...r.alias])
+  ].map(normalize).filter((n) => n.includes(" ")).sort((a, b) => b.length - a.length);
+  let perComuni = t;
+  for (const nome of nomiComposti) perComuni = perComuni.replace(new RegExp(` ${escapeRe(nome)} `, "g"), " ");
   const comuni = [...dir.localita].sort((a, b) => b.comune.length - a.comune.length);
-  const comune = comuni.find((p) => has(t, new RegExp(` ${escapeRe(normalize(p.comune))} `))) ?? comuni.find((p) => {
+  const comune = comuni.find((p) => has(perComuni, new RegExp(` ${escapeRe(normalize(p.comune))} `))) ?? comuni.find((p) => {
     const primo = normalize(p.comune).split(" ")[0] ?? "";
-    return primo.length >= 5 && !["colle", "bagno", "poggio", "sesto", "san", "monte", "castel"].includes(primo) && has(t, new RegExp(` ${escapeRe(primo)} `));
+    return primo.length >= 5 && !["colle", "bagno", "poggio", "sesto", "san", "monte", "castel"].includes(primo) && has(perComuni, new RegExp(` ${escapeRe(primo)} `));
   });
   if (comune) criteri.localita = comune.id;
   else {
-    const cittaEsplicita = /\b(?:a|ad)\s+[\p{L}]/iu.test(original);
+    const cittaEsplicita = /\b(?:a|ad)\s+[\p{L}]/iu.test(original) && !nomiComposti.some((n) => has(t, new RegExp(` ${escapeRe(n)} `)));
     const prov = dir.localita.find((p) => has(t, new RegExp(` ${escapeRe(normalize(p.provincia))} `)));
     const regDb = dir.localita.find((p) => has(t, new RegExp(` ${escapeRe(normalize(p.regione))} `)));
     const regItalia = Object.values(REGIONI_ITALIA).find(
@@ -20062,7 +20068,8 @@ function interpretaRichiesta(messaggio, dir) {
       ...marche,
       "italia"
     ].map(normalize));
-    const termini = [...original.matchAll(/\s([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)*)/gu)].map((m) => m[1].trim()).filter((term) => term !== term.toUpperCase() && !conosciuti.has(normalize(term)) && !conosciuti.has(normalize(term.split(/\s+/)[0] ?? "")));
+    const paroleNote = new Set([...conosciuti].flatMap((k) => k.split(" ")));
+    const termini = [...original.matchAll(/\s([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)*)/gu)].map((m) => m[1].trim()).filter((term) => term !== term.toUpperCase() && !conosciuti.has(normalize(term)) && !conosciuti.has(normalize(term.split(/\s+/)[0] ?? "")) && !paroleNote.has(normalize(term)));
     const unici = [...new Set(termini)].slice(0, 3);
     if (unici.length) criteri.terminiNonRiconosciuti = unici;
   }

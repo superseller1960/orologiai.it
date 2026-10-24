@@ -138,15 +138,26 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   }
 
   // Località: comune, poi provincia, poi regione (incluse tutte le 20 regioni italiane).
+  // I nomi territoriali composti (province, regioni e alias) vengono oscurati prima del confronto
+  // con i comuni: «in Valle d'Aosta» non deve ridursi al solo capoluogo «Aosta».
+  const nomiComposti = [
+    ...dir.localita.map(p => p.provincia),
+    ...Object.values(REGIONI_ITALIA).flatMap(r => [r.nome, ...r.alias]),
+  ].map(normalize).filter(n => n.includes(' ')).sort((a, b) => b.length - a.length);
+  let perComuni = t;
+  for (const nome of nomiComposti) perComuni = perComuni.replace(new RegExp(` ${escapeRe(nome)} `, 'g'), ' ');
   const comuni = [...dir.localita].sort((a, b) => b.comune.length - a.comune.length);
-  const comune = comuni.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.comune))} `)))
+  const comune = comuni.find(p => has(perComuni, new RegExp(` ${escapeRe(normalize(p.comune))} `)))
     ?? comuni.find(p => {
       const primo = normalize(p.comune).split(' ')[0] ?? '';
-      return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san', 'monte', 'castel'].includes(primo) && has(t, new RegExp(` ${escapeRe(primo)} `));
+      return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san', 'monte', 'castel'].includes(primo) && has(perComuni, new RegExp(` ${escapeRe(primo)} `));
     });
   if (comune) criteri.localita = comune.id;
   else {
-    const cittaEsplicita = /\b(?:a|ad)\s+[\p{L}]/iu.test(original);
+    // «a <nome>» indica una città esplicita, salvo che il nome sia un territorio composto già
+    // censito (es. «a Valle d'Aosta» è una regione, non una località sconosciuta).
+    const cittaEsplicita = /\b(?:a|ad)\s+[\p{L}]/iu.test(original)
+      && !nomiComposti.some(n => has(t, new RegExp(` ${escapeRe(n)} `)));
     const prov = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.provincia))} `)));
     const regDb = dir.localita.find(p => has(t, new RegExp(` ${escapeRe(normalize(p.regione))} `)));
     const regItalia = Object.values(REGIONI_ITALIA).find(r =>
@@ -201,9 +212,12 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
       ...marche,
       'italia',
     ].map(normalize));
+    // Anche le singole parole dei nomi composti sono note: «Valle» in «Valle d'Aosta»
+    // non è un termine sconosciuto.
+    const paroleNote = new Set([...conosciuti].flatMap(k => k.split(' ')));
     const termini = [...original.matchAll(/\s([A-ZÀ-Ö][\p{L}'’-]+(?:\s+[A-ZÀ-Ö][\p{L}'’-]+)*)/gu)]
       .map(m => m[1].trim())
-      .filter(term => term !== term.toUpperCase() && !conosciuti.has(normalize(term)) && !conosciuti.has(normalize(term.split(/\s+/)[0] ?? '')));
+      .filter(term => term !== term.toUpperCase() && !conosciuti.has(normalize(term)) && !conosciuti.has(normalize(term.split(/\s+/)[0] ?? '')) && !paroleNote.has(normalize(term)));
     const unici = [...new Set(termini)].slice(0, 3);
     if (unici.length) criteri.terminiNonRiconosciuti = unici;
   }
