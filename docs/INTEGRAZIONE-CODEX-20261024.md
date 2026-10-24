@@ -200,3 +200,9 @@ sono pagine store-locator di grandi marchi non verificabili in automatico, alcun
 manualmente con user-agent di browser. I 16 servizi storici senza fonte primaria restano attribuiti
 allo specchio «mirror-storico» con stato «da verificare», come da progetto: nessuna pretesa nuova,
 provenienza trasparente.
+
+Il collaudo finale ha inoltre scovato due difetti di ricerca sull’interpretazione dei territori
+composti, corretti con test di regressione: «in Valle d’Aosta» si risolveva al solo capoluogo
+«Aosta» e segnalava «Valle» come termine sconosciuto. Rilascio finale verificato in produzione
+(deployment `2602c569`): query regionali e comunali corrette, redirect 301 dal vecchio URL di
+Courmayeur, sitemap a 159 schede, API 405/200/415/403 invariate.
