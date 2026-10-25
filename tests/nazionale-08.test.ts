@@ -28,8 +28,14 @@ test('ogni nuova scheda ha fonti ufficiali verificate e non inventa coordinate n
     assert.equal(b.attendibilita.stato, 'fonti-verificate');
     assert.equal(b.attendibilita.verificataIl, '2026-10-19');
     assert.equal(b.posizione.coordinate, null);
-    assert.equal(b.marchi.assistenzaUfficiale.length, 0, `${id}: autorizzazioni ufficiali non richieste`);
-    assert.equal(b.marchi.rivenditaUfficiale.length, 0, `${id}: rivendite ufficiali non richieste`);
+    // Le sole autorizzazioni ammesse sono quelle documentate dalle fonti ufficiali dei marchi
+    // (arricchimento del 25/10/2026): nessuna rivendita o assistenza senza fonte del marchio.
+    for (const c of [...b.marchi.assistenzaUfficiale, ...b.marchi.rivenditaUfficiale]) {
+      assert.ok(c.fonti.length > 0, `${id}: autorizzazione di ${c.marca} senza fonte`);
+      for (const f of c.fonti) {
+        assert.equal(data.fonti.find(s => s.id === f)?.tipo, 'marchio-ufficiale', `${id}: ${c.marca} senza fonte ufficiale del marchio`);
+      }
+    }
     const fonti = data.fonti.filter(s => b.attendibilita.fonti.includes(s.id));
     assert.ok(fonti.some(s => s.tipo === 'sito-ufficiale'), `${id}: manca un sito ufficiale fra le fonti`);
     for (const ref of [

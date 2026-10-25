@@ -13,7 +13,11 @@ const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.
 test('L2: 159 attività conservate, posizioni e identità invariate, 37 fonti nuove datate', () => {
   assert.equal(data.attivita.length, 159);
   assert.equal(data.localita.length, prima.localita.length);
-  assert.equal(data.fonti.length, prima.fonti.length + 37);
+  // Il lotto 2 aggiunge 37 fonti; i lotti successivi del 25/10 aggiungono ulteriori fonti datate.
+  const r2 = JSON.parse(readFileSync('data/reports/lotto-02-20261025-applied.json', 'utf8')) as { fontiAggiunte: { id: string }[] };
+  assert.equal(r2.fontiAggiunte.length, 37);
+  for (const f of r2.fontiAggiunte) assert.ok(data.fonti.some(x => x.id === f.id), `fonte del lotto 2 persa: ${f.id}`);
+  assert.ok(data.fonti.length >= prima.fonti.length + 37);
   for (const vecchio of prima.attivita) {
     const attuale = data.attivita.find(b => b.id === vecchio.id)!;
     assert.ok(attuale, `record perso: ${vecchio.id}`);
@@ -65,8 +69,9 @@ test('L2: solo le autorizzazioni ufficiali documentate dai marchi sono state agg
     .filter(c => !prima.attivita.find(x => x.id === b.id)!.marchi.assistenzaUfficiale.some(o => o.marca === c.marca))
     .map(c => `${b.id}:${c.marca}`)).sort();
   // I due centri Hamilton (Law & Watch, D’Ale) risultavano già documentati nel lotto precedente:
-  // il lotto 2 non aggiunge nuove assistenze ufficiali, le sole già presenti restano con fonte del marchio.
-  assert.deepEqual(nuoveAssistenze, []);
+  // il lotto 2 non aggiunge assistenze ufficiali. I claim aggiunti dopo lo snapshot arrivano solo
+  // dall'arricchimento documentale del 25/10 (schede ufficiali Longines e Baume & Mercier): nessun altro.
+  assert.deepEqual(nuoveAssistenze, ['bigalli:Longines', 'deluca-napoli:Baume & Mercier']);
   for (const b of data.attivita) {
     for (const c of [...b.marchi.assistenzaUfficiale, ...b.marchi.rivenditaUfficiale]) {
       assert.ok(c.fonti.some(id => data.fonti.find(f => f.id === id)?.tipo === 'marchio-ufficiale'), `${b.id}: ${c.marca} senza fonte del marchio`);

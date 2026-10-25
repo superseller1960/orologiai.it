@@ -1,0 +1,1085 @@
+{
+  "lotto": "lotto-03-20261025",
+  "data": "2026-10-25",
+  "criterio": "Solo dati documentati da fonti ufficiali o primarie consultate il 25/10/2026; recapiti e orari inseriti solo se assenti.",
+  "attivitaEsaminate": 102,
+  "attivitaModificate": [
+    {
+      "id": "scardi",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "marretti",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "fani-gioielli",
+      "campi": [
+        "contatti",
+        "servizio:revisione"
+      ]
+    },
+    {
+      "id": "bigalli",
+      "campi": [
+        "contatti",
+        "servizio:batterie",
+        "servizio:cinturini",
+        "marchio:assistenzaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "senzatempo-firenze",
+      "campi": [
+        "contatti",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "pisani-scandicci-matteotti",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "pisani-scandicci-maschera",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "maggini-sesto",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "rutili-empoli",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "ficioro-empoli",
+      "campi": [
+        "contatti",
+        "servizio:riparazione",
+        "servizio:revisione",
+        "servizio:batterie"
+      ]
+    },
+    {
+      "id": "agnolucci-signa",
+      "campi": [
+        "contatti",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "agnolucci-poggio",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "ora-di-piazza-bagno",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "follie-oro-calenzano",
+      "campi": [
+        "contatti",
+        "servizio:cinturini"
+      ]
+    },
+    {
+      "id": "renzopreziosi-figline",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "sottili-figline",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gabbani-pontedera",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "cerri-pontedera",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "orogenesi-pontedera",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:cinturini",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "oreoro-poggibonsi",
+      "campi": [
+        "contatti",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "oreoro-colle",
+      "campi": [
+        "contatti",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "lombardi-montevarchi",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "rabiti-firenze",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "zagli-firenze",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:restauro-vintage",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "calistri-firenze",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "ugolini-firenzuola",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "swatch-firenze-calzaiuoli",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "metalli-scandicci",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "lamberti-sesto",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "massari-campi",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "macchina-tempo-firenze",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "horamundi-firenze",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "horae-san-giovanni",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "fontana-bologna",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "orologica-torino",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "casa-cronometro-roma",
+      "campi": [
+        "contatti",
+        "servizio:vendita",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "monetti-napoli-mille",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "monetti-napoli-brigida",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "deluca-napoli",
+      "campi": [
+        "contatti",
+        "orari",
+        "marchio:assistenzaUfficiale:Baume & Mercier"
+      ]
+    },
+    {
+      "id": "mazzone-salerno",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:cinturini",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "carrieri-bari",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione"
+      ]
+    },
+    {
+      "id": "macchina-tempo-bari",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "chlw-bari",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "bruno-emanuele-palermo",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage"
+      ]
+    },
+    {
+      "id": "cagnina-palermo",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:cinturini",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "di-caro-palermo",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "watch-center-palermo",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "astrua-genova",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "astrua-torino",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "lab-alessandria",
+      "campi": [
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "bottega-del-tempo-roma",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "salamena-roma",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "portanova-bologna",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "caldani-roma",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:ricambi",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "gold-time-roma",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "emporio-roma",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "tempoidea-viterbo",
+      "campi": [
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "verardi-viterbo",
+      "campi": [
+        "servizio:revisione",
+        "servizio:restauro-vintage",
+        "servizio:valutazioni",
+        "servizio:pendoleria",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "tardani-viterbo",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "milioni-montefiascone",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "ranieri-laquila",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "pietro-roberto-cosenza",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "paolo-vale-reggio-calabria",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "fotia-reggio-calabria",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "golden-business-potenza",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "rolli-poniz-trieste",
+      "campi": [
+        "contatti",
+        "servizio:vendita",
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "spangaro-udine",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "ronzoni-udine",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:riparazione",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "fronza-trento",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:pendoleria"
+      ]
+    },
+    {
+      "id": "miconi-civitanova",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "biagini-perugia",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione",
+        "servizio:vendita",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "paccara-terni",
+      "campi": [
+        "contatti",
+        "servizio:riparazione",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "mazzucchi-milano",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:batterie",
+        "servizio:cinturini",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "curato-brescia",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "ciesse-padova",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "martini-parma",
+      "campi": [
+        "contatti",
+        "servizio:vendita",
+        "servizio:valutazioni",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "valenti-parma",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "stema-termoli",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:cinturini",
+        "servizio:manutenzione",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "gioielleria-sammartino-campobasso",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione",
+        "servizio:batterie",
+        "servizio:cinturini"
+      ]
+    },
+    {
+      "id": "piazzoli-bagnatica",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gamba-orologi-bergamo",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "robbi-orologiaio-lodi",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:restauro-vintage",
+        "servizio:revisione",
+        "servizio:valutazioni",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "orologerie-palladio-vicenza",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage"
+      ]
+    },
+    {
+      "id": "casadei-rimini",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:valutazioni",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "della-rocca-gioielli-bologna",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:valutazioni",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "abate-1920-sanremo",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "giacomo-bruni-imperia",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:pendoleria",
+        "servizio:ricambi",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "orologiaio-di-liddo-biella",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "pasetto-torino",
+      "campi": [
+        "contatti",
+        "servizio:restauro-vintage",
+        "servizio:cinturini",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "gioielleria-rosas-olbia",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:riparazione",
+        "servizio:revisione",
+        "servizio:ricambi",
+        "servizio:lucidatura"
+      ]
+    },
+    {
+      "id": "gioielleria-liparota-lamezia",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "magie-in-oro-chieti",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "lombardi-ercolino-isernia",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "fenocchi-san-benedetto-del-tronto",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "cerescioli-paolo-ancona",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "satolli-pescara",
+      "campi": [
+        "contatti",
+        "servizio:ricambi"
+      ]
+    },
+    {
+      "id": "wargas-sisti-ancona",
+      "campi": [
+        "contatti",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "f-www-cmcwatches-com-rivenditori",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.cmcwatches.com/rivenditori/"
+    },
+    {
+      "id": "f-www-senzatempofirenze-it-orologeria-e-ricambi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.senzatempofirenze.it/orologeria-e-ricambi/"
+    },
+    {
+      "id": "f-www-ficioro-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ficioro.it/chi-siamo/"
+    },
+    {
+      "id": "f-www-agnoluccigioielleria-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.agnoluccigioielleria.com/contatti/"
+    },
+    {
+      "id": "f-www-agnoluccigioielleria-com-poggio-a-caiano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.agnoluccigioielleria.com/poggio-a-caiano/"
+    },
+    {
+      "id": "f-orologicalamai-com-rivenditori",
+      "tipo": "marchio-ufficiale",
+      "url": "https://orologicalamai.com/rivenditori/"
+    },
+    {
+      "id": "f-www-hamiltonwatch-com-en-sa-store-locator-italie-tuscany-fig",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-sa/store-locator/italie/tuscany/figline-valdarno/sottili-franco"
+    },
+    {
+      "id": "f-www-gioielleriacerrimarco-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacerrimarco.it/contatti/"
+    },
+    {
+      "id": "f-www-gioielleriacerrimarco-it-assistenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacerrimarco.it/assistenza/"
+    },
+    {
+      "id": "f-www-orogenesi85-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orogenesi85.it/contatti/"
+    },
+    {
+      "id": "f-www-oreoro-it-contatti-asp",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreoro.it/contatti.asp"
+    },
+    {
+      "id": "f-www-gioiellerialombardi-com-contact",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialombardi.com/contact/"
+    },
+    {
+      "id": "f-www-gioiellerialombardi-com-la-storia",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialombardi.com/la-storia/"
+    },
+    {
+      "id": "f-www-orologeriaugolini-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaugolini.com/contatti/"
+    },
+    {
+      "id": "f-www-orologeriaugolini-com-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaugolini.com/chi-siamo"
+    },
+    {
+      "id": "f-www-metallipreziosi-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.metallipreziosi.it/"
+    },
+    {
+      "id": "f-massarigioielli-it-gioielleria-assistenza-e-riparazioni",
+      "tipo": "sito-ufficiale",
+      "url": "https://massarigioielli.it/gioielleria/assistenza-e-riparazioni/"
+    },
+    {
+      "id": "f-www-horaeorologeria-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.horaeorologeria.it/chi-siamo/"
+    },
+    {
+      "id": "f-monettiorologi-com-via-dei-mille-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://monettiorologi.com/via-dei-mille-2/"
+    },
+    {
+      "id": "f-monettiorologi-com-via-santa-brigida",
+      "tipo": "sito-ufficiale",
+      "url": "https://monettiorologi.com/via-santa-brigida/"
+    },
+    {
+      "id": "f-www-baume-et-mercier-com-it-it-rivenditores-details-002240-c",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.baume-et-mercier.com/it/it/rivenditores/details.002240.centro-assistenza-orologi-de-luca.html"
+    },
+    {
+      "id": "f-www-chlw-it-pages-q-a",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chlw.it/pages/q-a"
+    },
+    {
+      "id": "f-watch-center-eu-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://watch-center.eu/contatti"
+    },
+    {
+      "id": "f-www-astrua-com-it-assistenza-ufficiale-astrua",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/assistenza-ufficiale-astrua"
+    },
+    {
+      "id": "f-www-labottegadeltempo-it-dove-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labottegadeltempo.it/dove-siamo/"
+    },
+    {
+      "id": "f-www-riparazioniorologiroma-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioniorologiroma.it/contatti/"
+    },
+    {
+      "id": "f-www-riparazioniorologiroma-it-riparazione-orologi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioniorologiroma.it/riparazione-orologi/"
+    },
+    {
+      "id": "f-www-caldaniorologi-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.caldaniorologi.it/"
+    },
+    {
+      "id": "f-www-tempoidea-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoidea.it/"
+    },
+    {
+      "id": "f-www-brusaporci-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.brusaporci.it/"
+    },
+    {
+      "id": "f-www-gioielleriaranieri-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaranieri.com/contatti/"
+    },
+    {
+      "id": "f-www-paolovalegioielleria-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.paolovalegioielleria.it/contatti/"
+    },
+    {
+      "id": "f-www-gioielleriagoldenbusiness-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagoldenbusiness.it/contatti/"
+    },
+    {
+      "id": "f-www-gioielleriagoldenbusiness-it-servizi-e-prestazioni",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagoldenbusiness.it/servizi-e-prestazioni/"
+    },
+    {
+      "id": "f-rolliponiz-it-policies-contact-information",
+      "tipo": "sito-ufficiale",
+      "url": "https://rolliponiz.it/policies/contact-information"
+    },
+    {
+      "id": "f-spangaroandco-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://spangaroandco.com/contatti/"
+    },
+    {
+      "id": "f-italicoronzoni-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://italicoronzoni.it/contatti/"
+    },
+    {
+      "id": "f-italicoronzoni-it-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://italicoronzoni.it/servizi/"
+    },
+    {
+      "id": "f-www-orologeriafronzamarco-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriafronzamarco.it/contatti"
+    },
+    {
+      "id": "f-www-orologeriamiconi-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamiconi.it/contatti/"
+    },
+    {
+      "id": "f-www-biagini1863-it-servizio-clienti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.biagini1863.it/servizio-clienti/"
+    },
+    {
+      "id": "f-martinigiancarlo-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://martinigiancarlo.com/contatti/"
+    },
+    {
+      "id": "f-martinigiancarlo-com-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://martinigiancarlo.com/laboratorio/"
+    },
+    {
+      "id": "f-www-valentiparma-it-punti-vendita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.valentiparma.it/punti-vendita/"
+    },
+    {
+      "id": "f-www-longines-com-it-store-id-valenti-srl-parma-143474",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/valenti-srl-parma-143474"
+    },
+    {
+      "id": "f-www-valentiparma-it-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.valentiparma.it/laboratorio/"
+    },
+    {
+      "id": "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/stema-di-de-sanctis-saverio-e-c-sas-termoli-1643709"
+    },
+    {
+      "id": "f-gioielleriasammartino-com-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriasammartino.com/servizi/"
+    },
+    {
+      "id": "f-www-piazzoli-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.piazzoli.com/contatti"
+    },
+    {
+      "id": "f-gamba-gioielli-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://gamba-gioielli.it/"
+    },
+    {
+      "id": "f-www-robbiorologiaio-com-chi-sono",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.robbiorologiaio.com/chi-sono/"
+    },
+    {
+      "id": "f-www-orologeriacasadei-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacasadei.it/"
+    },
+    {
+      "id": "f-www-dellaroccagioielli-it-contatti-php",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.dellaroccagioielli.it/contatti.php"
+    },
+    {
+      "id": "f-www-dellaroccagioielli-it-esperto-orologi-php",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.dellaroccagioielli.it/esperto-orologi.php"
+    },
+    {
+      "id": "f-www-lorologiaiobiella-it-laboratorio-orologeria",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologiaiobiella.it/laboratorio-orologeria"
+    },
+    {
+      "id": "f-mauropasetto-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://mauropasetto.it/"
+    },
+    {
+      "id": "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita",
+      "tipo": "sito-ufficiale",
+      "url": "https://rosasgioiellerie.com/it/servizi/assistenza-post-vendita"
+    },
+    {
+      "id": "f-www-buccellati-com-it-it-storelocator",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.buccellati.com/it_it/storelocator"
+    },
+    {
+      "id": "f-wargasisti-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://wargasisti.com/contatti/"
+    },
+    {
+      "id": "f-www-longines-com-en-us-store-id-wargas-sisti-dei-flli-melani",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217"
+    }
+  ],
+  "anomalie": [
+    "scardi: email pubblicata in forma dubbia («acuistiscardi@ex.comgmail.com»): non inserita.",
+    "fani-gioielli: orari già presenti, non sovrascritti.",
+    "bigalli: orari già presenti, non sovrascritti.",
+    "bigalli: la qualifica «centro assistenza Longines» deriva dalla scheda ufficiale Longines.",
+    "senzatempo-firenze: pagina con due recapiti (335.447.429 e 055.238.226): inserito il numero fisso.",
+    "sangalli: recapiti e orari disponibili solo come estratti indicizzati, non letti dalla pagina: non inseriti.",
+    "rutili-empoli: pagine ufficiali con errori di accesso durante la consultazione: servizi non inseriti.",
+    "ficioro-empoli: orari pubblicati senza giorni di riferimento: non inseriti.",
+    "agnolucci (Signa e Poggio a Caiano): orari stagionali (invernale/estivo) non rappresentabili: non inseriti.",
+    "follie-oro-calenzano: valutazioni dichiarate su oro usato e lucidatura su gioielli: non inserite fra i servizi di orologeria.",
+    "gabbani-pontedera: presente un numero cellulare (3472978126): inserito il numero fisso.",
+    "orogenesi-pontedera: presente un numero cellulare (3286996492): inserito il numero fisso.",
+    "rabiti-firenze: orari già presenti, non sovrascritti.",
+    "rabiti-firenze: presente un numero cellulare (3392260342): inserito il numero fisso.",
+    "ugolini-firenzuola: presente un numero cellulare (+39 3394744119): inserito il numero fisso.",
+    "swatch-firenze-calzaiuoli: orari già presenti, non sovrascritti.",
+    "metalli-scandicci: presente un numero cellulare (331 8657452): inserito il numero fisso.",
+    "massari-campi: la riparazione dichiarata riguarda oggetti in metallo prezioso: non aggiunta come servizio di orologeria.",
+    "macchina-tempo-firenze: presente un numero cellulare (+39 339 619 5202): inserito il numero fisso.",
+    "fontana-bologna: presente un numero cellulare (335 5455329): inserito il numero fisso.",
+    "orologica-torino: presente un numero cellulare (+39 348.72.11.955): inserito il numero fisso.",
+    "deluca-napoli: la qualifica «centro assistenza» deriva dalla scheda ufficiale Baume & Mercier.",
+    "carrieri-bari: orario del sabato pubblicato incompleto: non inserito.",
+    "macchina-tempo-bari: email pubblicata incompleta nella fonte: non inserita.",
+    "cagnina-palermo: presente un numero cellulare (+39 3277726665): inserito il numero fisso.",
+    "bottega-del-tempo-roma: presente un numero cellulare (380/7659092): inserito il numero fisso.",
+    "salamena-roma: chiusura del sabato per il mese di luglio e numero cellulare (331 7575305) non inseriti.",
+    "tardani-viterbo: presente un numero cellulare (3292419286): inserito il numero fisso.",
+    "pietro-roberto-cosenza: presente un numero cellulare (+39 339/2163392): inserito il numero fisso.",
+    "paolo-vale-reggio-calabria: orari stagionali (invernale/estivo) non rappresentabili: non inseriti.",
+    "fotia-reggio-calabria: presente un numero cellulare (338.7746317): inserito il numero fisso.",
+    "golden-business-potenza: orari pubblicati senza giorni di riferimento: non inseriti.",
+    "spangaro-udine: presente un numero cellulare (+39 371 327 0300): inserito il numero fisso.",
+    "ronzoni-udine: seconda sede in Via Cavour con recapito proprio (0432 507746): non rappresentabile nello schema.",
+    "mazzucchi-milano: presenza in un elenco Omega non interpretata come autorizzazione: nessun claim di marchio inserito.",
+    "ciesse-padova: presente un numero cellulare (3669715002): inserito il numero fisso.",
+    "sammartino-campobasso: orari discordanti fra pagina contatti e pagina servizi: usata la pagina contatti.",
+    "casadei-rimini: presente un numero cellulare (320 630 8462): inserito il numero fisso.",
+    "della-rocca-gioielli-bologna: presente un numero cellulare (+39 051 50 65 512): inserito il numero fisso.",
+    "fenocchi-san-benedetto-del-tronto: orari pubblicati senza giorni e pagine ufficiali non accessibili: nessun orario inserito.",
+    "cerescioli-paolo-ancona: secondo numero fisso (071 7930816) non inserito: il campo pubblica un recapito principale.",
+    "gibi-shop-ancona: sito ufficiale non accessibile durante la consultazione: nessun dato aggiuntivo."
+  ]
+}
