@@ -203,8 +203,8 @@ async function faseLive() {
         url], { timeout: 20000 });
       http = Number(out.trim()) || null;
       stato = http && http < 400 ? 'ok'
-        : [401, 403, 429, 503].includes(http) ? 'protetto'
-        : [404, 410].includes(http) ? 'morto' : 'irraggiungibile';
+        : http !== null && [401, 403, 429, 503].includes(http) ? 'protetto'
+        : http !== null && [404, 410].includes(http) ? 'morto' : 'irraggiungibile';
     } catch { /* rete/timeout: irraggiungibile */ }
     const voce: EsitoUrl = { stato, http, riferimenti };
     if (stato === 'morto' || stato === 'irraggiungibile') {
