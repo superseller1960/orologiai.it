@@ -148,11 +148,12 @@ test('07A: provider non disponibile conserva i criteri dei turni precedenti', as
 });
 
 test('07A: servizio assente non produce risultati con servizi diversi', () => {
-  // Nessun rivenditore ufficiale Hamilton documenta la sostituzione batterie (Orsi ha aggiunto
-  // pendoleria nel lotto 1 del 25/10/2026, quindi il servizio di fixture cambia).
-  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale', servizio: 'batterie' });
+  // Nessun rivenditore ufficiale Hamilton documenta le valutazioni (i lotti di arricchimento
+  // 1 e 2 del 25/10/2026 hanno aggiunto pendoleria e batterie a rivenditori Hamilton: la
+  // fixture usa un servizio che resta realmente non documentato per quel ruolo).
+  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale', servizio: 'valutazioni' });
   assert.equal(r.totale, 0);
-  assert.ok(r.alternative.every(x => dir.attivita.find(b => b.id === x.id)!.servizi.some(s => s.id === 'batterie')));
+  assert.ok(r.alternative.every(x => dir.attivita.find(b => b.id === x.id)!.servizi.some(s => s.id === 'valutazioni')));
 });
 
 test('07A: coordinate non verificate non entrano nel calcolo delle distanze', () => {

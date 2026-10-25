@@ -1,0 +1,472 @@
+{
+  "lotto": "lotto-02-20261025",
+  "data": "2026-10-25",
+  "criterio": "Solo dati documentati da fonti ufficiali o primarie consultate il 25/10/2026.",
+  "attivitaEsaminate": 37,
+  "attivitaModificate": [
+    {
+      "id": "gioielleria-giorgi-mario-ancona",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioielleria-fraschetti-rieti",
+      "campi": [
+        "contatti",
+        "marchio:rivenditaUfficiale:Breil"
+      ]
+    },
+    {
+      "id": "gioielleria-iannicelli-caserta",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione"
+      ]
+    },
+    {
+      "id": "de-marchi-gianotti-aosta",
+      "campi": [
+        "contatti",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "gioielleria-benetti-verona",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "oreficeria-de-rui-treviso",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:manutenzione",
+        "servizio:cinturini",
+        "marchio:rivenditaUfficiale:Longines",
+        "marchio:rivenditaUfficiale:Tissot"
+      ]
+    },
+    {
+      "id": "eyes-on-time-venezia",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioielleria-tebaldi-ferrara",
+      "campi": [
+        "contatti",
+        "servizio:riparazione",
+        "servizio:batterie",
+        "servizio:manutenzione"
+      ]
+    },
+    {
+      "id": "gioielleria-f-lli-cimatti-ravenna",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita-usati",
+        "storia"
+      ]
+    },
+    {
+      "id": "gioielleria-ricci-forli",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "zaccarelli-orologeria-modena",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:manutenzione",
+        "servizio:cinturini",
+        "marchio:rivenditaUfficiale:Longines",
+        "storia"
+      ]
+    },
+    {
+      "id": "gioielleria-boni-belluno",
+      "campi": [
+        "contatti",
+        "servizio:riparazione"
+      ]
+    },
+    {
+      "id": "b-b-gioielli-rovigo",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioielleria-pedonesi-lucca",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:gioielleria"
+      ]
+    },
+    {
+      "id": "casa-avelardi-livorno",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "fabiani-gioiellerie-pistoia",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:cinturini",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "law-watch-di-paolo-simi-lucca",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "orologeria-mancuso-como",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "orologeria-cotifava-dal-1946-mantova",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "vergari-gioielli-botrugno",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "benenati-msd-catania",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:batterie"
+      ]
+    },
+    {
+      "id": "clock-service-catania",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:batterie",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "centrorologi-gravina-di-catania",
+      "campi": [
+        "contatti",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "la-motta-gioielli-messina",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "laboratorio-orologi-di-andrea-d-ale-trapani",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioielleria-di-marco-nicosia",
+      "campi": [
+        "contatti",
+        "servizio:gioielleria"
+      ]
+    },
+    {
+      "id": "gioielleria-de-nurra-sassari",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "gioielleria-chiocchetti-lucca",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:lucidatura",
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "de-marco-belluno",
+      "campi": [
+        "contatti",
+        "servizio:revisione",
+        "servizio:restauro-vintage",
+        "servizio:batterie",
+        "servizio:cinturini",
+        "servizio:vendita",
+        "servizio:manutenzione"
+      ]
+    },
+    {
+      "id": "gioielleria-grande-frosinone",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:lucidatura",
+        "servizio:valutazioni",
+        "servizio:vendita-usati"
+      ]
+    },
+    {
+      "id": "bottega-watches-pistoia",
+      "campi": [
+        "contatti",
+        "servizio:vendita",
+        "servizio:acquisto-permuta",
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "martines-gioielleria-canicatti-canicatti",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "mirolli-grosseto",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "giorgi-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagiorgi.com/"
+    },
+    {
+      "id": "giorgi-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-sa/store-locator/italie/marche/ancona/gioielleria-giorgi-mario"
+    },
+    {
+      "id": "fraschetti-breil-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/rivenditori-manta/gioielleria-fraschetti/"
+    },
+    {
+      "id": "iannicelli-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://iannicelli.com/"
+    },
+    {
+      "id": "iannicelli-rolex-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://rolex.iannicelli.com/contatti/"
+    },
+    {
+      "id": "demarchi-leshalles-20261025",
+      "tipo": "directory",
+      "url": "https://www.leshallesdaoste.com/index.php?option=com_content&view=article&id=145&catid=16&Itemid=148"
+    },
+    {
+      "id": "benetti-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://benetti.store/gioielleria-e-ottica-benetti"
+    },
+    {
+      "id": "derui-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/oreficeria-de-rui-srl-treviso-27265"
+    },
+    {
+      "id": "derui-tissot-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/oreficeria-de-rui-srl/a1vNN0000020RvDYAU"
+    },
+    {
+      "id": "eyeson-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/veneto/venezia/eyes-on-time"
+    },
+    {
+      "id": "tebaldi-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriatebaldi.it/pages/services"
+    },
+    {
+      "id": "cimatti-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://cimattigioie.com/cimatti-gioielli/"
+    },
+    {
+      "id": "cimatti-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/emilia-romagna/ravenna/gioielleria-f-lli-cimatti"
+    },
+    {
+      "id": "ricci-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riccicamillo.com/contatti/"
+    },
+    {
+      "id": "zaccarelli-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/zaccarelli-enzo-c-sas-modena-143463"
+    },
+    {
+      "id": "zaccarelli-comune-20261025",
+      "tipo": "directory",
+      "url": "https://www.comune.modena.it/argomenti/commercio-al-minuto/albo-comunale-delle-botteghe-e-dei-mercati-storici/elenco-delle-botteghe-e-dei-mercati-storici/orologiaio-zaccarelli-enzo"
+    },
+    {
+      "id": "boni-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaboni.it/riparazione-orologi"
+    },
+    {
+      "id": "pedonesi-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriapedonesi.it/pages/i-nostri-negozi"
+    },
+    {
+      "id": "fabiani-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fabianigioiellerie.com/pages/boutique-fabiani-toscana"
+    },
+    {
+      "id": "fabiani-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/fabiani-gioiellerie-pistoia-1686762"
+    },
+    {
+      "id": "mancuso-contatti-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamancuso.com/contatti"
+    },
+    {
+      "id": "mancuso-laboratorio-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamancuso.com/laboratorio"
+    },
+    {
+      "id": "mancuso-permuta-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamancuso.com/secondo-polso/vendi-o-permuta"
+    },
+    {
+      "id": "cotifava-orari-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacotifava.com/orarieinfo.html"
+    },
+    {
+      "id": "cotifava-riparazioni-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacotifava.com/haiunorologiodariparare.html"
+    },
+    {
+      "id": "cotifava-team-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacotifava.com/ilnostroteam.html"
+    },
+    {
+      "id": "benenati-contatti-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://benenati-msd4.webnode.it/contatti/"
+    },
+    {
+      "id": "lamotta-contatti-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamottagioielli.it/contact-us/"
+    },
+    {
+      "id": "dale-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/sicilia/trapani/laboratorio-orologi-di-andrea-d-ale"
+    },
+    {
+      "id": "demarco-riparazioni-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.demarco-belluno.it/riparazioni-orologi-a-belluno/"
+    },
+    {
+      "id": "grande-contatti-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagrande.it/contatti/"
+    },
+    {
+      "id": "grande-rolex-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagrande.it/rolex/contatti/frosinone/"
+    },
+    {
+      "id": "bottega-spedizioni-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://bottegawatches.com/norme-di-spedizione"
+    },
+    {
+      "id": "martines-contatti-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamartines.it/contatti-gioielleria-martines.html"
+    },
+    {
+      "id": "mirolli-gioielleria-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://mirolli.it/gioielleria-grosseto-mirolli/"
+    },
+    {
+      "id": "bb-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/veneto/rovigo/b-b-gioielli"
+    },
+    {
+      "id": "avelardi-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-hk/store-locator/italia/toscana/livorno/casa-avelardi"
+    }
+  ],
+  "anomalie": [
+    "de-marchi-gianotti-aosta: la fonte ufficiale (Les Halles d’Aoste) colloca il negozio a Pollein; il record resta alla località Aosta (nessuna modifica territoriale senza conferma).",
+    "gioielleria-giorgi-mario-ancona: CAP discordante fra fonti (60121 vs 60122): non modificato.",
+    "gioielleria-benetti-verona: due punti vendita con recapiti diversi; scelto quello coerente con l’indirizzo del record.",
+    "eyes-on-time-venezia: telefono discordante fra fonti (Hamilton +39 041 2603804; Aeroporto +39 041 2603874): inserito quello della scheda Hamilton, il conflitto resta aperto.",
+    "gioielleria-iannicelli-caserta: la fonte riporta due righe diverse per il venerdì; usata la riga coerente con il resto della settimana.",
+    "orologeria-mancuso-como: orario 9:30-17:00 (corpo pagina) vs 9:30-18:00 (descrizione): usato il corpo pagina.",
+    "gioielleria-pedonesi-lucca: recapiti discordanti fra sito attività (Via Fillungo 187/185, 0583492068) e scheda Hamilton: usato il sito dell’attività.",
+    "fabiani-gioiellerie-pistoia: indirizzo discordante (2/D sito+Longines vs 13 scheda Hamilton): non modificato.",
+    "gioielleria-grande-frosinone: seconda sede in Via Aldo Moro 153 documentata, non rappresentabile nello schema (nessun campo sedi multiple).",
+    "de-marco-belluno: orari stagionali (invernale/estivo) non rappresentabili nello schema: nessun orario inserito.",
+    "gioielleria-tebaldi-ferrara: il sito dichiara di escludere gli orologi a pendolo dai servizi di riparazione.",
+    "amighini-verona, luccini-ivano-aulla, gioielleria-orafi-italiani-rovigo, birbio-gioielli-siracusa: pagine ufficiali non leggibili (403 o vuote): nessun dato inserito.",
+    "ricci-forli: presente anche un numero cellulare (335 6562338): inserito il numero fisso, il cellulare resta da valutare."
+  ],
+  "dichiarazioniNonPromosse": [
+    "La Motta (Messina), Chiocchetti (Lucca), Martines (Canicattì), Mirolli (Grosseto) dichiarano qualità Rolex/Tudor sui propri siti: non promosse ad autorizzazioni ufficiali (mancano fonti dei marchi)."
+  ],
+  "autorizzazioniUfficialiAggiunte": [],
+  "notaAutorizzazioni": "I centri assistenza ufficiale Hamilton di Law & Watch (Lucca) e Laboratorio D’Ale (Trapani) erano già documentati: il lotto 2 li ha riconfermati dalle schede ufficiali Hamilton senza aggiungerne di nuovi."
+}

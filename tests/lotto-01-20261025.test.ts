@@ -8,7 +8,9 @@ import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 // documentati da fonti ufficiali. Il confronto con lo snapshot pre-lotto (commit 56ded1c)
 // garantisce che ogni arricchimento sia additivo: nessun dato storico sovrascritto o perso.
 const prima = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '56ded1c:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
-const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8'))) as Directory;
+// Stato del lotto 1 (commit adfbdb0): i lotti successivi aggiungono dati ad altre schede e
+// questa verifica resta valida sul proprio snapshot, come per tutti gli altri lotti.
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'adfbdb0:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
 const MODIFICATI = ['renai-pontassieve', 'spaziotempo-sanminiato', 'ronchi-gioielli', 'murgia-cagliari', 'l-angolo-delle-ore-novara', 'gioielleria-gaddi-zucchi-novara', 'gioielleria-simonini-vercelli', 'orsi-gioielleria-verbania', 'gioielleria-bisio-asti', 'gioielleria-fontana-varese', 'fasola-gioielleria-como', 'de-pascalis-spa-lecco', 'florio-folini-srl-sondrio', 'gioielleria-la-marca-vittorio-pavia', 'gioiellerie-torelli-cremona', 'gioielleria-angelini-srl-monza'];
 
 test('L1: 159 attività conservate, ID/slug/località/posizioni invariati, 30 fonti nuove datate', () => {
