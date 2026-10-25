@@ -22980,6 +22980,879 @@ var directory_default = {
       consultataIl: "2026-10-25",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "giorgi-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagiorgi.com/",
+      titolo: "Gioielleria Giorgi \u2014 sito ufficiale",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "giorgi-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-sa/store-locator/italie/marche/ancona/gioielleria-giorgi-mario",
+      titolo: "Hamilton \u2014 scheda rivenditore Giorgi, Ancona",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fraschetti-breil-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.breil.com/store/rivenditori-manta/gioielleria-fraschetti/",
+      titolo: "Breil \u2014 scheda rivenditore Fraschetti, Rieti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "iannicelli-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://iannicelli.com/",
+      titolo: "Gioielleria Iannicelli \u2014 sito ufficiale",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "iannicelli-rolex-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://rolex.iannicelli.com/contatti/",
+      titolo: "Gioielleria Iannicelli \u2014 contatti e revisioni (sito dell\u2019attivit\xE0)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "demarchi-leshalles-20261025",
+      tipo: "directory",
+      url: "https://www.leshallesdaoste.com/index.php?option=com_content&view=article&id=145&catid=16&Itemid=148",
+      titolo: "Les Halles d\u2019Aoste \u2014 scheda Gioielleria De Marchi Gianotti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "benetti-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://benetti.store/gioielleria-e-ottica-benetti",
+      titolo: "Gioielleria e Ottica Benetti \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "derui-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/oreficeria-de-rui-srl-treviso-27265",
+      titolo: "Longines \u2014 scheda rivenditore De Rui, Treviso",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "derui-tissot-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.tissotwatches.com/it-it/store/oreficeria-de-rui-srl/a1vNN0000020RvDYAU",
+      titolo: "Tissot \u2014 scheda rivenditore De Rui, Treviso",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "eyeson-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/veneto/venezia/eyes-on-time",
+      titolo: "Hamilton \u2014 scheda rivenditore Eyes On Time, Venezia",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "tebaldi-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriatebaldi.it/pages/services",
+      titolo: "Gioielleria Tebaldi \u2014 servizi dichiarati (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "cimatti-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://cimattigioie.com/cimatti-gioielli/",
+      titolo: "F.lli Cimatti \u2014 storia e attivit\xE0 (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "cimatti-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/emilia-romagna/ravenna/gioielleria-f-lli-cimatti",
+      titolo: "Hamilton \u2014 scheda rivenditore F.lli Cimatti, Ravenna",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "ricci-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.riccicamillo.com/contatti/",
+      titolo: "Gioielleria Ricci Camillo \u2014 contatti (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "zaccarelli-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/zaccarelli-enzo-c-sas-modena-143463",
+      titolo: "Longines \u2014 scheda rivenditore Zaccarelli, Modena",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "zaccarelli-comune-20261025",
+      tipo: "directory",
+      url: "https://www.comune.modena.it/argomenti/commercio-al-minuto/albo-comunale-delle-botteghe-e-dei-mercati-storici/elenco-delle-botteghe-e-dei-mercati-storici/orologiaio-zaccarelli-enzo",
+      titolo: "Comune di Modena \u2014 albo botteghe e mercati storici",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "boni-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriaboni.it/riparazione-orologi",
+      titolo: "Gioielleria Boni \u2014 riparazione orologi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "pedonesi-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriapedonesi.it/pages/i-nostri-negozi",
+      titolo: "Gioielleria Pedonesi \u2014 negozi, contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fabiani-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.fabianigioiellerie.com/pages/boutique-fabiani-toscana",
+      titolo: "Fabiani Gioiellerie \u2014 boutique (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fabiani-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/fabiani-gioiellerie-pistoia-1686762",
+      titolo: "Longines \u2014 scheda rivenditore Fabiani, Pistoia",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "mancuso-contatti-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriamancuso.com/contatti",
+      titolo: "Orologeria Mancuso \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "mancuso-laboratorio-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriamancuso.com/laboratorio",
+      titolo: "Orologeria Mancuso \u2014 laboratorio e servizi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "mancuso-permuta-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriamancuso.com/secondo-polso/vendi-o-permuta",
+      titolo: "Orologeria Mancuso \u2014 vendita, permuta e valutazioni (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "cotifava-orari-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriacotifava.com/orarieinfo.html",
+      titolo: "Orologeria Cotifava \u2014 orari e contatti (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "cotifava-riparazioni-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriacotifava.com/haiunorologiodariparare.html",
+      titolo: "Orologeria Cotifava \u2014 riparazioni (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "cotifava-team-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriacotifava.com/ilnostroteam.html",
+      titolo: "Orologeria Cotifava \u2014 team e servizi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "benenati-contatti-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://benenati-msd4.webnode.it/contatti/",
+      titolo: "Benenati MSD \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "lamotta-contatti-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.lamottagioielli.it/contact-us/",
+      titolo: "La Motta Gioielli \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "dale-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/sicilia/trapani/laboratorio-orologi-di-andrea-d-ale",
+      titolo: "Hamilton \u2014 centro assistenza ufficiale Laboratorio D\u2019Ale, Trapani",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "demarco-riparazioni-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.demarco-belluno.it/riparazioni-orologi-a-belluno/",
+      titolo: "De Marco \u2014 riparazioni orologi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "grande-contatti-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagrande.it/contatti/",
+      titolo: "Gioielleria Grande \u2014 contatti e sedi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "grande-rolex-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagrande.it/rolex/contatti/frosinone/",
+      titolo: "Gioielleria Grande \u2014 sezione Rolex della sede (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "bottega-spedizioni-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://bottegawatches.com/norme-di-spedizione",
+      titolo: "Bottega Watches \u2014 sede e contatti (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "martines-contatti-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriamartines.it/contatti-gioielleria-martines.html",
+      titolo: "Martines Gioielleria \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "mirolli-gioielleria-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://mirolli.it/gioielleria-grosseto-mirolli/",
+      titolo: "Mirolli \u2014 gioielleria e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "bb-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/veneto/rovigo/b-b-gioielli",
+      titolo: "Hamilton \u2014 scheda rivenditore B&B Gioielli, Rovigo",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "avelardi-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-hk/store-locator/italia/toscana/livorno/casa-avelardi",
+      titolo: "Hamilton \u2014 scheda rivenditore Casa Avelardi, Livorno",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-cmcwatches-com-rivenditori",
+      tipo: "marchio-ufficiale",
+      url: "https://www.cmcwatches.com/rivenditori/",
+      titolo: "Fonte www.cmcwatches.com \u2014 rivenditori",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-senzatempofirenze-it-orologeria-e-ricambi",
+      tipo: "sito-ufficiale",
+      url: "https://www.senzatempofirenze.it/orologeria-e-ricambi/",
+      titolo: "Fonte www.senzatempofirenze.it \u2014 orologeria-e-ricambi",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-ficioro-it-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.ficioro.it/chi-siamo/",
+      titolo: "Fonte www.ficioro.it \u2014 chi-siamo",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-agnoluccigioielleria-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.agnoluccigioielleria.com/contatti/",
+      titolo: "Fonte www.agnoluccigioielleria.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-agnoluccigioielleria-com-poggio-a-caiano",
+      tipo: "sito-ufficiale",
+      url: "https://www.agnoluccigioielleria.com/poggio-a-caiano/",
+      titolo: "Fonte www.agnoluccigioielleria.com \u2014 poggio-a-caiano",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-orologicalamai-com-rivenditori",
+      tipo: "marchio-ufficiale",
+      url: "https://orologicalamai.com/rivenditori/",
+      titolo: "Fonte orologicalamai.com \u2014 rivenditori",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-hamiltonwatch-com-en-sa-store-locator-italie-tuscany-fig",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-sa/store-locator/italie/tuscany/figline-valdarno/sottili-franco",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 en-sa/store-locator/italie/tuscany/figline-valdarno/sottili-franco",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioielleriacerrimarco-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriacerrimarco.it/contatti/",
+      titolo: "Fonte www.gioielleriacerrimarco.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioielleriacerrimarco-it-assistenza",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriacerrimarco.it/assistenza/",
+      titolo: "Fonte www.gioielleriacerrimarco.it \u2014 assistenza",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orogenesi85-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.orogenesi85.it/contatti/",
+      titolo: "Fonte www.orogenesi85.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-oreoro-it-contatti-asp",
+      tipo: "sito-ufficiale",
+      url: "https://www.oreoro.it/contatti.asp",
+      titolo: "Fonte www.oreoro.it \u2014 contatti.asp",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioiellerialombardi-com-contact",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioiellerialombardi.com/contact/",
+      titolo: "Fonte www.gioiellerialombardi.com \u2014 contact",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioiellerialombardi-com-la-storia",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioiellerialombardi.com/la-storia/",
+      titolo: "Fonte www.gioiellerialombardi.com \u2014 la-storia",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orologeriaugolini-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriaugolini.com/contatti/",
+      titolo: "Fonte www.orologeriaugolini.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orologeriaugolini-com-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriaugolini.com/chi-siamo",
+      titolo: "Fonte www.orologeriaugolini.com \u2014 chi-siamo",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-metallipreziosi-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.metallipreziosi.it/",
+      titolo: "Fonte www.metallipreziosi.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-massarigioielli-it-gioielleria-assistenza-e-riparazioni",
+      tipo: "sito-ufficiale",
+      url: "https://massarigioielli.it/gioielleria/assistenza-e-riparazioni/",
+      titolo: "Fonte massarigioielli.it \u2014 gioielleria/assistenza-e-riparazioni",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-horaeorologeria-it-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.horaeorologeria.it/chi-siamo/",
+      titolo: "Fonte www.horaeorologeria.it \u2014 chi-siamo",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-monettiorologi-com-via-dei-mille-2",
+      tipo: "sito-ufficiale",
+      url: "https://monettiorologi.com/via-dei-mille-2/",
+      titolo: "Fonte monettiorologi.com \u2014 via-dei-mille-2",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-monettiorologi-com-via-santa-brigida",
+      tipo: "sito-ufficiale",
+      url: "https://monettiorologi.com/via-santa-brigida/",
+      titolo: "Fonte monettiorologi.com \u2014 via-santa-brigida",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-baume-et-mercier-com-it-it-rivenditores-details-002240-c",
+      tipo: "marchio-ufficiale",
+      url: "https://www.baume-et-mercier.com/it/it/rivenditores/details.002240.centro-assistenza-orologi-de-luca.html",
+      titolo: "Fonte www.baume-et-mercier.com \u2014 it/it/rivenditores/details.002240.centro-assistenza-orologi-de-luca.html",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-chlw-it-pages-q-a",
+      tipo: "sito-ufficiale",
+      url: "https://www.chlw.it/pages/q-a",
+      titolo: "Fonte www.chlw.it \u2014 pages/q-a",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-watch-center-eu-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://watch-center.eu/contatti",
+      titolo: "Fonte watch-center.eu \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-astrua-com-it-assistenza-ufficiale-astrua",
+      tipo: "sito-ufficiale",
+      url: "https://www.astrua.com/it/assistenza-ufficiale-astrua",
+      titolo: "Fonte www.astrua.com \u2014 it/assistenza-ufficiale-astrua",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-labottegadeltempo-it-dove-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.labottegadeltempo.it/dove-siamo/",
+      titolo: "Fonte www.labottegadeltempo.it \u2014 dove-siamo",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-riparazioniorologiroma-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.riparazioniorologiroma.it/contatti/",
+      titolo: "Fonte www.riparazioniorologiroma.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-riparazioniorologiroma-it-riparazione-orologi",
+      tipo: "sito-ufficiale",
+      url: "https://www.riparazioniorologiroma.it/riparazione-orologi/",
+      titolo: "Fonte www.riparazioniorologiroma.it \u2014 riparazione-orologi",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-caldaniorologi-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.caldaniorologi.it/",
+      titolo: "Fonte www.caldaniorologi.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-tempoidea-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.tempoidea.it/",
+      titolo: "Fonte www.tempoidea.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-brusaporci-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.brusaporci.it/",
+      titolo: "Fonte www.brusaporci.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioielleriaranieri-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriaranieri.com/contatti/",
+      titolo: "Fonte www.gioielleriaranieri.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-paolovalegioielleria-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.paolovalegioielleria.it/contatti/",
+      titolo: "Fonte www.paolovalegioielleria.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioielleriagoldenbusiness-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagoldenbusiness.it/contatti/",
+      titolo: "Fonte www.gioielleriagoldenbusiness.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-gioielleriagoldenbusiness-it-servizi-e-prestazioni",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagoldenbusiness.it/servizi-e-prestazioni/",
+      titolo: "Fonte www.gioielleriagoldenbusiness.it \u2014 servizi-e-prestazioni",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-rolliponiz-it-policies-contact-information",
+      tipo: "sito-ufficiale",
+      url: "https://rolliponiz.it/policies/contact-information",
+      titolo: "Fonte rolliponiz.it \u2014 policies/contact-information",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-spangaroandco-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://spangaroandco.com/contatti/",
+      titolo: "Fonte spangaroandco.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-italicoronzoni-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://italicoronzoni.it/contatti/",
+      titolo: "Fonte italicoronzoni.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-italicoronzoni-it-servizi",
+      tipo: "sito-ufficiale",
+      url: "https://italicoronzoni.it/servizi/",
+      titolo: "Fonte italicoronzoni.it \u2014 servizi",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orologeriafronzamarco-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriafronzamarco.it/contatti",
+      titolo: "Fonte www.orologeriafronzamarco.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orologeriamiconi-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriamiconi.it/contatti/",
+      titolo: "Fonte www.orologeriamiconi.it \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-biagini1863-it-servizio-clienti",
+      tipo: "sito-ufficiale",
+      url: "https://www.biagini1863.it/servizio-clienti/",
+      titolo: "Fonte www.biagini1863.it \u2014 servizio-clienti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-martinigiancarlo-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://martinigiancarlo.com/contatti/",
+      titolo: "Fonte martinigiancarlo.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-martinigiancarlo-com-laboratorio",
+      tipo: "sito-ufficiale",
+      url: "https://martinigiancarlo.com/laboratorio/",
+      titolo: "Fonte martinigiancarlo.com \u2014 laboratorio",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-valentiparma-it-punti-vendita",
+      tipo: "sito-ufficiale",
+      url: "https://www.valentiparma.it/punti-vendita/",
+      titolo: "Fonte www.valentiparma.it \u2014 punti-vendita",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-longines-com-it-store-id-valenti-srl-parma-143474",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/valenti-srl-parma-143474",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/valenti-srl-parma-143474",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-valentiparma-it-laboratorio",
+      tipo: "sito-ufficiale",
+      url: "https://www.valentiparma.it/laboratorio/",
+      titolo: "Fonte www.valentiparma.it \u2014 laboratorio",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/stema-di-de-sanctis-saverio-e-c-sas-termoli-1643709",
+      titolo: "Fonte www.longines.com \u2014 en-us/store/id/stema-di-de-sanctis-saverio-e-c-sas-termoli-1643709",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-gioielleriasammartino-com-servizi",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriasammartino.com/servizi/",
+      titolo: "Fonte gioielleriasammartino.com \u2014 servizi",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-piazzoli-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.piazzoli.com/contatti",
+      titolo: "Fonte www.piazzoli.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-gamba-gioielli-it",
+      tipo: "sito-ufficiale",
+      url: "https://gamba-gioielli.it/",
+      titolo: "Fonte gamba-gioielli.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-robbiorologiaio-com-chi-sono",
+      tipo: "sito-ufficiale",
+      url: "https://www.robbiorologiaio.com/chi-sono/",
+      titolo: "Fonte www.robbiorologiaio.com \u2014 chi-sono",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-orologeriacasadei-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologeriacasadei.it/",
+      titolo: "Fonte www.orologeriacasadei.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-dellaroccagioielli-it-contatti-php",
+      tipo: "sito-ufficiale",
+      url: "https://www.dellaroccagioielli.it/contatti.php",
+      titolo: "Fonte www.dellaroccagioielli.it \u2014 contatti.php",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-dellaroccagioielli-it-esperto-orologi-php",
+      tipo: "sito-ufficiale",
+      url: "https://www.dellaroccagioielli.it/esperto-orologi.php",
+      titolo: "Fonte www.dellaroccagioielli.it \u2014 esperto-orologi.php",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-lorologiaiobiella-it-laboratorio-orologeria",
+      tipo: "sito-ufficiale",
+      url: "https://www.lorologiaiobiella.it/laboratorio-orologeria",
+      titolo: "Fonte www.lorologiaiobiella.it \u2014 laboratorio-orologeria",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-mauropasetto-it",
+      tipo: "sito-ufficiale",
+      url: "https://mauropasetto.it/",
+      titolo: "Fonte mauropasetto.it",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita",
+      tipo: "sito-ufficiale",
+      url: "https://rosasgioiellerie.com/it/servizi/assistenza-post-vendita",
+      titolo: "Fonte rosasgioiellerie.com \u2014 it/servizi/assistenza-post-vendita",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-buccellati-com-it-it-storelocator",
+      tipo: "marchio-ufficiale",
+      url: "https://www.buccellati.com/it_it/storelocator",
+      titolo: "Fonte www.buccellati.com \u2014 it_it/storelocator",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-wargasisti-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://wargasisti.com/contatti/",
+      titolo: "Fonte wargasisti.com \u2014 contatti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "f-www-longines-com-en-us-store-id-wargas-sisti-dei-flli-melani",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      titolo: "Fonte www.longines.com \u2014 en-us/store/id/wargas-sisti-dei-flli-melani-srl-ancona-143217",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -24723,6 +25596,15 @@ var directory_default = {
               "pr6-scardi-1",
               "pr6-scardi-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "mirror-firenze",
+              "pr6-scardi-1",
+              "pr6-scardi-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -24759,7 +25641,8 @@ var directory_default = {
         social: [],
         fonti: [
           "mirror-firenze",
-          "pr6-marretti-1"
+          "pr6-marretti-1",
+          "f-www-cmcwatches-com-rivenditori"
         ]
       },
       orari: {
@@ -24835,6 +25718,15 @@ var directory_default = {
               "mirror-firenze",
               "pr6-marretti-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "mirror-firenze",
+              "pr6-marretti-1",
+              "f-www-cmcwatches-com-rivenditori"
+            ]
           }
         ],
         segnalazioni: []
@@ -24876,14 +25768,15 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 055 212075",
-        email: null,
+        email: "shops@fanigioielli.it",
         sito: "https://www.fanishops.it/",
         whatsapp: null,
         social: [],
         fonti: [
           "mirror-firenze",
           "pr6-fani-gioielli-1",
-          "pr6-fani-gioielli-2"
+          "pr6-fani-gioielli-2",
+          "t03-fani-sede"
         ]
       },
       orari: {
@@ -24967,6 +25860,12 @@ var directory_default = {
           fonti: [
             "mirror-firenze"
           ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "pr6-fani-gioielli-1"
+          ]
         }
       ],
       altriServizi: [],
@@ -25047,6 +25946,16 @@ var directory_default = {
               "pr6-fani-gioielli-1",
               "pr6-fani-gioielli-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:revisione",
+            fonti: [
+              "mirror-firenze",
+              "pr6-fani-gioielli-1",
+              "pr6-fani-gioielli-2",
+              "t03-fani-sede"
+            ]
           }
         ],
         segnalazioni: []
@@ -25085,7 +25994,8 @@ var directory_default = {
           "mirror-firenze",
           "pr6-bigalli-1",
           "pr6-bigalli-2",
-          "pr6-bigalli-3"
+          "pr6-bigalli-3",
+          "t03-bigalli-sede"
         ]
       },
       orari: {
@@ -25208,6 +26118,18 @@ var directory_default = {
           fonti: [
             "pr6-bigalli-2"
           ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "t03-bigalli-sede"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "t03-bigalli-sede"
+          ]
         }
       ],
       altriServizi: [],
@@ -25253,7 +26175,14 @@ var directory_default = {
             ]
           }
         ],
-        assistenzaUfficiale: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "t03-bigalli-sede"
+            ]
+          }
+        ],
         rivenditaUfficiale: [],
         menzionati: []
       },
@@ -25322,6 +26251,17 @@ var directory_default = {
               "pr6-bigalli-2",
               "pr6-bigalli-3"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:batterie, servizio:cinturini, marchio:assistenzaUfficiale:Longines",
+            fonti: [
+              "mirror-firenze",
+              "pr6-bigalli-1",
+              "pr6-bigalli-2",
+              "pr6-bigalli-3",
+              "t03-bigalli-sede"
+            ]
           }
         ],
         segnalazioni: []
@@ -25370,7 +26310,9 @@ var directory_default = {
         fonti: [
           "mirror-firenze",
           "pr6-senzatempo-firenze-1",
-          "pr6-senzatempo-firenze-2"
+          "pr6-senzatempo-firenze-2",
+          "t03-senzatempo-sede",
+          "f-www-senzatempofirenze-it-orologeria-e-ricambi"
         ]
       },
       orari: {
@@ -25477,6 +26419,12 @@ var directory_default = {
           fonti: [
             "pr6-senzatempo-firenze-2"
           ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-www-senzatempofirenze-it-orologeria-e-ricambi"
+          ]
         }
       ],
       altriServizi: [],
@@ -25542,6 +26490,17 @@ var directory_default = {
               "mirror-firenze",
               "pr6-senzatempo-firenze-1",
               "pr6-senzatempo-firenze-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:ricambi",
+            fonti: [
+              "mirror-firenze",
+              "pr6-senzatempo-firenze-1",
+              "pr6-senzatempo-firenze-2",
+              "t03-senzatempo-sede",
+              "f-www-senzatempofirenze-it-orologeria-e-ricambi"
             ]
           }
         ],
@@ -26253,6 +27212,14 @@ var directory_default = {
               "t02-pisani-matteotti",
               "t02-pisani-lab"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-pisani-matteotti",
+              "t02-pisani-lab"
+            ]
           }
         ],
         segnalazioni: []
@@ -26387,6 +27354,13 @@ var directory_default = {
             fonti: [
               "t02-pisani-maschera"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-pisani-maschera"
+            ]
           }
         ],
         segnalazioni: []
@@ -26427,10 +27401,78 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t02-maggini-contatti"
+        ]
       },
       servizi: [
         {
@@ -26495,6 +27537,14 @@ var directory_default = {
           {
             data: "2026-10-16",
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
+            fonti: [
+              "t02-maggini-contatti",
+              "t02-maggini-marchi"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
             fonti: [
               "t02-maggini-contatti",
               "t02-maggini-marchi"
@@ -26592,6 +27642,14 @@ var directory_default = {
               "t02-rutili-contatti",
               "t02-rutili-servizi"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-rutili-contatti",
+              "t02-rutili-servizi"
+            ]
           }
         ],
         segnalazioni: []
@@ -26628,7 +27686,9 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-fici-contatti"
+          "t02-fici-contatti",
+          "f-www-ficioro-it-chi-siamo",
+          "t02-fici-orologi"
         ]
       },
       orari: {
@@ -26652,6 +27712,24 @@ var directory_default = {
         },
         {
           id: "assistenza",
+          fonti: [
+            "t02-fici-orologi"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "t02-fici-orologi"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "t02-fici-orologi"
+          ]
+        },
+        {
+          id: "batterie",
           fonti: [
             "t02-fici-orologi"
           ]
@@ -26716,6 +27794,15 @@ var directory_default = {
               "t02-fici-contatti",
               "t02-fici-orologi"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:riparazione, servizio:revisione, servizio:batterie",
+            fonti: [
+              "t02-fici-contatti",
+              "f-www-ficioro-it-chi-siamo",
+              "t02-fici-orologi"
+            ]
           }
         ],
         segnalazioni: []
@@ -26752,7 +27839,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-agnolucci-signa"
+          "t02-agnolucci-signa",
+          "f-www-agnoluccigioielleria-com-contatti"
         ]
       },
       orari: {
@@ -26766,6 +27854,12 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "t02-agnolucci-signa"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "f-www-agnoluccigioielleria-com-contatti"
           ]
         }
       ],
@@ -26803,6 +27897,14 @@ var directory_default = {
             fonti: [
               "t02-agnolucci-signa"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:riparazione",
+            fonti: [
+              "t02-agnolucci-signa",
+              "f-www-agnoluccigioielleria-com-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -26839,7 +27941,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-agnolucci-lab"
+          "t02-agnolucci-lab",
+          "f-www-agnoluccigioielleria-com-poggio-a-caiano"
         ]
       },
       orari: {
@@ -26871,6 +27974,12 @@ var directory_default = {
           id: "pendoleria",
           fonti: [
             "t02-agnolucci-lab"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-agnoluccigioielleria-com-poggio-a-caiano"
           ]
         }
       ],
@@ -26905,6 +28014,14 @@ var directory_default = {
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
             fonti: [
               "t02-agnolucci-lab"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "t02-agnolucci-lab",
+              "f-www-agnoluccigioielleria-com-poggio-a-caiano"
             ]
           }
         ],
@@ -26941,7 +28058,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-calamai-rete"
+          "t02-calamai-rete",
+          "f-orologicalamai-com-rivenditori"
         ]
       },
       orari: {
@@ -27003,6 +28121,14 @@ var directory_default = {
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
             fonti: [
               "t02-calamai-rete"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-calamai-rete",
+              "f-orologicalamai-com-rivenditori"
             ]
           }
         ],
@@ -27073,6 +28199,12 @@ var directory_default = {
           fonti: [
             "t02-follie-sedi"
           ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "t02-follie-sedi"
+          ]
         }
       ],
       altriServizi: [],
@@ -27104,6 +28236,13 @@ var directory_default = {
           {
             data: "2026-10-16",
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
+            fonti: [
+              "t02-follie-sedi"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:cinturini",
             fonti: [
               "t02-follie-sedi"
             ]
@@ -27281,6 +28420,12 @@ var directory_default = {
           fonti: [
             "t02-renzo-vendita"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t02-renzo-home"
+          ]
         }
       ],
       altriServizi: [],
@@ -27321,6 +28466,14 @@ var directory_default = {
               "t02-renzo-vendita",
               "t02-comune-fiv"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "t02-renzo-home",
+              "t02-renzo-vendita"
+            ]
           }
         ],
         segnalazioni: []
@@ -27357,7 +28510,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-sottili-hamilton"
+          "t02-sottili-hamilton",
+          "f-www-hamiltonwatch-com-en-sa-store-locator-italie-tuscany-fig"
         ]
       },
       orari: {
@@ -27421,6 +28575,14 @@ var directory_default = {
             fonti: [
               "t02-sottili-hamilton",
               "t02-comune-fiv"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-sottili-hamilton",
+              "f-www-hamiltonwatch-com-en-sa-store-locator-italie-tuscany-fig"
             ]
           }
         ],
@@ -27532,6 +28694,15 @@ var directory_default = {
               "t02-gabbani-lab",
               "t02-gabbani-tissot"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-gabbani-contatti",
+              "t02-gabbani-lab",
+              "t02-gabbani-tissot"
+            ]
           }
         ],
         segnalazioni: []
@@ -27568,14 +28739,97 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-cerri-contatti"
+          "t02-cerri-contatti",
+          "f-www-gioielleriacerrimarco-it-contatti",
+          "f-www-gioielleriacerrimarco-it-assistenza"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-gioielleriacerrimarco-it-contatti"
+        ]
       },
       servizi: [
         {
@@ -27627,6 +28881,16 @@ var directory_default = {
               "t02-cerri-contatti",
               "t02-cerri-home"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "t02-cerri-contatti",
+              "f-www-gioielleriacerrimarco-it-contatti",
+              "f-www-gioielleriacerrimarco-it-assistenza",
+              "t02-cerri-home"
+            ]
           }
         ],
         segnalazioni: []
@@ -27663,7 +28927,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-orogenesi-lab"
+          "t02-orogenesi-lab",
+          "f-www-orogenesi85-it-contatti"
         ]
       },
       orari: {
@@ -27699,6 +28964,24 @@ var directory_default = {
         },
         {
           id: "valutazioni",
+          fonti: [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "t02-orogenesi-lab"
+          ]
+        },
+        {
+          id: "lucidatura",
           fonti: [
             "t02-orogenesi-lab"
           ]
@@ -27743,6 +29026,14 @@ var directory_default = {
             fonti: [
               "t02-orogenesi-lab"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:cinturini, servizio:lucidatura",
+            fonti: [
+              "t02-orogenesi-lab",
+              "f-www-orogenesi85-it-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -27774,12 +29065,13 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 0577 935118",
-        email: null,
+        email: "colle@oreoro.it",
         sito: "https://www.oreoro.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-oreoro-sedi"
+          "t02-oreoro-sedi",
+          "f-www-oreoro-it-contatti-asp"
         ]
       },
       orari: {
@@ -27791,6 +29083,12 @@ var directory_default = {
       servizi: [
         {
           id: "vendita",
+          fonti: [
+            "t02-oreoro-home"
+          ]
+        },
+        {
+          id: "riparazione",
           fonti: [
             "t02-oreoro-home"
           ]
@@ -27830,6 +29128,15 @@ var directory_default = {
               "t02-oreoro-sedi",
               "t02-oreoro-home"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:riparazione",
+            fonti: [
+              "t02-oreoro-sedi",
+              "f-www-oreoro-it-contatti-asp",
+              "t02-oreoro-home"
+            ]
           }
         ],
         segnalazioni: []
@@ -27861,12 +29168,13 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 0577 922980",
-        email: null,
+        email: "colle@oreoro.it",
         sito: "https://www.oreoro.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-oreoro-sedi"
+          "t02-oreoro-sedi",
+          "f-www-oreoro-it-contatti-asp"
         ]
       },
       orari: {
@@ -27878,6 +29186,12 @@ var directory_default = {
       servizi: [
         {
           id: "vendita",
+          fonti: [
+            "t02-oreoro-home"
+          ]
+        },
+        {
+          id: "riparazione",
           fonti: [
             "t02-oreoro-home"
           ]
@@ -27915,6 +29229,15 @@ var directory_default = {
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
             fonti: [
               "t02-oreoro-sedi",
+              "t02-oreoro-home"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:riparazione",
+            fonti: [
+              "t02-oreoro-sedi",
+              "f-www-oreoro-it-contatti-asp",
               "t02-oreoro-home"
             ]
           }
@@ -28080,7 +29403,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-lombardi-breil"
+          "t02-lombardi-breil",
+          "f-www-gioiellerialombardi-com-contact"
         ]
       },
       orari: {
@@ -28151,6 +29475,15 @@ var directory_default = {
             azione: "toscana-02-20261016: revisione manuale A. Identit\xE0 e pertinenza riscontrate nelle fonti pubbliche; non sopralluogo n\xE9 conferma del titolare. Campi assenti non dedotti.",
             fonti: [
               "t02-lombardi-breil",
+              "t02-lombardi-home"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-lombardi-breil",
+              "f-www-gioiellerialombardi-com-contact",
               "t02-lombardi-home"
             ]
           }
@@ -28328,6 +29661,13 @@ var directory_default = {
             fonti: [
               "t02-rabiti-home"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-rabiti-home"
+            ]
           }
         ],
         segnalazioni: []
@@ -28364,14 +29704,87 @@ var directory_default = {
         whatsapp: "+393394160068",
         social: [],
         fonti: [
-          "t02-zagli-contatti"
+          "t02-zagli-contatti",
+          "t02-zagli-lab"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t02-zagli-contatti"
+        ]
       },
       servizi: [
         {
@@ -28394,6 +29807,18 @@ var directory_default = {
         },
         {
           id: "revisione",
+          fonti: [
+            "t02-zagli-lab"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "t02-zagli-lab"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "t02-zagli-lab"
           ]
@@ -28527,6 +29952,14 @@ var directory_default = {
               "t02-zagli-contatti",
               "t02-zagli-lab"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:restauro-vintage, servizio:vendita",
+            fonti: [
+              "t02-zagli-contatti",
+              "t02-zagli-lab"
+            ]
           }
         ],
         segnalazioni: []
@@ -28609,6 +30042,18 @@ var directory_default = {
         },
         {
           id: "lucidatura",
+          fonti: [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "t02-calistri-home"
+          ]
+        },
+        {
+          id: "ricambi",
           fonti: [
             "t02-calistri-home"
           ]
@@ -28714,6 +30159,13 @@ var directory_default = {
             fonti: [
               "t02-calistri-home"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:ricambi",
+            fonti: [
+              "t02-calistri-home"
+            ]
           }
         ],
         segnalazioni: []
@@ -28750,7 +30202,9 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-ugolini-contatti"
+          "t02-ugolini-contatti",
+          "f-www-orologeriaugolini-com-contatti",
+          "f-www-orologeriaugolini-com-chi-siamo"
         ]
       },
       orari: {
@@ -28770,6 +30224,18 @@ var directory_default = {
           id: "riparazione",
           fonti: [
             "t02-ugolini-contatti"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-www-orologeriaugolini-com-chi-siamo"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-www-orologeriaugolini-com-chi-siamo"
           ]
         }
       ],
@@ -28821,6 +30287,16 @@ var directory_default = {
             fonti: [
               "t02-ugolini-contatti",
               "t02-ugolini-lab",
+              "t02-calamai-rete"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:ricambi",
+            fonti: [
+              "t02-ugolini-contatti",
+              "f-www-orologeriaugolini-com-contatti",
+              "f-www-orologeriaugolini-com-chi-siamo",
               "t02-calamai-rete"
             ]
           }
@@ -29005,6 +30481,13 @@ var directory_default = {
             fonti: [
               "t02-swatch-calzaiuoli"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t02-swatch-calzaiuoli"
+            ]
           }
         ],
         segnalazioni: []
@@ -29045,10 +30528,83 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t02-metalli-contatti"
+        ]
       },
       servizi: [
         {
@@ -29079,6 +30635,12 @@ var directory_default = {
           id: "manutenzione",
           fonti: [
             "t02-metalli-servizi"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-metallipreziosi-it"
           ]
         }
       ],
@@ -29122,6 +30684,15 @@ var directory_default = {
             fonti: [
               "t02-metalli-contatti",
               "t02-metalli-servizi"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita",
+            fonti: [
+              "t02-metalli-contatti",
+              "t02-metalli-servizi",
+              "f-www-metallipreziosi-it"
             ]
           }
         ],
@@ -29210,6 +30781,14 @@ var directory_default = {
               "t04-lamberti-sito",
               "t04-lamberti-orologeria"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t04-lamberti-sito",
+              "t04-lamberti-orologeria"
+            ]
           }
         ],
         segnalazioni: []
@@ -29247,7 +30826,8 @@ var directory_default = {
         social: [],
         fonti: [
           "t04-massari-sito",
-          "t04-massari-hamilton"
+          "t04-massari-hamilton",
+          "f-massarigioielli-it-gioielleria-assistenza-e-riparazioni"
         ]
       },
       orari: {
@@ -29304,6 +30884,15 @@ var directory_default = {
             fonti: [
               "t04-massari-hamilton",
               "t04-massari-sito"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t04-massari-sito",
+              "t04-massari-hamilton",
+              "f-massarigioielli-it-gioielleria-assistenza-e-riparazioni"
             ]
           }
         ],
@@ -29460,6 +31049,14 @@ var directory_default = {
               "t07-macchina-tempo-sito",
               "t07-macchina-tempo-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t07-macchina-tempo-contatti",
+              "t07-macchina-tempo-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -29581,6 +31178,13 @@ var directory_default = {
             fonti: [
               "t07-horamundi-sito"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t07-horamundi-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -29618,7 +31222,8 @@ var directory_default = {
         whatsapp: "+393394165545",
         social: [],
         fonti: [
-          "t07-horae-contatti"
+          "t07-horae-contatti",
+          "f-www-horaeorologeria-it-chi-siamo"
         ]
       },
       orari: {
@@ -29662,6 +31267,18 @@ var directory_default = {
           id: "ricambi",
           fonti: [
             "t07-horae-lab"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-www-horaeorologeria-it-chi-siamo"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-horaeorologeria-it-chi-siamo"
           ]
         }
       ],
@@ -29806,6 +31423,15 @@ var directory_default = {
             fonti: [
               "t07-horae-lab",
               "t07-horae-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:vendita",
+            fonti: [
+              "t07-horae-contatti",
+              "f-www-horaeorologeria-it-chi-siamo",
+              "t07-horae-lab"
             ]
           }
         ],
@@ -29974,6 +31600,12 @@ var directory_default = {
           fonti: [
             "t07-fontana-lab"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t07-fontana-lab"
+          ]
         }
       ],
       altriServizi: [
@@ -30033,6 +31665,13 @@ var directory_default = {
           {
             data: "2026-10-19",
             azione: "Incremento 07: scheda verificata tramite pagina ufficiale del laboratorio (natalefontana.it). Indirizzo, contatti, orari e servizi tecnici documentati.",
+            fonti: [
+              "t07-fontana-lab"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
             fonti: [
               "t07-fontana-lab"
             ]
@@ -30223,6 +31862,18 @@ var directory_default = {
           fonti: [
             "t07-orologica-sito"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "t07-orologica-sito"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t07-orologica-sito"
+          ]
         }
       ],
       altriServizi: [
@@ -30321,6 +31972,14 @@ var directory_default = {
             fonti: [
               "t07-orologica-sito",
               "t07-orologica-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:vendita",
+            fonti: [
+              "t07-orologica-contatti",
+              "t07-orologica-sito"
             ]
           }
         ],
@@ -30451,6 +32110,18 @@ var directory_default = {
           fonti: [
             "t07-casa-cronometro-sito"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t07-casa-cronometro-sito"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "t07-casa-cronometro-sito"
+          ]
         }
       ],
       altriServizi: [
@@ -30536,6 +32207,13 @@ var directory_default = {
           {
             data: "2026-10-19",
             azione: "Incremento 07: scheda verificata tramite sito ufficiale (casadelcronometro.it). Indirizzo, contatti e servizi di riparazione orologi da polso, tasca, pendoleria, vetri e cinturini documentati.",
+            fonti: [
+              "t07-casa-cronometro-sito"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita, servizio:lucidatura",
             fonti: [
               "t07-casa-cronometro-sito"
             ]
@@ -30824,14 +32502,96 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-monetti-contatti"
+          "t08-monetti-contatti",
+          "f-monettiorologi-com-via-dei-mille-2"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-monettiorologi-com-via-dei-mille-2"
+        ]
       },
       servizi: [
         {
@@ -30958,6 +32718,16 @@ var directory_default = {
               "t08-monetti-laboratorio",
               "t08-monetti-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "t08-monetti-contatti",
+              "f-monettiorologi-com-via-dei-mille-2",
+              "t08-monetti-sito",
+              "t08-monetti-laboratorio"
+            ]
           }
         ],
         segnalazioni: []
@@ -30994,14 +32764,96 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-monetti-contatti"
+          "t08-monetti-contatti",
+          "f-monettiorologi-com-via-santa-brigida"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-monettiorologi-com-via-santa-brigida"
+        ]
       },
       servizi: [
         {
@@ -31067,6 +32919,15 @@ var directory_default = {
               "t08-monetti-sito",
               "t08-monetti-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "t08-monetti-contatti",
+              "f-monettiorologi-com-via-santa-brigida",
+              "t08-monetti-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -31103,14 +32964,72 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-deluca-contatti"
+          "t08-deluca-contatti",
+          "t08-deluca-sito",
+          "f-www-baume-et-mercier-com-it-it-rivenditores-details-002240-c"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t08-deluca-sito"
+        ]
       },
       servizi: [
         {
@@ -31173,7 +33092,14 @@ var directory_default = {
         venduti: [],
         riparati: [],
         esperienza: [],
-        assistenzaUfficiale: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Baume & Mercier",
+            fonti: [
+              "f-www-baume-et-mercier-com-it-it-rivenditores-details-002240-c"
+            ]
+          }
+        ],
         rivenditaUfficiale: [],
         menzionati: []
       },
@@ -31201,6 +33127,16 @@ var directory_default = {
             fonti: [
               "t08-deluca-sito",
               "t08-deluca-contatti",
+              "t08-deluca-restauri"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, marchio:assistenzaUfficiale:Baume & Mercier",
+            fonti: [
+              "t08-deluca-contatti",
+              "t08-deluca-sito",
+              "f-www-baume-et-mercier-com-it-it-rivenditores-details-002240-c",
               "t08-deluca-restauri"
             ]
           }
@@ -31378,10 +33314,95 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t08-mazzone-sito"
+        ]
       },
       servizi: [
         {
@@ -31410,6 +33431,18 @@ var directory_default = {
         },
         {
           id: "pendoleria",
+          fonti: [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "t08-mazzone-sito"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "t08-mazzone-sito"
           ]
@@ -31444,6 +33477,13 @@ var directory_default = {
           {
             data: "2026-10-19",
             azione: "Incremento 08: identit\xE0, indirizzo e recapiti riscontrati sul sito ufficiale (orologeriamazzonesalerno.it). Servizi dichiarati: riparazioni pendoli, assistenza tecnica e riparazioni meccaniche, sostituzione batterie, revisione periodica. Il sito dichiara interventi \xABdi ogni modello e marca\xBB senza elenco specifico: nessun marchio attribuito.",
+            fonti: [
+              "t08-mazzone-sito"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:cinturini, servizio:vendita",
             fonti: [
               "t08-mazzone-sito"
             ]
@@ -31487,10 +33527,78 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t08-carrieri-contatti"
+        ]
       },
       servizi: [
         {
@@ -31531,6 +33639,12 @@ var directory_default = {
             "t08-carrieri-sito",
             "t08-carrieri-laboratorio",
             "t08-carrieri-contatti"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "t08-carrieri-sito"
           ]
         }
       ],
@@ -31576,6 +33690,15 @@ var directory_default = {
               "t08-carrieri-sito",
               "t08-carrieri-laboratorio",
               "t08-carrieri-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:revisione",
+            fonti: [
+              "t08-carrieri-contatti",
+              "t08-carrieri-sito",
+              "t08-carrieri-laboratorio"
             ]
           }
         ],
@@ -31711,6 +33834,13 @@ var directory_default = {
             fonti: [
               "t08-macchtempo-bari"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t08-macchtempo-bari"
+            ]
           }
         ],
         segnalazioni: []
@@ -31747,7 +33877,9 @@ var directory_default = {
         whatsapp: "+393920917747",
         social: [],
         fonti: [
-          "t08-chlw-contatti"
+          "t08-chlw-contatti",
+          "t08-chlw-sito",
+          "f-www-chlw-it-pages-q-a"
         ]
       },
       orari: {
@@ -31809,6 +33941,12 @@ var directory_default = {
             "t08-chlw-servizi",
             "t08-chlw-laboratorio",
             "t08-chlw-contatti"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-chlw-it-pages-q-a"
           ]
         }
       ],
@@ -31875,6 +34013,17 @@ var directory_default = {
               "t08-chlw-servizi",
               "t08-chlw-laboratorio",
               "t08-chlw-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "t08-chlw-contatti",
+              "t08-chlw-sito",
+              "f-www-chlw-it-pages-q-a",
+              "t08-chlw-servizi",
+              "t08-chlw-laboratorio"
             ]
           }
         ],
@@ -31963,6 +34112,12 @@ var directory_default = {
             "t08-bruno-sito",
             "t08-bruno-riparazione"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "t08-bruno-riparazione"
+          ]
         }
       ],
       altriServizi: [
@@ -32006,6 +34161,14 @@ var directory_default = {
               "t08-bruno-sito",
               "t08-bruno-riparazione"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage",
+            fonti: [
+              "t08-bruno-riparazione",
+              "t08-bruno-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -32046,10 +34209,91 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "t08-cagnina-sito"
+        ]
       },
       servizi: [
         {
@@ -32072,6 +34316,18 @@ var directory_default = {
         },
         {
           id: "vendita-usati",
+          fonti: [
+            "t08-cagnina-sito"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "t08-cagnina-sito"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "t08-cagnina-sito"
           ]
@@ -32172,6 +34428,13 @@ var directory_default = {
             fonti: [
               "t08-cagnina-sito"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:cinturini, servizio:vendita",
+            fonti: [
+              "t08-cagnina-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -32208,7 +34471,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-dicaro-contatti"
+          "t08-dicaro-contatti",
+          "t08-dicaro-sito"
         ]
       },
       orari: {
@@ -32312,6 +34576,14 @@ var directory_default = {
               "t08-dicaro-sito",
               "t08-dicaro-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t08-dicaro-contatti",
+              "t08-dicaro-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -32348,14 +34620,92 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-watchcenter-termini"
+          "t08-watchcenter-termini",
+          "f-watch-center-eu-contatti",
+          "t08-watchcenter-sito"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-watch-center-eu-contatti"
+        ]
       },
       servizi: [
         {
@@ -32412,6 +34762,18 @@ var directory_default = {
           fonti: [
             "t08-watchcenter-sito",
             "t08-watchcenter-termini"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t08-watchcenter-sito"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "t08-watchcenter-sito"
           ]
         }
       ],
@@ -32510,6 +34872,15 @@ var directory_default = {
             fonti: [
               "t08-watchcenter-sito",
               "t08-watchcenter-termini"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita, servizio:ricambi",
+            fonti: [
+              "t08-watchcenter-termini",
+              "f-watch-center-eu-contatti",
+              "t08-watchcenter-sito"
             ]
           }
         ],
@@ -32725,6 +35096,18 @@ var directory_default = {
             "t08-astrua-genova",
             "t08-astrua-riparazione-genova"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-www-astrua-com-it-assistenza-ufficiale-astrua"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-astrua-com-it-assistenza-ufficiale-astrua"
+          ]
         }
       ],
       altriServizi: [],
@@ -32793,6 +35176,16 @@ var directory_default = {
               "t08-astrua-sito",
               "t08-astrua-genova",
               "t08-astrua-riparazione-genova"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:vendita",
+            fonti: [
+              "t08-astrua-genova",
+              "t08-astrua-sito",
+              "t08-astrua-riparazione-genova",
+              "f-www-astrua-com-it-assistenza-ufficiale-astrua"
             ]
           }
         ],
@@ -32879,6 +35272,18 @@ var directory_default = {
             "t08-astrua-torino",
             "t08-astrua-riparazione-torino"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-www-astrua-com-it-assistenza-ufficiale-astrua"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-astrua-com-it-assistenza-ufficiale-astrua"
+          ]
         }
       ],
       altriServizi: [],
@@ -32947,6 +35352,16 @@ var directory_default = {
               "t08-astrua-sito",
               "t08-astrua-torino",
               "t08-astrua-riparazione-torino"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:vendita",
+            fonti: [
+              "t08-astrua-torino",
+              "t08-astrua-sito",
+              "t08-astrua-riparazione-torino",
+              "f-www-astrua-com-it-assistenza-ufficiale-astrua"
             ]
           }
         ],
@@ -33188,6 +35603,12 @@ var directory_default = {
             "t08-lab-alessandria-sito",
             "t08-lab-alessandria-orari"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "t08-lab-alessandria-sito"
+          ]
         }
       ],
       altriServizi: [
@@ -33231,6 +35652,14 @@ var directory_default = {
               "t08-lab-alessandria-sito",
               "t08-lab-alessandria-orari"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: servizio:vendita",
+            fonti: [
+              "t08-lab-alessandria-orari",
+              "t08-lab-alessandria-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -33267,14 +35696,76 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-bottega-riparazione"
+          "t08-bottega-riparazione",
+          "f-www-labottegadeltempo-it-dove-siamo"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "14:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-labottegadeltempo-it-dove-siamo"
+        ]
       },
       servizi: [
         {
@@ -33331,6 +35822,12 @@ var directory_default = {
             "t08-bottega-sito",
             "t08-bottega-riparazione",
             "t08-bottega-chisiamo"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "t08-bottega-riparazione"
           ]
         }
       ],
@@ -33409,6 +35906,16 @@ var directory_default = {
               "t08-bottega-riparazione",
               "t08-bottega-chisiamo"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:ricambi",
+            fonti: [
+              "t08-bottega-riparazione",
+              "f-www-labottegadeltempo-it-dove-siamo",
+              "t08-bottega-sito",
+              "t08-bottega-chisiamo"
+            ]
           }
         ],
         segnalazioni: []
@@ -33445,14 +35952,96 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "t08-salamena-pagine"
+          "t08-salamena-pagine",
+          "f-www-riparazioniorologiroma-it-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-riparazioniorologiroma-it-contatti"
+        ]
       },
       servizi: [
         {
@@ -33495,6 +36084,12 @@ var directory_default = {
           fonti: [
             "t08-salamena-sito",
             "t08-salamena-pagine"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-www-riparazioniorologiroma-it-riparazione-orologi"
           ]
         }
       ],
@@ -33575,6 +36170,16 @@ var directory_default = {
             fonti: [
               "t08-salamena-sito",
               "t08-salamena-pagine"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:ricambi",
+            fonti: [
+              "t08-salamena-pagine",
+              "f-www-riparazioniorologiroma-it-contatti",
+              "t08-salamena-sito",
+              "f-www-riparazioniorologiroma-it-riparazione-orologi"
             ]
           }
         ],
@@ -33738,6 +36343,14 @@ var directory_default = {
               "t08-portanova-sito",
               "t08-portanova-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "t08-portanova-contatti",
+              "t08-portanova-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -33778,10 +36391,86 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "l07-caldani-contatti"
+        ]
       },
       servizi: [
         {
@@ -33800,6 +36489,18 @@ var directory_default = {
           id: "restauro-vintage",
           fonti: [
             "l07-caldani-laboratorio"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-www-caldaniorologi-it"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "f-www-caldaniorologi-it"
           ]
         }
       ],
@@ -33844,6 +36545,15 @@ var directory_default = {
               "l07-caldani-contatti",
               "l07-caldani-laboratorio"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:ricambi, servizio:lucidatura",
+            fonti: [
+              "l07-caldani-contatti",
+              "l07-caldani-laboratorio",
+              "f-www-caldaniorologi-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -33884,10 +36594,58 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "16:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "l07-gold-time"
+        ]
       },
       servizi: [
         {
@@ -33931,6 +36689,18 @@ var directory_default = {
           fonti: [
             "l07-gold-time"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l07-gold-time"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "l07-gold-time"
+          ]
         }
       ],
       altriServizi: [],
@@ -33969,6 +36739,13 @@ var directory_default = {
           {
             data: "2026-10-20",
             azione: "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            fonti: [
+              "l07-gold-time"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita, servizio:ricambi",
             fonti: [
               "l07-gold-time"
             ]
@@ -34068,6 +36845,13 @@ var directory_default = {
             fonti: [
               "l07-emporio"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "l07-emporio"
+            ]
           }
         ],
         segnalazioni: []
@@ -34161,6 +36945,12 @@ var directory_default = {
           fonti: [
             "l07-tempoidea"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-tempoidea-it"
+          ]
         }
       ],
       altriServizi: [],
@@ -34247,6 +37037,15 @@ var directory_default = {
               "l07-tempoidea-contatti",
               "l07-tempoidea"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: servizio:vendita",
+            fonti: [
+              "l07-tempoidea-contatti",
+              "l07-tempoidea",
+              "f-www-tempoidea-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -34316,6 +37115,36 @@ var directory_default = {
           fonti: [
             "l07-verardi"
           ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l07-verardi"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "l07-verardi"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "l07-verardi"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "l07-verardi"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "l07-verardi"
+          ]
         }
       ],
       altriServizi: [],
@@ -34354,6 +37183,13 @@ var directory_default = {
           {
             data: "2026-10-20",
             azione: "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            fonti: [
+              "l07-verardi"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: servizio:revisione, servizio:restauro-vintage, servizio:valutazioni, servizio:pendoleria, servizio:ricambi",
             fonti: [
               "l07-verardi"
             ]
@@ -34397,10 +37233,71 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "l07-tardani"
+        ]
       },
       servizi: [
         {
@@ -34447,6 +37344,18 @@ var directory_default = {
         },
         {
           id: "lucidatura",
+          fonti: [
+            "l07-tardani"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l07-tardani"
+          ]
+        },
+        {
+          id: "ricambi",
           fonti: [
             "l07-tardani"
           ]
@@ -34531,6 +37440,13 @@ var directory_default = {
           {
             data: "2026-10-20",
             azione: "07B Lazio: verifica dei siti pubblici indicati. Solo fatti e servizi riscontrati; nessun sopralluogo o conferma del titolare. Orari e coordinate non trasferiti senza una verifica specifica.",
+            fonti: [
+              "l07-tardani"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:revisione, servizio:ricambi",
             fonti: [
               "l07-tardani"
             ]
@@ -34784,6 +37700,13 @@ var directory_default = {
             fonti: [
               "l07-milioni"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "l07-milioni"
+            ]
           }
         ],
         segnalazioni: []
@@ -34819,14 +37742,83 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-ranieri-laquila"
+          "r26-ranieri-laquila",
+          "f-www-gioielleriaranieri-com-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-gioielleriaranieri-com-contatti"
+        ]
       },
       servizi: [
         {
@@ -34849,6 +37841,12 @@ var directory_default = {
         },
         {
           id: "valutazioni",
+          fonti: [
+            "r26-ranieri-laquila"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r26-ranieri-laquila"
           ]
@@ -34899,6 +37897,14 @@ var directory_default = {
             fonti: [
               "r26-ranieri-laquila"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita",
+            fonti: [
+              "r26-ranieri-laquila",
+              "f-www-gioielleriaranieri-com-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -34938,10 +37944,71 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r26-pietro-roberto-cosenza"
+        ]
       },
       servizi: [
         {
@@ -35039,6 +38106,13 @@ var directory_default = {
             fonti: [
               "r26-pietro-roberto-cosenza"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "r26-pietro-roberto-cosenza"
+            ]
           }
         ],
         segnalazioni: []
@@ -35074,7 +38148,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-paolo-vale-reggio-calabria"
+          "r26-paolo-vale-reggio-calabria",
+          "f-www-paolovalegioielleria-it-contatti"
         ]
       },
       orari: {
@@ -35086,6 +38161,12 @@ var directory_default = {
       servizi: [
         {
           id: "manutenzione",
+          fonti: [
+            "r26-paolo-vale-reggio-calabria"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r26-paolo-vale-reggio-calabria"
           ]
@@ -35202,6 +38283,14 @@ var directory_default = {
             fonti: [
               "r26-paolo-vale-reggio-calabria"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "r26-paolo-vale-reggio-calabria",
+              "f-www-paolovalegioielleria-it-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -35241,10 +38330,66 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "16:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r26-fotia-reggio-calabria"
+        ]
       },
       servizi: [
         {
@@ -35267,6 +38412,12 @@ var directory_default = {
         },
         {
           id: "batterie",
+          fonti: [
+            "r26-fotia-reggio-calabria"
+          ]
+        },
+        {
+          id: "riparazione",
           fonti: [
             "r26-fotia-reggio-calabria"
           ]
@@ -35311,6 +38462,13 @@ var directory_default = {
             fonti: [
               "r26-fotia-reggio-calabria"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:riparazione",
+            fonti: [
+              "r26-fotia-reggio-calabria"
+            ]
           }
         ],
         segnalazioni: []
@@ -35341,12 +38499,13 @@ var directory_default = {
       },
       contatti: {
         telefono: "329 4176210",
-        email: null,
+        email: "vstolfi@tiscali.it",
         sito: "https://www.gioielleriagoldenbusiness.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-golden-business-potenza"
+          "r26-golden-business-potenza",
+          "f-www-gioielleriagoldenbusiness-it-contatti"
         ]
       },
       orari: {
@@ -35420,6 +38579,14 @@ var directory_default = {
             fonti: [
               "r26-golden-business-potenza"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "r26-golden-business-potenza",
+              "f-www-gioielleriagoldenbusiness-it-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -35455,7 +38622,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-rolli-poniz-trieste"
+          "r26-rolli-poniz-trieste",
+          "f-rolliponiz-it-policies-contact-information"
         ]
       },
       orari: {
@@ -35485,6 +38653,18 @@ var directory_default = {
         },
         {
           id: "batterie",
+          fonti: [
+            "r26-rolli-poniz-trieste"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "r26-rolli-poniz-trieste"
+          ]
+        },
+        {
+          id: "valutazioni",
           fonti: [
             "r26-rolli-poniz-trieste"
           ]
@@ -35560,6 +38740,14 @@ var directory_default = {
             fonti: [
               "r26-rolli-poniz-trieste"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita, servizio:valutazioni",
+            fonti: [
+              "r26-rolli-poniz-trieste",
+              "f-rolliponiz-it-policies-contact-information"
+            ]
           }
         ],
         segnalazioni: []
@@ -35595,7 +38783,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-spangaro-udine"
+          "r26-spangaro-udine",
+          "f-spangaroandco-com-contatti"
         ]
       },
       orari: {
@@ -35637,6 +38826,18 @@ var directory_default = {
         },
         {
           id: "vendita",
+          fonti: [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "r26-spangaro-udine"
+          ]
+        },
+        {
+          id: "valutazioni",
           fonti: [
             "r26-spangaro-udine"
           ]
@@ -35723,6 +38924,14 @@ var directory_default = {
             fonti: [
               "r26-spangaro-udine"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:valutazioni",
+            fonti: [
+              "r26-spangaro-udine",
+              "f-spangaroandco-com-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -35758,14 +38967,83 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-ronzoni-udine"
+          "r26-ronzoni-udine",
+          "f-italicoronzoni-it-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-italicoronzoni-it-contatti"
+        ]
       },
       servizi: [
         {
@@ -35790,6 +39068,18 @@ var directory_default = {
           id: "ricambi",
           fonti: [
             "r26-ronzoni-udine"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "f-italicoronzoni-it-servizi"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "f-italicoronzoni-it-servizi"
           ]
         }
       ],
@@ -35851,6 +39141,15 @@ var directory_default = {
             fonti: [
               "r26-ronzoni-udine"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:riparazione, servizio:lucidatura",
+            fonti: [
+              "r26-ronzoni-udine",
+              "f-italicoronzoni-it-contatti",
+              "f-italicoronzoni-it-servizi"
+            ]
           }
         ],
         segnalazioni: []
@@ -35867,7 +39166,7 @@ var directory_default = {
       tipi: [
         "orologeria"
       ],
-      descrizione: "Orologeria a Trento: riparazione di orologi di ogni tipo e cambio pile.",
+      descrizione: "Orologeria Fronza Marco a Trento: riparazione di orologi di ogni tipo, cambio pile e lavori di pendoleria. Il sito ufficiale pubblica recapiti e orari della sede.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "trento",
@@ -35886,14 +39185,92 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-fronza-trento"
+          "r26-fronza-trento",
+          "f-www-orologeriafronzamarco-it-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-orologeriafronzamarco-it-contatti"
+        ]
       },
       servizi: [
         {
@@ -35904,6 +39281,12 @@ var directory_default = {
         },
         {
           id: "batterie",
+          fonti: [
+            "r26-fronza-trento"
+          ]
+        },
+        {
+          id: "pendoleria",
           fonti: [
             "r26-fronza-trento"
           ]
@@ -35941,6 +39324,21 @@ var directory_default = {
             fonti: [
               "r26-fronza-trento"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:pendoleria",
+            fonti: [
+              "r26-fronza-trento",
+              "f-www-orologeriafronzamarco-it-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Descrizione personalizzata completata sui dati documentati (prima: \xABOrologeria a Trento: riparazione di orologi di ogni tipo e cambio pile.\xBB)",
+            fonti: [
+              "r26-fronza-trento"
+            ]
           }
         ],
         segnalazioni: []
@@ -35971,19 +39369,76 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 335 180 7768",
-        email: null,
+        email: "info@orologeriamiconi.it",
         sito: "https://www.orologeriamiconi.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-miconi-civitanova"
+          "r26-miconi-civitanova",
+          "f-www-orologeriamiconi-it-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-orologeriamiconi-it-contatti"
+        ]
       },
       servizi: [
         {
@@ -36033,6 +39488,12 @@ var directory_default = {
           fonti: [
             "r26-miconi-civitanova"
           ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "r26-miconi-civitanova"
+          ]
         }
       ],
       altriServizi: [],
@@ -36066,6 +39527,14 @@ var directory_default = {
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
             fonti: [
               "r26-miconi-civitanova"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:ricambi",
+            fonti: [
+              "r26-miconi-civitanova",
+              "f-www-orologeriamiconi-it-contatti"
             ]
           }
         ],
@@ -36102,14 +39571,83 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-biagini-perugia"
+          "r26-biagini-perugia",
+          "f-www-biagini1863-it-servizio-clienti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-biagini1863-it-servizio-clienti"
+        ]
       },
       servizi: [
         {
@@ -36122,6 +39660,24 @@ var directory_default = {
           id: "manutenzione",
           fonti: [
             "r26-biagini-perugia"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "f-www-biagini1863-it-servizio-clienti"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-biagini1863-it-servizio-clienti"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "f-www-biagini1863-it-servizio-clienti"
           ]
         }
       ],
@@ -36156,6 +39712,14 @@ var directory_default = {
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
             fonti: [
               "r26-biagini-perugia"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:revisione, servizio:vendita, servizio:lucidatura",
+            fonti: [
+              "r26-biagini-perugia",
+              "f-www-biagini1863-it-servizio-clienti"
             ]
           }
         ],
@@ -36222,6 +39786,18 @@ var directory_default = {
         },
         {
           id: "revisione",
+          fonti: [
+            "r26-paccara-terni"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "r26-paccara-terni"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r26-paccara-terni"
           ]
@@ -36293,6 +39869,13 @@ var directory_default = {
           {
             data: "2026-10-21",
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
+            fonti: [
+              "r26-paccara-terni"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:riparazione, servizio:vendita",
             fonti: [
               "r26-paccara-terni"
             ]
@@ -36680,7 +40263,7 @@ var directory_default = {
       },
       contatti: {
         telefono: "02 86460549",
-        email: null,
+        email: "labmazzucchisnc@lamiapec.it",
         sito: "https://www.laboratoriomazzucchi.it/",
         whatsapp: null,
         social: [],
@@ -36689,10 +40272,66 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r26-mazzucchi-milano"
+        ]
       },
       servizi: [
         {
@@ -36733,6 +40372,24 @@ var directory_default = {
         },
         {
           id: "ricambi",
+          fonti: [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "r26-mazzucchi-milano"
+          ]
+        },
+        {
+          id: "lucidatura",
           fonti: [
             "r26-mazzucchi-milano"
           ]
@@ -36801,6 +40458,13 @@ var directory_default = {
             fonti: [
               "r26-mazzucchi-milano"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:batterie, servizio:cinturini, servizio:lucidatura",
+            fonti: [
+              "r26-mazzucchi-milano"
+            ]
           }
         ],
         segnalazioni: []
@@ -36840,10 +40504,86 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "14:00",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r26-curato-brescia"
+        ]
       },
       servizi: [
         {
@@ -36891,6 +40631,13 @@ var directory_default = {
             fonti: [
               "r26-curato-brescia"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "r26-curato-brescia"
+            ]
           }
         ],
         segnalazioni: []
@@ -36930,10 +40677,86 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:30",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "14:30",
+                chiusura: "18:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r26-ciesse-padova"
+        ]
       },
       servizi: [
         {
@@ -37011,6 +40834,13 @@ var directory_default = {
             fonti: [
               "r26-ciesse-padova"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari",
+            fonti: [
+              "r26-ciesse-padova"
+            ]
           }
         ],
         segnalazioni: []
@@ -37046,7 +40876,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-martini-parma"
+          "r26-martini-parma",
+          "f-martinigiancarlo-com-contatti"
         ]
       },
       orari: {
@@ -37078,6 +40909,24 @@ var directory_default = {
           id: "restauro-vintage",
           fonti: [
             "r26-martini-parma"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-martinigiancarlo-com-laboratorio"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "f-martinigiancarlo-com-laboratorio"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-martinigiancarlo-com-laboratorio"
           ]
         }
       ],
@@ -37112,6 +40961,15 @@ var directory_default = {
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
             fonti: [
               "r26-martini-parma"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita, servizio:valutazioni, servizio:ricambi",
+            fonti: [
+              "r26-martini-parma",
+              "f-martinigiancarlo-com-contatti",
+              "f-martinigiancarlo-com-laboratorio"
             ]
           }
         ],
@@ -37148,14 +41006,92 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-valenti-parma"
+          "r26-valenti-parma",
+          "f-www-valentiparma-it-punti-vendita",
+          "f-www-longines-com-it-store-id-valenti-srl-parma-143474"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: []
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-valentiparma-it-punti-vendita"
+        ]
       },
       servizi: [
         {
@@ -37180,6 +41116,12 @@ var directory_default = {
           id: "ricambi",
           fonti: [
             "r26-valenti-parma"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-valentiparma-it-laboratorio"
           ]
         }
       ],
@@ -37221,7 +41163,14 @@ var directory_default = {
           }
         ],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "f-www-longines-com-it-store-id-valenti-srl-parma-143474"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -37245,6 +41194,16 @@ var directory_default = {
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
             fonti: [
               "r26-valenti-parma"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "r26-valenti-parma",
+              "f-www-valentiparma-it-punti-vendita",
+              "f-www-longines-com-it-store-id-valenti-srl-parma-143474",
+              "f-www-valentiparma-it-laboratorio"
             ]
           }
         ],
@@ -37281,20 +41240,118 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "molise-stema-contatti"
+          "molise-stema-contatti",
+          "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "molise-stema-contatti"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "molise-stema-catalogo"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio"
           ]
         }
       ],
@@ -37313,7 +41370,14 @@ var directory_default = {
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -37339,6 +41403,16 @@ var directory_default = {
             fonti: [
               "molise-stema-contatti",
               "molise-stema-catalogo"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:cinturini, servizio:manutenzione, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "molise-stema-contatti",
+              "f-www-longines-com-en-us-store-id-stema-di-de-sanctis-saverio",
+              "molise-stema-catalogo",
+              "molise-longines-locator"
             ]
           }
         ],
@@ -37379,10 +41453,91 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "molise-sammartino-contatti"
+        ]
       },
       servizi: [
         {
@@ -37395,6 +41550,24 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "molise-sammartino-sito"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "f-gioielleriasammartino-com-servizi"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "f-gioielleriasammartino-com-servizi"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "f-gioielleriasammartino-com-servizi"
           ]
         }
       ],
@@ -37507,6 +41680,16 @@ var directory_default = {
               "molise-sammartino-sito",
               "molise-sammartino-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:revisione, servizio:batterie, servizio:cinturini",
+            fonti: [
+              "molise-sammartino-contatti",
+              "molise-sammartino-chisiamo",
+              "molise-sammartino-sito",
+              "f-gioielleriasammartino-com-servizi"
+            ]
           }
         ],
         segnalazioni: []
@@ -37542,7 +41725,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-piazzoli"
+          "r27-piazzoli",
+          "f-www-piazzoli-com-contatti"
         ]
       },
       orari: {
@@ -37609,6 +41793,14 @@ var directory_default = {
             fonti: [
               "r27-piazzoli"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "r27-piazzoli",
+              "f-www-piazzoli-com-contatti"
+            ]
           }
         ],
         segnalazioni: []
@@ -37644,14 +41836,83 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-gamba"
+          "r27-gamba",
+          "r27-gamba-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r27-gamba-contatti"
+        ]
       },
       servizi: [
         {
@@ -37682,6 +41943,12 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "r27-gamba"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "f-gamba-gioielli-it"
           ]
         }
       ],
@@ -37750,6 +42017,15 @@ var directory_default = {
               "r27-gamba",
               "r27-gamba-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:valutazioni",
+            fonti: [
+              "r27-gamba",
+              "r27-gamba-contatti",
+              "f-gamba-gioielli-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -37785,14 +42061,91 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-robbi"
+          "r27-robbi",
+          "f-www-robbiorologiaio-com-chi-sono"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "17:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r27-robbi"
+        ]
       },
       servizi: [
         {
@@ -37803,6 +42156,30 @@ var directory_default = {
         },
         {
           id: "pendoleria",
+          fonti: [
+            "r27-robbi"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "r27-robbi"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "r27-robbi"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "r27-robbi"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r27-robbi"
           ]
@@ -37841,6 +42218,14 @@ var directory_default = {
             fonti: [
               "r27-robbi",
               "r27-robbi-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:restauro-vintage, servizio:revisione, servizio:valutazioni, servizio:vendita",
+            fonti: [
+              "r27-robbi",
+              "f-www-robbiorologiaio-com-chi-sono"
             ]
           }
         ],
@@ -37904,6 +42289,12 @@ var directory_default = {
           fonti: [
             "r27-palladio"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "r27-palladio"
+          ]
         }
       ],
       altriServizi: [],
@@ -37935,6 +42326,13 @@ var directory_default = {
           {
             data: "2026-10-21",
             azione: "Acquisizione da sito ufficiale: indirizzo, recapiti, servizi e marchi dichiarati.",
+            fonti: [
+              "r27-palladio"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage",
             fonti: [
               "r27-palladio"
             ]
@@ -37973,14 +42371,91 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-casadei"
+          "r27-casadei",
+          "r27-casadei-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r27-casadei-contatti"
+        ]
       },
       servizi: [
         {
@@ -38011,6 +42486,18 @@ var directory_default = {
           id: "cinturini",
           fonti: [
             "r27-casadei"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "f-www-orologeriacasadei-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-orologeriacasadei-it"
           ]
         }
       ],
@@ -38061,6 +42548,15 @@ var directory_default = {
               "r27-casadei",
               "r27-casadei-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:valutazioni, servizio:vendita",
+            fonti: [
+              "r27-casadei",
+              "r27-casadei-contatti",
+              "f-www-orologeriacasadei-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -38096,14 +42592,100 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-della-rocca"
+          "r27-della-rocca",
+          "f-www-dellaroccagioielli-it-contatti-php"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "f-www-dellaroccagioielli-it-contatti-php"
+        ]
       },
       servizi: [
         {
@@ -38128,6 +42710,18 @@ var directory_default = {
           id: "cinturini",
           fonti: [
             "r27-della-rocca"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "f-www-dellaroccagioielli-it-esperto-orologi-php"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-www-dellaroccagioielli-it-esperto-orologi-php"
           ]
         }
       ],
@@ -38263,6 +42857,15 @@ var directory_default = {
               "r27-della-rocca",
               "r27-della-rocca-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:valutazioni, servizio:vendita",
+            fonti: [
+              "r27-della-rocca",
+              "f-www-dellaroccagioielli-it-contatti-php",
+              "f-www-dellaroccagioielli-it-esperto-orologi-php"
+            ]
           }
         ],
         segnalazioni: []
@@ -38387,6 +42990,13 @@ var directory_default = {
               "r27-abate",
               "r27-abate-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "r27-abate"
+            ]
           }
         ],
         segnalazioni: []
@@ -38423,7 +43033,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-bruni"
+          "r27-bruni",
+          "r27-bruni-contatti"
         ]
       },
       orari: {
@@ -38435,6 +43046,30 @@ var directory_default = {
       servizi: [
         {
           id: "riparazione",
+          fonti: [
+            "r27-bruni"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "r27-bruni"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "r27-bruni"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "r27-bruni"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r27-bruni"
           ]
@@ -38470,6 +43105,14 @@ var directory_default = {
           {
             data: "2026-10-21",
             azione: "Acquisizione da sito ufficiale: indirizzo, recapiti, servizi e marchi dichiarati.",
+            fonti: [
+              "r27-bruni",
+              "r27-bruni-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:pendoleria, servizio:ricambi, servizio:vendita",
             fonti: [
               "r27-bruni",
               "r27-bruni-contatti"
@@ -38510,7 +43153,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-di-liddo"
+          "r27-di-liddo",
+          "r27-di-liddo-contatti"
         ]
       },
       orari: {
@@ -38530,6 +43174,18 @@ var directory_default = {
           id: "assistenza",
           fonti: [
             "r27-di-liddo"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-www-lorologiaiobiella-it-laboratorio-orologeria"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "f-www-lorologiaiobiella-it-laboratorio-orologeria"
           ]
         }
       ],
@@ -38567,6 +43223,15 @@ var directory_default = {
               "r27-di-liddo",
               "r27-di-liddo-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:lucidatura",
+            fonti: [
+              "r27-di-liddo",
+              "r27-di-liddo-contatti",
+              "f-www-lorologiaiobiella-it-laboratorio-orologeria"
+            ]
           }
         ],
         segnalazioni: []
@@ -38602,7 +43267,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-pasetto"
+          "r27-pasetto",
+          "r27-pasetto-contatti"
         ]
       },
       orari: {
@@ -38641,6 +43307,24 @@ var directory_default = {
           fonti: [
             "r27-pasetto"
           ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "f-mauropasetto-it"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "f-mauropasetto-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "f-mauropasetto-it"
+          ]
         }
       ],
       altriServizi: [],
@@ -38677,6 +43361,15 @@ var directory_default = {
               "r27-pasetto",
               "r27-pasetto-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:restauro-vintage, servizio:cinturini, servizio:vendita",
+            fonti: [
+              "r27-pasetto",
+              "r27-pasetto-contatti",
+              "f-mauropasetto-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -38712,14 +43405,101 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-rosas"
+          "r27-rosas",
+          "r27-rosas-contatti",
+          "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r27-rosas-contatti"
+        ]
       },
       servizi: [
         {
@@ -38732,6 +43512,30 @@ var directory_default = {
           id: "assistenza",
           fonti: [
             "r27-rosas"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
           ]
         }
       ],
@@ -38782,6 +43586,15 @@ var directory_default = {
               "r27-rosas",
               "r27-rosas-contatti"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:riparazione, servizio:revisione, servizio:ricambi, servizio:lucidatura",
+            fonti: [
+              "r27-rosas",
+              "r27-rosas-contatti",
+              "f-rosasgioiellerie-com-it-servizi-assistenza-post-vendita"
+            ]
           }
         ],
         segnalazioni: []
@@ -38818,14 +43631,96 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "r27-liparota"
+          "r27-liparota",
+          "r27-liparota-contatti"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "r27-liparota-contatti"
+        ]
       },
       servizi: [
         {
@@ -38842,6 +43737,12 @@ var directory_default = {
         },
         {
           id: "assistenza",
+          fonti: [
+            "r27-liparota"
+          ]
+        },
+        {
+          id: "vendita",
           fonti: [
             "r27-liparota"
           ]
@@ -38877,6 +43778,14 @@ var directory_default = {
           {
             data: "2026-10-21",
             azione: "Acquisizione da sito ufficiale: indirizzo, recapiti, servizi e marchi dichiarati.",
+            fonti: [
+              "r27-liparota",
+              "r27-liparota-contatti"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, orari, servizio:vendita",
             fonti: [
               "r27-liparota",
               "r27-liparota-contatti"
@@ -39036,6 +43945,14 @@ var directory_default = {
               "fb23-magie-contatti",
               "fb23-magie-sito"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "fb23-magie-contatti",
+              "fb23-magie-sito"
+            ]
           }
         ],
         segnalazioni: []
@@ -39066,7 +43983,7 @@ var directory_default = {
       },
       contatti: {
         telefono: "0865/414261",
-        email: null,
+        email: "domlom@tiscali.it",
         sito: null,
         whatsapp: null,
         social: [],
@@ -39134,6 +44051,13 @@ var directory_default = {
             fonti: [
               "fb23-lombardi-hamilton"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "fb23-lombardi-hamilton"
+            ]
           }
         ],
         segnalazioni: []
@@ -39171,7 +44095,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "fb23-fenocchi-contatti"
+          "fb23-fenocchi-contatti",
+          "f-www-buccellati-com-it-it-storelocator"
         ]
       },
       orari: {
@@ -39316,6 +44241,16 @@ var directory_default = {
               "fb23-fenocchi-contatti",
               "fb23-fenocchi-laboratorio",
               "fb23-fenocchi-sito"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti",
+            fonti: [
+              "fb23-fenocchi-contatti",
+              "f-www-buccellati-com-it-it-storelocator",
+              "fb23-fenocchi-sito",
+              "fb23-fenocchi-laboratorio"
             ]
           }
         ],
@@ -41248,13 +46183,15 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "071/56255",
+        email: "info@gioielleriagiorgi.it",
+        sito: "https://www.gioielleriagiorgi.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-giorgi-mario-ancona-1"
+          "n02-gioielleria-giorgi-mario-ancona-1",
+          "giorgi-hamilton-20261025",
+          "giorgi-sito-20261025"
         ]
       },
       orari: {
@@ -41317,6 +46254,15 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-giorgi-mario-ancona-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-gioielleria-giorgi-mario-ancona-1",
+              "giorgi-hamilton-20261025",
+              "giorgi-sito-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -41346,13 +46292,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0746482915",
+        email: "fraschettisnc@gmail.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-fraschetti-rieti-1"
+          "n02-gioielleria-fraschetti-rieti-1",
+          "fraschetti-breil-20261025"
         ]
       },
       orari: {
@@ -41389,6 +46336,12 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-fraschetti-rieti-1"
             ]
+          },
+          {
+            marca: "Breil",
+            fonti: [
+              "fraschetti-breil-20261025"
+            ]
           }
         ],
         menzionati: []
@@ -41414,6 +46367,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-fraschetti-rieti-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, marchio:rivenditaUfficiale:Breil",
+            fonti: [
+              "n02-gioielleria-fraschetti-rieti-1",
+              "fraschetti-breil-20261025"
             ]
           }
         ],
@@ -41444,26 +46405,115 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "+39 0823 210 378",
+        email: "info@iannicelli.com",
+        sito: "https://iannicelli.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-iannicelli-caserta-1"
+          "n02-gioielleria-iannicelli-caserta-1",
+          "iannicelli-rolex-20261025",
+          "iannicelli-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "iannicelli-rolex-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-gioielleria-iannicelli-caserta-1"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "iannicelli-rolex-20261025"
           ]
         }
       ],
@@ -41512,6 +46562,15 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-iannicelli-caserta-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:revisione",
+            fonti: [
+              "n02-gioielleria-iannicelli-caserta-1",
+              "iannicelli-rolex-20261025",
+              "iannicelli-sito-20261025"
             ]
           }
         ],
@@ -41542,13 +46601,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "0165 44666",
         email: null,
-        sito: null,
+        sito: "https://www.demarchigianotti.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-de-marchi-gianotti-aosta-1"
+          "n02-de-marchi-gianotti-aosta-1",
+          "demarchi-leshalles-20261025"
         ]
       },
       orari: {
@@ -41562,6 +46622,12 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "n02-de-marchi-gianotti-aosta-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "demarchi-leshalles-20261025"
           ]
         }
       ],
@@ -41611,6 +46677,14 @@ var directory_default = {
             fonti: [
               "n02-de-marchi-gianotti-aosta-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:riparazione",
+            fonti: [
+              "n02-de-marchi-gianotti-aosta-1",
+              "demarchi-leshalles-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -41640,20 +46714,82 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "045 594559",
         email: null,
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-benetti-verona-1"
+          "n02-gioielleria-benetti-verona-1",
+          "benetti-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: [
+              {
+                apertura: "15:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 1,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "benetti-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -41708,6 +46844,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-benetti-verona-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-gioielleria-benetti-verona-1",
+              "benetti-sito-20261025"
             ]
           }
         ],
@@ -41836,26 +46980,107 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0422/548749",
+        email: "gioielleriaderui@gmail.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-oreficeria-de-rui-treviso-1"
+          "n02-oreficeria-de-rui-treviso-1",
+          "derui-longines-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "derui-longines-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-oreficeria-de-rui-treviso-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "derui-longines-20261025"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "derui-longines-20261025"
           ]
         }
       ],
@@ -41878,6 +47103,18 @@ var directory_default = {
             marca: "Hamilton",
             fonti: [
               "n02-oreficeria-de-rui-treviso-1"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "derui-longines-20261025"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "derui-tissot-20261025"
             ]
           }
         ],
@@ -41904,6 +47141,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-oreficeria-de-rui-treviso-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:manutenzione, servizio:cinturini, marchio:rivenditaUfficiale:Longines, marchio:rivenditaUfficiale:Tissot",
+            fonti: [
+              "n02-oreficeria-de-rui-treviso-1",
+              "derui-longines-20261025"
             ]
           }
         ],
@@ -41934,13 +47179,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 041 2603804",
         email: null,
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-eyes-on-time-venezia-1"
+          "n02-eyes-on-time-venezia-1",
+          "eyeson-hamilton-20261025"
         ]
       },
       orari: {
@@ -42003,6 +47249,14 @@ var directory_default = {
             fonti: [
               "n02-eyes-on-time-venezia-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-eyes-on-time-venezia-1",
+              "eyeson-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42032,13 +47286,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "0532/200132",
+        email: "gioielleria.tebaldi@libero.it",
+        sito: "https://gioielleriatebaldi.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-tebaldi-ferrara-1"
+          "n02-gioielleria-tebaldi-ferrara-1",
+          "tebaldi-sito-20261025"
         ]
       },
       orari: {
@@ -42052,6 +47307,24 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "n02-gioielleria-tebaldi-ferrara-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "tebaldi-sito-20261025"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "tebaldi-sito-20261025"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "tebaldi-sito-20261025"
           ]
         }
       ],
@@ -42100,6 +47373,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-tebaldi-ferrara-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:riparazione, servizio:batterie, servizio:manutenzione",
+            fonti: [
+              "n02-gioielleria-tebaldi-ferrara-1",
+              "tebaldi-sito-20261025"
             ]
           }
         ],
@@ -42130,26 +47411,111 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "0544/35750",
+        email: "infocimattigioie@gmail.com",
+        sito: "https://cimattigioie.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          "n02-gioielleria-f-lli-cimatti-ravenna-1",
+          "cimatti-hamilton-20261025",
+          "cimatti-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "cimatti-hamilton-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-gioielleria-f-lli-cimatti-ravenna-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "cimatti-sito-20261025"
           ]
         }
       ],
@@ -42180,9 +47546,11 @@ var directory_default = {
       storia: {
         annoFondazione: null,
         fondatore: null,
-        testo: null,
+        testo: "Il sito dell\u2019attivit\xE0 racconta la \xABClinica dell\u2019Orologio\xBB come laboratorio di riparazione attivo dal 1949.",
         eventi: [],
-        fonti: []
+        fonti: [
+          "cimatti-sito-20261025"
+        ]
       },
       attendibilita: {
         stato: "fonti-verificate",
@@ -42198,6 +47566,15 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-f-lli-cimatti-ravenna-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:vendita-usati, storia",
+            fonti: [
+              "n02-gioielleria-f-lli-cimatti-ravenna-1",
+              "cimatti-hamilton-20261025",
+              "cimatti-sito-20261025"
             ]
           }
         ],
@@ -42228,13 +47605,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "0543 24026",
+        email: "info@riccicamillo.com",
+        sito: "https://www.riccicamillo.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-ricci-forli-1"
+          "n02-gioielleria-ricci-forli-1",
+          "ricci-sito-20261025"
         ]
       },
       orari: {
@@ -42297,6 +47675,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-ricci-forli-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-gioielleria-ricci-forli-1",
+              "ricci-sito-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42326,26 +47712,116 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "059/222011",
+        email: "zacc8@libero.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-zaccarelli-orologeria-modena-1"
+          "n02-zaccarelli-orologeria-modena-1",
+          "zaccarelli-longines-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "zaccarelli-longines-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-zaccarelli-orologeria-modena-1"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "zaccarelli-longines-20261025"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "zaccarelli-longines-20261025"
           ]
         }
       ],
@@ -42369,6 +47845,12 @@ var directory_default = {
             fonti: [
               "n02-zaccarelli-orologeria-modena-1"
             ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "zaccarelli-longines-20261025"
+            ]
           }
         ],
         menzionati: []
@@ -42376,9 +47858,11 @@ var directory_default = {
       storia: {
         annoFondazione: null,
         fondatore: null,
-        testo: null,
+        testo: "Iscritta all\u2019albo comunale delle botteghe e dei mercati storici di Modena.",
         eventi: [],
-        fonti: []
+        fonti: [
+          "zaccarelli-comune-20261025"
+        ]
       },
       attendibilita: {
         stato: "fonti-verificate",
@@ -42394,6 +47878,15 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-zaccarelli-orologeria-modena-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:manutenzione, servizio:cinturini, marchio:rivenditaUfficiale:Longines, storia",
+            fonti: [
+              "n02-zaccarelli-orologeria-modena-1",
+              "zaccarelli-longines-20261025",
+              "zaccarelli-comune-20261025"
             ]
           }
         ],
@@ -42424,13 +47917,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
-        sito: null,
+        telefono: "+39 0437 942416",
+        email: "gioielleriaboni@gmail.com",
+        sito: "https://www.gioielleriaboni.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-boni-belluno-1"
+          "n02-gioielleria-boni-belluno-1",
+          "boni-sito-20261025"
         ]
       },
       orari: {
@@ -42444,6 +47938,12 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "n02-gioielleria-boni-belluno-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "boni-sito-20261025"
           ]
         }
       ],
@@ -42493,6 +47993,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-boni-belluno-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:riparazione",
+            fonti: [
+              "n02-gioielleria-boni-belluno-1",
+              "boni-sito-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42522,13 +48030,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "3282684045",
+        email: "info@ballotempoepreziosi.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-b-b-gioielli-rovigo-1"
+          "n02-b-b-gioielli-rovigo-1",
+          "bb-hamilton-20261025"
         ]
       },
       orari: {
@@ -42591,6 +48100,14 @@ var directory_default = {
             fonti: [
               "n02-b-b-gioielli-rovigo-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-b-b-gioielli-rovigo-1",
+              "bb-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42620,26 +48137,110 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0583492068",
+        email: "info@gioielleriapedonesi.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-pedonesi-lucca-1"
+          "n02-gioielleria-pedonesi-lucca-1",
+          "pedonesi-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "pedonesi-sito-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-gioielleria-pedonesi-lucca-1"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "pedonesi-sito-20261025"
           ]
         }
       ],
@@ -42689,6 +48290,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-pedonesi-lucca-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:gioielleria",
+            fonti: [
+              "n02-gioielleria-pedonesi-lucca-1",
+              "pedonesi-sito-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42718,13 +48327,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0586/898140",
+        email: "swatchlivorno@hotmail.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-casa-avelardi-livorno-1"
+          "n02-casa-avelardi-livorno-1",
+          "avelardi-hamilton-20261025"
         ]
       },
       orari: {
@@ -42787,6 +48397,14 @@ var directory_default = {
             fonti: [
               "n02-casa-avelardi-livorno-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-casa-avelardi-livorno-1",
+              "avelardi-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -42816,26 +48434,103 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0573/367513",
+        email: "amministrazione@oreficeriefabiani.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-fabiani-gioiellerie-pistoia-1"
+          "n02-fabiani-gioiellerie-pistoia-1",
+          "fabiani-sito-20261025",
+          "fabiani-longines-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "fabiani-longines-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-fabiani-gioiellerie-pistoia-1"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "fabiani-longines-20261025"
           ]
         }
       ],
@@ -42858,6 +48553,12 @@ var directory_default = {
             marca: "Hamilton",
             fonti: [
               "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "fabiani-longines-20261025"
             ]
           }
         ],
@@ -42884,6 +48585,15 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-fabiani-gioiellerie-pistoia-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:cinturini, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "n02-fabiani-gioiellerie-pistoia-1",
+              "fabiani-sito-20261025",
+              "fabiani-longines-20261025"
             ]
           }
         ],
@@ -42914,7 +48624,7 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "0584/55025",
         email: null,
         sito: null,
         whatsapp: null,
@@ -42985,6 +48695,13 @@ var directory_default = {
           {
             data: "2026-10-23",
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-law-watch-di-paolo-simi-lucca-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
             fonti: [
               "n02-law-watch-di-paolo-simi-lucca-1"
             ]
@@ -43121,20 +48838,70 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "031 4973710",
+        email: "info@orologeriamancuso.com",
         sito: "https://www.orologeriamancuso.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-orologeria-mancuso-como-1"
+          "n02-orologeria-mancuso-como-1",
+          "mancuso-contatti-20261025",
+          "mancuso-laboratorio-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "17:00"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "mancuso-contatti-20261025"
+        ]
       },
       servizi: [
         {
@@ -43184,6 +48951,12 @@ var directory_default = {
           fonti: [
             "n02-orologeria-mancuso-como-1"
           ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "mancuso-laboratorio-20261025"
+          ]
         }
       ],
       altriServizi: [],
@@ -43218,6 +48991,15 @@ var directory_default = {
             fonti: [
               "n02-orologeria-mancuso-como-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:valutazioni",
+            fonti: [
+              "n02-orologeria-mancuso-como-1",
+              "mancuso-contatti-20261025",
+              "mancuso-laboratorio-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -43248,20 +49030,89 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 3456412556",
         email: null,
         sito: "https://www.orologeriacotifava.com/",
-        whatsapp: null,
+        whatsapp: "+393456412556",
         social: [],
         fonti: [
-          "n02-orologeria-cotifava-dal-1946-mantova-1"
+          "n02-orologeria-cotifava-dal-1946-mantova-1",
+          "cotifava-orari-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "18:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "cotifava-orari-20261025"
+        ]
       },
       servizi: [
         {
@@ -43333,6 +49184,14 @@ var directory_default = {
             fonti: [
               "n02-orologeria-cotifava-dal-1946-mantova-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-orologeria-cotifava-dal-1946-mantova-1",
+              "cotifava-orari-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -43362,8 +49221,8 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0836 997212",
+        email: "info@vergarigioielli.it",
         sito: "https://www.vergarigioielli.it/",
         whatsapp: null,
         social: [],
@@ -43372,10 +49231,87 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:30"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "n02-vergari-gioielli-botrugno-1"
+        ]
       },
       servizi: [
         {
@@ -43435,6 +49371,13 @@ var directory_default = {
             fonti: [
               "n02-vergari-gioielli-botrugno-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-vergari-gioielli-botrugno-1"
+            ]
           }
         ],
         segnalazioni: []
@@ -43465,20 +49408,106 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "095 445543",
+        email: "benenati.msd@libero.it",
         sito: "https://benenati-msd4.webnode.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-benenati-msd-catania-1"
+          "n02-benenati-msd-catania-1",
+          "benenati-contatti-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "benenati-contatti-20261025"
+        ]
       },
       servizi: [
         {
@@ -43507,6 +49536,12 @@ var directory_default = {
         },
         {
           id: "restauro-vintage",
+          fonti: [
+            "n02-benenati-msd-catania-1"
+          ]
+        },
+        {
+          id: "batterie",
           fonti: [
             "n02-benenati-msd-catania-1"
           ]
@@ -43544,6 +49579,14 @@ var directory_default = {
             fonti: [
               "n02-benenati-msd-catania-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:batterie",
+            fonti: [
+              "n02-benenati-msd-catania-1",
+              "benenati-contatti-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -43575,8 +49618,8 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "392 7198711",
+        email: "clockservice@hotmail.it",
         sito: "https://www.clockservice.it/",
         whatsapp: null,
         social: [],
@@ -43586,10 +49629,87 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "n02-clock-service-catania-2"
+        ]
       },
       servizi: [
         {
@@ -43618,6 +49738,18 @@ var directory_default = {
           fonti: [
             "n02-clock-service-catania-1",
             "n02-clock-service-catania-2"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "n02-clock-service-catania-1"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-clock-service-catania-1"
           ]
         }
       ],
@@ -43655,6 +49787,14 @@ var directory_default = {
               "n02-clock-service-catania-1",
               "n02-clock-service-catania-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:batterie, servizio:vendita",
+            fonti: [
+              "n02-clock-service-catania-1",
+              "n02-clock-service-catania-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -43686,8 +49826,8 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 095415199",
+        email: "centrorologi@gmail.com",
         sito: "https://centrorologi.net/servizi/",
         whatsapp: null,
         social: [],
@@ -43737,6 +49877,12 @@ var directory_default = {
             "n02-centrorologi-gravina-di-catania-1",
             "n02-centrorologi-gravina-di-catania-2"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-centrorologi-gravina-di-catania-1"
+          ]
         }
       ],
       altriServizi: [],
@@ -43773,6 +49919,14 @@ var directory_default = {
               "n02-centrorologi-gravina-di-catania-1",
               "n02-centrorologi-gravina-di-catania-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "n02-centrorologi-gravina-di-catania-1",
+              "n02-centrorologi-gravina-di-catania-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -43804,21 +49958,103 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 09 02931884",
+        email: "lamottagioielli@gmail.com",
         sito: "https://www.lamottagioielli.it/laboratorio/",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-la-motta-gioielli-messina-1",
-          "n02-la-motta-gioielli-messina-2"
+          "n02-la-motta-gioielli-messina-2",
+          "lamotta-contatti-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "lamotta-contatti-20261025"
+        ]
       },
       servizi: [
         {
@@ -43877,6 +50113,15 @@ var directory_default = {
               "n02-la-motta-gioielli-messina-1",
               "n02-la-motta-gioielli-messina-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-la-motta-gioielli-messina-1",
+              "n02-la-motta-gioielli-messina-2",
+              "lamotta-contatti-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -43906,13 +50151,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "0923/23958",
         email: null,
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
+          "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1",
+          "dale-hamilton-20261025"
         ]
       },
       orari: {
@@ -43980,6 +50226,14 @@ var directory_default = {
             fonti: [
               "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti",
+            fonti: [
+              "n02-laboratorio-orologi-di-andrea-d-ale-trapani-1",
+              "dale-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -43997,7 +50251,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Gioielleria Di Marco a Nicosia. La fonte ufficiale documenta riparazione.",
+      descrizione: "Gioielleria Di Marco a Nicosia, con laboratorio interno: la fonte ufficiale documenta il servizio di riparazione di orologi accanto all\u2019attivit\xE0 orafa, con recapito telefonico e sito pubblicati.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "nicosia",
@@ -44011,8 +50265,8 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 0935 630838",
+        email: "gioielleriagdm08@gmail.com",
         sito: "https://www.gioielleriadimarco.it/chisiamo.php",
         whatsapp: null,
         social: [],
@@ -44033,6 +50287,12 @@ var directory_default = {
           fonti: [
             "n02-gioielleria-di-marco-nicosia-1",
             "n02-gioielleria-di-marco-nicosia-2"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "n02-gioielleria-di-marco-nicosia-1"
           ]
         }
       ],
@@ -44070,6 +50330,22 @@ var directory_default = {
               "n02-gioielleria-di-marco-nicosia-1",
               "n02-gioielleria-di-marco-nicosia-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:gioielleria",
+            fonti: [
+              "n02-gioielleria-di-marco-nicosia-1",
+              "n02-gioielleria-di-marco-nicosia-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Descrizione personalizzata completata sui dati documentati (prima: \xABGioielleria Di Marco a Nicosia. La fonte ufficiale documenta riparazione.\xBB)",
+            fonti: [
+              "n02-gioielleria-di-marco-nicosia-1",
+              "n02-gioielleria-di-marco-nicosia-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -44101,8 +50377,8 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 079 275252",
+        email: "info@denurra.it",
         sito: "https://www.denurra.it/",
         whatsapp: null,
         social: [],
@@ -44112,10 +50388,104 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:45",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "19:45"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "n02-gioielleria-de-nurra-sassari-2"
+        ]
       },
       servizi: [
         {
@@ -44151,6 +50521,12 @@ var directory_default = {
           fonti: [
             "n02-gioielleria-de-nurra-sassari-1",
             "n02-gioielleria-de-nurra-sassari-2"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-de-nurra-sassari-1"
           ]
         }
       ],
@@ -44188,6 +50564,14 @@ var directory_default = {
               "n02-gioielleria-de-nurra-sassari-1",
               "n02-gioielleria-de-nurra-sassari-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:vendita",
+            fonti: [
+              "n02-gioielleria-de-nurra-sassari-1",
+              "n02-gioielleria-de-nurra-sassari-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -44219,7 +50603,7 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 0583 493179",
         email: null,
         sito: "https://www.chiocchetti1896.com/laboratorio/",
         whatsapp: null,
@@ -44230,10 +50614,91 @@ var directory_default = {
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "n02-gioielleria-chiocchetti-lucca-2"
+        ]
       },
       servizi: [
         {
@@ -44255,6 +50720,18 @@ var directory_default = {
           fonti: [
             "n02-gioielleria-chiocchetti-lucca-1",
             "n02-gioielleria-chiocchetti-lucca-2"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-gioielleria-chiocchetti-lucca-1"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-gioielleria-chiocchetti-lucca-1"
           ]
         }
       ],
@@ -44292,6 +50769,14 @@ var directory_default = {
               "n02-gioielleria-chiocchetti-lucca-1",
               "n02-gioielleria-chiocchetti-lucca-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:lucidatura, servizio:vendita",
+            fonti: [
+              "n02-gioielleria-chiocchetti-lucca-1",
+              "n02-gioielleria-chiocchetti-lucca-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -44309,7 +50794,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "De Marco a Belluno. La fonte ufficiale documenta riparazione.",
+      descrizione: "De Marco a Belluno: gioielleria con laboratorio di orologeria. La fonte ufficiale documenta riparazione, revisione, restauro di orologi vintage, cambio pile, cinturini, manutenzione e vendita.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "belluno",
@@ -44323,14 +50808,15 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0437 950122",
+        email: "info@demarco-belluno.it",
         sito: "https://www.demarco-belluno.it/contatti/",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-de-marco-belluno-1",
-          "n02-de-marco-belluno-2"
+          "n02-de-marco-belluno-2",
+          "demarco-riparazioni-20261025"
         ]
       },
       orari: {
@@ -44345,6 +50831,42 @@ var directory_default = {
           fonti: [
             "n02-de-marco-belluno-1",
             "n02-de-marco-belluno-2"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "demarco-riparazioni-20261025"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "demarco-riparazioni-20261025"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "demarco-riparazioni-20261025"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "demarco-riparazioni-20261025"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "demarco-riparazioni-20261025"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "demarco-riparazioni-20261025"
           ]
         }
       ],
@@ -44378,6 +50900,23 @@ var directory_default = {
           {
             data: "2026-10-23",
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-de-marco-belluno-1",
+              "n02-de-marco-belluno-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:revisione, servizio:restauro-vintage, servizio:batterie, servizio:cinturini, servizio:vendita, servizio:manutenzione",
+            fonti: [
+              "n02-de-marco-belluno-1",
+              "n02-de-marco-belluno-2",
+              "demarco-riparazioni-20261025"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Descrizione personalizzata completata sui dati documentati (prima: \xABDe Marco a Belluno. La fonte ufficiale documenta riparazione.\xBB)",
             fonti: [
               "n02-de-marco-belluno-1",
               "n02-de-marco-belluno-2"
@@ -44538,21 +51077,99 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 0775 852 770",
         email: null,
         sito: "https://www.gioielleriagrande.it/centro-assistenza/",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-gioielleria-grande-frosinone-1",
-          "n02-gioielleria-grande-frosinone-2"
+          "n02-gioielleria-grande-frosinone-2",
+          "grande-contatti-20261025",
+          "grande-rolex-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "grande-contatti-20261025"
+        ]
       },
       servizi: [
         {
@@ -44588,6 +51205,24 @@ var directory_default = {
           fonti: [
             "n02-gioielleria-grande-frosinone-1",
             "n02-gioielleria-grande-frosinone-2"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "n02-gioielleria-grande-frosinone-1"
           ]
         }
       ],
@@ -44625,6 +51260,16 @@ var directory_default = {
               "n02-gioielleria-grande-frosinone-1",
               "n02-gioielleria-grande-frosinone-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari, servizio:lucidatura, servizio:valutazioni, servizio:vendita-usati",
+            fonti: [
+              "n02-gioielleria-grande-frosinone-1",
+              "n02-gioielleria-grande-frosinone-2",
+              "grande-contatti-20261025",
+              "grande-rolex-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -44656,14 +51301,15 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 393 260 9234",
+        email: "info@bottegawatches.com",
         sito: "https://bottegawatches.com/laboratorio",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-bottega-watches-pistoia-1",
-          "n02-bottega-watches-pistoia-2"
+          "n02-bottega-watches-pistoia-2",
+          "bottega-spedizioni-20261025"
         ]
       },
       orari: {
@@ -44700,6 +51346,24 @@ var directory_default = {
             "n02-bottega-watches-pistoia-1",
             "n02-bottega-watches-pistoia-2"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "n02-bottega-watches-pistoia-1"
+          ]
+        },
+        {
+          id: "acquisto-permuta",
+          fonti: [
+            "n02-bottega-watches-pistoia-1"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "n02-bottega-watches-pistoia-1"
+          ]
         }
       ],
       altriServizi: [],
@@ -44735,6 +51399,15 @@ var directory_default = {
             fonti: [
               "n02-bottega-watches-pistoia-1",
               "n02-bottega-watches-pistoia-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, servizio:vendita, servizio:acquisto-permuta, servizio:valutazioni",
+            fonti: [
+              "n02-bottega-watches-pistoia-1",
+              "n02-bottega-watches-pistoia-2",
+              "bottega-spedizioni-20261025"
             ]
           }
         ],
@@ -44857,21 +51530,99 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 0922 851509",
+        email: "martines@martinesgio.it",
         sito: "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-martines-gioielleria-canicatti-canicatti-1",
-          "n02-martines-gioielleria-canicatti-canicatti-2"
+          "n02-martines-gioielleria-canicatti-canicatti-2",
+          "martines-contatti-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "martines-contatti-20261025"
+        ]
       },
       servizi: [
         {
@@ -44930,6 +51681,15 @@ var directory_default = {
               "n02-martines-gioielleria-canicatti-canicatti-1",
               "n02-martines-gioielleria-canicatti-canicatti-2"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-martines-gioielleria-canicatti-canicatti-1",
+              "n02-martines-gioielleria-canicatti-canicatti-2",
+              "martines-contatti-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -44960,20 +51720,102 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 0564 412422",
+        email: "info@mirolli.it",
         sito: "https://mirolli.it/rolex/contatti/",
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-mirolli-grosseto-1"
+          "n02-mirolli-grosseto-1",
+          "mirolli-gioielleria-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "n02-mirolli-grosseto-1"
+        ]
       },
       servizi: [
         {
@@ -45032,6 +51874,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-mirolli-grosseto-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 2 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-mirolli-grosseto-1",
+              "mirolli-gioielleria-20261025"
             ]
           }
         ],
@@ -45151,6 +52001,12 @@ var directory_default = {
           fonti: [
             "pr6-cerescioli-paolo-ancona-1"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "pr6-cerescioli-paolo-ancona-1"
+          ]
         }
       ],
       altriServizi: [
@@ -45218,6 +52074,13 @@ var directory_default = {
             fonti: [
               "pr6-cerescioli-paolo-ancona-1",
               "pr6-cerescioli-paolo-ancona-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:vendita",
+            fonti: [
+              "pr6-cerescioli-paolo-ancona-1"
             ]
           }
         ],
@@ -45382,12 +52245,13 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 085 4212934",
-        email: null,
+        email: "info@orologeriasatolli.it",
         sito: "https://www.orologeriasatolli.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "pr6-satolli-pescara-1"
+          "pr6-satolli-pescara-1",
+          "pr6-satolli-pescara-2"
         ]
       },
       orari: {
@@ -45513,6 +52377,12 @@ var directory_default = {
           fonti: [
             "pr6-satolli-pescara-2"
           ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "pr6-satolli-pescara-2"
+          ]
         }
       ],
       altriServizi: [],
@@ -45619,6 +52489,14 @@ var directory_default = {
               "pr6-satolli-pescara-2",
               "pr6-satolli-pescara-3"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, servizio:ricambi",
+            fonti: [
+              "pr6-satolli-pescara-1",
+              "pr6-satolli-pescara-2"
+            ]
           }
         ],
         segnalazioni: []
@@ -45650,12 +52528,14 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 071 201269",
-        email: null,
-        sito: null,
+        email: "info@wargasisti.com",
+        sito: "https://wargasisti.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "pr6-wargas-sisti-ancona-1"
+          "pr6-wargas-sisti-ancona-1",
+          "f-wargasisti-com-contatti",
+          "f-www-longines-com-en-us-store-id-wargas-sisti-dei-flli-melani"
         ]
       },
       orari: {
@@ -45766,7 +52646,14 @@ var directory_default = {
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "f-www-longines-com-en-us-store-id-wargas-sisti-dei-flli-melani"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -45800,6 +52687,15 @@ var directory_default = {
             fonti: [
               "pr6-wargas-sisti-ancona-1",
               "pr6-wargas-sisti-ancona-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 3 di arricchimento: contatti, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "pr6-wargas-sisti-ancona-1",
+              "f-wargasisti-com-contatti",
+              "f-www-longines-com-en-us-store-id-wargas-sisti-dei-flli-melani"
             ]
           }
         ],
