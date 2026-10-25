@@ -221,8 +221,11 @@ test('risultati vuoti spiegati senza invenzioni', () => {
   if (r.totale === 0) assert.match(r.messaggi.join(' '), /Nessuna attività soddisfa/);
 });
 test('città in minuscolo senza servizio locale propone alternative', () => {
-  const criteri = interpretaRichiesta('Cerco cambio batteria a milano', data).criteri;
-  assert.equal(criteri.localita, 'milano');
+  // Poggibonsi (come prima Milano) ha attività censite ma nessuna che sostituisca le batterie,
+  // né in comune né in provincia: il nome in minuscolo deve restare riconosciuto e il servizio
+  // non coperto deve generare alternative dichiarate come possibilmente lontane.
+  const criteri = interpretaRichiesta('Cerco cambio batteria a poggibonsi', data).criteri;
+  assert.equal(criteri.localita, 'poggibonsi');
   assert.equal(criteri.servizio, 'batterie');
   const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
   assert.equal(risultato.stato, 'nessun-risultato');
@@ -302,9 +305,14 @@ test('ricerche geografiche di servizi per cinturini distinguono città coperte e
     assert.equal(r.stato, 'ok', msg);
     assert.ok(r.risultati.some(x => x.id === attesoId), `${msg} -> ${attesoId}`);
   }
+  // Milano è coperta dal quick service di Ronchi (sito ufficiale, lotto 1 del 25/10/2026):
+  // la città diventa «coperta» e il caso negativo si sposta su un comune privo del servizio.
   const milano = cerca('Vorrei sostituire il cinturino a Milano');
-  assert.equal(milano.stato, 'nessun-risultato');
-  assert.equal(milano.risultati.length, 0);
+  assert.equal(milano.stato, 'ok');
+  assert.ok(milano.risultati.some(x => x.id === 'ronchi-gioielli'));
+  const empoli = cerca('Vorrei sostituire il cinturino a Empoli');
+  assert.equal(empoli.stato, 'nessun-risultato');
+  assert.equal(empoli.risultati.length, 0);
 });
 
 test('regioni composte e capoluoghi: «Valle d’Aosta» resta una regione, «Aosta» resta il comune', () => {

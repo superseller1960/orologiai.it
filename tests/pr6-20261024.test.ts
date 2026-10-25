@@ -7,12 +7,14 @@ import { findDuplicates } from '../site/src/lib/duplicates.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 
 // La fusione PR #6 (4 inserimenti Ancona/Pescara + 6 arricchimenti) si verifica sul confronto
-// fra lo snapshot precedente alla fusione (commit 3759dcb, 155 attività) e il dataset corrente.
+// fra lo snapshot precedente alla fusione (commit 3759dcb, 155 attività) e il dataset del lotto
+// (snapshot 0c684f1, PR #6 + correzione provincia AO): le asserzioni esatte restano valide senza
+// vietare incrementi documentati successivi, come già fatto per FB23, N02 e Toscana-02.
 const prima = directorySchema.parse(JSON.parse(execFileSync(
   'git', ['show', '3759dcb4fd7c4e200c6e00790e0f963326259779:site/data/directory.json'],
   { maxBuffer: 16 * 1024 * 1024 },
 ).toString())) as Directory;
-const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8'))) as Directory;
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', '0c684f1:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
 const NUOVI = ['cerescioli-paolo-ancona', 'gibi-shop-ancona', 'satolli-pescara', 'wargas-sisti-ancona'];
 const ARRICCHITI = ['bigalli', 'fani-gioielli', 'marretti', 'sangalli', 'scardi', 'senzatempo-firenze'];
 

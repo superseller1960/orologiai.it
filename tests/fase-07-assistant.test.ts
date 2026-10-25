@@ -148,9 +148,11 @@ test('07A: provider non disponibile conserva i criteri dei turni precedenti', as
 });
 
 test('07A: servizio assente non produce risultati con servizi diversi', () => {
-  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale', servizio: 'pendoleria' });
+  // Nessun rivenditore ufficiale Hamilton documenta la sostituzione batterie (Orsi ha aggiunto
+  // pendoleria nel lotto 1 del 25/10/2026, quindi il servizio di fixture cambia).
+  const r = cercaOrologiaio(dir, { marca: 'Hamilton', ruoloMarca: 'rivenditaUfficiale', servizio: 'batterie' });
   assert.equal(r.totale, 0);
-  assert.ok(r.alternative.every(x => dir.attivita.find(b => b.id === x.id)!.servizi.some(s => s.id === 'pendoleria')));
+  assert.ok(r.alternative.every(x => dir.attivita.find(b => b.id === x.id)!.servizi.some(s => s.id === 'batterie')));
 });
 
 test('07A: coordinate non verificate non entrano nel calcolo delle distanze', () => {

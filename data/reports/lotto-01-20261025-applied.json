@@ -1,0 +1,308 @@
+{
+  "lotto": "lotto-01-20261025",
+  "data": "2026-10-25",
+  "criterio": "Solo dati documentati da fonti ufficiali consultate il 2026-10-25; nessun dato inventato.",
+  "attivitaEsaminate": 20,
+  "attivitaModificate": [
+    {
+      "id": "renai-pontassieve",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "spaziotempo-sanminiato",
+      "campi": [
+        "servizio:valutazioni"
+      ]
+    },
+    {
+      "id": "ronchi-gioielli",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:riparazione",
+        "servizio:revisione",
+        "servizio:batterie",
+        "servizio:cinturini",
+        "servizio:vendita-usati"
+      ]
+    },
+    {
+      "id": "murgia-cagliari",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:assistenza",
+        "marchio:riparati:Cartier",
+        "marchio:riparati:Baume & Mercier",
+        "marchio:riparati:Zenith",
+        "marchio:riparati:Eberhard"
+      ]
+    },
+    {
+      "id": "l-angolo-delle-ore-novara",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:acquisto-permuta",
+        "servizio:vendita-usati",
+        "marchio:venduti:Rolex",
+        "marchio:riparati:Rolex",
+        "marchio:riparati:Tudor"
+      ]
+    },
+    {
+      "id": "gioielleria-gaddi-zucchi-novara",
+      "campi": [
+        "contatti",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "gioielleria-simonini-vercelli",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "orsi-gioielleria-verbania",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:riparazione",
+        "servizio:pendoleria"
+      ]
+    },
+    {
+      "id": "gioielleria-bisio-asti",
+      "campi": [
+        "contatti",
+        "orari",
+        "marchio:rivenditaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "gioielleria-fontana-varese",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "fasola-gioielleria-como",
+      "campi": [
+        "contatti",
+        "servizio:riparazione",
+        "servizio:manutenzione"
+      ]
+    },
+    {
+      "id": "de-pascalis-spa-lecco",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "florio-folini-srl-sondrio",
+      "campi": [
+        "contatti",
+        "orari",
+        "servizio:revisione",
+        "servizio:restauro-vintage",
+        "servizio:valutazioni",
+        "marchio:riparati:Rolex"
+      ]
+    },
+    {
+      "id": "gioielleria-la-marca-vittorio-pavia",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioiellerie-torelli-cremona",
+      "campi": [
+        "contatti",
+        "orari",
+        "marchio:rivenditaUfficiale:Omega"
+      ]
+    },
+    {
+      "id": "gioielleria-angelini-srl-monza",
+      "campi": [
+        "marchio:rivenditaUfficiale:Longines",
+        "marchio:rivenditaUfficiale:Hamilton",
+        "marchio:rivenditaUfficiale:Omega"
+      ]
+    }
+  ],
+  "attivitaSenzaNuoviDati": [
+    "rocca",
+    "pirone-napoli",
+    "censi-genova",
+    "trossello-courmayeur"
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "renai-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.renai.it/contattaci"
+    },
+    {
+      "id": "spaziotempo-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.spaziotempoboutique.com/vendere-orologio-di-lusso/"
+    },
+    {
+      "id": "ronchi-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ronchigioielli.com/contatti"
+    },
+    {
+      "id": "ronchi-servizi-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ronchigioielli.com/servizi"
+    },
+    {
+      "id": "ronchi-orologi-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ronchigioielli.com/orologi"
+    },
+    {
+      "id": "ronchi-secondo-polso-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ronchigioielli.com/secondo-polso"
+    },
+    {
+      "id": "murgia-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.giampieromurgia.com/contatti.php"
+    },
+    {
+      "id": "murgia-home-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.giampieromurgia.com/"
+    },
+    {
+      "id": "angolo-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.angolodelleore.it/contatti/"
+    },
+    {
+      "id": "angolo-home-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.angolodelleore.it/"
+    },
+    {
+      "id": "angolo-rolex-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.angolodelleore.it/rolex/contatti/"
+    },
+    {
+      "id": "gaddi-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/gioielleria-gaddi-zucchi-novara-1852354"
+    },
+    {
+      "id": "simonini-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italia/piedmont/vercelli/gioielleria-simonini"
+    },
+    {
+      "id": "orsi-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orsigioielleria.com/contatti/"
+    },
+    {
+      "id": "orsi-chisiamo-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orsigioielleria.com/chi-siamo/"
+    },
+    {
+      "id": "bisio-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.bisiogioielleria.it/contatti"
+    },
+    {
+      "id": "bisio-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/bisio-srl-asti-864286"
+    },
+    {
+      "id": "fontana-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italie/lombardy/varese/gioielleria-fontana"
+    },
+    {
+      "id": "fasola-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fasolagioielleria.it/"
+    },
+    {
+      "id": "depascalis-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/de-pascalis-spa-lecco-143569"
+    },
+    {
+      "id": "floriofolini-dove-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.floriofolini.it/it/dove-trovarci"
+    },
+    {
+      "id": "floriofolini-servizi-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.floriofolini.it/it/noi/cosa-facciamo-per-voi"
+    },
+    {
+      "id": "floriofolini-rolex-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.floriofolini.it/it/rolex/manutenzione"
+    },
+    {
+      "id": "lamarca-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/pavia/gioielleria-la-marca-vittorio"
+    },
+    {
+      "id": "torelli-sito-20261025",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerietorelli.com/pages/about-us"
+    },
+    {
+      "id": "torelli-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/gioiellerie-torelli-cremona-1799010"
+    },
+    {
+      "id": "torelli-omega-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.omegawatches.com/en-us/store/storedetails/O1799012"
+    },
+    {
+      "id": "angelini-longines-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/gioielleria-angelini-srl-monza-1678291"
+    },
+    {
+      "id": "angelini-hamilton-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-hk/store-locator/italia/lombardia/monza/gioielleria-angelini"
+    },
+    {
+      "id": "angelini-omega-20261025",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.omegawatches.com/en-us/store/storedetails/1002377"
+    }
+  ],
+  "anomalie": [
+    "gioielleria-angelini-srl-monza: telefono discordante fra schede ufficiali dei marchi (039-6362219 Hamilton/Omega; 02/9608228 Longines): nessun recapito inserito.",
+    "gioiellerie-torelli-cremona: indirizzo discordante (Corso Campi 21 A sul sito dell’attività; Corso Campi 15 su schede Longines/Omega): indirizzo invariato.",
+    "trossello-courmayeur: seconda sede ad Aosta documentata, ma lo schema non prevede sedi multiple: non rappresentata.",
+    "rocca: pagine ufficiali del gruppo non leggibili durante la consultazione: nessun dato aggiuntivo inserito.",
+    "pirone-napoli, censi-genova: nessun recapito pubblicato nelle pagine ufficiali consultate."
+  ],
+  "nonFatto": [
+    "Nessuna autorizzazione ufficiale aggiunta: le dichiarazioni di «riparatore ufficiale» (murgia, florio-folini, angolo, trossello) provengono dai siti delle attività e non da fonti dei marchi."
+  ]
+}

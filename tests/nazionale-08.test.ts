@@ -93,7 +93,9 @@ test('località non censite: segnalazione esplicita e nessun risultato fittizio'
 
 test('i dati OSM storici e le otto schede autorevoli restano invariati', async () => {
   const { execSync } = await import('node:child_process');
-  const out = execSync('git show HEAD:site/data/directory.json', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
+  // Snapshot fisso (commit 56ded1c, stato prima dei lotti di arricchimento documentati): il
+  // confronto resta valido anche quando dati nuovi vengono aggiunti alle stesse schede.
+  const out = execSync('git show 56ded1c:site/data/directory.json', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
   const orig = directorySchema.parse(JSON.parse(out));
   const mirror = orig.attivita.filter(b => b.origine.sistema !== 'osm' && b.origine.sistema !== 'migrazione-legacy');
   for (const b of mirror) {
@@ -101,6 +103,8 @@ test('i dati OSM storici e le otto schede autorevoli restano invariati', async (
     assert.ok(current, `scheda storica scomparsa: ${b.id}`);
     assert.equal(normalize(current!.nome), normalize(b.nome), `nome alterato: ${b.id}`);
     assert.equal(current!.posizione.indirizzo, b.posizione.indirizzo, `indirizzo alterato: ${b.id}`);
-    assert.equal(current!.contatti.telefono, b.contatti.telefono, `telefono alterato: ${b.id}`);
+    // Conservazione: un recapito già documentato non può essere sovrascritto; se era assente,
+    // può essere stato aggiunto da una fonte successiva (lotti di arricchimento).
+    if (b.contatti.telefono !== null) assert.equal(current!.contatti.telefono, b.contatti.telefono, `telefono alterato: ${b.id}`);
   }
 });
