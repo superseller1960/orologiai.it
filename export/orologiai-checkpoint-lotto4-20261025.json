@@ -1,0 +1,85 @@
+{
+  "checkpoint": "orologiai-checkpoint-lotto4-20261025",
+  "data": "2026-10-25",
+  "contenuto": {
+    "bundle_git": {
+      "file": "export/orologiai-backup-repo-lotto4-20261025.bundle",
+      "bytes": 7509042,
+      "sha256": "9dc5fdf7ed6a1674963c87070084175c98e8ddc7bc438df2aafda98dcbaf4c81"
+    },
+    "zip_sorgenti": {
+      "file": "export/orologiai-sorgenti-lotto4-20261025.zip",
+      "bytes": 7659586,
+      "sha256": "eeed52b5662771f35cdc5ac1928bf6b9fb39779c896fcbb2ce116821789f8c1e"
+    },
+    "database": {
+      "file": "export/orologiai-directory-lotto4-20261025.json",
+      "bytes": 912203,
+      "sha256": "e51e74bcd3a611dbffc1e0c8f64e7717120bd7386bfc93fbbc1158dbcb04fa87"
+    },
+    "report_attivita_modificate": "data/reports/lotto-04-20261025-applied.json (incluso nello ZIP e nel bundle)",
+    "report_lotti_precedenti": [
+      "data/reports/lotto-01-20261025-applied.json",
+      "data/reports/lotto-02-20261025-applied.json",
+      "data/reports/lotto-03-20261025-applied.json",
+      "data/reports/descrizioni-20261025-applied.json"
+    ]
+  },
+  "git": {
+    "branch": "feature/schede-orologerie-ux",
+    "commits": [
+      "966a7d7 Rigenera il bundle API Vercel con il database del lotto 4",
+      "fc730d0 Lotto 4: risolve 15 anomalie documentali, corregge 2 indirizzi e aggiunge 4 sedi autonome",
+      "e9af003 Aggiunge il report finale della campagna di arricchimento del 25/10/2026",
+      "89deb7f Rigenera il bundle API Vercel con il database del lotto 3",
+      "da5624a Lotto 3 di arricchimento: 97 schede arricchite e descrizioni completate, 60 fonti ufficiali del 25/10/2026",
+      "760d837 Lotto 2 di arricchimento: 33 schede arricchite, 37 fonti ufficiali del 25/10/2026",
+      "8559396 Rigenera il bundle API Vercel con il database del lotto 1",
+      "f601888 Aggiunge il pacchetto di consegna e il checkpoint git durevole in export/",
+      "adfbdb0 Lotto 1 di arricchimento: 16 schede arricchite con fonti ufficiali del 25/10/2026",
+      "56ded1c Corregge il tipo di http nel probe URL di audit-dati (number | null)",
+      "ef283f9 Rende le schede delle orologerie più leggibili: azioni di contatto, servizi raggruppati, fonti espandibili",
+      "1f8f46d [CF-Pages-Skip] Completa il registro di consegna con i difetti di ricerca corretti e il rilascio finale"
+    ],
+    "head": "966a7d7d7eb646a7bd5756258002efb35444da87"
+  },
+  "cloudflare": {
+    "progetto": "orologiai-it",
+    "production_branch": "pubblicazione-gratuita-scardi-20261022",
+    "deployment_produzione": {
+      "id": "9167faec-3fb7-4c34-9ddd-407488747736",
+      "short_id": "9167faec",
+      "url": "https://9167faec.orologiai-it.pages.dev",
+      "alias": "https://www.orologiai.it",
+      "creato_il": "2026-10-25T18:47:23Z"
+    },
+    "deployment_produzione_precedente": {
+      "id": "a8ce48e2-dea4-44fa-830d-20474332a83a",
+      "nota": "rollback possibile con CLOUDFLARE_ROLLBACK_PAGES_DEPLOYMENT"
+    },
+    "preview_lotto_4": {
+      "short_id": "1d7e1a6b",
+      "url": "https://1d7e1a6b.orologiai-it.pages.dev",
+      "alias": "https://preview-lotto4-20261025.orologiai-it.pages.dev"
+    },
+    "wrangler": "4.152.0",
+    "pipeline": "npm run package:pages → .runtime/pages-build → npx wrangler@4 pages deploy .runtime/pages-build --project-name orologiai-it"
+  },
+  "stato": {
+    "attivita": 163,
+    "localita": 102,
+    "fonti": 398,
+    "lotto": "lotto-04-20261025",
+    "test": "210/210 verdi (npm run verify completo il 25/10/2026)"
+  },
+  "ripristino": [
+    "1. git clone export/orologiai-backup-repo-lotto4-20261025.bundle ripristino && cd ripristino (branch feature/schede-orologerie-ux)",
+    "2. In alternativa: unzip export/orologiai-sorgenti-lotto4-20261025.zip in una cartella vuota (sorgenti tracciati a HEAD)",
+    "3. npm ci && npm run verify (typecheck, build, 210 test, test DOM)",
+    "4. npm run package:pages → .runtime/pages-build; collaudo locale con npx wrangler@4 pages dev .runtime/pages-build",
+    "5. Deploy preview: npx wrangler@4 pages deploy .runtime/pages-build --project-name orologiai-it --branch preview",
+    "6. Produzione: stesso artefatto con --branch pubblicazione-gratuita-scardi-20261022",
+    "7. Verifica https://www.orologiai.it (home 200, apex 301, sitemap, API 405/200/415/403, /api/posizione 200)",
+    "8. Rollback rapido senza rebuild: promuovere il deployment a8ce48e2-dea4-44fa-830d-20474332a83a"
+  ]
+}
