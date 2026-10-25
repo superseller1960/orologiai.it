@@ -22710,6 +22710,276 @@ var directory_default = {
       consultataIl: "2026-10-24",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "renai-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "http://www.renai.it/contattaci",
+      titolo: "Renai \u2014 contatti (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "spaziotempo-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.spaziotempoboutique.com/vendere-orologio-di-lusso/",
+      titolo: "Spazio Tempo \u2014 vendita e valutazione orologi usati (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "ronchi-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.ronchigioielli.com/contatti",
+      titolo: "Ronchi Gioielli \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "ronchi-servizi-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.ronchigioielli.com/servizi",
+      titolo: "Ronchi Gioielli \u2014 servizi post vendita e quick service (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "ronchi-orologi-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.ronchigioielli.com/orologi",
+      titolo: "Ronchi Gioielli \u2014 vendita orologi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "ronchi-secondo-polso-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.ronchigioielli.com/secondo-polso",
+      titolo: "Ronchi Gioielli \u2014 secondo polso e revisione (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "murgia-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.giampieromurgia.com/contatti.php",
+      titolo: "Giampiero Murgia \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "murgia-home-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.giampieromurgia.com/",
+      titolo: "Giampiero Murgia \u2014 attivit\xE0 e servizi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angolo-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.angolodelleore.it/contatti/",
+      titolo: "L\u2019Angolo delle Ore \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angolo-home-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.angolodelleore.it/",
+      titolo: "L\u2019Angolo delle Ore \u2014 vendita e secondo polso (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angolo-rolex-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.angolodelleore.it/rolex/contatti/",
+      titolo: "L\u2019Angolo delle Ore \u2014 laboratorio e servizi su orologi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "gaddi-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/gioielleria-gaddi-zucchi-novara-1852354",
+      titolo: "Longines \u2014 scheda rivenditore Gaddi Zucchi, Novara",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "simonini-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italia/piedmont/vercelli/gioielleria-simonini",
+      titolo: "Hamilton \u2014 scheda rivenditore Simonini, Vercelli",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "orsi-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orsigioielleria.com/contatti/",
+      titolo: "Orsi Gioielleria \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "orsi-chisiamo-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.orsigioielleria.com/chi-siamo/",
+      titolo: "Orsi Gioielleria \u2014 laboratorio e riparazioni (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "bisio-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.bisiogioielleria.it/contatti",
+      titolo: "Bisio Gioielleria \u2014 contatti e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "bisio-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/bisio-srl-asti-864286",
+      titolo: "Longines \u2014 scheda rivenditore Bisio, Asti",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fontana-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italie/lombardy/varese/gioielleria-fontana",
+      titolo: "Hamilton \u2014 scheda rivenditore Fontana, Varese",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "fasola-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.fasolagioielleria.it/",
+      titolo: "Fasola Gioielleria \u2014 sito ufficiale",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "depascalis-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/de-pascalis-spa-lecco-143569",
+      titolo: "Longines \u2014 scheda rivenditore De Pascalis, Lecco",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "floriofolini-dove-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.floriofolini.it/it/dove-trovarci",
+      titolo: "Florio Folini \u2014 sedi e orari (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "floriofolini-servizi-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.floriofolini.it/it/noi/cosa-facciamo-per-voi",
+      titolo: "Florio Folini \u2014 servizi e perizie (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "floriofolini-rolex-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.floriofolini.it/it/rolex/manutenzione",
+      titolo: "Florio Folini \u2014 manutenzione orologi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "lamarca-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/pavia/gioielleria-la-marca-vittorio",
+      titolo: "Hamilton \u2014 scheda rivenditore La Marca, Pavia",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "torelli-sito-20261025",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioiellerietorelli.com/pages/about-us",
+      titolo: "Gioiellerie Torelli \u2014 sedi e servizi (sito ufficiale)",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "torelli-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/gioiellerie-torelli-cremona-1799010",
+      titolo: "Longines \u2014 scheda rivenditore Torelli, Cremona",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "torelli-omega-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.omegawatches.com/en-us/store/storedetails/O1799012",
+      titolo: "Omega \u2014 scheda rivenditore Torelli, Cremona",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angelini-longines-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/gioielleria-angelini-srl-monza-1678291",
+      titolo: "Longines \u2014 scheda rivenditore Angelini, Monza",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angelini-hamilton-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-hk/store-locator/italia/lombardia/monza/gioielleria-angelini",
+      titolo: "Hamilton \u2014 scheda rivenditore Angelini, Monza",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "angelini-omega-20261025",
+      tipo: "marchio-ufficiale",
+      url: "https://www.omegawatches.com/en-us/store/storedetails/1002377",
+      titolo: "Omega \u2014 scheda rivenditore Angelini, Monza",
+      consultataIl: "2026-10-25",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -25638,18 +25908,96 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 02 877449",
+        email: "info@ronchigioielli.com",
         sito: null,
         whatsapp: null,
         social: [],
-        fonti: []
+        fonti: [
+          "ronchi-sito-20261025"
+        ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "ronchi-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -25662,6 +26010,36 @@ var directory_default = {
           id: "assistenza",
           fonti: [
             "mirror-milano"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "ronchi-secondo-polso-20261025"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "ronchi-secondo-polso-20261025"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "ronchi-servizi-20261025"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "ronchi-servizi-20261025"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "ronchi-orologi-20261025"
           ]
         }
       ],
@@ -25692,12 +26070,13 @@ var directory_default = {
         ]
       },
       attendibilita: {
-        stato: "da-verificare",
+        stato: "fonti-verificate",
         raccoltaIl: "2026-10-16",
-        verificataIl: null,
+        verificataIl: "2026-10-25",
         confermataTitolareIl: null,
         fonti: [
-          "mirror-milano"
+          "mirror-milano",
+          "ronchi-sito-20261025"
         ],
         cronologia: [
           {
@@ -25720,6 +26099,17 @@ var directory_default = {
             azione: "Fase 3 (tutela legale): la frase \xABprimo rivenditore autorizzato Rolex in Italia dal 1929\xBB risultava attribuita come fatto senza una fonte del marchio. Il testo storico \xE8 conservato integralmente ma attribuito alla fonte storica; nessuna rivendita ufficiale \xE8 registrata.",
             fonti: [
               "mirror-milano"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, servizio:riparazione, servizio:revisione, servizio:batterie, servizio:cinturini, servizio:vendita-usati",
+            fonti: [
+              "mirror-milano",
+              "ronchi-sito-20261025",
+              "ronchi-secondo-polso-20261025",
+              "ronchi-servizi-20261025",
+              "ronchi-orologi-20261025"
             ]
           }
         ],
@@ -26747,13 +27137,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "055.8368053",
+        email: "info@renai.it",
         sito: "http://www.renai.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "t02-renai-servizi"
+          "t02-renai-servizi",
+          "renai-sito-20261025"
         ]
       },
       orari: {
@@ -26817,6 +27208,15 @@ var directory_default = {
             fonti: [
               "t02-renai-servizi",
               "t02-renai-storia"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti",
+            fonti: [
+              "t02-renai-servizi",
+              "t02-renai-storia",
+              "renai-sito-20261025"
             ]
           }
         ],
@@ -27573,6 +27973,12 @@ var directory_default = {
           fonti: [
             "t02-spazio-boutique"
           ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "spaziotempo-sito-20261025"
+          ]
         }
       ],
       altriServizi: [],
@@ -27628,6 +28034,15 @@ var directory_default = {
             fonti: [
               "t02-spazio-contatti",
               "t02-spazio-boutique"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: servizio:valutazioni",
+            fonti: [
+              "t02-spazio-contatti",
+              "t02-spazio-boutique",
+              "spaziotempo-sito-20261025"
             ]
           }
         ],
@@ -35910,20 +36325,97 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "070/663900",
+        email: "murgia.lab@alice.it",
         sito: "https://www.giampieromurgia.com/",
         whatsapp: null,
         social: [],
         fonti: [
-          "r26-murgia-cagliari"
+          "r26-murgia-cagliari",
+          "murgia-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: []
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "murgia-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -35943,13 +36435,44 @@ var directory_default = {
           fonti: [
             "r26-murgia-cagliari"
           ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "murgia-home-20261025"
+          ]
         }
       ],
       altriServizi: [],
       specializzazioni: [],
       marchi: {
         venduti: [],
-        riparati: [],
+        riparati: [
+          {
+            marca: "Cartier",
+            fonti: [
+              "murgia-home-20261025"
+            ]
+          },
+          {
+            marca: "Baume & Mercier",
+            fonti: [
+              "murgia-home-20261025"
+            ]
+          },
+          {
+            marca: "Zenith",
+            fonti: [
+              "murgia-home-20261025"
+            ]
+          },
+          {
+            marca: "Eberhard",
+            fonti: [
+              "murgia-home-20261025"
+            ]
+          }
+        ],
         esperienza: [
           {
             marca: "Zenith",
@@ -36014,6 +36537,15 @@ var directory_default = {
             azione: "Acquisizione da sito ufficiale nel rilancio nazionale: indirizzo, recapiti e servizi dichiarati.",
             fonti: [
               "r26-murgia-cagliari"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, servizio:assistenza, marchio:riparati:Cartier, marchio:riparati:Baume & Mercier, marchio:riparati:Zenith, marchio:riparati:Eberhard",
+            fonti: [
+              "r26-murgia-cagliari",
+              "murgia-home-20261025",
+              "murgia-sito-20261025"
             ]
           }
         ],
@@ -38816,21 +39348,98 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 0321 624313",
+        email: "info@angolodelleore.eu",
         sito: "https://www.angolodelleore.it/",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-l-angolo-delle-ore-novara-1",
-          "n02-l-angolo-delle-ore-novara-2"
+          "n02-l-angolo-delle-ore-novara-2",
+          "angolo-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "angolo-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -38853,13 +39462,45 @@ var directory_default = {
             "n02-l-angolo-delle-ore-novara-1",
             "n02-l-angolo-delle-ore-novara-2"
           ]
+        },
+        {
+          id: "acquisto-permuta",
+          fonti: [
+            "angolo-home-20261025"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "angolo-home-20261025"
+          ]
         }
       ],
       altriServizi: [],
       specializzazioni: [],
       marchi: {
-        venduti: [],
-        riparati: [],
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "angolo-home-20261025"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "angolo-rolex-20261025"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "angolo-rolex-20261025"
+            ]
+          }
+        ],
         esperienza: [],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
@@ -38888,6 +39529,16 @@ var directory_default = {
             fonti: [
               "n02-l-angolo-delle-ore-novara-1",
               "n02-l-angolo-delle-ore-novara-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, servizio:acquisto-permuta, servizio:vendita-usati, marchio:venduti:Rolex, marchio:riparati:Rolex, marchio:riparati:Tudor",
+            fonti: [
+              "n02-l-angolo-delle-ore-novara-1",
+              "n02-l-angolo-delle-ore-novara-2",
+              "angolo-home-20261025",
+              "angolo-sito-20261025"
             ]
           }
         ],
@@ -38918,13 +39569,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "0321 1828238",
         email: null,
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-gaddi-zucchi-novara-1"
+          "n02-gioielleria-gaddi-zucchi-novara-1",
+          "gaddi-longines-20261025"
         ]
       },
       orari: {
@@ -38967,7 +39619,14 @@ var directory_default = {
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "gaddi-longines-20261025"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -38991,6 +39650,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-gaddi-zucchi-novara-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "n02-gioielleria-gaddi-zucchi-novara-1",
+              "gaddi-longines-20261025"
             ]
           }
         ],
@@ -39021,13 +39688,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0161/54435",
+        email: "carlo.simonini@gmail.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-simonini-vercelli-1"
+          "n02-gioielleria-simonini-vercelli-1",
+          "simonini-hamilton-20261025"
         ]
       },
       orari: {
@@ -39090,6 +39758,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-simonini-vercelli-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti",
+            fonti: [
+              "n02-gioielleria-simonini-vercelli-1",
+              "simonini-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -39119,26 +39795,120 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0323-404463",
+        email: "orsigioielleria@hotmail.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-orsi-gioielleria-verbania-1"
+          "n02-orsi-gioielleria-verbania-1",
+          "orsi-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:00"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "orsi-sito-20261025"
+        ]
       },
       servizi: [
         {
           id: "vendita",
           fonti: [
             "n02-orsi-gioielleria-verbania-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "orsi-chisiamo-20261025"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "orsi-chisiamo-20261025"
           ]
         }
       ],
@@ -39187,6 +39957,15 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-orsi-gioielleria-verbania-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, servizio:riparazione, servizio:pendoleria",
+            fonti: [
+              "n02-orsi-gioielleria-verbania-1",
+              "orsi-chisiamo-20261025",
+              "orsi-sito-20261025"
             ]
           }
         ],
@@ -39217,20 +39996,97 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 0141 592654",
+        email: "bisioasti@bisioasti.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-bisio-asti-1"
+          "n02-gioielleria-bisio-asti-1",
+          "bisio-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "bisio-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -39260,6 +40116,12 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-bisio-asti-1"
             ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "bisio-longines-20261025"
+            ]
           }
         ],
         menzionati: []
@@ -39285,6 +40147,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioielleria-bisio-asti-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, marchio:rivenditaUfficiale:Longines",
+            fonti: [
+              "n02-gioielleria-bisio-asti-1",
+              "bisio-sito-20261025"
             ]
           }
         ],
@@ -39315,13 +40185,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0332/234044",
+        email: "info@fontanapaolosrl.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-fontana-varese-1"
+          "n02-gioielleria-fontana-varese-1",
+          "fontana-hamilton-20261025"
         ]
       },
       orari: {
@@ -39384,6 +40255,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-fontana-varese-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti",
+            fonti: [
+              "n02-gioielleria-fontana-varese-1",
+              "fontana-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -39413,13 +40292,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "+39 031263471",
+        email: "info@fasolagioielleria.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-fasola-gioielleria-como-1"
+          "n02-fasola-gioielleria-como-1",
+          "fasola-sito-20261025"
         ]
       },
       orari: {
@@ -39433,6 +40313,18 @@ var directory_default = {
           id: "vendita",
           fonti: [
             "n02-fasola-gioielleria-como-1"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "fasola-sito-20261025"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "fasola-sito-20261025"
           ]
         }
       ],
@@ -39482,6 +40374,14 @@ var directory_default = {
             fonti: [
               "n02-fasola-gioielleria-como-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, servizio:riparazione, servizio:manutenzione",
+            fonti: [
+              "n02-fasola-gioielleria-como-1",
+              "fasola-sito-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -39511,20 +40411,102 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0341/365035",
+        email: "info@depascalisgioielli.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-de-pascalis-spa-lecco-1"
+          "n02-de-pascalis-spa-lecco-1",
+          "depascalis-longines-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:00",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "depascalis-longines-20261025"
+        ]
       },
       servizi: [
         {
@@ -39585,6 +40567,14 @@ var directory_default = {
             fonti: [
               "n02-de-pascalis-spa-lecco-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari",
+            fonti: [
+              "n02-de-pascalis-spa-lecco-1",
+              "depascalis-longines-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -39615,21 +40605,98 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
+        telefono: "+39 0342 512314",
         email: null,
         sito: "https://www.floriofolini.it/it/",
         whatsapp: null,
         social: [],
         fonti: [
           "n02-florio-folini-srl-sondrio-1",
-          "n02-florio-folini-srl-sondrio-2"
+          "n02-florio-folini-srl-sondrio-2",
+          "floriofolini-dove-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: []
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "floriofolini-dove-20261025"
+        ]
       },
       servizi: [
         {
@@ -39645,13 +40712,38 @@ var directory_default = {
             "n02-florio-folini-srl-sondrio-1",
             "n02-florio-folini-srl-sondrio-2"
           ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "floriofolini-servizi-20261025"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "floriofolini-servizi-20261025"
+          ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "floriofolini-servizi-20261025"
+          ]
         }
       ],
       altriServizi: [],
       specializzazioni: [],
       marchi: {
         venduti: [],
-        riparati: [],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "floriofolini-rolex-20261025"
+            ]
+          }
+        ],
         esperienza: [],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
@@ -39680,6 +40772,16 @@ var directory_default = {
             fonti: [
               "n02-florio-folini-srl-sondrio-1",
               "n02-florio-folini-srl-sondrio-2"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, servizio:revisione, servizio:restauro-vintage, servizio:valutazioni, marchio:riparati:Rolex",
+            fonti: [
+              "n02-florio-folini-srl-sondrio-1",
+              "n02-florio-folini-srl-sondrio-2",
+              "floriofolini-servizi-20261025",
+              "floriofolini-dove-20261025"
             ]
           }
         ],
@@ -39710,13 +40812,14 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0382/25078",
+        email: "gioielleria.lamarca@libero.it",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioielleria-la-marca-vittorio-pavia-1"
+          "n02-gioielleria-la-marca-vittorio-pavia-1",
+          "lamarca-hamilton-20261025"
         ]
       },
       orari: {
@@ -39779,6 +40882,14 @@ var directory_default = {
             fonti: [
               "n02-gioielleria-la-marca-vittorio-pavia-1"
             ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti",
+            fonti: [
+              "n02-gioielleria-la-marca-vittorio-pavia-1",
+              "lamarca-hamilton-20261025"
+            ]
           }
         ],
         segnalazioni: []
@@ -39808,20 +40919,102 @@ var directory_default = {
         ]
       },
       contatti: {
-        telefono: null,
-        email: null,
+        telefono: "0372-410536",
+        email: "cremona@gioiellerietorelli.com",
         sito: null,
         whatsapp: null,
         social: [],
         fonti: [
-          "n02-gioiellerie-torelli-cremona-1"
+          "n02-gioiellerie-torelli-cremona-1",
+          "torelli-sito-20261025"
         ]
       },
       orari: {
-        giorni: [],
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:30"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: []
+          }
+        ],
         chiusure: [],
-        verificatiIl: null,
-        fonti: []
+        verificatiIl: "2026-10-25",
+        fonti: [
+          "torelli-sito-20261025"
+        ]
       },
       servizi: [
         {
@@ -39857,7 +41050,14 @@ var directory_default = {
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Omega",
+            fonti: [
+              "torelli-omega-20261025"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -39881,6 +41081,14 @@ var directory_default = {
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
             fonti: [
               "n02-gioiellerie-torelli-cremona-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: contatti, orari, marchio:rivenditaUfficiale:Omega",
+            fonti: [
+              "n02-gioiellerie-torelli-cremona-1",
+              "torelli-sito-20261025"
             ]
           }
         ],
@@ -39960,7 +41168,26 @@ var directory_default = {
         riparati: [],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "angelini-longines-20261025"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "angelini-hamilton-20261025"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "angelini-omega-20261025"
+            ]
+          }
+        ],
         menzionati: []
       },
       storia: {
@@ -39982,6 +41209,13 @@ var directory_default = {
           {
             data: "2026-10-23",
             azione: "Revisione di fonti primarie e indirizzo; solo servizi espliciti. Nessuna coordinata o autorizzazione dedotta.",
+            fonti: [
+              "n02-gioielleria-angelini-srl-monza-1"
+            ]
+          },
+          {
+            data: "2026-10-25",
+            azione: "Lotto 1 di arricchimento: marchio:rivenditaUfficiale:Longines, marchio:rivenditaUfficiale:Hamilton, marchio:rivenditaUfficiale:Omega",
             fonti: [
               "n02-gioielleria-angelini-srl-monza-1"
             ]
