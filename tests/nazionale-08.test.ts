@@ -103,12 +103,20 @@ test('i dati OSM storici e le otto schede autorevoli restano invariati', async (
   // confronto resta valido anche quando dati nuovi vengono aggiunti alle stesse schede.
   const out = execSync('git show 56ded1c:site/data/directory.json', { encoding: 'utf8', maxBuffer: 64 * 1024 * 1024 });
   const orig = directorySchema.parse(JSON.parse(out));
+  // Le correzioni di indirizzo verificate dal lotto 4 sono registrate con prima/dopo e fonti:
+  // per quelle schede il valore atteso è quello corretto sulla fonte primaria.
+  const { readFileSync } = await import('node:fs');
+  const correzioni = new Map<string, string>(
+    (JSON.parse(readFileSync('data/reports/lotto-04-20261025-applied.json', 'utf8')).correzioni as { id: string; campo: string; dopo: string | null }[])
+      .filter(c => c.campo === 'posizione.indirizzo' && c.dopo)
+      .map(c => [c.id, c.dopo as string]),
+  );
   const mirror = orig.attivita.filter(b => b.origine.sistema !== 'osm' && b.origine.sistema !== 'migrazione-legacy');
   for (const b of mirror) {
     const current = data.attivita.find(x => x.id === b.id);
     assert.ok(current, `scheda storica scomparsa: ${b.id}`);
     assert.equal(normalize(current!.nome), normalize(b.nome), `nome alterato: ${b.id}`);
-    assert.equal(current!.posizione.indirizzo, b.posizione.indirizzo, `indirizzo alterato: ${b.id}`);
+    assert.equal(current!.posizione.indirizzo, correzioni.get(b.id) ?? b.posizione.indirizzo, `indirizzo alterato: ${b.id}`);
     // Conservazione: un recapito già documentato non può essere sovrascritto; se era assente,
     // può essere stato aggiunto da una fonte successiva (lotti di arricchimento).
     if (b.contatti.telefono !== null) assert.equal(current!.contatti.telefono, b.contatti.telefono, `telefono alterato: ${b.id}`);

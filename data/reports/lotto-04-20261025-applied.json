@@ -1,0 +1,306 @@
+{
+  "lotto": "lotto-04-20261025",
+  "data": "2026-10-25",
+  "criterio": "Risoluzione delle anomalie dei lotti 1-3: correzioni solo con fonte primaria verificata, sedi autonome documentate come schede con gruppoId, anomalie non risolvibili tracciate. Nessun dato inventato.",
+  "attivitaEsaminate": 60,
+  "attivitaModificate": [
+    {
+      "id": "gioiellerie-torelli-cremona",
+      "campi": [
+        "correzione:posizione.indirizzo",
+        "conferma:posizione",
+        "conferma:orari"
+      ]
+    },
+    {
+      "id": "fabiani-gioiellerie-pistoia",
+      "campi": [
+        "correzione:posizione.indirizzo",
+        "conferma:posizione",
+        "contatti"
+      ]
+    },
+    {
+      "id": "gioielleria-angelini-srl-monza",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "rocca",
+      "campi": [
+        "contatti"
+      ]
+    },
+    {
+      "id": "gibi-shop-ancona",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "rutili-empoli",
+      "campi": [
+        "servizio:vendita"
+      ]
+    },
+    {
+      "id": "gioielleria-amighini-verona",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "gioielleria-orafi-italiani-rovigo",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "birbio-gioielli-siracusa",
+      "campi": [
+        "contatti",
+        "orari"
+      ]
+    },
+    {
+      "id": "agnolucci-signa",
+      "campi": [
+        "orari"
+      ]
+    },
+    {
+      "id": "agnolucci-poggio",
+      "campi": [
+        "orari"
+      ]
+    },
+    {
+      "id": "bigalli",
+      "campi": [
+        "conferma:orari"
+      ]
+    },
+    {
+      "id": "rabiti-firenze",
+      "campi": [
+        "conferma:orari"
+      ]
+    },
+    {
+      "id": "fani-gioielli",
+      "campi": [
+        "conferma:orari"
+      ]
+    },
+    {
+      "id": "sangalli",
+      "campi": [
+        "conferma:orari"
+      ]
+    },
+    {
+      "id": "wargas-sisti-ancona",
+      "campi": [
+        "marchio:assistenzaUfficiale:Longines"
+      ]
+    },
+    {
+      "id": "valenti-parma",
+      "campi": [
+        "servizio:cinturini",
+        "gruppoId"
+      ]
+    },
+    {
+      "id": "trossello-courmayeur",
+      "campi": [
+        "gruppoId"
+      ]
+    },
+    {
+      "id": "gioielleria-grande-frosinone",
+      "campi": [
+        "gruppoId"
+      ]
+    },
+    {
+      "id": "ronzoni-udine",
+      "campi": [
+        "gruppoId"
+      ]
+    }
+  ],
+  "nuoveSchede": [
+    {
+      "id": "eredi-trossello-aosta",
+      "nome": "Eredi Trossello Snc",
+      "localitaId": "aosta",
+      "gruppoId": "trossello"
+    },
+    {
+      "id": "grande-aldomoro-frosinone",
+      "nome": "Gioielleria Grande Srl — Via Aldo Moro",
+      "localitaId": "frosinone",
+      "gruppoId": "grande"
+    },
+    {
+      "id": "ronzoni-udine-cavour",
+      "nome": "Italico Ronzoni — Gioiellerie (Via Cavour)",
+      "localitaId": "udine",
+      "gruppoId": "ronzoni"
+    },
+    {
+      "id": "valenti-parma-farini",
+      "nome": "Valenti Srl — Via Farini",
+      "localitaId": "parma",
+      "gruppoId": "valenti"
+    }
+  ],
+  "correzioni": [
+    {
+      "id": "gioiellerie-torelli-cremona",
+      "campo": "posizione.indirizzo",
+      "prima": "Corso Campi 15",
+      "dopo": "Corso Campi 21 A",
+      "fonti": [
+        "torelli-sito-20261025",
+        "f-www-iwc-com-ww-en-boutiques-europe-italy-cremona-cr-gioielle"
+      ]
+    },
+    {
+      "id": "fabiani-gioiellerie-pistoia",
+      "campo": "posizione.indirizzo",
+      "prima": "Via Cino da Pistoia 13",
+      "dopo": "Via Cino da Pistoia 2/D",
+      "fonti": [
+        "fabiani-sito-20261025",
+        "fabiani-longines-20261025"
+      ]
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "f-www-hamiltonwatch-com-it-it-store-locator-italia-lombardia-m",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/monza/gioielleria-angelini"
+    },
+    {
+      "id": "f-www-iwc-com-ww-en-boutiques-europe-italy-cremona-cr-gioielle",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.iwc.com/ww-en/boutiques/europe/italy/cremona-cr/gioiellerie-torelli"
+    },
+    {
+      "id": "f-www-rocca1794-com-it-it-storelocator-rocca-1794-milano",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rocca1794.com/it_it/storelocator/rocca-1794-milano"
+    },
+    {
+      "id": "f-www-gibishop-com-contatti-php",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibishop.com/contatti.php"
+    },
+    {
+      "id": "f-www-gibishop-com-gioielleria-php",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibishop.com/gioielleria.php"
+    },
+    {
+      "id": "f-www-gioielleriaempoli-it-orologi-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaempoli.it/orologi-2/"
+    },
+    {
+      "id": "f-www-hamiltonwatch-com-it-it-store-locator-italia-veneto-vero",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/veneto/verona/gioielleria-amighini"
+    },
+    {
+      "id": "f-www-orobirbio-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orobirbio.com/contatti/"
+    },
+    {
+      "id": "f-www-longines-com-it-store-id-sangalli-giuliano-c-snc-milano",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/sangalli-giuliano-c-snc-milano-143328"
+    },
+    {
+      "id": "f-www-longines-com-it-store-id-eredi-trossello-snc-aosta-96684",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/eredi-trossello-snc-aosta-966842"
+    },
+    {
+      "id": "f-www-longines-com-en-us-store-id-gioielleria-grande-srl-frosi",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/gioielleria-grande-srl-frosinone-27736"
+    },
+    {
+      "id": "f-www-gioielleriagrande-it-en-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagrande.it/en/contatti/"
+    },
+    {
+      "id": "f-www-seikowatches-com-it-it-stores-259820",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/stores/259820"
+    },
+    {
+      "id": "f-www-longines-com-it-store-id-valenti-srl-parma-143483",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/valenti-srl-parma-143483"
+    }
+  ],
+  "anomalieRisolte": [
+    "L1.2 gioiellerie-torelli-cremona: indirizzo corretto su fonte primaria (Corso Campi 21 A)",
+    "L1.3 trossello-courmayeur: seconda sede di Aosta documentata come scheda autonoma eredi-trossello-aosta",
+    "L1.4 rocca: recapiti recuperati da schede ufficiali (telefono ed email); orari ancora assenti",
+    "L2.8 fabiani-gioiellerie-pistoia: indirizzo corretto su sito attività + Longines (Via Cino da Pistoia 2/D)",
+    "L2.9 gioielleria-grande-frosinone: seconda sede di Via Aldo Moro documentata come scheda autonoma (Service Center Longines)",
+    "L2.12 amighini-verona, orafi-italiani-rovigo, birbio-gioielli-siracusa: siti riletti, recapiti e orari documentati inseriti",
+    "L3.6 sangalli: dati riconfermati da scheda Longines ufficiale leggibile (resta la discrepanza email, vedi nuove anomalie)",
+    "L3.7 rutili-empoli: sito leggibile, servizio di vendita documentato; la riparazione non risulta dichiarata nelle fonti nuove",
+    "L3.9 agnolucci-signa e agnolucci-poggio: stagione invernale documentata; variazione estiva annotata",
+    "L3.34 ronzoni-udine: seconda sede di Via Cavour documentata come scheda autonoma (Seiko Premium Retailer)",
+    "L3.37 sammartino-campobasso: pagina servizi non più accessibile, pagina contatti conferma gli orari in database",
+    "L3.42 gibi-shop-ancona: sito raggiungibile, telefono email whatsapp e orari documentati inseriti",
+    "L3.2/3/13 bigalli, rabiti-firenze, fani-gioielli: orari in database coincidenti con le fonti ufficiali rilette (aggiunta fonte di conferma)",
+    "L3.4 bigalli: qualifica «Service Center» esplicitamente dichiarata da Longines (confermata)",
+    "L3.22 deluca-napoli: qualifica «centro assistenza» esplicitamente dichiarata da Baume & Mercier (confermata)"
+  ],
+  "anomalieRimaste": [
+    "L1.1 gioielleria-angelini-srl-monza: telefono discordante fra schede ufficiali Hamilton/Omega (039-6362219) e Longines (02/9608228): nessun telefono inserito; aggiunti email e orari",
+    "L1.5 pirone-napoli: pagine ufficiali ancora non leggibili (403), nessun recapito verificabile",
+    "L1.5 censi-genova: email verificata (già presente); telefono non pubblicato nelle fonti",
+    "L2.1 de-marchi-gianotti-aosta: località Aosta vs Pollein richiede conferma del titolare",
+    "L2.2 gioielleria-giorgi-mario-ancona: CAP discordante (60121 Breil vs 60122 dati legali sito)",
+    "L2.4 eyes-on-time-venezia: telefono discordante fra scheda Hamilton e pagina aeroporto",
+    "L2.10 de-marco-belluno: orari stagionali invernale/estivo non rappresentabili nello schema",
+    "L2.11 gioielleria-tebaldi-ferrara: esclusione delle pendole dai servizi di riparazione (avvertenza da conservare)",
+    "L2.12 luccini-ivano-aulla: sito ancora non leggibile (403)",
+    "L2.13 ricci-forli e 13 casi analoghi di cellulare pubblico: politica invariata, il campo principale conserva il numero fisso",
+    "L3.1 scardi: email in forma dubbia non confermata dal sito (pagina contatti con solo modulo)",
+    "L3.8 ficioro-empoli: orari pubblicati senza giorni di riferimento",
+    "L3.10 follie-oro-calenzano, L3.18 massari-campi: servizi su oro/gioielli non inclusi fra i servizi di orologeria (confermata l'esclusione)",
+    "L3.23 carrieri-bari: orario del sabato non recuperabile dalla pagina",
+    "L3.24 macchina-tempo-bari: email nota solo da pagina Facebook non leggibile direttamente",
+    "L3.27 salamena-roma: chiusura del sabato limitata a luglio non rappresentabile",
+    "L3.30 paolo-vale-reggio-calabria, L3.32 golden-business-potenza, L3.40 fenocchi-san-benedetto-del-tronto: orari stagionali o senza giorni non rappresentabili",
+    "L3.35 mazzucchi-milano: presenza in elenco Omega non sufficiente per un claim (corretto, nessun claim)",
+    "L3.41 cerescioli-paolo-ancona: secondo numero fisso non inserito (politica recapito principale)"
+  ],
+  "nuoveAnomalie": [
+    "sangalli: email in database (info@orologeriasangalli.com) diversa da quella della scheda Longines (andrea.sangalli@orologeriasangalli.com): nessuna sovrascrittura senza conferma",
+    "gibi-shop-ancona: domenica non documentata dalle fonti: orari inseriti dal lunedì al sabato",
+    "gioielleria-amighini-verona: domenica non indicata dalla scheda Hamilton: orari inseriti dal lunedì al sabato",
+    "valenti-parma-farini: giovedì non indicato dalla scheda Longines: giorno non dedotto",
+    "grande-aldomoro-frosinone: lunedì e domenica non indicati dalla scheda Longines: giorni non dedotti",
+    "gioiellerie-torelli-cremona: le schede Longines/Omega riportano ancora il civico 15, il sito dell'attività il 21 A",
+    "valenti-parma e valenti-parma-farini condividono l'indirizzo email info@valentiparma.it"
+  ],
+  "coordinateVerificate": 0
+}

@@ -11,19 +11,25 @@ const prima = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'adf
 const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8'))) as Directory;
 
 test('L2: 159 attività conservate, posizioni e identità invariate, 37 fonti nuove datate', () => {
-  assert.equal(data.attivita.length, 159);
+  // I lotti successivi aggiungono schede documentate: la conservazione riguarda i 159 record
+  // del periodo, non il congelamento del conteggio.
+  assert.ok(data.attivita.length >= 159, `catalogo incompleto: ${data.attivita.length}`);
   assert.equal(data.localita.length, prima.localita.length);
   // Il lotto 2 aggiunge 37 fonti; i lotti successivi del 25/10 aggiungono ulteriori fonti datate.
   const r2 = JSON.parse(readFileSync('data/reports/lotto-02-20261025-applied.json', 'utf8')) as { fontiAggiunte: { id: string }[] };
   assert.equal(r2.fontiAggiunte.length, 37);
   for (const f of r2.fontiAggiunte) assert.ok(data.fonti.some(x => x.id === f.id), `fonte del lotto 2 persa: ${f.id}`);
   assert.ok(data.fonti.length >= prima.fonti.length + 37);
+  // Le correzioni di indirizzo verificate dal lotto 4 sono registrate con prima/dopo e fonti:
+  // per quelle sole schede la posizione è legittimamente diversa da quella storica.
+  const r4 = JSON.parse(readFileSync('data/reports/lotto-04-20261025-applied.json', 'utf8')) as { correzioni: { id: string; campo: string }[] };
+  const corretti = new Set(r4.correzioni.filter(c => c.campo === 'posizione.indirizzo').map(c => c.id));
   for (const vecchio of prima.attivita) {
     const attuale = data.attivita.find(b => b.id === vecchio.id)!;
     assert.ok(attuale, `record perso: ${vecchio.id}`);
     assert.equal(attuale.slug, vecchio.slug);
     assert.equal(attuale.localitaId, vecchio.localitaId);
-    assert.deepEqual(attuale.posizione, vecchio.posizione, `posizione alterata: ${vecchio.id}`);
+    if (!corretti.has(vecchio.id)) assert.deepEqual(attuale.posizione, vecchio.posizione, `posizione alterata: ${vecchio.id}`);
     assert.deepEqual(attuale.origine, vecchio.origine);
   }
   for (const f of data.fonti.filter(f => !prima.fonti.some(x => x.id === f.id))) {
@@ -52,7 +58,8 @@ test('L2: arricchimenti additivi: nessun recapito, servizio, marchio o storia st
 
 test('L2: orari e recapiti nuovi hanno fonti e verifiche', () => {
   for (const b of data.attivita) {
-    const v = prima.attivita.find(x => x.id === b.id)!;
+    const v = prima.attivita.find(x => x.id === b.id);
+    if (!v) continue; // le schede nate dopo lo snapshot hanno il proprio test di lotto
     if (b.orari.giorni.length > v.orari.giorni.length) {
       assert.equal(b.orari.verificatiIl, '2026-10-25', `${b.id}: orari senza data`);
       assert.ok(b.orari.fonti.length > 0, `${b.id}: orari senza fonti`);
@@ -65,13 +72,22 @@ test('L2: orari e recapiti nuovi hanno fonti e verifiche', () => {
 });
 
 test('L2: solo le autorizzazioni ufficiali documentate dai marchi sono state aggiunte', () => {
-  const nuoveAssistenze = data.attivita.flatMap(b => b.marchi.assistenzaUfficiale
-    .filter(c => !prima.attivita.find(x => x.id === b.id)!.marchi.assistenzaUfficiale.some(o => o.marca === c.marca))
-    .map(c => `${b.id}:${c.marca}`)).sort();
+  const nuoveAssistenze = data.attivita.flatMap(b => {
+    const vecchio = prima.attivita.find(x => x.id === b.id);
+    return b.marchi.assistenzaUfficiale
+      .filter(c => !vecchio || !vecchio.marchi.assistenzaUfficiale.some(o => o.marca === c.marca))
+      .map(c => `${b.id}:${c.marca}`);
+  }).sort();
   // I due centri Hamilton (Law & Watch, D’Ale) risultavano già documentati nel lotto precedente:
   // il lotto 2 non aggiunge assistenze ufficiali. I claim aggiunti dopo lo snapshot arrivano solo
-  // dall'arricchimento documentale del 25/10 (schede ufficiali Longines e Baume & Mercier): nessun altro.
-  assert.deepEqual(nuoveAssistenze, ['bigalli:Longines', 'deluca-napoli:Baume & Mercier']);
+  // dai lotti documentali del 25/10 e sono tutti dichiarati esplicitamente dalle fonti dei marchi.
+  assert.deepEqual(nuoveAssistenze, [
+    'bigalli:Longines',
+    'deluca-napoli:Baume & Mercier',
+    'grande-aldomoro-frosinone:Longines',
+    'valenti-parma-farini:Longines',
+    'wargas-sisti-ancona:Longines',
+  ]);
   for (const b of data.attivita) {
     for (const c of [...b.marchi.assistenzaUfficiale, ...b.marchi.rivenditaUfficiale]) {
       assert.ok(c.fonti.some(id => data.fonti.find(f => f.id === id)?.tipo === 'marchio-ufficiale'), `${b.id}: ${c.marca} senza fonte del marchio`);

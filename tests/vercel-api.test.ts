@@ -186,8 +186,8 @@ test('le entry Vercel si compilano in ESM autosufficienti senza import relativi 
   assert.equal((await resOro.json()).modalita, 'non-configurato');
 });
 
-test('dati: 159 attività dopo il lotto N02-D e PR #6 e tutte le regioni con località valide', () => {
-  assert.equal(directory.attivita.length, 159);
+test('dati: almeno le 159 attività dei lotti N02-D e PR #6, e tutte le regioni con località valide', () => {
+  assert.ok(directory.attivita.length >= 159, `catalogo incompleto: ${directory.attivita.length}`);
   const regioni = new Set(directory.localita.filter(p => directory.attivita.some(b => b.localitaId === p.id)).map(p => p.regioneSlug));
   assert.equal(regioni.size, 20);
 });
