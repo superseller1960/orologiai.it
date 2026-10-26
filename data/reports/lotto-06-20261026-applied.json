@@ -1,0 +1,745 @@
+{
+  "lotto": "lotto-06-20261026",
+  "data": "2026-10-26",
+  "regioniCoinvolte": [
+    "Marche",
+    "Umbria",
+    "Lazio",
+    "Abruzzo",
+    "Campania",
+    "Puglia",
+    "Basilicata"
+  ],
+  "provinceCoinvolte": [
+    "PU",
+    "FM",
+    "MC",
+    "TE",
+    "CH",
+    "PG",
+    "TR",
+    "LT",
+    "VT",
+    "BN",
+    "AV",
+    "FG",
+    "BT",
+    "TA",
+    "BR",
+    "MT"
+  ],
+  "provincePrimaAZeroCoperte": [
+    "PU",
+    "FM",
+    "TE",
+    "BN",
+    "AV",
+    "FG",
+    "BT",
+    "TA",
+    "BR",
+    "MT"
+  ],
+  "candidatiEsaminati": 41,
+  "candidatiScartati": 9,
+  "motiviScarto": [
+    "Gioielleria Berloni Fano: documentata solo da portale commerciale locale, priva di sito ufficiale autonomo",
+    "Gioielleria Mattetti Fermo e Gioielleria Cichetti Teramo: CAP nel locator incoerente col comune dichiarato",
+    "Gioielleria LineaOro Porto Sant’Elpidio, Le Ore Orvieto, Gioielleria Merola S. Maria Capua Vetere: indirizzo/CAP non pubblicati sulla pagina letta",
+    "Biagini 1863 Perugia, Tempoidea Viterbo, Orologeria Mazzone Salerno: già presenti in catalogo (duplicati evitati)"
+  ],
+  "nuoveLocalita": [
+    {
+      "id": "pesaro",
+      "comune": "Pesaro",
+      "siglaProvincia": "PU",
+      "regione": "Marche"
+    },
+    {
+      "id": "fano",
+      "comune": "Fano",
+      "siglaProvincia": "PU",
+      "regione": "Marche"
+    },
+    {
+      "id": "porto-san-giorgio",
+      "comune": "Porto San Giorgio",
+      "siglaProvincia": "FM",
+      "regione": "Marche"
+    },
+    {
+      "id": "porto-sant-elpidio",
+      "comune": "Porto Sant'Elpidio",
+      "siglaProvincia": "FM",
+      "regione": "Marche"
+    },
+    {
+      "id": "macerata",
+      "comune": "Macerata",
+      "siglaProvincia": "MC",
+      "regione": "Marche"
+    },
+    {
+      "id": "sant-egidio-alla-vibrata",
+      "comune": "Sant'Egidio alla Vibrata",
+      "siglaProvincia": "TE",
+      "regione": "Abruzzo"
+    },
+    {
+      "id": "roseto-degli-abruzzi",
+      "comune": "Roseto degli Abruzzi",
+      "siglaProvincia": "TE",
+      "regione": "Abruzzo"
+    },
+    {
+      "id": "citta-di-castello",
+      "comune": "Città di Castello",
+      "siglaProvincia": "PG",
+      "regione": "Umbria"
+    },
+    {
+      "id": "benevento",
+      "comune": "Benevento",
+      "siglaProvincia": "BN",
+      "regione": "Campania"
+    },
+    {
+      "id": "avellino",
+      "comune": "Avellino",
+      "siglaProvincia": "AV",
+      "regione": "Campania"
+    },
+    {
+      "id": "foggia",
+      "comune": "Foggia",
+      "siglaProvincia": "FG",
+      "regione": "Puglia"
+    },
+    {
+      "id": "san-severo",
+      "comune": "San Severo",
+      "siglaProvincia": "FG",
+      "regione": "Puglia"
+    },
+    {
+      "id": "cerignola",
+      "comune": "Cerignola",
+      "siglaProvincia": "FG",
+      "regione": "Puglia"
+    },
+    {
+      "id": "barletta",
+      "comune": "Barletta",
+      "siglaProvincia": "BT",
+      "regione": "Puglia"
+    },
+    {
+      "id": "andria",
+      "comune": "Andria",
+      "siglaProvincia": "BT",
+      "regione": "Puglia"
+    },
+    {
+      "id": "taranto",
+      "comune": "Taranto",
+      "siglaProvincia": "TA",
+      "regione": "Puglia"
+    },
+    {
+      "id": "castellaneta",
+      "comune": "Castellaneta",
+      "siglaProvincia": "TA",
+      "regione": "Puglia"
+    },
+    {
+      "id": "brindisi",
+      "comune": "Brindisi",
+      "siglaProvincia": "BR",
+      "regione": "Puglia"
+    },
+    {
+      "id": "matera",
+      "comune": "Matera",
+      "siglaProvincia": "MT",
+      "regione": "Basilicata"
+    },
+    {
+      "id": "policoro",
+      "comune": "Policoro",
+      "siglaProvincia": "MT",
+      "regione": "Basilicata"
+    }
+  ],
+  "nuoveSchede": [
+    {
+      "id": "paolo-bartorelli-pesaro",
+      "nome": "Paolo Bartorelli Gioielli dal 1882",
+      "localitaId": "pesaro",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1882
+    },
+    {
+      "id": "gioielleria-capodagli-fano",
+      "nome": "Gioielleria Capodagli",
+      "localitaId": "fano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-granarelli-fano",
+      "nome": "Gioielleria Granarelli",
+      "localitaId": "fano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "felici-srl-porto-san-giorgio",
+      "nome": "Felici Srl",
+      "localitaId": "porto-san-giorgio",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-panichi-porto-san-giorgio",
+      "nome": "Gioielleria Panichi dal 1954",
+      "localitaId": "porto-san-giorgio",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1954
+    },
+    {
+      "id": "gioielleria-rosati-porto-sant-elpidio",
+      "nome": "Gioielleria Rosati",
+      "localitaId": "porto-sant-elpidio",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "ibis-gioielli-civitanova-marche",
+      "nome": "Ibis Gioielli 1979",
+      "localitaId": "civitanova-marche",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1979
+    },
+    {
+      "id": "gioielleria-cotognini-macerata",
+      "nome": "Gioielleria Cotognini",
+      "localitaId": "macerata",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "angolo-d-oro-sant-egidio",
+      "nome": "L’Angolo d’Oro di D’Agostino Micheal",
+      "localitaId": "sant-egidio-alla-vibrata",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-michini-roseto",
+      "nome": "Gioielleria Michini",
+      "localitaId": "roseto-degli-abruzzi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1960
+    },
+    {
+      "id": "gioielleria-ferretti-chieti",
+      "nome": "Gioielleria Ferretti 1956",
+      "localitaId": "chieti",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1956
+    },
+    {
+      "id": "sorbi-gioielli-perugia",
+      "nome": "Sorbi Gioielli",
+      "localitaId": "perugia",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-chiatti-citta-di-castello",
+      "nome": "Gioielleria Chiatti",
+      "localitaId": "citta-di-castello",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "tomasini-francia-terni",
+      "nome": "Tomasini Francia Srl",
+      "localitaId": "terni",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-massarucci-terni",
+      "nome": "Gioielleria Massarucci",
+      "localitaId": "terni",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gt-orologerie-latina",
+      "nome": "GT Orologerie",
+      "localitaId": "latina",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "menichelli-franco-viterbo",
+      "nome": "Gioielli di Menichelli Franco & C. Srl",
+      "localitaId": "viterbo",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "orzelleca-gioielli-benevento",
+      "nome": "Orzelleca Gioielli",
+      "localitaId": "benevento",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1940
+    },
+    {
+      "id": "isi-orzelleca-avellino",
+      "nome": "Isi Srl — Orzelleca Avellino",
+      "localitaId": "avellino",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-pegy-avellino",
+      "nome": "Gioielleria Pegy",
+      "localitaId": "avellino",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-ciletti-foggia",
+      "nome": "Gioielleria Giuseppe Ciletti",
+      "localitaId": "foggia",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1950
+    },
+    {
+      "id": "stravola-gioiellieri-san-severo",
+      "nome": "Stravola Gioiellieri",
+      "localitaId": "san-severo",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "nazareno-bancone-cerignola",
+      "nome": "Nazareno Bancone Gioielli",
+      "localitaId": "cerignola",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "landi-gioiellieri-barletta",
+      "nome": "Landi Gioiellieri di Landriscina Domenico",
+      "localitaId": "barletta",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "franco-cuomo-gioielli-andria",
+      "nome": "Franco Cuomo Gioielli",
+      "localitaId": "andria",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "pignataro-gioielli-andria",
+      "nome": "Pignataro Gioielli",
+      "localitaId": "andria",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "feni-gioielli-taranto",
+      "nome": "Feni Gioielli",
+      "localitaId": "taranto",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1974
+    },
+    {
+      "id": "gioielleria-de-leonardis-castellaneta",
+      "nome": "Gioielleria De Leonardis",
+      "localitaId": "castellaneta",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "pace-gioielli-brindisi",
+      "nome": "Pace Gioielli — sede di Brindisi",
+      "localitaId": "brindisi",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1970
+    },
+    {
+      "id": "naviglio-e-fiume-brindisi",
+      "nome": "Naviglio e Fiume Gioielleria",
+      "localitaId": "brindisi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "iacovone-via-del-corso-matera",
+      "nome": "Iacovone Via Del Corso Srl",
+      "localitaId": "matera",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-cometa-policoro",
+      "nome": "Gioielleria Cometa",
+      "localitaId": "policoro",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/paolo-bartorelli-gioielli-gioielli-dal-1882-pesaro-143081"
+    },
+    {
+      "id": "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/capodagli-pietro-snc-di-lauro-ivonne-c-fano-143193"
+    },
+    {
+      "id": "l6-www-midowatches-com-us-store-locator-italy-fano",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/us/store-locator/italy/fano/"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-my/store-locator/italien/marche/fano/gioielleria-granarelli"
+    },
+    {
+      "id": "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/gioielleria-granarelli-srl/a1vNN0000020LOQYA2"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/felici-srl-porto-san-giorgio-488703"
+    },
+    {
+      "id": "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/rivenditori-manta/gioielleria-panichi-dal-1954/"
+    },
+    {
+      "id": "l6-www-gioielleriarosati-com-pages-dove-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriarosati.com/pages/dove-siamo"
+    },
+    {
+      "id": "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.oris.ch/en-IT/storefinder/1092-perpetual-srl"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/the-thomas-group-srl-ibis-civitanova-marche-1338787"
+    },
+    {
+      "id": "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/us/store-locator/italy/civitanova-marche/"
+    },
+    {
+      "id": "l6-www-seikowatches-com-it-it-stores-28648-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/stores/28648-1"
+    },
+    {
+      "id": "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.langolodoroitalia.com/riparazioni-orologi-gioielli.php"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/abruzzo/roseto-degli-abruzzi/gioielleria-michini"
+    },
+    {
+      "id": "l6-gioielleriamichini-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriamichini.it/"
+    },
+    {
+      "id": "l6-www-ferrettigioielli-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ferrettigioielli.com/"
+    },
+    {
+      "id": "l6-www-oreficeriasorbi-com-servizi-php",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriasorbi.com/servizi.php"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/tomasini-francia-srl-terni-1676402"
+    },
+    {
+      "id": "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/tomasini-francia-srl/a1vNN0000020cLvYAI"
+    },
+    {
+      "id": "l6-www-gioielleriamassarucci-com-riparazioni-assistenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamassarucci.com/riparazioni-assistenza/"
+    },
+    {
+      "id": "l6-gtorologerie-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://gtorologerie.it/"
+    },
+    {
+      "id": "l6-shop-gtorologerie-it-policies-contact-information",
+      "tipo": "sito-ufficiale",
+      "url": "https://shop.gtorologerie.it/policies/contact-information"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/gioielli-di-menichelli-franco-c-srl-viterbo-1613375"
+    },
+    {
+      "id": "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-ca/store/id/orzelleca-gioielli-benevento-1075440"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/benevento/orzelleca-gioielli"
+    },
+    {
+      "id": "l6-orzellecagioielli-it-azienda",
+      "tipo": "sito-ufficiale",
+      "url": "https://orzellecagioielli.it/azienda/"
+    },
+    {
+      "id": "l6-orzellecagioielli-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://orzellecagioielli.it/"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/isi-srl-orzelleca-avellino-1075445"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/avellino/orzelleca-gioielli"
+    },
+    {
+      "id": "l6-giuseppeciletti-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://giuseppeciletti.it/"
+    },
+    {
+      "id": "l6-giuseppeciletti-it-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://giuseppeciletti.it/servizi/"
+    },
+    {
+      "id": "l6-giuseppeciletti-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://giuseppeciletti.it/contatti/"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/san-severo/stravola-gioiellieri"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/cerignola/nazareno-bancone-gioielli"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/landi-gioiellieri-di-landriscina-domenico-barletta-143233"
+    },
+    {
+      "id": "l6-www-francocuomogioielli-it-contatti-html",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.francocuomogioielli.it/contatti.html"
+    },
+    {
+      "id": "l6-www-francocuomogioielli-it-centro-assistenza-certificato",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.francocuomogioielli.it/centro-assistenza-certificato.html"
+    },
+    {
+      "id": "l6-www-fenigioielli-com-contact",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fenigioielli.com/contact/"
+    },
+    {
+      "id": "l6-www-fenigioielli-com-storia",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.fenigioielli.com/storia/"
+    },
+    {
+      "id": "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.patek.com/en/points-of-sale/europe/italy/taranto/feni-gioielli"
+    },
+    {
+      "id": "l6-www-pacegioielli-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pacegioielli.com/contatti"
+    },
+    {
+      "id": "l6-www-pacegioielli-com-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pacegioielli.com/servizi"
+    },
+    {
+      "id": "l6-www-pacegioielli-com-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pacegioielli.com/chi-siamo"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/brindisi/pace-gioielli"
+    },
+    {
+      "id": "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/iacovone-via-del-corso-srl-matera-1069472"
+    },
+    {
+      "id": "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/iacovone-via-del-corso/a1vNN0000020A6NYAU"
+    },
+    {
+      "id": "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/basilicata/policoro/gioielleria-cometa"
+    }
+  ],
+  "totaleAttivitaPrima": 189,
+  "totaleAttivitaDopo": 221,
+  "totaleComuniPrima": 116,
+  "totaleComuniDopo": 136
+}

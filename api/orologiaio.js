@@ -24591,6 +24591,402 @@ var directory_default = {
       consultataIl: "2026-10-26",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/paolo-bartorelli-gioielli-gioielli-dal-1882-pesaro-143081",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/paolo-bartorelli-gioielli-gioielli-dal-1882-pesaro-143081",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/capodagli-pietro-snc-di-lauro-ivonne-c-fano-143193",
+      titolo: "Fonte www.longines.com \u2014 en-us/store/id/capodagli-pietro-snc-di-lauro-ivonne-c-fano-143193",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-midowatches-com-us-store-locator-italy-fano",
+      tipo: "marchio-ufficiale",
+      url: "https://www.midowatches.com/us/store-locator/italy/fano/",
+      titolo: "Fonte www.midowatches.com \u2014 us/store-locator/italy/fano",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-my/store-locator/italien/marche/fano/gioielleria-granarelli",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 en-my/store-locator/italien/marche/fano/gioielleria-granarelli",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+      tipo: "marchio-ufficiale",
+      url: "https://www.tissotwatches.com/it-it/store/gioielleria-granarelli-srl/a1vNN0000020LOQYA2",
+      titolo: "Fonte www.tissotwatches.com \u2014 it-it/store/gioielleria-granarelli-srl/a1vNN0000020LOQYA2",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/felici-srl-porto-san-giorgio-488703",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/felici-srl-porto-san-giorgio-488703",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich",
+      tipo: "marchio-ufficiale",
+      url: "https://www.breil.com/store/rivenditori-manta/gioielleria-panichi-dal-1954/",
+      titolo: "Fonte www.breil.com \u2014 store/rivenditori-manta/gioielleria-panichi-dal-1954",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-gioielleriarosati-com-pages-dove-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriarosati.com/pages/dove-siamo",
+      titolo: "Fonte www.gioielleriarosati.com \u2014 pages/dove-siamo",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl",
+      tipo: "marchio-ufficiale",
+      url: "https://www.oris.ch/en-IT/storefinder/1092-perpetual-srl",
+      titolo: "Fonte www.oris.ch \u2014 en-IT/storefinder/1092-perpetual-srl",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/the-thomas-group-srl-ibis-civitanova-marche-1338787",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/the-thomas-group-srl-ibis-civitanova-marche-1338787",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma",
+      tipo: "marchio-ufficiale",
+      url: "https://www.midowatches.com/us/store-locator/italy/civitanova-marche/",
+      titolo: "Fonte www.midowatches.com \u2014 us/store-locator/italy/civitanova-marche",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-seikowatches-com-it-it-stores-28648-1",
+      tipo: "marchio-ufficiale",
+      url: "https://www.seikowatches.com/it-it/stores/28648-1",
+      titolo: "Fonte www.seikowatches.com \u2014 it-it/stores/28648-1",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p",
+      tipo: "sito-ufficiale",
+      url: "https://www.langolodoroitalia.com/riparazioni-orologi-gioielli.php",
+      titolo: "Fonte www.langolodoroitalia.com \u2014 riparazioni-orologi-gioielli.php",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/abruzzo/roseto-degli-abruzzi/gioielleria-michini",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 it-it/store-locator/italia/abruzzo/roseto-degli-abruzzi/gioielleria-michini",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-gioielleriamichini-it",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriamichini.it/",
+      titolo: "Fonte gioielleriamichini.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-ferrettigioielli-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.ferrettigioielli.com/",
+      titolo: "Fonte www.ferrettigioielli.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-oreficeriasorbi-com-servizi-php",
+      tipo: "sito-ufficiale",
+      url: "https://www.oreficeriasorbi.com/servizi.php",
+      titolo: "Fonte www.oreficeriasorbi.com \u2014 servizi.php",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/tomasini-francia-srl-terni-1676402",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/tomasini-francia-srl-terni-1676402",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a",
+      tipo: "marchio-ufficiale",
+      url: "https://www.tissotwatches.com/it-it/store/tomasini-francia-srl/a1vNN0000020cLvYAI",
+      titolo: "Fonte www.tissotwatches.com \u2014 it-it/store/tomasini-francia-srl/a1vNN0000020cLvYAI",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-gioielleriamassarucci-com-riparazioni-assistenza",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriamassarucci.com/riparazioni-assistenza/",
+      titolo: "Fonte www.gioielleriamassarucci.com \u2014 riparazioni-assistenza",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-gtorologerie-it",
+      tipo: "sito-ufficiale",
+      url: "https://gtorologerie.it/",
+      titolo: "Fonte gtorologerie.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-shop-gtorologerie-it-policies-contact-information",
+      tipo: "sito-ufficiale",
+      url: "https://shop.gtorologerie.it/policies/contact-information",
+      titolo: "Fonte shop.gtorologerie.it \u2014 policies/contact-information",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/gioielli-di-menichelli-franco-c-srl-viterbo-1613375",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/gioielli-di-menichelli-franco-c-srl-viterbo-1613375",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-ca/store/id/orzelleca-gioielli-benevento-1075440",
+      titolo: "Fonte www.longines.com \u2014 en-ca/store/id/orzelleca-gioielli-benevento-1075440",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/benevento/orzelleca-gioielli",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 it-it/store-locator/italia/campania/benevento/orzelleca-gioielli",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-orzellecagioielli-it-azienda",
+      tipo: "sito-ufficiale",
+      url: "https://orzellecagioielli.it/azienda/",
+      titolo: "Fonte orzellecagioielli.it \u2014 azienda",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-orzellecagioielli-it",
+      tipo: "sito-ufficiale",
+      url: "https://orzellecagioielli.it/",
+      titolo: "Fonte orzellecagioielli.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/isi-srl-orzelleca-avellino-1075445",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/isi-srl-orzelleca-avellino-1075445",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-giuseppeciletti-it",
+      tipo: "sito-ufficiale",
+      url: "https://giuseppeciletti.it/",
+      titolo: "Fonte giuseppeciletti.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-giuseppeciletti-it-servizi",
+      tipo: "sito-ufficiale",
+      url: "https://giuseppeciletti.it/servizi/",
+      titolo: "Fonte giuseppeciletti.it \u2014 servizi",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-giuseppeciletti-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://giuseppeciletti.it/contatti/",
+      titolo: "Fonte giuseppeciletti.it \u2014 contatti",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/san-severo/stravola-gioiellieri",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 it-it/store-locator/italia/puglia/san-severo/stravola-gioiellieri",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/landi-gioiellieri-di-landriscina-domenico-barletta-143233",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/landi-gioiellieri-di-landriscina-domenico-barletta-143233",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-francocuomogioielli-it-contatti-html",
+      tipo: "sito-ufficiale",
+      url: "https://www.francocuomogioielli.it/contatti.html",
+      titolo: "Fonte www.francocuomogioielli.it \u2014 contatti.html",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-francocuomogioielli-it-centro-assistenza-certificato",
+      tipo: "sito-ufficiale",
+      url: "https://www.francocuomogioielli.it/centro-assistenza-certificato.html",
+      titolo: "Fonte www.francocuomogioielli.it \u2014 centro-assistenza-certificato.html",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-fenigioielli-com-contact",
+      tipo: "sito-ufficiale",
+      url: "https://www.fenigioielli.com/contact/",
+      titolo: "Fonte www.fenigioielli.com \u2014 contact",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-fenigioielli-com-storia",
+      tipo: "sito-ufficiale",
+      url: "https://www.fenigioielli.com/storia/",
+      titolo: "Fonte www.fenigioielli.com \u2014 storia",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen",
+      tipo: "marchio-ufficiale",
+      url: "https://www.patek.com/en/points-of-sale/europe/italy/taranto/feni-gioielli",
+      titolo: "Fonte www.patek.com \u2014 en/points-of-sale/europe/italy/taranto/feni-gioielli",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-pacegioielli-com-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.pacegioielli.com/contatti",
+      titolo: "Fonte www.pacegioielli.com \u2014 contatti",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-pacegioielli-com-servizi",
+      tipo: "sito-ufficiale",
+      url: "https://www.pacegioielli.com/servizi",
+      titolo: "Fonte www.pacegioielli.com \u2014 servizi",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-pacegioielli-com-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://www.pacegioielli.com/chi-siamo",
+      titolo: "Fonte www.pacegioielli.com \u2014 chi-siamo",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/it/store/id/iacovone-via-del-corso-srl-matera-1069472",
+      titolo: "Fonte www.longines.com \u2014 it/store/id/iacovone-via-del-corso-srl-matera-1069472",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso",
+      tipo: "marchio-ufficiale",
+      url: "https://www.tissotwatches.com/it-it/store/iacovone-via-del-corso/a1vNN0000020A6NYAU",
+      titolo: "Fonte www.tissotwatches.com \u2014 it-it/store/iacovone-via-del-corso/a1vNN0000020A6NYAU",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/basilicata/policoro/gioielleria-cometa",
+      titolo: "Fonte www.hamiltonwatch.com \u2014 it-it/store-locator/italia/basilicata/policoro/gioielleria-cometa",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -26394,6 +26790,317 @@ var directory_default = {
       fonti: [
         "l5-www-luigirossogioielli-com-it-assistenza",
         "l5-www-luigirossogioielli-com-it-contatti"
+      ]
+    },
+    {
+      id: "pesaro",
+      comune: "Pesaro",
+      comuneSlug: "pesaro",
+      provincia: "Pesaro e Urbino",
+      provinciaSlug: "pesaro-e-urbino",
+      siglaProvincia: "PU",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "A Pesaro \xE8 censita la storica orologeria e gioielleria Paolo Bartorelli dal 1882 in Via Branca.",
+      fonti: [
+        "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+      ]
+    },
+    {
+      id: "fano",
+      comune: "Fano",
+      comuneSlug: "fano",
+      provincia: "Pesaro e Urbino",
+      provinciaSlug: "pesaro-e-urbino",
+      siglaProvincia: "PU",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "Fano conta orologerie e rivenditori autorizzati nel centro storico tra Corso Matteotti e Via Arco d\u2019Augusto.",
+      fonti: [
+        "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+        "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche"
+      ]
+    },
+    {
+      id: "porto-san-giorgio",
+      comune: "Porto San Giorgio",
+      comuneSlug: "porto-san-giorgio",
+      provincia: "Fermo",
+      provinciaSlug: "fermo",
+      siglaProvincia: "FM",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "Porto San Giorgio raccoglie orologerie e rivenditori ufficiali lungo Viale Don Minzoni e Viale Cavallotti.",
+      fonti: [
+        "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi",
+        "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+      ]
+    },
+    {
+      id: "porto-sant-elpidio",
+      comune: "Porto Sant'Elpidio",
+      comuneSlug: "porto-sant-elpidio",
+      provincia: "Fermo",
+      provinciaSlug: "fermo",
+      siglaProvincia: "FM",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "A Porto Sant'Elpidio opera la storica Gioielleria Rosati in Via Principe Umberto.",
+      fonti: [
+        "l6-www-gioielleriarosati-com-pages-dove-siamo",
+        "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+      ]
+    },
+    {
+      id: "macerata",
+      comune: "Macerata",
+      comuneSlug: "macerata",
+      provincia: "Macerata",
+      provinciaSlug: "macerata",
+      siglaProvincia: "MC",
+      regione: "Marche",
+      regioneSlug: "marche",
+      codiceIstat: null,
+      descrizione: "A Macerata \xE8 censita Gioielleria Cotognini in Via Garibaldi, rivenditore ufficiale Seiko.",
+      fonti: [
+        "l6-www-seikowatches-com-it-it-stores-28648-1"
+      ]
+    },
+    {
+      id: "sant-egidio-alla-vibrata",
+      comune: "Sant'Egidio alla Vibrata",
+      comuneSlug: "sant-egidio-alla-vibrata",
+      provincia: "Teramo",
+      provinciaSlug: "teramo",
+      siglaProvincia: "TE",
+      regione: "Abruzzo",
+      regioneSlug: "abruzzo",
+      codiceIstat: null,
+      descrizione: "A Sant'Egidio alla Vibrata opera L'Angolo d'Oro, con servizi di riparazione e restauro di orologi.",
+      fonti: [
+        "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+      ]
+    },
+    {
+      id: "roseto-degli-abruzzi",
+      comune: "Roseto degli Abruzzi",
+      comuneSlug: "roseto-degli-abruzzi",
+      provincia: "Teramo",
+      provinciaSlug: "teramo",
+      siglaProvincia: "TE",
+      regione: "Abruzzo",
+      regioneSlug: "abruzzo",
+      codiceIstat: null,
+      descrizione: "A Roseto degli Abruzzi opera la storica Gioielleria Michini in Piazza della Libert\xE0, attiva dal 1960.",
+      fonti: [
+        "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+        "l6-gioielleriamichini-it"
+      ]
+    },
+    {
+      id: "citta-di-castello",
+      comune: "Citt\xE0 di Castello",
+      comuneSlug: "citta-di-castello",
+      provincia: "Perugia",
+      provinciaSlug: "perugia",
+      siglaProvincia: "PG",
+      regione: "Umbria",
+      regioneSlug: "umbria",
+      codiceIstat: null,
+      descrizione: "A Citt\xE0 di Castello \xE8 censita Gioielleria Chiatti in Via Scipione Lapi, rivenditore ufficiale Mido.",
+      fonti: [
+        "l5-www-midowatches-com-it-store-locator"
+      ]
+    },
+    {
+      id: "benevento",
+      comune: "Benevento",
+      comuneSlug: "benevento",
+      provincia: "Benevento",
+      provinciaSlug: "benevento",
+      siglaProvincia: "BN",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "A Benevento opera la storica maison Orzelleca Gioielli in Corso Garibaldi, nata nel 1940 come orologeria con laboratorio.",
+      fonti: [
+        "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+        "l6-orzellecagioielli-it-azienda"
+      ]
+    },
+    {
+      id: "avellino",
+      comune: "Avellino",
+      comuneSlug: "avellino",
+      provincia: "Avellino",
+      provinciaSlug: "avellino",
+      siglaProvincia: "AV",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "Avellino ospita orologerie e rivenditori ufficiali lungo Corso Vittorio Emanuele e Via Berardi.",
+      fonti: [
+        "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+        "l5-www-midowatches-com-it-store-locator"
+      ]
+    },
+    {
+      id: "foggia",
+      comune: "Foggia",
+      comuneSlug: "foggia",
+      provincia: "Foggia",
+      provinciaSlug: "foggia",
+      siglaProvincia: "FG",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Foggia opera la storica Gioielleria Giuseppe Ciletti dal 1950, con laboratorio tecnico interno di orologeria.",
+      fonti: [
+        "l6-giuseppeciletti-it",
+        "l6-giuseppeciletti-it-servizi"
+      ]
+    },
+    {
+      id: "san-severo",
+      comune: "San Severo",
+      comuneSlug: "san-severo",
+      provincia: "Foggia",
+      provinciaSlug: "foggia",
+      siglaProvincia: "FG",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A San Severo \xE8 censita Stravola Gioiellieri, rivenditore ufficiale Hamilton.",
+      fonti: [
+        "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+      ]
+    },
+    {
+      id: "cerignola",
+      comune: "Cerignola",
+      comuneSlug: "cerignola",
+      provincia: "Foggia",
+      provinciaSlug: "foggia",
+      siglaProvincia: "FG",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Cerignola opera Nazareno Bancone Gioielli in Piazza Duomo, rivenditore ufficiale Hamilton.",
+      fonti: [
+        "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+      ]
+    },
+    {
+      id: "barletta",
+      comune: "Barletta",
+      comuneSlug: "barletta",
+      provincia: "Barletta-Andria-Trani",
+      provinciaSlug: "barletta-andria-trani",
+      siglaProvincia: "BT",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Barletta \xE8 censita Landi Gioiellieri in Corso Garibaldi, punto vendita e assistenza di primo livello Longines.",
+      fonti: [
+        "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+      ]
+    },
+    {
+      id: "andria",
+      comune: "Andria",
+      comuneSlug: "andria",
+      provincia: "Barletta-Andria-Trani",
+      provinciaSlug: "barletta-andria-trani",
+      siglaProvincia: "BT",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "Andria ospita laboratori di assistenza orologiera certificata e rivenditori ufficiali in centro citt\xE0.",
+      fonti: [
+        "l6-www-francocuomogioielli-it-centro-assistenza-certificato",
+        "l5-www-midowatches-com-it-store-locator"
+      ]
+    },
+    {
+      id: "taranto",
+      comune: "Taranto",
+      comuneSlug: "taranto",
+      provincia: "Taranto",
+      provinciaSlug: "taranto",
+      siglaProvincia: "TA",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Taranto opera Feni Gioielli dal 1974, con laboratorio interno e rivendita ufficiale Patek Philippe.",
+      fonti: [
+        "l6-www-fenigioielli-com-contact",
+        "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+      ]
+    },
+    {
+      id: "castellaneta",
+      comune: "Castellaneta",
+      comuneSlug: "castellaneta",
+      provincia: "Taranto",
+      provinciaSlug: "taranto",
+      siglaProvincia: "TA",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Castellaneta \xE8 censita Gioielleria De Leonardis in Via San Francesco, rivenditore ufficiale Mido.",
+      fonti: [
+        "l5-www-midowatches-com-it-store-locator"
+      ]
+    },
+    {
+      id: "brindisi",
+      comune: "Brindisi",
+      comuneSlug: "brindisi",
+      provincia: "Brindisi",
+      provinciaSlug: "brindisi",
+      siglaProvincia: "BR",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "Brindisi ospita storiche orologerie e laboratori di assistenza tecnica lungo Corso Roma.",
+      fonti: [
+        "l6-www-pacegioielli-com-contatti",
+        "l5-www-midowatches-com-it-store-locator"
+      ]
+    },
+    {
+      id: "matera",
+      comune: "Matera",
+      comuneSlug: "matera",
+      provincia: "Matera",
+      provinciaSlug: "matera",
+      siglaProvincia: "MT",
+      regione: "Basilicata",
+      regioneSlug: "basilicata",
+      codiceIstat: null,
+      descrizione: "A Matera \xE8 censita Iacovone Via Del Corso Srl, rivenditore ufficiale Longines e Tissot.",
+      fonti: [
+        "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+        "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+      ]
+    },
+    {
+      id: "policoro",
+      comune: "Policoro",
+      comuneSlug: "policoro",
+      provincia: "Matera",
+      provinciaSlug: "matera",
+      siglaProvincia: "MT",
+      regione: "Basilicata",
+      regioneSlug: "basilicata",
+      codiceIstat: null,
+      descrizione: "A Policoro \xE8 censita Gioielleria Cometa in Via Siris, rivenditore ufficiale Hamilton.",
+      fonti: [
+        "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
       ]
     }
   ],
@@ -60236,6 +60943,5183 @@ var directory_default = {
       origine: {
         sistema: "espansione-lotto5-20261026",
         idOriginale: "orologeria-era-ora-vercelli"
+      }
+    },
+    {
+      id: "paolo-bartorelli-pesaro",
+      slug: "paolo-bartorelli-pesaro",
+      nome: "Paolo Bartorelli Gioielli dal 1882",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Paolo Bartorelli Gioielli dal 1882 in Via Branca 15 a Pesaro \xE8 una storica maison marchigiana attestata dallo store locator ufficiale Longines quale rivenditore autorizzato con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pesaro",
+      posizione: {
+        indirizzo: "Via Branca, 15",
+        cap: "61122",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+        ]
+      },
+      contatti: {
+        telefono: "0721 31345",
+        email: "info@paolobartorelligioielli.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1882,
+        fondatore: null,
+        testo: "La denominazione ufficiale attestata dal marchio richiama la tradizione storica Bartorelli dal 1882.",
+        eventi: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-paolo-bartorelli-gioielli-g"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "paolo-bartorelli-pesaro"
+      }
+    },
+    {
+      id: "gioielleria-capodagli-fano",
+      slug: "gioielleria-capodagli-fano",
+      nome: "Gioielleria Capodagli",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Capodagli (Capodagli Pietro Snc) in Corso Matteotti 109 a Fano \xE8 rivenditore ufficiale Longines e Mido attestato dai rispettivi store locator dei marchi, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [
+        "Capodagli Pietro Snc di Lauro Ivonne & C."
+      ],
+      gruppoId: null,
+      localitaId: "fano",
+      posizione: {
+        indirizzo: "Corso Matteotti, 109",
+        cap: "61032",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+          "l6-www-midowatches-com-us-store-locator-italy-fano"
+        ]
+      },
+      contatti: {
+        telefono: "0721 860636",
+        email: "info@capodagli.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+          "l6-www-midowatches-com-us-store-locator-italy-fano"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+            "l6-www-midowatches-com-us-store-locator-italy-fano"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l6-www-midowatches-com-us-store-locator-italy-fano"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l6-www-midowatches-com-us-store-locator-italy-fano"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+          "l6-www-midowatches-com-us-store-locator-italy-fano"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Longines e Mido.",
+            fonti: [
+              "l6-www-longines-com-en-us-store-id-capodagli-pietro-snc-di",
+              "l6-www-midowatches-com-us-store-locator-italy-fano"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-capodagli-fano"
+      }
+    },
+    {
+      id: "gioielleria-granarelli-fano",
+      slug: "gioielleria-granarelli-fano",
+      nome: "Gioielleria Granarelli",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Granarelli Srl in Via Arco d\u2019Augusto a Fano \xE8 punto vendita autorizzato Hamilton e Tissot documentato dagli store locator ufficiali dei due marchi.",
+      nomiPrecedenti: [
+        "Gioielleria Granarelli Srl"
+      ],
+      gruppoId: null,
+      localitaId: "fano",
+      posizione: {
+        indirizzo: "Via Arco d\u2019Augusto, 60",
+        cap: "61032",
+        coordinate: null,
+        fonti: [
+          "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+          "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche"
+        ]
+      },
+      contatti: {
+        telefono: "0721 1701866",
+        email: "info@granarelli.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+          "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:15"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:15"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:15"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:15"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:15",
+                chiusura: "12:15"
+              },
+              {
+                apertura: "16:15",
+                chiusura: "19:45"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+            "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+          "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Hamilton e Tissot.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+              "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-granarelli-fano"
+      }
+    },
+    {
+      id: "felici-srl-porto-san-giorgio",
+      slug: "felici-srl-porto-san-giorgio",
+      nome: "Felici Srl",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Felici Srl in Viale Don Minzoni 55/a a Porto San Giorgio \xE8 rivenditore ufficiale Longines attestato dallo store locator del marchio, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "porto-san-giorgio",
+      posizione: {
+        indirizzo: "Viale Don Minzoni, 55/a",
+        cap: "63822",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+        ]
+      },
+      contatti: {
+        telefono: "0734 968525",
+        email: "felicisrl@yahoo.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-felici-srl-porto-san-giorgi"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "felici-srl-porto-san-giorgio"
+      }
+    },
+    {
+      id: "gioielleria-panichi-porto-san-giorgio",
+      slug: "gioielleria-panichi-porto-san-giorgio",
+      nome: "Gioielleria Panichi dal 1954",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Panichi dal 1954 in Viale Cavallotti 131 a Porto San Giorgio \xE8 un\u2019attivit\xE0 storica del Fermano attestata dallo store locator ufficiale Breil quale rivenditore autorizzato.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "porto-san-giorgio",
+      posizione: {
+        indirizzo: "Viale Cavallotti, 131",
+        cap: "63822",
+        coordinate: null,
+        fonti: [
+          "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+        ]
+      },
+      contatti: {
+        telefono: "0734 67543",
+        email: "panichipsg54@gmail.com",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Breil",
+            fonti: [
+              "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Breil",
+            fonti: [
+              "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1954,
+        fondatore: null,
+        testo: "La denominazione aziendale registrata nello store locator del marchio attesta l\u2019avvio dell\u2019attivit\xE0 nel 1954.",
+        eventi: [],
+        fonti: [
+          "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Breil.",
+            fonti: [
+              "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-panichi-porto-san-giorgio"
+      }
+    },
+    {
+      id: "gioielleria-rosati-porto-sant-elpidio",
+      slug: "gioielleria-rosati-porto-sant-elpidio",
+      nome: "Gioielleria Rosati",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Rosati in Via Principe Umberto 2 a Porto Sant\u2019Elpidio \xE8 un\u2019attivit\xE0 familiare di tre generazioni attestata dallo store finder ufficiale Oris come rivenditore autorizzato del marchio svizzero.",
+      nomiPrecedenti: [
+        "Perpetual Srl"
+      ],
+      gruppoId: null,
+      localitaId: "porto-sant-elpidio",
+      posizione: {
+        indirizzo: "Via Principe Umberto, 2",
+        cap: "63821",
+        coordinate: null,
+        fonti: [
+          "l6-www-gioielleriarosati-com-pages-dove-siamo",
+          "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+        ]
+      },
+      contatti: {
+        telefono: "0734 253641",
+        email: null,
+        sito: "https://www.gioielleriarosati.com/pages/dove-siamo",
+        whatsapp: "+393314130989",
+        social: [],
+        fonti: [
+          "l6-www-gioielleriarosati-com-pages-dove-siamo",
+          "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl",
+            "l6-www-gioielleriarosati-com-pages-dove-siamo"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-gioielleriarosati-com-pages-dove-siamo"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Oris",
+            fonti: [
+              "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Oris",
+            fonti: [
+              "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta una tradizione familiare di tre generazioni a Porto Sant\u2019Elpidio.",
+        eventi: [],
+        fonti: [
+          "l6-www-gioielleriarosati-com-pages-dove-siamo"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-gioielleriarosati-com-pages-dove-siamo",
+          "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale e locator Oris.",
+            fonti: [
+              "l6-www-gioielleriarosati-com-pages-dove-siamo",
+              "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-rosati-porto-sant-elpidio"
+      }
+    },
+    {
+      id: "ibis-gioielli-civitanova-marche",
+      slug: "ibis-gioielli-civitanova-marche",
+      nome: "Ibis Gioielli 1979",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Ibis Gioielli 1979 (The Thomas Group Srl) in Corso Umberto I 73 a Civitanova Marche \xE8 rivenditore ufficiale Longines e Mido attestato dai rispettivi store locator, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [
+        "The Thomas Group Srl"
+      ],
+      gruppoId: null,
+      localitaId: "civitanova-marche",
+      posizione: {
+        indirizzo: "Corso Umberto I, 73",
+        cap: "62012",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+          "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+        ]
+      },
+      contatti: {
+        telefono: "0733 770185",
+        email: "info@ibisgioielli.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+          "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+            "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1979,
+        fondatore: null,
+        testo: "La denominazione Ibis Gioielli 1979 attestata dallo store locator Mido richiama l\u2019avvio dell\u2019attivit\xE0 nel 1979.",
+        eventi: [],
+        fonti: [
+          "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+          "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Longines e Mido.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-the-thomas-group-srl-ibis-c",
+              "l6-www-midowatches-com-us-store-locator-italy-civitanova-ma"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "ibis-gioielli-civitanova-marche"
+      }
+    },
+    {
+      id: "gioielleria-cotognini-macerata",
+      slug: "gioielleria-cotognini-macerata",
+      nome: "Gioielleria Cotognini",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Cotognini in Via Giuseppe Garibaldi 60 a Macerata \xE8 un punto vendita di orologeria attestato dallo store locator ufficiale Seiko quale Global Brand Retailer per il capoluogo maceratese.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "macerata",
+      posizione: {
+        indirizzo: "Via G. Garibaldi, 60",
+        cap: "62100",
+        coordinate: null,
+        fonti: [
+          "l6-www-seikowatches-com-it-it-stores-28648-1"
+        ]
+      },
+      contatti: {
+        telefono: "0733 232417",
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-seikowatches-com-it-it-stores-28648-1"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-seikowatches-com-it-it-stores-28648-1"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-seikowatches-com-it-it-stores-28648-1"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Seiko",
+            fonti: [
+              "l6-www-seikowatches-com-it-it-stores-28648-1"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Seiko",
+            fonti: [
+              "l6-www-seikowatches-com-it-it-stores-28648-1"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-seikowatches-com-it-it-stores-28648-1"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Seiko.",
+            fonti: [
+              "l6-www-seikowatches-com-it-it-stores-28648-1"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-cotognini-macerata"
+      }
+    },
+    {
+      id: "angolo-d-oro-sant-egidio",
+      slug: "angolo-d-oro-sant-egidio",
+      nome: "L\u2019Angolo d\u2019Oro di D\u2019Agostino Micheal",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "L\u2019Angolo d\u2019Oro di D\u2019Agostino Micheal in Piazza Umberto I a Sant\u2019Egidio alla Vibrata offre servizi artigianali di riparazione e restauro di orologi e gioielli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "sant-egidio-alla-vibrata",
+      posizione: {
+        indirizzo: "Piazza Umberto I",
+        cap: "64016",
+        coordinate: null,
+        fonti: [
+          "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+        ]
+      },
+      contatti: {
+        telefono: "0861 842719",
+        email: "oropuro70@gmail.com",
+        sito: "https://www.langolodoroitalia.com/riparazioni-orologi-gioielli.php",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "12:45"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale.",
+            fonti: [
+              "l6-www-langolodoroitalia-com-riparazioni-orologi-gioielli-p"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "angolo-d-oro-sant-egidio"
+      }
+    },
+    {
+      id: "gioielleria-michini-roseto",
+      slug: "gioielleria-michini-roseto",
+      nome: "Gioielleria Michini",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Michini in Piazza della Libert\xE0 a Roseto degli Abruzzi, fondata nel 1960 e a conduzione familiare, \xE8 rivenditore ufficiale Hamilton attestato dallo store locator del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "roseto-degli-abruzzi",
+      posizione: {
+        indirizzo: "Piazza della Libert\xE0",
+        cap: "64026",
+        coordinate: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo"
+        ]
+      },
+      contatti: {
+        telefono: "085 8992183",
+        email: "gioielleriamichini@gmail.com",
+        sito: "https://gioielleriamichini.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+          "l6-gioielleriamichini-it"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+            "l6-gioielleriamichini-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-gioielleriamichini-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1960,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta una tradizione familiare iniziata a Roseto degli Abruzzi nel 1960.",
+        eventi: [
+          {
+            data: "1960",
+            descrizione: "Fondazione della Gioielleria Michini a Roseto degli Abruzzi.",
+            fonti: [
+              "l6-gioielleriamichini-it"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-gioielleriamichini-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+          "l6-gioielleriamichini-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale e locator Hamilton.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+              "l6-gioielleriamichini-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-michini-roseto"
+      }
+    },
+    {
+      id: "gioielleria-ferretti-chieti",
+      slug: "gioielleria-ferretti-chieti",
+      nome: "Gioielleria Ferretti 1956",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Ferretti 1956 in Viale Benedetto Croce 105 a Chieti Scalo \xE8 un\u2019attivit\xE0 storica familiare dal 1956 con laboratorio interno dedicato alla revisione e riparazione di orologi e gioielli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "chieti",
+      posizione: {
+        indirizzo: "Viale Benedetto Croce, 105",
+        cap: "66100",
+        coordinate: null,
+        fonti: [
+          "l6-www-ferrettigioielli-com"
+        ]
+      },
+      contatti: {
+        telefono: "0871 560101",
+        email: "info@ferrettigioielli.com",
+        sito: "https://www.ferrettigioielli.com/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-ferrettigioielli-com"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-www-ferrettigioielli-com"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l6-www-ferrettigioielli-com"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-ferrettigioielli-com"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-ferrettigioielli-com"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "meccanici",
+          fonti: [
+            "l6-www-ferrettigioielli-com"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1956,
+        fondatore: "Domenico Ferretti",
+        testo: "Fondata nel 1956 col maestro orologiaio Domenico Ferretti, l\u2019attivit\xE0 tramanda la tradizione orologiera e orafa di famiglia a Chieti.",
+        eventi: [
+          {
+            data: "1956",
+            descrizione: "Fondazione di Ferretti 1956 a Chieti.",
+            fonti: [
+              "l6-www-ferrettigioielli-com"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-www-ferrettigioielli-com"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-ferrettigioielli-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: bottega storica inserita da sito ufficiale.",
+            fonti: [
+              "l6-www-ferrettigioielli-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-ferretti-chieti"
+      }
+    },
+    {
+      id: "sorbi-gioielli-perugia",
+      slug: "sorbi-gioielli-perugia",
+      nome: "Sorbi Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Sorbi Gioielli in Via Leonida Mastrodicasa 99/E a Ponte Felcino (Perugia) dispone di un laboratorio interno di riparazione orologi e assistenza post-vendita accanto al laboratorio orafo.",
+      nomiPrecedenti: [
+        "Oreficeria Sorbi"
+      ],
+      gruppoId: null,
+      localitaId: "perugia",
+      posizione: {
+        indirizzo: "Via Leonida Mastrodicasa, 99/E",
+        cap: "06134",
+        coordinate: null,
+        fonti: [
+          "l6-www-oreficeriasorbi-com-servizi-php"
+        ]
+      },
+      contatti: {
+        telefono: "075 6910508",
+        email: "ema.sorbi@hotmail.it",
+        sito: "https://www.oreficeriasorbi.com/servizi.php",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-oreficeriasorbi-com-servizi-php"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-www-oreficeriasorbi-com-servizi-php"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-oreficeriasorbi-com-servizi-php"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-oreficeriasorbi-com-servizi-php"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-oreficeriasorbi-com-servizi-php"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-oreficeriasorbi-com-servizi-php"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: laboratorio inserito da sito ufficiale.",
+            fonti: [
+              "l6-www-oreficeriasorbi-com-servizi-php"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "sorbi-gioielli-perugia"
+      }
+    },
+    {
+      id: "gioielleria-chiatti-citta-di-castello",
+      slug: "gioielleria-chiatti-citta-di-castello",
+      nome: "Gioielleria Chiatti",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Chiatti in Via Scipione Lapi 2/C a Citt\xE0 di Castello \xE8 punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Mido quale rivenditore autorizzato del marchio in Alta Valle del Tevere.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "citta-di-castello",
+      posizione: {
+        indirizzo: "Via Scipione Lapi, 2/C",
+        cap: "06012",
+        coordinate: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      contatti: {
+        telefono: "075 8556232",
+        email: "info@gioielleriachiatti.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-chiatti-citta-di-castello"
+      }
+    },
+    {
+      id: "tomasini-francia-terni",
+      slug: "tomasini-francia-terni",
+      nome: "Tomasini Francia Srl",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Tomasini Francia Srl in Largo Elia Passavanti 19 a Terni \xE8 rivenditore ufficiale Longines e Tissot documentato dai rispettivi store locator dei marchi, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "terni",
+      posizione: {
+        indirizzo: "Largo Elia Passavanti, 19",
+        cap: "05100",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+          "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+        ]
+      },
+      contatti: {
+        telefono: "0744 408111",
+        email: "info@tomasinifrancia.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+          "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+            "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+          "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Longines e Tissot.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-tomasini-francia-srl-terni",
+              "l6-www-tissotwatches-com-it-it-store-tomasini-francia-srl-a"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "tomasini-francia-terni"
+      }
+    },
+    {
+      id: "gioielleria-massarucci-terni",
+      slug: "gioielleria-massarucci-terni",
+      nome: "Gioielleria Massarucci",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Massarucci in Via del Rivo 192 a Terni offre servizi di riparazione orologi di varie tipologie e assistenza tecnica multimarca.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "terni",
+      posizione: {
+        indirizzo: "Via del Rivo, 192",
+        cap: "05100",
+        coordinate: null,
+        fonti: [
+          "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+        ]
+      },
+      contatti: {
+        telefono: "0744 300517",
+        email: "gioielleriamassarucci@gmail.com",
+        sito: "https://www.gioielleriamassarucci.com/riparazioni-assistenza/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale.",
+            fonti: [
+              "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-massarucci-terni"
+      }
+    },
+    {
+      id: "gt-orologerie-latina",
+      slug: "gt-orologerie-latina",
+      nome: "GT Orologerie",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "GT Orologerie in Via Adige 8 a Latina, con oltre quarant\u2019anni di esperienza dichiarata nel settore, si occupa di riparazione e assistenza orologiera e propone segnatempo di secondo polso, vintage e da collezione.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "latina",
+      posizione: {
+        indirizzo: "Via Adige, 8",
+        cap: "04100",
+        coordinate: null,
+        fonti: [
+          "l6-shop-gtorologerie-it-policies-contact-information"
+        ]
+      },
+      contatti: {
+        telefono: "0773 694925",
+        email: "info@gtorologerie.it",
+        sito: "https://gtorologerie.it/",
+        whatsapp: "+393715956457",
+        social: [],
+        fonti: [
+          "l6-shop-gtorologerie-it-policies-contact-information",
+          "l6-gtorologerie-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "19:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-shop-gtorologerie-it-policies-contact-information"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "vintage",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        },
+        {
+          id: "collezione",
+          fonti: [
+            "l6-gtorologerie-it"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-gtorologerie-it",
+          "l6-shop-gtorologerie-it-policies-contact-information"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale.",
+            fonti: [
+              "l6-gtorologerie-it",
+              "l6-shop-gtorologerie-it-policies-contact-information"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gt-orologerie-latina"
+      }
+    },
+    {
+      id: "menichelli-franco-viterbo",
+      slug: "menichelli-franco-viterbo",
+      nome: "Gioielli di Menichelli Franco & C. Srl",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielli di Menichelli Franco & C. Srl in Piazza Giuseppe Verdi 22 a Viterbo \xE8 punto vendita ufficiale Longines con servizi di sostituzione batteria, sostituzione bracciale e assistenza clienti attestati dallo store locator del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "viterbo",
+      posizione: {
+        indirizzo: "Piazza Verdi, 22",
+        cap: "01100",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+        ]
+      },
+      contatti: {
+        telefono: "0761 345113",
+        email: "assistenza@menichelli1912.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "menichelli-franco-viterbo"
+      }
+    },
+    {
+      id: "orzelleca-gioielli-benevento",
+      slug: "orzelleca-gioielli-benevento",
+      nome: "Orzelleca Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Orzelleca Gioielli in Corso Garibaldi 190 a Benevento nasce nel 1940 come orologeria con laboratorio di riparazioni ed \xE8 oggi rivenditore ufficiale Longines, Hamilton e Mido, con servizi di manutenzione, sostituzione batteria e cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: "orzelleca",
+      localitaId: "benevento",
+      posizione: {
+        indirizzo: "Corso Garibaldi, 190",
+        cap: "82100",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+        ]
+      },
+      contatti: {
+        telefono: "0824 21155",
+        email: "benevento@orzellecagioielli.it",
+        sito: "https://orzellecagioielli.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+          "l6-orzellecagioielli-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-orzellecagioielli-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-orzellecagioielli-it"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          },
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-orzellecagioielli-it"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-orzellecagioielli-it"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-orzellecagioielli-it"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+            ]
+          },
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1940,
+        fondatore: null,
+        testo: "La storia aziendale documenta le origini nel 1940 a Benevento come orologeria dotata di laboratorio di riparazioni.",
+        eventi: [
+          {
+            data: "1940",
+            descrizione: "Fondazione dell\u2019attivit\xE0 a Benevento.",
+            fonti: [
+              "l6-orzellecagioielli-it-azienda"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-orzellecagioielli-it-azienda"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+          "l6-orzellecagioielli-it-azienda",
+          "l6-orzellecagioielli-it",
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: bottega storica inserita da sito ufficiale e locator Longines/Hamilton/Mido.",
+            fonti: [
+              "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+              "l6-orzellecagioielli-it-azienda",
+              "l6-orzellecagioielli-it",
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "orzelleca-gioielli-benevento"
+      }
+    },
+    {
+      id: "isi-orzelleca-avellino",
+      slug: "isi-orzelleca-avellino",
+      nome: "Isi Srl \u2014 Orzelleca Avellino",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Sede avellinese del gruppo Orzelleca (Isi Srl) in Corso Vittorio Emanuele 197 ad Avellino, rivenditore ufficiale Longines e Hamilton con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [
+        "Isi Srl (Orzelleca)"
+      ],
+      gruppoId: "orzelleca",
+      localitaId: "avellino",
+      posizione: {
+        indirizzo: "Corso Vittorio Emanuele, 197",
+        cap: "83100",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+        ]
+      },
+      contatti: {
+        telefono: "0825 35700",
+        email: "avellino@orzellecagioielli.it",
+        sito: "https://orzellecagioielli.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+          "l6-orzellecagioielli-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:15"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-orzellecagioielli-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Costituisce la boutique di Avellino della storica maison Orzelleca fondata nel 1940.",
+        eventi: [],
+        fonti: [
+          "l6-orzellecagioielli-it-azienda"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+          "l6-orzellecagioielli-it-azienda",
+          "l6-orzellecagioielli-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: sede di Avellino inserita da locator ufficiali Longines e Hamilton.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+              "l6-orzellecagioielli-it-azienda",
+              "l6-orzellecagioielli-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "isi-orzelleca-avellino"
+      }
+    },
+    {
+      id: "gioielleria-pegy-avellino",
+      slug: "gioielleria-pegy-avellino",
+      nome: "Gioielleria Pegy",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Pegy in Via G. Berardi 1-2 ad Avellino \xE8 un punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Mido quale rivenditore autorizzato del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "avellino",
+      posizione: {
+        indirizzo: "Via G. Berardi, 1-2",
+        cap: "83100",
+        coordinate: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      contatti: {
+        telefono: "0825 780066",
+        email: "pegygioielli@virgilio.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-pegy-avellino"
+      }
+    },
+    {
+      id: "gioielleria-ciletti-foggia",
+      slug: "gioielleria-ciletti-foggia",
+      nome: "Gioielleria Giuseppe Ciletti",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Giuseppe Ciletti in Via V. Lanza 10/12 a Foggia, aperta nel 1950, dispone di un laboratorio tecnico interno per revisioni, riparazioni, sostituzione di vetri e quadranti e assistenza post-vendita su Rolex e Tudor.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "foggia",
+      posizione: {
+        indirizzo: "Via V. Lanza, 10/12",
+        cap: "71121",
+        coordinate: null,
+        fonti: [
+          "l6-giuseppeciletti-it-contatti"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0881 771201",
+        email: "info@giuseppeciletti.it",
+        sito: "https://giuseppeciletti.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-giuseppeciletti-it-contatti",
+          "l6-giuseppeciletti-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-giuseppeciletti-it-contatti"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-giuseppeciletti-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-giuseppeciletti-it"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Sostituzione vetro e quadrante",
+          fonti: [
+            "l6-giuseppeciletti-it-servizi"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-giuseppeciletti-it"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-giuseppeciletti-it"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-giuseppeciletti-it"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-giuseppeciletti-it-servizi"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-giuseppeciletti-it-servizi"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1950,
+        fondatore: "Giuseppe Ciletti",
+        testo: "Fondata a Foggia nel 1950, la Gioielleria Giuseppe Ciletti unisce la vendita di alta orologeria al laboratorio tecnico in sede.",
+        eventi: [
+          {
+            data: "1950",
+            descrizione: "Apertura della Gioielleria Ciletti a Foggia.",
+            fonti: [
+              "l6-giuseppeciletti-it"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-giuseppeciletti-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-giuseppeciletti-it",
+          "l6-giuseppeciletti-it-servizi",
+          "l6-giuseppeciletti-it-contatti"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: bottega storica inserita da sito ufficiale.",
+            fonti: [
+              "l6-giuseppeciletti-it",
+              "l6-giuseppeciletti-it-servizi",
+              "l6-giuseppeciletti-it-contatti"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-ciletti-foggia"
+      }
+    },
+    {
+      id: "stravola-gioiellieri-san-severo",
+      slug: "stravola-gioiellieri-san-severo",
+      nome: "Stravola Gioiellieri",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Stravola Gioiellieri in Via R. Recca 8 a San Severo \xE8 punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Hamilton quale rivenditore autorizzato.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "san-severo",
+      posizione: {
+        indirizzo: "Via R. Recca, 8",
+        cap: "71016",
+        coordinate: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      contatti: {
+        telefono: "0882 334131",
+        email: "stravolagioiellieri@libero.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "stravola-gioiellieri-san-severo"
+      }
+    },
+    {
+      id: "nazareno-bancone-cerignola",
+      slug: "nazareno-bancone-cerignola",
+      nome: "Nazareno Bancone Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Nazareno Bancone Gioielli in Piazza Duomo 14 a Cerignola \xE8 un\u2019orologeria e gioielleria attestata dallo store locator ufficiale Hamilton come rivenditore autorizzato del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "cerignola",
+      posizione: {
+        indirizzo: "Piazza Duomo, 14",
+        cap: "71042",
+        coordinate: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      contatti: {
+        telefono: "0885 416325",
+        email: "nazarenobancone@gmail.com",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "nazareno-bancone-cerignola"
+      }
+    },
+    {
+      id: "landi-gioiellieri-barletta",
+      slug: "landi-gioiellieri-barletta",
+      nome: "Landi Gioiellieri di Landriscina Domenico",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Landi Gioiellieri di Landriscina Domenico in Corso Garibaldi 81 a Barletta \xE8 rivenditore ufficiale Longines attestato dallo store locator del marchio, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "barletta",
+      posizione: {
+        indirizzo: "Corso Garibaldi, 81",
+        cap: "76121",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+        ]
+      },
+      contatti: {
+        telefono: "0883 347264",
+        email: "landimariagioiellieri@yahoo.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 7,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "landi-gioiellieri-barletta"
+      }
+    },
+    {
+      id: "franco-cuomo-gioielli-andria",
+      slug: "franco-cuomo-gioielli-andria",
+      nome: "Franco Cuomo Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Franco Cuomo Gioielli in Via Regina Margherita 87 ad Andria dispone di centro assistenza orologiero interno per revisioni complete, sostituzione batteria, test di impermeabilit\xE0 e interventi di ripristino su marchi quali Omega, Cartier, TAG Heuer e Zenith.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "andria",
+      posizione: {
+        indirizzo: "Via Regina Margherita, 87",
+        cap: "76123",
+        coordinate: null,
+        fonti: [
+          "l6-www-francocuomogioielli-it-contatti-html"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0883 590209",
+        email: "info@francocuomogioielli.it",
+        sito: "https://www.francocuomogioielli.it/centro-assistenza-certificato.html",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-francocuomogioielli-it-contatti-html",
+          "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "revisione",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-francocuomogioielli-it-contatti-html"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-francocuomogioielli-it-contatti-html"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Test di impermeabilit\xE0 e ripristino estetico",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        },
+        {
+          id: "meccanici",
+          fonti: [
+            "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [
+          {
+            marca: "Omega",
+            fonti: [
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
+          },
+          {
+            marca: "TAG Heuer",
+            fonti: [
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
+          },
+          {
+            marca: "Zenith",
+            fonti: [
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-francocuomogioielli-it-contatti-html",
+          "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: laboratorio inserito da sito ufficiale.",
+            fonti: [
+              "l6-www-francocuomogioielli-it-contatti-html",
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "franco-cuomo-gioielli-andria"
+      }
+    },
+    {
+      id: "pignataro-gioielli-andria",
+      slug: "pignataro-gioielli-andria",
+      nome: "Pignataro Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Pignataro Gioielli in Viale Crispi 43 ad Andria \xE8 punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Mido quale rivenditore autorizzato del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "andria",
+      posizione: {
+        indirizzo: "Viale Crispi, 43",
+        cap: "76123",
+        coordinate: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0883 953677",
+        email: "info@pignatarogioielli.com",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "pignataro-gioielli-andria"
+      }
+    },
+    {
+      id: "feni-gioielli-taranto",
+      slug: "feni-gioielli-taranto",
+      nome: "Feni Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Feni Gioielli in Via Domenico Acclavio 38-38/B a Taranto, fondata nel 1974 da Angelo Raffaele Nigro e Maria Rosaria Marzano, dispone di laboratorio interno ed \xE8 punto vendita ufficiale Patek Philippe con servizi di sostituzione batteria, test di impermeabilit\xE0, controllo della marcia e cura del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "taranto",
+      posizione: {
+        indirizzo: "Via Domenico Acclavio, 38-38/B",
+        cap: "74123",
+        coordinate: null,
+        fonti: [
+          "l6-www-fenigioielli-com-contact",
+          "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+        ]
+      },
+      contatti: {
+        telefono: "+39 099 4526348",
+        email: "info@fenigioielli.it",
+        sito: "https://www.fenigioielli.com/storia/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-fenigioielli-com-contact",
+          "l6-www-fenigioielli-com-storia"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:30",
+                chiusura: "20:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-fenigioielli-com-contact"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen",
+            "l6-www-fenigioielli-com-storia"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen",
+            "l6-www-fenigioielli-com-storia"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-fenigioielli-com-storia"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-fenigioielli-com-storia"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Test di impermeabilit\xE0 e controllo della marcia",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Patek Philippe",
+            fonti: [
+              "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+            ]
+          },
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          },
+          {
+            marca: "IWC",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Patek Philippe",
+            fonti: [
+              "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1974,
+        fondatore: "Angelo Raffaele Nigro e Maria Rosaria Marzano",
+        testo: "Fondata a Taranto nel 1974 da Angelo Raffaele Nigro e Maria Rosaria Marzano, nel 1983 Feni Gioielli ha rilevato la storica gioielleria Calderoni.",
+        eventi: [
+          {
+            data: "1974",
+            descrizione: "Fondazione di Feni Gioielli a Taranto.",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          },
+          {
+            data: "1983",
+            descrizione: "Acquisizione della gioielleria Calderoni.",
+            fonti: [
+              "l6-www-fenigioielli-com-storia"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-www-fenigioielli-com-storia"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-fenigioielli-com-contact",
+          "l6-www-fenigioielli-com-storia",
+          "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda storica inserita da sito ufficiale e pagina Patek Philippe.",
+            fonti: [
+              "l6-www-fenigioielli-com-contact",
+              "l6-www-fenigioielli-com-storia",
+              "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "feni-gioielli-taranto"
+      }
+    },
+    {
+      id: "gioielleria-de-leonardis-castellaneta",
+      slug: "gioielleria-de-leonardis-castellaneta",
+      nome: "Gioielleria De Leonardis",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria De Leonardis in Via San Francesco 21 a Castellaneta \xE8 punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Mido quale rivenditore autorizzato in provincia di Taranto.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "castellaneta",
+      posizione: {
+        indirizzo: "Via S. Francesco, 21",
+        cap: "74011",
+        coordinate: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      contatti: {
+        telefono: "099 8491442",
+        email: "deleosk@libero.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-de-leonardis-castellaneta"
+      }
+    },
+    {
+      id: "pace-gioielli-brindisi",
+      slug: "pace-gioielli-brindisi",
+      nome: "Pace Gioielli \u2014 sede di Brindisi",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Pace Gioielli in Corso Roma 13 a Brindisi, realt\xE0 attiva dal 1970, dispone dal 2019 di un laboratorio interno a Brindisi per l\u2019assistenza tecnica post-vendita ed \xE8 rivenditore ufficiale Hamilton attestato dallo store locator del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "brindisi",
+      posizione: {
+        indirizzo: "Corso Roma, 13",
+        cap: "72100",
+        coordinate: null,
+        fonti: [
+          "l6-www-pacegioielli-com-contatti",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0831 523824",
+        email: "info@pacegioielli.it",
+        sito: "https://www.pacegioielli.com/contatti",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-pacegioielli-com-contatti",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "10:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-pacegioielli-com-contatti"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+            "l6-www-pacegioielli-com-chi-siamo"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-pacegioielli-com-servizi"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l6-www-pacegioielli-com-servizi"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l6-www-pacegioielli-com-servizi"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-pacegioielli-com-chi-siamo"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l6-www-pacegioielli-com-chi-siamo"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          },
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-www-pacegioielli-com-chi-siamo"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-www-pacegioielli-com-chi-siamo"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l6-www-pacegioielli-com-servizi"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l6-www-pacegioielli-com-servizi"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1970,
+        fondatore: null,
+        testo: "Attiva dal 1970, Pace Gioielli opera in Corso Roma a Brindisi con un laboratorio interno di assistenza orologiera attivo dal 2019.",
+        eventi: [
+          {
+            data: "1970",
+            descrizione: "Avvio dell\u2019attivit\xE0 di Pace Gioielli.",
+            fonti: [
+              "l6-www-pacegioielli-com-chi-siamo"
+            ]
+          },
+          {
+            data: "2019",
+            descrizione: "Attivazione del laboratorio di assistenza post-vendita a Brindisi.",
+            fonti: [
+              "l6-www-pacegioielli-com-servizi"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-www-pacegioielli-com-chi-siamo",
+          "l6-www-pacegioielli-com-servizi"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-pacegioielli-com-contatti",
+          "l6-www-pacegioielli-com-servizi",
+          "l6-www-pacegioielli-com-chi-siamo",
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda storica inserita da sito ufficiale e locator Hamilton.",
+            fonti: [
+              "l6-www-pacegioielli-com-contatti",
+              "l6-www-pacegioielli-com-servizi",
+              "l6-www-pacegioielli-com-chi-siamo",
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "pace-gioielli-brindisi"
+      }
+    },
+    {
+      id: "naviglio-e-fiume-brindisi",
+      slug: "naviglio-e-fiume-brindisi",
+      nome: "Naviglio e Fiume Gioielleria",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Naviglio e Fiume Gioielleria in Corso Roma 22 a Brindisi \xE8 un punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Mido quale rivenditore autorizzato.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "brindisi",
+      posizione: {
+        indirizzo: "Corso Roma, 22",
+        cap: "72100",
+        coordinate: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      contatti: {
+        telefono: "0831 523128",
+        email: "info@naviglioefiumegioielleria.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l5-www-midowatches-com-it-store-locator"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Mido",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l5-www-midowatches-com-it-store-locator"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "naviglio-e-fiume-brindisi"
+      }
+    },
+    {
+      id: "iacovone-via-del-corso-matera",
+      slug: "iacovone-via-del-corso-matera",
+      nome: "Iacovone Via Del Corso Srl",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Iacovone Via Del Corso Srl in Via del Corso 50 a Matera \xE8 rivenditore ufficiale Longines e Tissot attestato dai rispettivi store locator dei marchi, con servizi di manutenzione e sostituzione del cinturino.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "matera",
+      posizione: {
+        indirizzo: "Via del Corso, 50",
+        cap: "75100",
+        coordinate: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+          "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+        ]
+      },
+      contatti: {
+        telefono: "0835 256377",
+        email: "info@iacovoneviadelcorso.it",
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+          "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+        ]
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+            "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Longines",
+            fonti: [
+              "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+          "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Longines e Tissot.",
+            fonti: [
+              "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+              "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "iacovone-via-del-corso-matera"
+      }
+    },
+    {
+      id: "gioielleria-cometa-policoro",
+      slug: "gioielleria-cometa-policoro",
+      nome: "Gioielleria Cometa",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Cometa in Via Siris 77 a Policoro \xE8 punto vendita di orologeria e gioielleria attestato dallo store locator ufficiale Hamilton quale rivenditore autorizzato del marchio in provincia di Matera.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "policoro",
+      posizione: {
+        indirizzo: "Via Siris, 77",
+        cap: "75025",
+        coordinate: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+        ]
+      },
+      contatti: {
+        telefono: "0835 985822",
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "vendita",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto6-20261026",
+        idOriginale: "gioielleria-cometa-policoro"
       }
     }
   ]
