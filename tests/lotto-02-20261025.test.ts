@@ -8,11 +8,14 @@ import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 // documentati. Confronto con lo snapshot pre-lotto (commit adfbdb0): ogni arricchimento
 // è additivo, nessun dato storico sovrascritto o perso.
 const prima = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'adfbdb0:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
-const data = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8'))) as Directory;
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'fc730d0:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
+const current = directorySchema.parse(JSON.parse(readFileSync('site/data/directory.json', 'utf8'))) as Directory;
 
 test('L2: 159 attività conservate, posizioni e identità invariate, 37 fonti nuove datate', () => {
   // I lotti successivi aggiungono schede documentate: la conservazione riguarda i 159 record
   // del periodo, non il congelamento del conteggio.
+  assert.ok(current.attivita.length >= 159, `catalogo incompleto: ${current.attivita.length}`);
+  for (const b of prima.attivita) assert.ok(current.attivita.some(x => x.id === b.id), `record perso in current: ${b.id}`);
   assert.ok(data.attivita.length >= 159, `catalogo incompleto: ${data.attivita.length}`);
   assert.equal(data.localita.length, prima.localita.length);
   // Il lotto 2 aggiunge 37 fonti; i lotti successivi del 25/10 aggiungono ulteriori fonti datate.

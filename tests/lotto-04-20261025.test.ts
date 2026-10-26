@@ -4,10 +4,11 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 
-// Lotto 4 di risoluzione anomalie (25/10/2026): confronto con lo snapshot pre-lotto (e9af003).
-// Correzioni verificate, sedi autonome documentate, nessun dato storico perso.
+// Lotto 4 di risoluzione anomalie (25/10/2026): confronto con lo snapshot pre-lotto (e9af003)
+// sul proprio snapshot (fc730d0) e verifica di conservazione sul catalogo attuale.
 const prima = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'e9af003:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
-const data = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8'))) as Directory;
+const data = directorySchema.parse(JSON.parse(execFileSync('git', ['show', 'fc730d0:site/data/directory.json'], { maxBuffer: 16 * 1024 * 1024 }).toString())) as Directory;
+const current = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8'))) as Directory;
 const report = JSON.parse(await readFile('data/reports/lotto-04-20261025-applied.json', 'utf8'));
 const byId = (id: string) => data.attivita.find(a => a.id === id)!;
 const NUOVE = ['eredi-trossello-aosta', 'grande-aldomoro-frosinone', 'ronzoni-udine-cavour', 'valenti-parma-farini'];
@@ -15,6 +16,8 @@ const modificati = new Set<string>(report.attivitaModificate.map((m: { id: strin
 
 test('L4: 163 attività, record storici conservati, sole modifiche documentate e tracciate', () => {
   assert.equal(data.attivita.length, prima.attivita.length + 4);
+  assert.ok(current.attivita.length >= data.attivita.length);
+  for (const b of data.attivita) assert.ok(current.attivita.some(x => x.id === b.id), `record L4 perso: ${b.id}`);
   assert.equal(report.nuoveSchede.length, 4);
   for (const vecchio of prima.attivita) {
     const attuale = byId(vecchio.id);

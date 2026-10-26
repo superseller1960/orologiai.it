@@ -1,0 +1,757 @@
+{
+  "lotto": "lotto-05-20261026",
+  "data": "2026-10-26",
+  "regioniCoinvolte": [
+    "Piemonte",
+    "Liguria",
+    "Trentino-Alto Adige",
+    "Friuli-Venezia Giulia",
+    "Veneto",
+    "Emilia-Romagna"
+  ],
+  "provinceCoinvolte": [
+    "CN",
+    "SV",
+    "SP",
+    "PC",
+    "BZ",
+    "GO",
+    "PN",
+    "RE",
+    "TV",
+    "FE",
+    "FC",
+    "MO",
+    "AL",
+    "VC"
+  ],
+  "provincePrimaAZeroCoperte": [
+    "CN",
+    "SV",
+    "SP",
+    "PC",
+    "BZ",
+    "GO",
+    "PN",
+    "RE"
+  ],
+  "candidatiEsaminati": 34,
+  "candidatiScartati": 8,
+  "motiviScarto": [
+    "Follie d’Oro Piacenza: assenza di CAP, email e orari sulla pagina ufficiale consultata",
+    "Oreficeria Ferrari Reggio Emilia: testo della pagina ufficiale estratto solo parzialmente",
+    "Orologeria Fronza Trento, Rolli Poniz Trieste, CieSSe Padova, Laboratorio Curato Brescia, Orologeria Cotifava Mantova, Orologeria Casadei Rimini: già presenti in catalogo (duplicati evitati)"
+  ],
+  "nuoveLocalita": [
+    {
+      "id": "cuneo",
+      "comune": "Cuneo",
+      "siglaProvincia": "CN",
+      "regione": "Piemonte"
+    },
+    {
+      "id": "bra",
+      "comune": "Bra",
+      "siglaProvincia": "CN",
+      "regione": "Piemonte"
+    },
+    {
+      "id": "savona",
+      "comune": "Savona",
+      "siglaProvincia": "SV",
+      "regione": "Liguria"
+    },
+    {
+      "id": "la-spezia",
+      "comune": "La Spezia",
+      "siglaProvincia": "SP",
+      "regione": "Liguria"
+    },
+    {
+      "id": "sarzana",
+      "comune": "Sarzana",
+      "siglaProvincia": "SP",
+      "regione": "Liguria"
+    },
+    {
+      "id": "piacenza",
+      "comune": "Piacenza",
+      "siglaProvincia": "PC",
+      "regione": "Emilia-Romagna"
+    },
+    {
+      "id": "bolzano",
+      "comune": "Bolzano",
+      "siglaProvincia": "BZ",
+      "regione": "Trentino-Alto Adige"
+    },
+    {
+      "id": "brunico",
+      "comune": "Brunico",
+      "siglaProvincia": "BZ",
+      "regione": "Trentino-Alto Adige"
+    },
+    {
+      "id": "monfalcone",
+      "comune": "Monfalcone",
+      "siglaProvincia": "GO",
+      "regione": "Friuli-Venezia Giulia"
+    },
+    {
+      "id": "gorizia",
+      "comune": "Gorizia",
+      "siglaProvincia": "GO",
+      "regione": "Friuli-Venezia Giulia"
+    },
+    {
+      "id": "pordenone",
+      "comune": "Pordenone",
+      "siglaProvincia": "PN",
+      "regione": "Friuli-Venezia Giulia"
+    },
+    {
+      "id": "reggio-emilia",
+      "comune": "Reggio nell'Emilia",
+      "siglaProvincia": "RE",
+      "regione": "Emilia-Romagna"
+    },
+    {
+      "id": "conegliano",
+      "comune": "Conegliano",
+      "siglaProvincia": "TV",
+      "regione": "Veneto"
+    },
+    {
+      "id": "casale-monferrato",
+      "comune": "Casale Monferrato",
+      "siglaProvincia": "AL",
+      "regione": "Piemonte"
+    }
+  ],
+  "nuoveSchede": [
+    {
+      "id": "gioielleria-rabino-cuneo",
+      "nome": "Gioielleria Rabino",
+      "localitaId": "cuneo",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1895
+    },
+    {
+      "id": "orolab-bra",
+      "nome": "Orolab",
+      "localitaId": "bra",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "casciola-gioielli-cuneo",
+      "nome": "Casciola Gioielli",
+      "localitaId": "cuneo",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "dupanloup-savona",
+      "nome": "A. Dupanloup",
+      "localitaId": "savona",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1880
+    },
+    {
+      "id": "gioielleria-delfino-savona",
+      "nome": "Gioielleria Delfino",
+      "localitaId": "savona",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1928
+    },
+    {
+      "id": "antica-casa-traverso-la-spezia",
+      "nome": "Antica Casa Traverso",
+      "localitaId": "la-spezia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1920
+    },
+    {
+      "id": "rizzuto-gioielleria-sarzana",
+      "nome": "Rizzuto Gioielleria",
+      "localitaId": "sarzana",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1960
+    },
+    {
+      "id": "astrua-piacenza",
+      "nome": "Astrua 1860 — sede di Piacenza",
+      "localitaId": "piacenza",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1860
+    },
+    {
+      "id": "orologeria-clementi-bolzano",
+      "nome": "Orologeria Clementi",
+      "localitaId": "bolzano",
+      "tipi": [
+        "orologeria",
+        "laboratorio",
+        "professionista"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-ranzi-bolzano",
+      "nome": "Gioielleria Ranzi",
+      "localitaId": "bolzano",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1884
+    },
+    {
+      "id": "v-gasser-brunico",
+      "nome": "V. Gasser",
+      "localitaId": "brunico",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1873
+    },
+    {
+      "id": "gioielleria-cernigoi-monfalcone",
+      "nome": "Gioielleria Cernigoi",
+      "localitaId": "monfalcone",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1937
+    },
+    {
+      "id": "dobner-gorizia",
+      "nome": "Dobner — sede di Gorizia",
+      "localitaId": "gorizia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 2007
+    },
+    {
+      "id": "nitta-gioielli-pordenone",
+      "nome": "Nitta Gioielli",
+      "localitaId": "pordenone",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-zambon-1934-pordenone",
+      "nome": "Gioielleria Zambon 1934",
+      "localitaId": "pordenone",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1934
+    },
+    {
+      "id": "camparini-gioielli-reggio-emilia",
+      "nome": "Camparini Gioielli",
+      "localitaId": "reggio-emilia",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1910
+    },
+    {
+      "id": "cadoppi-reggio-emilia",
+      "nome": "Cadoppi",
+      "localitaId": "reggio-emilia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "sts-laboratorio-orologeria-conegliano",
+      "nome": "S.T.S. Laboratorio di Orologeria",
+      "localitaId": "conegliano",
+      "tipi": [
+        "laboratorio",
+        "orologeria",
+        "professionista"
+      ],
+      "annoFondazione": 1985
+    },
+    {
+      "id": "gioielleria-da-rios-conegliano",
+      "nome": "Gioielleria Da Rios",
+      "localitaId": "conegliano",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1958
+    },
+    {
+      "id": "giberti-preziosi-ferrara",
+      "nome": "Giberti Preziosi",
+      "localitaId": "ferrara",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1974
+    },
+    {
+      "id": "gioielleria-pretolani-forli",
+      "nome": "Gioielleria Pretolani",
+      "localitaId": "forli",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1945
+    },
+    {
+      "id": "orologeria-reggiani-modena",
+      "nome": "Orologeria Reggiani",
+      "localitaId": "modena",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1962
+    },
+    {
+      "id": "henry-gioielli-alessandria",
+      "nome": "Henry Gioielli",
+      "localitaId": "alessandria",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "luigi-rosso-casale-monferrato",
+      "nome": "Luigi Rosso Orologi e Gioielli",
+      "localitaId": "casale-monferrato",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1992
+    },
+    {
+      "id": "biondi-vercelli",
+      "nome": "Biondi Gioielleria e Orologeria",
+      "localitaId": "vercelli",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1949
+    },
+    {
+      "id": "orologeria-era-ora-vercelli",
+      "nome": "Orologeria Era Ora",
+      "localitaId": "vercelli",
+      "tipi": [
+        "orologeria",
+        "laboratorio",
+        "professionista"
+      ],
+      "annoFondazione": null
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "l5-www-gioielleriarabino-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriarabino.com/"
+    },
+    {
+      "id": "l5-www-gioielleriarabino-com-i-nostri-laboratori-2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriarabino.com/i-nostri-laboratori-2/"
+    },
+    {
+      "id": "l5-www-gioielleriarabino-com-la-nostra-storia",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriarabino.com/la-nostra-storia/"
+    },
+    {
+      "id": "l5-www-gioielleriarabino-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriarabino.com/contatti/"
+    },
+    {
+      "id": "l5-www-orolab-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orolab.it/"
+    },
+    {
+      "id": "l5-www-orolab-it-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orolab.it/laboratorio/"
+    },
+    {
+      "id": "l5-www-orolab-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orolab.it/contatti/"
+    },
+    {
+      "id": "l5-www-casciolagioielli-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.casciolagioielli.com/"
+    },
+    {
+      "id": "l5-www-casciolagioielli-com-i-nostri-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.casciolagioielli.com/i-nostri-servizi/"
+    },
+    {
+      "id": "l5-www-casciolagioielli-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.casciolagioielli.com/contatti/"
+    },
+    {
+      "id": "l5-www-dupanloup-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.dupanloup.it/"
+    },
+    {
+      "id": "l5-www-dupanloup-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.dupanloup.it/contatti"
+    },
+    {
+      "id": "l5-www-unioncamere-gov-it-imprese-storiche-dupanloup-srl",
+      "tipo": "directory",
+      "url": "https://www.unioncamere.gov.it/imprese-storiche/dupanloup-srl"
+    },
+    {
+      "id": "l5-www-delfinogioielli-com-negozio-savona-html",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.delfinogioielli.com/negozio-savona.html"
+    },
+    {
+      "id": "l5-anticacasatraverso-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://anticacasatraverso.com/"
+    },
+    {
+      "id": "l5-anticacasatraverso-com-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://anticacasatraverso.com/chi-siamo/"
+    },
+    {
+      "id": "l5-anticacasatraverso-com-orologeria",
+      "tipo": "sito-ufficiale",
+      "url": "https://anticacasatraverso.com/orologeria/"
+    },
+    {
+      "id": "l5-anticacasatraverso-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://anticacasatraverso.com/contatti/"
+    },
+    {
+      "id": "l5-www-rizzutogioielleria-com-sarzana",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.rizzutogioielleria.com/sarzana/"
+    },
+    {
+      "id": "l5-www-hamiltonwatch-com-it-it-store-locator-italia-liguria",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/liguria/sarzana/rizzuto"
+    },
+    {
+      "id": "l5-www-astrua-com-it-sedi-astrua-boutiques-piacenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/sedi-astrua-boutiques-piacenza"
+    },
+    {
+      "id": "l5-www-astrua-com-it-riparazione-orologi-piacenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/riparazione-orologi-piacenza"
+    },
+    {
+      "id": "l5-www-astrua-com-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.astrua.com/it/chi-siamo"
+    },
+    {
+      "id": "l5-www-orologiaio-clementi-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/"
+    },
+    {
+      "id": "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/revisione-e-restauro/"
+    },
+    {
+      "id": "l5-www-orologiaio-clementi-it-chi-siamo-infoline",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaio-clementi.it/chi-siamo/infoline/"
+    },
+    {
+      "id": "l5-www-ranzi-com-it-home",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ranzi.com/it/home/"
+    },
+    {
+      "id": "l5-www-ranzi-com-it-riparazioni-generali",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ranzi.com/it/riparazioni-generali/"
+    },
+    {
+      "id": "l5-www-ranzi-com-it-juwelier-ranzi-wird-140-v2",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ranzi.com/it/juwelier-ranzi-wird-140-v2/"
+    },
+    {
+      "id": "l5-www-midowatches-com-it-store-locator",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator"
+    },
+    {
+      "id": "l5-it-vgasser-it-pages-kontakt",
+      "tipo": "sito-ufficiale",
+      "url": "https://it.vgasser.it/pages/kontakt"
+    },
+    {
+      "id": "l5-it-vgasser-it-pages-werkstatt",
+      "tipo": "sito-ufficiale",
+      "url": "https://it.vgasser.it/pages/werkstatt"
+    },
+    {
+      "id": "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/vgasser-kgsas-des-gasser-h-co-brunico-897244"
+    },
+    {
+      "id": "l5-www-gioielleriacernigoi-com-chisiamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacernigoi.com/chisiamo/"
+    },
+    {
+      "id": "l5-www-gioielleriacernigoi-com-privacy-policy",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacernigoi.com/privacy-policy/"
+    },
+    {
+      "id": "l5-dobner-it-it-negozi-dobner-gorizia",
+      "tipo": "sito-ufficiale",
+      "url": "https://dobner.it/it/negozi/dobner-gorizia/"
+    },
+    {
+      "id": "l5-nittagioielli-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://nittagioielli.com/contatti/"
+    },
+    {
+      "id": "l5-www-longines-com-it-store-id-nitta-gioielli-srl-pordenon",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/it/store/id/nitta-gioielli-srl-pordenone-1063940"
+    },
+    {
+      "id": "l5-www-hamiltonwatch-com-it-it-store-locator-italie-friuli",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italie/friuli-venezia-giulia/pordenone/nitta-gioielli"
+    },
+    {
+      "id": "l5-www-gioielleriazambon-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriazambon.it/"
+    },
+    {
+      "id": "l5-www-camparinigioielli-com-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.camparinigioielli.com/chi-siamo/"
+    },
+    {
+      "id": "l5-www-camparinigioielli-com-rolex-camparini-gioielli-136",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.camparinigioielli.com/rolex/camparini-gioielli/136/"
+    },
+    {
+      "id": "l5-www-midowatches-com-it-store-locator-italy-reggio-emilia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/reggio-emilia/"
+    },
+    {
+      "id": "l5-www-tissotwatches-com-it-it-store-cadoppi-snc-a1vnn00000",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/cadoppi-snc/a1vNN0000020KCYYA2"
+    },
+    {
+      "id": "l5-www-cadoppi-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cadoppi.it/"
+    },
+    {
+      "id": "l5-stsorologeria-jimdoweb-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://stsorologeria.jimdoweb.com/"
+    },
+    {
+      "id": "l5-stsorologeria-jimdoweb-com-il-nostro-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://stsorologeria.jimdoweb.com/il-nostro-laboratorio/"
+    },
+    {
+      "id": "l5-stsorologeria-jimdoweb-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://stsorologeria.jimdoweb.com/contatti/"
+    },
+    {
+      "id": "l5-www-gioielleriadarios-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriadarios.it/"
+    },
+    {
+      "id": "l5-www-gibertipreziosi-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibertipreziosi.it/"
+    },
+    {
+      "id": "l5-www-gibertipreziosi-it-riparazioni",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibertipreziosi.it/Riparazioni"
+    },
+    {
+      "id": "l5-www-gibertipreziosi-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gibertipreziosi.it/contatti"
+    },
+    {
+      "id": "l5-www-gioielleriapretolani-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapretolani.it/"
+    },
+    {
+      "id": "l5-www-gioielleriapretolani-it-laboratorio-orologiero",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapretolani.it/laboratorio-orologiero"
+    },
+    {
+      "id": "l5-www-gioielleriapretolani-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapretolani.it/contatti"
+    },
+    {
+      "id": "l5-www-orologeriareggiani-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriareggiani.it/"
+    },
+    {
+      "id": "l5-www-orologeriareggiani-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriareggiani.it/chi-siamo/"
+    },
+    {
+      "id": "l5-www-orologeriareggiani-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriareggiani.it/contatti/"
+    },
+    {
+      "id": "l5-gioielleriahenry-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriahenry.com/"
+    },
+    {
+      "id": "l5-gioielleriahenry-com-orologi-gallery",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriahenry.com/orologi-gallery/"
+    },
+    {
+      "id": "l5-www-midowatches-com-it-store-locator-italy-alessandria-h",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/alessandria/henry-gioielli-a1vnn000001zie3yam"
+    },
+    {
+      "id": "l5-www-luigirossogioielli-com-it-assistenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.luigirossogioielli.com/it/assistenza"
+    },
+    {
+      "id": "l5-www-luigirossogioielli-com-en-about-us",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.luigirossogioielli.com/en/about-us"
+    },
+    {
+      "id": "l5-www-luigirossogioielli-com-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.luigirossogioielli.com/it/contatti"
+    },
+    {
+      "id": "l5-www-biondivercelli-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.biondivercelli.com/"
+    },
+    {
+      "id": "l5-www-biondivercelli-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.biondivercelli.com/contatti"
+    },
+    {
+      "id": "l5-www-orologeriaeraora-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaeraora.it/"
+    },
+    {
+      "id": "l5-www-orologeriaeraora-it-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaeraora.it/laboratorio"
+    }
+  ],
+  "totaleAttivitaPrima": 163,
+  "totaleAttivitaDopo": 189,
+  "totaleComuniPrima": 102,
+  "totaleComuniDopo": 116
+}
