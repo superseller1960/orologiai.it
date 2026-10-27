@@ -45,16 +45,29 @@ test('lotto 8: autorizzazioni e rivendite solo con fonti del marchio', async () 
     }
   }
   const digiesi = directory.attivita.find(x => x.id === 'gioielleria-digiesi-1959-matera') as Business;
-  assert.ok(digiesi.marchi.rivenditaUfficiale.some(m => m.marca === 'Hamilton'), 'Digiesi: rivendita Hamilton attesa');
-  // Uniche autorizzazioni di assistenza del lotto: quelle documentate da pagine Rolex ufficiali.
+  // Audit gruppo 7: la scheda specifica Hamilton documenta il ruolo di centro assistenza ufficiale,
+  // non la rivendita: la qualifica segue il ruolo espressamente attestato dalla fonte del marchio.
+  assert.ok(digiesi.marchi.assistenzaUfficiale.some(m => m.marca === 'Hamilton'), 'Digiesi: assistenza Hamilton attesa');
+  assert.ok(!digiesi.marchi.rivenditaUfficiale.some(m => m.marca === 'Hamilton'), 'Digiesi: rivendita Hamilton non documentata');
+  // Autorizzazioni di assistenza del lotto: solo ruoli documentati da fonti primarie del rispettivo marchio.
   const conAssistenza = NUOVE_SCHEDE
     .map(id => directory.attivita.find(x => x.id === id) as Business)
     .filter(b => b.marchi.assistenzaUfficiale.length > 0);
-  assert.deepEqual(conAssistenza.map(b => b.id).sort(), ['fratelli-gallo-cosenza', 'gioielleria-galdi-salerno']);
+  assert.deepEqual(conAssistenza.map(b => b.id).sort(), [
+    'fratelli-gallo-cosenza',
+    'fusco-snc-pescara',
+    'gioielleria-digiesi-1959-matera',
+    'gioielleria-galdi-salerno',
+  ]);
+  const hostPerMarchio: Record<string, string> = {
+    Rolex: 'rolex.com',
+    Hamilton: 'hamiltonwatch.com',
+    Breil: 'breil.com',
+  };
   for (const b of conAssistenza) {
-    assert.ok(b.marchi.assistenzaUfficiale.every(c => c.marca === 'Rolex'), `${b.id}: solo assistenza Rolex documentata`);
     for (const c of b.marchi.assistenzaUfficiale) {
-      assert.ok(c.fonti.some(f => fonti.get(f)?.url.includes('rolex.com')), `${b.id}: fonte Rolex attesa`);
+      const host = hostPerMarchio[c.marca];
+      assert.ok(host && c.fonti.some(f => (fonti.get(f)?.url ?? '').includes(host)), `${b.id}: fonte primaria ${c.marca} attesa`);
     }
   }
 });

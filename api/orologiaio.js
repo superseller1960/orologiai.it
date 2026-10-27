@@ -26013,6 +26013,69 @@ var directory_default = {
       consultataIl: "2026-10-27",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "l8-gioielleriamerola-it-assistenza-seiko-italia",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriamerola.it/assistenza-seiko-italia/",
+      titolo: "Sito Gioielleria Merola \u2014 assistenza Seiko Italia",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriacomentale-com-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriacomentale.com/chi-siamo/",
+      titolo: "Sito Gioielleria Comentale \u2014 chi siamo",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-vitranigioielliere-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://vitranigioielliere.it/contatti/",
+      titolo: "Sito Vitrani Gioielliere \u2014 contatti",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-vitranigioielliere-it-la-nostra-storia",
+      tipo: "sito-ufficiale",
+      url: "https://vitranigioielliere.it/la-nostra-storia/",
+      titolo: "Sito Vitrani Gioielliere \u2014 la nostra storia",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-hamiltonwatch-com-matera-digiesi-1959-gioiellieri",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italy/no-region/matera/digiesi-1959-gioiellieri",
+      titolo: "Hamilton \u2014 scheda centro assistenza Digiesi 1959 Gioiellieri, Matera",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriadigiesi-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriadigiesi.it/contatti/",
+      titolo: "Sito Digiesi 1959 Gioiellieri \u2014 contatti",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-breil-com-it-centri-di-assistenza",
+      tipo: "marchio-ufficiale",
+      url: "https://www.breil.com/it/centri-di-assistenza/",
+      titolo: "Breil \u2014 centri di assistenza ufficiali",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -72743,7 +72806,7 @@ var directory_default = {
         "orologeria",
         "laboratorio"
       ],
-      descrizione: "Laboratorio Orologiaio Srl opera al Centro Orafo Il Tar\xEC di Marcianise (Zona ASI Sud) nella riparazione e manutenzione di orologi e gioielli: il gruppo Diffusione Orologi vi si avvale per l\u2019assistenza post-vendita, e vi convergono gli orologi in garanzia del marchio OPS.",
+      descrizione: "Laboratorio Orologiaio Srl opera al Centro Orafo Il Tar\xEC di Marcianise (Zona ASI Sud) come laboratorio tecnico per l\u2019assemblaggio, la trasformazione, la riparazione, l\u2019assistenza e la manutenzione di orologi di tutti i marchi, bigiotteria e articoli affini: il gruppo Diffusione Orologi vi si avvale per l\u2019assistenza post-vendita, e vi convergono gli orologi in garanzia del marchio OPS.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "marcianise",
@@ -72831,7 +72894,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-diffusioneorologi-com-struttura",
@@ -72848,9 +72911,28 @@ var directory_default = {
               "e8-diffusioneorologi-com-struttura",
               "e8-www-reportaziende-it-laboratorio-orologiaio-srl-ce-03935"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo (Zona ASI Sud, Centro Orafo Il Tar\xEC, modulo 169/823), telefono ed email confermati dalla scheda ufficiale del Centro Orafo Il Tar\xEC; esperienza \xABrisalente a vari decenni\xBB da Diffusione Orologi; precisata la natura dei servizi (orologi, bigiotteria e articoli affini: la fonte non attestava la riparazione di gioielli).",
+            fonti: [
+              "e8-tari-it-azienda-laboratorio-orologiaio-srl",
+              "e8-diffusioneorologi-com-struttura"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito proprio laboratorioorologiaio.it non \xE8 raggiungibile in sessione per un errore di certificato TLS: recapiti confermati dalla scheda del Centro Orafo Il Tar\xEC.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "La pagina OPS Objects di garanzia non ha restituito testo leggibile: il claim sugli orologi in garanzia OPS resta con la fonte gi\xE0 registrata, da ricontrollare.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -72964,7 +73046,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-www-gioielleriagoldshine-com",
@@ -72974,6 +73056,14 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Revisione recapiti e servizi da fonti verificate; correzione di indirizzi errati e rimozione URL inesistenti.",
+            fonti: [
+              "e8-www-gioielleriagoldshine-com",
+              "e8-www-gioielleriagoldshine-com-chi-siamo"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo, telefono, email, fondazione agli inizi degli anni Duemila per volont\xE0 di Antonietta Nacca e del figlio Antonio e laboratorio con riparazione/restauro di orologi di tutte le marche, pile, cinturini, gioielli e argenti confermati dal sito ufficiale; nessuna correzione necessaria.",
             fonti: [
               "e8-www-gioielleriagoldshine-com",
               "e8-www-gioielleriagoldshine-com-chi-siamo"
@@ -73082,7 +73172,8 @@ var directory_default = {
           {
             marca: "Seiko",
             fonti: [
-              "e8-gioielleriamerola-it"
+              "e8-gioielleriamerola-it",
+              "l8-gioielleriamerola-it-assistenza-seiko-italia"
             ]
           }
         ],
@@ -73108,12 +73199,13 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-gioielleriamerola-it",
           "e8-www-seikoboutique-eu-it-it-negozi",
-          "e8-local-reteimprese-it-piazza-agostino-di-monaco-agor-c3-a"
+          "e8-local-reteimprese-it-piazza-agostino-di-monaco-agor-c3-a",
+          "l8-gioielleriamerola-it-assistenza-seiko-italia"
         ],
         cronologia: [
           {
@@ -73123,9 +73215,28 @@ var directory_default = {
               "e8-gioielleriamerola-it",
               "e8-www-seikoboutique-eu-it-it-negozi"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: rivenditorato Seiko riconfermato dalle pagine dedicate del sito (/seiko/, /assistenza-seiko-italia/), con riparazioni Seiko, eventuale invio al centro post-vendita ufficiale e garanzia di un anno sulle riparazioni del laboratorio.",
+            fonti: [
+              "e8-gioielleriamerola-it",
+              "l8-gioielleriamerola-it-assistenza-seiko-italia"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Recapiti e civico 213 non ricontrollabili in sessione: la pagina /contatti/ restituisce 404 e la scheda negozi Seiko risponde 403. Dati mantenuti con le fonti gi\xE0 registrate.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "La scheda locale reteimprese \xE8 intestata a Piazza Agostino Di Monaco (Agor\xE0): possibile variante di sede rispetto a Corso Aldo Moro 213, da verificare.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -73407,7 +73518,13 @@ var directory_default = {
             ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Recontrollo del 27 ottobre 2026: i locator Rolex e IWC restituiscono ancora HTTP 403; le autorizzazioni dichiarate dall\u2019attivit\xE0 restano da verificare con fonti primarie dei marchi.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -73423,7 +73540,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Gioielleria Comentale s.r.l. di Carmine Severino in Corso Italia 124 ad Angri dispone di laboratorio di orologeria e laboratorio orafo: riparazione di orologi meccanici di marca, restyling di casse e bracciali e restauro di orologi d\u2019epoca, oltre a lavorazioni su misura.",
+      descrizione: "Gioielleria Comentale in Corso Italia 124 ad Angri dispone di laboratorio di orologeria e laboratorio orafo: riparazione di orologi meccanici di marca, restyling di casse e bracciali e restauro di orologi d\u2019epoca, oltre a lavorazioni su misura.",
       nomiPrecedenti: [
         "Gioielleria Comentale s.r.l. di Carmine Severino"
       ],
@@ -73474,12 +73591,6 @@ var directory_default = {
           ]
         },
         {
-          id: "lucidatura",
-          fonti: [
-            "e8-gioielleriacomentale-com-orologiaio"
-          ]
-        },
-        {
           id: "vendita",
           fonti: [
             "e8-gioielleriacomentale-com-orologiaio"
@@ -73523,20 +73634,38 @@ var directory_default = {
         menzionati: []
       },
       storia: {
-        annoFondazione: null,
+        annoFondazione: 1984,
         fondatore: null,
-        testo: null,
-        eventi: [],
-        fonti: []
+        testo: "L\u2019attivit\xE0 familiare \xE8 avviata nel 1984; il negozio di Corso Italia ad Angri \xE8 aperto dal 2001.",
+        eventi: [
+          {
+            data: "1984",
+            descrizione: "Avvio dell\u2019attivit\xE0 familiare.",
+            fonti: [
+              "l8-gioielleriacomentale-com-chi-siamo"
+            ]
+          },
+          {
+            data: "2001",
+            descrizione: "Apertura del negozio di Corso Italia ad Angri.",
+            fonti: [
+              "l8-gioielleriacomentale-com-chi-siamo"
+            ]
+          }
+        ],
+        fonti: [
+          "l8-gioielleriacomentale-com-chi-siamo"
+        ]
       },
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-gioielleriacomentale-com-orologiaio",
-          "e8-gioielleriacomentale-com-laboratorio-orafo"
+          "e8-gioielleriacomentale-com-laboratorio-orafo",
+          "l8-gioielleriacomentale-com-chi-siamo"
         ],
         cronologia: [
           {
@@ -73546,9 +73675,24 @@ var directory_default = {
               "e8-gioielleriacomentale-com-orologiaio",
               "e8-gioielleriacomentale-com-laboratorio-orafo"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo, telefono, email, laboratorio di orologeria (riparazione meccanici, restyling di casse e bracciali, restauro di orologi d\u2019epoca) e laboratorio orafo confermati dal sito; integrata la storia (avvio 1984, negozio di Corso Italia dal 2001); rimosso il servizio \xABlucidatura\xBB, non menzionato dalla fonte.",
+            fonti: [
+              "e8-gioielleriacomentale-com-orologiaio",
+              "e8-gioielleriacomentale-com-laboratorio-orafo",
+              "l8-gioielleriacomentale-com-chi-siamo"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "La denominazione \xABGioielleria Comentale s.r.l. di Carmine Severino\xBB non \xE8 confermata dal testo delle pagine lette: rimossa l\u2019attribuzione dalla descrizione.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -73563,7 +73707,7 @@ var directory_default = {
         "orologeria",
         "laboratorio"
       ],
-      descrizione: "Tarlociaru \u2014 Assistenza e Riparazione Orologi in Via Roberto di Biccari 9 a Lecce \xE8 laboratorio specializzato in assistenza e riparazione di orologi, con vendita di segnatempo.",
+      descrizione: "Tarlociaru \u2014 Assistenza e Riparazione Orologi in Via Roberto di Biccari 9 a Lecce \xE8 laboratorio specializzato in assistenza e riparazione di orologi, condotto da Chris Ferrari.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "lecce",
@@ -73606,12 +73750,6 @@ var directory_default = {
           fonti: [
             "e8-www-instagram-com-tarlociaru"
           ]
-        },
-        {
-          id: "vendita",
-          fonti: [
-            "e8-www-reteimprese-it-orologi-produzione-commercio-lecce-az"
-          ]
         }
       ],
       altriServizi: [],
@@ -73634,7 +73772,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-www-reteimprese-it-orologi-produzione-commercio-lecce-az",
@@ -73648,9 +73786,23 @@ var directory_default = {
               "e8-www-reteimprese-it-orologi-produzione-commercio-lecce-az",
               "e8-www-instagram-com-tarlociaru"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo e telefono confermati dalla scheda Reteimprese (numero riportato senza prefisso internazionale); bio Instagram \xABAssistenza e Riparazione Orologi Lecce\xBB di Chris Ferrari; rimosso il claim di vendita di segnatempo, non attestato dalle fonti aperte.",
+            fonti: [
+              "e8-www-reteimprese-it-orologi-produzione-commercio-lecce-az",
+              "e8-www-instagram-com-tarlociaru"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Vendita di segnatempo non confermata dalle fonti consultate: la sola categoria merceologica della scheda aggregatrice non prova la vendita al pubblico.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -73914,7 +74066,7 @@ var directory_default = {
         "orologeria",
         "laboratorio"
       ],
-      descrizione: "L'Orologiaio in Viale Liguria 84/B a Taranto, con seconda sede in Via Molise 10/c, \xE8 negozio e laboratorio per la riparazione di orologi di ogni marca con preventivo gratuito, revisione, messa a nuovo della cassa e vendita di orologi e gioielli.",
+      descrizione: "L\u2019Orologiaio in Viale Liguria 84/B a Taranto, con seconda sede in Via Molise 10/c, \xE8 negozio e laboratorio per la riparazione di orologi di ogni marca e tipologia \u2014 meccanici, al quarzo, pendoli e cuc\xF9 \u2014 con revisione, controllo dell\u2019impermeabilit\xE0, rifacimento quadranti, messa a nuovo di casse e bracciali, restauro conservativo di orologi antichi e vendita di orologi e gioielli.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "taranto",
@@ -73973,6 +74125,12 @@ var directory_default = {
           fonti: [
             "e8-orologiaiostore-it"
           ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+          ]
         }
       ],
       altriServizi: [
@@ -73986,23 +74144,82 @@ var directory_default = {
       specializzazioni: [],
       marchi: {
         venduti: [],
-        riparati: [],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Audemars Piguet",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Patek Philippe",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Panerai",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Baume & Mercier",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Girard-Perregaux",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
+          }
+        ],
         esperienza: [],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
         menzionati: []
       },
       storia: {
-        annoFondazione: null,
+        annoFondazione: 2001,
         fondatore: null,
-        testo: null,
-        eventi: [],
-        fonti: []
+        testo: "Il sito documenta l\u2019attivit\xE0 dal 2001 come negozio di orologi e gioielli, con vendita e riparazione di orologi moderni e d\u2019epoca.",
+        eventi: [
+          {
+            data: "2001",
+            descrizione: "Avvio dell\u2019attivit\xE0 a Taranto.",
+            fonti: [
+              "e8-orologiaiostore-it"
+            ]
+          }
+        ],
+        fonti: [
+          "e8-orologiaiostore-it"
+        ]
       },
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-orologiaiostore-it",
@@ -74016,9 +74233,23 @@ var directory_default = {
               "e8-orologiaiostore-it",
               "e8-orologiaiostore-it-riparazioni-orologi-taranto"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: attivit\xE0 dal 2001, vendita e riparazione di orologi moderni e d\u2019epoca confermati dal sito; integrati i servizi documentati (pendoli e cuc\xF9, revisione, controllo impermeabilit\xE0, rifacimento quadranti, messa a nuovo casse e bracciali, restauro conservativo) e i marchi citati dalla pagina riparazioni; rimosso \xABpreventivo gratuito\xBB, non confermato.",
+            fonti: [
+              "e8-orologiaiostore-it",
+              "e8-orologiaiostore-it-riparazioni-orologi-taranto"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Telefono, indirizzo Viale Liguria 84/B e seconda sede Via Molise 10/c non ricontrollabili nel testo delle pagine aperte in sessione: dati mantenuti con le fonti gi\xE0 registrate.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -74043,7 +74274,8 @@ var directory_default = {
         coordinate: null,
         fonti: [
           "e8-negozi-tuttosuitalia-com-puglia-barletta-andria-trani",
-          "l8-www-vitranigioielliere-it"
+          "l8-www-vitranigioielliere-it",
+          "l8-vitranigioielliere-it-contatti"
         ]
       },
       contatti: {
@@ -74053,7 +74285,8 @@ var directory_default = {
         whatsapp: null,
         social: [],
         fonti: [
-          "l8-www-vitranigioielliere-it"
+          "l8-www-vitranigioielliere-it",
+          "l8-vitranigioielliere-it-contatti"
         ]
       },
       orari: {
@@ -74122,20 +74355,23 @@ var directory_default = {
       storia: {
         annoFondazione: 1969,
         fondatore: null,
-        testo: "Il sito ufficiale documenta l\u2019avvio dell\u2019attivit\xE0 nel 1969, con oltre cinquant\u2019anni nel settore gioielli e orologi.",
+        testo: "Il sito ufficiale documenta l\u2019avvio dell\u2019attivit\xE0 nel 1969, tramandata di padre in figlio, con oltre cinquant\u2019anni nel settore gioielli e orologi.",
         eventi: [],
         fonti: [
-          "l8-www-vitranigioielliere-it"
+          "l8-www-vitranigioielliere-it",
+          "l8-vitranigioielliere-it-la-nostra-storia"
         ]
       },
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l8-www-vitranigioielliere-it",
-          "e8-negozi-tuttosuitalia-com-puglia-barletta-andria-trani"
+          "e8-negozi-tuttosuitalia-com-puglia-barletta-andria-trani",
+          "l8-vitranigioielliere-it-contatti",
+          "l8-vitranigioielliere-it-la-nostra-storia"
         ],
         cronologia: [
           {
@@ -74144,6 +74380,15 @@ var directory_default = {
             fonti: [
               "l8-www-vitranigioielliere-it",
               "e8-negozi-tuttosuitalia-com-puglia-barletta-andria-trani"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo, telefono ed email confermati dalla pagina contatti; attivit\xE0 dal 1969 tramandata di padre in figlio dalla pagina storia; marchi trattati confermati (Hamilton, Chantecler, Mano J e altri). Nessuna qualifica ufficiale Hamilton attribuita: il locator Hamilton per Barletta indica Landi Gioiellieri come Official Retailer.",
+            fonti: [
+              "l8-vitranigioielliere-it-contatti",
+              "l8-vitranigioielliere-it-la-nostra-storia",
+              "l8-www-vitranigioielliere-it"
             ]
           }
         ],
@@ -74481,6 +74726,12 @@ var directory_default = {
             fonti: [
               "l8-www-facebook-com-raffamaestrorologiaio"
             ]
+          },
+          {
+            marca: "Nautica",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
           }
         ],
         esperienza: [],
@@ -74498,7 +74749,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
@@ -74508,6 +74759,14 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Revisione recapiti e servizi da fonti verificate; correzione di indirizzi errati e rimozione URL inesistenti.",
+            fonti: [
+              "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo Via Tevere 17 e telefono 0931 186829 confermati dalla scheda Guida Sicilia; integrati fra i marchi riparati Nautica, Sector e Breil dalla descrizione della pagina Facebook (Rolex, Omega, Zenith, Nautica, Sector, Breil, Breitling, Hamilton, Longines) con batterie e cinturini.",
             fonti: [
               "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
               "l8-www-facebook-com-raffamaestrorologiaio"
@@ -74719,6 +74978,11 @@ var directory_default = {
             data: "2026-10-27",
             motivo: "Orari da confermare: luned\xEC e venerd\xEC discordanti tra pagine; avviso ferie senza anno.",
             stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Recontrollo del 27 ottobre 2026: le pagine Rolex e Tudor restituiscono ancora HTTP 403; il ruolo dichiarato (rivenditore autorizzato e centro assistenza Rolex) resta in attesa di verifica primaria del produttore.",
+            stato: "aperta"
           }
         ]
       },
@@ -74735,7 +74999,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Digiesi 1959 Gioiellieri in Via Roma 6 a Matera \xE8 gioielleria fondata nel 1959 con assistenza tecnica per orologi e gioielli: sostituzione batterie, cambio cinturini e riparazioni; lo store locator ufficiale Hamilton la riporta tra i rivenditori del marchio.",
+      descrizione: "Digiesi 1959 Gioiellieri in Via Roma 6 a Matera \xE8 gioielleria fondata nel 1959 con assistenza tecnica per orologi: sostituzione batterie, cambio cinturini e riparazioni; la scheda ufficiale Hamilton la qualifica centro assistenza ufficiale del marchio.",
       nomiPrecedenti: [
         "Gioielleria Digiesi"
       ],
@@ -74752,15 +75016,16 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 0835 335461",
-        email: null,
-        sito: null,
+        email: "digiesigioiellieri@gmail.com",
+        sito: "https://gioielleriadigiesi.it/",
         whatsapp: null,
         social: [
           "https://www.instagram.com/gioielleria_digiesi/"
         ],
         fonti: [
           "e8-www-paginebianche-it-scheda-digiesi1959gioiellieri-mater",
-          "e8-www-instagram-com-gioielleria-digiesi"
+          "e8-www-instagram-com-gioielleria-digiesi",
+          "l8-gioielleriadigiesi-it-contatti"
         ]
       },
       orari: {
@@ -74810,26 +75075,26 @@ var directory_default = {
       altriServizi: [],
       specializzazioni: [],
       marchi: {
-        venduti: [
-          {
-            marca: "Hamilton",
-            fonti: [
-              "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
-            ]
-          }
-        ],
+        venduti: [],
         riparati: [],
         esperienza: [],
-        assistenzaUfficiale: [],
-        rivenditaUfficiale: [
+        assistenzaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l8-www-hamiltonwatch-com-matera-digiesi-1959-gioiellieri"
+            ]
+          }
+        ],
+        rivenditaUfficiale: [],
+        menzionati: [
           {
             marca: "Hamilton",
             fonti: [
               "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
             ]
           }
-        ],
-        menzionati: []
+        ]
       },
       storia: {
         annoFondazione: 1959,
@@ -74844,12 +75109,14 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-www-paginebianche-it-scheda-digiesi1959gioiellieri-mater",
           "e8-www-instagram-com-gioielleria-digiesi",
-          "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+          "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d",
+          "l8-www-hamiltonwatch-com-matera-digiesi-1959-gioiellieri",
+          "l8-gioielleriadigiesi-it-contatti"
         ],
         cronologia: [
           {
@@ -74859,9 +75126,29 @@ var directory_default = {
               "e8-www-paginebianche-it-scheda-digiesi1959gioiellieri-mater",
               "e8-www-instagram-com-gioielleria-digiesi"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: recapiti confermati e integrati dal sito proprio (aggiunti email e sito web); la scheda specifica Hamilton qualifica la sede \xABCentro Assistenza Ufficiale\xBB con sostituzione batteria e cinturino: qualifica corretta da rivenditore a centro assistenza ufficiale, con la fonte primaria del marchio.",
+            fonti: [
+              "l8-www-hamiltonwatch-com-matera-digiesi-1959-gioiellieri",
+              "l8-gioielleriadigiesi-it-contatti",
+              "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "L\u2019Instagram dichiara \xABassistenza tecnica orologeria certificata Omega, Longines, Rado, Tissot, Hamilton\xBB: solo Hamilton \xE8 documentato da fonte primaria del marchio; le altre qualifiche non sono inserite fra le autorizzazioni confermate.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "La scheda PagineBianche non \xE8 leggibile in sessione (HTTP 403); riparazioni su gioielli non confermate dalle fonti lette.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
@@ -74932,7 +75219,15 @@ var directory_default = {
         venduti: [],
         riparati: [],
         esperienza: [],
-        assistenzaUfficiale: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Breil",
+            fonti: [
+              "l8-www-breil-com-it-centri-di-assistenza",
+              "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+            ]
+          }
+        ],
         rivenditaUfficiale: [],
         menzionati: [
           {
@@ -74953,10 +75248,11 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
-          "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+          "l8-www-breil-com-store-assistenza-ricambi-fusco-snc",
+          "l8-www-breil-com-it-centri-di-assistenza"
         ],
         cronologia: [
           {
@@ -74964,6 +75260,14 @@ var directory_default = {
             azione: "Revisione recapiti e servizi da fonti verificate; correzione di indirizzi errati e rimozione URL inesistenti.",
             fonti: [
               "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo, telefono ed email confermati dalla scheda locator Breil \xABAssistenza e Ricambi\xBB; inclusione nell\u2019elenco ufficiale dei centri di assistenza Breil per l\u2019Abruzzo (con fax 085 62879): aggiunta l\u2019assistenza ufficiale Breil documentata dalla fonte del marchio.",
+            fonti: [
+              "l8-www-breil-com-store-assistenza-ricambi-fusco-snc",
+              "l8-www-breil-com-it-centri-di-assistenza"
             ]
           }
         ],
@@ -74998,12 +75302,13 @@ var directory_default = {
       },
       contatti: {
         telefono: null,
-        email: null,
+        email: "furnoigino@tin.it",
         sito: "https://cheopebenevento.it/",
         whatsapp: "+39082421479",
         social: [],
         fonti: [
-          "e8-cheopebenevento-it-blogs-news-riparazioni-gioielli-orolo"
+          "e8-cheopebenevento-it-blogs-news-riparazioni-gioielli-orolo",
+          "e8-www-breil-com-store-rivenditori-reloaded-icons-gioieller"
         ]
       },
       orari: {
@@ -75085,7 +75390,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "e8-cheopebenevento-it-blogs-news-riparazioni-gioielli-orolo",
@@ -75099,9 +75404,23 @@ var directory_default = {
               "e8-cheopebenevento-it-blogs-news-riparazioni-gioielli-orolo",
               "e8-www-breil-com-store-rivenditori-reloaded-icons-gioieller"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 7: indirizzo e telefono/WhatsApp 0824 21479 confermati; laboratorio con sostituzione batterie, piccoli interventi in negozio, riparazioni di bracciali e collane, rinfilatura perle e saldatura laser confermati dall\u2019articolo ufficiale; rivenditore Breil \xABRivenditori Autorizzati\xBB riconfermato dalla scheda del marchio; aggiunta l\u2019email dalla scheda Breil.",
+            fonti: [
+              "e8-cheopebenevento-it-blogs-news-riparazioni-gioielli-orolo",
+              "e8-www-breil-com-store-rivenditori-reloaded-icons-gioieller"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Civico variante: Corso Garibaldi 239/245 (sito) contro 245 (scheda Breil); email presente solo sulla fonte Breil.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
