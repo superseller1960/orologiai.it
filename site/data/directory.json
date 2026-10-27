@@ -5490,6 +5490,78 @@
       "consultataIl": "2026-10-27",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "l6-hamilton-nazareno-bancone-cerignola",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/cerignola/nazareno-bancone-gioielli",
+      "titolo": "Store locator Hamilton — Nazareno Bancone Gioielli, Cerignola",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-hamilton-pace-gioielli-brindisi",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/brindisi/pace-gioielli",
+      "titolo": "Store locator Hamilton — Pace Gioielli, Brindisi",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-hamilton-orzelleca-avellino",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/campania/avellino/orzelleca-gioielli",
+      "titolo": "Store locator Hamilton — Orzelleca Gioielli, Avellino",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-mido-orzelleca-benevento",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/benevento/orzelleca-gioielli-a1vnn000001zkfcyae",
+      "titolo": "Store locator Mido — Orzelleca Gioielli, Benevento",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-mido-gioielleria-pegy-avellino",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/avellino/gioielleria-pegy-a1vnn000001zmheyam",
+      "titolo": "Store locator Mido — Gioielleria Pegy, Avellino",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-mido-pignataro-gioielli-andria",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/andria-(bt)/pignataro-gioielli-a1vnn000001zli6yae",
+      "titolo": "Store locator Mido — Pignataro Gioielli, Andria",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-mido-de-leonardis-castellaneta",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/castellaneta/gioielleria-de-leonardis-a1vnn000001zmfnyae",
+      "titolo": "Store locator Mido — Gioielleria De Leonardis, Castellaneta",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "l6-mido-naviglio-fiume-brindisi",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.midowatches.com/it/store-locator/italy/brindisi/naviglio-e-fiume-gioielleria-a1vnn000001zwilyau",
+      "titolo": "Store locator Mido — Naviglio e Fiume Gioielleria, Brindisi",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -44472,7 +44544,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
@@ -44481,6 +44553,13 @@
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            "fonti": [
+              "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dalle fonti ufficiali già citate; nessuna correzione necessaria.",
             "fonti": [
               "l6-www-longines-com-it-store-id-gioielli-di-menichelli-fran"
             ]
@@ -44502,7 +44581,7 @@
         "gioielleria",
         "laboratorio"
       ],
-      "descrizione": "Orzelleca Gioielli in Corso Garibaldi 190 a Benevento nasce nel 1940 come orologeria con laboratorio di riparazioni ed è oggi rivenditore ufficiale Longines, Hamilton e Mido, con servizi di manutenzione, sostituzione batteria e cinturino.",
+      "descrizione": "Orzelleca Gioielli in Corso Garibaldi 190 a Benevento, secondo la storia aziendale nata nel 1940 come orologeria con laboratorio di riparazioni, è rivenditore ufficiale Longines, Hamilton e Mido, con servizi di manutenzione, sostituzione batteria e cinturino.",
       "nomiPrecedenti": [],
       "gruppoId": "orzelleca",
       "localitaId": "benevento",
@@ -44673,7 +44752,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-orzelleca-benevento"
             ]
           },
           {
@@ -44714,7 +44793,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-orzelleca-benevento"
             ]
           }
         ],
@@ -44740,14 +44819,14 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-longines-com-en-ca-store-id-orzelleca-gioielli-benev",
           "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
           "l6-orzellecagioielli-it-azienda",
           "l6-orzellecagioielli-it",
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-orzelleca-benevento"
         ],
         "cronologia": [
           {
@@ -44758,11 +44837,25 @@
               "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
               "l6-orzellecagioielli-it-azienda",
               "l6-orzellecagioielli-it",
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-orzelleca-benevento"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituito il locator Mido generico con la scheda ufficiale dell’attività; storia aziendale 1940 conservata come dichiarazione del sito proprio.",
+            "fonti": [
+              "l6-mido-orzelleca-benevento",
+              "l6-orzellecagioielli-it-azienda"
             ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Civico e recapiti discordanti tra le fonti: Longines riporta Corso Garibaldi 190, telefono 0824/21155 e email benevento@orzellecagioielli.it; Hamilton 190/196, telefono 0824/21690-08 e email laboratorioorzelleca@yahoo.it; Mido civico 194.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -44789,7 +44882,7 @@
         "coordinate": null,
         "fonti": [
           "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+          "l6-hamilton-orzelleca-avellino"
         ]
       },
       "contatti": {
@@ -44895,7 +44988,7 @@
           "id": "vendita",
           "fonti": [
             "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
-            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+            "l6-hamilton-orzelleca-avellino"
           ]
         },
         {
@@ -44930,7 +45023,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+              "l6-hamilton-orzelleca-avellino"
             ]
           }
         ],
@@ -44947,7 +45040,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani"
+              "l6-hamilton-orzelleca-avellino"
             ]
           }
         ],
@@ -44965,11 +45058,11 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+          "l6-hamilton-orzelleca-avellino",
           "l6-orzellecagioielli-it-azienda",
           "l6-orzellecagioielli-it"
         ],
@@ -44979,13 +45072,27 @@
             "azione": "Lotto 6 espansione nazionale: sede di Avellino inserita da locator ufficiali Longines e Hamilton.",
             "fonti": [
               "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino",
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-campani",
+              "l6-hamilton-orzelleca-avellino",
               "l6-orzellecagioielli-it-azienda",
               "l6-orzellecagioielli-it"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituita la fonte Hamilton (puntava alla scheda di Benevento) con la scheda ufficiale della sede di Avellino.",
+            "fonti": [
+              "l6-hamilton-orzelleca-avellino",
+              "l6-www-longines-com-it-store-id-isi-srl-orzelleca-avellino"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Telefono discordante: Longines riporta 0825/35700, Hamilton 0824/21690.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -45009,7 +45116,7 @@
         "cap": "83100",
         "coordinate": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-gioielleria-pegy-avellino"
         ]
       },
       "contatti": {
@@ -45019,7 +45126,7 @@
         "whatsapp": null,
         "social": [],
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-gioielleria-pegy-avellino"
         ]
       },
       "orari": {
@@ -45032,13 +45139,13 @@
         {
           "id": "vendita",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-gioielleria-pegy-avellino"
           ]
         },
         {
           "id": "gioielleria",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-gioielleria-pegy-avellino"
           ]
         }
       ],
@@ -45049,7 +45156,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-gioielleria-pegy-avellino"
             ]
           }
         ],
@@ -45060,7 +45167,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-gioielleria-pegy-avellino"
             ]
           }
         ],
@@ -45076,17 +45183,24 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-gioielleria-pegy-avellino"
         ],
         "cronologia": [
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-gioielleria-pegy-avellino"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituito il locator Mido generico con la scheda ufficiale dell’attività; indirizzo, telefono ed email confermati.",
+            "fonti": [
+              "l6-mido-gioielleria-pegy-avellino"
             ]
           }
         ],
@@ -45326,7 +45440,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-giuseppeciletti-it",
@@ -45342,9 +45456,24 @@
               "l6-giuseppeciletti-it-servizi",
               "l6-giuseppeciletti-it-contatti"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dal sito ufficiale (fondazione 1950, laboratorio tecnico interno, recapiti); qualifica Rolex/Tudor non inserita tra le autorizzazioni confermate: locator ufficiali non leggibili (HTTP 403).",
+            "fonti": [
+              "l6-giuseppeciletti-it",
+              "l6-giuseppeciletti-it-contatti",
+              "l6-giuseppeciletti-it-servizi"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito si dichiara rivenditore autorizzato Rolex e Tudor; i locator ufficiali dei due marchi non sono leggibili in questa sessione (HTTP 403): qualifica non inserita tra le autorizzazioni confermate.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -45435,7 +45564,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
@@ -45444,6 +45573,13 @@
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
+            "fonti": [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dalle fonti ufficiali già citate; nessuna correzione necessaria.",
             "fonti": [
               "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
             ]
@@ -45473,7 +45609,7 @@
         "cap": "71042",
         "coordinate": null,
         "fonti": [
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-nazareno-bancone-cerignola"
         ]
       },
       "contatti": {
@@ -45483,7 +45619,7 @@
         "whatsapp": null,
         "social": [],
         "fonti": [
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-nazareno-bancone-cerignola"
         ]
       },
       "orari": {
@@ -45496,13 +45632,13 @@
         {
           "id": "vendita",
           "fonti": [
-            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            "l6-hamilton-nazareno-bancone-cerignola"
           ]
         },
         {
           "id": "gioielleria",
           "fonti": [
-            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+            "l6-hamilton-nazareno-bancone-cerignola"
           ]
         }
       ],
@@ -45513,7 +45649,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-nazareno-bancone-cerignola"
             ]
           }
         ],
@@ -45524,7 +45660,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-nazareno-bancone-cerignola"
             ]
           }
         ],
@@ -45540,17 +45676,24 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-nazareno-bancone-cerignola"
         ],
         "cronologia": [
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-nazareno-bancone-cerignola"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituita la fonte Hamilton, che puntava alla scheda di Stravola Gioiellieri (San Severo), con la scheda ufficiale dell’attività a Cerignola; contatti e civico confermati dalla nuova fonte.",
+            "fonti": [
+              "l6-hamilton-nazareno-bancone-cerignola"
             ]
           }
         ],
@@ -45741,7 +45884,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
@@ -45750,6 +45893,13 @@
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Longines.",
+            "fonti": [
+              "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dalle fonti ufficiali già citate; nessuna correzione necessaria.",
             "fonti": [
               "l6-www-longines-com-it-store-id-landi-gioiellieri-di-landri"
             ]
@@ -45771,7 +45921,7 @@
         "gioielleria",
         "laboratorio"
       ],
-      "descrizione": "Franco Cuomo Gioielli in Via Regina Margherita 87 ad Andria dispone di centro assistenza orologiero interno per revisioni complete, sostituzione batteria, test di impermeabilità e interventi di ripristino su marchi quali Omega, Cartier, TAG Heuer e Zenith.",
+      "descrizione": "Franco Cuomo Gioielli in Via Regina Margherita 87 ad Andria dichiara un centro assistenza orologiero interno certificato per marchi quali Omega, Cartier, TAG Heuer e Zenith, con revisioni complete, sostituzione batteria, test di impermeabilità e ripristino estetico.",
       "nomiPrecedenti": [],
       "gruppoId": null,
       "localitaId": "andria",
@@ -45909,7 +46059,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-francocuomogioielli-it-contatti-html",
@@ -45923,9 +46073,23 @@
               "l6-www-francocuomogioielli-it-contatti-html",
               "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: recapiti confermati dal sito ufficiale; qualifica di centro assistenza certificato per Omega, Cartier, TAG Heuer e Zenith conservata come dichiarazione dell’attività, non come autorizzazione confermata.",
+            "fonti": [
+              "l6-www-francocuomogioielli-it-contatti-html",
+              "l6-www-francocuomogioielli-it-centro-assistenza-certificato"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito indica anche una seconda sede in Corso Cavour 120 e un secondo telefono 0883 593129.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -45949,7 +46113,7 @@
         "cap": "76123",
         "coordinate": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-pignataro-gioielli-andria"
         ]
       },
       "contatti": {
@@ -45959,7 +46123,7 @@
         "whatsapp": null,
         "social": [],
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-pignataro-gioielli-andria"
         ]
       },
       "orari": {
@@ -45972,13 +46136,13 @@
         {
           "id": "vendita",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-pignataro-gioielli-andria"
           ]
         },
         {
           "id": "gioielleria",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-pignataro-gioielli-andria"
           ]
         }
       ],
@@ -45989,7 +46153,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-pignataro-gioielli-andria"
             ]
           }
         ],
@@ -46000,7 +46164,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-pignataro-gioielli-andria"
             ]
           }
         ],
@@ -46016,17 +46180,24 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-pignataro-gioielli-andria"
         ],
         "cronologia": [
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-pignataro-gioielli-andria"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituito il locator Mido generico con la scheda ufficiale dell’attività; indirizzo, telefono ed email confermati.",
+            "fonti": [
+              "l6-mido-pignataro-gioielli-andria"
             ]
           }
         ],
@@ -46046,7 +46217,7 @@
         "gioielleria",
         "laboratorio"
       ],
-      "descrizione": "Feni Gioielli in Via Domenico Acclavio 38-38/B a Taranto, fondata nel 1974 da Angelo Raffaele Nigro e Maria Rosaria Marzano, dispone di laboratorio interno ed è punto vendita ufficiale Patek Philippe con servizi di sostituzione batteria, test di impermeabilità, controllo della marcia e cura del cinturino.",
+      "descrizione": "Feni Gioielli in Via Domenico Acclavio 38-38/B a Taranto, fondata nel 1974 da Angelo Raffaele Nigro e Maria Rosaria Marzano e dal 1983 titolare anche della storica gioielleria Calderoni, è punto vendita ufficiale Patek Philippe e opera in città su due sedi, con servizi di sostituzione batteria, test di impermeabilità, controllo della marcia e cura del cinturino.",
       "nomiPrecedenti": [],
       "gruppoId": null,
       "localitaId": "taranto",
@@ -46273,7 +46444,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-fenigioielli-com-contact",
@@ -46289,9 +46460,24 @@
               "l6-www-fenigioielli-com-storia",
               "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: fondazione 1974 e rilievo della gioielleria Calderoni (1983) confermati dal sito ufficiale; rivendita Patek Philippe confermata dal punto vendita ufficiale del marchio; documentata la doppia sede in città.",
+            "fonti": [
+              "l6-www-fenigioielli-com-storia",
+              "l6-www-fenigioielli-com-contact",
+              "l6-www-patek-com-en-points-of-sale-europe-italy-taranto-fen"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Due sedi in Taranto: Via D’Aquino 95 (Rolex e Tudor) e Via Domenico Acclavio 38/38/B (Patek Philippe, Omega, IWC).",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -46315,7 +46501,7 @@
         "cap": "74011",
         "coordinate": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-de-leonardis-castellaneta"
         ]
       },
       "contatti": {
@@ -46325,7 +46511,7 @@
         "whatsapp": null,
         "social": [],
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-de-leonardis-castellaneta"
         ]
       },
       "orari": {
@@ -46338,13 +46524,13 @@
         {
           "id": "vendita",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-de-leonardis-castellaneta"
           ]
         },
         {
           "id": "gioielleria",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-de-leonardis-castellaneta"
           ]
         }
       ],
@@ -46355,7 +46541,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-de-leonardis-castellaneta"
             ]
           }
         ],
@@ -46366,7 +46552,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-de-leonardis-castellaneta"
             ]
           }
         ],
@@ -46382,17 +46568,24 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-de-leonardis-castellaneta"
         ],
         "cronologia": [
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-de-leonardis-castellaneta"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituito il locator Mido generico con la scheda ufficiale dell’attività; indirizzo, telefono ed email confermati.",
+            "fonti": [
+              "l6-mido-de-leonardis-castellaneta"
             ]
           }
         ],
@@ -46412,7 +46605,7 @@
         "gioielleria",
         "laboratorio"
       ],
-      "descrizione": "Pace Gioielli in Corso Roma 13 a Brindisi, realtà attiva dal 1970, dispone dal 2019 di un laboratorio interno a Brindisi per l’assistenza tecnica post-vendita ed è rivenditore ufficiale Hamilton attestato dallo store locator del marchio.",
+      "descrizione": "Pace Gioielli in Corso Roma 13 a Brindisi, attività nata a Ostuni nel 1970 e presente a Brindisi dal 2011, dispone dal 2019 di un laboratorio interno per l’assistenza tecnica degli orologi Rolex e Tudor ed è rivenditore ufficiale Hamilton attestato dallo store locator del marchio.",
       "nomiPrecedenti": [],
       "gruppoId": null,
       "localitaId": "brindisi",
@@ -46422,7 +46615,7 @@
         "coordinate": null,
         "fonti": [
           "l6-www-pacegioielli-com-contatti",
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-pace-gioielli-brindisi"
         ]
       },
       "contatti": {
@@ -46433,7 +46626,7 @@
         "social": [],
         "fonti": [
           "l6-www-pacegioielli-com-contatti",
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-pace-gioielli-brindisi"
         ]
       },
       "orari": {
@@ -46514,7 +46707,7 @@
         {
           "id": "vendita",
           "fonti": [
-            "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia",
+            "l6-hamilton-pace-gioielli-brindisi",
             "l6-www-pacegioielli-com-chi-siamo"
           ]
         },
@@ -46557,7 +46750,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-pace-gioielli-brindisi"
             ]
           },
           {
@@ -46593,7 +46786,7 @@
           {
             "marca": "Hamilton",
             "fonti": [
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-pace-gioielli-brindisi"
             ]
           }
         ],
@@ -46602,7 +46795,7 @@
       "storia": {
         "annoFondazione": 1970,
         "fondatore": null,
-        "testo": "Attiva dal 1970, Pace Gioielli opera in Corso Roma a Brindisi con un laboratorio interno di assistenza orologiera attivo dal 2019.",
+        "testo": "Attiva a Ostuni dal 1970, Pace Gioielli è presente a Brindisi in Corso Roma dal 2011, quando divenne rivenditore Rolex per la provincia; dal 2019 la sede di Brindisi dispone di un laboratorio per l’assistenza tecnica orologiera.",
         "eventi": [
           {
             "data": "1970",
@@ -46627,13 +46820,13 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-pacegioielli-com-contatti",
           "l6-www-pacegioielli-com-servizi",
           "l6-www-pacegioielli-com-chi-siamo",
-          "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+          "l6-hamilton-pace-gioielli-brindisi"
         ],
         "cronologia": [
           {
@@ -46643,11 +46836,26 @@
               "l6-www-pacegioielli-com-contatti",
               "l6-www-pacegioielli-com-servizi",
               "l6-www-pacegioielli-com-chi-siamo",
-              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-puglia"
+              "l6-hamilton-pace-gioielli-brindisi"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituita la fonte Hamilton (puntava alla scheda di Stravola Gioiellieri) con la scheda ufficiale di Brindisi; rettificata la cronologia: attività nata a Ostuni nel 1970, punto vendita di Brindisi dal 2011, laboratorio dal 2019.",
+            "fonti": [
+              "l6-hamilton-pace-gioielli-brindisi",
+              "l6-www-pacegioielli-com-chi-siamo",
+              "l6-www-pacegioielli-com-servizi"
             ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito si dichiara rivenditore Rolex e Tudor; i locator ufficiali dei due marchi non sono leggibili in questa sessione (HTTP 403): qualifica non inserita tra le autorizzazioni confermate.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto6-20261026",
@@ -46671,7 +46879,7 @@
         "cap": "72100",
         "coordinate": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-naviglio-fiume-brindisi"
         ]
       },
       "contatti": {
@@ -46681,7 +46889,7 @@
         "whatsapp": null,
         "social": [],
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-naviglio-fiume-brindisi"
         ]
       },
       "orari": {
@@ -46694,13 +46902,13 @@
         {
           "id": "vendita",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-naviglio-fiume-brindisi"
           ]
         },
         {
           "id": "gioielleria",
           "fonti": [
-            "l5-www-midowatches-com-it-store-locator"
+            "l6-mido-naviglio-fiume-brindisi"
           ]
         }
       ],
@@ -46711,7 +46919,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-naviglio-fiume-brindisi"
             ]
           }
         ],
@@ -46722,7 +46930,7 @@
           {
             "marca": "Mido",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-naviglio-fiume-brindisi"
             ]
           }
         ],
@@ -46738,17 +46946,24 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
-          "l5-www-midowatches-com-it-store-locator"
+          "l6-mido-naviglio-fiume-brindisi"
         ],
         "cronologia": [
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
             "fonti": [
-              "l5-www-midowatches-com-it-store-locator"
+              "l6-mido-naviglio-fiume-brindisi"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: sostituito il locator Mido generico con la scheda ufficiale dell’attività; indirizzo, telefono ed email confermati.",
+            "fonti": [
+              "l6-mido-naviglio-fiume-brindisi"
             ]
           }
         ],
@@ -46941,7 +47156,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
@@ -46951,6 +47166,14 @@
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiali Longines e Tissot.",
+            "fonti": [
+              "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
+              "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dalle fonti ufficiali già citate; nessuna correzione necessaria.",
             "fonti": [
               "l6-www-longines-com-it-store-id-iacovone-via-del-corso-srl",
               "l6-www-tissotwatches-com-it-it-store-iacovone-via-del-corso"
@@ -47048,7 +47271,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
@@ -47057,6 +47280,13 @@
           {
             "data": "2026-10-26",
             "azione": "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Hamilton.",
+            "fonti": [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 4: dati confermati dalle fonti ufficiali già citate; nessuna correzione necessaria.",
             "fonti": [
               "l6-www-hamiltonwatch-com-it-it-store-locator-italia-basilic"
             ]
