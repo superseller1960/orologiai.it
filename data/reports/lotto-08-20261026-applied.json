@@ -1,0 +1,326 @@
+{
+  "lotto": "lotto-08-20261026",
+  "data": "2026-10-26",
+  "regioniCoinvolte": [
+    "Campania",
+    "Puglia",
+    "Sicilia",
+    "Calabria",
+    "Basilicata",
+    "Abruzzo"
+  ],
+  "provinceCoinvolte": [
+    "BN",
+    "CE",
+    "SA",
+    "LE",
+    "BR",
+    "TA",
+    "BT",
+    "ME",
+    "SR",
+    "CS",
+    "MT",
+    "PE"
+  ],
+  "candidatiEsaminati": 30,
+  "candidatiScartati": 15,
+  "motiviScarto": [
+    "Candidati già censiti nei lotti precedenti (Mazzone, Ranieri, Pietro Roberto, Paolo Vale, Vergari, Birbio, Satolli, Orzelleca, Ciletti, Feni, Franco Cuomo, Landi, D’Ale, Iacovone)",
+    "Orafo e Orologiaio (Benevento): fonte documentale con URL non utilizzabile",
+    "F.lli Roberto (Cosenza): nessuna fonte pubblica reperibile nella ricerca"
+  ],
+  "nuoveLocalita": [
+    {
+      "id": "marcianise",
+      "comune": "Marcianise",
+      "siglaProvincia": "CE",
+      "regione": "Campania"
+    },
+    {
+      "id": "portico-di-caserta",
+      "comune": "Portico di Caserta",
+      "siglaProvincia": "CE",
+      "regione": "Campania"
+    },
+    {
+      "id": "santa-maria-capua-vetere",
+      "comune": "Santa Maria Capua Vetere",
+      "siglaProvincia": "CE",
+      "regione": "Campania"
+    },
+    {
+      "id": "angri",
+      "comune": "Angri",
+      "siglaProvincia": "SA",
+      "regione": "Campania"
+    },
+    {
+      "id": "lecce",
+      "comune": "Lecce",
+      "siglaProvincia": "LE",
+      "regione": "Puglia"
+    }
+  ],
+  "nuoveSchede": [
+    {
+      "id": "laboratorio-orologiaio-marcianise",
+      "nome": "Laboratorio Orologiaio Srl",
+      "localitaId": "marcianise",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gold-shine-portico-caserta",
+      "nome": "Gold Shine Gioielli",
+      "localitaId": "portico-di-caserta",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-merola-santa-maria-capua-vetere",
+      "nome": "Gioielleria Merola — Orola",
+      "localitaId": "santa-maria-capua-vetere",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-galdi-salerno",
+      "nome": "Gioielleria Galdi",
+      "localitaId": "salerno",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1949
+    },
+    {
+      "id": "gioielleria-comentale-angri",
+      "nome": "Gioielleria Comentale",
+      "localitaId": "angri",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "tarlociaru-lecce",
+      "nome": "Tarlociaru",
+      "localitaId": "lecce",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-della-rocca-brindisi",
+      "nome": "Gioielleria Della Rocca",
+      "localitaId": "brindisi",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "lorologiaio-taranto",
+      "nome": "L'Orologiaio",
+      "localitaId": "taranto",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "vitrani-gioiellieri-barletta",
+      "nome": "Vitrani Gioielliere",
+      "localitaId": "barletta",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-burrascano-messina",
+      "nome": "Gioielleria Oreficeria Orologeria Burrascano",
+      "localitaId": "messina",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "raffa-maestro-orologiaio-siracusa",
+      "nome": "Raffa Maestro Orologiaio",
+      "localitaId": "siracusa",
+      "tipi": [
+        "orologeria",
+        "professionista"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "fratelli-gallo-cosenza",
+      "nome": "Fratelli Gallo",
+      "localitaId": "cosenza",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1956
+    },
+    {
+      "id": "gioielleria-digiesi-1959-matera",
+      "nome": "Gioielleria Digiesi 1959",
+      "localitaId": "matera",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1959
+    },
+    {
+      "id": "fusco-snc-pescara",
+      "nome": "Fusco snc",
+      "localitaId": "pescara",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "cheope-benevento",
+      "nome": "Cheope",
+      "localitaId": "benevento",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "l8-www-laboratorioorologiaio-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.laboratorioorologiaio.com"
+    },
+    {
+      "id": "l8-www-goldshinegioielli-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.goldshinegioielli.com"
+    },
+    {
+      "id": "l8-gioielleriamerola-it",
+      "tipo": "sito-ufficiale",
+      "url": "http://gioielleriamerola.it"
+    },
+    {
+      "id": "l8-www-gioielleriagaldi-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriagaldi.com"
+    },
+    {
+      "id": "l8-www-gioielleriacomental-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriacomental.it"
+    },
+    {
+      "id": "l8-www-tarlociaru-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tarlociaru.com"
+    },
+    {
+      "id": "l8-www-dellarocca-brindisi-it",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.dellarocca-brindisi.it"
+    },
+    {
+      "id": "l8-www-lorologiaio-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologiaio.com"
+    },
+    {
+      "id": "l8-www-vitranigioielliere-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.vitranigioielliere.it"
+    },
+    {
+      "id": "l8-gioielleriaburrascano-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaburrascano.it/chi-siamo/"
+    },
+    {
+      "id": "l8-gioielleriaburrascano-it-riparazione-orologi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaburrascano.it/riparazione-orologi/"
+    },
+    {
+      "id": "l8-gioielleriaburrascano-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaburrascano.it/contatti/"
+    },
+    {
+      "id": "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+      "tipo": "directory",
+      "url": "https://siracusa.guidasicilia.it/azienda/siracusa/siracusa/orologiai-forniture/raffa-maestro-orologiaio-riparazioni-orologi/1129311"
+    },
+    {
+      "id": "l8-www-facebook-com-raffamaestrorologiaio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.facebook.com/raffamaestrorologiaio/"
+    },
+    {
+      "id": "l8-fratelligallo-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://fratelligallo.it"
+    },
+    {
+      "id": "l8-www-gioielleriadigiesi1959-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriadigiesi1959.it"
+    },
+    {
+      "id": "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia?store=DIGI828415&query=Matera%252C%2BItalia"
+    },
+    {
+      "id": "l8-www-breil-com-store-assistenza-ricambi-fusco-snc",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/assistenza-ricambi/fusco-snc/"
+    },
+    {
+      "id": "l8-www-cheope-org",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cheope.org"
+    }
+  ],
+  "totaleAttivitaPrima": 249,
+  "totaleAttivitaDopo": 264,
+  "totaleComuniPrima": 155,
+  "totaleComuniAggiunti": 5,
+  "totaleComuniDopo": 160
+}

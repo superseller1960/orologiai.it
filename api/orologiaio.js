@@ -25392,6 +25392,177 @@ var directory_default = {
       consultataIl: "2026-10-26",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "l8-www-laboratorioorologiaio-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.laboratorioorologiaio.com",
+      titolo: "Fonte www.laboratorioorologiaio.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-goldshinegioielli-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.goldshinegioielli.com",
+      titolo: "Fonte www.goldshinegioielli.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriamerola-it",
+      tipo: "sito-ufficiale",
+      url: "http://gioielleriamerola.it",
+      titolo: "Fonte gioielleriamerola.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-gioielleriagaldi-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriagaldi.com",
+      titolo: "Fonte www.gioielleriagaldi.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-gioielleriacomental-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriacomental.it",
+      titolo: "Fonte www.gioielleriacomental.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-tarlociaru-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.tarlociaru.com",
+      titolo: "Fonte www.tarlociaru.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-dellarocca-brindisi-it",
+      tipo: "sito-ufficiale",
+      url: "http://www.dellarocca-brindisi.it",
+      titolo: "Fonte www.dellarocca-brindisi.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-lorologiaio-com",
+      tipo: "sito-ufficiale",
+      url: "https://www.lorologiaio.com",
+      titolo: "Fonte www.lorologiaio.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-vitranigioielliere-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.vitranigioielliere.it",
+      titolo: "Fonte www.vitranigioielliere.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriaburrascano-it-chi-siamo",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriaburrascano.it/chi-siamo/",
+      titolo: "Fonte gioielleriaburrascano.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriaburrascano-it-riparazione-orologi",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriaburrascano.it/riparazione-orologi/",
+      titolo: "Fonte gioielleriaburrascano.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-gioielleriaburrascano-it-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://gioielleriaburrascano.it/contatti/",
+      titolo: "Fonte gioielleriaburrascano.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+      tipo: "directory",
+      url: "https://siracusa.guidasicilia.it/azienda/siracusa/siracusa/orologiai-forniture/raffa-maestro-orologiaio-riparazioni-orologi/1129311",
+      titolo: "Fonte siracusa.guidasicilia.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-facebook-com-raffamaestrorologiaio",
+      tipo: "sito-ufficiale",
+      url: "https://www.facebook.com/raffamaestrorologiaio/",
+      titolo: "Fonte www.facebook.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-fratelligallo-it",
+      tipo: "sito-ufficiale",
+      url: "https://fratelligallo.it",
+      titolo: "Fonte fratelligallo.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-gioielleriadigiesi1959-it",
+      tipo: "sito-ufficiale",
+      url: "https://www.gioielleriadigiesi1959.it",
+      titolo: "Fonte www.gioielleriadigiesi1959.it",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia?store=DIGI828415&query=Matera%252C%2BItalia",
+      titolo: "Fonte www.hamiltonwatch.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-breil-com-store-assistenza-ricambi-fusco-snc",
+      tipo: "marchio-ufficiale",
+      url: "https://www.breil.com/store/assistenza-ricambi/fusco-snc/",
+      titolo: "Fonte www.breil.com",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l8-www-cheope-org",
+      tipo: "sito-ufficiale",
+      url: "https://www.cheope.org",
+      titolo: "Fonte www.cheope.org",
+      consultataIl: "2026-10-26",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -27802,6 +27973,81 @@ var directory_default = {
       fonti: [
         "l7-www-gioielleriademin-it-dove-siamo",
         "l7-www-gioielleriademin-it-orologi"
+      ]
+    },
+    {
+      id: "marcianise",
+      comune: "Marcianise",
+      comuneSlug: "marcianise",
+      provincia: "Caserta",
+      provinciaSlug: "caserta",
+      siglaProvincia: "CE",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "A Marcianise \xE8 censito Laboratorio Orologiaio Srl, laboratorio di riparazione orologiera.",
+      fonti: [
+        "l8-www-laboratorioorologiaio-com"
+      ]
+    },
+    {
+      id: "portico-di-caserta",
+      comune: "Portico di Caserta",
+      comuneSlug: "portico-di-caserta",
+      provincia: "Caserta",
+      provinciaSlug: "caserta",
+      siglaProvincia: "CE",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "A Portico di Caserta \xE8 censita Gold Shine Gioielli, con servizio di riparazione e restauro orologi.",
+      fonti: [
+        "l8-www-goldshinegioielli-com"
+      ]
+    },
+    {
+      id: "santa-maria-capua-vetere",
+      comune: "Santa Maria Capua Vetere",
+      comuneSlug: "santa-maria-capua-vetere",
+      provincia: "Caserta",
+      provinciaSlug: "caserta",
+      siglaProvincia: "CE",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "A Santa Maria Capua Vetere opera Gioielleria Merola \u2014 Orola, con laboratorio orologiero interno.",
+      fonti: [
+        "l8-gioielleriamerola-it"
+      ]
+    },
+    {
+      id: "angri",
+      comune: "Angri",
+      comuneSlug: "angri",
+      provincia: "Salerno",
+      provinciaSlug: "salerno",
+      siglaProvincia: "SA",
+      regione: "Campania",
+      regioneSlug: "campania",
+      codiceIstat: null,
+      descrizione: "Ad Angri opera Gioielleria Comentale, attivit\xE0 familiare con laboratorio di riparazione orologi.",
+      fonti: [
+        "l8-www-gioielleriacomental-it"
+      ]
+    },
+    {
+      id: "lecce",
+      comune: "Lecce",
+      comuneSlug: "lecce",
+      provincia: "Lecce",
+      provinciaSlug: "lecce",
+      siglaProvincia: "LE",
+      regione: "Puglia",
+      regioneSlug: "puglia",
+      codiceIstat: null,
+      descrizione: "A Lecce \xE8 censita Tarlociaru, gioielleria e orologeria con officina di riparazione interna.",
+      fonti: [
+        "l8-www-tarlociaru-com"
       ]
     }
   ],
@@ -71192,6 +71438,2323 @@ var directory_default = {
       origine: {
         sistema: "espansione-lotto7-20261026",
         idOriginale: "gioielleria-bracci-follonica"
+      }
+    },
+    {
+      id: "laboratorio-orologiaio-marcianise",
+      slug: "laboratorio-orologiaio-marcianise",
+      nome: "Laboratorio Orologiaio Srl",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Laboratorio Orologiaio Srl in Via dei Mille 137 a Marcianise \xE8 un laboratorio di riparazione orologiera che interviene su segnatempo meccanici, automatici e al quarzo con revisione, restauro, sostituzione del vetro, lucidatura della cassa, prova d\u2019acqua e sostituzione cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "marcianise",
+      posizione: {
+        indirizzo: "Via dei Mille, 137",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "l8-www-laboratorioorologiaio-com"
+        ]
+      },
+      contatti: {
+        telefono: "351 833 9097",
+        email: null,
+        sito: "https://www.laboratorioorologiaio.com",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-laboratorioorologiaio-com"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-www-laboratorioorologiaio-com"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        },
+        {
+          id: "lucidatura",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Prova d\u2019acqua e sostituzione vetro",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "meccanici",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        },
+        {
+          id: "automatici",
+          fonti: [
+            "l8-www-laboratorioorologiaio-com"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-laboratorioorologiaio-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-www-laboratorioorologiaio-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "laboratorio-orologiaio-marcianise"
+      }
+    },
+    {
+      id: "gold-shine-portico-caserta",
+      slug: "gold-shine-portico-caserta",
+      nome: "Gold Shine Gioielli",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gold Shine Gioielli in Via Vittorio Emanuele II 83/85 a Portico di Caserta propone vendita di gioielli e orologi e un servizio di riparazione e restauro per orologi da polso, pendole e sveglie, con perizie gemmologiche e certificati.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "portico-di-caserta",
+      posizione: {
+        indirizzo: "Via Vittorio Emanuele II, 83/85",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "l8-www-goldshinegioielli-com"
+        ]
+      },
+      contatti: {
+        telefono: "371 4662184",
+        email: null,
+        sito: "https://www.goldshinegioielli.com",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-goldshinegioielli-com"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "15:30",
+                chiusura: "20:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-www-goldshinegioielli-com"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Perizie gemmologiche e certificati",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "antichi",
+          fonti: [
+            "l8-www-goldshinegioielli-com"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-goldshinegioielli-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: scheda da sito ufficiale.",
+            fonti: [
+              "l8-www-goldshinegioielli-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gold-shine-portico-caserta"
+      }
+    },
+    {
+      id: "gioielleria-merola-santa-maria-capua-vetere",
+      slug: "gioielleria-merola-santa-maria-capua-vetere",
+      nome: "Gioielleria Merola \u2014 Orola",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Merola \u2014 Orola in Via Cesare Battisti 207/209 a Santa Maria Capua Vetere affianca la clientela da oltre cinquant\u2019anni con laboratorio orologiero interno per revisioni e riparazioni di orologi e pendole, oltre a riparazione gioielli e acquisto oro.",
+      nomiPrecedenti: [
+        "Orola"
+      ],
+      gruppoId: null,
+      localitaId: "santa-maria-capua-vetere",
+      posizione: {
+        indirizzo: "Via Cesare Battisti, 207/209",
+        cap: "81055",
+        coordinate: null,
+        fonti: [
+          "l8-gioielleriamerola-it"
+        ]
+      },
+      contatti: {
+        telefono: "0823 631916",
+        email: null,
+        sito: "http://gioielleriamerola.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-gioielleriamerola-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:30",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:30",
+                chiusura: "13:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-gioielleriamerola-it"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Acquisto oro e riparazione gioielli",
+          fonti: [
+            "l8-gioielleriamerola-it"
+          ]
+        }
+      ],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta un\u2019attivit\xE0 di oltre cinquant\u2019anni a Santa Maria Capua Vetere.",
+        eventi: [],
+        fonti: [
+          "l8-gioielleriamerola-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-gioielleriamerola-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-gioielleriamerola-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-merola-santa-maria-capua-vetere"
+      }
+    },
+    {
+      id: "gioielleria-galdi-salerno",
+      slug: "gioielleria-galdi-salerno",
+      nome: "Gioielleria Galdi",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Galdi in Via Roma 31/33 a Salerno \xE8 un\u2019attivit\xE0 familiare avviata nel 1949 come bottega di orologi e gioielli, con laboratorio tecnico interno per la manutenzione di segnatempo di marchi quali Rolex, Tudor, Cartier, IWC, Panerai, Jaeger-LeCoultre, TAG Heuer, Tissot e Zenith.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "salerno",
+      posizione: {
+        indirizzo: "Via Roma, 31/33",
+        cap: "84121",
+        coordinate: null,
+        fonti: [
+          "l8-www-gioielleriagaldi-com"
+        ]
+      },
+      contatti: {
+        telefono: "089 234964",
+        email: null,
+        sito: "https://www.gioielleriagaldi.com",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-gioielleriagaldi-com"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l8-www-gioielleriagaldi-com"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "IWC",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Panerai",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Jaeger-LeCoultre",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "TAG Heuer",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          },
+          {
+            marca: "Zenith",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1949,
+        fondatore: null,
+        testo: "Il sito ufficiale colloca l\u2019avvio dell\u2019attivit\xE0 familiare nel 1949.",
+        eventi: [],
+        fonti: [
+          "l8-www-gioielleriagaldi-com"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-gioielleriagaldi-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: bottega storica da sito ufficiale.",
+            fonti: [
+              "l8-www-gioielleriagaldi-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-galdi-salerno"
+      }
+    },
+    {
+      id: "gioielleria-comentale-angri",
+      slug: "gioielleria-comentale-angri",
+      nome: "Gioielleria Comentale",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Comentale in Via Pietro del Pezzo 30 ad Angri \xE8 un\u2019attivit\xE0 familiare di mezzo secolo con laboratorio interno per la riparazione di orologi da polso ed appesi, oltre alla vendita di gioielli, argenti, perle e cristalli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "angri",
+      posizione: {
+        indirizzo: "Via Pietro del Pezzo, 30",
+        cap: "84012",
+        coordinate: null,
+        fonti: [
+          "l8-www-gioielleriacomental-it"
+        ]
+      },
+      contatti: {
+        telefono: "+39 081 5112759",
+        email: "info@gioielleriacomental.it",
+        sito: "https://www.gioielleriacomental.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-gioielleriacomental-it"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "17:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-www-gioielleriacomental-it"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-gioielleriacomental-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-gioielleriacomental-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-gioielleriacomental-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Il sito ufficiale descrive un\u2019attivit\xE0 familiare di mezzo secolo ad Angri.",
+        eventi: [],
+        fonti: [
+          "l8-www-gioielleriacomental-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-gioielleriacomental-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-www-gioielleriacomental-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-comentale-angri"
+      }
+    },
+    {
+      id: "tarlociaru-lecce",
+      slug: "tarlociaru-lecce",
+      nome: "Tarlociaru",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Tarlociaru in Via Raffaele D\u2019Alena 15 a Lecce \xE8 gioielleria e orologeria giunta alla terza generazione, con officina interna per la riparazione di orologi e vendita di segnatempo e gioielli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "lecce",
+      posizione: {
+        indirizzo: "Via Raffaele D\u2019Alena, 15",
+        cap: "73100",
+        coordinate: null,
+        fonti: [
+          "l8-www-tarlociaru-com"
+        ]
+      },
+      contatti: {
+        telefono: "+39 328 6489261",
+        email: null,
+        sito: "https://www.tarlociaru.com",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-tarlociaru-com"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "08:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "20:00"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-www-tarlociaru-com"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-tarlociaru-com"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-tarlociaru-com"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-tarlociaru-com"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta un\u2019attivit\xE0 di terza generazione con officina di riparazione interna.",
+        eventi: [],
+        fonti: [
+          "l8-www-tarlociaru-com"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-tarlociaru-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-www-tarlociaru-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "tarlociaru-lecce"
+      }
+    },
+    {
+      id: "gioielleria-della-rocca-brindisi",
+      slug: "gioielleria-della-rocca-brindisi",
+      nome: "Gioielleria Della Rocca",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Della Rocca in Largo Annibale Maria di Francia 2 a Brindisi ripara e vende orologi da polso e da tasca e cura il restauro di orologi d\u2019epoca, pendoli, quadri e oggetti artistici d\u2019arredo.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "brindisi",
+      posizione: {
+        indirizzo: "Largo Annibale Maria di Francia, 2",
+        cap: "72100",
+        coordinate: null,
+        fonti: [
+          "l8-www-dellarocca-brindisi-it"
+        ]
+      },
+      contatti: {
+        telefono: "0831 522392",
+        email: null,
+        sito: "http://www.dellarocca-brindisi.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-dellarocca-brindisi-it"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        },
+        {
+          id: "orologi-tasca",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Restauro di quadri e oggetti d\u2019arredo",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "antichi",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        },
+        {
+          id: "vintage",
+          fonti: [
+            "l8-www-dellarocca-brindisi-it"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-dellarocca-brindisi-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: scheda da sito ufficiale.",
+            fonti: [
+              "l8-www-dellarocca-brindisi-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-della-rocca-brindisi"
+      }
+    },
+    {
+      id: "lorologiaio-taranto",
+      slug: "lorologiaio-taranto",
+      nome: "L'Orologiaio",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "L'Orologiaio in Via Liguria 22/24 a Taranto \xE8 un laboratorio di riparazione, revisione e manutenzione di orologi con officina interna, e propone anche vendita di orologi usati.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "taranto",
+      posizione: {
+        indirizzo: "Via Liguria, 22/24",
+        cap: "74100",
+        coordinate: null,
+        fonti: [
+          "l8-www-lorologiaio-com"
+        ]
+      },
+      contatti: {
+        telefono: "351 1686827",
+        email: null,
+        sito: "https://www.lorologiaio.com",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-lorologiaio-com"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-lorologiaio-com"
+          ]
+        },
+        {
+          id: "revisione",
+          fonti: [
+            "l8-www-lorologiaio-com"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l8-www-lorologiaio-com"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "l8-www-lorologiaio-com"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-lorologiaio-com"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-www-lorologiaio-com"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "lorologiaio-taranto"
+      }
+    },
+    {
+      id: "vitrani-gioiellieri-barletta",
+      slug: "vitrani-gioiellieri-barletta",
+      nome: "Vitrani Gioielliere",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Vitrani Gioielliere in Via Cialdini 20 a Barletta, attivit\xE0 di famiglia avviata da Vito Vitrani, dispone di laboratorio gemmologico interno e cura riparazione orologi, assistenza e vendita di gioielli e segnatempo.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "barletta",
+      posizione: {
+        indirizzo: "Via Cialdini, 20",
+        cap: "70051",
+        coordinate: null,
+        fonti: [
+          "l8-www-vitranigioielliere-it"
+        ]
+      },
+      contatti: {
+        telefono: "+39 0883 525013",
+        email: null,
+        sito: "https://www.vitranigioielliere.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-vitranigioielliere-it"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-vitranigioielliere-it"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l8-www-vitranigioielliere-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-vitranigioielliere-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-vitranigioielliere-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-www-vitranigioielliere-it"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "l8-www-vitranigioielliere-it"
+            ]
+          },
+          {
+            marca: "Tissot",
+            fonti: [
+              "l8-www-vitranigioielliere-it"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "l8-www-vitranigioielliere-it"
+            ]
+          }
+        ]
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: "Vito Vitrani",
+        testo: "Il sito ufficiale racconta un\u2019attivit\xE0 di famiglia avviata dal fondatore Vito Vitrani.",
+        eventi: [],
+        fonti: [
+          "l8-www-vitranigioielliere-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-vitranigioielliere-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-www-vitranigioielliere-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "vitrani-gioiellieri-barletta"
+      }
+    },
+    {
+      id: "gioielleria-burrascano-messina",
+      slug: "gioielleria-burrascano-messina",
+      nome: "Gioielleria Oreficeria Orologeria Burrascano",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Gioielleria Oreficeria Orologeria Burrascano in Corso Cavour 23 a Messina, attiva da oltre settant\u2019anni con una seconda sede in Via S. Filippo Bianchi, ripara orologi di ogni tipologia e restaura pendoli antichi; gli orologiai della bottega curano anche l\u2019Orologio Astronomico del Duomo di Messina.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "messina",
+      posizione: {
+        indirizzo: "Corso Cavour, 23",
+        cap: "98122",
+        coordinate: null,
+        fonti: [
+          "l8-gioielleriaburrascano-it-contatti"
+        ]
+      },
+      contatti: {
+        telefono: "090 770501",
+        email: null,
+        sito: "https://gioielleriaburrascano.it/",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-gioielleriaburrascano-it-contatti"
+        ]
+      },
+      orari: {
+        giorni: [
+          {
+            giorno: 1,
+            intervalli: [
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 2,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 3,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 4,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 5,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          },
+          {
+            giorno: 6,
+            intervalli: [
+              {
+                apertura: "09:00",
+                chiusura: "13:00"
+              },
+              {
+                apertura: "16:00",
+                chiusura: "19:30"
+              }
+            ]
+          }
+        ],
+        chiusure: [],
+        verificatiIl: "2026-10-26",
+        fonti: [
+          "l8-gioielleriaburrascano-it-contatti"
+        ]
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-gioielleriaburrascano-it-riparazione-orologi"
+          ]
+        },
+        {
+          id: "restauro-vintage",
+          fonti: [
+            "l8-gioielleriaburrascano-it-chi-siamo"
+          ]
+        },
+        {
+          id: "pendoleria",
+          fonti: [
+            "l8-gioielleriaburrascano-it-chi-siamo"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-gioielleriaburrascano-it-chi-siamo"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-gioielleriaburrascano-it-chi-siamo"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Restauro di pendoli antichi e cura dell\u2019Orologio Astronomico del Duomo di Messina",
+          fonti: [
+            "l8-gioielleriaburrascano-it-riparazione-orologi"
+          ]
+        }
+      ],
+      specializzazioni: [
+        {
+          id: "antichi",
+          fonti: [
+            "l8-gioielleriaburrascano-it-chi-siamo"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta oltre settant\u2019anni di attivit\xE0 della famiglia Burrascano a Messina.",
+        eventi: [],
+        fonti: [
+          "l8-gioielleriaburrascano-it-chi-siamo"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-gioielleriaburrascano-it-chi-siamo",
+          "l8-gioielleriaburrascano-it-riparazione-orologi",
+          "l8-gioielleriaburrascano-it-contatti"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: bottega storica da sito ufficiale.",
+            fonti: [
+              "l8-gioielleriaburrascano-it-chi-siamo",
+              "l8-gioielleriaburrascano-it-riparazione-orologi",
+              "l8-gioielleriaburrascano-it-contatti"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-burrascano-messina"
+      }
+    },
+    {
+      id: "raffa-maestro-orologiaio-siracusa",
+      slug: "raffa-maestro-orologiaio-siracusa",
+      nome: "Raffa Maestro Orologiaio",
+      tipi: [
+        "orologeria",
+        "professionista"
+      ],
+      descrizione: "Raffa Maestro Orologiaio in Via Tevere 17 a Siracusa \xE8 un laboratorio di riparazione orologi specializzato su grandi marchi meccanici e al quarzo, con servizio di sostituzione batterie e cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "siracusa",
+      posizione: {
+        indirizzo: "Via Tevere, 17",
+        cap: "96100",
+        coordinate: null,
+        fonti: [
+          "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo"
+        ]
+      },
+      contatti: {
+        telefono: "0931 186829",
+        email: null,
+        sito: "https://www.facebook.com/raffamaestrorologiaio/",
+        whatsapp: null,
+        social: [
+          "https://www.facebook.com/raffamaestrorologiaio/"
+        ],
+        fonti: [
+          "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+          "l8-www-facebook-com-raffamaestrorologiaio"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-facebook-com-raffamaestrorologiaio"
+          ]
+        },
+        {
+          id: "batterie",
+          fonti: [
+            "l8-www-facebook-com-raffamaestrorologiaio"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l8-www-facebook-com-raffamaestrorologiaio"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "meccanici",
+          fonti: [
+            "l8-www-facebook-com-raffamaestrorologiaio"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          },
+          {
+            marca: "Breitling",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          },
+          {
+            marca: "Longines",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          },
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+          "l8-www-facebook-com-raffamaestrorologiaio"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da directory e canale ufficiale.",
+            fonti: [
+              "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+              "l8-www-facebook-com-raffamaestrorologiaio"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "raffa-maestro-orologiaio-siracusa"
+      }
+    },
+    {
+      id: "fratelli-gallo-cosenza",
+      slug: "fratelli-gallo-cosenza",
+      nome: "Fratelli Gallo",
+      tipi: [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      descrizione: "Fratelli Gallo in Corso Mazzini 173/175 a Cosenza \xE8 orologeria fondata nel 1956 con laboratorio per la riparazione e manutenzione di orologi Rolex e Tudor, oltre alla vendita di segnatempo e gioielli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "cosenza",
+      posizione: {
+        indirizzo: "Corso Mazzini, 173/175",
+        cap: "87100",
+        coordinate: null,
+        fonti: [
+          "l8-fratelligallo-it"
+        ]
+      },
+      contatti: {
+        telefono: "0984 791752",
+        email: null,
+        sito: "https://fratelligallo.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-fratelligallo-it"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-fratelligallo-it"
+          ]
+        },
+        {
+          id: "manutenzione",
+          fonti: [
+            "l8-fratelligallo-it"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-fratelligallo-it"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-fratelligallo-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [
+        {
+          id: "lusso",
+          fonti: [
+            "l8-fratelligallo-it"
+          ]
+        }
+      ],
+      marchi: {
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          }
+        ],
+        riparati: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1956,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta la fondazione dell\u2019orologeria nel 1956.",
+        eventi: [
+          {
+            data: "1956",
+            descrizione: "Fondazione di Fratelli Gallo a Cosenza.",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          }
+        ],
+        fonti: [
+          "l8-fratelligallo-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-fratelligallo-it"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da sito ufficiale.",
+            fonti: [
+              "l8-fratelligallo-it"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "fratelli-gallo-cosenza"
+      }
+    },
+    {
+      id: "gioielleria-digiesi-1959-matera",
+      slug: "gioielleria-digiesi-1959-matera",
+      nome: "Gioielleria Digiesi 1959",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Gioielleria Digiesi 1959 in Corso Umberto I 110 a Matera \xE8 attivit\xE0 di famiglia nata nel 1959; lo store locator ufficiale Hamilton documenta i servizi di sostituzione batterie e cinturini.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "matera",
+      posizione: {
+        indirizzo: "Corso Umberto I, 110",
+        cap: "75100",
+        coordinate: null,
+        fonti: [
+          "l8-www-gioielleriadigiesi1959-it",
+          "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+        ]
+      },
+      contatti: {
+        telefono: "0835 26382",
+        email: null,
+        sito: "https://www.gioielleriadigiesi1959.it",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-gioielleriadigiesi1959-it"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "batterie",
+          fonti: [
+            "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+          ]
+        },
+        {
+          id: "cinturini",
+          fonti: [
+            "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+          ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-gioielleriadigiesi1959-it"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+            ]
+          }
+        ],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+            ]
+          }
+        ],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: 1959,
+        fondatore: null,
+        testo: "Il sito ufficiale documenta l\u2019avvio dell\u2019attivit\xE0 di famiglia nel 1959.",
+        eventi: [],
+        fonti: [
+          "l8-www-gioielleriadigiesi1959-it"
+        ]
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-gioielleriadigiesi1959-it",
+          "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: scheda da sito e locator Hamilton.",
+            fonti: [
+              "l8-www-gioielleriadigiesi1959-it",
+              "l8-www-hamiltonwatch-com-it-it-store-locator-italia-store-d"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "gioielleria-digiesi-1959-matera"
+      }
+    },
+    {
+      id: "fusco-snc-pescara",
+      slug: "fusco-snc-pescara",
+      nome: "Fusco snc",
+      tipi: [
+        "orologeria",
+        "laboratorio"
+      ],
+      descrizione: "Fusco snc in Viale Giovanni Bovio 223 a Pescara \xE8 elencato nel locator ufficiale Breil nella categoria \xABAssistenza e Ricambi\xBB, con servizi di riparazione, assistenza e ricambi per segnatempo del marchio.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "pescara",
+      posizione: {
+        indirizzo: "Viale Giovanni Bovio, 223",
+        cap: null,
+        coordinate: null,
+        fonti: [
+          "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+        ]
+      },
+      contatti: {
+        telefono: "085 4211288",
+        email: null,
+        sito: null,
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+          ]
+        },
+        {
+          id: "assistenza",
+          fonti: [
+            "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+          ]
+        },
+        {
+          id: "ricambi",
+          fonti: [
+            "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+          ]
+        }
+      ],
+      altriServizi: [],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: [
+          {
+            marca: "Breil",
+            fonti: [
+              "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+            ]
+          }
+        ]
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: laboratorio da locator Breil assistenza.",
+            fonti: [
+              "l8-www-breil-com-store-assistenza-ricambi-fusco-snc"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "fusco-snc-pescara"
+      }
+    },
+    {
+      id: "cheope-benevento",
+      slug: "cheope-benevento",
+      nome: "Cheope",
+      tipi: [
+        "orologeria",
+        "gioielleria"
+      ],
+      descrizione: "Cheope in Largo Ricciardi 17/18 a Benevento offre sostituzione batterie, piccole riparazioni e interventi su orologi, con servizi di incisione e pulizia dei gioielli.",
+      nomiPrecedenti: [],
+      gruppoId: null,
+      localitaId: "benevento",
+      posizione: {
+        indirizzo: "Largo Ricciardi, 17/18",
+        cap: "82100",
+        coordinate: null,
+        fonti: [
+          "l8-www-cheope-org"
+        ]
+      },
+      contatti: {
+        telefono: "385 2317613",
+        email: null,
+        sito: "https://www.cheope.org",
+        whatsapp: null,
+        social: [],
+        fonti: [
+          "l8-www-cheope-org"
+        ]
+      },
+      orari: {
+        giorni: [],
+        chiusure: [],
+        verificatiIl: null,
+        fonti: []
+      },
+      servizi: [
+        {
+          id: "batterie",
+          fonti: [
+            "l8-www-cheope-org"
+          ]
+        },
+        {
+          id: "riparazione",
+          fonti: [
+            "l8-www-cheope-org"
+          ]
+        },
+        {
+          id: "gioielleria",
+          fonti: [
+            "l8-www-cheope-org"
+          ]
+        }
+      ],
+      altriServizi: [
+        {
+          nome: "Incisione e pulizia gioielli",
+          fonti: [
+            "l8-www-cheope-org"
+          ]
+        }
+      ],
+      specializzazioni: [],
+      marchi: {
+        venduti: [],
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: []
+      },
+      storia: {
+        annoFondazione: null,
+        fondatore: null,
+        testo: null,
+        eventi: [],
+        fonti: []
+      },
+      attendibilita: {
+        stato: "fonti-verificate",
+        raccoltaIl: "2026-10-26",
+        verificataIl: "2026-10-26",
+        confermataTitolareIl: null,
+        fonti: [
+          "l8-www-cheope-org"
+        ],
+        cronologia: [
+          {
+            data: "2026-10-26",
+            azione: "Lotto 8: scheda da sito ufficiale.",
+            fonti: [
+              "l8-www-cheope-org"
+            ]
+          }
+        ],
+        segnalazioni: []
+      },
+      origine: {
+        sistema: "espansione-lotto8-20261026",
+        idOriginale: "cheope-benevento"
       }
     }
   ]
