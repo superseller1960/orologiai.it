@@ -5400,6 +5400,24 @@
       "consultataIl": "2026-10-27",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "exp9-jolly-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriajollygallery.com/contatti",
+      "titolo": "Jolly Gallery — contatti",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "exp9-jolly-laboratorio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriajollygallery.com/about",
+      "titolo": "Jolly Gallery — attività e laboratorio",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -53650,6 +53668,118 @@
       "origine": {
         "sistema": "espansione-lotto8-20261026",
         "idOriginale": "cheope-benevento"
+      }
+    },
+    {
+      "id": "gioielleria-jolly-gallery-asti",
+      "slug": "gioielleria-jolly-gallery-asti",
+      "nome": "Gioielleria Jolly Gallery",
+      "tipi": [
+        "gioielleria",
+        "orologeria",
+        "laboratorio"
+      ],
+      "descrizione": "Gioielleria Jolly Gallery in Corso Vittorio Alfieri ad Asti propone orologi e gioielli e dichiara un laboratorio per la riparazione di orologi meccanici e al quarzo, con garanzia sugli interventi.",
+      "nomiPrecedenti": [],
+      "gruppoId": null,
+      "localitaId": "asti",
+      "posizione": {
+        "indirizzo": "Corso Vittorio Alfieri, 252",
+        "cap": "14100",
+        "coordinate": null,
+        "fonti": [
+          "exp9-jolly-contatti"
+        ]
+      },
+      "contatti": {
+        "telefono": "+39 0141 353828",
+        "email": "jollygallery@fastwebnet.it",
+        "sito": "https://www.gioielleriajollygallery.com/",
+        "whatsapp": null,
+        "social": [],
+        "fonti": [
+          "exp9-jolly-contatti"
+        ]
+      },
+      "orari": {
+        "giorni": [],
+        "chiusure": [],
+        "verificatiIl": null,
+        "fonti": []
+      },
+      "servizi": [
+        {
+          "id": "vendita",
+          "fonti": [
+            "exp9-jolly-laboratorio"
+          ]
+        },
+        {
+          "id": "gioielleria",
+          "fonti": [
+            "exp9-jolly-laboratorio"
+          ]
+        },
+        {
+          "id": "riparazione",
+          "fonti": [
+            "exp9-jolly-laboratorio"
+          ]
+        },
+        {
+          "id": "riparazione-meccanici",
+          "fonti": [
+            "exp9-jolly-laboratorio"
+          ]
+        },
+        {
+          "id": "riparazione-quarzo",
+          "fonti": [
+            "exp9-jolly-laboratorio"
+          ]
+        }
+      ],
+      "altriServizi": [],
+      "specializzazioni": [],
+      "marchi": {
+        "venduti": [],
+        "riparati": [],
+        "esperienza": [],
+        "assistenzaUfficiale": [],
+        "rivenditaUfficiale": [],
+        "menzionati": []
+      },
+      "storia": {
+        "annoFondazione": null,
+        "fondatore": null,
+        "testo": null,
+        "eventi": [],
+        "fonti": []
+      },
+      "attendibilita": {
+        "stato": "fonti-verificate",
+        "raccoltaIl": "2026-10-27",
+        "verificataIl": "2026-10-27",
+        "confermataTitolareIl": null,
+        "fonti": [
+          "exp9-jolly-contatti",
+          "exp9-jolly-laboratorio"
+        ],
+        "cronologia": [
+          {
+            "data": "2026-10-27",
+            "azione": "Inserimento da pagine ufficiali di contatto e laboratorio.",
+            "fonti": [
+              "exp9-jolly-contatti",
+              "exp9-jolly-laboratorio"
+            ]
+          }
+        ],
+        "segnalazioni": []
+      },
+      "origine": {
+        "sistema": "espansione-20261027",
+        "idOriginale": "gioielleria-jolly-gallery-asti"
       }
     }
   ]
