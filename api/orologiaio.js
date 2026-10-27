@@ -25860,6 +25860,15 @@ var directory_default = {
       consultataIl: "2026-10-27",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "audit2-unioncamere-clivio",
+      tipo: "directory",
+      url: "https://www.unioncamere.gov.it/imprese-storiche/gioielleria-clivio-sas-di-clivio-elisabetta-c",
+      titolo: "Unioncamere \u2014 Imprese storiche: Gioielleria Clivio",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -70045,7 +70054,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Gioielleria Passerini in Via Ezio Vanoni 21 a Morbegno, attiva dal 1956 con oltre 60 anni di tradizione, \xE8 rivenditore ufficiale Hamilton.",
+      descrizione: "Gioielleria Passerini in Via Ezio Vanoni 21 a Morbegno, attiva dal 1954 e in questa sede dal 1956, \xE8 rivenditore ufficiale Hamilton.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "morbegno",
@@ -70188,9 +70197,9 @@ var directory_default = {
         menzionati: []
       },
       storia: {
-        annoFondazione: 1956,
+        annoFondazione: 1954,
         fondatore: null,
-        testo: "La gioielleria dichiara attivit\xE0 dal 1956 e oltre 60 anni di tradizione a Morbegno.",
+        testo: "Il primo negozio nacque nel 1954; nel 1956 l\u2019attivit\xE0 si trasfer\xEC in Via Vanoni 21, sede storica attuale.",
         eventi: [],
         fonti: [
           "l7-www-gioielleriapasserini-it"
@@ -70213,6 +70222,13 @@ var directory_default = {
               "l7-www-hamiltonwatch-com-it-it-store-locator-italia-lombard",
               "l7-www-gioielleriapasserini-it"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretta la cronologia storica: avvio 1954, sede attuale dal 1956.",
+            fonti: [
+              "l7-www-gioielleriapasserini-it"
+            ]
           }
         ],
         segnalazioni: []
@@ -70231,7 +70247,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Bonvicini Gioielli in Corso Roma 18 a Lodi dispone di laboratorio certificato Rolex e Tudor con revisioni complete garantite per due anni.",
+      descrizione: "Bonvicini Gioielli in Corso Roma 18 a Lodi \xE8 rivenditore autorizzato Rolex; il sito dichiara un laboratorio certificato Rolex e Tudor con revisioni complete garantite per due anni.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "lodi",
@@ -70369,9 +70385,23 @@ var directory_default = {
               "l7-www-bonvicinigioielli-it-servizi",
               "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisata l\u2019attribuzione della certificazione di laboratorio; pagine Rolex non verificabili direttamente.",
+            fonti: [
+              "l7-www-bonvicinigioielli-it-servizi",
+              "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "La certificazione \xABcentro assistenza certificato Rolex\xBB \xE8 dichiarata dall\u2019attivit\xE0; le pagine Rolex corrispondenti non sono leggibili direttamente (HTTP 403).",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
@@ -70560,7 +70590,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Gioielleria Volta in Via Emilia 53 a Voghera, sede in Via Emilia dal 2002, \xE8 rivenditore autorizzato Rolex e centro assistenza con revisioni, sostituzione vetri, lucidatura e interventi su cinturini.",
+      descrizione: "Gioielleria Volta in Via Emilia 53 a Voghera, in Via Emilia dal 1978 e al civico 53 dal 2002, \xE8 rivenditore autorizzato Rolex e dichiara la qualifica di centro assistenza, con revisioni, sostituzione vetri, lucidatura e interventi su cinturini.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "voghera",
@@ -70771,9 +70801,23 @@ var directory_default = {
               "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog",
               "l7-voltavoghera-it-it-orologi"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretta la cronologia della sede (dal 1978 in Via Emilia, dal 2002 al civico 53); qualifica assistenza Rolex attribuita all\u2019attivit\xE0.",
+            fonti: [
+              "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog",
+              "l7-voltavoghera-it-it-orologi"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Qualifica \xABcentro assistenza autorizzato Rolex\xBB dichiarata dall\u2019attivit\xE0; la pagina Rolex di servizio non \xE8 leggibile direttamente (HTTP 403).",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
@@ -70896,7 +70940,7 @@ var directory_default = {
       storia: {
         annoFondazione: 1968,
         fondatore: null,
-        testo: "Il sito colloca le origini della produzione di gioielli nel 1968.",
+        testo: "Le origini dell\u2019azienda orafa Federici risalgono al 1968; la prima gioielleria nel centro di Gallarate \xE8 aperta nel 2012.",
         eventi: [],
         fonti: [
           "l7-www-federicigioielleria-com"
@@ -70919,6 +70963,13 @@ var directory_default = {
               "l7-www-federicigioielleria-com",
               "l7-www-seikowatches-com-it-it-stores-28809-1"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisata la cronologia: azienda orafa dal 1968, negozio di Gallarate dal 2012.",
+            fonti: [
+              "l7-www-federicigioielleria-com"
+            ]
           }
         ],
         segnalazioni: []
@@ -70936,7 +70987,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Zanaboni Gioielli in Via Cavour 97 ad Arona \xE8 rivenditore autorizzato Rolex e Tudor con servizi di check-up, revisioni e riparazioni.",
+      descrizione: "Zanaboni Gioielli in Via Cavour 97 ad Arona dichiara di essere rivenditore autorizzato Rolex e Tudor e offre check-up, revisioni e riparazioni di orologi, oltre a servizi orafi.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "arona",
@@ -71146,9 +71197,23 @@ var directory_default = {
               "l7-zanabonigioielli-it",
               "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Attribuite all\u2019attivit\xE0 le dichiarazioni di autorizzazione; servizi confermati dal sito.",
+            fonti: [
+              "l7-zanabonigioielli-it",
+              "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Autorizzazioni Rolex e Tudor non verificabili direttamente dalle pagine dei marchi (HTTP 403); presenti come dichiarazioni dell\u2019attivit\xE0.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
@@ -71164,7 +71229,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Gioielleria Clivio 1879 in Corso Goffredo Mameli 163/165 a Verbania Intra, fondata nel 1879 e iscritta al Registro Nazionale delle Imprese Storiche, \xE8 rivenditore autorizzato Rolex con laboratorio interno e servizio Rolex Quick Service.",
+      descrizione: "Gioielleria Clivio 1879 in Corso Goffredo Mameli 163/165 a Verbania Intra, fondata nel 1879 e giunta alla quarta generazione, \xE8 iscritta al Registro Nazionale delle Imprese Storiche e si presenta come rivenditore autorizzato Rolex, con laboratorio interno e strumentazione per il Rolex Quick Service dichiarata dalla bottega.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "verbania",
@@ -71283,7 +71348,8 @@ var directory_default = {
           }
         ],
         fonti: [
-          "l7-www-clivio1879-com"
+          "l7-www-clivio1879-com",
+          "audit2-unioncamere-clivio"
         ]
       },
       attendibilita: {
@@ -71303,9 +71369,22 @@ var directory_default = {
               "l7-www-clivio1879-com",
               "l7-www-clivio1879-com-rolex"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Aggiunta la fonte Unioncamere per fondazione e Registro delle Imprese Storiche; Quick Service attribuito alla bottega.",
+            fonti: [
+              "audit2-unioncamere-clivio"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Pagina Rolex non leggibile direttamente (HTTP 403): rivendita autorizzata come da dichiarazione della bottega e scheda indicizzata del marchio.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
