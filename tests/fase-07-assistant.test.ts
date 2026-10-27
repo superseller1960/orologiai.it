@@ -64,12 +64,12 @@ test('07A: aggiungere Rolex automatico conserva revisione e Firenze', async () =
 
 test('07A: cambiare città conserva servizio, marchio e specializzazione', async () => {
   const prima = await turno('Per un Rolex automatico', await turno('Cerco una revisione a Firenze'));
-  const seconda = await turno('Invece a Prato?', prima);
+  const seconda = await turno('Invece a Pisa?', prima);
   assert.equal(seconda.servizio, 'revisione');
   assert.equal(seconda.marca, 'Rolex');
   assert.equal(seconda.specializzazione, 'automatici');
   assert.equal(seconda.localita, undefined);
-  assert.equal(seconda.localitaNonCensita, 'Prato');
+  assert.equal(seconda.localitaNonCensita, 'Pisa');
 });
 
 test('07A: una città censita sostituisce una città non censita', async () => {
