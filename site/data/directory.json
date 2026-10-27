@@ -5562,6 +5562,15 @@
       "consultataIl": "2026-10-27",
       "percorsoArchivio": null,
       "licenza": null
+    },
+    {
+      "id": "l5-www-orologeriaeraora-it-lanostrastoria",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaeraora.it/orologeria-era-ora-lanostrastoria",
+      "titolo": "Sito Orologeria Era Ora — la nostra storia",
+      "consultataIl": "2026-10-27",
+      "percorsoArchivio": null,
+      "licenza": null
     }
   ],
   "localita": [
@@ -37002,7 +37011,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-gioielleriarabino-com",
@@ -37020,9 +37029,24 @@
               "l5-www-gioielleriarabino-com-la-nostra-storia",
               "l5-www-gioielleriarabino-com-contatti"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: indirizzo, telefono, fondazione 1895, quattro generazioni e laboratorio orologeria dal 2004 confermati dal sito ufficiale.",
+            "fonti": [
+              "l5-www-gioielleriarabino-com",
+              "l5-www-gioielleriarabino-com-la-nostra-storia",
+              "l5-www-gioielleriarabino-com-i-nostri-laboratori-2"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "L’email non è stata ricontrollabile nella forma esatta: la pagina contatti mostra l’indirizzo mascherato e la richiesta diretta è bloccata (HTTP 403).",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -37178,12 +37202,6 @@
           "fonti": [
             "l5-www-orolab-it"
           ]
-        },
-        {
-          "id": "vendita-usati",
-          "fonti": [
-            "l5-www-orolab-it"
-          ]
         }
       ],
       "altriServizi": [
@@ -37245,7 +37263,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-orolab-it",
@@ -37260,6 +37278,15 @@
               "l5-www-orolab-it",
               "l5-www-orolab-it-laboratorio",
               "l5-www-orolab-it-contatti"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: rimosso il servizio «vendita usati», non attestato nelle pagine del sito ufficiali consultate (home, contatti, laboratorio, servizi); confermati valutazione, riparazione, revisione, batterie, vetri e test di impermeabilità.",
+            "fonti": [
+              "l5-www-orolab-it",
+              "l5-www-orolab-it-contatti",
+              "l5-www-orolab-it-laboratorio"
             ]
           }
         ],
@@ -37439,7 +37466,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-casciolagioielli-com",
@@ -37454,6 +37481,15 @@
               "l5-www-casciolagioielli-com",
               "l5-www-casciolagioielli-com-i-nostri-servizi",
               "l5-www-casciolagioielli-com-contatti"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: indirizzo, telefono, email e servizi tecnici confermati dal sito ufficiale; nessuna correzione necessaria.",
+            "fonti": [
+              "l5-www-casciolagioielli-com",
+              "l5-www-casciolagioielli-com-contatti",
+              "l5-www-casciolagioielli-com-i-nostri-servizi"
             ]
           }
         ],
@@ -37662,7 +37698,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-dupanloup-it",
@@ -37678,9 +37714,28 @@
               "l5-www-dupanloup-it-contatti",
               "l5-www-unioncamere-gov-it-imprese-storiche-dupanloup-srl"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: contatti e laboratorio confermati; Unioncamere riporta avvio dichiarato 1880 ma colloca l’apertura della ditta «nel 1883 circa», come il sito dell’attività.",
+            "fonti": [
+              "l5-www-unioncamere-gov-it-imprese-storiche-dupanloup-srl",
+              "l5-www-dupanloup-it"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Variante cronologica: avvio dichiarato 1880 (Unioncamere) contro «1883 circa» nella narrazione della stessa scheda e «dal 1883» sul sito dell’attività.",
+            "stato": "aperta"
+          },
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito si dichiara rivenditore autorizzato Rolex e Tudor; le pagine ufficiali dei due marchi non sono leggibili in questa sessione (HTTP 403): qualifiche non inserite tra le autorizzazioni confermate.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -37906,7 +37961,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-delfinogioielli-com-negozio-savona-html"
@@ -37918,9 +37973,22 @@
             "fonti": [
               "l5-www-delfinogioielli-com-negozio-savona-html"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: fondazione 28 ottobre 1928, Giovanni Delfino (1899-1988) e tradizione familiare del padre Vincenzo confermati dal sito ufficiale; marchi e laboratorio confermati.",
+            "fonti": [
+              "l5-www-delfinogioielli-com-negozio-savona-html"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Telefono discordante: il sito dell’attività riporta 019 824917, le schede ufficiali Omega e Longines 019 851798.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -38112,7 +38180,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-anticacasatraverso-com",
@@ -38128,6 +38196,15 @@
               "l5-anticacasatraverso-com",
               "l5-anticacasatraverso-com-chi-siamo",
               "l5-anticacasatraverso-com-orologeria",
+              "l5-anticacasatraverso-com-contatti"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: fondazione 1920, quarta generazione, arredi storici originali, recapiti e assortimento confermati dal sito ufficiale; nessun laboratorio di riparazione orologiera dichiarato.",
+            "fonti": [
+              "l5-anticacasatraverso-com",
+              "l5-anticacasatraverso-com-chi-siamo",
               "l5-anticacasatraverso-com-contatti"
             ]
           }
@@ -38304,7 +38381,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-rizzutogioielleria-com-sarzana",
@@ -38318,9 +38395,23 @@
               "l5-www-rizzutogioielleria-com-sarzana",
               "l5-www-hamiltonwatch-com-it-it-store-locator-italia-liguria"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: attività dal 1960, recapiti e marchi confermati; rivendita ufficiale Hamilton confermata dalla scheda del marchio.",
+            "fonti": [
+              "l5-www-rizzutogioielleria-com-sarzana",
+              "l5-www-hamiltonwatch-com-it-it-store-locator-italia-liguria"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Variante indirizzo: il sito riporta Via Landinelli 60/62, la scheda Hamilton Via Ippolito Landinelli 60.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -41285,7 +41376,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-gioielleriahenry-com",
@@ -41301,9 +41392,22 @@
               "l5-gioielleriahenry-com-orologi-gallery",
               "l5-www-midowatches-com-it-store-locator-italy-alessandria-h"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: indirizzo, telefono, email e rivendita ufficiale Mido confermati dalla scheda ufficiale del marchio.",
+            "fonti": [
+              "l5-www-midowatches-com-it-store-locator-italy-alessandria-h"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito proprio non ha restituito testo leggibile in questa sessione (pagina renderizzata in JS): laboratorio e marchi oltre Mido (Tissot, Locman, Citizen) non sono stati ricontrollabili direttamente.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -41516,7 +41620,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-luigirossogioielli-com-it-assistenza",
@@ -41531,6 +41635,15 @@
               "l5-www-luigirossogioielli-com-it-assistenza",
               "l5-www-luigirossogioielli-com-en-about-us",
               "l5-www-luigirossogioielli-com-it-contatti"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: recapiti (indicato anche il secondo numero 0142 453328), attività dal 1992 con esperienze dal 1986 e interventi di riparazione, restauro e rimessa a nuovo confermati dal sito ufficiale.",
+            "fonti": [
+              "l5-www-luigirossogioielli-com-it-contatti",
+              "l5-www-luigirossogioielli-com-it-assistenza",
+              "l5-www-luigirossogioielli-com-en-about-us"
             ]
           }
         ],
@@ -41692,7 +41805,7 @@
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-biondivercelli-com",
@@ -41706,9 +41819,23 @@
               "l5-www-biondivercelli-com",
               "l5-www-biondivercelli-com-contatti"
             ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: fondazione 1949, laboratorio interno, recapiti e marchi trattati confermati dal sito ufficiale.",
+            "fonti": [
+              "l5-www-biondivercelli-com",
+              "l5-www-biondivercelli-com-contatti"
+            ]
           }
         ],
-        "segnalazioni": []
+        "segnalazioni": [
+          {
+            "data": "2026-10-27",
+            "motivo": "Il sito dichiara che Rolex certifica il laboratorio come centro assistenza autorizzato; la pagina Rolex non è leggibile in questa sessione (HTTP 403): qualifica non inserita tra le autorizzazioni confermate.",
+            "stato": "aperta"
+          }
+        ]
       },
       "origine": {
         "sistema": "espansione-lotto5-20261026",
@@ -41724,7 +41851,7 @@
         "laboratorio",
         "professionista"
       ],
-      "descrizione": "Orologeria Era Ora in Via Fratelli Laviny 17 a Vercelli è un laboratorio di terza generazione specializzato in riparazioni, revisioni, restauri, lucidatura di casse e bracciali e interventi su orologi moderni, vintage, da parete e da appoggio.",
+      "descrizione": "Orologeria Era Ora in Via Fratelli Laviny 17 a Vercelli è un laboratorio di terza generazione specializzato in riparazioni, revisioni, restauri, lucidatura di casse e bracciali e interventi su orologi moderni, vintage, da parete e da appoggio; per gli interventi più complessi si avvale di laboratori esterni qualificati.",
       "nomiPrecedenti": [],
       "gruppoId": null,
       "localitaId": "vercelli",
@@ -41858,19 +41985,20 @@
         "menzionati": []
       },
       "storia": {
-        "annoFondazione": null,
+        "annoFondazione": 2019,
         "fondatore": null,
-        "testo": "Il laboratorio a Vercelli è condotto da Matteo e Paolo, indicati sul sito ufficiale come terza generazione di orologiai.",
+        "testo": "Attività avviata nel 2019 da Stefano e trasferita nel 2022 nell’attuale sede di Via Fratelli Laviny, dove sorge il laboratorio condotto da Matteo e Paolo, indicati sul sito ufficiale come terza generazione di orologiai a Vercelli.",
         "eventi": [],
         "fonti": [
           "l5-www-orologeriaeraora-it",
-          "l5-www-orologeriaeraora-it-laboratorio"
+          "l5-www-orologeriaeraora-it-laboratorio",
+          "l5-www-orologeriaeraora-it-lanostrastoria"
         ]
       },
       "attendibilita": {
         "stato": "fonti-verificate",
         "raccoltaIl": "2026-10-26",
-        "verificataIl": "2026-10-26",
+        "verificataIl": "2026-10-27",
         "confermataTitolareIl": null,
         "fonti": [
           "l5-www-orologeriaeraora-it",
@@ -41881,6 +42009,15 @@
             "data": "2026-10-26",
             "azione": "Lotto 5 espansione nazionale: laboratorio inserito da sito ufficiale.",
             "fonti": [
+              "l5-www-orologeriaeraora-it",
+              "l5-www-orologeriaeraora-it-laboratorio"
+            ]
+          },
+          {
+            "data": "2026-10-27",
+            "azione": "Audit gruppo 5: recapiti e servizi confermati; integrata la storia documentata (avvio 2019, trasferimento 2022) e precisato l’uso di laboratori esterni per gli interventi complessi.",
+            "fonti": [
+              "l5-www-orologeriaeraora-it-lanostrastoria",
               "l5-www-orologeriaeraora-it",
               "l5-www-orologeriaeraora-it-laboratorio"
             ]
