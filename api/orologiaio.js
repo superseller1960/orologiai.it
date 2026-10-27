@@ -25869,6 +25869,24 @@ var directory_default = {
       consultataIl: "2026-10-27",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "audit3-oris-rosati",
+      tipo: "marchio-ufficiale",
+      url: "https://www.oris.ch/en-IT/storefinder/6377-gioielleria-rosati",
+      titolo: "Oris \u2014 Gioielleria Rosati",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit3-mido-chiatti",
+      tipo: "marchio-ufficiale",
+      url: "https://www.midowatches.com/it/store-locator/italy/xn--citt-di-castello-0lb/gioielleria-chiatti-a1vnn000001zsdkya2",
+      titolo: "Mido \u2014 Gioielleria Chiatti",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -62591,7 +62609,13 @@ var directory_default = {
             ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Email discordanti: Longines riporta capodagli@fastnet.it, Mido riporta info@capodagli.it (pubblicata).",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto6-20261026",
@@ -62613,7 +62637,7 @@ var directory_default = {
       gruppoId: null,
       localitaId: "fano",
       posizione: {
-        indirizzo: "Via Arco d\u2019Augusto, 60",
+        indirizzo: "Via Arco d\u2019Augusto, 61",
         cap: "61032",
         coordinate: null,
         fonti: [
@@ -62781,9 +62805,23 @@ var directory_default = {
               "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
               "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretto il civico in 61 sulla scheda Hamilton verificata; la variante 60 non \xE8 risultata verificabile nella pagina Tissot.",
+            fonti: [
+              "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+              "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Variante civico: Hamilton riporta 61; il precedente valore 60 non \xE8 verificabile dalla pagina Tissot.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto6-20261026",
@@ -62986,7 +63024,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Gioielleria Panichi dal 1954 in Viale Cavallotti 131 a Porto San Giorgio \xE8 un\u2019attivit\xE0 storica del Fermano attestata dallo store locator ufficiale Breil quale rivenditore autorizzato.",
+      descrizione: "Gioielleria Panichi in Viale Cavallotti 131 a Porto San Giorgio, con la dicitura \xABdal 1954\xBB nella denominazione, \xE8 rivenditore autorizzato Breil secondo lo store locator ufficiale del marchio.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "porto-san-giorgio",
@@ -63053,9 +63091,9 @@ var directory_default = {
         menzionati: []
       },
       storia: {
-        annoFondazione: 1954,
+        annoFondazione: null,
         fondatore: null,
-        testo: "La denominazione aziendale registrata nello store locator del marchio attesta l\u2019avvio dell\u2019attivit\xE0 nel 1954.",
+        testo: "La dicitura \xABdal 1954\xBB compare nella denominazione commerciale registrata; non risultano fonti storiche indipendenti che documentino l\u2019anno di avvio.",
         eventi: [],
         fonti: [
           "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
@@ -63073,6 +63111,13 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Breil.",
+            fonti: [
+              "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisata la cronologia: il 1954 \xE8 autodichiarato nella denominazione, non documentato storicamente.",
             fonti: [
               "l6-www-breil-com-store-rivenditori-manta-gioielleria-panich"
             ]
@@ -63105,7 +63150,7 @@ var directory_default = {
         coordinate: null,
         fonti: [
           "l6-www-gioielleriarosati-com-pages-dove-siamo",
-          "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+          "audit3-oris-rosati"
         ]
       },
       contatti: {
@@ -63147,7 +63192,7 @@ var directory_default = {
           {
             marca: "Oris",
             fonti: [
-              "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+              "audit3-oris-rosati"
             ]
           }
         ],
@@ -63158,7 +63203,7 @@ var directory_default = {
           {
             marca: "Oris",
             fonti: [
-              "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+              "audit3-oris-rosati"
             ]
           }
         ],
@@ -63180,7 +63225,7 @@ var directory_default = {
         confermataTitolareIl: null,
         fonti: [
           "l6-www-gioielleriarosati-com-pages-dove-siamo",
-          "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+          "audit3-oris-rosati"
         ],
         cronologia: [
           {
@@ -63189,6 +63234,13 @@ var directory_default = {
             fonti: [
               "l6-www-gioielleriarosati-com-pages-dove-siamo",
               "l6-www-oris-ch-en-it-storefinder-1092-perpetual-srl"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretta la fonte Oris: la scheda citata apparteneva a Perpetual Srl di Follonica, non a questa attivit\xE0; sostituita con la scheda Oris di Gioielleria Rosati.",
+            fonti: [
+              "audit3-oris-rosati"
             ]
           }
         ],
@@ -63413,7 +63465,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Gioielleria Cotognini in Via Giuseppe Garibaldi 60 a Macerata \xE8 un punto vendita di orologeria attestato dallo store locator ufficiale Seiko quale Global Brand Retailer per il capoluogo maceratese.",
+      descrizione: "Gioielleria Cotognini in Via Giuseppe Garibaldi 60 a Macerata \xE8 Seiko Global Brand Retailer secondo lo store locator ufficiale del marchio.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "macerata",
@@ -63498,6 +63550,13 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Seiko.",
+            fonti: [
+              "l6-www-seikowatches-com-it-it-stores-28648-1"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Allineata la qualifica Seiko alla formulazione della fonte (Global Brand Retailer).",
             fonti: [
               "l6-www-seikowatches-com-it-it-stores-28648-1"
             ]
@@ -63695,7 +63754,7 @@ var directory_default = {
       gruppoId: null,
       localitaId: "roseto-degli-abruzzi",
       posizione: {
-        indirizzo: "Piazza della Libert\xE0",
+        indirizzo: "Piazza della Libert\xE0, 34",
         cap: "64026",
         coordinate: null,
         fonti: [
@@ -63704,7 +63763,7 @@ var directory_default = {
       },
       contatti: {
         telefono: "085 8992183",
-        email: "gioielleriamichini@gmail.com",
+        email: "info@gioielleriamichini.it",
         sito: "https://gioielleriamichini.it/",
         whatsapp: null,
         social: [],
@@ -63788,6 +63847,14 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale e locator Hamilton.",
+            fonti: [
+              "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
+              "l6-gioielleriamichini-it"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Aggiunto il civico 34 e l\u2019email del sito proprio (Hamilton riporta anche un indirizzo Gmail).",
             fonti: [
               "l6-www-hamiltonwatch-com-it-it-store-locator-italia-abruzzo",
               "l6-gioielleriamichini-it"
@@ -63931,7 +63998,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Sorbi Gioielli in Via Leonida Mastrodicasa 99/E a Ponte Felcino (Perugia) dispone di un laboratorio interno di riparazione orologi e assistenza post-vendita accanto al laboratorio orafo.",
+      descrizione: "Sorbi Gioielli in Via Leonida Mastrodicasa 99/E a Ponte Felcino (Perugia) dispone di un laboratorio di riparazione orologi in sede e offre assistenza post-vendita.",
       nomiPrecedenti: [
         "Oreficeria Sorbi"
       ],
@@ -64019,6 +64086,13 @@ var directory_default = {
             fonti: [
               "l6-www-oreficeriasorbi-com-servizi-php"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Allineata la descrizione alla fonte (\xABLaboratorio di riparazione orologi\xBB in sede).",
+            fonti: [
+              "l6-www-oreficeriasorbi-com-servizi-php"
+            ]
           }
         ],
         segnalazioni: []
@@ -64085,7 +64159,7 @@ var directory_default = {
           {
             marca: "Mido",
             fonti: [
-              "l5-www-midowatches-com-it-store-locator"
+              "audit3-mido-chiatti"
             ]
           }
         ],
@@ -64096,7 +64170,7 @@ var directory_default = {
           {
             marca: "Mido",
             fonti: [
-              "l5-www-midowatches-com-it-store-locator"
+              "audit3-mido-chiatti"
             ]
           }
         ],
@@ -64115,7 +64189,8 @@ var directory_default = {
         verificataIl: "2026-10-26",
         confermataTitolareIl: null,
         fonti: [
-          "l5-www-midowatches-com-it-store-locator"
+          "l5-www-midowatches-com-it-store-locator",
+          "audit3-mido-chiatti"
         ],
         cronologia: [
           {
@@ -64123,6 +64198,13 @@ var directory_default = {
             azione: "Lotto 6 espansione nazionale: scheda inserita da locator ufficiale Mido.",
             fonti: [
               "l5-www-midowatches-com-it-store-locator"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Sostituito il locator generico Mido con la scheda specifica della attivit\xE0.",
+            fonti: [
+              "audit3-mido-chiatti"
             ]
           }
         ],
@@ -64338,7 +64420,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Gioielleria Massarucci in Via del Rivo 192 a Terni offre servizi di riparazione orologi di varie tipologie e assistenza tecnica multimarca.",
+      descrizione: "Gioielleria Massarucci in Via del Rivo 192 a Terni offre riparazione di orologi di tutte le tipologie e assistenza tecnica sulle migliori marche di orologeria.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "terni",
@@ -64421,6 +64503,13 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 6 espansione nazionale: scheda inserita da sito ufficiale.",
+            fonti: [
+              "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Sostituita la dicitura \xABmultimarca\xBB con la formulazione della fonte.",
             fonti: [
               "l6-www-gioielleriamassarucci-com-riparazioni-assistenza"
             ]
@@ -70247,7 +70336,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Bonvicini Gioielli in Corso Roma 18 a Lodi \xE8 rivenditore autorizzato Rolex; il sito dichiara un laboratorio certificato Rolex e Tudor con revisioni complete garantite per due anni.",
+      descrizione: "Bonvicini Gioielli in Corso Roma 18 a Lodi dichiara di essere rivenditore autorizzato Rolex e di disporre di un laboratorio certificato Rolex e Tudor, con revisioni complete garantite per due anni.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "lodi",
@@ -70349,14 +70438,7 @@ var directory_default = {
         ],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [
-          {
-            marca: "Rolex",
-            fonti: [
-              "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l"
-            ]
-          }
-        ],
+        rivenditaUfficiale: [],
         menzionati: []
       },
       storia: {
@@ -70389,6 +70471,14 @@ var directory_default = {
           {
             data: "2026-10-27",
             azione: "Precisata l\u2019attribuzione della certificazione di laboratorio; pagine Rolex non verificabili direttamente.",
+            fonti: [
+              "l7-www-bonvicinigioielli-it-servizi",
+              "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Autodichiarazione di ruolo Rolex conservata nel registro: la fonte rolex.com citata non \xE8 leggibile in questa sessione (HTTP 403, che non \xE8 prova n\xE9 a favore n\xE9 contro); qualifica separata dai campi di autorizzazione confermata.",
             fonti: [
               "l7-www-bonvicinigioielli-it-servizi",
               "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l"
@@ -70590,7 +70680,7 @@ var directory_default = {
         "orologeria",
         "gioielleria"
       ],
-      descrizione: "Gioielleria Volta in Via Emilia 53 a Voghera, in Via Emilia dal 1978 e al civico 53 dal 2002, \xE8 rivenditore autorizzato Rolex e dichiara la qualifica di centro assistenza, con revisioni, sostituzione vetri, lucidatura e interventi su cinturini.",
+      descrizione: "Gioielleria Volta in Via Emilia 53 a Voghera, in Via Emilia dal 1978 e al civico 53 dal 2002, dichiara di essere rivenditore autorizzato Rolex e centro assistenza, con revisioni, sostituzione vetri, lucidatura e interventi su cinturini.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "voghera",
@@ -70759,22 +70849,8 @@ var directory_default = {
           }
         ],
         esperienza: [],
-        assistenzaUfficiale: [
-          {
-            marca: "Rolex",
-            fonti: [
-              "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog"
-            ]
-          }
-        ],
-        rivenditaUfficiale: [
-          {
-            marca: "Rolex",
-            fonti: [
-              "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog"
-            ]
-          }
-        ],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
         menzionati: []
       },
       storia: {
@@ -70805,6 +70881,14 @@ var directory_default = {
           {
             data: "2026-10-27",
             azione: "Corretta la cronologia della sede (dal 1978 in Via Emilia, dal 2002 al civico 53); qualifica assistenza Rolex attribuita all\u2019attivit\xE0.",
+            fonti: [
+              "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog",
+              "l7-voltavoghera-it-it-orologi"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Autodichiarazione di ruolo Rolex conservata nel registro: la fonte rolex.com citata non \xE8 leggibile in questa sessione (HTTP 403, che non \xE8 prova n\xE9 a favore n\xE9 contro); qualifica separata dai campi di autorizzazione confermata. Per l\u2019assistenza la fonte citata era la pagina dealer, non una pagina di servizio del marchio.",
             fonti: [
               "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog",
               "l7-voltavoghera-it-it-orologi"
@@ -71157,20 +71241,7 @@ var directory_default = {
         ],
         esperienza: [],
         assistenzaUfficiale: [],
-        rivenditaUfficiale: [
-          {
-            marca: "Rolex",
-            fonti: [
-              "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
-            ]
-          },
-          {
-            marca: "Tudor",
-            fonti: [
-              "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
-            ]
-          }
-        ],
+        rivenditaUfficiale: [],
         menzionati: []
       },
       storia: {
@@ -71201,6 +71272,14 @@ var directory_default = {
           {
             data: "2026-10-27",
             azione: "Attribuite all\u2019attivit\xE0 le dichiarazioni di autorizzazione; servizi confermati dal sito.",
+            fonti: [
+              "l7-zanabonigioielli-it",
+              "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Autodichiarazione di ruolo Rolex conservata nel registro: la fonte rolex.com citata non \xE8 leggibile in questa sessione (HTTP 403, che non \xE8 prova n\xE9 a favore n\xE9 contro); qualifica separata dai campi di autorizzazione confermata.",
             fonti: [
               "l7-zanabonigioielli-it",
               "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy"
