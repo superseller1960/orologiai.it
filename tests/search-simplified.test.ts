@@ -92,10 +92,13 @@ assert.equal(batterie.stato, 'ok');
 assert.deepEqual(visible().map(el => el.dataset.businessId).sort(), batterie.risultati.map(r => r.id).sort(), 'Riconosciuto cambio batteria');
 assert.ok(visible().some(el => el.dataset.businessId === 'fontana-bologna'));
 
-// 4. Campo unico: "assistenza ufficiale Omega" (nessun risultato esatto, alternative pertinenti)
-qInput.value = 'assistenza ufficiale Omega';
+// 4. Campo unico: "assistenza ufficiale Cartier" (nessun risultato esatto, alternative pertinenti)
+//    Omega non è più un caso negativo: errani-ravenna ha assistenza Omega documentata
+//    dallo store locator ufficiale (verificata il 26/10/2026). Cartier ha attività che
+//    lo trattano ma nessuna assistenza ufficiale documentata.
+qInput.value = 'assistenza ufficiale Cartier';
 form.dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
-assert.ok(visible().length > 0, 'Mostra alternative pertinenti per assistenza Omega');
+assert.ok(visible().length > 0, 'Mostra alternative pertinenti per assistenza Cartier');
 assert.match(doc.querySelector('#search-count')!.textContent!, /alternative pertinenti/);
 
 // 5. Ricerca diretta per nome / indirizzo / CAP: "Sangalli Milano"

@@ -94,12 +94,24 @@ test('rivenditore ufficiale Rolex: nessun risultato se non documentato come uffi
   assert.equal(r.totale, 0);
 });
 
-test('un laboratorio con esperienza Omega è proposto con la sua fonte, senza autorizzazione', () => {
+test('un laboratorio con esperienza Omega è proposto con la sua fonte, senza autorizzazione inventata', () => {
   const r = cerca('Vorrei trovare un laboratorio esperto in Omega, anche se non è un centro ufficiale');
   assert.ok(r.totale > 0);
   for (const x of r.risultati) {
+    const b = data.attivita.find(y => y.id === x.id)!;
     assert.ok(x.motivi.some(m => m.includes('Omega')), 'motivo basato su dati');
-    assert.ok(!x.motivi.some(m => m.includes('ufficialmente')), 'nessuna autorizzazione dichiarata');
+    // L'esperienza non diventa autorizzazione: «ufficialmente» può apparire solo
+    // per ruoli documentati da una fonte del marchio (es. errani-ravenna: lo store
+    // locator ufficiale Omega elenca il servizio di manutenzione).
+    const ruoliUfficiali = [
+      ...b.marchi.assistenzaUfficiale.filter(m => m.marca === 'Omega'),
+      ...b.marchi.rivenditaUfficiale.filter(m => m.marca === 'Omega'),
+    ];
+    if (ruoliUfficiali.length === 0) {
+      assert.ok(!x.motivi.some(m => m.includes('ufficialmente')), 'nessuna autorizzazione dichiarata');
+    } else {
+      for (const ruolo of ruoliUfficiali) assert.ok(ruolo.fonti.length > 0, 'autorizzazione dichiarata solo se documentata');
+    }
   }
 });
 

@@ -92,8 +92,9 @@ test('l’interpretazione riconosce nuove località e casi reali d’uso naziona
 });
 
 test('località non censite: segnalazione esplicita e nessun risultato fittizio', () => {
-  const i = interpretaRichiesta('Cerco un orologiaio a Caltanissetta', data);
-  assert.equal(i.criteri.localitaNonCensita, 'Caltanissetta');
+  // Caltanissetta ora è censita (lotto 7): il caso negativo usa una città realmente assente.
+  const i = interpretaRichiesta('Cerco un orologiaio a Lecce', data);
+  assert.equal(i.criteri.localitaNonCensita, 'Lecce');
   assert.equal(i.criteri.localita, undefined);
 });
 

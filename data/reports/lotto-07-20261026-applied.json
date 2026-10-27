@@ -1,0 +1,687 @@
+{
+  "lotto": "lotto-07-20261026",
+  "data": "2026-10-26",
+  "regioniCoinvolte": [
+    "Calabria",
+    "Sicilia",
+    "Sardegna",
+    "Emilia-Romagna",
+    "Toscana",
+    "Lombardia",
+    "Piemonte",
+    "Veneto",
+    "Liguria",
+    "Lazio"
+  ],
+  "provinceCoinvolte": [
+    "KR",
+    "VV",
+    "CL",
+    "RG",
+    "NU",
+    "OR",
+    "SU",
+    "RA",
+    "AR",
+    "BL",
+    "SO",
+    "PV",
+    "VA",
+    "NO",
+    "VB",
+    "CA",
+    "RM",
+    "GE"
+  ],
+  "provincePrimaAZeroCoperte": [
+    "KR",
+    "VV",
+    "CL",
+    "RG",
+    "NU",
+    "OR",
+    "SU"
+  ],
+  "candidatiEsaminati": 38,
+  "candidatiScartati": 10,
+  "motiviScarto": [
+    "Gioielleria Manuzzi Cesena: comune cesena usato in test negativo assistant.test.ts",
+    "Massimo Avella Prato: comune prato usato in test negativo fase-07-assistant.test.ts",
+    "Alcune attività documentate solo da aggregatori commerciali senza sito ufficiale"
+  ],
+  "nuoveLocalita": [
+    {
+      "id": "crotone",
+      "comune": "Crotone",
+      "siglaProvincia": "KR",
+      "regione": "Calabria"
+    },
+    {
+      "id": "vibo-valentia",
+      "comune": "Vibo Valentia",
+      "siglaProvincia": "VV",
+      "regione": "Calabria"
+    },
+    {
+      "id": "caltanissetta",
+      "comune": "Caltanissetta",
+      "siglaProvincia": "CL",
+      "regione": "Sicilia"
+    },
+    {
+      "id": "ragusa",
+      "comune": "Ragusa",
+      "siglaProvincia": "RG",
+      "regione": "Sicilia"
+    },
+    {
+      "id": "modica",
+      "comune": "Modica",
+      "siglaProvincia": "RG",
+      "regione": "Sicilia"
+    },
+    {
+      "id": "nuoro",
+      "comune": "Nuoro",
+      "siglaProvincia": "NU",
+      "regione": "Sardegna"
+    },
+    {
+      "id": "oristano",
+      "comune": "Oristano",
+      "siglaProvincia": "OR",
+      "regione": "Sardegna"
+    },
+    {
+      "id": "iglesias",
+      "comune": "Iglesias",
+      "siglaProvincia": "SU",
+      "regione": "Sardegna"
+    },
+    {
+      "id": "faenza",
+      "comune": "Faenza",
+      "siglaProvincia": "RA",
+      "regione": "Emilia-Romagna"
+    },
+    {
+      "id": "cecina",
+      "comune": "Cecina",
+      "siglaProvincia": "LI",
+      "regione": "Toscana"
+    },
+    {
+      "id": "follonica",
+      "comune": "Follonica",
+      "siglaProvincia": "GR",
+      "regione": "Toscana"
+    },
+    {
+      "id": "arezzo",
+      "comune": "Arezzo",
+      "siglaProvincia": "AR",
+      "regione": "Toscana"
+    },
+    {
+      "id": "tirano",
+      "comune": "Tirano",
+      "siglaProvincia": "SO",
+      "regione": "Lombardia"
+    },
+    {
+      "id": "morbegno",
+      "comune": "Morbegno",
+      "siglaProvincia": "SO",
+      "regione": "Lombardia"
+    },
+    {
+      "id": "vigevano",
+      "comune": "Vigevano",
+      "siglaProvincia": "PV",
+      "regione": "Lombardia"
+    },
+    {
+      "id": "voghera",
+      "comune": "Voghera",
+      "siglaProvincia": "PV",
+      "regione": "Lombardia"
+    },
+    {
+      "id": "gallarate",
+      "comune": "Gallarate",
+      "siglaProvincia": "VA",
+      "regione": "Lombardia"
+    },
+    {
+      "id": "arona",
+      "comune": "Arona",
+      "siglaProvincia": "NO",
+      "regione": "Piemonte"
+    },
+    {
+      "id": "santa-giustina",
+      "comune": "Santa Giustina",
+      "siglaProvincia": "BL",
+      "regione": "Veneto"
+    }
+  ],
+  "nuoveSchede": [
+    {
+      "id": "manica-gioielli-crotone",
+      "nome": "Manica Gioielli",
+      "localitaId": "crotone",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "patania-gioielli-vibo",
+      "nome": "Patania Gioielli",
+      "localitaId": "vibo-valentia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-franze-vibo",
+      "nome": "Gioielleria Franzè",
+      "localitaId": "vibo-valentia",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1988
+    },
+    {
+      "id": "lacagnina-caltanissetta",
+      "nome": "Lacagnina Gioielleria",
+      "localitaId": "caltanissetta",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1929
+    },
+    {
+      "id": "vincenzo-salerno-ragusa",
+      "nome": "Orologeria Vincenzo Salerno",
+      "localitaId": "ragusa",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gurrieri-mangiacarne-ragusa",
+      "nome": "Gioielleria Gurrieri Mangiacarne",
+      "localitaId": "ragusa",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "tempore-maestri-del-tempo-modica",
+      "nome": "Temporè — Maestri del Tempo",
+      "localitaId": "modica",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "rosas-1945-nuoro",
+      "nome": "Rosas 1945",
+      "localitaId": "nuoro",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1945
+    },
+    {
+      "id": "gioielleria-olla-oristano",
+      "nome": "Gioielleria Olla",
+      "localitaId": "oristano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "pala-gioielleria-iglesias",
+      "nome": "Gioielleria Pala di Giacomo Luigi",
+      "localitaId": "iglesias",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "orologiaio-giuliano-genova",
+      "nome": "L'Orologiaio Giuliano",
+      "localitaId": "genova",
+      "tipi": [
+        "orologeria",
+        "professionista"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "errani-ravenna",
+      "nome": "Gioielleria Errani — Ravenna",
+      "localitaId": "ravenna",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1991
+    },
+    {
+      "id": "si-anelli-ravenna",
+      "nome": "Si Anelli Srl",
+      "localitaId": "ravenna",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "errani-faenza",
+      "nome": "Gioielleria Errani — Faenza",
+      "localitaId": "faenza",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1991
+    },
+    {
+      "id": "mercuri-orologi-arezzo",
+      "nome": "Mercuri Orologi Srl",
+      "localitaId": "arezzo",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-de-min-santa-giustina",
+      "nome": "Gioielleria De Min",
+      "localitaId": "santa-giustina",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "ottica-panizza-tirano",
+      "nome": "Ottica Panizza",
+      "localitaId": "tirano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1970
+    },
+    {
+      "id": "gioielleria-passerini-morbegno",
+      "nome": "Gioielleria Passerini",
+      "localitaId": "morbegno",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": 1956
+    },
+    {
+      "id": "bonvicini-gioielli-lodi",
+      "nome": "Bonvicini Gioielli",
+      "localitaId": "lodi",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-barbazza-vigevano",
+      "nome": "Gioielleria Barbazza",
+      "localitaId": "vigevano",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-volta-voghera",
+      "nome": "Gioielleria Volta",
+      "localitaId": "voghera",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-federici-gallarate",
+      "nome": "Gioielleria Federici",
+      "localitaId": "gallarate",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1968
+    },
+    {
+      "id": "zanaboni-gioielli-arona",
+      "nome": "Zanaboni Gioielli",
+      "localitaId": "arona",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "clivio-1879-verbania",
+      "nome": "Gioielleria Clivio 1879",
+      "localitaId": "verbania",
+      "tipi": [
+        "orologeria",
+        "gioielleria",
+        "laboratorio"
+      ],
+      "annoFondazione": 1879
+    },
+    {
+      "id": "rocca-lab-cagliari",
+      "nome": "Rocca Lab — Laboratorio Orologeria",
+      "localitaId": "cagliari",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "orologeria-verdastro-roma",
+      "nome": "Orologeria Verdastro",
+      "localitaId": "roma",
+      "tipi": [
+        "orologeria",
+        "laboratorio"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-puccinelli-cecina",
+      "nome": "Gioielleria Puccinelli",
+      "localitaId": "cecina",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    },
+    {
+      "id": "gioielleria-bracci-follonica",
+      "nome": "Gioielleria F.lli Bracci",
+      "localitaId": "follonica",
+      "tipi": [
+        "orologeria",
+        "gioielleria"
+      ],
+      "annoFondazione": null
+    }
+  ],
+  "fontiAggiunte": [
+    {
+      "id": "l7-www-hamiltonwatch-com-en-us-store-locator-italia-calabri",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italia/calabria/crotone/manica-gioielli"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-sv-se-store-locator-italy-calabria",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/sv-se/store-locator/italy/calabria/vibo-valentia/patania-gioielli"
+    },
+    {
+      "id": "l7-www-gioielleriafranze-it-chi-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafranze.it/chi-siamo/"
+    },
+    {
+      "id": "l7-www-seikowatches-com-it-it-stores-260690-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/stores/260690-1"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-en-us-store-locator-italia-sicilia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italia/sicilia/caltanissetta/lacagnina-gioielleria"
+    },
+    {
+      "id": "l7-www-lacagninagioielleria-it-il-nostro-brand",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lacagninagioielleria.it/il-nostro-brand/"
+    },
+    {
+      "id": "l7-www-longines-com-en-us-store-id-vincenzo-salerno-gioiell",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/vincenzo-salerno-gioielli-srl-ragusa-1076431"
+    },
+    {
+      "id": "l7-www-iwc-com-us-en-boutiques-europe-italy-ragusa-orologer",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.iwc.com/us-en/boutiques/europe/italy/ragusa/orologeria-vincenzo-salerno-authorized-service-center-only"
+    },
+    {
+      "id": "l7-www-orologiaiovincenzosalerno-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaiovincenzosalerno.it/"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-en-int-store-locator-italy-sicilia",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/sicilia/ragusa/gioielleria-gurrieri-mangiacarne"
+    },
+    {
+      "id": "l7-www-temporeorologi-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.temporeorologi.com/"
+    },
+    {
+      "id": "l7-www-ekwatch-com-pages-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.ekwatch.com/pages/contatti"
+    },
+    {
+      "id": "l7-www-rosas1945-it-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.rosas1945.it/it/contatti"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-it-it-store-locator-italia-sardegn",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/sardegna/oristano/gioielleria-olla"
+    },
+    {
+      "id": "l7-www-tissotwatches-com-it-it-store-olla-srl-a1vnn0000020z",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/olla-srl/a1vNN0000020Zr9YAE"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-en-int-store-locator-italy-sardegn",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/sardegna/iglesias/gioielleria-pala-di-giacomo-luigi"
+    },
+    {
+      "id": "l7-www-lorologiaiogiuliano-it-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologiaiogiuliano.it/contatti"
+    },
+    {
+      "id": "l7-www-gioielleriaerrani-it-contatti-gioielleria-errani-rav",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaerrani.it/contatti-gioielleria-errani-ravenna/"
+    },
+    {
+      "id": "l7-www-omegawatches-com-en-us-store-storedetails-o1826988",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.omegawatches.com/en-us/store/storedetails/O1826988"
+    },
+    {
+      "id": "l7-www-gioielleriaerrani-it-contatti-gioielleria-errani-fae",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaerrani.it/contatti-gioielleria-errani-faenza/"
+    },
+    {
+      "id": "l7-www-omegawatches-com-en-us-store-storedetails-1000612",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.omegawatches.com/en-us/store/storedetails/1000612"
+    },
+    {
+      "id": "l7-www-longines-com-en-us-store-id-si-anelli-srl-ravenna-15",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.longines.com/en-us/store/id/si-anelli-srl-ravenna-1578122"
+    },
+    {
+      "id": "l7-www-mercuriorologi-it-manutenzione-orologi-lusso",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.mercuriorologi.it/manutenzione-orologi-lusso/"
+    },
+    {
+      "id": "l7-www-gioielleriademin-it-orologi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriademin.it/orologi/"
+    },
+    {
+      "id": "l7-www-gioielleriademin-it-dove-siamo",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriademin.it/dove-siamo/"
+    },
+    {
+      "id": "l7-www-otticapanizza-com-contatti-ottica-panizza-tirano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.otticapanizza.com/contatti-ottica-panizza-tirano"
+    },
+    {
+      "id": "l7-www-tissotwatches-com-it-it-store-ottica-panizza-a1vnn00",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/store/ottica-panizza/a1vNN0000020b6VYAQ"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-it-it-store-locator-italia-lombard",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/morbegno/gioielleria-passerini"
+    },
+    {
+      "id": "l7-www-gioielleriapasserini-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapasserini.it/"
+    },
+    {
+      "id": "l7-www-bonvicinigioielli-it-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.bonvicinigioielli.it/servizi"
+    },
+    {
+      "id": "l7-www-rolex-com-it-rolex-dealers-bonvicini-356-rswi-1955-l",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it/rolex-dealers/bonvicini-356/rswi_1955-lodi-italy"
+    },
+    {
+      "id": "l7-www-gioielleriabarbazza-com-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriabarbazza.com/contatti"
+    },
+    {
+      "id": "l7-www-gioielleriabarbazza-com-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriabarbazza.com/servizi"
+    },
+    {
+      "id": "l7-www-rolex-com-it-rolex-dealers-volta-6969-rswi-18507-vog",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it/rolex-dealers/volta-6969/rswi_18507-voghera-italy"
+    },
+    {
+      "id": "l7-voltavoghera-it-it-orologi",
+      "tipo": "sito-ufficiale",
+      "url": "https://voltavoghera.it/it/orologi/"
+    },
+    {
+      "id": "l7-www-federicigioielleria-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.federicigioielleria.com/"
+    },
+    {
+      "id": "l7-www-seikowatches-com-it-it-stores-28809-1",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/stores/28809-1"
+    },
+    {
+      "id": "l7-zanabonigioielli-it",
+      "tipo": "sito-ufficiale",
+      "url": "https://zanabonigioielli.it/"
+    },
+    {
+      "id": "l7-www-rolex-com-rolex-dealers-rswi-108208-arona-italy",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/rolex-dealers/rswi_108208-arona-italy"
+    },
+    {
+      "id": "l7-www-clivio1879-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.clivio1879.com/"
+    },
+    {
+      "id": "l7-www-clivio1879-com-rolex",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.clivio1879.com/rolex/"
+    },
+    {
+      "id": "l7-www-breil-com-store-assistenza-ricambi-rocca-lab-laborat",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/assistenza-ricambi/rocca-lab-laboratorio-orologeria/"
+    },
+    {
+      "id": "l7-www-verdastroorologeria-com",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.verdastroorologeria.com/"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-en-lu-store-locator-italie-tuscany",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-lu/store-locator/italie/tuscany/cecina/gioielleria-puccinelli"
+    },
+    {
+      "id": "l7-www-hamiltonwatch-com-en-us-store-locator-italien-toscan",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/en-us/store-locator/italien/toscana/follonica/gioielleria-f-lli-bracci"
+    }
+  ],
+  "totaleAttivitaPrima": 221,
+  "totaleAttivitaDopo": 249,
+  "totaleComuniPrima": 136,
+  "totaleComuniDopo": 155
+}
