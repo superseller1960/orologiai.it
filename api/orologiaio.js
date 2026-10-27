@@ -25968,6 +25968,51 @@ var directory_default = {
       consultataIl: "2026-10-27",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "l6-www-astrua-com-it-assistenza-ufficiale-astrua",
+      tipo: "sito-ufficiale",
+      url: "https://www.astrua.com/it/assistenza-ufficiale-astrua",
+      titolo: "Sito Astrua \u2014 assistenza ufficiale",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-omegawatches-com-store-storedetails-3962",
+      tipo: "marchio-ufficiale",
+      url: "https://www.omegawatches.com/store/storedetails/3962",
+      titolo: "Omega \u2014 scheda rivenditore Ranzi, Bolzano",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-hamiltonwatch-com-brunico-v-gasser",
+      tipo: "marchio-ufficiale",
+      url: "https://www.hamiltonwatch.com/en-us/store-locator/italy/no-region/brunico/v-gasser-kg-sas-des-gasser-h-co",
+      titolo: "Hamilton \u2014 scheda Official Service Center V. Gasser, Brunico",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-camcom-bz-it-giornale-v-gasser",
+      tipo: "stampa",
+      url: "https://www.camcom.bz.it/it/novit%C3%A0/giornale/v-gasser",
+      titolo: "Camera di commercio di Bolzano \u2014 V. Gasser 150\xBA anniversario",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc",
+      tipo: "directory",
+      url: "https://www.unioncamere.gov.it/imprese-storiche/cadoppi-snc",
+      titolo: "Unioncamere \u2014 scheda impresa storica Cadoppi Snc",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -58924,6 +58969,18 @@ var directory_default = {
           {
             marca: "Patek Philippe",
             fonti: [
+              "l6-www-astrua-com-it-assistenza-ufficiale-astrua"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l5-www-astrua-com-it-riparazione-orologi-piacenza"
+            ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
               "l5-www-astrua-com-it-riparazione-orologi-piacenza"
             ]
           }
@@ -58937,7 +58994,15 @@ var directory_default = {
         annoFondazione: 1860,
         fondatore: "Vincenzo Astrua",
         testo: "La maison Astrua fa risalire la propria fondazione al 1860 a Torino; la boutique di Piacenza estende in Emilia i servizi di vendita e assistenza orologiera del gruppo.",
-        eventi: [],
+        eventi: [
+          {
+            data: "1993",
+            descrizione: "Passaggio della conduzione dalla famiglia Astrua a Valter Franco Ricci, orologiaio formatosi in laboratori svizzeri.",
+            fonti: [
+              "l5-www-astrua-com-it-riparazione-orologi-piacenza"
+            ]
+          }
+        ],
         fonti: [
           "l5-www-astrua-com-it-chi-siamo",
           "l5-www-astrua-com-it-sedi-astrua-boutiques-piacenza"
@@ -58946,12 +59011,13 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-astrua-com-it-sedi-astrua-boutiques-piacenza",
           "l5-www-astrua-com-it-riparazione-orologi-piacenza",
-          "l5-www-astrua-com-it-chi-siamo"
+          "l5-www-astrua-com-it-chi-siamo",
+          "l6-www-astrua-com-it-assistenza-ufficiale-astrua"
         ],
         cronologia: [
           {
@@ -58962,9 +59028,24 @@ var directory_default = {
               "l5-www-astrua-com-it-riparazione-orologi-piacenza",
               "l5-www-astrua-com-it-chi-siamo"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: fondazione 1860 a Torino per opera di Vincenzo Astrua, servizi tecnici (valutazione, restauro, riparazione, revisione) confermati; Patek Philippe riattribuito alla pagina di assistenza ufficiale, aggiunti Omega e Tudor fra i marchi riparati e documentato il passaggio di conduzione del 1993.",
+            fonti: [
+              "l5-www-astrua-com-it-riparazione-orologi-piacenza",
+              "l5-www-astrua-com-it-sedi-astrua-boutiques-piacenza",
+              "l6-www-astrua-com-it-assistenza-ufficiale-astrua"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "La boutique si presenta come concessionario ufficiale Rolex e la pagina di assistenza menziona Rolex e Patek Philippe: qualifiche autodichiarate, non inserite tra le autorizzazioni confermate in assenza di fonti primarie dei marchi.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -59081,12 +59162,6 @@ var directory_default = {
           fonti: [
             "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur"
           ]
-        },
-        {
-          id: "ricambi",
-          fonti: [
-            "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur"
-          ]
         }
       ],
       altriServizi: [],
@@ -59112,7 +59187,11 @@ var directory_default = {
       ],
       marchi: {
         venduti: [],
-        riparati: [
+        riparati: [],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: [
           {
             marca: "Zenith",
             fonti: [
@@ -59125,16 +59204,12 @@ var directory_default = {
               "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur"
             ]
           }
-        ],
-        esperienza: [],
-        assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
-        menzionati: []
+        ]
       },
       storia: {
         annoFondazione: null,
         fondatore: null,
-        testo: "Il sito documenta un\u2019attivit\xE0 familiare di orologiai tramandata da tre generazioni e oltre trentacinque anni di esperienza tecnica di Christian Clementi a Bolzano.",
+        testo: "Il sito documenta un\u2019attivit\xE0 familiare di orologiai tramandata da tre generazioni, con oltre trentacinque anni di esperienza tecnica nella riparazione e nel restauro a Bolzano.",
         eventi: [],
         fonti: [
           "l5-www-orologiaio-clementi-it"
@@ -59143,7 +59218,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-orologiaio-clementi-it",
@@ -59159,9 +59234,24 @@ var directory_default = {
               "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur",
               "l5-www-orologiaio-clementi-it-chi-siamo-infoline"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo, telefono, tre generazioni e oltre 35 anni di esperienza confermati; rimosso il claim \xABricambi\xBB (il sito dichiara l\u2019uso di ricambi originali, non la loro vendita, 1 servizio/i rimosso/i) e riclassificati Zenith e Rolex fra i marchi menzionati (esempi di lavorazione, non un elenco di marchi riparati).",
+            fonti: [
+              "l5-www-orologiaio-clementi-it",
+              "l5-www-orologiaio-clementi-it-chi-siamo-revisione-e-restaur",
+              "l5-www-orologiaio-clementi-it-chi-siamo-infoline"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il nome \xABChristian Clementi\xBB non \xE8 riscontrato nel testo delle pagine lette in relazione ai 35 anni di esperienza: attribuzione rimossa dalla storia fino a nuova evidenza.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -59330,7 +59420,8 @@ var directory_default = {
           {
             marca: "Omega",
             fonti: [
-              "l5-www-ranzi-com-it-home"
+              "l5-www-ranzi-com-it-home",
+              "l6-www-omegawatches-com-store-storedetails-3962"
             ]
           },
           {
@@ -59373,6 +59464,12 @@ var directory_default = {
             fonti: [
               "l5-www-midowatches-com-it-store-locator"
             ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l6-www-omegawatches-com-store-storedetails-3962"
+            ]
           }
         ],
         menzionati: []
@@ -59398,13 +59495,14 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-ranzi-com-it-home",
           "l5-www-ranzi-com-it-riparazioni-generali",
           "l5-www-ranzi-com-it-juwelier-ranzi-wird-140-v2",
-          "l5-www-midowatches-com-it-store-locator"
+          "l5-www-midowatches-com-it-store-locator",
+          "l6-www-omegawatches-com-store-storedetails-3962"
         ],
         cronologia: [
           {
@@ -59416,9 +59514,33 @@ var directory_default = {
               "l5-www-ranzi-com-it-juwelier-ranzi-wird-140-v2",
               "l5-www-midowatches-com-it-store-locator"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo Via Museo 14/B, telefono e rivendita ufficiale Omega confermati dalla scheda ufficiale del marchio; aggiornata la fonte del marchio Omega.",
+            fonti: [
+              "l6-www-omegawatches-com-store-storedetails-3962",
+              "l5-www-ranzi-com-it-home"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito ranzi.com non \xE8 risultato raggiungibile in questa sessione (timeout su home, riparazioni e pagina storica \xAB140\xBB): fondazione 1884, Josef Ranzi, quinta generazione ed email info@ranzi.com non ricontrollabili, mantenuti con le fonti gi\xE0 registrate. L\u2019irraggiungibilit\xE0 non \xE8 prova di chiusura.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Il riferimento Mido registrato \xE8 il locator generico del marchio, non una scheda specifica della sede: rivendita Mido da approfondire con una fonte specifica.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Vendita di Breitling, IWC, Longines e Tissot non ricontrollabile in sessione per l\u2019irraggiungibilit\xE0 del sito: dati mantenuti con le fonti gi\xE0 registrate.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -59614,17 +59736,26 @@ var directory_default = {
             fonti: [
               "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h"
             ]
-          },
+          }
+        ],
+        riparati: [
           {
             marca: "Hamilton",
             fonti: [
-              "l5-it-vgasser-it-pages-werkstatt"
+              "l6-www-hamiltonwatch-com-brunico-v-gasser"
             ]
           }
         ],
-        riparati: [],
         esperienza: [],
-        assistenzaUfficiale: [],
+        assistenzaUfficiale: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l5-it-vgasser-it-pages-werkstatt",
+              "l6-www-hamiltonwatch-com-brunico-v-gasser"
+            ]
+          }
+        ],
         rivenditaUfficiale: [
           {
             marca: "Longines",
@@ -59646,6 +59777,13 @@ var directory_default = {
             fonti: [
               "l5-it-vgasser-it-pages-werkstatt"
             ]
+          },
+          {
+            data: "2023",
+            descrizione: "150\xBA anniversario dell\u2019attivit\xE0; conduzione passata alla quinta generazione, Caroline e Carmen Gasser.",
+            fonti: [
+              "l6-www-camcom-bz-it-giornale-v-gasser"
+            ]
           }
         ],
         fonti: [
@@ -59655,12 +59793,14 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-it-vgasser-it-pages-kontakt",
           "l5-it-vgasser-it-pages-werkstatt",
-          "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h"
+          "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h",
+          "l6-www-hamiltonwatch-com-brunico-v-gasser",
+          "l6-www-camcom-bz-it-giornale-v-gasser"
         ],
         cronologia: [
           {
@@ -59670,6 +59810,17 @@ var directory_default = {
               "l5-it-vgasser-it-pages-kontakt",
               "l5-it-vgasser-it-pages-werkstatt",
               "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: recapiti, tradizione dal 1873, laboratorio con tre maestri orologiai, servizi e rivendita ufficiale Longines confermati; la scheda Hamilton qualifica V. Gasser Official Service Center (autorizzazione documentata dal marchio), mentre la vendita Hamilton non \xE8 attestata: marchio spostato fra le assistenze ufficiali.",
+            fonti: [
+              "l5-it-vgasser-it-pages-kontakt",
+              "l5-it-vgasser-it-pages-werkstatt",
+              "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h",
+              "l6-www-hamiltonwatch-com-brunico-v-gasser",
+              "l6-www-camcom-bz-it-giornale-v-gasser"
             ]
           }
         ],
@@ -59748,6 +59899,12 @@ var directory_default = {
           fonti: [
             "l5-www-gioielleriacernigoi-com-chisiamo"
           ]
+        },
+        {
+          id: "valutazioni",
+          fonti: [
+            "l5-www-gioielleriacernigoi-com-chisiamo"
+          ]
         }
       ],
       altriServizi: [],
@@ -59795,6 +59952,24 @@ var directory_default = {
             fonti: [
               "l5-www-gioielleriacernigoi-com-chisiamo"
             ]
+          },
+          {
+            marca: "Tudor",
+            fonti: [
+              "l5-www-gioielleriacernigoi-com-chisiamo"
+            ]
+          },
+          {
+            marca: "Omega",
+            fonti: [
+              "l5-www-gioielleriacernigoi-com-chisiamo"
+            ]
+          },
+          {
+            marca: "Cartier",
+            fonti: [
+              "l5-www-gioielleriacernigoi-com-chisiamo"
+            ]
           }
         ]
       },
@@ -59818,7 +59993,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-gioielleriacernigoi-com-chisiamo",
@@ -59832,9 +60007,28 @@ var directory_default = {
               "l5-www-gioielleriacernigoi-com-chisiamo",
               "l5-www-gioielleriacernigoi-com-privacy-policy"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: fondazione 1937 per opera di Antonio Cernigoi da un precedente laboratorio orologiaio, indirizzo, email e servizi di revisione, riparazione e restauro confermati; aggiunte le valutazioni con analisi gemmologica e integrati i marchi menzionati (TAG Heuer, Tudor, Omega, Cartier per il secondo polso).",
+            fonti: [
+              "l5-www-gioielleriacernigoi-com-chisiamo",
+              "l5-www-gioielleriacernigoi-com-privacy-policy"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito dichiara di essere \xABo di essere stato\xBB rivenditore autorizzato di Rolex, Zenith, Longines, TAG Heuer e IWC: formulazione ambigua che non consente di qualificare autorizzazioni attuali; nessuna autorizzazione inserita nei campi ufficiali.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "La pagina privacy-policy contiene testo estraneo (riferimenti a una societ\xE0 di make-up e cosmetica con sede in Polonia): incongruenza della pagina, non un dato dell\u2019attivit\xE0.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -59980,7 +60174,7 @@ var directory_default = {
       storia: {
         annoFondazione: 2007,
         fondatore: null,
-        testo: "La sede Dobner di Gorizia \xE8 attiva dal 2007 nei locali della storica gioielleria De Savorgnani in Corso Italia.",
+        testo: "La sede Dobner di Gorizia nasce nel 2007 dall\u2019acquisizione della storica ditta De Savorgnani ed \xE8 presente in Corso Italia dal 2007.",
         eventi: [],
         fonti: [
           "l5-dobner-it-it-negozi-dobner-gorizia"
@@ -59989,7 +60183,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-dobner-it-it-negozi-dobner-gorizia"
@@ -60001,9 +60195,22 @@ var directory_default = {
             fonti: [
               "l5-dobner-it-it-negozi-dobner-gorizia"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo, telefono, email e attivazione dal 2007 confermati dalla pagina ufficiale della sede; precisata la formula di nascita della sede (acquisizione della storica ditta De Savorgnani); assistenza tramite laboratorio autorizzato confermata.",
+            fonti: [
+              "l5-dobner-it-it-negozi-dobner-gorizia"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "L\u2019elenco dei marchi specifico per la sede di Gorizia non \xE8 confermato: la sezione \xABMarchi prestigiosi\xBB non espone un elenco leggibile per quella sede e i marchi della homepage di gruppo non sono automaticamente trattati a Gorizia.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -60197,7 +60404,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-nittagioielli-com-contatti",
@@ -60213,9 +60420,39 @@ var directory_default = {
               "l5-www-longines-com-it-store-id-nitta-gioielli-srl-pordenon",
               "l5-www-hamiltonwatch-com-it-it-store-locator-italie-friuli"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: rivendita ufficiale Longines e Hamilton confermate dalle schede ufficiali dei marchi (Hamilton qualifica esplicitamente la sede \xABrivenditore ufficiale\xBB); corner Montblanc con orologi confermato dalla pagina contatti.",
+            fonti: [
+              "l5-nittagioielli-com-contatti",
+              "l5-www-longines-com-it-store-id-nitta-gioielli-srl-pordenon",
+              "l5-www-hamiltonwatch-com-it-it-store-locator-italie-friuli"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Telefono discordante: il sito dell\u2019attivit\xE0 riporta +39 0434 522554, i locator Longines e Hamilton riportano 0432/507504.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Email variante: info@nittagioielli.com (sito e Longines) contro pordenone@nittagioielli.com (Hamilton).",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Civico variante: Corso Vittorio Emanuele II 15 (sito) contro 15/b (locator Longines e Hamilton).",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Il corner Montblanc del punto vendita non \xE8 qualificato dal sito come rivendita ufficiale Montblanc.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -60346,7 +60583,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-gioielleriazambon-it"
@@ -60358,9 +60595,22 @@ var directory_default = {
             fonti: [
               "l5-www-gioielleriazambon-it"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: attivit\xE0 dal 1934 e servizi per gli orologi (cambio pila, cinturino, riparazioni, sostituzione movimento, revisioni) confermati dalla homepage ufficiale.",
+            fonti: [
+              "l5-www-gioielleriazambon-it"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Indirizzo, telefono ed email non ricontrollabili nel testo leggibile della homepage in questa sessione (estrazione limitata); le pagine interne /assistenza/ e /contatti/ restituiscono 404. Dati mantenuti con le fonti gi\xE0 registrate.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -60527,12 +60777,6 @@ var directory_default = {
             fonti: [
               "l5-www-camparinigioielli-com-rolex-camparini-gioielli-136"
             ]
-          },
-          {
-            marca: "Tudor",
-            fonti: [
-              "l5-www-camparinigioielli-com-chi-siamo"
-            ]
           }
         ],
         riparati: [
@@ -60546,12 +60790,19 @@ var directory_default = {
         esperienza: [],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
-        menzionati: []
+        menzionati: [
+          {
+            marca: "Tudor",
+            fonti: [
+              "l5-www-camparinigioielli-com-chi-siamo"
+            ]
+          }
+        ]
       },
       storia: {
         annoFondazione: 1910,
-        fondatore: null,
-        testo: "La storia aziendale documenta la tradizione orologiaia della famiglia Camparini, passata dalla riparazione al commercio nel 1910 e giunta alla quinta generazione a Reggio nell\u2019Emilia.",
+        fondatore: "Cherubino Camparini",
+        testo: "La tradizione familiare dura da cinque generazioni: il fondatore Cherubino Camparini inizi\xF2 come artigiano di orologi e pendole e l\u2019attivit\xE0 pass\xF2 dalla riparazione al commercio nel 1910.",
         eventi: [
           {
             data: "1910",
@@ -60568,7 +60819,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-camparinigioielli-com-chi-siamo",
@@ -60582,9 +60833,28 @@ var directory_default = {
               "l5-www-camparinigioielli-com-chi-siamo",
               "l5-www-camparinigioielli-com-rolex-camparini-gioielli-136"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo, recapiti e storia (cinque generazioni, fondatore Cherubino Camparini, passaggio dalla riparazione al commercio nel 1910) confermati dal sito; sezione Vintage e canale Rolex Certified Pre-Owned confermano il secondo polso; Tudor compare solo nel menu del sito, marchio spostato fra i menzionati.",
+            fonti: [
+              "l5-www-camparinigioielli-com-chi-siamo",
+              "l5-www-camparinigioielli-com-rolex-camparini-gioielli-136"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "La scheda Rolex del sito dichiara Camparini rivenditore autorizzato Rolex, Rolex Certified Pre-Owned e Service Center: autodichiarazione su dominio proprio, non inserita tra le autorizzazioni confermate (pagine ufficiali Rolex non verificabili in sessione).",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Secondo telefono 0522 442184 presente nella pagina chi-siamo oltre allo 0522 434693.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -60683,21 +60953,39 @@ var directory_default = {
         menzionati: []
       },
       storia: {
-        annoFondazione: null,
+        annoFondazione: 1922,
         fondatore: null,
-        testo: null,
-        eventi: [],
-        fonti: []
+        testo: "Unioncamere registra l\u2019avvio dell\u2019attivit\xE0 Cadoppi nel 1922, con sede storica a Castelnovo di Sotto; il negozio di Reggio nell\u2019Emilia \xE8 attivo dal 2009.",
+        eventi: [
+          {
+            data: "1922",
+            descrizione: "Avvio dell\u2019attivit\xE0 Cadoppi, con sede storica a Castelnovo di Sotto.",
+            fonti: [
+              "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc"
+            ]
+          },
+          {
+            data: "2009",
+            descrizione: "Apertura del punto vendita di Reggio nell\u2019Emilia.",
+            fonti: [
+              "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc"
+            ]
+          }
+        ],
+        fonti: [
+          "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc"
+        ]
       },
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-midowatches-com-it-store-locator-italy-reggio-emilia",
           "l5-www-tissotwatches-com-it-it-store-cadoppi-snc-a1vnn00000",
-          "l5-www-cadoppi-it"
+          "l5-www-cadoppi-it",
+          "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc"
         ],
         cronologia: [
           {
@@ -60708,9 +60996,24 @@ var directory_default = {
               "l5-www-tissotwatches-com-it-it-store-cadoppi-snc-a1vnn00000",
               "l5-www-cadoppi-it"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo, telefono ed email confermati dai locator ufficiali Mido e Tissot; rivendite ufficiali Mido e Tissot riconfermate dalle schede specifiche dei marchi; integrata la storia documentata da Unioncamere (avvio 1922, sede storica a Castelnovo di Sotto, Reggio nell\u2019Emilia dal 2009).",
+            fonti: [
+              "l5-www-midowatches-com-it-store-locator-italy-reggio-emilia",
+              "l5-www-tissotwatches-com-it-it-store-cadoppi-snc-a1vnn00000",
+              "l6-www-unioncamere-gov-it-imprese-storiche-cadoppi-snc"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito proprio non ha restituito testo leggibile in sessione: laboratorio e servizi di riparazione non confermati per la sede di Reggio nell\u2019Emilia. Unioncamere cita riparazioni di orologi e gioielli nella storia dell\u2019attivit\xE0 originaria, dato non sufficiente a qualificare un laboratorio attuale.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -60923,12 +61226,31 @@ var directory_default = {
         esperienza: [],
         assistenzaUfficiale: [],
         rivenditaUfficiale: [],
-        menzionati: []
+        menzionati: [
+          {
+            marca: "Hamilton",
+            fonti: [
+              "l5-stsorologeria-jimdoweb-com"
+            ]
+          },
+          {
+            marca: "Calvin Klein",
+            fonti: [
+              "l5-stsorologeria-jimdoweb-com"
+            ]
+          },
+          {
+            marca: "TAG Heuer",
+            fonti: [
+              "l5-stsorologeria-jimdoweb-com"
+            ]
+          }
+        ]
       },
       storia: {
         annoFondazione: 1985,
         fondatore: null,
-        testo: "Il laboratorio dichiara attivit\xE0 a Conegliano dal 1985 e documenta nel 2017 l\u2019unione con l\u2019attivit\xE0 dell\u2019orologiaio Andrea Modenese.",
+        testo: "Il laboratorio dichiara attivit\xE0 a Conegliano dal 1985 e documenta nel febbraio 2017 l\u2019unione tra l\u2019attivit\xE0 dell\u2019orologiaio Andrea Modenese e quella di Antonio Cremonese, con la nascita del nuovo laboratorio.",
         eventi: [
           {
             data: "1985",
@@ -60939,7 +61261,7 @@ var directory_default = {
           },
           {
             data: "2017",
-            descrizione: "Unione con l\u2019attivit\xE0 dell\u2019orologiaio Andrea Modenese.",
+            descrizione: "Unione tra l\u2019attivit\xE0 dell\u2019orologiaio Andrea Modenese e quella di Antonio Cremonese, con la nascita del nuovo laboratorio.",
             fonti: [
               "l5-stsorologeria-jimdoweb-com"
             ]
@@ -60952,7 +61274,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-stsorologeria-jimdoweb-com",
@@ -60968,9 +61290,24 @@ var directory_default = {
               "l5-stsorologeria-jimdoweb-com-il-nostro-laboratorio",
               "l5-stsorologeria-jimdoweb-com-contatti"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo Viale Friuli 45, telefono, attivit\xE0 dal 1985 e unione del febbraio 2017 confermati dal sito; integrata la storia con il ruolo di Antonio Cremonese e aggiunti fra i marchi menzionati Hamilton, Calvin Klein e TAG Heuer.",
+            fonti: [
+              "l5-stsorologeria-jimdoweb-com",
+              "l5-stsorologeria-jimdoweb-com-il-nostro-laboratorio",
+              "l5-stsorologeria-jimdoweb-com-contatti"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito si dichiara \xABassistenza autorizzata\xBB per Omega, Longines, Tissot, Rado, Certina, Hamilton, Calvin Klein e TAG Heuer, ma le formulazioni fra homepage e descrizione non coincidono e mancano fonti primarie dei marchi: nessuna autorizzazione inserita nei campi ufficiali.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -61169,7 +61506,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-gioielleriadarios-it"
@@ -61178,6 +61515,13 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 5 espansione nazionale: scheda storica inserita da sito ufficiale.",
+            fonti: [
+              "l5-www-gioielleriadarios-it"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: fondazione 1958, indirizzo, telefono, email e servizi di riparazione/revisione meccanici e quarzo, pile e cinturini confermati dalla homepage ufficiale; i percorsi /chi-siamo/ e /contatti/ restituiscono 404, la scheda cita correttamente la sola homepage.",
             fonti: [
               "l5-www-gioielleriadarios-it"
             ]
@@ -61297,7 +61641,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-gibertipreziosi-it",
@@ -61313,9 +61657,24 @@ var directory_default = {
               "l5-www-gibertipreziosi-it-riparazioni",
               "l5-www-gibertipreziosi-it-contatti"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: pagine del sito raggiungibili (HTTP 200); il titolo della pagina contatti riporta \xABRestauro orologi e gioielli | Ferrara, FE | Giberti Preziosi\xBB, coerente con le specializzazioni pubblicate. Contenuto del corpo non leggibile meccanicamente (sito costruito con widget).",
+            fonti: [
+              "l5-www-gibertipreziosi-it",
+              "l5-www-gibertipreziosi-it-contatti",
+              "l5-www-gibertipreziosi-it-riparazioni"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Recapiti, anno di fondazione e servizi non ricontrollabili in questa sessione per l\u2019impossibilit\xE0 di estrarre il testo delle pagine: dati mantenuti con le fonti gi\xE0 registrate, da riesaminare con una verifica alternativa.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -61433,23 +61792,24 @@ var directory_default = {
             fonti: [
               "l5-www-gioielleriapretolani-it-laboratorio-orologiero"
             ]
-          },
+          }
+        ],
+        esperienza: [],
+        assistenzaUfficiale: [],
+        rivenditaUfficiale: [],
+        menzionati: [
           {
             marca: "Omega",
             fonti: [
               "l5-www-gioielleriapretolani-it-laboratorio-orologiero"
             ]
           }
-        ],
-        esperienza: [],
-        assistenzaUfficiale: [],
-        rivenditaUfficiale: [],
-        menzionati: []
+        ]
       },
       storia: {
         annoFondazione: 1945,
         fondatore: null,
-        testo: "Fondata nel 1945, l\u2019attivit\xE0 apre il primo punto vendita forlivese nel 1967 e inaugura nel 2018 il laboratorio orologiero interno.",
+        testo: "Fondata nel 1945, l\u2019attivit\xE0 apre il primo punto vendita forlivese nel 1967, si trasferisce in Via Tevere 77 nel 1985 e nel 2018 rinnova il negozio presentando il laboratorio orologiero interno.",
         eventi: [
           {
             data: "1945",
@@ -61471,6 +61831,13 @@ var directory_default = {
             fonti: [
               "l5-www-gioielleriapretolani-it-laboratorio-orologiero"
             ]
+          },
+          {
+            data: "1985",
+            descrizione: "Trasferimento del punto vendita nell\u2019attuale sede di Via Tevere 77.",
+            fonti: [
+              "l5-www-gioielleriapretolani-it"
+            ]
           }
         ],
         fonti: [
@@ -61481,7 +61848,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-gioielleriapretolani-it",
@@ -61497,9 +61864,24 @@ var directory_default = {
               "l5-www-gioielleriapretolani-it-laboratorio-orologiero",
               "l5-www-gioielleriapretolani-it-contatti"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: indirizzo, telefono, email e cronologia (fondazione 1945, primo punto vendita forlivese 1967, trasferimento in Via Tevere 77 nel 1985, laboratorio rinnovato nel 2018) confermati dal sito; per OMEGA il sito dichiara solo la sostituzione di bracciali e cinturini: marchio spostato fra i menzionati.",
+            fonti: [
+              "l5-www-gioielleriapretolani-it",
+              "l5-www-gioielleriapretolani-it-laboratorio-orologiero",
+              "l5-www-gioielleriapretolani-it-contatti"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Il sito dichiara il laboratorio certificato 1\xB0 e 2\xB0 livello per LONGINES, TISSOT e HAMILTON: autodichiarazione dell\u2019attivit\xE0, non inserita fra le assistenze ufficiali confermate in assenza di fonti primarie dei marchi.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto5-20261026",
@@ -61595,11 +61977,18 @@ var directory_default = {
       storia: {
         annoFondazione: 1962,
         fondatore: null,
-        testo: "Il sito aziendale documenta la nascita dell\u2019Orologeria Reggiani a Modena nel 1962.",
+        testo: "Il sito aziendale documenta la nascita dell\u2019Orologeria Reggiani a Modena nel 1962 in Via Ciro Menotti, con trasferimento nell\u2019attuale sede di Via Bartolomeo de\u2019 Polli nel 1989.",
         eventi: [
           {
             data: "1962",
             descrizione: "Apertura dell\u2019Orologeria Reggiani a Modena.",
+            fonti: [
+              "l5-www-orologeriareggiani-it-chi-siamo"
+            ]
+          },
+          {
+            data: "1989",
+            descrizione: "Trasferimento nell\u2019attuale sede di Via Bartolomeo de\u2019 Polli.",
             fonti: [
               "l5-www-orologeriareggiani-it-chi-siamo"
             ]
@@ -61612,7 +62001,7 @@ var directory_default = {
       attendibilita: {
         stato: "fonti-verificate",
         raccoltaIl: "2026-10-26",
-        verificataIl: "2026-10-26",
+        verificataIl: "2026-10-27",
         confermataTitolareIl: null,
         fonti: [
           "l5-www-orologeriareggiani-it",
@@ -61623,6 +62012,15 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 5 espansione nazionale: laboratorio storico inserito da sito ufficiale.",
+            fonti: [
+              "l5-www-orologeriareggiani-it",
+              "l5-www-orologeriareggiani-it-chi-siamo",
+              "l5-www-orologeriareggiani-it-contatti"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Audit gruppo 6: telefono 059 305184, email gymmireggiani@gmail.com (grafia confermata), fondazione 1962 e laboratorio interno per orologi da polso, da tavolo, sveglie e pendoli confermati dal sito; integrato il trasferimento del 1989 e documentati preventivi gratuiti e interventi a domicilio.",
             fonti: [
               "l5-www-orologeriareggiani-it",
               "l5-www-orologeriareggiani-it-chi-siamo",
