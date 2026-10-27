@@ -50,10 +50,13 @@ test('nessun criterio riconosciuto: nessuna lista dell’intero database', () =>
 });
 
 test('località inesistente: nessun risultato e nessuna località sostituita', () => {
-  const crit = interpretaRichiesta('Cerco un orologiaio a Cesena', data).criteri;
+  const fixture = structuredClone(data);
+  fixture.localita = fixture.localita.filter(l => l.comuneSlug !== 'cesena');
+  fixture.attivita = fixture.attivita.filter(b => fixture.localita.some(l => l.id === b.localitaId));
+  const crit = interpretaRichiesta('Cerco un orologiaio a Cesena', fixture).criteri;
   assert.equal(crit.localitaNonCensita, 'Cesena');
   assert.equal(crit.localita, undefined);
-  const r = cercaOrologiaio(data, crit, { now: VENERDI });
+  const r = cercaOrologiaio(fixture, crit, { now: VENERDI });
   assert.equal(r.stato, 'localita-non-censita');
   assert.equal(r.totale, 0);
 });
@@ -256,11 +259,13 @@ test('richieste senza città non scambiano le preposizioni per località', () =>
 });
 
 test('città non censita in minuscolo propone alternative dichiarate', () => {
-  // Venezia ora è censita: il caso negativo usa una città realmente assente.
-  const criteri = interpretaRichiesta('Cerco cambio batteria a imola', data).criteri;
+  const fixture = structuredClone(data);
+  fixture.localita = fixture.localita.filter(l => l.comuneSlug !== 'imola');
+  fixture.attivita = fixture.attivita.filter(b => fixture.localita.some(l => l.id === b.localitaId));
+  const criteri = interpretaRichiesta('Cerco cambio batteria a imola', fixture).criteri;
   assert.equal(criteri.localitaNonCensita, 'imola');
   assert.equal(criteri.servizio, 'batterie');
-  const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
+  const risultato = cercaOrologiaio(fixture, criteri, { now: VENERDI });
   assert.equal(risultato.stato, 'localita-non-censita');
   assert.ok(risultato.alternative.length > 0);
   assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);

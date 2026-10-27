@@ -92,8 +92,10 @@ test('l’interpretazione riconosce nuove località e casi reali d’uso naziona
 });
 
 test('località non censite: segnalazione esplicita e nessun risultato fittizio', () => {
-  // Caltanissetta (lotto 7) e Lecce (lotto 8) ora sono censite: il caso negativo usa una città realmente assente.
-  const i = interpretaRichiesta('Cerco un orologiaio a Imola', data);
+  const fixture = structuredClone(data);
+  fixture.localita = fixture.localita.filter(l => l.comuneSlug !== 'imola');
+  fixture.attivita = fixture.attivita.filter(b => fixture.localita.some(l => l.id === b.localitaId));
+  const i = interpretaRichiesta('Cerco un orologiaio a Imola', fixture);
   assert.equal(i.criteri.localitaNonCensita, 'Imola');
   assert.equal(i.criteri.localita, undefined);
 });

@@ -25770,6 +25770,33 @@ var directory_default = {
       consultataIl: "2026-10-26",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "audit9-gallo-storia",
+      tipo: "sito-ufficiale",
+      url: "https://www.fratelligallo.it/about-us/",
+      titolo: "Fratelli Gallo \u2014 storia",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit9-gallo-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.fratelligallo.it/contact-2/",
+      titolo: "Fratelli Gallo \u2014 contatti e orari",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit9-gallo-rolex",
+      tipo: "sito-ufficiale",
+      url: "https://www.fratelligallo.it/rolex/contatti/",
+      titolo: "Fratelli Gallo \u2014 pagina Rolex",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -73077,7 +73104,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Gioielleria Oreficeria Orologeria Burrascano in Corso Cavour 23 a Messina, attiva da oltre settant\u2019anni con una seconda sede in Via S. Filippo Bianchi, ripara orologi di ogni tipologia e restaura pendoli antichi; gli orologiai della bottega curano anche l\u2019Orologio Astronomico del Duomo di Messina.",
+      descrizione: "Gioielleria Oreficeria Orologeria Burrascano in Corso Cavour 23 a Messina, attiva da oltre settant\u2019anni, ripara orologi e pendoli antichi; dispone anche di una sede in Via S. Filippo Bianchi.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "messina",
@@ -73190,12 +73217,6 @@ var directory_default = {
           ]
         },
         {
-          id: "restauro-vintage",
-          fonti: [
-            "l8-gioielleriaburrascano-it-chi-siamo"
-          ]
-        },
-        {
           id: "pendoleria",
           fonti: [
             "l8-gioielleriaburrascano-it-chi-siamo"
@@ -73216,9 +73237,9 @@ var directory_default = {
       ],
       altriServizi: [
         {
-          nome: "Restauro di pendoli antichi e cura dell\u2019Orologio Astronomico del Duomo di Messina",
+          nome: "Riparazione di pendoli antichi",
           fonti: [
-            "l8-gioielleriaburrascano-it-riparazione-orologi"
+            "l8-gioielleriaburrascano-it-chi-siamo"
           ]
         }
       ],
@@ -73241,7 +73262,7 @@ var directory_default = {
       storia: {
         annoFondazione: null,
         fondatore: null,
-        testo: "Il sito ufficiale documenta oltre settant\u2019anni di attivit\xE0 della famiglia Burrascano a Messina.",
+        testo: "Il sito della bottega riporta oltre settant\u2019anni di attivit\xE0 e dichiara di aver curato per 18 anni i meccanismi del campanile del Duomo di Messina.",
         eventi: [],
         fonti: [
           "l8-gioielleriaburrascano-it-chi-siamo"
@@ -73265,6 +73286,14 @@ var directory_default = {
               "l8-gioielleriaburrascano-it-chi-siamo",
               "l8-gioielleriaburrascano-it-riparazione-orologi",
               "l8-gioielleriaburrascano-it-contatti"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisato che l\u2019incarico al campanile \xE8 storico e dichiarato dalla bottega; eliminata la classificazione restauro vintage non esplicitamente documentata.",
+            fonti: [
+              "l8-gioielleriaburrascano-it-chi-siamo",
+              "l8-gioielleriaburrascano-it-riparazione-orologi"
             ]
           }
         ],
@@ -73457,101 +73486,21 @@ var directory_default = {
       },
       contatti: {
         telefono: "+39 0984 406536",
-        email: null,
+        email: "info@fratelligallo.it",
         sito: "https://fratelligallo.it",
         whatsapp: null,
         social: [],
         fonti: [
           "e8-www-rolex-com-it-rolex-dealers-flligallo-659-rswi-2038-c",
-          "l8-fratelligallo-it"
+          "l8-fratelligallo-it",
+          "audit9-gallo-contatti"
         ]
       },
       orari: {
-        giorni: [
-          {
-            giorno: 1,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          },
-          {
-            giorno: 2,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          },
-          {
-            giorno: 3,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          },
-          {
-            giorno: 4,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          },
-          {
-            giorno: 5,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          },
-          {
-            giorno: 6,
-            intervalli: [
-              {
-                apertura: "09:00",
-                chiusura: "13:00"
-              },
-              {
-                apertura: "16:00",
-                chiusura: "20:00"
-              }
-            ]
-          }
-        ],
+        giorni: [],
         chiusure: [],
-        verificatiIl: "2026-10-26",
-        fonti: [
-          "e8-www-rolex-com-it-rolex-dealers-flligallo-659-rswi-2038-c"
-        ]
+        verificatiIl: null,
+        fonti: []
       },
       servizi: [
         {
@@ -73652,18 +73601,25 @@ var directory_default = {
       storia: {
         annoFondazione: 1956,
         fondatore: null,
-        testo: "Il profilo ufficiale dell\u2019azienda documenta la fondazione nel 1956.",
+        testo: "L\u2019azienda nacque nel 1956 a Siderno come laboratorio di riparazione; il negozio Rolex si \xE8 trasferito a Cosenza nel 2019.",
         eventi: [
           {
             data: "1956",
-            descrizione: "Fondazione di Fratelli Gallo a Cosenza.",
+            descrizione: "Nascita del laboratorio a Siderno.",
             fonti: [
-              "e8-www-instagram-com-fratelli-gallo-cosenza"
+              "audit9-gallo-storia"
+            ]
+          },
+          {
+            data: "2019",
+            descrizione: "Trasferimento del negozio Rolex a Cosenza.",
+            fonti: [
+              "audit9-gallo-storia"
             ]
           }
         ],
         fonti: [
-          "e8-www-instagram-com-fratelli-gallo-cosenza"
+          "audit9-gallo-storia"
         ]
       },
       attendibilita: {
@@ -73675,7 +73631,10 @@ var directory_default = {
           "l8-fratelligallo-it",
           "e8-www-rolex-com-it-rolex-dealers-flligallo-659-rswi-2038-c",
           "e8-www-rolex-com-rolex-dealers-rswi-123909-cosenza-italy",
-          "e8-www-instagram-com-fratelli-gallo-cosenza"
+          "e8-www-instagram-com-fratelli-gallo-cosenza",
+          "audit9-gallo-storia",
+          "audit9-gallo-contatti",
+          "audit9-gallo-rolex"
         ],
         cronologia: [
           {
@@ -73685,9 +73644,24 @@ var directory_default = {
               "l8-fratelligallo-it",
               "e8-www-rolex-com-it-rolex-dealers-flligallo-659-rswi-2038-c"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretta la citt\xE0 di fondazione; aggiunta email ufficiale; orari rimossi per informazioni discordanti e avviso stagionale non datato.",
+            fonti: [
+              "audit9-gallo-storia",
+              "audit9-gallo-contatti",
+              "audit9-gallo-rolex"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Orari da confermare: luned\xEC e venerd\xEC discordanti tra pagine; avviso ferie senza anno.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto8-20261026",
