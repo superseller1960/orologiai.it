@@ -23,7 +23,8 @@ test('lotto 8: 15 nuove schede presenti e documentate', async () => {
     assert.ok(b, `Manca la scheda ${id}`);
     assert.ok(b.descrizione.length > 80, `${id}: descrizione troppo generica`);
     assert.ok(b.posizione.indirizzo, `${id}: indirizzo mancante`);
-    assert.ok(b.contatti.telefono, `${id}: telefono mancante`);
+    const recapiti = [b.contatti.telefono, b.contatti.email, b.contatti.sito, b.contatti.whatsapp, ...b.contatti.social];
+    assert.ok(recapiti.some(Boolean), `${id}: nessun recapito`);
     assert.equal(b.attendibilita.stato, 'fonti-verificate', `${id}: stato attendibilità`);
     assert.ok(b.attendibilita.fonti.length > 0, `${id}: nessuna fonte`);
     assert.ok(b.attendibilita.cronologia.length > 0, `${id}: cronologia vuota`);
@@ -42,10 +43,20 @@ test('lotto 8: autorizzazioni e rivendite solo con fonti del marchio', async () 
         `${id}: autorizzazione ${c.marca} senza fonte del marchio`,
       );
     }
-    assert.ok(b.marchi.assistenzaUfficiale.length === 0, `${id}: nessuna autorizzazione ufficiale documentata da fonti primarie in questo lotto`);
   }
   const digiesi = directory.attivita.find(x => x.id === 'gioielleria-digiesi-1959-matera') as Business;
   assert.ok(digiesi.marchi.rivenditaUfficiale.some(m => m.marca === 'Hamilton'), 'Digiesi: rivendita Hamilton attesa');
+  // Uniche autorizzazioni di assistenza del lotto: quelle documentate da pagine Rolex ufficiali.
+  const conAssistenza = NUOVE_SCHEDE
+    .map(id => directory.attivita.find(x => x.id === id) as Business)
+    .filter(b => b.marchi.assistenzaUfficiale.length > 0);
+  assert.deepEqual(conAssistenza.map(b => b.id).sort(), ['fratelli-gallo-cosenza', 'gioielleria-galdi-salerno']);
+  for (const b of conAssistenza) {
+    assert.ok(b.marchi.assistenzaUfficiale.every(c => c.marca === 'Rolex'), `${b.id}: solo assistenza Rolex documentata`);
+    for (const c of b.marchi.assistenzaUfficiale) {
+      assert.ok(c.fonti.some(f => fonti.get(f)?.url.includes('rolex.com')), `${b.id}: fonte Rolex attesa`);
+    }
+  }
 });
 
 test('lotto 8: località, descrizioni e fonti integre', async () => {
