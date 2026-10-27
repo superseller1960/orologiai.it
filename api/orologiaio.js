@@ -25815,6 +25815,51 @@ var directory_default = {
       consultataIl: "2026-10-27",
       percorsoArchivio: null,
       licenza: null
+    },
+    {
+      id: "audit1-salerno-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.orologiaiovincenzosalerno.it/it/contatti/",
+      titolo: "Orologiaio Vincenzo Salerno \u2014 contatti",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit1-mercuri-negozio",
+      tipo: "sito-ufficiale",
+      url: "https://www.mercuriorologi.it/negozio/",
+      titolo: "Mercuri Orologi \u2014 negozio",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit1-mercuri-contatti",
+      tipo: "sito-ufficiale",
+      url: "https://www.mercuriorologi.it/contatti/",
+      titolo: "Mercuri Orologi \u2014 contatti",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit1-longines-salerno",
+      tipo: "marchio-ufficiale",
+      url: "https://www.longines.com/en-us/store/id/vincenzo-salerno-gioielli-srl-ragusa-1076431",
+      titolo: "Longines \u2014 Vincenzo Salerno Gioielli Srl",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
+    },
+    {
+      id: "audit1-omega-errani-ravenna",
+      tipo: "marchio-ufficiale",
+      url: "https://www.omegawatches.com/en-us/store/storedetails/O1826988",
+      titolo: "Omega \u2014 Retailer Errani Ravenna",
+      consultataIl: "2026-10-27",
+      percorsoArchivio: null,
+      licenza: null
     }
   ],
   localita: [
@@ -67692,7 +67737,7 @@ var directory_default = {
       storia: {
         annoFondazione: 1988,
         fondatore: null,
-        testo: "Il sito ufficiale documenta la fondazione nel 1988.",
+        testo: "Il sito ufficiale dichiara l\u2019attivit\xE0 dal 1988.",
         eventi: [],
         fonti: [
           "l7-www-gioielleriafranze-it-chi-siamo"
@@ -67715,9 +67760,22 @@ var directory_default = {
               "l7-www-gioielleriafranze-it-chi-siamo",
               "l7-www-seikowatches-com-it-it-stores-260690-1"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Formulazione storica allineata alla fonte (\xABDal 1988\xBB); segnalata la variante telefonica della scheda Seiko.",
+            fonti: [
+              "l7-www-gioielleriafranze-it-chi-siamo"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Telefono discordante: sito attivit\xE0 +39 0963 44097; scheda Seiko +39 0963 472597.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
@@ -67858,30 +67916,29 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Orologeria Vincenzo Salerno / Vincenzo Salerno Gioielli Srl in Via Archimede 312-316 a Ragusa \xE8 punto vendita e Service Center Longines, oltre a centro assistenza autorizzato IWC; il laboratorio esegue revisioni complete, ripristino, lucidatura e controlli con garanzia fino a 24 mesi.",
+      descrizione: "Orologiaio Vincenzo Salerno in Via Archimede 316 a Ragusa \xE8 punto vendita e Service Center Longines secondo la scheda ufficiale del marchio, e centro assistenza autorizzato IWC; il laboratorio esegue revisione del movimento, ripristino e lucidatura con garanzia di 2 anni sul servizio completo.",
       nomiPrecedenti: [
         "Vincenzo Salerno Gioielli Srl"
       ],
       gruppoId: null,
       localitaId: "ragusa",
       posizione: {
-        indirizzo: "Via Archimede, 312-316",
+        indirizzo: "Via Archimede, 316",
         cap: "97100",
         coordinate: null,
         fonti: [
-          "l7-www-longines-com-en-us-store-id-vincenzo-salerno-gioiell",
-          "l7-www-orologiaiovincenzosalerno-it"
+          "audit1-salerno-contatti",
+          "audit1-longines-salerno"
         ]
       },
       contatti: {
-        telefono: "0932 251714",
+        telefono: "+39 0932 25 10 40",
         email: null,
         sito: "https://www.orologiaiovincenzosalerno.it/",
         whatsapp: null,
         social: [],
         fonti: [
-          "l7-www-longines-com-en-us-store-id-vincenzo-salerno-gioiell",
-          "l7-www-orologiaiovincenzosalerno-it"
+          "audit1-salerno-contatti"
         ]
       },
       orari: {
@@ -68030,9 +68087,28 @@ var directory_default = {
               "l7-www-iwc-com-us-en-boutiques-europe-italy-ragusa-orologer",
               "l7-www-orologiaiovincenzosalerno-it"
             ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Corretti indirizzo e telefono sulla fonte primaria dell\u2019attivit\xE0; registrate le varianti della scheda Longines e il limite di lettura della pagina IWC.",
+            fonti: [
+              "audit1-salerno-contatti",
+              "audit1-longines-salerno"
+            ]
           }
         ],
-        segnalazioni: []
+        segnalazioni: [
+          {
+            data: "2026-10-27",
+            motivo: "Variante recapiti: la scheda Longines riporta Via Archimede 312 e tel. 0932/251714; il sito dell\u2019attivit\xE0 riporta civico 316 e +39 0932 25 10 40.",
+            stato: "aperta"
+          },
+          {
+            data: "2026-10-27",
+            motivo: "Pagina IWC (authorized service center) non leggibile direttamente in questa sessione (HTTP 403): autorizzazione da ricontrollare.",
+            stato: "aperta"
+          }
+        ]
       },
       origine: {
         sistema: "espansione-lotto7-20261026",
@@ -68152,7 +68228,7 @@ var directory_default = {
         "orologeria",
         "laboratorio"
       ],
-      descrizione: "Tempor\xE8 \u2014 Maestri del Tempo in Piazza Libert\xE0 6 a Modica offre vendita di orologi nuovi, vintage e di secondo polso, con laboratorio di riparazione e assistenza in sede.",
+      descrizione: "Tempor\xE8 \u2014 Maestri del Tempo in Piazza Libert\xE0 6 a Modica offre vendita di orologi nuovi, vintage e di secondo polso, con assistenza e riparazioni presso il laboratorio a Modica.",
       nomiPrecedenti: [],
       gruppoId: null,
       localitaId: "modica",
@@ -68244,6 +68320,14 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 7: laboratorio da sito ufficiale.",
+            fonti: [
+              "l7-www-temporeorologi-com",
+              "l7-www-ekwatch-com-pages-contatti"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisato che le fonti indicano il laboratorio a Modica senza confermare la coincidenza con la sede di Piazza Libert\xE0.",
             fonti: [
               "l7-www-temporeorologi-com",
               "l7-www-ekwatch-com-pages-contatti"
@@ -68382,7 +68466,7 @@ var directory_default = {
       storia: {
         annoFondazione: 1945,
         fondatore: null,
-        testo: "Il nome e il sito ufficiale richiamano la data di fondazione del 1945.",
+        testo: "Il sito ufficiale si presenta come attiva \xABdal 1945\xBB; la fondazione non \xE8 attestata in modo esplicito dalle pagine consultate.",
         eventi: [],
         fonti: [
           "l7-www-rosas1945-it-it-contatti"
@@ -68400,6 +68484,13 @@ var directory_default = {
           {
             data: "2026-10-26",
             azione: "Lotto 7: scheda da sito ufficiale.",
+            fonti: [
+              "l7-www-rosas1945-it-it-contatti"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Precisata la formula storica: nessuna data di fondazione esplicitamente documentata.",
             fonti: [
               "l7-www-rosas1945-it-it-contatti"
             ]
@@ -68822,7 +68913,7 @@ var directory_default = {
         "gioielleria",
         "laboratorio"
       ],
-      descrizione: "Boutique Errani in Via Giacomo Matteotti 9 a Ravenna, aperta nel 2018 dopo le origini faentine del 1991, dispone di laboratorio orologiero interno con servizi di manutenzione, sostituzione bracciale e cinturino Omega.",
+      descrizione: "Boutique Errani in Via Giacomo Matteotti 9 a Ravenna, aperta nel 2018 dopo le origini faentine del 1991, \xE8 Official OMEGA Retailer con consegna dei prodotti per la manutenzione e sostituzione di bracciali e cinturini; il sito dell\u2019attivit\xE0 dichiara un laboratorio interno.",
       nomiPrecedenti: [],
       gruppoId: "errani",
       localitaId: "ravenna",
@@ -68978,19 +69069,12 @@ var directory_default = {
           }
         ],
         esperienza: [],
-        assistenzaUfficiale: [
-          {
-            marca: "Omega",
-            fonti: [
-              "l7-www-omegawatches-com-en-us-store-storedetails-o1826988"
-            ]
-          }
-        ],
+        assistenzaUfficiale: [],
         rivenditaUfficiale: [
           {
             marca: "Omega",
             fonti: [
-              "l7-www-omegawatches-com-en-us-store-storedetails-o1826988"
+              "audit1-omega-errani-ravenna"
             ]
           }
         ],
@@ -69036,6 +69120,13 @@ var directory_default = {
             fonti: [
               "l7-www-gioielleriaerrani-it-contatti-gioielleria-errani-rav",
               "l7-www-omegawatches-com-en-us-store-storedetails-o1826988"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Riclassificazione Omega: rimossa l\u2019assistenza ufficiale, la scheda Omega documenta rivendita e consegna per manutenzione senza qualifica di centro assistenza autorizzato.",
+            fonti: [
+              "audit1-omega-errani-ravenna"
             ]
           }
         ],
@@ -69477,6 +69568,18 @@ var directory_default = {
           fonti: [
             "l7-www-mercuriorologi-it-manutenzione-orologi-lusso"
           ]
+        },
+        {
+          id: "vendita",
+          fonti: [
+            "audit1-mercuri-negozio"
+          ]
+        },
+        {
+          id: "vendita-usati",
+          fonti: [
+            "audit1-mercuri-contatti"
+          ]
         }
       ],
       altriServizi: [
@@ -69502,7 +69605,14 @@ var directory_default = {
         }
       ],
       marchi: {
-        venduti: [],
+        venduti: [
+          {
+            marca: "Rolex",
+            fonti: [
+              "audit1-mercuri-negozio"
+            ]
+          }
+        ],
         riparati: [
           {
             marca: "Rolex",
@@ -69537,6 +69647,14 @@ var directory_default = {
             azione: "Lotto 7: laboratorio da sito ufficiale.",
             fonti: [
               "l7-www-mercuriorologi-it-manutenzione-orologi-lusso"
+            ]
+          },
+          {
+            data: "2026-10-27",
+            azione: "Aggiunta la vendita di orologi usati e i Rolex in catalogo, documentate dalle pagine negozio e contatti.",
+            fonti: [
+              "audit1-mercuri-negozio",
+              "audit1-mercuri-contatti"
             ]
           }
         ],

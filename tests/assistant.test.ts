@@ -105,7 +105,7 @@ test('un laboratorio con esperienza Omega è proposto con la sua fonte, senza au
     assert.ok(x.motivi.some(m => m.includes('Omega')), 'motivo basato su dati');
     // L'esperienza non diventa autorizzazione: «ufficialmente» può apparire solo
     // per ruoli documentati da una fonte del marchio (es. errani-ravenna: lo store
-    // locator ufficiale Omega elenca il servizio di manutenzione).
+    // locator ufficiale Omega documenta la rivendita ufficiale).
     const ruoliUfficiali = [
       ...b.marchi.assistenzaUfficiale.filter(m => m.marca === 'Omega'),
       ...b.marchi.rivenditaUfficiale.filter(m => m.marca === 'Omega'),

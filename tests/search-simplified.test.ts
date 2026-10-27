@@ -93,8 +93,8 @@ assert.deepEqual(visible().map(el => el.dataset.businessId).sort(), batterie.ris
 assert.ok(visible().some(el => el.dataset.businessId === 'fontana-bologna'));
 
 // 4. Campo unico: "assistenza ufficiale Cartier" (nessun risultato esatto, alternative pertinenti)
-//    Omega non è più un caso negativo: errani-ravenna ha assistenza Omega documentata
-//    dallo store locator ufficiale (verificata il 26/10/2026). Cartier ha attività che
+//    Omega non è più un caso negativo: errani-ravenna ha rivendita Omega documentata
+//    dallo store locator ufficiale (riclassificata all'audit del 27/10/2026). Cartier ha attività che
 //    lo trattano ma nessuna assistenza ufficiale documentata.
 qInput.value = 'assistenza ufficiale Cartier';
 form.dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
