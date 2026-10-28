@@ -1,0 +1,3099 @@
+{
+  "lotto": "fase13-lotto4-20261028",
+  "data": "2026-10-28",
+  "fonti": [
+    {
+      "id": "f13l4-stefani-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://stefanifratelli.it/contatti/",
+      "titolo": "Verifica documentale: stefani contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sede Marano: Piazza Silva 18, 36035 Marano Vicentino VI; 0445 621027; web@stefanifratelli.it. Qui sono presenti tutti i laboratori interni. Storia aziendale dal 1959, non data delle altre sedi a Thiene."
+    },
+    {
+      "id": "f13l4-stefani-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://stefanifratelli.it/laboratorio-orologeria/",
+      "titolo": "Verifica documentale: stefani servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Due orologiai interni; cambio pila/cinturino, prova impermeabilità, vetri/movimento, revisione, lucidatura e riparazione pendolo. Restauro orologi e pendoleria d’epoca."
+    },
+    {
+      "id": "f13l4-brotto-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriabrotto.com/contatti/",
+      "titolo": "Verifica documentale: brotto contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Brotto Battista e figli snc, Corso Garibaldi 137, 36016 Thiene VI; 0445 376854 / 0445 363004; gioielleriabrottosnc@gmail.com."
+    },
+    {
+      "id": "f13l4-brotto-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriabrotto.com/servizi-laboratorio/",
+      "titolo": "Verifica documentale: brotto servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratori nel punto vendita; meccanici manuali/automatici/complicati/cronografi; quarzo escluso Seiko Kinetik; regolatori, colonna, cucù, parigine, pendolette e sveglie."
+    },
+    {
+      "id": "f13l4-brotto-storia",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriabrotto.com/chi-siamo/",
+      "titolo": "Verifica documentale: brotto storia",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Corpo del testo fondazione 1957 da Battista; metadescrizione cita 1966. Discrepanza registrata, anno non pubblicato come certo."
+    },
+    {
+      "id": "f13l4-groppa-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriagroppa.it/contatti/",
+      "titolo": "Verifica documentale: groppa contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Orologeria Groppa SNC, Via degli Orbi 21, 38121 Trento; 0461 986045; groppa@orologeriagroppa.it."
+    },
+    {
+      "id": "f13l4-groppa-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriagroppa.it/",
+      "titolo": "Verifica documentale: groppa servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Vendita; riparazione e manutenzione di pendoli, taschino e quarzo; bottega con oltre 70 anni senza data esatta nel sito."
+    },
+    {
+      "id": "f13l4-groppa-visittrento",
+      "tipo": "directory",
+      "url": "https://www.visittrento.it/en/services/groppa-watchmakers-historic-workshop",
+      "titolo": "Verifica documentale: groppa visittrento",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Portale turistico VisitTrento: attiva dal 1937, fondata da Milziade Groppa; laboratorio riparazioni meccanici e quarzo, pile, ricambi e pezzi storici."
+    },
+    {
+      "id": "f13l4-rovari-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriarovari.it/contatti/",
+      "titolo": "Verifica documentale: rovari contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Armando Diaz 39, 25010 San Zeno Naviglio BS; 030 266150; info@gioielleriarovari.it."
+    },
+    {
+      "id": "f13l4-rovari-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriarovari.it/riparazione-orologi/",
+      "titolo": "Verifica documentale: rovari servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio: revisione/riparazione meccanici manuali e automatici, smontaggio lavaggio lubrificazione, verifica amplitudine regolazione e impermeabilità."
+    },
+    {
+      "id": "f13l4-rovari-pendole-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriarovari.it/riparazione-pendole/",
+      "titolo": "Verifica documentale: rovari pendole servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Riparazione/revisione pendole antiche e recenti, da muro/tavolo/terra; smontaggio e rettifica parti rovinate."
+    },
+    {
+      "id": "f13l4-frigerio-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://laboratoriodiorologeria.com/dove-siamo/",
+      "titolo": "Verifica documentale: frigerio contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Giacomo Matteotti 72, 24059 Urgnano BG; +39 3488922567; gioiellifrigerio@mac.com."
+    },
+    {
+      "id": "f13l4-frigerio-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://laboratoriodiorologeria.com/servizi/",
+      "titolo": "Verifica documentale: frigerio servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Manuali, automatici, quarzo, antichi/moderni polso/tasca; revisioni, pile impermeabilità vetri bracciali cinturini, pendoli moderni e antichi, sveglie."
+    },
+    {
+      "id": "f13l4-scrigno-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioiellerialoscrigno.com/contatti/",
+      "titolo": "Verifica documentale: scrigno contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Fratelli Rosselli 7, 34074 Monfalcone GO; fioriec@virgilio.it; 0481 411289."
+    },
+    {
+      "id": "f13l4-scrigno-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioiellerialoscrigno.com/i-nostri-servizi/",
+      "titolo": "Verifica documentale: scrigno servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio interno per analogici/digitali; manutenzione e riparazione, pile cinturini vetri, lucidatura/pulizia casse e bracciali."
+    },
+    {
+      "id": "f13l4-cavazzana-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriacavazzana.it/contatti/",
+      "titolo": "Verifica documentale: cavazzana contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Cresus Srl, Via Santa Maria Nuova 30 Lendinara RO; 0425 600805; gioielleriacavazzana@gmail.com. CAP 42026 nel sito incongruente: non acquisito."
+    },
+    {
+      "id": "f13l4-cavazzana-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriacavazzana.it/servizi/",
+      "titolo": "Verifica documentale: cavazzana servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio orologiaio: riparazione, revisione, cambio pila immediato, riparazione/sostituzione cinturino. Valutazioni/lucidatura nel blocco orafo, non attribuite agli orologi."
+    },
+    {
+      "id": "f13l4-villini-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.villinigioielleria.it/contatti/",
+      "titolo": "Verifica documentale: villini contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Trieste, Via Santa Caterina da Siena 7; +39 040 9893600; info@villinigioielleria.it. CAP non presente."
+    },
+    {
+      "id": "f13l4-villini-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.villinigioielleria.it/cura-e-servizi/",
+      "titolo": "Verifica documentale: villini servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Riparazioni laboratorio: regolazione precisione, movimento interno, sostituzione parti, pulizia e lubrificazione; nessuna autorizzazione ufficiale dimostrata."
+    },
+    {
+      "id": "f13l4-domo-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologiaiodomo.it/",
+      "titolo": "Verifica documentale: domo contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Galletti 5, 28845 Domodossola; 347 0188641 e 0324 243080; info@orologiaiodomo.it; vendita orologi e laboratorio."
+    },
+    {
+      "id": "f13l4-domo-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologiaiodomo.it/riparazione-manutenzione-orologi.html",
+      "titolo": "Verifica documentale: domo servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Riparazione/revisione polso e tasca, pendoli e cucù, manutenzione e ricostruzione/sostituzione parti, test impermeabilità."
+    },
+    {
+      "id": "f13l4-domo-storia",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologiaiodomo.it/azienda.html",
+      "titolo": "Verifica documentale: domo storia",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Massimo Napoli racconta fondazione da Mario Perelli a Preglia nei primi anni Novanta, trasferimento a Domodossola e successivo passaggio. Nessun anno esatto dedotto."
+    },
+    {
+      "id": "f13l4-temporo-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.temporo.it/laboratorio-di-orologeria",
+      "titolo": "Verifica documentale: temporo contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Temporo / Galanti, Via San Cristoforo 9, 21047 Saronno VA; 02 96704081; assistenza@temporo.it, ordini@temporo.it, cell 3396435066. Servizi: riparazione manuali/automatici/quarzo/polso/tasca, revisioni, pile cinturini impermeabilità lucidatura vetri ristampa quadranti, restauro vintage, valutazioni e acquisto usato."
+    },
+    {
+      "id": "f13l4-muscetti-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologimuscetti.it/contatti",
+      "titolo": "Verifica documentale: muscetti contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Filippo Turati 7/F, 22036 Erba CO; 0314476471, 3888906438; giuliomuscetti@yahoo.it."
+    },
+    {
+      "id": "f13l4-muscetti-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologimuscetti.it/",
+      "titolo": "Verifica documentale: muscetti servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio riparazione/revisione/vendita orologi moderni e antichi, pendoli e cucù, costruzione pezzi mancanti. 50 anni nel titolo e quarantennale nel testo: nessuna data calcolata."
+    },
+    {
+      "id": "f13l4-ronchetti-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriaronchetti.it/page.php?slug=news&id=43&slug_news=riparazioni-e-revisioni-orologi-da-polso",
+      "titolo": "Verifica documentale: ronchetti contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Ronchetti Srl, Via Matteotti 39 Soliera MO; 059567841; ronchetti.soliera@gmail.com; attivi dal 1978; riparazione/revisione manuali meccanici quarzo, pila e cinturini; possibile spedizione ai centri autorizzati, non status autorizzato del negozio."
+    },
+    {
+      "id": "f13l4-ronchetti-pendole-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriaronchetti.it/page.php?slug=news&id=44&slug_news=revisioniamo-e-ripariamo-orologi-a-pendolo-da-muro-e-orologi-a-pendolo-da-tavolo",
+      "titolo": "Verifica documentale: ronchetti pendole servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Riparazione/revisione pendoli muro/tavolo anche Ottocento, ricostruzione meccanismi usurati; contatti come altra pagina."
+    },
+    {
+      "id": "f13l4-orologio-carpi-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialorologio.it/pages/contattaci",
+      "titolo": "Verifica documentale: orologio carpi contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Piazzale B. Ramazzini 26, 41012 Carpi MO; 059643691; info@gioiellerialorologio.it."
+    },
+    {
+      "id": "f13l4-orologio-carpi-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialorologio.it/pages/la-gioielleria",
+      "titolo": "Verifica documentale: orologio carpi servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Romeo Bellentani, laboratorio nato maggio1987, interno di oreficeria/orologeria, riparazione/manutenzione personale e vendita."
+    },
+    {
+      "id": "f13l4-oroeora-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oroeora.com/sito/contatti/",
+      "titolo": "Verifica documentale: oroeora contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Oro&Ora Srls Via Napoli27,03039 Sora FR;0776833192;info@oroeora.com."
+    },
+    {
+      "id": "f13l4-oroeora-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oroeora.com/sito/chi-siamo/",
+      "titolo": "Verifica documentale: oroeora servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Vendita/riparazione polso,tasca,parete,cucù; laboratorio. Storia dal1850 GiuseppeSpalvieri, sede attuale ViaNapoli27 dal2000; documenti riparazione1900/1901 mostrati in galleria."
+    },
+    {
+      "id": "f13l4-govoni-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriagovoni.it/",
+      "titolo": "Verifica documentale: govoni contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Corso Guercino57 CentoFE;051901819;gioielleria.govoni@libero.it; assistenza e riparazione orologi. Fondata1979, da ViaMatteotti a CorsoGuercino, Morena e Annalisa."
+    },
+    {
+      "id": "f13l4-timelab-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.timelabfiuggi.it/contatti/",
+      "titolo": "Verifica documentale: timelab contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via Rettifilo61,03014 Fiuggi Terme FR;3770252472 telefono/WhatsApp;info@timelabfiuggi.it. Comune normalizzato Fiuggi, mantenuta denominazione sede nella fonte."
+    },
+    {
+      "id": "f13l4-timelab-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.timelabfiuggi.it/laboratorio/",
+      "titolo": "Verifica documentale: timelab servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Ripristino/restauro pendoleria e orologi storici; revisioni meccanici/quarzo; pile,vetri,cinturini,impermeabilità,lucidatura;compravendita secondo polso alta gamma."
+    },
+    {
+      "id": "f13l4-moschin-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.moschinorologigioielli.it/contatti/",
+      "titolo": "Verifica documentale: moschin contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Piazza A.Zanti10/a,42025 CavriagoRE;0522577460,3393671914;moschin.orologigioielli@gmail.com."
+    },
+    {
+      "id": "f13l4-moschin-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.moschinorologigioielli.it/riparazioni/",
+      "titolo": "Verifica documentale: moschin servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Laboratorio interno Cavriago; revisioni polso e pendolo, restauro orologi e riparazioni direttamente nel laboratorio; preventivo gratuito."
+    },
+    {
+      "id": "f13l4-regolini-contatti",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaregolini.it/contatti/",
+      "titolo": "Verifica documentale: regolini contatti",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Via del Cardinale44,57123 LivornoLI;0586883251,3408694327;info@gioielleriaregolini.it."
+    },
+    {
+      "id": "f13l4-regolini-servizi",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaregolini.it/riparazioni/",
+      "titolo": "Verifica documentale: regolini servizi",
+      "consultataIl": "2026-10-28",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Nati come laboratorio orologeria, oggi vendita e riparazioni orologi di ogni tipo. Collaborazioni esterne citate nel blocco gioielli, non dettaglio interventi orologi."
+    }
+  ],
+  "localita": [
+    {
+      "id": "marano-vicentino",
+      "comune": "Marano Vicentino",
+      "comuneSlug": "marano-vicentino",
+      "provincia": "Vicenza",
+      "provinciaSlug": "vicenza",
+      "siglaProvincia": "VI",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": null,
+      "descrizione": "Marano Vicentino: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-stefani-contatti"
+      ]
+    },
+    {
+      "id": "thiene",
+      "comune": "Thiene",
+      "comuneSlug": "thiene",
+      "provincia": "Vicenza",
+      "provinciaSlug": "vicenza",
+      "siglaProvincia": "VI",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": null,
+      "descrizione": "Thiene: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-brotto-contatti"
+      ]
+    },
+    {
+      "id": "san-zeno-naviglio",
+      "comune": "San Zeno Naviglio",
+      "comuneSlug": "san-zeno-naviglio",
+      "provincia": "Brescia",
+      "provinciaSlug": "brescia",
+      "siglaProvincia": "BS",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "San Zeno Naviglio: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-rovari-contatti"
+      ]
+    },
+    {
+      "id": "urgnano",
+      "comune": "Urgnano",
+      "comuneSlug": "urgnano",
+      "provincia": "Bergamo",
+      "provinciaSlug": "bergamo",
+      "siglaProvincia": "BG",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Urgnano: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-frigerio-contatti"
+      ]
+    },
+    {
+      "id": "lendinara",
+      "comune": "Lendinara",
+      "comuneSlug": "lendinara",
+      "provincia": "Rovigo",
+      "provinciaSlug": "rovigo",
+      "siglaProvincia": "RO",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": null,
+      "descrizione": "Lendinara: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-cavazzana-contatti"
+      ]
+    },
+    {
+      "id": "domodossola",
+      "comune": "Domodossola",
+      "comuneSlug": "domodossola",
+      "provincia": "Verbano-Cusio-Ossola",
+      "provinciaSlug": "verbano-cusio-ossola",
+      "siglaProvincia": "VB",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": null,
+      "descrizione": "Domodossola: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-domo-contatti"
+      ]
+    },
+    {
+      "id": "saronno",
+      "comune": "Saronno",
+      "comuneSlug": "saronno",
+      "provincia": "Varese",
+      "provinciaSlug": "varese",
+      "siglaProvincia": "VA",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Saronno: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-temporo-contatti"
+      ]
+    },
+    {
+      "id": "erba",
+      "comune": "Erba",
+      "comuneSlug": "erba",
+      "provincia": "Como",
+      "provinciaSlug": "como",
+      "siglaProvincia": "CO",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Erba: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-muscetti-contatti"
+      ]
+    },
+    {
+      "id": "soliera",
+      "comune": "Soliera",
+      "comuneSlug": "soliera",
+      "provincia": "Modena",
+      "provinciaSlug": "modena",
+      "siglaProvincia": "MO",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Soliera: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-ronchetti-contatti"
+      ]
+    },
+    {
+      "id": "carpi",
+      "comune": "Carpi",
+      "comuneSlug": "carpi",
+      "provincia": "Modena",
+      "provinciaSlug": "modena",
+      "siglaProvincia": "MO",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Carpi: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-orologio-carpi-contatti"
+      ]
+    },
+    {
+      "id": "sora",
+      "comune": "Sora",
+      "comuneSlug": "sora",
+      "provincia": "Frosinone",
+      "provinciaSlug": "frosinone",
+      "siglaProvincia": "FR",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Sora: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-oroeora-contatti"
+      ]
+    },
+    {
+      "id": "cento",
+      "comune": "Cento",
+      "comuneSlug": "cento",
+      "provincia": "Ferrara",
+      "provinciaSlug": "ferrara",
+      "siglaProvincia": "FE",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Cento: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-govoni-contatti"
+      ]
+    },
+    {
+      "id": "fiuggi",
+      "comune": "Fiuggi",
+      "comuneSlug": "fiuggi",
+      "provincia": "Frosinone",
+      "provinciaSlug": "frosinone",
+      "siglaProvincia": "FR",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Fiuggi: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-timelab-contatti"
+      ]
+    },
+    {
+      "id": "cavriago",
+      "comune": "Cavriago",
+      "comuneSlug": "cavriago",
+      "provincia": "Reggio nell'Emilia",
+      "provinciaSlug": "reggio-emilia",
+      "siglaProvincia": "RE",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Cavriago: attività di orologeria documentate tramite fonti pubbliche.",
+      "fonti": [
+        "f13l4-moschin-contatti"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "stefani-fratelli-marano-vicentino",
+      "nome": "Stefani Fratelli — Marano Vicentino",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-stefani-contatti",
+        "f13l4-stefani-servizi"
+      ],
+      "attivita": {
+        "id": "stefani-fratelli-marano-vicentino",
+        "slug": "stefani-fratelli-marano-vicentino",
+        "nome": "Stefani Fratelli — Marano Vicentino",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "La sede di Marano Vicentino di Stefani Fratelli ospita i laboratori interni dell’azienda. Due orologiai si occupano di revisioni, cambio pila e cinturino, prove di impermeabilità, lucidatura e riparazione di pendole. Il sito descrive anche il restauro di orologeria e pendoleria d’epoca e fa risalire l’attività al 1959.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "marano-vicentino",
+        "posizione": {
+          "indirizzo": "Piazza Silva, 18",
+          "cap": "36035",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-stefani-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0445 621027",
+          "email": "web@stefanifratelli.it",
+          "sito": "https://stefanifratelli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-stefani-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Prova di impermeabilità",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "nome": "Sostituzione vetri e movimento",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          },
+          {
+            "nome": "Restauro pendoleria d’epoca",
+            "fonti": [
+              "f13l4-stefani-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1959,
+          "fondatore": null,
+          "testo": "Secondo il sito, l’attività nasce nel 1959 come bottega di vendita e riparazioni di Adriano. Il laboratorio è nella sede di Marano; nessuna estensione di servizi alle sedi di Thiene.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-stefani-contatti"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-stefani-contatti",
+            "f13l4-stefani-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-stefani-contatti",
+                "f13l4-stefani-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": [
+            {
+              "data": "2026-10-28",
+              "motivo": "Qualifiche commerciali dichiarate dal negozio non trasformate in autorizzazioni confermate: nessun ruolo ufficiale attribuito. Orari non trascritti per evitare ambiguità della formulazione «Lunedì - Domenica».",
+              "stato": "aperta"
+            }
+          ]
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "stefani-fratelli-marano-vicentino"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-brotto-thiene",
+      "nome": "Gioielleria Brotto",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-brotto-contatti",
+        "f13l4-brotto-servizi",
+        "f13l4-brotto-storia"
+      ],
+      "attivita": {
+        "id": "gioielleria-brotto-thiene",
+        "slug": "gioielleria-brotto-thiene",
+        "nome": "Gioielleria Brotto",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "A Thiene la Gioielleria Brotto dispone di laboratorio orologiaio nel punto vendita. Ripara movimenti manuali, automatici, complicati e cronografi, oltre agli orologi al quarzo con l’eccezione Seiko Kinetik dichiarata dal sito. La pendoleria comprende regolatori, orologi a colonna, cucù, parigine e pendolette da tavolo.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "thiene",
+        "posizione": {
+          "indirizzo": "Corso Garibaldi, 137",
+          "cap": "36016",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-brotto-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0445 376854",
+          "email": "gioielleriabrottosnc@gmail.com",
+          "sito": "https://gioielleriabrotto.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-brotto-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f13l4-brotto-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-brotto-contatti",
+            "f13l4-brotto-servizi",
+            "f13l4-brotto-storia"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-brotto-contatti",
+                "f13l4-brotto-servizi",
+                "f13l4-brotto-storia"
+              ]
+            }
+          ],
+          "segnalazioni": [
+            {
+              "data": "2026-10-28",
+              "motivo": "Il testo storico indica 1957 ma la metadescrizione riporta 1966: anno di fondazione lasciato assente. Fonte: https://gioielleriabrotto.com/chi-siamo/",
+              "stato": "aperta"
+            },
+            {
+              "data": "2026-10-28",
+              "motivo": "Riparazioni al quarzo: escluso Seiko Kinetik secondo il sito. Altro recapito pubblico 0445 363004.",
+              "stato": "aperta"
+            }
+          ]
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-brotto-thiene"
+        }
+      }
+    },
+    {
+      "id": "orologeria-groppa-trento",
+      "nome": "Orologeria Groppa",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-groppa-contatti",
+        "f13l4-groppa-servizi",
+        "f13l4-groppa-visittrento"
+      ],
+      "attivita": {
+        "id": "orologeria-groppa-trento",
+        "slug": "orologeria-groppa-trento",
+        "nome": "Orologeria Groppa",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "In Via degli Orbi a Trento, Orologeria Groppa vende e ripara orologi da polso, da tasca e pendole, compresi modelli al quarzo. Il portale turistico VisitTrento documenta la bottega dal 1937 e descrive il laboratorio artigianale; il sito del negozio conferma riparazione e manutenzione di orologi di diverse epoche.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trento",
+        "posizione": {
+          "indirizzo": "Via degli Orbi, 21",
+          "cap": "38121",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-groppa-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0461 986045",
+          "email": "groppa@orologeriagroppa.it",
+          "sito": "https://www.orologeriagroppa.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-groppa-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-groppa-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-groppa-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-groppa-servizi"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f13l4-groppa-servizi"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f13l4-groppa-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1937,
+          "fondatore": "Milziade Groppa",
+          "testo": "VisitTrento documenta l’attività dal 1937 e il fondatore Milziade Groppa; il sito aziendale conferma la lunga tradizione senza fissare un anno.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-groppa-visittrento"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-groppa-contatti",
+            "f13l4-groppa-servizi",
+            "f13l4-groppa-visittrento"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-groppa-contatti",
+                "f13l4-groppa-servizi",
+                "f13l4-groppa-visittrento"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "orologeria-groppa-trento"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-rovari-san-zeno-naviglio",
+      "nome": "Gioielleria Rovari",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-rovari-contatti",
+        "f13l4-rovari-servizi",
+        "f13l4-rovari-pendole-servizi",
+        "f13l4-rovari-pendole-servizi"
+      ],
+      "attivita": {
+        "id": "gioielleria-rovari-san-zeno-naviglio",
+        "slug": "gioielleria-rovari-san-zeno-naviglio",
+        "nome": "Gioielleria Rovari",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "La Gioielleria Rovari di San Zeno Naviglio descrive revisioni e riparazioni di orologi meccanici manuali e automatici nel proprio laboratorio: smontaggio, lavaggio, lubrificazione, regolazione e verifiche di impermeabilità. Una sezione specifica documenta il lavoro sulle pendole antiche e recenti, da parete, da tavolo e da terra.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "san-zeno-naviglio",
+        "posizione": {
+          "indirizzo": "Via Armando Diaz, 39",
+          "cap": "25010",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-rovari-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "030 266150",
+          "email": "info@gioielleriarovari.it",
+          "sito": "https://gioielleriarovari.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-rovari-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-rovari-pendole-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Controllo di impermeabilità",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f13l4-rovari-servizi"
+            ]
+          },
+          {
+            "id": "antichi",
+            "fonti": [
+              "f13l4-rovari-pendole-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-rovari-contatti",
+            "f13l4-rovari-servizi",
+            "f13l4-rovari-pendole-servizi",
+            "f13l4-rovari-pendole-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-rovari-contatti",
+                "f13l4-rovari-servizi",
+                "f13l4-rovari-pendole-servizi",
+                "f13l4-rovari-pendole-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-rovari-san-zeno-naviglio"
+        }
+      }
+    },
+    {
+      "id": "laboratorio-frigerio-urgnano",
+      "nome": "Laboratorio di Orologeria Frigerio",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-frigerio-contatti",
+        "f13l4-frigerio-servizi"
+      ],
+      "attivita": {
+        "id": "laboratorio-frigerio-urgnano",
+        "slug": "laboratorio-frigerio-urgnano",
+        "nome": "Laboratorio di Orologeria Frigerio",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Il Laboratorio di Orologeria Frigerio a Urgnano lavora su orologi da polso e da tasca, manuali, automatici e al quarzo. La pagina servizi elenca revisioni complete, riparazioni di pendoli antichi e moderni, restauro di orologi antichi, sostituzione vetri e cinturini e prove di impermeabilità. Sono documentati anche interventi su sveglie e orologi d’arredo.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "urgnano",
+        "posizione": {
+          "indirizzo": "Via Giacomo Matteotti, 72",
+          "cap": "24059",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-frigerio-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 3488922567",
+          "email": "gioiellifrigerio@mac.com",
+          "sito": "https://laboratoriodiorologeria.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-frigerio-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Restauro orologi antichi",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "nome": "Ripristino impermeabilità",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "nome": "Sostituzione vetri anche su misura",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "nome": "Riparazione sveglie",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [
+          {
+            "id": "antichi",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          },
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f13l4-frigerio-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-frigerio-contatti",
+            "f13l4-frigerio-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-frigerio-contatti",
+                "f13l4-frigerio-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "laboratorio-frigerio-urgnano"
+        }
+      }
+    },
+    {
+      "id": "lo-scrigno-monfalcone",
+      "nome": "Lo Scrigno Gioielli — Monfalcone",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-scrigno-contatti",
+        "f13l4-scrigno-servizi"
+      ],
+      "attivita": {
+        "id": "lo-scrigno-monfalcone",
+        "slug": "lo-scrigno-monfalcone",
+        "nome": "Lo Scrigno Gioielli — Monfalcone",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Lo Scrigno Gioielli a Monfalcone dichiara un laboratorio interno per la manutenzione e riparazione di orologi analogici e digitali. I servizi pubblicati comprendono sostituzione di pile, cinturini e vetri, pulizia e lucidatura di casse e bracciali. Le menzioni di marchi nella pagina servizi non sono presentate come autorizzazioni ufficiali.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "monfalcone",
+        "posizione": {
+          "indirizzo": "Via Fratelli Rosselli, 7",
+          "cap": "34074",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-scrigno-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0481 411289",
+          "email": "fioriec@virgilio.it",
+          "sito": "https://gioiellerialoscrigno.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-scrigno-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Sostituzione vetri",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          },
+          {
+            "nome": "Pulizia casse e bracciali",
+            "fonti": [
+              "f13l4-scrigno-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-scrigno-contatti",
+            "f13l4-scrigno-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-scrigno-contatti",
+                "f13l4-scrigno-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "lo-scrigno-monfalcone"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-cavazzana-lendinara",
+      "nome": "Gioielleria Cavazzana",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-cavazzana-contatti",
+        "f13l4-cavazzana-servizi"
+      ],
+      "attivita": {
+        "id": "gioielleria-cavazzana-lendinara",
+        "slug": "gioielleria-cavazzana-lendinara",
+        "nome": "Gioielleria Cavazzana",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "La Gioielleria Cavazzana di Cresus Srl, in Via Santa Maria Nuova a Lendinara, pubblica servizi di laboratorio orologiaio: riparazioni, revisioni, cambio pila e interventi sui cinturini. I servizi orafi sono separati da quelli dedicati agli orologi; non vengono attribuite specializzazioni o autorizzazioni di marca non documentate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "lendinara",
+        "posizione": {
+          "indirizzo": "Via Santa Maria Nuova, 30",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f13l4-cavazzana-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0425 600805",
+          "email": "gioielleriacavazzana@gmail.com",
+          "sito": "https://gioielleriacavazzana.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-cavazzana-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-cavazzana-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-cavazzana-servizi"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-cavazzana-servizi"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-cavazzana-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-cavazzana-contatti",
+            "f13l4-cavazzana-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-cavazzana-contatti",
+                "f13l4-cavazzana-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": [
+            {
+              "data": "2026-10-28",
+              "motivo": "CAP 42026 pubblicato dal sito incongruente con Lendinara (RO): campo CAP lasciato assente, nessuna correzione numerica arbitraria.",
+              "stato": "aperta"
+            }
+          ]
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-cavazzana-lendinara"
+        }
+      }
+    },
+    {
+      "id": "villini-gioielleria-trieste",
+      "nome": "Villini La Gioielleria",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-villini-contatti",
+        "f13l4-villini-servizi"
+      ],
+      "attivita": {
+        "id": "villini-gioielleria-trieste",
+        "slug": "villini-gioielleria-trieste",
+        "nome": "Villini La Gioielleria",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "Villini La Gioielleria si trova in Via Santa Caterina da Siena a Trieste. La pagina dedicata alla cura e ai servizi descrive riparazioni di orologi, regolazione della precisione, interventi sul movimento, sostituzione di parti, pulizia e lubrificazione. Non vengono dedotte revisioni complete o autorizzazioni tecniche dalla sola assistenza post-vendita.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trieste",
+        "posizione": {
+          "indirizzo": "Via Santa Caterina da Siena, 7",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f13l4-villini-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 040 9893600",
+          "email": "info@villinigioielleria.it",
+          "sito": "https://www.villinigioielleria.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-villini-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-villini-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-villini-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-villini-contatti",
+            "f13l4-villini-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-villini-contatti",
+                "f13l4-villini-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "villini-gioielleria-trieste"
+        }
+      }
+    },
+    {
+      "id": "lorologiaio-domodossola",
+      "nome": "L’Orologiaio — Domodossola",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-domo-contatti",
+        "f13l4-domo-servizi",
+        "f13l4-domo-storia"
+      ],
+      "attivita": {
+        "id": "lorologiaio-domodossola",
+        "slug": "lorologiaio-domodossola",
+        "nome": "L’Orologiaio — Domodossola",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "L’Orologiaio di Domodossola, oggi seguito da Massimo Napoli, descrive revisioni artigianali di orologi da polso e da tasca e riparazione, revisione e restauro di pendole e cucù. Il laboratorio interviene su molle, perni e altre parti del movimento ed effettua prove di impermeabilità. La storia aziendale distingue la nascita a Preglia dal successivo trasferimento.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "domodossola",
+        "posizione": {
+          "indirizzo": "Via Galletti, 5",
+          "cap": "28845",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-domo-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0324 243080",
+          "email": "info@orologiaiodomo.it",
+          "sito": "https://orologiaiodomo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-domo-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Restauro pendole",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "nome": "Prova di impermeabilità",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          },
+          {
+            "nome": "Interventi su parti del movimento",
+            "fonti": [
+              "f13l4-domo-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": "Il titolare Massimo Napoli racconta la fondazione da Mario Perelli a Preglia di Crevoladossola nei primi anni Novanta e il successivo trasferimento a Domodossola, prima del passaggio di attività. Nessun anno preciso attribuito alla sede attuale.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-domo-storia"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-domo-contatti",
+            "f13l4-domo-servizi",
+            "f13l4-domo-storia"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-domo-contatti",
+                "f13l4-domo-servizi",
+                "f13l4-domo-storia"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "lorologiaio-domodossola"
+        }
+      }
+    },
+    {
+      "id": "temporo-galanti-saronno",
+      "nome": "Temporo / Galanti",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-temporo-contatti"
+      ],
+      "attivita": {
+        "id": "temporo-galanti-saronno",
+        "slug": "temporo-galanti-saronno",
+        "nome": "Temporo / Galanti",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Temporo / Galanti a Saronno pubblica un laboratorio dedicato a orologi moderni e d’epoca, da polso e da tasca, manuali, automatici e al quarzo. Oltre a revisioni, pile, cinturini e prove di impermeabilità, il sito documenta restauro totale vintage, valutazioni e acquisto di orologi usati. Questi servizi non implicano autorizzazioni ufficiali di marca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "saronno",
+        "posizione": {
+          "indirizzo": "Via San Cristoforo, 9",
+          "cap": "21047",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-temporo-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 96704081",
+          "email": "assistenza@temporo.it",
+          "sito": "https://www.temporo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-temporo-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "acquisto-permuta",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Prove di impermeabilità",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "nome": "Sostituzione vetri",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "nome": "Ristampa quadranti",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          }
+        ],
+        "specializzazioni": [
+          {
+            "id": "vintage",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f13l4-temporo-contatti"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-temporo-contatti"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-temporo-contatti"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "temporo-galanti-saronno"
+        }
+      }
+    },
+    {
+      "id": "orologeria-muscetti-erba",
+      "nome": "Orologeria Muscetti",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-muscetti-contatti",
+        "f13l4-muscetti-servizi"
+      ],
+      "attivita": {
+        "id": "orologeria-muscetti-erba",
+        "slug": "orologeria-muscetti-erba",
+        "nome": "Orologeria Muscetti",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "L’Orologeria Muscetti a Erba ripara e revisiona orologi moderni e antichi, da polso, da muro e da tavolo. Il laboratorio evidenzia l’esperienza su pendole e cucù e la possibilità di ricostruire componenti non più reperibili in commercio. È documentata anche la vendita; nessun anno di fondazione viene ricavato dai generici riferimenti all’esperienza.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "erba",
+        "posizione": {
+          "indirizzo": "Via Filippo Turati, 7/F",
+          "cap": "22036",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-muscetti-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "031 4476471",
+          "email": "giuliomuscetti@yahoo.it",
+          "sito": "https://www.riparazioneorologimuscetti.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-muscetti-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Ricostruzione di ricambi non più reperibili",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          },
+          {
+            "nome": "Riparazione orologi a cucù",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [
+          {
+            "id": "antichi",
+            "fonti": [
+              "f13l4-muscetti-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-muscetti-contatti",
+            "f13l4-muscetti-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-muscetti-contatti",
+                "f13l4-muscetti-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": [
+            {
+              "data": "2026-10-28",
+              "motivo": "Riferimenti temporali «50 anni» e «quarantennale esperienza» senza data: anno di fondazione non dedotto.",
+              "stato": "aperta"
+            }
+          ]
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "orologeria-muscetti-erba"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-ronchetti-soliera",
+      "nome": "Gioielleria Ronchetti",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-ronchetti-contatti",
+        "f13l4-ronchetti-pendole-servizi"
+      ],
+      "attivita": {
+        "id": "gioielleria-ronchetti-soliera",
+        "slug": "gioielleria-ronchetti-soliera",
+        "nome": "Gioielleria Ronchetti",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "A Soliera, Gioielleria Ronchetti ripara e revisiona orologi da polso manuali, meccanici e al quarzo e offre cambio pila e cinturini. Una pagina specifica documenta riparazioni di pendole da muro e da tavolo, anche ottocentesche, con ricostruzione delle parti usurate quando possibile. L’eventuale invio a centri autorizzati resta distinto da un’autorizzazione propria.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "soliera",
+        "posizione": {
+          "indirizzo": "Via Matteotti, 39",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f13l4-ronchetti-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "059 567841",
+          "email": "ronchetti.soliera@gmail.com",
+          "sito": "https://www.oreficeriaronchetti.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-ronchetti-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-ronchetti-contatti"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-ronchetti-pendole-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "antichi",
+            "fonti": [
+              "f13l4-ronchetti-pendole-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1978,
+          "fondatore": null,
+          "testo": "Il sito di Ronchetti Srl dichiara l’attività dal 1978; non viene attribuita quella data all’apertura della sede corrente.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-ronchetti-contatti"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-ronchetti-contatti",
+            "f13l4-ronchetti-pendole-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-ronchetti-contatti",
+                "f13l4-ronchetti-pendole-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-ronchetti-soliera"
+        }
+      }
+    },
+    {
+      "id": "loro-logio-carpi",
+      "nome": "L’Oro-Logio Orologeria Oreficeria",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-orologio-carpi-contatti",
+        "f13l4-orologio-carpi-servizi"
+      ],
+      "attivita": {
+        "id": "loro-logio-carpi",
+        "slug": "loro-logio-carpi",
+        "nome": "L’Oro-Logio Orologeria Oreficeria",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "L’Oro-Logio a Carpi conserva un laboratorio interno di oreficeria e orologeria, nel quale Romeo Bellentani dichiara di seguire personalmente riparazioni e manutenzioni. La storia aziendale colloca la nascita del laboratorio nel maggio 1987. Il negozio vende orologi da polso, da tasca e da parete, senza che questo attribuisca automaticamente riparazioni specifiche a ogni tipologia.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "carpi",
+        "posizione": {
+          "indirizzo": "Piazzale B. Ramazzini, 26",
+          "cap": "41012",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-orologio-carpi-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "059 643691",
+          "email": "info@gioiellerialorologio.it",
+          "sito": "https://www.gioiellerialorologio.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-orologio-carpi-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-orologio-carpi-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-orologio-carpi-servizi"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f13l4-orologio-carpi-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1987,
+          "fondatore": "Romeo Bellentani",
+          "testo": "Il sito colloca nel maggio 1987 la nascita del laboratorio di oreficeria e orologeria di Romeo Bellentani.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-orologio-carpi-servizi"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-orologio-carpi-contatti",
+            "f13l4-orologio-carpi-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-orologio-carpi-contatti",
+                "f13l4-orologio-carpi-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "loro-logio-carpi"
+        }
+      }
+    },
+    {
+      "id": "oro-e-ora-sora",
+      "nome": "Oro e Ora — Sora",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-oroeora-contatti",
+        "f13l4-oroeora-servizi"
+      ],
+      "attivita": {
+        "id": "oro-e-ora-sora",
+        "slug": "oro-e-ora-sora",
+        "nome": "Oro e Ora — Sora",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Oro e Ora a Sora vende e ripara orologi da polso, da tasca, da parete e a cucù e dispone di laboratorio. Il sito racconta la tradizione della famiglia Spalvieri dal 1850 e presenta documenti di riparazione del primo Novecento; distingue la prima bottega dalla sede attuale di Via Napoli 27, raggiunta nel 2000.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "sora",
+        "posizione": {
+          "indirizzo": "Via Napoli, 27",
+          "cap": "03039",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-oroeora-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0776 833192",
+          "email": "info@oroeora.com",
+          "sito": "https://www.oroeora.com/sito/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-oroeora-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-oroeora-servizi"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f13l4-oroeora-servizi"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f13l4-oroeora-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Riparazione orologi da parete e a cucù",
+            "fonti": [
+              "f13l4-oroeora-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1850,
+          "fondatore": "Giuseppe Spalvieri",
+          "testo": "Secondo la storia aziendale, Giuseppe Spalvieri fondò la prima bottega nel 1850 in piazza Palestro. La sede attuale in Via Napoli 27 è indicata dal 2000, non dal 1850. La pagina presenta garanzie di riparazione del 1900 e 1901.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-oroeora-servizi"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-oroeora-contatti",
+            "f13l4-oroeora-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-oroeora-contatti",
+                "f13l4-oroeora-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "oro-e-ora-sora"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-govoni-cento",
+      "nome": "Gioielleria Govoni",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-govoni-contatti"
+      ],
+      "attivita": {
+        "id": "gioielleria-govoni-cento",
+        "slug": "gioielleria-govoni-cento",
+        "nome": "Gioielleria Govoni",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "Gioielleria Govoni a Cento dichiara assistenza e riparazione di orologi, oltre ai servizi dedicati ai gioielli. L’attività è oggi in Corso Guercino; il sito ne racconta la nascita nel 1979 in un’altra sede e la conduzione di Morena Govoni con la figlia Annalisa. Non sono specificati singoli interventi tecnici né un laboratorio interno.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cento",
+        "posizione": {
+          "indirizzo": "Corso Guercino, 57",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f13l4-govoni-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "051 901819",
+          "email": "gioielleria.govoni@libero.it",
+          "sito": "https://gioielleriagovoni.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-govoni-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-govoni-contatti"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f13l4-govoni-contatti"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1979,
+          "fondatore": null,
+          "testo": "Il sito dichiara la nascita nel1979 a Cento, inizialmente in ViaMatteotti e poi in CorsoGuercino; non attribuisce1979 alla sede corrente.",
+          "eventi": [],
+          "fonti": [
+            "f13l4-govoni-contatti"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-govoni-contatti"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-govoni-contatti"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-govoni-cento"
+        }
+      }
+    },
+    {
+      "id": "time-lab-fiuggi",
+      "nome": "Time Lab — Fiuggi",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-timelab-contatti",
+        "f13l4-timelab-servizi"
+      ],
+      "attivita": {
+        "id": "time-lab-fiuggi",
+        "slug": "time-lab-fiuggi",
+        "nome": "Time Lab — Fiuggi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Time Lab a Fiuggi documenta interventi di laboratorio su orologi meccanici e al quarzo, restauri e collaudi di orologi storici e ripristino della pendoleria. La pagina servizi elenca anche cambio pila, vetri e cinturini, revisioni, prove di impermeabilità e lucidatura. È dichiarata la compravendita di orologi di secondo polso; i riferimenti ai marchi non provano autorizzazioni tecniche.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "fiuggi",
+        "posizione": {
+          "indirizzo": "Via Rettifilo, 61",
+          "cap": "03014",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-timelab-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "377 0252472",
+          "email": "info@timelabfiuggi.it",
+          "sito": "https://www.timelabfiuggi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-timelab-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "acquisto-permuta",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Restauro orologi storici",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "nome": "Ripristino impermeabilità",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "nome": "Sostituzione vetri",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [
+          {
+            "id": "antichi",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          },
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f13l4-timelab-servizi"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-timelab-contatti",
+            "f13l4-timelab-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-timelab-contatti",
+                "f13l4-timelab-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "time-lab-fiuggi"
+        }
+      }
+    },
+    {
+      "id": "moschin-orologi-gioielli-cavriago",
+      "nome": "Moschin Orologi Gioielli",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-moschin-contatti",
+        "f13l4-moschin-servizi"
+      ],
+      "attivita": {
+        "id": "moschin-orologi-gioielli-cavriago",
+        "slug": "moschin-orologi-gioielli-cavriago",
+        "nome": "Moschin Orologi Gioielli",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Moschin Orologi Gioielli a Cavriago descrive un laboratorio artigianale interno, con riparazioni eseguite direttamente in sede. La pagina dedicata agli interventi cita revisioni di orologi da polso e a pendolo e ripristino estetico dei segnatempo. Offre preventivi gratuiti; non vengono aggiunte lavorazioni su specifici movimenti o autorizzazioni di marca non documentate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cavriago",
+        "posizione": {
+          "indirizzo": "Piazza A. Zanti, 10/a",
+          "cap": "42025",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-moschin-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0522 577460",
+          "email": "moschin.orologigioielli@gmail.com",
+          "sito": "https://www.moschinorologigioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-moschin-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-moschin-servizi"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f13l4-moschin-servizi"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f13l4-moschin-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Restauro orologi",
+            "fonti": [
+              "f13l4-moschin-servizi"
+            ]
+          },
+          {
+            "nome": "Preventivo gratuito",
+            "fonti": [
+              "f13l4-moschin-servizi"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-moschin-contatti",
+            "f13l4-moschin-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-moschin-contatti",
+                "f13l4-moschin-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "moschin-orologi-gioielli-cavriago"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-regolini-livorno",
+      "nome": "Gioielleria Regolini",
+      "decisione": "approvata",
+      "motivo": "Identità, sede e recapiti dal sito ufficiale; servizi verificati nelle pagine lette, deduplicazione sull’intero catalogo prima dell’applicazione.",
+      "fonti": [
+        "f13l4-regolini-contatti",
+        "f13l4-regolini-servizi"
+      ],
+      "attivita": {
+        "id": "gioielleria-regolini-livorno",
+        "slug": "gioielleria-regolini-livorno",
+        "nome": "Gioielleria Regolini",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "La Gioielleria Regolini di Via del Cardinale a Livorno racconta le proprie origini come laboratorio di orologeria e dichiara tuttora vendita e riparazione di orologi. Il sito non distingue gli interventi per movimento o specializzazione: la scheda mantiene quindi il servizio generico documentato, senza attribuire revisioni, pendoleria o autorizzazioni non esplicitate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "livorno",
+        "posizione": {
+          "indirizzo": "Via del Cardinale, 44",
+          "cap": "57123",
+          "coordinate": null,
+          "fonti": [
+            "f13l4-regolini-contatti"
+          ]
+        },
+        "contatti": {
+          "telefono": "0586 883251",
+          "email": "info@gioielleriaregolini.it",
+          "sito": "https://gioielleriaregolini.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f13l4-regolini-contatti"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f13l4-regolini-servizi"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f13l4-regolini-servizi"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-10-28",
+          "verificataIl": "2026-10-28",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f13l4-regolini-contatti",
+            "f13l4-regolini-servizi"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-10-28",
+              "azione": "Acquisizione Fase 13 Lotto 4: pagine ufficiali consultate per identità, sede, recapiti e singoli servizi; nessuna autorizzazione di marca attribuita.",
+              "fonti": [
+                "f13l4-regolini-contatti",
+                "f13l4-regolini-servizi"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase13-lotto4-20261028",
+          "idOriginale": "gioielleria-regolini-livorno"
+        }
+      }
+    }
+  ]
+}

@@ -9,6 +9,15 @@ import { handleOrologiaio, creaRateLimiter } from '../site/src/lib/orologiaio-ap
 const dir = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8')));
 const turno = async (messaggio: string, contesto: Criteri = {}) =>
   (await interpretaConProvider(messaggio, dir, null, undefined, contesto)).criteri;
+// Fixture isolate: il test non dipende dall'assenza casuale di una città reale dal catalogo vivo.
+const turnoIn = async (fixture: typeof dir, messaggio: string, contesto: Criteri = {}) =>
+  (await interpretaConProvider(messaggio, fixture, null, undefined, contesto)).criteri;
+const senzaComune = (comuneSlug: string) => {
+  const f = structuredClone(dir);
+  f.localita = f.localita.filter(l => l.comuneSlug !== comuneSlug);
+  f.attivita = f.attivita.filter(b => f.localita.some(l => l.id === b.localitaId));
+  return f;
+};
 
 test('07A: acquisto e vendita si interpretano dal punto di vista del cliente', () => {
   for (const m of ['Vendo il mio Rolex usato', 'Vorrei vendere un orologio', 'Cerco chi acquista orologi usati', 'Vorrei una permuta']) {
@@ -63,8 +72,9 @@ test('07A: aggiungere Rolex automatico conserva revisione e Firenze', async () =
 });
 
 test('07A: cambiare città conserva servizio, marchio e specializzazione', async () => {
-  const prima = await turno('Per un Rolex automatico', await turno('Cerco una revisione a Firenze'));
-  const seconda = await turno('Invece a Pisa?', prima);
+  const fixture = senzaComune('pisa');
+  const prima = await turnoIn(fixture, 'Per un Rolex automatico', await turnoIn(fixture, 'Cerco una revisione a Firenze'));
+  const seconda = await turnoIn(fixture, 'Invece a Pisa?', prima);
   assert.equal(seconda.servizio, 'revisione');
   assert.equal(seconda.marca, 'Rolex');
   assert.equal(seconda.specializzazione, 'automatici');
