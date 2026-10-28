@@ -5,18 +5,23 @@ import L from 'leaflet';
 import markerIcon from 'leaflet/dist/images/marker-icon.png?url';
 import markerIcon2x from 'leaflet/dist/images/marker-icon-2x.png?url';
 import markerShadow from 'leaflet/dist/images/marker-shadow.png?url';
-L.Icon.Default.mergeOptions({ iconUrl: markerIcon, iconRetinaUrl: markerIcon2x, shadowUrl: markerShadow });
+const verifiedIcon = L.icon({ iconUrl: markerIcon, iconRetinaUrl: markerIcon2x, shadowUrl: markerShadow, iconSize: [25,41], iconAnchor: [12,41], popupAnchor: [1,-34], shadowSize: [41,41] });
 type Point = { id: string; nome: string; comune: string; indirizzo: string | null; lat: number; lon: number; href: string };
 const TILE_URL: string = (import.meta.env.PUBLIC_TILE_URL as string | undefined) || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const el = document.querySelector<HTMLElement>('#directory-map');
 if (el) {
+ const details = el.closest<HTMLDetailsElement>('details');
+ let initialized = false;
+ const initialize = () => {
+  if (initialized) return;
+  initialized = true;
   const points: Point[] = JSON.parse(el.dataset.points ?? '[]');
   const map = L.map(el, { scrollWheelZoom: false }).setView([42.5, 12.5], 5);
   L.tileLayer(TILE_URL, { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>' }).addTo(map);
   const markers = new Map<string, L.Marker>();
   for (const p of points) {
     const popup = '<strong><a href="' + p.href + '">' + p.nome + '</a></strong><br>' + (p.indirizzo ?? '') + '<br><small>' + p.comune + '</small><br><small>Posizione confrontata con l’indirizzo disponibile.</small>';
-    const marker = L.marker([p.lat, p.lon]).bindPopup(popup);
+    const marker = L.marker([p.lat, p.lon], { icon: verifiedIcon }).bindPopup(popup);
     marker.addTo(map);
     markers.set(p.id, marker);
   }
@@ -35,4 +40,8 @@ if (el) {
   const initial = (window as unknown as { __directoryResults?: string[] }).__directoryResults;
   apply(initial ?? null);
   document.addEventListener('directory:results', event => apply((event as CustomEvent<{ ids: string[] }>).detail.ids));
+  details?.addEventListener('toggle', () => { if (details.open) requestAnimationFrame(() => map.invalidateSize()); });
+ };
+ if (details) details.addEventListener('toggle', () => { if (details.open) initialize(); });
+ else initialize();
 }

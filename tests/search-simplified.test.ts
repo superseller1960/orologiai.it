@@ -28,7 +28,7 @@ async function bundleArtifact(file: string): Promise<string> {
 
 const jsFiles = (await readdir('dist/_astro')).filter(f => f.endsWith('.js'));
 const bundles = await Promise.all(jsFiles.map(async f => ({ f, code: await readFile(`dist/_astro/${f}`, 'utf8') })));
-const searchBundles = bundles.filter(b => b.code.includes('directory-search'));
+const searchBundles = bundles.filter(b => b.code.includes('search-count'));
 assert.equal(searchBundles.length, 1, 'La ricerca deve avere un bundle verificabile');
 
 const script = await bundleArtifact(searchBundles[0].f);
@@ -67,10 +67,14 @@ window.eval(script);
 const doc = window.document;
 const form = doc.querySelector<HTMLFormElement>('#directory-search')!;
 const visible = () => Array.from(doc.querySelectorAll<HTMLElement>('[data-business-id]')).filter(el => !el.hidden);
+const results = () => Array.from((window as unknown as { __directoryResults: string[] }).__directoryResults);
+const visibleIds = () => visible().map(el => el.dataset.businessId);
+const expectedPage = (ids: string[]) => ids.slice(0,12);
 const qInput = form.querySelector<HTMLInputElement>('[name="q"]')!;
 
 // 1. Partenza: tutte le attività del database visibili
-assert.equal(visible().length, directory.attivita.length, 'Tutte le attività visibili inizialmente');
+assert.equal(results().length, directory.attivita.length, 'Conteggio completo del catalogo');
+assert.equal(visible().length, 12, 'Solo 12 schede iniziali, non un elenco interminabile');
 
 // 2. Campo unico: "revisione di un Rolex" riconosce servizio e marca e mostra tutti i risultati esatti
 qInput.value = 'revisione di un Rolex';
@@ -78,9 +82,10 @@ form.dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true 
 const rolex = esitiSemantici('revisione di un Rolex');
 assert.equal(rolex.stato, 'ok');
 assert.ok(rolex.totale >= 5, 'Riconosciuti Rolex + revisione');
-assert.deepEqual(visible().map(el => el.dataset.businessId).sort(), rolex.risultati.map(r => r.id).sort(), 'Tutti e soli i risultati esatti del motore');
-assert.ok(visible().some(el => el.dataset.businessId === 'casa-cronometro-roma'));
-assert.ok(visible().some(el => el.dataset.businessId === 'orologica-torino'));
+assert.deepEqual(results().slice().sort(), rolex.risultati.map(r => r.id).sort(), 'Tutti e soli i risultati esatti del motore');
+assert.deepEqual(visibleIds(), expectedPage(results()), 'Prima pagina dei risultati esatti');
+assert.ok(results().includes('casa-cronometro-roma'));
+assert.ok(results().includes('orologica-torino'));
 assert.match(doc.querySelector('#search-count')!.textContent!, /attività trovate/);
 assert.doesNotMatch(doc.querySelector('#search-count')!.textContent!, /alternative pertinenti/, 'I risultati esatti non sono alternativi');
 
@@ -89,8 +94,9 @@ qInput.value = 'cambio batteria';
 form.dispatchEvent(new window.Event('submit', { bubbles: true, cancelable: true }));
 const batterie = esitiSemantici('cambio batteria');
 assert.equal(batterie.stato, 'ok');
-assert.deepEqual(visible().map(el => el.dataset.businessId).sort(), batterie.risultati.map(r => r.id).sort(), 'Riconosciuto cambio batteria');
-assert.ok(visible().some(el => el.dataset.businessId === 'fontana-bologna'));
+assert.deepEqual(results().slice().sort(), batterie.risultati.map(r => r.id).sort(), 'Riconosciuto cambio batteria');
+assert.deepEqual(visibleIds(), expectedPage(results()));
+assert.ok(results().includes('fontana-bologna'));
 
 // 4. Campo unico: "assistenza ufficiale Cartier" (nessun risultato esatto, alternative pertinenti)
 //    Omega non è più un caso negativo: errani-ravenna ha rivendita Omega documentata
@@ -112,21 +118,24 @@ form.reset();
 await new Promise(r => window.setTimeout(r, 10));
 const btnRev = doc.querySelector<HTMLButtonElement>('[data-shortcut-value="revisione"]')!;
 btnRev.click();
-assert.equal(visible().length, directory.attivita.filter(b => b.servizi.some(s => s.id === 'revisione')).length);
+assert.equal(results().length, directory.attivita.filter(b => b.servizi.some(s => s.id === 'revisione')).length);
+assert.equal(visible().length,12);
 
-// 7. Zona suggerita caricata in background
+// 7. Nessun vincolo implicito o rilevamento automatico della zona
 await new Promise(r => window.setTimeout(r, 20));
-const zoneBadge = doc.querySelector<HTMLElement>('#zone-badge')!;
-assert.equal(zoneBadge.hidden, false, 'Badge zona suggerita visibile dopo il fetch');
-assert.match(doc.querySelector('#zone-info')!.textContent!, /Lombardia/);
+assert.equal(doc.querySelector('#zone-badge'),null,'Nessuna zona automatica imposta alla ricerca');
 
 // 8. Integrazione delle due ricerche: servizi rapidi e scorciatoie condividono lo stesso pulsante,
 //    e la ricerca guidata a tre passi resta struttura della pagina.
 const dual = doc.querySelector<HTMLButtonElement>('[data-service="revisione"]');
 assert.ok(dual?.classList.contains('search-shortcut'), 'Il pulsante Revisione unifica servizi rapidi e scorciatoie');
 assert.ok(dual?.dataset.shortcutValue === 'revisione' && dual?.dataset.shortcutField === 'servizio');
-assert.ok(doc.querySelector('#step-service') && doc.querySelector('#step-region') && doc.querySelector('#step-results'), 'I tre passi della ricerca guidata restano presenti');
-assert.ok(doc.querySelector('#step-region')!.closest('.search-step')!.querySelector('select[name="regione"]'), 'La regione è nel passo 2, selezionabile subito');
+assert.ok(doc.querySelector('.guided-search'),'La ricerca guidata resta disponibile');
+assert.equal(doc.querySelector<HTMLDetailsElement>('.guided-search')!.open,false,'La guida è facoltativa e chiusa');
+assert.ok(doc.querySelector('[name="regione"]')!.closest('.advanced-filters'),'Regione solo nei filtri avanzati');
+assert.equal(doc.querySelector<HTMLDetailsElement>('.advanced-filters')!.open,false);
+assert.ok(doc.querySelector('[name="comune"]')!.closest('.primary-search-fields'),'La città è nel percorso principale');
+assert.ok(doc.querySelector('[name="servizio"]')!.closest('.primary-search-fields'),'Il servizio è nel percorso principale');
 
-console.log('UI di ricerca semplificata verificata: campo unico, semantica, scorciatoie, zona suggerita e compatibilità filtri.');
+console.log('UI ricerca verificata: semantica, risultati progressivi, scorciatoie, città principale e filtri avanzati chiusi.');
 window.close();

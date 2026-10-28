@@ -57,7 +57,7 @@ test('N02: ogni nuova scheda è ricercabile solo nei territori, tipi, servizi e 
   for (const b of fresh) {
     const p = data.localita.find(p => p.id === b.localitaId)!;
     for (const f of [{ q: b.nome }, { localita: p.id }, { provincia: p.provinciaSlug }, { regione: p.regioneSlug }]) assert.ok(found(f).includes(b.id));
-    assert.ok(!found({ localita: p.id, regione: p.regioneSlug === 'lazio' ? 'toscana' : 'lazio' }).includes(b.id));
+    assert.deepEqual(found({ localita: p.id, regione: p.regioneSlug === 'lazio' ? 'toscana' : 'lazio' }), found({ localita: p.id }), 'Fase12: la città prevale sul vecchio vincolo regionale');
     for (const tipo of b.tipi) assert.ok(found({ localita: p.id, tipo }).includes(b.id));
     for (const s of b.servizi) assert.ok(found({ localita: p.id, servizio: s.id }).includes(b.id));
     if (b.servizi.length === 1 && b.servizi[0].id === 'vendita') {

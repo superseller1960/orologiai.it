@@ -1,0 +1,17 @@
+---
+import { directory } from '../lib/directory';
+import { services } from '../lib/schema';
+interface Props { prefix?: string; }
+const { prefix = 'search' } = Astro.props;
+const available = Object.entries(services).filter(([id]) => directory.attivita.some(b => b.servizi.some(s => s.id === id)));
+---
+<div class="primary-search-fields">
+  <div class="locality-picker" data-locality-picker data-places={JSON.stringify(directory.localita.map(({ id, comune, provincia, regione }) => ({ id, comune, provincia, regione })))}>
+    <label for={`${prefix}-city`}>Dove cerchi?</label>
+    <input id={`${prefix}-city`} name="comune" type="search" placeholder="Città o comune, es. Firenze" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls={`${prefix}-suggestions`} aria-describedby={`${prefix}-hint`} enterkeyhint="search" />
+    <ul id={`${prefix}-suggestions`} class="locality-suggestions" role="listbox" hidden></ul>
+    <p id={`${prefix}-hint`} class="locality-hint" role="status" aria-live="polite">Lascia vuoto per cercare in tutta Italia.</p>
+  </div>
+  <label for={`${prefix}-service`}>Che servizio cerchi? <span class="optional">Facoltativo</span><select id={`${prefix}-service`} name="servizio"><option value="">Qualsiasi servizio</option>{available.map(([id, label]) => <option value={id}>{label}</option>)}</select></label>
+</div>
+<script src="../scripts/locality-ui.ts"></script>

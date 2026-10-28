@@ -1,6 +1,6 @@
 import raw from '../../data/directory.json';
-import { directorySchema, type Business } from '../lib/schema';
-import { filtersFromParams, normalize, searchDirectory } from '../lib/search';
+import { directorySchema, services, type Business } from '../lib/schema';
+import { filtersFromParams, localityMatches, searchDirectory } from '../lib/search';
 import { interpretaRichiesta, cercaOrologiaio } from '../lib/assistant';
 
 const data = directorySchema.parse(raw);
@@ -8,228 +8,177 @@ const form = document.querySelector<HTMLFormElement>('#directory-search');
 const count = document.querySelector<HTMLElement>('#search-count');
 const empty = document.querySelector<HTMLElement>('#search-empty');
 const list = document.querySelector<HTMLElement>('#search-results');
-const zoneBadge = document.querySelector<HTMLElement>('#zone-badge');
-const zoneInfo = document.querySelector<HTMLElement>('#zone-info');
-const zoneModify = document.querySelector<HTMLButtonElement>('#zone-modify');
-
 if (form && count && empty && list) {
+  const searchForm = form, heading = count, resultsList = list, emptyBox = empty;
   const cards = new Map(Array.from(list.querySelectorAll<HTMLElement>('[data-business-id]')).map(el => [el.dataset.businessId, el]));
-  const cityInput = form.elements.namedItem('comune') as HTMLInputElement | null;
-  const serviceSelect = form.elements.namedItem('servizio') as HTMLSelectElement | null;
-  const assistantInput = document.querySelector<HTMLTextAreaElement>('#assistente-messaggio');
-  const quickServices = Array.from(form.querySelectorAll<HTMLButtonElement>('[data-service]'));
-  const initial = new URLSearchParams(location.search);
+  const field = (name: string) => searchForm.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement;
+  const cityInput = field('comune') as HTMLInputElement;
+  const region = field('regione'), province = field('provincia');
+  const service = field('servizio') as HTMLSelectElement;
+  const more = document.querySelector<HTMLButtonElement>('#search-more')!;
+  const pageCount = document.querySelector<HTMLElement>('#search-page-count')!;
+  const context = document.querySelector<HTMLElement>('#search-context')!;
+  const chips = document.querySelector<HTMLElement>('#active-filters')!;
+  const emptyMessage = document.querySelector<HTMLElement>('#search-empty-message')!;
+  const removeService = document.querySelector<HTMLButtonElement>('#remove-service')!;
+  const advancedCount = document.querySelector<HTMLElement>('#advanced-count')!;
+  let businesses: Business[] = [], shown = 12;
+  let params = new URLSearchParams();
 
-  // Popola i campi da URL
-  for (const field of Array.from(form.elements)) {
-    if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement) {
-      const value = initial.get(field.name);
-      if (value !== null) field.value = value;
-    }
-  }
-  if (cityInput && !cityInput.value) {
-    const cityFromId = data.localita.find(p => p.id === initial.get('localita'))?.comune;
-    cityInput.value = cityFromId ?? initial.get('localitaNonCensita') ?? '';
-  }
-
-  // Scorciatoie categoria: anche i pulsanti dei servizi rapidi portano questi attributi.
-  const shortcuts = Array.from(document.querySelectorAll<HTMLButtonElement>('.search-shortcut'));
-  for (const btn of shortcuts) {
-    btn.addEventListener('click', () => {
-      const field = btn.dataset.shortcutField;
-      const val = btn.dataset.shortcutValue;
-      const target = form.elements.namedItem(field ?? '') as HTMLInputElement | HTMLSelectElement | null;
-      if (target && val) {
-        target.value = val;
-        // Se si clicca una scorciatoia, svuotiamo il testo libero generico per evitare conflitti
-        const qInput = form.elements.namedItem('q') as HTMLInputElement | null;
-        if (qInput && ['batteria', 'revisione', 'vintage'].some(s => qInput.value.toLowerCase().includes(s))) {
-          qInput.value = '';
-        }
-        update(true);
-      }
-    });
-  }
-
-  // Modifica zona suggerita: apre i filtri avanzati e mette a fuoco la regione
-  if (zoneModify) {
-    zoneModify.addEventListener('click', () => {
-      const details = form.querySelector('details');
-      if (details) details.open = true;
-      const regSelect = form.elements.namedItem('regione') as HTMLSelectElement | null;
-      if (regSelect) regSelect.focus();
-    });
-  }
-
-  // Rilevamento facoltativo e non bloccante della zona suggerita dalla connessione (senza GPS)
-  async function rilevaZonaSuggerita() {
-    if (!zoneBadge || !zoneInfo) return;
-    // Se la query ha già un comune o una regione fissata nell'URL, non sovrascrivere
-    if (initial.get('regione') || initial.get('localita')) return;
-    try {
-      const res = await (window.fetch ? window.fetch('/api/posizione', { headers: { accept: 'application/json' } }) : fetch('/api/posizione', { headers: { accept: 'application/json' } }));
-      if (!res.ok) return;
-      const pos = await res.json() as { disponibile?: boolean; regioneSlug?: string; regioneNome?: string };
-      if (pos.disponibile && pos.regioneSlug && pos.regioneNome) {
-        const regSelect = form?.elements.namedItem('regione') as HTMLSelectElement | null;
-        // Se l'utente non ha impostato manualmente una regione:
-        if (regSelect && !regSelect.value) {
-          zoneInfo.textContent = `Zona suggerita dalla connessione: ${pos.regioneNome}`;
-          zoneBadge.hidden = false;
-        }
-      }
-    } catch {
-      // Ignora silenziosamente: la ricerca manuale resta completamente funzionante
-    }
-  }
-
-  const emptyDefault = empty.textContent ?? '';
-
-  // Coerenza regione-provincia-città: la regione scelta nasconde le province di altre regioni
-  // e azzera una città o una provincia che non appartengono più alla regione selezionata.
-  const regionSelect = form.elements.namedItem('regione') as HTMLSelectElement | null;
-  const provinceSelect = form.elements.namedItem('provincia') as HTMLSelectElement | null;
-  function syncRegione() {
-    const reg = regionSelect?.value ?? '';
-    if (provinceSelect) {
-      for (const opt of Array.from(provinceSelect.options)) {
-        if (!opt.value) continue;
-        const visibile = !reg || opt.dataset.regione === reg;
-        opt.hidden = !visibile;
-        opt.disabled = !visibile;
-        if (!visibile && opt.selected) provinceSelect.value = '';
+  function restore() {
+    searchForm.reset();
+    params = new URLSearchParams(location.search);
+    for (const control of Array.from(searchForm.elements)) {
+      if (control instanceof HTMLInputElement || control instanceof HTMLSelectElement) {
+        const value = params.get(control.name);
+        if (value !== null) control.value = value;
       }
     }
-    const city = cityInput?.value.trim() ?? '';
-    if (reg && city && cityInput) {
-      const match = data.localita.find(p => normalize(p.comune) === normalize(city));
-      if (match && match.regioneSlug !== reg) cityInput.value = '';
-    }
+    const place = data.localita.find(p => p.id === params.get('localita'));
+    cityInput.value = place?.comune ?? params.get('comune') ?? params.get('localitaNonCensita') ?? params.get('localita') ?? '';
+    if (place) cityInput.dataset.localita = place.id;
   }
-
-  function update(syncUrl: boolean) {
-    if (!form || !count || !empty || !list) return;
-    syncRegione();
-    const params = new URLSearchParams();
-    const city = cityInput?.value.trim() ?? '';
-    for (const [key, value] of new FormData(form)) {
-      // "comune" è un testo libero convertito sotto in località / localitàNonCensita.
-      if (key === 'comune') continue;
-      if (typeof value === 'string' && value && value !== 'qualsiasi') params.set(key, value);
-    }
-    let cityNotCovered = false;
-    if (city) {
-      const match = data.localita.find(p => normalize(p.comune) === normalize(city));
-      if (match) params.set('localita', match.id);
-      else { params.set('localitaNonCensita', city); cityNotCovered = true; }
-    }
-
-    const filters = filtersFromParams(params);
-    const q = (filters.q ?? '').trim();
-
-    // Verifichiamo se l'utente ha impostato filtri manuali oltre a 'q'
-    const hasManualFilters = Boolean(
-      filters.localita || filters.provincia || filters.regione || filters.servizio ||
-      filters.marca || (filters.ruoloMarca && filters.ruoloMarca !== 'qualsiasi') ||
-      filters.tipo || filters.specializzazione || filters.stato
-    );
-
-    let finalBusinesses: Business[] = [];
-    let isAlternative = false;
-
-    if (cityNotCovered) {
-      // Città non censita: nessun risultato inventato; l'assistente può cercare altrove.
-      finalBusinesses = [];
-    } else if (hasManualFilters) {
-      // Ricerca con filtri combinati esatti
-      finalBusinesses = searchDirectory(data, filters).map(r => r.business);
-    } else if (!q) {
-      // Nessun filtro: mostra tutte le attività
-      finalBusinesses = searchDirectory(data, {}).map(r => r.business);
-    } else {
-      // Campo unico «Che cosa ti serve?»: interprete intelligente
-      const inter = interpretaRichiesta(q, data);
-      const crit = inter.criteri;
-      const haIntentoTecnicoOMarca = Boolean(crit.servizio || (crit.marca && (crit.ruoloMarca || crit.specializzazione || crit.tipo)));
-      const letterale = searchDirectory(data, { q });
-      const busMap = new Map(data.attivita.map(b => [b.id, b]));
-
-      if (haIntentoTecnicoOMarca) {
-        // La pagina di ricerca mostra tutti i risultati esatti (non il limite breve della chat).
-        const sem = cercaOrologiaio(data, crit, { limite: 200 });
-        if (sem.totale > 0) {
-          finalBusinesses = sem.risultati.map(r => busMap.get(r.id)!);
-        } else if (sem.alternative.length > 0) {
-          finalBusinesses = sem.alternative.map(r => busMap.get(r.id)!);
-          isAlternative = true;
-        }
-      } else if (letterale.length > 0) {
-        finalBusinesses = letterale.map(r => r.business);
-      } else if (Object.keys(crit).length > 0) {
-        const sem = cercaOrologiaio(data, crit, { limite: 200 });
-        if (sem.totale > 0) {
-          finalBusinesses = sem.risultati.map(r => busMap.get(r.id)!);
-        } else if (sem.alternative.length > 0) {
-          finalBusinesses = sem.alternative.map(r => busMap.get(r.id)!);
-          isAlternative = true;
-        }
-      }
-    }
-
-    // Aggiornamento DOM cards
+  function revealResults() {
+    // Il DOM e l'altezza delle card sono già aggiornati prima del salto.
+    const show = () => {
+      const header = document.querySelector<HTMLElement>('.site-header');
+      const style = header ? getComputedStyle(header) : null;
+      const inset = header && style && ['fixed', 'sticky'].includes(style.position) ? header.getBoundingClientRect().height + 16 : 16;
+      heading.focus({ preventScroll: true });
+      window.scrollTo?.({ top: Math.max(0, heading.getBoundingClientRect().top + window.scrollY - inset), behavior: 'instant' });
+    };
+    if (typeof requestAnimationFrame === 'function') requestAnimationFrame(show);
+    // jsdom/non-visual environments do not perform viewport scrolling.
+  }
+  function paginate() {
     for (const card of cards.values()) card.hidden = true;
-    for (const b of finalBusinesses) {
-      const card = cards.get(b.id);
+    for (const business of businesses.slice(0, shown)) {
+      const card = cards.get(business.id);
       if (card) {
         card.hidden = false;
-        list.append(card);
+        const tags = card.querySelector('.tags');
+        if (tags) {
+          const claims = [...business.servizi].sort((a,b) => Number(b.id === service.value) - Number(a.id === service.value)).slice(0,3);
+          tags.replaceChildren(...claims.map(claim => { const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = services[claim.id]; return tag; }));
+        }
+        resultsList.append(card);
       }
     }
-
-    const n = finalBusinesses.length;
-    if (cityNotCovered) {
-      count.textContent = city + ' non è ancora censita';
-    } else if (isAlternative) {
-      count.textContent = `${n} ${n === 1 ? 'alternativa pertinente trovata' : 'alternative pertinenti trovate'} (nessuna corrispondenza esatta)`;
-    } else {
-      count.textContent = `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}`;
+    more.hidden = shown >= businesses.length;
+    pageCount.textContent = businesses.length ? `Mostrate ${Math.min(shown, businesses.length)} di ${businesses.length} attività` : '';
+  }
+  function syncGeography() {
+    const exact = localityMatches(data, cityInput.value, true);
+    const selected = exact.find(p => p.id === cityInput.dataset.localita) ?? (exact.length === 1 ? exact[0] : undefined);
+    if (selected) {
+      cityInput.dataset.localita = selected.id;
+      // Mai cancellare il comune per conservare un vecchio vincolo incompatibile.
+      if (region.value && region.value !== selected.regioneSlug) region.value = '';
+      if (province.value && province.value !== selected.provinciaSlug) province.value = '';
     }
-
-    const ids = finalBusinesses.map(b => b.id);
+    for (const option of Array.from((province as HTMLSelectElement).options)) {
+      const available = !region.value || !option.value || option.dataset.regione === region.value;
+      option.hidden = !available; option.disabled = !available;
+      if (!available && option.selected) province.value = '';
+    }
+    return { exact, selected };
+  }
+  function update(mode: 'initial' | 'replace' | 'push' | 'draft' = 'replace', reveal = false) {
+    const { exact, selected } = syncGeography();
+    params = new URLSearchParams();
+    for (const [key, value] of new FormData(searchForm)) {
+      if (key !== 'comune' && typeof value === 'string' && value && value !== 'qualsiasi') params.set(key, value);
+    }
+    const city = cityInput.value.trim();
+    if (selected) params.set('localita', selected.id);
+    else if (city) params.set('localitaNonCensita', city);
+    const ambiguous = Boolean(city && exact.length > 1 && !selected);
+    const uncovered = Boolean(city && !selected && !ambiguous);
+    const filters = filtersFromParams(params);
+    const q = (filters.q ?? '').trim();
+    const manual = Boolean(filters.localita || filters.regione || filters.provincia || filters.servizio || filters.marca || filters.ruoloMarca !== 'qualsiasi' || filters.tipo || filters.specializzazione || filters.stato);
+    let alternative = false;
+    businesses = [];
+    if (!uncovered && !ambiguous) {
+      if (manual || !q) businesses = searchDirectory(data, filters).map(r => r.business);
+      else {
+        // Mantiene i deep link in linguaggio naturale e lo stesso interprete dell'assistente.
+        const { criteri } = interpretaRichiesta(q, data);
+        const technical = Boolean(criteri.servizio || (criteri.marca && (criteri.ruoloMarca || criteri.specializzazione || criteri.tipo)));
+        const literal = searchDirectory(data, { q });
+        if (!technical && literal.length) businesses = literal.map(r => r.business);
+        else if (Object.keys(criteri).length) {
+          const semantic = cercaOrologiaio(data, criteri, { limite: data.attivita.length });
+          const ids = semantic.totale ? semantic.risultati.map(b => b.id) : semantic.alternative.map(b => b.id);
+          const byId = new Map(data.attivita.map(b => [b.id, b]));
+          businesses = ids.map(id => byId.get(id)!).filter(Boolean);
+          alternative = !semantic.totale && ids.length > 0;
+        }
+      }
+    }
+    const n = businesses.length;
+    heading.textContent = ambiguous ? `Scegli il comune di ${city}` : uncovered ? `0 attività a ${city}` : alternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}${selected ? ' a ' + selected.comune : ''}`;
+    context.textContent = [service.value ? services[service.value as keyof typeof services] : '', alternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : !city && !region.value && !province.value ? 'Ricerca in tutta Italia' : ''].filter(Boolean).join(' · ');
+    emptyBox.hidden = n > 0;
+    emptyMessage.textContent = ambiguous ? `Esistono più località chiamate ${city}. Scegli provincia e regione nei suggerimenti.` : uncovered ? `${city} non è ancora censita. Non sostituiamo la città con altre località.${service.value ? ' Servizio richiesto: ' + services[service.value as keyof typeof services] + '.' : ''}` : `Nessuna attività${city ? ' a ' + city : ''} soddisfa tutti i filtri${service.value ? ': ' + services[service.value as keyof typeof services] : ''}. Rimuovi un filtro o modifica la ricerca.`;
+    removeService.hidden = !service.value;
+    const assistant = document.querySelector<HTMLTextAreaElement>('#assistente-messaggio');
+    if (uncovered && assistant) {
+      assistant.value = (service.value ? services[service.value as keyof typeof services] : q || 'Cerco un orologiaio') + ' a ' + city;
+      assistant.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+    shown = mode === 'initial' ? Math.max(12, Math.min(data.attivita.length, Number(new URLSearchParams(location.search).get('mostra')) || 12)) : 12;
+    if (shown > 12) params.set('mostra', String(shown));
+    paginate();
+    const ids = businesses.map(b => b.id);
     (window as unknown as { __directoryResults?: string[] }).__directoryResults = ids;
     document.dispatchEvent(new CustomEvent('directory:results', { detail: { ids } }));
-    empty.hidden = n > 0;
-    empty.textContent = cityNotCovered
-      ? 'Non abbiamo ancora attività censite a ' + city + '. L’assistente qui sopra può cercare lo stesso servizio in altri comuni.'
-      : emptyDefault;
-
-    if (syncUrl) history.replaceState(null, '', '/cerca/' + (params.size ? '?' + params.toString() : ''));
-    for (const button of quickServices) {
-      const selected = button.dataset.service === serviceSelect?.value;
-      button.setAttribute('aria-pressed', String(selected));
-    }
+    renderChips();
+    for (const button of document.querySelectorAll<HTMLButtonElement>('[data-service]')) button.setAttribute('aria-pressed', String(button.dataset.service === service.value));
+    const url = '/cerca/' + (params.size ? '?' + params.toString() : '');
+    if (mode === 'push' && url !== location.pathname + location.search) history.pushState(null, '', url);
+    else if (mode !== 'draft') history.replaceState(null, '', url);
+    if (reveal) revealResults();
   }
-
-  const prefillAssistantForUncoveredCity = () => {
-    const city = cityInput?.value.trim() ?? '';
-    if (!city || data.localita.some(p => normalize(p.comune) === normalize(city)) || !assistantInput) return;
-    const service = serviceSelect?.selectedOptions[0]?.textContent?.trim();
-    const query = new URLSearchParams(location.search).get('q')?.trim();
-    assistantInput.value = (service && serviceSelect?.value ? service : query || 'Cerco un orologiaio') + ' a ' + city;
-    assistantInput.dispatchEvent(new Event('input', { bubbles: true }));
-    assistantInput.focus({ preventScroll: true });
-  };
-  for (const button of quickServices) button.addEventListener('click', () => {
-    if (!serviceSelect) return;
-    serviceSelect.value = button.dataset.service ?? '';
-    update(true);
+  function renderChips() {
+    chips.replaceChildren();
+    let advanced = 0;
+    for (const [key, value] of params) {
+      if (key === 'mostra') continue;
+      const control = searchForm.elements.namedItem(key) as HTMLInputElement | HTMLSelectElement | null;
+      const isCity = ['localita', 'localitaNonCensita'].includes(key);
+      if (!isCity && key !== 'servizio') advanced++;
+      const text = isCity ? cityInput.value : control instanceof HTMLSelectElement ? control.selectedOptions[0]?.textContent ?? value : value;
+      const button = document.createElement('button'); button.type = 'button'; button.className = 'filter-chip';
+      button.textContent = `${text} ×`; button.setAttribute('aria-label', `Rimuovi filtro ${text}`);
+      button.addEventListener('click', () => {
+        if (isCity) { cityInput.value = ''; delete cityInput.dataset.localita; }
+        else if (control) control.value = key === 'ruoloMarca' ? 'qualsiasi' : '';
+        update('push');
+      }); chips.append(button);
+    }
+    advancedCount.textContent = advanced ? `(${advanced} attivi)` : '';
+  }
+  more.addEventListener('click', () => {
+    const firstNew = businesses[shown]; shown += 12; paginate();
+    params.set('mostra', String(shown)); history.replaceState(null, '', '/cerca/?' + params.toString());
+    const link = firstNew && cards.get(firstNew.id)?.querySelector<HTMLElement>('h3 a'); link?.focus();
   });
-  form.addEventListener('submit', event => { event.preventDefault(); update(true); prefillAssistantForUncoveredCity(); });
-  form.addEventListener('change', () => update(true));
-  form.addEventListener('input', () => update(true));
-  form.addEventListener('reset', () => { setTimeout(() => { if (cityInput) cityInput.value = ''; update(true); }, 0); });
-  window.addEventListener('popstate', () => location.reload());
-
-  update(false);
-  void rilevaZonaSuggerita();
+  searchForm.addEventListener('submit', event => { event.preventDefault(); update('push', true); });
+  searchForm.addEventListener('change', () => update('draft'));
+  searchForm.addEventListener('input', () => update('draft'));
+  let restoring = false;
+  searchForm.addEventListener('reset', () => {
+    if (restoring) return;
+    setTimeout(() => { cityInput.value = ''; delete cityInput.dataset.localita; update('push'); }, 0);
+  });
+  function load() { restoring = true; restore(); restoring = false; update('initial'); }
+  window.addEventListener('popstate', () => { load(); revealResults(); });
+  removeService.addEventListener('click', () => { service.value = ''; update('push', true); });
+  for (const button of document.querySelectorAll<HTMLButtonElement>('.search-shortcut')) button.addEventListener('click', () => {
+    const target = field(button.dataset.shortcutField ?? 'servizio'); if (target) target.value = button.dataset.shortcutValue ?? '';
+    update('push', true);
+  });
+  load();
+  if (location.search) revealResults();
 }

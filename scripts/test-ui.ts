@@ -11,7 +11,7 @@ async function bundleArtifact(file: string): Promise<string> {
 }
 const jsFiles = (await readdir('dist/_astro')).filter(f => f.endsWith('.js'));
 const bundles = await Promise.all(jsFiles.map(async f => ({ f, code: await readFile('dist/_astro/' + f,'utf8') })));
-const searchBundles = bundles.filter(b => b.code.includes('directory-search'));
+const searchBundles = bundles.filter(b => b.code.includes('search-count'));
 assert.equal(searchBundles.length,1,'La ricerca deve avere un bundle verificabile');
 const script = await bundleArtifact(searchBundles[0].f);
 const mapPoints = JSON.parse(new JSDOM(html).window.document.querySelector('#directory-map')!.getAttribute('data-points')!);
@@ -24,6 +24,7 @@ const { window } = dom;
 window.eval(script);
 const doc = window.document;
 const form = doc.querySelector<HTMLFormElement>('#directory-search')!;
+const allResults = () => Array.from((window as unknown as { __directoryResults: string[] }).__directoryResults);
 const visible = () => Array.from(doc.querySelectorAll<HTMLElement>('[data-business-id]')).filter(el=>!el.hidden);
 const select = (name: string, value: string) => { const el=form.querySelector<HTMLInputElement | HTMLSelectElement>('[name="'+name+'"]');assert.ok(el,'Campo '+name+' presente');el.value=value;el.dispatchEvent(new window.Event(name==='comune'||name==='q'?'input':'change',{bubbles:true})); };
 assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='firenze').length,'Il filtro nel deep link deve essere applicato');
@@ -31,12 +32,14 @@ select('comune','milano');assert.equal(visible().length,directory.attivita.filte
 select('marca','Rolex');assert.equal(visible().length,2);
 select('ruoloMarca','assistenzaUfficiale');assert.equal(visible().length,0);
 assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);
+form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
 assert.equal(new URL(window.location.href).searchParams.get('ruoloMarca'),'assistenzaUfficiale');
-form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));assert.equal(visible().length,directory.attivita.length);
+form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));assert.equal(allResults().length,directory.attivita.length);assert.equal(visible().length,12);
 select('comune','scandicci');
 select('servizio','revisione');
 assert.deepEqual(visible().map(el=>el.dataset.businessId).sort(),searchDirectory(directory,{localita:'scandicci',servizio:'revisione'}).map(r=>r.business.id).sort());
 assert.ok(visible().length>=2,'Nuovi risultati reali di Scandicci');
+form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
 assert.equal(new URL(window.location.href).searchParams.get('localita'),'scandicci');
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 select('provincia','pisa');assert.ok(visible().some(el=>el.dataset.businessId==='gabbani-pontedera'));
@@ -51,10 +54,10 @@ assert.equal(visible().length,0);assert.equal(doc.querySelector('img'),null);
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 const batteryChip=doc.querySelector<HTMLButtonElement>('[data-service="batterie"]')!;
 batteryChip.click();assert.equal(form.querySelector<HTMLSelectElement>('[name="servizio"]')!.value,'batterie');
-select('comune','Imola');form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
+select('comune','Località non censita fixture 000');form.dispatchEvent(new window.Event('submit',{bubbles:true,cancelable:true}));
 assert.equal(visible().length,0);assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);
-assert.equal(doc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value,'Sostituzione batterie a Imola');
-// Passo 2: la regione è selezionabile senza città; la città è facoltativa.
+assert.equal(doc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value,'Sostituzione batterie a Località non censita fixture 000');
+// La regione resta un filtro avanzato facoltativo senza città.
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 select('regione','molise');
 const regioneDi=(id:string)=>directory.localita.find(p=>p.id===id)?.regioneSlug;
@@ -64,10 +67,16 @@ assert.deepEqual(visible().map(el=>el.dataset.businessId).sort(),molise,'Regione
 // Province di altre regioni non selezionabili con la regione scelta.
 const toscanaOpt=Array.from(form.querySelectorAll<HTMLOptionElement>('#provincia-select option[data-regione="toscana"]'));
 assert.ok(toscanaOpt.length>0 && toscanaOpt.every(o=>o.disabled),'Province di altre regioni disabilitate');
-// Città di un'altra regione: azzerata senza filtri contraddittori.
+// La città prevale: non cancellare Milano per conservare il vecchio Molise.
 select('comune','Milano');
-assert.equal(form.querySelector<HTMLInputElement>('[name="comune"]')!.value,'','Città fuori regione azzerata');
-assert.deepEqual(visible().map(el=>el.dataset.businessId).sort(),molise,'Dopo l’azzeramento resta il filtro regionale');
+assert.equal(form.querySelector<HTMLInputElement>('[name="comune"]')!.value,'Milano');
+assert.equal(form.querySelector<HTMLSelectElement>('[name="regione"]')!.value,'');
+assert.deepEqual(allResults().slice().sort(),searchDirectory(directory,{localita:'milano'}).map(r=>r.business.id).sort());
+assert.equal(doc.querySelector<HTMLDetailsElement>('.advanced-filters')!.open,false,'Filtri avanzati inizialmente chiusi');
+form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
+doc.querySelector<HTMLButtonElement>('#search-more')!.click();
+assert.equal(visible().length,24,'Mostra altri conserva i risultati complessivi');
+assert.equal(allResults().length,directory.attivita.length);
 form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
 assert.equal(errors.length,0,'Nessun errore DOM durante i filtri');
 console.log('Ricerca verificata nel DOM: deep link, filtri, reset, servizio rapido, città non censita, precompilazione assistente, mappa e input ostile.');

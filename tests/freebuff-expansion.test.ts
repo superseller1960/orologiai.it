@@ -52,7 +52,7 @@ test('FB23: regione, provincia e comune non includono attività di altri territo
     assert.deepEqual(found({ localita }), [id]);
     assert.deepEqual(found({ provincia }), [id]);
     assert.ok(found({ regione }).includes(id));
-    assert.deepEqual(found({ localita, regione: 'toscana' }), []);
+    assert.deepEqual(found({ localita, regione: 'toscana' }), [id], 'Fase12: il comune identificato prevale sulla regione incompatibile');
   }
   assert.deepEqual(found({ localita: 'comune-non-censito' }), []);
 });

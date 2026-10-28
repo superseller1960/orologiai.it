@@ -13,12 +13,21 @@ const serviceSearchTerms: Partial<Record<keyof typeof services, string[]>> = {
   batterie: ['batteria', 'cambio batteria', 'cambio pila', 'sostituzione batteria'],
   cinturini: ['cinturino', 'bracciale'],
 };
+export function localityMatches(data: Pick<Directory, 'localita'>, query: string, exact = false) {
+  const needle = normalize(query);
+  if (!needle) return [];
+  return data.localita.filter(p => exact ? normalize(p.comune) === needle : normalize(p.comune).includes(needle))
+    .sort((a, b) => a.comune.localeCompare(b.comune, 'it') || a.provincia.localeCompare(b.provincia, 'it'));
+}
 export function distanceKm(a: { lat: number; lon: number }, b: { lat: number; lon: number }): number {
   const rad = (n: number) => n * Math.PI / 180;
   const h = Math.sin(rad(b.lat - a.lat) / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lon - a.lon) / 2) ** 2;
   return 6371 * 2 * Math.asin(Math.sqrt(Math.min(1, h)));
 }
 export function searchDirectory(data: Directory, f: SearchFilters = {}): { business: Business; distanzaKm: number | null }[] {
+  // Una località identificata prevale sui vincoli territoriali dei vecchi deep link.
+  const selectedPlace = data.localita.find(p => p.id === f.localita);
+  if (selectedPlace) f = { ...f, regione: selectedPlace.regioneSlug, provincia: selectedPlace.provinciaSlug };
   const placeMap = new Map(data.localita.map(p => [p.id, p]));
   const tokens = normalize(f.q ?? '').split(' ').filter(Boolean);
   return data.attivita.filter(b => {
