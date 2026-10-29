@@ -580,7 +580,12 @@ export async function interpretaConProvider(
     if (!parsed.success) throw new Error('risposta malformata');
     const c = parsed.data;
     const ammessi: Criteri = { ...c };
-    if (c.localita && !dir.localita.some(p => p.id === c.localita)) {
+    // Ancoraggio: il modello può indicare una città solo se è stata letta nel messaggio o nel contesto.
+    const ancorata = c.localita === locale.criteri.localita || c.localita === contesto?.localita;
+    const censita = dir.localita.some(p => p.id === c.localita);
+    if (c.localita && censita && !ancorata) {
+      delete ammessi.localita;
+    } else if (c.localita && !censita) {
       delete ammessi.localita;
       ammessi.localitaNonCensita = c.localita;
     }
@@ -594,7 +599,9 @@ export async function interpretaConProvider(
       sconosciuti.push(c.regione);
     }
     const marche = new Set(dir.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)));
-    if (c.marca && !marche.has(c.marca)) {
+    if (c.marca && marche.has(c.marca) && c.marca !== locale.criteri.marca && c.marca !== contesto?.marca) {
+      delete ammessi.marca;
+    } else if (c.marca && !marche.has(c.marca)) {
       delete ammessi.marca;
       sconosciuti.push(c.marca);
     }

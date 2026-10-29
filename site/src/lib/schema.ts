@@ -14,17 +14,31 @@ export const services = {
   valutazioni: 'Valutazioni', lucidatura: 'Lucidatura', assistenza: 'Assistenza', gioielleria: 'Gioielleria',
 } as const;
 // Raggruppamento solo presentazionale dei servizi già esistenti: non assegna servizi alle attività.
+// Quattro percorsi comprensibili; le specializzazioni restano selezionabili singolarmente.
 export const macroAreeServizi: { titolo: string; servizi: (keyof typeof services)[] }[] = [
-  { titolo: 'Vendita e valutazione', servizi: ['vendita', 'vendita-nuovi', 'vendita-usati', 'acquisto-permuta', 'valutazioni'] },
-  { titolo: 'Riparazione e manutenzione', servizi: ['riparazione', 'riparazione-meccanici', 'riparazione-automatici', 'riparazione-quarzo', 'revisione', 'manutenzione', 'batterie'] },
-  { titolo: 'Restauro e antiquariato', servizi: ['restauro-vintage', 'orologi-tasca', 'ricambi'] },
-  { titolo: 'Pendole e orologi da parete', servizi: ['pendoleria'] },
-  { titolo: 'Cura, accessori e assistenza', servizi: ['cinturini', 'lucidatura', 'gioielleria', 'assistenza'] },
+  { titolo: 'Riparazione e manutenzione', servizi: ['riparazione', 'riparazione-meccanici', 'riparazione-automatici', 'riparazione-quarzo', 'revisione', 'manutenzione', 'batterie', 'cinturini', 'lucidatura'] },
+  { titolo: 'Restauro e orologi antichi', servizi: ['restauro-vintage', 'pendoleria', 'orologi-tasca', 'ricambi'] },
+  { titolo: 'Acquisto, vendita e valutazione', servizi: ['vendita', 'vendita-nuovi', 'vendita-usati', 'acquisto-permuta', 'valutazioni'] },
+  { titolo: 'Assistenza, marchi e bottega', servizi: ['assistenza', 'gioielleria'] },
 ];
+// Alias di denominazioni equivalenti: servono solo a cercare e a non duplicare le opzioni.
+// Le schede e le pagine /marchi/ conservano la denominazione originale delle fonti.
+export const brandAliases: Record<string, string> = {
+  'IWC': 'IWC Schaffhausen',
+  'Baume et Mercier': 'Baume & Mercier',
+  'Eberhard': 'Eberhard & Co.',
+};
+const brandKeyBase = (name: string) => name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+export const brandKey = (name: string) => brandKeyBase(brandAliases[name] ?? name);
+export const brandLabel = (name: string) => brandAliases[name] ?? name;
 export const businessTypes = ['orologeria', 'laboratorio', 'gioielleria', 'professionista'] as const;
 export const specializations = ['lusso', 'vintage', 'antichi', 'meccanici', 'automatici', 'collezione'] as const;
+export const specializationLabels: Record<(typeof specializations)[number], string> = {
+  lusso: 'Orologi di lusso', vintage: 'Vintage', antichi: 'Orologi antichi',
+  meccanici: 'Movimenti meccanici', automatici: 'Movimenti automatici', collezione: 'Da collezione',
+};
 export const statuses = {
-  'da-verificare': 'Da verificare', 'fonti-verificate': 'Verificata tramite fonti',
+  'da-verificare': 'Da verificare', 'fonti-verificate': 'Fonti pubbliche',
   'confermata-titolare': 'Confermata dal titolare', 'da-aggiornare': 'Da aggiornare', chiusa: 'Segnalata chiusa',
 } as const;
 const serviceId = z.enum(Object.keys(services) as [keyof typeof services, ...(keyof typeof services)[]]);

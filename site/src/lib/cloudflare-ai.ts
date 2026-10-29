@@ -8,7 +8,9 @@ import { istruzioniSistema, schemaCriteri } from './gemini.ts';
 // a quelli del percorso Gemini (condivisi da gemini.ts, che non viene modificato): il modello
 // può solo interpretare la richiesta, i fatti restano del database locale e vengono scelti dal
 // motore di ricerca, mai inventati dal modello. Documentazione: docs/ASSISTENTE-AI.md.
-export const CLOUDFLARE_AI_MODEL = '@cf/meta/llama-3.1-8b-instruct';
+// Modello verificato con JSON Mode sul piano Workers Free (incluso, nessuna fatturazione richiesta).
+// Il vecchio @cf/meta/llama-3.1-8b-instruct risulta ritirato da Cloudflare e fallisce con errore.
+export const CLOUDFLARE_AI_MODEL = '@cf/meta/llama-3.3-70b-instruct-fp8-fast';
 export const MAX_OUTPUT_TOKENS = 400;
 
 // Binding `AI` iniettato dal runtime di Cloudflare. Interfaccia minimale deliberata: il progetto

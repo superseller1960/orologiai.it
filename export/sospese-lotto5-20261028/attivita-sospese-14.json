@@ -1,0 +1,1610 @@
+[
+  {
+    "id": "cm-orologi-alba",
+    "slug": "cm-orologi-alba",
+    "nome": "CM Orologi Alba",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "CM Orologi ad Alba esegue interventi di manutenzione su movimenti meccanici e al quarzo direttamente nel proprio negozio. Il sito richiama una presenza nel settore dal 1989.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "alba",
+    "posizione": {
+      "indirizzo": "Via Cavour, 17/B",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-cmorologi-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 0173 364113",
+      "email": "info@cmorologialba.it",
+      "sito": "https://www.cmorologialba.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-cmorologi-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "manutenzione",
+        "fonti": [
+          "f13l5-cmorologi-home"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Interventi interni su movimenti meccanici e al quarzo",
+        "fonti": [
+          "f13l5-cmorologi-home"
+        ]
+      }
+    ],
+    "specializzazioni": [
+      {
+        "id": "meccanici",
+        "fonti": [
+          "f13l5-cmorologi-home"
+        ]
+      }
+    ],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": "Il sito dichiara «Dal 1989 la nostra passione»: non è riportato un anno di fondazione distinto.",
+      "eventi": [],
+      "fonti": [
+        "f13l5-cmorologi-home"
+      ]
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-cmorologi-home",
+        "f13l5-cmorologi-contatti"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-cmorologi-home",
+            "f13l5-cmorologi-contatti"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Secondo recapito pubblico +39 366 4855641; l’anno 1989 è richiamato come «passione» e non come fondazione.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "cm-orologi-alba"
+    }
+  },
+  {
+    "id": "orologeria-romana-cuneo",
+    "slug": "orologeria-romana-cuneo",
+    "nome": "Orologeria Gioielleria Romana",
+    "tipi": [
+      "orologeria",
+      "laboratorio",
+      "gioielleria"
+    ],
+    "descrizione": "Orologeria Romana a Cuneo effettua revisioni e riparazioni di movimenti meccanici di ogni marca. Il sito racconta l’apertura nel 1977 di un piccolo laboratorio di orologeria in piazza Boves e la sede attuale in Via Peveragno.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "cuneo",
+    "posizione": {
+      "indirizzo": "Via Peveragno, 15",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-romana-dove"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 0171 699950",
+      "email": "orologeriaromana@gmail.com",
+      "sito": "https://www.orologeriaromana.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-romana-dove"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-romana-orologeria"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-romana-orologeria"
+        ]
+      },
+      {
+        "id": "riparazione-meccanici",
+        "fonti": [
+          "f13l5-romana-orologeria"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [
+      {
+        "id": "meccanici",
+        "fonti": [
+          "f13l5-romana-orologeria"
+        ]
+      }
+    ],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": 1977,
+      "fondatore": null,
+      "testo": "Il sito riporta l’apertura nel 1977 di un piccolo laboratorio di orologeria in piazza Boves al n. 11 a Cuneo; l’attività è oggi in Via Peveragno.",
+      "eventi": [],
+      "fonti": [
+        "f13l5-romana-storia"
+      ]
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-romana-orologeria",
+        "f13l5-romana-dove",
+        "f13l5-romana-storia"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti, servizi e storia; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-romana-orologeria",
+            "f13l5-romana-dove",
+            "f13l5-romana-storia"
+          ]
+        }
+      ],
+      "segnalazioni": []
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "orologeria-romana-cuneo"
+    }
+  },
+  {
+    "id": "center-watch-ancona",
+    "slug": "center-watch-ancona",
+    "nome": "Center Watch di Pandolfi Orietta",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "Center Watch di Pandolfi Orietta ad Ancona è un laboratorio specializzato nella riparazione di qualsiasi tipo di orologio. Il sito ricorda un’attività inizialmente dedicata alla vendita e riparazione di orologi.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "ancona",
+    "posizione": {
+      "indirizzo": "Via Torresi, 8",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-centerwatch-home"
+      ]
+    },
+    "contatti": {
+      "telefono": null,
+      "email": "centerwatch.ancona@gmail.com",
+      "sito": "https://www.centerwatch.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-centerwatch-home"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-centerwatch-home"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-centerwatch-home",
+        "f13l5-centerwatch-chisiamo"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, email e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-centerwatch-home",
+            "f13l5-centerwatch-chisiamo"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Telefono non verificato su fonte ufficiale leggibile: il numero 071 2803679 compare soltanto su directory terze e non è stato acquisito.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "center-watch-ancona"
+    }
+  },
+  {
+    "id": "gioielleria-malaspina-reggio-calabria",
+    "slug": "gioielleria-malaspina-reggio-calabria",
+    "nome": "Gioielleria Fratelli Malaspina",
+    "tipi": [
+      "gioielleria",
+      "orologeria"
+    ],
+    "descrizione": "La Gioielleria Fratelli Malaspina a Reggio Calabria si occupa di riparazioni e assistenza sia in orologeria sia in oreficeria. Il sito presenta l’attività come gioielleria in città dal 1972.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "reggio-calabria",
+    "posizione": {
+      "indirizzo": "Via Fata Morgana, 37",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-malaspina-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "0965 330795",
+      "email": "info@gioielleriamalaspina.it",
+      "sito": "http://www.gioielleriamalaspina.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-malaspina-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-malaspina-servizi"
+        ]
+      },
+      {
+        "id": "assistenza",
+        "fonti": [
+          "f13l5-malaspina-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": "Il sito dichiara «Gioielleria a Reggio Calabria dal 1972», senza distinguere un anno di fondazione dell’impresa.",
+      "eventi": [],
+      "fonti": [
+        "f13l5-malaspina-servizi"
+      ]
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-malaspina-contatti",
+        "f13l5-malaspina-servizi"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-malaspina-contatti",
+            "f13l5-malaspina-servizi"
+          ]
+        }
+      ],
+      "segnalazioni": []
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "gioielleria-malaspina-reggio-calabria"
+    }
+  },
+  {
+    "id": "gioielleria-gigante-ortona",
+    "slug": "gioielleria-gigante-ortona",
+    "nome": "Gioielleria Gigante",
+    "tipi": [
+      "gioielleria",
+      "orologeria"
+    ],
+    "descrizione": "La storica Gioielleria Gigante di Ortona offre assistenza e riparazione sui marchi trattati. Le pagine consultate non documentano un laboratorio interno.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "ortona",
+    "posizione": {
+      "indirizzo": "Corso Vittorio Emanuele, 33",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-gigante-terms"
+      ]
+    },
+    "contatti": {
+      "telefono": "085 9066440",
+      "email": "shop@gioielleriagigante.it",
+      "sito": "https://gioielleriagigante.it/",
+      "whatsapp": "+393339393940",
+      "social": [],
+      "fonti": [
+        "f13l5-gigante-terms"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-gigante-chisiamo"
+        ]
+      },
+      {
+        "id": "assistenza",
+        "fonti": [
+          "f13l5-gigante-chisiamo"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-gigante-chisiamo",
+        "f13l5-gigante-terms"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-gigante-chisiamo",
+            "f13l5-gigante-terms"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Assistenza e riparazione dichiarate senza dettaglio di laboratorio interno; il sito si definisce «storica gioielleria» senza anno di fondazione.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "gioielleria-gigante-ortona"
+    }
+  },
+  {
+    "id": "orologeria-corso-11-verona",
+    "slug": "orologeria-corso-11-verona",
+    "nome": "Orologeria Corso 11",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "Orologeria Corso 11 a Verona ripara orologi nel proprio laboratorio: revisione meccanica, pulizia, sostituzione batterie e controllo dell’impermeabilità.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "verona",
+    "posizione": {
+      "indirizzo": "Corso Sant’Anastasia, 11",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-corso11-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "045 8033864",
+      "email": null,
+      "sito": "https://www.corso11.com/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-corso11-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-corso11-servizi"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-corso11-servizi"
+        ]
+      },
+      {
+        "id": "manutenzione",
+        "fonti": [
+          "f13l5-corso11-servizi"
+        ]
+      },
+      {
+        "id": "batterie",
+        "fonti": [
+          "f13l5-corso11-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Controllo dell’impermeabilità",
+        "fonti": [
+          "f13l5-corso11-servizi"
+        ]
+      }
+    ],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-corso11-servizi",
+        "f13l5-corso11-contatti"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-corso11-servizi",
+            "f13l5-corso11-contatti"
+          ]
+        }
+      ],
+      "segnalazioni": []
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "orologeria-corso-11-verona"
+    }
+  },
+  {
+    "id": "gioielleria-melone-vallo",
+    "slug": "gioielleria-melone-vallo",
+    "nome": "Gioielleria Melone",
+    "tipi": [
+      "gioielleria",
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "La Gioielleria Melone (Il Gioiello) di Vallo della Lucania ha un laboratorio di orologeria specializzato nella riparazione e manutenzione di orologi di pregio, con revisione completa.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "vallo-della-lucania",
+    "posizione": {
+      "indirizzo": "Via Fam. De Mattia, 10",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-melone-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": null,
+      "email": "info@gioiellimelone.it",
+      "sito": "https://www.gioiellimelone.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-melone-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-melone-servizi"
+        ]
+      },
+      {
+        "id": "manutenzione",
+        "fonti": [
+          "f13l5-melone-servizi"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-melone-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-melone-servizi",
+        "f13l5-melone-contatti"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-melone-servizi",
+            "f13l5-melone-contatti"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Il sito riporta sia «dal 1938» sia «Dal 1983»: anno di fondazione non attribuito. Recapito telefonico non verificato nelle pagine lette.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "gioielleria-melone-vallo"
+    }
+  },
+  {
+    "id": "grasso-orologi-acireale",
+    "slug": "grasso-orologi-acireale",
+    "nome": "Grasso Orologi",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "Grasso Orologi ad Acireale esegue riparazioni e revisioni di orologi, ristampa quadranti e restauro conservativo di orologi antichi.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "acireale",
+    "posizione": {
+      "indirizzo": "Via Davì, 26",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-grasso-home"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 349 644 0172",
+      "email": "info@grassorologi.it",
+      "sito": "http://www.grassorologi.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-grasso-home"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      },
+      {
+        "id": "restauro-vintage",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Ristampa quadranti",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      }
+    ],
+    "specializzazioni": [
+      {
+        "id": "antichi",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      },
+      {
+        "id": "meccanici",
+        "fonti": [
+          "f13l5-grasso-home"
+        ]
+      }
+    ],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-grasso-home"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: sito ufficiale consultato per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-grasso-home"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Il sito dichiara «oltre 30 anni di attività» senza anno di fondazione.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "grasso-orologi-acireale"
+    }
+  },
+  {
+    "id": "immagini-preziose-molfetta",
+    "slug": "immagini-preziose-molfetta",
+    "nome": "Gioielleria Immagini Preziose",
+    "tipi": [
+      "gioielleria",
+      "orologeria"
+    ],
+    "descrizione": "Immagini Preziose a Molfetta effettua interventi su meccanismi interni di orologi: sostituzione batterie, regolazione del movimento, riparazione cinturini e lucidatura delle superfici.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "molfetta",
+    "posizione": {
+      "indirizzo": "Corso Margherita di Savoia, 112",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-immagini-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "080 334 9037",
+      "email": null,
+      "sito": "https://www.immaginipreziose.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-immagini-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-immagini-riparazione"
+        ]
+      },
+      {
+        "id": "manutenzione",
+        "fonti": [
+          "f13l5-immagini-riparazione"
+        ]
+      },
+      {
+        "id": "batterie",
+        "fonti": [
+          "f13l5-immagini-riparazione"
+        ]
+      },
+      {
+        "id": "cinturini",
+        "fonti": [
+          "f13l5-immagini-riparazione"
+        ]
+      },
+      {
+        "id": "lucidatura",
+        "fonti": [
+          "f13l5-immagini-riparazione"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-immagini-contatti",
+        "f13l5-immagini-riparazione"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-immagini-contatti",
+            "f13l5-immagini-riparazione"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Email non presente nelle pagine lette; non è documentato un laboratorio interno distinto.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "immagini-preziose-molfetta"
+    }
+  },
+  {
+    "id": "carmine-costanza-battipaglia",
+    "slug": "carmine-costanza-battipaglia",
+    "nome": "Carmine Costanza — Artigiano Gioielliere",
+    "tipi": [
+      "gioielleria",
+      "orologeria",
+      "professionista"
+    ],
+    "descrizione": "Carmine Costanza, artigiano gioielliere a Battipaglia, documenta fra i propri servizi la riparazione di orologi, accanto alle lavorazioni orafo-gioielliere.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "battipaglia",
+    "posizione": {
+      "indirizzo": "Via Italia, 27/29",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-costanza-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 0828 301298",
+      "email": "info@carminecostanza.it",
+      "sito": "https://www.carminecostanza.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-costanza-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-costanza-riparazione"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-costanza-contatti",
+        "f13l5-costanza-riparazione"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-costanza-contatti",
+            "f13l5-costanza-riparazione"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "La pagina riparazioni è dedicata anche ai gioielli: non è documentato un laboratorio orologiero distinto.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "carmine-costanza-battipaglia"
+    }
+  },
+  {
+    "id": "orologeria-tic-tac-foligno",
+    "slug": "orologeria-tic-tac-foligno",
+    "nome": "Orologeria Tic Tac",
+    "tipi": [
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "Orologeria Tic Tac a Foligno ripara orologi di tutte le marche e modelli, meccanici e al quarzo, da polso e da tasca. Il sito documenta interventi anche su sveglie e pendole, con pulizia, manutenzione, revisione e ricambi.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "foligno",
+    "posizione": {
+      "indirizzo": "Via Umberto I, 54",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-tictac-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 347 8543247",
+      "email": "luciani.alessia81@gmail.com",
+      "sito": "https://www.orologeriatictac.com/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-tictac-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "riparazione-meccanici",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "riparazione-quarzo",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "orologi-tasca",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "pendoleria",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "manutenzione",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "ricambi",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Riparazione sveglie",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      }
+    ],
+    "specializzazioni": [
+      {
+        "id": "meccanici",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      },
+      {
+        "id": "antichi",
+        "fonti": [
+          "f13l5-tictac-servizi"
+        ]
+      }
+    ],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-tictac-contatti",
+        "f13l5-tictac-servizi"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-tictac-contatti",
+            "f13l5-tictac-servizi"
+          ]
+        }
+      ],
+      "segnalazioni": []
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "orologeria-tic-tac-foligno"
+    }
+  },
+  {
+    "id": "gioielleria-de-santis-fermo",
+    "slug": "gioielleria-de-santis-fermo",
+    "nome": "Gioielleria De Santis",
+    "tipi": [
+      "gioielleria",
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "La Gioielleria De Santis a Fermo ha un laboratorio con servizi per orologi da polso e da tasca: sostituzione pile, cinturini e guarnizioni, lucidatura del vetro e revisione completa.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "fermo",
+    "posizione": {
+      "indirizzo": "Corso Cefalonia, 27/29",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-desantis-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 0734 224764",
+      "email": "info@gioielleriadesantis.it",
+      "sito": "https://www.gioielleriadesantis.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-desantis-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      },
+      {
+        "id": "orologi-tasca",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      },
+      {
+        "id": "batterie",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      },
+      {
+        "id": "cinturini",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      },
+      {
+        "id": "lucidatura",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Sostituzione guarnizioni",
+        "fonti": [
+          "f13l5-desantis-servizi"
+        ]
+      }
+    ],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-desantis-contatti",
+        "f13l5-desantis-servizi"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-desantis-contatti",
+            "f13l5-desantis-servizi"
+          ]
+        }
+      ],
+      "segnalazioni": []
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "gioielleria-de-santis-fermo"
+    }
+  },
+  {
+    "id": "caffaro-gioielli-ivrea",
+    "slug": "caffaro-gioielli-ivrea",
+    "nome": "Caffaro Gioielli",
+    "tipi": [
+      "gioielleria",
+      "orologeria",
+      "laboratorio"
+    ],
+    "descrizione": "Caffaro Gioielli a Ivrea esegue interventi dal cambio della pila al restauro di pezzi d’epoca, con revisione completa dei movimenti. Il sito documenta una seconda sede in Piazza Ferruccio Nazionale.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "ivrea",
+    "posizione": {
+      "indirizzo": "Via Torino, 161",
+      "cap": null,
+      "coordinate": null,
+      "fonti": [
+        "f13l5-caffaro-contatti"
+      ]
+    },
+    "contatti": {
+      "telefono": "0125 40420",
+      "email": "leonardo.caffaro@libero.it",
+      "sito": "https://caffarogioielleria.it/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-caffaro-contatti"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-caffaro-servizi"
+        ]
+      },
+      {
+        "id": "revisione",
+        "fonti": [
+          "f13l5-caffaro-servizi"
+        ]
+      },
+      {
+        "id": "restauro-vintage",
+        "fonti": [
+          "f13l5-caffaro-servizi"
+        ]
+      },
+      {
+        "id": "batterie",
+        "fonti": [
+          "f13l5-caffaro-servizi"
+        ]
+      }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [
+      {
+        "id": "vintage",
+        "fonti": [
+          "f13l5-caffaro-servizi"
+        ]
+      }
+    ],
+    "marchi": {
+      "venduti": [],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [],
+      "rivenditaUfficiale": [],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": null,
+      "fondatore": null,
+      "testo": null,
+      "eventi": [],
+      "fonti": []
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-caffaro-contatti",
+        "f13l5-caffaro-servizi"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: pagine ufficiali consultate per identità, sede, recapiti e servizi; nessuna autorizzazione di marca attribuita.",
+          "fonti": [
+            "f13l5-caffaro-contatti",
+            "f13l5-caffaro-servizi"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Seconda sede documentata in Piazza Ferruccio Nazionale 12 (tel. 0125 48508), non censita separatamente.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "caffaro-gioielli-ivrea"
+    }
+  },
+  {
+    "id": "sergio-capone-viareggio",
+    "slug": "sergio-capone-viareggio",
+    "nome": "Sergio Capone",
+    "tipi": [
+      "orologeria",
+      "gioielleria"
+    ],
+    "descrizione": "Sergio Capone a Viareggio è indicato dal localizzatore ufficiale Rolex come rivenditore e centro assistenza Rolex, e dalla scheda ufficiale Jaeger-LeCoultre come partner ufficiale con servizi da orologiaio, controllo funzionale e punto vendita. Il sito aziendale richiama un’attività dal 1983.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "viareggio",
+    "posizione": {
+      "indirizzo": "Viale Guglielmo Marconi, 119",
+      "cap": "55049",
+      "coordinate": null,
+      "fonti": [
+        "f13l5-capone-rolex",
+        "f13l5-capone-jlc"
+      ]
+    },
+    "contatti": {
+      "telefono": "+39 0584 582776",
+      "email": null,
+      "sito": "https://www.sergiocapone.com/",
+      "whatsapp": null,
+      "social": [],
+      "fonti": [
+        "f13l5-capone-rolex",
+        "f13l5-capone-sito"
+      ]
+    },
+    "orari": {
+      "giorni": [],
+      "chiusure": [],
+      "verificatiIl": null,
+      "fonti": []
+    },
+    "servizi": [
+      {
+        "id": "riparazione",
+        "fonti": [
+          "f13l5-capone-jlc"
+        ]
+      },
+      {
+        "id": "assistenza",
+        "fonti": [
+          "f13l5-capone-rolex"
+        ]
+      },
+      {
+        "id": "vendita",
+        "fonti": [
+          "f13l5-capone-jlc"
+        ]
+      }
+    ],
+    "altriServizi": [
+      {
+        "nome": "Controllo funzionale degli orologi",
+        "fonti": [
+          "f13l5-capone-jlc"
+        ]
+      }
+    ],
+    "specializzazioni": [],
+    "marchi": {
+      "venduti": [
+        {
+          "marca": "Rolex",
+          "fonti": [
+            "f13l5-capone-rolex"
+          ]
+        },
+        {
+          "marca": "Jaeger-LeCoultre",
+          "fonti": [
+            "f13l5-capone-jlc"
+          ]
+        }
+      ],
+      "riparati": [],
+      "esperienza": [],
+      "assistenzaUfficiale": [
+        {
+          "marca": "Rolex",
+          "fonti": [
+            "f13l5-capone-rolex"
+          ]
+        },
+        {
+          "marca": "Jaeger-LeCoultre",
+          "fonti": [
+            "f13l5-capone-jlc"
+          ]
+        }
+      ],
+      "rivenditaUfficiale": [
+        {
+          "marca": "Rolex",
+          "fonti": [
+            "f13l5-capone-rolex"
+          ]
+        }
+      ],
+      "menzionati": []
+    },
+    "storia": {
+      "annoFondazione": 1983,
+      "fondatore": null,
+      "testo": "Il sito aziendale dichiara «Dal 1983 accompagniamo i clienti nella scelta di oggetti unici, gioielli e orologi».",
+      "eventi": [],
+      "fonti": [
+        "f13l5-capone-sito"
+      ]
+    },
+    "attendibilita": {
+      "stato": "fonti-verificate",
+      "raccoltaIl": "2026-10-28",
+      "verificataIl": "2026-10-28",
+      "confermataTitolareIl": null,
+      "fonti": [
+        "f13l5-capone-rolex",
+        "f13l5-capone-jlc",
+        "f13l5-capone-sito"
+      ],
+      "cronologia": [
+        {
+          "data": "2026-10-28",
+          "azione": "Acquisizione Fase 13 Lotto 5: qualifiche e recapiti dai localizzatori ufficiali dei marchi e dal sito aziendale; consultazione tramite indice del motore di ricerca per accesso diretto bloccato.",
+          "fonti": [
+            "f13l5-capone-rolex",
+            "f13l5-capone-jlc",
+            "f13l5-capone-sito"
+          ]
+        }
+      ],
+      "segnalazioni": [
+        {
+          "data": "2026-10-28",
+          "motivo": "Accesso diretto ai localizzatori ufficiali Rolex e Jaeger-LeCoultre e al sito aziendale bloccato (HTTP 403): testo delle fonti primarie ottenuto dall’indice del motore di ricerca il 2026-10-28 e concordante con directory pubbliche. Verifica manuale consigliata prima di ogni utilizzo commerciale delle qualifiche.",
+          "stato": "aperta"
+        },
+        {
+          "data": "2026-10-28",
+          "motivo": "Ulteriori sedi Sergio Capone / Casa Capone segnalate a Forte dei Marmi (Piazza Marconi 3C) e Pisa (Borgo Stretto 6), non censite separatamente.",
+          "stato": "aperta"
+        }
+      ]
+    },
+    "origine": {
+      "sistema": "fase13-lotto5-20261028",
+      "idOriginale": "sergio-capone-viareggio"
+    }
+  }
+]

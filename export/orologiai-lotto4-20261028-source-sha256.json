@@ -1,0 +1,1477 @@
+{
+  "lotto": "fase13-lotto4-20261028",
+  "data": "20261028",
+  "checkpoint": "9ce89081c223008c885b5ba7a0f627544658183a",
+  "databaseSha256": "93d6a84c72fad803be674a7080af08452c2453a45f4a475d355e332e6ea13b06",
+  "preview": "43428e3e-c75d-4bc4-8060-887bf7b4e339",
+  "production": "80e4ce42-04fa-4e97-9199-3cf0cf21bc13",
+  "productionPrecedente": "ffeafc81-2e44-47aa-a094-3ce25e547c8a",
+  "conteggi": {
+    "attivita": 324,
+    "localita": 196,
+    "fonti": 790
+  },
+  "files": {
+    ".dev.vars.example": {
+      "sha256": "0589631ac5226b3859ed83d22834947da859f926f56beb7692322dc15bd88bf2",
+      "bytes": 117
+    },
+    ".env.example": {
+      "sha256": "12dd0d1b86240286717960031539d99813568d272bbe8feee8ce3703a041e578",
+      "bytes": 170
+    },
+    ".github/workflows/directory-check.yml": {
+      "sha256": "1c6143fc3a7bca87252092f6f2047fff59138d909dae3b90aa2fb3e403ba2b4d",
+      "bytes": 483
+    },
+    ".github/workflows/import-site.yml": {
+      "sha256": "4893adc31610f3ff8ac07849a00cc84363ac5a81a65b43a05dea3330670028b9",
+      "bytes": 1301
+    },
+    ".gitignore": {
+      "sha256": "ac024abc0c502218bc4b10d5d7de0123bde92722cb05b7eb0bb848db7e5f2369",
+      "bytes": 931
+    },
+    "README.md": {
+      "sha256": "e8750c7f99b3ef9859dd1dae0889cde08d97a036f13fdbd8792cdc47a50aab17",
+      "bytes": 3743
+    },
+    "api/orologiaio.js": {
+      "sha256": "d58752f4e3434a762e3e8da25f044da7f496281e4aab10fe3ad70e1f4a78b901",
+      "bytes": 2606967
+    },
+    "api/posizione.js": {
+      "sha256": "4ccbfb862e2b09b2ac3c8107fe1ce4a7020778c5b89a30a82cf1884d94210f30",
+      "bytes": 5326
+    },
+    "astro.config.mjs": {
+      "sha256": "b48f0fe86730db9a8aa717917d8384ba3dc705669c6359fe0f1171a7d1a0550d",
+      "bytes": 318
+    },
+    "data/import/fase13-lotto4-20261028-reviewed.json": {
+      "sha256": "5256ed8015923fef3db2ca9943c28a95101fbd2160aaf7bcd91916d7f3b32373",
+      "bytes": 100372
+    },
+    "data/import/freebuff-national-20261023-reviewed.json": {
+      "sha256": "48efe4238174add76b853d557cad444df4d1d4216bffa59e400798a021583b82",
+      "bytes": 22421
+    },
+    "data/import/lazio-07b-reviewed.json": {
+      "sha256": "0702e24930b7b2f3d83ff8b1cd634b5e1dcb6d71f3e4db25f2540e2843fb8fc4",
+      "bytes": 52116
+    },
+    "data/import/national02-a-reviewed.json": {
+      "sha256": "59623d6a7c821113756c4aa2f4d8a5b382904f3148ef8a6f6346e11d4025d8c1",
+      "bytes": 63508
+    },
+    "data/import/national02-b-reviewed.json": {
+      "sha256": "9d4125dd5b728e5c8ecf2ea2945dc913c37de9cc0797ab44cb56969211f2eeca",
+      "bytes": 65275
+    },
+    "data/import/national02-c-reviewed.json": {
+      "sha256": "7cc870062aea376fee3f6e525c7dcd44555ddd521fd17e3f398ac3750185a8aa",
+      "bytes": 73516
+    },
+    "data/import/national02-d-reviewed.json": {
+      "sha256": "0b529d76d70251dfc09273495a42231e199f9532339383715b2994f99ba14c5f",
+      "bytes": 13794
+    },
+    "data/import/pilot-toscana.json": {
+      "sha256": "46bdae24ff0f96a547cbf9b6abe99e8c3c7cc4cb2e90e0f1de1f48f876dd2e82",
+      "bytes": 170
+    },
+    "data/import/pilot.overpass": {
+      "sha256": "1266a88d93c91f5f67ac496c49a23b5af5bea78ad2bce007d90aa4d7bebbe9f7",
+      "bytes": 444
+    },
+    "data/import/pr6-ancona-pescara-20261024-reviewed.json": {
+      "sha256": "08839a30ef1529618077c21417b5c50e9d3bce9a5c2392c9204d0b6482b21e36",
+      "bytes": 27900
+    },
+    "data/import/rilancio-molise-01.json": {
+      "sha256": "10128452a82698abc77f3bd6c07a7f1afda0acd2ecdff5ad72da08fedb57196a",
+      "bytes": 10617
+    },
+    "data/import/rilancio-nazionale-01.json": {
+      "sha256": "a4035ad2848d4e427acbb5d16181f253479972d267fc2804a0dd7aaf87675c9a",
+      "bytes": 85449
+    },
+    "data/import/rilancio-nazionale-02.json": {
+      "sha256": "fe7a8a4684ef4767c31272789f790e2a4116fb7ef90c932954c8639ce35cfdf9",
+      "bytes": 53438
+    },
+    "data/import/toscana-02-report.json": {
+      "sha256": "14e06ad4118c4610d8e25e5a6239a4e131f44c0d69e309f8cdde31d5c543659a",
+      "bytes": 28401
+    },
+    "data/import/toscana-02-reviewed.json": {
+      "sha256": "cf5eceb4169f0029b442e837d9ad18ff95e1bb0b3d7278658168e2794fb194c9",
+      "bytes": 37074
+    },
+    "data/import/toscana-03-geocode-targets.json": {
+      "sha256": "1bcbc0f4b292952e13f74d9e2251f09c3a9cf32529b7bf15d1b7298edfae11cd",
+      "bytes": 1487
+    },
+    "data/reports/ai-preview-20261020.json": {
+      "sha256": "899c07e39120d8a10b22f511f78df9be813f799a079b97f5d29fceba9dcffbe4",
+      "bytes": 774
+    },
+    "data/reports/audit-campagna-finale-20261027.md": {
+      "sha256": "c8b885a59f643db923d23bf3ce6af6cbf88f587bd9599a46c4f0080549f8d2a6",
+      "bytes": 5836
+    },
+    "data/reports/audit-fase9-20261027.md": {
+      "sha256": "25f72063ffdfd97cc14d855220f99b1805b9c7cbe22ea39a8e5ced43a65a4baf",
+      "bytes": 4054
+    },
+    "data/reports/audit-gruppo1-20261027.md": {
+      "sha256": "f595a606e2d6e8aff6e9f88013e6617a232b9809e1377f1b1cd76838f6a6daff",
+      "bytes": 3206
+    },
+    "data/reports/audit-gruppo2-20261027.md": {
+      "sha256": "f2adb84c25d3b4f03927278ec6507a99853a9df5f407e491385018694df1e18d",
+      "bytes": 2442
+    },
+    "data/reports/audit-gruppo3-20261027.md": {
+      "sha256": "1c6d207e4264d804ae4feaf29c9de2e25f9cbfa18156c9e4f2cb427dde2b234c",
+      "bytes": 3627
+    },
+    "data/reports/audit-gruppo4-20261027.md": {
+      "sha256": "e8fb3d28b5e50f3f7c3f9ea59792381379e125b80ec084128a5cb9f4265e3067",
+      "bytes": 3262
+    },
+    "data/reports/audit-gruppo5-20261027.md": {
+      "sha256": "c9c6731e652c27925d38531a7b5ae0c391f899bc7c304c2d818aee384aec47e7",
+      "bytes": 2539
+    },
+    "data/reports/audit-gruppo6-20261027.md": {
+      "sha256": "554a44dd2e53a91ce2eb2cc6a7e8d394061640876dcefccbb2f61445ab466614",
+      "bytes": 7194
+    },
+    "data/reports/audit-gruppo7-20261027.md": {
+      "sha256": "4b716f69649716ca2468f4429ca52548e807f9dfd58b897e3b70528326d8f762",
+      "bytes": 5533
+    },
+    "data/reports/audit-qualita-20261024.json": {
+      "sha256": "be7ecce28975cac62f2c600302bd372dcd4354bcd15a6733b9f48609704cff4e",
+      "bytes": 57092
+    },
+    "data/reports/copertura-20261027.md": {
+      "sha256": "47cdbed23d0155b95f8449fb8da5e8ddb77945e6d02a5476bb27d189cec01ab3",
+      "bytes": 15248
+    },
+    "data/reports/descrizioni-20261025-applied.json": {
+      "sha256": "5a6dddb05ff90b97143ec35312d4d44b825f5c298d7a7064440942bcb1b78f4f",
+      "bytes": 274
+    },
+    "data/reports/espansione-20261027.md": {
+      "sha256": "e3743516e4d7726827b5618c403584169c2c20bd43763ce7e7f5c27b074f1a27",
+      "bytes": 1933
+    },
+    "data/reports/espansione-lotto1-20261027.md": {
+      "sha256": "7217d7adc53200016f7e7bb69bad78e52f82b5458bc9a12ce643491fc5e6bf5e",
+      "bytes": 4707
+    },
+    "data/reports/espansione-lotto2-20261028.md": {
+      "sha256": "071175e30a83768006c32f6f096dff47e66ed9a4917ed62a6f5f1b450bf1e3ce",
+      "bytes": 9172
+    },
+    "data/reports/espansione-lotto3-20261028.md": {
+      "sha256": "b48cc2cb54956a947491218f0758ba87452fb5e2664308d6f26619841e2ec7b4",
+      "bytes": 4364
+    },
+    "data/reports/espansione-lotto4-20261028.md": {
+      "sha256": "1daecce6537a16ba78211ee99b12cd0315714f07e154281410b728e1a1b86681",
+      "bytes": 4782
+    },
+    "data/reports/fase12-ricerca-20261028.md": {
+      "sha256": "8967c9066d1f491f09958bdae20f790ac2cd844760f32743b5bcf0f1c57e275b",
+      "bytes": 13251
+    },
+    "data/reports/fase13-lotto4-20261028-applied.json": {
+      "sha256": "eab51850545ed097a9e2f1e98b33909c24a98fe34d253f0c5cf7d43158ec9869",
+      "bytes": 37206
+    },
+    "data/reports/fase13-lotto4-20261028-dry-run.json": {
+      "sha256": "11ce561bdb9ad1239ea664de1bccd48949e2b7a7a30b89f38eeaff77b2b70003",
+      "bytes": 37207
+    },
+    "data/reports/freebuff-coverage-20261023.json": {
+      "sha256": "d90ce0b6dd8f14876407b5c9b1a1ed571a1be3f3efda240161982d9f2c078346",
+      "bytes": 7073
+    },
+    "data/reports/freebuff-national-20261023-applied.json": {
+      "sha256": "12f7b63977092412feb3a3f07395ea1211365a5e43484982361b8eca1fb0aeb2",
+      "bytes": 15394
+    },
+    "data/reports/freebuff-national-20261023-dry-run.json": {
+      "sha256": "d1f45e1a794f9d2aa34e48db87b0e8644c38ea8a1644081d70d5e0c654c543e7",
+      "bytes": 15395
+    },
+    "data/reports/lazio-07b-20261020.json": {
+      "sha256": "b7181e1ecde194a3ec504cc2d937d3a866261da84c4abec12b146ce7899f160d",
+      "bytes": 14129
+    },
+    "data/reports/lotto-01-20261025-applied.json": {
+      "sha256": "ac2418de6bd6d6fb80ad80c09833ae3a80079a1b01b7ce5ba697fc7168d702d9",
+      "bytes": 8696
+    },
+    "data/reports/lotto-02-20261025-applied.json": {
+      "sha256": "374269aca5f26c4fa4aa8ff6e8d13e2ab082cbcbb13b2e975aaf8d9e4acb211c",
+      "bytes": 13631
+    },
+    "data/reports/lotto-03-20261025-applied.json": {
+      "sha256": "a10557a117f6c66a3eb87094fb6575564f79ebd85f6f7defce5600a8cb774fde",
+      "bytes": 27110
+    },
+    "data/reports/lotto-04-20261025-applied.json": {
+      "sha256": "1d6df5fc227ba9081d1a3cdc10ba87f2dfbded799258d514559debc619382533",
+      "bytes": 11135
+    },
+    "data/reports/lotto-05-20261026-applied.json": {
+      "sha256": "55c78c4e39367e647f752e825a6cd095c71e30f14d78427c0176a66a34e4736b",
+      "bytes": 20094
+    },
+    "data/reports/lotto-06-20261026-applied.json": {
+      "sha256": "76a85084ed6ccff414f7757acc62997deb1cfdb02574034f03676fa8a8152bce",
+      "bytes": 20364
+    },
+    "data/reports/lotto-07-20261026-applied.json": {
+      "sha256": "50f39d51a64faf23c792a1677a31f1a940598302321ec3bbb51caa5b42bc1866",
+      "bytes": 18192
+    },
+    "data/reports/lotto-08-20261026-applied.json": {
+      "sha256": "1362b5736a5b1213ab17a31161755221d3ea7a7afa38062826bdd3c04a16af88",
+      "bytes": 8102
+    },
+    "data/reports/national02-a-applied.json": {
+      "sha256": "c0c082126cb8d6ae913d8642d59e19dc25e0f22b825d0c809c4b22870f3cf947",
+      "bytes": 20616
+    },
+    "data/reports/national02-a-dry-run.json": {
+      "sha256": "7640e42419937270b535b39002ba15474915564915d8fd7ecf3b9d49ef6bd541",
+      "bytes": 20617
+    },
+    "data/reports/national02-b-applied.json": {
+      "sha256": "6e5c089b9786dc5f371517d4fb8ec48583919c481b200d93454cd55f5b6dc007",
+      "bytes": 21389
+    },
+    "data/reports/national02-b-dry-run.json": {
+      "sha256": "ab78789a747354d1cda8af84d99bd9eaac5d971bf5c1c40c2d2422e6d02d5722",
+      "bytes": 21390
+    },
+    "data/reports/national02-c-applied.json": {
+      "sha256": "29a1d3ff0d32545a65e44f86b4380d84a20845f1fbfa549212d4475d6aa5deda",
+      "bytes": 25751
+    },
+    "data/reports/national02-c-dry-run.json": {
+      "sha256": "034e31787d401a9a417465adb8639e0004e2efda1a9945001c19a1ddb33a5985",
+      "bytes": 25752
+    },
+    "data/reports/national02-candidates-review-20261023.json": {
+      "sha256": "8666ad49646a2dc92f698561cb3f7a3c03011bb81d1d1a2fc23e40e6fa3a750f",
+      "bytes": 3634
+    },
+    "data/reports/national02-d-applied.json": {
+      "sha256": "e1d545b1f5976931a49206654ffff5ae4d0125be6727c26fa15b7c540196c8fd",
+      "bytes": 13004
+    },
+    "data/reports/national02-d-dry-run.json": {
+      "sha256": "7eebb9a47d416ec8d314670e974b8fca24f06164b2359024222c49838f9ee6fc",
+      "bytes": 13005
+    },
+    "data/reports/national02-province-matrix-20261023.json": {
+      "sha256": "215133fc26bc9e699344018ec49d09d11a86844cd0ee26e2164b1b50770e75f9",
+      "bytes": 26348
+    },
+    "data/reports/pr6-ancona-pescara-20261024-applied.json": {
+      "sha256": "e043a67ec356ed9a012584dbd46629a72e7fdfc3773a6c2531dacd56f8b98d98",
+      "bytes": 15050
+    },
+    "data/reports/pr6-arricchimenti-20261024-applied.json": {
+      "sha256": "4fe85604e344ceec80988c8200487037e14efabdce385865b987d1b11f9b3602",
+      "bytes": 23798
+    },
+    "data/reports/rilancio-molise-01-applicato.json": {
+      "sha256": "9cd191cd04eda3d6084b1c3d10c2daefe6b0044f7aae860f697c2d17ab1dd6c5",
+      "bytes": 11666
+    },
+    "data/reports/rilancio-molise-01.json": {
+      "sha256": "fd8a4a68f73fdd2dbe96bc58fa244f4cdebf7866f08d501a2984eb55048dd8c3",
+      "bytes": 11667
+    },
+    "data/reports/rilancio-nazionale-01-applicato.json": {
+      "sha256": "88a456f7edb7beae4e5fcf6f4087094a9fa835362a7e5f0760e06216b6f69365",
+      "bytes": 19846
+    },
+    "data/reports/rilancio-nazionale-01.json": {
+      "sha256": "f1c4be0d5b5e53ff8fb041ccd9e7989eecc2d686484e1db0958701319da457c9",
+      "bytes": 19847
+    },
+    "data/reports/rilancio-nazionale-02-applicato.json": {
+      "sha256": "4ed632c141808b252719e16d53bce80e0d3cee1df8597d976e0e8b4a1d94bf0e",
+      "bytes": 18545
+    },
+    "data/reports/rilancio-nazionale-02.json": {
+      "sha256": "66ba2c61467bc45ace85f294eafb258377b3b99095f5219174def4ac5b0503d5",
+      "bytes": 18546
+    },
+    "data/staging/README.md": {
+      "sha256": "98657ee8eda942205e37d31e611728a8bff6cb68f627e2477efebf4e9e4e2fd7",
+      "bytes": 2019
+    },
+    "data/staging/pr6-arricchimento-20261024/estrazioni.json": {
+      "sha256": "2b38ef4a947f683171af43271666f1283eea8ad3d8ce9dc4e38aa76a690c1526",
+      "bytes": 42248
+    },
+    "data/staging/toscana-02-osm-source/acquisition.json": {
+      "sha256": "84c8d0d880e951289d74df96f230e4d74d57d8d35a86a392fef461664fd6b0a6",
+      "bytes": 514
+    },
+    "data/staging/toscana-02-osm-source/extract.json": {
+      "sha256": "fb94973bd59f47d281ead736cc04425d917b95e64b8b94174991d5e3449f4014",
+      "bytes": 7051
+    },
+    "data/staging/toscana-02-osm-source/query.overpass": {
+      "sha256": "1266a88d93c91f5f67ac496c49a23b5af5bea78ad2bce007d90aa4d7bebbe9f7",
+      "bytes": 444
+    },
+    "data/staging/toscana-02-osm/candidates.json": {
+      "sha256": "9d63795d51669d18184e6432edc1a0ef234af02b3dc29ddb16e39f7d148e34dc",
+      "bytes": 30129
+    },
+    "data/staging/toscana-02-osm/manifest.json": {
+      "sha256": "6ab68480cf8f1d4d353ca2999c7e2512bcca182d183a30b1402562036c159602",
+      "bytes": 673
+    },
+    "data/staging/toscana-02-osm/report.json": {
+      "sha256": "6d4aa20e33e528d74088d25e03bc10946f026b1b21173db6e0964c4dbc2a644e",
+      "bytes": 315
+    },
+    "data/staging/toscana-02-review/candidates-reviewed.json": {
+      "sha256": "cf5eceb4169f0029b442e837d9ad18ff95e1bb0b3d7278658168e2794fb194c9",
+      "bytes": 37074
+    },
+    "data/staging/toscana-02-review/decisions.json": {
+      "sha256": "3cc318636bf55ef3fc5e386223e4e408f44466976a643f9653173205b27ccbcf",
+      "bytes": 13706
+    },
+    "data/staging/toscana-02-review/report.json": {
+      "sha256": "14e06ad4118c4610d8e25e5a6239a4e131f44c0d69e309f8cdde31d5c543659a",
+      "bytes": 28401
+    },
+    "data/staging/toscana-03-geocode/manifest.json": {
+      "sha256": "4fe6e35834b71bf2c65c60f11357eea408d3f148f9dffb71224be844cc2cec15",
+      "bytes": 176
+    },
+    "data/staging/toscana-03-geocode/results.json": {
+      "sha256": "ac9ce24d46b2e20f9df16f82452dadf9b149fcb8c185af2ba4a403897dd47e5e",
+      "bytes": 19709
+    },
+    "data/staging/toscana-04-review/decisioni.json": {
+      "sha256": "ddf6863236bf0acb8c53d644f78a855a2a63cb2f732e81833f67fa44e2d35cdd",
+      "bytes": 3668
+    },
+    "docs/ASSISTENTE-AI.md": {
+      "sha256": "82fd023d585f9ffab74aa539eb9cbe2b2f5dcd669e343ec97bcbba6fb1be39cb",
+      "bytes": 5814
+    },
+    "docs/AVANZAMENTO-SESSIONE-2026-10-19.md": {
+      "sha256": "6b92d5d10bb26aad8e25c37d15244aba3959a6ac4226e99628c7fd21ba3bff52",
+      "bytes": 15526
+    },
+    "docs/COLLAUDO-2026-10-21.md": {
+      "sha256": "d47738af3f1d361aaf04fe38169b6b55e36fa24c8b012d74d7c5ba9fb9bd2689",
+      "bytes": 3902
+    },
+    "docs/DNS-OROLOGIAI.md": {
+      "sha256": "b138c9ecfaa0d5e4d654a12383fe6ba1b461cc0aa15e9136ac7855fab9d859d2",
+      "bytes": 4901
+    },
+    "docs/ESPANSIONE-FREEBUFF-20261023.md": {
+      "sha256": "4c7ae7b2f0ce9c6ecdae2703efa1c1d25da879251f70593092a71dc2dc293ada",
+      "bytes": 9538
+    },
+    "docs/ESPANSIONE-NAZIONALE-BATCH02-20261023.md": {
+      "sha256": "ecc8919fecb332a8229c6c544e611a2f25f9c196046cd65b3faa3d1f07a1d5f4",
+      "bytes": 21419
+    },
+    "docs/INCREMENTO-01.md": {
+      "sha256": "fe2865e4ba1fa83c04b87235be1c76c6b843c5b3cbe3799dbde9cae4eb58ad93",
+      "bytes": 10215
+    },
+    "docs/INCREMENTO-02.md": {
+      "sha256": "9e0f6c3a9d1851294fc9072eb1ce42f22485dd1cf317d5309e6d27ac94e30b2b",
+      "bytes": 14307
+    },
+    "docs/INTEGRAZIONE-CODEX-20261024.md": {
+      "sha256": "7dd9041ec6e97e68f107c63f04627ea74dc47fdd6505a0b20d1dcfa254ff6d99",
+      "bytes": 15210
+    },
+    "docs/LEGALE-BOZZE.md": {
+      "sha256": "c7733ddb17765f52c5665dc6ff7997c13a5e595d1ddcb65b0e872b987ddcd4c2",
+      "bytes": 5887
+    },
+    "docs/LICENZA-OSM.md": {
+      "sha256": "39a90a9100a1f9cd0ca51707b9788ccf0ec2f4ab2a2572d27a0bec9d362fb497",
+      "bytes": 6653
+    },
+    "docs/MIGRAZIONE-WORDPRESS.md": {
+      "sha256": "90e713a4def8fd2c8220dd73be3788aef1dfb5f6a6a286d93662e17bc6aaf88e",
+      "bytes": 6066
+    },
+    "docs/PR-INCREMENTO-01.md": {
+      "sha256": "f81fda575c70f62aa522bf65f8d69fb7846d737ad75aedc07061b6dc30253893",
+      "bytes": 1952
+    },
+    "docs/PR-INCREMENTO-02.md": {
+      "sha256": "26bf77832bfaecce89d60c61c1eb42a8e2f7431d7d77c193f48c9e57e3352f9a",
+      "bytes": 2905
+    },
+    "docs/PR-INCREMENTO-06.md": {
+      "sha256": "0451167f3cfec2ca5f087f00601369f9340e057e052f7caf71d9e32a332ec2f7",
+      "bytes": 4001
+    },
+    "docs/PR-INTEGRAZIONE-20261021.md": {
+      "sha256": "8cb3de9a93acb39ff8294680da274a6611103e947d9e6d8147b2486d8e18e9d4",
+      "bytes": 2887
+    },
+    "docs/PRONTO-AL-LANCIO.md": {
+      "sha256": "4f559f2c12a4477d6d8e073ef6b8b74a7d72f9d50827a8f4dc37cf230fa5d675",
+      "bytes": 11039
+    },
+    "docs/REPORT-FINALE-20261025.md": {
+      "sha256": "35d20273147d52d1d3a2306d7015f17b091dfc3b501943facbfa03d619411b5e",
+      "bytes": 6414
+    },
+    "docs/REPORT-FINALE-CAMPAGNA-20261026.md": {
+      "sha256": "8daf93827efd02d107ea0d3ae1edf6ad1af5a2c9de67e0e92c5a0e3aba3b3238",
+      "bytes": 5376
+    },
+    "docs/REPORT-LOTTO-4-20261025.md": {
+      "sha256": "f51ba4c9093910d13bb167b3b713da00a081807382f934e40161f76cb17dba1b",
+      "bytes": 7708
+    },
+    "docs/RESOCONTO-LAVORO.md": {
+      "sha256": "52bc9b2cfa2c9e7f0d4be8a6a9dd40784c13a96d07f8fe418e571a402ae8d321",
+      "bytes": 9551
+    },
+    "docs/RILASCIO-UX-CLOUDFLARE.md": {
+      "sha256": "ae660aca3b8d354afc63d06cb9b879cf465d7eb94e9613245e58e90d573735f0",
+      "bytes": 2374
+    },
+    "docs/UX-RICERCA-GUIDATA-20261023.md": {
+      "sha256": "b5e6b4ba320be1f9aacc035166ffdc9f186b7c2597d51042cfe02b56b2d294af",
+      "bytes": 3253
+    },
+    "docs/VERCEL.md": {
+      "sha256": "73d617a94e6ef5774bed24d3c19371d4829076936864e90e2b317e97edd52b2b",
+      "bytes": 3624
+    },
+    "docs/superpowers/plans/2026-10-23-national02.md": {
+      "sha256": "89db0f957689882bd80ae60adb4b03365a3aab915088099bf726deb3435c6e24",
+      "bytes": 2462
+    },
+    "docs/superpowers/plans/2026-10-28-search-ux.md": {
+      "sha256": "077d03d347f36fe769a7472bc6ce1ab0a2f1fb4bd5600c63da3f24c01223b178",
+      "bytes": 2084
+    },
+    "functions/api/orologiaio.ts": {
+      "sha256": "e19fddfae9d72d3afd32a59704663c44afe1e242b70da89a0f5c26a7459a8747",
+      "bytes": 1482
+    },
+    "functions/api/posizione.ts": {
+      "sha256": "31f8ea9c001b3caba9b3202324db5f405286dde68e15256b11d1efa35932bc93",
+      "bytes": 262
+    },
+    "package-lock.json": {
+      "sha256": "f94b71582e8b26843b5e37a16379cabd55b24f1171d0f09af1889cb8d496d355",
+      "bytes": 207514
+    },
+    "package.json": {
+      "sha256": "c10d8b8f6180852320290587567c8a2065b3158e8c43439e4661d2dfa84fb143",
+      "bytes": 1482
+    },
+    "public/blog/index.html": {
+      "sha256": "94d4fbfd2486209a4fb2cf1a8fbc00b4855bd8d2831841fb182ddec99ff9ef33",
+      "bytes": 89024
+    },
+    "public/brand/index.html": {
+      "sha256": "d0e85e6429ba552de5c23072a9ca89e8bf02c6f5e5bedb147ea29c13182659ef",
+      "bytes": 88126
+    },
+    "public/carrello/index.html": {
+      "sha256": "69b46a0aa8c617484cc06fd81442b7a7d48281e810f5ee5b212d27c7eac97f37",
+      "bytes": 141655
+    },
+    "public/contact/index.html": {
+      "sha256": "dcc7e67130d9686243b3e9d3a28ffa0bddf4a7f882de379b894228342bbf6616",
+      "bytes": 77064
+    },
+    "public/firenze/index.html": {
+      "sha256": "67223683a270e7fb55920f011d99fb54a639c6faa177ff3d6731f241d8e90718",
+      "bytes": 61099
+    },
+    "public/index.html": {
+      "sha256": "6f16bd64f275c4270e7bae51e32da4b38262a75fec6b7c01f093309e9537c249",
+      "bytes": 93229
+    },
+    "public/milano/index.html": {
+      "sha256": "e628dc5c3d1ad5f187119d293bbb02b1bc2b721095767f02414cf202e1ce50c7",
+      "bytes": 99532
+    },
+    "public/mio-account/index.html": {
+      "sha256": "aec312154b074303f1cc7b16f93fddf5c8725636dc0e26a13b2bd5f3f854e50c",
+      "bytes": 84093
+    },
+    "public/modulo-di-contatto/index.html": {
+      "sha256": "940a32360f2d542e56859d43422542276dda2354f5ece0e87a26fecb40285acd",
+      "bytes": 77028
+    },
+    "public/negozio/index.html": {
+      "sha256": "903661ba350ead16aaa99223141d466f0e063213fd70af157dfb89ee99b3b6fb",
+      "bytes": 81949
+    },
+    "public/rivenditori-e-concessionari-rolex-milano/index.html": {
+      "sha256": "53d6b09fdec3375f08ee3ac75a6f5b12705fa622a1fb2f6c948d398c015084e4",
+      "bytes": 90758
+    },
+    "public/robots.txt": {
+      "sha256": "70c8a658e02c7c1ac3c4d48d22026c99ba3935f068a157cd205ecf7d1937db28",
+      "bytes": 170
+    },
+    "public/rolex/index.html": {
+      "sha256": "d71d500a449a758e53b96df8262b02baf62cbcda4c67b617605a5cd6c4d2a035",
+      "bytes": 81752
+    },
+    "public/termini-e-condizioni/index.html": {
+      "sha256": "90f65ad10465df2b79f913fe1412464f03fb94c9ff03b195c806929386185871",
+      "bytes": 101644
+    },
+    "public/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css": {
+      "sha256": "336b46221652fc129760f523c156b5f061d8768926304d2ecb09386721f25c8c",
+      "bytes": 2782
+    },
+    "public/wp-content/plugins/complianz-gdpr/assets/css/document.min.css": {
+      "sha256": "04a21628343bddd7bdbdc5355e37bd3ae9a6a79104703bf636dfd505e35a06e9",
+      "bytes": 22323
+    },
+    "public/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js": {
+      "sha256": "07602d8ff4a17cd8352eae369c07e528dcd8ac054e2217d6c71d042c5d955619",
+      "bytes": 46123
+    },
+    "public/wp-content/plugins/elementor/assets/css/frontend-lite.min.css": {
+      "sha256": "11a9015a1aa0195411cd9cf874386967bba2f1e663403d7685ed16673ddaace6",
+      "bytes": 85698
+    },
+    "public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js": {
+      "sha256": "9616c2e19b686804fe1efed0d503a3be2f0bb6f909e31750e5d01d3377778437",
+      "bytes": 36460
+    },
+    "public/wp-content/plugins/elementor/assets/js/frontend.min.js": {
+      "sha256": "a328f40f34617b5cb97d142eaa74977767856b0269b0e3edf5b656f827b54575",
+      "bytes": 41883
+    },
+    "public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js": {
+      "sha256": "4de82973751e1a4e2996c44c92020c354fa7e5ca4d76ee1ae53a1425b9b628e4",
+      "bytes": 4958
+    },
+    "public/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css": {
+      "sha256": "e65916f9a5c70cdb24ccd28a538a48afb387063bb1f89a69492b7170aa5e1285",
+      "bytes": 19363
+    },
+    "public/wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css": {
+      "sha256": "d622534d53d3ac1095af275f0b30274fcd835785577df2dde6d9398e6f7a2c8f",
+      "bytes": 12876
+    },
+    "public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js": {
+      "sha256": "214674cc77aba35ab3567b88e2739fd08e8e96c61d279559ad61874069683ea0",
+      "bytes": 12198
+    },
+    "public/wp-content/plugins/ocean-extra/assets/css/widgets.css": {
+      "sha256": "b5cd126d4534d79e24a6416cc5710434450c6076497fe1af4e9040f860ab71ac",
+      "bytes": 53130
+    },
+    "public/wp-content/plugins/ocean-extra/includes/widgets/js/mailchimp.min.js": {
+      "sha256": "bb2200c99dbcb219dd582d3c39882661ae257588e804bbdcd726d0b69faeb368",
+      "bytes": 1177
+    },
+    "public/wp-content/plugins/woocommerce/assets/css/select2.css": {
+      "sha256": "ba8251c923a6bc34a55ef6a67f7800be90a64e088ae43c7a7c95516abe920a94",
+      "bytes": 14552
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js": {
+      "sha256": "14626e6a31e0abd24d5c6c12e5d2643263a6a4943a6d2e80f8cfaa1a122e3428",
+      "bytes": 22741
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js": {
+      "sha256": "a5a0d52aa43ec75799e8e012b6d0b18fe4e9bf6acf10d20fa1b9f0137ab4c9ab",
+      "bytes": 13903
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js": {
+      "sha256": "bfd861dc2936299f52adca1da826c273dced7c77ad4c33d31916ad55ab354e89",
+      "bytes": 3029
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js": {
+      "sha256": "2d022db650d194d935faea46a40e5512235b43bc3f8b181e32ce6d3dd745f4e1",
+      "bytes": 2938
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js": {
+      "sha256": "a256fccecac3b32ab73c91d79a18747519a1a18023be05465c933b03523a82e8",
+      "bytes": 2139
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js": {
+      "sha256": "18336635cd5e9edf2aff3ae18b67250684311c2a459457091b063dafba57d526",
+      "bytes": 9505
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js": {
+      "sha256": "3b1384ff918d4b7f95f9ee5c8fc388203dedff7344d3d96598c9562162788612",
+      "bytes": 1834
+    },
+    "public/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js": {
+      "sha256": "9089d278cd99b9ea59aa03beee2df0eeadaab4f1aeb74a6fbd21cf7df1f8fa22",
+      "bytes": 77052
+    },
+    "public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css": {
+      "sha256": "19d39ff5dc5ce5a1a86862db60eae3b00770724177c1b123f28003b38f7fc8bb",
+      "bytes": 255142
+    },
+    "public/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css": {
+      "sha256": "b4d38ebe31a12e6c88de4f40af63dd23841c9879f168a8824aa475029ef59dd1",
+      "bytes": 10435
+    },
+    "public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js": {
+      "sha256": "2dea57483641f8762937dfd9b09126a9b21c88bd3d7486186003e0bbb9043145",
+      "bytes": 771
+    },
+    "public/wp-content/themes/astra/assets/css/minified/main.min.css": {
+      "sha256": "ae9482ef2b2db0d66409955fa17f233c8b8cce22ef126791b575248b1b78299f",
+      "bytes": 40634
+    },
+    "public/wp-content/themes/astra/assets/js/minified/flexibility.min.js": {
+      "sha256": "1b3c8ff408d154cd84feb49b7065e38911bedc44a5ca059963aa9406a8089815",
+      "bytes": 15411
+    },
+    "public/wp-content/themes/astra/assets/js/minified/frontend.min.js": {
+      "sha256": "dd5800ada2d43b503acedc6dc300518e53826b5bf1cb3a9996a2f3977355bddf",
+      "bytes": 17295
+    },
+    "public/wp-content/themes/oceanwp/assets/css/style.min.css": {
+      "sha256": "ff0c5b0690a637c604012e7b85e8a2b54f694964ac58ad6d80f772f3119d7dfe",
+      "bytes": 176428
+    },
+    "public/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css": {
+      "sha256": "fe41a7936fba4a26a21face5fbb35961e74b9b11eb9e78fa26560f6986be6ed8",
+      "bytes": 10927
+    },
+    "public/wp-content/themes/oceanwp/assets/css/woo/woo-mini-cart.min.css": {
+      "sha256": "818feb14a6479f4bef8582e0a6a3efaf784ca857e9ba45e633bd22e05214eadb",
+      "bytes": 5855
+    },
+    "public/wp-content/themes/oceanwp/assets/css/woo/woo-quick-view.min.css": {
+      "sha256": "7a647f952f943c07593a579c767e6163d289cb914a84a08dd2e96c4405861fb8",
+      "bytes": 5190
+    },
+    "public/wp-content/themes/oceanwp/assets/css/woo/woo-star-font.min.css": {
+      "sha256": "04866acb939ad09defe832c7cc73ee7aba1a09b90a5f84c6b7936aa41d7c1167",
+      "bytes": 2034
+    },
+    "public/wp-content/themes/oceanwp/assets/css/woo/woocommerce.min.css": {
+      "sha256": "7affac77a8da3f1e735a4d8dfaff4979884baa6731703f95d3a9d91734844047",
+      "bytes": 96458
+    },
+    "public/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css": {
+      "sha256": "c493875ea907c37e2ef7b9560f75ad5dd918121a0f42889eda351ccab0373eb1",
+      "bytes": 59348
+    },
+    "public/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js": {
+      "sha256": "7c345ef59fb2b287237939e1cc8cc92028711602334db6d338990a01676f8e45",
+      "bytes": 14087
+    },
+    "public/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js": {
+      "sha256": "ca63a56d305249eb4cddeec8a6501010e206e110445f46572be1f2d56a1785fd",
+      "bytes": 7540
+    },
+    "public/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js": {
+      "sha256": "6678f5308a4fd9620f440c3e6433920f9a09a9d6465a13888d9638aa23d70191",
+      "bytes": 4111
+    },
+    "public/wp-content/themes/oceanwp/assets/js/ow-slider.min.js": {
+      "sha256": "b817c9b9bb557b34222c4598548f3569a7c8f2bb30b796a6c92d47dd740e4271",
+      "bytes": 2002
+    },
+    "public/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js": {
+      "sha256": "6ece33be05682148470133b0321834dad4007cf718bcf4242115472bf5c0a73d",
+      "bytes": 12402
+    },
+    "public/wp-content/themes/oceanwp/assets/js/scroll-top.min.js": {
+      "sha256": "b27375090fa7a6b1b7953505ccce5ff008db3c23196579db5749f71f0f485304",
+      "bytes": 8989
+    },
+    "public/wp-content/themes/oceanwp/assets/js/select.min.js": {
+      "sha256": "d05f3a54518cd3ac3a4e9b4cf8c5f0deab037e659299f66a534d00fe10618b64",
+      "bytes": 5181
+    },
+    "public/wp-content/themes/oceanwp/assets/js/theme.min.js": {
+      "sha256": "be5a9e7bcbc5af3b986767a8193c1d9dbb9c7bd2368ba33c25eff7bd7a76987a",
+      "bytes": 19789
+    },
+    "public/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js": {
+      "sha256": "66dd4e5c21b276f0f6302f05a0acfaec62edc461993593a028dd7113923f704f",
+      "bytes": 57568
+    },
+    "public/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js": {
+      "sha256": "b0a45cd5aed66e27bd8ee861d0e3b782c8e79849bde32f90f078b9f2451a36f2",
+      "bytes": 20219
+    },
+    "public/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-custom-features.min.js": {
+      "sha256": "ae7653925acd2561dd4af55993a5a68381e8a2c64bfb3843ffb6b03137febeba",
+      "bytes": 26993
+    },
+    "public/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-mini-cart.min.js": {
+      "sha256": "f7110646817c23ad841973838ce6adf0e546c749ddbefe1ac8b9a5130fccfa4c",
+      "bytes": 11594
+    },
+    "public/wp-content/themes/oceanwp/assets/js/wp-plugins/woocommerce/woo-quick-view.min.js": {
+      "sha256": "fa83d88daa21aed351bbb2337059e617218514443dbc4a8997af406a98bf3460",
+      "bytes": 37783
+    },
+    "public/wp-content/uploads/2022/04/geography-100x100.png": {
+      "sha256": "f992e484ee74f4408e36b404d6bf193dace1471476067b9e16bb8037ebe1e3fa",
+      "bytes": 8718
+    },
+    "public/wp-content/uploads/2022/04/geography-150x150.png": {
+      "sha256": "c9b07adcb95e6663db4cacb7489219019296fb7cb16e55f53ad23534a6343cfe",
+      "bytes": 15618
+    },
+    "public/wp-content/uploads/2022/04/geography-300x300.png": {
+      "sha256": "35514154ec5b3d83084e5fa17f790bbd68107cde2eb426ef68ecef4f6723bbb9",
+      "bytes": 39542
+    },
+    "public/wp-content/uploads/2022/04/geography.png": {
+      "sha256": "0e6010d520a38989f349327af7101b30804b8710bfe0e0d53723b08dbe7bea90",
+      "bytes": 11628
+    },
+    "public/wp-content/uploads/2022/04/laptop-100x100.png": {
+      "sha256": "68ff43674a1cf7310169d1432c33fe812d98cc264a871065422ed7f6f0e80e86",
+      "bytes": 5632
+    },
+    "public/wp-content/uploads/2022/04/laptop-150x150.png": {
+      "sha256": "ae55457d00125e452f9e7bd481b0557fc505f3cfe69a57efb703659bb1f8bf86",
+      "bytes": 9681
+    },
+    "public/wp-content/uploads/2022/04/laptop-300x300.png": {
+      "sha256": "a5c402c185ece1974406d8827d7374d3fc2fcf51698e5b7002cc9a1945a60665",
+      "bytes": 22157
+    },
+    "public/wp-content/uploads/2022/04/laptop.png": {
+      "sha256": "f3530766301152d0f011821a4347d50d208396acf7ff21f1705098536ed1ca79",
+      "bytes": 6442
+    },
+    "public/wp-content/uploads/2022/04/notes-100x100.png": {
+      "sha256": "bf2f17c2c1e4e22d955e95a752ef4451f47e88fdc98728a447738283e6f006d6",
+      "bytes": 9100
+    },
+    "public/wp-content/uploads/2022/04/notes-150x150.png": {
+      "sha256": "03e58863d97980873b0c6cad92c8a4d7d8053862aa2dbfa977e7deae00f1cbeb",
+      "bytes": 18663
+    },
+    "public/wp-content/uploads/2022/04/notes-300x300.png": {
+      "sha256": "5dcf47e9fb545d5a470ebe6218af8a3a2264420099c936f59cb4849e44de7753",
+      "bytes": 55701
+    },
+    "public/wp-content/uploads/2022/04/notes.png": {
+      "sha256": "c6835e90de307b030d2dc207f2e24c91056aa00fae1f43bb46378b50147352fb",
+      "bytes": 13239
+    },
+    "public/wp-content/uploads/2022/12/cropped-c572e7449de031de29210acb29e49b1e-180x180.jpg": {
+      "sha256": "709b152a092370de28bd81c7898304ddd4c95d7e2bb1c6d86f877418fc81f99d",
+      "bytes": 12033
+    },
+    "public/wp-content/uploads/2022/12/cropped-c572e7449de031de29210acb29e49b1e-192x192.jpg": {
+      "sha256": "dc03bc45874dbdadca1859359340521f632877ab378bd767b2b7dbc37295fb3c",
+      "bytes": 12738
+    },
+    "public/wp-content/uploads/2022/12/cropped-c572e7449de031de29210acb29e49b1e-32x32.jpg": {
+      "sha256": "a506aac3b09b6f81eb1bc23091ab21f16ef0725b6ff4560eb48a5c8802476310",
+      "bytes": 783
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-1024x596.jpg": {
+      "sha256": "eb3029be96588cd214b50244533f6217b1ba97515bcb5b3fbbe90cec0b033c81",
+      "bytes": 121629
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-1200x700.jpg": {
+      "sha256": "26ea7e66304659197eb75a79e4718070db78ab5d708f7532d9edfa7daf4586d4",
+      "bytes": 161593
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-1536x894.jpg": {
+      "sha256": "03e96ed47f14e60bdc3aa188b690873d52cb42fbd959c612efdba98b8d74a531",
+      "bytes": 243947
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-300x175.jpg": {
+      "sha256": "8cd6117b8341c960fe22193c5be7d176b461fe3f7f5a34486628a50b59576e15",
+      "bytes": 15884
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-600x349.jpg": {
+      "sha256": "f31151b1ff55f576b8af011c0c23894f7bb177f4ac7467e083d17f11be299bf8",
+      "bytes": 48699
+    },
+    "public/wp-content/uploads/2022/12/licensed-image-768x447.jpg": {
+      "sha256": "86d3ed850943a4ebf89b50efb4b67466d2a1a257bc46f52ed585560dad96b14a",
+      "bytes": 75003
+    },
+    "public/wp-content/uploads/2022/12/licensed-image.jpg": {
+      "sha256": "0187d303ca8b8d46c0b293773ff5c6149c1da85ca704b6ba1c1c4777c167bac4",
+      "bytes": 355205
+    },
+    "public/wp-content/uploads/2023/01/20220314122814-firenze-toscana-gettyimages-479035945-1024x683.jpg": {
+      "sha256": "0859e22cedf6432948c57fa11bd280dde1dd27a4fe6040d947dd86055b9cc5f1",
+      "bytes": 146165
+    },
+    "public/wp-content/uploads/2023/01/20220314122814-firenze-toscana-gettyimages-479035945-300x200.jpg": {
+      "sha256": "a81f4700df8efe64680fec5b6f2ec2979197e880f1bb1c278b5b05b516332706",
+      "bytes": 16551
+    },
+    "public/wp-content/uploads/2023/01/20220314122814-firenze-toscana-gettyimages-479035945-600x400.jpg": {
+      "sha256": "780a4400a030388048fc14b2292381df2da31f3f3abab492249f01bba25c773b",
+      "bytes": 56715
+    },
+    "public/wp-content/uploads/2023/01/20220314122814-firenze-toscana-gettyimages-479035945-768x512.jpg": {
+      "sha256": "17e9fd3a094441ad2191fdc178bde7c1ece1ee682a3a7ce803535a92c56b645b",
+      "bytes": 88642
+    },
+    "public/wp-content/uploads/2023/01/20220314122814-firenze-toscana-gettyimages-479035945.jpg": {
+      "sha256": "64658c14964f944985c822793722310ad74986a837f8d39bd67d1b9884b673a8",
+      "bytes": 237977
+    },
+    "public/wp-content/uploads/2023/01/roma-panorama-1024x683.jpg": {
+      "sha256": "91094985ea6a9d89c93ba18da32bffdfa03a5eb9d4ff2acea03231b3b87879c3",
+      "bytes": 152474
+    },
+    "public/wp-content/uploads/2023/01/roma-panorama-300x200.jpg": {
+      "sha256": "82ab9629d24410a073707aa12bcfcd9abe41cd49d0fa906fef8555e99b36c772",
+      "bytes": 17514
+    },
+    "public/wp-content/uploads/2023/01/roma-panorama-600x400.jpg": {
+      "sha256": "6ef936b09d74c199db9d66af17c02ec89bda39d0ad4d54a386c21f3b5bafa817",
+      "bytes": 57940
+    },
+    "public/wp-content/uploads/2023/01/roma-panorama-768x512.jpg": {
+      "sha256": "be061729db2b80d5b67b683672f9426d32efdad22a484d00fd76849129d4527a",
+      "bytes": 91979
+    },
+    "public/wp-content/uploads/2023/01/roma-panorama.jpg": {
+      "sha256": "6a1560021e32c8f07016ad2db7b6d2482fffdce42673103faa1c52629187cfb8",
+      "bytes": 103566
+    },
+    "public/wp-content/uploads/complianz/withdrawal-forms/withdrawal-form-it.pdf": {
+      "sha256": "ed9d99486eb751490234a5298036e40f2032c450bea98eb6faec60933510b599",
+      "bytes": 43629
+    },
+    "public/wp-content/uploads/elementor/css/post-116.css": {
+      "sha256": "d9b736bbe25ab7d3cb3fdcb7902ed74ebe20ee7f4cb75766022eaa51bfa7220d",
+      "bytes": 917
+    },
+    "public/wp-content/uploads/elementor/css/post-398.css": {
+      "sha256": "56c449e82e0564b62c787144b299446f1aa40a8c2fabc7969720f9efac584e8a",
+      "bytes": 1101
+    },
+    "public/wp-content/uploads/elementor/css/post-642.css": {
+      "sha256": "0dfd5f8d99119cc5ba2e1056e09825cbcf18db6418f2765525798dae53723bdb",
+      "bytes": 6963
+    },
+    "public/wp-content/uploads/elementor/css/post-905.css": {
+      "sha256": "ce203cfc8d9ae80e4e3a2b498dffa08a596911cc65a0a23d2c4bcbb42f9a6f8e",
+      "bytes": 1059
+    },
+    "public/wp-includes/css/classic-themes.min.css": {
+      "sha256": "5a5f39391fbf5b06db84b8f9716d53de575ee97a627d2c5f12f79a991a671eb5",
+      "bytes": 217
+    },
+    "public/wp-includes/css/dist/block-library/style.min.css": {
+      "sha256": "c324ef26b20264369e4568dc9ef1c5cb1f325f6bc4e8b7c01f7fe93fa353276a",
+      "bytes": 94889
+    },
+    "public/wp-includes/js/imagesloaded.min.js": {
+      "sha256": "ff4bd34aa98a0214833619d3d751838db015722dfbbec15cd14dadc66cd67869",
+      "bytes": 5629
+    },
+    "public/wp-includes/js/jquery/jquery-migrate.min.js": {
+      "sha256": "029e0a2e809fd6b5dbe76abe8b7a74936be306c9a8c27c814c4d44aa54623300",
+      "bytes": 11224
+    },
+    "public/wp-includes/js/jquery/jquery.min.js": {
+      "sha256": "cc7403bab52ed166e24ea9324241045af370be482f5b594468f4a6ac6e7e7981",
+      "bytes": 89684
+    },
+    "public/wp-includes/js/jquery/ui/core.min.js": {
+      "sha256": "ca7154cdda62b535ceaba9ad2a2b2217ff49de94c069a2c4e89733f3f06b3651",
+      "bytes": 21440
+    },
+    "public/wp-includes/js/underscore.min.js": {
+      "sha256": "726b820e44f6ab90ad991d30a4bf26d3a5d71493cbcd1fb1efd0d14e89b9df2a",
+      "bytes": 18833
+    },
+    "public/wp-includes/js/wp-util.min.js": {
+      "sha256": "3bc6467a95cec8fa516c6f5f69e1301e37e16f9bb1046fe7756729249f901b95",
+      "bytes": 1426
+    },
+    "scripts/audit-dati.ts": {
+      "sha256": "2fdf5ddd3106439405bdd4cd243daa791f939c7a8ebf00332dce567b5e6635d9",
+      "bytes": 13364
+    },
+    "scripts/audit-gruppo4-20261027.mjs": {
+      "sha256": "53d72a9c88a1c86406a79e98e9dae2bed07f1e64c35312d34e06d305b7a10fab",
+      "bytes": 12664
+    },
+    "scripts/audit-gruppo5-20261027.mjs": {
+      "sha256": "62e7d7f6431b9f4e7065b202f54593ca422ca5bbc670a4243ef3b651dbb13c1b",
+      "bytes": 7927
+    },
+    "scripts/audit-gruppo6-20261027.mjs": {
+      "sha256": "ea63828396c0372603071edb0df8273e377185a16751d9775c6816816af9f916",
+      "bytes": 20513
+    },
+    "scripts/audit-gruppo7-20261027.mjs": {
+      "sha256": "80d1e6532bb1dd86a1e143264832165e3033d565913cdbf2027870fc5a081190",
+      "bytes": 16720
+    },
+    "scripts/bundle-vercel-api.mjs": {
+      "sha256": "5cda71476f632345bcf700a4edbd9096f0d44f657ab91cbc0c529bc8f1b1eeb8",
+      "bytes": 1175
+    },
+    "scripts/check-build.ts": {
+      "sha256": "077c90025a9724f9b131bc44e608b432d39a5a3fc67909d2c49425f302682521",
+      "bytes": 3597
+    },
+    "scripts/check-casi.ts": {
+      "sha256": "ba8dca1b3811b27208fc269d86b7123182b4f80c8ca3d6fbb811ff82b3c99d71",
+      "bytes": 1891
+    },
+    "scripts/descrizioni-20261025.ts": {
+      "sha256": "e431576ee68dfb791208c901803f1835c29a73ec0a2fb0fe50594efbc433a9a6",
+      "bytes": 2513
+    },
+    "scripts/enrich-lotto-08-20261026.ts": {
+      "sha256": "588214d524d9f740f373f64fb0a06d1c856ea4a9b98a7d116735d96f1a05203c",
+      "bytes": 36530
+    },
+    "scripts/espansione-lotto1-20261027.mjs": {
+      "sha256": "8e25ed91deddf354e81a00dc4bdef037f917b8914e5d97fbe927b96d45fb8217",
+      "bytes": 45449
+    },
+    "scripts/espansione-lotto2-20261028.mjs": {
+      "sha256": "4401022e97faa96a83cefa52309791cd1e4e589179ad0efac0d50d673cefdc00",
+      "bytes": 43481
+    },
+    "scripts/espansione-lotto3-20261028.mjs": {
+      "sha256": "c2580c8b9cb9257a21fe4a28fbbc73de4c87dbf810f52430d8364060fe7a7686",
+      "bytes": 32460
+    },
+    "scripts/fetch-osm-pilot.ts": {
+      "sha256": "24019c25904f442032f3e84830c80b954cf5cdad11c7e76e8e3bd73a759f0d33",
+      "bytes": 2009
+    },
+    "scripts/geocode-toscana-03.ts": {
+      "sha256": "58dd9c2447ecd62e08cd915dd2e1805708667da8d0831678e2a05994edc22ba0",
+      "bytes": 2787
+    },
+    "scripts/import-osm.ts": {
+      "sha256": "842d2179c8617d78f5ed4eaf3493db73659c03b07ccc195d709f9441688cca4a",
+      "bytes": 1817
+    },
+    "scripts/integrate-lotto-01-20261025.ts": {
+      "sha256": "9fc0c7c4a147f180857c3e7d6b22bc6ca5f23bc7257876891835b890334c02f8",
+      "bytes": 17352
+    },
+    "scripts/integrate-lotto-02-20261025.ts": {
+      "sha256": "24e81f07e42fb8726c723dc0519c318823ef85fee66fb55e6f144df7923b6f6e",
+      "bytes": 32783
+    },
+    "scripts/integrate-lotto-03-20261025.ts": {
+      "sha256": "e4a28d74a805f3c651f58f22d75b772f741843a473cada5a520148ecf250d3c9",
+      "bytes": 46754
+    },
+    "scripts/integrate-lotto-04-20261025.ts": {
+      "sha256": "90b3103c70e45f4ee6f070a33760570f5ec1ddc9d8301ca7526765c503fbd620",
+      "bytes": 28050
+    },
+    "scripts/integrate-lotto-05-20261026.ts": {
+      "sha256": "3765f584ae64f4117d55f501f678a11ef045ca16d1c7762c5df33d781d7fb6a4",
+      "bytes": 79062
+    },
+    "scripts/integrate-lotto-06-20261026.ts": {
+      "sha256": "6553499978d1eee3cf845b9f1ce63e11869845c99644bd1e3171e1f4b6378895",
+      "bytes": 81294
+    },
+    "scripts/integrate-lotto-07-20261026.ts": {
+      "sha256": "72b448ab42ccace7205829fbb9b7aa4dda5345130c9daa53b4ba7d4ae7287422",
+      "bytes": 64513
+    },
+    "scripts/integrate-lotto-08-20261026.ts": {
+      "sha256": "f7772ab1985f7a666124fc1a3cef3c04f92eb6a2bdc709bb9627dcdb55631167",
+      "bytes": 34076
+    },
+    "scripts/integrate-nazionale-07.ts": {
+      "sha256": "d347650b1e1d42cf1e620bb3ece87e82a8c608f11cb336cb19e29554f5b9f0d3",
+      "bytes": 29734
+    },
+    "scripts/integrate-nazionale-08.ts": {
+      "sha256": "bd5dc26d67bae328ea9ea89d49396772d8685d1543ed6bcab3f35e486357e7e0",
+      "bytes": 42288
+    },
+    "scripts/integrate-reviewed-batch.ts": {
+      "sha256": "fd64f1310e88101230a568eec27403023658b38fff0d741ade1cebcf8e9f408e",
+      "bytes": 2054
+    },
+    "scripts/integrate-toscana-02.ts": {
+      "sha256": "70a9da03821720a6f0d088bf493004d175e2404775c6966f00f59251aa1f7696",
+      "bytes": 8069
+    },
+    "scripts/integrate-toscana-04.ts": {
+      "sha256": "c6e8ee09f19cf55b1652f9fd45b5f2f7b4b9c0686b08eb2770ce9c7bb99fdf6d",
+      "bytes": 6890
+    },
+    "scripts/merge-pr6-20261024.ts": {
+      "sha256": "0edfda085c7e375be04268a4447b8f86929649b9147e3cb45d759725f34f687a",
+      "bytes": 22191
+    },
+    "scripts/migrate-legacy.ts": {
+      "sha256": "72b849a30a4eeb4d5e9815200c79ef39f302176866d709c533cd08e3aec7174f",
+      "bytes": 2691
+    },
+    "scripts/package-pages.mjs": {
+      "sha256": "4a2c64e41b6e08942f804fac004e7d8988eb7dce1c4c7e8474ad1586cef8ff62",
+      "bytes": 3227
+    },
+    "scripts/pages-worker.ts": {
+      "sha256": "0b46f767dc1b65734d140b38d605c5440f6b429a77ca750d9dbe26b886c84d84",
+      "bytes": 1256
+    },
+    "scripts/test-assistant-ui.ts": {
+      "sha256": "fc417e2921b2122e26fa7b2a034907a56973553a48b5727de40a5911ff2d115a",
+      "bytes": 11964
+    },
+    "scripts/test-search-browser.mjs": {
+      "sha256": "607f62627a39ea07c01fae507bfdbfc99eca98065404c334b3c8d9a9957a48e0",
+      "bytes": 13038
+    },
+    "scripts/test-ui.ts": {
+      "sha256": "1bed09e48e0031815d5bdea026f4fd6160f838029579a35eab34054b38338168",
+      "bytes": 7073
+    },
+    "scripts/validate.ts": {
+      "sha256": "6e682ba92c1d23fa3be64082f93d7348a13c7b8fefcabc20338317f4c9d812b3",
+      "bytes": 2097
+    },
+    "scripts/verify-gemini-live.ts": {
+      "sha256": "95d0388c2284434b2dcb7b71ee6cfbe9d539c311b880946ccb6fffcc5daed6ed",
+      "bytes": 3897
+    },
+    "site/assets/_redirects": {
+      "sha256": "a3bc99beece4645ab689e48b582d2f4bf890c44483a489293dd824e997fec1be",
+      "bytes": 553
+    },
+    "site/assets/_routes.json": {
+      "sha256": "2a886da138611a87bdada85c72f9f4e41253ac3891a8953b309583bb11ea8714",
+      "bytes": 88
+    },
+    "site/blog/index.html": {
+      "sha256": "d5b63ce37bdf9ed26899b70c7d45be1bd915325b4b6813b5593934f8f2148e6e",
+      "bytes": 3217
+    },
+    "site/css/style.css": {
+      "sha256": "4657fe66ed18e4af43a2024438cb6556802e5b27c6950a16d6e7ade3c7647c18",
+      "bytes": 4268
+    },
+    "site/data/directory.json": {
+      "sha256": "93d6a84c72fad803be674a7080af08452c2453a45f4a475d355e332e6ea13b06",
+      "bytes": 1879979
+    },
+    "site/data/orologerie.json": {
+      "sha256": "931c7e1db41ed6a557ef9cd86669c5c0a5f7ee1f4245a6c791f7ff8f72eb4315",
+      "bytes": 3382
+    },
+    "site/firenze/index.html": {
+      "sha256": "4e26264d30472ae2c42bcce906bfadffbb397142aa501b5a1de60bc861ff14b1",
+      "bytes": 1624
+    },
+    "site/index.html": {
+      "sha256": "1a3cbc50a799e00983b72565de03fa6e550fe18dd5b7db7f08787ea6781db82d",
+      "bytes": 2874
+    },
+    "site/js/app.js": {
+      "sha256": "91ea2b8cc79c6586be72480efe06381be4229b15c9f9585ad8574f501f5d37c2",
+      "bytes": 3329
+    },
+    "site/js/city.js": {
+      "sha256": "ee33d1803a06576bdcae3a683268bc1c71c254b89b37f7b5b06a182abcfd307d",
+      "bytes": 1410
+    },
+    "site/milano/index.html": {
+      "sha256": "064bc46b2a95816249adfcefa88f9f25dbd903b5b6c789a78805ce44494a14de",
+      "bytes": 1619
+    },
+    "site/rolex/index.html": {
+      "sha256": "325aa9ca0b316436112da576d66d86b1bf32be14ec24e1e572b3ed0d9808ae67",
+      "bytes": 3635
+    },
+    "site/src/api/orologiaio.ts": {
+      "sha256": "8a0b782abe20ce07a1170a8787491a7634ffd091dca7390c20118737ee59e869",
+      "bytes": 1196
+    },
+    "site/src/api/posizione.ts": {
+      "sha256": "2f08d5aa961e951bf71c0d51ee030d4b77d07f7a2b7ddcbfc07bb1217556e517",
+      "bytes": 519
+    },
+    "site/src/components/BusinessCard.astro": {
+      "sha256": "23ecd6fbee6567c08074cfc80fb9754f3761b9dfc91031eb218050f764f9d2ce",
+      "bytes": 1728
+    },
+    "site/src/components/LegacyArticle.astro": {
+      "sha256": "cf9e0a4782f3b80e1b298ee67305e054ab30e3970d74cb799cb25fe1f436a1ba",
+      "bytes": 1236
+    },
+    "site/src/components/LocalityPage.astro": {
+      "sha256": "3cfdaeb895ca9aed4e58983505b89e5520e4e0685c364ea7529166767723c31a",
+      "bytes": 2057
+    },
+    "site/src/components/SearchFields.astro": {
+      "sha256": "2b1f4a3791291c4097befc9339404a8f8784f2e5353d18c0696b7a7bbb10d737",
+      "bytes": 1430
+    },
+    "site/src/layouts/Layout.astro": {
+      "sha256": "dbd223a76968e1f913ea271db6beeafc83490fd8f5cf4a798d647ed07c2a551e",
+      "bytes": 2224
+    },
+    "site/src/lib/assistant.ts": {
+      "sha256": "6d6847a950f2c9ca7ee285fe79032aa14d73e9155be2102845f7abdb60508f80",
+      "bytes": 34999
+    },
+    "site/src/lib/cloudflare-ai.ts": {
+      "sha256": "c4e5281e14ab5dfb6dc28727d132eb4d538b2f7f682db8b0e536198991df83af",
+      "bytes": 3696
+    },
+    "site/src/lib/directory.ts": {
+      "sha256": "21d373942c8ac0aec1295e1ac971b285b166d426a01abfc623b240d49cfaf0e1",
+      "bytes": 1862
+    },
+    "site/src/lib/duplicates.ts": {
+      "sha256": "2cd63c911c1b97773eaa1c629518260cca05959fd70c5e420fc10927e2c45b56",
+      "bytes": 2463
+    },
+    "site/src/lib/gemini.ts": {
+      "sha256": "bdb4473a3cfad0ce80e9b0538b25eaebbf06bbf223514eadfe01d8a342bdffa6",
+      "bytes": 7717
+    },
+    "site/src/lib/geo.ts": {
+      "sha256": "8a6b75e53922063de1bd20761a6de1cedf6a2aea9393251ef21c4973d145ddb5",
+      "bytes": 5313
+    },
+    "site/src/lib/orologiaio-api.ts": {
+      "sha256": "5eb2b5811838557308c84bb2c9d74382be38775840c12bf6ecc62db00f1ec6a1",
+      "bytes": 6607
+    },
+    "site/src/lib/osm-import.ts": {
+      "sha256": "f84e848ee015ee44d49b5d0b21183664ea40a344f5f187e0a68b173f9efa6dfa",
+      "bytes": 7765
+    },
+    "site/src/lib/posizione-api.ts": {
+      "sha256": "762e41084e12f47126a35e8742ca07077534b30b5bcea9a3bf4edeff13171239",
+      "bytes": 931
+    },
+    "site/src/lib/reviewed-import.ts": {
+      "sha256": "8a15c8092402ad4213b364cd0df67e91cc7184077eb8a1bb8303ac3ca19975d9",
+      "bytes": 7198
+    },
+    "site/src/lib/schema.ts": {
+      "sha256": "b0052d38ab91ac651a99fae6c343f60a87251235239edabbaca68eca00390c44",
+      "bytes": 10374
+    },
+    "site/src/lib/search.ts": {
+      "sha256": "4a898e711673d6da84dfe8bda277cca1a9f5d3167cc14928a6cd18a333e1d9d5",
+      "bytes": 4799
+    },
+    "site/src/pages/404.astro": {
+      "sha256": "533581e28e040839b5c84552e79488542c7195598c039b074a9217d94f36deca",
+      "bytes": 542
+    },
+    "site/src/pages/[city].astro": {
+      "sha256": "189504422bacc90d0e0074aa969e76c24c471a6b7aebeed4b0441bd2e97cdbbd",
+      "bytes": 420
+    },
+    "site/src/pages/blog/index.astro": {
+      "sha256": "ae49c8c147a449e71234249f7e4ff42342440a6ce069e62d7bd5657476338f39",
+      "bytes": 151
+    },
+    "site/src/pages/cerca.astro": {
+      "sha256": "7ed00b6622ffb7f52467acc85f233f44d6a534d323bb2be01091edace7ced547",
+      "bytes": 8886
+    },
+    "site/src/pages/cookie-policy.astro": {
+      "sha256": "d08a7d15f39cec5a5b4ceaa418727d9c9a4606bba6e0590b81835c046d600f95",
+      "bytes": 5600
+    },
+    "site/src/pages/index.astro": {
+      "sha256": "004e4741ecb35da5fa87919dd60dfe0fdcc2e93a800e31fabffd438cd6108abe",
+      "bytes": 5974
+    },
+    "site/src/pages/marchi/[marca].astro": {
+      "sha256": "a588c184b3d36cd0dd1911f6ccb7cb1e021e6178f0e96a00fe26a8fdfb7da8de",
+      "bytes": 1761
+    },
+    "site/src/pages/metodo.astro": {
+      "sha256": "c5864db948a56f7906849657addc4cdfccea5b74a4af53387825e923eb1fef3b",
+      "bytes": 2817
+    },
+    "site/src/pages/note-legali.astro": {
+      "sha256": "781707d5b3d78b8ba498e0894f1ceeb8383fcde6d4413b23badf54b4495efd24",
+      "bytes": 6155
+    },
+    "site/src/pages/orologeria/[slug].astro": {
+      "sha256": "326805e6e002c8cbbf15b347a6a23afd8b5323ee8e51baaf6d113f983602871f",
+      "bytes": 8100
+    },
+    "site/src/pages/orologerie/[regione]/[provincia]/[comune].astro": {
+      "sha256": "fd5a2d68474e809b61e3df79ec0fea1a9f085259849f2eb6172ee5d6d691d3b1",
+      "bytes": 535
+    },
+    "site/src/pages/orologerie/[regione]/index.astro": {
+      "sha256": "2d891f299f7cd074e6135a2c2769f8155d76daf063877add76db3bbce175f76a",
+      "bytes": 3038
+    },
+    "site/src/pages/orologerie/index.astro": {
+      "sha256": "163248dcf0be9fb4f2e93bc63ecdfd64b3719a8d8ed642bc826df0ecfd935db8",
+      "bytes": 5466
+    },
+    "site/src/pages/orologiaio.astro": {
+      "sha256": "f222fec6575f8057b0995a0613e8b1cc0877da814700d658a5f45d3fe4b6a9bf",
+      "bytes": 3892
+    },
+    "site/src/pages/partecipa.astro": {
+      "sha256": "0daa4d4f98faf191d4a531cb65c7bdfed1b67485ee78bc2f3a1c5f841b6252bf",
+      "bytes": 3163
+    },
+    "site/src/pages/privacy.astro": {
+      "sha256": "e083cce6d3ec310593d41ca22c0512ce8405a681e1561bc14db69cef76627bd4",
+      "bytes": 12036
+    },
+    "site/src/pages/robots.txt.ts": {
+      "sha256": "f56fa5b66718a78a4c770fafb74aa4003ad7eeb3b6f1ee809fdf1df7c8003b5b",
+      "bytes": 235
+    },
+    "site/src/pages/rolex/index.astro": {
+      "sha256": "c04c4c2f95c1a4f1f5f2b00240c343ec0f2061e632398638a80bad01fc69ed3b",
+      "bytes": 143
+    },
+    "site/src/pages/servizi/[servizio].astro": {
+      "sha256": "4537dfab220156dc373521e86073a2953b21d1a7bf019efd3389f1591397543c",
+      "bytes": 6087
+    },
+    "site/src/pages/sitemap.xml.ts": {
+      "sha256": "39166bf0f380bc09f0fbf778b5c0557dd7234ee7295eb327a44a3522140bd62d",
+      "bytes": 1046
+    },
+    "site/src/scripts/assistant-ui.ts": {
+      "sha256": "5aa05ea6e25b3db70684f9dcbeff75093ac2d65943f0748356659c793e7fbdb1",
+      "bytes": 18698
+    },
+    "site/src/scripts/locality-ui.ts": {
+      "sha256": "1c7639c61b3043655ad63c52949f64db9c6067fe367c4fbdb092886015476e9a",
+      "bytes": 4162
+    },
+    "site/src/scripts/map-ui.ts": {
+      "sha256": "ecb21fafa400f1e020afd2a9f83110854358f9ca999e3b03681b09f6b4049d1e",
+      "bytes": 2939
+    },
+    "site/src/scripts/search-ui.ts": {
+      "sha256": "03681e0ac85f674a4fd9fd63935b2143b7125d98b9bdc2bfcd6c07587a7c0ff9",
+      "bytes": 11876
+    },
+    "site/src/styles/chat.css": {
+      "sha256": "9915ecc7f8f97bca2d0556bfc2164bb952dfba9efa33e6a4ad00bf853ff656fb",
+      "bytes": 6103
+    },
+    "site/src/styles/directory.css": {
+      "sha256": "178776d77e1730d95f90e4a693562c8cb6adf1198dc8475c7b18b97a8a69c343",
+      "bytes": 10818
+    },
+    "site/src/styles/search.css": {
+      "sha256": "1a29ab53f633bfc75264a780ca0b1e64fdae47a1e726fe5d8875a8979a50b757",
+      "bytes": 3512
+    },
+    "tests/assistant.test.ts": {
+      "sha256": "6e14c1e1db1dee1de76a0d7b998f4f4c9e25c5a070ea69573d1c2c1176d99dbf",
+      "bytes": 18340
+    },
+    "tests/audit-gruppo1-20261027.test.ts": {
+      "sha256": "7fd353360df3b8f2e4a8ca48966dcf1abc39ac2320710fed69b350a53253299f",
+      "bytes": 2357
+    },
+    "tests/audit-gruppo2-20261027.test.ts": {
+      "sha256": "b553f73d0c88b3a74a84862c1d560621996e3d744a920a08c7ba5144b6a46f19",
+      "bytes": 3025
+    },
+    "tests/audit-gruppo3-20261027.test.ts": {
+      "sha256": "675366ea1ea474cc1583dad2771e3daecf34af7dcec7633ddfbe1cd36ec0f5f4",
+      "bytes": 2430
+    },
+    "tests/audit-gruppo4-20261027.test.ts": {
+      "sha256": "72d367582395a297ec1c8b1acf5581aaa153a630fc1aa9a74e5ede1c998c1352",
+      "bytes": 4064
+    },
+    "tests/audit-gruppo5-20261027.test.ts": {
+      "sha256": "89516cb993e4d694fcc01a421e9323a7012acbcbee39d52fc9ac7c81cf5ed950",
+      "bytes": 2612
+    },
+    "tests/audit-gruppo6-20261027.test.ts": {
+      "sha256": "36c29c5623182e28b8621d94aa0eca0b3f733780cde25809f7a2712b2a64fda8",
+      "bytes": 5997
+    },
+    "tests/audit-gruppo7-20261027.test.ts": {
+      "sha256": "8873ff1d5d203cdd533537f504a2623a5d95855922ef686c693b06a533307f91",
+      "bytes": 5220
+    },
+    "tests/cloudflare-ai.test.ts": {
+      "sha256": "b9a88cebe8b5896e0d0f428cb89ac2c0975b68ceb80ac7bb37701e2d8e76c5a6",
+      "bytes": 9304
+    },
+    "tests/descrizioni-20261025.test.ts": {
+      "sha256": "f8f6ccba7810712b5dd28d5d2f1e1319d3e291d13863ed1d02b504546a329f34",
+      "bytes": 1577
+    },
+    "tests/directory.test.ts": {
+      "sha256": "96cbe6b747cbf45e3d37d2cf2c647cfeb3f7355b3a1f0c1b364149f9f8bc3fb6",
+      "bytes": 7495
+    },
+    "tests/espansione-20261027.test.ts": {
+      "sha256": "34be749a1d55d2b4892516df1da8b5a9259bf1155bf1b9cd82c6c441faa31e48",
+      "bytes": 1398
+    },
+    "tests/espansione-lotto2-20261028.test.ts": {
+      "sha256": "a8a69a7dc02c20fa7b10f79d904c03d1f8569bbf7d17562b8d854e93e01dbd9b",
+      "bytes": 7819
+    },
+    "tests/espansione-lotto3-20261028.test.ts": {
+      "sha256": "53a599a17ca3b4c036a30e4d0e9cab9224ca332917fcad53045f627dc2dca98f",
+      "bytes": 5568
+    },
+    "tests/fase-07-assistant.test.ts": {
+      "sha256": "302ad851de144af4a8e8e2d3aeb6432520892661913abd215b40a2b1f73d14bf",
+      "bytes": 13134
+    },
+    "tests/fixtures/osm-pilot.json": {
+      "sha256": "e5f32ceefdfc1150029546c802f2a0b2962963c8bf47cfcdfba6f333d0073c06",
+      "bytes": 1502
+    },
+    "tests/freebuff-expansion.test.ts": {
+      "sha256": "d7b37a5bb00d7169bbd543cd023dedc84556f747c89b73fa3e3903ecf2fee787",
+      "bytes": 4581
+    },
+    "tests/geo.test.ts": {
+      "sha256": "b9ec64c4ce0f5ded408c5f4ce83baa3444d05e5ba73d00a51c89ec67e7a346e2",
+      "bytes": 2716
+    },
+    "tests/import.test.ts": {
+      "sha256": "9fc7f9e8870e46719902fd2b4a0435572161b7edb355a0cc65001bf7e10cb28e",
+      "bytes": 3665
+    },
+    "tests/incremento-04.test.ts": {
+      "sha256": "727f9ba39516465eb06981e0105862f5ca795a40edec071ec88e8ff90f4abb80",
+      "bytes": 4614
+    },
+    "tests/incremento-07.test.ts": {
+      "sha256": "60c4c6ee6ad8123ebf2a8d4d1f4e849955c43b66744ed694e60907e1c8bff5cb",
+      "bytes": 4335
+    },
+    "tests/lotto-01-20261025.test.ts": {
+      "sha256": "ae1a38bde66cc65e7d9ab6ebbcdf59700188d5a56d19ac24d13b6aff671eb7fc",
+      "bytes": 6597
+    },
+    "tests/lotto-02-20261025.test.ts": {
+      "sha256": "1b2c8e20c68762e00e4d1e52e9bb09be5b4ba395aae297febb9c6bde81915b13",
+      "bytes": 6533
+    },
+    "tests/lotto-03-20261025.test.ts": {
+      "sha256": "aec11b5a511d9562ddd51e10b4f11cd532ea9e2c7974704bddeaa979e0bedf79",
+      "bytes": 4425
+    },
+    "tests/lotto-04-20261025.test.ts": {
+      "sha256": "c09ae1f594e795a13e1fd3cd547004f8f8dae6068ea86538701834decd87e9dc",
+      "bytes": 6549
+    },
+    "tests/lotto-05-20261026.test.ts": {
+      "sha256": "8a7ad718587a142dbc0c871d836f4bd401e8952e03c891f777df0782fe9e4cea",
+      "bytes": 3324
+    },
+    "tests/lotto-06-20261026.test.ts": {
+      "sha256": "89f910aa94539118f682fddda4a79182e04d50ac162e9b7fdea983a4748f80a8",
+      "bytes": 3164
+    },
+    "tests/lotto-07-20261026.test.ts": {
+      "sha256": "3a9d7533a214ad6c25fe56b3f2046e20f597bd0f38abab90be8b8692021e9591",
+      "bytes": 2742
+    },
+    "tests/lotto-08-20261026.test.ts": {
+      "sha256": "9a0d511e2ca07d2b2e134e24ed0b2490f788c91290636c91376939ddcfad7632",
+      "bytes": 5665
+    },
+    "tests/national02.test.ts": {
+      "sha256": "4fbc93d82f2c2515e3860eb52c170ce4d3640933d5b784b70f7fbff4cf0ebc8e",
+      "bytes": 5980
+    },
+    "tests/nazionale-08.test.ts": {
+      "sha256": "d6be3e34b013d61272a956e4613cecf9252824ec3e1875aae3ecdae7a38e5e93",
+      "bytes": 7352
+    },
+    "tests/orologiaio-api.test.ts": {
+      "sha256": "3005bd55ac2293c3d4d7096ce523e37e81c05598cf435ea698887c04fe520e37",
+      "bytes": 17685
+    },
+    "tests/pr6-20261024.test.ts": {
+      "sha256": "f1425c140970d9c4def7f5be720969905350bc74101da79d8a026c1f2f4cab95",
+      "bytes": 6323
+    },
+    "tests/reviewed-import.test.ts": {
+      "sha256": "8690f2efd8fd953ff8a3633942e924885c04c8352aa5343630aff34800c090e0",
+      "bytes": 7648
+    },
+    "tests/rilancio-nazionale.test.ts": {
+      "sha256": "d4dfe7bcb077073e2962142a34ba20bca0391b372993a32064e62dc176d55135",
+      "bytes": 2834
+    },
+    "tests/search-phase12.test.ts": {
+      "sha256": "7344c7b00b24023f235d7d33faa3b591fadeb34ccb6393ba1116ceba88df7657",
+      "bytes": 1911
+    },
+    "tests/search-services.test.ts": {
+      "sha256": "6e348a8f49ca8d3f8d2f8ec126b8683868bedb70c1d8d528a114aed96f3bb7c7",
+      "bytes": 1404
+    },
+    "tests/search-simplified.test.ts": {
+      "sha256": "bf58e9a699be4fd21842c098a09527645444ea39f042b864bb3107089f0843f0",
+      "bytes": 7457
+    },
+    "tests/toscana-02.test.ts": {
+      "sha256": "3403639ca2d01cabaacb4866cbbec8ed737888a0839b9e9e31644624bb082ebf",
+      "bytes": 11874
+    },
+    "tests/vercel-api.test.ts": {
+      "sha256": "a166d34b506d4a2b4b3834e5d1b45abe1cb5aedb29ec11bd2bd98f1b26b5ec18",
+      "bytes": 10093
+    },
+    "tsconfig.json": {
+      "sha256": "afa0cbe47e47fa8daefa94db22dc75d97db1ae2a87ae5f67808992601283b0a7",
+      "bytes": 179
+    },
+    "tsconfig.tools.json": {
+      "sha256": "e20c963c076527a192cb5d685bc1467c7d94840f12aabd2e4b29f5d8e972abd3",
+      "bytes": 374
+    },
+    "vercel.json": {
+      "sha256": "aee210afc9c0c9a243a35c4e1e787db39e0e24c4385fea63d5ddadc8cb0fd7ad",
+      "bytes": 956
+    }
+  },
+  "escluso": "Dipendenze, cache, file env reali, metadati .git e archivi export storici."
+}

@@ -19752,7 +19752,7 @@ var businessTypes = ["orologeria", "laboratorio", "gioielleria", "professionista
 var specializations = ["lusso", "vintage", "antichi", "meccanici", "automatici", "collezione"];
 var statuses = {
   "da-verificare": "Da verificare",
-  "fonti-verificate": "Verificata tramite fonti",
+  "fonti-verificate": "Fonti pubbliche",
   "confermata-titolare": "Confermata dal titolare",
   "da-aggiornare": "Da aggiornare",
   chiusa: "Segnalata chiusa"

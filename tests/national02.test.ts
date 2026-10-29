@@ -80,8 +80,8 @@ test('N02: nuove schede e comuni hanno SEO, sitemap e navigazione coerenti', () 
       const doc = new JSDOM(readFileSync(`dist${path}index.html`, 'utf8')).window.document;
       assert.ok(doc.title); assert.ok(doc.querySelector('meta[name="description"]')?.getAttribute('content'));
       assert.equal(doc.querySelectorAll('h1').length, 1);
-      assert.equal(doc.querySelector('link[rel="canonical"]')?.getAttribute('href'), `https://orologiai.it${path}`);
-      assert.ok(sitemap.includes(`https://orologiai.it${path}`));
+      assert.equal(doc.querySelector('link[rel="canonical"]')?.getAttribute('href'), `https://www.orologiai.it${path}`);
+      assert.ok(sitemap.includes(`https://www.orologiai.it${path}`));
       for (const script of doc.querySelectorAll('script[type="application/ld+json"]')) JSON.parse(script.textContent!);
     }
     for (const path of [localityPath, `/orologerie/${p.regioneSlug}/`, ...b.servizi.map(s => `/servizi/${s.id}/`)]) {

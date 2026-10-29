@@ -1,0 +1,5259 @@
+diff --git a/api/orologiaio.js b/api/orologiaio.js
+index b9b52fe..55cc808 100644
+--- a/api/orologiaio.js
++++ b/api/orologiaio.js
+@@ -26553,6 +26553,618 @@ var directory_default = {
+       consultataIl: "2026-10-27",
+       percorsoArchivio: null,
+       licenza: null
++    },
++    {
++      id: "e12-orologerianozzetti-wordpress-com",
++      tipo: "sito-ufficiale",
++      url: "https://orologerianozzetti.wordpress.com/",
++      titolo: "Sito Orologeria Nozzetti \u2014 Mazara del Vallo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-gioielleriacellini-com-contattaci",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriacellini.com/contattaci.php",
++      titolo: "Sito Cellini Gioielli \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-gioielleriacellini-com",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriacellini.com/",
++      titolo: "Sito Cellini Gioielli \u2014 home",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-gioielleriacellini-com-gallery",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriacellini.com/gallery.php",
++      titolo: "Sito Cellini Gioielli \u2014 gallery (dati societari a pi\xE8 di pagina)",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-longines-com-trapani-amantia",
++      tipo: "marchio-ufficiale",
++      url: "https://www.longines.com/it/store/id/gioielleria-amantia-figli-srl-trapani-1719680",
++      titolo: "Longines \u2014 scheda Gioielleria Amantia & Figli Srl, Trapani",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-aurumgioielleria-com-chi-siamo",
++      tipo: "sito-ufficiale",
++      url: "https://www.aurumgioielleria.com/chi-siamo/",
++      titolo: "Sito Aurum Gioielleria \u2014 chi siamo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-aurumgioielleria-com-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://www.aurumgioielleria.com/contatti/",
++      titolo: "Sito Aurum Gioielleria \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-seikowatches-com-crotone-aurum",
++      tipo: "marchio-ufficiale",
++      url: "https://www.seikowatches.com/it-it/stores/28372-1",
++      titolo: "Seiko \u2014 scheda Seiko Premium Retailer Aurum Gioielleria, Crotone",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-tissotwatches-com-crotone-aurum",
++      tipo: "marchio-ufficiale",
++      url: "https://www.tissotwatches.com/it-it/store/aurum-di-castelliti-marcello/a1vNN0000020MfSYAU",
++      titolo: "Tissot \u2014 scheda rivenditore Aurum di Castelliti Marcello, Crotone",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-omegawatches-com-store-1000813",
++      tipo: "marchio-ufficiale",
++      url: "https://www.omegawatches.com/store/storedetails/1000813",
++      titolo: "OMEGA \u2014 Service Center La Macchina del Tempo, San Benedetto del Tronto",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-orologeriadelborgo-com-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://orologeriadelborgo.com/contatti/",
++      titolo: "Sito Orologeria Del Borgo \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-orologeriadelborgo-com-chi-siamo",
++      tipo: "sito-ufficiale",
++      url: "https://orologeriadelborgo.com/chi-siamo/",
++      titolo: "Sito Orologeria Del Borgo \u2014 chi siamo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-orologeriadelborgo-com-vendita",
++      tipo: "sito-ufficiale",
++      url: "https://orologeriadelborgo.com/vendita-orologi/",
++      titolo: "Sito Orologeria Del Borgo \u2014 vendita orologi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-cenciarini-net-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://cenciarini.net/pages/contatti",
++      titolo: "Sito Cenciarini Gioielleria \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-cenciarini-net-chi-siamo",
++      tipo: "sito-ufficiale",
++      url: "https://cenciarini.net/pages/chi-siamo",
++      titolo: "Sito Cenciarini Gioielleria \u2014 chi siamo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-cenciarini-net-laboratorio",
++      tipo: "sito-ufficiale",
++      url: "https://cenciarini.net/pages/laboratorio",
++      titolo: "Sito Cenciarini Gioielleria \u2014 laboratorio",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-cenciarini-net-riparazioni",
++      tipo: "sito-ufficiale",
++      url: "https://cenciarini.net/pages/riparazioni-assistenza",
++      titolo: "Sito Cenciarini Gioielleria \u2014 riparazioni e assistenza",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-oreficeriasuperti-com",
++      tipo: "sito-ufficiale",
++      url: "https://oreficeriasuperti.com/",
++      titolo: "Sito Oreficeria Superti \u2014 home",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-oreficeriasuperti-com-servizi",
++      tipo: "sito-ufficiale",
++      url: "https://oreficeriasuperti.com/servizi/",
++      titolo: "Sito Oreficeria Superti \u2014 servizi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-ctodesio-wordpress-com",
++      tipo: "sito-ufficiale",
++      url: "https://ctodesio.wordpress.com/",
++      titolo: "Sito Centro Tecnico Orologeria \u2014 Desio",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-ctodesio-wordpress-com-chi-siamo",
++      tipo: "sito-ufficiale",
++      url: "https://ctodesio.wordpress.com/oreficeria/",
++      titolo: "Sito Centro Tecnico Orologeria \u2014 chi siamo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-piccininiorologiai-it",
++      tipo: "sito-ufficiale",
++      url: "https://www.piccininiorologiai.it/",
++      titolo: "Sito Piccinini Orologiai \u2014 home",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-piccininiorologiai-it-marchi",
++      tipo: "sito-ufficiale",
++      url: "https://www.piccininiorologiai.it/marchi/",
++      titolo: "Sito Piccinini Orologiai \u2014 marchi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-piccininiorologiai-it-rolex",
++      tipo: "sito-ufficiale",
++      url: "https://www.piccininiorologiai.it/scopri-rolex/",
++      titolo: "Sito Piccinini Orologiai \u2014 pagina Rolex",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-piccininiorologiai-it-privacy",
++      tipo: "sito-ufficiale",
++      url: "https://www.piccininiorologiai.it/privacy-policy/",
++      titolo: "Sito Piccinini Orologiai \u2014 privacy policy (dati societari)",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-piccininiorologiai-it-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://www.piccininiorologiai.it/contatti/",
++      titolo: "Sito Piccinini Orologiai \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/sardegna/olbia/officina-del-tempo-di-alessandro",
++      titolo: "Hamilton \u2014 scheda centro assistenza Officina del Tempo di Alessandro, Olbia",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-officinadeltempoolbia-com",
++      tipo: "sito-ufficiale",
++      url: "https://www.officinadeltempoolbia.com/",
++      titolo: "Sito Officina del Tempo Olbia",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-gioielleriavillacidro-it",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriavillacidro.it/",
++      titolo: "Sito Gioielleria Marrocu \u2014 Villacidro",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-longines-com-biella-boglietti",
++      tipo: "marchio-ufficiale",
++      url: "https://www.longines.com/it/store/id/boglietti-gioielli-srl-biella-1592296",
++      titolo: "Longines \u2014 scheda Boglietti Gioielli Srl, Biella",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-bogliettigioielliere-com-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://www.bogliettigioielliere.com/contatti/",
++      titolo: "Sito Boglietti Gioielliere \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-bogliettigioielliere-com-riparazioni",
++      tipo: "sito-ufficiale",
++      url: "https://www.bogliettigioielliere.com/2021/10/15/boglietti-gioielleria-a-biella/",
++      titolo: "Sito Boglietti Gioielliere \u2014 laboratorio e riparazioni",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-bogliettigioielliere-com",
++      tipo: "sito-ufficiale",
++      url: "https://www.bogliettigioielliere.com/",
++      titolo: "Sito Boglietti Gioielliere \u2014 home (marchi e storia)",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-reteimprese-it-oristano-maicol",
++      tipo: "directory",
++      url: "https://www.reteimprese.it/orologerie/oristano",
++      titolo: "Reteimprese \u2014 Laboratorio Orologeria Maicol, Oristano",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-laclessidra1945-it-centri-assistenza",
++      tipo: "stampa",
++      url: "https://www.laclessidra1945.it/centri-assistenza/",
++      titolo: "La Clessidra \u2014 elenco laboratori di riparazione orologi (Pintus Maicol)",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e12-www-catanzarocentro-it-bottega-del-tempo",
++      tipo: "stampa",
++      url: "http://www.catanzarocentro.it/index.php?page=news&id=1466",
++      titolo: "Area Teatro / CatanzaroCentro \u2014 apertura del laboratorio La Bottega del Tempo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-gioielleriapaolini-com-chi-siamo",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriapaolini.com/chi-siamo-.html",
++      titolo: "Sito Gioielleria Paolini \u2014 chi siamo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-gioielleriapaolini-com-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriapaolini.com/contatti.html",
++      titolo: "Sito Gioielleria Paolini \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-magliozziorologi-it-contattaci",
++      tipo: "sito-ufficiale",
++      url: "https://magliozziorologi.it/contattaci/",
++      titolo: "Sito Magliozzi Orologi \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-magliozziorologi-it-assistenza",
++      tipo: "sito-ufficiale",
++      url: "https://magliozziorologi.it/assistenza/",
++      titolo: "Sito Magliozzi Orologi \u2014 assistenza",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-magliozziorologi-it-rolex-submariner",
++      tipo: "sito-ufficiale",
++      url: "https://magliozziorologi.it/rolex-submariner-126610ln/",
++      titolo: "Sito Magliozzi Orologi \u2014 scheda Rolex Submariner",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-magliozziorologi-it-cartier-santos",
++      tipo: "sito-ufficiale",
++      url: "https://magliozziorologi.it/cartier-santos-dumont-wssa0044/",
++      titolo: "Sito Magliozzi Orologi \u2014 scheda Cartier Santos Dumont",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-dslaborologeria-com",
++      tipo: "sito-ufficiale",
++      url: "https://dslaborologeria.com/",
++      titolo: "Sito DsLab Orologeria \u2014 Narni Scalo",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-dslaborologeria-com-info",
++      tipo: "sito-ufficiale",
++      url: "https://dslaborologeria.com/pages/info",
++      titolo: "Sito DsLab Orologeria \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-centroclinicodellorologio-com",
++      tipo: "sito-ufficiale",
++      url: "https://www.centroclinicodellorologio.com/",
++      titolo: "Sito Centro Clinico dell\u2019Orologio La Meridiana",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-paginesi-it-narni-meridiana",
++      tipo: "directory",
++      url: "https://www.paginesi.it/scheda/narni-centro-clinico-dellorologio-la-meridiana/2177986/",
++      titolo: "PagineSI \u2014 scheda Centro Clinico dell\u2019Orologio La Meridiana, Narni",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-instagram-com-gioielleria-foschini",
++      tipo: "sito-ufficiale",
++      url: "https://www.instagram.com/gioielleria_foschini_telese_/",
++      titolo: "Instagram ufficiale Gioielleria Foschini \u2014 Telese Terme",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-instagram-com-foschini-pila-cinturini",
++      tipo: "sito-ufficiale",
++      url: "https://www.instagram.com/reel/DegOoFioiJH/",
++      titolo: "Instagram Gioielleria Foschini \u2014 post cambio pila e cinturini",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-hamiltonwatch-com-gallipoli-freddo",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/gallipoli/luigi-freddo-gioielli",
++      titolo: "Hamilton \u2014 scheda Luigi Freddo Gioielli, Gallipoli",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-instagram-com-francofreddogioielli",
++      tipo: "sito-ufficiale",
++      url: "https://www.instagram.com/francofreddogioielli/",
++      titolo: "Instagram ufficiale Luigi Freddo Gioielli",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italy/puglia/martina-franca/gioielleria-del-genio-1810766",
++      titolo: "Hamilton \u2014 scheda Gioielleria Del Genio, Martina Franca",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-midowatches-com-del-genio",
++      tipo: "marchio-ufficiale",
++      url: "https://www.midowatches.com/it/store-locator/italy/taranto/gioielleria-del-genio-a1vnn000003u31yyaq",
++      titolo: "Mido \u2014 scheda Gioielleria Del Genio, Martina Franca",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-hamiltonwatch-com-foggia-massimo",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italy/puglia/foggia/massimo-gioielli",
++      titolo: "Hamilton \u2014 scheda Massimo Gioielli, Foggia",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-massimogioielli-it-gioielleria",
++      tipo: "sito-ufficiale",
++      url: "https://www.massimogioielli.it/gioielleria/",
++      titolo: "Sito Massimo Gioielli \u2014 la nostra gioielleria",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-frederiqueconstant-com-massimo-foggia",
++      tipo: "marchio-ufficiale",
++      url: "https://frederiqueconstant.com/locations/massimo-gioielliitalyfoggiavia-m-angiolillo271100it/",
++      titolo: "Frederique Constant \u2014 scheda Massimo Gioielli, Foggia",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-onciadoro-com",
++      tipo: "sito-ufficiale",
++      url: "https://onciadoro.com/",
++      titolo: "Sito L\u2019Oncia d\u2019Oro \u2014 Siniscola",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-onciadoro-com-servizi",
++      tipo: "sito-ufficiale",
++      url: "https://onciadoro.com/servizi/",
++      titolo: "Sito L\u2019Oncia d\u2019Oro \u2014 servizi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-onciadoro-com-orologi",
++      tipo: "sito-ufficiale",
++      url: "https://onciadoro.com/orologi/",
++      titolo: "Sito L\u2019Oncia d\u2019Oro \u2014 orologi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-gioielleriastoppa-it-negozi",
++      tipo: "sito-ufficiale",
++      url: "https://gioielleriastoppa.it/gioiellerie-grosseto/",
++      titolo: "Sito Gioielleria Stoppa \u2014 sedi e contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-gioielleriastoppa-it-laboratorio",
++      tipo: "sito-ufficiale",
++      url: "https://gioielleriastoppa.it/laboratorio-orafo/",
++      titolo: "Sito Gioielleria Stoppa \u2014 laboratorio",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-gioielleriastoppa-it-storia",
++      tipo: "sito-ufficiale",
++      url: "https://gioielleriastoppa.it/la-gioielleria/",
++      titolo: "Sito Gioielleria Stoppa \u2014 la gioielleria",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-tissotwatches-com-stoppa",
++      tipo: "marchio-ufficiale",
++      url: "https://www.tissotwatches.com/it-it/store/gioielleria-stoppa-di-stoppa-m-and-c-snc/a1vNN0000020bkrYAA",
++      titolo: "Tissot \u2014 scheda Gioielleria Stoppa, Grosseto",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-breil-com-stoppa",
++      tipo: "marchio-ufficiale",
++      url: "https://www.breil.com/store/rivenditori-reloaded-icons/gioielleria-stoppa/",
++      titolo: "Breil \u2014 scheda Gioielleria Stoppa, Grosseto",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-hamiltonwatch-com-quartu-danese",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/sardegna/quartu-sant-elena/gioielleria-marco-danese",
++      titolo: "Hamilton \u2014 scheda Gioielleria Marco Danese, Quartu Sant\u2019Elena",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-gioielleriamarcodanese-com-contatti",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriamarcodanese.com/contatti/",
++      titolo: "Sito Gioielleria Marco Danese \u2014 contatti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-gioielleriamarcodanese-com-prodotti",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriamarcodanese.com/prodotti/",
++      titolo: "Sito Gioielleria Marco Danese \u2014 prodotti",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-gioielleriaperdichizzi-it-negozi",
++      tipo: "sito-ufficiale",
++      url: "https://www.gioielleriaperdichizzi.it/pages/negozi",
++      titolo: "Sito Gioielleria Perdichizzi 1907 \u2014 negozi",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
++    },
++    {
++      id: "e13-www-hamiltonwatch-com-barcellona-perdichizzi",
++      tipo: "marchio-ufficiale",
++      url: "https://www.hamiltonwatch.com/it-it/store-locator/italia/sicilia/barcellona-pozzo-di-gotto/gioielleria-perdichizzi-1907",
++      titolo: "Hamilton \u2014 scheda Gioielleria Perdichizzi 1907, Barcellona P.G.",
++      consultataIl: "2026-10-28",
++      percorsoArchivio: null,
++      licenza: null
+     }
+   ],
+   localita: [
+@@ -29131,6 +29743,247 @@ var directory_default = {
+       fonti: [
+         "e11-www-lorologiaio-net"
+       ]
++    },
++    {
++      codiceIstat: null,
++      id: "mazara-del-vallo",
++      comune: "Mazara del Vallo",
++      comuneSlug: "mazara-del-vallo",
++      provincia: "Trapani",
++      provinciaSlug: "trapani",
++      siglaProvincia: "TP",
++      regione: "Sicilia",
++      regioneSlug: "sicilia",
++      descrizione: "Mazara del Vallo: orologeria con laboratorio di riparazione e restauro censita con fonti ufficiali (Orologeria Nozzetti).",
++      fonti: [
++        "e12-orologerianozzetti-wordpress-com"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "erice",
++      comune: "Erice",
++      comuneSlug: "erice",
++      provincia: "Trapani",
++      provinciaSlug: "trapani",
++      siglaProvincia: "TP",
++      regione: "Sicilia",
++      regioneSlug: "sicilia",
++      descrizione: "Erice: gioielleria con orologeria e riparazione/restauro di orologi censita con fonti ufficiali (Cellini Gioielli, nella frazione Casa Santa).",
++      fonti: [
++        "e12-www-gioielleriacellini-com-contattaci"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "riccione",
++      comune: "Riccione",
++      comuneSlug: "riccione",
++      provincia: "Rimini",
++      provinciaSlug: "rimini",
++      siglaProvincia: "RN",
++      regione: "Emilia-Romagna",
++      regioneSlug: "emilia-romagna",
++      descrizione: "Riccione: gioielleria con laboratorio di riparazione e revisione orologi censita con fonti ufficiali (Cenciarini Gioielleria).",
++      fonti: [
++        "e12-cenciarini-net-laboratorio"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "castelleone",
++      comune: "Castelleone",
++      comuneSlug: "castelleone",
++      provincia: "Cremona",
++      provinciaSlug: "cremona",
++      siglaProvincia: "CR",
++      regione: "Lombardia",
++      regioneSlug: "lombardia",
++      descrizione: "Castelleone: oreficeria storica con laboratorio di riparazione e restauro orologi censita con fonti ufficiali (Oreficeria Superti).",
++      fonti: [
++        "e12-oreficeriasuperti-com"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "desio",
++      comune: "Desio",
++      comuneSlug: "desio",
++      provincia: "Monza e della Brianza",
++      provinciaSlug: "monza-e-della-brianza",
++      siglaProvincia: "MB",
++      regione: "Lombardia",
++      regioneSlug: "lombardia",
++      descrizione: "Desio: laboratorio tecnico di riparazione, revisione e pendoleria censito con fonti ufficiali (Centro Tecnico Orologeria).",
++      fonti: [
++        "e12-ctodesio-wordpress-com"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "villacidro",
++      comune: "Villacidro",
++      comuneSlug: "villacidro",
++      provincia: "Sud Sardegna",
++      provinciaSlug: "sud-sardegna",
++      siglaProvincia: "SU",
++      regione: "Sardegna",
++      regioneSlug: "sardegna",
++      descrizione: "Villacidro: gioielleria con laboratorio di assistenza e riparazione orologi censita con fonti ufficiali (Gioielleria Marrocu).",
++      fonti: [
++        "e12-www-gioielleriavillacidro-it"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "catanzaro",
++      comune: "Catanzaro",
++      comuneSlug: "catanzaro",
++      provincia: "Catanzaro",
++      provinciaSlug: "catanzaro",
++      siglaProvincia: "CZ",
++      regione: "Calabria",
++      regioneSlug: "calabria",
++      descrizione: "Catanzaro: laboratorio di riparazione orologi censito con fonti giornalistiche locali (La Bottega del Tempo).",
++      fonti: [
++        "e12-www-catanzarocentro-it-bottega-del-tempo"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "atri",
++      comune: "Atri",
++      comuneSlug: "atri",
++      provincia: "Teramo",
++      provinciaSlug: "teramo",
++      siglaProvincia: "TE",
++      regione: "Abruzzo",
++      regioneSlug: "abruzzo",
++      descrizione: "Atri: gioielleria con laboratorio di orologeria censita con fonti ufficiali (Gioielleria Paolini).",
++      fonti: [
++        "e13-www-gioielleriapaolini-com-chi-siamo"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "fondi",
++      comune: "Fondi",
++      comuneSlug: "fondi",
++      provincia: "Latina",
++      provinciaSlug: "latina",
++      siglaProvincia: "LT",
++      regione: "Lazio",
++      regioneSlug: "lazio",
++      descrizione: "Fondi: orologeria con servizio di assistenza documentato (Magliozzi Orologi e Gioielleria).",
++      fonti: [
++        "e13-magliozziorologi-it-contattaci"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "narni",
++      comune: "Narni",
++      comuneSlug: "narni",
++      provincia: "Terni",
++      provinciaSlug: "terni",
++      siglaProvincia: "TR",
++      regione: "Umbria",
++      regioneSlug: "umbria",
++      descrizione: "Narni (Scalo): laboratori di riparazione e restauro orologi censiti con fonti ufficiali (DsLab Orologeria, Centro Clinico dell\u2019Orologio La Meridiana).",
++      fonti: [
++        "e13-dslaborologeria-com",
++        "e13-www-centroclinicodellorologio-com"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "telese-terme",
++      comune: "Telese Terme",
++      comuneSlug: "telese-terme",
++      provincia: "Benevento",
++      provinciaSlug: "benevento",
++      siglaProvincia: "BN",
++      regione: "Campania",
++      regioneSlug: "campania",
++      descrizione: "Telese Terme: gioielleria con laboratorio di riparazione orologi censita con fonti ufficiali (Gioielleria Foschini).",
++      fonti: [
++        "e13-www-instagram-com-gioielleria-foschini"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "gallipoli",
++      comune: "Gallipoli",
++      comuneSlug: "gallipoli",
++      provincia: "Lecce",
++      provinciaSlug: "lecce",
++      siglaProvincia: "LE",
++      regione: "Puglia",
++      regioneSlug: "puglia",
++      descrizione: "Gallipoli: gioielleria con orologeria e rivendita ufficiale Hamilton censita con fonti ufficiali dei marchi (Luigi Freddo Gioielli).",
++      fonti: [
++        "e13-www-hamiltonwatch-com-gallipoli-freddo"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "martina-franca",
++      comune: "Martina Franca",
++      comuneSlug: "martina-franca",
++      provincia: "Taranto",
++      provinciaSlug: "taranto",
++      siglaProvincia: "TA",
++      regione: "Puglia",
++      regioneSlug: "puglia",
++      descrizione: "Martina Franca: gioielleria con rivendite ufficiali Hamilton e Mido censita con fonti ufficiali dei marchi (Gioielleria Del Genio).",
++      fonti: [
++        "e13-www-hamiltonwatch-com-martina-franca-del-genio"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "siniscola",
++      comune: "Siniscola",
++      comuneSlug: "siniscola",
++      provincia: "Nuoro",
++      provinciaSlug: "nuoro",
++      siglaProvincia: "NU",
++      regione: "Sardegna",
++      regioneSlug: "sardegna",
++      descrizione: "Siniscola: gioielleria con laboratorio di riparazione e manutenzione orologi censita con fonti ufficiali (L\u2019Oncia d\u2019Oro).",
++      fonti: [
++        "e13-onciadoro-com-servizi"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "quartu-sant-elena",
++      comune: "Quartu Sant\u2019Elena",
++      comuneSlug: "quartu-sant-elena",
++      provincia: "Cagliari",
++      provinciaSlug: "cagliari",
++      siglaProvincia: "CA",
++      regione: "Sardegna",
++      regioneSlug: "sardegna",
++      descrizione: "Quartu Sant\u2019Elena: gioielleria con rivendita ufficiale Hamilton censita con fonti ufficiali dei marchi (Gioielleria Marco Danese).",
++      fonti: [
++        "e13-www-hamiltonwatch-com-quartu-danese"
++      ]
++    },
++    {
++      codiceIstat: null,
++      id: "barcellona-pozzo-di-gotto",
++      comune: "Barcellona Pozzo di Gotto",
++      comuneSlug: "barcellona-pozzo-di-gotto",
++      provincia: "Messina",
++      provinciaSlug: "messina",
++      siglaProvincia: "ME",
++      regione: "Sicilia",
++      regioneSlug: "sicilia",
++      descrizione: "Barcellona Pozzo di Gotto: gioielleria storica con rivendita ufficiale Hamilton censita con fonti ufficiali dei marchi (Perdichizzi 1907).",
++      fonti: [
++        "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++      ]
+     }
+   ],
+   attivita: [
+@@ -78441,6 +79294,4355 @@ var directory_default = {
+         sistema: "espansione-lotto1-20261027",
+         idOriginale: "orologeria-pinna-nuoro"
+       }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Restauro di orologi antichi e moderni",
++          fonti: [
++            "e12-orologerianozzetti-wordpress-com"
++          ]
++        },
++        {
++          nome: "Saldatura laser su oggetti",
++          fonti: [
++            "e12-orologerianozzetti-wordpress-com"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "antichi",
++          fonti: [
++            "e12-orologerianozzetti-wordpress-com"
++          ]
++        }
++      ],
++      id: "orologeria-nozzetti-mazara-del-vallo",
++      slug: "orologeria-nozzetti-mazara-del-vallo",
++      nome: "Orologeria Nozzetti",
++      tipi: [
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "mazara-del-vallo",
++      descrizione: "Orologeria Nozzetti in Corso Vittorio Veneto 55 a Mazara del Vallo \xE8 attiva dal 1982 e condotta da due generazioni: riparazione e restauro di orologi antichi e moderni, vendita di segnatempo di vari marchi e lavorazioni di saldatura laser su oggetti.",
++      posizione: {
++        indirizzo: "Corso Vittorio Veneto, 55",
++        cap: null,
++        coordinate: null,
++        fonti: [
++          "e12-orologerianozzetti-wordpress-com"
++        ]
++      },
++      contatti: {
++        telefono: "328 2521076",
++        email: "orologerianozzetti@hotmail.com",
++        sito: "https://orologerianozzetti.wordpress.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-orologerianozzetti-wordpress-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-orologerianozzetti-wordpress-com"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-orologerianozzetti-wordpress-com"
++          ]
++        }
++      ],
++      storia: {
++        annoFondazione: 1982,
++        fondatore: null,
++        testo: "Il sito dell\u2019attivit\xE0 dichiara una specializzazione \xABsin dal 1982\xBB e la conduzione da parte di due generazioni.",
++        eventi: [
++          {
++            data: "1982",
++            descrizione: "Avvio dell\u2019attivit\xE0 specializzata secondo il sito dell\u2019orologeria.",
++            fonti: [
++              "e12-orologerianozzetti-wordpress-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-orologerianozzetti-wordpress-com"
++        ]
++      },
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-orologerianozzetti-wordpress-com"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti, servizi e storia dichiarata dal sito ufficiale consultato direttamente.",
++            fonti: [
++              "e12-orologerianozzetti-wordpress-com"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Anno di avvio 1982 e due generazioni autodichiarati sul sito dell\u2019attivit\xE0.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "CAP non riportato dalla pagina consultata: campo lasciato assente.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "orologeria-nozzetti-mazara-del-vallo"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Restauro e costruzione di orologi antichi e moderni",
++          fonti: [
++            "e12-www-gioielleriacellini-com"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "antichi",
++          fonti: [
++            "e12-www-gioielleriacellini-com"
++          ]
++        }
++      ],
++      id: "cellini-gioielli-erice",
++      slug: "cellini-gioielli-erice",
++      nome: "Cellini Gioielli",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "erice",
++      descrizione: "Cellini Gioielli in Via Cesar\xF2 60/62 a Erice (frazione Casa Santa) nasce nel 1989 come gioielleria, oreficeria e orologeria: riparazioni, restauri e costruzione di orologi antichi e moderni, con vendita di marchi quali Paul Picot, Philip Watch e Ti Sento Milano.",
++      posizione: {
++        indirizzo: "Via Cesar\xF2, 60/62",
++        cap: "91016",
++        coordinate: null,
++        fonti: [
++          "e12-www-gioielleriacellini-com-contattaci",
++          "e12-www-gioielleriacellini-com-gallery"
++        ]
++      },
++      contatti: {
++        telefono: "0923 568651",
++        email: "cellini.gioielli@libero.it",
++        sito: "https://www.gioielleriacellini.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-gioielleriacellini-com-contattaci"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-gioielleriacellini-com"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-gioielleriacellini-com"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-www-gioielleriacellini-com"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Donna Oro",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Paul Picot",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Philip Watch",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Rubinia Gioielli",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Ti Sento Milano",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Comete",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Ambrosia",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          },
++          {
++            marca: "Zancan",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1989,
++        fondatore: null,
++        testo: "Il sito ufficiale presenta l\u2019attivit\xE0 nata nel 1989 come gioielleria, oreficeria e orologeria.",
++        eventi: [
++          {
++            data: "1989",
++            descrizione: "Nascita dell\u2019attivit\xE0 a Erice.",
++            fonti: [
++              "e12-www-gioielleriacellini-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-www-gioielleriacellini-com"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-gioielleriacellini-com-contattaci",
++          "e12-www-gioielleriacellini-com",
++          "e12-www-gioielleriacellini-com-gallery"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: indirizzo, CAP e recapiti dalle pagine ufficiali (contatti e pi\xE8 di pagina); servizi orologiai, marchi venduti e fondazione 1989 dal sito. Nessuna autorizzazione di marchio attribuita.",
++            fonti: [
++              "e12-www-gioielleriacellini-com-contattaci",
++              "e12-www-gioielleriacellini-com",
++              "e12-www-gioielleriacellini-com-gallery"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Marchi riparati non specificati: le riparazioni sono dichiarate in generale, senza elenco per marca e senza autorizzazioni ufficiali.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "cellini-gioielli-erice"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [
++          {
++            giorno: 1,
++            intervalli: [
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          },
++          {
++            giorno: 2,
++            intervalli: [
++              {
++                apertura: "09:30",
++                chiusura: "13:00"
++              },
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          },
++          {
++            giorno: 3,
++            intervalli: [
++              {
++                apertura: "09:30",
++                chiusura: "13:00"
++              },
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          },
++          {
++            giorno: 4,
++            intervalli: [
++              {
++                apertura: "09:30",
++                chiusura: "13:00"
++              },
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          },
++          {
++            giorno: 5,
++            intervalli: [
++              {
++                apertura: "09:30",
++                chiusura: "13:00"
++              },
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          },
++          {
++            giorno: 6,
++            intervalli: [
++              {
++                apertura: "09:30",
++                chiusura: "13:00"
++              },
++              {
++                apertura: "16:00",
++                chiusura: "20:00"
++              }
++            ]
++          }
++        ],
++        chiusure: [
++          "Domenica"
++        ],
++        verificatiIl: "2026-10-28",
++        fonti: [
++          "e12-www-longines-com-trapani-amantia"
++        ]
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-amantia-trapani",
++      slug: "gioielleria-amantia-trapani",
++      nome: "Gioielleria Amantia & Figli Srl",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "trapani",
++      descrizione: "Gioielleria Amantia & Figli Srl in Via G.B. Fardella 86/88 a Trapani \xE8 boutique Longines documentata dal locator ufficiale del marchio: vendita di orologi con servizi di manutenzione e sostituzione del cinturino secondo gli standard Longines.",
++      posizione: {
++        indirizzo: "Via G.B. Fardella, 86/88",
++        cap: "91100",
++        coordinate: null,
++        fonti: [
++          "e12-www-longines-com-trapani-amantia"
++        ]
++      },
++      contatti: {
++        telefono: "0923 881783",
++        email: "info@amantia.it",
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-longines-com-trapani-amantia"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-longines-com-trapani-amantia"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e12-www-longines-com-trapani-amantia"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-longines-com-trapani-amantia"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-www-longines-com-trapani-amantia"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Longines",
++            fonti: [
++              "e12-www-longines-com-trapani-amantia"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Longines",
++            fonti: [
++              "e12-www-longines-com-trapani-amantia"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-longines-com-trapani-amantia"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti, orari, rivendita ufficiale Longines e servizi di manutenzione dalla scheda specifica del produttore (marchio-ufficiale).",
++            fonti: [
++              "e12-www-longines-com-trapani-amantia"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "La scheda Longines documenta vendita e manutenzione/cinturino del marchio: nessuna riparazione generica n\xE9 assistenza tecnica autorizzata oltre a quanto espressamente indicato.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "gioielleria-amantia-trapani"
++      }
++    },
++    {
++      nomiPrecedenti: [
++        "Aurum di Castelliti Marcello",
++        "Aurum Castelliti"
++      ],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "aurum-gioielleria-crotone",
++      slug: "aurum-gioielleria-crotone",
++      nome: "Aurum Gioielleria",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "crotone",
++      descrizione: "Aurum Gioielleria di Marcello Castelliti in Corso Mazzini 83 a Crotone dispone di laboratorio interno per l\u2019assistenza e la riparazione di oreficeria e orologeria; i locator ufficiali la qualificano Seiko Premium Retailer e rivenditore autorizzato Tissot.",
++      posizione: {
++        indirizzo: "Corso Giuseppe Mazzini, 83",
++        cap: "88900",
++        coordinate: null,
++        fonti: [
++          "e12-www-aurumgioielleria-com-contatti",
++          "e12-www-seikowatches-com-crotone-aurum"
++        ]
++      },
++      contatti: {
++        telefono: "0962 29160",
++        email: "info@aurumgioielleria.com",
++        sito: "https://www.aurumgioielleria.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-aurumgioielleria-com-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-aurumgioielleria-com-chi-siamo"
++          ]
++        },
++        {
++          id: "assistenza",
++          fonti: [
++            "e12-www-aurumgioielleria-com-chi-siamo"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e12-www-aurumgioielleria-com-chi-siamo"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-aurumgioielleria-com-chi-siamo"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-www-aurumgioielleria-com-chi-siamo"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Seiko",
++            fonti: [
++              "e12-www-seikowatches-com-crotone-aurum",
++              "e12-www-tissotwatches-com-crotone-aurum"
++            ]
++          },
++          {
++            marca: "Tissot",
++            fonti: [
++              "e12-www-seikowatches-com-crotone-aurum",
++              "e12-www-tissotwatches-com-crotone-aurum"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Seiko",
++            fonti: [
++              "e12-www-seikowatches-com-crotone-aurum",
++              "e12-www-tissotwatches-com-crotone-aurum"
++            ]
++          },
++          {
++            marca: "Tissot",
++            fonti: [
++              "e12-www-seikowatches-com-crotone-aurum",
++              "e12-www-tissotwatches-com-crotone-aurum"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il sito dell\u2019attivit\xE0 dichiara un\u2019esperienza \xABda pi\xF9 di trent\u2019anni\xBB, senza indicare l\u2019anno di fondazione.",
++        eventi: [],
++        fonti: [
++          "e12-www-aurumgioielleria-com-chi-siamo"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-aurumgioielleria-com-chi-siamo",
++          "e12-www-aurumgioielleria-com-contatti",
++          "e12-www-seikowatches-com-crotone-aurum",
++          "e12-www-tissotwatches-com-crotone-aurum"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: laboratorio interno e storia dichiarata dal sito ufficiale; rivendite ufficiali Seiko (Premium Retailer) e Tissot dai locator specifici dei due produttori, consultati direttamente.",
++            fonti: [
++              "e12-www-aurumgioielleria-com-chi-siamo",
++              "e12-www-aurumgioielleria-com-contatti",
++              "e12-www-seikowatches-com-crotone-aurum",
++              "e12-www-tissotwatches-com-crotone-aurum"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "I locator Seiko e Tissot documentano la rivendita ufficiale, non l\u2019assistenza tecnica: nessuna autorizzazione di riparazione attribuita.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Anno di fondazione non indicato dalle fonti: il sito parla genericamente di \xABpi\xF9 di trent\u2019anni\xBB.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "aurum-gioielleria-crotone"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Diagnostica completa e prova di impermeabilit\xE0",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        },
++        {
++          nome: "Regolazione della marcia per orologi meccanici",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        },
++        {
++          nome: "Regolazione bracciali e sostituzione di bracciali e cinturini",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        }
++      ],
++      specializzazioni: [],
++      id: "la-macchina-del-tempo-san-benedetto",
++      slug: "la-macchina-del-tempo-san-benedetto",
++      nome: "La Macchina del Tempo \u2014 San Benedetto del Tronto",
++      tipi: [
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "san-benedetto-del-tronto",
++      descrizione: "La Macchina del Tempo in Via Francesco Crispi 114/118 a San Benedetto del Tronto \xE8 Service Center OMEGA documentato dal locator ufficiale del marchio: manutenzione, diagnostica completa, prova di impermeabilit\xE0, cambio batteria e regolazione della marcia degli orologi meccanici.",
++      posizione: {
++        indirizzo: "Via Francesco Crispi, 114/118",
++        cap: "63039",
++        coordinate: null,
++        fonti: [
++          "e12-www-omegawatches-com-store-1000813"
++        ]
++      },
++      contatti: {
++        telefono: "0735 587201",
++        email: null,
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-omegawatches-com-store-1000813"
++        ]
++      },
++      servizi: [
++        {
++          id: "assistenza",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-omegawatches-com-store-1000813"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-www-omegawatches-com-store-1000813"
++            ]
++          }
++        ],
++        esperienza: [],
++        assistenzaUfficiale: [
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-www-omegawatches-com-store-1000813"
++            ]
++          }
++        ],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-omegawatches-com-store-1000813"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti, qualifica di centro assistenza ufficiale OMEGA e servizi tecnici dalla scheda specifica del produttore (marchio-ufficiale).",
++            fonti: [
++              "e12-www-omegawatches-com-store-1000813"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "CAP discordante: 63039 dalla scheda OMEGA (fonte primaria adottata) contro 63074 in una directory generica.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "La scheda OMEGA qualifica la sede come Service Center e non documenta la vendita di orologi: nessun servizio di vendita attribuito.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "la-macchina-del-tempo-san-benedetto"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [
++        {
++          id: "vintage",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo"
++          ]
++        }
++      ],
++      id: "orologeria-del-borgo-rimini",
++      slug: "orologeria-del-borgo-rimini",
++      nome: "Orologeria Del Borgo",
++      tipi: [
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "rimini",
++      descrizione: "Orologeria Del Borgo in Piazzale Francesco Vannoni 4 a Rimini gestisce un laboratorio artigianale per riparazioni e revisioni di orologi da polso \u2014 inclusi vintage, da collezione e d\u2019epoca \u2014 con sostituzione di pile, cinturini e componenti; il negozio si occupa anche di vendita.",
++      posizione: {
++        indirizzo: "Piazzale Francesco Vannoni, 4",
++        cap: "47921",
++        coordinate: null,
++        fonti: [
++          "e12-orologeriadelborgo-com-contatti"
++        ]
++      },
++      contatti: {
++        telefono: "0541 52831",
++        email: "orologeriadelborgo@gmail.com",
++        sito: "https://orologeriadelborgo.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-orologeriadelborgo-com-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo",
++            "e12-orologeriadelborgo-com-vendita"
++          ]
++        },
++        {
++          id: "revisione",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo",
++            "e12-orologeriadelborgo-com-vendita"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo",
++            "e12-orologeriadelborgo-com-vendita"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo",
++            "e12-orologeriadelborgo-com-vendita"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-orologeriadelborgo-com-chi-siamo",
++            "e12-orologeriadelborgo-com-vendita"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-orologeriadelborgo-com-contatti",
++          "e12-orologeriadelborgo-com-chi-siamo",
++          "e12-orologeriadelborgo-com-vendita"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede e recapiti dalla pagina contatti; laboratorio artigianale, riparazioni/revisioni e specializzazione vintage dalla pagina chi siamo; vendita dalla pagina dedicata. Sede distinta da Orologeria Casadei, gi\xE0 censita a Rimini.",
++            fonti: [
++              "e12-orologeriadelborgo-com-contatti",
++              "e12-orologeriadelborgo-com-chi-siamo",
++              "e12-orologeriadelborgo-com-vendita"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Il sito si definisce rivenditore ufficiale di marchi di lusso senza nominarli nella pagina consultata: nessuna rivendita ufficiale attribuita. Anno di fondazione non indicato (solo \xABnumerosi anni\xBB di esperienza).",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "orologeria-del-borgo-rimini"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Prova di impermeabilit\xE0",
++          fonti: [
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          nome: "Ricostruzione di casse danneggiate",
++          fonti: [
++            "e12-cenciarini-net-laboratorio"
++          ]
++        },
++        {
++          nome: "Cinturini su misura",
++          fonti: [
++            "e12-cenciarini-net-riparazioni"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "antichi",
++          fonti: [
++            "e12-cenciarini-net-laboratorio"
++          ]
++        }
++      ],
++      id: "cenciarini-gioielleria-riccione",
++      slug: "cenciarini-gioielleria-riccione",
++      nome: "Cenciarini Gioielleria",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "riccione",
++      descrizione: "Cenciarini Gioielleria in Viale Ceccarini 16 a Riccione nasce nel 1979 rilevando la gioielleria Gobbi, attiva dal 1946: laboratorio interno di riparazione e revisione con interventi su orologi antichi, moderni e da tasca, ricostruzione di casse, prove di impermeabilit\xE0, lucidatura e cinturini su misura.",
++      posizione: {
++        indirizzo: "Viale Ceccarini, 16",
++        cap: "47838",
++        coordinate: null,
++        fonti: [
++          "e12-cenciarini-net-contatti"
++        ]
++      },
++      contatti: {
++        telefono: "0541 692712",
++        email: "info@cenciarini.net",
++        sito: "https://cenciarini.net/",
++        whatsapp: "+393486147645",
++        social: [],
++        fonti: [
++          "e12-cenciarini-net-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "revisione",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "orologi-tasca",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "lucidatura",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-cenciarini-net-laboratorio",
++            "e12-cenciarini-net-riparazioni"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Rolex",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Cartier",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Patek Philippe",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "TAG Heuer",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Jaeger-LeCoultre",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "IWC",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Panerai",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Tudor",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Hublot",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Audemars Piguet",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            marca: "Eberhard",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          }
++        ],
++        riparati: [
++          {
++            marca: "Rolex",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          },
++          {
++            marca: "Cartier",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          },
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          },
++          {
++            marca: "IWC",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          },
++          {
++            marca: "Panerai",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          },
++          {
++            marca: "Breitling",
++            fonti: [
++              "e12-cenciarini-net-riparazioni"
++            ]
++          }
++        ],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1979,
++        fondatore: null,
++        testo: "L\u2019attivit\xE0 fu fondata nel 1979 con il rilevamento della gioielleria Gobbi, gi\xE0 attiva nella sede dal 1946.",
++        eventi: [
++          {
++            data: "1946",
++            descrizione: "Attivit\xE0 della gioielleria Gobbi nella sede di Viale Ceccarini.",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          },
++          {
++            data: "1979",
++            descrizione: "Fondazione di Cenciarini Gioielleria con il rilevamento della gioielleria Gobbi.",
++            fonti: [
++              "e12-cenciarini-net-chi-siamo"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-cenciarini-net-chi-siamo"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-cenciarini-net-contatti",
++          "e12-cenciarini-net-chi-siamo",
++          "e12-cenciarini-net-laboratorio",
++          "e12-cenciarini-net-riparazioni"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: indirizzo e recapiti dalla pagina contatti; laboratorio e interventi tecnici dalle pagine laboratorio e riparazioni; storia 1979/1946, marchi e servizi dalle pagine ufficiali consultate direttamente.",
++            fonti: [
++              "e12-cenciarini-net-contatti",
++              "e12-cenciarini-net-chi-siamo",
++              "e12-cenciarini-net-laboratorio",
++              "e12-cenciarini-net-riparazioni"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Il sito si dichiara concessionaria Nivada Grenchen: autodichiarazione non verificata con locator del produttore, non inserita fra le rivendite ufficiali.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "I marchi riparati sono dichiarazioni dell\u2019attivit\xE0, che si presenta non affiliata ai marchi commercializzati: nessuna assistenza ufficiale attribuita.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "cenciarini-gioielleria-riccione"
++      }
++    },
++    {
++      nomiPrecedenti: [
++        "Orologeria e Oreficeria Superti"
++      ],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Restauro di orologi, anche antichi",
++          fonti: [
++            "e12-oreficeriasuperti-com-servizi"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "antichi",
++          fonti: [
++            "e12-oreficeriasuperti-com-servizi"
++          ]
++        }
++      ],
++      id: "oreficeria-superti-castelleone",
++      slug: "oreficeria-superti-castelleone",
++      nome: "Oreficeria Superti",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "castelleone",
++      descrizione: "Oreficeria Superti in Via Roma 26 a Castelleone \xE8 bottega fondata nel 1960 da Anna e Taddeo Superti e oggi condotta dalle figlie Elena e Giuliana: laboratorio interno per la riparazione e il restauro di orologi, anche antichi, con vendita di orologi e gioielli.",
++      posizione: {
++        indirizzo: "Via Roma, 26",
++        cap: "26012",
++        coordinate: null,
++        fonti: [
++          "e12-oreficeriasuperti-com"
++        ]
++      },
++      contatti: {
++        telefono: "0374 58358",
++        email: "supeelena3@gmail.com",
++        sito: "https://oreficeriasuperti.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-oreficeriasuperti-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-oreficeriasuperti-com-servizi",
++            "e12-oreficeriasuperti-com"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-oreficeriasuperti-com-servizi",
++            "e12-oreficeriasuperti-com"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-oreficeriasuperti-com-servizi",
++            "e12-oreficeriasuperti-com"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Bulova",
++            fonti: [
++              "e12-oreficeriasuperti-com"
++            ]
++          },
++          {
++            marca: "Breil",
++            fonti: [
++              "e12-oreficeriasuperti-com"
++            ]
++          },
++          {
++            marca: "Quaglia Gioielli",
++            fonti: [
++              "e12-oreficeriasuperti-com"
++            ]
++          },
++          {
++            marca: "Silvia Kelly",
++            fonti: [
++              "e12-oreficeriasuperti-com"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1960,
++        fondatore: "Anna e Taddeo Superti",
++        testo: "Il negozio fu fondato nel 1960 da Anna e Taddeo Superti e pass\xF2 poi alle figlie Elena e Giuliana.",
++        eventi: [
++          {
++            data: "1960",
++            descrizione: "Fondazione del negozio da parte di Anna e Taddeo Superti.",
++            fonti: [
++              "e12-oreficeriasuperti-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-oreficeriasuperti-com"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-oreficeriasuperti-com",
++          "e12-oreficeriasuperti-com-servizi"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti, laboratorio e storia 1960 dalle pagine ufficiali; riparazione e restauro dalla pagina servizi; marchi in vendita dalla home.",
++            fonti: [
++              "e12-oreficeriasuperti-com",
++              "e12-oreficeriasuperti-com-servizi"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Marchi riparati non elencati: il sito dichiara riparazioni di orologi di qualsiasi tipo senza distinzioni per marca e senza autorizzazioni ufficiali.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "oreficeria-superti-castelleone"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Messa a misura bracciali",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          nome: "Test di impermeabilit\xE0",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          nome: "Sostituzione vetri",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "antichi",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        }
++      ],
++      id: "centro-tecnico-orologeria-desio",
++      slug: "centro-tecnico-orologeria-desio",
++      nome: "Centro Tecnico Orologeria",
++      tipi: [
++        "laboratorio",
++        "orologeria"
++      ],
++      localitaId: "desio",
++      descrizione: "Centro Tecnico Orologeria in Via Garibaldi 183 a Desio \xE8 laboratorio di riparazione e revisione completa di orologi: cambio pile e cinturini, messa a misura bracciali, test di impermeabilit\xE0, revisione di orologi antichi, riparazione di pendoli, lucidatura e sostituzione vetri.",
++      posizione: {
++        indirizzo: "Via Garibaldi, 183",
++        cap: "20832",
++        coordinate: null,
++        fonti: [
++          "e12-ctodesio-wordpress-com"
++        ]
++      },
++      contatti: {
++        telefono: "348 5537219",
++        email: "centrotecnicoorologeria@gmail.com",
++        sito: "https://ctodesio.wordpress.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-ctodesio-wordpress-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          id: "revisione",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          id: "pendoleria",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        },
++        {
++          id: "lucidatura",
++          fonti: [
++            "e12-ctodesio-wordpress-com"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [
++          {
++            marca: "Rolex",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Cartier",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Breitling",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Longines",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Tissot",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Citizen",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          },
++          {
++            marca: "Seiko",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          }
++        ],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "I titolari hanno frequentato nel 2007 la scuola di orologeria C.A.P.A.C. e hanno poi aperto il laboratorio a Desio.",
++        eventi: [
++          {
++            data: "2007",
++            descrizione: "Formazione dei titolari presso la scuola di orologeria C.A.P.A.C.",
++            fonti: [
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-ctodesio-wordpress-com-chi-siamo"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-ctodesio-wordpress-com",
++          "e12-ctodesio-wordpress-com-chi-siamo"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti e servizi tecnici dal sito ufficiale; formazione C.A.P.A.C. 2007 ed esempi di marchi riparati dalla pagina chi siamo.",
++            fonti: [
++              "e12-ctodesio-wordpress-com",
++              "e12-ctodesio-wordpress-com-chi-siamo"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "I marchi riparati sono citati dal sito come esempi di interventi su \xABtutte le marche\xBB: nessuna assistenza ufficiale di marca documentata.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "centro-tecnico-orologeria-desio"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "piccinini-orologiai-mantova",
++      slug: "piccinini-orologiai-mantova",
++      nome: "Piccinini Orologiai",
++      tipi: [
++        "orologeria",
++        "gioielleria"
++      ],
++      localitaId: "mantova",
++      descrizione: "Piccinini Orologiai S.r.l., boutique in Piazza Marconi a Mantova, propone orologi Rolex, Tudor, TAG Heuer, Zenith ed Eberhard e offre servizi di riparazione specializzati; il sito racconta una storia aziendale iniziata nel 1936.",
++      posizione: {
++        indirizzo: "Piazza Marconi",
++        cap: null,
++        coordinate: null,
++        fonti: [
++          "e12-www-piccininiorologiai-it"
++        ]
++      },
++      contatti: {
++        telefono: "+39 0376 222190",
++        email: "info@piccininiorologiai.it",
++        sito: "https://www.piccininiorologiai.it/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-piccininiorologiai-it-contatti",
++          "e12-www-piccininiorologiai-it-privacy"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-piccininiorologiai-it"
++          ]
++        },
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-piccininiorologiai-it"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Rolex",
++            fonti: [
++              "e12-www-piccininiorologiai-it-marchi"
++            ]
++          },
++          {
++            marca: "Tudor",
++            fonti: [
++              "e12-www-piccininiorologiai-it-marchi"
++            ]
++          },
++          {
++            marca: "TAG Heuer",
++            fonti: [
++              "e12-www-piccininiorologiai-it-marchi"
++            ]
++          },
++          {
++            marca: "Zenith",
++            fonti: [
++              "e12-www-piccininiorologiai-it-marchi"
++            ]
++          },
++          {
++            marca: "Eberhard",
++            fonti: [
++              "e12-www-piccininiorologiai-it-marchi"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1936,
++        fondatore: null,
++        testo: "Il sito fa risalire la storia aziendale al 1936 e dichiara la rivendita autorizzata Rolex e Tudor dal 1964.",
++        eventi: [
++          {
++            data: "1964",
++            descrizione: "Inizio della rivendita autorizzata Rolex e Tudor secondo il sito dell\u2019attivit\xE0.",
++            fonti: [
++              "e12-www-piccininiorologiai-it-rolex"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-www-piccininiorologiai-it",
++          "e12-www-piccininiorologiai-it-rolex"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-piccininiorologiai-it",
++          "e12-www-piccininiorologiai-it-marchi",
++          "e12-www-piccininiorologiai-it-rolex",
++          "e12-www-piccininiorologiai-it-privacy",
++          "e12-www-piccininiorologiai-it-contatti"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, punto vendita e recapiti dalle pagine ufficiali (contatti, privacy policy); marchi commercializzati dalla pagina marchi; storia dichiarata 1936/1964 conservata come autodichiarazione.",
++            fonti: [
++              "e12-www-piccininiorologiai-it",
++              "e12-www-piccininiorologiai-it-marchi",
++              "e12-www-piccininiorologiai-it-rolex",
++              "e12-www-piccininiorologiai-it-privacy",
++              "e12-www-piccininiorologiai-it-contatti"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "\xABRivenditore autorizzato Rolex e Tudor dal 1964\xBB \xE8 un\u2019autodichiarazione del sito: i locator Rolex e Tudor non sono risultati consultabili, nessuna rivendita ufficiale attribuita.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Civico e CAP del punto vendita in Piazza Marconi non riportati dalle pagine ufficiali; la sede societaria (Porto Mantovano, Via Gramsci 1) non coincide con il negozio e non \xE8 stata usata come indirizzo della scheda.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Dettagli concreti delle riparazioni non pubblicati: la homepage menziona genericamente \xABservizi di riparazione specializzati\xBB.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "piccinini-orologiai-mantova"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "officina-del-tempo-olbia",
++      slug: "officina-del-tempo-olbia",
++      nome: "Officina del Tempo di Alessandro",
++      tipi: [
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "olbia",
++      descrizione: "Officina del Tempo di Alessandro in Via Mameli 9 a Olbia \xE8 centro assistenza ufficiale Hamilton documentato dal locator del marchio, con sostituzione di batterie e cinturini; il sito dell\u2019attivit\xE0 dichiara riparazione di orologi, valutazione di oro e argento e un\u2019attivit\xE0 dal 1946.",
++      posizione: {
++        indirizzo: "Via Mameli, 9",
++        cap: "07026",
++        coordinate: null,
++        fonti: [
++          "e12-www-hamiltonwatch-com-olbia-officina-del-tempo"
++        ]
++      },
++      contatti: {
++        telefono: "+39 0789 623806",
++        email: null,
++        sito: "https://www.officinadeltempoolbia.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++          "e12-www-officinadeltempoolbia-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "assistenza",
++          fonti: [
++            "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++            "e12-www-officinadeltempoolbia-com"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++            "e12-www-officinadeltempoolbia-com"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++            "e12-www-officinadeltempoolbia-com"
++          ]
++        },
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++            "e12-www-officinadeltempoolbia-com"
++          ]
++        },
++        {
++          id: "valutazioni",
++          fonti: [
++            "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++            "e12-www-officinadeltempoolbia-com"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e12-www-hamiltonwatch-com-olbia-officina-del-tempo"
++            ]
++          }
++        ],
++        rivenditaUfficiale: [],
++        menzionati: [
++          {
++            marca: "Omega",
++            fonti: [
++              "e12-www-officinadeltempoolbia-com"
++            ]
++          }
++        ]
++      },
++      storia: {
++        annoFondazione: 1946,
++        fondatore: null,
++        testo: "Il sito dell\u2019attivit\xE0 la presenta come laboratorio di riparazione orologi \xABdal 1946\xBB.",
++        eventi: [
++          {
++            data: "1946",
++            descrizione: "Avvio dell\u2019attivit\xE0 secondo il sito dell\u2019officina.",
++            fonti: [
++              "e12-www-officinadeltempoolbia-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-www-officinadeltempoolbia-com"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++          "e12-www-officinadeltempoolbia-com"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, recapiti e qualifica di centro assistenza ufficiale Hamilton dalla scheda specifica del produttore (marchio-ufficiale); riparazione e valutazioni dal sito ufficiale.",
++            fonti: [
++              "e12-www-hamiltonwatch-com-olbia-officina-del-tempo",
++              "e12-www-officinadeltempoolbia-com"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Il sito si dichiara \xABcentro assistenza certificato Omega\xBB: autodichiarazione non confermata dal locator OMEGA, Omega registrato solo fra i marchi menzionati e non fra le assistenze ufficiali.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Anno di avvio 1946 autodichiarato sul sito dell\u2019attivit\xE0.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "officina-del-tempo-olbia"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-marrocu-villacidro",
++      slug: "gioielleria-marrocu-villacidro",
++      nome: "Gioielleria Marrocu",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "villacidro",
++      descrizione: "Gioielleria Marrocu in Piazza Zampillo 5 a Villacidro, con oltre ottant\u2019anni di storia familiare, gestisce un laboratorio specializzato in assistenza e riparazione orologi, cambio batteria e sostituzione cinturini; una seconda sede \xE8 nel centro commerciale Sant\u2019Ignazio. Vende orologi Sector, Citizen, Guess, Philip Watch, Tommy Hilfiger e Casio.",
++      posizione: {
++        indirizzo: "Piazza Zampillo, 5",
++        cap: "09039",
++        coordinate: null,
++        fonti: [
++          "e12-www-gioielleriavillacidro-it"
++        ]
++      },
++      contatti: {
++        telefono: "070 932431",
++        email: "gioielleriamarrocu@gmail.com",
++        sito: "https://www.gioielleriavillacidro.it/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-gioielleriavillacidro-it"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-www-gioielleriavillacidro-it"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Sector",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          },
++          {
++            marca: "Citizen",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          },
++          {
++            marca: "Guess",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          },
++          {
++            marca: "Philip Watch",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          },
++          {
++            marca: "Tommy Hilfiger",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          },
++          {
++            marca: "Casio",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il sito dichiara oltre ottant\u2019anni di storia familiare, senza indicare l\u2019anno di fondazione.",
++        eventi: [],
++        fonti: [
++          "e12-www-gioielleriavillacidro-it"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-gioielleriavillacidro-it"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede principale, recapiti, laboratorio, marchi e storia dichiarata dal sito ufficiale consultato direttamente.",
++            fonti: [
++              "e12-www-gioielleriavillacidro-it"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Seconda sede dichiarata nel Centro Commerciale Sant\u2019Ignazio (telefono 070 9311129), senza civico: non censita separatamente per mancanza di dati sufficienti.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Anno di fondazione non indicato dalle fonti; revisione di movimenti meccanici e restauro non dichiarati.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "gioielleria-marrocu-villacidro"
++      }
++    },
++    {
++      nomiPrecedenti: [
++        "Boglietti Gioielli Srl",
++        "Boglietti 1886"
++      ],
++      gruppoId: null,
++      orari: {
++        giorni: [
++          {
++            giorno: 2,
++            intervalli: [
++              {
++                apertura: "09:00",
++                chiusura: "12:30"
++              },
++              {
++                apertura: "15:00",
++                chiusura: "19:00"
++              }
++            ]
++          },
++          {
++            giorno: 3,
++            intervalli: [
++              {
++                apertura: "09:00",
++                chiusura: "12:30"
++              },
++              {
++                apertura: "15:00",
++                chiusura: "19:00"
++              }
++            ]
++          },
++          {
++            giorno: 4,
++            intervalli: [
++              {
++                apertura: "09:00",
++                chiusura: "12:30"
++              },
++              {
++                apertura: "15:00",
++                chiusura: "19:00"
++              }
++            ]
++          },
++          {
++            giorno: 5,
++            intervalli: [
++              {
++                apertura: "09:00",
++                chiusura: "12:30"
++              },
++              {
++                apertura: "15:00",
++                chiusura: "19:00"
++              }
++            ]
++          },
++          {
++            giorno: 6,
++            intervalli: [
++              {
++                apertura: "09:00",
++                chiusura: "12:30"
++              },
++              {
++                apertura: "15:00",
++                chiusura: "19:00"
++              }
++            ]
++          }
++        ],
++        chiusure: [
++          "Domenica e luned\xEC"
++        ],
++        verificatiIl: "2026-10-28",
++        fonti: [
++          "e12-www-longines-com-biella-boglietti"
++        ]
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "boglietti-gioielliere-biella",
++      slug: "boglietti-gioielliere-biella",
++      nome: "Boglietti Gioielliere",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "biella",
++      descrizione: "Boglietti Gioielliere, boutique Longines in Via Italia 12 a Biella, dichiara una tradizione dal 1886 e un laboratorio di orologeria per riparazioni e manutenzione; il locator Longines documenta vendita e servizi di manutenzione e sostituzione del cinturino secondo gli standard del marchio.",
++      posizione: {
++        indirizzo: "Via Italia, 12",
++        cap: "13900",
++        coordinate: null,
++        fonti: [
++          "e12-www-longines-com-biella-boglietti"
++        ]
++      },
++      contatti: {
++        telefono: "015 2522169",
++        email: "info@bogliettigioielliere.com",
++        sito: "https://www.bogliettigioielliere.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-longines-com-biella-boglietti",
++          "e12-www-bogliettigioielliere-com-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e12-www-longines-com-biella-boglietti",
++            "e12-www-bogliettigioielliere-com-riparazioni"
++          ]
++        },
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-longines-com-biella-boglietti",
++            "e12-www-bogliettigioielliere-com-riparazioni"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e12-www-longines-com-biella-boglietti",
++            "e12-www-bogliettigioielliere-com-riparazioni"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-longines-com-biella-boglietti",
++            "e12-www-bogliettigioielliere-com-riparazioni"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e12-www-longines-com-biella-boglietti",
++            "e12-www-bogliettigioielliere-com-riparazioni"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Longines",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Tudor",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Breitling",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Zenith",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Breguet",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "TAG Heuer",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Nomos",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          },
++          {
++            marca: "Garmin",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Longines",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1886,
++        fondatore: null,
++        testo: "Il sito dell\u2019attivit\xE0 si presenta con la data 1886 come origine della tradizione Boglietti.",
++        eventi: [
++          {
++            data: "1886",
++            descrizione: "Origine della tradizione Boglietti secondo il sito dell\u2019attivit\xE0.",
++            fonti: [
++              "e12-www-bogliettigioielliere-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-www-bogliettigioielliere-com"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-longines-com-biella-boglietti",
++          "e12-www-bogliettigioielliere-com-contatti",
++          "e12-www-bogliettigioielliere-com-riparazioni",
++          "e12-www-bogliettigioielliere-com"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: sede, recapiti, orari e rivendita ufficiale Longines dalla scheda specifica del produttore (marchio-ufficiale); laboratorio e riparazioni dalle pagine del sito; marchi e storia dichiarata dalle pagine ufficiali.",
++            fonti: [
++              "e12-www-longines-com-biella-boglietti",
++              "e12-www-bogliettigioielliere-com-contatti",
++              "e12-www-bogliettigioielliere-com-riparazioni",
++              "e12-www-bogliettigioielliere-com"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Indirizzo discordante: \xABVia Italia 12\xBB dal locator Longines (fonte primaria adottata) contro \xABViale Italia 11D/12\xBB nelle pagine del sito dell\u2019attivit\xE0.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Il sito dichiara il laboratorio \xABufficialmente autorizzato dalle Maisons\xBB senza nominarle: autodichiarazione, nessuna assistenza oltre a Longines attribuita.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Data 1886 autodichiarata sul sito; il negozio usato per la scheda \xE8 in Biella e non va confuso con altre sedi o insegne Boglietti.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "boglietti-gioielliere-biella"
++      }
++    },
++    {
++      nomiPrecedenti: [
++        "Pintus Maicol Laboratorio Riparazione Orologi"
++      ],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Interventi su orologi da muro",
++          fonti: [
++            "e12-www-reteimprese-it-oristano-maicol"
++          ]
++        }
++      ],
++      specializzazioni: [],
++      id: "laboratorio-orologeria-maicol-oristano",
++      slug: "laboratorio-orologeria-maicol-oristano",
++      nome: "Laboratorio Orologeria Maicol",
++      tipi: [
++        "laboratorio",
++        "orologeria"
++      ],
++      localitaId: "oristano",
++      descrizione: "Laboratorio Orologeria Maicol di Pintus in Via Tirso 117 a Oristano \xE8 indicato dalle fonti di settore come laboratorio di riparazione orologi, con interventi su orologi da polso, da tasca e da muro e sostituzione di batterie. Non risulta consultabile un sito ufficiale dell\u2019attivit\xE0.",
++      posizione: {
++        indirizzo: "Via Tirso, 117",
++        cap: "09170",
++        coordinate: null,
++        fonti: [
++          "e12-www-reteimprese-it-oristano-maicol"
++        ]
++      },
++      contatti: {
++        telefono: "0783 217043",
++        email: null,
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-reteimprese-it-oristano-maicol"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-laclessidra1945-it-centri-assistenza"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-www-laclessidra1945-it-centri-assistenza"
++          ]
++        },
++        {
++          id: "orologi-tasca",
++          fonti: [
++            "e12-www-laclessidra1945-it-centri-assistenza"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "da-verificare",
++        raccoltaIl: "2026-10-28",
++        verificataIl: null,
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-reteimprese-it-oristano-maicol",
++          "e12-www-laclessidra1945-it-centri-assistenza"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede e telefono da Reteimprese; servizi di riparazione e interventi da La Clessidra (fonte di settore) e dalla scheda directory. Nessun dato inventato; stato di attendibilit\xE0 conservato come \xABda verificare\xBB.",
++            fonti: [
++              "e12-www-reteimprese-it-oristano-maicol",
++              "e12-www-laclessidra1945-it-centri-assistenza"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Documentazione indiretta: schede di directory (Reteimprese) ed elenco dei laboratori di riparazione della rivista di settore La Clessidra; sito ufficiale non disponibile e apertura attuale non confermata da fonti primarie. Stato impostato a \xABda verificare\xBB.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Profilo Facebook segnalato ma non leggibile senza autenticazione: non usato come prova.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "laboratorio-orologeria-maicol-oristano"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Interventi su sveglie e orologi da muro",
++          fonti: [
++            "e12-www-catanzarocentro-it-bottega-del-tempo"
++          ]
++        }
++      ],
++      specializzazioni: [
++        {
++          id: "vintage",
++          fonti: [
++            "e12-www-catanzarocentro-it-bottega-del-tempo"
++          ]
++        }
++      ],
++      id: "la-bottega-del-tempo-catanzaro",
++      slug: "la-bottega-del-tempo-catanzaro",
++      nome: "La Bottega del Tempo Orologeria",
++      tipi: [
++        "laboratorio",
++        "orologeria"
++      ],
++      localitaId: "catanzaro",
++      descrizione: "La Bottega del Tempo in Via Poerio 3 a Catanzaro \xE8 il laboratorio di Antonio Torchia, aperto nel 2021 proseguendo l\u2019esperienza familiare del padre orologiaio dal 1970: riparazione di circuiti e rotelle, sostituzione di batterie e cinturini, interventi su orologi moderni e d\u2019epoca, sveglie e orologi da muro.",
++      posizione: {
++        indirizzo: "Via Poerio, 3",
++        cap: null,
++        coordinate: null,
++        fonti: [
++          "e12-www-catanzarocentro-it-bottega-del-tempo"
++        ]
++      },
++      contatti: {
++        telefono: "351 5785387",
++        email: null,
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e12-www-catanzarocentro-it-bottega-del-tempo"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e12-www-catanzarocentro-it-bottega-del-tempo"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e12-www-catanzarocentro-it-bottega-del-tempo"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e12-www-catanzarocentro-it-bottega-del-tempo"
++          ]
++        }
++      ],
++      storia: {
++        annoFondazione: 2021,
++        fondatore: "Antonio Torchia",
++        testo: "Il laboratorio apr\xEC nel 2021 per opera di Antonio Torchia, proseguendo l\u2019esperienza familiare del padre orologiaio dal 1970.",
++        eventi: [
++          {
++            data: "1970",
++            descrizione: "Inizio dell\u2019attivit\xE0 orologiaia del padre di Antonio Torchia.",
++            fonti: [
++              "e12-www-catanzarocentro-it-bottega-del-tempo"
++            ]
++          },
++          {
++            data: "2021",
++            descrizione: "Apertura del laboratorio La Bottega del Tempo in Via Poerio.",
++            fonti: [
++              "e12-www-catanzarocentro-it-bottega-del-tempo"
++            ]
++          }
++        ],
++        fonti: [
++          "e12-www-catanzarocentro-it-bottega-del-tempo"
++        ]
++      },
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      attendibilita: {
++        stato: "da-verificare",
++        raccoltaIl: "2026-10-28",
++        verificataIl: null,
++        confermataTitolareIl: null,
++        fonti: [
++          "e12-www-catanzarocentro-it-bottega-del-tempo"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 2: identit\xE0, sede, telefono, servizi e cronologia dall\u2019articolo di stampa locale consultato direttamente; nessun dato aggiunto oltre la fonte.",
++            fonti: [
++              "e12-www-catanzarocentro-it-bottega-del-tempo"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Fonte pi\xF9 recente consultata: articolo di stampa locale del 21 maggio 2021; apertura attuale non confermata da fonti successive. Stato impostato a \xABda verificare\xBB.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "CAP non riportato dalla fonte consultata. La collaborazione commerciale con ITALICO Store & Lab era annunciata nel 2021 come prospettiva: nessun marchio in vendita attribuito.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto2-20261028",
++        idOriginale: "la-bottega-del-tempo-catanzaro"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-paolini-atri",
++      slug: "gioielleria-paolini-atri",
++      nome: "Gioielleria Paolini",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "atri",
++      descrizione: "Gioielleria Paolini in Corso Elio Adriano 73 ad Atri offre assistenza tecnica di orologeria e oreficeria con laboratorio interno; la storia dell\u2019attivit\xE0 risale ai primi del Novecento, con trasferimento ad Atri intorno al 1935 e nell\u2019attuale sede nei primi anni Sessanta.",
++      posizione: {
++        indirizzo: "Corso Elio Adriano, 73",
++        cap: "64032",
++        coordinate: null,
++        fonti: [
++          "e13-www-gioielleriapaolini-com-contatti"
++        ]
++      },
++      contatti: {
++        telefono: "085 87604",
++        email: "info@gioielleriapaolini.com",
++        sito: "https://www.gioielleriapaolini.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-gioielleriapaolini-com-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "assistenza",
++          fonti: [
++            "e13-www-gioielleriapaolini-com-chi-siamo"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-gioielleriapaolini-com-chi-siamo"
++          ]
++        }
++      ],
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "La pagina aziendale fa risalire la nascita dell\u2019attivit\xE0 ai primi del Novecento: trasferimento ad Atri intorno al 1935, sede attuale dai primi anni Sessanta.",
++        eventi: [
++          {
++            data: "1935",
++            descrizione: "Trasferimento dell\u2019attivit\xE0 ad Atri.",
++            fonti: [
++              "e13-www-gioielleriapaolini-com-chi-siamo"
++            ]
++          },
++          {
++            data: "primi anni Sessanta",
++            descrizione: "Trasferimento nell\u2019attuale sede di Corso Elio Adriano.",
++            fonti: [
++              "e13-www-gioielleriapaolini-com-chi-siamo"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-gioielleriapaolini-com-chi-siamo"
++        ]
++      },
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-gioielleriapaolini-com-chi-siamo",
++          "e13-www-gioielleriapaolini-com-contatti"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, recapiti e laboratorio interno dal sito ufficiale; cronologia dichiarata registrata senza deduzioni.",
++            fonti: [
++              "e13-www-gioielleriapaolini-com-chi-siamo",
++              "e13-www-gioielleriapaolini-com-contatti"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Storia \xABprimi del Novecento\xBB autodichiarata dal sito, senza anno di fondazione preciso: nessun anno attribuito.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Il sito non specifica i singoli interventi di laboratorio (batterie, revisioni): nessun servizio aggiuntivo attribuito.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "gioielleria-paolini-atri"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "magliozzi-orologi-fondi",
++      slug: "magliozzi-orologi-fondi",
++      nome: "Magliozzi Orologi e Gioielleria",
++      tipi: [
++        "orologeria",
++        "gioielleria"
++      ],
++      localitaId: "fondi",
++      descrizione: "Magliozzi Orologi e Gioielleria in Via Pietrangelo Leone 30 a Fondi offre un servizio di assistenza per orologi di alta gamma con controllo e preventivo in negozio e interventi affidati a centri specializzati: riparazione, revisione, lucidatura e restauro; il catalogo include orologi nuovi e di secondo polso.",
++      posizione: {
++        indirizzo: "Via Pietrangelo Leone, 30",
++        cap: "04022",
++        coordinate: null,
++        fonti: [
++          "e13-magliozziorologi-it-contattaci"
++        ]
++      },
++      contatti: {
++        telefono: "0771 513031",
++        email: "info@magliozziorologi.it",
++        sito: "https://magliozziorologi.it/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-magliozziorologi-it-contattaci"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-magliozziorologi-it-assistenza"
++          ]
++        },
++        {
++          id: "revisione",
++          fonti: [
++            "e13-magliozziorologi-it-assistenza"
++          ]
++        },
++        {
++          id: "lucidatura",
++          fonti: [
++            "e13-magliozziorologi-it-assistenza"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-magliozziorologi-it-assistenza"
++          ]
++        },
++        {
++          id: "vendita-usati",
++          fonti: [
++            "e13-magliozziorologi-it-assistenza"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Rolex",
++            fonti: [
++              "e13-magliozziorologi-it-rolex-submariner",
++              "e13-magliozziorologi-it-cartier-santos"
++            ]
++          },
++          {
++            marca: "Cartier",
++            fonti: [
++              "e13-magliozziorologi-it-rolex-submariner",
++              "e13-magliozziorologi-it-cartier-santos"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-magliozziorologi-it-contattaci",
++          "e13-magliozziorologi-it-assistenza",
++          "e13-magliozziorologi-it-rolex-submariner",
++          "e13-magliozziorologi-it-cartier-santos"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: sede e recapiti dalla pagina contatti; servizi di assistenza (con centri esterni) dalla pagina assistenza; Rolex e Cartier dalle schede prodotto del sito.",
++            fonti: [
++              "e13-magliozziorologi-it-contattaci",
++              "e13-magliozziorologi-it-assistenza",
++              "e13-magliozziorologi-it-rolex-submariner",
++              "e13-magliozziorologi-it-cartier-santos"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Gli interventi di riparazione sono coordinati dal negozio ma affidati a centri specializzati esterni: nessun laboratorio interno attribuito.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Nessuna autorizzazione di marca: le schede prodotto con garanzia non dimostrano status di rivenditore o centro assistenza.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "magliozzi-orologi-fondi"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [
++        {
++          id: "vintage",
++          fonti: [
++            "e13-dslaborologeria-com"
++          ]
++        }
++      ],
++      id: "dslab-orologeria-narni",
++      slug: "dslab-orologeria-narni",
++      nome: "DsLab Orologeria",
++      tipi: [
++        "laboratorio",
++        "orologeria"
++      ],
++      localitaId: "narni",
++      descrizione: "DsLab Orologeria di Santicchia Dario in Via della Libert\xE0 9 a Narni Scalo \xE8 laboratorio specializzato nella riparazione e nel restauro di orologi vintage e moderni; il sito propone anche una selezione di orologi.",
++      posizione: {
++        indirizzo: "Via della Libert\xE0, 9",
++        cap: "05035",
++        coordinate: null,
++        fonti: [
++          "e13-dslaborologeria-com-info"
++        ]
++      },
++      contatti: {
++        telefono: "338 4526228",
++        email: "info.dslaborologeria@gmail.com",
++        sito: "https://dslaborologeria.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-dslaborologeria-com-info"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-dslaborologeria-com"
++          ]
++        },
++        {
++          id: "restauro-vintage",
++          fonti: [
++            "e13-dslaborologeria-com"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-dslaborologeria-com"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: [
++          {
++            marca: "Seiko",
++            fonti: [
++              "e13-dslaborologeria-com"
++            ]
++          },
++          {
++            marca: "Certina",
++            fonti: [
++              "e13-dslaborologeria-com"
++            ]
++          },
++          {
++            marca: "Longines",
++            fonti: [
++              "e13-dslaborologeria-com"
++            ]
++          },
++          {
++            marca: "Zenith",
++            fonti: [
++              "e13-dslaborologeria-com"
++            ]
++          }
++        ]
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-dslaborologeria-com",
++          "e13-dslaborologeria-com-info"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede e recapiti dalla pagina contatti; riparazione/restauro vintage e moderni dal sito ufficiale.",
++            fonti: [
++              "e13-dslaborologeria-com",
++              "e13-dslaborologeria-com-info"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "I marchi compaiono nel catalogo del sito come singoli pezzi esposti: nessuna rivendita ufficiale n\xE9 marchi riparati attribuiti.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "dslab-orologeria-narni"
++      }
++    },
++    {
++      nomiPrecedenti: [
++        "La Meridiana di Tarchi Paolo"
++      ],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Ricambi originali",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        },
++        {
++          nome: "Test di impermeabilit\xE0",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        }
++      ],
++      specializzazioni: [],
++      id: "centro-clinico-orologio-narni",
++      slug: "centro-clinico-orologio-narni",
++      nome: "Centro Clinico dell\u2019Orologio La Meridiana",
++      tipi: [
++        "laboratorio",
++        "orologeria"
++      ],
++      localitaId: "narni",
++      descrizione: "Il Centro Clinico dell\u2019Orologio La Meridiana in Via Tuderte 321 a Narni Scalo ripara orologi automatici, al quarzo e a carica manuale con ricambi originali, test di impermeabilit\xE0 e vendita; il sito dichiara una tradizione orologiera dal 1950 e tre generazioni di orologiai.",
++      posizione: {
++        indirizzo: "Via Tuderte, 321",
++        cap: "05035",
++        coordinate: null,
++        fonti: [
++          "e13-www-paginesi-it-narni-meridiana"
++        ]
++      },
++      contatti: {
++        telefono: "0744 733214",
++        email: null,
++        sito: "https://www.centroclinicodellorologio.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-paginesi-it-narni-meridiana",
++          "e13-www-centroclinicodellorologio-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        },
++        {
++          id: "riparazione-meccanici",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        },
++        {
++          id: "riparazione-quarzo",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-centroclinicodellorologio-com"
++          ]
++        }
++      ],
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il sito dichiara una tradizione orologiera dal 1950 e tre generazioni di orologiai.",
++        eventi: [
++          {
++            data: "1950",
++            descrizione: "Inizio della tradizione orologiera dichiarata dal sito.",
++            fonti: [
++              "e13-www-centroclinicodellorologio-com"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-centroclinicodellorologio-com"
++        ]
++      },
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-centroclinicodellorologio-com",
++          "e13-www-paginesi-it-narni-meridiana"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0 e servizi tecnici dal sito ufficiale; indirizzo e recapiti corroborati dalla scheda directory consultata.",
++            fonti: [
++              "e13-www-centroclinicodellorologio-com",
++              "e13-www-paginesi-it-narni-meridiana"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Tradizione \xABdal 1950\xBB e tre generazioni autodichiarate; nessun anno di fondazione verificato indipendentemente.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Telefono cellulare 339 2698412 e indirizzo da scheda directory (PagineSI); email non pubblicata nelle pagine ufficiali lette.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "centro-clinico-orologio-narni"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-foschini-telese",
++      slug: "gioielleria-foschini-telese",
++      nome: "Gioielleria Foschini",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "telese-terme",
++      descrizione: "Gioielleria Foschini in Via Roma 186 a Telese Terme gestisce un laboratorio di riparazione orologi attivo dal 1994, con cambio pila e sostituzione cinturini; la gioielleria \xE8 attiva dal 1998 e propone anche la vendita di orologi.",
++      posizione: {
++        indirizzo: "Via Roma, 186",
++        cap: null,
++        coordinate: null,
++        fonti: [
++          "e13-www-instagram-com-gioielleria-foschini"
++        ]
++      },
++      contatti: {
++        telefono: null,
++        email: null,
++        sito: null,
++        whatsapp: null,
++        social: [
++          "https://www.instagram.com/gioielleria_foschini_telese_/"
++        ],
++        fonti: [
++          "e13-www-instagram-com-gioielleria-foschini"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-www-instagram-com-gioielleria-foschini",
++            "e13-www-instagram-com-foschini-pila-cinturini"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e13-www-instagram-com-gioielleria-foschini",
++            "e13-www-instagram-com-foschini-pila-cinturini"
++          ]
++        },
++        {
++          id: "cinturini",
++          fonti: [
++            "e13-www-instagram-com-gioielleria-foschini",
++            "e13-www-instagram-com-foschini-pila-cinturini"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-instagram-com-gioielleria-foschini",
++            "e13-www-instagram-com-foschini-pila-cinturini"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-instagram-com-gioielleria-foschini",
++            "e13-www-instagram-com-foschini-pila-cinturini"
++          ]
++        }
++      ],
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il profilo dichiara \xABLab. Riparazioni Orologi dal 1994\xBB e \xABGioielleria dal 1998\xBB.",
++        eventi: [
++          {
++            data: "1994",
++            descrizione: "Avvio del laboratorio di riparazione orologi secondo il profilo ufficiale.",
++            fonti: [
++              "e13-www-instagram-com-gioielleria-foschini"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-instagram-com-gioielleria-foschini"
++        ]
++      },
++      marchi: {
++        venduti: [],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-instagram-com-gioielleria-foschini",
++          "e13-www-instagram-com-foschini-pila-cinturini"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, laboratorio e servizi base dal profilo ufficiale e dal post aziendale; nessun dato inventato oltre le fonti.",
++            fonti: [
++              "e13-www-instagram-com-gioielleria-foschini",
++              "e13-www-instagram-com-foschini-pila-cinturini"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Canale ufficiale consultato: profilo Instagram. Telefono, email e sito web non pubblicati; CAP non riportato.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Date 1994 e 1998 autodichiarate; interventi documentati solo cambio pila e sostituzione cinturini.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "gioielleria-foschini-telese"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "luigi-freddo-gioielli-gallipoli",
++      slug: "luigi-freddo-gioielli-gallipoli",
++      nome: "Luigi Freddo Gioielli",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "gallipoli",
++      descrizione: "Luigi Freddo Gioielli in Corso Roma 82 a Gallipoli \xE8 rivenditore ufficiale Hamilton documentato dal locator del marchio e dichiara orologeria e assistenza tecnica; il profilo aziendale indica una tradizione dal 1965.",
++      posizione: {
++        indirizzo: "Corso Roma, 82",
++        cap: "73014",
++        coordinate: null,
++        fonti: [
++          "e13-www-hamiltonwatch-com-gallipoli-freddo"
++        ]
++      },
++      contatti: {
++        telefono: "0833 261197",
++        email: "luigifreddogioielli@libero.it",
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-hamiltonwatch-com-gallipoli-freddo"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-hamiltonwatch-com-gallipoli-freddo",
++            "e13-www-instagram-com-francofreddogioielli"
++          ]
++        },
++        {
++          id: "assistenza",
++          fonti: [
++            "e13-www-hamiltonwatch-com-gallipoli-freddo",
++            "e13-www-instagram-com-francofreddogioielli"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-hamiltonwatch-com-gallipoli-freddo",
++            "e13-www-instagram-com-francofreddogioielli"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-gallipoli-freddo"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-gallipoli-freddo"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il profilo aziendale si presenta come attivit\xE0 \xABSince 1965\xBB.",
++        eventi: [
++          {
++            data: "1965",
++            descrizione: "Inizio dell\u2019attivit\xE0 secondo il profilo ufficiale.",
++            fonti: [
++              "e13-www-instagram-com-francofreddogioielli"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-instagram-com-francofreddogioielli"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-hamiltonwatch-com-gallipoli-freddo",
++          "e13-www-instagram-com-francofreddogioielli"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, recapiti e rivendita ufficiale Hamilton dalla scheda specifica del produttore (marchio-ufficiale); assistenza dichiarata dal profilo ufficiale.",
++            fonti: [
++              "e13-www-hamiltonwatch-com-gallipoli-freddo",
++              "e13-www-instagram-com-francofreddogioielli"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "\xABOrologeria ed assistenza tecnica\xBB \xE8 una dichiarazione del profilo ufficiale senza dettaglio degli interventi: nessun laboratorio attribuito.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Anno 1965 autodichiarato. La rivendita ufficiale Hamilton prova la vendita, non l\u2019autorizzazione alla riparazione.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "luigi-freddo-gioielli-gallipoli"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-del-genio-martina",
++      slug: "gioielleria-del-genio-martina",
++      nome: "Gioielleria Del Genio",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "martina-franca",
++      descrizione: "Gioielleria Del Genio in Corso Messapia 41 a Martina Franca \xE8 rivenditore ufficiale Hamilton e Mido documentato dai locator ufficiali dei due marchi: vendita di orologi svizzeri con consulenza in negozio.",
++      posizione: {
++        indirizzo: "Corso Messapia, 41",
++        cap: "74015",
++        coordinate: null,
++        fonti: [
++          "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++          "e13-www-midowatches-com-del-genio"
++        ]
++      },
++      contatti: {
++        telefono: "080 4302541",
++        email: null,
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++          "e13-www-midowatches-com-del-genio"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++            "e13-www-midowatches-com-del-genio"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++              "e13-www-midowatches-com-del-genio"
++            ]
++          },
++          {
++            marca: "Mido",
++            fonti: [
++              "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++              "e13-www-midowatches-com-del-genio"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++              "e13-www-midowatches-com-del-genio"
++            ]
++          },
++          {
++            marca: "Mido",
++            fonti: [
++              "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++              "e13-www-midowatches-com-del-genio"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++          "e13-www-midowatches-com-del-genio"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede (Corso Messapia 41, confermata da due locator primari) e rivendite ufficiali Hamilton e Mido dalle schede specifiche dei produttori.",
++            fonti: [
++              "e13-www-hamiltonwatch-com-martina-franca-del-genio",
++              "e13-www-midowatches-com-del-genio"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Indirizzo discordante fra le schede Hamilton: Corso Messapia 41 (due fonti primarie: Hamilton e Mido) contro Via Gioacchino Rossini 29 in una seconda scheda Hamilton; possibile seconda sede o dato non aggiornato, non risolto.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Servizi di riparazione non documentati dalle fonti: nessun intervento tecnico attribuito.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "gioielleria-del-genio-martina"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "massimo-gioielli-foggia",
++      slug: "massimo-gioielli-foggia",
++      nome: "Massimo Gioielli",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "foggia",
++      descrizione: "Massimo Gioielli in Via Michele Angiolillo 2/4 a Foggia \xE8 rivenditore ufficiale Hamilton documentato dal locator del marchio; la storia aziendale ricorda il laboratorio da orologiaio aperto da Pietro Massimo nel 1953, oggi per\xF2 non documentato come servizio corrente.",
++      posizione: {
++        indirizzo: "Via Michele Angiolillo, 2/4",
++        cap: "71121",
++        coordinate: null,
++        fonti: [
++          "e13-www-massimogioielli-it-gioielleria",
++          "e13-www-hamiltonwatch-com-foggia-massimo"
++        ]
++      },
++      contatti: {
++        telefono: "0881 775322",
++        email: "gioielleriamassimo@yahoo.it",
++        sito: "https://www.massimogioielli.it/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-hamiltonwatch-com-foggia-massimo"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-massimogioielli-it-gioielleria"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-massimogioielli-it-gioielleria"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-foggia-massimo"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-foggia-massimo"
++            ]
++          }
++        ],
++        menzionati: [
++          {
++            marca: "Frederique Constant",
++            fonti: [
++              "e13-frederiqueconstant-com-massimo-foggia"
++            ]
++          }
++        ]
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: "Pietro Massimo",
++        testo: "La pagina storica dell\u2019attivit\xE0 ricorda l\u2019apertura, nel 1953, di un laboratorio da orologiaio per opera di Pietro Massimo.",
++        eventi: [
++          {
++            data: "1953",
++            descrizione: "Apertura del laboratorio da orologiaio di Pietro Massimo secondo il sito.",
++            fonti: [
++              "e13-www-massimogioielli-it-gioielleria"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-massimogioielli-it-gioielleria"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-massimogioielli-it-gioielleria",
++          "e13-www-hamiltonwatch-com-foggia-massimo",
++          "e13-frederiqueconstant-com-massimo-foggia"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, recapiti e rivendita ufficiale Hamilton dalla scheda del produttore; storia 1953 dal sito, conservata come dichiarazione.",
++            fonti: [
++              "e13-www-massimogioielli-it-gioielleria",
++              "e13-www-hamiltonwatch-com-foggia-massimo",
++              "e13-frederiqueconstant-com-massimo-foggia"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Il laboratorio del 1953 \xE8 storia dichiarata: non prova riparazioni attuali, nessun servizio di riparazione attribuito.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Civico discordante: 2/4 sul sito, 2 sui locator Hamilton e Frederique Constant.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "La scheda Frederique Constant elenca il negozio senza qualifica esplicita di rivenditore: marchio solo menzionato.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "massimo-gioielli-foggia"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [
++        {
++          nome: "Sostituzione movimento e accumulatori",
++          fonti: [
++            "e13-onciadoro-com-servizi"
++          ]
++        },
++        {
++          nome: "Sostituzione vetri",
++          fonti: [
++            "e13-onciadoro-com-servizi"
++          ]
++        },
++        {
++          nome: "Prove di impermeabilit\xE0",
++          fonti: [
++            "e13-onciadoro-com-servizi"
++          ]
++        },
++        {
++          nome: "Incisione laser",
++          fonti: [
++            "e13-onciadoro-com-servizi"
++          ]
++        }
++      ],
++      specializzazioni: [],
++      id: "loncia-doro-siniscola",
++      slug: "loncia-doro-siniscola",
++      nome: "L\u2019Oncia d\u2019Oro",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "siniscola",
++      descrizione: "L\u2019Oncia d\u2019Oro in Via G.F. Conteddu 85 a Siniscola \xE8 laboratorio orafo e gioielleria con riparazione e manutenzione di orologi: cambio pila, sostituzione movimento e accumulatori, vetri, prove di impermeabilit\xE0, lucidatura e satinatura bracciali, incisione laser; vende orologi Citizen.",
++      posizione: {
++        indirizzo: "Via G.F. Conteddu, 85",
++        cap: "08029",
++        coordinate: null,
++        fonti: [
++          "e13-onciadoro-com"
++        ]
++      },
++      contatti: {
++        telefono: "+39 0784 877843",
++        email: "info@onciadoro.it",
++        sito: "https://onciadoro.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-onciadoro-com"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        },
++        {
++          id: "batterie",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        },
++        {
++          id: "lucidatura",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-onciadoro-com-servizi",
++            "e13-onciadoro-com-orologi"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Citizen",
++            fonti: [
++              "e13-onciadoro-com-orologi"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: null,
++        eventi: [],
++        fonti: []
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-onciadoro-com",
++          "e13-onciadoro-com-servizi",
++          "e13-onciadoro-com-orologi"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, recapiti e vendita Citizen dal sito ufficiale; servizi tecnici dettagliati dalla pagina servizi.",
++            fonti: [
++              "e13-onciadoro-com",
++              "e13-onciadoro-com-servizi",
++              "e13-onciadoro-com-orologi"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Marchi riparati non specificati: il sito descrive i tipi di intervento senza elenchi per marca e senza autorizzazioni.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "loncia-doro-siniscola"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-stoppa-grosseto",
++      slug: "gioielleria-stoppa-grosseto",
++      nome: "Gioielleria Stoppa",
++      tipi: [
++        "gioielleria",
++        "orologeria",
++        "laboratorio"
++      ],
++      localitaId: "grosseto",
++      descrizione: "Gioielleria Stoppa, fondata nel 1962 da Marcello Stoppa, gestisce a Grosseto un laboratorio interno orafo e di orologeria per manutenzione e riparazione di orologi di ogni marca con ricambi originali; \xE8 rivenditore ufficiale Tissot e Breil secondo i locator dei due marchi.",
++      posizione: {
++        indirizzo: "Via Ecuador (Centro Commerciale Marem\xE0)",
++        cap: "58100",
++        coordinate: null,
++        fonti: [
++          "e13-gioielleriastoppa-it-negozi",
++          "e13-www-breil-com-stoppa"
++        ]
++      },
++      contatti: {
++        telefono: "0564 454794",
++        email: "info@gioielleriastoppa.it",
++        sito: "https://gioielleriastoppa.it/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-gioielleriastoppa-it-negozi"
++        ]
++      },
++      servizi: [
++        {
++          id: "riparazione",
++          fonti: [
++            "e13-gioielleriastoppa-it-laboratorio",
++            "e13-gioielleriastoppa-it-negozi"
++          ]
++        },
++        {
++          id: "manutenzione",
++          fonti: [
++            "e13-gioielleriastoppa-it-laboratorio",
++            "e13-gioielleriastoppa-it-negozi"
++          ]
++        },
++        {
++          id: "assistenza",
++          fonti: [
++            "e13-gioielleriastoppa-it-laboratorio",
++            "e13-gioielleriastoppa-it-negozi"
++          ]
++        },
++        {
++          id: "vendita",
++          fonti: [
++            "e13-gioielleriastoppa-it-laboratorio",
++            "e13-gioielleriastoppa-it-negozi"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-gioielleriastoppa-it-laboratorio",
++            "e13-gioielleriastoppa-it-negozi"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Tissot",
++            fonti: [
++              "e13-www-tissotwatches-com-stoppa",
++              "e13-www-breil-com-stoppa"
++            ]
++          },
++          {
++            marca: "Breil",
++            fonti: [
++              "e13-www-tissotwatches-com-stoppa",
++              "e13-www-breil-com-stoppa"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Tissot",
++            fonti: [
++              "e13-www-tissotwatches-com-stoppa",
++              "e13-www-breil-com-stoppa"
++            ]
++          },
++          {
++            marca: "Breil",
++            fonti: [
++              "e13-www-tissotwatches-com-stoppa",
++              "e13-www-breil-com-stoppa"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1962,
++        fondatore: "Marcello Stoppa",
++        testo: "Il sito dell\u2019attivit\xE0 dichiara la fondazione nel 1962 da parte di Marcello Stoppa.",
++        eventi: [
++          {
++            data: "1962",
++            descrizione: "Fondazione della gioielleria da parte di Marcello Stoppa.",
++            fonti: [
++              "e13-gioielleriastoppa-it-storia"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-gioielleriastoppa-it-storia"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-gioielleriastoppa-it-negozi",
++          "e13-gioielleriastoppa-it-laboratorio",
++          "e13-gioielleriastoppa-it-storia",
++          "e13-www-tissotwatches-com-stoppa",
++          "e13-www-breil-com-stoppa"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: laboratorio interno e storia dal sito ufficiale; rivendite ufficiali Tissot e Breil dalle schede specifiche dei produttori (marchio-ufficiale).",
++            fonti: [
++              "e13-gioielleriastoppa-it-negozi",
++              "e13-gioielleriastoppa-it-laboratorio",
++              "e13-gioielleriastoppa-it-storia",
++              "e13-www-tissotwatches-com-stoppa",
++              "e13-www-breil-com-stoppa"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Civico della sede Marem\xE0 non pubblicato dal sito (\xABVia Ecuador, presso Centro Commerciale Marem\xE0\xBB); altre sedi in Corso Carducci 48a/48c. Recapito alternativo 056423522 dalla scheda Breil.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Riparazioni \xABdi ogni marca\xBB e fondazione 1962 autodichiarate; i locator Tissot e Breil documentano la rivendita, non l\u2019assistenza tecnica autorizzata.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "gioielleria-stoppa-grosseto"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "gioielleria-marco-danese-quartu",
++      slug: "gioielleria-marco-danese-quartu",
++      nome: "Gioielleria Marco Danese",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "quartu-sant-elena",
++      descrizione: "Gioielleria Marco Danese in Via Cavour 68 a Quartu Sant\u2019Elena \xE8 rivenditore ufficiale Hamilton documentato dal locator del marchio; il sito dichiara una tradizione dal 1876 e propone orologi, assistenza post-vendita e alta orologeria.",
++      posizione: {
++        indirizzo: "Via Cavour, 68",
++        cap: "09045",
++        coordinate: null,
++        fonti: [
++          "e13-www-gioielleriamarcodanese-com-contatti",
++          "e13-www-hamiltonwatch-com-quartu-danese"
++        ]
++      },
++      contatti: {
++        telefono: "070 824138",
++        email: "info@gioielleriamarcodanese.com",
++        sito: "https://www.gioielleriamarcodanese.com/",
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-gioielleriamarcodanese-com-contatti"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-gioielleriamarcodanese-com-prodotti"
++          ]
++        },
++        {
++          id: "assistenza",
++          fonti: [
++            "e13-www-gioielleriamarcodanese-com-prodotti"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-gioielleriamarcodanese-com-prodotti"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-quartu-danese"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-quartu-danese"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: null,
++        fondatore: null,
++        testo: "Il sito attribuisce al negozio una tradizione dal 1876.",
++        eventi: [
++          {
++            data: "1876",
++            descrizione: "Origine della tradizione dichiarata dal sito.",
++            fonti: [
++              "e13-www-gioielleriamarcodanese-com-prodotti"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-gioielleriamarcodanese-com-prodotti"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-gioielleriamarcodanese-com-contatti",
++          "e13-www-gioielleriamarcodanese-com-prodotti",
++          "e13-www-hamiltonwatch-com-quartu-danese"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede e recapiti dal sito ufficiale; rivendita ufficiale Hamilton dalla scheda del produttore (marchio-ufficiale).",
++            fonti: [
++              "e13-www-gioielleriamarcodanese-com-contatti",
++              "e13-www-gioielleriamarcodanese-com-prodotti",
++              "e13-www-hamiltonwatch-com-quartu-danese"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Email discordante: info@gioielleriamarcodanese.com sul sito, gioielleriamarcodanese@gmail.com sul locator Hamilton; entrambe registrate, nessuna scelta arbitraria.",
++            stato: "aperta"
++          },
++          {
++            data: "2026-10-28",
++            motivo: "Tradizione \xABdal 1876\xBB autodichiarata; assistenza post-vendita e \xABAlta Orologeria\xBB senza dettaglio di interventi: nessun laboratorio n\xE9 riparazioni specifiche attribuite.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "gioielleria-marco-danese-quartu"
++      }
++    },
++    {
++      nomiPrecedenti: [],
++      gruppoId: null,
++      orari: {
++        giorni: [],
++        chiusure: [],
++        verificatiIl: null,
++        fonti: []
++      },
++      altriServizi: [],
++      specializzazioni: [],
++      id: "perdichizzi-1907-barcellona",
++      slug: "perdichizzi-1907-barcellona",
++      nome: "Gioielleria Perdichizzi 1907",
++      tipi: [
++        "gioielleria",
++        "orologeria"
++      ],
++      localitaId: "barcellona-pozzo-di-gotto",
++      descrizione: "Gioielleria Perdichizzi 1907 in Via Roma 82 a Barcellona Pozzo di Gotto \xE8 gioielleria storica \u2014 la tradizione dichiarata risale al 1907 \u2014 con vendita di gioielli e orologi; il locator Hamilton documenta la sede come rivenditore ufficiale del marchio.",
++      posizione: {
++        indirizzo: "Via Roma, 82",
++        cap: "98051",
++        coordinate: null,
++        fonti: [
++          "e13-www-gioielleriaperdichizzi-it-negozi",
++          "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++        ]
++      },
++      contatti: {
++        telefono: "090 9701578",
++        email: "info@perdichizzi1907.it",
++        sito: null,
++        whatsapp: null,
++        social: [],
++        fonti: [
++          "e13-www-gioielleriaperdichizzi-it-negozi",
++          "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++        ]
++      },
++      servizi: [
++        {
++          id: "vendita",
++          fonti: [
++            "e13-www-gioielleriaperdichizzi-it-negozi"
++          ]
++        },
++        {
++          id: "gioielleria",
++          fonti: [
++            "e13-www-gioielleriaperdichizzi-it-negozi"
++          ]
++        }
++      ],
++      marchi: {
++        venduti: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++            ]
++          }
++        ],
++        riparati: [],
++        esperienza: [],
++        assistenzaUfficiale: [],
++        rivenditaUfficiale: [
++          {
++            marca: "Hamilton",
++            fonti: [
++              "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++            ]
++          }
++        ],
++        menzionati: []
++      },
++      storia: {
++        annoFondazione: 1907,
++        fondatore: null,
++        testo: "Il sito dell\u2019attivit\xE0 dichiara vendite di gioielli dal 1907.",
++        eventi: [
++          {
++            data: "1907",
++            descrizione: "Inizio della tradizione dichiarata dal sito.",
++            fonti: [
++              "e13-www-gioielleriaperdichizzi-it-negozi"
++            ]
++          }
++        ],
++        fonti: [
++          "e13-www-gioielleriaperdichizzi-it-negozi"
++        ]
++      },
++      attendibilita: {
++        stato: "fonti-verificate",
++        raccoltaIl: "2026-10-28",
++        verificataIl: "2026-10-28",
++        confermataTitolareIl: null,
++        fonti: [
++          "e13-www-gioielleriaperdichizzi-it-negozi",
++          "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++        ],
++        cronologia: [
++          {
++            data: "2026-10-28",
++            azione: "Espansione lotto 3: identit\xE0, sede, recapiti e storia dichiarata dal sito ufficiale; rivendita ufficiale Hamilton dalla scheda del produttore (marchio-ufficiale).",
++            fonti: [
++              "e13-www-gioielleriaperdichizzi-it-negozi",
++              "e13-www-hamiltonwatch-com-barcellona-perdichizzi"
++            ]
++          }
++        ],
++        segnalazioni: [
++          {
++            data: "2026-10-28",
++            motivo: "Anno 1907 autodichiarato. Riparazioni locali non documentate: le condizioni di garanzia prevedono interventi per difetti ma escludono batteria e usura; nessun servizio di riparazione attribuito.",
++            stato: "aperta"
++          }
++        ]
++      },
++      origine: {
++        sistema: "espansione-lotto3-20261028",
++        idOriginale: "perdichizzi-1907-barcellona"
++      }
+     }
+   ]
+ };
+diff --git a/tests/fase-07-assistant.test.ts b/tests/fase-07-assistant.test.ts
+index 94041fe..80028cb 100644
+--- a/tests/fase-07-assistant.test.ts
++++ b/tests/fase-07-assistant.test.ts
+@@ -9,6 +9,15 @@ import { handleOrologiaio, creaRateLimiter } from '../site/src/lib/orologiaio-ap
+ const dir = directorySchema.parse(JSON.parse(await readFile('site/data/directory.json', 'utf8')));
+ const turno = async (messaggio: string, contesto: Criteri = {}) =>
+   (await interpretaConProvider(messaggio, dir, null, undefined, contesto)).criteri;
++// Fixture isolate: il test non dipende dall'assenza casuale di una città reale dal catalogo vivo.
++const turnoIn = async (fixture: typeof dir, messaggio: string, contesto: Criteri = {}) =>
++  (await interpretaConProvider(messaggio, fixture, null, undefined, contesto)).criteri;
++const senzaComune = (comuneSlug: string) => {
++  const f = structuredClone(dir);
++  f.localita = f.localita.filter(l => l.comuneSlug !== comuneSlug);
++  f.attivita = f.attivita.filter(b => f.localita.some(l => l.id === b.localitaId));
++  return f;
++};
+ 
+ test('07A: acquisto e vendita si interpretano dal punto di vista del cliente', () => {
+   for (const m of ['Vendo il mio Rolex usato', 'Vorrei vendere un orologio', 'Cerco chi acquista orologi usati', 'Vorrei una permuta']) {
+@@ -63,8 +72,9 @@ test('07A: aggiungere Rolex automatico conserva revisione e Firenze', async () =
+ });
+ 
+ test('07A: cambiare città conserva servizio, marchio e specializzazione', async () => {
+-  const prima = await turno('Per un Rolex automatico', await turno('Cerco una revisione a Firenze'));
+-  const seconda = await turno('Invece a Pisa?', prima);
++  const fixture = senzaComune('pisa');
++  const prima = await turnoIn(fixture, 'Per un Rolex automatico', await turnoIn(fixture, 'Cerco una revisione a Firenze'));
++  const seconda = await turnoIn(fixture, 'Invece a Pisa?', prima);
+   assert.equal(seconda.servizio, 'revisione');
+   assert.equal(seconda.marca, 'Rolex');
+   assert.equal(seconda.specializzazione, 'automatici');

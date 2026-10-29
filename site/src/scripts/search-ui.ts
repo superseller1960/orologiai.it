@@ -21,6 +21,9 @@ if (form && count && empty && list) {
   const chips = document.querySelector<HTMLElement>('#active-filters')!;
   const emptyMessage = document.querySelector<HTMLElement>('#search-empty-message')!;
   const removeService = document.querySelector<HTMLButtonElement>('#remove-service')!;
+  const widen = document.querySelector<HTMLButtonElement>('#search-widen')!;
+  const alternative = document.querySelector<HTMLElement>('#search-alternative')!;
+  const serviceHint = document.querySelector<HTMLElement>('#search-service-hint')!;
   const advancedCount = document.querySelector<HTMLElement>('#advanced-count')!;
   let businesses: Business[] = [], shown = 12;
   let params = new URLSearchParams();
@@ -66,6 +69,26 @@ if (form && count && empty && list) {
     }
     more.hidden = shown >= businesses.length;
     pageCount.textContent = businesses.length ? `Mostrate ${Math.min(shown, businesses.length)} di ${businesses.length} attività` : '';
+  }
+  function refreshServiceCounts(selected: { comune: string } | undefined, scope: URLSearchParams) {
+    // Conteggi contestuali: stesso perimetro della ricerca, senza il filtro servizio.
+    const senzaServizio = filtersFromParams(scope);
+    senzaServizio.servizio = '';
+    const counts = new Map<string, number>();
+    for (const { business } of searchDirectory(data, senzaServizio)) for (const s of business.servizi) counts.set(s.id, (counts.get(s.id) ?? 0) + 1);
+    for (const option of Array.from(service.options)) {
+      if (!option.value) continue;
+      const label = option.dataset.label ?? option.textContent?.replace(/\s*\(\d+\)$/, '') ?? option.value;
+      option.dataset.label = label;
+      option.textContent = `${label} (${counts.get(option.value) ?? 0})`;
+    }
+    if (serviceHint) {
+      serviceHint.textContent = selected
+        ? `Numero di attività a ${selected.comune} per ciascun servizio. Scegli “Qualsiasi servizio” per vederle tutte.`
+        : region.value || province.value
+          ? 'Numero di attività nel territorio selezionato per ciascun servizio.'
+          : 'Numero di attività in tutta Italia per ciascun servizio. Scegliere una località aggiorna i conteggi.';
+    }
   }
   function syncGeography() {
     const exact = localityMatches(data, cityInput.value, true);
@@ -122,6 +145,9 @@ if (form && count && empty && list) {
     emptyBox.hidden = n > 0;
     emptyMessage.textContent = ambiguous ? `Esistono più località chiamate ${city}. Scegli provincia e regione nei suggerimenti.` : uncovered ? `${city} non è ancora censita. Non sostituiamo la città con altre località.${service.value ? ' Servizio richiesto: ' + services[service.value as keyof typeof services] + '.' : ''}` : `Nessuna attività${city ? ' a ' + city : ''} soddisfa tutti i filtri${service.value ? ': ' + services[service.value as keyof typeof services] : ''}. Rimuovi un filtro o modifica la ricerca.`;
     removeService.hidden = !service.value;
+    const geoOnly = Boolean(filters.localita || filters.regione || filters.provincia || uncovered);
+    maybeOfferWiderSearch(n, geoOnly, filters);
+    refreshServiceCounts(selected, params);
     const assistant = document.querySelector<HTMLTextAreaElement>('#assistente-messaggio');
     if (uncovered && assistant) {
       assistant.value = (service.value ? services[service.value as keyof typeof services] : q || 'Cerco un orologiaio') + ' a ' + city;
@@ -139,6 +165,17 @@ if (form && count && empty && list) {
     if (mode === 'push' && url !== location.pathname + location.search) history.pushState(null, '', url);
     else if (mode !== 'draft') history.replaceState(null, '', url);
     if (reveal) revealResults();
+  }
+  function maybeOfferWiderSearch(n: number, geoOnly: boolean, filters: ReturnType<typeof filtersFromParams>) {
+    // L'ampliamento è sempre dichiarato: nessun risultato fuori territorio mescolato ai risultati esatti.
+    if (!geoOnly || n > 0 || !service.value) { widen.hidden = true; alternative.hidden = true; return; }
+    const altrove = searchDirectory(data, { ...filters, localita: '', regione: '', provincia: '' }).length;
+    const nome = services[service.value as keyof typeof services];
+    alternative.textContent = altrove
+      ? `«${nome}» compare in ${altrove} ${altrove === 1 ? 'attività' : 'attività'} in altre località. Puoi ampliare la ricerca: saranno risultati fuori dal territorio scelto, non corrispondenze nella località.`
+      : `«${nome}» non risulta documentata nel database attuale: nessuna attività viene inventata o sostituita.`;
+    alternative.hidden = false;
+    widen.hidden = altrove === 0;
   }
   function renderChips() {
     chips.replaceChildren();
@@ -175,6 +212,11 @@ if (form && count && empty && list) {
   function load() { restoring = true; restore(); restoring = false; update('initial'); }
   window.addEventListener('popstate', () => { load(); revealResults(); });
   removeService.addEventListener('click', () => { service.value = ''; update('push', true); });
+  widen.addEventListener('click', () => {
+    cityInput.value = ''; delete cityInput.dataset.localita;
+    region.value = ''; province.value = '';
+    update('push', true);
+  });
   for (const button of document.querySelectorAll<HTMLButtonElement>('.search-shortcut')) button.addEventListener('click', () => {
     const target = field(button.dataset.shortcutField ?? 'servizio'); if (target) target.value = button.dataset.shortcutValue ?? '';
     update('push', true);

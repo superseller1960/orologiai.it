@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://orologiai.it',
+  site: 'https://www.orologiai.it',
   srcDir: './site/src',
   publicDir: './site/assets',
   outDir: './dist',

@@ -189,7 +189,7 @@ test('provider non configurato: ricerca locale con avviso esplicito', async () =
 const provider = (impl: AssistantProvider['interpreta']): AssistantProvider => ({ interpreta: impl });
 
 test('provider simulato valido: criteri accettati solo se esistono nel database', async () => {
-  const r = await interpretaConProvider('qualsiasi cosa', data, provider(async () => ({ localita: 'firenze', servizio: 'revisione', marca: 'MarcaInventata' })));
+  const r = await interpretaConProvider('revisione a Firenze', data, provider(async () => ({ localita: 'firenze', servizio: 'revisione', marca: 'MarcaInventata' })));
   assert.equal(r.origine, 'provider');
   assert.equal(r.criteri.localita, 'firenze');
   assert.equal(r.criteri.marca, undefined, 'marche non nel database scartate');

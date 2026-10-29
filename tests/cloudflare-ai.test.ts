@@ -82,7 +82,7 @@ test('JSON Mode: modello fisso, schema del database, 400 token di output, nessun
   const { ai, invii } = binding({ response: { servizio: 'revisione' } });
   await handleOrologiaio(richiesta({ messaggio: 'orologiaio a Firenze' }), envAI(ai), deps());
   const { model, input } = invii[0];
-  assert.equal(model, '@cf/meta/llama-3.1-8b-instruct');
+  assert.equal(model, '@cf/meta/llama-3.3-70b-instruct-fp8-fast');
   assert.equal(input.max_tokens, MAX_OUTPUT_TOKENS);
   assert.equal(input.temperature, 0);
   const formato = input.response_format as { type: string; json_schema: { additionalProperties: boolean } };

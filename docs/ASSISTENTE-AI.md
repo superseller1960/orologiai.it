@@ -15,7 +15,7 @@ attiva l'AI senza sorprese. Aggiornato all'integrazione condivisa del 24/10/2026
   validato e ridotto ai valori esistenti nel database; località/marchi sconosciuti diventano
   `localitaNonCensita` o `terminiNonRiconosciuti`, mai inventati.
 - Provider AI, in ordine di priorità:
-  1. **Workers AI** (`site/src/lib/cloudflare-ai.ts`): modello fisso `@cf/meta/llama-3.1-8b-instruct`
+  1. **Workers AI** (`site/src/lib/cloudflare-ai.ts`): modello fisso `@cf/meta/llama-3.3-70b-instruct-fp8-fast` (JSON Mode, incluso nel piano Workers Free; il vecchio `llama-3.1-8b-instruct` è ritirato)
      con JSON Mode (`response_format: { type: 'json_schema', json_schema }`), una sola chiamata
      per messaggio, al massimo 400 token di output.
   2. **Gemini** (`site/src/lib/gemini.ts`, invariato): solo percorsi privati/legacy, non passa

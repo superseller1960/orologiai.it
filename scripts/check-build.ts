@@ -20,10 +20,14 @@ const exists = async (url: URL) => {
 for (const file of htmlFiles) {
   const html = await readFile(file,'utf8');
   const path = file.replace(/^dist/,'').replace(/index\.html$/, '');
-  const base = new URL(path, 'https://orologiai.it');
+  const base = new URL(path, 'https://www.orologiai.it');
   const canonical = html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/);
   assert.ok(canonical, `Canonical mancante: ${file}`);
-  assert.ok(canonical[1].startsWith('https://orologiai.it/'));
+  const canonicalUrl = new URL(canonical[1]);
+  assert.equal(canonicalUrl.origin, base.origin, `Dominio canonical errato: ${file}`);
+  // /firenze/ e /milano/ sono alias storici intenzionalmente canonizzati sul percorso territoriale.
+  const placeAlias = directory.localita.find(p => ['firenze', 'milano'].includes(p.id) && path === `/${p.id}/`);
+  assert.equal(canonicalUrl.href, placeAlias ? new URL(localityUrl(placeAlias), base).href : base.href, `Canonical errato: ${file}`);
   await exists(new URL(canonical[1]));
   assert.equal((html.match(/<h1(?:\s|>)/g) ?? []).length, 1, `Titolo principale: ${file}`);
   const dom = new JSDOM(html);
@@ -49,11 +53,17 @@ for (const b of directory.attivita) {
 }
 for (const place of directory.localita) {
   assert.ok(directory.attivita.some(b => b.localitaId === place.id));
-  await exists(new URL(localityUrl(place),'https://orologiai.it'));
+  await exists(new URL(localityUrl(place),'https://www.orologiai.it'));
 }
 const sitemap = await readFile('dist/sitemap.xml','utf8');
-for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) await exists(new URL(match[1]));
+for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+  const url = new URL(match[1]);
+  assert.equal(url.origin, 'https://www.orologiai.it', `Dominio sitemap errato: ${url.href}`);
+  await exists(url);
+}
 assert.ok(!sitemap.includes('/cerca/'));
+const robots = await readFile('dist/robots.txt', 'utf8');
+assert.match(robots, /^Sitemap: https:\/\/www\.orologiai\.it\/sitemap\.xml$/m);
 const routes = JSON.parse(await readFile('dist/_routes.json', 'utf8'));
 assert.deepEqual(routes, { version: 1, include: ['/api/orologiaio', '/api/posizione'], exclude: [] }, '_routes.json deve invocare le Function per /api/orologiaio e /api/posizione');
 console.log(`Build verificata: ${htmlFiles.length} documenti HTML; link, frammenti, canonical, sitemap, _routes.json e ${directory.attivita.length} schede validi.`);
