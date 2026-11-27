@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import BusinessCard from '../../components/BusinessCard.astro';
 import '../../styles/profile.css';
 import { directionsUrl, laboratoryLabel, titoloScheda } from '../../lib/business-presentation';
-import { directory, businessUrl, placeOf, localityUrl } from '../../lib/directory';
+import { directory, businessUrl, placeOf, localityUrl, slugify } from '../../lib/directory';
 import { services, specializationLabels, macroAreeServizi, statuses, isUsableCoordinate, type Business } from '../../lib/schema';
 import { evidenzeAttivita, fraseEvidenza, evidenzeAggiornateIl } from '../../lib/evidenze';
 import { etichettaFonte } from '../../lib/evidenza-regole';
@@ -137,7 +137,7 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
       </ul></details>
     </section>}
     {brandGroups.length > 0 && <section class="panel profile-brands-panel" id="marchi-scheda"><p class="eyebrow dark">03 / Marchi</p><h2>Marchi e relazioni</h2>
-      {brandGroups.map(g => <div class="fact profile-brand-group"><h3>{g.label}</h3><ul class="profile-brand-grid">{g.claims.map(c => <li><a href={`/cerca/?marca=${encodeURIComponent(c.marca)}&ruoloMarca=${encodeURIComponent(g.key)}`}><span>{c.marca}</span><small>Esplora il marchio ↗</small></a></li>)}</ul></div>)}
+      {brandGroups.map(g => <div class="fact profile-brand-group"><h3>{g.label}</h3><ul class="profile-brand-grid">{g.claims.map(c => <li><a href={`/marchi/${slugify(c.marca)}/`}><span>{c.marca}</span><small>Esplora il marchio ↗</small></a><a class="atlas-brand-find" href={`/cerca/?marca=${encodeURIComponent(c.marca)}&ruoloMarca=${encodeURIComponent(g.key)}`}>Altre attività per questo ruolo →</a></li>)}</ul></div>)}
       <p class="notice">La citazione di un marchio non prova un’autorizzazione ufficiale, né alla vendita né all’assistenza. Le autorizzazioni sono indicate solo con fonte del marchio.</p>
     </section>}
     {hasStoria && <section class="panel story-panel" id="storia-scheda"><p class="eyebrow dark">Memoria delle botteghe</p><h2>La storia</h2>
@@ -280,3 +280,4 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
 @media(max-width:800px){.atlas-v4 .atlas-profile-cover{grid-template-columns:1fr;gap:14px}.atlas-profile-at-a-glance{padding:17px}.atlas-profile-at-a-glance h2{font-size:1.7rem;margin-bottom:10px}.atlas-v4 .profile-v3 h1{font-size:clamp(2.25rem,9vw,3.4rem)}.atlas-v4 .profile-v3 .actions{margin-top:12px}.atlas-v4 .profile-v3 .profile-share{gap:8px}.atlas-v4 .atlas-profile-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-v4 .atlas-profile-content{display:flex;flex-direction:column;gap:4px}.atlas-v4 .atlas-profile-content>aside,.atlas-v4 .atlas-profile-main{width:100%}.atlas-v4 .atlas-profile-content .panel,.atlas-v4 .atlas-profile-content .sources-panel{padding:17px;margin-bottom:12px}.atlas-v4 .atlas-profile-content .panel h2{font-size:1.85rem}.atlas-v4 .atlas-profile-content .profile-brand-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-v4 .atlas-profile-content .profile-service-tags{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-v4 .atlas-profile-content .profile-service-tags .tag{font-size:.8rem;overflow-wrap:anywhere}}
 @media(max-width:360px){.atlas-v4 .atlas-profile-content .profile-brand-grid,.atlas-v4 .atlas-profile-content .profile-service-tags{grid-template-columns:1fr}}
 </style>
+<style is:global>.atlas-v4 .profile-brand-grid a.atlas-brand-find{min-height:44px;padding:8px 6px;background:transparent;border:0;font-size:.74rem;text-decoration:underline;box-shadow:none}.atlas-v4 .profile-brand-grid a.atlas-brand-find:hover{transform:none}</style>
