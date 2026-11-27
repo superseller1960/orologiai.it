@@ -37,7 +37,7 @@ const PRIME_CARD = 60;
         <label>Nome, CAP, indirizzo o richiesta libera<input type="search" name="q" placeholder="Es. Sangalli, cambio batteria…" /></label>
         <label class="filter-check"><input type="checkbox" name="soloDocumentate" value="1" /> Solo attività con prova documentata</label>
       </div><p class="small muted">La città selezionata prevale sui filtri geografici. Le autorizzazioni ufficiali sono distinte dalla vendita, riparazione o semplice menzione del marchio.</p></details>
-      <div class="search-actions"><button class="btn" type="submit">Mostra risultati</button><button class="btn btn-ghost" type="reset">Azzera</button></div>
+      <div class="search-actions"><button class="btn" type="submit">Mostra risultati</button><button class="btn btn-ghost" type="reset">Azzera</button><button class="btn btn-ghost" type="button" id="atlas-nearby" aria-pressed="false" hidden>Usa la mia posizione</button></div><p class="small muted" id="atlas-nearby-status" role="status" hidden></p>
     </form>
     <noscript><p class="notice">I filtri richiedono JavaScript: l’elenco sotto non è filtrato. Consulta le <a href="/orologerie/">pagine per regione e comune</a> o le <a href="/servizi/riparazione/">pagine per servizio</a>.</p></noscript>
     <div id="active-filters" class="active-filters" aria-label="Filtri attivi"></div>
