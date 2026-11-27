@@ -37,6 +37,9 @@ if (form && count && empty && list) {
   const emptyMessage = document.querySelector<HTMLElement>('#search-empty-message')!;
   const removeService = document.querySelector<HTMLButtonElement>('#remove-service')!;
   const widen = document.querySelector<HTMLButtonElement>('#search-widen')!;
+  const widenProvince = document.querySelector<HTMLButtonElement>('#search-widen-province');
+  const provinceNote = document.querySelector<HTMLElement>('#search-province-note');
+  let provinceAlternative: {provinciaSlug:string;regioneSlug:string;provincia:string}|undefined;
   const alternative = document.querySelector<HTMLElement>('#search-alternative')!;
   const serviceHint = document.querySelector<HTMLElement>('#search-service-hint')!;
   const advancedCount = document.querySelector<HTMLElement>('#advanced-count')!;
@@ -270,6 +273,8 @@ if (form && count && empty && list) {
     removeService.hidden = !service.value;
     const geoOnly = Boolean(filters.localita || filters.regione || filters.provincia || uncovered);
     maybeOfferWiderSearch(n, geoOnly, filters);
+    provinceAlternative=undefined;
+    if(widenProvince&&provinceNote){widenProvince.hidden=true;provinceNote.hidden=true;if(n===0&&selected){const hits=searchDirectory(data,{...filters,localita:'',regione:selected.regioneSlug,provincia:selected.provinciaSlug}).length;if(hits>0){provinceAlternative=selected;widenProvince.textContent='Cerca nella provincia di '+selected.provincia+' ('+hits+')';widenProvince.hidden=false;provinceNote.textContent='Nessuna corrispondenza nel comune selezionato. Puoi ampliare alla provincia mantenendo gli altri filtri.';provinceNote.hidden=false;}}}
     refreshServiceCounts(selected, params);
     const assistant = document.querySelector<HTMLTextAreaElement>('#assistente-messaggio');
     if (uncovered && assistant) {
@@ -358,6 +363,7 @@ if (form && count && empty && list) {
   function load() { restoring = true; restore(); restoring = false; update('initial'); }
   window.addEventListener('popstate', () => { load(); revealResults(); });
   removeService.addEventListener('click', () => { service.value = ''; update('push', true); });
+  widenProvince?.addEventListener('click',()=>{if(!provinceAlternative)return;const target=provinceAlternative;cityInput.value='';delete cityInput.dataset.localita;region.value=target.regioneSlug;province.value=target.provinciaSlug;update('push',true);});
   widen.addEventListener('click', () => {
     cityInput.value = ''; delete cityInput.dataset.localita;
     region.value = ''; province.value = '';
