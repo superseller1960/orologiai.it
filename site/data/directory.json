@@ -10602,6 +10602,15 @@
    "consultataIl": "2026-11-27",
    "percorsoArchivio": null,
    "licenza": "ODbL-1.0"
+  },
+  {
+   "id": "bigalli-geo-ufficiale-20261127",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.bigallifirenze.com/it/contattaci",
+   "titolo": "Bigalli Orologerie — contatti e mappa della sede",
+   "consultataIl": "2026-11-27",
+   "percorsoArchivio": null,
+   "licenza": null
   }
  ],
  "localita": [
@@ -15003,9 +15012,20 @@
    "posizione": {
     "indirizzo": "Via Maso Finiguerra 4/A–4/B",
     "cap": "50123",
-    "coordinate": null,
+    "coordinate": {
+     "lat": 43.774012595912,
+     "lon": 11.245216926754,
+     "fonti": [
+      "bigalli-geo-ufficiale-20261127"
+     ],
+     "provenienza": "fonte-ufficiale",
+     "verificataIl": "2026-11-27",
+     "indirizzoConfrontato": "Via Maso Finiguerra 4/A–4/B, 50123 Firenze; coordinate esplicite q=43.774012595912,11.245216926754 nella mappa incorporata nella pagina contatti ufficiale.",
+     "stato": "verificata"
+    },
     "fonti": [
-     "t03-bigalli-sede"
+     "t03-bigalli-sede",
+     "bigalli-geo-ufficiale-20261127"
     ]
    },
    "contatti": {
@@ -15297,6 +15317,13 @@
        "pr6-bigalli-2",
        "pr6-bigalli-3",
        "t03-bigalli-sede"
+      ]
+     },
+     {
+      "data": "2026-11-27",
+      "azione": "Confrontate le coordinate della mappa ufficiale con la sede pubblicata; non costituisce un sopralluogo.",
+      "fonti": [
+       "bigalli-geo-ufficiale-20261127"
       ]
      }
     ],
