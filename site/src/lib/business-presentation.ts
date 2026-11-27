@@ -15,10 +15,13 @@ export function editorialSummary(b: Business) {
  // Solo fatti già presenti: nessuna reputazione, storia o specializzazione dedotta.
  return b.descrizione.replace(/La fonte ufficiale documenta /g,'Servizi: ').replace(/Nessuna estensione ad altri marchi\.?/gi,'').trim();
 }
+// Google Maps URLs use the documented api=1 format. A verified point is an exact
+// destination; without one, search the complete postal address, never a guessed pin.
 export function directionsUrl(b: Business, comune: string) {
  const c=b.posizione.coordinate;
- return isUsableCoordinate(c)
-  ? `https://www.openstreetmap.org/directions?to=${c.lat}%2C${c.lon}`
-  : b.posizione.indirizzo ? `https://www.openstreetmap.org/search?query=${encodeURIComponent(`${b.posizione.indirizzo}, ${comune}, Italia`)}` : null;
+ if (isUsableCoordinate(c)) return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${c.lat},${c.lon}`)}`;
+ if (!b.posizione.indirizzo) return null;
+ const address = [b.posizione.indirizzo, [b.posizione.cap, comune].filter(Boolean).join(' '), 'Italia'].join(', ');
+ return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
 }
 export const laboratoryLabel = (b: Business) => b.laboratorio ? ({interno:'Laboratorio interno',esterno:'Assistenza tramite laboratorio esterno',rete:'Laboratorio della rete',orafo:'Laboratorio orafo','non-specificato':'Laboratorio documentato · sede non specificata'}[b.laboratorio.tipo]) : null;
