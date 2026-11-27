@@ -94,6 +94,8 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
       {b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}
     </div>
     <div class="profile-share" data-profile-share>
+      <button class="atlas-save" type="button" data-save-id={b.id} aria-pressed="false" hidden>Salva nei preferiti</button>
+      {b.contatti.email ? <a class="btn secondary" href={`mailto:${b.contatti.email}?subject=${encodeURIComponent("Richiesta appuntamento — Orologiai.it")}&body=${encodeURIComponent("Buongiorno, vorrei concordare un appuntamento.\nServizio richiesto: \nDisponibilità: ")}`}>Richiedi un appuntamento via email</a> : b.contatti.telefono ? <a class="btn secondary" href={`tel:${telHref}`}>Chiama per un appuntamento</a> : null}
       <button class="btn secondary" type="button" data-share-button hidden>Condividi scheda ↗</button>
       <span data-share-status role="status" aria-live="polite"></span>
       <noscript><a href={`mailto:?subject=${encodeURIComponent(b.nome)}&body=${encodeURIComponent(paginaSchema.url)}`}>Condividi per email</a></noscript>
