@@ -38,7 +38,7 @@ const cities = [...directory.localita]
           <span><strong>{directory.attivita.length}</strong> attività censite</span>
           <span><strong>{directory.localita.length}</strong> località</span>
           <span><strong>{new Set(directory.localita.map(p=>p.regioneSlug)).size}</strong> regioni</span>
-        </div><a href="/orologerie/">Esplora tutta Italia →</a></div></div>
+        </div><div class="atlas-coverage-links"><a href="/cerca/#atlas-nearby">Trova vicino a me →</a><a href="/orologerie/">Esplora tutta Italia →</a></div></div></div>
     </div>
   </section>
 
@@ -120,3 +120,5 @@ const cities = [...directory.localita]
 <style is:global>
 .atlas-v4 .atlas-search-deck .service-hint{grid-column:1/-1;margin:0;font-size:.73rem}.atlas-v4 .atlas-search-deck .primary-search-fields label{font-size:.78rem;font-weight:700}.atlas-v4 .atlas-search-deck .primary-search-fields select{font-size:1rem;border:1px solid #d7d7c9;padding:9px;background:#fffdf7;border-radius:4px}.atlas-v4 .atlas-search-deck .locality-picker input{border:1px solid #d7d7c9;padding:9px;border-radius:4px}.atlas-v4 .atlas-search-deck .home-search-button{align-self:center}
 </style>
+
+<style is:global>.atlas-coverage-links{display:flex;flex-wrap:wrap;gap:9px 18px;align-items:center}.atlas-coverage-links a{font-size:.84rem;font-weight:700}.atlas-coverage-links a:first-child{color:#805b2e}</style>
