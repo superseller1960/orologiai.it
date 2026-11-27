@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import anagrafica from '../../../data/anagrafica/comuni-italia.json';
 import type { Business, Directory } from './schema.ts';
-import { businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema.ts';
+import { brandKey, businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema.ts';
 import { REGIONI_ITALIA } from './geo.ts';
 import { normalize, searchDirectory, type SearchFilters } from './search.ts';
 import { evidenzaServizio, motiviPerRichiesta, servizioDocumentato, servizioSoloInterno, SERVIZI_TECNICI_DA_PROVARE } from './recommendations.ts';
@@ -403,9 +403,9 @@ export function cercaOrologiaio(
     ((criteri.servizio && SERVIZI_TECNICI.has(criteri.servizio)) || criteri.tipo === 'laboratorio' || criteri.tipo === 'professionista'),
   );
   if (richiedeInterventoSuMarca && trovate.length > 0) {
-    const normMarca = normalize(criteri.marca!);
+    const normMarca = brandKey(criteri.marca!);
     const haCompetenzaTecnica = (b: Business) =>
-      [...b.marchi.riparati, ...b.marchi.esperienza, ...b.marchi.assistenzaUfficiale].some(m => normalize(m.marca) === normMarca);
+      [...b.marchi.riparati, ...b.marchi.esperienza, ...b.marchi.assistenzaUfficiale].some(m => brandKey(m.marca) === normMarca);
     const esatte = trovate.filter(r => haCompetenzaTecnica(r.business));
     const soloVenditaOMenzione = trovate.filter(r => !haCompetenzaTecnica(r.business));
     if (soloVenditaOMenzione.length > 0) {
@@ -536,7 +536,7 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
       motivi.push(`${criteri.marca}: ${LABEL_RUOLO[criteri.ruoloMarca]}.`);
     } else {
       const ruoli = Object.entries(b.marchi)
-        .filter(([, list]) => list.some(m => m.marca === criteri.marca))
+        .filter(([, list]) => list.some(m => brandKey(m.marca) === brandKey(criteri.marca!)))
         .map(([ruolo]) => ruolo);
       for (const ruolo of ruoli) {
         const riga = `${criteri.marca}: ${LABEL_RUOLO[ruolo]}.`;
@@ -721,4 +721,45 @@ export async function interpretaConProvider(
   } finally {
     clearTimeout(timer);
   }
+}
+
+
+// La chat non usa i ripieghi permissivi della ricerca generale: ogni requisito resta vincolante.
+export function cercaOrologiaioPreciso(dir: Directory, criteri: Criteri, opzioni: { origine?: {lat:number;lon:number}; now?: Date; nazionale?: boolean } = {}): EsitoRicerca {
+  const vuoto=(stato:EsitoRicerca['stato'],messaggio:string):EsitoRicerca=>({stato,totale:0,risultati:[],alternative:[],messaggi:[messaggio]});
+  if(criteri.terminiNonRiconosciuti?.length||criteri.localitaNonCensita||(criteri.bisognoPosizione&&!opzioni.origine)){
+    const r=cercaOrologiaio(dir,criteri,{origine:opzioni.origine,now:opzioni.now,limite:1});
+    return {...r,totale:0,risultati:[],alternative:[]};
+  }
+  const area=Boolean(criteri.localita||criteri.provincia||criteri.regione||criteri.cap||opzioni.origine||opzioni.nazionale);
+  if(!criteri.servizio&&!criteri.marca&&!criteri.tipo&&!criteri.specializzazione)
+    return vuoto('nessun-criterio','Che cosa ti serve esattamente: riparazione, revisione, cambio batteria, acquisto o assistenza di un marchio?');
+  if(!area)return vuoto('nessun-criterio','In quale città o provincia vuoi trovare il professionista? Posso anche cercare in tutta Italia, se preferisci.');
+  if(criteri.distanzaMaxKm!==undefined&&!opzioni.origine)return vuoto('serve-posizione','Per rispettare la distanza richiesta serve la tua posizione. Puoi autorizzarla oppure indicare il comune senza un raggio chilometrico.');
+  const now=opzioni.now??new Date();
+  const fonti=new Map(dir.fonti.map(f=>[f.id,f]));
+  const ufficiale=(b:Business,role:'assistenzaUfficiale'|'rivenditaUfficiale')=>b.marchi[role].some(m=>(!criteri.marca||brandKey(m.marca)===brandKey(criteri.marca))&&m.fonti.some(id=>fonti.get(id)?.tipo==='marchio-ufficiale'));
+  const tecnico=Boolean(criteri.servizio&&SERVIZI_TECNICI.has(criteri.servizio));
+  const commerciale=Boolean(criteri.servizio&&['vendita','vendita-nuovi','vendita-usati','acquisto-permuta'].includes(criteri.servizio));
+  const esatti=searchDirectory(dir,{localita:criteri.localita,provincia:criteri.provincia,regione:criteri.regione,servizio:criteri.servizio,marca:criteri.marca,ruoloMarca:criteri.ruoloMarca,tipo:criteri.tipo,specializzazione:criteri.specializzazione,origine:opzioni.origine,ordine:opzioni.origine?'distanza':'nome',q:criteri.cap,soloDocumentate:Boolean(criteri.servizio)}).filter(({business:b,distanzaKm})=>{
+    if(!['fonti-verificate','confermata-titolare'].includes(b.attendibilita.stato))return false;
+    if(!b.contatti.telefono&&!b.contatti.sito&&!b.contatti.email)return false;
+    if(criteri.cap&&b.posizione.cap!==criteri.cap)return false;
+    if(criteri.servizio&&!servizioDocumentato(dir,b,criteri.servizio))return false;
+    if(criteri.apertoOggi&&statoOrari(b,now)!=='indicato-oggi')return false;
+    if((criteri.bisognoPosizione||criteri.distanzaMaxKm!==undefined)&&distanzaKm===null)return false;
+    if(criteri.distanzaMaxKm!==undefined&&(distanzaKm===null||distanzaKm>criteri.distanzaMaxKm))return false;
+    if(criteri.ruoloMarca==='assistenzaUfficiale'&&!ufficiale(b,'assistenzaUfficiale'))return false;
+    if(criteri.ruoloMarca==='rivenditaUfficiale'&&!ufficiale(b,'rivenditaUfficiale'))return false;
+    if(criteri.marca){
+      const match=(claims:Business['marchi']['riparati'])=>claims.some(m=>brandKey(m.marca)===brandKey(criteri.marca!)&&m.fonti.some(id=>['sito-ufficiale','marchio-ufficiale','titolare'].includes(fonti.get(id)?.tipo??'')));
+      if(tecnico&&!match(b.marchi.riparati)&&!ufficiale(b,'assistenzaUfficiale'))return false;
+      if(commerciale&&!match(b.marchi.venduti)&&!ufficiale(b,'rivenditaUfficiale'))return false;
+      if(!tecnico&&!commerciale&&(!criteri.ruoloMarca||criteri.ruoloMarca==='qualsiasi')&&!match(b.marchi.riparati)&&!match(b.marchi.venduti)&&!ufficiale(b,'assistenzaUfficiale')&&!ufficiale(b,'rivenditaUfficiale'))return false;
+    }
+    return true;
+  });
+  if(!esatti.length)return vuoto('nessun-risultato','Non ho trovato professionisti con prove sufficienti per tutti i requisiti. Vuoi ampliare la zona mantenendo servizio, marchio e competenze? Non ti suggerisco attività non verificate.');
+  if(!opzioni.origine)esatti.sort((a,b)=>Number(b.business.attendibilita.stato==='confermata-titolare')-Number(a.business.attendibilita.stato==='confermata-titolare')||(b.business.attendibilita.verificataIl??'').localeCompare(a.business.attendibilita.verificataIl??'')||a.business.nome.localeCompare(b.business.nome,'it'));
+  return {stato:'ok',totale:esatti.length,risultati:esatti.slice(0,3).map(r=>descrivi(dir,r.business,criteri,now,r.distanzaKm)),alternative:[],messaggi:[esatti.length>3?'Ti mostro tre corrispondenze documentate. Puoi restringere ulteriormente la ricerca.':'Ho trovato '+esatti.length+(esatti.length===1?' corrispondenza documentata.':' corrispondenze documentate.')+' Contatta il professionista per disponibilità e preventivo.']};
 }
