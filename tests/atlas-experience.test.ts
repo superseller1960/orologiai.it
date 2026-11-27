@@ -12,7 +12,7 @@ test('Atlas UX: geolocation only after click; verified points first; no location
  const cards=Array.from(w.document.querySelectorAll<HTMLElement>('#search-results [data-business-id]')).filter(n=>!n.hidden);
  assert.ok(cards.length>0);assert.equal(cards[0].dataset.businessId,'ciardi-firenze');assert.ok(cards[0].querySelector('.distance')?.textContent?.includes('in linea d’aria'));
  assert.ok(cards.every(n=>n.querySelector('.result-place')?.textContent?.includes('Firenze')));assert.ok(!w.location.href.includes('43.772'));assert.ok(!w.location.href.includes('11.250'));
- button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.ok(cards.every(n=>(n.querySelector<HTMLElement>('.distance')?.hidden??true)));}finally{w.close();}
+ button.click();assert.equal(button.getAttribute('aria-pressed'),'false');assert.ok(Array.from(w.document.querySelectorAll<HTMLElement>('#search-results [data-business-id]')).filter(n=>!n.hidden).every(n=>(n.querySelector<HTMLElement>('.distance')?.hidden??true)));}finally{w.close();}
 });
 test('Atlas UX: local favorites, two-profile comparison and deletion',async()=>{
  const dom=new JSDOM(html(),{url:'https://www.orologiai.it/cerca/',runScripts:'outside-only',virtualConsole:new VirtualConsole()});const w=dom.window,doc=w.document;
