@@ -1,0 +1,105 @@
+/* Orologiai — Edizione 06: editorial directory. All assets local; no external fonts or libraries. */
+.atlas-v4.atlas-edition{--ink:#272423;--green:#792e32;--paper:#f8f6f1;--white:#fffefa;--muted:#625b55;--line:#ded8cd;--soft:#eee8df;--gold:#792e32;--atlas-gold:#b48e6b;background:var(--paper);color:var(--ink)}
+.atlas-v4.atlas-edition .site-header{background:#fffefa;border-bottom:1px solid #d9d1c7}
+.atlas-v4.atlas-edition .site-header .bar{min-height:80px;max-width:1440px}
+.atlas-v4.atlas-edition .site-header .brand,.atlas-v4.atlas-edition .site-header .atlas-wordmark{color:#272423}
+.atlas-v4.atlas-edition .site-header .atlas-wordmark{font:700 1.78rem/1 Georgia,serif;letter-spacing:-.055em}
+.atlas-v4.atlas-edition .atlas-brand-dial,.atlas-v4.atlas-edition .atlas-wordmark>span,.atlas-v4.atlas-edition .atlas-wordmark small{color:#792e32}
+.atlas-v4.atlas-edition .site-header .desktop-nav>a{color:#272423}
+.atlas-v4.atlas-edition .site-header .desktop-nav .nav-cta,.atlas-v4.atlas-edition .btn:not(.btn-ghost):not(.secondary){background:#792e32;color:white;border-color:#792e32;border-radius:4px}
+.atlas-v4.atlas-edition .btn-ghost{color:#792e32;border-color:#a48583}
+.atlas-v4.atlas-edition .site-footer{background:#272423;color:#f0e8df}
+.atlas-v4.atlas-edition .site-footer a{color:#e5cebd}
+.atlas-v4.atlas-edition .atlas-favorites-launch{background:#792e32;border-color:#792e32;color:white}
+.atlas-v4.atlas-edition .eyebrow.dark{color:#792e32}
+/* Magazine opening: white title, framed image, a horizontal functional search deck. */
+.atlas-v4.atlas-edition .atlas-home{--ah-ink:#272423;--ah-cream:#f8f6f1;--ah-white:#fffefa;--ah-gold:#792e32;--ah-rule:#ded8cd;--ah-muted:#625b55;background:#f8f6f1;color:#272423}
+.atlas-v4.atlas-edition .atlas-home .atlas-eyebrow{color:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.07fr);width:min(1420px,calc(100% - 80px));max-width:1420px;margin:34px auto 0;padding:0;gap:0;background:transparent;min-height:0;align-items:stretch}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-art{display:contents}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-art:after{display:none}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-art>img{position:static;inset:auto;grid-row:1;grid-column:2;width:100%;height:100%;min-height:360px;max-height:510px;object-fit:cover;object-position:62% center;z-index:auto;border-radius:0}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-text{grid-column:1;grid-row:1;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:28px clamp(22px,4.4vw,68px) 34px 0;max-width:none;color:#272423}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-text h1{font:400 clamp(3.5rem,6.2vw,6.9rem)/.99 Georgia,serif;letter-spacing:-.065em;color:#272423;margin:7px 0 0;max-width:12ch}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-text h1 em{color:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-opening-text>p:not(.atlas-eyebrow){font-size:clamp(1rem,1.4vw,1.18rem);color:#625b55;margin:22px 0 0;max-width:43ch}
+.atlas-v4.atlas-edition .atlas-home .atlas-hero-explore{color:#792e32!important;border-color:#792e32;margin-top:18px}
+.atlas-v4.atlas-edition .atlas-home .atlas-art-credit{position:static;grid-column:2;grid-row:2;justify-self:end;color:#625b55;font-size:.69rem;padding:6px 0;line-height:1.3}
+.atlas-v4.atlas-edition .atlas-home .atlas-find{grid-column:1/-1;grid-row:3;display:grid;grid-template-columns:minmax(150px,.7fr) minmax(0,3fr);gap:14px 28px;align-items:center;background:#fffefa;border:1px solid #ded8cd;border-top:3px solid #792e32;border-radius:0;box-shadow:0 12px 35px #3328200b;margin-top:20px;padding:24px}
+.atlas-v4.atlas-edition .atlas-home .atlas-find h2{font:400 clamp(1.55rem,2.2vw,2.4rem)/1.05 Georgia,serif;letter-spacing:-.035em}
+.atlas-v4.atlas-edition .atlas-home .atlas-find h2 br{display:none}
+.atlas-v4.atlas-edition .atlas-home .atlas-find>.atlas-eyebrow{grid-column:1;grid-row:1;margin:0;align-self:end}
+.atlas-v4.atlas-edition .atlas-home .atlas-find>h2{grid-column:1;grid-row:2;align-self:start}
+.atlas-v4.atlas-edition .atlas-home .atlas-find>p:not(.atlas-eyebrow){grid-column:1;grid-row:3;margin:0;font-size:.8rem}
+.atlas-v4.atlas-edition .atlas-home .atlas-find-form{grid-column:2;grid-row:1/4;display:grid;grid-template-columns:minmax(0,2fr) minmax(112px,1fr) auto;align-items:start;gap:12px}
+.atlas-v4.atlas-edition .atlas-home .atlas-find-form .primary-search-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.atlas-v4.atlas-edition .atlas-home .atlas-find-form input,.atlas-v4.atlas-edition .atlas-home .atlas-find-form select{background:#f8f6f1;border-color:#cfc7bb;border-radius:3px;color:#272423}
+.atlas-v4.atlas-edition .atlas-home .atlas-find-submit{background:#792e32;min-height:48px;margin-top:25px;font-size:.81rem;white-space:normal;box-shadow:none}
+.atlas-v4.atlas-edition .atlas-home .atlas-near-link{grid-column:2;grid-row:4;margin:0;color:#792e32!important;justify-self:start}
+.atlas-v4.atlas-edition .atlas-home .atlas-proofbar{width:min(1360px,calc(100% - 80px));padding-block:23px}
+.atlas-v4.atlas-edition .atlas-home .atlas-proofbar strong{font-size:clamp(1.9rem,3vw,3.3rem)}
+/* Editorial sections, less repetitive tile grids. */
+.atlas-v4.atlas-edition .atlas-home .atlas-section-head h2{font:400 clamp(2.1rem,4.4vw,4.3rem)/1.05 Georgia,serif}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-grid{gap:0;border-top:1px solid #cfc7bb;border-bottom:1px solid #cfc7bb}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card{background:transparent;color:#272423;border:0;border-right:1px solid #ded8cd;min-height:205px;padding:22px}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card:last-child{border-right:0}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card:hover{transform:none;background:#eee8df}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card svg,.atlas-v4.atlas-edition .atlas-home .atlas-service-card .atlas-service-num{color:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card svg{width:65px;height:65px;align-self:start;margin:10px 0 17px}
+.atlas-v4.atlas-edition .atlas-home .atlas-service-card p{color:#625b55}
+.atlas-v4.atlas-edition .atlas-home .atlas-territories{background:#eee8df;color:#272423}
+.atlas-v4.atlas-edition .atlas-home .atlas-territory-intro h2{color:#272423}.atlas-v4.atlas-edition .atlas-home .atlas-territory-intro h2 em{color:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-territory-intro>p:not(.atlas-eyebrow){color:#625b55}
+.atlas-v4.atlas-edition .atlas-home .atlas-outline{color:#792e32!important;border-color:#a48583}
+.atlas-v4.atlas-edition .atlas-home .atlas-city-grid{background:#d6ccbe}
+.atlas-v4.atlas-edition .atlas-home .atlas-city-grid>a{background:#fffefa;color:#272423}.atlas-v4.atlas-edition .atlas-home .atlas-city-grid>a:hover{background:#f1ece4}
+.atlas-v4.atlas-edition .atlas-home .atlas-city-grid strong{color:#272423}.atlas-v4.atlas-edition .atlas-home .atlas-city-grid small{color:#625b55}.atlas-v4.atlas-edition .atlas-home .atlas-city-grid .atlas-city-index,.atlas-v4.atlas-edition .atlas-home .atlas-city-grid .atlas-card-arrow{color:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-territory-dial{display:none}
+.atlas-v4.atlas-edition .atlas-home .atlas-story-main .atlas-story-art{background:#792e32;color:#f6e6d6}
+.atlas-v4.atlas-edition .atlas-home .atlas-story:nth-child(2) .atlas-story-art{background:#e7d9c9;color:#5c4039}
+.atlas-v4.atlas-edition .atlas-home .atlas-story:nth-child(3) .atlas-story-art{background:#35312e;color:#f1ddca}
+.atlas-v4.atlas-edition .atlas-home .atlas-journal{background:#272423;color:#fffefa}
+.atlas-v4.atlas-edition .atlas-home .atlas-journal h2{color:#fffefa}.atlas-v4.atlas-edition .atlas-home .atlas-journal h2 em,.atlas-v4.atlas-edition .atlas-home .atlas-journal .atlas-eyebrow{color:#dbbba0}
+.atlas-v4.atlas-edition .atlas-home .atlas-journal p:not(.atlas-eyebrow){color:#e0d7cb}
+.atlas-v4.atlas-edition .atlas-home .atlas-journal .atlas-solid{background:#792e32}
+.atlas-v4.atlas-edition .atlas-home .atlas-final>div:last-child{background:#792e32;border-color:#792e32;color:#fffefa}
+.atlas-v4.atlas-edition .atlas-home .atlas-final>div:last-child .atlas-eyebrow{color:#f1d6bb}
+.atlas-edition .edition-brands{padding-block:40px;border-bottom:1px solid #ded8cd}
+.atlas-edition .edition-brands-list{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:0;border-top:1px solid #cfc7bb;border-bottom:1px solid #cfc7bb}
+.atlas-edition .edition-brands-list a{display:flex;min-width:0;flex-direction:column;justify-content:space-between;gap:12px;min-height:104px;border-right:1px solid #ded8cd;text-decoration:none;padding:17px 15px}
+.atlas-edition .edition-brands-list a:last-child{border:0}.atlas-edition .edition-brands-list a:hover{background:#eee8df}
+.atlas-edition .edition-brands-list strong{font:400 clamp(1rem,1.6vw,1.7rem)/1.2 Georgia,serif;overflow-wrap:anywhere}.atlas-edition .edition-brands-list small{color:#792e32;font-size:.73rem;font-weight:700}
+/* Profiles: bright opening, slim reading rhythm and useful contact panels. */
+.atlas-v4.atlas-edition .profile-v3{background:#f8f6f1;color:#272423;border-bottom:1px solid #ded8cd}
+.atlas-v4.atlas-edition .profile-v3 h1{color:#272423;font-family:Georgia,serif;font-size:clamp(2.5rem,5vw,5rem)}
+.atlas-v4.atlas-edition .profile-v3 .breadcrumb,.atlas-v4.atlas-edition .profile-v3 .eyebrow,.atlas-v4.atlas-edition .atlas-profile-location{color:#792e32}
+.atlas-v4.atlas-edition .atlas-profile-status{color:#625b55;border-color:#bfaea1}.atlas-v4.atlas-edition .atlas-profile-status span{color:#792e32}
+.atlas-v4.atlas-edition .profile-v3 .profile-facts span,.atlas-v4.atlas-edition .profile-v3 .profile-specialty,.atlas-v4.atlas-edition .profile-v3 .profile-services,.atlas-v4.atlas-edition .profile-v3 .label{color:#625b55}
+.atlas-v4.atlas-edition .profile-v3 .actions .btn:not(.secondary){background:#792e32;color:#fffefa}
+.atlas-v4.atlas-edition .profile-v3 .actions .btn.secondary,.atlas-v4.atlas-edition .profile-v3 .profile-share .btn,.atlas-v4.atlas-edition .atlas-profile-identity .atlas-save{color:#792e32;border-color:#a48583;background:transparent}
+.atlas-v4.atlas-edition .atlas-profile-at-a-glance{background:#fffefa;border:1px solid #ded8cd;border-top:4px solid #792e32;color:#272423;padding:clamp(18px,3vw,30px)}
+.atlas-v4.atlas-edition .atlas-profile-at-a-glance h2,.atlas-v4.atlas-edition .atlas-summary-fact p,.atlas-v4.atlas-edition .atlas-summary-contact{color:#272423}
+.atlas-v4.atlas-edition .atlas-summary-tags span{background:#eee8df;color:#4c3e39;border-color:#ded8cd}
+.atlas-v4.atlas-edition .atlas-summary-fact a{color:#792e32}
+.atlas-v4.atlas-edition .profile-highlights a{background:#fffefa;color:#272423;border-color:#ded8cd}
+.atlas-v4.atlas-edition .profile-highlights a>span,.atlas-v4.atlas-edition .profile-highlights small{color:#792e32}
+.atlas-v4.atlas-edition .profile-jump-nav{background:#fffefa}.atlas-v4.atlas-edition .profile-jump-nav a{color:#272423}.atlas-v4.atlas-edition .profile-jump-nav a:hover{background:#eee8df;color:#792e32}
+.atlas-v4.atlas-edition .atlas-profile-content .contact-panel{border-top-color:#792e32}
+.atlas-v4.atlas-edition .atlas-profile-content .profile-service-tags .tag{background:#f2ede5;color:#272423;border-color:#ded8cd}
+.atlas-v4.atlas-edition .atlas-profile-content .profile-brand-grid a{background:#f8f6f1;color:#272423;border-color:#ded8cd}
+.atlas-v4.atlas-edition .atlas-profile-content .profile-brand-grid a.atlas-brand-find{background:transparent;border:0;color:#792e32}
+.atlas-v4.atlas-edition .atlas-profile-content .atlas-about{border-top:3px solid #792e32}
+.atlas-v4.atlas-edition .atlas-authentic-cover figcaption,.atlas-v4.atlas-edition .atlas-authentic-cover a{color:#625b55}
+.atlas-v4.atlas-edition .profile-share [role=status]{color:#625b55}
+.atlas-v4.atlas-edition .profile-v3 .profile-contact{color:#272423}
+/* Search and brand pages use the same language. */
+.atlas-v4.atlas-edition .search-page .search-flow{border-top:3px solid #792e32;background:#fffefa}
+.atlas-v4.atlas-edition .search-page .results-panel .search-result-card{background:#fffefa;border-color:#ded8cd;border-radius:3px!important;padding:20px;box-shadow:none}
+.atlas-v4.atlas-edition .search-page .result-place{color:#792e32}
+.atlas-v4.atlas-edition .search-page .result-primary{background:#792e32;color:#fffefa}
+.atlas-v4.atlas-edition .search-page .result-secondary,.atlas-v4.atlas-edition .search-page .tag{background:#eee8df;color:#272423;border-color:#ded8cd}
+.atlas-v4.atlas-edition .brand-atlas-hero{background:#f8f6f1;color:#272423;border-bottom:1px solid #ded8cd}
+.atlas-v4.atlas-edition .brand-atlas-hero h1{color:#272423}.atlas-v4.atlas-edition .brand-atlas-hero p:not(.brand-kicker),.atlas-v4.atlas-edition .brand-meta span{color:#625b55}
+.atlas-v4.atlas-edition .brand-atlas-hero .brand-kicker,.atlas-v4.atlas-edition .brand-atlas-back{color:#792e32}.atlas-v4.atlas-edition .brand-meta strong{color:#272423}.atlas-v4.atlas-edition .brand-nav a{color:#792e32;border-color:#a48583}.atlas-v4.atlas-edition .brand-role-grid a{background:#eee8df;color:#272423}
+@media(max-width:1150px){.atlas-v4.atlas-edition .atlas-home .atlas-find{grid-template-columns:1fr}.atlas-v4.atlas-edition .atlas-home .atlas-find>h2,.atlas-v4.atlas-edition .atlas-home .atlas-find>.atlas-eyebrow,.atlas-v4.atlas-edition .atlas-home .atlas-find>p:not(.atlas-eyebrow),.atlas-v4.atlas-edition .atlas-home .atlas-find-form,.atlas-v4.atlas-edition .atlas-home .atlas-near-link{grid-column:1;grid-row:auto}.atlas-v4.atlas-edition .atlas-home .atlas-find>p:not(.atlas-eyebrow){display:none}}
+@media(max-width:720px){.atlas-v4.atlas-edition .site-header .atlas-wordmark{font-size:1.4rem}.atlas-v4.atlas-edition .atlas-home .atlas-opening{width:calc(100% - 36px);grid-template-columns:1fr;gap:0;margin-top:20px}.atlas-v4.atlas-edition .atlas-home .atlas-opening-text{grid-column:1;grid-row:1;padding:7px 0 22px}.atlas-v4.atlas-edition .atlas-home .atlas-opening-text h1{font-size:clamp(2.9rem,11vw,4.3rem)}.atlas-v4.atlas-edition .atlas-home .atlas-opening-text>p:not(.atlas-eyebrow){margin-top:13px}.atlas-v4.atlas-edition .atlas-home .atlas-opening-art>img{grid-column:1;grid-row:2;min-height:150px;height:185px;max-height:220px}.atlas-v4.atlas-edition .atlas-home .atlas-art-credit{grid-column:1;grid-row:3}.atlas-v4.atlas-edition .atlas-home .atlas-find{grid-row:4;padding:15px;margin-top:10px;gap:8px}.atlas-v4.atlas-edition .atlas-home .atlas-find-form,.atlas-v4.atlas-edition .atlas-home .atlas-find-form .primary-search-fields{grid-template-columns:1fr;gap:8px}.atlas-v4.atlas-edition .atlas-home .atlas-find-submit{margin:0}.atlas-v4.atlas-edition .atlas-home .atlas-proofbar{width:calc(100% - 36px)}.atlas-v4.atlas-edition .atlas-home .atlas-service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-v4.atlas-edition .atlas-home .atlas-service-card{min-height:170px;padding:13px}.atlas-v4.atlas-edition .atlas-home .atlas-service-card:nth-child(2){border-right:0}.atlas-v4.atlas-edition .atlas-home .atlas-service-card:nth-child(-n+2){border-bottom:1px solid #ded8cd}.atlas-v4.atlas-edition .atlas-home .atlas-service-card svg{width:49px;height:49px}.atlas-edition .edition-brands-list{grid-template-columns:repeat(2,minmax(0,1fr))}.atlas-edition .edition-brands-list a{border-bottom:1px solid #ded8cd;min-height:78px}.atlas-edition .edition-brands-list a:nth-child(2n){border-right:0}.atlas-v4.atlas-edition .profile-v3 h1{font-size:clamp(2.2rem,8.7vw,3.6rem)}.atlas-v4.atlas-edition .search-page .results-panel .search-result-card{padding:14px}}
