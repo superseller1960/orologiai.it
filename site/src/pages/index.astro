@@ -3,9 +3,11 @@ import Layout from '../layouts/Layout.astro';
 import SearchFields from '../components/SearchFields.astro';
 import '../styles/search.css';
 import '../styles/insights.css';
-import { directory, localityUrl, businessUrl, brandOptions } from '../lib/directory';
+import { directory, localityUrl, businessUrl, brandOptions, brandNames, slugify } from '../lib/directory';
+import { brandKey, brandLabel } from '../lib/schema';
 import { homePlacements } from '../lib/home-selection';
 
+const editorialBrands = ['IWC','Jaeger-LeCoultre','Baume & Mercier','Vulcain','Panerai'].map(name=>brandNames.find(b=>brandKey(b)===brandKey(name))).filter((name):name is string=>Boolean(name));
 const positions = homePlacements();
 const featured = positions.filter(p => p.type === 'editorial' && p.display === 'featured');
 const selected = positions.filter(p => p.type === 'editorial' && p.display === 'compact');
@@ -50,21 +52,22 @@ const cities = [...directory.localita]
     <div class="atlas-help-strip"><span>Non sai quale intervento ti serve?</span><a href="/orologiaio/">Chiedi all’Orologiaio <span aria-hidden="true">→</span></a><a href="/cerca/?servizio=batterie">Cambio batteria →</a></div>
   </section>
 
+  <section id="marchi" class="atlas-wrap edition-brands"><header class="atlas-section-head"><div><p class="atlas-eyebrow">03 / CULTURA OROLOGIERA</p><h2>Il mondo delle maison.</h2></div><p>Conosci i marchi e scopri le competenze documentate dei professionisti italiani.</p></header><div class="edition-brands-list">{editorialBrands.map(name=><a href={`/marchi/${slugify(name)}/`}><strong>{brandLabel(name)}</strong><small>Scopri il marchio ↗</small></a>)}</div></section>
   <section class="atlas-territories">
     <div class="atlas-wrap atlas-territory-layout">
-      <div class="atlas-territory-intro"><p class="atlas-eyebrow atlas-light">03 / L’ATLANTE ITALIANO</p><h2>Ogni città.<br/><em>Una storia.</em></h2><p>Esplora le attività per comune e regione, oppure scegli una delle località più presenti nella guida.</p><a class="atlas-outline" href="/orologerie/">Esplora tutti i territori <span aria-hidden="true">↗</span></a><div class="atlas-territory-dial" aria-hidden="true"></div></div>
+      <div class="atlas-territory-intro"><p class="atlas-eyebrow atlas-light">04 / L’ATLANTE ITALIANO</p><h2>Ogni città.<br/><em>Una storia.</em></h2><p>Esplora le attività per comune e regione, oppure scegli una delle località più presenti nella guida.</p><a class="atlas-outline" href="/orologerie/">Esplora tutti i territori <span aria-hidden="true">↗</span></a><div class="atlas-territory-dial" aria-hidden="true"></div></div>
       <div class="atlas-city-grid">{cities.map((city,i)=><a href={localityUrl(city)}><span class="atlas-city-index">0{i+1} / {city.siglaProvincia}</span><strong>{city.comune}</strong><small>{city.count} attività</small><span class="atlas-card-arrow" aria-hidden="true">↗</span></a>)}</div>
     </div>
   </section>
 
   <section class="atlas-wrap atlas-stories" id="botteghe">
-    <header class="atlas-section-head"><div><p class="atlas-eyebrow">04 / SELEZIONE EDITORIALE</p><h2>Le botteghe da conoscere.</h2></div><p>Tre storie, tre città. Una selezione indipendente, non una classifica.</p></header>
+    <header class="atlas-section-head"><div><p class="atlas-eyebrow">05 / SELEZIONE EDITORIALE</p><h2>Le botteghe da conoscere.</h2></div><p>Tre storie, tre città. Una selezione indipendente, non una classifica.</p></header>
     <div class="atlas-story-grid">{featured.map((p,i)=><article class:list={['atlas-story',{'atlas-story-main':i===0}]}><a class="atlas-story-link" href={businessUrl(p.business)}>{p.image?<figure class="atlas-story-photo"><img src={p.image.src} alt={p.image.alt} loading="lazy"/><figcaption>{p.image.credit} · {p.image.license}</figcaption></figure>:<div class="atlas-story-art" aria-hidden="true"><span>RITRATTO / 0{i+1}</span><span class="atlas-story-dial"></span><strong>{p.business.storia.annoFondazione||p.place.siglaProvincia}</strong><small>{p.place.comune}</small></div>}<div class="atlas-story-copy"><p class="atlas-eyebrow">{p.place.comune}{p.business.storia.annoFondazione && <> · dal {p.business.storia.annoFondazione}</>}</p><h3>{p.business.nome}</h3><p>{p.text}</p><span class="atlas-story-cta">Scopri la bottega ↗</span></div></a></article>)}</div>
     <div class="atlas-more-stories" id="altre-botteghe"><div><p class="atlas-eyebrow">ALTRI INDIRIZZI</p><h3>Altre storie, altri luoghi.</h3><p>Da nord a sud, altre botteghe da scoprire.</p></div><div>{selected.map(p=><a href={businessUrl(p.business)}><span><small>{p.place.comune}{p.business.storia.annoFondazione && <> · dal {p.business.storia.annoFondazione}</>}</small><strong>{p.business.nome}</strong><span class="atlas-row-description">{p.text}</span></span><span aria-hidden="true">↗</span></a>)}</div></div><p class="atlas-selection-note">Scelte per storia documentata e distribuzione geografica. <a href="/metodo/">Il nostro metodo</a></p>
   </section>
   {sponsored.length>0 && <section class="atlas-wrap atlas-sponsored" aria-labelledby="sponsored-title"><p class="atlas-eyebrow">PUBBLICITÀ</p><h2 id="sponsored-title">Contenuti sponsorizzati</h2>{sponsored.map(p=><article><p>Contenuto sponsorizzato · {p.place.comune}</p><h3><a href={businessUrl(p.business)}>{p.business.nome}</a></h3><p>{p.text}</p>{p.image && <figure><img src={p.image.src} alt={p.image.alt} loading="lazy"/><figcaption>{p.image.credit}</figcaption></figure>}</article>)}</section>}
 
-  <section class="atlas-journal"><div class="atlas-wrap atlas-journal-layout"><figure><img src="/images/strumento-spirale.jpg" width="960" height="1440" alt="Strumento storico per la regolazione della spirale di un orologio" loading="lazy"/><figcaption><a href="/crediti/">Crediti immagine</a></figcaption></figure><div><p class="atlas-eyebrow">05 / STORIE E GUIDE</p><h2>Il sapere<br/><em>delle mani.</em></h2><p>Una spirale sottile, un gesto preciso, il battito di un movimento. Dietro ogni orologio meccanico c’è un sapere fatto di pazienza e strumenti speciali.</p><a class="atlas-solid" href="/blog/">Leggi il magazine ↗</a></div></div></section>
+  <section class="atlas-journal"><div class="atlas-wrap atlas-journal-layout"><figure><img src="/images/strumento-spirale.jpg" width="960" height="1440" alt="Strumento storico per la regolazione della spirale di un orologio" loading="lazy"/><figcaption><a href="/crediti/">Crediti immagine</a></figcaption></figure><div><p class="atlas-eyebrow">06 / STORIE E GUIDE</p><h2>Il sapere<br/><em>delle mani.</em></h2><p>Una spirale sottile, un gesto preciso, il battito di un movimento. Dietro ogni orologio meccanico c’è un sapere fatto di pazienza e strumenti speciali.</p><a class="atlas-solid" href="/blog/">Leggi il magazine ↗</a></div></div></section>
   <section class="atlas-wrap atlas-final"><div><p class="atlas-eyebrow">RICERCA GUIDATA</p><h2>Una domanda sul tuo orologio?</h2><p>Descrivi quello che cerchi, senza dover conoscere i termini tecnici.</p><a href="/orologiaio/">Chiedi all’Orologiaio ↗</a></div><div><p class="atlas-eyebrow">PER LE ATTIVITÀ</p><h2>Il tuo mestiere merita di essere conosciuto.</h2><p>Scopri come raccontare il tuo laboratorio nella guida.</p><a href="/partecipa/#profilo-professionale">Scopri il progetto ↗</a></div></section>
 </div>
 </Layout>
