@@ -12,7 +12,7 @@ const suggerimenti = [
 ];
 ---
 <Layout title="Chiedi all’Orologiaio" description="Scrivi che cosa ti serve: l’Orologiaio cerca nel database delle orologerie, mostra le fonti e distingue i servizi documentati dalle autorizzazioni ufficiali dei marchi." noindex={false}>
-  <section class="page-hero compact"><div class="container"><p class="eyebrow">Orologiaio</p><h1>Descrivi il problema,<br />troviamo la bottega giusta.</h1><p class="lead">Scrivi in linguaggio naturale. L’Orologiaio cerca nel database reale e spiega perché ogni attività compare. Dove un’informazione manca, lo dice.</p></div></section>
+  <section class="page-hero compact"><div class="container"><p class="eyebrow">Orologiaio</p><h1>Descrivi il problema,<br />troviamo la bottega giusta.</h1><p class="lead">Raccontami il problema e dove vuoi cercare. Ti mostro fino a tre professionisti con competenze documentate, oppure ti aiuto a precisare la richiesta.</p></div></section>
   <section class="container section chat-section">
     <div class="chat" id="assistente">
       <div class="chat-top">
@@ -25,7 +25,7 @@ const suggerimenti = [
       <div class="chat-log" id="assistente-chat" role="log" aria-live="polite" aria-relevant="additions text" aria-busy="false">
         <article class="msg msg-bot">
           <p class="msg-autore">Orologiaio</p>
-          <p>Ciao! Ti aiuto a trovare l’orologiaio giusto per le tue esigenze. Raccontami che cosa ti serve: una revisione, una riparazione, assistenza per un marchio specifico o semplicemente un professionista vicino a te.</p>
+          <p>Ciao! Che problema ha il tuo orologio? Dimmi anche il marchio, se lo conosci, e la città in cui cerchi assistenza. Ti propongo solo corrispondenze documentate.</p>
         </article>
         <div class="chat-suggerimenti" id="assistente-suggerimenti">
           <p class="msg-suggerimenti-intro">Non sai da dove iniziare? Prova una di queste richieste:</p>
