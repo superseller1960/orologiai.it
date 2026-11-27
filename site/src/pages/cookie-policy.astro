@@ -7,7 +7,7 @@ import Layout from '../layouts/Layout.astro';
 <div class="notice"><strong>Verifica aperta.</strong> L'hosting definitivo è attivo su Cloudflare Pages dal 22/10/2026: sulle risposte delle pagine principali e di <code>/api/posizione</code> non è stato riscontrato alcun cookie (nessun header <code>Set-Cookie</code>, verifica del 22/10/2026). Restano da controllare gli eventuali identificatori tecnici su altri endpoint della piattaforma e da aggiornare i riferimenti <strong>[DA VERIFICARE]</strong> indicati di seguito.</div>
 
 <h2>In sintesi</h2>
-<p><strong>Il sito non installa cookie di profilazione né cookie analitici, non usa strumenti di marketing e non memorizza dati nel browser</strong> (nessun <code>localStorage</code>, <code>sessionStorage</code> o archivio simile). Per questo <strong>non è presente un banner di consenso</strong>: non ci sono strumenti che lo richiedano. Se in futuro venisse introdotta una misurazione di analisi o un contenuto esterno che imposta cookie, il banner e questa pagina saranno aggiornati prima dell'attivazione.</p>
+<p><strong>Il sito non installa cookie di profilazione né cookie analitici e non usa strumenti di marketing.</strong> I preferiti, quando li salvi, conservano soltanto gli identificativi delle schede nel <code>localStorage</code> del dispositivo. Puoi rimuoverli dal pannello Preferiti o cancellando i dati del sito. Non vengono trasmessi al server. Per questo <strong>non è presente un banner di consenso</strong>: non ci sono strumenti che lo richiedano. Se in futuro venisse introdotta una misurazione di analisi o un contenuto esterno che imposta cookie, il banner e questa pagina saranno aggiornati prima dell'attivazione.</p>
 
 <h2>1. Cookie impostati dal sito</h2>
 <p>Nessuno. Il codice del sito non scrive cookie sul dispositivo del visitatore.</p>
@@ -31,7 +31,7 @@ import Layout from '../layouts/Layout.astro';
 <p>La posizione del browser è richiesta solo se premi “Usa la mia posizione”, con il consenso del browser, e resta locale al dispositivo. La stima di zona della ricerca usa l'endpoint <code>/api/posizione</code>, che non imposta cookie e invia la risposta con intestazione <code>no-store</code> affinché nessuna posizione venga memorizzata in cache condivisa.</p>
 
 <h2>6. Come controllare i cookie dal tuo browser</h2>
-<p>Puoi impostare il browser per bloccare o cancellare i cookie. Poiché il sito non ne usa di propri, queste impostazioni non ne limitano le funzioni. Le mappe potrebbero non caricarsi se blocchi in modo esteso le risorse esterne.</p>
+<p>Puoi impostare il browser per bloccare o cancellare i cookie. Il blocco dell’archiviazione locale può impedire la persistenza dei preferiti; la ricerca resta utilizzabile. Le mappe potrebbero non caricarsi se blocchi in modo esteso le risorse esterne.</p>
 
 <h2>7. Aggiornamenti</h2>
 <p>Questa pagina viene aggiornata quando cambiano gli strumenti effettivamente usati dal sito.</p>
