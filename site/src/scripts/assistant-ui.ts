@@ -1,7 +1,7 @@
 import raw from '../../data/directory.json';
 import { z } from 'zod';
 import { directorySchema, services } from '../lib/schema';
-import { MAX_MESSAGGIO, criteriSchema, cercaConContesto, combinaCriteri as aggiornaCriteri, interpretaRichiesta, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
+import { MAX_MESSAGGIO, criteriSchema, cercaOrologiaioPreciso, combinaCriteri as aggiornaCriteri, interpretaRichiesta, interpretaConProvider, type Criteri, type EsitoRicerca, type RisultatoAttivita, type StatoOrari } from '../lib/assistant';
 import { REGIONI_ITALIA } from '../lib/geo';
 
 // Risposta dell'endpoint: solo criteri validati e la modalità reale usata.
@@ -33,6 +33,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
   let origine: { lat: number; lon: number } | undefined;
   let inviando = false;
   let ultimiCriteri: Criteri = {};
+  let nazionale=false;
 
   const ORARI: Record<StatoOrari, string> = {
     'indicato-oggi': 'Orari di oggi indicati dalla fonte',
@@ -307,9 +308,13 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       const uniti = aggiornaCriteri(ultimiCriteri, interp.criteri, testo);
       // Se il contesto ereditato azzera i risultati ma la nuova richiesta da sola ne ha, si usano i soli criteri nuovi.
       // Il contesto precedente è dichiarato solo se esisteva già: al primo messaggio è vuoto.
-      const ricerca = cercaConContesto(data, uniti, nuovi, { origine, precedenti: ultimiCriteri });
-      const criteri: Criteri = ricerca.criteri;
-      const esito: EsitoRicerca = ricerca.esito;
+      if(/\b(?:ricomincia|ripartiamo|nuova ricerca|azzera)\b/i.test(testo))nazionale=false;
+      if(/\b(?:tutta italia|tutta l.it al ia|ovunque|tutte le regioni)\b/i.test(testo))nazionale=true;
+      if(nuovi.localita||nuovi.provincia||nuovi.regione||nuovi.localitaNonCensita)nazionale=false;
+      const criteri: Criteri = uniti;
+      const informativa = interp.criteri.intento === 'tecnica' || interp.criteri.intento === 'marca-storia' || interp.criteri.intento === 'aggiornata' || (/\b(?:come funziona|cosa significa|che cos|a cosa serve)\b/i.test(testo)&&!nuovi.servizio);
+      const esito: EsitoRicerca = informativa ? {stato:'nessun-criterio',totale:0,risultati:[],alternative:[],messaggi:[]} : cercaOrologiaioPreciso(data,criteri,{origine,nazionale});
+      const ricerca={daSoliNuoviCriteri:false,contestoPrecedente:false};
       const ereditati = ricerca.daSoliNuoviCriteri
         ? []
         : (Object.keys(criteri) as (keyof Criteri)[])
@@ -320,9 +325,10 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
       const righe: string[] = [];
       // Il testo conversazionale del modello (se presente) apre la bolla: è di per sé il riconoscimento della richiesta.
-      if (interp.risposta) righe.push(interp.risposta);
+      if (informativa && interp.risposta) righe.push(interp.risposta);
+      else if(informativa)righe.push('Posso aiutarti a individuare il servizio più adatto, ma per questa domanda tecnica mi serve qualche dettaglio in più. Che tipo di orologio hai e che cosa vuoi capire?');
       const riepilogo = riassunto(criteri);
-      if (!interp.risposta && riepilogo) righe.push(riepilogo);
+      if (!informativa && riepilogo) righe.push(riepilogo);
       if (ricerca.daSoliNuoviCriteri && ricerca.contestoPrecedente) righe.push('I criteri della richiesta precedente non davano risultati: ho cercato solo la nuova richiesta.');
       if (ereditati.length && !interp.risposta) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
       if (interp.avviso) righe.push(interp.avviso);
@@ -330,7 +336,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       const chiarimenti = interp.risposta
         ? interp.chiarimenti.filter(c => !/Indica un servizio, una marca o una località/.test(c))
         : interp.chiarimenti;
-      righe.push(...chiarimenti, ...esito.messaggi);
+      if(!informativa)righe.push(...esito.messaggi);
       if (!righe.length && !esito.risultati.length) righe.push('Non ho ancora trovato attività con questi criteri: indica una località o un servizio diverso.');
 
       caricamento.remove();
@@ -348,7 +354,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
       if (esito.risultati.length) {
         risposta.append(listaRisultati(esito.risultati));
-        if (esito.totale > esito.risultati.length) risposta.append(el('p', `Mostro ${esito.risultati.length} attività su ${esito.totale}. Aggiungi un criterio per restringere.`, 'small muted'));
+        scorri();
       }
       if (esito.alternative.length) {
         const richiedeUfficiale = criteri.ruoloMarca === 'assistenzaUfficiale' || criteri.ruoloMarca === 'rivenditaUfficiale';
@@ -360,9 +366,16 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         const titolo = el('p', etichettaAlt, 'msg-sottotitolo');
         risposta.append(titolo, listaRisultati(esito.alternative));
       }
+      if(!informativa && esito.stato==='nessun-criterio' && (criteri.servizio||criteri.marca) && !criteri.localita&&!criteri.provincia&&!criteri.regione&&!criteri.cap){risposta.append(chipLista([{testo:'Cerca in tutta Italia',azione:()=>{void invia('Cerca in tutta Italia');}}]));}
+      if(!informativa&&esito.stato==='nessun-risultato'&&(criteri.localita||criteri.provincia||criteri.regione)){
+        const luogo=data.localita.find(p=>p.id===criteri.localita);
+        const azioni:{testo:string;azione:()=>void}[]=[];
+        if(luogo)azioni.push({testo:'Amplia alla provincia di '+luogo.provincia,azione:()=>{void invia('Cerca nella provincia di '+luogo.provincia);}});
+        azioni.push({testo:'Cerca in tutta Italia',azione:()=>{void invia('Cerca in tutta Italia');}});risposta.append(chipLista(azioni));
+      }
       if (ereditati.length) {
         risposta.append(chipLista([{ testo: 'Ricomincia da zero', azione: () => {
-          ultimiCriteri = {};
+          ultimiCriteri = {}; nazionale=false; origine=undefined;
           messaggioAssistente(['Va bene, ripartiamo: dimmi che cosa ti serve e cerco senza i criteri precedenti.']);
           annuncia('Criteri precedenti azzerati.');
         } }]));
@@ -371,7 +384,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         risposta.append(chipLista([{ testo: 'Riprova con il servizio AI', azione: riprova(testo) }]));
       }
       // Suggerimento di filtro: porta alla stessa ricerca, senza inventare attività.
-      if (interp.consiglio && criteri.servizio !== interp.consiglio) {
+      if (informativa && interp.consiglio && criteri.servizio !== interp.consiglio) {
         const servizio = interp.consiglio;
         const query = new URLSearchParams({ servizio });
         if (criteri.localita) query.set('localita', criteri.localita);
@@ -422,7 +435,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     bottone.addEventListener('click', () => { void invia(bottone.dataset.suggerimento ?? ''); });
   }
 
-  form.addEventListener('reset', () => { ultimiCriteri = {}; origine = undefined; setTimeout(aggiornaComposer, 0); });
+  form.addEventListener('reset', () => { ultimiCriteri = {}; nazionale=false; origine = undefined; setTimeout(aggiornaComposer, 0); });
 
   aggiornaComposer();
 }
