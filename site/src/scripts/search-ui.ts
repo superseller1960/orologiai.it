@@ -317,6 +317,7 @@ if (form && count && empty && list) {
       ? `«${nome}» compare in ${altrove} ${altrove === 1 ? 'attività' : 'attività'} in altre località. Puoi ampliare la ricerca: saranno risultati fuori dal territorio scelto, non corrispondenze nella località.`
       : `«${nome}» non risulta documentata nel database attuale: nessuna attività viene inventata o sostituita.`;
     alternative.hidden = false;
+    widen.textContent = filters.marca ? 'Cerca in tutta Italia mantenendo il marchio' : 'Cerca in tutta Italia con questo servizio';
     widen.hidden = altrove === 0;
   }
   function renderChips() {
