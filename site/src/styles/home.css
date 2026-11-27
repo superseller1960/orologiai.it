@@ -51,3 +51,13 @@
 @media(max-width:700px){.home-quick-start{gap:8px;padding-top:18px}.home-quick-start>a{padding:14px 10px;grid-template-columns:24px 1fr;gap:7px}.home-quick-start>a>span:first-child{font-size:1.35rem}.home-quick-start>a>span:last-child{display:none}.home-quick-start strong{font-size:.85rem}.home-quick-start small{font-size:.68rem}.hero-directory-stats{gap:12px 18px}.hero-directory-stats strong{font-size:1.55rem}.featured-list .featured-story .featured-copy{padding:17px}.featured-list .featured-story .featured-art{height:180px}}
 @media(max-width:360px){.home-quick-start>a{grid-template-columns:1fr}.home-quick-start>a>span:first-child{display:none}}
 @media(prefers-reduced-motion:reduce){.editorial-hero *, .home-section *, .home-quick-start *{transition:none!important;animation:none!important}}
+
+
+/* Keep the new three-field form consistent even when the legacy homepage overrides load last. */
+.editorial-hero .home-search{display:grid;grid-template-columns:minmax(0,1fr);align-items:stretch;gap:10px;padding:18px 22px;max-width:630px}
+.editorial-hero .home-search .hero-brand-filter{margin:0 0 4px}
+.editorial-hero .home-search .home-search-button{height:auto;min-height:48px;background:#173e34;font-size:.86rem}
+.editorial-hero .home-search .hero-service summary{min-height:44px;display:flex;align-items:center;gap:5px}
+.editorial-hero .home-search .locality-picker input{min-height:44px}
+@media(min-width:1000px){.editorial-hero .hero-composition{padding-block:48px 50px;gap:clamp(35px,5vw,80px)}.editorial-hero h1{font-size:clamp(3.7rem,5.9vw,6rem)}}
+@media(max-width:700px){.editorial-hero .home-search{padding:16px;gap:6px}.editorial-hero .hero-composition{padding-block:28px 30px}.editorial-hero h1{margin-bottom:16px}.editorial-hero .hero-intro{margin-bottom:16px}.hero-directory-stats{margin-top:16px}.hero-visual img{aspect-ratio:16/9;object-position:50% 42%}}
