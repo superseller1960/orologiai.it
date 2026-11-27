@@ -60,12 +60,13 @@ const PRIME_CARD = 60;
     <section class="results-panel" aria-labelledby="search-count">
       <h2 id="search-count" tabindex="-1" aria-live="polite">{directory.attivita.length} botteghe e laboratori da esplorare</h2>
       <p id="search-context" class="small muted"></p>
-      <details class="optional-panel search-map" id="map-details"><summary id="map-summary">Mappa dei risultati</summary><div class="map-toolbar"><p id="map-status" class="small" role="status" aria-live="polite"></p><button id="map-interact" type="button" class="btn btn-ghost" aria-pressed="false" hidden>Sposta la mappa</button></div><div id="directory-map" role="region" aria-label="Mappa delle attività nei risultati"></div><p class="small muted">Posizioni confrontate con gli indirizzi; le attività senza coordinate restano nell’elenco. <a href="/coordinate-osm.json">Dati geografici · © OpenStreetMap contributors · ODbL</a></p></details>
+      <div class="atlas-browse"><div class="atlas-map-column"><details class="optional-panel search-map" id="map-details"><summary id="map-summary">Esplora sulla mappa</summary><div class="map-toolbar"><p id="map-status" class="small" role="status" aria-live="polite"></p><button id="map-interact" type="button" class="btn btn-ghost" aria-pressed="false" hidden>Sposta la mappa</button></div><div id="directory-map" role="region" aria-label="Mappa delle attività nei risultati"></div><p class="small muted">Posizioni confrontate con gli indirizzi; le attività senza coordinate restano nell’elenco. <a href="/coordinate-osm.json">Dati geografici · © OpenStreetMap contributors · ODbL</a></p></details></div><div class="atlas-results-column">
 
       <ul class="grid" id="search-results">{directory.attivita.slice(0, PRIME_CARD).map(b => <BusinessCard business={b} compact editorial />)}</ul>
       <div id="search-empty" class="notice" hidden><p id="search-empty-message">Nessuna attività soddisfa i filtri selezionati.</p><p id="search-alternative" class="small" hidden></p><div class="search-actions"><button type="button" class="btn btn-ghost" id="remove-service" hidden>Rimuovi il servizio</button><button type="button" class="btn btn-ghost" id="search-widen" hidden>Cerca in tutta Italia con questo servizio</button></div><p><a href="/orologerie/">Esplora altre località (fuori dalla ricerca) →</a></p></div>
       <p id="search-page-count" class="small muted"></p><button type="button" id="search-more" class="btn btn-ghost" hidden>Mostra altri 12</button>
       <section id="search-related" class="related-results" aria-labelledby="search-related-title" hidden><h3 id="search-related-title">Altri laboratori che potrebbero aiutarti</h3><p id="search-related-note" class="small muted"></p><ul class="grid" id="search-related-list"></ul></section>
+      </div></div>
     </section>
 
     <details class="optional-panel guided-search"><summary>Ricerca guidata e assistente (facoltativi)</summary>
@@ -109,4 +110,28 @@ const PRIME_CARD = 60;
     .search-page .results-panel #search-context{margin-bottom:12px}
     .search-page .results-panel #map-details{margin-bottom:14px}
   }
+</style>
+
+<style is:global>
+.atlas-v4 .search-page{max-width:1380px}
+.atlas-v4 .search-page>h1{font-family:"Atlas Serif",Georgia,serif;font-size:clamp(2.5rem,5vw,4.6rem);letter-spacing:-.045em;max-width:19ch}
+.atlas-v4 .search-page .search-flow{background:#fffdf7;border:1px solid #d7d7c9;box-shadow:none;border-radius:6px;padding:24px}
+.atlas-v4 .search-page .results-panel{max-width:none}
+.atlas-v4 .atlas-browse{display:flex;flex-direction:column;gap:16px}
+.atlas-results-column,.atlas-map-column{min-width:0}
+.atlas-v4 .search-page .results-panel #map-details{margin:0;background:#fffdf7;border:1px solid #d7d7c9;border-radius:6px}
+.atlas-v4 .results-panel .search-result-card{border-radius:6px!important;box-shadow:none}
+.atlas-v4 .results-panel .search-result-card .result-primary{background:#172f29}
+.atlas-v4 .results-panel .search-result-card .result-secondary{background:#e4eae0}
+.atlas-v4 .results-panel .search-result-card .result-place{font-size:.74rem;letter-spacing:.13em}
+.atlas-v4 .results-panel .search-result-card .tag{border-radius:4px;background:#e4eae0}
+.atlas-v4 .search-page .results-panel #search-count{font-family:"Atlas Serif",Georgia,serif!important}
+@media(min-width:1050px){
+.atlas-v4 .atlas-browse:has(#map-details[open]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:28px;align-items:start}
+.atlas-v4 .atlas-browse:has(#map-details[open]) .atlas-map-column{grid-column:2;grid-row:1;position:sticky;top:18px}
+.atlas-v4 .atlas-browse:has(#map-details[open]) .atlas-results-column{grid-column:1;grid-row:1}
+.atlas-v4 .atlas-browse:has(#map-details[open]) #search-results,.atlas-v4 .atlas-browse:has(#map-details[open]) #search-related-list{grid-template-columns:minmax(0,1fr)!important}
+.atlas-v4 .atlas-browse:has(#map-details[open]) #directory-map{height:clamp(350px,60vh,680px)}
+}
+@media(max-width:700px){.atlas-v4 .search-page .search-flow{padding:16px}.atlas-v4 .search-page>h1{font-size:2.7rem}}
 </style>
