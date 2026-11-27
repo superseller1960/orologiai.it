@@ -58,8 +58,9 @@ test('Fase19: CSS live esatto, DOM Astro e niente trasformatore JS della preview
 test('Homepage 16C protetta e Lotto5 ancora sospeso',()=>{
  const hashes=JSON.parse(readFileSync('data/staging/fase18-geocode/homepage-sha256-before.json','utf8')) as Record<string,string>;
  // La fase storica resta verificabile sul commit precedente al redesign autorizzato.
- // Gli asset e il layout non interessati continuano a essere verificati sul tree corrente.
- const redesigned = new Set(['site/src/pages/index.astro','site/src/styles/home.css']);
+ // Anche il layout è stato ridisegnato nella release 4.0: la versione storica resta verificata dal commit immutabile.
+ // Gli asset non interessati continuano a essere verificati sul tree corrente.
+ const redesigned = new Set(['site/src/pages/index.astro','site/src/styles/home.css','site/src/layouts/Layout.astro']);
  for(const [file,hash]of Object.entries(hashes)){
   const bytes=redesigned.has(file)?execFileSync('git',['show',`a2e79ade4f881fa8db9e6da93911fca8aefd8ef8:${file}`],{maxBuffer:16*1024*1024}):readFileSync(file);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),hash,file);
