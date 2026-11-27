@@ -94,12 +94,14 @@ if (form && count && empty && list) {
     for (const control of Array.from(searchForm.elements)) {
       if (control instanceof HTMLInputElement || control instanceof HTMLSelectElement) {
         const value = params.get(control.name);
-        if (value !== null) control.value = value;
+        if (control instanceof HTMLInputElement && control.type === 'checkbox') control.checked = value === control.value;
+        else if (value !== null) control.value = value;
       }
     }
     const place = data.localita.find(p => p.id === params.get('localita'));
     cityInput.value = place?.comune ?? params.get('comune') ?? params.get('localitaNonCensita') ?? params.get('localita') ?? '';
     if (place) cityInput.dataset.localita = place.id;
+    else delete cityInput.dataset.localita;
   }
   function revealResults() {
     // Il DOM e l'altezza delle card sono già aggiornati prima del salto.
@@ -313,6 +315,7 @@ if (form && count && empty && list) {
       button.textContent = `${text} ×`; button.setAttribute('aria-label', `Rimuovi filtro ${text}`);
       button.addEventListener('click', () => {
         if (isCity) { cityInput.value = ''; delete cityInput.dataset.localita; }
+        else if (control instanceof HTMLInputElement && control.type === 'checkbox') control.checked = false;
         else if (control) control.value = key === 'ruoloMarca' ? 'qualsiasi' : '';
         update('push');
       }); chips.append(button);
@@ -351,10 +354,11 @@ if (form && count && empty && list) {
       service.value = '';
       const marca = field('marca') as HTMLSelectElement | null;
       const ruolo = field('ruoloMarca') as HTMLSelectElement | null;
-      if (marca) marca.value = '';
       if (ruolo) ruolo.value = 'assistenzaUfficiale';
+      const advanced = searchForm.querySelector<HTMLDetailsElement>('.advanced-filters');
+      if (advanced) advanced.open = true;
+      update('push');
       marca?.focus();
-      update('push', true);
       return;
     }
     service.value = bisogno;
