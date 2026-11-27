@@ -73,7 +73,7 @@ const aggiornamento = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
 const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURIComponent(`Contestazione dato non documentato: ${b.id}`)}&body=${encodeURIComponent(`Scheda: https://www.orologiai.it${businessUrl(b)}\nInformazione contestata:\nPerché non è documentata o è errata:\n`)}`;
 ---
 <Layout title={titoloScheda(b, place.comune)} description={b.descrizione} schema={schema}>
-  <section class="page-hero profile-hero"><div class="container">
+  <section class="page-hero profile-hero profile-v3" id="panoramica"><div class="container">
     <a class="breadcrumb" href={localityUrl(place)}>← {place.comune}, {place.regione}</a>
     <p class="eyebrow">{place.comune} · {place.siglaProvincia} · {b.tipi.join(' / ')}</p>
     <h1>{b.nome}</h1>
@@ -84,6 +84,7 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     <div class="profile-contact">
       {b.posizione.indirizzo && <p><span class="label">Indirizzo</span>{b.posizione.indirizzo}{b.posizione.cap ? `, ${b.posizione.cap}` : ''} — {place.comune} ({place.siglaProvincia})</p>}
       {b.contatti.telefono && <p><span class="label">Telefono</span><a href={`tel:${telHref}`}>{b.contatti.telefono}</a></p>}
+      {b.contatti.email && <p><span class="label">Email</span><a href={`mailto:${b.contatti.email}`}>{b.contatti.email}</a></p>}
       {b.contatti.sito && <p><span class="label">Sito</span><a href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a></p>}
     </div>
     <div class="actions">
@@ -92,31 +93,45 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
       {b.contatti.sito && <a class="btn secondary" href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a>}
       {b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}
     </div>
+    <div class="profile-highlights" aria-label="In breve">
+      {b.servizi.length > 0 && <a href="#servizi-scheda"><span aria-hidden="true">✳</span><strong>{b.servizi.length}</strong><small>Servizi documentati</small></a>}
+      {b.marchi.assistenzaUfficiale.length > 0 && <a href="#marchi-scheda"><span aria-hidden="true">◇</span><strong>{b.marchi.assistenzaUfficiale.length}</strong><small>Marchi in assistenza ufficiale</small></a>}
+      {b.marchi.rivenditaUfficiale.length > 0 && <a href="#marchi-scheda"><span aria-hidden="true">◷</span><strong>{b.marchi.rivenditaUfficiale.length}</strong><small>Marchi in rivendita ufficiale</small></a>}
+      {sources.length > 0 && <a href="#fonti"><span aria-hidden="true">✓</span><strong>{sources.length}</strong><small>Fonti consultabili</small></a>}
+    </div>
   </div></section>
-  <div class="container section profile-grid"><div>
+  <nav class="profile-jump-nav" aria-label="Sezioni della scheda"><div class="container">
+    <a href="#panoramica">Panoramica</a>
+    <a href="#servizi-scheda">Servizi</a>
+    {brandGroups.length > 0 && <a href="#marchi-scheda">Marchi</a>}
+    {hasStoria && <a href="#storia-scheda">Storia</a>}
+    <a href="#contatti-scheda">Contatti e orari</a>
+    <a href="#fonti">Fonti</a>
+  </div></nav>
+  <div class="container section profile-grid profile-v3-grid"><div>
     {b.laboratorio && <section class="panel laboratory-panel"><p class="eyebrow dark">{laboratoryLabel(b)}</p><h2>{b.laboratorio.tipo==='orafo' ? 'La lavorazione dei gioielli' : 'Il laboratorio e gli interventi'}</h2><p>{b.laboratorio.descrizione}</p></section>}
-    <section class="panel"><h2>Servizi e specializzazioni</h2>
-      {b.servizi.length ? macroAreeServizi.map(area => { const items = b.servizi.filter(s => area.servizi.includes(s.id)); return items.length ? <div class="fact"><h3>{area.titolo}</h3><div class="tags">{items.map(s => <span class="tag">{services[s.id]}</span>)}</div></div> : null; }) : <p>Nessun servizio specifico è documentato dalle fonti disponibili.</p>}
+    <section class="panel profile-service-panel" id="servizi-scheda"><p class="eyebrow dark">01 / Competenze</p><h2>Servizi e specializzazioni</h2>
+      {b.servizi.length ? macroAreeServizi.map(area => { const items = b.servizi.filter(s => area.servizi.includes(s.id)); return items.length ? <div class="fact"><h3>{area.titolo}</h3><div class="tags profile-service-tags">{items.map(s => <span class="tag"><span aria-hidden="true">✓</span> {services[s.id]}</span>)}</div></div> : null; }) : <p>Nessun servizio specifico è documentato dalle fonti disponibili.</p>}
       {b.altriServizi.length > 0 && <div class="fact"><h3>Altri servizi citati</h3><ul>{b.altriServizi.map(s => <li>{s.nome}</li>)}</ul></div>}
       <p class="small muted">Le competenze compaiono solo quando documentate da una fonte. Non deduciamo specializzazioni da un servizio generico.</p>
     </section>
-    {competenze.length > 0 && <section class="panel" aria-labelledby="competenze-titolo">
+    {competenze.length > 0 && <section class="panel profile-evidence-panel" aria-labelledby="competenze-titolo">
       <p class="eyebrow dark">Documentazione</p>
       <h2 id="competenze-titolo">Competenze documentate</h2>
       <p class="small muted">Frasi tratte dalle fonti consultate, aggiornate al {dataCompetenze}. Ogni voce rimanda alla pagina originale: nessuna competenza è dedotta dalla tipologia dell’esercizio.</p>
-      <ul class="competence-list">
+      <details class="profile-evidence-details"><summary>Consulta le {competenze.length} competenze documentate</summary><ul class="competence-list">
         {competenze.map(c => <li>
           <p class="competence-service">{services[c.servizio as keyof typeof services]}</p>
           <blockquote>{fraseEvidenza(c, 150, c.servizio)}</blockquote>
           <a class="text-link competence-source" href={c.url} rel="noopener noreferrer nofollow" target="_blank">Verifica la fonte<span class="sr-only">: {etichettaFonte(c.titolo, c.url)}</span></a>
         </li>)}
-      </ul>
+      </ul></details>
     </section>}
-    {brandGroups.length > 0 && <section class="panel"><h2>Marchi e relazioni</h2>
-      {brandGroups.map(g => <div class="fact"><h3>{g.label}</h3><ul>{g.claims.map(c => <li>{c.marca}</li>)}</ul></div>)}
+    {brandGroups.length > 0 && <section class="panel profile-brands-panel" id="marchi-scheda"><p class="eyebrow dark">02 / Maison</p><h2>Marchi e relazioni</h2>
+      {brandGroups.map(g => <div class="fact profile-brand-group"><h3>{g.label}</h3><ul class="profile-brand-grid">{g.claims.map(c => <li><a href={`/cerca/?marca=${encodeURIComponent(c.marca)}&ruoloMarca=${encodeURIComponent(g.key)}`}><span>{c.marca}</span><small>Esplora il marchio ↗</small></a></li>)}</ul></div>)}
       <p class="notice">La citazione di un marchio non prova un’autorizzazione ufficiale, né alla vendita né all’assistenza. Le autorizzazioni sono indicate solo con fonte del marchio.</p>
     </section>}
-    {hasStoria && <section class="panel story-panel"><p class="eyebrow dark">Memoria delle botteghe</p><h2>La storia</h2>
+    {hasStoria && <section class="panel story-panel" id="storia-scheda"><p class="eyebrow dark">Memoria delle botteghe</p><h2>La storia</h2>
       {b.storia.testo && <p>{b.storia.testo}</p>}
       {b.storia.annoFondazione && <p>Anno riportato dalle fonti: <strong>{b.storia.annoFondazione}</strong>.</p>}
       {b.storia.fondatore && <p>Fondatore indicato dalle fonti: <strong>{b.storia.fondatore}</strong>.</p>}
@@ -125,19 +140,19 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     </section>}
     <details class="sources-panel" id="fonti"><summary>Fonti e verifiche</summary>
       <p>Stato della scheda: <strong>{statuses[b.attendibilita.stato]}</strong>.</p>
-      <p>Raccolta: <time datetime={b.attendibilita.raccoltaIl}>{b.attendibilita.raccoltaIl}</time>. Verifica indipendente: {b.attendibilita.verificataIl ?? 'non ancora eseguita'}. Conferma del titolare: {b.attendibilita.confermataTitolareIl ?? 'non ricevuta'}.</p>
+      <p>Raccolta: <time datetime={b.attendibilita.raccoltaIl}>{b.attendibilita.raccoltaIl || "non indicata"}</time>. Verifica indipendente: {b.attendibilita.verificataIl ?? 'non ancora eseguita'}. Conferma del titolare: {b.attendibilita.confermataTitolareIl ?? 'non ricevuta'}.</p>
       <p class="small muted">«Fonti pubbliche» indica che i dati provengono da documenti consultabili: non è una certificazione, né una visita all’attività.</p>
       <ul>{sources.map(s => <li><a href={s.url} rel="noreferrer">{s.titolo}</a> · consultazione {s.consultataIl}{s.percorsoArchivio && <span> · archivio conservato: <code>{s.percorsoArchivio}</code></span>}</li>)}</ul>
       <details><summary>Cronologia della scheda</summary><ul>{b.attendibilita.cronologia.map(e => <li>{e.data} — {e.azione}</li>)}</ul></details>
       <a class="text-link" href={report}>Segnala un’informazione errata →</a>
     </details>
-  </div><aside><section class="panel contact-panel">
+  </div><aside><section class="panel contact-panel" id="contatti-scheda">
     <p class="eyebrow dark">Prima di metterti in viaggio</p>
-    <h2>Orari e posizione</h2>
+    <h2>Orari e posizione</h2><div class="profile-contact-actions">{b.contatti.telefono && <a class="btn" href={`tel:${telHref}`}>Chiama</a>}{b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}{indicazioni && <a class="btn secondary" href={indicazioni} rel="noreferrer">Indicazioni ↗</a>}{b.contatti.sito && <a class="btn secondary" href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a>}</div>
     {b.posizione.indirizzo ? <address>{b.posizione.indirizzo}{b.posizione.cap ? <><br />{b.posizione.cap} {place.comune} ({place.siglaProvincia})</> : <><br />{place.comune} ({place.siglaProvincia})</>}<br />{place.regione}</address> : <p>Indirizzo non disponibile nelle fonti consultate.</p>}
     {b.contatti.telefono ? <p><a href={`tel:${telHref}`}>{b.contatti.telefono}</a></p> : <p class="small muted">Telefono non verificato.</p>}
     <h3>Orari</h3>
-    {b.orari.giorni.length ? <ul>{b.orari.giorni.map(g => <li>{['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'][g.giorno - 1]}: {g.intervalli.length ? g.intervalli.map(i => `${i.apertura}–${i.chiusura}`).join(', ') : 'chiuso'}</li>)}</ul> : <p>Orari non disponibili. Non possiamo indicare se l’attività è aperta oggi.</p>}
+    {b.orari.giorni.length ? <ul class="profile-hours">{b.orari.giorni.map(g => <li>{['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'][g.giorno - 1]}: {g.intervalli.length ? g.intervalli.map(i => `${i.apertura}–${i.chiusura}`).join(', ') : 'chiuso'}</li>)}</ul> : <p>Orari non disponibili. Non possiamo indicare se l’attività è aperta oggi.</p>}
     {b.orari.verificatiIl && <p class="small muted">Orari riscontrati nella fonte il {b.orari.verificatiIl}. Confermare eventuali variazioni o festività; non mostriamo “aperto oggi”.</p>}
     {isUsableCoordinate(b.posizione.coordinate) ? <><p class="small"><strong>Posizione geocodificata e confrontata con l’indirizzo disponibile.</strong> Non è una verifica sul posto.</p><a class="btn secondary" href={`https://www.openstreetmap.org/?mlat=${b.posizione.coordinate.lat}&mlon=${b.posizione.coordinate.lon}#map=17/${b.posizione.coordinate.lat}/${b.posizione.coordinate.lon}`}>Apri la posizione su OSM ↗</a></> : <p class="small muted">Nessuna posizione cartografica pubblicata: l’indirizzo non è ancora confrontato con una geocodifica.</p>}
     {isUsableCoordinate(b.posizione.coordinate) && <p class="coordinate-credit">© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · <a href="/coordinate-osm.json">Dati geografici ODbL</a></p>}
