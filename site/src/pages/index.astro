@@ -24,14 +24,14 @@ const cities = [...directory.localita]
       <div class="hero-copy">
         <p class="home-kicker"><span>Orologiai.it</span> · Una guida italiana</p>
         <h1>Il tempo ha<br /><em>i suoi maestri.</em></h1>
-        <p class="hero-intro">Scopri chi custodisce, ripara e tramanda il sapere dell’orologeria italiana. Una guida indipendente, dalle botteghe storiche ai laboratori di oggi.</p>
+        <p class="hero-intro">Trova orologerie e laboratori per riparare, revisionare o acquistare il tuo orologio. Cerca per città, servizio e marchio.</p>
 
       </div>
       <figure class="hero-visual">
         <img src="/images/editorial-movement-ai.webp" width="1130" height="586" alt="Illustrazione editoriale digitale di un movimento meccanico con ruote e pinzette" fetchpriority="high" /><figcaption>01 / LA MECCANICA DEL TEMPO · Illustrazione editoriale</figcaption>
       </figure>
       <div class="atlas-search-deck"><p class="atlas-search-kicker">01 / TROVA IL TUO SPECIALISTA</p>        <form id="cerca" class="home-search" action="/cerca/" method="get" role="search">
-          <SearchFields prefix="hero" compact />
+          <SearchFields prefix="hero" />
           <label class="hero-brand-filter" for="hero-brand">Marchio <span>(facoltativo)</span><select id="hero-brand" name="marca"><option value="">Tutti i marchi</option>{brandOptions.map(name => <option value={name}>{name}</option>)}</select></label>
           <button class="home-search-button" type="submit">Trova un orologiaio <span aria-hidden="true">↗</span></button>
         </form><div class="atlas-coverage">        <div class="hero-directory-stats" aria-label="Dimensione della guida">
@@ -115,4 +115,8 @@ const cities = [...directory.localita]
 .atlas-v4 .city-list a{border-radius:0;padding-block:22px}
 @media(max-width:950px){.atlas-v4 .atlas-search-deck .home-search{grid-template-columns:1fr 1fr}.atlas-v4 .atlas-search-deck .primary-search-fields{grid-column:1/-1}.atlas-v4 .atlas-search-deck .home-search-button{align-self:end}}
 @media(max-width:700px){.atlas-v4 .editorial-hero .hero-composition{grid-template-columns:1fr;gap:24px;padding-block:34px 22px}.atlas-v4 .editorial-hero h1{font-size:clamp(3rem,11.3vw,4.3rem);max-width:12ch}.atlas-v4 .hero-visual img{aspect-ratio:1.75}.atlas-v4 .hero-visual{order:3}.atlas-v4 .atlas-search-deck{padding:15px;order:2}.atlas-v4 .atlas-search-deck .home-search,.atlas-v4 .atlas-search-deck .primary-search-fields{display:grid;grid-template-columns:1fr;gap:8px}.atlas-v4 .atlas-search-deck .home-search-button{width:100%}.atlas-v4 .atlas-coverage{align-items:flex-start;flex-direction:column}.atlas-v4 .atlas-coverage .hero-directory-stats{gap:12px}.atlas-v4 .atlas-coverage .hero-directory-stats strong{font-size:1.4rem}.atlas-v4 .atlas-coverage .hero-directory-stats span{display:flex;flex-direction:column;gap:2px;font-size:.7rem}.atlas-v4 .featured-list{grid-template-columns:1fr;gap:18px}.atlas-v4 .featured-list .featured-story .featured-art{height:180px}.atlas-v4 .featured-list .featured-story .featured-copy{padding:20px}.atlas-v4 .editorial-path{min-height:160px}}
+</style>
+
+<style is:global>
+.atlas-v4 .atlas-search-deck .service-hint{grid-column:1/-1;margin:0;font-size:.73rem}.atlas-v4 .atlas-search-deck .primary-search-fields label{font-size:.78rem;font-weight:700}.atlas-v4 .atlas-search-deck .primary-search-fields select{font-size:1rem;border:1px solid #d7d7c9;padding:9px;background:#fffdf7;border-radius:4px}.atlas-v4 .atlas-search-deck .locality-picker input{border:1px solid #d7d7c9;padding:9px;border-radius:4px}.atlas-v4 .atlas-search-deck .home-search-button{align-self:center}
 </style>
