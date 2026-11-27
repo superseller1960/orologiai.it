@@ -2,6 +2,13 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { isUsableCoordinate, type Business } from '../site/src/lib/schema.ts';
 const review = JSON.parse(readFileSync('data/import/fase18-geocode-review.json','utf8')) as { nuove: {id:string;lat:number;lon:number;indirizzo:string}[] };
+// Explicitly reviewed official-source additions; never accept coordinates merely by status.
+export function isReviewedOfficialCoordinate(b: Business): boolean {
+ const c=b.posizione.coordinate;
+ return b.id==='bigalli' && b.localitaId==='firenze' && b.posizione.indirizzo==='Via Maso Finiguerra 4/A–4/B' && b.posizione.cap==='50123' &&
+ !!c && c.lat===43.774012595912 && c.lon===11.245216926754 && c.provenienza==='fonte-ufficiale' && c.stato==='verificata' && c.verificataIl==='2026-11-27' &&
+ c.fonti.includes('bigalli-geo-ufficiale-20261127') && !!c.indirizzoConfrontato?.includes(b.posizione.indirizzo);
+}
 // I lotti storici lasciavano coordinate assenti: Fase18 consente solo gli esatti punti
 // revisionati nel registro, non qualunque coordinata con un'etichetta di verifica.
 export function assertAbsentOrReviewedCoordinate(b: Business) {
@@ -9,6 +16,7 @@ export function assertAbsentOrReviewedCoordinate(b: Business) {
  // Fase 45: una geocodifica civico-per-civico verificata è ammessa quanto il registro Fase 18,
  // ma solo con provenienza, data, indirizzo confrontato e fonte OSM dedicata.
  const c = b.posizione.coordinate;
+ if (isReviewedOfficialCoordinate(b)) return;
  if (c.provenienza === 'geocodifica-osm' && c.stato === 'verificata' && c.verificataIl && c.indirizzoConfrontato && c.fonti.some(id => id.startsWith('f45-geo-') || id === 'f46-ciardi-geo')) return;
  const approved = review.nuove.find(p=>p.id===b.id);
  assert.ok(approved,`${b.id}: punto non presente nella revisione Fase18`);
