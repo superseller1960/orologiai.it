@@ -241,7 +241,7 @@ if (form && count && empty && list) {
     const uncovered = Boolean(city && !selected && !ambiguous);
     const filters = filtersFromParams(params);
     const q = (filters.q ?? '').trim();
-    const manual = Boolean(filters.localita || filters.regione || filters.provincia || filters.servizio || filters.marca || filters.ruoloMarca !== 'qualsiasi' || filters.tipo || filters.specializzazione || filters.stato);
+    const manual = Boolean(filters.localita || filters.regione || filters.provincia || filters.servizio || filters.marca || filters.ruoloMarca !== 'qualsiasi' || filters.tipo || filters.specializzazione || filters.stato || filters.soloDocumentate);
     let alternative = false;
     businesses = [];
     nonVerificate = new Set();
