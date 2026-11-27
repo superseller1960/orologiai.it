@@ -1,6 +1,6 @@
 // Fase 42: la ricerca usa l'indice compatto (soli campi di filtro e card), non il catalogo completo.
 import raw from '../../data/indice-ricerca.json';
-import { services, type Business, type Directory } from '../lib/schema';
+import { services, isUsableCoordinate, type Business, type Directory } from '../lib/schema';
 import { filtersFromParams, localityMatches, searchDirectory, searchDirectoryTiered, SERVIZI_GENERICI_PERTINENTI } from '../lib/search';
 import { featuredServices } from '../lib/business-presentation';
 import { motiviPerRichiesta, servizioSoloInterno } from '../lib/recommendations';
@@ -47,6 +47,12 @@ if (form && count && empty && list) {
   let criteriMotivo: Parameters<typeof motiviPerRichiesta>[2] = {};
   let businesses: Business[] = [], nonVerificate = new Set<string>(), shown = 12;
   let params = new URLSearchParams();
+  let position:{lat:number;lon:number}|null=null;
+  let geoRequest=0;
+  const near=document.querySelector<HTMLButtonElement>('#atlas-nearby');
+  const nearStatus=document.querySelector<HTMLElement>('#atlas-nearby-status');
+  function distance(b:Business):number|null {const p=b.posizione.coordinate;if(!position||!isUsableCoordinate(p))return null;const rad=Math.PI/180;const a=Math.sin((p.lat-position.lat)*rad/2)**2+Math.cos(position.lat*rad)*Math.cos(p.lat*rad)*Math.sin((p.lon-position.lon)*rad/2)**2;return 6371*2*Math.asin(Math.sqrt(Math.min(1,Math.max(0,a))));}
+  function orderByDistance(){if(!position)return;businesses.sort((a,b)=>(distance(a)??Infinity)-(distance(b)??Infinity));const n=businesses.filter(b=>distance(b)!==null).length;if(nearStatus)nearStatus.textContent=n?'Ordinamento in linea d’aria: '+n+' attività con coordinate verificate. Le altre rimangono in fondo, senza distanza stimata.':'Nessuna coordinata verificata per questi risultati. Consulta gli indirizzi.';}
   // L'interpretazione semantica pesa centinaia di KB: si carica solo per una richiesta libera
   // e non trattiene il primo render. La ricerca letterale resta il pavimento di funzionamento.
   let tokenSemantico = 0;
@@ -70,6 +76,7 @@ if (form && count && empty && list) {
       if (!ids.length || ids.join(',') === letterale) { context.textContent = ''; return; }
       const perId = new Map(data.attivita.map(b => [b.id, b]));
       businesses = ids.map(id => perId.get(id)!).filter(Boolean);
+      orderByDistance();
       const n = businesses.length;
       const soloAlternative = !esito.totale;
       heading.textContent = soloAlternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}`;
@@ -121,6 +128,7 @@ if (form && count && empty && list) {
       const card = cardDi(business);
       {
         card.hidden = false;
+        const distanceLabel=card.querySelector<HTMLElement>('.distance');if(distanceLabel){const km=distance(business);distanceLabel.hidden=km===null;distanceLabel.textContent=km===null?'':(km<1?Math.round(km*1000)+' m':km.toLocaleString('it-IT',{maximumFractionDigits:1})+' km')+' in linea d’aria';}
         card.dataset.proof = service.value ? (nonVerificate.has(business.id) ? 'da-verificare' : 'documentata') : '';
         const tags = card.querySelector('.tags');
         if (tags) {
@@ -238,6 +246,7 @@ if (form && count && empty && list) {
         void interpretaInDifferita(q);
       }
     }
+    orderByDistance();
     const n = businesses.length;
     const documentate = businesses.filter(b => !nonVerificate.has(b.id)).length;
     heading.textContent = ambiguous ? `Scegli il comune di ${city}` : uncovered ? `0 attività a ${city}` : alternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}${selected ? ' a ' + selected.comune : ''}`;
@@ -364,6 +373,7 @@ if (form && count && empty && list) {
     service.value = bisogno;
     update('push', true);
   });
+  if(near&&nearStatus&&typeof navigator!=='undefined'&&navigator.geolocation){near.hidden=false;near.addEventListener('click',()=>{const token=++geoRequest;nearStatus.hidden=false;if(position){position=null;near.setAttribute('aria-pressed','false');near.textContent='Usa la mia posizione';nearStatus.textContent='Ordinamento per distanza disattivato.';update('push');return;}near.disabled=true;nearStatus.textContent='Richiesta posizione al browser…';navigator.geolocation.getCurrentPosition(p=>{if(token!==geoRequest)return;near.disabled=false;position={lat:p.coords.latitude,lon:p.coords.longitude};near.setAttribute('aria-pressed','true');near.textContent='Disattiva vicinanza';update('push',true);},()=>{if(token!==geoRequest)return;near.disabled=false;nearStatus.textContent='Posizione non disponibile. Cerca per città o provincia.';},{enableHighAccuracy:false,timeout:10000,maximumAge:60000});});}
   load();
   if (location.search) revealResults();
 }
