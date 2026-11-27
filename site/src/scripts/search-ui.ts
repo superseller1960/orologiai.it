@@ -1,6 +1,6 @@
 // Fase 42: la ricerca usa l'indice compatto (soli campi di filtro e card), non il catalogo completo.
 import raw from '../../data/indice-ricerca.json';
-import { services, isUsableCoordinate, type Business, type Directory } from '../lib/schema';
+import { services, brandKey, isUsableCoordinate, type Business, type Directory } from '../lib/schema';
 import { filtersFromParams, localityMatches, searchDirectory, searchDirectoryTiered, SERVIZI_GENERICI_PERTINENTI } from '../lib/search';
 import { featuredServices } from '../lib/business-presentation';
 import { motiviPerRichiesta, servizioSoloInterno } from '../lib/recommendations';
@@ -102,7 +102,13 @@ if (form && count && empty && list) {
       if (control instanceof HTMLInputElement || control instanceof HTMLSelectElement) {
         const value = params.get(control.name);
         if (control instanceof HTMLInputElement && control.type === 'checkbox') control.checked = value === control.value;
-        else if (value !== null) control.value = value;
+        else if (value !== null) {
+          if (control instanceof HTMLSelectElement && control.name === 'marca') {
+            const match=Array.from(control.options).find(o=>o.value && brandKey(o.value)===brandKey(value));
+            control.value=match?.value ?? value;
+            if(!match && value){const option=document.createElement('option');option.value=value;option.textContent=value+' (non censito)';control.append(option);control.value=value;}
+          } else control.value = value;
+        }
       }
     }
     const place = data.localita.find(p => p.id === params.get('localita'));
@@ -217,6 +223,7 @@ if (form && count && empty && list) {
     return { exact, selected };
   }
   function update(mode: 'initial' | 'replace' | 'push' | 'draft' = 'replace', reveal = false) {
+    ++tokenSemantico; // Cancella interpretazioni asincrone quando cambiano i filtri.
     const { exact, selected } = syncGeography();
     params = new URLSearchParams();
     for (const [key, value] of new FormData(searchForm)) {
@@ -252,6 +259,7 @@ if (form && count && empty && list) {
     heading.textContent = ambiguous ? `Scegli il comune di ${city}` : uncovered ? `0 attività a ${city}` : alternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}${selected ? ' a ' + selected.comune : ''}`;
     context.textContent = [
       service.value ? services[service.value as keyof typeof services] : '',
+      filters.marca ? 'Marchio: '+filters.marca : '',
       nonVerificate.size ? `${documentate} con prova documentata · ${n - documentate} da verificare` : '',
       alternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : !city && !region.value && !province.value ? 'Ricerca in tutta Italia' : '',
     ].filter(Boolean).join(' · ');
@@ -302,9 +310,9 @@ if (form && count && empty && list) {
   }
   function maybeOfferWiderSearch(n: number, geoOnly: boolean, filters: ReturnType<typeof filtersFromParams>) {
     // L'ampliamento è sempre dichiarato: nessun risultato fuori territorio mescolato ai risultati esatti.
-    if (!geoOnly || n > 0 || !service.value) { widen.hidden = true; alternative.hidden = true; return; }
+    if (!geoOnly || n > 0 || (!service.value && !filters.marca)) { widen.hidden = true; alternative.hidden = true; return; }
     const altrove = searchDirectory(data, { ...filters, localita: '', regione: '', provincia: '' }).length;
-    const nome = services[service.value as keyof typeof services];
+    const nome = [service.value ? services[service.value as keyof typeof services] : '', filters.marca].filter(Boolean).join(' · ');
     alternative.textContent = altrove
       ? `«${nome}» compare in ${altrove} ${altrove === 1 ? 'attività' : 'attività'} in altre località. Puoi ampliare la ricerca: saranno risultati fuori dal territorio scelto, non corrispondenze nella località.`
       : `«${nome}» non risulta documentata nel database attuale: nessuna attività viene inventata o sostituita.`;
