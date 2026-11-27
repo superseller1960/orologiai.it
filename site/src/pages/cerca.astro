@@ -41,8 +41,8 @@ const PRIME_CARD = 60;
     </form>
     <noscript><p class="notice">I filtri richiedono JavaScript: l’elenco sotto non è filtrato. Consulta le <a href="/orologerie/">pagine per regione e comune</a> o le <a href="/servizi/riparazione/">pagine per servizio</a>.</p></noscript>
     <div id="active-filters" class="active-filters" aria-label="Filtri attivi"></div>
-    <section class="need-path" aria-labelledby="need-title">
-      <h2 id="need-title">Di cosa hai bisogno?</h2>
+    <details class="need-path atlas-need-path" aria-labelledby="need-title">
+      <summary id="need-title">Non sai quale servizio scegliere? <span>Ti aiutiamo a orientarti</span></summary>
       <p class="need-note">Ogni motivazione è una frase tratta dalla fonte citata nella scheda: {bilancio.confermate} associazioni servizio-attività verificate finora, aggiornate al {dataEvidenze}. Dove la fonte non è recuperabile lo diciamo, invece di dedurre la competenza.</p>
       <p class="small muted">Scegli una richiesta: applichiamo i filtri reali del catalogo. Nessuna attività viene inventata per riempire l’elenco.</p>
       <ul class="need-list">
@@ -56,7 +56,7 @@ const PRIME_CARD = 60;
         <li><button type="button" class="need-item" data-bisogno="assistenza-marca">Cerco assistenza per una marca</button></li>
       </ul>
       <p class="small muted need-disclaimer">Scegliere una richiesta applica il filtro del servizio pertinente: è un punto di partenza, non una diagnosi. Se il sintomo è incerto, descrivilo all’assistente più sotto.</p>
-    </section>
+    </details>
     <section class="results-panel" aria-labelledby="search-count">
       <h2 id="search-count" tabindex="-1" aria-live="polite">{directory.attivita.length} botteghe e laboratori da esplorare</h2>
       <p id="search-context" class="small muted"></p>
@@ -134,4 +134,8 @@ const PRIME_CARD = 60;
 .atlas-v4 .atlas-browse:has(#map-details[open]) #directory-map{height:clamp(350px,60vh,680px)}
 }
 @media(max-width:700px){.atlas-v4 .search-page .search-flow{padding:16px}.atlas-v4 .search-page>h1{font-size:2.7rem}}
+</style>
+
+<style is:global>
+.atlas-v4 .atlas-need-path{padding:0 16px;margin:12px 0 20px;background:#fffdf7;border:1px solid #d7d7c9;border-radius:6px}.atlas-v4 .atlas-need-path summary{padding:14px 0;min-height:48px;font-weight:700;cursor:pointer}.atlas-v4 .atlas-need-path summary span{font-size:.78rem;font-weight:400;color:#53675d;margin-left:8px}.atlas-v4 .atlas-need-path[open]{padding-bottom:16px}.atlas-v4 .atlas-need-path:not([open]){min-height:0}
 </style>
