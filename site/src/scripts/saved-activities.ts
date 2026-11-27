@@ -1,6 +1,6 @@
 import type { Directory } from '../lib/schema';
 const dialog=document.querySelector<HTMLDialogElement>('#atlas-favorites');
-const launch=document.querySelector<HTMLButtonElement>('[data-atlas-favorites]');
+const launches=Array.from(document.querySelectorAll<HTMLButtonElement>('[data-atlas-favorites]'));
 const list=dialog?.querySelector<HTMLElement>('[data-atlas-list]');
 const comparison=dialog?.querySelector<HTMLElement>('[data-atlas-comparison]');
 const notice=dialog?.querySelector<HTMLElement>('[data-atlas-notice]');
@@ -12,7 +12,7 @@ const selected=new Set<string>();
 const load=()=>Promise.all([import('../../data/indice-ricerca.json'),import('../lib/schema')]).then(([raw,schema])=>({data:raw.default as unknown as Directory,labels:schema.services as Record<string,string>}));
 const el=(tag:string,text?:string)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
 function sync(){
-  if(launch){launch.hidden=!ids.length&&!document.querySelector('.search-page,.profile-v3');launch.textContent='♡ Preferiti e confronto ('+ids.length+')';}
+  for(const launch of launches){launch.hidden=false;launch.textContent='♡ Preferiti ('+ids.length+')';}
   for(const b of document.querySelectorAll<HTMLButtonElement>('[data-save-id]')){const on=ids.includes(b.dataset.saveId??'');b.hidden=false;b.setAttribute('aria-pressed',String(on));b.textContent=on?'♥ Salvato':'♡ Salva';b.setAttribute('aria-label',on?'Rimuovi dai preferiti':'Salva nei preferiti');}
 }
 function decorate(){for(const card of document.querySelectorAll<HTMLElement>('[data-business-id]')){const actions=card.querySelector('.result-actions'),id=card.dataset.businessId;if(!actions||!id||actions.querySelector('[data-save-id]'))continue;const b=document.createElement('button');b.type='button';b.dataset.saveId=id;b.className='atlas-save';actions.append(b);}sync();}
@@ -34,7 +34,7 @@ async function render(){
 }
 compare?.addEventListener('click',async()=>{if(!comparison)return;try{const {data,labels}=await load();const grid=el('div');grid.className='atlas-compare-grid';for(const id of selected){const b=data.attivita.find(x=>x.id===id);if(!b)continue;const card=el('article');card.className='atlas-compare-card';const dl=el('dl');const place=data.localita.find(x=>x.id===b.localitaId);for(const [k,v] of [['Località',place?.comune??b.localitaId],['Indirizzo',b.posizione.indirizzo??'Non pubblicato'],['Servizi indicati',b.servizi.map(s=>labels[s.id]??s.id).join(', ')||'Non documentati'],['Assistenza ufficiale',b.marchi.assistenzaUfficiale.map(m=>m.marca).join(', ')||'Non documentata'],['Rivendita ufficiale',b.marchi.rivenditaUfficiale.map(m=>m.marca).join(', ')||'Non documentata'],['Telefono',b.contatti.telefono??'Non pubblicato']])dl.append(el('dt',k),el('dd',v));const link=document.createElement('a');link.href='/orologeria/'+b.slug+'/';link.textContent='Scheda e fonti →';card.append(el('h3',b.nome),dl,link);grid.append(card);}comparison.replaceChildren(el('h3','Confronto delle attività'),grid);}catch{comparison.textContent='Confronto non disponibile. Riprova.';}});
 document.addEventListener('click',event=>{const target=event.target;if(!(target instanceof Element))return;const b=target.closest<HTMLButtonElement>('[data-save-id],[data-remove-saved]');const id=b?.dataset.saveId??b?.dataset.removeSaved;if(!id||!/^[a-z0-9-]{1,180}$/.test(id))return;if(ids.includes(id)){ids=ids.filter(x=>x!==id);selected.delete(id);}else if(ids.length<100)ids.push(id);else return;persist();if(dialog?.open)void render();});
-launch?.addEventListener('click',()=>{if(dialog&&!dialog.open){dialog.showModal();void render();}});
+for(const launch of launches)launch.addEventListener('click',()=>{if(dialog&&!dialog.open){dialog.showModal();void render();}});
 dialog?.querySelector('[data-atlas-close]')?.addEventListener('click',()=>dialog.close());
 decorate();
 for(const root of document.querySelectorAll('#search-results,#search-related-list'))new MutationObserver(decorate).observe(root,{childList:true});
