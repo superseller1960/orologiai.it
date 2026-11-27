@@ -3,6 +3,13 @@
 import { readFileSync, writeFileSync } from "node:fs";
 
 const registro = JSON.parse(readFileSync("data/evidenze/servizi.json", "utf8"));
+// A shared quote cannot prove that a particular branch provides a service.
+const candidate = registro.evidenze.filter(e => e.stato === "confermata" && e.estratto);
+const ownerByQuote = new Map();
+const quoteKey = e => e.url+"::"+e.estratto.trim().replace(/\s+/g," ");
+for (const e of candidate) { const key=quoteKey(e); const ids=ownerByQuote.get(key)??new Set(); ids.add(e.attivitaId); ownerByQuote.set(key,ids); }
+const ambiguous = candidate.filter(e=>e.tipoFonte==="mirror-storico" || ownerByQuote.get(quoteKey(e))?.size>1);
+if(ambiguous.length) throw new Error("Evidenze non attribuite individualmente: "+ambiguous.map(e=>e.attivitaId+"/"+e.servizio).join(", "));
 const confermate = registro.evidenze
   .filter((e) => e.stato === "confermata" && e.estratto)
   .map((e) => ({
