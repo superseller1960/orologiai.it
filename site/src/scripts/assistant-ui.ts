@@ -306,6 +306,9 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       // I criteri dei soli nuovi messaggi, senza il contesto: servono al riepilogo e al ripiego.
       const nuovi = interpretaRichiesta(testo, data).criteri;
       const uniti = aggiornaCriteri(ultimiCriteri, interp.criteri, testo);
+      // L’allargamento esplicito non deve reintrodurre il territorio già ereditato dal server.
+      if(/\b(?:tutta italia|tutta l['’ ]italia|ovunque|tutte le regioni)\b/i.test(testo)){for(const k of ['localita','provincia','regione','localitaNonCensita','cap','bisognoPosizione','distanzaMaxKm'] as const)delete uniti[k];origine=undefined;}
+      if(nuovi.localita||nuovi.provincia||nuovi.regione||nuovi.localitaNonCensita){for(const k of ['localita','provincia','regione','localitaNonCensita','bisognoPosizione'] as const)if(nuovi[k]===undefined)delete uniti[k];origine=undefined;}
       // Se il contesto ereditato azzera i risultati ma la nuova richiesta da sola ne ha, si usano i soli criteri nuovi.
       // Il contesto precedente è dichiarato solo se esisteva già: al primo messaggio è vuoto.
       if(/\b(?:ricomincia|ripartiamo|nuova ricerca|azzera)\b/i.test(testo))nazionale=false;
@@ -344,7 +347,6 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
 
       if (esito.risultati.length) {
         risposta.append(listaRisultati(esito.risultati));
-        scorri();
       }
       if(!informativa && esito.stato==='nessun-criterio' && (criteri.servizio||criteri.marca) && !criteri.localita&&!criteri.provincia&&!criteri.regione&&!criteri.cap){risposta.append(chipLista([{testo:'Cerca in tutta Italia',azione:()=>{void invia('Cerca in tutta Italia');}}]));}
       if(!informativa&&esito.stato==='nessun-risultato'&&(criteri.localita||criteri.provincia||criteri.regione)){
@@ -371,12 +373,14 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         risposta.append(chipLista([{ testo: `Cerca «${services[servizio]}» con i filtri`, azione: () => { location.href = `/cerca/?${query.toString()}`; } }]));
       }
 
+      // Mostra l'inizio della risposta, non l'ultima scheda in fondo al pannello.
+      chat.scrollTop += risposta.getBoundingClientRect().top-chat.getBoundingClientRect().top-12;
       // Con zero corrispondenze esatte ma alternative mostrate, l'annuncio non deve dire «nessuna attività».
       annuncia(esito.totale > 0
         ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente trovata' : 'attività pertinenti trovate'}.`
         : esito.alternative.length
           ? `${esito.alternative.length} ${esito.alternative.length === 1 ? 'alternativa pertinente' : 'alternative pertinenti'}, nessuna corrispondenza esatta.`
-          : 'Nessuna attività trovata con questi criteri.');
+          : informativa ? 'Risposta dell’assistente disponibile.' : esito.stato==='nessun-criterio'||esito.stato==='serve-posizione' ? 'L’assistente richiede un dettaglio per continuare.' : 'Nessuna corrispondenza documentata.');
     } catch {
       caricamento.remove();
       const errore = messaggioAssistente(['Non sono riuscito a completare la ricerca: si è verificato un errore imprevisto. Puoi riprovare o usare la ricerca con i filtri.'], undefined, 'msg-errore');
