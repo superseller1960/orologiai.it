@@ -25,5 +25,14 @@ test('UX: scheda Ciardi conserva sezioni, fonti e link esatti',()=>{
  assert.ok(doc.querySelector('#fonti'));
  assert.ok(html.includes('destination=43.7722403%2C11.2505794'));
  assert.ok(html.includes('application/ld+json'));
- const home=readFileSync('dist/index.html','utf8');for(const marker of ['hero-brand','hero-directory-stats','home-quick-start','id="botteghe"'])assert.ok(home.includes(marker),marker);
+ const home=new JSDOM(readFileSync('dist/index.html','utf8')).window.document;
+ assert.ok(home.querySelector('form#cerca[method="get"][action="/cerca/"]'));
+ assert.ok(home.querySelector('#hero-brand'));
+ assert.ok(home.querySelector('.atlas-proofbar')?.textContent?.includes(String(directory.attivita.length)));
+ for(const href of ['/cerca/?servizio=riparazione','/cerca/?servizio=revisione','/cerca/?servizio=restauro-vintage','/cerca/?servizio=vendita','/orologerie/','/orologiaio/'])assert.ok(home.querySelector('a[href="'+href+'"]'),href);
+ assert.ok(home.querySelector('#botteghe a[href^="/orologeria/"]'));
+ assert.ok(doc.querySelector('.atlas-profile-at-a-glance'));
+ assert.ok(doc.querySelector('.atlas-about')?.textContent?.includes(directory.attivita.find(b=>b.id==='ciardi-firenze')!.descrizione));
+ assert.ok(doc.querySelector('.atlas-owner-panel'));
+ assert.equal(doc.querySelectorAll('#contatti-scheda').length,1);
 });
