@@ -1,6 +1,6 @@
 ---
 import type { Business } from '../lib/schema';
-import { services } from '../lib/schema';
+import { services, isUsableCoordinate } from '../lib/schema';
 import { businessUrl, placeOf } from '../lib/directory';
 import { editorialSummary, featuredServices, directionsUrl, laboratoryLabel } from '../lib/business-presentation';
 interface Props { business: Business; compact?: boolean; editorial?: boolean; }
@@ -31,5 +31,5 @@ const phone = b.contatti.telefono?.replace(/[^+\d]/g, '');
   <div class="tags" aria-label="Servizi principali">{featuredServices(b).map(s => <span class="tag">{services[s.id]}</span>)}</div>
   <p class="distance small" hidden></p>
   {role && <p class="small muted result-brand">{role}</p>}
-  <div class="result-actions"><a class="text-link" href={businessUrl(b)}>Visualizza la scheda <span aria-hidden="true">↗</span></a>{directions && <a href={directions} class="small" rel="noreferrer" aria-label={`Indicazioni per ${b.nome}`}>Indicazioni</a>}{b.contatti.telefono && <a href={`tel:${b.contatti.telefono.replace(/[^+\d]/g, '')}`} class="small" aria-label={`Chiama ${b.nome}`}>Chiama</a>}</div>
+  <div class="result-actions"><a class="text-link" href={businessUrl(b)}>Visualizza la scheda <span aria-hidden="true">↗</span></a>{directions && <a href={directions} class="small" rel="noreferrer" aria-label={`${isUsableCoordinate(b.posizione.coordinate) ? "Indicazioni" : "Cerca indirizzo"} per ${b.nome}`}>{isUsableCoordinate(b.posizione.coordinate) ? "Indicazioni" : "Cerca indirizzo"}</a>}{b.contatti.telefono && <a href={`tel:${b.contatti.telefono.replace(/[^+\d]/g, '')}`} class="small" aria-label={`Chiama ${b.nome}`}>Chiama</a>}</div>
 </li>}
