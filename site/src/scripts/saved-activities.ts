@@ -12,7 +12,7 @@ const selected=new Set<string>();
 const load=()=>Promise.all([import('../../data/indice-ricerca.json'),import('../lib/schema')]).then(([raw,schema])=>({data:raw.default as unknown as Directory,labels:schema.services as Record<string,string>}));
 const el=(tag:string,text?:string)=>{const n=document.createElement(tag);if(text)n.textContent=text;return n;};
 function sync(){
-  if(launch){launch.hidden=!ids.length&&!document.querySelector('.search-page,.profile-v3');launch.textContent='♡ Preferiti ('+ids.length+')';}
+  if(launch){launch.hidden=!ids.length&&!document.querySelector('.search-page,.profile-v3');launch.textContent='♡ Preferiti e confronto ('+ids.length+')';}
   for(const b of document.querySelectorAll<HTMLButtonElement>('[data-save-id]')){const on=ids.includes(b.dataset.saveId??'');b.hidden=false;b.setAttribute('aria-pressed',String(on));b.textContent=on?'♥ Salvato':'♡ Salva';b.setAttribute('aria-label',on?'Rimuovi dai preferiti':'Salva nei preferiti');}
 }
 function decorate(){for(const card of document.querySelectorAll<HTMLElement>('[data-business-id]')){const actions=card.querySelector('.result-actions'),id=card.dataset.businessId;if(!actions||!id||actions.querySelector('[data-save-id]'))continue;const b=document.createElement('button');b.type='button';b.dataset.saveId=id;b.className='atlas-save';actions.append(b);}sync();}
