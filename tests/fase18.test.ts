@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {isReviewedOfficialCoordinate} from './verified-coordinate.ts';
 import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -52,7 +53,8 @@ test('Geocodifica: civico, strada, comune, paese, CAP e scala edificio obbligato
  assert.equal(compareGeocode('Piazza Mazzini 3','Belluno','32100',valid).esito,'corrispondenza');
  for(const address of [{...valid.address,house_number:undefined},{...valid.address,town:'Roma'},{...valid.address,road:'Altra via'},{...valid.address,postcode:'32000'}])assert.equal(compareGeocode('Piazza Mazzini 3','Belluno','32100',{...valid,address}).esito,'incerta');
  assert.equal(compareGeocode('Piazza Mazzini 3','Belluno','32100',{...valid,boundingbox:['46','47','12','13']}).esito,'incerta');
- assert.equal(directory.attivita.filter(b=>isUsableCoordinate(b.posizione.coordinate)).length,84);
+ assert.equal(directory.attivita.filter(b=>isUsableCoordinate(b.posizione.coordinate)&&!isReviewedOfficialCoordinate(b)).length,84);
+ assert.equal(directory.attivita.filter(isReviewedOfficialCoordinate).length,1);
  for(const c of review.nuove){const p=get(c.id).posizione.coordinate;assert.ok(isUsableCoordinate(p));assert.equal(p.lat,c.lat);assert.equal(p.lon,c.lon);}
 });
 test('Botteghe vicine con identità e civici distinti non sono duplicati',()=>{
