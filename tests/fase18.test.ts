@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
@@ -61,7 +62,13 @@ test('Botteghe vicine con identità e civici distinti non sono duplicati',()=>{
 });
 test('Homepage protetta e 15 sospesi esclusi dal catalogo',()=>{
  const hashes=JSON.parse(readFileSync('data/staging/fase18-geocode/homepage-sha256-before.json','utf8')) as Record<string,string>;
- for(const [file,hash]of Object.entries(hashes))assert.equal(createHash('sha256').update(readFileSync(file)).digest('hex'),hash,file);
+ // La fase storica resta verificabile sul commit precedente al redesign autorizzato.
+ // Gli asset e il layout non interessati continuano a essere verificati sul tree corrente.
+ const redesigned = new Set(['site/src/pages/index.astro','site/src/styles/home.css']);
+ for(const [file,hash]of Object.entries(hashes)){
+  const bytes=redesigned.has(file)?execFileSync('git',['show',`a2e79ade4f881fa8db9e6da93911fca8aefd8ef8:${file}`],{maxBuffer:16*1024*1024}):readFileSync(file);
+  assert.equal(createHash('sha256').update(bytes).digest('hex'),hash,file);
+ }
  const suspended=JSON.parse(readFileSync('data/import/fase13-lotto5-20261028-reviewed.json','utf8')) as {candidati:{id:string}[]};
  assert.equal(suspended.candidati.length + (suspended as {promosse?:unknown[]}).promosse?.length!,15);for(const c of suspended.candidati)assert.ok(!directory.attivita.some(b=>b.id===c.id));
 });
