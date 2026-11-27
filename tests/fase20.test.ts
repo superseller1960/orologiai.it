@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {isReviewedOfficialCoordinate} from './verified-coordinate.ts';
 import {execFileSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -15,7 +16,7 @@ const get=(id:string)=>directory.attivita.find(b=>b.id===id)!;
 test('Fase20: tutte le 346 identità preservate, quattro sedi nuove senza duplicati',()=>{
  // Fase20 fissava 350 schede: i lotti successivi possono solo aggiungerne.
  assert.ok(directory.attivita.length>=350);assert.equal(report.nuove.length,4);assert.equal(report.arricchite.length,2);
- for(const b of baseline.attivita){const cur=get(b.id);assert.equal(cur.slug,b.slug);assert.equal(cur.localitaId,b.localitaId);const c=cur.posizione.coordinate;const arricchita=!b.posizione.coordinate&&c?.stato==='verificata'&&c.provenienza==='geocodifica-osm'&&c.fonti.some(id=>id.startsWith('f45-geo-'));if(!arricchita)assert.deepEqual(c,b.posizione.coordinate);}
+ for(const b of baseline.attivita){const cur=get(b.id);assert.equal(cur.slug,b.slug);assert.equal(cur.localitaId,b.localitaId);const c=cur.posizione.coordinate;const arricchita=!b.posizione.coordinate&&c?.stato==='verificata'&&c.provenienza==='geocodifica-osm'&&c.fonti.some(id=>id.startsWith('f45-geo-'));if(!arricchita && !(!b.posizione.coordinate && isReviewedOfficialCoordinate(cur)))assert.deepEqual(c,b.posizione.coordinate);}
  const ids=new Set(report.nuove.map(b=>b.id));
  assert.deepEqual(findDuplicates(directory).filter(d=>d.esito==='da-revisionare'&&(ids.has(d.primo)||ids.has(d.secondo))),[]);
  assert.equal(get('martines-agrigento-atenea').laboratorio?.tipo,'rete');
@@ -35,7 +36,8 @@ test('Torino manutenzione invariato; quattro città con soli marker pertinenti e
  // I lotti successivi possono aggiungere attività a Torino: le quattro storiche restano,
  // ma il totale non è più un numero fisso.
  assert.ok(searchDirectory(directory,{localita:'torino',servizio:'manutenzione'}).length>=4);
- assert.equal(directory.attivita.filter(b=>isUsableCoordinate(b.posizione.coordinate)).length,84);
+ assert.equal(directory.attivita.filter(b=>isUsableCoordinate(b.posizione.coordinate)&&!isReviewedOfficialCoordinate(b)).length,84);
+ assert.equal(directory.attivita.filter(isReviewedOfficialCoordinate).length,1);
  const points:MapPoint[]=directory.attivita.filter(b=>isUsableCoordinate(b.posizione.coordinate)).map(b=>({id:b.id,nome:b.nome,comune:b.localitaId,indirizzo:b.posizione.indirizzo,lat:b.posizione.coordinate!.lat,lon:b.posizione.coordinate!.lon,href:'/orologeria/'+b.slug+'/'}));
  for(const localita of ['belluno','torino','firenze','milano']){
   const ids=searchDirectory(directory,{localita,servizio:localita==='torino'?'manutenzione':'riparazione'}).map(r=>r.business.id);
