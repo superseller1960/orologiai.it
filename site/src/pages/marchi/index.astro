@@ -1,0 +1,18 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { brandIndex } from '../../lib/directory';
+---
+<Layout title="Atlante dei marchi di orologeria" description="Esplora tutti i marchi censiti nella guida: storia disponibile, assistenza, rivenditori e relazioni documentate.">
+<section class="edition-brand-index container section"><p class="eyebrow dark">OROLOGIAI / ATLANTE DEI MARCHI</p><h1>Il mondo delle maison.</h1><p class="edition-brand-intro">Scopri i marchi presenti nella guida e consulta le attività italiane che li trattano. Le autorizzazioni ufficiali sono distinte dalle altre relazioni.</p><div class="edition-brand-search"><label for="brand-index-query">Cerca un marchio</label><input id="brand-index-query" type="search" placeholder="Es. Rolex, Omega, IWC" autocomplete="off"/><p id="brand-index-count" role="status" aria-live="polite">{brandIndex.length} marchi censiti</p></div><ul class="edition-brand-index-list">{brandIndex.map(b=><li data-brand-key={b.key} data-brand-label={b.label}><a href={b.href}><div><h2>{b.label}</h2><p>{b.count} {b.count===1?'attività':'attività'} con relazioni censite</p></div><span aria-hidden="true">↗</span></a></li>)}</ul><p id="brand-index-empty" hidden>Nessun marchio corrisponde. Prova un'altra denominazione o <a href="/orologiaio/">chiedi all’Orologiaio</a>.</p></section>
+<script>
+import {brandKey} from '../../lib/schema';
+const input=document.querySelector<HTMLInputElement>('#brand-index-query');
+const list=Array.from(document.querySelectorAll<HTMLElement>('[data-brand-key]'));
+const count=document.getElementById('brand-index-count');
+const empty=document.getElementById('brand-index-empty');
+input?.addEventListener('input',()=>{const q=brandKey(input.value);let n=0;for(const item of list){item.hidden=Boolean(q&&!item.dataset.brandKey?.includes(q)&&!brandKey(item.dataset.brandLabel??'').includes(q));if(!item.hidden)n++;}if(count)count.textContent=n+' marchi corrispondenti';if(empty)empty.hidden=n!==0;});
+</script>
+</Layout>
+<style is:global>
+.edition-brand-index{max-width:1250px}.edition-brand-index h1{font-size:clamp(2.9rem,6vw,5.7rem);max-width:15ch;color:var(--ink)}.edition-brand-intro{max-width:64ch;color:var(--muted);font-size:1rem}.edition-brand-search{display:grid;gap:6px;padding:20px 0 24px;border-bottom:1px solid var(--line)}.edition-brand-search label{font-size:.85rem;font-weight:700}.edition-brand-search input{max-width:520px;width:100%;border:1px solid #b8afa3;background:var(--white);padding:13px;min-height:48px;border-radius:4px;color:var(--ink)}.edition-brand-search p{margin:0;font-size:.8rem;color:var(--muted)}.edition-brand-index-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 24px}.edition-brand-index-list li{border-bottom:1px solid var(--line);min-width:0}.edition-brand-index-list a{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;text-decoration:none;min-height:84px}.edition-brand-index-list h2{font:400 1.4rem/1.2 Georgia,serif;margin:0 0 6px;overflow-wrap:anywhere;color:var(--ink)}.edition-brand-index-list p{font-size:.75rem;margin:0;color:var(--muted)}.edition-brand-index-list a:hover h2{color:#792e32}.edition-brand-index-list a>span{color:#792e32}.edition-all-brands{display:inline-block;margin-top:18px;font-weight:700;color:#792e32;text-underline-offset:4px}@media(max-width:800px){.edition-brand-index-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 14px}.edition-brand-index-list h2{font-size:1.15rem}}@media(max-width:370px){.edition-brand-index-list{grid-template-columns:1fr}}
+</style>
