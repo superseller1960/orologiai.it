@@ -84,3 +84,14 @@
   .page-hero.compact h1{font-size:clamp(1.9rem,7vw,2.5rem);margin-bottom:8px}
   .page-hero.compact .lead{font-size:.92rem;line-height:1.6;margin-bottom:0}
 }
+
+/* Mobile reading: cards retain the full chat width; the first reply remains visible. */
+.chat-log{min-width:0;scroll-behavior:auto;scroll-padding-block:12px}
+.msg-bot:has(.chat-results){width:100%;max-width:100%;padding:12px}
+.chat-result{min-width:0;overflow-wrap:anywhere}
+.chat-result-link{display:inline-flex;align-items:center;min-height:44px;padding:8px 12px;background:var(--green);color:#fff;border-radius:4px;text-decoration:none}
+.chat-result-link:hover{filter:brightness(1.1)}
+.composer textarea{font-size:16px}
+.chat .chip{border-color:#b8afa3}.chat .chip:hover{background:#eee8df}
+@media(max-width:700px){.chat-section{width:calc(100% - 20px);padding-block:16px 24px}.chat{border-radius:12px}.chat-top{padding:12px}.chat-log{padding:10px;max-height:min(55dvh,540px);min-height:180px;gap:10px}.msg{padding:11px;font-size:.9rem;line-height:1.5}.msg-bot:has(.chat-results){padding:9px}.chat-result{padding:11px}.chat-result h3{font-size:1.12rem}.chat-note{font-size:.75rem}.composer-meta{font-size:.68rem}.composer-send{min-width:48px}.chat-badge{white-space:normal;max-width:45%;text-align:center}.chat-top>div{min-width:0}}
+@media(max-width:360px){.chat-top{gap:8px}.chat-kicker{font-size:.61rem}.chat-badge{font-size:.61rem;padding:5px 7px}}
