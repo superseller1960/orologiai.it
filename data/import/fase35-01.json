@@ -1,0 +1,914 @@
+{
+  "lotto": "fase35-01",
+  "data": "2026-11-04",
+  "fonti": [
+    {
+      "id": "f35-tomasco-gioielli-potenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://tomascogioielli.it/",
+      "titolo": "Tomasco Gioielli & Figli — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «TOMASCO, DA SEMPRE L’OROLOGERIA A POTENZA»; «Siamo da sempre riferimento per i migliori orologi a Potenza»; «OROLOGERIA — Il nostro team guidato da passione e competenza è a vostra disposizione per aiutarvi a scegliere il segnatempo più adatto ad ogni esigenza»; descrizione della pagina «Tomasco Gioielli di Tomasco Angelo e Figli situato a Potenza, fa parte della rete globale di rivenditori autorizzati alla vendita e alla manutenzione di orologi Rolex»; contatti «TOMASCO ANGELO & FIGLI — Via Pretoria 186, Potenza — Tel. +39 0971 22820»."
+    },
+    {
+      "id": "f35-orologeria-tempus-campobasso",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriatempus.com/",
+      "titolo": "Orologeria Tempus — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «OROLOGERIA TEMPUS — Da oltre 20 anni nel settore degli orologi di lusso, sia vintage che contemporanei. Orologeria Tempus è sinonimo di massima qualità al prezzo di mercato più vantaggioso. Ci troviamo a Campobasso con un negozio aperto al pubblico»; voci di servizio «VENDI IL TUO OROLOGIO», «ACQUISTA OROLOGIO», «PROPOSTA DI ACQUISTO», catalogo di orologi nuovi e usati; pagina contatti «TEMPUS OROLOGERIA — Corso Mazzini 16, 86100 Campobasso (CB) — tel. 0874 63932»."
+    },
+    {
+      "id": "f35-gioielleria-pizzuto-termoli",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriapizzuto.it/",
+      "titolo": "Gioielleria Pizzuto — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «La Gioielleria Pizzuto è nata nel 1950 e da allora propone gioielli e orologi di grande prestigio»; «Che si tratti di diamanti o altre pietre preziose, di perle o di orologi da collezione, noi ci occupiamo di selezionare gli esemplari più esclusivi e originali»; sezione «Orologi»; contatti «Corso Nazionale, 63, 86039 Termoli CB», «Telefono: +39 0875 706810»."
+    },
+    {
+      "id": "f35-gioielleria-italiano-cittanova",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaitaliano.com/",
+      "titolo": "Gioielleria Italiano — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Da oltre cinquant’anni, Gioielleria Italiano seleziona gioielli, orologi e creazioni d’eccellenza»; «Nella nostra boutique convivono le più prestigiose firme della gioielleria e dell’orologeria internazionale»; FAQ «Fornite servizi di riparazione per gioielli e orologi? Sì, effettuiamo riparazioni su gioielli e orologi»; contatti «GIOIELLERIA ITALIANO — Corso Italia, 57 — 89022, Cittanova (RC)», «Telefono: +39 0966 660 004»."
+    },
+    {
+      "id": "f35-oreficeria-pittaluga-sant-olcese",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.pittalugaoreficeria.it/",
+      "titolo": "Oreficeria Pittaluga — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Siamo orgogliosi di offrire un servizio specializzato e meticoloso per restaurare e riportare in vita opere d’arte orologiche»; «I nostri esperti orologiai sono dotati delle competenze e delle conoscenze necessarie per affrontare sfide uniche legate alla riparazione di orologi d’epoca»; descrizione della pagina «L’Oreficeria Pittaluga a Genova si occupa della vendita di argenteria e orologeria e riparazioni di pendoli ed orologi antichi»; contatti «Via G. Poirè 79, 16010 Sant’Olcese, Genova», «010 711327»."
+    },
+    {
+      "id": "f35-angelo-sala-gioielli-sondrio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.angelosalagioielli.it/orologi/",
+      "titolo": "Angelo Sala Gioielli — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Angelo Sala Gioielli, laboratorio di gioielleria oreficeria con sede a Sondrio, si occupa della riparazione di tutti gli orologi, da polso o da parete, anche di quelli composti dai meccanismi più delicati»; «Angelo Sala Gioielli, con sede a Sondrio in Via Beccaria 13, è anche un laboratorio di orologeria altamente qualificato che si occupa delle riparazione, della manutenzione e del restauro conservativo dei vostri orologi»; «il laboratorio di orologeria si occupa anche della sostituzione del vetro e del cinturino usurato»."
+    },
+    {
+      "id": "f35-tempo-e-gioia-milano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempoegioia.com/",
+      "titolo": "Tempo e Gioia — pagina ufficiale",
+      "consultataIl": "2026-11-04",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Nel nostro laboratorio di orologeria a Milano offriamo un servizio completo di riparazione, manutenzione e revisione di orologi»; «Il laboratorio di Tempo e Gioia si trova all’interno del nostro negozio»; «Revisione completa di orologi meccanici e automatici — Riparazione di movimenti al quarzo — Sostituzione batterie con controllo funzionale — Lucidatura e ripristino casse e bracciali — Regolazione di precisione — Sostituzione vetri, corone»; contatti «Piazza Melozzo da Forlì, 11 (angolo via Millelire) 20148 Milano», «0249759257»."
+    }
+  ],
+  "localita": [
+    {
+      "id": "cittanova",
+      "comune": "Cittanova",
+      "comuneSlug": "cittanova",
+      "provincia": "Reggio Calabria",
+      "provinciaSlug": "reggio-calabria",
+      "siglaProvincia": "RC",
+      "regione": "Calabria",
+      "regioneSlug": "calabria",
+      "codiceIstat": "080028",
+      "descrizione": "Cittanova: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f35-gioielleria-italiano-cittanova"
+      ]
+    },
+    {
+      "id": "santolcese",
+      "comune": "Sant'Olcese",
+      "comuneSlug": "santolcese",
+      "provincia": "Genova",
+      "provinciaSlug": "genova",
+      "siglaProvincia": "GE",
+      "regione": "Liguria",
+      "regioneSlug": "liguria",
+      "codiceIstat": "010055",
+      "descrizione": "Sant'Olcese: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f35-oreficeria-pittaluga-sant-olcese"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "tomasco-gioielli-potenza",
+      "nome": "Tomasco Gioielli & Figli",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo e telefono del punto vendita riscontrati nel blocco contatti; vendita di orologi, assistenza e manutenzione dichiarate. Il sito si presenta come rivenditore autorizzato Rolex e Tudor, ma senza fonte del marchio l’autorizzazione non è registrata nei campi dedicati. Nessun laboratorio interno attribuito.",
+      "fonti": [
+        "f35-tomasco-gioielli-potenza"
+      ],
+      "attivita": {
+        "id": "tomasco-gioielli-potenza",
+        "slug": "tomasco-gioielli-potenza",
+        "nome": "Tomasco Gioielli & Figli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria e orologeria di Potenza attiva dagli anni Settanta: vendita di orologi, assistenza e manutenzione dei segnatempo, accanto all’assortimento di gioielleria.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "potenza",
+        "posizione": {
+          "indirizzo": "Via Pretoria 186",
+          "cap": "85100",
+          "coordinate": null,
+          "fonti": [
+            "f35-tomasco-gioielli-potenza"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0971 22820",
+          "email": null,
+          "sito": "https://tomascogioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-tomasco-gioielli-potenza"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-tomasco-gioielli-potenza"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f35-tomasco-gioielli-potenza"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f35-tomasco-gioielli-potenza"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-tomasco-gioielli-potenza"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-tomasco-gioielli-potenza"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "tomasco-gioielli-potenza"
+        }
+      }
+    },
+    {
+      "id": "orologeria-tempus-campobasso",
+      "nome": "Orologeria Tempus",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati nella pagina contatti; vendita, compravendita, valutazione e assistenza documentate dalle sezioni del sito. Nessun servizio di riparazione attribuito: la pagina non lo dichiara.",
+      "fonti": [
+        "f35-orologeria-tempus-campobasso"
+      ],
+      "attivita": {
+        "id": "orologeria-tempus-campobasso",
+        "slug": "orologeria-tempus-campobasso",
+        "nome": "Orologeria Tempus",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di Campobasso specializzata da oltre vent’anni in orologi di lusso vintage e contemporanei: vendita di orologi nuovi e usati, proposte di acquisto, valutazione dell’usato e assistenza alla clientela.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "campobasso",
+        "posizione": {
+          "indirizzo": "Corso Mazzini 16",
+          "cap": "86100",
+          "coordinate": null,
+          "fonti": [
+            "f35-orologeria-tempus-campobasso"
+          ]
+        },
+        "contatti": {
+          "telefono": "0874 63932",
+          "email": null,
+          "sito": "https://www.orologeriatempus.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-orologeria-tempus-campobasso"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-orologeria-tempus-campobasso"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "f35-orologeria-tempus-campobasso"
+            ]
+          },
+          {
+            "id": "acquisto-permuta",
+            "fonti": [
+              "f35-orologeria-tempus-campobasso"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f35-orologeria-tempus-campobasso"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f35-orologeria-tempus-campobasso"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-orologeria-tempus-campobasso"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-orologeria-tempus-campobasso"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "orologeria-tempus-campobasso"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-pizzuto-termoli",
+      "nome": "Gioielleria Pizzuto",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP, telefono ed email riscontrati nel blocco contatti; vendita di orologi di prestigio e da collezione documentata. Nessuna riparazione attribuita. Le coordinate pubblicate dal sito sono palesemente errate (ricadono fuori dall’Italia): non sono state importate.",
+      "fonti": [
+        "f35-gioielleria-pizzuto-termoli"
+      ],
+      "attivita": {
+        "id": "gioielleria-pizzuto-termoli",
+        "slug": "gioielleria-pizzuto-termoli",
+        "nome": "Gioielleria Pizzuto",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Termoli attiva dal 1950, con una selezione dedicata agli orologi di prestigio e da collezione accanto a gioielli, pietre preziose e perle.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "termoli",
+        "posizione": {
+          "indirizzo": "Corso Nazionale 63",
+          "cap": "86039",
+          "coordinate": null,
+          "fonti": [
+            "f35-gioielleria-pizzuto-termoli"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0875 706810",
+          "email": "pizzutofrancesco@hotmail.com",
+          "sito": "https://www.gioielleriapizzuto.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-gioielleria-pizzuto-termoli"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-gioielleria-pizzuto-termoli"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "f35-gioielleria-pizzuto-termoli"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-gioielleria-pizzuto-termoli"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-gioielleria-pizzuto-termoli"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "gioielleria-pizzuto-termoli"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-italiano-cittanova",
+      "nome": "Gioielleria Italiano",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP, telefono ed email riscontrati; orologeria in vendita e riparazione di orologi dichiarata nelle FAQ della pagina contatti.",
+      "fonti": [
+        "f35-gioielleria-italiano-cittanova"
+      ],
+      "attivita": {
+        "id": "gioielleria-italiano-cittanova",
+        "slug": "gioielleria-italiano-cittanova",
+        "nome": "Gioielleria Italiano",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Cittanova attiva dal 1968, con una sezione di orologeria e un servizio di riparazione di orologi e gioielli.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cittanova",
+        "posizione": {
+          "indirizzo": "Corso Italia 57",
+          "cap": "89022",
+          "coordinate": null,
+          "fonti": [
+            "f35-gioielleria-italiano-cittanova"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0966 660004",
+          "email": "info@gioielleriaitaliano.com",
+          "sito": "https://www.gioielleriaitaliano.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-gioielleria-italiano-cittanova"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-gioielleria-italiano-cittanova"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f35-gioielleria-italiano-cittanova"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-gioielleria-italiano-cittanova"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-gioielleria-italiano-cittanova"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "gioielleria-italiano-cittanova"
+        }
+      }
+    },
+    {
+      "id": "oreficeria-pittaluga-sant-olcese",
+      "nome": "Oreficeria Pittaluga",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP, telefono ed email riscontrati nel paragrafo dei contatti; riparazione di pendole e orologi antichi e vendita di orologeria dichiarate. Il CAP 16010 è quello pubblicato dalla pagina per Sant’Olcese.",
+      "fonti": [
+        "f35-oreficeria-pittaluga-sant-olcese"
+      ],
+      "attivita": {
+        "id": "oreficeria-pittaluga-sant-olcese",
+        "slug": "oreficeria-pittaluga-sant-olcese",
+        "nome": "Oreficeria Pittaluga",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Oreficeria e orologeria di Sant’Olcese, nell’entroterra genovese, specializzata nella riparazione di pendole e orologi antichi, con vendita di argenteria e orologeria.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "santolcese",
+        "posizione": {
+          "indirizzo": "Via G. Poirè 79",
+          "cap": "16010",
+          "coordinate": null,
+          "fonti": [
+            "f35-oreficeria-pittaluga-sant-olcese"
+          ]
+        },
+        "contatti": {
+          "telefono": "010 711327",
+          "email": "elena.pitt1979@gmail.com",
+          "sito": "https://www.pittalugaoreficeria.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-oreficeria-pittaluga-sant-olcese"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f35-oreficeria-pittaluga-sant-olcese"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f35-oreficeria-pittaluga-sant-olcese"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f35-oreficeria-pittaluga-sant-olcese"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-oreficeria-pittaluga-sant-olcese"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-oreficeria-pittaluga-sant-olcese"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-oreficeria-pittaluga-sant-olcese"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "oreficeria-pittaluga-sant-olcese"
+        }
+      }
+    },
+    {
+      "id": "angelo-sala-gioielli-sondrio",
+      "nome": "Angelo Sala Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo con civico riscontrato nel testo; riparazione, manutenzione, restauro, batterie, vetri e cinturini dichiarati, con laboratorio di orologeria dichiarato. CAP e telefono non compaiono nella pagina letta e restano vuoti.",
+      "fonti": [
+        "f35-angelo-sala-gioielli-sondrio"
+      ],
+      "attivita": {
+        "id": "angelo-sala-gioielli-sondrio",
+        "slug": "angelo-sala-gioielli-sondrio",
+        "nome": "Angelo Sala Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria con laboratorio di orologeria a Sondrio: riparazione e manutenzione di orologi da polso e da parete, restauro conservativo, sostituzione di batterie, vetri e cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "sondrio",
+        "posizione": {
+          "indirizzo": "Via Beccaria 13",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f35-angelo-sala-gioielli-sondrio"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.angelosalagioielli.it/orologi/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-angelo-sala-gioielli-sondrio"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio di orologeria che si occupa della riparazione, manutenzione e restauro conservativo degli orologi, con sostituzione di vetri e cinturini e pulitura completa.",
+          "fonti": [
+            "f35-angelo-sala-gioielli-sondrio"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-angelo-sala-gioielli-sondrio"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-angelo-sala-gioielli-sondrio"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-angelo-sala-gioielli-sondrio"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "angelo-sala-gioielli-sondrio"
+        }
+      }
+    },
+    {
+      "id": "tempo-e-gioia-milano",
+      "nome": "Tempo e Gioia",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP, telefono ed email riscontrati nella pagina contatti; servizi di laboratorio elencati e laboratorio interno dichiarato. La ragione sociale Nizzi Preziosi Srl compare solo nel footer e non è usata come nome dell’attività.",
+      "fonti": [
+        "f35-tempo-e-gioia-milano"
+      ],
+      "attivita": {
+        "id": "tempo-e-gioia-milano",
+        "slug": "tempo-e-gioia-milano",
+        "nome": "Tempo e Gioia",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di Milano con laboratorio interno: riparazione, revisione e manutenzione di orologi moderni e vintage, sostituzione di batterie, vetri e corone, lucidatura di casse e bracciali, accanto alla vendita.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Piazza Melozzo da Forlì 11",
+          "cap": "20148",
+          "coordinate": null,
+          "fonti": [
+            "f35-tempo-e-gioia-milano"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 49759257",
+          "email": "info@tempoegioia.com",
+          "sito": "https://www.tempoegioia.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f35-tempo-e-gioia-milano"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio interno al negozio, con orologiai qualificati: revisione completa di orologi meccanici e automatici, riparazione di movimenti al quarzo, lucidatura e ripristino di casse e bracciali.",
+          "fonti": [
+            "f35-tempo-e-gioia-milano"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f35-tempo-e-gioia-milano"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-04",
+          "verificataIl": "2026-11-04",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f35-tempo-e-gioia-milano"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-04",
+              "azione": "Verifica della pagina ufficiale: sede, recapiti e servizi trascritti dal testo pubblicato, senza estensioni.",
+              "fonti": [
+                "f35-tempo-e-gioia-milano"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase35-01",
+          "idOriginale": "tempo-e-gioia-milano"
+        }
+      }
+    }
+  ]
+}

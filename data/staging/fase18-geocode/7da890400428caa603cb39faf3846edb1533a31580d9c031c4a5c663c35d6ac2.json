@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mameli%2C+9%2C+Olbia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81244635,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4270028215,
+      "lat": "40.9225846",
+      "lon": "9.4966978",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00003500190737769158,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "9, Via Goffredo Mameli, Quartiere Centro, Olbia, Gallura Nord-Est Sardegna, Sardegna, 07026, Italia",
+      "address": {
+        "house_number": "9",
+        "road": "Via Goffredo Mameli",
+        "quarter": "Quartiere Centro",
+        "town": "Olbia",
+        "county": "Gallura Nord-Est Sardegna",
+        "ISO3166-2-lvl6": "IT-OT",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "07026",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.9225346",
+        "40.9226346",
+        "9.4966478",
+        "9.4967478"
+      ]
+    }
+  ]
+}

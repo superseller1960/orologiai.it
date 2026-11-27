@@ -1,0 +1,41 @@
+{
+  "descrizione": "Redirect 301 dei percorsi territoriali cambiati nella Fase 28. Sorgente unica per worker Pages, pacchettizzazione e test.",
+  "regole": [
+    {
+      "da": "/orologerie/sardegna/olbia-tempio/",
+      "a": "/orologerie/sardegna/",
+      "soloEsatto": true,
+      "motivo": "La provincia Olbia-Tempio è soppressa e il sito non genera pagine provinciali: il vecchio percorso nudo porta alla pagina regionale. I percorsi comunali restano gestiti dalla regola di prefisso successiva."
+    },
+    {
+      "da": "/orologerie/sardegna/olbia-tempio/",
+      "a": "/orologerie/sardegna/gallura-nord-est-sardegna/",
+      "motivo": "La provincia Olbia-Tempio è soppressa: dal 1° gennaio 2026 ISTAT usa Gallura Nord-Est Sardegna (OT). Vale per i percorsi comunali, che restano raggiungibili."
+    },
+    {
+      "da": "/orologerie/sardegna/sud-sardegna/iglesias/",
+      "a": "/orologerie/sardegna/sulcis-iglesiente/iglesias/",
+      "motivo": "La provincia Sud Sardegna è soppressa: Iglesias appartiene al Sulcis Iglesiente (SU)."
+    },
+    {
+      "da": "/orologerie/sardegna/sud-sardegna/villacidro/",
+      "a": "/orologerie/sardegna/medio-campidano/villacidro/",
+      "motivo": "La provincia Sud Sardegna è soppressa: Villacidro appartiene al Medio Campidano (VS)."
+    },
+    {
+      "da": "/orologerie/marche/macerata/porto-potenza-picena/",
+      "a": "/orologerie/marche/macerata/potenza-picena/",
+      "motivo": "Porto Potenza Picena è una frazione di Potenza Picena: la pagina territoriale è quella del comune."
+    },
+    {
+      "da": "/orologerie/sardegna/nuoro/orosei/",
+      "a": "/orologerie/sardegna/",
+      "motivo": "Orosei non ha più attività pubblicate: la scheda archiviata non era un'orologeria. La destinazione è la pagina regionale, l'unico livello territoriale pubblicato per la Sardegna con questa copertura."
+    },
+    {
+      "da": "/orologerie/lombardia/monza-e-brianza/besana-in-brianza/",
+      "a": "/orologerie/lombardia/monza-e-della-brianza/besana-in-brianza/",
+      "motivo": "La provincia MB usa un unico slug canonico, monza-e-della-brianza: il vecchio percorso di Besana in Brianza resta raggiungibile con 301."
+    }
+  ]
+}

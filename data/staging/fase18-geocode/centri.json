@@ -1,0 +1,30 @@
+{
+  "belluno": {
+    "nome": "Belluno",
+    "lat": 46.1375185,
+    "lon": 12.2181711,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Belluno&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "firenze": {
+    "nome": "Firenze",
+    "lat": 43.7697955,
+    "lon": 11.2556404,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Firenze&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "roma": {
+    "nome": "Roma",
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Roma&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "milano": {
+    "nome": "Milano",
+    "lat": 45.4641943,
+    "lon": 9.1896346,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Milano&featureType=city",
+    "verificataIl": "2026-10-31"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+18%2C+Lodi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76259784,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 331352949,
+      "lat": "45.3108197",
+      "lon": "9.5057572",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339771038376437,
+      "addresstype": "residential",
+      "name": "Corso Roma",
+      "display_name": "Corso Roma, Serravalle, Selvagreca, Revellino, Lodi, Lombardia, 26900, Italia",
+      "address": {
+        "road": "Corso Roma",
+        "neighbourhood": "Serravalle",
+        "quarter": "Selvagreca",
+        "suburb": "Revellino",
+        "city": "Lodi",
+        "county": "Lodi",
+        "ISO3166-2-lvl6": "IT-LO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "26900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3101566",
+        "45.3115180",
+        "9.5051289",
+        "9.5064234"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2468 @@
+{
+  "fase": "fase25",
+  "data": "2026-11-02",
+  "totale": 42,
+  "perCitta": {
+    "Milano": 5,
+    "Venezia": 2,
+    "Firenze": 6,
+    "Roma": 13,
+    "Napoli": 3,
+    "Torino": 13
+  },
+  "candidati": [
+    {
+      "id": "atelier-orologiaio-di-gsp-srl-milan",
+      "nome": "Atelier Orologiaio di GSP S.r.l.",
+      "comune": "Milano",
+      "indirizzo": "Via Cesare Correnti, 3, 20123 Milano MI, Italy",
+      "cap": null,
+      "telefono": "+39 02 836 1732",
+      "sito": "https://chronoever.com/it/it/shops/atelier-orologiaio-di-gsp-srl-milan",
+      "localitaId": "milano",
+      "provincia": "MI",
+      "regione": "Lombardia",
+      "chronoever": "https://chronoever.com/it/it/shops/atelier-orologiaio-di-gsp-srl-milan",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Milano",
+        "Atelier Orologiaio di GSP S.r.l."
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.orologiaio.it/",
+      "altriLink": [
+        "http://www.orologiaio.it/",
+        "https://maps.google.com/?q=45.459978,9.180783"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«HAI UN OROLOGIO DA RIPARARE?.»; «Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica..»; «Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "HAI UN OROLOGIO DA RIPARARE?."
+        },
+        {
+          "id": "revisione",
+          "frase": "Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica.."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "bottega-d-oro-venezia-venice",
+      "nome": "Bottega D' oro Venezia",
+      "comune": "Venezia",
+      "indirizzo": "Via Cesare Rossarol, 23, 30175 Venezia VE, Italy",
+      "cap": null,
+      "telefono": "+39 041 923904",
+      "sito": "https://chronoever.com/it/it/shops/bottega-d-oro-venezia-venice",
+      "localitaId": "venezia",
+      "provincia": "VE",
+      "regione": "Veneto",
+      "chronoever": "https://chronoever.com/it/it/shops/bottega-d-oro-venezia-venice",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Venezia",
+        "Bottega D' oro Venezia"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.bottegadoro.com/",
+      "altriLink": [
+        "http://www.bottegadoro.com/",
+        "https://maps.google.com/?q=45.475474899999995,12.225927299999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "cinturini"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«RIPARAZIONI GIOIELLERIA E OROLOGERIA .»; «Nel nostro ultimo articolo del blog, esploriamo il magico mondo degli orologi a pendolo e presentiamo il nostro servizio di riparazione dedicato.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "RIPARAZIONI GIOIELLERIA E OROLOGERIA ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "CERCHI UN OROLOGIO VINTAGE?"
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Nel nostro ultimo articolo del blog, esploriamo il magico mondo degli orologi a pendolo e presentiamo il nostro servizio di riparazione dedicato."
+        },
+        {
+          "id": "batterie",
+          "frase": "Riparazioni Veloci e Servizio cambio Batterie al Momento!."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Bracciale in Oro Bianco 18kt con Charm Pendenti ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "boutique-cassetti-gioielleria-orologeria-florence",
+      "nome": "Boutique Cassetti Gioielleria Orologeria",
+      "comune": "Firenze",
+      "indirizzo": "Ponte Vecchio, 54R, 50125 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 055 287361",
+      "sito": "https://chronoever.com/it/it/shops/boutique-cassetti-gioielleria-orologeria-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/boutique-cassetti-gioielleria-orologeria-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Boutique Cassetti Gioielleria Orologeria"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: manutenzione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.cassetti.it/",
+      "altriLink": [
+        "https://www.cassetti.it/",
+        "https://maps.google.com/?q=43.767703999999995,11.252874499999999"
+      ],
+      "servizi": [
+        "manutenzione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«Nel cuore di Cassetti, il nostro Laboratorio di Eccellenza rappresenta un punto di riferimento per la cura e la manutenzione degli orologi di alta gamma.»",
+      "frasi": [
+        {
+          "id": "manutenzione",
+          "frase": "Nel cuore di Cassetti, il nostro Laboratorio di Eccellenza rappresenta un punto di riferimento per la cura e la manutenzione degli orologi di alta gamma."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "1983: Il negozio Vintage a Ponte Vecchio ."
+        }
+      ],
+      "sede": "parziale",
+      "laboratorioEvidenza": "«Nel cuore di Cassetti, il nostro Laboratorio di Eccellenza rappresenta un punto di riferimento per la cura e la manutenzione degli orologi di alta gamma.»"
+    },
+    {
+      "id": "chronoservice24-rome",
+      "nome": "Chronoservice24",
+      "comune": "Roma",
+      "indirizzo": "Lungotevere dei Mellini, 37/38, 00193 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 1641 69709",
+      "sito": "https://chronoever.com/it/it/shops/chronoservice24-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/chronoservice24-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Chronoservice24"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.chronoservice24.com/",
+      "altriLink": [
+        "http://www.chronoservice24.com/",
+        "https://maps.google.com/?q=41.907589699999996,12.4727461"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "impermeabilizzazione",
+        "lucidatura"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»; «CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»; «CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "la riparazione o sostituzione gratuita ;."
+        },
+        {
+          "id": "revisione",
+          "frase": "CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  ."
+        },
+        {
+          "id": "assistenza",
+          "frase": "CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  ."
+        },
+        {
+          "id": "batterie",
+          "frase": "Compila questo modulo e lo cercheremo per te senza impegno da parte tua.."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "La lavorazione è identica alla produzione originale, i passaggi sono gli stessi, utilizziamo nuove guarnizioni sempre ed una volta completato si effettua le prove di impermeabilità, così da assicurare la perfetta condizione di chiusura della cassa.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+      "nome": "CikOrefice Gioielleria e Laboratorio Orafo Napoli",
+      "comune": "Napoli",
+      "indirizzo": "Via Gaetano Filangieri, 19, 80121 Napoli NA, Italy",
+      "cap": null,
+      "telefono": "+39 081 410 4503",
+      "sito": "https://chronoever.com/it/it/shops/cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+      "localitaId": "napoli",
+      "provincia": "NA",
+      "regione": "Campania",
+      "chronoever": "https://chronoever.com/it/it/shops/cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Napoli",
+        "CikOrefice Gioielleria e Laboratorio Orafo Napoli"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://cikorefice.it/",
+      "altriLink": [
+        "http://cikorefice.it/",
+        "https://maps.google.com/?q=40.8361948,14.2405943"
+      ],
+      "servizi": [
+        "riparazione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«RIPARAZIONE OROLOGI E GIOIELLI.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "RIPARAZIONE OROLOGI E GIOIELLI."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Nel nostro laboratorio orafo a Napoli ci prendiamo cura dei tuoi gioielli e orologi con esperienza, precisione e passione artigianale.»"
+    },
+    {
+      "id": "crono-florence",
+      "nome": "Crono",
+      "comune": "Firenze",
+      "indirizzo": "Via Arnolfo, 15/A, 50126 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 055 689720",
+      "sito": "https://chronoever.com/it/it/shops/crono-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/crono-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Crono"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.cronofirenze.it/",
+      "altriLink": [
+        "http://www.cronofirenze.it/",
+        "https://maps.google.com/?q=43.7667645,11.2761085"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "impermeabilizzazione",
+        "orologi-tasca",
+        "ricambi"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Orologi Firenze Riparazione Orologi Firenze Negozio Orologi Firenze .»; «Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu .»; «Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologi Firenze Riparazione Orologi Firenze Negozio Orologi Firenze ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "e vasto assortimento di ricambi CASIO Vintage 055 689720 CONTATTACI ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu ."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "Si eseguono test di impermeabilità con garanzia su orologi subacquei professionali ."
+        },
+        {
+          "id": "orologi-tasca",
+          "frase": "Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu ."
+        },
+        {
+          "id": "ricambi",
+          "frase": "e vasto assortimento di ricambi CASIO Vintage 055 689720 CONTATTACI ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Laboratorio di orologeria con personale altamente qualificato .»"
+    },
+    {
+      "id": "daniele-tenderini-orologiaio-turin",
+      "nome": "Daniele Tenderini Orologiaio",
+      "comune": "Torino",
+      "indirizzo": "Corso Belgio, 46/E, 10153 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 349 529 0153",
+      "sito": "https://chronoever.com/it/it/shops/daniele-tenderini-orologiaio-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/daniele-tenderini-orologiaio-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Daniele Tenderini Orologiaio"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.watcheaven94.altervista.org/",
+      "altriLink": [
+        "http://www.watcheaven94.altervista.org/",
+        "https://maps.google.com/?q=45.0725431,7.711522700000001"
+      ],
+      "servizi": [
+        "riparazione",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "cinturini"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Riparazione orologi - Daniele Tenderini Orologiaio .»; «-Pendoleria storica e moderna.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Riparazione orologi - Daniele Tenderini Orologiaio ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "NIKI VINTAGE per abbigliamento ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "-Pendoleria storica e moderna."
+        },
+        {
+          "id": "cinturini",
+          "frase": "-Cinturini e bracciali (anche di marca)."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "-Guarnizioni e test impermeabilità ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "dlond-florence",
+      "nome": "Dlond",
+      "comune": "Firenze",
+      "indirizzo": "Via Pisana, 60r, 50143 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 333 617 5937",
+      "sito": "https://chronoever.com/it/it/shops/dlond-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/dlond-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Dlond"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.dlond.com/",
+      "altriLink": [
+        "https://www.dlond.com/",
+        "https://maps.google.com/?q=43.771014699999995,11.2380908"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«Laboratorio di riparazione orologi a Firenze Skip to main content .»; «Laboratorio di orologeria e revisione orologi a Firenze .»; «DLOND dispone di un laboratorio interno dedicato alla manutenzione, revisione e riparazione di orologi meccanici e automatici di lusso.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Laboratorio di riparazione orologi a Firenze Skip to main content ."
+        },
+        {
+          "id": "revisione",
+          "frase": "Laboratorio di orologeria e revisione orologi a Firenze ."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "DLOND dispone di un laboratorio interno dedicato alla manutenzione, revisione e riparazione di orologi meccanici e automatici di lusso."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "&Egrave; proprio tra i vicoli storici e gli antichi laboratori fiorentini che prende forma la passione di Lorenzo Fanelli, maestro orologiaio specializzato nella riparazione e revisione di orologi di lusso."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Selezioniamo orologi dei principali marchi dell&rsquo;alta orologeria, offrendo competenza tecnica, controlli di autenticità e assistenza attraverso il nostro laboratorio interno."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "Il laboratorio esegue revisioni complete, interventi di manutenzione, lucidature e controlli d&rsquo;impermeabilità con strumentazione professionale."
+        }
+      ],
+      "sede": "parziale",
+      "laboratorioEvidenza": "«Laboratorio di riparazione orologi a Firenze Skip to main content .»"
+    },
+    {
+      "id": "gioielleria-fraulo-srl-napoli",
+      "nome": "Gioielleria Fraulo Srl",
+      "comune": "Napoli",
+      "indirizzo": "Via S. Giovanni in Corte, 1, 80133 Napoli NA, Italy",
+      "cap": null,
+      "telefono": "+39 081 205802",
+      "sito": "https://chronoever.com/it/it/shops/gioielleria-fraulo-srl-napoli",
+      "localitaId": "napoli",
+      "provincia": "NA",
+      "regione": "Campania",
+      "chronoever": "https://chronoever.com/it/it/shops/gioielleria-fraulo-srl-napoli",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Napoli",
+        "Gioielleria Fraulo Srl"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.gioielleriafraulo.it/",
+      "altriLink": [
+        "http://www.gioielleriafraulo.it/",
+        "https://maps.google.com/?q=40.846396000000006,14.260979899999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi.»; «Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "gioielleria-ghini-florence",
+      "nome": "Gioielleria Ghini",
+      "comune": "Firenze",
+      "indirizzo": "Via Reginaldo Giuliani, 42/R, 50141 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 055 414472",
+      "sito": "https://chronoever.com/it/it/shops/gioielleria-ghini-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/gioielleria-ghini-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Gioielleria Ghini"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.gioielleriaghini-firenze.it/",
+      "altriLink": [
+        "https://www.gioielleriaghini-firenze.it/",
+        "https://maps.google.com/?q=43.797517,11.2397077"
+      ],
+      "servizi": [
+        "riparazione"
+      ],
+      "serviziSecondari": [
+        "batterie",
+        "cinturini"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«- Riparazioni gioielleria e orologeria .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "- Riparazioni gioielleria e orologeria ."
+        },
+        {
+          "id": "batterie",
+          "frase": "- Sostituzione batterie per orologi ."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Se la collana vostra collana di perle si è sfilata, il bracciale d'oro bianco ha bisogno di una saldatura o l'anello che vi hanno regalato deve essere messo a misura, il laboratorio orafo di Firenze corre in soccorso dei vostri preziosi."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Se la collana vostra collana di perle si è sfilata, il bracciale d'oro bianco ha bisogno di una saldatura o l'anello che vi hanno regalato deve essere messo a misura, il laboratorio orafo di Firenze corre in soccorso dei vostri preziosi.»"
+    },
+    {
+      "id": "gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+      "nome": "Gioielleria Harvey dal 1913 - Oreficeria e Orologeria",
+      "comune": "Torino",
+      "indirizzo": "Via Nizza, 380/A, 10127 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 667 0333",
+      "sito": "https://chronoever.com/it/it/shops/gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Gioielleria Harvey dal 1913 - Oreficeria e Orologeria"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://gioielleriaharvey.it/",
+      "altriLink": [
+        "https://gioielleriaharvey.it/",
+        "https://maps.google.com/?q=45.019015100000004,7.661991899999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Riparazione e Restauro Orologi.»; «Riparazione e Restauro Orologi.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Servizi di Assistenza, Riparazione e Personalizzazione eseguiti con Professionalità e Garanzia di Qualità.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Riparazione e Restauro Orologi."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Servizi di Assistenza, Riparazione e Personalizzazione eseguiti con Professionalità e Garanzia di Qualità.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+      "nome": "Gioielleria Marone - Vendita Creazione e Restauro Gioielli ed Orologi a Torino",
+      "comune": "Torino",
+      "indirizzo": "Via Madama Cristina, 72, 10126 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 347 060 2746",
+      "sito": "https://chronoever.com/it/it/shops/gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Gioielleria Marone - Vendita Creazione e Restauro Gioielli ed Orologi a Torino"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://gioielleriamarone.it/",
+      "altriLink": [
+        "https://gioielleriamarone.it/",
+        "https://maps.google.com/?q=45.0507899,7.677910399999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Gioielleria Marone offre servizi di revisione, manutenzione e riparazione di orologi, con attenzione alle caratteristiche dei diversi meccanismi.»; «Revisione e manutenzione di orologi di lusso.»; «Revisione e manutenzione di orologi di lusso.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Gioielleria Marone offre servizi di revisione, manutenzione e riparazione di orologi, con attenzione alle caratteristiche dei diversi meccanismi."
+        },
+        {
+          "id": "revisione",
+          "frase": "Revisione e manutenzione di orologi di lusso."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Revisione e manutenzione di orologi di lusso."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Presso il laboratorio di Gioielleria Marone è possibile richiedere interventi di riparazione e restauro di gioielli, valutando le condizioni dell&#8217;oggetto e le lavorazioni più indicate.."
+        },
+        {
+          "id": "batterie",
+          "frase": "Potete trovarci in Via Madama Cristina 72 bis C, Torino, oppure compilare il form di contatto sul nostro sito per fissare un appuntamento."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+      "nome": "Gioielleria Stringa - Orologi Roma - assistenza e riparazione orologi e gioielli",
+      "comune": "Roma",
+      "indirizzo": "Largo dei Chiavari, 81, 00186 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 683 2639",
+      "sito": "https://chronoever.com/it/it/shops/gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Gioielleria Stringa - Orologi Roma - assistenza e riparazione orologi e gioielli"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.gioielleriastringa.it/",
+      "altriLink": [
+        "http://www.gioielleriastringa.it/",
+        "https://maps.google.com/?q=41.8961981,12.4738814"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "impermeabilizzazione"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Se avete un orologio da aggiustare o riparare consiglio di passare qui .»; «Orologio da polso Breitling cronografo 2 contatori oro giallo 750-1000 cassa nazionale ,movimento Breitling carica manuale calibro Venus 188 ,epoca 1960 circa ,cassa 35 mm..»; «Best service for the watch, very smart and professional watch shop.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Se avete un orologio da aggiustare o riparare consiglio di passare qui ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Orologi e gioielli vintage, autentici e irripetibili Eleganza ed esclusività."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Consegna assicurata e assistenza continua."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Bracciale: Coccodrillo con fibia ardiglione placcata."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "gis-srl-rome",
+      "nome": "GIS SRL",
+      "comune": "Roma",
+      "indirizzo": "Via Giuseppe Zanardelli, 23/Primo piano, 00186 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 687 9971",
+      "sito": "https://chronoever.com/it/it/shops/gis-srl-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/gis-srl-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "GIS SRL"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, manutenzione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.gisorologi.it/",
+      "altriLink": [
+        "http://www.gisorologi.it/",
+        "https://maps.google.com/?q=41.900597499999996,12.4724022"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [
+        "batterie",
+        "ricambi"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«RESTAURO DI OROLOGI VINTAGE.»; «RESTAURO DI OROLOGI VINTAGE.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "RIPARAZIONI E MANUTENZIONE PER PICCOLE E GRANDI MARCHE."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "RIPARAZIONI E MANUTENZIONE PER PICCOLE E GRANDI MARCHE."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "RESTAURO DI OROLOGI VINTAGE."
+        },
+        {
+          "id": "batterie",
+          "frase": "Fondata nel 1947, la nostra azienda rappresenta un pilastro nell'orologeria di alta gamma, situata nel cuore storico di Roma, a due passi da Piazza Navona.."
+        },
+        {
+          "id": "ricambi",
+          "frase": "GIS OROLOGI Orologeria e Fornitura di Ricambi dal 1947 Un' eccellenza Artigianale nel Cuore di Roma."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "innocenti-e-puggelli-snc-florence",
+      "nome": "Innocenti E Puggelli Snc",
+      "comune": "Firenze",
+      "indirizzo": "Piazza Bernardo Tanucci, 26, 50134 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 055 219874",
+      "sito": "https://chronoever.com/it/it/shops/innocenti-e-puggelli-snc-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/innocenti-e-puggelli-snc-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Innocenti E Puggelli Snc"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.cronoip.it/",
+      "altriLink": [
+        "http://www.cronoip.it/",
+        "https://maps.google.com/?q=43.790049599999996,11.2443371"
+      ],
+      "servizi": [
+        "riparazione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«Il nostro laboratorio effettua riparazioni di qualsiasi marca di orologi stilando anticipatamente un preventivo dettagliato gratuito evitando così spiacevoli sorprese al cliente..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Il nostro laboratorio effettua riparazioni di qualsiasi marca di orologi stilando anticipatamente un preventivo dettagliato gratuito evitando così spiacevoli sorprese al cliente.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Innocenti & Puggelli &#8211; Centro Assistenza certificato Omega Longines Rado Tissot Hamilton ."
+        },
+        {
+          "id": "ricambi",
+          "frase": "Infatti, tutte le nostre riparazioni sono sempre eseguite con parti di ricambio originali che vengono sostituite anche nei casi di una minima parte di usura.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Il nostro laboratorio effettua riparazioni di qualsiasi marca di orologi stilando anticipatamente un preventivo dettagliato gratuito evitando così spiacevoli sorprese al cliente..»"
+    },
+    {
+      "id": "la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+      "nome": "La Mole D'Oro Orologeria Gioielleria e Compro Oro",
+      "comune": "Torino",
+      "indirizzo": "C.so Vittorio Emanuele II, 94/E, 10121 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 506 3045",
+      "sito": "https://chronoever.com/it/it/shops/la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "La Mole D'Oro Orologeria Gioielleria e Compro Oro"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.lamoledoro.it/",
+      "altriLink": [
+        "https://www.lamoledoro.it/",
+        "https://maps.google.com/?q=45.066896899999996,7.6682798000000005"
+      ],
+      "servizi": [
+        "riparazione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«VUOI RIPARARE IL TUO OROLOGIO?»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "VUOI RIPARARE IL TUO OROLOGIO?"
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Controlla la coevità del tuo Rolex vintage ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Servizi Laboratorio orologeria .»"
+    },
+    {
+      "id": "mastro-orologiaio-milan",
+      "nome": "Mastro Orologiaio",
+      "comune": "Milano",
+      "indirizzo": "Via Crema, 4, 20135 Milano MI, Italy",
+      "cap": null,
+      "telefono": "+39 02 5831 8242",
+      "sito": "https://chronoever.com/it/it/shops/mastro-orologiaio-milan",
+      "localitaId": "milano",
+      "provincia": "MI",
+      "regione": "Lombardia",
+      "chronoever": "https://chronoever.com/it/it/shops/mastro-orologiaio-milan",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Milano",
+        "Mastro Orologiaio"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.mastroorologiaio.it/",
+      "altriLink": [
+        "https://www.mastroorologiaio.it/",
+        "https://maps.google.com/?q=45.4505559,9.2023204"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "ricambi"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«--> Mastro Orologiaio assistenza riparazione orologi e gioielli a Milano --> --> --> --> --> --> --> --> --> --> --> Go to Top.»; «Assistenza e Riparazione Orologi Riparazione Rolex, Revisione e Ricambi .»; «Orologi da tavolo, pendole, antichi .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "--> Mastro Orologiaio assistenza riparazione orologi e gioielli a Milano --> --> --> --> --> --> --> --> --> --> --> Go to Top."
+        },
+        {
+          "id": "revisione",
+          "frase": "Assistenza e Riparazione Orologi Riparazione Rolex, Revisione e Ricambi ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Orologi da tavolo, pendole, antichi ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Orologi da tavolo, pendole, antichi ."
+        },
+        {
+          "id": "assistenza",
+          "frase": "--> Mastro Orologiaio assistenza riparazione orologi e gioielli a Milano --> --> --> --> --> --> --> --> --> --> --> Go to Top."
+        },
+        {
+          "id": "ricambi",
+          "frase": "Assistenza e Riparazione Orologi Riparazione Rolex, Revisione e Ricambi ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "maurizio-lora-rome",
+      "nome": "Maurizio & L'Ora",
+      "comune": "Roma",
+      "indirizzo": "Via Guglielmo Ciamarra, 7, 00154 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 8117 3467",
+      "sito": "https://chronoever.com/it/it/shops/maurizio-lora-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/maurizio-lora-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Maurizio & L'Ora"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.maurizioelora.com/",
+      "altriLink": [
+        "https://www.maurizioelora.com/",
+        "https://maps.google.com/?q=41.8685726,12.4935169"
+      ],
+      "servizi": [
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Per orologi a pendolo si effettuano, previo appuntamento, ritiro e consegna a domicilio..»; «Il nostro negozio/laboratorio è sito a Roma in via Guglielmo Ciamarra n°7 (zona Circonvallazione Ostiense), opera nel settore dell'orologeria da 30 anni; offre alla propria clientela serietà e competenza nell'assistenza di qualsiasi prodotto concernente il fantastico mondo dell’orologeria.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Tutte le riparazioni e gli interventi vengono effettuati esclusivamente nella nostra sede, con cura scrupolosa.."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Per orologi a pendolo si effettuano, previo appuntamento, ritiro e consegna a domicilio.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Il nostro negozio/laboratorio è sito a Roma in via Guglielmo Ciamarra n°7 (zona Circonvallazione Ostiense), opera nel settore dell'orologeria da 30 anni; offre alla propria clientela serietà e competenza nell'assistenza di qualsiasi prodotto concernente il fantastico mondo dell’orologeria.."
+        },
+        {
+          "id": "batterie",
+          "frase": "Compila questo form per richiedere informazioni ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Il nostro negozio/laboratorio è sito a Roma in via Guglielmo Ciamarra n°7 (zona Circonvallazione Ostiense), opera nel settore dell'orologeria da 30 anni; offre alla propria clientela serietà e competenza nell'assistenza di qualsiasi prodotto concernente il fantastico mondo dell’orologeria.»"
+    },
+    {
+      "id": "merlino-watches-rome",
+      "nome": "Merlino watches",
+      "comune": "Roma",
+      "indirizzo": "Viale di Villa Pamphili, B, 00152 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 9716 1018",
+      "sito": "https://chronoever.com/it/it/shops/merlino-watches-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/merlino-watches-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Merlino watches"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://merlino-watches.it/",
+      "altriLink": [
+        "https://merlino-watches.it/",
+        "https://maps.google.com/?q=41.883381899999996,12.457029499999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "ricambi"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Il nostro laboratorio di orologeria si occupa anche di riparazione orologi.»; «Merlinowatches è un laboratorio di orologeria che si occupa di restauri, valutazione e consulenza dei migliori marchi presenti nel settore.»; «Assistenza tecnica su orologi Rolex e altre migliori marche.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Il nostro laboratorio di orologeria si occupa anche di riparazione orologi."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Merlinowatches è un laboratorio di orologeria che si occupa di restauri, valutazione e consulenza dei migliori marchi presenti nel settore.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Assistenza tecnica su orologi Rolex e altre migliori marche."
+        },
+        {
+          "id": "batterie",
+          "frase": "Cambio cinturino,Cambio vetro e cambio Batteria.."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Cambio cinturino,Cambio vetro e cambio Batteria.."
+        },
+        {
+          "id": "ricambi",
+          "frase": "Riparazione orologi,ricambi originali."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Il nostro laboratorio di orologeria si occupa anche di riparazione orologi.»"
+    },
+    {
+      "id": "micucci-orologi-turin",
+      "nome": "Micucci Orologi",
+      "comune": "Torino",
+      "indirizzo": "Corso Racconigi, 15/c, 10138 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 376 118 3286",
+      "sito": "https://chronoever.com/it/it/shops/micucci-orologi-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/micucci-orologi-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Micucci Orologi"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.micucciorologi.it/",
+      "altriLink": [
+        "https://www.micucciorologi.it/",
+        "https://maps.google.com/?q=45.0743131,7.648304999999999"
+      ],
+      "servizi": [
+        "revisione",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "riparazione",
+        "restauro-vintage",
+        "cinturini"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Revisioniamo movimenti meccanici con cura e precisione artigianale..»; «Offro alla mia clientela assistenza e consigli per poter preservare i propri orologi in modo che durino nel tempo.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Riparazioni Expert Qualificate."
+        },
+        {
+          "id": "revisione",
+          "frase": "Revisione Completa Certificata."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Acquisto metalli preziosi Laboratorio orologeria Laboratorio oreficeria Restauro corredi orologi ."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Offro alla mia clientela assistenza e consigli per poter preservare i propri orologi in modo che durino nel tempo."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Restauriamo quadranti, casse e bracciali danneggiati dal tempo.."
+        },
+        {
+          "id": "lucidatura",
+          "frase": "Sostituzioni vetri, lucidature e ricostruzioni di parti mancanti.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Acquisto metalli preziosi Laboratorio orologeria Laboratorio oreficeria Restauro corredi orologi .»"
+    },
+    {
+      "id": "musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+      "nome": "Musolino Gioielli | Gioielleria e Oreficeria, Torino",
+      "comune": "Torino",
+      "indirizzo": "Via Guido Reni, 211/B, 10137 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 311 1746",
+      "sito": "https://chronoever.com/it/it/shops/musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Musolino Gioielli | Gioielleria e Oreficeria, Torino"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.musolinogioielli.com/",
+      "altriLink": [
+        "http://www.musolinogioielli.com/",
+        "https://maps.google.com/?q=45.0402907,7.6291028999999995"
+      ],
+      "servizi": [
+        "manutenzione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "riparazione",
+        "revisione",
+        "batterie",
+        "cinturini",
+        "impermeabilizzazione",
+        "ricambi"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Manutenzione orologio: tutto quello che devi sapere .»; «Revisioniamo pendoli antichi e moderni, da tavolo o a colonna.»; «RIPARAZIONE E REVISIONE PENDOLI .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Oltre a essere una gioielleria e orologeria nella periferia sud di Torino, siamo anche un &#8220;Compro Oro&#8221; iscritto alla OAM (Organismo Agenti e Mediatori) e offriamo servizi di personalizzazione e creazione gioielli, riparazione gioielli, revisione e manutenzione orologi, incisione e molto altro ancora.."
+        },
+        {
+          "id": "revisione",
+          "frase": "Oltre a essere una gioielleria e orologeria nella periferia sud di Torino, siamo anche un &#8220;Compro Oro&#8221; iscritto alla OAM (Organismo Agenti e Mediatori) e offriamo servizi di personalizzazione e creazione gioielli, riparazione gioielli, revisione e manutenzione orologi, incisione e molto altro ancora.."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Oltre a essere una gioielleria e orologeria nella periferia sud di Torino, siamo anche un &#8220;Compro Oro&#8221; iscritto alla OAM (Organismo Agenti e Mediatori) e offriamo servizi di personalizzazione e creazione gioielli, riparazione gioielli, revisione e manutenzione orologi, incisione e molto altro ancora.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "RIPARAZIONE, RESTAURO E REVISIONE GIOIELLI ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Siamo in grado di offrire a tutti i Clienti molteplici servizi connessi alla manutenzione, riparazione e revisione di orologi classici e pregiati: dal cambio delle batterie e dei cinturini, alla rimagliatura e satinatura dei bracciali, fino alla delicata manutenzione e riparazione di pendoli da tavolo o a colonna."
+        },
+        {
+          "id": "assistenza",
+          "frase": "In quest’ottica ampio spazio viene dato all’assistenza post-vendita e ai servizi accessori per il Cliente, quali confezioni regalo, spedizioni in Italia o all’estero tramite corriere, garanzia e assistenza su ogni prodotto."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "orologeria-21-rubini-rome",
+      "nome": "Orologeria 21 Rubini",
+      "comune": "Roma",
+      "indirizzo": "Via Riccardo Pitteri, 62, 00177 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 5654 8159",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-21-rubini-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-21-rubini-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Orologeria 21 Rubini"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://21rubinisnc.it/",
+      "altriLink": [
+        "http://21rubinisnc.it/",
+        "https://maps.google.com/?q=41.8941558,12.547452199999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "ricambi"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Fornitura per Pendoleria e Riparazione .»; «La FORNITURA 21 RUBINI ,mette a disposizione,anche tecnici diplomati specializzati,per la riparazione completa di, orologi meccanici e quarzo, pendoleria e sveglie d&#8217;epoca, nonche un servizio di assistenza per negozianti e privati..»; «Fornitura per Pendoleria e Riparazione .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Fornitura per Pendoleria e Riparazione ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Da Orologeria 21 Rubini, potete trovare un’ampia selezione di cinturini classici, vintage, sportivi,ecc.."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Fornitura per Pendoleria e Riparazione ."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Assistenza per tutte le marche di orologi ."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Da Orologeria 21 Rubini, potete trovare un’ampia selezione di cinturini classici, vintage, sportivi,ecc.."
+        },
+        {
+          "id": "ricambi",
+          "frase": "Fornitura e Ricambi per Orologi ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Come negozio ospitiamo sia il punto vendita dove poter scegliere orologi nuovi a costi veramente interessanti, che il laboratorio dove ripariamo e forniamo assistenza per tutte le marche di orologi e per tutti i modelli.»"
+    },
+    {
+      "id": "orologeria-aurili-rome",
+      "nome": "Orologeria Aurili",
+      "comune": "Roma",
+      "indirizzo": "Via del Clementino, 104, 00186 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 687 3578",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-aurili-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-aurili-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Orologeria Aurili"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.orologeria-aurili.com/",
+      "altriLink": [
+        "http://www.orologeria-aurili.com/",
+        "https://maps.google.com/?q=41.9034395,12.475780199999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "orologi-tasca"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»; «Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»; «Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologeria in centro con servizio anche di riparazione di orologi di tutte le epoche."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto ."
+        },
+        {
+          "id": "orologi-tasca",
+          "frase": "Orologi da Arredo e da Tasca."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»"
+    },
+    {
+      "id": "orologeria-camassa-turin",
+      "nome": "Orologeria Camassa",
+      "comune": "Torino",
+      "indirizzo": "Via Giuseppe Barbaroux, 9, 10122 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 546944",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-camassa-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-camassa-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Orologeria Camassa"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, pendoleria.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.orologeriacamassa.com/",
+      "altriLink": [
+        "https://www.orologeriacamassa.com/",
+        "https://maps.google.com/?q=45.071511699999995,7.6815161"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "orologi-tasca"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«--> Riparazione Orologi | Orologeria Camassa | Torino top of page .»; «Revisione orologi da polso e da tasca .»; «Pulizia e manutenzione di vari marchi famosi e non, come Rolex, Omega, Zenith, Longines e di orologi da tasca antichi .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "--> Riparazione Orologi | Orologeria Camassa | Torino top of page ."
+        },
+        {
+          "id": "revisione",
+          "frase": "Revisione orologi da polso e da tasca ."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Pulizia e manutenzione di vari marchi famosi e non, come Rolex, Omega, Zenith, Longines e di orologi da tasca antichi ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Pulizia e manutenzione di vari marchi famosi e non, come Rolex, Omega, Zenith, Longines e di orologi da tasca antichi ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Operiamo su orologi da polso con vocazione all&rsquo;alta gamma, pendole del 1700 e orologi da tasca."
+        },
+        {
+          "id": "batterie",
+          "frase": "Sostituzione batterie, cinturini e vetri ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+      "nome": "Orologeria Fagnola, Assistenza Orologi Torino, Gioielleria Torino",
+      "comune": "Torino",
+      "indirizzo": "Via Antonio Gramsci, 15, 10123 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 533504",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Orologeria Fagnola, Assistenza Orologi Torino, Gioielleria Torino"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, manutenzione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://fagnola.it/",
+      "altriLink": [
+        "https://fagnola.it/",
+        "https://maps.google.com/?q=45.0645143,7.6814947"
+      ],
+      "servizi": [
+        "riparazione",
+        "manutenzione",
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«Orologeria Fagnola Torino: Orologi di Lusso e Riparazione dal 1911 Salta al contenuto .»; «Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire..»; «Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologeria Fagnola Torino: Orologi di Lusso e Riparazione dal 1911 Salta al contenuto ."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Cura e Precisione: Assistenza Specializzata per Grandi Complicazioni."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+      "nome": "Orologeria Maggiora dal 1970 riparazione-revisione orologi Torino",
+      "comune": "Torino",
+      "indirizzo": "Corso Alcide De Gasperi, 56/d, 10129 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 580 5959",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Orologeria Maggiora dal 1970 riparazione-revisione orologi Torino"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.orologeriamaggiora.it/",
+      "altriLink": [
+        "https://www.orologeriamaggiora.it/",
+        "https://maps.google.com/?q=45.05395,7.657333"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "lucidatura"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«L’orologeria Maggiora, nel settore da oltre 30 anni, offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.»; «L’orologeria Maggiora, nel settore da oltre 30 anni, offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.»; «Clicca sulla scritta del modello dell’orologio per visualizzare le foto Jaeger-Lecoultre Reverso Classic Duoface - revisione e sostituzione molla di carica Omega Constellation Automatic - Revisione Service Calibro 1161 - sostituzione asse bilanciere danneggiato Omega cal.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.."
+        },
+        {
+          "id": "revisione",
+          "frase": "offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Jaeger-Lecoultre Reverso Classic Duoface - revisione e sostituzione molla di carica Omega Constellation Automatic - Revisione Service Calibro 1161 - sostituzione asse bilanciere danneggiato Omega cal."
+        },
+        {
+          "id": "batterie",
+          "frase": "Sostituzione batterie e cinturini."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Ristampa quadranti, ricostruzioni parti meccaniche, lucidatura casse e bracciali."
+        },
+        {
+          "id": "lucidatura",
+          "frase": "Ristampa quadranti, ricostruzioni parti meccaniche, lucidatura casse e bracciali."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "orologeria-torino-vendita-e-assistenza-turin",
+      "nome": "Orologeria Torino, vendita e assistenza",
+      "comune": "Torino",
+      "indirizzo": "Via Regio Parco, 100, 10036 Settimo Torinese TO, Italy",
+      "cap": null,
+      "telefono": "+39 392 875 9052",
+      "sito": "https://chronoever.com/it/it/shops/orologeria-torino-vendita-e-assistenza-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/orologeria-torino-vendita-e-assistenza-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Orologeria Torino, vendita e assistenza"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.orologeriatorino.it/",
+      "altriLink": [
+        "http://www.orologeriatorino.it/",
+        "https://maps.google.com/?q=45.125661199999996,7.749125299999998"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "orologi-tasca"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Orologeria e oreficeria, laboratorio riparazione orologi.»; «Effettuiamo, inoltre, la revisione dei vostri orologi, i quali verranno scomposti completamente, puliti e riassemblati.»; «Orologi antichi Riparazione orologi antichi .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologeria e oreficeria, laboratorio riparazione orologi."
+        },
+        {
+          "id": "revisione",
+          "frase": "Effettuiamo, inoltre, la revisione dei vostri orologi, i quali verranno scomposti completamente, puliti e riassemblati."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Orologi antichi Riparazione orologi antichi ."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Riparazione orologi a pendolo ."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Assistenza orologi Cartier Torino ."
+        },
+        {
+          "id": "batterie",
+          "frase": "Per informazioni può contattarci compilando il form o telefonando direttamente utilizzando i numeri di telefono indicati alla pagina dei contatti."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Orologeria e oreficeria, laboratorio riparazione orologi.»"
+    },
+    {
+      "id": "orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+      "nome": "Orologi e Non Solo ( Riparazioni Orologi e Gioielli )",
+      "comune": "Torino",
+      "indirizzo": "Via Nizza, 104/C, 10126 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 667 2008",
+      "sito": "https://chronoever.com/it/it/shops/orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Orologi e Non Solo ( Riparazioni Orologi e Gioielli )"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.riparazioniorologienonsolo.com/",
+      "altriLink": [
+        "http://www.riparazioniorologienonsolo.com/",
+        "https://maps.google.com/?q=45.0442797,7.6716158"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "orologi-tasca"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Al servizio dei nostri clienti mettiamo a disposizione l&#8217;arte manuale nella riparazione degli orologi.»; «Ho portato un pendolo dei miei nonni a revisionare ed hanno fatto un ottimo lavoro corredano il tutto con fotografie dei pezzi e garanzia.»; «Restauro e manutenzione orologi da tasca.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Al servizio dei nostri clienti mettiamo a disposizione l&#8217;arte manuale nella riparazione degli orologi."
+        },
+        {
+          "id": "revisione",
+          "frase": "Ho portato un pendolo dei miei nonni a revisionare ed hanno fatto un ottimo lavoro corredano il tutto con fotografie dei pezzi e garanzia."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Restauro e manutenzione orologi da tasca."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Risuscitiamo il fascino e la bellezza dei tuoi orologi d'epoca attraverso un meticoloso processo di restauro, conservando la loro autenticità e valore storico.."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Eseguiamo anche restauri di orologi e pendoli d&#8217;epoca: un servizio in più per chi, come noi, ama queste straordinarie &#8220;Macchine del tempo&#8221;.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Orologi e Non Solo mette a disposizione dei propri clienti un laboratorio di orologeria che, grazie all’esperienza tramandata di generazione in generazione, è in grado di assicurare la migliore assistenza sui Vostri gioielli da polso, anche dei marchi più prestigiosi, garantendo l’impiego di ricambi originali."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Laboratorio di orologeria dal 1985..»"
+    },
+    {
+      "id": "orologiaus-riparazione-orologi-di-lusso-rome",
+      "nome": "Orologiaus - Riparazione Orologi di Lusso",
+      "comune": "Roma",
+      "indirizzo": "Viale delle Milizie, 84, 00192 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 353 490 3985",
+      "sito": "https://chronoever.com/it/it/shops/orologiaus-riparazione-orologi-di-lusso-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/orologiaus-riparazione-orologi-di-lusso-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Orologiaus - Riparazione Orologi di Lusso"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.orologiaus.com/",
+      "altriLink": [
+        "https://www.orologiaus.com/",
+        "https://maps.google.com/?q=41.911800199999995,12.4597304"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "lucidatura"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Orologiaus - Riparazioni Orologi di Lusso a Roma Home .»; «Orologiaus è il laboratorio di orologeria più seguito in Italia sui social, punto di riferimento per chi cerca riparazione e revisione di orologi di lusso ..»; «Un riconoscimento concreto che conferma Orologiaus come punto di riferimento in Italia per la manutenzione e il restauro di orologi di lusso..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologiaus - Riparazioni Orologi di Lusso a Roma Home ."
+        },
+        {
+          "id": "revisione",
+          "frase": "Orologiaus è il laboratorio di orologeria più seguito in Italia sui social, punto di riferimento per chi cerca riparazione e revisione di orologi di lusso .."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Un riconoscimento concreto che conferma Orologiaus come punto di riferimento in Italia per la manutenzione e il restauro di orologi di lusso.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Un riconoscimento concreto che conferma Orologiaus come punto di riferimento in Italia per la manutenzione e il restauro di orologi di lusso.."
+        },
+        {
+          "id": "assistenza",
+          "frase": "\"Ho dato fiducia a questi due giovanissimi ragazzi per riparare/rigenerare il mio Omega Speedmaster Co-Axial : si era bloccato a causa della scarsa lubrificazione (acquistato 12 anni fa e non lo avevo mai portato in assistenza)."
+        },
+        {
+          "id": "cinturini",
+          "frase": "L'orologio presentava graffi ovunque, non funzionava il datario e uno dei buchi del cinturino era completamente distrutto."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Orologiaus è il laboratorio di orologeria più seguito in Italia sui social, punto di riferimento per chi cerca riparazione e revisione di orologi di lusso ..»"
+    },
+    {
+      "id": "pirex-prestige-watches-orologi-di-lusso-turin",
+      "nome": "Pirex Prestige Watches Orologi di Lusso",
+      "comune": "Torino",
+      "indirizzo": "Corso Vinzaglio, 13b, 10121 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 340 935 3243",
+      "sito": "https://chronoever.com/it/it/shops/pirex-prestige-watches-orologi-di-lusso-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/pirex-prestige-watches-orologi-di-lusso-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Pirex Prestige Watches Orologi di Lusso"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: revisione.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.pirexprestigewatches.it/",
+      "altriLink": [
+        "http://www.pirexprestigewatches.it/",
+        "https://maps.google.com/?q=45.0707759,7.6691913"
+      ],
+      "servizi": [
+        "revisione"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Ho portato in negozio un Rolex Yacht-Master in condizioni pessime, orologio da revisionare e sopratutto la cosa più importante da fare era sabbiare tutta la ghiera.»",
+      "frasi": [
+        {
+          "id": "revisione",
+          "frase": "Ho portato in negozio un Rolex Yacht-Master in condizioni pessime, orologio da revisionare e sopratutto la cosa più importante da fare era sabbiare tutta la ghiera."
+        }
+      ],
+      "sede": "parziale",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "pirone-pasquale-napoli",
+      "nome": "Pirone Pasquale",
+      "comune": "Napoli",
+      "indirizzo": "Riviera di Chiaia, 26, 80122 Napoli NA, Italy",
+      "cap": null,
+      "telefono": "+39 081 761 6236",
+      "sito": "https://chronoever.com/it/it/shops/pirone-pasquale-napoli",
+      "localitaId": "napoli",
+      "provincia": "NA",
+      "regione": "Campania",
+      "chronoever": "https://chronoever.com/it/it/shops/pirone-pasquale-napoli",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Napoli",
+        "Pirone Pasquale"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.pironeorologi.it/",
+      "altriLink": [
+        "http://www.pironeorologi.it/",
+        "https://maps.google.com/?q=40.8318756,14.2231671"
+      ],
+      "servizi": [
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [
+        "riparazione",
+        "cinturini",
+        "ricambi"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Riparazioni di orologi antichi e moderni.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Orologeria Pirone Napoli, Vendita e riparazioni di orologi ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Riparazioni di orologi antichi e moderni."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Contatta il nostro servizio Assistenza Clienti e richiedi informazioni.."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Pirone Napoli Vendita orologi e cinturini ."
+        },
+        {
+          "id": "ricambi",
+          "frase": "Ricostruzione completa di pezzi di ricambio, di orologi antichi, utilizzando materiali originali dell’epoca.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "rabiti-riparazione-orologi-florence",
+      "nome": "Rabiti Riparazione orologi",
+      "comune": "Firenze",
+      "indirizzo": "P.zza Taddeo Gaddi, 22r, 50142 Firenze FI, Italy",
+      "cap": null,
+      "telefono": "+39 339 226 0342",
+      "sito": "https://chronoever.com/it/it/shops/rabiti-riparazione-orologi-florence",
+      "localitaId": "firenze",
+      "provincia": "FI",
+      "regione": "Toscana",
+      "chronoever": "https://chronoever.com/it/it/shops/rabiti-riparazione-orologi-florence",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Firenze",
+        "Rabiti Riparazione orologi"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.orologeriarabiti.com/",
+      "altriLink": [
+        "https://www.orologeriarabiti.com/",
+        "https://maps.google.com/?q=43.773817,11.233597699999999"
+      ],
+      "servizi": [
+        "riparazione"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "impermeabilizzazione"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Per riparazioni professionali, affidati al team di OROLOGERIA RABITI.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Per riparazioni professionali, affidati al team di OROLOGERIA RABITI."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Ripristino Cassa e Bracciale, la parte esterna dell'orologio tornerà come da vetrina."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "PROVE DI IMPERMEABILITA' CERTIFICATE ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«--> Laboratorio Orologi | Orologeria Rabiti | Firenze top of page .»"
+    },
+    {
+      "id": "remon-lab-rome",
+      "nome": "Remon Lab",
+      "comune": "Roma",
+      "indirizzo": "Via Padova, 16, 00161 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 9727 0942",
+      "sito": "https://chronoever.com/it/it/shops/remon-lab-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/remon-lab-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Remon Lab"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://remonlab.it/",
+      "altriLink": [
+        "http://remonlab.it/",
+        "https://maps.google.com/?q=41.9114018,12.5173361"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "lucidatura"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Riparazione, revisione e manutenzione per orologi di alta gamma..»; «Riparazione, revisione e manutenzione per orologi di alta gamma..»; «Riparazione, revisione e manutenzione per orologi di alta gamma..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Riparazione, revisione e manutenzione per orologi di alta gamma.."
+        },
+        {
+          "id": "revisione",
+          "frase": "Riparazione, revisione e manutenzione per orologi di alta gamma.."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Riparazione, revisione e manutenzione per orologi di alta gamma.."
+        },
+        {
+          "id": "batterie",
+          "frase": "Sostituzione rapida e sicura della batteria, con controllo del corretto funzionamento e della tenuta del fondello.."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Ripristino estetico della cassa e del bracciale attraverso lucidatura e satinatura, riportando l&rsquo;orologio al suo splendore originale.."
+        },
+        {
+          "id": "lucidatura",
+          "frase": "Ripristino estetico della cassa e del bracciale attraverso lucidatura e satinatura, riportando l&rsquo;orologio al suo splendore originale.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Ti aspettiamo nel nostro laboratorio per prenderci cura del tuo orologio con precisione e attenzione ai dettagli..»"
+    },
+    {
+      "id": "roberto-capo-snc-di-capo-stefano-c-turin",
+      "nome": "Roberto Capo snc di Capo Stefano & C.",
+      "comune": "Torino",
+      "indirizzo": "C.so Vittorio Emanuele II, 78, 10121 Torino TO, Italy",
+      "cap": null,
+      "telefono": "+39 011 546539",
+      "sito": "https://chronoever.com/it/it/shops/roberto-capo-snc-di-capo-stefano-c-turin",
+      "localitaId": "torino",
+      "provincia": "TO",
+      "regione": "Piemonte",
+      "chronoever": "https://chronoever.com/it/it/shops/roberto-capo-snc-di-capo-stefano-c-turin",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Torino",
+        "Roberto Capo snc di Capo Stefano & C."
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.laboratoriocapo.com/",
+      "altriLink": [
+        "http://www.laboratoriocapo.com/",
+        "https://maps.google.com/?q=45.0654736,7.672404500000001"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "impermeabilizzazione",
+        "lucidatura"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Nel corso degli anni è diventato uno dei punti di riferimento nella riparazione degli orologi per tutta l'Italia..»; «Effettuiamo revisioni complete, test di impermeabilit&agrave, smontaggi, lavaggi di ogni singola parte dell'orologio, lucidatura della cassa e del bracciale e prove al cronocomparatore.»; «Puoi fare sicuro affidamento sulle nostre maestranze, il nostro centro assistenza è infatti in possesso delle certificazioni per eseguire lavori di ogni tipo, autorizzazioni rilasciate direttamente dai più importanti produttori di orologi..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Nel corso degli anni è diventato uno dei punti di riferimento nella riparazione degli orologi per tutta l'Italia.."
+        },
+        {
+          "id": "revisione",
+          "frase": "Effettuiamo revisioni complete, test di impermeabilit&agrave, smontaggi, lavaggi di ogni singola parte dell'orologio, lucidatura della cassa e del bracciale e prove al cronocomparatore."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Siamo centro Assistenza Certificato per Tissot, Longines, Omega, Baume&Mercier, Hamilton, Cartier e Tag Heuer.."
+        },
+        {
+          "id": "cinturini",
+          "frase": "Effettuiamo revisioni complete, test di impermeabilit&agrave, smontaggi, lavaggi di ogni singola parte dell'orologio, lucidatura della cassa e del bracciale e prove al cronocomparatore."
+        },
+        {
+          "id": "impermeabilizzazione",
+          "frase": "Effettuiamo revisioni complete, test di impermeabilit&agrave, smontaggi, lavaggi di ogni singola parte dell'orologio, lucidatura della cassa e del bracciale e prove al cronocomparatore."
+        },
+        {
+          "id": "lucidatura",
+          "frase": "Effettuiamo revisioni complete, test di impermeabilit&agrave, smontaggi, lavaggi di ogni singola parte dell'orologio, lucidatura della cassa e del bracciale e prove al cronocomparatore."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«Siamo presenti a Torino dagli anni 50 e abbiamo seguito per molti anni i migliori marchi di orologi al mondo, negli anni il nostro laboratorio è cresciuto diventando uno dei punti di riferimento nella riparazione degli orologi per tutta l'Italia..»"
+    },
+    {
+      "id": "the-muse-watches-milan",
+      "nome": "THE MUSE WATCHES",
+      "comune": "Milano",
+      "indirizzo": "Via Pietro Maroncelli, 2, 20154 Milano MI, Italy",
+      "cap": null,
+      "telefono": "+39 02 2900 2568",
+      "sito": "https://chronoever.com/it/it/shops/the-muse-watches-milan",
+      "localitaId": "milano",
+      "provincia": "MI",
+      "regione": "Lombardia",
+      "chronoever": "https://chronoever.com/it/it/shops/the-muse-watches-milan",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Milano",
+        "THE MUSE WATCHES"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.lemuseonline.com/",
+      "altriLink": [
+        "http://www.lemuseonline.com/",
+        "https://maps.google.com/?q=45.4817186,9.184301099999999"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Restauro orologi antichi Milano Revisione completa del meccanismo .»; «Restauro orologi antichi Milano Revisione completa del meccanismo .»; «Restauro orologi antichi Milano Revisione completa del meccanismo .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Riparazione orologi vintage a Milano."
+        },
+        {
+          "id": "revisione",
+          "frase": "Restauro orologi antichi Milano Revisione completa del meccanismo ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Restauro orologi antichi Milano Revisione completa del meccanismo ."
+        },
+        {
+          "id": "lucidatura",
+          "frase": "Lucidatura professionale ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "the-time-lords-milan",
+      "nome": "The Time Lords",
+      "comune": "Milano",
+      "indirizzo": "Viale Gorizia, 8, 20144 Milano MI, Italy",
+      "cap": null,
+      "telefono": "+39 02 8940 3872",
+      "sito": "https://chronoever.com/it/it/shops/the-time-lords-milan",
+      "localitaId": "milano",
+      "provincia": "MI",
+      "regione": "Lombardia",
+      "chronoever": "https://chronoever.com/it/it/shops/the-time-lords-milan",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Milano",
+        "The Time Lords"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.isignorideltempo.com/",
+      "altriLink": [
+        "https://www.isignorideltempo.com/",
+        "https://maps.google.com/?q=45.454335099999994,9.1735448"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "interno",
+      "evidenza": "«Ripariamo, revisioniamo e restauriamo orologi .»; «Ripariamo, revisioniamo e restauriamo orologi .»; «Ripariamo, revisioniamo e restauriamo orologi .»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Portate il vostro orologio da I Signori del Tempo per una valutazione o un preventivo gratuito di riparazione e restauro: anche il più “sfortunato” orologio tornerà al suo splendore originale."
+        },
+        {
+          "id": "revisione",
+          "frase": "Ripariamo, revisioniamo e restauriamo orologi ."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Orologi da collezione Milano - Orologi vintage - I Signori del Tempo You are using an outdated browser."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "venezianico-atelier-venice",
+      "nome": "Venezianico Atelier™",
+      "comune": "Venezia",
+      "indirizzo": "Corso Silvio Trentin, 76, 30027 San Donà di Piave VE, Italy",
+      "cap": null,
+      "telefono": "+39 0421 633923",
+      "sito": "https://chronoever.com/it/it/shops/venezianico-atelier-venice",
+      "localitaId": "venezia",
+      "provincia": "VE",
+      "regione": "Veneto",
+      "chronoever": "https://chronoever.com/it/it/shops/venezianico-atelier-venice",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Venezia",
+        "Venezianico Atelier™"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: manutenzione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://it.venezianico.com/pages/atelier?utm_source=google&amp;utm_medium=mybusiness&amp;utm_campaign=sito_web",
+      "altriLink": [
+        "https://it.venezianico.com/pages/atelier?utm_source=google&amp;utm_medium=mybusiness&amp;utm_campaign=sito_web",
+        "https://maps.google.com/?q=45.628814399999996,12.5647523"
+      ],
+      "servizi": [
+        "manutenzione",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico..»; «Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico..»",
+      "frasi": [
+        {
+          "id": "manutenzione",
+          "frase": "Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Abbiamo restaurato il Palazzo Baradel di San Donà di Piave, un elegante edificio neoclassico che ora ospita il nostro Atelier."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Sì, è consigliato prenotare un appuntamento per ricevere un’assistenza personalizzata e dedicata.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "viktor-gioielli-rome",
+      "nome": "Viktor Gioielli",
+      "comune": "Roma",
+      "indirizzo": "Via Gallia, 114/116, 00183 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 7720 4851",
+      "sito": "https://chronoever.com/it/it/shops/viktor-gioielli-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/viktor-gioielli-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Viktor Gioielli"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://viktorgioielli.it/",
+      "altriLink": [
+        "https://viktorgioielli.it/",
+        "https://maps.google.com/?q=41.880927,12.5039048"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "batterie",
+        "cinturini"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Forniamo anche servizi di incisione personalizzata, in modo da poter rendere ogni pezzo ancora più significativo e speciale e servizi di riparazione di orologi di alta qualità e infilatura di collane.»; «Offriamo un servizio completo di assistenza per orologi, sia antichi che moderni, con la possibilità di sostituire immediatamente batterie e cinturini.»; «Gli orologi da tavolo, i pendoli da parete e gli orologi a cucù, sono molto più di semplici strumenti per misurare il tempo; sono delle vere e proprie opere d&#8217;arte che aggiungono carattere e personalità ai tuoi spazi.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Forniamo anche servizi di incisione personalizzata, in modo da poter rendere ogni pezzo ancora più significativo e speciale e servizi di riparazione di orologi di alta qualità e infilatura di collane."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Offriamo un servizio completo di assistenza per orologi, sia antichi che moderni, con la possibilità di sostituire immediatamente batterie e cinturini."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Gli orologi da tavolo, i pendoli da parete e gli orologi a cucù, sono molto più di semplici strumenti per misurare il tempo; sono delle vere e proprie opere d&#8217;arte che aggiungono carattere e personalità ai tuoi spazi."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Il nostro team, altamente qualificato, è a vostra disposizione per offrire consulenza e assistenza personalizzata."
+        },
+        {
+          "id": "batterie",
+          "frase": "Offriamo un servizio completo di assistenza per orologi, sia antichi che moderni, con la possibilità di sostituire immediatamente batterie e cinturini."
+        },
+        {
+          "id": "cinturini",
+          "frase": "La nostra attenzione ai dettagli e alla qualità ci distingue e siamo orgogliosi di presentare un ricco assortimento di gioielli, dagli eleganti anelli di fidanzamento alle lussuose collane e braccialetti.."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "vintage-riparazione-orologi-rome",
+      "nome": "Vintage Riparazione Orologi",
+      "comune": "Roma",
+      "indirizzo": "Via Appia Nuova, 45, 00183 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 700 5501",
+      "sito": "https://chronoever.com/it/it/shops/vintage-riparazione-orologi-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/vintage-riparazione-orologi-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Vintage Riparazione Orologi"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, revisione, manutenzione, restauro-vintage, pendoleria, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://www.vintageriparazioneorologi.it/",
+      "altriLink": [
+        "http://www.vintageriparazioneorologi.it/",
+        "https://maps.google.com/?q=41.884624699999996,12.5110888"
+      ],
+      "servizi": [
+        "riparazione",
+        "revisione",
+        "manutenzione",
+        "restauro-vintage",
+        "pendoleria",
+        "assistenza"
+      ],
+      "serviziSecondari": [
+        "cinturini",
+        "lucidatura"
+      ],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Riparazione e Assistenza Orologi | Rolex | Roma .»; «Nel Restauro di un orologio viene applicata la stessa procedura di lavorazione usata nella Revisione.»; «Con il passare del tempo il vostro orologio necessiterà di manutenzione.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Riparazione e Assistenza Orologi | Rolex | Roma ."
+        },
+        {
+          "id": "revisione",
+          "frase": "Nella Revisione ogni singolo componente usurato o difettoso viene sostituito.."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Con il passare del tempo il vostro orologio necessiterà di manutenzione."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Vintage o di produzione attuale."
+        },
+        {
+          "id": "pendoleria",
+          "frase": "Orologi da polso, tasca, pendoleria."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Riparazione e Assistenza Orologi | Rolex | Roma ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "watch-hunters-milano-milan",
+      "nome": "Watch Hunters Milano",
+      "comune": "Milano",
+      "indirizzo": "Corso Magenta, 22, 20123 Milano MI, Italy",
+      "cap": null,
+      "telefono": "+39 02 2513 5536",
+      "sito": "https://chronoever.com/it/it/shops/watch-hunters-milano-milan",
+      "localitaId": "milano",
+      "provincia": "MI",
+      "regione": "Lombardia",
+      "chronoever": "https://chronoever.com/it/it/shops/watch-hunters-milano-milan",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Milano",
+        "Watch Hunters Milano"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, restauro-vintage, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "http://watchhuntersmilano.com/",
+      "altriLink": [
+        "http://watchhuntersmilano.com/",
+        "https://maps.google.com/?q=45.4658624,9.1790728"
+      ],
+      "servizi": [
+        "riparazione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite.»; «Nel nostro negozio è possibile acquistare, vendere e permutare orologi d’epoca e moderni di marche prestigiose e gioielli vintage e di importanti firme.»; «Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite.»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Nel nostro negozio è possibile acquistare, vendere e permutare orologi d’epoca e moderni di marche prestigiose e gioielli vintage e di importanti firme."
+        },
+        {
+          "id": "assistenza",
+          "frase": "Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    },
+    {
+      "id": "watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+      "nome": "Watch Lab Roma | Laboratorio Riparazione e Vendita Orologi di Lusso Revisioni e Lucidature Rolex Roma",
+      "comune": "Roma",
+      "indirizzo": "Largo Ginnasi, 4, 00186 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 06 9604 4806",
+      "sito": "https://chronoever.com/it/it/shops/watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Watch Lab Roma | Laboratorio Riparazione e Vendita Orologi di Lusso Revisioni e Lucidature Rolex Roma"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, manutenzione, restauro-vintage.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.watchlabroma.it/",
+      "altriLink": [
+        "https://www.watchlabroma.it/",
+        "https://maps.google.com/?q=41.895390899999995,12.477637399999999"
+      ],
+      "servizi": [
+        "manutenzione"
+      ],
+      "serviziSecondari": [
+        "riparazione",
+        "restauro-vintage"
+      ],
+      "laboratorio": "interno",
+      "evidenza": "«Offri ai tuoi clienti un servizio di qualità superiore grazie alla nostra esperienza nel restauro e nella manutenzione di orologi..»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Restauro riparazione orologi di lusso Roma | Vendita orologi | Rolex ."
+        },
+        {
+          "id": "manutenzione",
+          "frase": "Offri ai tuoi clienti un servizio di qualità superiore grazie alla nostra esperienza nel restauro e nella manutenzione di orologi.."
+        },
+        {
+          "id": "restauro-vintage",
+          "frase": "Restauro riparazione orologi di lusso Roma | Vendita orologi | Rolex ."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": "«WATCH LAB ROMA Rivenditori certificati Chrono24 Negozio e Laboratorio di orologi di lusso Largo Ginnasi,4 00186 Roma .»"
+    },
+    {
+      "id": "watch-you-want-watches-rome",
+      "nome": "Watch You Want - Watches",
+      "comune": "Roma",
+      "indirizzo": "Metro C fermata Lodi, V. La Spezia, 76, 00182 Roma RM, Italy",
+      "cap": null,
+      "telefono": "+39 392 138 4187",
+      "sito": "https://chronoever.com/it/it/shops/watch-you-want-watches-rome",
+      "localitaId": "roma",
+      "provincia": "RM",
+      "regione": "Lazio",
+      "chronoever": "https://chronoever.com/it/it/shops/watch-you-want-watches-rome",
+      "briciole": [
+        "Chronoever",
+        "Directory Riparazione Orologi",
+        "Roma",
+        "Watch You Want - Watches"
+      ],
+      "stato": "VERIFIED",
+      "motivo": "Sede confermata dal sito ufficiale; servizi dichiarati: riparazione, assistenza.",
+      "verificato": "2026-11-02",
+      "sitoUfficiale": "https://www.watchyouwant.it/?utm_source=google&amp;utm_medium=google+my+business&amp;utm_campaign=gmb",
+      "altriLink": [
+        "https://www.watchyouwant.it/?utm_source=google&amp;utm_medium=google+my+business&amp;utm_campaign=gmb",
+        "https://maps.google.com/?q=41.8868308,12.5194526"
+      ],
+      "servizi": [
+        "riparazione",
+        "assistenza"
+      ],
+      "serviziSecondari": [],
+      "laboratorio": "non-specificato",
+      "evidenza": "«Ho potuto riparare finalmente il mio vecchio orologio.»; «If you’re looking for great service and an amazing watch buying experience in Rome, I highly recommend stopping in.&#010;&#010;Grazie mille per l’eccezionale servizio!»",
+      "frasi": [
+        {
+          "id": "riparazione",
+          "frase": "Ho potuto riparare finalmente il mio vecchio orologio."
+        },
+        {
+          "id": "assistenza",
+          "frase": "If you’re looking for great service and an amazing watch buying experience in Rome, I highly recommend stopping in.&#010;&#010;Grazie mille per l’eccezionale servizio!"
+        },
+        {
+          "id": "cinturini",
+          "frase": "Cinturino - DOXA in caucciù FKM Nero con Chiusura Deployante – 840/879.10.20-RUBBB."
+        }
+      ],
+      "sede": "primaria",
+      "laboratorioEvidenza": null
+    }
+  ]
+}

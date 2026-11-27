@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Landinelli%2C+60%2F62%2C+Sarzana%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77137705,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10827063485,
+      "lat": "44.1119099",
+      "lon": "9.9604951",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00005878767071026196,
+      "addresstype": "shop",
+      "name": "Rizzuto",
+      "display_name": "Rizzuto, 60-62, Via Ippolito Landinelli, Sarzana, La Spezia, Liguria, 19038, Italia",
+      "address": {
+        "shop": "Rizzuto",
+        "house_number": "60-62",
+        "road": "Via Ippolito Landinelli",
+        "town": "Sarzana",
+        "county": "La Spezia",
+        "ISO3166-2-lvl6": "IT-SP",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "19038",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.1118599",
+        "44.1119599",
+        "9.9604451",
+        "9.9605451"
+      ]
+    }
+  ]
+}

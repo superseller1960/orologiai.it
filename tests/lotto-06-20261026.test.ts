@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import { readFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import test from 'node:test';
@@ -47,7 +48,7 @@ test('Lotto 6: zero duplicati da revisionare, autorizzazioni solo con fonte del 
     const b = data.attivita.find(x => x.id === s.id)!;
     assert.ok(b, `scheda mancante: ${s.id}`);
     assert.ok(b.descrizione.length >= 80, `${b.id}: descrizione troppo breve`);
-    assert.equal(b.posizione.coordinate, null, `${b.id}: nessuna coordinata non verificata`);
+    assertAbsentOrReviewedCoordinate(b);
     for (const c of [...b.marchi.rivenditaUfficiale, ...b.marchi.assistenzaUfficiale]) {
       assert.ok(c.fonti.some(fid => fontiById.get(fid)?.tipo === 'marchio-ufficiale'), `${b.id}: ${c.marca} senza fonte marchio-ufficiale`);
     }

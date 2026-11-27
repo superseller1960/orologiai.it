@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+34%2C+Roseto+degli+Abruzzi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80221438,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 69684940,
+      "lat": "42.6773369",
+      "lon": "14.0139685",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672279926756694,
+      "addresstype": "square",
+      "name": "Piazza della Libertà",
+      "display_name": "Piazza della Libertà, Piana Grande, Roseto degli Abruzzi, Teramo, Abruzzo, Italia",
+      "address": {
+        "square": "Piazza della Libertà",
+        "hamlet": "Piana Grande",
+        "town": "Roseto degli Abruzzi",
+        "county": "Teramo",
+        "ISO3166-2-lvl6": "IT-TE",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.6770637",
+        "42.6776100",
+        "14.0135668",
+        "14.0143703"
+      ]
+    }
+  ]
+}

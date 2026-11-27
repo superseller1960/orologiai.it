@@ -1,0 +1,126 @@
+{
+  "lotto": "fase26-lotto3-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f26-tissot-italia-customer-service-milano-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/stores",
+      "titolo": "Tissot Italia Customer Service: centro servizio ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Tissot: voce «CENTRO SERVIZIO UFFICIALE TISSOT — Tissot Italia Customer Service, Via Washington 70, 20146 Milano»."
+    }
+  ],
+  "localita": [],
+  "candidati": [
+    {
+      "id": "tissot-italia-customer-service-milano",
+      "nome": "Tissot Italia Customer Service",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro servizio ufficiale Tissot verificate il 2026-11-02 sul localizzatore del marchio.",
+      "fonti": [
+        "f26-tissot-italia-customer-service-milano-fonte"
+      ],
+      "attivita": {
+        "id": "tissot-italia-customer-service-milano",
+        "slug": "tissot-italia-customer-service-milano",
+        "nome": "Tissot Italia Customer Service",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Centro servizio ufficiale Tissot per l’Italia, a Milano, elencato dal localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Washington 70",
+          "cap": "20146",
+          "coordinate": null,
+          "fonti": [
+            "f26-tissot-italia-customer-service-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.tissotwatches.com/it-it/stores",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-tissot-italia-customer-service-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il marchio qualifica la sede come centro servizio ufficiale; la fonte non dettaglia le lavorazioni eseguite in sede.",
+          "fonti": [
+            "f26-tissot-italia-customer-service-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-tissot-italia-customer-service-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Tissot",
+              "fonti": [
+                "f26-tissot-italia-customer-service-milano-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-tissot-italia-customer-service-milano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: sede e qualifica lette sul localizzatore ufficiale del marchio; nessun servizio inferito.",
+              "fonti": [
+                "f26-tissot-italia-customer-service-milano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "tissot-italia-customer-service-milano"
+        }
+      }
+    }
+  ]
+}

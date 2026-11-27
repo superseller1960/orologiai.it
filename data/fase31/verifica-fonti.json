@@ -1,0 +1,299 @@
+[
+  {
+    "id": "lorologiaio-biella",
+    "stato": 200,
+    "url": "https://www.lorologiaiobiella.it/laboratorio-orologeria",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "orsi-gioielleria-verbania",
+    "stato": 200,
+    "url": "https://www.orsigioielleria.com",
+    "capOk": false,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "bruni-imperia",
+    "stato": 200,
+    "url": "http://www.orologeriaoreficeriagiacomobruni.it/page/restauro-orologi",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "dalmasso-1913-imperia",
+    "stato": 200,
+    "url": "https://dalmasso1913.it/pages/riparazioni",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "dupanloup-savona",
+    "stato": 200,
+    "url": "https://www.dupanloup.it",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": null,
+    "comuneOk": true
+  },
+  {
+    "id": "satolli-pescara",
+    "stato": 200,
+    "url": "https://www.orologeriasatolli.it/dove-siamo/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "officine-complicato-pescara",
+    "stato": 200,
+    "url": "https://www.officinecomplicato.it",
+    "capOk": false,
+    "viaOk": false,
+    "telOk": false,
+    "comuneOk": false
+  },
+  {
+    "id": "ranieri-laquila",
+    "stato": 200,
+    "url": "https://www.gioielleriaranieri.com/laboratorio/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": false
+  },
+  {
+    "id": "quaranta-campobasso",
+    "stato": 200,
+    "url": "https://www.gioielleriastefanoquaranta.com/servizi",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "pietro-roberto-cosenza",
+    "stato": 200,
+    "url": "https://www.pietroroberto.it/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "musci-catanzaro",
+    "stato": 200,
+    "url": "https://muscigioielli.it/riparazione-orologi",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "liparota-lamezia",
+    "stato": 200,
+    "url": "https://www.gioiellerialiparota.com/orologi.php",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "golden-business-potenza",
+    "stato": 200,
+    "url": "https://www.gioielleriagoldenbusiness.it/servizi-e-prestazioni/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "antezza-matera",
+    "stato": 200,
+    "url": "https://www.antezza.com/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": null,
+    "comuneOk": true
+  },
+  {
+    "id": "clementi-bolzano",
+    "stato": 200,
+    "url": "https://www.orologiaio-clementi.it",
+    "capOk": false,
+    "viaOk": false,
+    "telOk": false,
+    "comuneOk": true
+  },
+  {
+    "id": "groppa-trento",
+    "stato": 200,
+    "url": "https://www.orologeriagroppa.it/contatti",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "fronza-trento",
+    "stato": 200,
+    "url": "https://www.orologeriafronzamarco.it",
+    "capOk": false,
+    "viaOk": true,
+    "telOk": null,
+    "comuneOk": true
+  },
+  {
+    "id": "mosele-bolzano",
+    "stato": 200,
+    "url": "https://www.moseleluxurytime.it/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": null,
+    "comuneOk": true
+  },
+  {
+    "id": "gasser-brunico",
+    "stato": 200,
+    "url": "https://it.vgasser.it",
+    "capOk": true,
+    "viaOk": false,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "mazzonetto-udine",
+    "stato": 200,
+    "url": "https://www.orologiaudine.it/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "demarco-belluno",
+    "stato": 200,
+    "url": "https://www.demarco-belluno.it",
+    "capOk": false,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "boni-belluno",
+    "stato": 200,
+    "url": "https://www.gioielleriaboni.it",
+    "capOk": true,
+    "viaOk": false,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "soprana-vicenza",
+    "stato": 200,
+    "url": "https://www.soprana.com/laboratorio-orologeria/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "palladio-vicenza",
+    "stato": 200,
+    "url": "https://www.orologeriepalladio.it/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "stefani-marano",
+    "stato": 200,
+    "url": "https://stefanifratelli.it/laboratorio-orologeria/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "laboratorio-del-tempo-perugia",
+    "stato": 200,
+    "url": "https://illaboratoriodeltempo.it/contatti",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "la-meridiana-narni",
+    "stato": 200,
+    "url": "https://www.centroclinicodellorologio.com/riparazione-orologi",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "paccara-terni",
+    "stato": 200,
+    "url": "https://www.gioielleriapaccarafranco.it/orologeria.php",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "wargas-sisti-ancona",
+    "stato": 200,
+    "url": "https://wargasisti.com/rolex/manutenzione/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "fenocchi-san-benedetto",
+    "stato": 200,
+    "url": "https://www.gioielleriafenocchi.com",
+    "capOk": false,
+    "viaOk": false,
+    "telOk": false,
+    "comuneOk": true
+  },
+  {
+    "id": "miconi-civitanova",
+    "stato": 200,
+    "url": "https://www.orologeriamiconi.it/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true,
+    "comuneOk": true
+  },
+  {
+    "id": "murgia-cagliari",
+    "stato": 200,
+    "url": "https://www.giampieromurgia.com/",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": null,
+    "comuneOk": true
+  },
+  {
+    "id": "officina-del-tempo-olbia",
+    "stato": 200,
+    "url": "https://www.officinadeltempoolbia.com",
+    "capOk": false,
+    "viaOk": false,
+    "telOk": false,
+    "comuneOk": true
+  }
+]

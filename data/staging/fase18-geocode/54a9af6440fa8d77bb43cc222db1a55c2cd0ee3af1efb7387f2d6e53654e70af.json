@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Benedetto+Croce%2C+105%2C+Chieti%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80828810,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1321575316,
+      "lat": "42.3580838",
+      "lon": "14.1392327",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05339847486076139,
+      "addresstype": "primary",
+      "name": "Viale Benedetto Croce",
+      "display_name": "Viale Benedetto Croce, Chieti Scalo, Chieti, Abruzzo, 66100, Italia",
+      "address": {
+        "road": "Viale Benedetto Croce",
+        "quarter": "Chieti Scalo",
+        "city": "Chieti",
+        "county": "Chieti",
+        "ISO3166-2-lvl6": "IT-CH",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "66100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.3570801",
+        "42.3590925",
+        "14.1389113",
+        "14.1395383"
+      ]
+    }
+  ]
+}

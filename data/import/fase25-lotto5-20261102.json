@@ -1,0 +1,5636 @@
+{
+  "lotto": "fase25-lotto5-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f25-atelier-orologiaio-di-gsp-srl-milan-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.orologiaio.it/",
+      "titolo": "Atelier Orologiaio di GSP S.r.l.: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«HAI UN OROLOGIO DA RIPARARE?.»; «Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica..»; «Ripariamo , revisioniamo e restauriamo orologi di lusso e pendoleria antica..»"
+    },
+    {
+      "id": "f25-bottega-d-oro-venezia-venice-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.bottegadoro.com/",
+      "titolo": "Bottega D' oro Venezia: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«RIPARAZIONI GIOIELLERIA E OROLOGERIA .»; «Nel nostro ultimo articolo del blog, esploriamo il magico mondo degli orologi a pendolo e presentiamo il nostro servizio di riparazione dedicato.»"
+    },
+    {
+      "id": "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cassetti.it/",
+      "titolo": "Boutique Cassetti Gioielleria Orologeria: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel cuore di Cassetti, il nostro Laboratorio di Eccellenza rappresenta un punto di riferimento per la cura e la manutenzione degli orologi di alta gamma.»"
+    },
+    {
+      "id": "f25-chronoservice24-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.chronoservice24.com/",
+      "titolo": "Chronoservice24: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»; «CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»; «CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi  .»"
+    },
+    {
+      "id": "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://cikorefice.it/",
+      "titolo": "CikOrefice Gioielleria e Laboratorio Orafo Napoli: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«RIPARAZIONE OROLOGI E GIOIELLI.»"
+    },
+    {
+      "id": "f25-crono-florence-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.cronofirenze.it/",
+      "titolo": "Crono: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologi Firenze Riparazione Orologi Firenze Negozio Orologi Firenze .»; «Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu .»; «Riparazioni e Restauri di orologi da tasca, pendole antiche e moderne e cu-cu .»"
+    },
+    {
+      "id": "f25-daniele-tenderini-orologiaio-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.watcheaven94.altervista.org/",
+      "titolo": "Daniele Tenderini Orologiaio: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazione orologi - Daniele Tenderini Orologiaio .»; «-Pendoleria storica e moderna.»"
+    },
+    {
+      "id": "f25-dlond-florence-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.dlond.com/",
+      "titolo": "Dlond: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Laboratorio di riparazione orologi a Firenze Skip to main content .»; «Laboratorio di orologeria e revisione orologi a Firenze .»; «DLOND dispone di un laboratorio interno dedicato alla manutenzione, revisione e riparazione di orologi meccanici e automatici di lusso.»"
+    },
+    {
+      "id": "f25-gioielleria-fraulo-srl-napoli-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.gioielleriafraulo.it/",
+      "titolo": "Gioielleria Fraulo Srl: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi.»; «Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi.»"
+    },
+    {
+      "id": "f25-gioielleria-ghini-florence-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaghini-firenze.it/",
+      "titolo": "Gioielleria Ghini: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«- Riparazioni gioielleria e orologeria .»"
+    },
+    {
+      "id": "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriaharvey.it/",
+      "titolo": "Gioielleria Harvey dal 1913 - Oreficeria e Orologeria: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazione e Restauro Orologi.»; «Riparazione e Restauro Orologi.»"
+    },
+    {
+      "id": "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriamarone.it/",
+      "titolo": "Gioielleria Marone: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Gioielleria Marone offre servizi di revisione, manutenzione e riparazione di orologi, con attenzione alle caratteristiche dei diversi meccanismi.»; «Revisione e manutenzione di orologi di lusso.»; «Revisione e manutenzione di orologi di lusso.»"
+    },
+    {
+      "id": "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.gioielleriastringa.it/",
+      "titolo": "Gioielleria Stringa: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Se avete un orologio da aggiustare o riparare consiglio di passare qui .»; «Orologio da polso Breitling cronografo 2 contatori oro giallo 750-1000 cassa nazionale ,movimento Breitling carica manuale calibro Venus 188 ,epoca 1960 circa ,cassa 35 mm..»; «Best service for the watch, very smart and professional watch shop.»"
+    },
+    {
+      "id": "f25-gis-srl-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.gisorologi.it/",
+      "titolo": "GIS SRL: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«RESTAURO DI OROLOGI VINTAGE.»; «RESTAURO DI OROLOGI VINTAGE.»"
+    },
+    {
+      "id": "f25-innocenti-e-puggelli-snc-florence-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.cronoip.it/",
+      "titolo": "Innocenti E Puggelli Snc: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio effettua riparazioni di qualsiasi marca di orologi stilando anticipatamente un preventivo dettagliato gratuito evitando così spiacevoli sorprese al cliente..»"
+    },
+    {
+      "id": "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamoledoro.it/",
+      "titolo": "La Mole D'Oro Orologeria Gioielleria e Compro Oro: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«VUOI RIPARARE IL TUO OROLOGIO?»"
+    },
+    {
+      "id": "f25-mastro-orologiaio-milan-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.mastroorologiaio.it/",
+      "titolo": "Mastro Orologiaio: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«--> Mastro Orologiaio assistenza riparazione orologi e gioielli a Milano --> --> --> --> --> --> --> --> --> --> --> Go to Top.»; «Assistenza e Riparazione Orologi Riparazione Rolex, Revisione e Ricambi .»; «Orologi da tavolo, pendole, antichi .»"
+    },
+    {
+      "id": "f25-maurizio-lora-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.maurizioelora.com/",
+      "titolo": "Maurizio & L'Ora: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Per orologi a pendolo si effettuano, previo appuntamento, ritiro e consegna a domicilio..»; «Il nostro negozio/laboratorio è sito a Roma in via Guglielmo Ciamarra n°7 (zona Circonvallazione Ostiense), opera nel settore dell'orologeria da 30 anni; offre alla propria clientela serietà e competenza nell'assistenza di qualsiasi prodotto concernente il fantastico mondo dell’orologeria.»"
+    },
+    {
+      "id": "f25-merlino-watches-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://merlino-watches.it/",
+      "titolo": "Merlino watches: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio di orologeria si occupa anche di riparazione orologi.»; «Merlinowatches è un laboratorio di orologeria che si occupa di restauri, valutazione e consulenza dei migliori marchi presenti nel settore.»; «Assistenza tecnica su orologi Rolex e altre migliori marche.»"
+    },
+    {
+      "id": "f25-micucci-orologi-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.micucciorologi.it/",
+      "titolo": "Micucci Orologi: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Revisioniamo movimenti meccanici con cura e precisione artigianale..»; «Offro alla mia clientela assistenza e consigli per poter preservare i propri orologi in modo che durino nel tempo.»"
+    },
+    {
+      "id": "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.musolinogioielli.com/",
+      "titolo": "Musolino Gioielli | Gioielleria e Oreficeria, Torino: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Manutenzione orologio: tutto quello che devi sapere .»; «Revisioniamo pendoli antichi e moderni, da tavolo o a colonna.»; «RIPARAZIONE E REVISIONE PENDOLI .»"
+    },
+    {
+      "id": "f25-orologeria-21-rubini-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://21rubinisnc.it/",
+      "titolo": "Orologeria 21 Rubini: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Fornitura per Pendoleria e Riparazione .»; «La FORNITURA 21 RUBINI ,mette a disposizione,anche tecnici diplomati specializzati,per la riparazione completa di, orologi meccanici e quarzo, pendoleria e sveglie d&#8217;epoca, nonche un servizio di assistenza per negozianti e privati..»; «Fornitura per Pendoleria e Riparazione .»"
+    },
+    {
+      "id": "f25-orologeria-aurili-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.orologeria-aurili.com/",
+      "titolo": "Orologeria Aurili: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»; «Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»; «Orologeria Aurili &#8211; Laboratorio di restauro di pendoleria antica Salta al contenuto .»"
+    },
+    {
+      "id": "f25-orologeria-camassa-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriacamassa.com/",
+      "titolo": "Orologeria Camassa: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«--> Riparazione Orologi | Orologeria Camassa | Torino top of page .»; «Revisione orologi da polso e da tasca .»; «Pulizia e manutenzione di vari marchi famosi e non, come Rolex, Omega, Zenith, Longines e di orologi da tasca antichi .»"
+    },
+    {
+      "id": "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://fagnola.it/",
+      "titolo": "Orologeria Fagnola, Assistenza Orologi Torino, Gioielleria Torino: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologeria Fagnola Torino: Orologi di Lusso e Riparazione dal 1911 Salta al contenuto .»; «Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire..»; «Specializzati nel restauro di orologi d&#8217;epoca e nella manutenzione di grandi complicazioni, i nostri maestri orologiai garantiscono interventi certificati con la precisione tecnica che solo un’esperienza secolare a Torino può offrire..»"
+    },
+    {
+      "id": "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamaggiora.it/",
+      "titolo": "Orologeria Maggiora dal 1970 riparazione-revisione orologi Torino: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’orologeria Maggiora, nel settore da oltre 30 anni, offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.»; «L’orologeria Maggiora, nel settore da oltre 30 anni, offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo.»; «Clicca sulla scritta del modello dell’orologio per visualizzare le foto Jaeger-Lecoultre Reverso Classic Duoface - revisione e sostituzione molla di carica Omega Constellation Automatic - Revisione Service Calibro 1161 - sostituzione asse bilanciere danneggiato Omega cal.»"
+    },
+    {
+      "id": "f25-orologeria-torino-vendita-e-assistenza-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.orologeriatorino.it/",
+      "titolo": "Orologeria Torino, vendita e assistenza: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologeria e oreficeria, laboratorio riparazione orologi.»; «Effettuiamo, inoltre, la revisione dei vostri orologi, i quali verranno scomposti completamente, puliti e riassemblati.»; «Orologi antichi Riparazione orologi antichi .»"
+    },
+    {
+      "id": "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.riparazioniorologienonsolo.com/",
+      "titolo": "Orologi e Non Solo ( Riparazioni Orologi e Gioielli ): sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Al servizio dei nostri clienti mettiamo a disposizione l&#8217;arte manuale nella riparazione degli orologi.»; «Ho portato un pendolo dei miei nonni a revisionare ed hanno fatto un ottimo lavoro corredano il tutto con fotografie dei pezzi e garanzia.»; «Restauro e manutenzione orologi da tasca.»"
+    },
+    {
+      "id": "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaus.com/",
+      "titolo": "Orologiaus - Riparazione Orologi di Lusso: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologiaus - Riparazioni Orologi di Lusso a Roma Home .»; «Orologiaus è il laboratorio di orologeria più seguito in Italia sui social, punto di riferimento per chi cerca riparazione e revisione di orologi di lusso ..»; «Un riconoscimento concreto che conferma Orologiaus come punto di riferimento in Italia per la manutenzione e il restauro di orologi di lusso..»"
+    },
+    {
+      "id": "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.pirexprestigewatches.it/",
+      "titolo": "Pirex Prestige Watches Orologi di Lusso: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Ho portato in negozio un Rolex Yacht-Master in condizioni pessime, orologio da revisionare e sopratutto la cosa più importante da fare era sabbiare tutta la ghiera.»"
+    },
+    {
+      "id": "f25-remon-lab-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://remonlab.it/",
+      "titolo": "Remon Lab: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazione, revisione e manutenzione per orologi di alta gamma..»; «Riparazione, revisione e manutenzione per orologi di alta gamma..»; «Riparazione, revisione e manutenzione per orologi di alta gamma..»"
+    },
+    {
+      "id": "f25-the-muse-watches-milan-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.lemuseonline.com/",
+      "titolo": "THE MUSE WATCHES: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Restauro orologi antichi Milano Revisione completa del meccanismo .»; «Restauro orologi antichi Milano Revisione completa del meccanismo .»; «Restauro orologi antichi Milano Revisione completa del meccanismo .»"
+    },
+    {
+      "id": "f25-the-time-lords-milan-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.isignorideltempo.com/",
+      "titolo": "The Time Lords: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Ripariamo, revisioniamo e restauriamo orologi .»; «Ripariamo, revisioniamo e restauriamo orologi .»; «Ripariamo, revisioniamo e restauriamo orologi .»"
+    },
+    {
+      "id": "f25-venezianico-atelier-venice-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://it.venezianico.com/pages/atelier?utm_source=google&amp;utm_medium=mybusiness&amp;utm_campaign=sito_web",
+      "titolo": "Venezianico Atelier™: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico..»; «Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico..»"
+    },
+    {
+      "id": "f25-viktor-gioielli-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://viktorgioielli.it/",
+      "titolo": "Viktor Gioielli: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Forniamo anche servizi di incisione personalizzata, in modo da poter rendere ogni pezzo ancora più significativo e speciale e servizi di riparazione di orologi di alta qualità e infilatura di collane.»; «Offriamo un servizio completo di assistenza per orologi, sia antichi che moderni, con la possibilità di sostituire immediatamente batterie e cinturini.»; «Gli orologi da tavolo, i pendoli da parete e gli orologi a cucù, sono molto più di semplici strumenti per misurare il tempo; sono delle vere e proprie opere d&#8217;arte che aggiungono carattere e personalità ai tuoi spazi.»"
+    },
+    {
+      "id": "f25-vintage-riparazione-orologi-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.vintageriparazioneorologi.it/",
+      "titolo": "Vintage Riparazione Orologi: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazione e Assistenza Orologi | Rolex | Roma .»; «Nel Restauro di un orologio viene applicata la stessa procedura di lavorazione usata nella Revisione.»; «Con il passare del tempo il vostro orologio necessiterà di manutenzione.»"
+    },
+    {
+      "id": "f25-watch-hunters-milano-milan-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://watchhuntersmilano.com/",
+      "titolo": "Watch Hunters Milano: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite.»; «Nel nostro negozio è possibile acquistare, vendere e permutare orologi d’epoca e moderni di marche prestigiose e gioielli vintage e di importanti firme.»; «Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite.»"
+    },
+    {
+      "id": "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.watchlabroma.it/",
+      "titolo": "Watch Lab Roma | Laboratorio Riparazione e Vendita Orologi di Lusso Revisioni e Lucidature Rolex Roma: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Offri ai tuoi clienti un servizio di qualità superiore grazie alla nostra esperienza nel restauro e nella manutenzione di orologi..»"
+    },
+    {
+      "id": "f25-watch-you-want-watches-rome-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.watchyouwant.it/?utm_source=google&amp;utm_medium=google+my+business&amp;utm_campaign=gmb",
+      "titolo": "Watch You Want - Watches: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Ho potuto riparare finalmente il mio vecchio orologio.»; «If you’re looking for great service and an amazing watch buying experience in Rome, I highly recommend stopping in.&#010;&#010;Grazie mille per l’eccezionale servizio!»"
+    },
+    {
+      "id": "f25-palma-gioielli-roma-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.palmagioielli.it/",
+      "titolo": "Palma Gioielli: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Centro assistenza tecnico UFFICIALE per la riparazione e la ricambistica di tutti i vostri orologi OMEGA»; «Revisioni OMEGA certificate e garantite, ricambi originali»; Circonvallazione Trionfale 117/121, 00195 Roma."
+    },
+    {
+      "id": "f25-labortempo-milano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labortempo.com/",
+      "titolo": "Labortempo: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel cuore di Milano, a due passi dal Duomo, il laboratorio per la riparazione del tuo orologio»; «Per tutte le riparazioni che ci vengono affidate usiamo solo ed esclusivamente parti originali»; Via Fieno 3, 20123 Milano."
+    },
+    {
+      "id": "f25-rovighi-milano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriarovighi.com/home",
+      "titolo": "Orologeria Rovighi: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Assistenza qualificata, sostituzione o revisione di movimenti al quarzo, revisione movimenti automatici e meccanici»; «riparazioni pendoleria da tavolo, muro e salone»; Via Giorgio Washington 57, 20146 Milano."
+    },
+    {
+      "id": "f25-ferrante-roma-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologeriaferrante.it/",
+      "titolo": "Orologeria Ferrante: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’Orologeria Ferrante, da oltre 60 anni, si occupa di: revisioni, riparazioni, cambi batteria e test di impermeabilità»; Viale Giulio Cesare 231, 00192 Roma."
+    },
+    {
+      "id": "f25-pimazzoni-torino-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/torino/pimazzoni-renato",
+      "titolo": "Pimazzoni Renato: sede e servizi dichiarati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina Hamilton: «CENTRO ASSISTENZA UFFICIALE»; «Sostituzione della batteria»; «Sostituzione del cinturino»; C.so San Maurizio 7, 10124 Torino."
+    }
+  ],
+  "localita": [],
+  "candidati": [
+    {
+      "id": "atelier-orologiaio-di-gsp-srl-milan",
+      "nome": "Atelier Orologiaio di GSP S.r.l.",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+      ],
+      "attivita": {
+        "id": "atelier-orologiaio-di-gsp-srl-milan",
+        "slug": "atelier-orologiaio-di-gsp-srl-milan",
+        "nome": "Atelier Orologiaio di GSP S.r.l.",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Milano che dichiara sul sito ufficiale: «HAI UN OROLOGIO DA RIPARARE?». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Cesare Correnti, 3",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 836 1732",
+          "email": null,
+          "sito": "http://www.orologiaio.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-atelier-orologiaio-di-gsp-srl-milan-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "atelier-orologiaio-di-gsp-srl-milan"
+        }
+      }
+    },
+    {
+      "id": "bottega-d-oro-venezia-venice",
+      "nome": "Bottega D' oro Venezia",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-bottega-d-oro-venezia-venice-fonte"
+      ],
+      "attivita": {
+        "id": "bottega-d-oro-venezia-venice",
+        "slug": "bottega-d-oro-venezia-venice",
+        "nome": "Bottega D' oro Venezia",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Venezia che dichiara sul sito ufficiale: «RIPARAZIONI GIOIELLERIA E OROLOGERIA». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "venezia",
+        "posizione": {
+          "indirizzo": "Via Cesare Rossarol, 23",
+          "cap": "30175",
+          "coordinate": null,
+          "fonti": [
+            "f25-bottega-d-oro-venezia-venice-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 041 923904",
+          "email": null,
+          "sito": "http://www.bottegadoro.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-bottega-d-oro-venezia-venice-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-bottega-d-oro-venezia-venice-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-bottega-d-oro-venezia-venice-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-bottega-d-oro-venezia-venice-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-bottega-d-oro-venezia-venice-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-bottega-d-oro-venezia-venice-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-bottega-d-oro-venezia-venice-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "bottega-d-oro-venezia-venice"
+        }
+      }
+    },
+    {
+      "id": "boutique-cassetti-gioielleria-orologeria-florence",
+      "nome": "Boutique Cassetti Gioielleria Orologeria",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+      ],
+      "attivita": {
+        "id": "boutique-cassetti-gioielleria-orologeria-florence",
+        "slug": "boutique-cassetti-gioielleria-orologeria-florence",
+        "nome": "Boutique Cassetti Gioielleria Orologeria",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Firenze che dichiara sul sito ufficiale: «Nel cuore di Cassetti, il nostro Laboratorio di Eccellenza rappresenta un punto di riferimento per la cura e la manutenzione degli orologi di alta gamma». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Ponte Vecchio, 54R",
+          "cap": "50125",
+          "coordinate": null,
+          "fonti": [
+            "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 055 287361",
+          "email": null,
+          "sito": "https://www.cassetti.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-boutique-cassetti-gioielleria-orologeria-florence-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "boutique-cassetti-gioielleria-orologeria-florence"
+        }
+      }
+    },
+    {
+      "id": "chronoservice24-rome",
+      "nome": "Chronoservice24",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-chronoservice24-rome-fonte"
+      ],
+      "attivita": {
+        "id": "chronoservice24-rome",
+        "slug": "chronoservice24-rome",
+        "nome": "Chronoservice24",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «CHRONOSERVICE24 Revisione, Restauro & Lucidatura Orologi ». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Lungotevere dei Mellini, 37/38",
+          "cap": "00193",
+          "coordinate": null,
+          "fonti": [
+            "f25-chronoservice24-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 1641 69709",
+          "email": null,
+          "sito": "http://www.chronoservice24.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-chronoservice24-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-chronoservice24-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-chronoservice24-rome-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-chronoservice24-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-chronoservice24-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-chronoservice24-rome-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f25-chronoservice24-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-chronoservice24-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-chronoservice24-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "chronoservice24-rome"
+        }
+      }
+    },
+    {
+      "id": "cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+      "nome": "CikOrefice Gioielleria e Laboratorio Orafo Napoli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+      ],
+      "attivita": {
+        "id": "cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+        "slug": "cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli",
+        "nome": "CikOrefice Gioielleria e Laboratorio Orafo Napoli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Napoli che dichiara sul sito ufficiale: «RIPARAZIONE OROLOGI E GIOIELLI». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Gaetano Filangieri, 19",
+          "cap": "80121",
+          "coordinate": null,
+          "fonti": [
+            "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 081 410 4503",
+          "email": null,
+          "sito": "http://cikorefice.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "cikorefice-gioielleria-e-laboratorio-orafo-napoli-napoli"
+        }
+      }
+    },
+    {
+      "id": "crono-florence",
+      "nome": "Crono",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-crono-florence-fonte"
+      ],
+      "attivita": {
+        "id": "crono-florence",
+        "slug": "crono-florence",
+        "nome": "Crono",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Firenze che dichiara sul sito ufficiale: «Orologi Firenze Riparazione Orologi Firenze Negozio Orologi Firenze». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Via Arnolfo, 15/A",
+          "cap": "50126",
+          "coordinate": null,
+          "fonti": [
+            "f25-crono-florence-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 055 689720",
+          "email": null,
+          "sito": "http://www.cronofirenze.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-crono-florence-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-crono-florence-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-crono-florence-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-crono-florence-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-crono-florence-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f25-crono-florence-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-crono-florence-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-crono-florence-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-crono-florence-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "crono-florence"
+        }
+      }
+    },
+    {
+      "id": "daniele-tenderini-orologiaio-turin",
+      "nome": "Daniele Tenderini Orologiaio",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-daniele-tenderini-orologiaio-turin-fonte"
+      ],
+      "attivita": {
+        "id": "daniele-tenderini-orologiaio-turin",
+        "slug": "daniele-tenderini-orologiaio-turin",
+        "nome": "Daniele Tenderini Orologiaio",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «Riparazione orologi - Daniele Tenderini Orologiaio». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso Belgio, 46/E",
+          "cap": "10153",
+          "coordinate": null,
+          "fonti": [
+            "f25-daniele-tenderini-orologiaio-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 349 529 0153",
+          "email": null,
+          "sito": "http://www.watcheaven94.altervista.org/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-daniele-tenderini-orologiaio-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-daniele-tenderini-orologiaio-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-daniele-tenderini-orologiaio-turin-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-daniele-tenderini-orologiaio-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-daniele-tenderini-orologiaio-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-daniele-tenderini-orologiaio-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-daniele-tenderini-orologiaio-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "daniele-tenderini-orologiaio-turin"
+        }
+      }
+    },
+    {
+      "id": "dlond-florence",
+      "nome": "Dlond",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-dlond-florence-fonte"
+      ],
+      "attivita": {
+        "id": "dlond-florence",
+        "slug": "dlond-florence",
+        "nome": "Dlond",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Firenze che dichiara sul sito ufficiale: «Laboratorio di riparazione orologi a Firenze Skip to main content». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Via Pisana, 60r",
+          "cap": "50143",
+          "coordinate": null,
+          "fonti": [
+            "f25-dlond-florence-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 333 617 5937",
+          "email": null,
+          "sito": "https://www.dlond.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-dlond-florence-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-dlond-florence-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-dlond-florence-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-dlond-florence-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-dlond-florence-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-dlond-florence-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-dlond-florence-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-dlond-florence-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "dlond-florence"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-fraulo-srl-napoli",
+      "nome": "Gioielleria Fraulo Srl",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gioielleria-fraulo-srl-napoli-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-fraulo-srl-napoli",
+        "slug": "gioielleria-fraulo-srl-napoli",
+        "nome": "Gioielleria Fraulo Srl",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Napoli che dichiara sul sito ufficiale: «Assistenza La Gioielleria Fraulo offre un eccellente servizio di Assistenza ai Clienti, per quanto riguarda la riparazione e la pulizia di gioielli e orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via S. Giovanni in Corte, 1",
+          "cap": "80133",
+          "coordinate": null,
+          "fonti": [
+            "f25-gioielleria-fraulo-srl-napoli-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 081 205802",
+          "email": null,
+          "sito": "http://www.gioielleriafraulo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gioielleria-fraulo-srl-napoli-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gioielleria-fraulo-srl-napoli-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gioielleria-fraulo-srl-napoli-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-gioielleria-fraulo-srl-napoli-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gioielleria-fraulo-srl-napoli-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gioielleria-fraulo-srl-napoli-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gioielleria-fraulo-srl-napoli"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-ghini-florence",
+      "nome": "Gioielleria Ghini",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gioielleria-ghini-florence-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-ghini-florence",
+        "slug": "gioielleria-ghini-florence",
+        "nome": "Gioielleria Ghini",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Firenze che dichiara sul sito ufficiale: «- Riparazioni gioielleria e orologeria». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Via Reginaldo Giuliani, 42/R",
+          "cap": "50141",
+          "coordinate": null,
+          "fonti": [
+            "f25-gioielleria-ghini-florence-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 055 414472",
+          "email": null,
+          "sito": "https://www.gioielleriaghini-firenze.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gioielleria-ghini-florence-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gioielleria-ghini-florence-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gioielleria-ghini-florence-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-gioielleria-ghini-florence-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-gioielleria-ghini-florence-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gioielleria-ghini-florence-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gioielleria-ghini-florence-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gioielleria-ghini-florence"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+      "nome": "Gioielleria Harvey dal 1913 - Oreficeria e Orologeria",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+        "slug": "gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin",
+        "nome": "Gioielleria Harvey dal 1913 - Oreficeria e Orologeria",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «Riparazione e Restauro Orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Nizza, 380/A",
+          "cap": "10127",
+          "coordinate": null,
+          "fonti": [
+            "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 667 0333",
+          "email": null,
+          "sito": "https://gioielleriaharvey.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gioielleria-harvey-dal-1913-oreficeria-e-orologeria-turin"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+      "nome": "Gioielleria Marone",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+        "slug": "gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin",
+        "nome": "Gioielleria Marone",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «Gioielleria Marone offre servizi di revisione, manutenzione e riparazione di orologi, con attenzione alle caratteristiche dei diversi meccanismi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Madama Cristina, 72",
+          "cap": "10126",
+          "coordinate": null,
+          "fonti": [
+            "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 347 060 2746",
+          "email": null,
+          "sito": "https://gioielleriamarone.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gioielleria-marone-vendita-creazione-e-restauro-gioielli-ed-orologi-a-torino-turin"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+      "nome": "Gioielleria Stringa",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+        "slug": "gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome",
+        "nome": "Gioielleria Stringa",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Roma che dichiara sul sito ufficiale: «Se avete un orologio da aggiustare o riparare consiglio di passare qui». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Largo dei Chiavari, 81",
+          "cap": "00186",
+          "coordinate": null,
+          "fonti": [
+            "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 683 2639",
+          "email": null,
+          "sito": "http://www.gioielleriastringa.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gioielleria-stringa-orologi-roma-assistenza-e-riparazione-orologi-e-gioielli-rome"
+        }
+      }
+    },
+    {
+      "id": "gis-srl-rome",
+      "nome": "GIS SRL",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-gis-srl-rome-fonte"
+      ],
+      "attivita": {
+        "id": "gis-srl-rome",
+        "slug": "gis-srl-rome",
+        "nome": "GIS SRL",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «RESTAURO DI OROLOGI VINTAGE». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Giuseppe Zanardelli, 23/Primo piano",
+          "cap": "00186",
+          "coordinate": null,
+          "fonti": [
+            "f25-gis-srl-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 687 9971",
+          "email": null,
+          "sito": "http://www.gisorologi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-gis-srl-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-gis-srl-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-gis-srl-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-gis-srl-rome-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-gis-srl-rome-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-gis-srl-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-gis-srl-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-gis-srl-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "gis-srl-rome"
+        }
+      }
+    },
+    {
+      "id": "innocenti-e-puggelli-snc-florence",
+      "nome": "Innocenti E Puggelli Snc",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-innocenti-e-puggelli-snc-florence-fonte"
+      ],
+      "attivita": {
+        "id": "innocenti-e-puggelli-snc-florence",
+        "slug": "innocenti-e-puggelli-snc-florence",
+        "nome": "Innocenti E Puggelli Snc",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Firenze che dichiara sul sito ufficiale: «Il nostro laboratorio effettua riparazioni di qualsiasi marca di orologi stilando anticipatamente un preventivo dettagliato gratuito evitando così spiacevoli sorprese al cliente». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Piazza Bernardo Tanucci, 26",
+          "cap": "50134",
+          "coordinate": null,
+          "fonti": [
+            "f25-innocenti-e-puggelli-snc-florence-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 055 219874",
+          "email": null,
+          "sito": "http://www.cronoip.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-innocenti-e-puggelli-snc-florence-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-innocenti-e-puggelli-snc-florence-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-innocenti-e-puggelli-snc-florence-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-innocenti-e-puggelli-snc-florence-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-innocenti-e-puggelli-snc-florence-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "innocenti-e-puggelli-snc-florence"
+        }
+      }
+    },
+    {
+      "id": "la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+      "nome": "La Mole D'Oro Orologeria Gioielleria e Compro Oro",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+      ],
+      "attivita": {
+        "id": "la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+        "slug": "la-mole-doro-orologeria-gioielleria-e-compro-oro-turin",
+        "nome": "La Mole D'Oro Orologeria Gioielleria e Compro Oro",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «VUOI RIPARARE IL TUO OROLOGIO?». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "C.so Vittorio Emanuele II, 94/E",
+          "cap": "10121",
+          "coordinate": null,
+          "fonti": [
+            "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 506 3045",
+          "email": null,
+          "sito": "https://www.lamoledoro.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-la-mole-doro-orologeria-gioielleria-e-compro-oro-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "la-mole-doro-orologeria-gioielleria-e-compro-oro-turin"
+        }
+      }
+    },
+    {
+      "id": "mastro-orologiaio-milan",
+      "nome": "Mastro Orologiaio",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-mastro-orologiaio-milan-fonte"
+      ],
+      "attivita": {
+        "id": "mastro-orologiaio-milan",
+        "slug": "mastro-orologiaio-milan",
+        "nome": "Mastro Orologiaio",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Milano che dichiara sul sito ufficiale: «--> Mastro Orologiaio assistenza riparazione orologi e gioielli a Milano --> --> --> --> --> --> --> --> --> --> --> Go to Top». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Crema, 4",
+          "cap": "20135",
+          "coordinate": null,
+          "fonti": [
+            "f25-mastro-orologiaio-milan-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 5831 8242",
+          "email": null,
+          "sito": "https://www.mastroorologiaio.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-mastro-orologiaio-milan-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-mastro-orologiaio-milan-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-mastro-orologiaio-milan-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-mastro-orologiaio-milan-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-mastro-orologiaio-milan-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "mastro-orologiaio-milan"
+        }
+      }
+    },
+    {
+      "id": "maurizio-lora-rome",
+      "nome": "Maurizio & L'Ora",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-maurizio-lora-rome-fonte"
+      ],
+      "attivita": {
+        "id": "maurizio-lora-rome",
+        "slug": "maurizio-lora-rome",
+        "nome": "Maurizio & L'Ora",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Per orologi a pendolo si effettuano, previo appuntamento, ritiro e consegna a domicilio». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Guglielmo Ciamarra, 7",
+          "cap": "00154",
+          "coordinate": null,
+          "fonti": [
+            "f25-maurizio-lora-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 8117 3467",
+          "email": null,
+          "sito": "https://www.maurizioelora.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-maurizio-lora-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-maurizio-lora-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-maurizio-lora-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-maurizio-lora-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-maurizio-lora-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-maurizio-lora-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "maurizio-lora-rome"
+        }
+      }
+    },
+    {
+      "id": "merlino-watches-rome",
+      "nome": "Merlino watches",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-merlino-watches-rome-fonte"
+      ],
+      "attivita": {
+        "id": "merlino-watches-rome",
+        "slug": "merlino-watches-rome",
+        "nome": "Merlino watches",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Il nostro laboratorio di orologeria si occupa anche di riparazione orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Viale di Villa Pamphili, B",
+          "cap": "00152",
+          "coordinate": null,
+          "fonti": [
+            "f25-merlino-watches-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 9716 1018",
+          "email": null,
+          "sito": "https://merlino-watches.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-merlino-watches-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-merlino-watches-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-merlino-watches-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-merlino-watches-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-merlino-watches-rome-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-merlino-watches-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-merlino-watches-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-merlino-watches-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "merlino-watches-rome"
+        }
+      }
+    },
+    {
+      "id": "micucci-orologi-turin",
+      "nome": "Micucci Orologi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-micucci-orologi-turin-fonte"
+      ],
+      "attivita": {
+        "id": "micucci-orologi-turin",
+        "slug": "micucci-orologi-turin",
+        "nome": "Micucci Orologi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «Revisioniamo movimenti meccanici con cura e precisione artigianale». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso Racconigi, 15/c",
+          "cap": "10138",
+          "coordinate": null,
+          "fonti": [
+            "f25-micucci-orologi-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 376 118 3286",
+          "email": null,
+          "sito": "https://www.micucciorologi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-micucci-orologi-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-micucci-orologi-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-micucci-orologi-turin-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-micucci-orologi-turin-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-micucci-orologi-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-micucci-orologi-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-micucci-orologi-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-micucci-orologi-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-micucci-orologi-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "micucci-orologi-turin"
+        }
+      }
+    },
+    {
+      "id": "musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+      "nome": "Musolino Gioielli | Gioielleria e Oreficeria, Torino",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+      ],
+      "attivita": {
+        "id": "musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+        "slug": "musolino-gioielli-gioielleria-e-oreficeria-torino-turin",
+        "nome": "Musolino Gioielli | Gioielleria e Oreficeria, Torino",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «Manutenzione orologio: tutto quello che devi sapere». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Guido Reni, 211/B",
+          "cap": "10137",
+          "coordinate": null,
+          "fonti": [
+            "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 311 1746",
+          "email": null,
+          "sito": "http://www.musolinogioielli.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-musolino-gioielli-gioielleria-e-oreficeria-torino-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "musolino-gioielli-gioielleria-e-oreficeria-torino-turin"
+        }
+      }
+    },
+    {
+      "id": "orologeria-21-rubini-rome",
+      "nome": "Orologeria 21 Rubini",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-21-rubini-rome-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-21-rubini-rome",
+        "slug": "orologeria-21-rubini-rome",
+        "nome": "Orologeria 21 Rubini",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Fornitura per Pendoleria e Riparazione». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Riccardo Pitteri, 62",
+          "cap": "00177",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-21-rubini-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 5654 8159",
+          "email": null,
+          "sito": "http://21rubinisnc.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-21-rubini-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-orologeria-21-rubini-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-orologeria-21-rubini-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-21-rubini-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-21-rubini-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-21-rubini-rome"
+        }
+      }
+    },
+    {
+      "id": "orologeria-aurili-rome",
+      "nome": "Orologeria Aurili",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-aurili-rome-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-aurili-rome",
+        "slug": "orologeria-aurili-rome",
+        "nome": "Orologeria Aurili",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Orologeria Aurili &#8211. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via del Clementino, 104",
+          "cap": "00186",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-aurili-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 687 3578",
+          "email": null,
+          "sito": "http://www.orologeria-aurili.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-aurili-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-orologeria-aurili-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-aurili-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologeria-aurili-rome-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-orologeria-aurili-rome-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f25-orologeria-aurili-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-aurili-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-aurili-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-aurili-rome"
+        }
+      }
+    },
+    {
+      "id": "orologeria-camassa-turin",
+      "nome": "Orologeria Camassa",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-camassa-turin-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-camassa-turin",
+        "slug": "orologeria-camassa-turin",
+        "nome": "Orologeria Camassa",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «--> Riparazione Orologi | Orologeria Camassa | Torino top of page». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Giuseppe Barbaroux, 9",
+          "cap": "10122",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-camassa-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 546944",
+          "email": null,
+          "sito": "https://www.orologeriacamassa.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-camassa-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-orologeria-camassa-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f25-orologeria-camassa-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-camassa-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-camassa-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-camassa-turin"
+        }
+      }
+    },
+    {
+      "id": "orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+      "nome": "Orologeria Fagnola, Assistenza Orologi Torino, Gioielleria Torino",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+        "slug": "orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin",
+        "nome": "Orologeria Fagnola, Assistenza Orologi Torino, Gioielleria Torino",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «Orologeria Fagnola Torino: Orologi di Lusso e Riparazione dal 1911 Salta al contenuto». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Antonio Gramsci, 15",
+          "cap": "10123",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 533504",
+          "email": null,
+          "sito": "https://fagnola.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-fagnola-assistenza-orologi-torino-gioielleria-torino-turin"
+        }
+      }
+    },
+    {
+      "id": "orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+      "nome": "Orologeria Maggiora dal 1970 riparazione-revisione orologi Torino",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+        "slug": "orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin",
+        "nome": "Orologeria Maggiora dal 1970 riparazione-revisione orologi Torino",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «L’orologeria Maggiora, nel settore da oltre 30 anni, offre un servizio di riparazione/revisione di orologi meccanici a carica manuale, automatica e al quarzo». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso Alcide De Gasperi, 56/d",
+          "cap": "10129",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 580 5959",
+          "email": null,
+          "sito": "https://www.orologeriamaggiora.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-maggiora-dal-1970-riparazione-revisione-orologi-torino-turin"
+        }
+      }
+    },
+    {
+      "id": "orologeria-torino-vendita-e-assistenza-turin",
+      "nome": "Orologeria Torino, vendita e assistenza",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-torino-vendita-e-assistenza-turin",
+        "slug": "orologeria-torino-vendita-e-assistenza-turin",
+        "nome": "Orologeria Torino, vendita e assistenza",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «Orologeria e oreficeria, laboratorio riparazione orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Regio Parco, 100",
+          "cap": "10036",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 392 875 9052",
+          "email": null,
+          "sito": "http://www.orologeriatorino.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologeria-torino-vendita-e-assistenza-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologeria-torino-vendita-e-assistenza-turin"
+        }
+      }
+    },
+    {
+      "id": "orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+      "nome": "Orologi e Non Solo ( Riparazioni Orologi e Gioielli )",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+      ],
+      "attivita": {
+        "id": "orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+        "slug": "orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin",
+        "nome": "Orologi e Non Solo ( Riparazioni Orologi e Gioielli )",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Torino che dichiara sul sito ufficiale: «Al servizio dei nostri clienti mettiamo a disposizione l&#8217. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Nizza, 104/C",
+          "cap": "10126",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 667 2008",
+          "email": null,
+          "sito": "http://www.riparazioniorologienonsolo.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologi-e-non-solo-riparazioni-orologi-e-gioielli-turin"
+        }
+      }
+    },
+    {
+      "id": "orologiaus-riparazione-orologi-di-lusso-rome",
+      "nome": "Orologiaus - Riparazione Orologi di Lusso",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+      ],
+      "attivita": {
+        "id": "orologiaus-riparazione-orologi-di-lusso-rome",
+        "slug": "orologiaus-riparazione-orologi-di-lusso-rome",
+        "nome": "Orologiaus - Riparazione Orologi di Lusso",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Orologiaus - Riparazioni Orologi di Lusso a Roma Home». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Viale delle Milizie, 84",
+          "cap": "00192",
+          "coordinate": null,
+          "fonti": [
+            "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 353 490 3985",
+          "email": null,
+          "sito": "https://www.orologiaus.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-orologiaus-riparazione-orologi-di-lusso-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "orologiaus-riparazione-orologi-di-lusso-rome"
+        }
+      }
+    },
+    {
+      "id": "pirex-prestige-watches-orologi-di-lusso-turin",
+      "nome": "Pirex Prestige Watches Orologi di Lusso",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+      ],
+      "attivita": {
+        "id": "pirex-prestige-watches-orologi-di-lusso-turin",
+        "slug": "pirex-prestige-watches-orologi-di-lusso-turin",
+        "nome": "Pirex Prestige Watches Orologi di Lusso",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Torino che dichiara sul sito ufficiale: «Ho portato in negozio un Rolex Yacht-Master in condizioni pessime, orologio da revisionare e sopratutto la cosa più importante da fare era sabbiare tutta la ghiera». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso Vinzaglio, 13b",
+          "cap": "10121",
+          "coordinate": null,
+          "fonti": [
+            "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 340 935 3243",
+          "email": null,
+          "sito": "http://www.pirexprestigewatches.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-pirex-prestige-watches-orologi-di-lusso-turin-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "pirex-prestige-watches-orologi-di-lusso-turin"
+        }
+      }
+    },
+    {
+      "id": "remon-lab-rome",
+      "nome": "Remon Lab",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-remon-lab-rome-fonte"
+      ],
+      "attivita": {
+        "id": "remon-lab-rome",
+        "slug": "remon-lab-rome",
+        "nome": "Remon Lab",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Riparazione, revisione e manutenzione per orologi di alta gamma». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Padova, 16",
+          "cap": "00161",
+          "coordinate": null,
+          "fonti": [
+            "f25-remon-lab-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 9727 0942",
+          "email": null,
+          "sito": "http://remonlab.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-remon-lab-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-remon-lab-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-remon-lab-rome-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-remon-lab-rome-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-remon-lab-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-remon-lab-rome-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f25-remon-lab-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-remon-lab-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-remon-lab-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "remon-lab-rome"
+        }
+      }
+    },
+    {
+      "id": "the-muse-watches-milan",
+      "nome": "THE MUSE WATCHES",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-the-muse-watches-milan-fonte"
+      ],
+      "attivita": {
+        "id": "the-muse-watches-milan",
+        "slug": "the-muse-watches-milan",
+        "nome": "THE MUSE WATCHES",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Milano che dichiara sul sito ufficiale: «Restauro orologi antichi Milano Revisione completa del meccanismo». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Pietro Maroncelli, 2",
+          "cap": "20154",
+          "coordinate": null,
+          "fonti": [
+            "f25-the-muse-watches-milan-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 2900 2568",
+          "email": null,
+          "sito": "http://www.lemuseonline.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-the-muse-watches-milan-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-the-muse-watches-milan-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-the-muse-watches-milan-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-the-muse-watches-milan-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-the-muse-watches-milan-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-the-muse-watches-milan-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-the-muse-watches-milan-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "the-muse-watches-milan"
+        }
+      }
+    },
+    {
+      "id": "the-time-lords-milan",
+      "nome": "The Time Lords",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-the-time-lords-milan-fonte"
+      ],
+      "attivita": {
+        "id": "the-time-lords-milan",
+        "slug": "the-time-lords-milan",
+        "nome": "The Time Lords",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Milano che dichiara sul sito ufficiale: «Ripariamo, revisioniamo e restauriamo orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Viale Gorizia, 8",
+          "cap": "20144",
+          "coordinate": null,
+          "fonti": [
+            "f25-the-time-lords-milan-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 8940 3872",
+          "email": null,
+          "sito": "https://www.isignorideltempo.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-the-time-lords-milan-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-the-time-lords-milan-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-the-time-lords-milan-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-the-time-lords-milan-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-the-time-lords-milan-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-the-time-lords-milan-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-the-time-lords-milan-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "the-time-lords-milan"
+        }
+      }
+    },
+    {
+      "id": "venezianico-atelier-venice",
+      "nome": "Venezianico Atelier™",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-venezianico-atelier-venice-fonte"
+      ],
+      "attivita": {
+        "id": "venezianico-atelier-venice",
+        "slug": "venezianico-atelier-venice",
+        "nome": "Venezianico Atelier™",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Venezia che dichiara sul sito ufficiale: «Presso la nostra sede potrai ricevere supporto per regolazioni, manutenzione e assistenza completa sui tuoi orologi Venezianico». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "venezia",
+        "posizione": {
+          "indirizzo": "Corso Silvio Trentin, 76",
+          "cap": "30027",
+          "coordinate": null,
+          "fonti": [
+            "f25-venezianico-atelier-venice-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0421 633923",
+          "email": null,
+          "sito": "https://it.venezianico.com/pages/atelier?utm_source=google&amp;utm_medium=mybusiness&amp;utm_campaign=sito_web",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-venezianico-atelier-venice-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-venezianico-atelier-venice-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-venezianico-atelier-venice-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-venezianico-atelier-venice-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-venezianico-atelier-venice-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-venezianico-atelier-venice-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "venezianico-atelier-venice"
+        }
+      }
+    },
+    {
+      "id": "viktor-gioielli-rome",
+      "nome": "Viktor Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-viktor-gioielli-rome-fonte"
+      ],
+      "attivita": {
+        "id": "viktor-gioielli-rome",
+        "slug": "viktor-gioielli-rome",
+        "nome": "Viktor Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Roma che dichiara sul sito ufficiale: «Forniamo anche servizi di incisione personalizzata, in modo da poter rendere ogni pezzo ancora più significativo e speciale e servizi di riparazione di orologi di alta qualità e infilatura di collane». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Gallia, 114/116",
+          "cap": "00183",
+          "coordinate": null,
+          "fonti": [
+            "f25-viktor-gioielli-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 7720 4851",
+          "email": null,
+          "sito": "https://viktorgioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-viktor-gioielli-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-viktor-gioielli-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-viktor-gioielli-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-viktor-gioielli-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-viktor-gioielli-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "viktor-gioielli-rome"
+        }
+      }
+    },
+    {
+      "id": "vintage-riparazione-orologi-rome",
+      "nome": "Vintage Riparazione Orologi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-vintage-riparazione-orologi-rome-fonte"
+      ],
+      "attivita": {
+        "id": "vintage-riparazione-orologi-rome",
+        "slug": "vintage-riparazione-orologi-rome",
+        "nome": "Vintage Riparazione Orologi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Riparazione e Assistenza Orologi | Rolex | Roma». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Appia Nuova, 45",
+          "cap": "00183",
+          "coordinate": null,
+          "fonti": [
+            "f25-vintage-riparazione-orologi-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 700 5501",
+          "email": null,
+          "sito": "http://www.vintageriparazioneorologi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-vintage-riparazione-orologi-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-vintage-riparazione-orologi-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f25-vintage-riparazione-orologi-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-vintage-riparazione-orologi-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-vintage-riparazione-orologi-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "vintage-riparazione-orologi-rome"
+        }
+      }
+    },
+    {
+      "id": "watch-hunters-milano-milan",
+      "nome": "Watch Hunters Milano",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-watch-hunters-milano-milan-fonte"
+      ],
+      "attivita": {
+        "id": "watch-hunters-milano-milan",
+        "slug": "watch-hunters-milano-milan",
+        "nome": "Watch Hunters Milano",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Milano che dichiara sul sito ufficiale: «Watch Hunters mette da sempre al primo posto la soddisfazione del Cliente, fornendo assistenza e servizi accessori come: riparazioni e restauro di orologi e gioielli e valutazioni gratuite». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Corso Magenta, 22",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f25-watch-hunters-milano-milan-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 2513 5536",
+          "email": null,
+          "sito": "http://watchhuntersmilano.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-watch-hunters-milano-milan-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-watch-hunters-milano-milan-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-watch-hunters-milano-milan-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-watch-hunters-milano-milan-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-watch-hunters-milano-milan-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-watch-hunters-milano-milan-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-watch-hunters-milano-milan-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "watch-hunters-milano-milan"
+        }
+      }
+    },
+    {
+      "id": "watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+      "nome": "Watch Lab Roma | Laboratorio Riparazione e Vendita Orologi di Lusso Revisioni e Lucidature Rolex Roma",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+      ],
+      "attivita": {
+        "id": "watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+        "slug": "watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome",
+        "nome": "Watch Lab Roma | Laboratorio Riparazione e Vendita Orologi di Lusso Revisioni e Lucidature Rolex Roma",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Offri ai tuoi clienti un servizio di qualità superiore grazie alla nostra esperienza nel restauro e nella manutenzione di orologi». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Largo Ginnasi, 4",
+          "cap": "00186",
+          "coordinate": null,
+          "fonti": [
+            "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 9604 4806",
+          "email": null,
+          "sito": "https://www.watchlabroma.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito ufficiale dichiara un laboratorio proprio per gli interventi.",
+          "fonti": [
+            "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "watch-lab-roma-laboratorio-riparazione-e-vendita-orologi-di-lusso-revisioni-e-lucidature-rolex-roma-rome"
+        }
+      }
+    },
+    {
+      "id": "watch-you-want-watches-rome",
+      "nome": "Watch You Want - Watches",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-watch-you-want-watches-rome-fonte"
+      ],
+      "attivita": {
+        "id": "watch-you-want-watches-rome",
+        "slug": "watch-you-want-watches-rome",
+        "nome": "Watch You Want - Watches",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Roma che dichiara sul sito ufficiale: «Ho potuto riparare finalmente il mio vecchio orologio». Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Metro C fermata Lodi, V. La Spezia",
+          "cap": "00182",
+          "coordinate": null,
+          "fonti": [
+            "f25-watch-you-want-watches-rome-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 392 138 4187",
+          "email": null,
+          "sito": "https://www.watchyouwant.it/?utm_source=google&amp;utm_medium=google+my+business&amp;utm_campaign=gmb",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-watch-you-want-watches-rome-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-watch-you-want-watches-rome-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-watch-you-want-watches-rome-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-watch-you-want-watches-rome-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-watch-you-want-watches-rome-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-watch-you-want-watches-rome-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "watch-you-want-watches-rome"
+        }
+      }
+    },
+    {
+      "id": "palma-gioielli-roma",
+      "nome": "Palma Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-palma-gioielli-roma-fonte"
+      ],
+      "attivita": {
+        "id": "palma-gioielli-roma",
+        "slug": "palma-gioielli-roma",
+        "nome": "Palma Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria romana con assistenza tecnica in sede su Omega, Longines, TAG Heuer e Rolex, revisioni certificate e ricambi originali. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Circonvallazione Trionfale 117/121",
+          "cap": "00195",
+          "coordinate": null,
+          "fonti": [
+            "f25-palma-gioielli-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 39734972",
+          "email": null,
+          "sito": "https://www.palmagioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-palma-gioielli-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito o il canale ufficiale dichiara un laboratorio proprio.",
+          "fonti": [
+            "f25-palma-gioielli-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-palma-gioielli-roma-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-palma-gioielli-roma-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-palma-gioielli-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-palma-gioielli-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-palma-gioielli-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "palma-gioielli-roma"
+        }
+      }
+    },
+    {
+      "id": "labortempo-milano",
+      "nome": "Labortempo",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-labortempo-milano-fonte"
+      ],
+      "attivita": {
+        "id": "labortempo-milano",
+        "slug": "labortempo-milano",
+        "nome": "Labortempo",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio milanese vicino al Duomo che dichiara riparazioni con parti originali e la preregistrazione per l’invio dell’orologio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Fieno 3",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f25-labortempo-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 72001952",
+          "email": null,
+          "sito": "https://www.labortempo.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-labortempo-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito o il canale ufficiale dichiara un laboratorio proprio.",
+          "fonti": [
+            "f25-labortempo-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-labortempo-milano-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-labortempo-milano-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-labortempo-milano-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f25-labortempo-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-labortempo-milano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-labortempo-milano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "labortempo-milano"
+        }
+      }
+    },
+    {
+      "id": "rovighi-milano",
+      "nome": "Orologeria Rovighi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-rovighi-milano-fonte"
+      ],
+      "attivita": {
+        "id": "rovighi-milano",
+        "slug": "rovighi-milano",
+        "nome": "Orologeria Rovighi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria fondata nel 1970 che dichiara revisione di movimenti al quarzo, automatici e meccanici, riparazioni di pendoleria e cambio pile con prova di impermeabilità. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Giorgio Washington 57",
+          "cap": "20146",
+          "coordinate": null,
+          "fonti": [
+            "f25-rovighi-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 02 48193341",
+          "email": null,
+          "sito": "https://www.orologeriarovighi.com/home",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-rovighi-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito o il canale ufficiale dichiara un laboratorio proprio.",
+          "fonti": [
+            "f25-rovighi-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-rovighi-milano-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-rovighi-milano-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f25-rovighi-milano-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-rovighi-milano-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-rovighi-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-rovighi-milano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-rovighi-milano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "rovighi-milano"
+        }
+      }
+    },
+    {
+      "id": "ferrante-roma",
+      "nome": "Orologeria Ferrante",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su sito ufficiale dell’attività.",
+      "fonti": [
+        "f25-ferrante-roma-fonte"
+      ],
+      "attivita": {
+        "id": "ferrante-roma",
+        "slug": "ferrante-roma",
+        "nome": "Orologeria Ferrante",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria romana dal 1961 che dichiara revisioni, riparazioni, cambio batteria e test di impermeabilità. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Viale Giulio Cesare 231",
+          "cap": "00192",
+          "coordinate": null,
+          "fonti": [
+            "f25-ferrante-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://orologeriaferrante.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-ferrante-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La fonte non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-ferrante-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f25-ferrante-roma-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f25-ferrante-roma-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-ferrante-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-ferrante-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-ferrante-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "ferrante-roma"
+        }
+      }
+    },
+    {
+      "id": "pimazzoni-torino",
+      "nome": "Pimazzoni Renato",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 su pagina ufficiale del marchio.",
+      "fonti": [
+        "f25-pimazzoni-torino-fonte"
+      ],
+      "attivita": {
+        "id": "pimazzoni-torino",
+        "slug": "pimazzoni-torino",
+        "nome": "Pimazzoni Renato",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro assistenza ufficiale Hamilton a Torino, con sostituzione di batteria e cinturino documentate dalla pagina del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso San Maurizio 7",
+          "cap": "10124",
+          "coordinate": null,
+          "fonti": [
+            "f25-pimazzoni-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 8126566",
+          "email": null,
+          "sito": "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/torino/pimazzoni-renato",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f25-pimazzoni-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La fonte non specifica se il laboratorio è interno.",
+          "fonti": [
+            "f25-pimazzoni-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f25-pimazzoni-torino-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f25-pimazzoni-torino-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f25-pimazzoni-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "f25-pimazzoni-torino-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f25-pimazzoni-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase25 lotto5: identità, sede e servizi letti sulla fonte indicata; nessuna autorizzazione di marca registrata senza pagina del marchio.",
+              "fonti": [
+                "f25-pimazzoni-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase25-20261102",
+          "idOriginale": "pimazzoni-torino"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Dalmazia+113%2C+Civitanova+Marche%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79882782,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 102273691,
+      "lat": "43.3107193",
+      "lon": "13.7271965",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339091401541158,
+      "addresstype": "residential",
+      "name": "Corso Dalmazia",
+      "display_name": "Corso Dalmazia, Centro, Civitanova Marche, Macerata, Marche, 62012, Italia",
+      "address": {
+        "road": "Corso Dalmazia",
+        "suburb": "Centro",
+        "town": "Civitanova Marche",
+        "county": "Macerata",
+        "ISO3166-2-lvl6": "IT-MC",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "62012",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.3098283",
+        "43.3116100",
+        "13.7265581",
+        "13.7278346"
+      ]
+    }
+  ]
+}

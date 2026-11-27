@@ -13,6 +13,10 @@ const canonicalUrl = new URL(canonical, Astro.site).href;
     <meta name="theme-color" content="#123c35" />
     <title>{title} | Orologiai.it</title>
     <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    {Astro.url.pathname === '/' && <link rel="stylesheet" href="/home-upgrade.css" />}
     {noindex && <meta name="robots" content="noindex,follow" />}
     {schema && <script type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g, '\\u003c')} />}
   </head>
@@ -20,11 +24,27 @@ const canonicalUrl = new URL(canonical, Astro.site).href;
     <a class="skip" href="#contenuto">Salta al contenuto</a>
     <header class="site-header"><div class="container bar">
       <a class="brand" href="/" aria-label="Orologiai.it, homepage"><span class="brand-mark" aria-hidden="true">◷</span> orologiai<span>.it</span></a>
-      <nav aria-label="Navigazione principale">
+      <nav class="desktop-nav" aria-label="Navigazione principale">
         <a href="/cerca/">Trova un orologiaio</a><a href="/orologiaio/">Chiedi all’Orologiaio</a><a href="/orologerie/">Territori</a><a href="/blog/">Storie e guide</a><a class="nav-cta" href="/partecipa/">Segnala un’attività</a>
       </nav>
+      <details class="mobile-nav"><summary>Menu <span aria-hidden="true">☰</span></summary><nav aria-label="Navigazione mobile"><a href="/cerca/">Trova un orologiaio</a><a href="/orologiaio/">Chiedi all’Orologiaio</a><a href="/orologerie/">Territori</a><a href="/blog/">Storie e guide</a><a href="/partecipa/">Segnala un’attività</a></nav></details>
     </div></header>
     <main id="contenuto"><slot /></main>
-    <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="/">orologiai<span>.it</span></a><p>Il tempo ha i suoi professionisti.<br />Stiamo costruendo la directory, una fonte alla volta.</p></div><div><a href="/metodo/">Fonti e metodo di verifica</a><br /><a href="/partecipa/">Inserimenti e correzioni</a><br /><a href="/orologerie/">Esplora i territori</a><br /><a href="/privacy/">Privacy</a> · <a href="/cookie-policy/">Cookie policy</a> · <a href="/note-legali/">Note legali</a></div><p class="small">Progetto in costruzione · Italia<br />Le informazioni storiche non sono una verifica attuale.<br />© {new Date().getFullYear()} Orologiai.it</p></div></footer>
+    <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="/">orologiai<span>.it</span></a><p>L’atlante delle botteghe e dei laboratori italiani.<br />Storie, servizi e indirizzi da esplorare.</p></div><div><a href="/metodo/">Fonti e metodo di verifica</a><br /><a href="/partecipa/">Inserimenti e correzioni</a><br /><a href="/orologerie/">Esplora i territori</a><br /><a href="/privacy/">Privacy</a> · <a href="/cookie-policy/">Cookie policy</a> · <a href="/note-legali/">Note legali</a> · <a href="/crediti/">Crediti immagini</a></div><p class="small">Guida indipendente · Italia<br />Le informazioni storiche non certificano l’operatività attuale.<br />© {new Date().getFullYear()} Orologiai.it</p></div></footer>
   </body>
 </html>
+<style is:global>
+  .mobile-nav { display: none; }
+  @media (max-width: 700px) {
+    .site-header .bar { min-height: 64px; padding-block: 8px; justify-content: space-between; flex-wrap: nowrap; position: relative; }
+    .site-header .brand { font-size: 1.55rem; }
+    .site-header .brand-mark { font-size: 1.8rem; }
+    .site-header .desktop-nav { display: none; }
+    .mobile-nav { display: block; }
+    .mobile-nav summary { list-style: none; min-height: 44px; display: flex; gap: 9px; align-items: center; font-size: .8rem; font-weight: 700; }
+    .mobile-nav summary::-webkit-details-marker { display: none; }
+    .mobile-nav summary span { font-size: 1rem; }
+    .mobile-nav nav { position: absolute; z-index: 50; top: 100%; right: 0; background: #fffefa; border: 1px solid #d8ded4; box-shadow: 0 12px 25px #0002; width: min(290px, calc(100vw - 32px)); display: flex; flex-direction: column; align-items: stretch; gap: 0; padding: 10px 18px; }
+    .mobile-nav nav a { font-size: .9rem; padding: 12px 0; }
+  }
+</style>

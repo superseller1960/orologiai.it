@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Benedetto+26%2C+Nicosia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54416606,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1175978025,
+      "lat": "37.7467911",
+      "lon": "14.3963183",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053385663385976924,
+      "addresstype": "secondary",
+      "name": "Via San Benedetto",
+      "display_name": "Via San Benedetto, Nicosia, Enna, Sicilia, 94014, Italia",
+      "address": {
+        "road": "Via San Benedetto",
+        "town": "Nicosia",
+        "county": "Enna",
+        "ISO3166-2-lvl6": "IT-EN",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "94014",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.7467908",
+        "37.7468158",
+        "14.3957792",
+        "14.3968568"
+      ]
+    }
+  ]
+}

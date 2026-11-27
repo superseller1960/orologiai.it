@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Verona%2C+25%2C+Brindisi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 62191263,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6525193704,
+      "lat": "40.6278400",
+      "lon": "17.9235180",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006635919737540272,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "25, Via Verona, Santa Chiara, Brindisi, Puglia, 72100, Italia",
+      "address": {
+        "house_number": "25",
+        "road": "Via Verona",
+        "suburb": "Santa Chiara",
+        "city": "Brindisi",
+        "county": "Brindisi",
+        "ISO3166-2-lvl6": "IT-BR",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "72100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6277900",
+        "40.6278900",
+        "17.9234680",
+        "17.9235680"
+      ]
+    }
+  ]
+}

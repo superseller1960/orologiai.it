@@ -1,0 +1,10 @@
+{
+  "descrizione": "Schede unificate o rinominate: il vecchio URL risponde 301 sulla scheda canonica. Nessuna pagina viene cancellata senza traccia.",
+  "regole": [
+    {
+      "da": "/orologeria/l-orologiaio-sardegna-porto-torres/",
+      "a": "/orologeria/lorologiaio-ascione-porto-torres/",
+      "motivo": "Fase 40: scheda duplicata della stessa azienda (Via Libio 15, Porto Torres, 079 501900) unificata nella scheda canonica preesistente."
+    }
+  ]
+}

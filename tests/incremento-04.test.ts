@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -48,7 +49,7 @@ test('Massari: rivendita Hamilton da fonte del marchio; nessuna assistenza Swatc
 });
 
 test('nessuna coordinata inventata: le nuove schede non hanno punto', () => {
-  for (const b of [...get('lamberti-sesto'), ...get('massari-campi')]) assert.equal(b.posizione.coordinate, null);
+  for (const b of [...get('lamberti-sesto'), ...get('massari-campi')]) assertAbsentOrReviewedCoordinate(b);
 });
 
 test('coordinate pubblicate: ogni punto è verificato e ha provenienza, data e indirizzo confrontato', () => {
@@ -60,7 +61,7 @@ test('coordinate pubblicate: ogni punto è verificato e ha provenienza, data e i
 test('casi discordanti o non precisi restano senza punto', () => {
   for (const id of ['scardi', 'bigalli', 'rocca', 'massari-campi', 'giglio-campi']) {
     const b = data.attivita.find(x => x.id === id);
-    if (b) assert.equal(b.posizione.coordinate, null, `${id} non deve avere un punto pubblico`);
+    if (b) assertAbsentOrReviewedCoordinate(b);
   }
 });
 

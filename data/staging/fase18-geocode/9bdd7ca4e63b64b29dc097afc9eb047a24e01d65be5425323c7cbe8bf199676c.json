@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+54%2C+Arezzo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81650251,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 342533933,
+      "lat": "43.4654563",
+      "lon": "11.8797274",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05340096665903712,
+      "addresstype": "residential",
+      "name": "Via Cavour",
+      "display_name": "Via Cavour, Arezzo, Toscana, 52100, Italia",
+      "address": {
+        "road": "Via Cavour",
+        "city": "Arezzo",
+        "county": "Arezzo",
+        "ISO3166-2-lvl6": "IT-AR",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "52100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.4650126",
+        "43.4660064",
+        "11.8789666",
+        "11.8806055"
+      ]
+    }
+  ]
+}

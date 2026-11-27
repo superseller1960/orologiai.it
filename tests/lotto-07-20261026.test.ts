@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import { readFile } from 'node:fs/promises';
 import { execFileSync } from 'node:child_process';
 import test from 'node:test';
@@ -41,7 +42,7 @@ test('Lotto 7: zero duplicati, autorizzazioni solo fonte marchio, descrizioni or
   for (const s of report.nuoveSchede) {
     const b = data.attivita.find(x => x.id === s.id)!;
     assert.ok(b.descrizione.length >= 80, `${b.id}: descrizione breve`);
-    assert.equal(b.posizione.coordinate, null, `${b.id}: coordinate non verificate`);
+    assertAbsentOrReviewedCoordinate(b);
     for (const c of [...b.marchi.rivenditaUfficiale, ...b.marchi.assistenzaUfficiale]) {
       assert.ok(c.fonti.some(fid => fontiById.get(fid)?.tipo === 'marchio-ufficiale'), `${b.id}: ${c.marca} senza fonte marchio`);
     }

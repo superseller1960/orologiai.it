@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Silva%2C+18%2C+Marano+Vicentino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74810290,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10916272015,
+      "lat": "45.6924835",
+      "lon": "11.4288933",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672747005416953,
+      "addresstype": "square",
+      "name": "Piazza Silva",
+      "display_name": "Piazza Silva, Marano Vicentino, Vicenza, Veneto, 36035, Italia",
+      "address": {
+        "square": "Piazza Silva",
+        "village": "Marano Vicentino",
+        "city": "Marano Vicentino",
+        "county": "Vicenza",
+        "ISO3166-2-lvl6": "IT-VI",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "36035",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6924335",
+        "45.6925335",
+        "11.4288433",
+        "11.4289433"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Italia%2C+12%2C+Biella%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75747561,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6388960196,
+      "lat": "45.6164933",
+      "lon": "8.1122251",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006386892500186187,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "12, Via Italia, Azario di Sotto, Pettinengo, Biella, Piemonte, 13843, Italia",
+      "address": {
+        "house_number": "12",
+        "road": "Via Italia",
+        "hamlet": "Azario di Sotto",
+        "village": "Pettinengo",
+        "county": "Biella",
+        "ISO3166-2-lvl6": "IT-BI",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "13843",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6164433",
+        "45.6165433",
+        "8.1121751",
+        "8.1122751"
+      ]
+    }
+  ]
+}

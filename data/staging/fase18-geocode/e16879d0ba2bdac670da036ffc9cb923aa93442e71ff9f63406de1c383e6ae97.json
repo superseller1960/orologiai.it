@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gagini+93%2C+Palermo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53188399,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 86565240,
+      "lat": "38.1202217",
+      "lon": "13.3621221",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053408945601586905,
+      "addresstype": "residential",
+      "name": "Via Antonio Gagini",
+      "display_name": "Via Antonio Gagini, La Loggia, I Circoscrizione, Palermo, Sicilia, 90133, Italia",
+      "address": {
+        "road": "Via Antonio Gagini",
+        "neighbourhood": "La Loggia",
+        "suburb": "I Circoscrizione",
+        "city": "Palermo",
+        "county": "Palermo",
+        "ISO3166-2-lvl6": "IT-PA",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "90133",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1190119",
+        "38.1216998",
+        "13.3615249",
+        "13.3629951"
+      ]
+    }
+  ]
+}

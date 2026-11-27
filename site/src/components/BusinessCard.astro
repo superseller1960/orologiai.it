@@ -1,21 +1,35 @@
 ---
 import type { Business } from '../lib/schema';
-import { services, statuses } from '../lib/schema';
+import { services } from '../lib/schema';
 import { businessUrl, placeOf } from '../lib/directory';
-interface Props { business: Business; compact?: boolean; }
-const { business: b, compact = false } = Astro.props;
+import { editorialSummary, featuredServices, directionsUrl, laboratoryLabel } from '../lib/business-presentation';
+interface Props { business: Business; compact?: boolean; editorial?: boolean; }
+const { business: b, compact = false, editorial = false } = Astro.props;
 const place = placeOf(b);
+const directions = directionsUrl(b,place.comune);
+const laboratory = laboratoryLabel(b);
+const role = b.marchi.assistenzaUfficiale.length ? `Assistenza autorizzata: ${b.marchi.assistenzaUfficiale.slice(0,2).map(m=>m.marca).join(', ')}`
+ : b.marchi.riparati.length ? `Riparazione: ${b.marchi.riparati.slice(0,3).map(m=>m.marca).join(', ')}`
+ : b.marchi.rivenditaUfficiale.length ? `Rivendita autorizzata: ${b.marchi.rivenditaUfficiale.slice(0,2).map(m=>m.marca).join(', ')}` : null;
+const official = [...b.marchi.assistenzaUfficiale.map(m=>`Assistenza ufficiale ${m.marca}`),...b.marchi.rivenditaUfficiale.map(m=>`Rivendita ufficiale ${m.marca}`)];
+const phone = b.contatti.telefono?.replace(/[^+\d]/g, '');
 ---
-<li class="card" data-business-id={b.id}>
-  <div class="card-top"><span class="eyebrow dark">{place.comune} · {place.siglaProvincia}</span><span class="status">{statuses[b.attendibilita.stato]}</span></div>
-  <h3><a href={businessUrl(b)}>{b.nome}</a></h3>
-  {!compact && <><p class="meta">{b.storia.annoFondazione ? `Storia documentata dal ${b.storia.annoFondazione}` : 'Una bottega da conoscere'}</p>
-  <p>{b.descrizione}</p>
-  </>}
-  {compact && <p class="meta result-types">{b.tipi.join(' · ')}</p>}
-  <p class="small muted">{b.posizione.indirizzo ?? 'Indirizzo non ancora verificato'}</p>
-  <div class="tags">{(compact ? b.servizi.slice(0,3) : b.servizi).map(s => <span class="tag">{services[s.id]}</span>)}</div>
+{editorial ? <li class="card search-result-card" data-business-id={b.id}>
+  <div class="result-topline"><span class="result-place">{place.comune} · {place.siglaProvincia}</span><span class="result-types">{b.tipi.join(' · ')}</span></div>
+  <div class="result-main">
+    <div class="result-identity"><h3><a href={businessUrl(b)}>{b.nome}</a></h3><p class="result-reason" data-reason hidden></p><p class="result-editorial">{b.descrizione}</p></div>
+    <div class="result-facts"><span class="result-facts-label">In evidenza nei servizi</span><div class="tags" aria-label="Servizi principali">{featuredServices(b).map(s=><span class="tag">{services[s.id]}</span>)}</div>{official.length>0 && <p class="result-official">{official.slice(0,2).join(' · ')}</p>}<p class="result-address">{b.posizione.indirizzo ?? 'Recapito nella scheda'}</p></div>
+  </div>
   <p class="distance small" hidden></p>
-  {compact && (b.marchi.assistenzaUfficiale.length > 0 || b.marchi.rivenditaUfficiale.length > 0) && <p class="small muted">{b.marchi.assistenzaUfficiale.map(m => `Assistenza ufficiale ${m.marca}`).concat(b.marchi.rivenditaUfficiale.map(m => `Rivendita ufficiale ${m.marca}`)).join(' · ')}</p>}
-  {compact ? <div class="result-actions">{b.contatti.telefono && <a href={`tel:${b.contatti.telefono.replace(/[^+\d]/g, '')}`} class="small">Chiama</a>}<a class="text-link" href={businessUrl(b)}>Esplora la scheda <span aria-hidden="true">↗</span></a></div> : <a class="text-link" href={businessUrl(b)}>Esplora la scheda <span aria-hidden="true">↗</span></a>}
-</li>
+  <div class="result-actions"><a class="result-primary" href={businessUrl(b)}>Apri la scheda <span aria-hidden="true">↗</span></a>{phone && <a class="result-secondary" href={`tel:${phone}`}>Chiama</a>}</div>
+</li> : <li class:list={['card',{'business-result':compact}]} data-business-id={b.id}>
+  <div class="card-top"><span class="eyebrow dark">{place.comune} · {place.siglaProvincia}</span>{b.storia.annoFondazione && <span class="result-year">Dal {b.storia.annoFondazione}</span>}</div>
+  <h3><a href={businessUrl(b)}>{b.nome}</a></h3>
+  <p class="meta result-types">{laboratory ?? b.tipi.join(' · ')}</p>
+  <p class="result-description">{editorialSummary(b)}</p>
+  {b.posizione.indirizzo && <p class="small muted result-address">{b.posizione.indirizzo}</p>}
+  <div class="tags" aria-label="Servizi principali">{featuredServices(b).map(s => <span class="tag">{services[s.id]}</span>)}</div>
+  <p class="distance small" hidden></p>
+  {role && <p class="small muted result-brand">{role}</p>}
+  <div class="result-actions"><a class="text-link" href={businessUrl(b)}>Visualizza la scheda <span aria-hidden="true">↗</span></a>{directions && <a href={directions} class="small" rel="noreferrer" aria-label={`Indicazioni per ${b.nome}`}>Indicazioni</a>}{b.contatti.telefono && <a href={`tel:${b.contatti.telefono.replace(/[^+\d]/g, '')}`} class="small" aria-label={`Chiama ${b.nome}`}>Chiama</a>}</div>
+</li>}

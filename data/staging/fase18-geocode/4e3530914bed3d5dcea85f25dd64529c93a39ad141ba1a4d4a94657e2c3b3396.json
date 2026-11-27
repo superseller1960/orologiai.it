@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti%2C+9%2C+Ravenna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77881607,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4749085954,
+      "lat": "44.3807806",
+      "lon": "11.9395376",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006346761272597875,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "9, Via Giacomo Matteotti, Cotignola, Unione dei comuni della Bassa Romagna, Ravenna, Emilia-Romagna, 48033, Italia",
+      "address": {
+        "house_number": "9",
+        "road": "Via Giacomo Matteotti",
+        "village": "Cotignola",
+        "municipality": "Unione dei comuni della Bassa Romagna",
+        "county": "Ravenna",
+        "ISO3166-2-lvl6": "IT-RA",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "48033",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.3807306",
+        "44.3808306",
+        "11.9394876",
+        "11.9395876"
+      ]
+    }
+  ]
+}

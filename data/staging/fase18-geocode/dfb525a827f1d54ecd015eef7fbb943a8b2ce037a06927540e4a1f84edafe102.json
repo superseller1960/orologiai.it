@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Alcide+De+Gasperi+5%2FM%2C+Torino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 89028020,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4735669406,
+      "lat": "45.0581202",
+      "lon": "7.6627529",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008068131532764199,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "5m, Corso Alcide De Gasperi, Crocetta, Circoscrizione 1, Torino, Piemonte, 10129, Italia",
+      "address": {
+        "house_number": "5m",
+        "road": "Corso Alcide De Gasperi",
+        "suburb": "Crocetta",
+        "city": "Torino",
+        "county": "Torino",
+        "ISO3166-2-lvl6": "IT-TO",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "10129",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.0580702",
+        "45.0581702",
+        "7.6627029",
+        "7.6628029"
+      ]
+    }
+  ]
+}

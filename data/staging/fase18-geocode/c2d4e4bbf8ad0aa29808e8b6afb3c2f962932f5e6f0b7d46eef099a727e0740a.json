@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Mercato+9%2C+Belluno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74047593,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 66346331,
+      "lat": "46.0884312",
+      "lon": "11.9875869",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053390793469138595,
+      "addresstype": "residential",
+      "name": "Piazza Mercato",
+      "display_name": "Piazza Mercato, Col San Vito, Cesiomaggiore, Belluno, Veneto, 32030, Italia",
+      "address": {
+        "road": "Piazza Mercato",
+        "hamlet": "Col San Vito",
+        "village": "Cesiomaggiore",
+        "city": "Cesiomaggiore",
+        "county": "Belluno",
+        "ISO3166-2-lvl6": "IT-BL",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "32030",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.0883929",
+        "46.0884828",
+        "11.9872881",
+        "11.9878832"
+      ]
+    }
+  ]
+}

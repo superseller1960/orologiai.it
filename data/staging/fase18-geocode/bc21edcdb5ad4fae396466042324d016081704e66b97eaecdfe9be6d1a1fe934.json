@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Libio%2C+15%2C+Porto+Torres%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81261339,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4377564321,
+      "lat": "40.8380818",
+      "lon": "8.4021343",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.000026000610360830357,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "15, Via Libio, Porto Torres, Sassari, Sardegna, 07046, Italia",
+      "address": {
+        "house_number": "15",
+        "road": "Via Libio",
+        "town": "Porto Torres",
+        "county": "Sassari",
+        "ISO3166-2-lvl6": "IT-SS",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "07046",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.8380318",
+        "40.8381318",
+        "8.4020843",
+        "8.4021843"
+      ]
+    }
+  ]
+}

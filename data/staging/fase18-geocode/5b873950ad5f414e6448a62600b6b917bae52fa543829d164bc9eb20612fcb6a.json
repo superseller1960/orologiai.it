@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Liguria%2C+84%2FB%2C+Taranto%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 428761042,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 123406722,
+      "lat": "40.4575081",
+      "lon": "17.2626868",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053402095826657475,
+      "addresstype": "tertiary",
+      "name": "Viale Liguria",
+      "display_name": "Viale Liguria, Italia, Tre Carrare, Solito-Corvisea, Taranto, Puglia, 74121, Italia",
+      "address": {
+        "road": "Viale Liguria",
+        "neighbourhood": "Italia",
+        "quarter": "Tre Carrare",
+        "suburb": "Solito-Corvisea",
+        "city": "Taranto",
+        "county": "Taranto",
+        "ISO3166-2-lvl6": "IT-TA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "74121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.4563976",
+        "40.4585961",
+        "17.2603374",
+        "17.2650260"
+      ]
+    }
+  ]
+}

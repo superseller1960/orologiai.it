@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Marconi%2C+Mantova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74732020,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1092306896,
+      "lat": "45.3251338",
+      "lon": "10.5094063",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338946135652701,
+      "addresstype": "residential",
+      "name": "Piazza Marconi",
+      "display_name": "Piazza Marconi, Medole, Mantova, Lombardia, 46046, Italia",
+      "address": {
+        "road": "Piazza Marconi",
+        "village": "Medole",
+        "county": "Mantova",
+        "ISO3166-2-lvl6": "IT-MN",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "46046",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3249797",
+        "45.3252425",
+        "10.5089423",
+        "10.5098600"
+      ]
+    }
+  ]
+}

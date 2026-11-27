@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+Saba+31%2C+Trieste%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79348712,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1370871370,
+      "lat": "45.6484543",
+      "lon": "13.7781716",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00007410162508578649,
+      "addresstype": "shop",
+      "name": "Orologeria oreficeria Rolli Poniz",
+      "display_name": "Orologeria oreficeria Rolli Poniz, 31, Corso Umberto Saba, Montuzza, Barriera Vecchia, Barriera Vecchia-San Giacomo, Trieste, Friuli-Venezia Giulia, 34131, Italia",
+      "address": {
+        "shop": "Orologeria oreficeria Rolli Poniz",
+        "house_number": "31",
+        "road": "Corso Umberto Saba",
+        "neighbourhood": "Montuzza",
+        "suburb": "Barriera Vecchia",
+        "city": "Trieste",
+        "county": "Trieste",
+        "ISO3166-2-lvl6": "IT-TS",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34131",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6484043",
+        "45.6485043",
+        "13.7781216",
+        "13.7782216"
+      ]
+    }
+  ]
+}

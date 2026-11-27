@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+S.+Francesco%2C+21%2C+Castellaneta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56239588,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1065170562,
+      "lat": "40.6269729",
+      "lon": "16.9226826",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05338714961470966,
+      "addresstype": "unclassified",
+      "name": "Via San Francesco",
+      "display_name": "Via San Francesco, Castellaneta, Taranto, Puglia, 74018, Italia",
+      "address": {
+        "road": "Via San Francesco",
+        "town": "Castellaneta",
+        "county": "Taranto",
+        "ISO3166-2-lvl6": "IT-TA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "74018",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6269626",
+        "40.6270850",
+        "16.9226260",
+        "16.9228243"
+      ]
+    }
+  ]
+}

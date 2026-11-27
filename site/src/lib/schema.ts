@@ -48,7 +48,7 @@ export const sourceSchema = z.object({
   url, titolo: text, consultataIl: date, percorsoArchivio: text.nullable(), licenza: text.nullable(),
 }).strict();
 export const localitySchema = z.object({
-  id: slugSchema, comune: text, comuneSlug: slugSchema, provincia: text, provinciaSlug: slugSchema,
+  id: slugSchema, comune: text, comuneSlug: slugSchema, frazione: text.nullable().optional(), provincia: text, provinciaSlug: slugSchema,
   siglaProvincia: z.string().regex(/^[A-Z]{2}$/), regione: text, regioneSlug: slugSchema,
   codiceIstat: z.string().regex(/^\d{6}$/).nullable(), descrizione: text, fonti: refs,
 }).strict();
@@ -74,6 +74,7 @@ export const businessSchema = z.object({
   posizione: z.object({ indirizzo: text.nullable(), cap: z.string().regex(/^\d{5}$/).nullable(), coordinate: coordinatesSchema.nullable(), fonti: z.array(slugSchema) }).strict(),
   contatti: z.object({ telefono: z.string().regex(/^\+?[\d ()/.-]{5,30}$/).nullable(), email: z.email().nullable(), sito: url.nullable(), whatsapp: z.string().regex(/^\+\d{7,15}$/).nullable(), social: z.array(url), fonti: z.array(slugSchema) }).strict(),
   orari: z.object({ giorni: z.array(z.object({ giorno: z.number().int().min(1).max(7), intervalli: z.array(interval) }).strict()), chiusure: z.array(text), verificatiIl: date.nullable(), fonti: z.array(slugSchema) }).strict(),
+  laboratorio: z.object({ tipo: z.enum(['interno', 'esterno', 'rete', 'orafo', 'non-specificato']), descrizione: text, fonti: refs }).strict().optional(),
   servizi: z.array(claim), altriServizi: z.array(z.object({ nome: text, fonti: refs }).strict()),
   specializzazioni: z.array(z.object({ id: z.enum(specializations), fonti: refs }).strict()),
   marchi: z.object({ venduti: z.array(brandClaim), riparati: z.array(brandClaim), esperienza: z.array(brandClaim), assistenzaUfficiale: z.array(brandClaim), rivenditaUfficiale: z.array(brandClaim), menzionati: z.array(brandClaim) }).strict(),
@@ -103,6 +104,7 @@ export const directorySchema = z.object({
       ...b.servizi.map(x => x.fonti), ...b.altriServizi.map(x => x.fonti), ...b.specializzazioni.map(x => x.fonti),
       ...Object.values(b.marchi).flat().map(x => x.fonti), ...b.storia.eventi.map(x => x.fonti), ...b.attendibilita.cronologia.map(x => x.fonti)];
     if (b.posizione.coordinate) sourceRefs.push(b.posizione.coordinate.fonti);
+    if (b.laboratorio) sourceRefs.push(b.laboratorio.fonti);
     sourceRefs.forEach(checkRefs);
     if (b.posizione.coordinate) {
       const c = b.posizione.coordinate;

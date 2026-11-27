@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+degli+Scipioni+298%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80929110,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 125407893,
+      "lat": "41.9085144",
+      "lon": "12.4579298",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053422295719844325,
+      "addresstype": "residential",
+      "name": "Via degli Scipioni",
+      "display_name": "Via degli Scipioni, Prati, Municipio Roma I, Roma, Lazio, 00192, Italia",
+      "address": {
+        "road": "Via degli Scipioni",
+        "quarter": "Prati",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "00192",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.9084866",
+        "41.9085426",
+        "12.4578131",
+        "12.4580464"
+      ]
+    }
+  ]
+}

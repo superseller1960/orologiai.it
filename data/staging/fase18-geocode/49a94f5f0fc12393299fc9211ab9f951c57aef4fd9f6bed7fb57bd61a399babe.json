@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Dante%2C+114%2C+Alessandria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76394294,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 313894236,
+      "lat": "44.9419105",
+      "lon": "8.4889232",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053396186007476885,
+      "addresstype": "tertiary",
+      "name": "Via Dante",
+      "display_name": "Via Dante, Quargnento, Alessandria, Piemonte, 15044, Italia",
+      "address": {
+        "road": "Via Dante",
+        "village": "Quargnento",
+        "county": "Alessandria",
+        "ISO3166-2-lvl6": "IT-AL",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "15044",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.9387843",
+        "44.9447545",
+        "8.4873585",
+        "8.4898028"
+      ]
+    }
+  ]
+}

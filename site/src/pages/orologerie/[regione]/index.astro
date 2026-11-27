@@ -26,7 +26,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', na
     <h2>Province rappresentate</h2>
     <p>{province.join(' · ')}</p>
     <h2>Comuni censiti</h2>
-    <div class="cities">{luoghi.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} ↗</h3><p>Provincia di {p.provincia} · {attivita.filter(b => b.localitaId === p.id).length} attività</p></a>)}</div>
+    <div class="cities">{luoghi.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} ↗</h3><p>Provincia di {p.provincia} · {p.frazione ? p.frazione + " · " : ""}{attivita.filter(b => b.localitaId === p.id).length} attività</p></a>)}</div>
     <h2>Servizi documentati</h2>
     <ul>{servizi.map(id => <li>{services[id as keyof typeof services]}</li>)}</ul>
     {marchi.length > 0 && <><h2>Marchi citati nelle fonti</h2><p class="small muted">Presenza in vendita, esperienza dichiarata o menzione: il ruolo di ciascun marchio è indicato nella scheda.</p><p>{marchi.join(' · ')}</p></>}

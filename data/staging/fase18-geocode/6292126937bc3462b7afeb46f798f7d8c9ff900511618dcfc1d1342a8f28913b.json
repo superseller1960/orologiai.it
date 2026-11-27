@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesare+Battisti+15%2C+Torino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 88278422,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4736057072,
+      "lat": "45.0689788",
+      "lon": "7.6868779",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008068131532764199,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "15, Via Cesare Battisti, Centro, Circoscrizione 1, Torino, Piemonte, 10123, Italia",
+      "address": {
+        "house_number": "15",
+        "road": "Via Cesare Battisti",
+        "suburb": "Centro",
+        "city": "Torino",
+        "county": "Torino",
+        "ISO3166-2-lvl6": "IT-TO",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "10123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.0689288",
+        "45.0690288",
+        "7.6868279",
+        "7.6869279"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Abruzzo+98%2C+Chieti%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80212797,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2985750983,
+      "lat": "42.3550897",
+      "lon": "14.1381668",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006514152742804635,
+      "addresstype": "shop",
+      "name": "Magie In Oro",
+      "display_name": "Magie In Oro, 98, Viale Abruzzo, Chieti Scalo, Chieti, Abruzzo, 66100, Italia",
+      "address": {
+        "shop": "Magie In Oro",
+        "house_number": "98",
+        "road": "Viale Abruzzo",
+        "quarter": "Chieti Scalo",
+        "city": "Chieti",
+        "county": "Chieti",
+        "ISO3166-2-lvl6": "IT-CH",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "66100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.3550397",
+        "42.3551397",
+        "14.1381168",
+        "14.1382168"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Campetto%2C+5%2C+Genova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76621408,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5166485604,
+      "lat": "44.4089100",
+      "lon": "8.9315877",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007821850919351518,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "5, Piazza Campetto, Sottoripa, Maddalena, Centro Est, Genova, Liguria, 16123, Italia",
+      "address": {
+        "house_number": "5",
+        "road": "Piazza Campetto",
+        "neighbourhood": "Sottoripa",
+        "suburb": "Maddalena",
+        "city": "Genova",
+        "county": "Genova",
+        "ISO3166-2-lvl6": "IT-GE",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "16123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4088600",
+        "44.4089600",
+        "8.9315377",
+        "8.9316377"
+      ]
+    }
+  ]
+}

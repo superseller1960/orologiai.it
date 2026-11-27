@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+239%2F245%2C+Benevento%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80020478,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 8136550,
+      "lat": "41.3118139",
+      "lon": "14.8809483",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339096589608602,
+      "addresstype": "secondary",
+      "name": "Corso Garibaldi",
+      "display_name": "Corso Garibaldi, San Marco dei Cavoti, Benevento, Campania, 82029, Italia",
+      "address": {
+        "road": "Corso Garibaldi",
+        "village": "San Marco dei Cavoti",
+        "county": "Benevento",
+        "ISO3166-2-lvl6": "IT-BN",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "82029",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.3098932",
+        "41.3139383",
+        "14.8794385",
+        "14.8821565"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ugo+Bassi+25%2C+San+Benedetto+del+Tronto%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79697170,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 53945425,
+      "lat": "42.9504096",
+      "lon": "13.8833255",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053394116884107695,
+      "addresstype": "residential",
+      "name": "Via Ugo Bassi",
+      "display_name": "Via Ugo Bassi, Albula centro, San Benedetto del Tronto, Ascoli Piceno, Marche, 63074, Italia",
+      "address": {
+        "road": "Via Ugo Bassi",
+        "quarter": "Albula centro",
+        "suburb": "Albula centro",
+        "town": "San Benedetto del Tronto",
+        "county": "Ascoli Piceno",
+        "ISO3166-2-lvl6": "IT-AP",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "63074",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.9492753",
+        "42.9515469",
+        "13.8828990",
+        "13.8837602"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Trieste%2C+6%2C+Cagliari%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53749742,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9662451256,
+      "lat": "39.2172058",
+      "lon": "9.1082725",
+      "category": "shop",
+      "type": "convenience",
+      "place_rank": 30,
+      "importance": 0.00007027924010066404,
+      "addresstype": "shop",
+      "name": "Alimentare",
+      "display_name": "Alimentare, 6, Viale Trieste, Stampaxi/Stampace, Cagliari, Sardegna, 09123, Italia",
+      "address": {
+        "shop": "Alimentare",
+        "house_number": "6",
+        "road": "Viale Trieste",
+        "quarter": "Stampaxi/Stampace",
+        "suburb": "Stampaxi/Stampace",
+        "city": "Cagliari",
+        "county": "Cagliari",
+        "ISO3166-2-lvl6": "IT-CA",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "09123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.2171558",
+        "39.2172558",
+        "9.1082225",
+        "9.1083225"
+      ]
+    }
+  ]
+}

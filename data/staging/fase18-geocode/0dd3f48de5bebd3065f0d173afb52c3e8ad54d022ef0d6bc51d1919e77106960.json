@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Vittorio+Emanuele+11%2C+Botrugno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56287035,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 128970843,
+      "lat": "40.0637493",
+      "lon": "18.3239740",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339094911116194,
+      "addresstype": "residential",
+      "name": "Via Vittorio Emanuele",
+      "display_name": "Via Vittorio Emanuele, Botrugno, Lecce, Puglia, 73030, Italia",
+      "address": {
+        "road": "Via Vittorio Emanuele",
+        "village": "Botrugno",
+        "county": "Lecce",
+        "ISO3166-2-lvl6": "IT-LE",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "73030",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.0632878",
+        "40.0642326",
+        "18.3230430",
+        "18.3248955"
+      ]
+    }
+  ]
+}

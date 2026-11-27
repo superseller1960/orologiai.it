@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gerolamo+Savoldo%2C+3%2C+Brescia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74493731,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12803793469,
+      "lat": "45.5285585",
+      "lon": "10.2243739",
+      "category": "craft",
+      "type": "clockmaker",
+      "place_rank": 30,
+      "importance": 0.00007271152819099744,
+      "addresstype": "craft",
+      "name": "The Watch",
+      "display_name": "The Watch, 3, Via Gerolamo Savoldo, Porta Cremona-Volta, Zona Sud, Brescia, Lombardia, 25121, Italia",
+      "address": {
+        "craft": "The Watch",
+        "house_number": "3",
+        "road": "Via Gerolamo Savoldo",
+        "suburb": "Porta Cremona-Volta",
+        "city_district": "Zona Sud",
+        "city": "Brescia",
+        "county": "Brescia",
+        "ISO3166-2-lvl6": "IT-BS",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "25121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.5285085",
+        "45.5286085",
+        "10.2243239",
+        "10.2244239"
+      ]
+    }
+  ]
+}

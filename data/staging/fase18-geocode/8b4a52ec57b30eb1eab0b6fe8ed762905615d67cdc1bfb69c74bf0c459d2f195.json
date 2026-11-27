@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tirso%2C+117%2C+Oristano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53525862,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3275215300,
+      "lat": "39.9084870",
+      "lon": "8.5896622",
+      "category": "craft",
+      "type": "watchmaker",
+      "place_rank": 30,
+      "importance": 0.00006229419394212279,
+      "addresstype": "craft",
+      "name": "Manuel Laboratorio Orologeria",
+      "display_name": "Manuel Laboratorio Orologeria, 117, Via Tirso, Cualbu, Oristano, Sardegna, 09170, Italia",
+      "address": {
+        "craft": "Manuel Laboratorio Orologeria",
+        "house_number": "117",
+        "road": "Via Tirso",
+        "quarter": "Cualbu",
+        "town": "Oristano",
+        "county": "Oristano",
+        "ISO3166-2-lvl6": "IT-OR",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "09170",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.9084370",
+        "39.9085370",
+        "8.5896122",
+        "8.5897122"
+      ]
+    }
+  ]
+}

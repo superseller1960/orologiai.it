@@ -1,0 +1,99 @@
+{
+  "data": "2026-11-01",
+  "baseSHA256": "4cdc5cb889ef148481aa8663cebbb5041c96b3cda8e8bf170a3d419df2162311",
+  "prima": 346,
+  "dopo": 350,
+  "nuove": [
+    {
+      "id": "gioielli-giuliani-prato",
+      "nome": "Gioielli Giuliani",
+      "localita": "prato"
+    },
+    {
+      "id": "virole-watch-prato",
+      "nome": "Virole Watch",
+      "localita": "prato"
+    },
+    {
+      "id": "gioielleria-suligoj-gorizia",
+      "nome": "Gioielleria Orologeria Suligoj",
+      "localita": "gorizia"
+    },
+    {
+      "id": "martines-agrigento-atenea",
+      "nome": "Martines Gioielleria — Agrigento",
+      "localita": "agrigento"
+    }
+  ],
+  "arricchite": [
+    "gioielleria-boni-belluno",
+    "de-marco-belluno"
+  ],
+  "fonti": [
+    {
+      "id": "f20-boni-storia",
+      "url": "https://www.gioielleriaboni.it/chi-siamo",
+      "citazione": "piccola bottega artigiana che poi diventa negozio; riparazione e revisione di orologi di alta gamma e restauro di pendoleria"
+    },
+    {
+      "id": "f20-boni-interventi",
+      "url": "https://www.gioielleriaboni.it/riparazione-orologi",
+      "citazione": "specializzati nella riparazione di orologi di alta gamma quali Rolex, Cartier, Jaeger Le Coultre, Omega, Patek Philippe, Baume&Mercier"
+    },
+    {
+      "id": "f20-demarco-interventi",
+      "url": "https://www.demarco-belluno.it/riparazioni-orologi-a-belluno/",
+      "citazione": "Lavaggio dei meccanismi interni; sostituzione dei meccanismi usurati; utilizzo di lubrificanti specifici; sostituzione delle guarnizioni; controlli sulla precisione"
+    },
+    {
+      "id": "f20-demarco-sede",
+      "url": "https://www.demarco-belluno.it/contatti/",
+      "citazione": "Piazza Mazzini n° 3 Belluno – De Marco: gioielli, orologi, laboratorio riparazione orologi."
+    },
+    {
+      "id": "f20-giuliani-prato",
+      "url": "https://www.gioielligiuliani.it/",
+      "citazione": "gioielleria aperta da Giuliani Piero nel 1973; negli anni 70 riparazione di orologi; all’interno del negozio due laboratori specializzati in orologeria e gioielleria; acquisto e vendita di orologi nuovi e usati"
+    },
+    {
+      "id": "f20-virole-storia",
+      "url": "https://www.virolewatch.it/pages/chi-siamo",
+      "citazione": "realtà pratese attiva nella vendita e riparazione di orologi nuovi e vintage; nata nel 2018; servizio di riparazione, perizie e stime; abbiamo allestito un laboratorio di riparazione"
+    },
+    {
+      "id": "f20-virole-sede",
+      "url": "https://www.virolewatch.it/policies/contact-information",
+      "citazione": "Via G. Matteotti,1 – 59100 Prato; Tel 0574 1662203; info@virolewatch.it"
+    },
+    {
+      "id": "f20-suligoj",
+      "url": "http://www.suligoj.com/pag_1.asp",
+      "citazione": "Laboratorio di riparazioni annesso al negozio ed assistenza post-vendita su tutti gli articoli; Orologeria; Via Carducci 49 – 34170 Gorizia; 0481 535657"
+    },
+    {
+      "id": "f20-martines-ag-sede",
+      "url": "https://www.gioielleriamartines.it/gioielleria-martines-agrigento.html",
+      "citazione": "Via Atenea 133/135, 92100 Agrigento; +39 0922 23716; boutique inaugurata nel 2016"
+    },
+    {
+      "id": "f20-martines-lab",
+      "url": "https://www.gioielleriamartines.it/assistenza-rolex-orologi-gioielleria-martines.html",
+      "citazione": "cura e manutenzione degli orologi; accanto alla nostra boutique di Piazza IV Novembre n.13 a Canicattì"
+    }
+  ],
+  "belluno": {
+    "riparatori": 2,
+    "vicentini": "Pagina servizi 403, snippet non promosso a fonte verificata; vendita preservata.",
+    "gior": "Solo laboratorio orafo, nessuna riparazione orologiera dedotta.",
+    "piaz": "Identità insufficiente: non confondere con Pasa a Lentiai/Borgo Valbelluna.",
+    "santarossa": "Nessuna nuova prova primaria: esclusa."
+  },
+  "candidateNonPubblicate": [
+    "Antica Orologeria Gallo Crotone: sole directory, nessuna fonte propria letta",
+    "Cristiano Cappellato Rovigo: servizi solo snippet social",
+    "Horology Lab Rieti: laboratorio non basta a provare riparazione",
+    "Orologeria Sotgiu Oristano: recapiti non verificabili",
+    "Massimo Avella Prato: estrazione restituisce CSS, fonte servizi non leggibile"
+  ],
+  "lotto5": "15 candidate sospese, nessuna integrazione"
+}

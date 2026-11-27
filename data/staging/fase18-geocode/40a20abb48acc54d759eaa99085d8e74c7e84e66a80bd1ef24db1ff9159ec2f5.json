@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giuseppe+Mazzini+102%2C+Ancona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80061339,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12438581256,
+      "lat": "43.6182930",
+      "lon": "13.5126848",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00003500190737769158,
+      "addresstype": "shop",
+      "name": "Mario Giorgi",
+      "display_name": "Mario Giorgi, 102, Corso Giuseppe Mazzini, Cardeto, Ancona, Marche, 60121, Italia",
+      "address": {
+        "shop": "Mario Giorgi",
+        "house_number": "102",
+        "road": "Corso Giuseppe Mazzini",
+        "quarter": "Cardeto",
+        "city": "Ancona",
+        "county": "Ancona",
+        "ISO3166-2-lvl6": "IT-AN",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "60121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6182430",
+        "43.6183430",
+        "13.5126348",
+        "13.5127348"
+      ]
+    }
+  ]
+}

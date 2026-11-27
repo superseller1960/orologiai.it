@@ -1,9 +1,12 @@
-import raw from '../../data/directory.json';
-import { directorySchema, services, type Business } from '../lib/schema';
-import { filtersFromParams, localityMatches, searchDirectory } from '../lib/search';
-import { interpretaRichiesta, cercaOrologiaio } from '../lib/assistant';
+// Fase 42: la ricerca usa l'indice compatto (soli campi di filtro e card), non il catalogo completo.
+import raw from '../../data/indice-ricerca.json';
+import { services, type Business, type Directory } from '../lib/schema';
+import { filtersFromParams, localityMatches, searchDirectory, searchDirectoryTiered, SERVIZI_GENERICI_PERTINENTI } from '../lib/search';
+import { featuredServices } from '../lib/business-presentation';
+import { motiviPerRichiesta, servizioSoloInterno } from '../lib/recommendations';
+import { creaCard } from './card-render';
 
-const data = directorySchema.parse(raw);
+const data = raw as unknown as Directory;
 const form = document.querySelector<HTMLFormElement>('#directory-search');
 const count = document.querySelector<HTMLElement>('#search-count');
 const empty = document.querySelector<HTMLElement>('#search-empty');
@@ -11,6 +14,18 @@ const list = document.querySelector<HTMLElement>('#search-results');
 if (form && count && empty && list) {
   const searchForm = form, heading = count, resultsList = list, emptyBox = empty;
   const cards = new Map(Array.from(list.querySelectorAll<HTMLElement>('[data-business-id]')).map(el => [el.dataset.businessId, el]));
+  const luoghi = new Map(data.localita.map(p => [p.id, p]));
+  // Le card non presenti nell'HTML iniziale vengono create qui, con lo stesso markup.
+  // L'elenco resta completo: cambia solo quando il browser paga il costo del markup.
+  const cardDi = (business: Business): HTMLElement => {
+    let card = cards.get(business.id);
+    if (!card) {
+      const place = luoghi.get(business.localitaId);
+      card = creaCard(business, { comune: place?.comune ?? business.localitaId, siglaProvincia: place?.siglaProvincia ?? '' });
+      cards.set(business.id, card);
+    }
+    return card;
+  };
   const field = (name: string) => searchForm.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement;
   const cityInput = field('comune') as HTMLInputElement;
   const region = field('regione'), province = field('provincia');
@@ -25,8 +40,53 @@ if (form && count && empty && list) {
   const alternative = document.querySelector<HTMLElement>('#search-alternative')!;
   const serviceHint = document.querySelector<HTMLElement>('#search-service-hint')!;
   const advancedCount = document.querySelector<HTMLElement>('#advanced-count')!;
-  let businesses: Business[] = [], shown = 12;
+  const relatedBox = document.querySelector<HTMLElement>('#search-related')!;
+  const relatedList = document.querySelector<HTMLElement>('#search-related-list')!;
+  const relatedNote = document.querySelector<HTMLElement>('#search-related-note')!;
+  // Criteri usati per la motivazione «Perché è adatto alla tua richiesta» sulle card.
+  let criteriMotivo: Parameters<typeof motiviPerRichiesta>[2] = {};
+  let businesses: Business[] = [], nonVerificate = new Set<string>(), shown = 12;
   let params = new URLSearchParams();
+  // L'interpretazione semantica pesa centinaia di KB: si carica solo per una richiesta libera
+  // e non trattiene il primo render. La ricerca letterale resta il pavimento di funzionamento.
+  let tokenSemantico = 0;
+  async function interpretaInDifferita(q: string) {
+    const token = ++tokenSemantico;
+    const letterale = businesses.map(b => b.id).join(',');
+    if (context.textContent !== null) context.textContent = 'Sto interpretando la richiesta…';
+    try {
+      const { interpretaRichiesta, cercaOrologiaio } = await import('../lib/assistant.ts');
+      const campo = field('q') as HTMLInputElement;
+      if (token !== tokenSemantico || q !== campo.value.trim()) return;
+      const { criteri } = interpretaRichiesta(q, data);
+      if (!Object.keys(criteri).length) { context.textContent = ''; return; }
+      // Come prima della Fase 41: un nome o un indirizzo già trovato non viene sostituito
+      // dall'interpretazione territoriale. Si affina solo una richiesta tecnica o senza risultati.
+      const tecnica = Boolean(criteri.servizio || (criteri.marca && (criteri.ruoloMarca || criteri.specializzazione || criteri.tipo)));
+      if (letterale && !tecnica) { context.textContent = ''; return; }
+      const esito = cercaOrologiaio(data, criteri, { limite: data.attivita.length });
+      const ids = esito.totale ? esito.risultati.map(x => x.id) : esito.alternative.map(x => x.id);
+      // Se l'interpretazione non migliora la ricerca letterale, non la sostituisce.
+      if (!ids.length || ids.join(',') === letterale) { context.textContent = ''; return; }
+      const perId = new Map(data.attivita.map(b => [b.id, b]));
+      businesses = ids.map(id => perId.get(id)!).filter(Boolean);
+      const n = businesses.length;
+      const soloAlternative = !esito.totale;
+      heading.textContent = soloAlternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}`;
+      context.textContent = soloAlternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : 'Interpretazione della richiesta applicata ai risultati.';
+      emptyBox.hidden = n > 0;
+      criteriMotivo = { servizio: criteri.servizio, marca: criteri.marca, ruoloMarca: criteri.ruoloMarca, tipo: criteri.tipo, specializzazione: criteri.specializzazione, localita: criteri.localita };
+      shown = 12;
+      paginate();
+      const mapState = { ids, relatedIds: [], localita: criteri.localita, comune: field('comune') ? String((field('comune') as HTMLInputElement).value || '') || undefined : undefined, restricted: true };
+      (window as unknown as { __directoryResults?: string[] }).__directoryResults = ids;
+      (window as unknown as { __directoryMapState?: typeof mapState }).__directoryMapState = mapState;
+      document.dispatchEvent(new CustomEvent('directory:results', { detail: mapState }));
+    } catch {
+      // Nessuna perdita di funzione: restano i risultati letterali già mostrati.
+      if (token === tokenSemantico) context.textContent = '';
+    }
+  }
 
   function restore() {
     searchForm.reset();
@@ -56,13 +116,49 @@ if (form && count && empty && list) {
   function paginate() {
     for (const card of cards.values()) card.hidden = true;
     for (const business of businesses.slice(0, shown)) {
-      const card = cards.get(business.id);
-      if (card) {
+      const card = cardDi(business);
+      {
         card.hidden = false;
+        card.dataset.proof = service.value ? (nonVerificate.has(business.id) ? 'da-verificare' : 'documentata') : '';
         const tags = card.querySelector('.tags');
         if (tags) {
-          const claims = [...business.servizi].sort((a,b) => Number(b.id === service.value) - Number(a.id === service.value)).slice(0,3);
+          const preferred = featuredServices(business);
+          const requested = business.servizi.find(s => s.id === service.value);
+          const claims = (requested ? [requested, ...preferred.filter(s => s.id !== requested.id)] : preferred).slice(0,4);
           tags.replaceChildren(...claims.map(claim => { const tag = document.createElement('span'); tag.className = 'tag'; tag.textContent = services[claim.id]; return tag; }));
+        }
+        const reason = card.querySelector<HTMLElement>('[data-reason]');
+        if (reason) {
+          const servizioScelto = service.value as keyof typeof services | '';
+          const daVerificare = Boolean(servizioScelto) && nonVerificate.has(business.id);
+          const primo = daVerificare ? undefined : motiviPerRichiesta(data, business, criteriMotivo)[0];
+          const etichetta = daVerificare ? 'Servizio da confermare' : 'Perché è adatto alla tua richiesta';
+          const testo = daVerificare
+            ? servizioSoloInterno(business, servizioScelto as keyof typeof services)
+              ? `«${services[servizioScelto as keyof typeof services]}»: la fonte descrive solo una lavorazione sui propri orologi, non un servizio al cliente.`
+              : `«${services[servizioScelto as keyof typeof services]}»: servizio indicato nella scheda, da confermare con l’attività.`
+            : primo?.testo ?? '';
+          reason.hidden = !testo;
+          if (testo) {
+            const label = document.createElement('span');
+            label.className = 'result-reason-label';
+            label.textContent = etichetta;
+            const body = document.createElement('span');
+            body.className = 'result-reason-text';
+            body.textContent = testo;
+            reason.replaceChildren(label, body);
+            // La prova resta a un clic, fuori dal testo: nessun URL grezzo nella motivazione.
+            if (primo?.verifica) {
+              const link = document.createElement('a');
+              link.className = 'result-reason-source';
+              link.href = primo.verifica.url;
+              link.rel = 'noopener noreferrer nofollow';
+              link.target = '_blank';
+              link.textContent = 'Verifica la fonte';
+              link.setAttribute('aria-label', `Verifica la fonte: ${primo.verifica.etichetta}`);
+              reason.append(link);
+            }
+          }
         }
         resultsList.append(card);
       }
@@ -74,17 +170,21 @@ if (form && count && empty && list) {
     // Conteggi contestuali: stesso perimetro della ricerca, senza il filtro servizio.
     const senzaServizio = filtersFromParams(scope);
     senzaServizio.servizio = '';
+    const perimetro = searchDirectory(data, senzaServizio);
     const counts = new Map<string, number>();
-    for (const { business } of searchDirectory(data, senzaServizio)) for (const s of business.servizi) counts.set(s.id, (counts.get(s.id) ?? 0) + 1);
+    // Conteggi allineati ai risultati del filtro: nessuna opzione che promette più di quanto mostri.
+    for (const { business } of perimetro) for (const s of business.servizi) counts.set(s.id, (counts.get(s.id) ?? 0) + 1);
     for (const option of Array.from(service.options)) {
       if (!option.value) continue;
       const label = option.dataset.label ?? option.textContent?.replace(/\s*\(\d+\)$/, '') ?? option.value;
       option.dataset.label = label;
-      option.textContent = `${label} (${counts.get(option.value) ?? 0})`;
+      const n = counts.get(option.value) ?? 0;
+      option.textContent = `${label} (${n})`;
+      option.disabled = n === 0 && option.value !== service.value;
     }
     if (serviceHint) {
       serviceHint.textContent = selected
-        ? `Numero di attività a ${selected.comune} per ciascun servizio. Scegli “Qualsiasi servizio” per vederle tutte.`
+        ? `Servizi disponibili a ${selected.comune}. Le opzioni senza corrispondenze sono disabilitate; puoi rimuovere la città per ampliare la ricerca.`
         : region.value || province.value
           ? 'Numero di attività nel territorio selezionato per ciascun servizio.'
           : 'Numero di attività in tutta Italia per ciascun servizio. Scegliere una località aggiorna i conteggi.';
@@ -122,26 +222,28 @@ if (form && count && empty && list) {
     const manual = Boolean(filters.localita || filters.regione || filters.provincia || filters.servizio || filters.marca || filters.ruoloMarca !== 'qualsiasi' || filters.tipo || filters.specializzazione || filters.stato);
     let alternative = false;
     businesses = [];
+    nonVerificate = new Set();
     if (!uncovered && !ambiguous) {
-      if (manual || !q) businesses = searchDirectory(data, filters).map(r => r.business);
-      else {
-        // Mantiene i deep link in linguaggio naturale e lo stesso interprete dell'assistente.
-        const { criteri } = interpretaRichiesta(q, data);
-        const technical = Boolean(criteri.servizio || (criteri.marca && (criteri.ruoloMarca || criteri.specializzazione || criteri.tipo)));
-        const literal = searchDirectory(data, { q });
-        if (!technical && literal.length) businesses = literal.map(r => r.business);
-        else if (Object.keys(criteri).length) {
-          const semantic = cercaOrologiaio(data, criteri, { limite: data.attivita.length });
-          const ids = semantic.totale ? semantic.risultati.map(b => b.id) : semantic.alternative.map(b => b.id);
-          const byId = new Map(data.attivita.map(b => [b.id, b]));
-          businesses = ids.map(id => byId.get(id)!).filter(Boolean);
-          alternative = !semantic.totale && ids.length > 0;
-        }
+      if (manual || !q) {
+        // Fase 43: le corrispondenze con prova documentata precedono quelle solo elencate,
+        // che restano visibili e segnalate finché l'utente non chiede il contrario.
+        const { esatti, daVerificare } = searchDirectoryTiered(data, filters);
+        nonVerificate = new Set(daVerificare.map(r => r.business.id));
+        businesses = (filters.soloDocumentate ? esatti.filter(r => !nonVerificate.has(r.business.id)) : esatti).map(r => r.business);
+      } else {
+        // Deep link in linguaggio naturale: elenco immediato, interpretazione semantica in differita.
+        businesses = searchDirectory(data, { q }).map(r => r.business);
+        void interpretaInDifferita(q);
       }
     }
     const n = businesses.length;
+    const documentate = businesses.filter(b => !nonVerificate.has(b.id)).length;
     heading.textContent = ambiguous ? `Scegli il comune di ${city}` : uncovered ? `0 attività a ${city}` : alternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}${selected ? ' a ' + selected.comune : ''}`;
-    context.textContent = [service.value ? services[service.value as keyof typeof services] : '', alternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : !city && !region.value && !province.value ? 'Ricerca in tutta Italia' : ''].filter(Boolean).join(' · ');
+    context.textContent = [
+      service.value ? services[service.value as keyof typeof services] : '',
+      nonVerificate.size ? `${documentate} con prova documentata · ${n - documentate} da verificare` : '',
+      alternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : !city && !region.value && !province.value ? 'Ricerca in tutta Italia' : '',
+    ].filter(Boolean).join(' · ');
     emptyBox.hidden = n > 0;
     emptyMessage.textContent = ambiguous ? `Esistono più località chiamate ${city}. Scegli provincia e regione nei suggerimenti.` : uncovered ? `${city} non è ancora censita. Non sostituiamo la città con altre località.${service.value ? ' Servizio richiesto: ' + services[service.value as keyof typeof services] + '.' : ''}` : `Nessuna attività${city ? ' a ' + city : ''} soddisfa tutti i filtri${service.value ? ': ' + services[service.value as keyof typeof services] : ''}. Rimuovi un filtro o modifica la ricerca.`;
     removeService.hidden = !service.value;
@@ -155,16 +257,37 @@ if (form && count && empty && list) {
     }
     shown = mode === 'initial' ? Math.max(12, Math.min(data.attivita.length, Number(new URLSearchParams(location.search).get('mostra')) || 12)) : 12;
     if (shown > 12) params.set('mostra', String(shown));
+    criteriMotivo = {
+      servizio: filters.servizio || undefined, marca: filters.marca || undefined,
+      ruoloMarca: filters.ruoloMarca && filters.ruoloMarca !== 'qualsiasi' ? filters.ruoloMarca : undefined,
+      tipo: filters.tipo || undefined, specializzazione: filters.specializzazione || undefined,
+      localita: selected?.id,
+      cap: /^\d{5}$/.test((filters.q ?? '').trim()) ? (filters.q ?? '').trim() : undefined,
+    };
     paginate();
     const ids = businesses.map(b => b.id);
+    const relatedIds = renderRelated(filters, uncovered || ambiguous || alternative);
+    const mapState = { ids, relatedIds, localita: selected?.id, comune: city || undefined, restricted: Boolean(city || region.value || province.value || q || service.value || manual) };
     (window as unknown as { __directoryResults?: string[] }).__directoryResults = ids;
-    document.dispatchEvent(new CustomEvent('directory:results', { detail: { ids } }));
+    (window as unknown as { __directoryMapState?: typeof mapState }).__directoryMapState = mapState;
+    document.dispatchEvent(new CustomEvent('directory:results', { detail: mapState }));
     renderChips();
     for (const button of document.querySelectorAll<HTMLButtonElement>('[data-service]')) button.setAttribute('aria-pressed', String(button.dataset.service === service.value));
     const url = '/cerca/' + (params.size ? '?' + params.toString() : '');
     if (mode === 'push' && url !== location.pathname + location.search) history.pushState(null, '', url);
     else if (mode !== 'draft') history.replaceState(null, '', url);
     if (reveal) revealResults();
+  }
+  function renderRelated(filters: ReturnType<typeof filtersFromParams>, skip: boolean) {
+    // Livello 2: solo con servizio selezionato e solo per servizi generici documentati, mai mescolati ai risultati esatti.
+    if (skip || !filters.servizio) { relatedBox.hidden = true; relatedList.replaceChildren(); return []; }
+    const { pertinenti } = searchDirectoryTiered(data, filters);
+    const nome = services[filters.servizio as keyof typeof services];
+    const visibili = pertinenti.map(r => r.business);
+    relatedBox.hidden = visibili.length === 0;
+    relatedNote.textContent = `Attività che documentano il servizio generico «${services[SERVIZI_GENERICI_PERTINENTI[filters.servizio as keyof typeof services]?.[0] ?? filters.servizio as keyof typeof services]}», non la voce «${nome}». Verifica con il laboratorio se esegue l’intervento richiesto.`;
+    relatedList.replaceChildren(...visibili.map(b => { const clone = cardDi(b).cloneNode(true) as HTMLElement; clone.hidden = false; clone.dataset.match = 'pertinente'; return clone; }));
+    return visibili.map(b => b.id);
   }
   function maybeOfferWiderSearch(n: number, geoOnly: boolean, filters: ReturnType<typeof filtersFromParams>) {
     // L'ampliamento è sempre dichiarato: nessun risultato fuori territorio mescolato ai risultati esatti.
@@ -199,7 +322,7 @@ if (form && count && empty && list) {
   more.addEventListener('click', () => {
     const firstNew = businesses[shown]; shown += 12; paginate();
     params.set('mostra', String(shown)); history.replaceState(null, '', '/cerca/?' + params.toString());
-    const link = firstNew && cards.get(firstNew.id)?.querySelector<HTMLElement>('h3 a'); link?.focus();
+    const link = firstNew && cardDi(firstNew).querySelector<HTMLElement>('h3 a'); link?.focus();
   });
   searchForm.addEventListener('submit', event => { event.preventDefault(); update('push', true); });
   searchForm.addEventListener('change', () => update('draft'));
@@ -219,6 +342,22 @@ if (form && count && empty && list) {
   });
   for (const button of document.querySelectorAll<HTMLButtonElement>('.search-shortcut')) button.addEventListener('click', () => {
     const target = field(button.dataset.shortcutField ?? 'servizio'); if (target) target.value = button.dataset.shortcutValue ?? '';
+    update('push', true);
+  });
+  // Percorso guidato: pulsanti che applicano i filtri reali, nessun motore parallelo.
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-bisogno]')) button.addEventListener('click', () => {
+    const bisogno = button.dataset.bisogno ?? '';
+    if (bisogno === 'assistenza-marca') {
+      service.value = '';
+      const marca = field('marca') as HTMLSelectElement | null;
+      const ruolo = field('ruoloMarca') as HTMLSelectElement | null;
+      if (marca) marca.value = '';
+      if (ruolo) ruolo.value = 'assistenzaUfficiale';
+      marca?.focus();
+      update('push', true);
+      return;
+    }
+    service.value = bisogno;
     update('push', true);
   });
   load();

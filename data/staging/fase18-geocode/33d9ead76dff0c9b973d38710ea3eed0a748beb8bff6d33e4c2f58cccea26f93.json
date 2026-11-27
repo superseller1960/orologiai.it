@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rialto%2C+8%2F9%2C+Rovereto%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74651062,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24816902,
+      "lat": "45.8895336",
+      "lon": "11.0443027",
+      "category": "highway",
+      "type": "living_street",
+      "place_rank": 26,
+      "importance": 0.05339809491111616,
+      "addresstype": "living_street",
+      "name": "Via Rialto",
+      "display_name": "Via Rialto, Santa Maria, Rovereto, Comunità della Vallagarina, Trento, Trentino-Alto Adige, 38068, Italia",
+      "address": {
+        "road": "Via Rialto",
+        "suburb": "Santa Maria",
+        "town": "Rovereto",
+        "municipality": "Comunità della Vallagarina",
+        "county": "Trento",
+        "ISO3166-2-lvl6": "IT-TN",
+        "state": "Trentino-Alto Adige",
+        "ISO3166-2-lvl4": "IT-32",
+        "postcode": "38068",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8891815",
+        "45.8899478",
+        "11.0438933",
+        "11.0448323"
+      ]
+    }
+  ]
+}

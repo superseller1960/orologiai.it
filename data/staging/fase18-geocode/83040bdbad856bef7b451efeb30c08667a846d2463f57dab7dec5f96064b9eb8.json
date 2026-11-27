@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+124%2C+Angri%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80279246,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4168076600,
+      "lat": "40.7387054",
+      "lon": "14.5783367",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.0000607408255130391,
+      "addresstype": "shop",
+      "name": "Gioielleria Comentale",
+      "display_name": "Gioielleria Comentale, 124, Corso Italia, Angri, Salerno, Campania, 84012, Italia",
+      "address": {
+        "shop": "Gioielleria Comentale",
+        "house_number": "124",
+        "road": "Corso Italia",
+        "town": "Angri",
+        "county": "Salerno",
+        "ISO3166-2-lvl6": "IT-SA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "84012",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.7386554",
+        "40.7387554",
+        "14.5782867",
+        "14.5783867"
+      ]
+    }
+  ]
+}

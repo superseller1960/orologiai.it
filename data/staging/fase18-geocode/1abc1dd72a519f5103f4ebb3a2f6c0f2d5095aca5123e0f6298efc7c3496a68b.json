@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Cavour%2C+23%2C+Messina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54057446,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 667467579,
+      "lat": "38.1917446",
+      "lon": "15.5529631",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053404183260852944,
+      "addresstype": "secondary",
+      "name": "Corso Cavour",
+      "display_name": "Corso Cavour, Fondo Basicò, Torre Vittoria, IV Circoscrizione, Messina, Sicilia, 98122, Italia",
+      "address": {
+        "road": "Corso Cavour",
+        "neighbourhood": "Fondo Basicò",
+        "quarter": "Torre Vittoria",
+        "suburb": "IV Circoscrizione",
+        "city": "Messina",
+        "county": "Messina",
+        "ISO3166-2-lvl6": "IT-ME",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "98122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1897803",
+        "38.1937085",
+        "15.5517456",
+        "15.5541805"
+      ]
+    }
+  ]
+}

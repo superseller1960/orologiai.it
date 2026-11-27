@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Farini%2C+10%2C+Parma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76029637,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 36873833,
+      "lat": "44.8164586",
+      "lon": "9.9703025",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053392771038376405,
+      "addresstype": "residential",
+      "name": "Via Farini",
+      "display_name": "Via Farini, Salsominore, Salsomaggiore Terme, Parma, Emilia-Romagna, 43039, Italia",
+      "address": {
+        "road": "Via Farini",
+        "village": "Salsominore",
+        "town": "Salsomaggiore Terme",
+        "county": "Parma",
+        "ISO3166-2-lvl6": "IT-PR",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "43039",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.8163074",
+        "44.8165370",
+        "9.9688963",
+        "9.9717021"
+      ]
+    }
+  ]
+}

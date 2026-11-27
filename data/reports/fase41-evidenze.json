@@ -1,0 +1,102 @@
+{
+ "aggiornatoIl": "2026-11-06",
+ "catalogo": {
+  "attivita": 556,
+  "localita": 249
+ },
+ "registro": 1818,
+ "prioritari": {
+  "revisione": {
+   "etichetta": "Revisione",
+   "associazioni": 190,
+   "confermate": 134,
+   "daVerificare": 56,
+   "frasiSenzaParola": 0,
+   "attivitaDistinte": 190
+  },
+  "riparazione": {
+   "etichetta": "Riparazione",
+   "associazioni": 318,
+   "confermate": 239,
+   "daVerificare": 79,
+   "frasiSenzaParola": 6,
+   "attivitaDistinte": 318
+  },
+  "riparazione-automatici": {
+   "etichetta": "Riparazione automatici",
+   "associazioni": 17,
+   "confermate": 15,
+   "daVerificare": 2,
+   "frasiSenzaParola": 0,
+   "attivitaDistinte": 17
+  },
+  "pendoleria": {
+   "etichetta": "Pendoleria",
+   "associazioni": 63,
+   "confermate": 49,
+   "daVerificare": 14,
+   "frasiSenzaParola": 0,
+   "attivitaDistinte": 63
+  },
+  "restauro-vintage": {
+   "etichetta": "Restauro vintage",
+   "associazioni": 100,
+   "confermate": 77,
+   "daVerificare": 23,
+   "frasiSenzaParola": 0,
+   "attivitaDistinte": 100
+  },
+  "assistenza": {
+   "etichetta": "Assistenza",
+   "associazioni": 130,
+   "confermate": 88,
+   "daVerificare": 42,
+   "frasiSenzaParola": 0,
+   "attivitaDistinte": 130
+  }
+ },
+ "frasiDaRivedere": [
+  {
+   "attivitaId": "centro-assistenza-benettelli-mestre",
+   "servizio": "riparazione",
+   "estratto": "Lucidatura al Lapidello e Nastratrice - Sabbiatura - Ripristino Laser per Casse e Bracciali.",
+   "fonte": "f22-benettelli-sito",
+   "url": "https://www.orologeriabenettelli.com/"
+  },
+  {
+   "attivitaId": "franco-cuomo-gioielli-andria",
+   "servizio": "riparazione",
+   "estratto": "Il servizio di revisione completa ripristina il funzionamento e l'aspetto estetico dell orologio.",
+   "fonte": "l6-www-francocuomogioielli-it-centro-assistenza-certificato",
+   "url": "https://www.francocuomogioielli.it/centro-assistenza-certificato.html"
+  },
+  {
+   "attivitaId": "il-francescone-milano",
+   "servizio": "riparazione",
+   "estratto": "Ripristiniamo lucidature e satinature con attenzione alle finiture e alle geometrie del tuo orologio..",
+   "fonte": "f23-il-francescone-milano-sito",
+   "url": "https://ilfrancesconemilano.it/"
+  },
+  {
+   "attivitaId": "mercuri-orologi-arezzo",
+   "servizio": "riparazione",
+   "estratto": "Il ripristino estetico del tuo orologio è fondamentale per mantenere il suo valore e la sua bellezza.",
+   "fonte": "l7-www-mercuriorologi-it-manutenzione-orologi-lusso",
+   "url": "https://www.mercuriorologi.it/manutenzione-orologi-lusso/"
+  },
+  {
+   "attivitaId": "portanova-bologna",
+   "servizio": "riparazione",
+   "estratto": "Restauri Restauri su Casse Ripristino filettature cassa Rolex Submariner.",
+   "fonte": "t08-portanova-sito",
+   "url": "https://www.laboratorioportanova.eu/"
+  },
+  {
+   "attivitaId": "vincenzo-salerno-ragusa",
+   "servizio": "riparazione",
+   "estratto": "ripristino dell’orologio, revisione del movimento e lucidatura) prevede una garanzia del lavoro di 2 anni.",
+   "fonte": "l7-www-orologiaiovincenzosalerno-it",
+   "url": "https://www.orologiaiovincenzosalerno.it/"
+  }
+ ]
+}

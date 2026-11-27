@@ -12,9 +12,43 @@ export function duplicateSignals(a: Business, b: Business): string[] {
   if (samePlace && address(a.posizione.indirizzo) && address(a.posizione.indirizzo) === address(b.posizione.indirizzo)) reasons.push('Indirizzo normalizzato e comune coincidenti');
   if (phone(a.contatti.telefono) && phone(a.contatti.telefono) === phone(b.contatti.telefono)) reasons.push('Telefono coincidente');
   if (a.contatti.sito && b.contatti.sito && new URL(a.contatti.sito).hostname.replace(/^www\./,'') === new URL(b.contatti.sito).hostname.replace(/^www\./,'')) reasons.push('Dominio ufficiale condiviso: possibile rete con più sedi');
-  if (a.posizione.coordinate && b.posizione.coordinate && distanceKm(a.posizione.coordinate,b.posizione.coordinate) < .075) reasons.push('Coordinate entro 75 metri');
+  // Due botteghe vicine con nomi e civici distinti non sono duplicati: con la
+  // geocodifica nazionale la sola distanza generava falsi positivi nei centri storici.
+  const ambiguousIdentity = !a.posizione.indirizzo || !b.posizione.indirizzo || address(a.posizione.indirizzo) === address(b.posizione.indirizzo) || name(a.nome) === name(b.nome);
+  if (ambiguousIdentity && a.posizione.coordinate && b.posizione.coordinate && distanceKm(a.posizione.coordinate,b.posizione.coordinate) < .075) reasons.push('Coordinate entro 75 metri con identità o indirizzo da distinguere');
   return reasons;
 }
+// Classificazione richiesta dalla Fase 40: un duplicato certo non deve mai entrare in catalogo.
+// Si basa su identità verificabili (telefono, indirizzo nello stesso comune, dominio condiviso),
+// mai sulla sola somiglianza del nome.
+export type ClasseDuplicato = 'duplicato-confermato' | 'possibile-duplicato' | 'attivita-distinta';
+export function classificaCoppia(a: Business, b: Business): { classe: ClasseDuplicato; motivi: string[] } {
+  const motivi: string[] = [];
+  const stessoComune = a.localitaId === b.localitaId;
+  const telA = phone(a.contatti.telefono), telB = phone(b.contatti.telefono);
+  if (telA && telA.length >= 8 && telA === telB) motivi.push('Telefono identico');
+  const indA = address(a.posizione.indirizzo), indB = address(b.posizione.indirizzo);
+  if (stessoComune && indA && indA === indB) motivi.push('Indirizzo identico nello stesso comune');
+  const domA = a.contatti.sito ? new URL(a.contatti.sito).hostname.replace(/^www\./, '') : '';
+  const domB = b.contatti.sito ? new URL(b.contatti.sito).hostname.replace(/^www\./, '') : '';
+  // Un dominio condiviso non basta: la stessa insegna può avere due negozi nella stessa città.
+  if (domA && domA === domB) motivi.push(stessoComune ? 'Dominio condiviso nello stesso comune: due sedi della stessa insegna' : 'Dominio condiviso in comuni diversi: possibile rete con più sedi');
+  // Confermano il duplicato solo telefono o indirizzo identici: dati dell'attività, non del marchio.
+  if (motivi.includes('Telefono identico') || motivi.includes('Indirizzo identico nello stesso comune')) return { classe: 'duplicato-confermato', motivi };
+  if (motivi.length) return { classe: 'possibile-duplicato', motivi };
+  if (stessoComune && name(a.nome) && name(a.nome) === name(b.nome)) return { classe: 'possibile-duplicato', motivi: ['Nome normalizzato coincidente nello stesso comune'] };
+  return { classe: 'attivita-distinta', motivi };
+}
+
+export function auditDuplicati(data: Directory): { coppia: [string, string]; classe: ClasseDuplicato; motivi: string[] }[] {
+  const esiti: { coppia: [string, string]; classe: ClasseDuplicato; motivi: string[] }[] = [];
+  for (let i = 0; i < data.attivita.length; i++) for (let j = i + 1; j < data.attivita.length; j++) {
+    const { classe, motivi } = classificaCoppia(data.attivita[i], data.attivita[j]);
+    if (classe !== 'attivita-distinta') esiti.push({ coppia: [data.attivita[i].id, data.attivita[j].id], classe, motivi });
+  }
+  return esiti;
+}
+
 export function findDuplicates(data: Directory): DuplicateMatch[] {
   const results: DuplicateMatch[] = [];
   for (let i=0;i<data.attivita.length;i++) for (let j=i+1;j<data.attivita.length;j++) {

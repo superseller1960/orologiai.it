@@ -1,0 +1,1914 @@
+{
+  "data": "2026-11-03",
+  "totale": 87,
+  "nuovi": 26,
+  "duplicati": 61,
+  "problemi": [],
+  "candidati": [
+    {
+      "id": "carrieri-mastri-orologiai-bari",
+      "nome": "Carrieri Mastri Orologiai",
+      "comune": "Bari",
+      "sigla": "BA",
+      "indirizzo": "Via Sparano 50",
+      "cap": "70121",
+      "telefono": "080 5218448",
+      "sito": "https://www.orologeriacarrieri.com",
+      "url": "https://www.orologeriacarrieri.com/",
+      "evidenza": "Pagina ufficiale: «Nel laboratorio di orologeria Carrieri, il più grande in Puglia, si effettuano interventi di estrema precisione»; riparazione, cronografi, rigenerazione quadrante, prova di impermeabilità, restauro.",
+      "esito": "duplicato",
+      "duplicatoDi": "carrieri-bari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-rafaschieri-bari",
+      "nome": "Orologeria Rafaschieri",
+      "comune": "Bari",
+      "sigla": "BA",
+      "indirizzo": "Via De Rossi 148",
+      "cap": "70122",
+      "telefono": null,
+      "sito": "https://www.orologirafaschieri.it",
+      "url": "https://www.orologirafaschieri.it/",
+      "evidenza": "Sito ufficiale: «Riparazione di orologi di lusso e multimarca · revisione completa del movimento», sostituzione corona e guarnizioni, lucidatura cassa.",
+      "esito": "duplicato",
+      "duplicatoDi": "rafaschieri-bari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "la-misura-del-tempo-bari",
+      "nome": "La Misura del Tempo",
+      "comune": "Bari",
+      "sigla": "BA",
+      "indirizzo": "Via Calefati 31",
+      "cap": "70122",
+      "telefono": null,
+      "sito": "https://www.lamisuradeltempo.it",
+      "url": "https://www.lamisuradeltempo.it/Riparazione-orologi",
+      "evidenza": "Pagina «Riparazione orologi»: «Il nostro laboratorio di orologeria offre assistenza a privati, negozi e aziende»; riparazione di orologi meccanici e automatici.",
+      "esito": "duplicato",
+      "duplicatoDi": "la-misura-del-tempo-bari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-magno-bari",
+      "nome": "Orologeria Magno",
+      "comune": "Bari",
+      "sigla": "BA",
+      "indirizzo": "Viale Antonio Salandra 17",
+      "cap": "70124",
+      "telefono": "080 5566235",
+      "sito": "https://www.orologeriamagno.it",
+      "url": "https://www.orologeriamagno.it/",
+      "evidenza": "Sito ufficiale: «in grado di riparare qualsiasi tipo di orologio, antico o moderno, da polso, da tasca o a pendolo»; restauro, pendoleria, orologi al diapason.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.orologeriamagno.it/",
+        "caratteriTesto": 3066,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "restaur",
+          "assistenz",
+          "laborator",
+          "pendol"
+        ],
+        "capPresente": false,
+        "viaPresente": false,
+        "telefonoPresente": false,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "restauro-vintage",
+        "pendoleria",
+        "orologi-tasca"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "old-clock-bari-bari",
+      "nome": "Old Clock Bari",
+      "comune": "Bari",
+      "sigla": "BA",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": "+39 338 9457994",
+      "sito": "https://www.oldclockbari.it",
+      "url": "https://www.oldclockbari.it/",
+      "evidenza": "Sito ufficiale: «oggi un centro assistenza specializzato in riparazione, manutenzione e vendita di ogni tipo di orologio»; restauro di pendoleria antica e orologeria da polso.",
+      "esito": "duplicato",
+      "duplicatoDi": "old-clock-bari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "l-orologiaio-taranto-taranto",
+      "nome": "L'Orologiaio Taranto",
+      "comune": "Taranto",
+      "sigla": "TA",
+      "indirizzo": "Viale Liguria 84/B",
+      "cap": "74121",
+      "telefono": "099 9943346",
+      "sito": "https://orologiaiostore.it",
+      "url": "https://orologiaiostore.it/riparazioni-orologi-taranto/",
+      "evidenza": "Pagina «Riparazioni orologi Taranto»: riparazione di meccanici, automatici, cronografi e calendario perpetuo, revisione, restauro conservativo, ricostruzione pezzi.",
+      "esito": "duplicato",
+      "duplicatoDi": "lorologiaio-taranto",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologiaio-zaccaria-angelo-pulsano",
+      "nome": "Orologiaio Zaccaria Angelo",
+      "comune": "Pulsano",
+      "sigla": "TA",
+      "indirizzo": "Via Roma 46",
+      "cap": "74026",
+      "telefono": "+39 347 4396566",
+      "sito": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "url": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "evidenza": "Sito ufficiale: «Revisione completa di orologi meccanici con regolazione di precisione e sostituzione componenti usurati»; riparazione vintage e manutenzione automatici.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+        "caratteriTesto": 1796,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "giuseppe-ciletti-foggia",
+      "nome": "Giuseppe Ciletti",
+      "comune": "Foggia",
+      "sigla": "FG",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://giuseppeciletti.it",
+      "url": "https://giuseppeciletti.it/servizi/",
+      "evidenza": "Pagina «Servizi»: «La presenza, nella sede della Gioielleria Giuseppe Ciletti, del laboratorio tecnico di assistenza post vendita dei marchi ROLEX e TUDOR»; revisioni periodiche e riparazioni.",
+      "esito": "duplicato",
+      "duplicatoDi": "gioielleria-ciletti-foggia",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "f-lli-gallo-cosenza",
+      "nome": "F.lli Gallo",
+      "comune": "Cosenza",
+      "sigla": "CS",
+      "indirizzo": "Corso Mazzini 43/45",
+      "cap": "87100",
+      "telefono": "0984 406536",
+      "sito": "https://www.fratelligallo.it",
+      "url": "https://www.fratelligallo.it/rolex/team/",
+      "evidenza": "Pagina ufficiale: «In quanto centro assistenza certificato Rolex, il nostro laboratorio... ci consente di effettuare la revisione»; laboratorio interno con orologiai.",
+      "esito": "duplicato",
+      "duplicatoDi": "fratelli-gallo-cosenza",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "officina4-watchmaking-merano",
+      "nome": "Officina4 Watchmaking",
+      "comune": "Merano",
+      "sigla": "BZ",
+      "indirizzo": "Via Galilei 33",
+      "cap": "39012",
+      "telefono": "+39 351 9616776",
+      "sito": "https://www.officina4.com",
+      "url": "https://www.officina4.com/IT---OFFICINA-4.html",
+      "evidenza": "Pagina ufficiale: «Ripariamo orologi al quarzo, automatici e con complicazioni... Revisione»; vetro, cinturino, lucidatura, prova di impermeabilità.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.officina4.com/IT---OFFICINA-4.html",
+        "caratteriTesto": 4333,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "assistenz"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "revisione",
+        "lucidatura",
+        "cinturini"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologiaio-clementi-bolzano",
+      "nome": "Orologiaio Clementi",
+      "comune": "Bolzano",
+      "sigla": "BZ",
+      "indirizzo": "Piazza delle Erbe 24/A",
+      "cap": "39100",
+      "telefono": "0471 974482",
+      "sito": "https://www.orologiaio-clementi.it",
+      "url": "https://www.orologiaio-clementi.it/",
+      "evidenza": "Sito ufficiale: «La riparazione e il restauro di orologi… da più di 35 anni»; orologi da polso e da tasca, formazione WOSTEP.",
+      "esito": "duplicato",
+      "duplicatoDi": "orologeria-clementi-bolzano",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "v-gasser-brunico",
+      "nome": "V. Gasser",
+      "comune": "Brunico",
+      "sigla": "BZ",
+      "indirizzo": "Via Centrale 44",
+      "cap": "39031",
+      "telefono": "+39 0474 555449",
+      "sito": "https://it.vgasser.it",
+      "url": "https://it.vgasser.it/pages/werkstatt",
+      "evidenza": "Pagina «Officina»: «tre maestri orologiai… revisione, rimessa a nuovo… test di resistenza all'acqua»; manutenzione, lucidatura, pendole e sveglie.",
+      "esito": "duplicato",
+      "duplicatoDi": "v-gasser-brunico",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "poli-maier-bressanone",
+      "nome": "Poli Maier",
+      "comune": "Bressanone",
+      "sigla": "BZ",
+      "indirizzo": "Portici Minori 8 F",
+      "cap": "39042",
+      "telefono": "+39 0472 837079",
+      "sito": "https://polimaier.it",
+      "url": "https://polimaier.it/it/",
+      "evidenza": "Sito ufficiale: «Paolo Poli è orologiaio di formazione… Riparazione di movimenti meccanici»; pulizia e revisione, quarzo, batteria, cinturini.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://polimaier.it/it/",
+        "caratteriTesto": 7145,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": true,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "batterie",
+        "cinturini"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "zanoni-preziosi-trento",
+      "nome": "Zanoni Preziosi",
+      "comune": "Trento",
+      "sigla": "TN",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://zanonipreziosi.it",
+      "url": "https://zanonipreziosi.it/la-tradizione-e-una-garanzia-per-la-riparazione-di-orologi-e-sveglie-a-trento/",
+      "evidenza": "Pagina «Riparazione di orologi e sveglie a Trento»: riparazione e restauro di orologi e sveglie, revisione, cucù e pendole.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://zanonipreziosi.it/la-tradizione-e-una-garanzia-per-la-riparazione-di-orologi-e-sveglie-a-trento/",
+        "caratteriTesto": 3877,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "pendol"
+        ],
+        "capPresente": null,
+        "viaPresente": null,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologica-torino-torino",
+      "nome": "Orologica Torino",
+      "comune": "Torino",
+      "sigla": "TO",
+      "indirizzo": "Corso A. De Gasperi 5/M",
+      "cap": "10129",
+      "telefono": "011 364404",
+      "sito": "https://www.orologicatorino.it",
+      "url": "https://www.orologicatorino.it/riparazione-orologi-al-quarzo-e-meccanici-in-laboratorio-a-torino/",
+      "evidenza": "Pagina «Riparazione orologi in laboratorio a Torino»: «dal cambio della batteria alla revisione del movimento, con l'impiego di ricambi originali»; impermeabilità, restauro cassa e bracciale.",
+      "esito": "duplicato",
+      "duplicatoDi": "orologica-torino",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "ctr-l-ora-esatta-torino",
+      "nome": "CTR L'Ora Esatta",
+      "comune": "Torino",
+      "sigla": "TO",
+      "indirizzo": "Via Volta 3/f",
+      "cap": null,
+      "telefono": null,
+      "sito": "http://www.loraesatta.it",
+      "url": "http://www.loraesatta.it/cosa-facciamo.html",
+      "evidenza": "Pagina «Cosa facciamo»: «revisioni meccaniche orologi con smontaggio completo delle componenti; restauro orologi antichi»; impermeabilità, lucidatura casse.",
+      "esito": "duplicato",
+      "duplicatoDi": "ctr-lora-esatta-torino",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "gioielleria-rabino-cuneo",
+      "nome": "Gioielleria Rabino",
+      "comune": "Cuneo",
+      "sigla": "CN",
+      "indirizzo": "Corso Nizza 10",
+      "cap": "12100",
+      "telefono": null,
+      "sito": "https://www.gioielleriarabino.com",
+      "url": "https://www.gioielleriarabino.com/orologi/",
+      "evidenza": "Pagina «Orologi»: «interventi di manutenzione e riparazione… restaurare casse, quadranti e bracciali»; laboratorio interno dal 2004, movimenti meccanici e al quarzo.",
+      "esito": "duplicato",
+      "duplicatoDi": "gioielleria-rabino-cuneo",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "alfio-censi-genova",
+      "nome": "Alfio Censi",
+      "comune": "Genova",
+      "sigla": "GE",
+      "indirizzo": "Via Canevari 264 R",
+      "cap": "16137",
+      "telefono": null,
+      "sito": "https://www.alfiocensi.it",
+      "url": "https://www.alfiocensi.it/",
+      "evidenza": "Sito ufficiale: «Riparazione di orologi di qualsiasi marca… restauro di orologi antichi, anche del XVIII secolo»; ricostruzione pezzi e perizie.",
+      "esito": "duplicato",
+      "duplicatoDi": "censi-genova",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "l-orologiaio-giuliano-genova",
+      "nome": "L'Orologiaio Giuliano",
+      "comune": "Genova",
+      "sigla": "GE",
+      "indirizzo": "Piazza Campetto 5",
+      "cap": "16123",
+      "telefono": null,
+      "sito": "https://www.lorologiaiogiuliano.it",
+      "url": "https://www.lorologiaiogiuliano.it/",
+      "evidenza": "Sito ufficiale: laboratorio di orologeria, «richiedere la riparazione di orologi da tasca e da taschino»; pile e cinturini.",
+      "esito": "duplicato",
+      "duplicatoDi": "orologiaio-giuliano-genova",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-lazzini-sarzana",
+      "nome": "Orologeria Lazzini",
+      "comune": "Sarzana",
+      "sigla": "SP",
+      "indirizzo": "Via Paganino 2",
+      "cap": "19038",
+      "telefono": "+39 0187 603178",
+      "sito": "https://www.adjora.it",
+      "url": "https://www.adjora.it/comelavoriamo/riparazione-orologi.html",
+      "evidenza": "Pagina «Riparazione orologi»: «L'Orologeria Lazzini non usa autolubrificanti… revisioni eseguite in maniera completamente artigianale»; restauro pendoli e cucù, impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "lazzini-sarzana",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "ciesse-laboratorio-d-orologeria-padova",
+      "nome": "CieSSe Laboratorio d'Orologeria",
+      "comune": "Padova",
+      "sigla": "PD",
+      "indirizzo": "Via Piovese 79",
+      "cap": "35127",
+      "telefono": "049 8042059",
+      "sito": "https://www.ciesse-orologi.it",
+      "url": "https://www.ciesse-orologi.it/",
+      "evidenza": "Sito ufficiale: «dalla sostituzione della pila e prova d'impermeabilità … alla revisione completa»; lucidatura, vetro, corona.",
+      "esito": "duplicato",
+      "duplicatoDi": "ciesse-padova",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "cronomania-padova",
+      "nome": "Cronomania",
+      "comune": "Padova",
+      "sigla": "PD",
+      "indirizzo": "Via Cesare Battisti 36",
+      "cap": "35121",
+      "telefono": "049 656244",
+      "sito": "https://www.cronomania.it",
+      "url": "https://www.cronomania.it/il-laboratorio/",
+      "evidenza": "Pagina «Il laboratorio»: «riparazioni e revisioni a regola d'arte e garantite due anni»; orologi da polso, tasca e tavolo, prova di impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "cronomania-padova",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "soprana-dal-1910-vicenza",
+      "nome": "Soprana dal 1910",
+      "comune": "Vicenza",
+      "sigla": "VI",
+      "indirizzo": "Piazzetta Palladio 2",
+      "cap": "36100",
+      "telefono": "0444 320788",
+      "sito": "https://www.soprana.com",
+      "url": "https://www.soprana.com/laboratorio-orologeria/",
+      "evidenza": "Pagina «Laboratorio di orologeria»: revisione completa in 16 fasi, restauro di orologi da polso, tasca e arredamento, garanzia 24 mesi; orologiai diplomati WOSTEP.",
+      "esito": "duplicato",
+      "duplicatoDi": "soprana-vicenza",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "centro-assistenza-benettelli-venezia",
+      "nome": "Centro Assistenza Benettelli",
+      "comune": "Venezia",
+      "sigla": "VE",
+      "indirizzo": "Viale San Marco 98/H",
+      "cap": "30173",
+      "telefono": "041 951235",
+      "sito": "https://www.orologeriabenettelli.com",
+      "url": "https://www.orologeriabenettelli.com/",
+      "evidenza": "Sito ufficiale: «Revisione Completa … Prova di Impermeabilità … Saldatura Laser»; lucidatura al lapidello e assistenze ufficiali.",
+      "esito": "duplicato",
+      "duplicatoDi": "centro-assistenza-benettelli-mestre",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "antica-orologeria-zamberlan-treviso",
+      "nome": "Antica Orologeria Zamberlan",
+      "comune": "Treviso",
+      "sigla": "TV",
+      "indirizzo": "Via Fra' Giocondo 4",
+      "cap": "31100",
+      "telefono": "0422 582035",
+      "sito": "http://www.orologeria.com",
+      "url": "http://www.orologeria.com/",
+      "evidenza": "Sito ufficiale: «Riparazioni, restauri e costruzioni di orologeria di qualità da polso, tasca e di grandi dimensioni».",
+      "esito": "duplicato",
+      "duplicatoDi": "zamberlan-treviso",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "s-t-s-laboratorio-di-orologeria-conegliano",
+      "nome": "S.T.S. Laboratorio di Orologeria",
+      "comune": "Conegliano",
+      "sigla": "TV",
+      "indirizzo": "Viale Friuli 45",
+      "cap": "31015",
+      "telefono": "0438 22845",
+      "sito": "https://stsorologeria.jimdoweb.com",
+      "url": "https://stsorologeria.jimdoweb.com/contatti/",
+      "evidenza": "Sito ufficiale del laboratorio: manutenzione, riparazione e restauro conservativo di orologi meccanici moderni e antichi, prove di impermeabilità; recapiti in pagina contatti.",
+      "esito": "duplicato",
+      "duplicatoDi": "sts-laboratorio-orologeria-conegliano",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "tarondo-orologiai-tavagnacco",
+      "nome": "Tarondo Orologiai",
+      "comune": "Tavagnacco",
+      "sigla": "UD",
+      "indirizzo": "Via Udine 77",
+      "cap": "33010",
+      "telefono": "0432 42897",
+      "sito": "https://www.tarondo.it",
+      "url": "https://www.tarondo.it/",
+      "evidenza": "Sito ufficiale: «Riparare un orologio è un'operazione complessa… strumentazioni all'avanguardia ed esperta manualità»; assistenza tecnica e centro assistenza.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.tarondo.it/",
+        "caratteriTesto": 3742,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria"
+      ]
+    },
+    {
+      "id": "spangaro-co-udine",
+      "nome": "Spangaro & Co",
+      "comune": "Udine",
+      "sigla": "UD",
+      "indirizzo": "Via Girardini 20/A",
+      "cap": "33100",
+      "telefono": "0432 1507535",
+      "sito": "https://spangaroandco.com",
+      "url": "https://spangaroandco.com/",
+      "evidenza": "Sito ufficiale: «Due negozi con laboratorio tecnico interno… rivolgersi direttamente ai nostri orologiai»; riparazione, restauro, stima e perizia.",
+      "esito": "duplicato",
+      "duplicatoDi": "spangaro-udine",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "rolli-poniz-trieste",
+      "nome": "Rolli Poniz",
+      "comune": "Trieste",
+      "sigla": "TS",
+      "indirizzo": "Corso Umberto Saba 31",
+      "cap": null,
+      "telefono": null,
+      "sito": "https://rolliponiz.it",
+      "url": "https://rolliponiz.it/",
+      "evidenza": "Sito ufficiale: «Ripariamo orologi, lucidiamo gioielli… regoliamo movimenti»; revisioni complete e centro assistenza ufficiale Citizen.",
+      "esito": "duplicato",
+      "duplicatoDi": "rolli-poniz-trieste",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "natale-fontana-bologna",
+      "nome": "Natale Fontana",
+      "comune": "Bologna",
+      "sigla": "BO",
+      "indirizzo": "Via Indipendenza 15",
+      "cap": "40121",
+      "telefono": "051 239544",
+      "sito": "https://www.natalefontana.it",
+      "url": "https://www.natalefontana.it/it/laboratorio-gioielleria-orologeria",
+      "evidenza": "Pagina «Laboratorio gioielleria orologeria»: «riparazione e restauro di ogni tipologia di orologio, nuovo o antico… test di impermeabilità»; revisione, lucidatura, violettatura viti.",
+      "esito": "duplicato",
+      "duplicatoDi": "fontana-bologna",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "laboratorio-portanova-bologna",
+      "nome": "Laboratorio PortaNova",
+      "comune": "Bologna",
+      "sigla": "BO",
+      "indirizzo": "Via Porta Nova 10/A",
+      "cap": "40123",
+      "telefono": "051 264988",
+      "sito": "https://www.laboratorioportanova.eu",
+      "url": "https://www.laboratorioportanova.eu/",
+      "evidenza": "Sito ufficiale: «ripristino dei fori del dispositivo dell'automatico… tornire i nuovi fori»; riparazione e restauro di movimenti meccanici e automatici, cronografi.",
+      "esito": "duplicato",
+      "duplicatoDi": "portanova-bologna",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "le-musolesi-bologna",
+      "nome": "Le Musolesi",
+      "comune": "Bologna",
+      "sigla": "BO",
+      "indirizzo": "Via Saragozza 101/C",
+      "cap": "40132",
+      "telefono": "051 6446482",
+      "sito": "https://www.lemusolesi.com",
+      "url": "https://www.lemusolesi.com/laboratorio-orologeria-bologna",
+      "evidenza": "Pagina «Laboratorio orologeria Bologna»: «Il laboratorio è specializzato in orologi d'epoca… revisione»; restauro, regolazione, lucidatura e prova sub.",
+      "esito": "duplicato",
+      "duplicatoDi": "le-musolesi-bologna",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "valenti-parma",
+      "nome": "Valenti",
+      "comune": "Parma",
+      "sigla": "PR",
+      "indirizzo": "Strada Nino Bixio 63",
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.valentiparma.it",
+      "url": "https://www.valentiparma.it/laboratorio/",
+      "evidenza": "Pagina «Laboratorio»: «Il nostro laboratorio si trova ancora nel cuore della città di Parma… dal lontano 1948»; revisione completa, riparazione, lucidatura, ricambi originali.",
+      "esito": "duplicato",
+      "duplicatoDi": "valenti-parma-farini",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "louis-shop-pieve-di-cento",
+      "nome": "Louis Shop",
+      "comune": "Pieve di Cento",
+      "sigla": "BO",
+      "indirizzo": "Via Risorgimento 15/A",
+      "cap": "40066",
+      "telefono": "051 973811",
+      "sito": "https://louisshop.it",
+      "url": "https://louisshop.it/it/laboratorio",
+      "evidenza": "Pagina «Laboratorio»: «laboratorio di restauro per orologi meccanici antichi e moderni… orologiaio dal 1978»; revisione con equilibratura e restauro estetico.",
+      "esito": "duplicato",
+      "duplicatoDi": "louis-shop-pieve-cento",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-casadei-rimini",
+      "nome": "Orologeria Casadei",
+      "comune": "Rimini",
+      "sigla": "RN",
+      "indirizzo": "Via XXII Giugno 1859 1/B",
+      "cap": "47921",
+      "telefono": "0541 53903",
+      "sito": "https://www.orologeriacasadei.it",
+      "url": "https://www.orologeriacasadei.it/servizi/",
+      "evidenza": "Pagina «Servizi»: «Smontaggio, pulizia, lubrificazione e regolazione dei movimenti. / Interventi conservativi su orologi d'epoca»; pendoleria e lucidature.",
+      "esito": "duplicato",
+      "duplicatoDi": "casadei-rimini",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "tempo-prezioso-bologna-bologna",
+      "nome": "Tempo Prezioso Bologna",
+      "comune": "Bologna",
+      "sigla": "BO",
+      "indirizzo": "Via G. Bentini 37/C",
+      "cap": "40128",
+      "telefono": "051 9985671",
+      "sito": "https://www.tempopreziosobologna.com",
+      "url": "https://www.tempopreziosobologna.com/",
+      "evidenza": "Sito ufficiale: «Revisione completa del movimento, lucidatura cassa e bracciale, test di impermeabilità»; restauro vintage e verifica di autenticità.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.tempopreziosobologna.com/",
+        "caratteriTesto": 3285,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "revisione",
+        "restauro-vintage",
+        "lucidatura"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologeria-rabiti-firenze",
+      "nome": "Orologeria Rabiti",
+      "comune": "Firenze",
+      "sigla": "FI",
+      "indirizzo": "Piazza Taddeo Gaddi 22/R",
+      "cap": null,
+      "telefono": "055 7131688",
+      "sito": "https://www.orologeriarabiti.com",
+      "url": "https://www.orologeriarabiti.com/",
+      "evidenza": "Sito ufficiale: «Servizio di riparazione orologi di alta qualità in Firenze»; revisioni generali, lucidatura cassa e bracciale, prove di impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "rabiti-firenze",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "ruben-calistri-firenze",
+      "nome": "Ruben Calistri",
+      "comune": "Firenze",
+      "sigla": "FI",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": "353 4794203",
+      "sito": "https://www.riparazioneorologifirenze.it",
+      "url": "https://www.riparazioneorologifirenze.it/",
+      "evidenza": "Sito ufficiale: «riparazioni professionali di orologi da polso, antichi e moderni»; restauro di orologi d'epoca, orologi da tasca e pendole, lucidatura casse.",
+      "esito": "duplicato",
+      "duplicatoDi": "calistri-firenze",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "zagli-gioielli-firenze",
+      "nome": "Zagli Gioielli",
+      "comune": "Firenze",
+      "sigla": "FI",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://zagli.it",
+      "url": "https://zagli.it/laboratorio-orologi/",
+      "evidenza": "Pagina «Laboratorio orologi»: «Un servizio completo, dalla manutenzione del movimento, fino al restauro di casse e bracciali»; assistenza tecnica con garanzia 24 mesi.",
+      "esito": "duplicato",
+      "duplicatoDi": "zagli-firenze",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "horae-orologeria-san-giovanni-valdarno",
+      "nome": "Horae Orologeria",
+      "comune": "San Giovanni Valdarno",
+      "sigla": "AR",
+      "indirizzo": "Piazza Cavour 11",
+      "cap": "52027",
+      "telefono": "055 941596",
+      "sito": "https://www.horaeorologeria.it",
+      "url": "https://www.horaeorologeria.it/laboratorio/",
+      "evidenza": "Pagina «Laboratorio»: «Laboratorio interno con orologiai certificati, un team di esperti»; revisione completa, riparazioni, lucidatura, ricambi originali.",
+      "esito": "duplicato",
+      "duplicatoDi": "horae-san-giovanni",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "dslab-orologeria-narni",
+      "nome": "DsLab Orologeria",
+      "comune": "Narni",
+      "sigla": "TR",
+      "indirizzo": "Via della Libertà 9",
+      "cap": "05035",
+      "telefono": "338 4526228",
+      "sito": "https://dslaborologeria.com",
+      "url": "https://dslaborologeria.com/",
+      "evidenza": "Sito ufficiale: «Laboratorio Specializzato nella Riparazione e Restauro di Orologi Vintage e Moderni».",
+      "esito": "duplicato",
+      "duplicatoDi": "dslab-orologeria-narni",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "salamena-roma",
+      "nome": "Salamena",
+      "comune": "Roma",
+      "sigla": "RM",
+      "indirizzo": "Via Tommaso Campanella 33",
+      "cap": "00195",
+      "telefono": "06 39735621",
+      "sito": "https://www.riparazioniorologiroma.it",
+      "url": "https://www.riparazioniorologiroma.it/riparazione-orologi/",
+      "evidenza": "Pagina «Riparazione orologi»: «Assistenza e Revisione orologi da polso dei più grandi marchi Svizzeri»; restauro, lucidatura, test di impermeabilità, ricambi svizzeri.",
+      "esito": "duplicato",
+      "duplicatoDi": "salamena-roma",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "casa-del-cronometro-roma",
+      "nome": "Casa del Cronometro",
+      "comune": "Roma",
+      "sigla": "RM",
+      "indirizzo": "Via Silla 80",
+      "cap": "00192",
+      "telefono": "06 3210971",
+      "sito": "https://www.casadelcronometro.it",
+      "url": "https://www.casadelcronometro.it/",
+      "evidenza": "Sito ufficiale: «Revisioni complete con garanzia fino a 24 mesi»; riparazione, restauro, pendoleria, lucidatura vetri, sostituzione batterie.",
+      "esito": "duplicato",
+      "duplicatoDi": "casa-cronometro-roma",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologiaus-roma",
+      "nome": "Orologiaus",
+      "comune": "Roma",
+      "sigla": "RM",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.orologiaus.com",
+      "url": "https://www.orologiaus.com/servizi",
+      "evidenza": "Pagina «Servizi»: «Revisione completa di orologi meccanici... smontaggio completo del movimento»; riparazione, restauro vintage, lucidatura laser, cambio vetro, impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "orologiaus-riparazione-orologi-di-lusso-rome",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-ermanno-salucci-roma",
+      "nome": "Orologeria Ermanno Salucci",
+      "comune": "Roma",
+      "sigla": "RM",
+      "indirizzo": "Piazza San Donà di Piave 13",
+      "cap": "00182",
+      "telefono": "06 7018919",
+      "sito": "https://www.orologeriasalucci.it",
+      "url": "https://www.orologeriasalucci.it/",
+      "evidenza": "Sito ufficiale: «Centro di Assistenza Ufficiale per Eberhard & Co, Paul Picot, Raymond Weil, Bulova»; revisioni, riparazioni, prova di impermeabilità, garanzia 12 mesi.",
+      "esito": "duplicato",
+      "duplicatoDi": "orologeria-salucci-roma",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "maurizio-l-ora-roma",
+      "nome": "Maurizio & L'Ora",
+      "comune": "Roma",
+      "sigla": "RM",
+      "indirizzo": "Via Guglielmo Ciamarra 7",
+      "cap": null,
+      "telefono": "06 81173467",
+      "sito": "https://www.maurizioelora.com",
+      "url": "https://www.maurizioelora.com/",
+      "evidenza": "Sito ufficiale: «Tutte le riparazioni e gli interventi vengono effettuati esclusivamente nella nostra sede»; orologi antichi, pendoleria, regolazione, lucidatura.",
+      "esito": "duplicato",
+      "duplicatoDi": "maurizio-lora-rome",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "arte-orafa-traversi-cave",
+      "nome": "Arte Orafa Traversi",
+      "comune": "Cave",
+      "sigla": "RM",
+      "indirizzo": "Viale Pio XII 97",
+      "cap": "00033",
+      "telefono": "06 9507658",
+      "sito": "https://www.arteorafatraversi.it",
+      "url": "https://www.arteorafatraversi.it/it/oreficeria-artigianale-italiana-roma/vendita-e-riparazioni-orologi-742",
+      "evidenza": "Pagina «Vendita e riparazioni orologi»: «Il settore viene curato da nostro padre Ugo Traversi orologiaio specializzato dal 1963»; manutenzione, revisione, restauri, lucidatura.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.arteorafatraversi.it/it/oreficeria-artigianale-italiana-roma/vendita-e-riparazioni-orologi-742",
+        "caratteriTesto": 16596,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "laborator",
+          "quadrant"
+        ],
+        "capPresente": true,
+        "viaPresente": true,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage",
+        "lucidatura"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "tempoidea-viterbo",
+      "nome": "Tempoidea",
+      "comune": "Viterbo",
+      "sigla": "VT",
+      "indirizzo": "Piazza della Rocca 13",
+      "cap": "01100",
+      "telefono": "0761 223679",
+      "sito": "https://www.tempoidea.it",
+      "url": "https://www.tempoidea.it/riparazione-orologi/",
+      "evidenza": "Pagina «Riparazione orologi»: «laboratorio di orologeria certificato... revisioni complete e rimesse a nuovo»; restauro di orologi antichi, ristampa quadranti, impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "tempoidea-viterbo",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "time-lab-fiuggi",
+      "nome": "Time Lab",
+      "comune": "Fiuggi",
+      "sigla": "FR",
+      "indirizzo": "Via Rettifilo 61",
+      "cap": "03014",
+      "telefono": "377 0252472",
+      "sito": "https://www.timelabfiuggi.it",
+      "url": "https://www.timelabfiuggi.it/",
+      "evidenza": "Sito ufficiale: «cura, il mantenimento, il restauro e la personalizzazione del tuo orologio»; revisioni, pile, vetri, cinturini, restauro pendoleria.",
+      "esito": "duplicato",
+      "duplicatoDi": "time-lab-fiuggi",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "gioielleria-bisciardi-avezzano",
+      "nome": "Gioielleria Bisciardi",
+      "comune": "Avezzano",
+      "sigla": "AQ",
+      "indirizzo": "Via Camillo Corradini 233",
+      "cap": null,
+      "telefono": null,
+      "sito": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+      "url": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+      "evidenza": "Sito ufficiale: «Laboratorio di Orologeria specializzato su tutti i meccanismi»; riparazione, revisione, sostituzione batterie e cinturini.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+        "caratteriTesto": 3124,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "laborator"
+        ],
+        "capPresente": null,
+        "viaPresente": null,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "batterie",
+        "cinturini"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "officina-del-tempo-olbia-olbia",
+      "nome": "Officina del Tempo Olbia",
+      "comune": "Olbia",
+      "sigla": "SS",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.officinadeltempoolbia.com",
+      "url": "https://www.officinadeltempoolbia.com/",
+      "evidenza": "Sito ufficiale: «Centro assistenza certificato Omega in Sardegna»; riparazione e revisione di orologi, attività dal 1946.",
+      "esito": "duplicato",
+      "duplicatoDi": "officina-del-tempo-olbia",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "giampiero-murgia-cagliari",
+      "nome": "Giampiero Murgia",
+      "comune": "Cagliari",
+      "sigla": "CA",
+      "indirizzo": "Via Francesco Fara 15",
+      "cap": "09124",
+      "telefono": null,
+      "sito": "https://www.giampieromurgia.com",
+      "url": "https://www.giampieromurgia.com/",
+      "evidenza": "Sito ufficiale: «assistenza tecnica regionale» Zenith da 35 anni; assistenza e riparazione con ricambi originali per Zenith, Eberhard, Rolex, Tudor, Cartier, Baume & Mercier.",
+      "esito": "duplicato",
+      "duplicatoDi": "murgia-cagliari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "gioielleria-de-nurra-sassari",
+      "nome": "Gioielleria De Nurra",
+      "comune": "Sassari",
+      "sigla": "SS",
+      "indirizzo": "Via Nuoro 5",
+      "cap": "07100",
+      "telefono": "079 271880",
+      "sito": "https://www.denurra.it",
+      "url": "https://www.denurra.it/",
+      "evidenza": "Sito ufficiale: «Dalla piccola riparazione alla revisione completa... al restauro del tuo orologio d'epoca»; laboratorio interno e cambio pila.",
+      "esito": "duplicato",
+      "duplicatoDi": "gioielleria-de-nurra-sassari",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-mazzone-salerno",
+      "nome": "Orologeria Mazzone",
+      "comune": "Salerno",
+      "sigla": "SA",
+      "indirizzo": "Via Posidonia 277/B",
+      "cap": "84128",
+      "telefono": "089 754297",
+      "sito": "https://www.orologeriamazzonesalerno.it",
+      "url": "https://www.orologeriamazzonesalerno.it/",
+      "evidenza": "Sito ufficiale: «Mazzone LAB: lo storico laboratorio in sede consente di intervenire in modo tecnico e accurato»; revisione di movimenti meccanici, quarzo e pendoli.",
+      "esito": "duplicato",
+      "duplicatoDi": "mazzone-salerno",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "monetti-orologi-napoli",
+      "nome": "Monetti Orologi",
+      "comune": "Napoli",
+      "sigla": "NA",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://monettiorologi.com",
+      "url": "https://monettiorologi.com/laboratorio/",
+      "evidenza": "Pagina «Laboratorio»: «Oltre ad essere laboratorio di assistenza ufficiale Rolex/Tudor siamo specializzati per le riparazioni»; revisione di orologi di alta gamma, ricambi originali.",
+      "esito": "duplicato",
+      "duplicatoDi": "monetti-napoli-brigida",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "cimafonte-orologi-napoli",
+      "nome": "Cimafonte Orologi",
+      "comune": "Napoli",
+      "sigla": "NA",
+      "indirizzo": "Via Mario Fiore 21",
+      "cap": "80129",
+      "telefono": "081 5583888",
+      "sito": "https://www.cimafonteorologi.it",
+      "url": "https://www.cimafonteorologi.it/servizi/",
+      "evidenza": "Pagina «Servizi»: «specializzata nella riparazione Lucidatura Pulitura e Restauro di Orologi di Lusso»; orologi vintage e moderni.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.cimafonteorologi.it/servizi/",
+        "caratteriTesto": 6017,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "restaur",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "restauro-vintage",
+        "lucidatura"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologeria-burrascano-messina",
+      "nome": "Orologeria Burrascano",
+      "comune": "Messina",
+      "sigla": "ME",
+      "indirizzo": "Corso Cavour 23",
+      "cap": "98122",
+      "telefono": "090 770501",
+      "sito": "https://gioielleriaburrascano.it",
+      "url": "https://gioielleriaburrascano.it/riparazione-orologi/",
+      "evidenza": "Pagina «Riparazione orologi»: «Maestri Orologiai eseguono quotidianamente Riparazioni su Orologi di ogni tipologia»; laboratorio interno.",
+      "esito": "duplicato",
+      "duplicatoDi": "gioielleria-burrascano-messina",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "clock-service-catania",
+      "nome": "Clock Service",
+      "comune": "Catania",
+      "sigla": "CT",
+      "indirizzo": "Via Gabriele D'Annunzio 134",
+      "cap": "95127",
+      "telefono": "392 7198711",
+      "sito": "https://www.clockservice.it",
+      "url": "https://www.clockservice.it/",
+      "evidenza": "Sito ufficiale: «team di professionisti qualificati che opera nel campo della riparazione, revisione e restauro»; orologi da polso, parete, cucù, ristampa quadranti.",
+      "esito": "duplicato",
+      "duplicatoDi": "clock-service-catania",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "centrorologi-gravina-di-catania",
+      "nome": "Centrorologi",
+      "comune": "Gravina di Catania",
+      "sigla": "CT",
+      "indirizzo": "Via Carrubella 191",
+      "cap": "95030",
+      "telefono": "095 415199",
+      "sito": "https://centrorologi.net",
+      "url": "https://centrorologi.net/",
+      "evidenza": "Sito ufficiale: «intervenire su orologi al quarzo, meccanici, pendoli, kukù e modelli antichi»; lucidatura, vetri su misura, ristampa quadranti.",
+      "esito": "duplicato",
+      "duplicatoDi": "centrorologi-gravina-di-catania",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologiaio-vincenzo-salerno-ragusa",
+      "nome": "Orologiaio Vincenzo Salerno",
+      "comune": "Ragusa",
+      "sigla": "RG",
+      "indirizzo": "Via Archimede 316",
+      "cap": "97100",
+      "telefono": "0932 251040",
+      "sito": "https://www.orologiaiovincenzosalerno.it",
+      "url": "https://www.orologiaiovincenzosalerno.it/it/servizi/",
+      "evidenza": "Pagina «Servizi»: «Revisione completa del movimento con lubrificazione, controllo, regolazione della marcia»; guarnizioni, prova sub, centro assistenza.",
+      "esito": "duplicato",
+      "duplicatoDi": "vincenzo-salerno-ragusa",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-bruno-emanuele-palermo",
+      "nome": "Orologeria Bruno Emanuele",
+      "comune": "Palermo",
+      "sigla": "PA",
+      "indirizzo": "Via Antonio Gagini 93",
+      "cap": "90133",
+      "telefono": "091 583467",
+      "sito": "https://brunoemanuele.com",
+      "url": "https://brunoemanuele.com/laboratorio/",
+      "evidenza": "Pagina «Laboratorio»: «servizio di restauro completo… antiche pendole, sveglie, orologi della Foresta Nera»; revisione, lucidatura, prova di impermeabilità.",
+      "esito": "duplicato",
+      "duplicatoDi": "bruno-emanuele-palermo",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "orologeria-di-caro-palermo",
+      "nome": "Orologeria Di Caro",
+      "comune": "Palermo",
+      "sigla": "PA",
+      "indirizzo": "Via Villareale 67",
+      "cap": null,
+      "telefono": "091 584512",
+      "sito": "https://www.orologeriadicaro.com",
+      "url": "https://www.orologeriadicaro.com/",
+      "evidenza": "Sito ufficiale: «Il nostro laboratorio è punto di riferimento a Palermo per la riparazione e manutenzione»; centro assistenza ufficiale dichiarato.",
+      "esito": "duplicato",
+      "duplicatoDi": "di-caro-palermo",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "laboratorio-curato-brescia",
+      "nome": "Laboratorio Curato",
+      "comune": "Brescia",
+      "sigla": "BS",
+      "indirizzo": "Via XX Settembre 40",
+      "cap": "25121",
+      "telefono": "030 293546",
+      "sito": "https://www.laboratoriocurato.it",
+      "url": "https://www.laboratoriocurato.it/",
+      "evidenza": "Sito ufficiale: «specializzato nella riparazione e revisione di orologi di tutti i tipi e di tutte le marche»; orologiaia artigianale.",
+      "esito": "duplicato",
+      "duplicatoDi": "curato-brescia",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "la-clinica-dell-orologio-bernareggio",
+      "nome": "La Clinica dell'Orologio",
+      "comune": "Bernareggio",
+      "sigla": "MB",
+      "indirizzo": "Via Franzolino Prinetti 52",
+      "cap": "20881",
+      "telefono": "039 6900217",
+      "sito": "https://www.clinicadellorologio.it",
+      "url": "https://www.clinicadellorologio.it/benvenuti-nella-clinica-dellorologio/",
+      "evidenza": "Pagina «Benvenuti nella clinica dell'orologio»: «Siamo specializzati nella revisione e nel restauro di orologi meccanici antichi: pendoli… tasca».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.clinicadellorologio.it/benvenuti-nella-clinica-dellorologio/",
+        "caratteriTesto": 4432,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "assistenz",
+          "laborator",
+          "pendol"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "revisione",
+        "restauro-vintage",
+        "pendoleria",
+        "orologi-tasca"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "legnano-orologeria-paternostro-1972-legnano",
+      "nome": "Legnano Orologeria Paternostro 1972",
+      "comune": "Legnano",
+      "sigla": "MI",
+      "indirizzo": "Corso Giuseppe Garibaldi 2/b",
+      "cap": "20025",
+      "telefono": "+39 0331 452307",
+      "sito": "https://www.andreapaternostro.it",
+      "url": "https://www.andreapaternostro.it/legnano-orologeria/",
+      "evidenza": "Pagina ufficiale: «All'interno del punto vendita è presente il laboratorio orologiero, specializzato nei servizi di assistenza post-vendita e revisione di tutti i marchi».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.andreapaternostro.it/legnano-orologeria/",
+        "caratteriTesto": 2948,
+        "chiaviOrologiere": [
+          "orolog",
+          "revision",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": true,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "revisione",
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "gioielleria-spinelli-cesano-maderno",
+      "nome": "Gioielleria Spinelli",
+      "comune": "Cesano Maderno",
+      "sigla": "MB",
+      "indirizzo": "Via A. Volta 27",
+      "cap": "20811",
+      "telefono": "+39 0362 504268",
+      "sito": "https://www.gioielleriaspinelli.it",
+      "url": "https://www.gioielleriaspinelli.it/orologi-cantu",
+      "evidenza": "Pagina ufficiale: «Laboratorio specializzato: manutenzione, restauro e riparazione di orologi di qualsiasi marca… Revisione completa di orologi automatici, meccanici e al quarzo».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.gioielleriaspinelli.it/orologi-cantu/",
+        "caratteriTesto": 5342,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": false,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "lissi-gioielli-rho",
+      "nome": "Lissi Gioielli",
+      "comune": "Rho",
+      "sigla": "MI",
+      "indirizzo": null,
+      "cap": "20017",
+      "telefono": "02 36729430",
+      "sito": "https://www.lissigioielli.it",
+      "url": "https://www.lissigioielli.it/riparazione-orologi-pendole/",
+      "evidenza": "Pagina «Riparazione orologi e pendole»: «Il laboratorio è specializzato nella riparazione di orologi a carica manuale, automatici, meccanici e al quarzo e fornisce inoltre ricambi».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.lissigioielli.it/riparazione-orologi-pendole/",
+        "caratteriTesto": 2145,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "laborator",
+          "pendol"
+        ],
+        "capPresente": false,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "pendoleria",
+        "ricambi"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "gioielli-novelli-voghera",
+      "nome": "Gioielli Novelli",
+      "comune": "Voghera",
+      "sigla": "PV",
+      "indirizzo": "Via Emilia 20",
+      "cap": "27058",
+      "telefono": null,
+      "sito": "https://www.gioiellinovelli.it",
+      "url": "https://www.gioiellinovelli.it/21/orologeria",
+      "evidenza": "Pagina «Orologeria»: «È possibile rivolgersi al nostro punto vendita di Voghera per il servizio di manutenzione e riparazione di orologi da polso e non, indipendentemente dal marchio».",
+      "esito": "duplicato",
+      "duplicatoDi": "gioielli-novelli-voghera",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "cm-orologi-alba",
+      "nome": "CM Orologi",
+      "comune": "Alba",
+      "sigla": "CN",
+      "indirizzo": "Via Cavour 17/B",
+      "cap": "12051",
+      "telefono": "+39 0173 364113",
+      "sito": "https://www.cmorologialba.it",
+      "url": "https://www.cmorologialba.it/",
+      "evidenza": "Sito ufficiale: «Il nostro laboratorio di riparazione orologi… è certificato per le marche Baume&Mercier, Hamilton, Tissot, Seiko, Omega, Longines, Eberhard e Rado».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.cmorologialba.it/",
+        "caratteriTesto": 3650,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "laborator",
+          "quadrant"
+        ],
+        "capPresente": false,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orolab-bra",
+      "nome": "Orolab",
+      "comune": "Bra",
+      "sigla": "CN",
+      "indirizzo": "Via Cuneo 84",
+      "cap": "12042",
+      "telefono": null,
+      "sito": "https://www.orolab.it",
+      "url": "https://www.orolab.it/",
+      "evidenza": "Sito ufficiale: «Laboratorio orologiaio: valutazione e riparazione di orologi di lusso… revisione parziale o totale di orologi a carica manuale o automatici, prova di impermeabilità».",
+      "esito": "duplicato",
+      "duplicatoDi": "orolab-bra",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "sandrone-gioielli-moncalieri",
+      "nome": "Sandrone Gioielli",
+      "comune": "Moncalieri",
+      "sigla": "TO",
+      "indirizzo": "Via Montebello 1",
+      "cap": "10024",
+      "telefono": null,
+      "sito": "https://www.sandronegioielli.com",
+      "url": "https://www.sandronegioielli.com/",
+      "evidenza": "Sito ufficiale: voce di servizio «Riparazione Orologi e Preziosi — assistenza gioielli, riparazione orologi».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.sandronegioielli.com/",
+        "caratteriTesto": 903,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "assistenz"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria"
+      ]
+    },
+    {
+      "id": "orologiando-moncalieri",
+      "nome": "Orologiando",
+      "comune": "Moncalieri",
+      "sigla": "TO",
+      "indirizzo": "Viale del Castello 36",
+      "cap": "10024",
+      "telefono": null,
+      "sito": "https://www.orologiandomoncalieri.it",
+      "url": "https://www.orologiandomoncalieri.it/chi-siamo-gallery",
+      "evidenza": "Pagina «Chi siamo»: «Disponiamo di un laboratorio all'interno del quale effettuiamo il restauro di qualsiasi modello di orologio: da polso, da tasca…».",
+      "esito": "duplicato",
+      "duplicatoDi": "orologiando-moncalieri",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "luigi-rosso-orologi-e-gioielli-casale-monferrato",
+      "nome": "Luigi Rosso Orologi e Gioielli",
+      "comune": "Casale Monferrato",
+      "sigla": "AL",
+      "indirizzo": "Via Aurelio Saffi 3",
+      "cap": "15033",
+      "telefono": "+39 0142 455969",
+      "sito": "https://www.luigirossogioielli.com",
+      "url": "https://www.luigirossogioielli.com/it/assistenza",
+      "evidenza": "Pagina «Assistenza»: «I nostri tecnici orologiai sono in grado di effettuare interventi di riparazione, restauro o rimessa a nuovo su orologi di ogni marca e periodo».",
+      "esito": "duplicato",
+      "duplicatoDi": "luigi-rosso-casale-monferrato",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "parolin-1885-rosa",
+      "nome": "Parolin 1885",
+      "comune": "Rosà",
+      "sigla": "VI",
+      "indirizzo": "Via Cap. Alessio 35",
+      "cap": "36027",
+      "telefono": "+39 0424 580115",
+      "sito": "https://www.parolinorologi.it",
+      "url": "https://www.parolinorologi.it/contatti.php",
+      "evidenza": "Sito ufficiale: «Riparazioni di orologeria vengono effettuate nel laboratorio interno all'azienda … revisione completa dei movimenti compreso il restauro di orologi d'epoca».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.parolinorologi.it/contatti.php",
+        "caratteriTesto": 1036,
+        "chiaviOrologiere": [
+          "orolog",
+          "laborator"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologeria-martini-bassano-del-grappa",
+      "nome": "Orologeria Martini",
+      "comune": "Bassano del Grappa",
+      "sigla": "VI",
+      "indirizzo": "Via Beata Giovanna 26",
+      "cap": "36061",
+      "telefono": "+39 0424 525376",
+      "sito": "https://orologeria-martini.webnode.it",
+      "url": "https://orologeria-martini.webnode.it/",
+      "evidenza": "Sito ufficiale: «Roberto Martini – Proprietario e riparatore di orologi. Riparo e vendo qualsiasi tipo di orologi … Riparo pendole antiche».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://orologeria-martini.webnode.it/",
+        "caratteriTesto": 938,
+        "chiaviOrologiere": [
+          "orolog",
+          "pendol"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "pendoleria"
+      ],
+      "tipiProposti": [
+        "orologeria"
+      ]
+    },
+    {
+      "id": "otto-gioielli-montebelluna",
+      "nome": "Otto Gioielli",
+      "comune": "Montebelluna",
+      "sigla": "TV",
+      "indirizzo": "Via Feltrina Centro 137",
+      "cap": "31044",
+      "telefono": "0423 609492",
+      "sito": "https://ottogioielli.it",
+      "url": "https://ottogioielli.it/riparazione-orologi-montebelluna/",
+      "evidenza": "Pagina «Riparazione orologi Montebelluna»: «Laboratorio di orologeria interno … tecnici riparatori e meccanici restauratori lavorano direttamente in negozio … revisione di orologi automatici e meccanici».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://ottogioielli.it/riparazione-orologi-montebelluna/",
+        "caratteriTesto": 5192,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "laborator",
+          "pendol"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "restauro-vintage"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "gioielleria-tomasi-trento",
+      "nome": "Gioielleria Tomasi",
+      "comune": "Trento",
+      "sigla": "TN",
+      "indirizzo": "Piazza Pasi",
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.gioielleriatomasi.it",
+      "url": "https://www.gioielleriatomasi.it/",
+      "evidenza": "Sito ufficiale: «Laboratorio Orologeria … revisione del movimento … ripristino degli orologi … senza trascurare vecchi orologi che necessitano di restauri».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.gioielleriatomasi.it/",
+        "caratteriTesto": 5982,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "restaur",
+          "moviment",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": null,
+        "viaPresente": true,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "revisione",
+        "restauro-vintage"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "formica-francesco-citta-di-castello",
+      "nome": "Formica Francesco",
+      "comune": "Città di Castello",
+      "sigla": "PG",
+      "indirizzo": "Corso Cavour 13/E",
+      "cap": "06012",
+      "telefono": null,
+      "sito": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+      "url": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+      "evidenza": "Pagina ufficiale: «siamo dotati di laboratorio per l'assistenza, il restauro e la riparazione di ogni tipo di orologio».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+        "caratteriTesto": 1977,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "restaur",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": false,
+        "viaPresente": true,
+        "telefonoPresente": null,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "restauro-vintage",
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "laboratorio-di-orologeria-miconi-civitanova-marche",
+      "nome": "Laboratorio di Orologeria Miconi",
+      "comune": "Civitanova Marche",
+      "sigla": "MC",
+      "indirizzo": "Corso Dalmazia 113",
+      "cap": "62012",
+      "telefono": "+39 335 1807768",
+      "sito": "https://www.orologeriamiconi.it",
+      "url": "https://www.orologeriamiconi.it/",
+      "evidenza": "Sito ufficiale: «riparazione, revisione e restauro di orologi... Smontaggio, pulizia e riparazione completa del movimento».",
+      "esito": "duplicato",
+      "duplicatoDi": "miconi-civitanova",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "capodagli-1937-senigallia",
+      "nome": "Capodagli 1937",
+      "comune": "Senigallia",
+      "sigla": "AN",
+      "indirizzo": "Corso 2 Giugno 45",
+      "cap": "60019",
+      "telefono": "+39 071 60230",
+      "sito": "https://capodagli.net",
+      "url": "https://capodagli.it/pages/servizio-assistenza-orologi-e-penne",
+      "evidenza": "Pagina «Servizio assistenza orologi e penne»: assistenza ufficiale su orologi dei gruppi Swatch, Richemont e LVMH, laboratorio interno.",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://capodagli.net/pages/servizio-assistenza-orologi-e-penne?shpxid=36de4aec-7ba8-4562-9f63-4b0f47546478",
+        "caratteriTesto": 18791,
+        "chiaviOrologiere": [
+          "orolog",
+          "assistenz"
+        ],
+        "capPresente": true,
+        "viaPresente": true,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "l-angolo-d-oro-sant-egidio-alla-vibrata",
+      "nome": "L'Angolo d'Oro",
+      "comune": "Sant'Egidio alla Vibrata",
+      "sigla": "TE",
+      "indirizzo": "Piazza Umberto I",
+      "cap": null,
+      "telefono": "0861 842719",
+      "sito": "https://www.langolodoroitalia.com",
+      "url": "https://www.langolodoroitalia.com/riparazioni-orologi-gioielli.php",
+      "evidenza": "Pagina «Riparazioni orologi e gioielli»: «offriamo un servizio di riparazione orologi e gioielli... tecniche all'avanguardia... orologi di pregio restaurato».",
+      "esito": "duplicato",
+      "duplicatoDi": "angolo-d-oro-sant-egidio",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "l-orologiaio-ascione-porto-torres",
+      "nome": "L'Orologiaio Ascione",
+      "comune": "Porto Torres",
+      "sigla": "SS",
+      "indirizzo": null,
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.lorologiaio.net",
+      "url": "https://www.lorologiaio.net/",
+      "evidenza": "Sito ufficiale: «Disponiamo di un laboratorio attrezzato per l'assistenza e la riparazione di orologi da polso e da tasca... movimenti meccanici».",
+      "esito": "duplicato",
+      "duplicatoDi": "lorologiaio-ascione-porto-torres",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "l-orologiaio-sardegna-porto-torres",
+      "nome": "L'Orologiaio Sardegna",
+      "comune": "Porto Torres",
+      "sigla": "SS",
+      "indirizzo": "Via Libio 15",
+      "cap": null,
+      "telefono": null,
+      "sito": "https://www.lorologiaiosardegna.com",
+      "url": "https://www.lorologiaiosardegna.com/orologi.php",
+      "evidenza": "Sito ufficiale: «laboratorio attrezzato... ricostruire nei minimi particolari... micromeccanica... Restauro orologi e pendoli».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.lorologiaiosardegna.com/orologi.php",
+        "caratteriTesto": 2603,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "restaur",
+          "assistenz",
+          "laborator",
+          "pendol",
+          "quadrant"
+        ],
+        "capPresente": null,
+        "viaPresente": null,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "restauro-vintage",
+        "pendoleria"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "orologeria-nozzetti-mazara-del-vallo",
+      "nome": "Orologeria Nozzetti",
+      "comune": "Mazara del Vallo",
+      "sigla": "TP",
+      "indirizzo": "Corso Vittorio Veneto 55",
+      "cap": "91026",
+      "telefono": "+39 328 2521076",
+      "sito": "https://orologerianozzetti.wordpress.com",
+      "url": "https://orologerianozzetti.wordpress.com/",
+      "evidenza": "Sito ufficiale: «Sin dal 1982 … specializzata nel restauro e nella vendita … riparazione e del restauro di orologi antichi e moderni».",
+      "esito": "duplicato",
+      "duplicatoDi": "orologeria-nozzetti-mazara-del-vallo",
+      "motivo": "stesso sito di una scheda esistente"
+    },
+    {
+      "id": "l-orologio-imola-imola",
+      "nome": "L'Orologio Imola",
+      "comune": "Imola",
+      "sigla": "BO",
+      "indirizzo": "Via Emilia 230",
+      "cap": "41026",
+      "telefono": "0542 21154",
+      "sito": "https://www.lorologioimola.it",
+      "url": "https://www.lorologioimola.it/",
+      "evidenza": "Sito ufficiale: «Laboratorio professionale di riparazione e assistenza. Revisioni complete, riparazioni e interventi certificati su tutte le marche».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.lorologioimola.it/",
+        "caratteriTesto": 3299,
+        "chiaviOrologiere": [
+          "orolog",
+          "riparazion",
+          "revision",
+          "assistenz",
+          "laborator"
+        ],
+        "capPresente": false,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [
+        "riparazione",
+        "revisione",
+        "assistenza"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    },
+    {
+      "id": "r-rubini-arte-del-tempo-fidenza",
+      "nome": "R. Rubini Arte del Tempo",
+      "comune": "Fidenza",
+      "sigla": "PR",
+      "indirizzo": "Via Antonio Gramsci 25",
+      "cap": "43036",
+      "telefono": "+39 0524 528157",
+      "sito": "https://www.rrubini.com",
+      "url": "https://www.rrubini.com/",
+      "evidenza": "Sito ufficiale: «We repair and appraise watches from all the most prestigious brands (wristwatches, pocket watches, and clocks)».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": false,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.rrubini.com/en",
+        "caratteriTesto": 7916,
+        "chiaviOrologiere": [
+          "orolog"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": true,
+        "esito": "da-controllare"
+      },
+      "serviziProposti": [],
+      "tipiProposti": [
+        "orologeria"
+      ]
+    },
+    {
+      "id": "bellucci-echi-e-luci-martina-franca",
+      "nome": "Bellucci Echi e Luci",
+      "comune": "Martina Franca",
+      "sigla": "TA",
+      "indirizzo": "Via Carlo Pisacane 75",
+      "cap": "74015",
+      "telefono": null,
+      "sito": "https://www.bellucciechieluci.com",
+      "url": "https://www.bellucciechieluci.com/servizi.php?id=95ead5",
+      "evidenza": "Pagina «Servizi»: «esegue il restauro di campane e orologi da torre… gli orologi da torre vengono completamente scomposti in centinaia di parti».",
+      "esito": "da-verificare",
+      "cittaGiaCoperta": true,
+      "verifica": {
+        "stato": 200,
+        "urlFinale": "https://www.bellucciechieluci.com/servizi.php?id=95ead5",
+        "caratteriTesto": 2132,
+        "chiaviOrologiere": [
+          "orolog",
+          "restaur",
+          "assistenz",
+          "quadrant"
+        ],
+        "capPresente": true,
+        "viaPresente": null,
+        "telefonoPresente": null,
+        "esito": "confermata"
+      },
+      "serviziProposti": [
+        "restauro-vintage"
+      ],
+      "tipiProposti": [
+        "orologeria",
+        "laboratorio"
+      ]
+    }
+  ]
+}

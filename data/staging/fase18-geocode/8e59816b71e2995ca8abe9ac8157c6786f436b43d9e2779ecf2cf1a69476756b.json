@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Italica%2C+42%2C+Pescara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80407893,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7991662711,
+      "lat": "42.4598828",
+      "lon": "14.2166967",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 0.00006785915922784798,
+      "addresstype": "amenity",
+      "name": "Delice",
+      "display_name": "Delice, 42/1, Via Italica, Porta Nuova, Pescara, Abruzzo, 65127, Italia",
+      "address": {
+        "amenity": "Delice",
+        "house_number": "42/1",
+        "road": "Via Italica",
+        "suburb": "Porta Nuova",
+        "city": "Pescara",
+        "county": "Pescara",
+        "ISO3166-2-lvl6": "IT-PE",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "65127",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4598328",
+        "42.4599328",
+        "14.2166467",
+        "14.2167467"
+      ]
+    }
+  ]
+}

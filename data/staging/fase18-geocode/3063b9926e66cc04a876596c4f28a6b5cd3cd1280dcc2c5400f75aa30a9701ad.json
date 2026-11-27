@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Cavallotti%2C+131%2C+Porto+San+Giorgio%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79801918,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 244663086,
+      "lat": "43.1819275",
+      "lon": "13.7959027",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338841916533147,
+      "addresstype": "residential",
+      "name": "Viale Felice Cavallotti",
+      "display_name": "Viale Felice Cavallotti, Porto San Giorgio, Fermo, Marche, 63822, Italia",
+      "address": {
+        "road": "Viale Felice Cavallotti",
+        "town": "Porto San Giorgio",
+        "county": "Fermo",
+        "ISO3166-2-lvl6": "IT-FM",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "63822",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.1810525",
+        "43.1827985",
+        "13.7954569",
+        "13.7963407"
+      ]
+    }
+  ]
+}

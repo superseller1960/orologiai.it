@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Calzaiuoli+86%2FR%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81681120,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2361951025,
+      "lat": "43.7717704",
+      "lon": "11.2554084",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "86 R, Via dei Calzaiuoli, Quartiere 1, Firenze, Toscana, 50122, Italia",
+      "address": {
+        "house_number": "86 R",
+        "road": "Via dei Calzaiuoli",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7717204",
+        "43.7718204",
+        "11.2553584",
+        "11.2554584"
+      ]
+    }
+  ]
+}

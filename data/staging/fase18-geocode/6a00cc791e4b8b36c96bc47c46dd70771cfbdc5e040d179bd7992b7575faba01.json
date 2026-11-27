@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Strada+Nino+Bixio+63%2C+Parma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76896694,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4690745542,
+      "lat": "44.7991502",
+      "lon": "10.3206621",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00007255893797203048,
+      "addresstype": "shop",
+      "name": "Gioielli Valenti",
+      "display_name": "Gioielli Valenti, 63, Strada Nino Bixio, Oltretorrente, Parma, Emilia-Romagna, 43125, Italia",
+      "address": {
+        "shop": "Gioielli Valenti",
+        "house_number": "63",
+        "road": "Strada Nino Bixio",
+        "suburb": "Oltretorrente",
+        "city": "Parma",
+        "county": "Parma",
+        "ISO3166-2-lvl6": "IT-PR",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "43125",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.7991002",
+        "44.7992002",
+        "10.3206121",
+        "10.3207121"
+      ]
+    }
+  ]
+}

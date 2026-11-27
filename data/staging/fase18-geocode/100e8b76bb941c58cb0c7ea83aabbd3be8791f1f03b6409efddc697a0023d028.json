@@ -1,0 +1,45 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Italia%2C+24%2C+Tirano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 426165371,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 260419131,
+      "lat": "46.2176072",
+      "lon": "10.1590250",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339241245136183,
+      "addresstype": "secondary",
+      "name": "Viale Italia",
+      "display_name": "Viale Italia, Visoli, Madonna, Roncaiola, Baruffini, Tirano, Comunità montana della Valtellina di Tirano, Sondrio, Lombardia, 23037, Italia",
+      "address": {
+        "road": "Viale Italia",
+        "neighbourhood": "Visoli",
+        "quarter": "Madonna",
+        "hamlet": "Roncaiola",
+        "village": "Baruffini",
+        "town": "Tirano",
+        "municipality": "Comunità montana della Valtellina di Tirano",
+        "county": "Sondrio",
+        "ISO3166-2-lvl6": "IT-SO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "23037",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.2172589",
+        "46.2179527",
+        "10.1563992",
+        "10.1616504"
+      ]
+    }
+  ]
+}

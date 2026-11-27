@@ -181,6 +181,28 @@ const molise = cercaOrologiaio(directory, { regione: 'molise' }).risultati.map(r
 assert.ok(molise.length > 0, 'Il database ha attività in Molise');
 assert.deepEqual(schede(), molise, 'Le schede mostrate sono quelle del Molise, non un elenco vuoto');
 
+// I-bis. Prima richiesta: il ripiego sui soli criteri nuovi non deve annunciare un contesto
+// precedente che non esiste. DOM separato per non alterare la conversazione già in corso.
+{
+  const erroriPrimo: Error[] = [];
+  const consolePrimo = new VirtualConsole();
+  consolePrimo.on('jsdomError', error => erroriPrimo.push(error));
+  const primo = new JSDOM(html, { url: 'https://orologiai.it/orologiaio/', runScripts: 'outside-only', virtualConsole: consolePrimo });
+  const pw = primo.window;
+  // L'interpretazione del modello è troppo stretta e non trova nulla; quella locale sì.
+  pw.fetch = (async () => ai({ localita: 'firenze', terminiNonRiconosciuti: ['MarchioInesistente'] })) as unknown as typeof pw.fetch;
+  pw.eval(script);
+  const pdoc = pw.document;
+  pdoc.querySelector<HTMLTextAreaElement>('#assistente-messaggio')!.value = 'revisione a Firenze';
+  pdoc.querySelector<HTMLFormElement>('#assistente-form')!.dispatchEvent(new pw.Event('submit', { bubbles: true, cancelable: true }));
+  await new Promise(resolve => pw.setTimeout(resolve, 80));
+  const testoPrimo = pdoc.querySelector<HTMLElement>('#assistente-chat')!.textContent ?? '';
+  assert.doesNotMatch(testoPrimo, /richiesta precedente/, 'Al primo messaggio non si parla di criteri precedenti');
+  assert.ok(pdoc.querySelectorAll('.chat-result').length > 0, 'Il primo messaggio mostra comunque i risultati dei criteri nuovi');
+  assert.deepEqual(erroriPrimo, [], 'Nessun errore JavaScript al primo messaggio');
+  pw.close();
+}
+
 // J. Regole CSS della chat presenti nel foglio di stile compilato (mobile-first, composer aderente).
 const cssFiles = (await readdir('dist/_astro')).filter(f => f.endsWith('.css'));
 const css = (await Promise.all(cssFiles.map(f => readFile(`dist/_astro/${f}`, 'utf8')))).join('\n');

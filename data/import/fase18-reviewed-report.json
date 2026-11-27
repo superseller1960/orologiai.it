@@ -1,0 +1,340 @@
+{
+  "data": "2026-10-31",
+  "baseSHA256": "7d862771b35d0eabb9a1add22cef3f507c830c109b0436e13b8bf33858bb33c8",
+  "prima": 324,
+  "dopo": 346,
+  "nuove": [
+    {
+      "id": "vicentini-gioielli-belluno",
+      "nome": "Vicentini Gioielli",
+      "localita": "belluno"
+    },
+    {
+      "id": "gior-gioielli-belluno",
+      "nome": "GIOR — Gior di Gabbin Isabella",
+      "localita": "belluno"
+    },
+    {
+      "id": "franchin-padova",
+      "nome": "Orologeria Oreficeria Franchin",
+      "localita": "padova"
+    },
+    {
+      "id": "cronomania-padova",
+      "nome": "Cronomania",
+      "localita": "padova"
+    },
+    {
+      "id": "brugnelli-cremona-campi",
+      "nome": "Gioielleria Brugnelli — Corso Campi",
+      "localita": "cremona"
+    },
+    {
+      "id": "brugnelli-cremona-verdi",
+      "nome": "Gioielleria Brugnelli — Via Verdi",
+      "localita": "cremona"
+    },
+    {
+      "id": "curnis-concept-bergamo",
+      "nome": "Curnis Gioielli — Monte Grappa",
+      "localita": "bergamo"
+    },
+    {
+      "id": "curnis-zambonate-bergamo",
+      "nome": "Gioielleria Curnis — Via Zambonate",
+      "localita": "bergamo"
+    },
+    {
+      "id": "pernici-arezzo",
+      "nome": "Orologeria Pernici",
+      "localita": "arezzo"
+    },
+    {
+      "id": "louis-shop-pieve-cento",
+      "nome": "Gioielleria Louis Shop",
+      "localita": "pieve-di-cento"
+    },
+    {
+      "id": "lazzini-sarzana",
+      "nome": "Orologeria Oreficeria Lazzini Claudio",
+      "localita": "sarzana"
+    },
+    {
+      "id": "luigi-verga-vercelli-milano",
+      "nome": "Luigi Verga Orologi — Corso Vercelli",
+      "localita": "milano"
+    },
+    {
+      "id": "fecarotta-palermo",
+      "nome": "Fecarotta Gioielli",
+      "localita": "palermo"
+    },
+    {
+      "id": "carlini-isernia",
+      "nome": "Carlini Gioielli",
+      "localita": "isernia"
+    },
+    {
+      "id": "le-musolesi-bologna",
+      "nome": "Le Musolesi",
+      "localita": "bologna"
+    },
+    {
+      "id": "i-gioielli-conti-besana",
+      "nome": "I Gioielli Conti",
+      "localita": "besana-in-brianza"
+    },
+    {
+      "id": "bartorelli-riccione-dante",
+      "nome": "Bartorelli Gioiellerie — Via Dante",
+      "localita": "riccione"
+    },
+    {
+      "id": "salvadori-rolex-venezia",
+      "nome": "Salvadori — Boutique Rolex",
+      "localita": "venezia"
+    },
+    {
+      "id": "restivo-catania",
+      "nome": "Restivo — Catania",
+      "localita": "catania"
+    },
+    {
+      "id": "restivo-siracusa",
+      "nome": "Restivo — Siracusa",
+      "localita": "siracusa"
+    },
+    {
+      "id": "restivo-enna",
+      "nome": "Restivo — Enna",
+      "localita": "enna"
+    },
+    {
+      "id": "restivo-taormina-patek",
+      "nome": "Restivo — Patek Philippe Taormina",
+      "localita": "taormina"
+    }
+  ],
+  "aggiornate": [
+    "gioielleria-boni-belluno",
+    "de-marco-belluno"
+  ],
+  "fonti": [
+    {
+      "id": "f18-vicentini",
+      "url": "https://vicentinigioielli.it/",
+      "evidenza": "Presso la Gioielleria Vicentini troverai un orologio per ogni occasione."
+    },
+    {
+      "id": "f18-vicentini-sede",
+      "url": "https://vicentinigioielli.it/termini-e-condizioni/",
+      "evidenza": "Via Carrera 15/b, 32100 Belluno"
+    },
+    {
+      "id": "f18-gior",
+      "url": "https://www.gioielli-gior.it/en/?id=index-1117486329&ucat=88",
+      "evidenza": "artisan goldsmith’s workshop and a jewelry shop; watches that fit the most various tastes"
+    },
+    {
+      "id": "f18-gior-sede",
+      "url": "https://www.studex.it/store/gior-di-gabbin-isabella/",
+      "evidenza": "Via Mercato 9, Belluno; telefono +39 437 942059"
+    },
+    {
+      "id": "f18-boni-storia",
+      "url": "https://www.gioielleriaboni.it/chi-siamo",
+      "evidenza": "riparazione e revisione di orologi di alta gamma e restauro di pendoleria; vendita guidata di orologi usati e da collezione; dal 1995 collaborazione del figlio Giovanni"
+    },
+    {
+      "id": "f18-boni-riparazioni",
+      "url": "https://www.gioielleriaboni.it/riparazione-orologi",
+      "evidenza": "Rolex, Cartier, Jaeger Le Coultre, Omega, Patek Philippe, Baume&Mercier"
+    },
+    {
+      "id": "f18-demarco-storia",
+      "url": "https://www.bellunocentro.it/portfolio/de-marco-gioielleria-orologeria/",
+      "evidenza": "Dal 1938; lavoro artigianale di laboratorio per interventi e riparazioni su orologi e gioielli."
+    },
+    {
+      "id": "f18-demarco-riparazioni",
+      "url": "https://www.demarco-belluno.it/riparazioni-orologi-a-belluno/",
+      "evidenza": "Restauro di orologi antichi; lavaggio meccanismi, componenti usurati, guarnizioni, controllo precisione."
+    },
+    {
+      "id": "f18-franchin",
+      "url": "https://www.orologeria-oreficeria-franchin.com/",
+      "evidenza": "Riparazioni e revisioni meccanici automatici quarzo; parigine, pendolo, cucù; negozio aperto nel 1968."
+    },
+    {
+      "id": "f18-franchin-sede",
+      "url": "https://www.orologeria-oreficeria-franchin.com/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-cronomania",
+      "url": "https://www.cronomania.it/il-laboratorio/",
+      "evidenza": "Riparazioni e revisioni di orologi da polso, da tasca e da tavolo; laboratorio interno."
+    },
+    {
+      "id": "f18-cronomania-sede",
+      "url": "https://www.cronomania.it/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-brugnelli",
+      "url": "https://www.gioielleriabrugnelli.com/servizi/",
+      "evidenza": "Laboratorio super attrezzato; corretta manutenzione del movimento dell’orologio."
+    },
+    {
+      "id": "f18-brugnelli-sede",
+      "url": "https://www.gioielleriabrugnelli.com/contatti/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-curnis-concept",
+      "url": "https://curnisgioielli.it/en/",
+      "evidenza": "Store serves as a service centre specifically for Rolex watches, with a certified workshop."
+    },
+    {
+      "id": "f18-curnis-concept-sede",
+      "url": "https://curnisgioielli.it/en/rolex/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-curnis-zambonate",
+      "url": "https://www.curnis.com/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-curnis-zambonate-sede",
+      "url": "https://www.curnis.com/pages/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-pernici",
+      "url": "https://www.orologeriapernici.it/blank",
+      "evidenza": "Dal 1946 laboratorio interno; acquisto, permuta, vendita e valutazione."
+    },
+    {
+      "id": "f18-pernici-sede",
+      "url": "https://www.orologeriapernici.it/contact",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-pernici-storia",
+      "url": "https://www.orologeriapernici.it/about",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-louis",
+      "url": "https://louisshop.it/it/laboratorio",
+      "evidenza": "Riparazione e restauro di orologi meccanici antichi e moderni; nel mio laboratorio."
+    },
+    {
+      "id": "f18-louis-sede",
+      "url": "https://louisshop.it/it/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-lazzini",
+      "url": "https://www.adjora.it/comelavoriamo.html",
+      "evidenza": "Ripariamo e revisioniamo qualsiasi tipo di orologio; restauriamo orologi a pendolo."
+    },
+    {
+      "id": "f18-lazzini-sede",
+      "url": "https://www.adjora.it/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-lazzini-storia",
+      "url": "https://www.adjora.it/chisiamo.html",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-verga",
+      "url": "https://www.vergaorologi.it/it/assistenza",
+      "evidenza": "Laboratorio interno inaugurato nel 1997; altre marche svizzere in collaborazione con i centri tecnici delle Case."
+    },
+    {
+      "id": "f18-verga-sede",
+      "url": "https://www.vergaorologi.it/it/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-fecarotta",
+      "url": "https://www.fecarotta.com/it/faq/",
+      "evidenza": "Servizio completo di assistenza e riparazione per gioielli e orologi."
+    },
+    {
+      "id": "f18-fecarotta-sede",
+      "url": "https://www.fecarotta.com/it/contatti/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-carlini",
+      "url": "https://www.carlinigioielli.it/index1.htm",
+      "evidenza": "Gioielleria Argenteria Orologeria; Corso Garibaldi 61 Isernia"
+    },
+    {
+      "id": "f18-musolesi",
+      "url": "https://www.lemusolesi.com/laboratorio-orologeria-bologna",
+      "evidenza": "Revisionare, restaurare e regolare orologi meccanici, automatici e quarzo; specializzato in orologi d’epoca."
+    },
+    {
+      "id": "f18-musolesi-sede",
+      "url": "https://www.lemusolesi.com/index.php?route=information/contact",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-pretolani",
+      "url": "https://www.gioielleriapretolani.it/laboratorio-orologiero",
+      "evidenza": "Ogni riparazione rimane all’interno del punto vendita; piccole riparazioni e restauri di orologi antichi."
+    },
+    {
+      "id": "f18-pretolani-sede",
+      "url": "https://www.gioielleriapretolani.it/contatti",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-conti",
+      "url": "https://www.igioielliconti.com/orologiaio-a-monza/",
+      "evidenza": "Riparazione manutenzione e revisione meccanici automatici e quarzo; Via Santa Caterina 12 Besana in Brianza."
+    },
+    {
+      "id": "f18-bartorelli-riccione",
+      "url": "https://www.patek.com/en/points-of-sale/europe/italy/riccione/bartorelli-gioiellerie",
+      "evidenza": "Authorized Patek Philippe retailer; battery replacement, water resistance testing, timekeeping check."
+    },
+    {
+      "id": "f18-salvadori-rolex",
+      "url": "https://www.salvadori-venezia.eu/negozi/boutique-rolex-venezia/",
+      "evidenza": "Boutique dedicata esclusivamente a Rolex aperta nel 2012."
+    },
+    {
+      "id": "f18-restivo",
+      "url": "https://www.restivo.it/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-restivo-sedi",
+      "url": "https://www.restivo.it/contatti/",
+      "evidenza": ""
+    },
+    {
+      "id": "f18-restivo-taormina",
+      "url": "https://www.restivo.it/contatti/",
+      "evidenza": "Patek Philippe Taormina, Corso Umberto 28, telefono 0942 480746."
+    }
+  ],
+  "escluseBelluno": [
+    {
+      "nome": "Piaz",
+      "motivo": "Identità gioielleria/ottica riscontrata ma servizio orologeria non documentato da fonte primaria letta; non pubblicata."
+    },
+    {
+      "nome": "Santarossa Preziosi",
+      "motivo": "Solo directory: attività attuale e servizi orologieri non sufficientemente verificati; non pubblicata."
+    }
+  ],
+  "lotto5": "15 candidate sospese invariate, nessuna integrazione automatica."
+}

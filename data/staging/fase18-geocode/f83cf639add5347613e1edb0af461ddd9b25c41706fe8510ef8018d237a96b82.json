@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+68%2C+Genova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76136812,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13295153723,
+      "lat": "44.5633269",
+      "lon": "8.6689368",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 0.00005018921187147353,
+      "addresstype": "highway",
+      "name": "Via Roma 68",
+      "display_name": "Via Roma 68, Via Roma, Rossiglione Inferiore, Rossiglione, Genova, Liguria, 16013, Italia",
+      "address": {
+        "highway": "Via Roma 68",
+        "road": "Via Roma",
+        "residential": "Rossiglione Inferiore",
+        "village": "Rossiglione",
+        "county": "Genova",
+        "ISO3166-2-lvl6": "IT-GE",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "16013",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.5632769",
+        "44.5633769",
+        "8.6688868",
+        "8.6689868"
+      ]
+    }
+  ]
+}

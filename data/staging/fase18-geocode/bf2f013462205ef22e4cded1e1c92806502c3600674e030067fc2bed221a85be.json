@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Atenea+133%2F135%2C+Agrigento%2C+Italia",
+  "consultataIl": "2026-11-01",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53842914,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 98139610,
+      "lat": "37.3110274",
+      "lon": "13.5817503",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053399344625009504,
+      "addresstype": "residential",
+      "name": "Via Atenea",
+      "display_name": "Via Atenea, Bibirria, Calcarelle, Villaseta, Agrigento, Sicilia, 92100, Italia",
+      "address": {
+        "road": "Via Atenea",
+        "neighbourhood": "Bibirria",
+        "suburb": "Calcarelle",
+        "village": "Villaseta",
+        "city": "Agrigento",
+        "county": "Agrigento",
+        "ISO3166-2-lvl6": "IT-AG",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "92100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.3100429",
+        "37.3118611",
+        "13.5787076",
+        "13.5849906"
+      ]
+    }
+  ]
+}

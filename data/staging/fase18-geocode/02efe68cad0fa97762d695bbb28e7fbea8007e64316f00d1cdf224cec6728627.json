@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Crispi%2C+43%2C+Andria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56624912,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27499230,
+      "lat": "41.2278889",
+      "lon": "16.3012736",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339314793621725,
+      "addresstype": "pedestrian",
+      "name": "Viale Francesco Crispi",
+      "display_name": "Viale Francesco Crispi, San Valentino, Andria, Barletta-Andria-Trani, Puglia, 76123, Italia",
+      "address": {
+        "road": "Viale Francesco Crispi",
+        "village": "San Valentino",
+        "city": "Andria",
+        "province": "Barletta-Andria-Trani",
+        "ISO3166-2-lvl6": "IT-BT",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "76123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.2273307",
+        "41.2284389",
+        "16.3005388",
+        "16.3020022"
+      ]
+    }
+  ]
+}

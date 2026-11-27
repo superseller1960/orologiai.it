@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+35%2F37%2C+Iglesias%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53445426,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 83113364,
+      "lat": "39.3131599",
+      "lon": "8.5349437",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053393157091630394,
+      "addresstype": "pedestrian",
+      "name": "Corso Giacomo Matteotti",
+      "display_name": "Corso Giacomo Matteotti, Iglesias, Sulcis Iglesiente, Sardegna, 09016, Italia",
+      "address": {
+        "road": "Corso Giacomo Matteotti",
+        "town": "Iglesias",
+        "county": "Sulcis Iglesiente",
+        "ISO3166-2-lvl6": "IT-SU",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "09016",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.3127326",
+        "39.3136201",
+        "8.5340086",
+        "8.5358950"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Cardinale%2C+44%2C+Livorno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82220980,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29375966,
+      "lat": "43.5495487",
+      "lon": "10.3122215",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05340389639124129,
+      "addresstype": "unclassified",
+      "name": "Via del Cardinale",
+      "display_name": "Via del Cardinale, Consiglio di Zona 2, Livorno, Toscana, 57123, Italia",
+      "address": {
+        "road": "Via del Cardinale",
+        "suburb": "Consiglio di Zona 2",
+        "city": "Livorno",
+        "county": "Livorno",
+        "ISO3166-2-lvl6": "IT-LI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "57123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.5493733",
+        "43.5497283",
+        "10.3118525",
+        "10.3125925"
+      ]
+    }
+  ]
+}

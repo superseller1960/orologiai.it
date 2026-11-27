@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { directorySchema, type Directory } from '../site/src/lib/schema.ts';
 import {
-  MAX_MESSAGGIO, interpretaRichiesta, cercaOrologiaio, interpretaConProvider, statoOrari, criteriSchema,
-  type AssistantProvider,
+  MAX_MESSAGGIO, interpretaRichiesta, cercaOrologiaio, interpretaConProvider, statoOrari, criteriSchema, combinaCriteri,
+  type AssistantProvider, type Criteri,
 } from '../site/src/lib/assistant.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 
@@ -122,8 +122,19 @@ test('menzioni storiche non diventano competenze', () => {
   const r = cercaOrologiaio(data, { marca: 'Rolex' }, { now: VENERDI });
   for (const x of r.risultati) {
     const b = data.attivita.find(y => y.id === x.id)!;
-    if (!b.marchi.riparati.some(m => m.marca === 'Rolex') && !b.marchi.venduti.some(m => m.marca === 'Rolex') && !b.marchi.esperienza.some(m => m.marca === 'Rolex')) {
+    const ruoliDocumentati = [...b.marchi.riparati, ...b.marchi.venduti, ...b.marchi.esperienza, ...b.marchi.assistenzaUfficiale, ...b.marchi.rivenditaUfficiale]
+      .filter(m => m.marca === 'Rolex');
+    // Una menzione storica resta un avviso, mai una competenza.
+    if (b.marchi.menzionati.some(m => m.marca === 'Rolex')) {
       assert.ok(x.attenzione.some(a => a.includes('menzione storica')));
+    }
+    // Senza alcun ruolo documentato il marchio non può comparire tra i motivi.
+    if (ruoliDocumentati.length === 0) {
+      assert.ok(!x.motivi.some(m => m.startsWith('Rolex:')), 'marchio citato senza ruolo documentato');
+    } else {
+      // Un'autorizzazione ufficiale è un ruolo documentato: va nei motivi, non tra le menzioni storiche.
+      assert.ok(x.motivi.some(m => m.startsWith('Rolex:')), 'ruolo documentato non dichiarato');
+      assert.ok(!x.attenzione.some(a => a.includes('menzione storica')), 'ruolo documentato trattato come menzione');
     }
   }
 });
@@ -235,21 +246,15 @@ test('risultati vuoti spiegati senza invenzioni', () => {
   const r = cerca('restauro di orologi da tasca antichi a Pontedera', {});
   if (r.totale === 0) assert.match(r.messaggi.join(' '), /Nessuna attività soddisfa/);
 });
-test('città in minuscolo senza servizio locale propone alternative', () => {
-  // Poggibonsi (come prima Milano) ha attività censite ma nessuna che sostituisca le batterie,
-  // né in comune né in provincia: il nome in minuscolo deve restare riconosciuto e il servizio
-  // non coperto deve generare alternative dichiarate come possibilmente lontane.
+test('città in minuscolo senza servizio locale non propone alternative fuori comune', () => {
+  // Poggibonsi è riconosciuta, ma l'assenza del servizio non autorizza una ricerca nazionale.
   const criteri = interpretaRichiesta('Cerco cambio batteria a poggibonsi', data).criteri;
   assert.equal(criteri.localita, 'poggibonsi');
   assert.equal(criteri.servizio, 'batterie');
   const risultato = cercaOrologiaio(data, criteri, { now: VENERDI });
   assert.equal(risultato.stato, 'nessun-risultato');
-  assert.ok(risultato.alternative.length > 0);
-  for (const alternativa of risultato.alternative) {
-    const attivita = data.attivita.find(x => x.id === alternativa.id)!;
-    assert.ok(attivita.servizi.some(s => s.id === 'batterie'));
-  }
-  assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);
+  assert.deepEqual(risultato.alternative, []);
+  assert.match(risultato.messaggi.join(' '), /area più ampia/);
 });
 
 test('richieste senza città non scambiano le preposizioni per località', () => {
@@ -258,7 +263,7 @@ test('richieste senza città non scambiano le preposizioni per località', () =>
   assert.equal(cerca('Dammi il numero di telefono personale del titolare').stato, 'nessun-criterio');
 });
 
-test('città non censita in minuscolo propone alternative dichiarate', () => {
+test('città non censita in minuscolo offre la provincia ISTAT senza alternative automatiche', () => {
   const fixture = structuredClone(data);
   fixture.localita = fixture.localita.filter(l => l.comuneSlug !== 'imola');
   fixture.attivita = fixture.attivita.filter(b => fixture.localita.some(l => l.id === b.localitaId));
@@ -267,8 +272,8 @@ test('città non censita in minuscolo propone alternative dichiarate', () => {
   assert.equal(criteri.servizio, 'batterie');
   const risultato = cercaOrologiaio(fixture, criteri, { now: VENERDI });
   assert.equal(risultato.stato, 'localita-non-censita');
-  assert.ok(risultato.alternative.length > 0);
-  assert.match(risultato.messaggi.join(' '), /potrebbero essere lontane/);
+  assert.deepEqual(risultato.alternative, []);
+  assert.match(risultato.messaggi.join(' '), /provincia di Bologna.*Emilia/);
 });
 
 test('richiesta tecnica su marchio separa chi ripara la marca da chi la vende soltanto', () => {
@@ -315,13 +320,18 @@ test('ricerche geografiche di servizi per cinturini distinguono città coperte e
     ['Vorrei sostituire il cinturino a Firenze', 'macchina-tempo-firenze'],
     ['Vorrei sostituire il cinturino a Scandicci', 'pisani-scandicci-matteotti'],
     ['Vorrei sostituire il cinturino a Bologna', 'fontana-bologna'],
-    ['Vorrei sostituire il cinturino a Torino', 'orologica-torino'],
     ['Vorrei sostituire il cinturino a Roma', 'casa-cronometro-roma'],
   ] as const) {
     const r = cerca(msg);
     assert.equal(r.stato, 'ok', msg);
     assert.ok(r.risultati.some(x => x.id === attesoId), `${msg} -> ${attesoId}`);
   }
+  // Torino è coperta: con dieci attività che documentano il servizio, il risultato utile è la copertura
+  // della città e non una singola scheda, che può uscire dal limite dei risultati mostrati.
+  const torino = cerca('Vorrei sostituire il cinturino a Torino');
+  assert.equal(torino.stato, 'ok');
+  const torinoIds = new Set(data.attivita.filter(b => b.localitaId === 'torino').map(b => b.id));
+  assert.ok(torino.risultati.length > 0 && torino.risultati.every(x => torinoIds.has(x.id)));
   // Milano è coperta dal quick service di Ronchi (sito ufficiale, lotto 1 del 25/10/2026):
   // la città diventa «coperta» e il caso negativo si sposta su un comune privo del servizio.
   const milano = cerca('Vorrei sostituire il cinturino a Milano');
@@ -344,4 +354,56 @@ test('regioni composte e capoluoghi: «Valle d’Aosta» resta una regione, «Ao
   assert.equal(interpretaRichiesta('Cerco un orologiaio a Courmayeur', data).criteri.localita, 'courmayeur');
   // Un capoluogo citato insieme alla propria regione resta un comune, non una regione.
   assert.equal(interpretaRichiesta('Cerco un orologiaio a Firenze in Toscana', data).criteri.localita, 'firenze');
+});
+
+// Fase 31B: il modello non aggiunge filtri non richiesti (servizio, tipo, ecc.).
+const conModello = (msg: string, out: unknown, contesto?: Criteri) =>
+  interpretaConProvider(msg, data, provider(async () => out), undefined, contesto);
+
+test('sola città: il modello non aggiunge servizio o tipo', async () => {
+  const r = await conModello('Cerco un orologiaio a Torino', { localita: 'torino', servizio: 'vendita', tipo: 'orologeria' });
+  assert.equal(r.criteri.localita, 'torino');
+  assert.equal(r.criteri.servizio, undefined);
+  assert.equal(r.criteri.tipo, undefined);
+});
+
+test('città più riparazione esplicita: il servizio resta', async () => {
+  const r = await conModello('riparazione a Torino', { localita: 'torino', servizio: 'riparazione' });
+  assert.equal(r.criteri.servizio, 'riparazione');
+  assert.equal(r.criteri.localita, 'torino');
+});
+
+test('città più revisione esplicita: il servizio resta', async () => {
+  const r = await conModello('revisione a Torino', { localita: 'torino', servizio: 'revisione' });
+  assert.equal(r.criteri.servizio, 'revisione');
+});
+
+test('laboratorio richiesto esplicitamente: il tipo resta', async () => {
+  const r = await conModello('cerco un laboratorio a Torino', { localita: 'torino' });
+  assert.equal(r.criteri.tipo, 'laboratorio');
+});
+
+test('vendita richiesta esplicitamente: il servizio resta', async () => {
+  const r = await conModello('vendita di orologi usati a Torino', { localita: 'torino' });
+  assert.equal(r.criteri.servizio, 'vendita-usati');
+});
+
+test('modifica dei criteri in conversazione: il nuovo servizio sostituisce il precedente', () => {
+  const primo = interpretaRichiesta('riparazione a Torino', data).criteri;
+  const secondo = interpretaRichiesta('ora revisione', data).criteri;
+  const uniti = combinaCriteri(primo, secondo, 'ora revisione');
+  assert.equal(uniti.servizio, 'revisione');
+  assert.equal(uniti.localita, 'torino');
+});
+
+test('Alassio: nessun filtro aggiunto dal modello e la località resta quella letta', async () => {
+  const r = await conModello('orologiaio ad Alassio', { localita: 'alassio', servizio: 'vendita' });
+  assert.equal(r.criteri.servizio, undefined);
+  assert.equal(r.criteri.tipo, undefined);
+});
+
+test('Reggio Calabria e Reggio di Calabria: stessa interpretazione territoriale', () => {
+  const a = interpretaRichiesta('orologiaio a Reggio Calabria', data).criteri;
+  const b = interpretaRichiesta('orologiaio a Reggio di Calabria', data).criteri;
+  assert.equal(a.localita ?? a.localitaNonCensita, b.localita ?? b.localitaNonCensita);
 });

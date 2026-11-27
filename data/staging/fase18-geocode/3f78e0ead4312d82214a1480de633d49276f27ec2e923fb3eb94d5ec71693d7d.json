@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Fernelli+8%2C+Mantova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 428373523,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1560749251,
+      "lat": "45.1605475",
+      "lon": "10.7904478",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05340502708476383,
+      "addresstype": "residential",
+      "name": "Via Domenico Fernelli",
+      "display_name": "Via Domenico Fernelli, Fiera-Catena, Mantova, Lombardia, 46100, Italia",
+      "address": {
+        "road": "Via Domenico Fernelli",
+        "suburb": "Fiera-Catena",
+        "city": "Mantova",
+        "county": "Mantova",
+        "ISO3166-2-lvl6": "IT-MN",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "46100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.1604485",
+        "45.1606579",
+        "10.7901646",
+        "10.7907352"
+      ]
+    }
+  ]
+}

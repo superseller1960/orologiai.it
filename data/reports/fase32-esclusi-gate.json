@@ -1,0 +1,45 @@
+{
+  "data": "2026-11-03",
+  "esclusi": [
+    {
+      "id": "orologeria-magno-bari",
+      "comune": "Bari",
+      "motivo": "CAP, via e telefono non riscontrati nelle pagine ufficiali consultate"
+    },
+    {
+      "id": "gioielleria-bisciardi-avezzano",
+      "comune": "Avezzano",
+      "motivo": "CAP non pubblicato e non confermabile"
+    },
+    {
+      "id": "gioielleria-spinelli-cesano-maderno",
+      "comune": "Cesano Maderno",
+      "motivo": "CAP non riscontrato nella pagina ufficiale"
+    },
+    {
+      "id": "lissi-gioielli-rho",
+      "comune": "Rho",
+      "motivo": "indirizzo non pubblicato, CAP non confermato"
+    },
+    {
+      "id": "cm-orologi-alba",
+      "comune": "Alba",
+      "motivo": "CAP non riscontrato nelle pagine ufficiali consultate"
+    },
+    {
+      "id": "zanoni-preziosi-trento",
+      "comune": "Trento",
+      "motivo": "indirizzo e CAP non pubblicati: collocazione ambigua"
+    },
+    {
+      "id": "formica-francesco-citta-di-castello",
+      "comune": "Città di Castello",
+      "motivo": "CAP non riscontrato nella pagina ufficiale"
+    },
+    {
+      "id": "l-orologio-imola-imola",
+      "comune": "Imola",
+      "motivo": "CAP del record (41026) errato per Imola e non confermato dal sito"
+    }
+  ]
+}

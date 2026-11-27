@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Cavour+1%2FE%2C+Novara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 425000790,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 14079792071,
+      "lat": "45.4471217",
+      "lon": "8.6220550",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006781948577091657,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "1e, Corso Camillo Benso Conte di Cavour, Centro, Novara, Piemonte, 28100, Italia",
+      "address": {
+        "house_number": "1e",
+        "road": "Corso Camillo Benso Conte di Cavour",
+        "suburb": "Centro",
+        "city": "Novara",
+        "county": "Novara",
+        "ISO3166-2-lvl6": "IT-NO",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "28100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.4470717",
+        "45.4471717",
+        "8.6220050",
+        "8.6221050"
+      ]
+    }
+  ]
+}

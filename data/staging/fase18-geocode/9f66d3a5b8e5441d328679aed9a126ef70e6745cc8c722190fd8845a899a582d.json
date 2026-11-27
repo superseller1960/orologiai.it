@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Corso%2C+50%2C+Matera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56508414,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 179148799,
+      "lat": "40.6650447",
+      "lon": "16.6087482",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053397553215838826,
+      "addresstype": "pedestrian",
+      "name": "Via del Corso",
+      "display_name": "Via del Corso, Centro storico, Matera, Basilicata, 75100, Italia",
+      "address": {
+        "road": "Via del Corso",
+        "suburb": "Centro storico",
+        "city": "Matera",
+        "county": "Matera",
+        "ISO3166-2-lvl6": "IT-MT",
+        "state": "Basilicata",
+        "ISO3166-2-lvl4": "IT-77",
+        "postcode": "75100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6647338",
+        "40.6652999",
+        "16.6084623",
+        "16.6089661"
+      ]
+    }
+  ]
+}

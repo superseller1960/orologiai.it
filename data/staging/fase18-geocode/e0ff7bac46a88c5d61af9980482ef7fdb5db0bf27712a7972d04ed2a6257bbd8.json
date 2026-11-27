@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Duomo%2C+14%2C+Cerignola%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80728121,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 620670316,
+      "lat": "41.2647745",
+      "lon": "15.8997111",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672509727626459,
+      "addresstype": "square",
+      "name": "Piazza Duomo",
+      "display_name": "Piazza Duomo, Cerignola, Foggia, Puglia, 71042, Italia",
+      "address": {
+        "square": "Piazza Duomo",
+        "town": "Cerignola",
+        "county": "Foggia",
+        "ISO3166-2-lvl6": "IT-FG",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "71042",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.2644831",
+        "41.2650658",
+        "15.8991292",
+        "15.9002960"
+      ]
+    }
+  ]
+}

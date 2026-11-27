@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+da+Siena%2C+7%2C+Trieste%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78923577,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3633952149,
+      "lat": "45.6505982",
+      "lon": "13.7746137",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.0000422087434195013,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "7, Via Santa Caterina da Siena, Rena Vecchia, Borgo Teresiano, Città Nuova-Barriera Nuova-San Vito-Città Vecchia, Trieste, Friuli-Venezia Giulia, 34122, Italia",
+      "address": {
+        "house_number": "7",
+        "road": "Via Santa Caterina da Siena",
+        "neighbourhood": "Rena Vecchia",
+        "suburb": "Borgo Teresiano",
+        "city": "Trieste",
+        "county": "Trieste",
+        "ISO3166-2-lvl6": "IT-TS",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6505482",
+        "45.6506482",
+        "13.7745637",
+        "13.7746637"
+      ]
+    }
+  ]
+}

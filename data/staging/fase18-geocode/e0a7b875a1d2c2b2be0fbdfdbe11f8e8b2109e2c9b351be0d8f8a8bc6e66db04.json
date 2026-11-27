@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Rivo%2C+192%2C+Terni%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79984315,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 273932813,
+      "lat": "42.5843753",
+      "lon": "12.6138877",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339850537880518,
+      "addresstype": "residential",
+      "name": "Via del Rivo",
+      "display_name": "Via del Rivo, Campitello, Terni, Umbria, 05100, Italia",
+      "address": {
+        "road": "Via del Rivo",
+        "suburb": "Campitello",
+        "city": "Terni",
+        "county": "Terni",
+        "ISO3166-2-lvl6": "IT-TR",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "05100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.5834315",
+        "42.5850294",
+        "12.6121916",
+        "12.6154399"
+      ]
+    }
+  ]
+}

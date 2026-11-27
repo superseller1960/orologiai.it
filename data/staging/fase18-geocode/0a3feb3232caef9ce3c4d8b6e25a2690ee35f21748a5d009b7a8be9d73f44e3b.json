@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+29%2C+Olbia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 422626240,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13147433885,
+      "lat": "40.9238531",
+      "lon": "9.5002338",
+      "category": "shop",
+      "type": "optician",
+      "place_rank": 30,
+      "importance": 0.00003500190737769158,
+      "addresstype": "shop",
+      "name": "Ottica Priarone",
+      "display_name": "Ottica Priarone, 29, Corso Umberto Primo, Centro storico, Olbia, Gallura Nord-Est Sardegna, Sardegna, 07026, Italia",
+      "address": {
+        "shop": "Ottica Priarone",
+        "house_number": "29",
+        "road": "Corso Umberto Primo",
+        "quarter": "Centro storico",
+        "town": "Olbia",
+        "county": "Gallura Nord-Est Sardegna",
+        "ISO3166-2-lvl6": "IT-OT",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "07026",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.9238031",
+        "40.9239031",
+        "9.5001838",
+        "9.5002838"
+      ]
+    }
+  ]
+}

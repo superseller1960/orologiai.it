@@ -2,11 +2,16 @@
 import Layout from '../../layouts/Layout.astro';
 import BusinessCard from '../../components/BusinessCard.astro';
 import { directory, servicePages } from '../../lib/directory';
+import { servizioDocumentato } from '../../lib/recommendations';
 import { services } from '../../lib/schema';
 export function getStaticPaths() { return servicePages.map(id => ({ params: { servizio: id }, props: { id } })); }
 interface Props { id: keyof typeof services; }
 const { id } = Astro.props;
-const records = directory.attivita.filter(b => b.servizi.some(s => s.id === id));
+const conServizio = directory.attivita.filter(b => b.servizi.some(s => s.id === id));
+// Tutte le attività che elencano il servizio restano in elenco: il servizio è un dato con fonti.
+const records = conServizio;
+// Solo segnalazione trasparente: il riepilogo editoriale non ripete il servizio in alcune schede.
+const senzaDescrizione = conServizio.filter(b => !servizioDocumentato(directory, b, id)).length;
 const advice: Partial<Record<keyof typeof services, string>> = {
  vendita: 'Prima di scegliere un orologio, chiedi informazioni su condizioni, garanzia e assistenza successiva. La presenza di un marchio in una fonte storica non prova una concessione ufficiale attuale.',
  riparazione: 'Descrivi il difetto, il modello e gli eventuali interventi precedenti. Chiedi un preventivo e verifica chi eseguirà il lavoro: un servizio generico di riparazione non documenta automaticamente competenza su ogni meccanismo.',
@@ -32,5 +37,7 @@ const advice: Partial<Record<keyof typeof services, string>> = {
 ---
 <Layout title={`${services[id]} — attività censite`} description={`${services[id]}: consulta le attività che riportano questo servizio nelle fonti e controlla i dettagli prima di contattarle.`}>
 <section class="page-hero"><div class="container"><p class="eyebrow">Cerca per esigenza</p><h1>{services[id]}</h1><p class="lead">{advice[id] ?? 'Consulta le fonti della singola attività e conferma direttamente disponibilità e condizioni del servizio.'}</p></div></section>
-<section class="container section"><h2>{records.length} attività con questo servizio nelle fonti</h2><p class="notice">Indicazioni da fonti storiche e siti ufficiali: ogni scheda mostra il proprio stato e la data di verifica. Non sono preventivi; conferma direttamente disponibilità e condizioni del servizio.</p><ul class="grid">{records.map(b => <BusinessCard business={b} />)}</ul><a class="btn" href={`/cerca/?servizio=${id}`}>Affina per località e altri criteri →</a></section>
+<section class="container section"><h2>{records.length} attività con questo servizio nelle fonti</h2>
+{senzaDescrizione > 0 && <p class="small muted">{senzaDescrizione} di queste schede elencano il servizio senza ripeterlo nel riepilogo: nella <a href={`/cerca/?servizio=${id}`}>ricerca</a> sono segnalate con una nota sulla fonte, perché il dato resta da verificare nella scheda.</p>}<p class="notice">Indicazioni da fonti storiche e siti ufficiali: ogni scheda mostra il proprio stato e la data di verifica. Non sono preventivi; conferma direttamente disponibilità e condizioni del servizio.</p><ul class="grid">{records.map(b => <BusinessCard business={b} />)}</ul><a class="btn" href={`/cerca/?servizio=${id}`}>Affina per località e altri criteri →</a>
+<p class="small">Hai dubbi su quale intervento serva? <a href={`/orologiaio/?q=${encodeURIComponent(`Devo capire se serve ${services[id].toLowerCase()}`)}`}>Chiedi all’Orologiaio</a>: spiega le possibilità senza formulare diagnosi e propone il servizio pertinente.</p></section>
 </Layout>

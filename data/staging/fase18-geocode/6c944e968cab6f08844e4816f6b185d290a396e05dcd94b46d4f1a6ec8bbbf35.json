@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Enrico+Gagliardi%2C+46%2C+Vibo+Valentia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56392288,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 314881079,
+      "lat": "38.6743763",
+      "lon": "16.1029664",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053394525825894525,
+      "addresstype": "residential",
+      "name": "Via Enrico Gagliardi",
+      "display_name": "Via Enrico Gagliardi, Carmine, Vibo Valentia, Calabria, 89900, Italia",
+      "address": {
+        "road": "Via Enrico Gagliardi",
+        "neighbourhood": "Carmine",
+        "town": "Vibo Valentia",
+        "county": "Vibo Valentia",
+        "ISO3166-2-lvl6": "IT-VV",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "89900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.6735651",
+        "38.6752233",
+        "16.1006678",
+        "16.1052837"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Fiorentino+20%2C+Lamezia+Terme%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56117836,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 342341347,
+      "lat": "38.9667621",
+      "lon": "16.2831853",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672703212024109,
+      "addresstype": "square",
+      "name": "Piazza Francesco Fiorentino",
+      "display_name": "Piazza Francesco Fiorentino, Rione San Nicola, Sambiase, Gabella, Lamezia Terme, Catanzaro, Calabria, 88046, Italia",
+      "address": {
+        "square": "Piazza Francesco Fiorentino",
+        "neighbourhood": "Rione San Nicola",
+        "suburb": "Sambiase",
+        "village": "Gabella",
+        "town": "Lamezia Terme",
+        "county": "Catanzaro",
+        "ISO3166-2-lvl6": "IT-CZ",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "88046",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.9664920",
+        "38.9669973",
+        "16.2828458",
+        "16.2836954"
+      ]
+    }
+  ]
+}

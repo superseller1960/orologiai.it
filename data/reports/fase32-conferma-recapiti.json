@@ -1,0 +1,445 @@
+{
+  "data": "2026-11-03",
+  "esiti": [
+    {
+      "id": "orologeria-magno-bari",
+      "cap": null,
+      "via": null,
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://www.orologeriamagno.it",
+          "caratteri": 3056
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-bisciardi-avezzano",
+      "cap": null,
+      "via": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+          "caratteri": 3074
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-spinelli-cesano-maderno",
+      "cap": null,
+      "via": "https://www.gioielleriaspinelli.it",
+      "telefono": "https://www.gioielleriaspinelli.it",
+      "pagine": [
+        {
+          "url": "https://www.gioielleriaspinelli.it",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/contatti",
+          "caratteri": 1262
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/contatti/",
+          "caratteri": 1262
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/contatti.php",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/contatti.html",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/it/contatti",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/contact",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/dove-siamo",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/it/dove-siamo",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/negozio",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/pagine/contatti",
+          "caratteri": 1926
+        },
+        {
+          "url": "https://www.gioielleriaspinelli.it/chi-siamo",
+          "caratteri": 1926
+        }
+      ]
+    },
+    {
+      "id": "lissi-gioielli-rho",
+      "cap": null,
+      "via": null,
+      "telefono": "https://www.lissigioielli.it",
+      "pagine": [
+        {
+          "url": "https://www.lissigioielli.it",
+          "caratteri": 2501
+        },
+        {
+          "url": "https://www.lissigioielli.it/contatti",
+          "caratteri": 991
+        },
+        {
+          "url": "https://www.lissigioielli.it/contatti/",
+          "caratteri": 991
+        },
+        {
+          "url": "https://www.lissigioielli.it/it/contatti",
+          "caratteri": 991
+        },
+        {
+          "url": "https://www.lissigioielli.it/pagine/contatti",
+          "caratteri": 991
+        },
+        {
+          "url": "https://www.lissigioielli.it/chi-siamo",
+          "caratteri": 2437
+        }
+      ]
+    },
+    {
+      "id": "cm-orologi-alba",
+      "cap": null,
+      "via": "https://www.cmorologialba.it",
+      "telefono": "https://www.cmorologialba.it",
+      "pagine": [
+        {
+          "url": "https://www.cmorologialba.it",
+          "caratteri": 3640
+        },
+        {
+          "url": "https://www.cmorologialba.it/contatti",
+          "caratteri": 1566
+        },
+        {
+          "url": "https://www.cmorologialba.it/contatti/",
+          "caratteri": 1566
+        },
+        {
+          "url": "https://www.cmorologialba.it/it/contatti",
+          "caratteri": 1566
+        },
+        {
+          "url": "https://www.cmorologialba.it/pagine/contatti",
+          "caratteri": 1566
+        }
+      ]
+    },
+    {
+      "id": "zanoni-preziosi-trento",
+      "cap": null,
+      "via": null,
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://zanonipreziosi.it",
+          "caratteri": 5649
+        },
+        {
+          "url": "https://zanonipreziosi.it/contatti",
+          "caratteri": 2087
+        },
+        {
+          "url": "https://zanonipreziosi.it/contatti/",
+          "caratteri": 2087
+        },
+        {
+          "url": "https://zanonipreziosi.it/it/contatti",
+          "caratteri": 2087
+        },
+        {
+          "url": "https://zanonipreziosi.it/negozio",
+          "caratteri": 1853
+        },
+        {
+          "url": "https://zanonipreziosi.it/pagine/contatti",
+          "caratteri": 2087
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-tomasi-trento",
+      "cap": "https://www.gioielleriatomasi.it",
+      "via": "https://www.gioielleriatomasi.it",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://www.gioielleriatomasi.it",
+          "caratteri": 5980
+        }
+      ]
+    },
+    {
+      "id": "l-orologiaio-sardegna-porto-torres",
+      "cap": "https://www.lorologiaiosardegna.com",
+      "via": "https://www.lorologiaiosardegna.com",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://www.lorologiaiosardegna.com",
+          "caratteri": 1623
+        }
+      ]
+    },
+    {
+      "id": "formica-francesco-citta-di-castello",
+      "cap": null,
+      "via": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+          "caratteri": 1975
+        },
+        {
+          "url": "https://formicafrancesco.myadj.it/v/formicafrancesco/negozio",
+          "caratteri": 1065
+        }
+      ]
+    },
+    {
+      "id": "l-orologio-imola-imola",
+      "cap": null,
+      "via": "https://www.lorologioimola.it",
+      "telefono": "https://www.lorologioimola.it",
+      "pagine": [
+        {
+          "url": "https://www.lorologioimola.it",
+          "caratteri": 3297
+        },
+        {
+          "url": "https://www.lorologioimola.it/contatti",
+          "caratteri": 2173
+        },
+        {
+          "url": "https://www.lorologioimola.it/contatti/",
+          "caratteri": 2173
+        },
+        {
+          "url": "https://www.lorologioimola.it/it/contatti",
+          "caratteri": 2173
+        },
+        {
+          "url": "https://www.lorologioimola.it/pagine/contatti",
+          "caratteri": 2173
+        }
+      ]
+    },
+    {
+      "id": "r-rubini-arte-del-tempo-fidenza",
+      "cap": "https://www.rrubini.com",
+      "via": "https://www.rrubini.com",
+      "telefono": "https://www.rrubini.com",
+      "pagine": [
+        {
+          "url": "https://www.rrubini.com",
+          "caratteri": 7914
+        }
+      ]
+    },
+    {
+      "id": "orologeria-martini-bassano-del-grappa",
+      "cap": "https://orologeria-martini.webnode.it",
+      "via": "https://orologeria-martini.webnode.it",
+      "telefono": "https://orologeria-martini.webnode.it",
+      "pagine": [
+        {
+          "url": "https://orologeria-martini.webnode.it",
+          "caratteri": 936
+        }
+      ]
+    },
+    {
+      "id": "parolin-1885-rosa",
+      "cap": "https://www.parolinorologi.it",
+      "via": "https://www.parolinorologi.it",
+      "telefono": "https://www.parolinorologi.it/contatti.php",
+      "pagine": [
+        {
+          "url": "https://www.parolinorologi.it",
+          "caratteri": 3524
+        },
+        {
+          "url": "https://www.parolinorologi.it/contatti.php",
+          "caratteri": 1030
+        }
+      ]
+    },
+    {
+      "id": "tarondo-orologiai-tavagnacco",
+      "cap": "https://www.tarondo.it",
+      "via": "https://www.tarondo.it",
+      "telefono": "https://www.tarondo.it",
+      "pagine": [
+        {
+          "url": "https://www.tarondo.it",
+          "caratteri": 3740
+        }
+      ]
+    },
+    {
+      "id": "officina4-watchmaking-merano",
+      "cap": "https://www.officina4.com",
+      "via": null,
+      "telefono": "https://www.officina4.com",
+      "pagine": [
+        {
+          "url": "https://www.officina4.com",
+          "caratteri": 4010
+        }
+      ]
+    },
+    {
+      "id": "bellucci-echi-e-luci-martina-franca",
+      "cap": "https://www.bellucciechieluci.com",
+      "via": "https://www.bellucciechieluci.com",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://www.bellucciechieluci.com",
+          "caratteri": 1361
+        }
+      ]
+    },
+    {
+      "id": "sandrone-gioielli-moncalieri",
+      "cap": "https://www.sandronegioielli.com",
+      "via": "https://www.sandronegioielli.com",
+      "telefono": null,
+      "pagine": [
+        {
+          "url": "https://www.sandronegioielli.com",
+          "caratteri": 901
+        }
+      ]
+    },
+    {
+      "id": "cimafonte-orologi-napoli",
+      "cap": "https://www.cimafonteorologi.it",
+      "via": "https://www.cimafonteorologi.it",
+      "telefono": "https://www.cimafonteorologi.it",
+      "pagine": [
+        {
+          "url": "https://www.cimafonteorologi.it",
+          "caratteri": 6341
+        }
+      ]
+    },
+    {
+      "id": "tempo-prezioso-bologna-bologna",
+      "cap": "https://www.tempopreziosobologna.com",
+      "via": "https://www.tempopreziosobologna.com",
+      "telefono": "https://www.tempopreziosobologna.com",
+      "pagine": [
+        {
+          "url": "https://www.tempopreziosobologna.com",
+          "caratteri": 3283
+        }
+      ]
+    },
+    {
+      "id": "arte-orafa-traversi-cave",
+      "cap": "https://www.arteorafatraversi.it",
+      "via": "https://www.arteorafatraversi.it",
+      "telefono": "https://www.arteorafatraversi.it",
+      "pagine": [
+        {
+          "url": "https://www.arteorafatraversi.it",
+          "caratteri": 16583
+        }
+      ]
+    },
+    {
+      "id": "otto-gioielli-montebelluna",
+      "cap": "https://ottogioielli.it",
+      "via": "https://ottogioielli.it",
+      "telefono": "https://ottogioielli.it",
+      "pagine": [
+        {
+          "url": "https://ottogioielli.it",
+          "caratteri": 7592
+        }
+      ]
+    },
+    {
+      "id": "legnano-orologeria-paternostro-1972-legnano",
+      "cap": "https://www.andreapaternostro.it/contatti",
+      "via": "https://www.andreapaternostro.it/contatti",
+      "telefono": "https://www.andreapaternostro.it",
+      "pagine": [
+        {
+          "url": "https://www.andreapaternostro.it",
+          "caratteri": 2872
+        },
+        {
+          "url": "https://www.andreapaternostro.it/contatti",
+          "caratteri": 2765
+        }
+      ]
+    },
+    {
+      "id": "la-clinica-dell-orologio-bernareggio",
+      "cap": "https://www.clinicadellorologio.it",
+      "via": "https://www.clinicadellorologio.it",
+      "telefono": "https://www.clinicadellorologio.it",
+      "pagine": [
+        {
+          "url": "https://www.clinicadellorologio.it",
+          "caratteri": 3849
+        }
+      ]
+    },
+    {
+      "id": "orologiaio-zaccaria-angelo-pulsano",
+      "cap": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "via": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "telefono": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "pagine": [
+        {
+          "url": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+          "caratteri": 1794
+        }
+      ]
+    },
+    {
+      "id": "poli-maier-bressanone",
+      "cap": "https://polimaier.it",
+      "via": null,
+      "telefono": "https://polimaier.it",
+      "pagine": [
+        {
+          "url": "https://polimaier.it",
+          "caratteri": 7000
+        }
+      ]
+    },
+    {
+      "id": "capodagli-1937-senigallia",
+      "cap": "https://capodagli.net",
+      "via": "https://capodagli.net",
+      "telefono": "https://capodagli.net",
+      "pagine": [
+        {
+          "url": "https://capodagli.net",
+          "caratteri": 22820
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Ceccarini%2C+16%2C+Riccione%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78456465,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4495188719,
+      "lat": "44.0026561",
+      "lon": "12.6604449",
+      "category": "amenity",
+      "type": "ice_cream",
+      "place_rank": 30,
+      "importance": 0.00003500190737769158,
+      "addresstype": "amenity",
+      "name": "Mafalda",
+      "display_name": "Mafalda, 16, Viale Maria Boorman Ceccarini, Riccione, Rimini, Emilia-Romagna, 47838, Italia",
+      "address": {
+        "amenity": "Mafalda",
+        "house_number": "16",
+        "road": "Viale Maria Boorman Ceccarini",
+        "town": "Riccione",
+        "county": "Rimini",
+        "ISO3166-2-lvl6": "IT-RN",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "47838",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.0026061",
+        "44.0027061",
+        "12.6603949",
+        "12.6604949"
+      ]
+    }
+  ]
+}

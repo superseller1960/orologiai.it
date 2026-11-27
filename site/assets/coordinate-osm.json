@@ -1,0 +1,3599 @@
+{
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "copyright": "https://www.openstreetmap.org/copyright",
+  "policy": "https://operations.osmfoundation.org/policies/nominatim/",
+  "data": "2026-10-31",
+  "nota": "Coordinate di indirizzo, non sopralluoghi. Centri territoriali non sono sedi di attività.",
+  "attivita": [
+    {
+      "id": "marretti",
+      "indirizzo": "Via dei Calzaiuoli 86/R",
+      "coordinate": {
+        "lat": 43.7717704,
+        "lon": 11.2554084,
+        "fonti": [
+          "t03-marretti-elenco",
+          "f18-geo-marretti"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via dei Calzaiuoli 86/R, Firenze 50122 ↔ 86 R, Via dei Calzaiuoli, Firenze; node/2361951025",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t03-marretti-elenco",
+          "url": "https://www.cmcwatches.com/en/resellers/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-marretti",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Calzaiuoli+86%2FR%2C+Firenze%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "fani-gioielli",
+      "indirizzo": "Via de’ Tornabuoni 72/R",
+      "coordinate": {
+        "lat": 43.7720632,
+        "lon": 11.2514195,
+        "fonti": [
+          "t03-fani-sede",
+          "t03-nominatim"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-16",
+        "indirizzoConfrontato": "Via de’ Tornabuoni 72/R, 50123 Firenze (Nominatim: 72 R, Via dei Tornabuoni, 50123)",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t03-fani-sede",
+          "url": "https://www.fanishops.it/boutiques/",
+          "licenza": null
+        },
+        {
+          "id": "t03-nominatim",
+          "url": "https://nominatim.openstreetmap.org/",
+          "licenza": "ODbL-1.0"
+        }
+      ]
+    },
+    {
+      "id": "senzatempo-firenze",
+      "indirizzo": "Piazza Madonna degli Aldobrandini 14/R",
+      "coordinate": {
+        "lat": 43.7748032,
+        "lon": 11.2530216,
+        "fonti": [
+          "t03-senzatempo-sede",
+          "t03-nominatim"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-16",
+        "indirizzoConfrontato": "Piazza Madonna degli Aldobrandini 14/R, 50123 Firenze (Nominatim: 14 R)",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t03-senzatempo-sede",
+          "url": "https://www.senzatempofirenze.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "t03-nominatim",
+          "url": "https://nominatim.openstreetmap.org/",
+          "licenza": "ODbL-1.0"
+        }
+      ]
+    },
+    {
+      "id": "sangalli",
+      "indirizzo": "Via Bergamini 7",
+      "coordinate": {
+        "lat": 45.4618,
+        "lon": 9.1941462,
+        "fonti": [
+          "t03-sangalli-sede",
+          "t03-nominatim"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-16",
+        "indirizzoConfrontato": "Via Bergamini 7, 20122 Milano (Nominatim: 7, Via Bergamini, 20122)",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t03-sangalli-sede",
+          "url": "https://www.unioncamere.gov.it/imprese-storiche/sangalli-giuliano-c-societa-nome-collettivo-sangalli-dal-1900",
+          "licenza": null
+        },
+        {
+          "id": "t03-nominatim",
+          "url": "https://nominatim.openstreetmap.org/",
+          "licenza": "ODbL-1.0"
+        }
+      ]
+    },
+    {
+      "id": "ronchi-gioielli",
+      "indirizzo": "Via Maurizio Gonzaga 5",
+      "coordinate": {
+        "lat": 45.4615199,
+        "lon": 9.18922,
+        "fonti": [
+          "t03-ronchi-sede",
+          "t03-nominatim"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-16",
+        "indirizzoConfrontato": "Via Maurizio Gonzaga 5, 20123 Milano (Nominatim: 5, Via Maurizio Gonzaga, 20123)",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t03-ronchi-sede",
+          "url": "https://www.ronchigioielli.com/contatti",
+          "licenza": null
+        },
+        {
+          "id": "t03-nominatim",
+          "url": "https://nominatim.openstreetmap.org/",
+          "licenza": "ODbL-1.0"
+        }
+      ]
+    },
+    {
+      "id": "ficioro-empoli",
+      "indirizzo": "Via Jacopo Carrucci, 73",
+      "coordinate": {
+        "lat": 43.7202165,
+        "lon": 10.9529986,
+        "fonti": [
+          "t02-fici-contatti",
+          "f18-geo-ficioro-empoli"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Jacopo Carrucci, 73, Empoli 50053 ↔ 73, Via Jacopo Carrucci, Empoli; node/3743712639",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-fici-contatti",
+          "url": "https://www.ficioro.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-ficioro-empoli",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Jacopo+Carrucci%2C+73%2C+Empoli%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "ora-di-piazza-bagno",
+      "indirizzo": "Via Roma, 159",
+      "coordinate": {
+        "lat": 43.7522434,
+        "lon": 11.3195496,
+        "fonti": [
+          "t02-calamai-rete",
+          "f18-geo-ora-di-piazza-bagno"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Roma, 159, Bagno a Ripoli 50012 ↔ 159, Via Roma, Bagno a Ripoli; node/7305824821",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-calamai-rete",
+          "url": "https://www.orologicalamai.com/resellers/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-ora-di-piazza-bagno",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+159%2C+Bagno+a+Ripoli%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "cerri-pontedera",
+      "indirizzo": "Via Alessandro Manzoni, 15",
+      "coordinate": {
+        "lat": 43.6638126,
+        "lon": 10.6318094,
+        "fonti": [
+          "t02-cerri-contatti",
+          "f18-geo-cerri-pontedera"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Alessandro Manzoni, 15, Pontedera 56025 ↔ 15, Via Alessandro Manzoni, Pontedera; node/13227223031",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-cerri-contatti",
+          "url": "https://www.gioielleriacerrimarco.it/privacy-policy/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-cerri-pontedera",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Alessandro+Manzoni%2C+15%2C+Pontedera%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "rabiti-firenze",
+      "indirizzo": "Piazza Taddeo Gaddi, 22/R",
+      "coordinate": {
+        "lat": 43.7737637,
+        "lon": 11.2330588,
+        "fonti": [
+          "t02-rabiti-home",
+          "f18-geo-rabiti-firenze"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazza Taddeo Gaddi, 22/R, Firenze ↔ 22 R, Piazza Taddeo Gaddi, Firenze; node/2361728979",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-rabiti-home",
+          "url": "https://www.orologeriarabiti.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-rabiti-firenze",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Taddeo+Gaddi%2C+22%2FR%2C+Firenze%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "zagli-firenze",
+      "indirizzo": "Via Luigi Boccherini, 45",
+      "coordinate": {
+        "lat": 43.7881487,
+        "lon": 11.2306967,
+        "fonti": [
+          "t02-zagli-contatti",
+          "f18-geo-zagli-firenze"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Luigi Boccherini, 45, Firenze ↔ 45, Via Luigi Boccherini, Firenze; node/2361870029",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-zagli-contatti",
+          "url": "https://zagli.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-zagli-firenze",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Luigi+Boccherini%2C+45%2C+Firenze%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "swatch-firenze-calzaiuoli",
+      "indirizzo": "Via dei Calzaiuoli, 94",
+      "coordinate": {
+        "lat": 43.7719412,
+        "lon": 11.2554396,
+        "fonti": [
+          "t02-swatch-calzaiuoli",
+          "f18-geo-swatch-firenze-calzaiuoli"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via dei Calzaiuoli, 94, Firenze 50122 ↔ 94, Via dei Calzaiuoli, Firenze; node/11833445469",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-swatch-calzaiuoli",
+          "url": "https://www.swatch.com/it-it/storedetails?sid=R282371",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-swatch-firenze-calzaiuoli",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Calzaiuoli%2C+94%2C+Firenze%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "metalli-scandicci",
+      "indirizzo": "Via Baccio da Montelupo, 15",
+      "coordinate": {
+        "lat": 43.7647522,
+        "lon": 11.1776568,
+        "fonti": [
+          "t02-metalli-contatti",
+          "f18-geo-metalli-scandicci"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Baccio da Montelupo, 15, Scandicci 50018 ↔ 15, Via Baccio da Montelupo, Scandicci; node/7305670176",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t02-metalli-contatti",
+          "url": "https://www.metallipreziosi.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-metalli-scandicci",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Baccio+da+Montelupo%2C+15%2C+Scandicci%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "lamberti-sesto",
+      "indirizzo": "Via Antonio Gramsci 298",
+      "coordinate": {
+        "lat": 43.8339326,
+        "lon": 11.2005283,
+        "fonti": [
+          "t04-lamberti-sito",
+          "f18-geo-lamberti-sesto"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Antonio Gramsci 298, Sesto Fiorentino 50019 ↔ 298, Via Antonio Gramsci, Sesto Fiorentino; node/7306758763",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t04-lamberti-sito",
+          "url": "https://www.gioiellerialamberti.it/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-lamberti-sesto",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gramsci+298%2C+Sesto+Fiorentino%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "horamundi-firenze",
+      "indirizzo": "Via dei Fossi 21r",
+      "coordinate": {
+        "lat": 43.7716238,
+        "lon": 11.2481944,
+        "fonti": [
+          "t07-horamundi-sito",
+          "f18-geo-horamundi-firenze"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via dei Fossi 21r, Firenze 50123 ↔ 21 R, Via dei Fossi, Firenze; node/2361726800",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t07-horamundi-sito",
+          "url": "https://www.horamundi.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-horamundi-firenze",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Fossi+21r%2C+Firenze%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orologica-torino",
+      "indirizzo": "Corso Alcide De Gasperi 5/M",
+      "coordinate": {
+        "lat": 45.0581202,
+        "lon": 7.6627529,
+        "fonti": [
+          "t07-orologica-sito",
+          "t07-orologica-contatti",
+          "f18-geo-orologica-torino"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Alcide De Gasperi 5/M, Torino 10129 ↔ 5m, Corso Alcide De Gasperi, Torino; node/4735669406",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t07-orologica-sito",
+          "url": "https://www.orologicatorino.it/",
+          "licenza": null
+        },
+        {
+          "id": "t07-orologica-contatti",
+          "url": "https://www.orologicatorino.it/contatti-laboratorio-orologi-torino/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orologica-torino",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Alcide+De+Gasperi+5%2FM%2C+Torino%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "casa-cronometro-roma",
+      "indirizzo": "Via Silla 80",
+      "coordinate": {
+        "lat": 41.9076623,
+        "lon": 12.4600157,
+        "fonti": [
+          "t07-casa-cronometro-sito",
+          "f18-geo-casa-cronometro-roma"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Silla 80, Roma 00192 ↔ 80, Via Silla, Roma; node/12012318069",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t07-casa-cronometro-sito",
+          "url": "https://www.casadelcronometro.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-casa-cronometro-roma",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Silla+80%2C+Roma%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "macchina-tempo-bari",
+      "indirizzo": "Via Argiro 29",
+      "coordinate": {
+        "lat": 41.1251313,
+        "lon": 16.8701404,
+        "fonti": [
+          "t08-macchtempo-bari",
+          "f18-geo-macchina-tempo-bari"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Argiro 29, Bari 70122 ↔ 29, Via Argiro, Bari; node/11829061337",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t08-macchtempo-bari",
+          "url": "https://www.orologerialamacchinadeltempo.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-macchina-tempo-bari",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Argiro+29%2C+Bari%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "astrua-torino",
+      "indirizzo": "Via Cesare Battisti 15",
+      "coordinate": {
+        "lat": 45.0689788,
+        "lon": 7.6868779,
+        "fonti": [
+          "t08-astrua-torino",
+          "f18-geo-astrua-torino"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Cesare Battisti 15, Torino 10123 ↔ 15, Via Cesare Battisti, Torino; node/4736057072",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t08-astrua-torino",
+          "url": "https://www.astrua.com/it/sedi-astrua-boutiques-torino",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-astrua-torino",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesare+Battisti+15%2C+Torino%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "capo-torino",
+      "indirizzo": "Corso Vittorio Emanuele II 78",
+      "coordinate": {
+        "lat": 45.0654208,
+        "lon": 7.6722412,
+        "fonti": [
+          "t08-capo-sito",
+          "f18-geo-capo-torino"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Vittorio Emanuele II 78, Torino 10121 ↔ 78, Corso Vittorio Emanuele II, Torino; node/4736115105",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "t08-capo-sito",
+          "url": "https://www.laboratoriocapo.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-capo-torino",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II+78%2C+Torino%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "ranieri-laquila",
+      "indirizzo": "Corso Vittorio Emanuele 47",
+      "coordinate": {
+        "lat": 42.3500956,
+        "lon": 13.3998258,
+        "fonti": [
+          "r26-ranieri-laquila",
+          "f18-geo-ranieri-laquila"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Vittorio Emanuele 47, L'Aquila 67100 ↔ 47, Corso Vittorio Emanuele, L'Aquila; node/6131066317",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-ranieri-laquila",
+          "url": "https://www.gioielleriaranieri.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-ranieri-laquila",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+47%2C+L%27Aquila%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "rolli-poniz-trieste",
+      "indirizzo": "Corso Umberto Saba 31",
+      "coordinate": {
+        "lat": 45.6484543,
+        "lon": 13.7781716,
+        "fonti": [
+          "r26-rolli-poniz-trieste",
+          "f18-geo-rolli-poniz-trieste"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Umberto Saba 31, Trieste 34131 ↔ 31, Corso Umberto Saba, Trieste; node/1370871370",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-rolli-poniz-trieste",
+          "url": "https://rolliponiz.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-rolli-poniz-trieste",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+Saba+31%2C+Trieste%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "ronzoni-udine",
+      "indirizzo": "Via Mercatovecchio 10",
+      "coordinate": {
+        "lat": 46.0635604,
+        "lon": 13.2346944,
+        "fonti": [
+          "r26-ronzoni-udine",
+          "f18-geo-ronzoni-udine"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Mercatovecchio 10, Udine 33100 ↔ 10, Via Mercatovecchio, Udine; node/14267771643",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-ronzoni-udine",
+          "url": "https://italicoronzoni.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-ronzoni-udine",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mercatovecchio+10%2C+Udine%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "fronza-trento",
+      "indirizzo": "Via Sant’Antonio 21",
+      "coordinate": {
+        "lat": 46.0581205,
+        "lon": 11.130367,
+        "fonti": [
+          "r26-fronza-trento",
+          "f18-geo-fronza-trento"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Sant’Antonio 21, Trento 38122 ↔ 21, Via Sant'Antonio, Trento; node/13195671694",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-fronza-trento",
+          "url": "https://www.orologeriafronzamarco.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-fronza-trento",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sant%E2%80%99Antonio+21%2C+Trento%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "murgia-cagliari",
+      "indirizzo": "Via Francesco Fara 15",
+      "coordinate": {
+        "lat": 39.2185907,
+        "lon": 9.1132195,
+        "fonti": [
+          "r26-murgia-cagliari",
+          "f18-geo-murgia-cagliari"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Francesco Fara 15, Cagliari 09124 ↔ 15, Via Francesco Fara, Cagliari; node/4228999927",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-murgia-cagliari",
+          "url": "https://www.giampieromurgia.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-murgia-cagliari",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Francesco+Fara+15%2C+Cagliari%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "valenti-parma",
+      "indirizzo": "Strada Nino Bixio 63",
+      "coordinate": {
+        "lat": 44.7991502,
+        "lon": 10.3206621,
+        "fonti": [
+          "r26-valenti-parma",
+          "f18-geo-valenti-parma"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Strada Nino Bixio 63, Parma 43125 ↔ 63, Strada Nino Bixio, Parma; node/4690745542",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r26-valenti-parma",
+          "url": "https://www.valentiparma.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-valenti-parma",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Strada+Nino+Bixio+63%2C+Parma%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "robbi-orologiaio-lodi",
+      "indirizzo": "Via Ottone Morena 11",
+      "coordinate": {
+        "lat": 45.3124376,
+        "lon": 9.5006424,
+        "fonti": [
+          "r27-robbi",
+          "f18-geo-robbi-orologiaio-lodi"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Ottone Morena 11, Lodi 26900 ↔ 11, Via Ottone Morena, Lodi; node/6876036528",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r27-robbi",
+          "url": "https://www.robbiorologiaio.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-robbi-orologiaio-lodi",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ottone+Morena+11%2C+Lodi%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orologerie-palladio-vicenza",
+      "indirizzo": "Viale Verona 87",
+      "coordinate": {
+        "lat": 45.5408233,
+        "lon": 11.5237983,
+        "fonti": [
+          "r27-palladio",
+          "f18-geo-orologerie-palladio-vicenza"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Viale Verona 87, Vicenza 36100 ↔ 87, Viale Verona, Vicenza; node/4526596058",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "r27-palladio",
+          "url": "https://www.orologeriepalladio.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orologerie-palladio-vicenza",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Verona+87%2C+Vicenza%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "magie-in-oro-chieti",
+      "indirizzo": "Viale Abruzzo 98",
+      "coordinate": {
+        "lat": 42.3550897,
+        "lon": 14.1381668,
+        "fonti": [
+          "fb23-magie-contatti",
+          "f18-geo-magie-in-oro-chieti"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Viale Abruzzo 98, Chieti 66100 ↔ 98, Viale Abruzzo, Chieti; node/2985750983",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "fb23-magie-contatti",
+          "url": "https://magieinoro.com/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-magie-in-oro-chieti",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Abruzzo+98%2C+Chieti%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orsi-gioielleria-verbania",
+      "indirizzo": "Via San Fabiano 5",
+      "coordinate": {
+        "lat": 45.9356189,
+        "lon": 8.5734861,
+        "fonti": [
+          "n02-orsi-gioielleria-verbania-1",
+          "f18-geo-orsi-gioielleria-verbania"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via San Fabiano 5, Verbania 28921 ↔ 5, Via San Fabiano, Verbania; node/9503069842",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-orsi-gioielleria-verbania-1",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/verbania/orsi-gioielleria",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orsi-gioielleria-verbania",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Fabiano+5%2C+Verbania%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-bisio-asti",
+      "indirizzo": "Corso Vittorio Alfieri 270",
+      "coordinate": {
+        "lat": 44.8999881,
+        "lon": 8.2045365,
+        "fonti": [
+          "n02-gioielleria-bisio-asti-1",
+          "f18-geo-gioielleria-bisio-asti"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Vittorio Alfieri 270, Asti 14100 ↔ 270, Corso Vittorio Alfieri, Asti; node/1472011273",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-bisio-asti-1",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/piemonte/asti/gioielleria-bisio",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-bisio-asti",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Alfieri+270%2C+Asti%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-la-marca-vittorio-pavia",
+      "indirizzo": "Viale Sardegna 98/b",
+      "coordinate": {
+        "lat": 45.1902613,
+        "lon": 9.1630304,
+        "fonti": [
+          "n02-gioielleria-la-marca-vittorio-pavia-1",
+          "f18-geo-gioielleria-la-marca-vittorio-pavia"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Viale Sardegna 98/b, Pavia 27100 ↔ 98b, Viale Sardegna, Pavia; node/2776107847",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-la-marca-vittorio-pavia-1",
+          "url": "https://www.hamiltonwatch.com/en-us/store-locator/italia/lombardia/pavia/gioielleria-la-marca-vittorio",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-la-marca-vittorio-pavia",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Sardegna+98%2Fb%2C+Pavia%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-angelini-srl-monza",
+      "indirizzo": "Via Carlo Alberto 32",
+      "coordinate": {
+        "lat": 45.5862963,
+        "lon": 9.275758,
+        "fonti": [
+          "n02-gioielleria-angelini-srl-monza-1",
+          "f18-geo-gioielleria-angelini-srl-monza"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Carlo Alberto 32, Monza 20900 ↔ 32, Via Carlo Alberto, Monza; node/2748308951",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-angelini-srl-monza-1",
+          "url": "https://www.longines.com/it/store/id/gioielleria-angelini-srl-monza-1678291",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-angelini-srl-monza",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carlo+Alberto+32%2C+Monza%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-giorgi-mario-ancona",
+      "indirizzo": "Corso Giuseppe Mazzini 102",
+      "coordinate": {
+        "lat": 43.618293,
+        "lon": 13.5126848,
+        "fonti": [
+          "n02-gioielleria-giorgi-mario-ancona-1",
+          "f18-geo-gioielleria-giorgi-mario-ancona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Giuseppe Mazzini 102, Ancona 60121 ↔ 102, Corso Giuseppe Mazzini, Ancona; node/12438581256",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-giorgi-mario-ancona-1",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italien/marche/ancona/gioielleria-giorgi-mario",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-giorgi-mario-ancona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giuseppe+Mazzini+102%2C+Ancona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-benetti-verona",
+      "indirizzo": "Piazza delle Erbe 37",
+      "coordinate": {
+        "lat": 45.4434381,
+        "lon": 10.9966494,
+        "fonti": [
+          "n02-gioielleria-benetti-verona-1",
+          "f18-geo-gioielleria-benetti-verona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazza delle Erbe 37, Verona 37121 ↔ 37, Piazza delle Erbe, Verona; node/4553759928",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-benetti-verona-1",
+          "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/veneto/verona/gioielleria-benetti-1820494",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-benetti-verona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+delle+Erbe+37%2C+Verona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-amighini-verona",
+      "indirizzo": "Piazzetta Monte 3",
+      "coordinate": {
+        "lat": 45.4439963,
+        "lon": 10.9957207,
+        "fonti": [
+          "n02-gioielleria-amighini-verona-1",
+          "f18-geo-gioielleria-amighini-verona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazzetta Monte 3, Verona 37121 ↔ 3, Piazzetta Monte, Verona; node/10030041368",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-amighini-verona-1",
+          "url": "https://www.hamiltonwatch.com/en-hk/store-locator/italy/veneto/verona/gioielleria-amighini",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-amighini-verona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzetta+Monte+3%2C+Verona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "oreficeria-de-rui-treviso",
+      "indirizzo": "Borgo Giuseppe Mazzini 33",
+      "coordinate": {
+        "lat": 45.6687885,
+        "lon": 12.2506168,
+        "fonti": [
+          "n02-oreficeria-de-rui-treviso-1",
+          "f18-geo-oreficeria-de-rui-treviso"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Borgo Giuseppe Mazzini 33, Treviso 31100 ↔ 33, Borgo Giuseppe Mazzini, Treviso; node/4531923505",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-oreficeria-de-rui-treviso-1",
+          "url": "https://www.hamiltonwatch.com/en-us/store-locator/italy/veneto/treviso/oreficeria-de-rui",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-oreficeria-de-rui-treviso",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Borgo+Giuseppe+Mazzini+33%2C+Treviso%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "zaccarelli-orologeria-modena",
+      "indirizzo": "Via Taglio 3",
+      "coordinate": {
+        "lat": 44.647725,
+        "lon": 10.9278376,
+        "fonti": [
+          "n02-zaccarelli-orologeria-modena-1",
+          "f18-geo-zaccarelli-orologeria-modena"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Taglio 3, Modena 41121 ↔ 3, Via Taglio, Modena; node/4712450887",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-zaccarelli-orologeria-modena-1",
+          "url": "https://www.hamiltonwatch.com/en-int/store-locator/italy/emilia-romagna/modena/zaccarelli-orologeria",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-zaccarelli-orologeria-modena",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Taglio+3%2C+Modena%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "clock-service-catania",
+      "indirizzo": "Via Gabriele D’Annunzio 134",
+      "coordinate": {
+        "lat": 37.5176843,
+        "lon": 15.0941909,
+        "fonti": [
+          "n02-clock-service-catania-1",
+          "n02-clock-service-catania-2",
+          "f18-geo-clock-service-catania"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Gabriele D’Annunzio 134, Catania 95127 ↔ 134, Via Gabriele D'Annunzio, Catania; node/2276766472",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-clock-service-catania-1",
+          "url": "https://www.clockservice.it/",
+          "licenza": null
+        },
+        {
+          "id": "n02-clock-service-catania-2",
+          "url": "https://www.clockservice.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-clock-service-catania",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gabriele+D%E2%80%99Annunzio+134%2C+Catania%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "centrorologi-gravina-di-catania",
+      "indirizzo": "Via Carrubella 191",
+      "coordinate": {
+        "lat": 37.5382751,
+        "lon": 15.070793,
+        "fonti": [
+          "n02-centrorologi-gravina-di-catania-1",
+          "n02-centrorologi-gravina-di-catania-2",
+          "f18-geo-centrorologi-gravina-di-catania"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Carrubella 191, Gravina di Catania 95030 ↔ 191, Via Carrubella, Gravina di Catania; node/8406634755",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-centrorologi-gravina-di-catania-1",
+          "url": "https://centrorologi.net/servizi/",
+          "licenza": null
+        },
+        {
+          "id": "n02-centrorologi-gravina-di-catania-2",
+          "url": "https://centrorologi.net/chi-siamo/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-centrorologi-gravina-di-catania",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carrubella+191%2C+Gravina+di+Catania%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "la-motta-gioielli-messina",
+      "indirizzo": "Viale San Martino 188",
+      "coordinate": {
+        "lat": 38.1825281,
+        "lon": 15.5528862,
+        "fonti": [
+          "n02-la-motta-gioielli-messina-1",
+          "n02-la-motta-gioielli-messina-2",
+          "f18-geo-la-motta-gioielli-messina"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Viale San Martino 188, Messina 98123 ↔ 188, Viale San Martino, Messina; node/2524330230",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-la-motta-gioielli-messina-1",
+          "url": "https://www.lamottagioielli.it/laboratorio/",
+          "licenza": null
+        },
+        {
+          "id": "n02-la-motta-gioielli-messina-2",
+          "url": "https://www.lamottagioielli.it/rolex/contattaci/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-la-motta-gioielli-messina",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+San+Martino+188%2C+Messina%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-de-nurra-sassari",
+      "indirizzo": "Via Maurizio Zanfarino 9",
+      "coordinate": {
+        "lat": 40.7214478,
+        "lon": 8.5661358,
+        "fonti": [
+          "n02-gioielleria-de-nurra-sassari-1",
+          "n02-gioielleria-de-nurra-sassari-2",
+          "f18-geo-gioielleria-de-nurra-sassari"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Maurizio Zanfarino 9, Sassari ↔ 9, Via Maurizio Zanfarino, Sassari; node/4469774116",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "n02-gioielleria-de-nurra-sassari-1",
+          "url": "https://www.denurra.it/",
+          "licenza": null
+        },
+        {
+          "id": "n02-gioielleria-de-nurra-sassari-2",
+          "url": "https://www.denurra.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-de-nurra-sassari",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Zanfarino+9%2C+Sassari%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "cerescioli-paolo-ancona",
+      "indirizzo": "Via San Martino 43",
+      "coordinate": {
+        "lat": 43.6155269,
+        "lon": 13.5153354,
+        "fonti": [
+          "pr6-cerescioli-paolo-ancona-1",
+          "f18-geo-cerescioli-paolo-ancona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via San Martino 43, Ancona 60122 ↔ 43, Via San Martino, Ancona; node/1782153850",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "pr6-cerescioli-paolo-ancona-1",
+          "url": "https://www.ceresciolipaolo.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-cerescioli-paolo-ancona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Martino+43%2C+Ancona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gibi-shop-ancona",
+      "indirizzo": "Corso Giovanni Amendola 22/B",
+      "coordinate": {
+        "lat": 43.6171707,
+        "lon": 13.5224907,
+        "fonti": [
+          "pr6-gibi-shop-ancona-1",
+          "f18-geo-gibi-shop-ancona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Giovanni Amendola 22/B, Ancona 60123 ↔ 22b, Corso Giovanni Amendola, Ancona; node/4395473462",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "pr6-gibi-shop-ancona-1",
+          "url": "https://www.gibishop.com/assistenza.php",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gibi-shop-ancona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giovanni+Amendola+22%2FB%2C+Ancona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orolab-bra",
+      "indirizzo": "Via Cuneo, 84",
+      "coordinate": {
+        "lat": 44.6884761,
+        "lon": 7.8538568,
+        "fonti": [
+          "l5-www-orolab-it-contatti",
+          "f18-geo-orolab-bra"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Cuneo, 84, Bra 12042 ↔ 84, Via Cuneo, Bra; node/13753718710",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-orolab-it-contatti",
+          "url": "https://www.orolab.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orolab-bra",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cuneo%2C+84%2C+Bra%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-delfino-savona",
+      "indirizzo": "Via Luigi Corsi, 7/R",
+      "coordinate": {
+        "lat": 44.306011,
+        "lon": 8.480268,
+        "fonti": [
+          "l5-www-delfinogioielli-com-negozio-savona-html",
+          "f18-geo-gioielleria-delfino-savona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Luigi Corsi, 7/R, Savona 17100 ↔ 7r, Via Luigi Corsi, Savona; node/5507376810",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-delfinogioielli-com-negozio-savona-html",
+          "url": "https://www.delfinogioielli.com/negozio-savona.html",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-delfino-savona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Luigi+Corsi%2C+7%2FR%2C+Savona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-ranzi-bolzano",
+      "indirizzo": "Via Museo, 14/B",
+      "coordinate": {
+        "lat": 46.499718,
+        "lon": 11.3515449,
+        "fonti": [
+          "l5-www-ranzi-com-it-home",
+          "l5-www-midowatches-com-it-store-locator",
+          "f18-geo-gioielleria-ranzi-bolzano"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Museo, 14/B, Bolzano 39100 ↔ 14b, Via Museo, Bolzano; node/2749569200",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-ranzi-com-it-home",
+          "url": "https://www.ranzi.com/it/home/",
+          "licenza": null
+        },
+        {
+          "id": "l5-www-midowatches-com-it-store-locator",
+          "url": "https://www.midowatches.com/it/store-locator",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-ranzi-bolzano",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Museo%2C+14%2FB%2C+Bolzano%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "v-gasser-brunico",
+      "indirizzo": "Via Centrale, 44",
+      "coordinate": {
+        "lat": 46.7957841,
+        "lon": 11.9383127,
+        "fonti": [
+          "l5-it-vgasser-it-pages-kontakt",
+          "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h",
+          "f18-geo-v-gasser-brunico"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Centrale, 44, Brunico 39031 ↔ 44, Via Centrale, Brunico; node/2749654959",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-it-vgasser-it-pages-kontakt",
+          "url": "https://it.vgasser.it/pages/kontakt",
+          "licenza": null
+        },
+        {
+          "id": "l5-www-longines-com-it-store-id-vgasser-kgsas-des-gasser-h",
+          "url": "https://www.longines.com/it/store/id/vgasser-kgsas-des-gasser-h-co-brunico-897244",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-v-gasser-brunico",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Centrale%2C+44%2C+Brunico%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-cernigoi-monfalcone",
+      "indirizzo": "Via Duca d’Aosta, 80",
+      "coordinate": {
+        "lat": 45.8094404,
+        "lon": 13.5310711,
+        "fonti": [
+          "l5-www-gioielleriacernigoi-com-privacy-policy",
+          "f18-geo-gioielleria-cernigoi-monfalcone"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Duca d’Aosta, 80, Monfalcone 34074 ↔ 80, Via Duca d'Aosta, Monfalcone; node/3652805915",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-gioielleriacernigoi-com-privacy-policy",
+          "url": "https://www.gioielleriacernigoi.com/privacy-policy/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-cernigoi-monfalcone",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Duca+d%E2%80%99Aosta%2C+80%2C+Monfalcone%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "dobner-gorizia",
+      "indirizzo": "Corso Italia, 34",
+      "coordinate": {
+        "lat": 45.941947,
+        "lon": 13.6190728,
+        "fonti": [
+          "l5-dobner-it-it-negozi-dobner-gorizia",
+          "f18-geo-dobner-gorizia"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Italia, 34, Gorizia 34170 ↔ 34, Corso Italia, Gorizia; node/3800027920",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-dobner-it-it-negozi-dobner-gorizia",
+          "url": "https://dobner.it/it/negozi/dobner-gorizia/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-dobner-gorizia",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+34%2C+Gorizia%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-zambon-1934-pordenone",
+      "indirizzo": "Via Vallona, 6",
+      "coordinate": {
+        "lat": 45.9620582,
+        "lon": 12.6630437,
+        "fonti": [
+          "l5-www-gioielleriazambon-it",
+          "f18-geo-gioielleria-zambon-1934-pordenone"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Vallona, 6, Pordenone 33170 ↔ 6, Via Vallona, Pordenone; node/3765124812",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-gioielleriazambon-it",
+          "url": "https://www.gioielleriazambon.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-zambon-1934-pordenone",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Vallona%2C+6%2C+Pordenone%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-pretolani-forli",
+      "indirizzo": "Via Tevere, 77",
+      "coordinate": {
+        "lat": 44.2321785,
+        "lon": 12.0102668,
+        "fonti": [
+          "l5-www-gioielleriapretolani-it-contatti",
+          "f18-geo-gioielleria-pretolani-forli"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Tevere, 77, Forlì 47121 ↔ 77, Via Tevere, Forlì; node/4766328433",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-gioielleriapretolani-it-contatti",
+          "url": "https://www.gioielleriapretolani.it/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-pretolani-forli",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+77%2C+Forl%C3%AC%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orologeria-reggiani-modena",
+      "indirizzo": "Via Bartolomeo De’ Polli, 1/A",
+      "coordinate": {
+        "lat": 44.6297992,
+        "lon": 10.9265271,
+        "fonti": [
+          "l5-www-orologeriareggiani-it-contatti",
+          "f18-geo-orologeria-reggiani-modena"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Bartolomeo De’ Polli, 1/A, Modena 41125 ↔ 1a, Via Bartolomeo de Polli, Modena; node/4712471903",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-orologeriareggiani-it-contatti",
+          "url": "https://www.orologeriareggiani.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orologeria-reggiani-modena",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Bartolomeo+De%E2%80%99+Polli%2C+1%2FA%2C+Modena%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "luigi-rosso-casale-monferrato",
+      "indirizzo": "Via Aurelio Saffi, 3",
+      "coordinate": {
+        "lat": 45.1374422,
+        "lon": 8.4505368,
+        "fonti": [
+          "l5-www-luigirossogioielli-com-it-contatti",
+          "f18-geo-luigi-rosso-casale-monferrato"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Aurelio Saffi, 3, Casale Monferrato 15033 ↔ 3, Via Aurelio Saffi, Casale Monferrato; way/159349231",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l5-www-luigirossogioielli-com-it-contatti",
+          "url": "https://www.luigirossogioielli.com/it/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-luigi-rosso-casale-monferrato",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aurelio+Saffi%2C+3%2C+Casale+Monferrato%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-granarelli-fano",
+      "indirizzo": "Via Arco d’Augusto, 61",
+      "coordinate": {
+        "lat": 43.8451511,
+        "lon": 13.0169962,
+        "fonti": [
+          "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+          "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+          "f18-geo-gioielleria-granarelli-fano"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Arco d’Augusto, 61, Fano 61032 ↔ 61, Via Arco d'Augusto, Fano; node/6775773212",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l6-www-hamiltonwatch-com-en-my-store-locator-italien-marche",
+          "url": "https://www.hamiltonwatch.com/en-my/store-locator/italien/marche/fano/gioielleria-granarelli",
+          "licenza": null
+        },
+        {
+          "id": "l6-www-tissotwatches-com-it-it-store-gioielleria-granarelli",
+          "url": "https://www.tissotwatches.com/it-it/store/gioielleria-granarelli-srl/a1vNN0000020LOQYA2",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-granarelli-fano",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Arco+d%E2%80%99Augusto%2C+61%2C+Fano%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "pace-gioielli-brindisi",
+      "indirizzo": "Corso Roma, 13",
+      "coordinate": {
+        "lat": 40.6363916,
+        "lon": 17.9453657,
+        "fonti": [
+          "l6-www-pacegioielli-com-contatti",
+          "l6-hamilton-pace-gioielli-brindisi",
+          "f18-geo-pace-gioielli-brindisi"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Roma, 13, Brindisi 72100 ↔ 13, Corso Roma, Brindisi; node/7403312852",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l6-www-pacegioielli-com-contatti",
+          "url": "https://www.pacegioielli.com/contatti",
+          "licenza": null
+        },
+        {
+          "id": "l6-hamilton-pace-gioielli-brindisi",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/brindisi/pace-gioielli",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-pace-gioielli-brindisi",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+13%2C+Brindisi%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "naviglio-e-fiume-brindisi",
+      "indirizzo": "Corso Roma, 22",
+      "coordinate": {
+        "lat": 40.6362649,
+        "lon": 17.9449929,
+        "fonti": [
+          "l6-mido-naviglio-fiume-brindisi",
+          "f18-geo-naviglio-e-fiume-brindisi"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Roma, 22, Brindisi 72100 ↔ 22, Corso Roma, Brindisi; node/7403312856",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l6-mido-naviglio-fiume-brindisi",
+          "url": "https://www.midowatches.com/it/store-locator/italy/brindisi/naviglio-e-fiume-gioielleria-a1vnn000001zwilyau",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-naviglio-e-fiume-brindisi",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+22%2C+Brindisi%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orologiaio-giuliano-genova",
+      "indirizzo": "Piazza Campetto, 5",
+      "coordinate": {
+        "lat": 44.40891,
+        "lon": 8.9315877,
+        "fonti": [
+          "l7-www-lorologiaiogiuliano-it-contatti",
+          "f18-geo-orologiaio-giuliano-genova"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazza Campetto, 5, Genova 16123 ↔ 5, Piazza Campetto, Genova; node/5166485604",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l7-www-lorologiaiogiuliano-it-contatti",
+          "url": "https://www.lorologiaiogiuliano.it/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orologiaio-giuliano-genova",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Campetto%2C+5%2C+Genova%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "si-anelli-ravenna",
+      "indirizzo": "Via Giacomo Matteotti, 37",
+      "coordinate": {
+        "lat": 44.4185318,
+        "lon": 12.1987803,
+        "fonti": [
+          "l7-www-longines-com-en-us-store-id-si-anelli-srl-ravenna-15",
+          "f18-geo-si-anelli-ravenna"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Giacomo Matteotti, 37, Ravenna 48121 ↔ 37, Via Giacomo Matteotti, Ravenna; node/4752837096",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l7-www-longines-com-en-us-store-id-si-anelli-srl-ravenna-15",
+          "url": "https://www.longines.com/en-us/store/id/si-anelli-srl-ravenna-1578122",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-si-anelli-ravenna",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti%2C+37%2C+Ravenna%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-passerini-morbegno",
+      "indirizzo": "Via Ezio Vanoni, 21",
+      "coordinate": {
+        "lat": 46.1334334,
+        "lon": 9.5704665,
+        "fonti": [
+          "l7-www-hamiltonwatch-com-it-it-store-locator-italia-lombard",
+          "f18-geo-gioielleria-passerini-morbegno"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Ezio Vanoni, 21, Morbegno 23017 ↔ 21, Via Ezio Vanoni, Morbegno; node/5407827892",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l7-www-hamiltonwatch-com-it-it-store-locator-italia-lombard",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/lombardia/morbegno/gioielleria-passerini",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-passerini-morbegno",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ezio+Vanoni%2C+21%2C+Morbegno%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-puccinelli-cecina",
+      "indirizzo": "Piazza della Libertà, 57",
+      "coordinate": {
+        "lat": 43.310695,
+        "lon": 10.5171126,
+        "fonti": [
+          "l7-www-hamiltonwatch-com-en-lu-store-locator-italie-tuscany",
+          "f18-geo-gioielleria-puccinelli-cecina"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazza della Libertà, 57, Cecina 57023 ↔ 57, Piazza della Libertà, Cecina; node/14072505003",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l7-www-hamiltonwatch-com-en-lu-store-locator-italie-tuscany",
+          "url": "https://www.hamiltonwatch.com/en-lu/store-locator/italie/tuscany/cecina/gioielleria-puccinelli",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-puccinelli-cecina",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+57%2C+Cecina%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-bracci-follonica",
+      "indirizzo": "Via Emilio Bicocchi, 36",
+      "coordinate": {
+        "lat": 42.9236554,
+        "lon": 10.7584646,
+        "fonti": [
+          "l7-www-hamiltonwatch-com-en-us-store-locator-italien-toscan",
+          "f18-geo-gioielleria-bracci-follonica"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Emilio Bicocchi, 36, Follonica 58022 ↔ 36, Via Emilio Bicocchi, Follonica; node/4285015846",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l7-www-hamiltonwatch-com-en-us-store-locator-italien-toscan",
+          "url": "https://www.hamiltonwatch.com/en-us/store-locator/italien/toscana/follonica/gioielleria-f-lli-bracci",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-bracci-follonica",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilio+Bicocchi%2C+36%2C+Follonica%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-comentale-angri",
+      "indirizzo": "Corso Italia, 124",
+      "coordinate": {
+        "lat": 40.7387054,
+        "lon": 14.5783367,
+        "fonti": [
+          "e8-gioielleriacomentale-com-orologiaio",
+          "e8-gioielleriacomentale-com-laboratorio-orafo",
+          "f18-geo-gioielleria-comentale-angri"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Italia, 124, Angri 84012 ↔ 124, Corso Italia, Angri; node/4168076600",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e8-gioielleriacomentale-com-orologiaio",
+          "url": "https://gioielleriacomentale.com/orologiaio/",
+          "licenza": null
+        },
+        {
+          "id": "e8-gioielleriacomentale-com-laboratorio-orafo",
+          "url": "https://gioielleriacomentale.com/laboratorio-orafo/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-comentale-angri",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+124%2C+Angri%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-della-rocca-brindisi",
+      "indirizzo": "Via Verona, 25",
+      "coordinate": {
+        "lat": 40.62784,
+        "lon": 17.923518,
+        "fonti": [
+          "e8-gioielleriadellarocca-com-pages-chi-siamo",
+          "f18-geo-gioielleria-della-rocca-brindisi"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Verona, 25, Brindisi 72100 ↔ 25, Via Verona, Brindisi; node/6525193704",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e8-gioielleriadellarocca-com-pages-chi-siamo",
+          "url": "https://gioielleriadellarocca.com/pages/chi-siamo",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-della-rocca-brindisi",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Verona%2C+25%2C+Brindisi%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "raffa-maestro-orologiaio-siracusa",
+      "indirizzo": "Via Tevere, 17",
+      "coordinate": {
+        "lat": 37.0719816,
+        "lon": 15.2816,
+        "fonti": [
+          "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+          "f18-geo-raffa-maestro-orologiaio-siracusa"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Tevere, 17, Siracusa 96100 ↔ 17, Via Tevere, Siracusa; node/6296836093",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "l8-siracusa-guidasicilia-it-azienda-siracusa-siracusa-orolo",
+          "url": "https://siracusa.guidasicilia.it/azienda/siracusa/siracusa/orologiai-forniture/raffa-maestro-orologiaio-riparazioni-orologi/1129311",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-raffa-maestro-orologiaio-siracusa",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+17%2C+Siracusa%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "lombardi-orologi-carrara",
+      "indirizzo": "Via Genova, 15",
+      "coordinate": {
+        "lat": 44.0385515,
+        "lon": 10.0389248,
+        "fonti": [
+          "e11-www-reteimprese-it-carrara-lombardi",
+          "f18-geo-lombardi-orologi-carrara"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Genova, 15, Carrara 54033 ↔ 15, Via Genova, Carrara; node/4933640220",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e11-www-reteimprese-it-carrara-lombardi",
+          "url": "https://www.reteimprese.it/forniture-orologiai/carrara/azienda/3886494",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-lombardi-orologi-carrara",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Genova%2C+15%2C+Carrara%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "roncato-gioielleria-mirano",
+      "indirizzo": "Via Barche, 10",
+      "coordinate": {
+        "lat": 45.4925543,
+        "lon": 12.1099553,
+        "fonti": [
+          "e11-roncatogioielli-com-contatti",
+          "f18-geo-roncato-gioielleria-mirano"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Barche, 10, Mirano 30035 ↔ 10, Via Barche, Mirano; node/9779957663",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e11-roncatogioielli-com-contatti",
+          "url": "https://roncatogioielli.com/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-roncato-gioielleria-mirano",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Barche%2C+10%2C+Mirano%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "lorologiaio-ascione-porto-torres",
+      "indirizzo": "Via Libio, 15",
+      "coordinate": {
+        "lat": 40.8380818,
+        "lon": 8.4021343,
+        "fonti": [
+          "e11-www-lorologiaio-net",
+          "f18-geo-lorologiaio-ascione-porto-torres"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Libio, 15, Porto Torres 07046 ↔ 15, Via Libio, Porto Torres; node/4377564321",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e11-www-lorologiaio-net",
+          "url": "https://www.lorologiaio.net/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-lorologiaio-ascione-porto-torres",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Libio%2C+15%2C+Porto+Torres%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "orologeria-del-borgo-rimini",
+      "indirizzo": "Piazzale Francesco Vannoni, 4",
+      "coordinate": {
+        "lat": 44.0664117,
+        "lon": 12.5608613,
+        "fonti": [
+          "e12-orologeriadelborgo-com-contatti",
+          "f18-geo-orologeria-del-borgo-rimini"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Piazzale Francesco Vannoni, 4, Rimini 47921 ↔ 4, Piazzale Francesco Vannoni, Rimini; node/2718175956",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e12-orologeriadelborgo-com-contatti",
+          "url": "https://orologeriadelborgo.com/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-orologeria-del-borgo-rimini",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+Francesco+Vannoni%2C+4%2C+Rimini%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "luigi-freddo-gioielli-gallipoli",
+      "indirizzo": "Corso Roma, 82",
+      "coordinate": {
+        "lat": 40.0561352,
+        "lon": 17.9886465,
+        "fonti": [
+          "e13-www-hamiltonwatch-com-gallipoli-freddo",
+          "f18-geo-luigi-freddo-gioielli-gallipoli"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Roma, 82, Gallipoli 73014 ↔ 82, Corso Roma, Gallipoli; node/6329249667",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e13-www-hamiltonwatch-com-gallipoli-freddo",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/puglia/gallipoli/luigi-freddo-gioielli",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-luigi-freddo-gioielli-gallipoli",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+82%2C+Gallipoli%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "perdichizzi-1907-barcellona",
+      "indirizzo": "Via Roma, 82",
+      "coordinate": {
+        "lat": 38.1471473,
+        "lon": 15.2139688,
+        "fonti": [
+          "e13-www-gioielleriaperdichizzi-it-negozi",
+          "e13-www-hamiltonwatch-com-barcellona-perdichizzi",
+          "f18-geo-perdichizzi-1907-barcellona"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Roma, 82, Barcellona Pozzo di Gotto 98051 ↔ 82, Via Roma, Barcellona Pozzo di Gotto; node/5247942942",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "e13-www-gioielleriaperdichizzi-it-negozi",
+          "url": "https://www.gioielleriaperdichizzi.it/pages/negozi",
+          "licenza": null
+        },
+        {
+          "id": "e13-www-hamiltonwatch-com-barcellona-perdichizzi",
+          "url": "https://www.hamiltonwatch.com/it-it/store-locator/italia/sicilia/barcellona-pozzo-di-gotto/gioielleria-perdichizzi-1907",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-perdichizzi-1907-barcellona",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+82%2C+Barcellona+Pozzo+di+Gotto%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "gioielleria-rovari-san-zeno-naviglio",
+      "indirizzo": "Via Armando Diaz, 39",
+      "coordinate": {
+        "lat": 45.4920865,
+        "lon": 10.2176568,
+        "fonti": [
+          "f13l4-rovari-contatti",
+          "f18-geo-gioielleria-rovari-san-zeno-naviglio"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Armando Diaz, 39, San Zeno Naviglio 25010 ↔ 39, Via Armando Diaz, San Zeno Naviglio; node/12892465778",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f13l4-rovari-contatti",
+          "url": "https://gioielleriarovari.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-gioielleria-rovari-san-zeno-naviglio",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+39%2C+San+Zeno+Naviglio%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "lo-scrigno-monfalcone",
+      "indirizzo": "Via Fratelli Rosselli, 7",
+      "coordinate": {
+        "lat": 45.8088029,
+        "lon": 13.5323822,
+        "fonti": [
+          "f13l4-scrigno-contatti",
+          "f18-geo-lo-scrigno-monfalcone"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Fratelli Rosselli, 7, Monfalcone 34074 ↔ 7, Via Fratelli Rosselli, Monfalcone; node/3652790215",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f13l4-scrigno-contatti",
+          "url": "https://gioiellerialoscrigno.com/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-lo-scrigno-monfalcone",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fratelli+Rosselli%2C+7%2C+Monfalcone%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "villini-gioielleria-trieste",
+      "indirizzo": "Via Santa Caterina da Siena, 7",
+      "coordinate": {
+        "lat": 45.6505982,
+        "lon": 13.7746137,
+        "fonti": [
+          "f13l4-villini-contatti",
+          "f18-geo-villini-gioielleria-trieste"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Santa Caterina da Siena, 7, Trieste ↔ 7, Via Santa Caterina da Siena, Trieste; node/3633952149",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f13l4-villini-contatti",
+          "url": "https://www.villinigioielleria.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-villini-gioielleria-trieste",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+da+Siena%2C+7%2C+Trieste%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "temporo-galanti-saronno",
+      "indirizzo": "Via San Cristoforo, 9",
+      "coordinate": {
+        "lat": 45.6272774,
+        "lon": 9.0368953,
+        "fonti": [
+          "f13l4-temporo-contatti",
+          "f18-geo-temporo-galanti-saronno"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via San Cristoforo, 9, Saronno 21047 ↔ 9, Via San Cristoforo, Saronno; node/13949749508",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f13l4-temporo-contatti",
+          "url": "https://www.temporo.it/laboratorio-di-orologeria",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-temporo-galanti-saronno",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Cristoforo%2C+9%2C+Saronno%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "brugnelli-cremona-campi",
+      "indirizzo": "Corso Campi 68",
+      "coordinate": {
+        "lat": 45.1359573,
+        "lon": 10.021281,
+        "fonti": [
+          "f18-brugnelli",
+          "f18-brugnelli-sede",
+          "f18-geo-brugnelli-cremona-campi"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Campi 68, Cremona 26100 ↔ 68, Corso Campi, Cremona; node/13838644467",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-brugnelli",
+          "url": "https://www.gioielleriabrugnelli.com/servizi/",
+          "licenza": null
+        },
+        {
+          "id": "f18-brugnelli-sede",
+          "url": "https://www.gioielleriabrugnelli.com/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-brugnelli-cremona-campi",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Campi+68%2C+Cremona%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "curnis-concept-bergamo",
+      "indirizzo": "Via Monte Grappa 7",
+      "coordinate": {
+        "lat": 45.696145,
+        "lon": 9.6708283,
+        "fonti": [
+          "f18-curnis-concept",
+          "f18-curnis-concept-sede",
+          "f18-geo-curnis-concept-bergamo"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Monte Grappa 7, Bergamo 24121 ↔ 7, Via Monte Grappa, Bergamo; node/7383426034",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-curnis-concept",
+          "url": "https://curnisgioielli.it/en/",
+          "licenza": null
+        },
+        {
+          "id": "f18-curnis-concept-sede",
+          "url": "https://curnisgioielli.it/en/rolex/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-curnis-concept-bergamo",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Monte+Grappa+7%2C+Bergamo%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "curnis-zambonate-bergamo",
+      "indirizzo": "Via Zambonate 55",
+      "coordinate": {
+        "lat": 45.6924183,
+        "lon": 9.6655494,
+        "fonti": [
+          "f18-curnis-zambonate",
+          "f18-curnis-zambonate-sede",
+          "f18-geo-curnis-zambonate-bergamo"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Zambonate 55, Bergamo 24122 ↔ 55, Via Zambonate, Bergamo; node/4243013800",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-curnis-zambonate",
+          "url": "https://www.curnis.com/",
+          "licenza": null
+        },
+        {
+          "id": "f18-curnis-zambonate-sede",
+          "url": "https://www.curnis.com/pages/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-curnis-zambonate-bergamo",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Zambonate+55%2C+Bergamo%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "louis-shop-pieve-cento",
+      "indirizzo": "Via Risorgimento 15/A",
+      "coordinate": {
+        "lat": 44.7135353,
+        "lon": 11.3051883,
+        "fonti": [
+          "f18-louis",
+          "f18-louis-sede",
+          "f18-geo-louis-shop-pieve-cento"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Risorgimento 15/A, Pieve di Cento 40066 ↔ 15a, Via Risorgimento, Pieve di Cento; node/4782458323",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-louis",
+          "url": "https://louisshop.it/it/laboratorio",
+          "licenza": null
+        },
+        {
+          "id": "f18-louis-sede",
+          "url": "https://louisshop.it/it/contatti",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-louis-shop-pieve-cento",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Risorgimento+15%2FA%2C+Pieve+di+Cento%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "fecarotta-palermo",
+      "indirizzo": "Via Ruggero Settimo 66",
+      "coordinate": {
+        "lat": 38.1236257,
+        "lon": 13.3561902,
+        "fonti": [
+          "f18-fecarotta",
+          "f18-fecarotta-sede",
+          "f18-geo-fecarotta-palermo"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Ruggero Settimo 66, Palermo ↔ 66, Via Ruggero Settimo, Palermo; node/9081964098",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-fecarotta",
+          "url": "https://www.fecarotta.com/it/faq/",
+          "licenza": null
+        },
+        {
+          "id": "f18-fecarotta-sede",
+          "url": "https://www.fecarotta.com/it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-fecarotta-palermo",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ruggero+Settimo+66%2C+Palermo%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "le-musolesi-bologna",
+      "indirizzo": "Via Saragozza 101/C",
+      "coordinate": {
+        "lat": 44.4904277,
+        "lon": 11.3263438,
+        "fonti": [
+          "f18-musolesi",
+          "f18-musolesi-sede",
+          "f18-geo-le-musolesi-bologna"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Saragozza 101/C, Bologna ↔ 101c, Via Saragozza, Bologna; node/4793750374",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-musolesi",
+          "url": "https://www.lemusolesi.com/laboratorio-orologeria-bologna",
+          "licenza": null
+        },
+        {
+          "id": "f18-musolesi-sede",
+          "url": "https://www.lemusolesi.com/index.php?route=information/contact",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-le-musolesi-bologna",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Saragozza+101%2FC%2C+Bologna%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "i-gioielli-conti-besana",
+      "indirizzo": "Via Santa Caterina 12",
+      "coordinate": {
+        "lat": 45.7001267,
+        "lon": 9.285012,
+        "fonti": [
+          "f18-conti",
+          "f18-geo-i-gioielli-conti-besana"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Via Santa Caterina 12, Besana in Brianza 20842 ↔ 12, Via Santa Caterina, Besana in Brianza; node/12476287682",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-conti",
+          "url": "https://www.igioielliconti.com/orologiaio-a-monza/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-i-gioielli-conti-besana",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+12%2C+Besana+in+Brianza%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    },
+    {
+      "id": "restivo-catania",
+      "indirizzo": "Corso Italia 268",
+      "coordinate": {
+        "lat": 37.5159577,
+        "lon": 15.1025523,
+        "fonti": [
+          "f18-restivo",
+          "f18-restivo-sedi",
+          "f18-geo-restivo-catania"
+        ],
+        "provenienza": "geocodifica-osm",
+        "verificataIl": "2026-10-31",
+        "indirizzoConfrontato": "Corso Italia 268, Catania ↔ 268, Corso Italia, Catania; node/8306875232",
+        "stato": "verificata"
+      },
+      "fonti": [
+        {
+          "id": "f18-restivo",
+          "url": "https://www.restivo.it/",
+          "licenza": null
+        },
+        {
+          "id": "f18-restivo-sedi",
+          "url": "https://www.restivo.it/contatti/",
+          "licenza": null
+        },
+        {
+          "id": "f18-geo-restivo-catania",
+          "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia+268%2C+Catania%2C+Italia",
+          "licenza": "ODbL-1.0 · © OpenStreetMap contributors"
+        }
+      ]
+    }
+  ],
+  "centri": {
+    "belluno": {
+      "nome": "Belluno",
+      "lat": 46.1375185,
+      "lon": 12.2181711,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Belluno&featureType=city",
+      "verificataIl": "2026-10-31"
+    },
+    "firenze": {
+      "nome": "Firenze",
+      "lat": 43.7697955,
+      "lon": 11.2556404,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Firenze&featureType=city",
+      "verificataIl": "2026-10-31"
+    },
+    "roma": {
+      "nome": "Roma",
+      "lat": 41.8933203,
+      "lon": 12.4829321,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Roma&featureType=city",
+      "verificataIl": "2026-10-31"
+    },
+    "milano": {
+      "nome": "Milano",
+      "lat": 45.4641943,
+      "lon": 9.1896346,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Milano&featureType=city",
+      "verificataIl": "2026-10-31"
+    },
+    "scandicci": {
+      "nome": "Scandicci",
+      "lat": 43.7581736,
+      "lon": 11.1816702,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+della+Resistenza%2C+6%2Fc%2C+Scandicci%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "empoli": {
+      "nome": "Empoli",
+      "lat": 43.7191417,
+      "lon": 10.94697,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giuseppe+del+Papa%2C+58%2F60%2C+Empoli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bagno-a-ripoli": {
+      "nome": "Bagno a Ripoli",
+      "lat": 43.7522434,
+      "lon": 11.3195496,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+159%2C+Bagno+a+Ripoli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pontassieve": {
+      "nome": "Pontassieve",
+      "lat": 43.7775285,
+      "lon": 11.4429033,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ghiberti%2C+115%2C+Pontassieve%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "figline-e-incisa-valdarno": {
+      "nome": "Figline e Incisa Valdarno",
+      "lat": 43.6193587,
+      "lon": 11.4705758,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+47+%E2%80%94+Figline+Valdarno%2C+Figline+e+Incisa+Valdarno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pontedera": {
+      "nome": "Pontedera",
+      "lat": 43.6642712,
+      "lon": 10.6312697,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+I%C2%B0+Maggio%2C+6%2C+Pontedera%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "poggibonsi": {
+      "nome": "Poggibonsi",
+      "lat": 43.4682894,
+      "lon": 11.1463791,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Repubblica%2C+102%2F104%2C+Poggibonsi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "colle-di-val-d-elsa": {
+      "nome": "Colle di Val d’Elsa",
+      "lat": 43.4227061,
+      "lon": 11.1259638,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini%2C+27%2C+Colle+di+Val+d%E2%80%99Elsa%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "san-miniato": {
+      "nome": "San Miniato",
+      "lat": 43.6789833,
+      "lon": 10.8478449,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+4+Novembre%2C+14%2C+San+Miniato%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "montevarchi": {
+      "nome": "Montevarchi",
+      "lat": 43.5231434,
+      "lon": 11.5676569,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+48%2F50%2C+Montevarchi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sesto-fiorentino": {
+      "nome": "Sesto Fiorentino",
+      "lat": 43.8339326,
+      "lon": 11.2005283,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gramsci+298%2C+Sesto+Fiorentino%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "campi-bisenzio": {
+      "nome": "Campi Bisenzio",
+      "lat": 43.8215594,
+      "lon": 11.1362041,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santo+Stefano+45%2F47%2C+Campi+Bisenzio%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "san-giovanni-valdarno": {
+      "nome": "San Giovanni Valdarno",
+      "lat": 43.5650042,
+      "lon": 11.5305957,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Cavour+11%2C+San+Giovanni+Valdarno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bologna": {
+      "nome": "Bologna",
+      "lat": 44.4966036,
+      "lon": 11.3432124,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Indipendenza+15%2C+Bologna%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "torino": {
+      "nome": "Torino",
+      "lat": 45.0581202,
+      "lon": 7.6627529,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Alcide+De+Gasperi+5%2FM%2C+Torino%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "vicenza": {
+      "nome": "Vicenza",
+      "lat": 45.5468461,
+      "lon": 11.546209,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzetta+Palladio+2%2C+Vicenza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "napoli": {
+      "nome": "Napoli",
+      "lat": 40.8389781,
+      "lon": 14.2500521,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Brigida+60%2C+Napoli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "salerno": {
+      "nome": "Salerno",
+      "lat": 40.6678004,
+      "lon": 14.7892233,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Posidonia+277%2FB%2C+Salerno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bari": {
+      "nome": "Bari",
+      "lat": 41.1244774,
+      "lon": 16.8695919,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sparano+50%2C+Bari%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "palermo": {
+      "nome": "Palermo",
+      "lat": 38.1202217,
+      "lon": 13.3621221,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gagini+93%2C+Palermo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "genova": {
+      "nome": "Genova",
+      "lat": 44.4074126,
+      "lon": 8.9494129,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Canevari+264+R%2C+Genova%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "alessandria": {
+      "nome": "Alessandria",
+      "lat": 44.9163506,
+      "lon": 8.6129765,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Milano+22%2C+Alessandria%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "viterbo": {
+      "nome": "Viterbo",
+      "lat": 42.4216204,
+      "lon": 12.1051719,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Rocca+13%2C+Viterbo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "latina": {
+      "nome": "Latina",
+      "lat": 41.4659721,
+      "lon": 12.9046551,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Eugenio+di+Savoia+44%2C+Latina%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "montefiascone": {
+      "nome": "Montefiascone",
+      "lat": 42.5378742,
+      "lon": 12.030669,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Vittorio+Emanuele+1%2C+Montefiascone%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "l-aquila": {
+      "nome": "L'Aquila",
+      "lat": 42.3500956,
+      "lon": 13.3998258,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+47%2C+L%27Aquila%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "potenza": {
+      "nome": "Potenza",
+      "lat": 40.6302347,
+      "lon": 15.7916971,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Gallitello+102%2C+Potenza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "trieste": {
+      "nome": "Trieste",
+      "lat": 45.6484543,
+      "lon": 13.7781716,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+Saba+31%2C+Trieste%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "udine": {
+      "nome": "Udine",
+      "lat": 46.0636921,
+      "lon": 13.2296411,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Girardini+20%2FA%2C+Udine%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "trento": {
+      "nome": "Trento",
+      "lat": 46.0581205,
+      "lon": 11.130367,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sant%E2%80%99Antonio+21%2C+Trento%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "civitanova-marche": {
+      "nome": "Civitanova Marche",
+      "lat": 43.3107193,
+      "lon": 13.7271965,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Dalmazia+113%2C+Civitanova+Marche%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "perugia": {
+      "nome": "Perugia",
+      "lat": 43.1116739,
+      "lon": 12.3894411,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Calderini+13%2C+Perugia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "terni": {
+      "nome": "Terni",
+      "lat": 42.5738542,
+      "lon": 12.6704578,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tre+Venezie+17%2C+Terni%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "cagliari": {
+      "nome": "Cagliari",
+      "lat": 39.2185907,
+      "lon": 9.1132195,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Francesco+Fara+15%2C+Cagliari%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "courmayeur": {
+      "nome": "Courmayeur",
+      "lat": 45.7897962,
+      "lon": 6.9733859,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+34%2C+Courmayeur%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "padova": {
+      "nome": "Padova",
+      "lat": 45.3793836,
+      "lon": 11.9030464,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Piovese+79%2C+Padova%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "parma": {
+      "nome": "Parma",
+      "lat": 44.7879762,
+      "lon": 10.2983849,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Golfo+dei+Poeti+1%2FA%2C+Parma%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "termoli": {
+      "nome": "Termoli",
+      "lat": 41.99412,
+      "lon": 14.9978826,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Corsica+180+Bis%2C+Termoli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "campobasso": {
+      "nome": "Campobasso",
+      "lat": 41.5562183,
+      "lon": 14.6606078,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesare+Gazzani+22%2FD%2C+Campobasso%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lodi": {
+      "nome": "Lodi",
+      "lat": 45.3124376,
+      "lon": 9.5006424,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ottone+Morena+11%2C+Lodi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sanremo": {
+      "nome": "Sanremo",
+      "lat": 43.8138948,
+      "lon": 7.7699409,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Imperatrice+3%2C+Sanremo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "olbia": {
+      "nome": "Olbia",
+      "lat": 40.9238531,
+      "lon": 9.5002338,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+29%2C+Olbia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lamezia-terme": {
+      "nome": "Lamezia Terme",
+      "lat": 38.9667621,
+      "lon": 16.2831853,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Fiorentino+20%2C+Lamezia+Terme%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "chieti": {
+      "nome": "Chieti",
+      "lat": 42.3550897,
+      "lon": 14.1381668,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Abruzzo+98%2C+Chieti%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "isernia": {
+      "nome": "Isernia",
+      "lat": 41.5991327,
+      "lon": 14.236958,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi+267%2F271%2C+Isernia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "san-benedetto-del-tronto": {
+      "nome": "San Benedetto del Tronto",
+      "lat": 42.9504096,
+      "lon": 13.8833255,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ugo+Bassi+25%2C+San+Benedetto+del+Tronto%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "novara": {
+      "nome": "Novara",
+      "lat": 45.4471217,
+      "lon": 8.622055,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Cavour+1%2FE%2C+Novara%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "verbania": {
+      "nome": "Verbania",
+      "lat": 45.9356189,
+      "lon": 8.5734861,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Fabiano+5%2C+Verbania%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "asti": {
+      "nome": "Asti",
+      "lat": 44.8999881,
+      "lon": 8.2045365,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Alfieri+270%2C+Asti%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lecco": {
+      "nome": "Lecco",
+      "lat": 45.8540182,
+      "lon": 9.3908349,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+30%2C+Lecco%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pavia": {
+      "nome": "Pavia",
+      "lat": 45.1902613,
+      "lon": 9.1630304,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Sardegna+98%2Fb%2C+Pavia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "cremona": {
+      "nome": "Cremona",
+      "lat": 45.1357514,
+      "lon": 10.0214957,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Campi+21+A%2C+Cremona%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "monza": {
+      "nome": "Monza",
+      "lat": 45.5862963,
+      "lon": 9.275758,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carlo+Alberto+32%2C+Monza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "ancona": {
+      "nome": "Ancona",
+      "lat": 43.618293,
+      "lon": 13.5126848,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giuseppe+Mazzini+102%2C+Ancona%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "rieti": {
+      "nome": "Rieti",
+      "lat": 42.4010092,
+      "lon": 12.8609883,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+110%2F112%2C+Rieti%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "aosta": {
+      "nome": "Aosta",
+      "lat": 45.7368779,
+      "lon": 7.3194865,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Chanoux+22%2C+Aosta%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "verona": {
+      "nome": "Verona",
+      "lat": 45.4434381,
+      "lon": 10.9966494,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+delle+Erbe+37%2C+Verona%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "treviso": {
+      "nome": "Treviso",
+      "lat": 45.6687885,
+      "lon": 12.2506168,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Borgo+Giuseppe+Mazzini+33%2C+Treviso%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "ferrara": {
+      "nome": "Ferrara",
+      "lat": 44.8347304,
+      "lon": 11.6212551,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini+7%2C+Ferrara%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "ravenna": {
+      "nome": "Ravenna",
+      "lat": 44.4181027,
+      "lon": 12.1986291,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti+20%2C+Ravenna%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "modena": {
+      "nome": "Modena",
+      "lat": 44.647725,
+      "lon": 10.9278376,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Taglio+3%2C+Modena%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "rovigo": {
+      "nome": "Rovigo",
+      "lat": 45.0706589,
+      "lon": 11.7907132,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Vittorio+Emanuele+30%2C+Rovigo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lucca": {
+      "nome": "Lucca",
+      "lat": 43.8448916,
+      "lon": 10.5043469,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fillungo+187%2C+Lucca%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pistoia": {
+      "nome": "Pistoia",
+      "lat": 43.9315607,
+      "lon": 10.9152526,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cino+da+Pistoia+2%2FD%2C+Pistoia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "aulla": {
+      "nome": "Aulla",
+      "lat": 44.2077812,
+      "lon": 9.9697414,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre+26%2C+Aulla%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "como": {
+      "nome": "Como",
+      "lat": 45.8120571,
+      "lon": 9.0882916,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Monti+34%2C+Como%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "mantova": {
+      "nome": "Mantova",
+      "lat": 45.1605475,
+      "lon": 10.7904478,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Fernelli+8%2C+Mantova%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "botrugno": {
+      "nome": "Botrugno",
+      "lat": 40.0637493,
+      "lon": 18.323974,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Vittorio+Emanuele+11%2C+Botrugno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "catania": {
+      "nome": "Catania",
+      "lat": 37.5176843,
+      "lon": 15.0941909,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gabriele+D%E2%80%99Annunzio+134%2C+Catania%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "gravina-di-catania": {
+      "nome": "Gravina di Catania",
+      "lat": 37.5382751,
+      "lon": 15.070793,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carrubella+191%2C+Gravina+di+Catania%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "messina": {
+      "nome": "Messina",
+      "lat": 38.1825281,
+      "lon": 15.5528862,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+San+Martino+188%2C+Messina%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "nicosia": {
+      "nome": "Nicosia",
+      "lat": 37.7467911,
+      "lon": 14.3963183,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Benedetto+26%2C+Nicosia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sassari": {
+      "nome": "Sassari",
+      "lat": 40.7214478,
+      "lon": 8.5661358,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Zanfarino+9%2C+Sassari%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "canicatti": {
+      "nome": "Canicattì",
+      "lat": 37.3604263,
+      "lon": 13.8502693,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+IV+Novembre+13%2C+Canicatt%C3%AC%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pescara": {
+      "nome": "Pescara",
+      "lat": 42.4708759,
+      "lon": 14.2114069,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galileo+Galilei+8%2F1%2C+Pescara%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "frosinone": {
+      "nome": "Frosinone",
+      "lat": 41.6433573,
+      "lon": 13.3459263,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aldo+Moro%2C+153%2C+Frosinone%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "cuneo": {
+      "nome": "Cuneo",
+      "lat": 44.3879873,
+      "lon": 7.5459963,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Nizza%2C+10%2C+Cuneo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bra": {
+      "nome": "Bra",
+      "lat": 44.6884761,
+      "lon": 7.8538568,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cuneo%2C+84%2C+Bra%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "savona": {
+      "nome": "Savona",
+      "lat": 44.30554,
+      "lon": 8.4814452,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Sandro+Pertini%2C+44%2C+Savona%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "la-spezia": {
+      "nome": "La Spezia",
+      "lat": 44.1077257,
+      "lon": 9.8177218,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Prione%2C+119%2C+La+Spezia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sarzana": {
+      "nome": "Sarzana",
+      "lat": 44.1119099,
+      "lon": 9.9604951,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Landinelli%2C+60%2F62%2C+Sarzana%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "piacenza": {
+      "nome": "Piacenza",
+      "lat": 45.0515787,
+      "lon": 9.6923752,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II%2C+21%2C+Piacenza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bolzano": {
+      "nome": "Bolzano",
+      "lat": 46.4994675,
+      "lon": 11.3522919,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+delle+Erbe%2C+24%2FA%2C+Bolzano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "brunico": {
+      "nome": "Brunico",
+      "lat": 46.7957841,
+      "lon": 11.9383127,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Centrale%2C+44%2C+Brunico%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "monfalcone": {
+      "nome": "Monfalcone",
+      "lat": 45.8094404,
+      "lon": 13.5310711,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Duca+d%E2%80%99Aosta%2C+80%2C+Monfalcone%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "gorizia": {
+      "nome": "Gorizia",
+      "lat": 45.941947,
+      "lon": 13.6190728,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+34%2C+Gorizia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pordenone": {
+      "nome": "Pordenone",
+      "lat": 45.9576152,
+      "lon": 12.6592074,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II%2C+15%2FB%2C+Pordenone%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "conegliano": {
+      "nome": "Conegliano",
+      "lat": 45.8905098,
+      "lon": 12.3108555,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Friuli%2C+45%2C+Conegliano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "forli": {
+      "nome": "Forlì",
+      "lat": 44.2321785,
+      "lon": 12.0102668,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+77%2C+Forl%C3%AC%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "casale-monferrato": {
+      "nome": "Casale Monferrato",
+      "lat": 45.1374422,
+      "lon": 8.4505368,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aurelio+Saffi%2C+3%2C+Casale+Monferrato%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "vercelli": {
+      "nome": "Vercelli",
+      "lat": 45.323895,
+      "lon": 8.419952,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Libert%C3%A0%2C+41-42%2C+Vercelli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pesaro": {
+      "nome": "Pesaro",
+      "lat": 43.9090376,
+      "lon": 12.9115892,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Branca%2C+15%2C+Pesaro%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "fano": {
+      "nome": "Fano",
+      "lat": 43.8439813,
+      "lon": 13.0162229,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+109%2C+Fano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "porto-san-giorgio": {
+      "nome": "Porto San Giorgio",
+      "lat": 43.1806841,
+      "lon": 13.7948698,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Don+Minzoni%2C+55%2Fa%2C+Porto+San+Giorgio%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "porto-sant-elpidio": {
+      "nome": "Porto Sant'Elpidio",
+      "lat": 43.2598567,
+      "lon": 13.7582261,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Principe+Umberto%2C+2%2C+Porto+Sant%27Elpidio%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sant-egidio-alla-vibrata": {
+      "nome": "Sant'Egidio alla Vibrata",
+      "lat": 42.8255467,
+      "lon": 13.7164102,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Umberto+I%2C+Sant%27Egidio+alla+Vibrata%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "roseto-degli-abruzzi": {
+      "nome": "Roseto degli Abruzzi",
+      "lat": 42.6773369,
+      "lon": 14.0139685,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+34%2C+Roseto+degli+Abruzzi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "citta-di-castello": {
+      "nome": "Città di Castello",
+      "lat": 43.4573145,
+      "lon": 12.243603,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Scipione+Lapi%2C+2%2FC%2C+Citt%C3%A0+di+Castello%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "cerignola": {
+      "nome": "Cerignola",
+      "lat": 41.2647745,
+      "lon": 15.8997111,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Duomo%2C+14%2C+Cerignola%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "barletta": {
+      "nome": "Barletta",
+      "lat": 41.3192114,
+      "lon": 16.2820817,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+81%2C+Barletta%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "andria": {
+      "nome": "Andria",
+      "lat": 41.2278889,
+      "lon": 16.3012736,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Crispi%2C+43%2C+Andria%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "taranto": {
+      "nome": "Taranto",
+      "lat": 40.4706882,
+      "lon": 17.2418201,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Acclavio%2C+38-38%2FB%2C+Taranto%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "castellaneta": {
+      "nome": "Castellaneta",
+      "lat": 40.6269729,
+      "lon": 16.9226826,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+S.+Francesco%2C+21%2C+Castellaneta%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "brindisi": {
+      "nome": "Brindisi",
+      "lat": 40.6363916,
+      "lon": 17.9453657,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+13%2C+Brindisi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "matera": {
+      "nome": "Matera",
+      "lat": 40.6650447,
+      "lon": 16.6087482,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Corso%2C+50%2C+Matera%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "policoro": {
+      "nome": "Policoro",
+      "lat": 40.200436,
+      "lon": 16.670227,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Siris%2C+77%2C+Policoro%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "vibo-valentia": {
+      "nome": "Vibo Valentia",
+      "lat": 38.6739418,
+      "lon": 16.1006647,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+III%2C+197%2C+Vibo+Valentia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "caltanissetta": {
+      "nome": "Caltanissetta",
+      "lat": 37.4903125,
+      "lon": 14.0646407,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele%2C+108%2C+Caltanissetta%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "ragusa": {
+      "nome": "Ragusa",
+      "lat": 36.9206054,
+      "lon": 14.7218658,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Archimede%2C+316%2C+Ragusa%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "modica": {
+      "nome": "Modica",
+      "lat": 36.8418905,
+      "lon": 14.7660113,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Libert%C3%A0%2C+6%2C+Modica%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "iglesias": {
+      "nome": "Iglesias",
+      "lat": 39.3131599,
+      "lon": 8.5349437,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+35%2F37%2C+Iglesias%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "faenza": {
+      "nome": "Faenza",
+      "lat": 44.2865634,
+      "lon": 11.8815148,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Mazzini%2C+43%2C+Faenza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "santa-giustina": {
+      "nome": "Santa Giustina",
+      "lat": 46.0815399,
+      "lon": 12.0379232,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Feltre%2C+45%2C+Santa+Giustina%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "tirano": {
+      "nome": "Tirano",
+      "lat": 46.2176072,
+      "lon": 10.159025,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Italia%2C+24%2C+Tirano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "morbegno": {
+      "nome": "Morbegno",
+      "lat": 46.1334334,
+      "lon": 9.5704665,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ezio+Vanoni%2C+21%2C+Morbegno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "vigevano": {
+      "nome": "Vigevano",
+      "lat": 45.3172376,
+      "lon": 8.8579667,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Ducale%2C+49%2C+Vigevano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "voghera": {
+      "nome": "Voghera",
+      "lat": 44.9928377,
+      "lon": 9.007179,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilia%2C+53%2C+Voghera%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "gallarate": {
+      "nome": "Gallarate",
+      "lat": 45.6592944,
+      "lon": 8.7946841,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Largo+Camussi%2C+1%2C+Gallarate%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "cecina": {
+      "nome": "Cecina",
+      "lat": 43.310695,
+      "lon": 10.5171126,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+57%2C+Cecina%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "follonica": {
+      "nome": "Follonica",
+      "lat": 42.9236554,
+      "lon": 10.7584646,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilio+Bicocchi%2C+36%2C+Follonica%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "portico-di-caserta": {
+      "nome": "Portico di Caserta",
+      "lat": 41.0525306,
+      "lon": 14.2817444,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+10%2C+Portico+di+Caserta%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "santa-maria-capua-vetere": {
+      "nome": "Santa Maria Capua Vetere",
+      "lat": 41.0819963,
+      "lon": 14.2522054,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Aldo+Moro%2C+213%2C+Santa+Maria+Capua+Vetere%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "angri": {
+      "nome": "Angri",
+      "lat": 40.7387054,
+      "lon": 14.5783367,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+124%2C+Angri%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lecce": {
+      "nome": "Lecce",
+      "lat": 40.3524774,
+      "lon": 18.1740585,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roberto+di+Biccari%2C+9%2C+Lecce%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "siracusa": {
+      "nome": "Siracusa",
+      "lat": 37.0719816,
+      "lon": 15.2816,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+17%2C+Siracusa%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "carrara": {
+      "nome": "Carrara",
+      "lat": 44.0385515,
+      "lon": 10.0389248,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Genova%2C+15%2C+Carrara%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "mirano": {
+      "nome": "Mirano",
+      "lat": 45.4925543,
+      "lon": 12.1099553,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Barche%2C+10%2C+Mirano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "rovereto": {
+      "nome": "Rovereto",
+      "lat": 45.8895336,
+      "lon": 11.0443027,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rialto%2C+8%2F9%2C+Rovereto%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "brescia": {
+      "nome": "Brescia",
+      "lat": 45.5285585,
+      "lon": 10.2243739,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gerolamo+Savoldo%2C+3%2C+Brescia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "este": {
+      "nome": "Este",
+      "lat": 45.2284812,
+      "lon": 11.6562948,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Maggiore%2C+23%2C+Este%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "porto-torres": {
+      "nome": "Porto Torres",
+      "lat": 40.8380818,
+      "lon": 8.4021343,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Libio%2C+15%2C+Porto+Torres%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "nuoro": {
+      "nome": "Nuoro",
+      "lat": 40.3209606,
+      "lon": 9.3334987,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre%2C+1%2C+Nuoro%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "mazara-del-vallo": {
+      "nome": "Mazara del Vallo",
+      "lat": 37.6536473,
+      "lon": 12.5927714,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Veneto%2C+55%2C+Mazara+del+Vallo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "erice": {
+      "nome": "Erice",
+      "lat": 38.0290366,
+      "lon": 12.5431985,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesar%C3%B2%2C+60%2F62%2C+Erice%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "rimini": {
+      "nome": "Rimini",
+      "lat": 44.0664117,
+      "lon": 12.5608613,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+Francesco+Vannoni%2C+4%2C+Rimini%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "riccione": {
+      "nome": "Riccione",
+      "lat": 44.0026561,
+      "lon": 12.6604449,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Ceccarini%2C+16%2C+Riccione%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "desio": {
+      "nome": "Desio",
+      "lat": 45.6149911,
+      "lon": 9.2062589,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Garibaldi%2C+183%2C+Desio%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "villacidro": {
+      "nome": "Villacidro",
+      "lat": 39.456644,
+      "lon": 8.7320848,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Zampillo%2C+5%2C+Villacidro%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "oristano": {
+      "nome": "Oristano",
+      "lat": 39.908487,
+      "lon": 8.5896622,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tirso%2C+117%2C+Oristano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "atri": {
+      "nome": "Atri",
+      "lat": 42.5798226,
+      "lon": 13.9758662,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Elio+Adriano%2C+73%2C+Atri%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "fondi": {
+      "nome": "Fondi",
+      "lat": 41.3570461,
+      "lon": 13.4296135,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Pietrangelo+Leone%2C+30%2C+Fondi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "narni": {
+      "nome": "Narni",
+      "lat": 42.5339118,
+      "lon": 12.518131,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Libert%C3%A0%2C+9%2C+Narni%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "telese-terme": {
+      "nome": "Telese Terme",
+      "lat": 41.2161115,
+      "lon": 14.5230423,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+186%2C+Telese+Terme%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "gallipoli": {
+      "nome": "Gallipoli",
+      "lat": 40.0561352,
+      "lon": 17.9886465,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+82%2C+Gallipoli%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "martina-franca": {
+      "nome": "Martina Franca",
+      "lat": 40.7018621,
+      "lon": 17.3446341,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Messapia%2C+41%2C+Martina+Franca%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "quartu-sant-elena": {
+      "nome": "Quartu Sant’Elena",
+      "lat": 39.2414598,
+      "lon": 9.1836983,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour%2C+68%2C+Quartu+Sant%E2%80%99Elena%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "barcellona-pozzo-di-gotto": {
+      "nome": "Barcellona Pozzo di Gotto",
+      "lat": 38.1471473,
+      "lon": 15.2139688,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+82%2C+Barcellona+Pozzo+di+Gotto%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "marano-vicentino": {
+      "nome": "Marano Vicentino",
+      "lat": 45.6924835,
+      "lon": 11.4288933,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Silva%2C+18%2C+Marano+Vicentino%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "thiene": {
+      "nome": "Thiene",
+      "lat": 45.7032882,
+      "lon": 11.4788403,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+137%2C+Thiene%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "san-zeno-naviglio": {
+      "nome": "San Zeno Naviglio",
+      "lat": 45.4920865,
+      "lon": 10.2176568,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+39%2C+San+Zeno+Naviglio%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "urgnano": {
+      "nome": "Urgnano",
+      "lat": 45.59709,
+      "lon": 9.6963806,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti%2C+72%2C+Urgnano%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "lendinara": {
+      "nome": "Lendinara",
+      "lat": 45.0863723,
+      "lon": 11.60593,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Maria+Nuova%2C+30%2C+Lendinara%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "domodossola": {
+      "nome": "Domodossola",
+      "lat": 46.1133425,
+      "lon": 8.2918882,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galletti%2C+5%2C+Domodossola%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "saronno": {
+      "nome": "Saronno",
+      "lat": 45.6272774,
+      "lon": 9.0368953,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Cristoforo%2C+9%2C+Saronno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "erba": {
+      "nome": "Erba",
+      "lat": 45.8057308,
+      "lon": 9.2274927,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Filippo+Turati%2C+7%2FF%2C+Erba%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "soliera": {
+      "nome": "Soliera",
+      "lat": 44.7386716,
+      "lon": 10.9235585,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti%2C+39%2C+Soliera%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "sora": {
+      "nome": "Sora",
+      "lat": 41.718246,
+      "lon": 13.6124083,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Napoli%2C+27%2C+Sora%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "fiuggi": {
+      "nome": "Fiuggi",
+      "lat": 41.7939955,
+      "lon": 13.2212153,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rettifilo%2C+61%2C+Fiuggi%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "livorno": {
+      "nome": "Livorno",
+      "lat": 43.5495487,
+      "lon": 10.3122215,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Cardinale%2C+44%2C+Livorno%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "bergamo": {
+      "nome": "Bergamo",
+      "lat": 45.696145,
+      "lon": 9.6708283,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Monte+Grappa+7%2C+Bergamo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "arezzo": {
+      "nome": "Arezzo",
+      "lat": 43.4654563,
+      "lon": 11.8797274,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+54%2C+Arezzo%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "pieve-di-cento": {
+      "nome": "Pieve di Cento",
+      "lat": 44.7135353,
+      "lon": 11.3051883,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Risorgimento+15%2FA%2C+Pieve+di+Cento%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "besana-in-brianza": {
+      "nome": "Besana in Brianza",
+      "lat": 45.7001267,
+      "lon": 9.285012,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+12%2C+Besana+in+Brianza%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "venezia": {
+      "nome": "Venezia",
+      "lat": 45.4342571,
+      "lon": 12.3386717,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+San+Marco+41%E2%80%9342%2C+Venezia%2C+Italia",
+      "verificataIl": "2026-10-31"
+    },
+    "taormina": {
+      "nome": "Taormina",
+      "lat": 37.8517934,
+      "lon": 15.2860717,
+      "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+28%2C+Taormina%2C+Italia",
+      "verificataIl": "2026-10-31"
+    }
+  }
+}

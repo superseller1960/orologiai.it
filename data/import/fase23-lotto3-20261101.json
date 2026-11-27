@@ -1,0 +1,2575 @@
+{
+  "lotto": "fase23-lotto3-20261101",
+  "data": "2026-11-01",
+  "fonti": [
+    {
+      "id": "f23-orologica-torino-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologicatorino.it/revisione-manutenzione-orologi-a-torino/",
+      "titolo": "Orologica Torino: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Effettuiamo Revisioni e Manutenzioni di Orologi di qualsiasi marca a Torino»; «Procediamo allo smontaggio totale dell’orologio»; Corso De Gasperi 5/M, Torino."
+    },
+    {
+      "id": "f23-giovando-torino-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.giovandogioielli.it/orologi_servizio_revisione_automatici.asp",
+      "titolo": "Giovando Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il laboratorio orologiaio della nostra gioielleria mette a vostra disposizione il servizio di revisione e pulizia degli orologi, di ogni tipo e materiale»; Corso Orbassano 222, 10137 Torino."
+    },
+    {
+      "id": "f23-time-action-milano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://timeaction.it/assistenza.html",
+      "titolo": "Time Action Srl: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Centro riparazioni Orologi & distribuzione parti di ricambio»; «Centro Assistenza tecnica Autorizzata Citizen»; Via delle Asole 1, 20123 Milano."
+    },
+    {
+      "id": "f23-zamberlan-treviso-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "http://www.orologeria.com/",
+      "titolo": "Antica Orologeria Zamberlan: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazioni, restauri e costruzioni di orologeria di qualità da polso, tasca e di grandi dimensioni sia antica che moderna»; Via Fra’ Giocondo 4, 31100 Treviso."
+    },
+    {
+      "id": "f23-conte-orologi-roma-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.conteorologi.it/laboratorio-orologi/",
+      "titolo": "Conte Orologi: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Scegli il nostro laboratorio di alta orologeria a Roma. Ricambi all’avanguardia, tecnici con esperienza decennale e macchinari di ultima generazione»; Via Francesco Acri 68, 00142 Roma."
+    },
+    {
+      "id": "f23-msellati-roma-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.msellatiorologi.com/il-nostro-laboratorio/",
+      "titolo": "Msellati Orologi: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Tutti gli orologi sottoposti a manutenzione e revisione presso il nostro laboratorio Msellati sono coperti da una garanzia sul funzionamento di 2 anni»; Via Firenze 48/49, 00184 Roma."
+    },
+    {
+      "id": "f23-ranieri-laquila-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaranieri.com/laboratorio/",
+      "titolo": "Gioielleria Ranieri: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Laboratorio autorizzato ROLEX. Si eseguono preventivi e riparazioni di ROLEX, OMEGA e di tutte le primarie marche»; Via delle Grazie 26, 67100 L’Aquila."
+    },
+    {
+      "id": "f23-melone-vallo-della-lucania-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellimelone.it/laboratorio-di-orologeria/",
+      "titolo": "Gioielleria Melone: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio di orologeria è specializzato nella riparazione e nella manutenzione di orologi di pregio»; Via De Mattia 10, 84078 Vallo della Lucania."
+    },
+    {
+      "id": "f23-la-morella-catania-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://lamorellagioielli.com/riparazione-orologi/",
+      "titolo": "La Morella Gioielleria: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Ripariamo orologi a Catania da anni, offrendo un servizio completo che include ... Revisioni complete»; Via Martino Cilestri 72, 95127 Catania."
+    },
+    {
+      "id": "f23-marino-catania-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamarino.com/orologi.html",
+      "titolo": "Gioielleria Marino Nicola: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Grazie al laboratorio interno di orologeria e oreficeria, tutti i modelli sono personalizzabili»; Via Caronda 19/21, 95129 Catania."
+    },
+    {
+      "id": "f23-vincenzo-salerno-ragusa-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiaiovincenzosalerno.it/",
+      "titolo": "Orologiaio Vincenzo Salerno: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il servizio completo (es. ripristino dell’orologio, revisione del movimento e lucidatura) prevede una garanzia del lavoro di 2 anni»; Via Archimede 316, Ragusa."
+    },
+    {
+      "id": "f23-seiko-italy-milano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/customerservice/contact/servicecenter",
+      "titolo": "Seiko Italy Service Center: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Seiko Italy, Branch of Seiko Watch Europe S.A.S. — Via Giovanni da Udine 34, 20156 Milano (MI) — Tel 800 68 35 21»; centro servizi con welcome desk per clienti privati."
+    },
+    {
+      "id": "f23-seiko-centri",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/customerservice/contact/servicecenter",
+      "titolo": "Seiko: centri di assistenza in Italia",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale Seiko: centro servizi italiano a Milano, via Giovanni da Udine 34, con assistenza clienti privati e retailer."
+    },
+    {
+      "id": "f23-phonolab-milano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.livolsi.it/",
+      "titolo": "Phonolab Srl — assistenza Casio: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Phonolab S.r.l. Via Gadames 132 20151 Milano (Mi) Tel. 02 3008191»; assistenza tecnica e riparazione orologi Casio."
+    },
+    {
+      "id": "f23-casio-assistenza",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.casio.com/it/service/repair/",
+      "titolo": "Casio: assistenza e riparazione in Italia",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale Casio: Phonolab Srl, via Gadames 132, 20151 Milano, centro per la riparazione degli orologi del marchio."
+    },
+    {
+      "id": "f23-santoro-campobasso-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Santoro Orologiai dal 1964 — Via Mazzini, 16 — 86100 Campobasso — Tel: 0874 63932 — Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-ricciardi-torino-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Ricciardi snc — Via San Pio V, 27 — 10125 Torino — Tel: 011 650 2729»; sito proprio: «Ricciardi snc, Via San Pio V 27, 10125 Torino»."
+    },
+    {
+      "id": "f23-ricciardi-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologitorino.it/",
+      "titolo": "Ricciardi snc: riparazione orologi a Torino",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Ricciardi snc — Via San Pio V, 27 — 10125 Torino — Tel: 011 650 2729 — E-mail: ricciardi_snc@tiscali.it»."
+    },
+    {
+      "id": "f23-new-time-service-napoli-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «New Time Service Di Rispoli Antonio — Via Megaride, 2 — 80132 Napoli — Tel: 081 245 1406 — Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-lorusso-bari-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Lorusso Tiziana — Via Beatillo, 14/A — 70121 Bari — Tel: 080 523 2659 — Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-time-service-catania-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Time Service — Viale della Libertà, 80 — 95129 Catania — Tel: 0952162059 — Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-costanzo-marinelli-firenze-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Costanzo e Marinelli & Co. — V.Le Redi, 63/C — 50124 Firenze — Tel: 055 330 319 — Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-christian-knoll-merano-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/customerservice/contact/servicecenter",
+      "titolo": "Service Center di Christian Knoll: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Seiko: «Service Center di Christian Knoll — Corso Libertà 62 — 39012 Merano — Telefono: +39 0473 231610»."
+    },
+    {
+      "id": "f23-breil-elenco",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza e ricambi",
+      "tipo": "marchio-ufficiale",
+      "evidenza": "Elenco ufficiale Breil dei centri di assistenza e ricambi in Italia, con indirizzo civico, CAP e telefono di ciascun centro.",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null
+    }
+  ],
+  "localita": [
+    {
+      "id": "vallo-della-lucania",
+      "comune": "Vallo della Lucania",
+      "comuneSlug": "vallo-della-lucania",
+      "provincia": "Salerno",
+      "provinciaSlug": "salerno",
+      "siglaProvincia": "SA",
+      "regione": "Campania",
+      "regioneSlug": "campania",
+      "codiceIstat": null,
+      "descrizione": "Vallo della Lucania: attività di riparazione orologiera documentata da fonti primarie.",
+      "fonti": [
+        "f23-melone-vallo-della-lucania-fonte"
+      ]
+    },
+    {
+      "id": "merano",
+      "comune": "Merano",
+      "comuneSlug": "merano",
+      "provincia": "Salerno",
+      "provinciaSlug": "salerno",
+      "siglaProvincia": "BZ",
+      "regione": "Trentino-Alto Adige",
+      "regioneSlug": "trentino-alto-adige",
+      "codiceIstat": null,
+      "descrizione": "Merano: attività di riparazione orologiera documentata da fonti primarie.",
+      "fonti": [
+        "f23-christian-knoll-merano-fonte"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "orologica-torino",
+      "nome": "Orologica Torino",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-orologica-torino-fonte"
+      ],
+      "attivita": {
+        "id": "orologica-torino",
+        "slug": "orologica-torino",
+        "nome": "Orologica Torino",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di Torino specializzata in revisioni e manutenzioni di orologi di qualsiasi marca, con smontaggio completo del segnatempo. Il sito si dichiara centro di assistenza certificato per Omega, Hamilton e Tissot: le certificazioni non sono confermate dalle pagine dei marchi e non sono registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso De Gasperi 5/M",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f23-orologica-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 364404",
+          "email": null,
+          "sito": "https://www.orologicatorino.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-orologica-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio esegue revisioni e manutenzioni con smontaggio totale dell’orologio; il sito parla di laboratorio interno.",
+          "fonti": [
+            "f23-orologica-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-orologica-torino-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-orologica-torino-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-orologica-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-orologica-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-orologica-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "orologica-torino"
+        }
+      }
+    },
+    {
+      "id": "giovando-torino",
+      "nome": "Giovando Gioielli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-giovando-torino-fonte"
+      ],
+      "attivita": {
+        "id": "giovando-torino",
+        "slug": "giovando-torino",
+        "nome": "Giovando Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Torino con laboratorio orologiaio interno per revisione e pulizia degli orologi di ogni tipo e materiale. Il sito consiglia una revisione ogni quattro o cinque anni e non dichiara autorizzazioni di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Corso Orbassano 222",
+          "cap": "10137",
+          "coordinate": null,
+          "fonti": [
+            "f23-giovando-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "011 353961",
+          "email": null,
+          "sito": "https://www.giovandogioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-giovando-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio orologiaio della gioielleria è dichiarato sede della revisione e pulizia degli orologi.",
+          "fonti": [
+            "f23-giovando-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-giovando-torino-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-giovando-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-giovando-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-giovando-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "giovando-torino"
+        }
+      }
+    },
+    {
+      "id": "time-action-milano",
+      "nome": "Time Action Srl",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-time-action-milano-fonte"
+      ],
+      "attivita": {
+        "id": "time-action-milano",
+        "slug": "time-action-milano",
+        "nome": "Time Action Srl",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centro riparazioni e distribuzione di parti di ricambio per orologi a Milano. Il sito si dichiara centro di assistenza tecnica autorizzata Citizen e cita Seiko e Raymond Weil, ma le autorizzazioni non sono confermate dalle pagine dei marchi e non sono registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via delle Asole 1",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f23-time-action-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 72000950",
+          "email": null,
+          "sito": "https://timeaction.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-time-action-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il centro dichiara riparazioni e distribuzione di parti di ricambio con laboratorio proprio.",
+          "fonti": [
+            "f23-time-action-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-time-action-milano-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-time-action-milano-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-time-action-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-time-action-milano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-time-action-milano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "time-action-milano"
+        }
+      }
+    },
+    {
+      "id": "zamberlan-treviso",
+      "nome": "Antica Orologeria Zamberlan",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-zamberlan-treviso-fonte"
+      ],
+      "attivita": {
+        "id": "zamberlan-treviso",
+        "slug": "zamberlan-treviso",
+        "nome": "Antica Orologeria Zamberlan",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Antica orologeria di Treviso che documenta riparazioni, restauri e costruzione di parti per orologi da polso, da tasca e di grandi dimensioni, antichi e moderni. Il sito cita il codice di condotta del British Horological Institute, che non è un’autorizzazione di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "treviso",
+        "posizione": {
+          "indirizzo": "Via Fra’ Giocondo 4",
+          "cap": "31100",
+          "coordinate": null,
+          "fonti": [
+            "f23-zamberlan-treviso-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0422 582035",
+          "email": null,
+          "sito": "http://www.orologeria.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-zamberlan-treviso-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’attività dichiara riparazioni, restauri e costruzione di parti di orologeria nel proprio laboratorio, su orologi da polso, da tasca e di grandi dimensioni.",
+          "fonti": [
+            "f23-zamberlan-treviso-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-zamberlan-treviso-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-zamberlan-treviso-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-zamberlan-treviso-fonte"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f23-zamberlan-treviso-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-zamberlan-treviso-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-zamberlan-treviso-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-zamberlan-treviso-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "zamberlan-treviso"
+        }
+      }
+    },
+    {
+      "id": "conte-orologi-roma",
+      "nome": "Conte Orologi",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-conte-orologi-roma-fonte"
+      ],
+      "attivita": {
+        "id": "conte-orologi-roma",
+        "slug": "conte-orologi-roma",
+        "nome": "Conte Orologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di alta orologeria a Roma, in via Francesco Acri, per revisione e riparazione con ricambi originali e assistenza con spedizione. Nessuna autorizzazione di marchio è dichiarata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Francesco Acri 68",
+          "cap": "00142",
+          "coordinate": null,
+          "fonti": [
+            "f23-conte-orologi-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "380 1343628",
+          "email": null,
+          "sito": "https://www.conteorologi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-conte-orologi-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio di alta orologeria è dichiarato sede di revisione e riparazione con ricambi originali.",
+          "fonti": [
+            "f23-conte-orologi-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-conte-orologi-roma-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-conte-orologi-roma-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-conte-orologi-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-conte-orologi-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-conte-orologi-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "conte-orologi-roma"
+        }
+      }
+    },
+    {
+      "id": "msellati-roma",
+      "nome": "Msellati Orologi",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-msellati-roma-fonte"
+      ],
+      "attivita": {
+        "id": "msellati-roma",
+        "slug": "msellati-roma",
+        "nome": "Msellati Orologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di Roma con laboratorio interno per revisione completa, lucidatura, test di impermeabilità e prove al cronocomparatore; gli interventi sono coperti da due anni di garanzia. Nessuna autorizzazione di marchio è dichiarata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Firenze 48/49",
+          "cap": "00184",
+          "coordinate": null,
+          "fonti": [
+            "f23-msellati-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "06 4827662",
+          "email": null,
+          "sito": "https://www.msellatiorologi.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-msellati-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio esegue revisione completa del meccanismo, lucidatura, test di impermeabilità e cronocomparatore, con garanzia di due anni.",
+          "fonti": [
+            "f23-msellati-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-msellati-roma-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-msellati-roma-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-msellati-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Test di impermeabilità",
+            "fonti": [
+              "f23-msellati-roma-fonte"
+            ]
+          },
+          {
+            "nome": "Prove al cronocomparatore",
+            "fonti": [
+              "f23-msellati-roma-fonte"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-msellati-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-msellati-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "msellati-roma"
+        }
+      }
+    },
+    {
+      "id": "ranieri-laquila",
+      "nome": "Gioielleria Ranieri",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-ranieri-laquila-fonte"
+      ],
+      "attivita": {
+        "id": "ranieri-laquila",
+        "slug": "ranieri-laquila",
+        "nome": "Gioielleria Ranieri",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria dell’Aquila con laboratorio interno per preventivi e riparazioni di Rolex, Omega e delle principali marche, revisione del movimento, lucidatura e test di precisione. Il laboratorio si dichiara autorizzato Rolex, ma l’autorizzazione non è confermata dalla pagina del marchio e non è registrata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "l-aquila",
+        "posizione": {
+          "indirizzo": "Via delle Grazie 26",
+          "cap": "67100",
+          "coordinate": null,
+          "fonti": [
+            "f23-ranieri-laquila-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0862 293005",
+          "email": null,
+          "sito": "https://www.gioielleriaranieri.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-ranieri-laquila-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio, con ambienti separati per fase di lavorazione, esegue preventivi e riparazioni su Rolex, Omega e altre marche.",
+          "fonti": [
+            "f23-ranieri-laquila-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-ranieri-laquila-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-ranieri-laquila-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-ranieri-laquila-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-ranieri-laquila-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-ranieri-laquila-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "ranieri-laquila"
+        }
+      }
+    },
+    {
+      "id": "melone-vallo-della-lucania",
+      "nome": "Gioielleria Melone",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-melone-vallo-della-lucania-fonte"
+      ],
+      "attivita": {
+        "id": "melone-vallo-della-lucania",
+        "slug": "melone-vallo-della-lucania",
+        "nome": "Gioielleria Melone",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria del Cilento con laboratorio di orologeria specializzato nella riparazione e manutenzione di orologi di pregio, con revisione completa e restyling. Attività di Vallo della Lucania, non del comune di Salerno.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "vallo-della-lucania",
+        "posizione": {
+          "indirizzo": "Via De Mattia 10",
+          "cap": "84078",
+          "coordinate": null,
+          "fonti": [
+            "f23-melone-vallo-della-lucania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0974 2657",
+          "email": null,
+          "sito": "https://www.gioiellimelone.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-melone-vallo-della-lucania-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio di orologeria è dichiarato specializzato nella riparazione e manutenzione di orologi di pregio.",
+          "fonti": [
+            "f23-melone-vallo-della-lucania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-melone-vallo-della-lucania-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-melone-vallo-della-lucania-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-melone-vallo-della-lucania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-melone-vallo-della-lucania-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-melone-vallo-della-lucania-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "melone-vallo-della-lucania"
+        }
+      }
+    },
+    {
+      "id": "la-morella-catania",
+      "nome": "La Morella Gioielleria",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-la-morella-catania-fonte"
+      ],
+      "attivita": {
+        "id": "la-morella-catania",
+        "slug": "la-morella-catania",
+        "nome": "La Morella Gioielleria",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Catania che documenta riparazione di orologi, revisioni complete, sostituzione di batterie e cinturini e lucidatura, con garanzia di 12 mesi sui lavori. Il laboratorio non è dichiarato interno e non è attribuito.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via Martino Cilestri 72",
+          "cap": "95127",
+          "coordinate": null,
+          "fonti": [
+            "f23-la-morella-catania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 372915",
+          "email": null,
+          "sito": "https://lamorellagioielli.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-la-morella-catania-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito documenta riparazioni e revisioni complete con garanzia di 12 mesi, senza dichiarare un laboratorio interno.",
+          "fonti": [
+            "f23-la-morella-catania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-la-morella-catania-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-la-morella-catania-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-la-morella-catania-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-la-morella-catania-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-la-morella-catania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-la-morella-catania-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-la-morella-catania-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "la-morella-catania"
+        }
+      }
+    },
+    {
+      "id": "marino-catania",
+      "nome": "Gioielleria Marino Nicola",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-marino-catania-fonte"
+      ],
+      "attivita": {
+        "id": "marino-catania",
+        "slug": "marino-catania",
+        "nome": "Gioielleria Marino Nicola",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Catania con laboratorio interno di orologeria e oreficeria per riparazioni e personalizzazioni dei modelli. Il CAP del footer, 95129, è quello riportato nella scheda.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via Caronda 19/21",
+          "cap": "95129",
+          "coordinate": null,
+          "fonti": [
+            "f23-marino-catania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 312877",
+          "email": null,
+          "sito": "https://www.gioielleriamarino.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-marino-catania-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio interno di orologeria e oreficeria è dichiarato sede delle riparazioni e delle personalizzazioni.",
+          "fonti": [
+            "f23-marino-catania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-marino-catania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-marino-catania-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-marino-catania-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "marino-catania"
+        }
+      }
+    },
+    {
+      "id": "vincenzo-salerno-ragusa",
+      "nome": "Orologiaio Vincenzo Salerno",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-vincenzo-salerno-ragusa-fonte"
+      ],
+      "attivita": {
+        "id": "vincenzo-salerno-ragusa",
+        "slug": "vincenzo-salerno-ragusa",
+        "nome": "Orologiaio Vincenzo Salerno",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologiaio di Ragusa per riparazione e assistenza di alta orologeria, ripristino, revisione del movimento e lucidatura, con garanzia di due anni. Il sito elenca marchi come centro autorizzato, ma le autorizzazioni non sono confermate dalle pagine dei marchi e non sono registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ragusa",
+        "posizione": {
+          "indirizzo": "Via Archimede 316",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f23-vincenzo-salerno-ragusa-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.orologiaiovincenzosalerno.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-vincenzo-salerno-ragusa-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’attività documenta ripristino, revisione del movimento e lucidatura con garanzia di due anni sul lavoro.",
+          "fonti": [
+            "f23-vincenzo-salerno-ragusa-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-vincenzo-salerno-ragusa-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-vincenzo-salerno-ragusa-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-vincenzo-salerno-ragusa-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-vincenzo-salerno-ragusa-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-vincenzo-salerno-ragusa-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-vincenzo-salerno-ragusa-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "vincenzo-salerno-ragusa"
+        }
+      }
+    },
+    {
+      "id": "seiko-italy-milano",
+      "nome": "Seiko Italy Service Center",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-seiko-italy-milano-fonte",
+        "f23-seiko-centri"
+      ],
+      "attivita": {
+        "id": "seiko-italy-milano",
+        "slug": "seiko-italy-milano",
+        "nome": "Seiko Italy Service Center",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centro servizi Seiko per l’Italia a Milano, in via Giovanni da Udine, con assistenza agli orologi del marchio e welcome desk dedicato ai clienti privati. L’autorizzazione è quella dichiarata dal marchio stesso.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Giovanni da Udine 34",
+          "cap": "20156",
+          "coordinate": null,
+          "fonti": [
+            "f23-seiko-italy-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "800 683521",
+          "email": null,
+          "sito": "https://www.seikowatches.com/it-it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-seiko-italy-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina ufficiale del marchio indica il centro servizi Seiko in Italia con welcome desk per i clienti privati.",
+          "fonti": [
+            "f23-seiko-italy-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-seiko-italy-milano-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-seiko-italy-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Seiko",
+              "fonti": [
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-seiko-italy-milano-fonte",
+            "f23-seiko-centri"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-seiko-italy-milano-fonte",
+                "f23-seiko-centri"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "seiko-italy-milano"
+        }
+      }
+    },
+    {
+      "id": "phonolab-milano",
+      "nome": "Phonolab Srl — assistenza Casio",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-phonolab-milano-fonte",
+        "f23-casio-assistenza"
+      ],
+      "attivita": {
+        "id": "phonolab-milano",
+        "slug": "phonolab-milano",
+        "nome": "Phonolab Srl — assistenza Casio",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centro di assistenza tecnica di Milano, in via Gadames, indicato da Casio per la riparazione degli orologi del marchio e la gestione dei resi in riparazione. L’autorizzazione è quella pubblicata dal marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Gadames 132",
+          "cap": "20151",
+          "coordinate": null,
+          "fonti": [
+            "f23-phonolab-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 3008191",
+          "email": null,
+          "sito": "https://www.livolsi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-phonolab-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Phonolab è indicata da Casio come centro per l’assistenza degli orologi del marchio in Italia.",
+          "fonti": [
+            "f23-phonolab-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-phonolab-milano-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-phonolab-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Casio",
+              "fonti": [
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-phonolab-milano-fonte",
+            "f23-casio-assistenza"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-phonolab-milano-fonte",
+                "f23-casio-assistenza"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "phonolab-milano"
+        }
+      }
+    },
+    {
+      "id": "santoro-campobasso",
+      "nome": "Santoro Orologiai dal 1964",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-santoro-campobasso-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "santoro-campobasso",
+        "slug": "santoro-campobasso",
+        "nome": "Santoro Orologiai dal 1964",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di Campobasso attiva dal 1964, elencata da Breil tra i centri di assistenza e ricambi. La scheda registra l’assistenza del marchio e non aggiunge lavorazioni non documentate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "campobasso",
+        "posizione": {
+          "indirizzo": "Corso Giuseppe Mazzini 16",
+          "cap": "86100",
+          "coordinate": null,
+          "fonti": [
+            "f23-santoro-campobasso-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0874 63932",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-santoro-campobasso-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "Breil elenca l’attività come centro di assistenza, senza indicare un laboratorio interno.",
+          "fonti": [
+            "f23-santoro-campobasso-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-santoro-campobasso-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-santoro-campobasso-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-santoro-campobasso-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-santoro-campobasso-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "santoro-campobasso"
+        }
+      }
+    },
+    {
+      "id": "ricciardi-torino",
+      "nome": "Ricciardi snc",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-ricciardi-torino-fonte",
+        "f23-ricciardi-sito",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "ricciardi-torino",
+        "slug": "ricciardi-torino",
+        "nome": "Ricciardi snc",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro di riparazione orologi a Torino, in via San Pio V, con laboratorio proprio e assistenza autorizzata Breil secondo l’elenco ufficiale del marchio. Il sito proprio non è leggibile come testo e non ha fornito altre lavorazioni.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via San Pio V 27",
+          "cap": "10125",
+          "coordinate": null,
+          "fonti": [
+            "f23-ricciardi-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "011 6502729",
+          "email": null,
+          "sito": "https://www.riparazioneorologitorino.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-ricciardi-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito dell’attività documenta un centro di riparazione orologi in via San Pio V, con laboratorio.",
+          "fonti": [
+            "f23-ricciardi-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-ricciardi-torino-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-ricciardi-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-ricciardi-torino-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-ricciardi-torino-fonte",
+            "f23-ricciardi-sito",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-ricciardi-torino-fonte",
+                "f23-ricciardi-sito",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "ricciardi-torino"
+        }
+      }
+    },
+    {
+      "id": "new-time-service-napoli",
+      "nome": "New Time Service di Rispoli Antonio",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-new-time-service-napoli-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "new-time-service-napoli",
+        "slug": "new-time-service-napoli",
+        "nome": "New Time Service di Rispoli Antonio",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro di assistenza e ricambi Breil a Napoli, in via Megaride, elencato dal marchio. La scheda registra solo l’assistenza documentata e non attribuisce laboratorio interno né autorizzazioni ulteriori.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Megaride 2",
+          "cap": "80132",
+          "coordinate": null,
+          "fonti": [
+            "f23-new-time-service-napoli-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "081 2451406",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-new-time-service-napoli-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "Breil classifica l’attività come assistenza e ricambi, senza descrivere un laboratorio interno.",
+          "fonti": [
+            "f23-new-time-service-napoli-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-new-time-service-napoli-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-new-time-service-napoli-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-new-time-service-napoli-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-new-time-service-napoli-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-new-time-service-napoli-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "new-time-service-napoli"
+        }
+      }
+    },
+    {
+      "id": "lorusso-bari",
+      "nome": "Lorusso Tiziana — Centro Tecnico di Orologeria",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-lorusso-bari-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "lorusso-bari",
+        "slug": "lorusso-bari",
+        "nome": "Lorusso Tiziana — Centro Tecnico di Orologeria",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro tecnico di orologeria a Bari, in via Beatillo, elencato da Breil tra i centri di assistenza e ricambi. La scheda riporta il nome d’insegna documentato dai repertori e non aggiunge servizi non provati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bari",
+        "posizione": {
+          "indirizzo": "Via Beatillo 14/A",
+          "cap": "70121",
+          "coordinate": null,
+          "fonti": [
+            "f23-lorusso-bari-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "080 5232659",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-lorusso-bari-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "Breil elenca l’attività come assistenza e ricambi, senza indicare laboratorio interno.",
+          "fonti": [
+            "f23-lorusso-bari-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-lorusso-bari-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-lorusso-bari-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-lorusso-bari-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-lorusso-bari-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "lorusso-bari"
+        }
+      }
+    },
+    {
+      "id": "time-service-catania",
+      "nome": "Time Service Srl",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-time-service-catania-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "time-service-catania",
+        "slug": "time-service-catania",
+        "nome": "Time Service Srl",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro di assistenza e ricambi Breil a Catania, in viale della Libertà. La scheda registra solo l’assistenza documentata dal marchio, senza attribuire laboratorio interno o riparazioni multimarca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Viale della Libertà 80",
+          "cap": "95129",
+          "coordinate": null,
+          "fonti": [
+            "f23-time-service-catania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 2162059",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-time-service-catania-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "Breil classifica l’attività come assistenza e ricambi, senza descrivere un laboratorio interno.",
+          "fonti": [
+            "f23-time-service-catania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-time-service-catania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-time-service-catania-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-time-service-catania-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-time-service-catania-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "time-service-catania"
+        }
+      }
+    },
+    {
+      "id": "costanzo-marinelli-firenze",
+      "nome": "Costanzo e Marinelli & Co.",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01.",
+      "fonti": [
+        "f23-costanzo-marinelli-firenze-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "costanzo-marinelli-firenze",
+        "slug": "costanzo-marinelli-firenze",
+        "nome": "Costanzo e Marinelli & Co.",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro di assistenza e ricambi Breil a Firenze, in viale Redi. Il CAP 50124 è quello indicato dall’elenco del marchio, che differisce da altre fonti non usate come prova.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Viale Francesco Redi 63/C",
+          "cap": "50124",
+          "coordinate": null,
+          "fonti": [
+            "f23-costanzo-marinelli-firenze-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "055 330319",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-costanzo-marinelli-firenze-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "Breil elenca l’attività come assistenza e ricambi; non è documentato un laboratorio interno.",
+          "fonti": [
+            "f23-costanzo-marinelli-firenze-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-costanzo-marinelli-firenze-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-costanzo-marinelli-firenze-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-costanzo-marinelli-firenze-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-costanzo-marinelli-firenze-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "costanzo-marinelli-firenze"
+        }
+      }
+    },
+    {
+      "id": "christian-knoll-merano",
+      "nome": "Service Center di Christian Knoll",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria e sede verificata il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-christian-knoll-merano-fonte",
+        "f23-breil-elenco"
+      ],
+      "attivita": {
+        "id": "christian-knoll-merano",
+        "slug": "christian-knoll-merano",
+        "nome": "Service Center di Christian Knoll",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Centro assistenza autorizzato Seiko a Merano, in corso Libertà. La scheda registra solo l’autorizzazione del marchio riportata nell’elenco ufficiale dei centri di assistenza italiani.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "merano",
+        "posizione": {
+          "indirizzo": "Corso Libertà 62",
+          "cap": "39012",
+          "coordinate": null,
+          "fonti": [
+            "f23-christian-knoll-merano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0473 231610",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-christian-knoll-merano-fonte",
+            "f23-breil-elenco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La pagina ufficiale Seiko elenca il centro assistenza autorizzato, senza descrivere il laboratorio.",
+          "fonti": [
+            "f23-christian-knoll-merano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-christian-knoll-merano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Seiko",
+              "fonti": [
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-christian-knoll-merano-fonte",
+            "f23-breil-elenco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto3: sede, recapiti e servizi letti sulla fonte primaria; autorizzazioni registrate solo quando pubblicate dal marchio.",
+              "fonti": [
+                "f23-christian-knoll-merano-fonte",
+                "f23-breil-elenco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "christian-knoll-merano"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Luigi+Corsi%2C+7%2FR%2C+Savona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76060866,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5507376810,
+      "lat": "44.3060110",
+      "lon": "8.4802680",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006593194476229523,
+      "addresstype": "shop",
+      "name": "Delfino",
+      "display_name": "Delfino, 7r, Via Luigi Corsi, Oltreletimbro, Savona, Liguria, 17100, Italia",
+      "address": {
+        "shop": "Delfino",
+        "house_number": "7r",
+        "road": "Via Luigi Corsi",
+        "suburb": "Oltreletimbro",
+        "city": "Savona",
+        "county": "Savona",
+        "ISO3166-2-lvl6": "IT-SV",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "17100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.3059610",
+        "44.3060610",
+        "8.4802180",
+        "8.4803180"
+      ]
+    }
+  ]
+}

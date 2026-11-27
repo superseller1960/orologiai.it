@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Buonarroti+8%2Fa%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80508555,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23570137,
+      "lat": "41.8934998",
+      "lon": "12.5023909",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053422295719844325,
+      "addresstype": "residential",
+      "name": "Via Buonarroti",
+      "display_name": "Via Buonarroti, Esquilino, Municipio Roma I, Roma, Lazio, 00185, Italia",
+      "address": {
+        "road": "Via Buonarroti",
+        "quarter": "Esquilino",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "00185",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.8926537",
+        "41.8943395",
+        "12.5015563",
+        "12.5032324"
+      ]
+    }
+  ]
+}

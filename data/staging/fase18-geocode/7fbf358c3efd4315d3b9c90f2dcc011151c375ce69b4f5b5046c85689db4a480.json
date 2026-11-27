@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Martino+43%2C+Ancona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79681608,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1782153850,
+      "lat": "43.6155269",
+      "lon": "13.5153354",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.0000698184176393838,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "43, Via San Martino, Santo Stefano, Ancona, Marche, 60122, Italia",
+      "address": {
+        "house_number": "43",
+        "road": "Via San Martino",
+        "quarter": "Santo Stefano",
+        "city": "Ancona",
+        "county": "Ancona",
+        "ISO3166-2-lvl6": "IT-AN",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "60122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6154769",
+        "43.6155769",
+        "13.5152854",
+        "13.5153854"
+      ]
+    }
+  ]
+}

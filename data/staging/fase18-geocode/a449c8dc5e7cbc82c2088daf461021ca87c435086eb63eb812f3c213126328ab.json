@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sbarre+Centrali+146%2C+Reggio+Calabria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54106974,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 314980763,
+      "lat": "38.0957294",
+      "lon": "15.6433655",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053401371023117386,
+      "addresstype": "tertiary",
+      "name": "Via Sbarre Centrali",
+      "display_name": "Via Sbarre Centrali, Ravagnese, Reggio di Calabria, Reggio Calabria, Calabria, 89129, Italia",
+      "address": {
+        "road": "Via Sbarre Centrali",
+        "suburb": "Ravagnese",
+        "city": "Reggio di Calabria",
+        "county": "Reggio Calabria",
+        "ISO3166-2-lvl6": "IT-RC",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "89129",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.0900726",
+        "38.1013136",
+        "15.6420549",
+        "15.6445953"
+      ]
+    }
+  ]
+}

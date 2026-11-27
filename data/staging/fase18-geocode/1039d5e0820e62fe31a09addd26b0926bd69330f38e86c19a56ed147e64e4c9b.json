@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Branca%2C+15%2C+Pesaro%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79424757,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 180052407,
+      "lat": "43.9090376",
+      "lon": "12.9115892",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05340001754787515,
+      "addresstype": "pedestrian",
+      "name": "Via Giovanni Branca",
+      "display_name": "Via Giovanni Branca, Centro storico, Pantano, Pesaro, Pesaro e Urbino, Marche, 61121, Italia",
+      "address": {
+        "road": "Via Giovanni Branca",
+        "quarter": "Centro storico",
+        "suburb": "Pantano",
+        "city": "Pesaro",
+        "county": "Pesaro e Urbino",
+        "ISO3166-2-lvl6": "IT-PU",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "61121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.9084206",
+        "43.9096691",
+        "12.9107292",
+        "12.9124384"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giovanni+Amendola+22%2FB%2C+Ancona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79596440,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4395473462,
+      "lat": "43.6171707",
+      "lon": "13.5224907",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.0000698184176393838,
+      "addresstype": "shop",
+      "name": "Gi.Bi. shop",
+      "display_name": "Gi.Bi. shop, 22b, Corso Giovanni Amendola, Adriatico, Ancona, Marche, 60123, Italia",
+      "address": {
+        "shop": "Gi.Bi. shop",
+        "house_number": "22b",
+        "road": "Corso Giovanni Amendola",
+        "quarter": "Adriatico",
+        "city": "Ancona",
+        "county": "Ancona",
+        "ISO3166-2-lvl6": "IT-AN",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "60123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6171207",
+        "43.6172207",
+        "13.5224407",
+        "13.5225407"
+      ]
+    }
+  ]
+}

@@ -9,11 +9,12 @@ import { REGIONI_ITALIA } from '../lib/geo';
   modalita: z.enum(['ai', 'non-configurato', 'fallback']),
   avviso: z.string().nullable(),
   risposta: z.string().max(500).nullable(),
+  consiglio: z.enum(Object.keys(services) as [keyof typeof services, ...(keyof typeof services)[]]).nullable().optional(),
   criteri: criteriSchema,
   chiarimenti: z.array(z.string()).max(5),
 });
 type Modalita = 'ai' | 'non-configurato' | 'locale';
-type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita; risposta: string | null };
+type Interpretazione = { criteri: Criteri; chiarimenti: string[]; avviso: string | null; modalita: Modalita; risposta: string | null; consiglio: keyof typeof services | null };
 
 const data = directorySchema.parse(raw);
 
@@ -157,6 +158,37 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       li.append(ul);
     }
     li.append(el('p', `${ORARI[r.orari]}${r.verificataIl ? ` · scheda verificata il ${r.verificataIl}` : ''}. Non indica disponibilità per riparazioni o appuntamenti.`, 'small muted'));
+    // Fonte esterna già censita: il testo viene recuperato dal Worker solo su richiesta, con l'URL
+    // registrato nel catalogo (nessuna ricerca web generale, nessun URL arbitrario).
+    const schedaAttivita = data.attivita.find(b => b.id === r.id);
+    const fonte = schedaAttivita ? data.fonti.find(f => schedaAttivita.attendibilita.fonti.includes(f.id)) : undefined;
+    if (fonte) {
+      const dettagli = el('details', undefined, 'chat-fonte');
+      const sommario = el('summary', 'Leggi la fonte esterna');
+      const corpo = el('p', 'Recupero la pagina citata nella scheda…', 'small muted');
+      const link = el('a', 'Apri la fonte originale ↗');
+      link.href = fonte.url;
+      link.rel = 'noopener noreferrer';
+      let caricata = false;
+      dettagli.addEventListener('toggle', () => {
+        if (!dettagli.open || caricata) return;
+        caricata = true;
+        void (async () => {
+          try {
+            const res = await fetch(`/api/fonte?url=${encodeURIComponent(fonte.url)}`, { signal: AbortSignal.timeout(8000) });
+            if (!res.ok) { corpo.textContent = 'La fonte non è raggiungibile in questo momento: apri il collegamento originale.'; return; }
+            const dati = (await res.json()) as { snippet?: string; recuperatoIl?: string };
+            corpo.textContent = dati.snippet
+              ? `«${dati.snippet}» · testo della fonte esterna recuperato il ${dati.recuperatoIl}, distinto dai dati del catalogo.`
+              : 'La fonte non contiene testo leggibile: apri il collegamento originale.';
+          } catch {
+            corpo.textContent = 'Recupero non riuscito: apri il collegamento originale.';
+          }
+        })();
+      });
+      dettagli.append(sommario, corpo, link);
+      li.append(dettagli);
+    }
     if (origine && r.coordinate) {
       const dir = el('a', 'Indicazioni stradali');
       // Il link è generato solo su azione dell'utente, con coordinate già presenti nella pagina.
@@ -186,7 +218,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
   const interpreta = async (testo: string): Promise<Interpretazione> => {
     const locale = async (avviso: string | null): Promise<Interpretazione> => {
       const r = await interpretaConProvider(testo, data, null, undefined, ultimiCriteri);
-      return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale', risposta: null };
+      return { criteri: r.criteri, chiarimenti: r.chiarimenti, avviso, modalita: 'locale', risposta: null, consiglio: null };
     };
     let res: Response;
     try {
@@ -204,8 +236,8 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
     if (!res.ok) return locale('Servizio AI non disponibile in questo momento: ho usato l’interpretazione locale.');
     const parsed = rispostaSchema.safeParse(await res.json().catch(() => null));
     if (!parsed.success) return locale('Il servizio ha risposto in modo non valido: ho usato l’interpretazione locale.');
-    const { modalita, criteri, chiarimenti, avviso, risposta } = parsed.data;
-    return { criteri, chiarimenti, avviso, risposta, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
+    const { modalita, criteri, chiarimenti, avviso, risposta, consiglio } = parsed.data;
+    return { criteri, chiarimenti, avviso, risposta, consiglio: consiglio ?? null, modalita: modalita === 'ai' ? 'ai' : modalita === 'non-configurato' ? 'non-configurato' : 'locale' };
   };
 
   const etichettaCriterio = (chiave: string, c: Criteri): string => {
@@ -274,7 +306,8 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       const nuovi = interpretaRichiesta(testo, data).criteri;
       const uniti = aggiornaCriteri(ultimiCriteri, interp.criteri, testo);
       // Se il contesto ereditato azzera i risultati ma la nuova richiesta da sola ne ha, si usano i soli criteri nuovi.
-      const ricerca = cercaConContesto(data, uniti, nuovi, { origine });
+      // Il contesto precedente è dichiarato solo se esisteva già: al primo messaggio è vuoto.
+      const ricerca = cercaConContesto(data, uniti, nuovi, { origine, precedenti: ultimiCriteri });
       const criteri: Criteri = ricerca.criteri;
       const esito: EsitoRicerca = ricerca.esito;
       const ereditati = ricerca.daSoliNuoviCriteri
@@ -290,7 +323,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       if (interp.risposta) righe.push(interp.risposta);
       const riepilogo = riassunto(criteri);
       if (!interp.risposta && riepilogo) righe.push(riepilogo);
-      if (ricerca.daSoliNuoviCriteri) righe.push('I criteri della richiesta precedente non davano risultati: ho cercato solo la nuova richiesta.');
+      if (ricerca.daSoliNuoviCriteri && ricerca.contestoPrecedente) righe.push('I criteri della richiesta precedente non davano risultati: ho cercato solo la nuova richiesta.');
       if (ereditati.length && !interp.risposta) righe.push(`Ho mantenuto dalla richiesta precedente: ${ereditati.map(k => etichettaCriterio(k, criteri)).join(' · ')}.`);
       if (interp.avviso) righe.push(interp.avviso);
       // I chiarimenti del parser restano: in fallback sono l'unica voce; con il modello guidano il passo successivo.
@@ -322,7 +355,7 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
         const etichettaAlt = richiedeUfficiale
           ? 'Alternative da verificare (autorizzazione non documentata)'
           : criteri.localitaNonCensita || criteri.localita || criteri.provincia || criteri.regione
-            ? 'Altre località censite (non necessariamente vicine)'
+            ? 'Alternative nello stesso territorio (requisiti diversi)'
             : 'Alternative pertinenti da verificare (non soddisfano tutti i requisiti esatti)';
         const titolo = el('p', etichettaAlt, 'msg-sottotitolo');
         risposta.append(titolo, listaRisultati(esito.alternative));
@@ -337,8 +370,20 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       if (interp.avviso) {
         risposta.append(chipLista([{ testo: 'Riprova con il servizio AI', azione: riprova(testo) }]));
       }
+      // Suggerimento di filtro: porta alla stessa ricerca, senza inventare attività.
+      if (interp.consiglio && criteri.servizio !== interp.consiglio) {
+        const servizio = interp.consiglio;
+        const query = new URLSearchParams({ servizio });
+        if (criteri.localita) query.set('localita', criteri.localita);
+        risposta.append(chipLista([{ testo: `Cerca «${services[servizio]}» con i filtri`, azione: () => { location.href = `/cerca/?${query.toString()}`; } }]));
+      }
 
-      annuncia(esito.totale > 0 ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente trovata' : 'attività pertinenti trovate'}.` : 'Nessuna attività trovata con questi criteri.');
+      // Con zero corrispondenze esatte ma alternative mostrate, l'annuncio non deve dire «nessuna attività».
+      annuncia(esito.totale > 0
+        ? `${esito.totale} ${esito.totale === 1 ? 'attività pertinente trovata' : 'attività pertinenti trovate'}.`
+        : esito.alternative.length
+          ? `${esito.alternative.length} ${esito.alternative.length === 1 ? 'alternativa pertinente' : 'alternative pertinenti'}, nessuna corrispondenza esatta.`
+          : 'Nessuna attività trovata con questi criteri.');
     } catch {
       caricamento.remove();
       const errore = messaggioAssistente(['Non sono riuscito a completare la ricerca: si è verificato un errore imprevisto. Puoi riprovare o usare la ricerca con i filtri.'], undefined, 'msg-errore');
@@ -351,6 +396,13 @@ if (chat && form && textarea && inviaBtn && contatore && stato && modalitaEl && 
       altezzaAutomatica();
     }
   };
+
+  // Deep link contestuale (pagine servizio): precompila la richiesta senza inviarla.
+  const richiestaIniziale = new URLSearchParams(location.search).get('q');
+  if (richiestaIniziale) {
+    textarea.value = richiestaIniziale.slice(0, MAX_MESSAGGIO);
+    aggiornaComposer();
+  }
 
   form.addEventListener('submit', event => {
     event.preventDefault();

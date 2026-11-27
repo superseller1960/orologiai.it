@@ -14,8 +14,10 @@ const bundles = await Promise.all(jsFiles.map(async f => ({ f, code: await readF
 const searchBundles = bundles.filter(b => b.code.includes('search-count'));
 assert.equal(searchBundles.length,1,'La ricerca deve avere un bundle verificabile');
 const script = await bundleArtifact(searchBundles[0].f);
-const mapPoints = JSON.parse(new JSDOM(html).window.document.querySelector('#directory-map')!.getAttribute('data-points')!);
+// Fase 41: i punti non sono più un attributo dell'HTML, ma un file statico caricato all'apertura.
+const mapPoints = JSON.parse(await readFile('dist/mappa-punti.json','utf8')).points;
 assert.equal(mapPoints.length, directory.attivita.filter(b => b.posizione.coordinate?.stato === 'verificata').length, 'La mappa mostra solo coordinate verificate');
+assert.equal(new JSDOM(html).window.document.querySelector('#directory-map')!.hasAttribute('data-points'), false, 'La ricerca non trasporta i punti nell’HTML');
 const errors: Error[] = [];
 const virtualConsole = new VirtualConsole();
 virtualConsole.on('jsdomError', error => errors.push(error));
@@ -27,8 +29,13 @@ const form = doc.querySelector<HTMLFormElement>('#directory-search')!;
 const allResults = () => Array.from((window as unknown as { __directoryResults: string[] }).__directoryResults);
 const visible = () => Array.from(doc.querySelectorAll<HTMLElement>('[data-business-id]')).filter(el=>!el.hidden);
 const select = (name: string, value: string) => { const el=form.querySelector<HTMLInputElement | HTMLSelectElement>('[name="'+name+'"]');assert.ok(el,'Campo '+name+' presente');el.value=value;el.dispatchEvent(new window.Event(name==='comune'||name==='q'?'input':'change',{bubbles:true})); };
-assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='firenze').length,'Il filtro nel deep link deve essere applicato');
-select('comune','milano');assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='milano').length,'Milano: tutte le schede del comune');
+const firenzeTotali=directory.attivita.filter(b=>b.localitaId==='firenze').length;
+assert.equal(visible().length,Math.min(12,firenzeTotali),'Firenze: 12 schede iniziali nel deep link');
+doc.querySelector<HTMLButtonElement>('#search-more')!.click();
+assert.equal(visible().length,firenzeTotali,'Firenze: Mostra altri porta a tutte le 18 schede');
+form.reset();await new Promise(resolve=>window.setTimeout(resolve,10));
+select('comune','milano');assert.equal(visible().length,Math.min(12,directory.attivita.filter(b=>b.localitaId==='milano').length),'Milano: 12 schede iniziali');
+doc.querySelector<HTMLButtonElement>('#search-more')!.click();assert.equal(visible().length,directory.attivita.filter(b=>b.localitaId==='milano').length,'Milano: Mostra altri porta a tutte le schede del comune');
 select('marca','Rolex');assert.equal(visible().length,2);
 select('ruoloMarca','assistenzaUfficiale');assert.equal(visible().length,0);
 assert.equal(doc.querySelector<HTMLElement>('#search-empty')!.hidden,false);

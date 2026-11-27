@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Riviera+di+Chiaia+26%2C+Napoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80905506,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 339324897,
+      "lat": "40.8332718",
+      "lon": "14.2382876",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341426947432666,
+      "addresstype": "primary",
+      "name": "Riviera di Chiaia",
+      "display_name": "Riviera di Chiaia, San Ferdinando, Municipalità 1, Napoli, Campania, 80121, Italia",
+      "address": {
+        "road": "Riviera di Chiaia",
+        "suburb": "San Ferdinando",
+        "city": "Napoli",
+        "county": "Napoli",
+        "ISO3166-2-lvl6": "IT-NA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "80121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.8330916",
+        "40.8334554",
+        "14.2358574",
+        "14.2407180"
+      ]
+    }
+  ]
+}

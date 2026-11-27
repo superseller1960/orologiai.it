@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vercelli+19%2C+Milano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76097229,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 277206298,
+      "lat": "45.4664749",
+      "lon": "9.1607504",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053417240405889944,
+      "addresstype": "tertiary",
+      "name": "Corso Vercelli",
+      "display_name": "Corso Vercelli, Washington, Municipio 7, Milano, Lombardia, 20145, Italia",
+      "address": {
+        "road": "Corso Vercelli",
+        "quarter": "Washington",
+        "suburb": "Municipio 7",
+        "city": "Milano",
+        "county": "Milano",
+        "ISO3166-2-lvl6": "IT-MI",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "20145",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.4664066",
+        "45.4665431",
+        "9.1597702",
+        "9.1617306"
+      ]
+    }
+  ]
+}

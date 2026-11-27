@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Milano+22%2C+Alessandria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76471642,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 46930541,
+      "lat": "44.9163506",
+      "lon": "8.6129765",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05340171129930568,
+      "addresstype": "unclassified",
+      "name": "Via Milano",
+      "display_name": "Via Milano, Alessandria, Piemonte, 15121, Italia",
+      "address": {
+        "road": "Via Milano",
+        "city": "Alessandria",
+        "county": "Alessandria",
+        "ISO3166-2-lvl6": "IT-AL",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "15121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.9147150",
+        "44.9174667",
+        "8.6116698",
+        "8.6137717"
+      ]
+    }
+  ]
+}

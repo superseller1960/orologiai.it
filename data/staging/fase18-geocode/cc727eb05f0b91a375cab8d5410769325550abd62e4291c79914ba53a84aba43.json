@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carlo+Alberto+32%2C+Monza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75157375,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2748308951,
+      "lat": "45.5862963",
+      "lon": "9.2757580",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006859464408326875,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "32, Via Carlo Alberto, Centro, Monza, Monza e Brianza, Lombardia, 20900, Italia",
+      "address": {
+        "house_number": "32",
+        "road": "Via Carlo Alberto",
+        "suburb": "Centro",
+        "city": "Monza",
+        "county": "Monza e Brianza",
+        "ISO3166-2-lvl6": "IT-MB",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "20900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.5862463",
+        "45.5863463",
+        "9.2757080",
+        "9.2758080"
+      ]
+    }
+  ]
+}

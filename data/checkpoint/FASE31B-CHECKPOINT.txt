@@ -1,0 +1,14 @@
+# Checkpoint Fase 31B
+Produzione: 4b404744 (branch pubblicazione-gratuita-scardi-20261022). Rollback precedente: 30050018-8c7b-4b5d-9c54-2160fde15746 (511 attività).
+Preview: 5bb3d8ad. Git HEAD: 9afff81.
+
+710e2efe45ba4ee2a8432792945cc8dc30a7075906f440afa7dc8b8a65e9ad22  site/data/directory.json
+9d5096ace9547fc4c7892c7583f6c269a4b918ebdb985a00c4224c372c9a6f59  data/import/fase31-01.json
+15cadbdf08fcffe16f0de010cbfca17f63984dacfe5f52c85576441f5ae2e8df  data/import/fase31-02.json
+7fef4104711b2185a6c2be1b87ce765846175d8db179fd10ec5f64adf9ba40ba  site/src/lib/assistant.ts
+aa759db5b0df878210ebbed63a206734f837cda9394aa1e7b4e6de8d9cbed0b1  tests/assistant.test.ts
+01bdea8d63c2d07c29373bb3dd8bdede85dcc4b796a964e9d9bc33ef9b300b21  tests/cloudflare-ai.test.ts
+6f7307a2fcfe7b8a0757e2e275ded122de38191578fa9bb749d4e969aab24aee  tests/orologiaio-api.test.ts
+a64bad908ac62098bd04e2f5cfe7572650aa406e3ce316f646f2119f6588c082  scripts/fase31b-hotfix.mjs
+b38077c5bb1abe383117034ce8d611352c383d25f5da4d89f969b060d33fa6f0  scripts/fase31b-valida-servizi.mjs
+8860bb2ddb923afa15303a9c69b89f35e54c305a9d33d96dde2ce166b3ea0faf  data/anagrafica/comuni-catalogo.json

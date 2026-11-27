@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Corsica+180+Bis%2C+Termoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79810360,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 54852123,
+      "lat": "41.9941200",
+      "lon": "14.9978826",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339329289692527,
+      "addresstype": "secondary",
+      "name": "Via Corsica",
+      "display_name": "Via Corsica, Termoli, Campobasso, Molise, 86039, Italia",
+      "address": {
+        "road": "Via Corsica",
+        "town": "Termoli",
+        "county": "Campobasso",
+        "ISO3166-2-lvl6": "IT-CB",
+        "state": "Molise",
+        "ISO3166-2-lvl4": "IT-67",
+        "postcode": "86039",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.9938925",
+        "41.9943609",
+        "14.9976698",
+        "14.9981079"
+      ]
+    }
+  ]
+}

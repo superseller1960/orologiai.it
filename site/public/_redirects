@@ -1,0 +1,9 @@
+# Fase 28 — vecchi URL territoriali verso i percorsi corretti (301 permanente)
+# Percorso nudo della provincia soppressa: nessuna pagina provinciale, si va alla regione.
+/orologerie/sardegna/olbia-tempio/ /orologerie/sardegna/ 301
+/orologerie/sardegna/olbia-tempio/* /orologerie/sardegna/gallura-nord-est-sardegna/:splat 301
+/orologerie/sardegna/sud-sardegna/iglesias/* /orologerie/sardegna/sulcis-iglesiente/iglesias/:splat 301
+/orologerie/sardegna/sud-sardegna/villacidro/* /orologerie/sardegna/medio-campidano/villacidro/:splat 301
+/orologerie/marche/macerata/porto-potenza-picena/* /orologerie/marche/macerata/potenza-picena/:splat 301
+/orologerie/sardegna/nuoro/orosei/* /orologerie/sardegna/ 301
+/orologerie/lombardia/monza-e-brianza/besana-in-brianza/* /orologerie/lombardia/monza-e-della-brianza/besana-in-brianza/ 301

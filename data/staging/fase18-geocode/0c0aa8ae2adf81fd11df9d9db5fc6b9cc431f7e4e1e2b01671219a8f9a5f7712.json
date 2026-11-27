@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Campi+21+A%2C+Cremona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75082383,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 269897039,
+      "lat": "45.1357514",
+      "lon": "10.0214957",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05340246967269394,
+      "addresstype": "pedestrian",
+      "name": "Corso Campi",
+      "display_name": "Corso Campi, Centro storico, Cremona, Lombardia, 26100, Italia",
+      "address": {
+        "road": "Corso Campi",
+        "suburb": "Centro storico",
+        "city": "Cremona",
+        "county": "Cremona",
+        "ISO3166-2-lvl6": "IT-CR",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "26100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.1349558",
+        "45.1365419",
+        "10.0210642",
+        "10.0219178"
+      ]
+    }
+  ]
+}

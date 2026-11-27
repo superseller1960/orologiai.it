@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Girardini+20%2FA%2C+Udine%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 69283717,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3748951864,
+      "lat": "46.0636921",
+      "lon": "13.2296411",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006996795605397143,
+      "addresstype": "shop",
+      "name": "Spanghero&Co",
+      "display_name": "Spanghero&Co, 20, Via Giuseppe Girardini, Borgo Poscolle, Cormôr Alto, Udine, Friuli-Venezia Giulia, 33100, Italia",
+      "address": {
+        "shop": "Spanghero&Co",
+        "house_number": "20",
+        "road": "Via Giuseppe Girardini",
+        "neighbourhood": "Borgo Poscolle",
+        "village": "Cormôr Alto",
+        "city": "Udine",
+        "county": "Udine",
+        "ISO3166-2-lvl6": "IT-UD",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "33100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.0636421",
+        "46.0637421",
+        "13.2295911",
+        "13.2296911"
+      ]
+    }
+  ]
+}

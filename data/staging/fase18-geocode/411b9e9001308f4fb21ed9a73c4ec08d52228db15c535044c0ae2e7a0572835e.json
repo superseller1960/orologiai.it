@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Fabiano+5%2C+Verbania%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75473361,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9503069842,
+      "lat": "45.9356189",
+      "lon": "8.5734861",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006142137788963176,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "5, Via San Fabiano, Intra, Zoverallo, Verbania, Verbano-Cusio-Ossola, Piemonte, 28921, Italia",
+      "address": {
+        "house_number": "5",
+        "road": "Via San Fabiano",
+        "suburb": "Intra",
+        "village": "Zoverallo",
+        "town": "Verbania",
+        "county": "Verbano-Cusio-Ossola",
+        "ISO3166-2-lvl6": "IT-VB",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "28921",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.9355689",
+        "45.9356689",
+        "8.5734361",
+        "8.5735361"
+      ]
+    }
+  ]
+}

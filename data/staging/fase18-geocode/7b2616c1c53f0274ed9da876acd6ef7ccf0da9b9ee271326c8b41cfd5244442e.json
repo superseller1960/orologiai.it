@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cino+da+Pistoia+2%2FD%2C+Pistoia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81737685,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 76916920,
+      "lat": "43.9315607",
+      "lon": "10.9152526",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053399250019073745,
+      "addresstype": "pedestrian",
+      "name": "Via Cino da Pistoia",
+      "display_name": "Via Cino da Pistoia, Lo Sperone, Pistoia, Toscana, 51100, Italia",
+      "address": {
+        "road": "Via Cino da Pistoia",
+        "village": "Lo Sperone",
+        "city": "Pistoia",
+        "county": "Pistoia",
+        "ISO3166-2-lvl6": "IT-PT",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "51100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.9309134",
+        "43.9322056",
+        "10.9151137",
+        "10.9154022"
+      ]
+    }
+  ]
+}

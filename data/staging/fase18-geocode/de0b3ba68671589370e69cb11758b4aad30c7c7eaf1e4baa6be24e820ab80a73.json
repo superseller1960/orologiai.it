@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Goffredo+Mameli%2C+163%2F165%2C+Verbania%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75488021,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 29467973,
+      "lat": "45.9381076",
+      "lon": "8.5800058",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.4575539692664271,
+      "addresstype": "primary",
+      "name": "Corso Goffredo Mameli",
+      "display_name": "Corso Goffredo Mameli, Intra, Biganzolo, Verbania, Verbano-Cusio-Ossola, Piemonte, 28921, Italia",
+      "address": {
+        "road": "Corso Goffredo Mameli",
+        "suburb": "Intra",
+        "village": "Biganzolo",
+        "town": "Verbania",
+        "county": "Verbano-Cusio-Ossola",
+        "ISO3166-2-lvl6": "IT-VB",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "28921",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.9378679",
+        "45.9383473",
+        "8.5796703",
+        "8.5803413"
+      ]
+    }
+  ]
+}

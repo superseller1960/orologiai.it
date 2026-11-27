@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giuseppe+del+Papa%2C+58%2F60%2C+Empoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82270645,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 487129921,
+      "lat": "43.7191417",
+      "lon": "10.9469700",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339582131685355,
+      "addresstype": "pedestrian",
+      "name": "Via Giuseppe del Papa",
+      "display_name": "Via Giuseppe del Papa, Spicchio-Sovigliana, Empoli, Unione dei Comuni Circondario dell'Empolese Valdelsa, Firenze, Toscana, 50053, Italia",
+      "address": {
+        "road": "Via Giuseppe del Papa",
+        "village": "Spicchio-Sovigliana",
+        "town": "Empoli",
+        "municipality": "Unione dei Comuni Circondario dell'Empolese Valdelsa",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50053",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7191176",
+        "43.7192473",
+        "10.9460516",
+        "10.9478833"
+      ]
+    }
+  ]
+}

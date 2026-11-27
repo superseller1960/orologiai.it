@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesar%C3%B2%2C+60%2F62%2C+Erice%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53967794,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 128999744,
+      "lat": "38.0290366",
+      "lon": "12.5431985",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053389963378347415,
+      "addresstype": "tertiary",
+      "name": "Via Giuseppe Cesarò",
+      "display_name": "Via Giuseppe Cesarò, Trentapiedi, Casa Santa, Erice, Trapani, Sicilia, 91016, Italia",
+      "address": {
+        "road": "Via Giuseppe Cesarò",
+        "neighbourhood": "Trentapiedi",
+        "town": "Casa Santa",
+        "city": "Erice",
+        "county": "Trapani",
+        "ISO3166-2-lvl6": "IT-TP",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "91016",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.0281486",
+        "38.0299248",
+        "12.5398172",
+        "12.5465798"
+      ]
+    }
+  ]
+}

@@ -65,5 +65,23 @@ assert.ok(!sitemap.includes('/cerca/'));
 const robots = await readFile('dist/robots.txt', 'utf8');
 assert.match(robots, /^Sitemap: https:\/\/www\.orologiai\.it\/sitemap\.xml$/m);
 const routes = JSON.parse(await readFile('dist/_routes.json', 'utf8'));
-assert.deepEqual(routes, { version: 1, include: ['/api/orologiaio', '/api/posizione'], exclude: [] }, '_routes.json deve invocare le Function per /api/orologiaio e /api/posizione');
+assert.deepEqual(
+  routes,
+  {
+    version: 1,
+    include: [
+      '/api/orologiaio',
+      '/api/posizione',
+      '/api/fonte',
+      '/orologerie/sardegna/olbia-tempio/*',
+      '/orologerie/sardegna/sud-sardegna/iglesias/*',
+      '/orologerie/sardegna/sud-sardegna/villacidro/*',
+      '/orologerie/marche/macerata/porto-potenza-picena/*',
+      '/orologerie/sardegna/nuoro/orosei/*',
+      '/orologerie/lombardia/monza-e-brianza/besana-in-brianza/*',
+    ],
+    exclude: [],
+  },
+  '_routes.json deve invocare la Function per le API e per i vecchi percorsi territoriali',
+);
 console.log(`Build verificata: ${htmlFiles.length} documenti HTML; link, frammenti, canonical, sitemap, _routes.json e ${directory.attivita.length} schede validi.`);

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Guelfa+1%2FG%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81695312,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10804755206,
+      "lat": "43.7768523",
+      "lon": "11.2568264",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "shop",
+      "name": "La Macchina Del Tempo",
+      "display_name": "La Macchina Del Tempo, 1/G R, Via Guelfa, Quartiere 1, Firenze, Toscana, 50129, Italia",
+      "address": {
+        "shop": "La Macchina Del Tempo",
+        "house_number": "1/G R",
+        "road": "Via Guelfa",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50129",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7768023",
+        "43.7769023",
+        "11.2567764",
+        "11.2568764"
+      ]
+    }
+  ]
+}

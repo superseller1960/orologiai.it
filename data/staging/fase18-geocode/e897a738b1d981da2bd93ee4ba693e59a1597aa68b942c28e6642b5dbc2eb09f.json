@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Nizza%2C+10%2C+Cuneo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 87953497,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6110516283,
+      "lat": "44.3879873",
+      "lon": "7.5459963",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00006832150759131788,
+      "addresstype": "shop",
+      "name": "Erredue",
+      "display_name": "Erredue, 10, Corso Nizza, Cuneo Centro, Borgo San Giuseppe, Cuneo, Piemonte, 12100, Italia",
+      "address": {
+        "shop": "Erredue",
+        "house_number": "10",
+        "road": "Corso Nizza",
+        "suburb": "Cuneo Centro",
+        "village": "Borgo San Giuseppe",
+        "city": "Cuneo",
+        "county": "Cuneo",
+        "ISO3166-2-lvl6": "IT-CN",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "12100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.3879373",
+        "44.3880373",
+        "7.5459463",
+        "7.5460463"
+      ]
+    }
+  ]
+}

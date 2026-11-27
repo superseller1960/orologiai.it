@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Campi+68%2C+Cremona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 417803841,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13838644467,
+      "lat": "45.1359573",
+      "lon": "10.0212810",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006913633936060147,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "68, Corso Campi, Centro storico, Cremona, Lombardia, 26100, Italia",
+      "address": {
+        "house_number": "68",
+        "road": "Corso Campi",
+        "suburb": "Centro storico",
+        "city": "Cremona",
+        "county": "Cremona",
+        "ISO3166-2-lvl6": "IT-CR",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "26100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.1359073",
+        "45.1360073",
+        "10.0212310",
+        "10.0213310"
+      ]
+    }
+  ]
+}

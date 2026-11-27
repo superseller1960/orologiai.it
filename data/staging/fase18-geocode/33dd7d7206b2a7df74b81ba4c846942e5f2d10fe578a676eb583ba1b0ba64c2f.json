@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Umberto+I%2C+Sant%27Egidio+alla+Vibrata%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79786823,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 234413147,
+      "lat": "42.8255467",
+      "lon": "13.7164102",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339814679179061,
+      "addresstype": "tertiary",
+      "name": "Piazza Umberto Primo",
+      "display_name": "Piazza Umberto Primo, Sant'Egidio alla Vibrata, Unione dei Comuni della Val Vibrata, Teramo, Abruzzo, 64016, Italia",
+      "address": {
+        "road": "Piazza Umberto Primo",
+        "town": "Sant'Egidio alla Vibrata",
+        "municipality": "Unione dei Comuni della Val Vibrata",
+        "county": "Teramo",
+        "ISO3166-2-lvl6": "IT-TE",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "64016",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.8251205",
+        "42.8255681",
+        "13.7153377",
+        "13.7164705"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Posidonia+277%2FB%2C+Salerno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80229716,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 662879441,
+      "lat": "40.6678004",
+      "lon": "14.7892233",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053402794689860346,
+      "addresstype": "residential",
+      "name": "Via Posidonia",
+      "display_name": "Via Posidonia, Torrione, Salerno, Campania, 84128, Italia",
+      "address": {
+        "road": "Via Posidonia",
+        "neighbourhood": "Torrione",
+        "city": "Salerno",
+        "county": "Salerno",
+        "ISO3166-2-lvl6": "IT-SA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "84128",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6677727",
+        "40.6678293",
+        "14.7891954",
+        "14.7892499"
+      ]
+    }
+  ]
+}

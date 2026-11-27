@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Maria+Nuova%2C+30%2C+Lendinara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74539446,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 80141407,
+      "lat": "45.0863723",
+      "lon": "11.6059300",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05338827420462345,
+      "addresstype": "secondary",
+      "name": "Via Santa Maria Nuova",
+      "display_name": "Via Santa Maria Nuova, Lendinara, Rovigo, Veneto, 45026, Italia",
+      "address": {
+        "road": "Via Santa Maria Nuova",
+        "town": "Lendinara",
+        "city": "Lendinara",
+        "county": "Rovigo",
+        "ISO3166-2-lvl6": "IT-RO",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "45026",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.0834906",
+        "45.0881561",
+        "11.6010974",
+        "11.6102490"
+      ]
+    }
+  ]
+}

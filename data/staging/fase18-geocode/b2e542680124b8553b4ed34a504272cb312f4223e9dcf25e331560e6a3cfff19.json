@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+47%2C+L%27Aquila%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79425883,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6131066317,
+      "lat": "42.3500956",
+      "lon": "13.3998258",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006666285191114698,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "47, Corso Vittorio Emanuele, Quarto di San Giorgio, Torretta, L'Aquila, Abruzzo, 67100, Italia",
+      "address": {
+        "house_number": "47",
+        "road": "Corso Vittorio Emanuele",
+        "neighbourhood": "Quarto di San Giorgio",
+        "suburb": "Torretta",
+        "city": "L'Aquila",
+        "county": "L'Aquila",
+        "ISO3166-2-lvl6": "IT-AQ",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "67100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.3500456",
+        "42.3501456",
+        "13.3997758",
+        "13.3998758"
+      ]
+    }
+  ]
+}

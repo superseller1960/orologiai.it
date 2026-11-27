@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi+61%2C+Isernia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80508162,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 161834605,
+      "lat": "41.5991327",
+      "lon": "14.2369580",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053393138780804116,
+      "addresstype": "secondary",
+      "name": "Corso Giuseppe Garibaldi",
+      "display_name": "Corso Giuseppe Garibaldi, Isernia centro, San Lazzaro, Isernia, Molise, 86170, Italia",
+      "address": {
+        "road": "Corso Giuseppe Garibaldi",
+        "quarter": "Isernia centro",
+        "suburb": "San Lazzaro",
+        "town": "Isernia",
+        "county": "Isernia",
+        "ISO3166-2-lvl6": "IT-IS",
+        "state": "Molise",
+        "ISO3166-2-lvl4": "IT-67",
+        "postcode": "86170",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.5976069",
+        "41.6006974",
+        "14.2351131",
+        "14.2387676"
+      ]
+    }
+  ]
+}

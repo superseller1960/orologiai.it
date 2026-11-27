@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+I+67%2C+Siracusa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54032417,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9704252143,
+      "lat": "37.1579857",
+      "lon": "15.0279739",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005048065918970043,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "67, Corso Umberto Primo, Sortino, Siracusa, Sicilia, 96010, Italia",
+      "address": {
+        "house_number": "67",
+        "road": "Corso Umberto Primo",
+        "village": "Sortino",
+        "county": "Siracusa",
+        "ISO3166-2-lvl6": "IT-SR",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "96010",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.1579357",
+        "37.1580357",
+        "15.0279239",
+        "15.0280239"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Quintino+6%2C+Torino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 88393872,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2282400690,
+      "lat": "45.0648138",
+      "lon": "7.6768771",
+      "category": "shop",
+      "type": "alcohol",
+      "place_rank": 30,
+      "importance": 0.00008068131532764199,
+      "addresstype": "shop",
+      "name": "San Quintino 6",
+      "display_name": "San Quintino 6, 6, Via San Quintino, Centro, Circoscrizione 1, Torino, Piemonte, 10121, Italia",
+      "address": {
+        "shop": "San Quintino 6",
+        "house_number": "6",
+        "road": "Via San Quintino",
+        "suburb": "Centro",
+        "city": "Torino",
+        "county": "Torino",
+        "ISO3166-2-lvl6": "IT-TO",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "10121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.0647638",
+        "45.0648638",
+        "7.6768271",
+        "7.6769271"
+      ]
+    }
+  ]
+}

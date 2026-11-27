@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini+73%2F75%2C+Caserta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80558874,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 229647185,
+      "lat": "41.1131180",
+      "lon": "13.8925869",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339296482795449,
+      "addresstype": "residential",
+      "name": "Via Giuseppe Mazzini",
+      "display_name": "Via Giuseppe Mazzini, Mondragone, Caserta, Campania, 81034, Italia",
+      "address": {
+        "road": "Via Giuseppe Mazzini",
+        "town": "Mondragone",
+        "county": "Caserta",
+        "ISO3166-2-lvl6": "IT-CE",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "81034",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.1129253",
+        "41.1131258",
+        "13.8914682",
+        "13.8937173"
+      ]
+    }
+  ]
+}

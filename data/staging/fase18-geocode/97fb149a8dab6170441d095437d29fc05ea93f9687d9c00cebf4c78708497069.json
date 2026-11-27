@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Largo+Camussi%2C+1%2C+Gallarate%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75600467,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3959815687,
+      "lat": "45.6592944",
+      "lon": "8.7946841",
+      "category": "shop",
+      "type": "shoes",
+      "place_rank": 30,
+      "importance": 0.00006243610284576207,
+      "addresstype": "shop",
+      "name": "Macchi Calzature",
+      "display_name": "Macchi Calzature, 1, Largo Guido Camussi, Centro storico, Centro, Gallarate, Varese, Lombardia, 21013, Italia",
+      "address": {
+        "shop": "Macchi Calzature",
+        "house_number": "1",
+        "road": "Largo Guido Camussi",
+        "neighbourhood": "Centro storico",
+        "suburb": "Centro",
+        "town": "Gallarate",
+        "county": "Varese",
+        "ISO3166-2-lvl6": "IT-VA",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "21013",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6592444",
+        "45.6593444",
+        "8.7946341",
+        "8.7947341"
+      ]
+    }
+  ]
+}

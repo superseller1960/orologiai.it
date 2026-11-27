@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Mazzini%2C+43%2C+Faenza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77457462,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4751585196,
+      "lat": "44.2865634",
+      "lon": "11.8815148",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006346761272597875,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "43, Corso Giuseppe Mazzini, Quartiere Centro Sud, Faenza, Unione della Romagna Faentina, Ravenna, Emilia-Romagna, 48018, Italia",
+      "address": {
+        "house_number": "43",
+        "road": "Corso Giuseppe Mazzini",
+        "suburb": "Quartiere Centro Sud",
+        "town": "Faenza",
+        "municipality": "Unione della Romagna Faentina",
+        "county": "Ravenna",
+        "ISO3166-2-lvl6": "IT-RA",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "48018",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.2865134",
+        "44.2866134",
+        "11.8814648",
+        "11.8815648"
+      ]
+    }
+  ]
+}

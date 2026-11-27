@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti+20%2C+Ravenna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78403424,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4752838554,
+      "lat": "44.4181027",
+      "lon": "12.1986291",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007169985503924647,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "20, Via Giacomo Matteotti, Corso Nord, Ravenna, Emilia-Romagna, 48121, Italia",
+      "address": {
+        "house_number": "20",
+        "road": "Via Giacomo Matteotti",
+        "quarter": "Corso Nord",
+        "city": "Ravenna",
+        "county": "Ravenna",
+        "ISO3166-2-lvl6": "IT-RA",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "48121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4180527",
+        "44.4181527",
+        "12.1985791",
+        "12.1986791"
+      ]
+    }
+  ]
+}

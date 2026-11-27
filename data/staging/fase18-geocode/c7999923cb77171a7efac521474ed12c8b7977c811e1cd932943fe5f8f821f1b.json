@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+84%2C+Pontedera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82286614,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 268894486,
+      "lat": "43.6638063",
+      "lon": "10.6361415",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339246585793847,
+      "addresstype": "pedestrian",
+      "name": "Corso Giacomo Matteotti",
+      "display_name": "Corso Giacomo Matteotti, Bellaria, Le Cantine, Romito, Pontedera, Pisa, Toscana, 56025, Italia",
+      "address": {
+        "road": "Corso Giacomo Matteotti",
+        "quarter": "Bellaria",
+        "hamlet": "Le Cantine",
+        "village": "Romito",
+        "town": "Pontedera",
+        "county": "Pisa",
+        "ISO3166-2-lvl6": "IT-PI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "56025",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6637915",
+        "43.6638215",
+        "10.6354989",
+        "10.6367842"
+      ]
+    }
+  ]
+}

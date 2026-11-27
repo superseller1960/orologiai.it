@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesare+Gazzani+22%2FD%2C+Campobasso%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 84939982,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 189127453,
+      "lat": "41.5562183",
+      "lon": "14.6606078",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339724956130309,
+      "addresstype": "tertiary",
+      "name": "Via Cesare Gazzani",
+      "display_name": "Via Cesare Gazzani, Centro Murattiano, Centro storico, Campobasso, Molise, 86100, Italia",
+      "address": {
+        "road": "Via Cesare Gazzani",
+        "residential": "Centro Murattiano",
+        "quarter": "Centro storico",
+        "city": "Campobasso",
+        "county": "Campobasso",
+        "ISO3166-2-lvl6": "IT-CB",
+        "state": "Molise",
+        "ISO3166-2-lvl4": "IT-67",
+        "postcode": "86100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.5561106",
+        "41.5563400",
+        "14.6605039",
+        "14.6607288"
+      ]
+    }
+  ]
+}

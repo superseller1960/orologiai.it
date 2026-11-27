@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+82%2C+Barcellona+Pozzo+di+Gotto%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53730553,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5247942942,
+      "lat": "38.1471473",
+      "lon": "15.2139688",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.000059895475699962116,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "82, Via Roma, San Gaetano, Barcellona, Militi, Barcellona Pozzo di Gotto, Messina, Sicilia, 98051, Italia",
+      "address": {
+        "house_number": "82",
+        "road": "Via Roma",
+        "neighbourhood": "San Gaetano",
+        "suburb": "Barcellona",
+        "village": "Militi",
+        "town": "Barcellona Pozzo di Gotto",
+        "county": "Messina",
+        "ISO3166-2-lvl6": "IT-ME",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "98051",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1470973",
+        "38.1471973",
+        "15.2139188",
+        "15.2140188"
+      ]
+    }
+  ]
+}

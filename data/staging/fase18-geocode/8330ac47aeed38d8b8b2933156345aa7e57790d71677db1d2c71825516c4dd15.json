@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+81%2C+Barletta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 57138422,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10079408368,
+      "lat": "41.3192114",
+      "lon": "16.2820817",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006143511100933879,
+      "addresstype": "shop",
+      "name": "Damiani",
+      "display_name": "Damiani, 81, 83, Corso Giuseppe Garibaldi, Centro, Barletta, Barletta-Andria-Trani, Puglia, 76121, Italia",
+      "address": {
+        "shop": "Damiani",
+        "house_number": "81, 83",
+        "road": "Corso Giuseppe Garibaldi",
+        "neighbourhood": "Centro",
+        "city": "Barletta",
+        "province": "Barletta-Andria-Trani",
+        "ISO3166-2-lvl6": "IT-BT",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "76121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.3191614",
+        "41.3192614",
+        "16.2820317",
+        "16.2821317"
+      ]
+    }
+  ]
+}

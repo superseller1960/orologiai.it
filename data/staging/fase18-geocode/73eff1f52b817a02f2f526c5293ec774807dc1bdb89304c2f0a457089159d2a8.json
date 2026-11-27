@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti+1%2C+Prato%2C+Italia",
+  "consultataIl": "2026-11-01",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81646138,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 243396495,
+      "lat": "43.8813378",
+      "lon": "11.1028733",
+      "category": "building",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006506828412294221,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "1, 3, 5, 7, 9, Via Giacomo Matteotti, La Pietà, I lecci, Prato, Toscana, 59100, Italia",
+      "address": {
+        "house_number": "1, 3, 5, 7, 9",
+        "road": "Via Giacomo Matteotti",
+        "neighbourhood": "La Pietà",
+        "suburb": "I lecci",
+        "city": "Prato",
+        "county": "Prato",
+        "ISO3166-2-lvl6": "IT-PO",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "59100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8812655",
+        "43.8814101",
+        "11.1027721",
+        "11.1029745"
+      ]
+    }
+  ]
+}

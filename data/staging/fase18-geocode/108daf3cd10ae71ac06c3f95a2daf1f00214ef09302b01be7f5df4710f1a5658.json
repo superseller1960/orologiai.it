@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini+7%2C+Ferrara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77692057,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4761876929,
+      "lat": "44.8347304",
+      "lon": "11.6212551",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007182803082317872,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "7, Via Giuseppe Mazzini, Centro cittadino, Giardino, Ferrara, Emilia-Romagna, 44120, Italia",
+      "address": {
+        "house_number": "7",
+        "road": "Via Giuseppe Mazzini",
+        "neighbourhood": "Centro cittadino",
+        "suburb": "Giardino",
+        "city": "Ferrara",
+        "county": "Ferrara",
+        "ISO3166-2-lvl6": "IT-FE",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "44120",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.8346804",
+        "44.8347804",
+        "11.6212051",
+        "11.6213051"
+      ]
+    }
+  ]
+}

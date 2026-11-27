@@ -4,18 +4,24 @@ import BusinessCard from '../components/BusinessCard.astro';
 import SearchFields from '../components/SearchFields.astro';
 import '../styles/search.css';
 import '../styles/chat.css';
+import '../styles/insights.css';
+import { evidenzeAggiornateIl, bilancioEvidenze } from '../lib/evidenze';
+const bilancio = bilancioEvidenze();
+const dataEvidenze = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${evidenzeAggiornateIl}T12:00:00Z`));
 import { MAX_MESSAGGIO } from '../lib/assistant';
-import { directory, brandOptions, businessUrl, placeOf } from '../lib/directory';
-import { businessTypes, specializations, statuses, isUsableCoordinate } from '../lib/schema';
+import { directory, brandOptions } from '../lib/directory';
+import { businessTypes, specializations, statuses } from '../lib/schema';
 import { REGIONI_ITALIA } from '../lib/geo';
-const mapPoints = directory.attivita.filter(b => isUsableCoordinate(b.posizione.coordinate)).map(b => ({ id: b.id, nome: b.nome, comune: placeOf(b).comune, indirizzo: b.posizione.indirizzo, lat: b.posizione.coordinate!.lat, lon: b.posizione.coordinate!.lon, href: businessUrl(b) }));
 const regioni = Object.values(REGIONI_ITALIA).sort((a,b) => a.nome.localeCompare(b.nome, 'it'));
 const province = [...new Map(directory.localita.map(p => [p.provinciaSlug, { label: p.provincia, regione: p.regioneSlug }])).entries()].sort((a,b) => a[1].label.localeCompare(b[1].label, 'it'));
 const suggerimenti = ['Cerco cambio batteria a Milano', 'Vorrei una revisione a Roma', 'Vorrei valutare e vendere un orologio'];
+// Fase 41: solo le prime card sono nell'HTML. Le altre le crea search-ui quando servono:
+// l'elenco resta completo, ma la pagina non trasporta più 556 schede prima del primo clic.
+const PRIME_CARD = 60;
 ---
 <Layout title="Trova un orologiaio in Italia" description="Cerca una città, scegli un servizio facoltativo e confronta le orologerie documentate." noindex>
   <section class="container search-page" data-search-root>
-    <h1>Trova un orologiaio</h1>
+    <h1>Trova il professionista giusto</h1>
     <form class="search search-flow" id="directory-search" role="search" action="/cerca/" method="get">
       <SearchFields />
       <details class="advanced-filters"><summary>Altri filtri <span id="advanced-count"></span></summary><div class="secondary-fields">
@@ -27,19 +33,37 @@ const suggerimenti = ['Cerco cambio batteria a Milano', 'Vorrei una revisione a 
         <label>Specializzazione<select name="specializzazione"><option value="">Tutte</option>{specializations.map(t => <option>{t}</option>)}</select></label>
         <label>Attendibilità<select name="stato"><option value="">Tutti gli stati attivi</option>{Object.entries(statuses).map(([id,label]) => <option value={id}>{label}</option>)}</select></label>
         <label>Nome, CAP, indirizzo o richiesta libera<input type="search" name="q" placeholder="Es. Sangalli, cambio batteria…" /></label>
+        <label class="filter-check"><input type="checkbox" name="soloDocumentate" value="1" /> Solo attività con prova documentata</label>
       </div><p class="small muted">La città selezionata prevale sui filtri geografici. Le autorizzazioni ufficiali sono distinte dalla vendita, riparazione o semplice menzione del marchio.</p></details>
       <div class="search-actions"><button class="btn" type="submit">Mostra risultati</button><button class="btn btn-ghost" type="reset">Azzera</button></div>
     </form>
     <noscript><p class="notice">I filtri richiedono JavaScript: l’elenco sotto non è filtrato. Consulta le <a href="/orologerie/">pagine per regione e comune</a> o le <a href="/servizi/riparazione/">pagine per servizio</a>.</p></noscript>
     <div id="active-filters" class="active-filters" aria-label="Filtri attivi"></div>
+    <section class="need-path" aria-labelledby="need-title">
+      <h2 id="need-title">Di cosa hai bisogno?</h2>
+      <p class="need-note">Ogni motivazione è una frase tratta dalla fonte citata nella scheda: {bilancio.confermate} associazioni servizio-attività verificate finora, aggiornate al {dataEvidenze}. Dove la fonte non è recuperabile lo diciamo, invece di dedurre la competenza.</p>
+      <p class="small muted">Scegli una richiesta: applichiamo i filtri reali del catalogo. Nessuna attività viene inventata per riempire l’elenco.</p>
+      <ul class="need-list">
+        <li><button type="button" class="need-item" data-bisogno="riparazione">L’orologio si è fermato</button></li>
+        <li><button type="button" class="need-item" data-bisogno="revisione">Perde tempo o va regolato</button></li>
+        <li><button type="button" class="need-item" data-bisogno="ricambi">Ho rotto il vetro o la corona</button></li>
+        <li><button type="button" class="need-item" data-bisogno="batterie">Devo cambiare la batteria</button></li>
+        <li><button type="button" class="need-item" data-bisogno="restauro-vintage">Restaurare un orologio antico</button></li>
+        <li><button type="button" class="need-item" data-bisogno="pendoleria">Ho una pendola da riparare</button></li>
+        <li><button type="button" class="need-item" data-bisogno="valutazioni">Vorrei vendere un vintage</button></li>
+        <li><button type="button" class="need-item" data-bisogno="assistenza-marca">Cerco assistenza per una marca</button></li>
+      </ul>
+      <p class="small muted need-disclaimer">Scegliere una richiesta applica il filtro del servizio pertinente: è un punto di partenza, non una diagnosi. Se il sintomo è incerto, descrivilo all’assistente più sotto.</p>
+    </section>
     <section class="results-panel" aria-labelledby="search-count">
-      <h2 id="search-count" tabindex="-1" aria-live="polite">{directory.attivita.length} attività nel database</h2>
+      <h2 id="search-count" tabindex="-1" aria-live="polite">{directory.attivita.length} botteghe e laboratori da esplorare</h2>
       <p id="search-context" class="small muted"></p>
-      <ul class="grid" id="search-results">{directory.attivita.map(b => <BusinessCard business={b} compact />)}</ul>
+      <ul class="grid" id="search-results">{directory.attivita.slice(0, PRIME_CARD).map(b => <BusinessCard business={b} compact editorial />)}</ul>
       <div id="search-empty" class="notice" hidden><p id="search-empty-message">Nessuna attività soddisfa i filtri selezionati.</p><p id="search-alternative" class="small" hidden></p><div class="search-actions"><button type="button" class="btn btn-ghost" id="remove-service" hidden>Rimuovi il servizio</button><button type="button" class="btn btn-ghost" id="search-widen" hidden>Cerca in tutta Italia con questo servizio</button></div><p><a href="/orologerie/">Esplora altre località (fuori dalla ricerca) →</a></p></div>
       <p id="search-page-count" class="small muted"></p><button type="button" id="search-more" class="btn btn-ghost" hidden>Mostra altri 12</button>
+      <section id="search-related" class="related-results" aria-labelledby="search-related-title" hidden><h3 id="search-related-title">Altri laboratori che potrebbero aiutarti</h3><p id="search-related-note" class="small muted"></p><ul class="grid" id="search-related-list"></ul></section>
     </section>
-    <details class="optional-panel" id="map-details"><summary>Mostra mappa · {mapPoints.length} posizioni verificate</summary><div id="directory-map" data-points={JSON.stringify(mapPoints)}></div><p class="small muted">Solo coordinate documentate e confrontate con l’indirizzo. Le altre attività restano nell’elenco. Nessuna localizzazione automatica.</p></details>
+    <details class="optional-panel search-map" id="map-details"><summary id="map-summary">Mappa dei risultati</summary><div class="map-toolbar"><p id="map-status" class="small" role="status" aria-live="polite"></p><button id="map-interact" type="button" class="btn btn-ghost" aria-pressed="false" hidden>Sposta la mappa</button></div><div id="directory-map" role="region" aria-label="Mappa delle attività nei risultati"></div><p class="small muted">Posizioni confrontate con gli indirizzi; le attività senza coordinate restano nell’elenco. <a href="/coordinate-osm.json">Dati geografici · © OpenStreetMap contributors · ODbL</a></p></details>
     <details class="optional-panel guided-search"><summary>Ricerca guidata e assistente (facoltativi)</summary>
       <div class="quick-services" aria-label="Servizi rapidi"><button type="button" class="btn btn-ghost search-shortcut" data-service="revisione" data-shortcut-field="servizio" data-shortcut-value="revisione">Revisione</button><button type="button" class="btn btn-ghost search-shortcut" data-service="riparazione" data-shortcut-field="servizio" data-shortcut-value="riparazione">Riparazione</button><button type="button" class="btn btn-ghost search-shortcut" data-service="batterie" data-shortcut-field="servizio" data-shortcut-value="batterie">Cambio batteria</button></div>
       <p class="small">Scegli un servizio rapido e una città, oppure descrivi il bisogno all’assistente. Le alternative fuori territorio sono dichiarate separatamente.</p>
@@ -51,5 +75,5 @@ const suggerimenti = ['Cerco cambio batteria a Milano', 'Vorrei una revisione a 
     </details>
     <details class="optional-panel"><summary>Copertura e metodo</summary><p class="small muted">Il censimento conta {directory.attivita.length} attività in {directory.localita.length} località e non copre ancora tutta Italia. Servizi, marchi e recapiti hanno fonti consultabili nelle schede; non equivalgono a una verifica sul posto. <a href="/metodo/">Fonti e metodo →</a></p></details>
   </section>
-  <script src="../scripts/search-ui.ts"></script><script src="../scripts/map-ui.ts"></script><script src="../scripts/assistant-ui.ts"></script>
+  <script src="../scripts/search-ui.ts"></script><script src="../scripts/map-lazy.ts"></script><script src="../scripts/assistant-lazy.ts"></script>
 </Layout>

@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini%2C+27%2C+Colle+di+Val+d%E2%80%99Elsa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82140152,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6993810798,
+      "lat": "43.4227061",
+      "lon": "11.1259638",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00005605172808418429,
+      "addresstype": "shop",
+      "name": "Ore e Oro",
+      "display_name": "Ore e Oro, 27, Via Giuseppe Mazzini, La Badia, Selvamaggio, Colle di Val d'Elsa, Siena, Toscana, 53034, Italia",
+      "address": {
+        "shop": "Ore e Oro",
+        "house_number": "27",
+        "road": "Via Giuseppe Mazzini",
+        "quarter": "La Badia",
+        "village": "Selvamaggio",
+        "town": "Colle di Val d'Elsa",
+        "county": "Siena",
+        "ISO3166-2-lvl6": "IT-SI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "53034",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.4226561",
+        "43.4227561",
+        "11.1259138",
+        "11.1260138"
+      ]
+    }
+  ]
+}

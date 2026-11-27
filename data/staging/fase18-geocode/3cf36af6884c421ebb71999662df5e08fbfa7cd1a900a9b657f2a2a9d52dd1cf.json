@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+26%2C+Castelleone%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79823601,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 211331465,
+      "lat": "43.6075234",
+      "lon": "12.9776471",
+      "category": "building",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005533913176160857,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "26;28, Via Roma, San Martino, Castelleone di Suasa, Ancona, Marche, 60010, Italia",
+      "address": {
+        "house_number": "26;28",
+        "road": "Via Roma",
+        "hamlet": "San Martino",
+        "village": "Castelleone di Suasa",
+        "city": "Castelleone di Suasa",
+        "county": "Ancona",
+        "ISO3166-2-lvl6": "IT-AN",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "60010",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6074670",
+        "43.6075797",
+        "12.9775600",
+        "12.9777342"
+      ]
+    }
+  ]
+}

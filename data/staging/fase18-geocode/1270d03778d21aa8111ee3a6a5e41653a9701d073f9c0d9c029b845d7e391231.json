@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aldo+Moro%2C+153%2C+Frosinone%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80674461,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 182142658,
+      "lat": "41.6433573",
+      "lon": "13.3459263",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.0533961982146944,
+      "addresstype": "secondary",
+      "name": "Via Aldo Moro",
+      "display_name": "Via Aldo Moro, De Matthaeis, Frosinone, Lazio, 03100, Italia",
+      "address": {
+        "road": "Via Aldo Moro",
+        "neighbourhood": "De Matthaeis",
+        "city": "Frosinone",
+        "county": "Frosinone",
+        "ISO3166-2-lvl6": "IT-FR",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "03100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.6419095",
+        "41.6446665",
+        "13.3447982",
+        "13.3472100"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ezio+Vanoni%2C+21%2C+Morbegno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 73643330,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5407827892,
+      "lat": "46.1334334",
+      "lon": "9.5704665",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.000058412298771603224,
+      "addresstype": "shop",
+      "name": "Passerini & C.",
+      "display_name": "Passerini & C., 21, Via Ezio Vanoni, Campovico, Morbegno, Comunità montana della Valtellina di Morbegno, Sondrio, Lombardia, 23017, Italia",
+      "address": {
+        "shop": "Passerini & C.",
+        "house_number": "21",
+        "road": "Via Ezio Vanoni",
+        "village": "Campovico",
+        "town": "Morbegno",
+        "municipality": "Comunità montana della Valtellina di Morbegno",
+        "county": "Sondrio",
+        "ISO3166-2-lvl6": "IT-SO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "23017",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.1333834",
+        "46.1334834",
+        "9.5704165",
+        "9.5705165"
+      ]
+    }
+  ]
+}

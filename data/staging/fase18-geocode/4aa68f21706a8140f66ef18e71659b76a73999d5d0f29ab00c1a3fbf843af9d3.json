@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilia+San+Pietro%2C+23%2FD%2C+Reggio+nell%27Emilia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77325475,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8672049555,
+      "lat": "44.6969472",
+      "lon": "10.6351986",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006725490196073881,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "23d, Via Emilia a San Pietro, San Pietro città, Reggio Emilia, Emilia-Romagna, 42121, Italia",
+      "address": {
+        "house_number": "23d",
+        "road": "Via Emilia a San Pietro",
+        "suburb": "San Pietro città",
+        "city": "Reggio Emilia",
+        "county": "Reggio Emilia",
+        "ISO3166-2-lvl6": "IT-RE",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "42121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.6968972",
+        "44.6969972",
+        "10.6351486",
+        "10.6352486"
+      ]
+    }
+  ]
+}

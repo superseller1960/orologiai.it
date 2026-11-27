@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Giosu%C3%A8+Carducci%2C+31%2C+Conegliano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78956475,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 31405421,
+      "lat": "45.8856189",
+      "lon": "12.2982430",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339473792629889,
+      "addresstype": "unclassified",
+      "name": "Viale Giosuè Carducci",
+      "display_name": "Viale Giosuè Carducci, Monticella, Conegliano, Treviso, Veneto, 31015, Italia",
+      "address": {
+        "road": "Viale Giosuè Carducci",
+        "quarter": "Monticella",
+        "town": "Conegliano",
+        "city": "Conegliano",
+        "county": "Treviso",
+        "ISO3166-2-lvl6": "IT-TV",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "31015",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8850516",
+        "45.8861665",
+        "12.2978002",
+        "12.2986602"
+      ]
+    }
+  ]
+}

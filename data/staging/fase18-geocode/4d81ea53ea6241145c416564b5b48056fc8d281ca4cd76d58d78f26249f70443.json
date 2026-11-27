@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Chanoux+22%2C+Aosta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 422978961,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 14005294401,
+      "lat": "45.7368779",
+      "lon": "7.3194865",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006569237811851708,
+      "addresstype": "shop",
+      "name": "De Marchi Gianotti - Gioielleria Aosta Piazza Chanoux",
+      "display_name": "De Marchi Gianotti - Gioielleria Aosta Piazza Chanoux, 22, Piazza Émile Chanoux, Porossan-Roppoz, Arpuilles, Aosta, Valle d'Aosta, 11100, Italia",
+      "address": {
+        "shop": "De Marchi Gianotti - Gioielleria Aosta Piazza Chanoux",
+        "house_number": "22",
+        "road": "Piazza Émile Chanoux",
+        "hamlet": "Porossan-Roppoz",
+        "village": "Arpuilles",
+        "city": "Aosta",
+        "state": "Valle d'Aosta",
+        "ISO3166-2-lvl4": "IT-23",
+        "postcode": "11100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.7368279",
+        "45.7369279",
+        "7.3194365",
+        "7.3195365"
+      ]
+    }
+  ]
+}

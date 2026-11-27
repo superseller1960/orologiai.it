@@ -1,0 +1,173 @@
+[
+  {
+    "id": "gioielli-giuliani-prato",
+    "indirizzo": "Via Francesco Ferrucci 478",
+    "comune": "Prato",
+    "esito": "incerta",
+    "motivo": "Civico non coincidente",
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Francesco+Ferrucci+478%2C+Prato%2C+Italia",
+    "risultato": {
+      "place_id": 81951687,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 173306863,
+      "lat": "43.8719202",
+      "lon": "11.1073182",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053398401617456286,
+      "addresstype": "tertiary",
+      "name": "Via Francesco Ferrucci",
+      "display_name": "Via Francesco Ferrucci, Centro Direzionale, Prato, Toscana, 59100, Italia",
+      "address": {
+        "road": "Via Francesco Ferrucci",
+        "suburb": "Centro Direzionale",
+        "city": "Prato",
+        "county": "Prato",
+        "ISO3166-2-lvl6": "IT-PO",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "59100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8716175",
+        "43.8722428",
+        "11.1068370",
+        "11.1078121"
+      ]
+    }
+  },
+  {
+    "id": "virole-watch-prato",
+    "indirizzo": "Via Giacomo Matteotti 1",
+    "comune": "Prato",
+    "esito": "incerta",
+    "motivo": "Civico non coincidente",
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti+1%2C+Prato%2C+Italia",
+    "risultato": {
+      "place_id": 81646138,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 243396495,
+      "lat": "43.8813378",
+      "lon": "11.1028733",
+      "category": "building",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006506828412294221,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "1, 3, 5, 7, 9, Via Giacomo Matteotti, La Pietà, I lecci, Prato, Toscana, 59100, Italia",
+      "address": {
+        "house_number": "1, 3, 5, 7, 9",
+        "road": "Via Giacomo Matteotti",
+        "neighbourhood": "La Pietà",
+        "suburb": "I lecci",
+        "city": "Prato",
+        "county": "Prato",
+        "ISO3166-2-lvl6": "IT-PO",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "59100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8812655",
+        "43.8814101",
+        "11.1027721",
+        "11.1029745"
+      ]
+    }
+  },
+  {
+    "id": "gioielleria-suligoj-gorizia",
+    "indirizzo": "Via Carducci 49",
+    "comune": "Gorizia",
+    "esito": "incerta",
+    "motivo": "Strada non coincidente",
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carducci+49%2C+Gorizia%2C+Italia",
+    "risultato": {
+      "place_id": 79204428,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3800032012,
+      "lat": "45.9482362",
+      "lon": "13.6263918",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.0000621782253757079,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "49, Via Giosuè Carducci, Carinthia / Gorišček, Borgo Castello, Gorizia, Friuli-Venezia Giulia, 34170, Italia",
+      "address": {
+        "house_number": "49",
+        "road": "Via Giosuè Carducci",
+        "neighbourhood": "Carinthia / Gorišček",
+        "suburb": "Borgo Castello",
+        "city": "Gorizia",
+        "town": "Gorizia",
+        "county": "Gorizia",
+        "ISO3166-2-lvl6": "IT-GO",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34170",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.9481862",
+        "45.9482862",
+        "13.6263418",
+        "13.6264418"
+      ]
+    }
+  },
+  {
+    "id": "martines-agrigento-atenea",
+    "indirizzo": "Via Atenea 133/135",
+    "comune": "Agrigento",
+    "esito": "incerta",
+    "motivo": "Indirizzo complesso o civico mancante: revisione manuale",
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Atenea+133%2F135%2C+Agrigento%2C+Italia",
+    "risultato": {
+      "place_id": 53842914,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 98139610,
+      "lat": "37.3110274",
+      "lon": "13.5817503",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053399344625009504,
+      "addresstype": "residential",
+      "name": "Via Atenea",
+      "display_name": "Via Atenea, Bibirria, Calcarelle, Villaseta, Agrigento, Sicilia, 92100, Italia",
+      "address": {
+        "road": "Via Atenea",
+        "neighbourhood": "Bibirria",
+        "suburb": "Calcarelle",
+        "village": "Villaseta",
+        "city": "Agrigento",
+        "county": "Agrigento",
+        "ISO3166-2-lvl6": "IT-AG",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "92100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.3100429",
+        "37.3118611",
+        "13.5787076",
+        "13.5849906"
+      ]
+    }
+  }
+]

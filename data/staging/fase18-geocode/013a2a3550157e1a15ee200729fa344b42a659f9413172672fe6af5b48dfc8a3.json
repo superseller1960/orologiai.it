@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Garibaldi%2C+183%2C+Desio%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75564633,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1343735906,
+      "lat": "45.6149911",
+      "lon": "9.2062589",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339180514229035,
+      "addresstype": "residential",
+      "name": "Via Giuseppe Garibaldi",
+      "display_name": "Via Giuseppe Garibaldi, Pont, Foppa, Desio, Monza e Brianza, Lombardia, 20832, Italia",
+      "address": {
+        "road": "Via Giuseppe Garibaldi",
+        "neighbourhood": "Pont",
+        "suburb": "Foppa",
+        "town": "Desio",
+        "county": "Monza e Brianza",
+        "ISO3166-2-lvl6": "IT-MB",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "20832",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6148212",
+        "45.6151586",
+        "9.2061839",
+        "9.2063391"
+      ]
+    }
+  ]
+}

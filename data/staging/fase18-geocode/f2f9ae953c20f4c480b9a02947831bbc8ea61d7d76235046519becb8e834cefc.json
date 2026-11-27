@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Chiesanuova+121%2FA%2C+Padova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74255210,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 47866439,
+      "lat": "45.4175351",
+      "lon": "11.8265278",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.053407689784084805,
+      "addresstype": "primary",
+      "name": "Via Chiesanuova",
+      "display_name": "Via Chiesanuova, Brentelle di Sopra, Padova, Veneto, 35100, Italia",
+      "address": {
+        "road": "Via Chiesanuova",
+        "suburb": "Brentelle di Sopra",
+        "city": "Padova",
+        "county": "Padova",
+        "ISO3166-2-lvl6": "IT-PD",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "35100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.4173709",
+        "45.4177145",
+        "11.8260154",
+        "11.8270452"
+      ]
+    }
+  ]
+}

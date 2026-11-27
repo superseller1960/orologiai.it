@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Bartolomeo+De%E2%80%99+Polli%2C+1%2FA%2C+Modena%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77185587,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4712471903,
+      "lat": "44.6297992",
+      "lon": "10.9265271",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007206301976038784,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "1a, Via Bartolomeo de Polli, Rosselli, Buon Pastore-Sant'Agnese-San Damaso, Vaciglio, Modena, Emilia-Romagna, 41125, Italia",
+      "address": {
+        "house_number": "1a",
+        "road": "Via Bartolomeo de Polli",
+        "suburb": "Rosselli",
+        "village": "Vaciglio",
+        "city": "Modena",
+        "county": "Modena",
+        "ISO3166-2-lvl6": "IT-MO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "41125",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.6297492",
+        "44.6298492",
+        "10.9264771",
+        "10.9265771"
+      ]
+    }
+  ]
+}

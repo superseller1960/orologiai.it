@@ -1,0 +1,65 @@
+[
+  {
+    "id": "orsi-gioielleria-verbania",
+    "url": "https://www.orsigioielleria.com/chi-siamo/",
+    "capOk": false,
+    "viaOk": true,
+    "telOk": true
+  },
+  {
+    "id": "officine-complicato-pescara",
+    "url": null,
+    "capOk": false,
+    "viaOk": false,
+    "telOk": null
+  },
+  {
+    "id": "clementi-bolzano",
+    "url": null,
+    "capOk": false,
+    "viaOk": false,
+    "telOk": null
+  },
+  {
+    "id": "fronza-trento",
+    "url": "https://www.orologeriafronzamarco.it/contatti",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": null
+  },
+  {
+    "id": "gasser-brunico",
+    "url": "https://it.vgasser.it/chi-siamo/",
+    "capOk": true,
+    "viaOk": false,
+    "telOk": true
+  },
+  {
+    "id": "demarco-belluno",
+    "url": "https://www.demarco-belluno.it/pages/contatti",
+    "capOk": false,
+    "viaOk": true,
+    "telOk": true
+  },
+  {
+    "id": "boni-belluno",
+    "url": "https://www.gioielleriaboni.it/chi-siamo/",
+    "capOk": true,
+    "viaOk": false,
+    "telOk": true
+  },
+  {
+    "id": "fenocchi-san-benedetto",
+    "url": "https://www.gioielleriafenocchi.com/contatti",
+    "capOk": true,
+    "viaOk": true,
+    "telOk": true
+  },
+  {
+    "id": "officina-del-tempo-olbia",
+    "url": null,
+    "capOk": false,
+    "viaOk": false,
+    "telOk": null
+  }
+]

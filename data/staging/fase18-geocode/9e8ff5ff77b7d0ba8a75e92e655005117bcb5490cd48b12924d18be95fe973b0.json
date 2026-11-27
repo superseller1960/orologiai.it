@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tre+Venezie+17%2C+Terni%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79921594,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 75891278,
+      "lat": "42.5738542",
+      "lon": "12.6704578",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05339850537880518,
+      "addresstype": "primary",
+      "name": "Via Tre Venezie",
+      "display_name": "Via Tre Venezie, Borgo Bovio, Terni, Umbria, 05100, Italia",
+      "address": {
+        "road": "Via Tre Venezie",
+        "suburb": "Borgo Bovio",
+        "city": "Terni",
+        "county": "Terni",
+        "ISO3166-2-lvl6": "IT-TR",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "05100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.5703285",
+        "42.5769968",
+        "12.6668038",
+        "12.6743759"
+      ]
+    }
+  ]
+}

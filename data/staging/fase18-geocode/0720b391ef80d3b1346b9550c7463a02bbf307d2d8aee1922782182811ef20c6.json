@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+77%2C+Forl%C3%AC%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78745950,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4766328433,
+      "lat": "44.2321785",
+      "lon": "12.0102668",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006671320668340608,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "77, Via Tevere, Romiti, Artigianale Quattro, Forlì, Forlì-Cesena, Emilia-Romagna, 47121, Italia",
+      "address": {
+        "house_number": "77",
+        "road": "Via Tevere",
+        "quarter": "Romiti",
+        "hamlet": "Artigianale Quattro",
+        "city": "Forlì",
+        "county": "Forlì-Cesena",
+        "ISO3166-2-lvl6": "IT-FC",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "47121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.2321285",
+        "44.2322285",
+        "12.0102168",
+        "12.0103168"
+      ]
+    }
+  ]
+}

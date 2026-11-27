@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+34%2C+Courmayeur%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 89255081,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 28022927,
+      "lat": "45.7897962",
+      "lon": "6.9733859",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339431372549016,
+      "addresstype": "pedestrian",
+      "name": "Via Roma",
+      "display_name": "Via Roma, Pussey, Courmayeur, Valle d'Aosta, 11013, Italia",
+      "address": {
+        "road": "Via Roma",
+        "hamlet": "Pussey",
+        "village": "Courmayeur",
+        "city": "Courmayeur",
+        "state": "Valle d'Aosta",
+        "ISO3166-2-lvl4": "IT-23",
+        "postcode": "11013",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.7879352",
+        "45.7913503",
+        "6.9728040",
+        "6.9735803"
+      ]
+    }
+  ]
+}

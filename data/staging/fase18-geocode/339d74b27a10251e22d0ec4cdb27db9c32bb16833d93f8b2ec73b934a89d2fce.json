@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Filippo+Turati%2C+7%2FF%2C+Erba%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75621958,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30097146,
+      "lat": "45.8057308",
+      "lon": "9.2274927",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339368200198364,
+      "addresstype": "unclassified",
+      "name": "Via Filippo Turati",
+      "display_name": "Via Filippo Turati, Incino, Erba, Como, Lombardia, 22036, Italia",
+      "address": {
+        "road": "Via Filippo Turati",
+        "neighbourhood": "Incino",
+        "town": "Erba",
+        "city": "Erba",
+        "county": "Como",
+        "ISO3166-2-lvl6": "IT-CO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "22036",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8045969",
+        "45.8068644",
+        "9.2270130",
+        "9.2279723"
+      ]
+    }
+  ]
+}

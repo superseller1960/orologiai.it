@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele%2C+41-43-45%2C+Salerno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80365185,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 676577841,
+      "lat": "40.6762168",
+      "lon": "14.7681588",
+      "category": "highway",
+      "type": "living_street",
+      "place_rank": 26,
+      "importance": 0.053402794689860346,
+      "addresstype": "living_street",
+      "name": "Corso Vittorio Emanuele",
+      "display_name": "Corso Vittorio Emanuele, Salerno, Campania, 84123, Italia",
+      "address": {
+        "road": "Corso Vittorio Emanuele",
+        "city": "Salerno",
+        "county": "Salerno",
+        "ISO3166-2-lvl6": "IT-SA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "84123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6759462",
+        "40.6764887",
+        "14.7673486",
+        "14.7689694"
+      ]
+    }
+  ]
+}

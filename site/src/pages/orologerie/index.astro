@@ -51,7 +51,7 @@ const schema = {
 
   <section class="container section" id="comuni"><div class="section-heading"><div><p class="eyebrow dark">Province e comuni</p><h2>I territori censiti</h2></div><p class="muted">Ogni comune porta alle schede delle attività presenti.</p></div>
     {regioni.map(r => <section class="region"><h2>{r.nome} <a class="small" href={`/orologerie/${r.slug}/`}>Pagina regionale →</a></h2>
-      {r.perProvincia.map(pr => <><h3 class="muted">Provincia di {pr.provincia}</h3><div class="cities">{pr.comuni.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} <span aria-hidden="true">↗</span></h3><p class="small muted">{p.provincia} ({p.siglaProvincia}) · {directory.attivita.filter(b => b.localitaId === p.id).length} attività censite</p><p>{p.descrizione}</p></a>)}</div></>)}
+      {r.perProvincia.map(pr => <><h3 class="muted">Provincia di {pr.provincia}</h3><div class="cities">{pr.comuni.map(p => <a class="city" href={localityUrl(p)}><h3>{p.comune} <span aria-hidden="true">↗</span></h3><p class="small muted">{p.frazione ? p.frazione + " · " : ""}{p.comune} · {p.provincia} ({p.siglaProvincia}) · {directory.attivita.filter(b => b.localitaId === p.id).length} attività censite</p><p>{p.descrizione}</p></a>)}</div></>)}
     </section>)}
     <a class="btn" href="/partecipa/">Manca la tua località? Segnala un’attività →</a>
   </section>

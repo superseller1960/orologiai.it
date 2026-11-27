@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Aldo+Moro%2C+213%2C+Santa+Maria+Capua+Vetere%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80529766,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 579168403,
+      "lat": "41.0819963",
+      "lon": "14.2522054",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053393971923399675,
+      "addresstype": "secondary",
+      "name": "Corso Aldo Moro",
+      "display_name": "Corso Aldo Moro, Santa Maria Capua Vetere, Sant'Andrea dei Lagni, Santa Maria Capua Vetere, Caserta, Campania, 81055, Italia",
+      "address": {
+        "road": "Corso Aldo Moro",
+        "residential": "Santa Maria Capua Vetere",
+        "suburb": "Sant'Andrea dei Lagni",
+        "town": "Santa Maria Capua Vetere",
+        "county": "Caserta",
+        "ISO3166-2-lvl6": "IT-CE",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "81055",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.0819417",
+        "41.0824618",
+        "14.2503200",
+        "14.2541438"
+      ]
+    }
+  ]
+}

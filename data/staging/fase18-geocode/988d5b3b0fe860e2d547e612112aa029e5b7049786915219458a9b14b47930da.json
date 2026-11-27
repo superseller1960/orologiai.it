@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia+268%2C+Catania%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53460530,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8306875232,
+      "lat": "37.5159577",
+      "lon": "15.1025523",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00003500190737769158,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "268, Corso Italia, Guardia, Picanello, Picanello-Ognina-Barriera-Canalicchio, Catania, Sicilia, 95129, Italia",
+      "address": {
+        "house_number": "268",
+        "road": "Corso Italia",
+        "neighbourhood": "Guardia",
+        "quarter": "Picanello",
+        "suburb": "Picanello-Ognina-Barriera-Canalicchio",
+        "city": "Catania",
+        "county": "Catania",
+        "ISO3166-2-lvl6": "IT-CT",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "95129",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.5159077",
+        "37.5160077",
+        "15.1025023",
+        "15.1026023"
+      ]
+    }
+  ]
+}

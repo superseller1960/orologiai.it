@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+110%2F112%2C+Rieti%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80091525,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 114671176,
+      "lat": "42.4010092",
+      "lon": "12.8609883",
+      "category": "highway",
+      "type": "living_street",
+      "place_rank": 26,
+      "importance": 0.053398589303425614,
+      "addresstype": "living_street",
+      "name": "Via Roma",
+      "display_name": "Via Roma, Centro storico, Regina Pacis, Rieti, Lazio, 02100, Italia",
+      "address": {
+        "road": "Via Roma",
+        "residential": "Centro storico",
+        "suburb": "Regina Pacis",
+        "city": "Rieti",
+        "county": "Rieti",
+        "ISO3166-2-lvl6": "IT-RI",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "02100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4001070",
+        "42.4019091",
+        "12.8608747",
+        "12.8611185"
+      ]
+    }
+  ]
+}

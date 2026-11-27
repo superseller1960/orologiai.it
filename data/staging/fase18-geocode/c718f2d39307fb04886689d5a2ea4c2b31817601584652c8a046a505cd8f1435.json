@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Luigi+Boccherini%2C+45%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82164479,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2361870029,
+      "lat": "43.7881487",
+      "lon": "11.2306967",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "45, Via Luigi Boccherini, Quartiere 1, Firenze, Toscana, 50144, Italia",
+      "address": {
+        "house_number": "45",
+        "road": "Via Luigi Boccherini",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50144",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7880987",
+        "43.7881987",
+        "11.2306467",
+        "11.2307467"
+      ]
+    }
+  ]
+}

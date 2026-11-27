@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Golfo+dei+Poeti+1%2FA%2C+Parma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76548340,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4754954173,
+      "lat": "44.7879762",
+      "lon": "10.2983849",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007255893797203048,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "1a, Via Golfo dei Poeti, Marinelli, Molinetto, Valera, Parma, Emilia-Romagna, 43125, Italia",
+      "address": {
+        "house_number": "1a",
+        "road": "Via Golfo dei Poeti",
+        "hamlet": "Marinelli",
+        "suburb": "Molinetto",
+        "village": "Valera",
+        "city": "Parma",
+        "county": "Parma",
+        "ISO3166-2-lvl6": "IT-PR",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "43125",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.7879262",
+        "44.7880262",
+        "10.2983349",
+        "10.2984349"
+      ]
+    }
+  ]
+}

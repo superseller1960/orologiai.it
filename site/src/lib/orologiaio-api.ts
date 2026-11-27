@@ -15,6 +15,8 @@ export type RispostaOrologiaio = {
   avviso: string | null;
   // Testo conversazionale del modello, coerente con i criteri: solo interpretazione, mai fatti.
   risposta: string | null;
+  // Servizio suggerito per la richiesta (filtro proposto, non un fatto sulle attività).
+  consiglio: string | null;
   criteri: Criteri;
   chiarimenti: string[];
 };
@@ -117,15 +119,15 @@ export async function handleOrologiaio(request: Request, env: Env, deps: Deps): 
     if (!provider) {
       return json({
         modalita: 'non-configurato', avviso: 'Il modello AI non è configurato su questo ambiente: interpretazione locale.',
-        risposta: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
+        risposta: null, consiglio: esito.consiglio, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
       } satisfies RispostaOrologiaio);
     }
     if (esito.origine === 'provider') {
-      return json({ modalita: 'ai', avviso: null, risposta: esito.risposta, criteri: esito.criteri, chiarimenti: esito.chiarimenti } satisfies RispostaOrologiaio);
+      return json({ modalita: 'ai', avviso: null, risposta: esito.risposta, consiglio: esito.consiglio, criteri: esito.criteri, chiarimenti: esito.chiarimenti } satisfies RispostaOrologiaio);
     }
     return json({
       modalita: 'fallback', avviso: 'Il modello AI non ha risposto in modo utilizzabile: interpretazione locale.',
-      risposta: null, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
+      risposta: null, consiglio: esito.consiglio, criteri: esito.criteri, chiarimenti: esito.chiarimenti,
     } satisfies RispostaOrologiaio);
   } catch {
     return errore(500, 'Errore interno: riprova o usa la ricerca con i filtri.');

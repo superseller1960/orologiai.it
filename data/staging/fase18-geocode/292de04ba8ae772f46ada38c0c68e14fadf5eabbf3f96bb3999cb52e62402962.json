@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Rocca+13%2C+Viterbo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80323268,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7894866,
+      "lat": "42.4216204",
+      "lon": "12.1051719",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06673276798657206,
+      "addresstype": "square",
+      "name": "Piazza della Rocca",
+      "display_name": "Piazza della Rocca, La Quercia, Viterbo, Lazio, Italia",
+      "address": {
+        "square": "Piazza della Rocca",
+        "village": "La Quercia",
+        "city": "Viterbo",
+        "county": "Viterbo",
+        "ISO3166-2-lvl6": "IT-VT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4211791",
+        "42.4220595",
+        "12.1043086",
+        "12.1056452"
+      ]
+    }
+  ]
+}

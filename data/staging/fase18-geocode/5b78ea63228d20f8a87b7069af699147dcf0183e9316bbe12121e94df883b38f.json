@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Calderini+13%2C+Perugia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80054523,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23078470,
+      "lat": "43.1116739",
+      "lon": "12.3894411",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05340411917296098,
+      "addresstype": "residential",
+      "name": "Via Guglielmo Calderini",
+      "display_name": "Via Guglielmo Calderini, Sant'Erminio, Ponte Rio, Perugia, Umbria, 06122, Italia",
+      "address": {
+        "road": "Via Guglielmo Calderini",
+        "suburb": "Sant'Erminio",
+        "village": "Ponte Rio",
+        "city": "Perugia",
+        "county": "Perugia",
+        "ISO3166-2-lvl6": "IT-PG",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "06122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.1115524",
+        "43.1117954",
+        "12.3891689",
+        "12.3897132"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Francesco+Ferrucci+478%2C+Prato%2C+Italia",
+  "consultataIl": "2026-11-01",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81951687,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 173306863,
+      "lat": "43.8719202",
+      "lon": "11.1073182",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053398401617456286,
+      "addresstype": "tertiary",
+      "name": "Via Francesco Ferrucci",
+      "display_name": "Via Francesco Ferrucci, Centro Direzionale, Prato, Toscana, 59100, Italia",
+      "address": {
+        "road": "Via Francesco Ferrucci",
+        "suburb": "Centro Direzionale",
+        "city": "Prato",
+        "county": "Prato",
+        "ISO3166-2-lvl6": "IT-PO",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "59100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8716175",
+        "43.8722428",
+        "11.1068370",
+        "11.1078121"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cattaneo+38+c%2C+Viterbo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81131120,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 97808993,
+      "lat": "42.4699933",
+      "lon": "11.7538120",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338951018539708,
+      "addresstype": "residential",
+      "name": "Via Cattaneo",
+      "display_name": "Via Cattaneo, Canino, Viterbo, Lazio, Italia",
+      "address": {
+        "road": "Via Cattaneo",
+        "village": "Canino",
+        "county": "Viterbo",
+        "ISO3166-2-lvl6": "IT-VT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4699242",
+        "42.4700624",
+        "11.7537175",
+        "11.7539064"
+      ]
+    }
+  ]
+}

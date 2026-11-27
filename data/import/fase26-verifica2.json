@@ -1,0 +1,1726 @@
+{
+  "fase": "fase26",
+  "data": "2026-11-02",
+  "conteggi": {
+    "SENZA-SERVIZIO": 34,
+    "SEDE-NON-CONFERMATA": 31,
+    "TESTO-ASSENTE": 88,
+    "NO-SITO": 17,
+    "DUPLICATO": 3
+  },
+  "esiti": [
+    {
+      "id": "alessio-marra-gioielli-rome",
+      "nome": "Alessio Marra Gioielli",
+      "comune": "Roma",
+      "indirizzo": "Corso Trieste, 191, 00199 Roma RM, Italy",
+      "telefono": "+39 06 8620 4568",
+      "sitoUfficiale": "https://www.marragioielli.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "antica-orologeria-rigliaco-turin",
+      "nome": "Antica orologeria Rigliaco",
+      "comune": "Torino",
+      "indirizzo": "Via Felice Briccarello, 19, 10137 Torino TO, Italy",
+      "telefono": "+39 011 325717",
+      "sitoUfficiale": "https://www.anticaorologeriarigliaco.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "antichi-orologi-e-piccoli-gioielli-di-nuti-claudia-florence",
+      "nome": "Antichi Orologi e piccoli Gioielli di Nuti Claudia",
+      "comune": "Firenze",
+      "indirizzo": "Via della Scala, 10 rosso, 50123 Firenze FI, Italy",
+      "telefono": "+39 055 294594",
+      "sitoUfficiale": "https://www.nutiorologi.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 18
+    },
+    {
+      "id": "ar-rovighi-milanoorologeria-rovighi-milan",
+      "nome": "AR Rovighi Milano/Orologeria Rovighi",
+      "comune": "Milano",
+      "indirizzo": "Via Giorgio Washington, 57, 20146 Milano MI, Italy",
+      "telefono": "+39 02 4819 3341",
+      "sitoUfficiale": "http://orologeriarovighi.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "atelier-d-horlogerie-torino-turin",
+      "nome": "Atelier D' Horlogerie Torino",
+      "comune": "Torino",
+      "indirizzo": "Corso Regina Margherita, 97, 10124 Torino TO, Italy",
+      "telefono": "+39 011 812 3017",
+      "sitoUfficiale": "http://www.atelierdhorlogerie.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "belardini-del-giudice-napoli",
+      "nome": "Belardini del Giudice",
+      "comune": "Napoli",
+      "indirizzo": "Via Giovanni Manna, 22, 80133 Napoli NA, Italy",
+      "telefono": "+39 081 551 6976",
+      "sitoUfficiale": "https://www.belardinidelgiudice.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "blu-gioielleria-orologeria-napoli",
+      "nome": "Blu Gioielleria - Orologeria",
+      "comune": "Napoli",
+      "indirizzo": "Via Edoardo Nicolardi, 31/33, 80131 Napoli NA, Italy",
+      "telefono": "+39 081 743 5295",
+      "sitoUfficiale": "https://maps.google.com/?q=40.869071999999996,14.2341449",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "bonny-srl-napoli",
+      "nome": "Bonny S.r.l.",
+      "comune": "Napoli",
+      "indirizzo": "Via Guglielmo Melisurgo, 9, 80133 Napoli NA, Italy",
+      "telefono": "+39 328 916 9000",
+      "sitoUfficiale": "https://www.bonnysrl.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "bottega-dellorafo-florence",
+      "nome": "Bottega Dell'orafo",
+      "comune": "Firenze",
+      "indirizzo": "Via della Mosca, 11, 50122 Firenze FI, Italy",
+      "telefono": "+39 055 289509",
+      "sitoUfficiale": "http://www.bottegadellorafo.com/ita/index.php",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "boutique-tissot-firenze-florence",
+      "nome": "Boutique Tissot Firenze",
+      "comune": "Firenze",
+      "indirizzo": "Via dei Calzaiuoli, 18/20 r, 50122 Firenze FI, Italy",
+      "telefono": "+39 055 098 0132",
+      "sitoUfficiale": "https://www.tissotwatches.com/it-it",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "boutique-tudor-roma-hausmann-co-rome",
+      "nome": "Boutique Tudor Roma - Hausmann & Co.",
+      "comune": "Roma",
+      "indirizzo": "Via dei Condotti, 47/a, 00187 Roma RM, Italy",
+      "telefono": "+39 06 6938 0002",
+      "sitoUfficiale": "https://www.hausmann-co.com/negozi/boutique-tudor-via-dei-condotti/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "calonaci-gioielli-florence",
+      "nome": "Calonaci Gioielli",
+      "comune": "Firenze",
+      "indirizzo": "Via Maragliano, 43/b, 50144 Firenze FI, Italy",
+      "telefono": "+39 055 353265",
+      "sitoUfficiale": "http://www.calonacigioielli.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "cecchetti-stefano-florence",
+      "nome": "Cecchetti Stefano",
+      "comune": "Firenze",
+      "indirizzo": "Via Alessandro Manzoni, 52, 50018 Scandicci FI, Italy",
+      "telefono": "+39 055 250055",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7537963,11.1854792",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "cellini-gold-florence",
+      "nome": "Cellini Gold",
+      "comune": "Firenze",
+      "indirizzo": "Piazza di Santa Croce, 30/R, 50122 Firenze FI, Italy",
+      "telefono": "+39 055 234 4451",
+      "sitoUfficiale": "http://www.cellinigold.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "centro-assistenza-longines-di-dini-c-snc-florence",
+      "nome": "Centro Assistenza Longines Di Dini & C. Snc",
+      "comune": "Firenze",
+      "indirizzo": "Via Antonio Pacinotti, 34/36, 50131 Firenze FI, Italy",
+      "telefono": "+39 055 500 1406",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7848039,11.2734002",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "centro-assistenza-tecnica-riparazione-orologi-di-baldini-ruggero-sector-philipwatch-florence",
+      "nome": "Centro Assistenza Tecnica Riparazione Orologi di Baldini Ruggero Sector PhilipWatch",
+      "comune": "Firenze",
+      "indirizzo": "V. Baccio da Montelupo, 22b, 50142 Firenze FI, Italy",
+      "telefono": "+39 055 732 6285",
+      "sitoUfficiale": "http://www.baldiniorologi.it/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "centro-riparazioni-orologeria-gioso-turin",
+      "nome": "Centro riparazioni orologeria Gioso",
+      "comune": "Torino",
+      "indirizzo": "Corso Carlo e Nello Rosselli, 92, 10129 Torino TO, Italy",
+      "telefono": "+39 351 886 8746",
+      "sitoUfficiale": "https://maps.google.com/?q=45.053076999999995,7.656736999999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "chronovenice-orologi-personalizzati-orologi-uomo-a-san-dona-di-piave-e-venezia-venice",
+      "nome": "Chronovenice - orologi personalizzati - orologi uomo a San Donà di Piave e Venezia",
+      "comune": "Venezia",
+      "indirizzo": "Via Giorgio La Pira, 13, 30027 San Donà di Piave VE, Italy",
+      "telefono": "+39 0421 307600",
+      "sitoUfficiale": "https://www.chronovenice.com/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 66
+    },
+    {
+      "id": "ciardi-sas-di-de-matteis-luca-c-florence",
+      "nome": "Ciardi s.a.s. Di De Matteis Luca & C.",
+      "comune": "Firenze",
+      "indirizzo": "Via delle Belle Donne, 3, 50123 Firenze FI, Italy",
+      "telefono": "+39 055 217900",
+      "sitoUfficiale": "http://www.ciardiorologi.it/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "cimafonte-compro-orologi-napoli",
+      "nome": "Cimafonte Compro Orologi",
+      "comune": "Napoli",
+      "indirizzo": "Via Mario Fiore, 21, 80129 Napoli NA, Italy",
+      "telefono": "+39 081 558 3888",
+      "sitoUfficiale": "http://www.cimafonteorologi.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "citizen-pirone-napoli",
+      "nome": "Citizen Pirone",
+      "comune": "Napoli",
+      "indirizzo": "Via Piedigrotta, 25, 80122 Napoli NA, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://www.pironeorologi.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "costantini-di-daniele-grazzini-florence",
+      "nome": "Costantini di Daniele Grazzini",
+      "comune": "Firenze",
+      "indirizzo": "Via Porta Rossa, 75, 50123 Firenze FI, Italy",
+      "telefono": null,
+      "sitoUfficiale": "http://www.luxotimefirenze.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "cristilli-orologeria-e-gioielleria-rome",
+      "nome": "Cristilli Orologeria e Gioielleria",
+      "comune": "Roma",
+      "indirizzo": "Largo Antonio Sarti, 1, 00196 Roma RM, Italy",
+      "telefono": "+39 06 323 6880",
+      "sitoUfficiale": "http://www.orologeriacristilli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "csc-elettronica-e-orologeria-turin",
+      "nome": "CSC elettronica e orologeria",
+      "comune": "Torino",
+      "indirizzo": "Via Monte di Pietà, 17/E, 10122 Torino TO, Italy",
+      "telefono": "+39 011 532730",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0711243,7.6803674",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "ctr-lora-esatta-turin",
+      "nome": "C.T.R.- L'ORA ESATTA",
+      "comune": "Torino",
+      "indirizzo": "Via Alessandro Volta, 3, 10121 Torino TO, Italy",
+      "telefono": "+39 011 506 9990",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0641572,7.6776140999999996",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "dadodoro-turin",
+      "nome": "Dadodoro",
+      "comune": "Torino",
+      "indirizzo": "Via Giuseppe Garibaldi, 39a, 10122 Torino TO, Italy",
+      "telefono": "+39 011 549968",
+      "sitoUfficiale": "https://www.dadodoro.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale"
+    },
+    {
+      "id": "dmgioielli-gioielleria-torino-gioielli-nanis-italian-jewels-orologi-d1-milano-locman-turin",
+      "nome": "D.M.Gioielli Gioielleria Torino - Gioielli Nanis Italian Jewels - Orologi D1 Milano - Locman",
+      "comune": "Torino",
+      "indirizzo": "Via Monginevro, 19/c, 10138 Torino TO, Italy",
+      "telefono": "+39 011 332215",
+      "sitoUfficiale": "https://dmgioiellitorino.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "dream-watch-turin",
+      "nome": "DREAM WATCH",
+      "comune": "Torino",
+      "indirizzo": "P.za Vittorio Veneto, 16\\B, 10123 Torino TO, Italy",
+      "telefono": "+39 011 763 3764",
+      "sitoUfficiale": "https://www.dreamwatch.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "elvetico-srl-napoli",
+      "nome": "Elvetico Srl",
+      "comune": "Napoli",
+      "indirizzo": "Via Domenico Cimarosa, 96, 80127 Napoli NA, Italy",
+      "telefono": "+39 081 578 2448",
+      "sitoUfficiale": "https://www.facebook.com/elveticosrl",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 148
+    },
+    {
+      "id": "emozioni-doro-di-barbato-sara-turin",
+      "nome": "Emozioni D'oro di Barbato Sara",
+      "comune": "Torino",
+      "indirizzo": "Via Onorato Vigliani, 4 Bis, 10135 Torino TO, Italy",
+      "telefono": "+39 328 165 1420",
+      "sitoUfficiale": "https://www.emotionluxuryjewels.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "enrico-verita-1865-florence",
+      "nome": "Enrico Verità 1865",
+      "comune": "Firenze",
+      "indirizzo": "Via dei Calzaiuoli, 122/R -124/R, 50122 Firenze FI, Italy",
+      "telefono": "+39 055 287862",
+      "sitoUfficiale": "https://www.enricoverita1865.com/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 97
+    },
+    {
+      "id": "eraora-roma-rome",
+      "nome": "ERAORA – Roma",
+      "comune": "Roma",
+      "indirizzo": "Via Cola di Rienzo, 167, 00193 Roma RM, Italy",
+      "telefono": "+39 06 324 3277",
+      "sitoUfficiale": "http://www.eraoraroma.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "esseci-di-salvestrini-maurizio-florence",
+      "nome": "Esseci Di Salvestrini Maurizio",
+      "comune": "Firenze",
+      "indirizzo": "Via del Bersaglio, 10/R, 50133 Firenze FI, Italy",
+      "telefono": "+39 055 685505",
+      "sitoUfficiale": "http://www.esseciassistenza.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 160
+    },
+    {
+      "id": "ettore-caropreso-napoli",
+      "nome": "Ettore Caropreso",
+      "comune": "Napoli",
+      "indirizzo": "Via Cisterna dell'Olio, 18, 80134 Napoli NA, Italy",
+      "telefono": "+39 339 455 3141",
+      "sitoUfficiale": "http://www.ettorecaropreso.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 1
+    },
+    {
+      "id": "fast-watch-orologeria-turin",
+      "nome": "Fast Watch Orologeria",
+      "comune": "Torino",
+      "indirizzo": "Corso Regina Margherita, 210, 10144 Torino TO, Italy",
+      "telefono": "+39 338 803 1033",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0820191,7.6685608",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "ferro-andrea-venice",
+      "nome": "Ferro Andrea",
+      "comune": "Venezia",
+      "indirizzo": "V. Andrea Costa, 25/B, 30171 Venezia VE, Italy",
+      "telefono": "+39 041 989204",
+      "sitoUfficiale": "https://maps.google.com/?q=45.489431700000004,12.2452715",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "flli-fraulo-sas-dal-1958-napoli",
+      "nome": "F.lli Fraulo sas dal 1958",
+      "comune": "Napoli",
+      "indirizzo": "P.za Nicola Amore, 6, 80138 Napoli NA, Italy",
+      "telefono": "+39 081 200886",
+      "sitoUfficiale": "https://maps.google.com/?q=40.847603299999996,14.2621924",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "flyback-lab-rome",
+      "nome": "Flyback Lab",
+      "comune": "Roma",
+      "indirizzo": "Via Padova, 16, 00161 Roma RM, Italy",
+      "telefono": "+39 06 9727 0942",
+      "sitoUfficiale": "https://maps.google.com/?q=41.911405099999996,12.5173338",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-artigianale-carbonich-venice",
+      "nome": "Gioielleria Artigianale Carbonich",
+      "comune": "Venezia",
+      "indirizzo": "Campiello Riccardo Selvatico, 5669, 30121 Venezia VE, Italy",
+      "telefono": "+39 041 528 5427",
+      "sitoUfficiale": "https://maps.google.com/?q=45.439668399999995,12.3368077",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-aurelio-baiano-napoli",
+      "nome": "Gioielleria Aurelio Baiano",
+      "comune": "Napoli",
+      "indirizzo": "Via Edoardo Nicolardi, 55, 80131 Napoli NA, Italy",
+      "telefono": "+39 347 347 0810",
+      "sitoUfficiale": "https://www.aureliobaianoigioielli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "gioielleria-bartalesi-florence",
+      "nome": "Gioielleria Bartalesi",
+      "comune": "Firenze",
+      "indirizzo": "Via Senese, 98/c/r, 50124 Firenze FI, Italy",
+      "telefono": "+39 055 232 0175",
+      "sitoUfficiale": "http://www.gioielleriabartalesi.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "gioielleria-calafiore-rome",
+      "nome": "Gioielleria Calafiore",
+      "comune": "Roma",
+      "indirizzo": "Via Leone IV, 89, 00192 Roma RM, Italy",
+      "telefono": "+39 06 3751 5119",
+      "sitoUfficiale": "https://maps.google.com/?q=41.909093600000006,12.4554691",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-checchin-luciano-venice",
+      "nome": "Gioielleria Checchin Luciano",
+      "comune": "Venezia",
+      "indirizzo": "Via Torre Belfredo, 89, 30174 Venezia VE, Italy",
+      "telefono": "+39 041 962330",
+      "sitoUfficiale": "https://www.facebook.com/Oreficeria-Orologeria-Checchin-100308250139282/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 148
+    },
+    {
+      "id": "gioielleria-compro-oro-riparazioni-di-salerno-giovanni-turin",
+      "nome": "Gioielleria compro oro riparazioni di Salerno Giovanni.",
+      "comune": "Torino",
+      "indirizzo": "Via Dante Di Nanni, 106/B, 10141 Torino TO, Italy",
+      "telefono": "+39 370 372 9636",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0637531,7.648394100000001",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-garofalo-napoli",
+      "nome": "GIOIELLERIA GAROFALO",
+      "comune": "Napoli",
+      "indirizzo": "Via Medina, 67/68, 80133 Napoli NA, Italy",
+      "telefono": "+39 081 001 2585",
+      "sitoUfficiale": "http://www.garofalogioielli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "gioielleria-imperatrice-napoli",
+      "nome": "Gioielleria Imperatrice",
+      "comune": "Napoli",
+      "indirizzo": "P.za Cavour, 5, 80137 Napoli NA, Italy",
+      "telefono": "+39 081 353 9564",
+      "sitoUfficiale": "https://gioielleriaimperatrice.com/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 18
+    },
+    {
+      "id": "gioielleria-maglione-napoli",
+      "nome": "Gioielleria Maglione",
+      "comune": "Napoli",
+      "indirizzo": "Via Angelo Camillo de Meis, 38, 80147 Napoli NA, Italy",
+      "telefono": "+39 081 596 7213",
+      "sitoUfficiale": "http://www.gioielleriamaglione.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "gioielleria-mariatti-turin",
+      "nome": "Gioielleria Mariatti",
+      "comune": "Torino",
+      "indirizzo": "Via Vanchiglia, 19, 10124 Torino TO, Italy",
+      "telefono": "+39 011 812 2440",
+      "sitoUfficiale": "http://www.mariatti.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "gioielleria-moon-watch-roma-rome",
+      "nome": "Gioielleria Moon Watch Roma",
+      "comune": "Roma",
+      "indirizzo": "Via Donato Menichella, 138, 00156 Roma RM, Italy",
+      "telefono": "+39 392 624 9903",
+      "sitoUfficiale": "https://maps.google.com/?q=41.9482812,12.5853003",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-orologeria-lorenzo-berlincioni-florence",
+      "nome": "Gioielleria Orologeria Lorenzo Berlincioni",
+      "comune": "Firenze",
+      "indirizzo": "Via Antonio del Pollaiolo, 15/R, 50142 Firenze FI, Italy",
+      "telefono": "+39 055 711478",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7705122,11.2128274",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gioielleria-white-gold-napoli",
+      "nome": "Gioielleria White Gold",
+      "comune": "Napoli",
+      "indirizzo": "Via Bernardo Tanucci, 30, 80137 Napoli NA, Italy",
+      "telefono": "+39 081 1882 1428",
+      "sitoUfficiale": "http://whitegoldshop.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "gioielleria-zingaro-milan",
+      "nome": "Gioielleria Zingaro",
+      "comune": "Milano",
+      "indirizzo": "Via Giuseppe Ripamonti, 3/a, 20136 Milano MI, Italy",
+      "telefono": "+39 02 5832 1172",
+      "sitoUfficiale": "https://www.zingaromilano.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "gioielli-m-salvati-snc-napoli",
+      "nome": "Gioielli M. Salvati s.n.c.",
+      "comune": "Napoli",
+      "indirizzo": "Via Ernesto Capocci, 30, 80133 Napoli NA, Italy",
+      "telefono": "+39 081 552 6364",
+      "sitoUfficiale": "http://www.salvatigioielli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "giovanni-tegliai-rome",
+      "nome": "Giovanni Tegliai",
+      "comune": "Roma",
+      "indirizzo": "Via Luciano Manara, 56, 00153 Roma RM, Italy",
+      "telefono": "+39 06 581 7439",
+      "sitoUfficiale": "https://maps.google.com/?q=41.8879945,12.4705201",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "gorilla-watch-bag-napoli",
+      "nome": "GORILLA WATCH & BAG",
+      "comune": "Napoli",
+      "indirizzo": "Via Piazza Larga, 20, 80133 Napoli NA, Italy",
+      "telefono": "+39 379 247 4989",
+      "sitoUfficiale": "https://gdrluxury.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "greco-orologi-turin",
+      "nome": "Greco Orologi",
+      "comune": "Torino",
+      "indirizzo": "C.so Francia, 310, 10146 Torino TO, Italy",
+      "telefono": "+39 349 449 2471",
+      "sitoUfficiale": "https://www.facebook.com/grecoorologi/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 148
+    },
+    {
+      "id": "guarino-raffaele-napoli",
+      "nome": "Guarino Raffaele",
+      "comune": "Napoli",
+      "indirizzo": "Via San Biagio Dei Librai, 6, 80138 Napoli NA, Italy",
+      "telefono": "+39 081 551 6626",
+      "sitoUfficiale": "https://maps.google.com/?q=40.848857699999996,14.2565587",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "halo-station-watch-di-alessandro-di-porzio-napoli",
+      "nome": "Halo Station Watch di Alessandro di Porzio",
+      "comune": "Napoli",
+      "indirizzo": "Via Maurizio De Vito Piscicelli, 108, 80129 Napoli NA, Italy",
+      "telefono": "+39 081 560 6620",
+      "sitoUfficiale": "https://maps.google.com/?q=40.8514954,14.2277186",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "hausmann-trident-srl-rome",
+      "nome": "Hausmann Trident srl",
+      "comune": "Roma",
+      "indirizzo": "Via del Babuino, 62/63, 00187 Roma RM, Italy",
+      "telefono": "+39 06 3211 0100",
+      "sitoUfficiale": "https://www.hausmann-co.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "htd-watches-florence",
+      "nome": "HTD Watches",
+      "comune": "Firenze",
+      "indirizzo": "Via del Drago D'Oro, 11R, 50124 Firenze FI, Italy",
+      "telefono": "+39 055 022 4319",
+      "sitoUfficiale": "http://htdwatches.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale"
+    },
+    {
+      "id": "i-preziosi-e-il-tempo-turin",
+      "nome": "I Preziosi E Il Tempo",
+      "comune": "Torino",
+      "indirizzo": "Corso Casale, 100, 10132 Torino TO, Italy",
+      "telefono": "+39 011 819 2866",
+      "sitoUfficiale": "https://www.ipreziosieiltempo.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "il-maestro-del-tempo-milan",
+      "nome": "Il Maestro del Tempo",
+      "comune": "Milano",
+      "indirizzo": "Galleria Unione, 1 - di fronte a, Via dell'Unione, 7, 20122 Milano MI, Italy",
+      "telefono": "+39 02 861193",
+      "sitoUfficiale": "https://www.ilmaestrodeltempo.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "in-time-firenze-florence",
+      "nome": "in time firenze",
+      "comune": "Firenze",
+      "indirizzo": "Via de' Bardi, 70/r, 50125 Firenze FI, Italy",
+      "telefono": "+39 055 217119",
+      "sitoUfficiale": "https://intimefirenze.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "jewelry-clockwork-by-paolantoni-roberto-rome",
+      "nome": "Jewelry Clockwork By Paolantoni Roberto",
+      "comune": "Roma",
+      "indirizzo": "Via degli Equi, 4, 00185 Roma RM, Italy",
+      "telefono": "+39 06 490597",
+      "sitoUfficiale": "https://maps.google.com/?q=41.8971388,12.5123131",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "jewelry-grassi-s-r-l-florence",
+      "nome": "Jewelry Grassi S. R. L.",
+      "comune": "Firenze",
+      "indirizzo": "Via Vittorio Locchi, 15ar, 50141 Firenze FI, Italy",
+      "telefono": "+39 055 412603",
+      "sitoUfficiale": "http://www.gioielleriagrassi.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "la-bottega-del-pendolo-turin",
+      "nome": "La bottega del pendolo",
+      "comune": "Torino",
+      "indirizzo": "Via Exilles, 62, 10146 Torino TO, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://maps.google.com/?q=45.0802903,7.632336",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "la-boutique-del-gioiello-roma-rome",
+      "nome": "La Boutique Del Gioiello ROMA",
+      "comune": "Roma",
+      "indirizzo": "Circonvallazione Trionfale, 127, 00195 Roma RM, Italy",
+      "telefono": "+39 06 3903 1396",
+      "sitoUfficiale": "https://orologitoproma.com/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "la-suisse-firenze-florence",
+      "nome": "La Suisse Firenze",
+      "comune": "Firenze",
+      "indirizzo": "Via dello Statuto, 15/red, 50129 Firenze FI, Italy",
+      "telefono": "+39 055 486274",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7859109,11.2505183",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "laboratorio-artigianale-di-oreficeria-florence",
+      "nome": "Laboratorio Artigianale Di Oreficeria",
+      "comune": "Firenze",
+      "indirizzo": "Via Bronzino, 3, 50143 Firenze FI, Italy",
+      "telefono": "+39 055 716652",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7734454,11.2319556",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "laboratorio-di-orologeria-di-carlone-felice-rome",
+      "nome": "Laboratorio di orologeria di Carlone Felice",
+      "comune": "Roma",
+      "indirizzo": "Via Virginia, 29, 00181 Roma RM, Italy",
+      "telefono": "+39 06 782 7171",
+      "sitoUfficiale": "https://maps.google.com/?q=41.87677240000001,12.523377499999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "laboratorio-orologeria-lomellina-milan",
+      "nome": "Laboratorio Orologeria Lomellina",
+      "comune": "Milano",
+      "indirizzo": "Via Lomellina, 48, 20100 Milano MI, Italy",
+      "telefono": "+39 373 535 5052",
+      "sitoUfficiale": "https://laboratorio-orologeria-lomellina.webnode.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale"
+    },
+    {
+      "id": "laborologio-rome",
+      "nome": "LabOrologio",
+      "comune": "Roma",
+      "indirizzo": "P.za della Repùbblica, 59, 00184 Roma RM, Italy",
+      "telefono": "+39 338 961 2737",
+      "sitoUfficiale": "https://www.laborologio.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "landini-gioielleria-florence",
+      "nome": "Landini Gioielleria",
+      "comune": "Firenze",
+      "indirizzo": "Via Senese, 7/red, 50124 Firenze FI, Italy",
+      "telefono": "+39 055 233 6194",
+      "sitoUfficiale": "https://maps.google.com/?q=43.759918,11.2416418",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "lartigianaio-orologi-di-daniele-merelli-rome",
+      "nome": "L'Artigianaio Orologi Di Daniele Merelli",
+      "comune": "Roma",
+      "indirizzo": "Via Urbana, 103, 00184 Roma RM, Italy",
+      "telefono": "+39 06 474 2284",
+      "sitoUfficiale": "https://maps.google.com/?q=41.896091,12.493872999999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "lgrifoni-oreficeria-gioielleria-florence",
+      "nome": "L.Grifoni Oreficeria - Gioielleria",
+      "comune": "Firenze",
+      "indirizzo": "Via Senese, 291, 50124 Firenze FI, Italy",
+      "telefono": "+39 055 204 8039",
+      "sitoUfficiale": "http://www.grifonigioielli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "lo-zodiaco-florence",
+      "nome": "\"Lo Zodiaco\"",
+      "comune": "Firenze",
+      "indirizzo": "Via Faenza, 35, 50123 Firenze FI, Italy",
+      "telefono": "+39 366 412 0868",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7755599,11.252224199999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "locman-italy-boutique-e-gioielleria-florence",
+      "nome": "LOCMAN Italy - Boutique e Gioielleria",
+      "comune": "Firenze",
+      "indirizzo": "Via de' Tornabuoni, 76/R, 50123 Firenze FI, Italy",
+      "telefono": "+39 055 211605",
+      "sitoUfficiale": "http://www.locman.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "lora-illegale-napoli",
+      "nome": "L'Ora Illegale",
+      "comune": "Napoli",
+      "indirizzo": "Via Pietro Castellino, 26/28, 80128 Napoli NA, Italy",
+      "telefono": "+39 081 1985 4005",
+      "sitoUfficiale": "https://maps.google.com/?q=40.851517799999996,14.2269645",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "marconi-co-orologeria-meccanica-rome",
+      "nome": "MARCONI & CO Orologeria Meccanica",
+      "comune": "Roma",
+      "indirizzo": "Via di Torre Argentina, 1, 00186 Roma RM, Italy",
+      "telefono": "+39 06 6880 3505",
+      "sitoUfficiale": "https://maps.google.com/?q=41.8973484,12.4764424",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "marostica-di-zenucchini-maurizio-turin",
+      "nome": "Marostica Di Zenucchini Maurizio",
+      "comune": "Torino",
+      "indirizzo": "Via S. Francesco da Paola, 25, 10123 Torino TO, Italy",
+      "telefono": "+39 011 207 7224",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0629989,7.685282600000001",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "mas-gioielli-turin",
+      "nome": "MAS Gioielli",
+      "comune": "Torino",
+      "indirizzo": "Corso Trapani, 146/B, 10141 Torino TO, Italy",
+      "telefono": "+39 011 331725",
+      "sitoUfficiale": "http://www.masgioielli.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "matassini-florence",
+      "nome": "Matassini",
+      "comune": "Firenze",
+      "indirizzo": "Via Lambertesca, 18, 50122 Firenze FI, Italy",
+      "telefono": null,
+      "sitoUfficiale": "http://www.gioielleriamatassinifirenze.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale"
+    },
+    {
+      "id": "matteo-campolmi-riparazione-orologi-florence",
+      "nome": "Matteo Campolmi Riparazione Orologi",
+      "comune": "Firenze",
+      "indirizzo": "Via delle Ruote, 1/R, 50129 Firenze FI, Italy",
+      "telefono": "+39 055 483320",
+      "sitoUfficiale": "https://maps.google.com/?q=43.779773,11.258142999999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "mi-time-vendita-e-acquisto-di-orologi-usati-a-milano-solo-marchi-di-pregio-milan",
+      "nome": "MI-TIME Vendita e Acquisto di Orologi usati a Milano, solo marchi di pregio",
+      "comune": "Milano",
+      "indirizzo": "Corso Magenta, 14, 20123 Milano MI, Italy",
+      "telefono": "+39 392 809 6314",
+      "sitoUfficiale": "http://www.mi-time.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "milan-time-srl-milan",
+      "nome": "Milan Time Srl",
+      "comune": "Milano",
+      "indirizzo": "Via Luigi Settembrini, 60, 20124 Milano MI, Italy",
+      "telefono": "+39 02 669 0182",
+      "sitoUfficiale": "https://instagram.com/milanotime.srl",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 15
+    },
+    {
+      "id": "milton-gioielli-rome",
+      "nome": "Milton Gioielli",
+      "comune": "Roma",
+      "indirizzo": "Via Sambucuccio d'Alando, 29, 00162 Roma RM, Italy",
+      "telefono": "+39 351 926 8075",
+      "sitoUfficiale": "https://miltongioielliroma.sumupstore.com/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 66
+    },
+    {
+      "id": "mp-store-napoli",
+      "nome": "MP Store",
+      "comune": "Napoli",
+      "indirizzo": "Via Agostino Depretis, 127, 80133 Napoli NA, Italy",
+      "telefono": "+39 081 551 3591",
+      "sitoUfficiale": "http://www.mpstoreorologi.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "murolo-alberto-orologiaio-riparatore-orologeria-napoli-napoli",
+      "nome": "Murolo Alberto - Orologiaio riparatore, Orologeria - Napoli",
+      "comune": "Napoli",
+      "indirizzo": "Piazzetta Matilde Serao, 39, 80132 Napoli NA, Italy",
+      "telefono": "+39 338 176 0364",
+      "sitoUfficiale": "https://maps.google.com/?q=40.8381076,14.2486295",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "noci-luca-florence",
+      "nome": "Noci Luca",
+      "comune": "Firenze",
+      "indirizzo": "Via del Ponte alle Mosse, 37 R, 50144 Firenze FI, Italy",
+      "telefono": "+39 055 332696",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7788402,11.238714199999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "non-solo-orologi-napoli-napoli",
+      "nome": "Non Solo Orologi Napoli",
+      "comune": "Napoli",
+      "indirizzo": "P.za Cavour, 59, 80137 Napoli NA, Italy",
+      "telefono": "+39 081 446462",
+      "sitoUfficiale": "https://www.facebook.com/nonsolorologi",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 148
+    },
+    {
+      "id": "occhio-al-tempo-rome",
+      "nome": "Occhio al Tempo",
+      "comune": "Roma",
+      "indirizzo": "Via Pisa, 6, 00162 Roma RM, Italy",
+      "telefono": "+39 366 874 4546",
+      "sitoUfficiale": "https://maps.google.com/?q=41.9162603,12.5247849",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "omega-florence",
+      "nome": "Omega",
+      "comune": "Firenze",
+      "indirizzo": "Via de' Tornabuoni, 25, 50123 Firenze FI, Italy",
+      "telefono": "+39 055 238 2910",
+      "sitoUfficiale": "https://www.omegawatches.com/it-it/store/storedetails/7875?utm_source=google&amp;utm_medium=local&amp;utm_campaign=MyBusiness&amp;utm_term=Firenze",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "omega-venice-store-venice",
+      "nome": "OMEGA Venice Store",
+      "comune": "Venezia",
+      "indirizzo": "Calle Larga XXII Marzo, 2251, 30124 Venezia VE, Italy",
+      "telefono": "+39 041 522 0820",
+      "sitoUfficiale": "https://www.omegawatches.com/it/store/storedetails/7476?utm_source=google&amp;utm_medium=local&amp;utm_campaign=MyBusiness&amp;utm_term=Venezia",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "orafi-flli-mevlat-turin",
+      "nome": "ORAFI F.lli MEVLAT",
+      "comune": "Torino",
+      "indirizzo": "Via Giuseppe Barbaroux, 5 h, 10122 Torino TO, Italy",
+      "telefono": "+39 393 424 7556",
+      "sitoUfficiale": "https://orafimevlat.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "oreficeria-e-gioielleria-neirotti-torino-turin",
+      "nome": "Oreficeria e Gioielleria Neirotti - Torino",
+      "comune": "Torino",
+      "indirizzo": "Corso Regina Margherita, 232, 10144 Torino TO, Italy",
+      "telefono": "+39 340 282 5576",
+      "sitoUfficiale": "https://www.oreficerianeirottishop.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "oreficeria-romano-florence",
+      "nome": "Oreficeria Romano",
+      "comune": "Firenze",
+      "indirizzo": "Via de' Cerretani, 39/R, 50123 Firenze FI, Italy",
+      "telefono": "+39 055 211048",
+      "sitoUfficiale": "https://maps.google.com/?q=43.773371999999995,11.2532135",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "oreficeria-romoli-florence-luxury-watches-florence",
+      "nome": "Oreficeria Romoli Florence Luxury Watches",
+      "comune": "Firenze",
+      "indirizzo": "Viale Donato Giannotti, 21 A, 50126 Firenze FI, Italy",
+      "telefono": "+39 055 686055",
+      "sitoUfficiale": "https://www.florenceluxurywatches.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "oreficeria-tiozzo-since-1957-venice",
+      "nome": "Oreficeria Tiozzo Since 1957",
+      "comune": "Venezia",
+      "indirizzo": "S. Marco, 740, 30124 Venezia VE, Italy",
+      "telefono": "+39 041 522 1217",
+      "sitoUfficiale": "https://tiozzo1957.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "orion-florence",
+      "nome": "Orion",
+      "comune": "Firenze",
+      "indirizzo": "Via Vincenzo Gioberti, 94/red, 50121 Firenze FI, Italy",
+      "telefono": "+39 328 159 6027",
+      "sitoUfficiale": "https://www.orionfirenze.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "orologeria-andrioletti-venice",
+      "nome": "Orologeria Andrioletti",
+      "comune": "Venezia",
+      "indirizzo": "Via S. Donà, 360, 30173 Venezia VE, Italy",
+      "telefono": "+39 347 994 4571",
+      "sitoUfficiale": "https://maps.google.com/?q=45.5033908,12.2789231",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-bivona-turin",
+      "nome": "orologeria bivona",
+      "comune": "Torino",
+      "indirizzo": "Via Cernaia, 32, 10122 Torino TO, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://maps.google.com/?q=45.072700499999996,7.6712415",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-bousquet-di-bousquet-francesca-e-c-snc-rome",
+      "nome": "Orologeria Bousquet Di Bousquet Francesca E C. S.N.C",
+      "comune": "Roma",
+      "indirizzo": "Palazzo Colonna, Via Quattro Novembre, 137, 00187 Roma RM, Italy",
+      "telefono": "+39 06 679 1263",
+      "sitoUfficiale": "http://www.orologeriabousquet.it/html/dovesiamo.htm",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "orologeria-bruni-stefano-rome",
+      "nome": "Orologeria Bruni Stefano",
+      "comune": "Roma",
+      "indirizzo": "Piazza Carlo Alberto Scotti, 27, 00151 Roma RM, Italy",
+      "telefono": "+39 06 534 3298",
+      "sitoUfficiale": "http://orologerie.it/292937_bruni_stefano_roma.htm",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "orologeria-crono-lab-roma-rome",
+      "nome": "Orologeria Crono Lab Roma",
+      "comune": "Roma",
+      "indirizzo": "Via Folco Portinari, 67, 00151 Roma RM, Italy",
+      "telefono": "+39 06 3107 0595",
+      "sitoUfficiale": "https://maps.google.com/?q=41.868842199999996,12.4483132",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-fedalto-tecnicwatch-venice",
+      "nome": "Orologeria Fedalto TecnicWatch",
+      "comune": "Venezia",
+      "indirizzo": "Via Calucci, 3i, 30174 Venezia VE, Italy",
+      "telefono": "+39 041 913814",
+      "sitoUfficiale": "https://maps.google.com/?q=45.486368299999995,12.215887299999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-ferrante-rome",
+      "nome": "Orologeria Ferrante",
+      "comune": "Roma",
+      "indirizzo": "Viale Giulio Cesare, 231, 00192 Roma RM, Italy",
+      "telefono": "+39 06 3972 5492",
+      "sitoUfficiale": "http://orologeriaferrante.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 18
+    },
+    {
+      "id": "orologeria-gino-lin-milan",
+      "nome": "Orologeria Gino Lin",
+      "comune": "Milano",
+      "indirizzo": "Via Alessandro Tadino, 48, 20124 Milano MI, Italy",
+      "telefono": "+39 347 164 8832",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4816113,9.2102209",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-il-tempo-turin",
+      "nome": "Orologeria Il Tempo",
+      "comune": "Torino",
+      "indirizzo": "Via Renato Martorelli, 96, 10155 Torino TO, Italy",
+      "telefono": "+39 011 242 4153",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0998021,7.69421",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-laboratorio-orafo-florence",
+      "nome": "Orologeria Laboratorio Orafo",
+      "comune": "Firenze",
+      "indirizzo": "Via Vittorio Locchi, 49, 50141 Firenze FI, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://maps.google.com/?q=43.804853300000005,11.2380961",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-laboratorio-riparazioni-di-danilo-castagna-rome",
+      "nome": "Orologeria Laboratorio riparazioni di Danilo Castagna",
+      "comune": "Roma",
+      "indirizzo": "Via Giuseppe Bagnera, 81, 00146 Roma RM, Italy",
+      "telefono": "+39 347 149 9943",
+      "sitoUfficiale": "https://maps.google.com/?q=41.863303099999996,12.4670174",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-lauro-rome",
+      "nome": "Orologeria Lauro",
+      "comune": "Roma",
+      "indirizzo": "Circonvallazione Gianicolense, 196, 00152 Roma RM, Italy",
+      "telefono": "+39 06 5820 1902",
+      "sitoUfficiale": "https://maps.google.com/?q=41.870417599999996,12.451508299999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-marconi-turin",
+      "nome": "Orologeria Marconi",
+      "comune": "Torino",
+      "indirizzo": "Via Madama Cristina, 36/a, 10125 Torino TO, Italy",
+      "telefono": "+39 011 698 4377",
+      "sitoUfficiale": "https://orologeriamarconi.com/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 294
+    },
+    {
+      "id": "orologeria-navy-time-napoli",
+      "nome": "Orologeria Navy Time",
+      "comune": "Napoli",
+      "indirizzo": "Piazza Francese, 31, 80133 Napoli NA, Italy",
+      "telefono": "+39 081 552 5810",
+      "sitoUfficiale": "https://www.shopping360.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 1
+    },
+    {
+      "id": "orologeria-oreficeria-scardi-florence",
+      "nome": "Orologeria Oreficeria SCARDI",
+      "comune": "Firenze",
+      "indirizzo": "Via Gabriele D'Annunzio, 8/a, 50135 Firenze FI, Italy",
+      "telefono": null,
+      "sitoUfficiale": "http://www.scardi.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "orologeria-reali-turin",
+      "nome": "Orologeria Reali",
+      "comune": "Torino",
+      "indirizzo": "Corso Belgio, 70, 10153 Torino TO, Italy",
+      "telefono": "+39 011 586 3337",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0731651,7.715167900000001",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-tempus-fugit-turin",
+      "nome": "Orologeria Tempus Fugit",
+      "comune": "Torino",
+      "indirizzo": "C.so Francia, 11, 10138 Torino TO, Italy",
+      "telefono": "+39 011 263 9680",
+      "sitoUfficiale": "https://maps.google.com/?q=45.076206899999995,7.665452500000001",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-time-zone-rome",
+      "nome": "Orologeria Time Zone",
+      "comune": "Roma",
+      "indirizzo": "Via dei Pettinari, 41, 00186 Roma RM, Italy",
+      "telefono": "+39 328 877 7080",
+      "sitoUfficiale": "https://maps.google.com/?q=41.8931622,12.4719135",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-watch-shop-lovisetto-roberto-venice",
+      "nome": "Orologeria Watch Shop Lovisetto Roberto",
+      "comune": "Venezia",
+      "indirizzo": "Salizada S. Lio, 5705, 30122 Venezia VE, Italy",
+      "telefono": "+39 041 309 4936",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4372962,12.3391753",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologeria-watch-watch-rome",
+      "nome": "Orologeria Watch & Watch",
+      "comune": "Roma",
+      "indirizzo": "Via Merulana 269 ( altezza, Basilica di Santa Maria Maggiore, Via Merulana, N 269, 00185 Roma RM, Italy",
+      "telefono": "+39 06 4890 3469",
+      "sitoUfficiale": "http://www.watchwatch.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "orologi-orologi-di-vannini-roberto-florence",
+      "nome": "Orologi & Orologi Di Vannini Roberto",
+      "comune": "Firenze",
+      "indirizzo": "81A/Rosso, Via Vittorio Emanuele II, 50134 Firenze FI, Italy",
+      "telefono": "+39 055 473799",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7923458,11.2513896",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologiaio-caputo-riparazione-orologi-turin",
+      "nome": "Orologiaio Caputo Riparazione Orologi",
+      "comune": "Torino",
+      "indirizzo": "Corso Regina Margherita, 102, 10152 Torino TO, Italy",
+      "telefono": "+39 351 812 7395",
+      "sitoUfficiale": "https://www.instagram.com/orologiaio.caputo/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 15
+    },
+    {
+      "id": "orologiaio-mazza-turin",
+      "nome": "Orologiaio Mazza",
+      "comune": "Torino",
+      "indirizzo": "Via Claudio Beaumont, 31 A, 10143 Torino TO, Italy",
+      "telefono": "+39 347 069 1122",
+      "sitoUfficiale": "https://maps.google.com/?q=45.073631999999996,7.6645233",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologialdo-turin",
+      "nome": "Orologialdo",
+      "comune": "Torino",
+      "indirizzo": "Corso Carlo e Nello Rosselli, 92, 10129 Torino TO, Italy",
+      "telefono": "+39 011 427 8295",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0530796,7.656737799999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologiaro-gbotticelli-84-florence",
+      "nome": "Orologiaro G.BOTTICELLI 84",
+      "comune": "Firenze",
+      "indirizzo": "Borgo degli Albizi, 82/86, 50122 Firenze FI, Italy",
+      "telefono": "+39 055 239 8078",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7715821,11.259320899999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologieria-il-tempo-che-cammina-di-castrogiovanni-gino-florence",
+      "nome": "Orologieria Il Tempo Che Cammina Di Castrogiovanni Gino",
+      "comune": "Firenze",
+      "indirizzo": "Viale Europa, 89, 50126 Firenze FI, Italy",
+      "telefono": "+39 055 680700",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7570911,11.2931697",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "orologimania-rome",
+      "nome": "Orologimania",
+      "comune": "Roma",
+      "indirizzo": "Viale Adriatico, 63, 00141 Roma RM, Italy",
+      "telefono": "+39 06 8719 5810",
+      "sitoUfficiale": "https://orologi-mania.mybestshops.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "orotecnica-watch-service-napoli",
+      "nome": "Orotecnica Watch Service",
+      "comune": "Napoli",
+      "indirizzo": "Via Medina, 5, 80131 Napoli NA, Italy",
+      "telefono": "+39 081 551 8060",
+      "sitoUfficiale": "http://www.orotecnica.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "pecchioli-alessandro-orologeria-oreficeria-gioielleria-florence",
+      "nome": "Pecchioli Alessandro Orologeria oreficeria gioielleria",
+      "comune": "Firenze",
+      "indirizzo": "Via Taddeo Alderotti, 24 rosso, 50139 Firenze FI, Italy",
+      "telefono": "+39 055 436 0612",
+      "sitoUfficiale": "https://maps.google.com/?q=43.7980739,11.2454254",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "philip-watch-napoli",
+      "nome": "Philip Watch",
+      "comune": "Napoli",
+      "indirizzo": "Via Nazionale, 76, 80143 Napoli NA, Italy",
+      "telefono": "+39 081 553 6409",
+      "sitoUfficiale": "https://maps.google.com/?q=40.8570936,14.273951799999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "pimazzoni-renato-turin",
+      "nome": "Pimazzoni Renato",
+      "comune": "Torino",
+      "indirizzo": "Corso S. Maurizio, 7, 10124 Torino TO, Italy",
+      "telefono": "+39 011 812 6566",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0734007,7.691402999999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "pirone-pasquale-napoli",
+      "nome": "Pirone Pasquale",
+      "comune": "Napoli",
+      "indirizzo": "Riviera di Chiaia, 26, 80122 Napoli NA, Italy",
+      "telefono": "+39 081 761 6236",
+      "sitoUfficiale": "http://www.pironeorologi.it/",
+      "stato": "DUPLICATO",
+      "duplicatoDi": "pirone-napoli"
+    },
+    {
+      "id": "poggi-orologioielleria-florence",
+      "nome": "Poggi Orologioielleria",
+      "comune": "Firenze",
+      "indirizzo": "Borgo la Croce, 66r, 50121 Firenze FI, Italy",
+      "telefono": "+39 055 234 3606",
+      "sitoUfficiale": "https://maps.google.com/?q=43.771439699999995,11.2674071",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "rabiti-riparazione-orologi-florence",
+      "nome": "Rabiti Riparazione orologi",
+      "comune": "Firenze",
+      "indirizzo": "P.zza Taddeo Gaddi, 22r, 50142 Firenze FI, Italy",
+      "telefono": "+39 339 226 0342",
+      "sitoUfficiale": "https://www.orologeriarabiti.com/",
+      "stato": "DUPLICATO",
+      "duplicatoDi": "rabiti-firenze"
+    },
+    {
+      "id": "raimondi-mario-orologeria-depoca-dal-1957-napoli",
+      "nome": "Raimondi Mario Orologeria d'Epoca dal 1957",
+      "comune": "Napoli",
+      "indirizzo": "Via San Biagio Dei Librai, 6, 80138 Napoli NA, Italy",
+      "telefono": "+39 081 551 6626",
+      "sitoUfficiale": "https://maps.google.com/?q=40.848857699999996,14.2565587",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "rc-orologi-srl-venice",
+      "nome": "RC OROLOGI S.R.L.",
+      "comune": "Venezia",
+      "indirizzo": "Via Alessandro Poerio, 22, 30171 Venezia VE, Italy",
+      "telefono": "+39 331 418 7649",
+      "sitoUfficiale": "https://www.rcorologi.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "rdm-watches-srl-napoli",
+      "nome": "RDM Watches SRL",
+      "comune": "Napoli",
+      "indirizzo": "Via Gaetano Filangieri, 72, 80121 Napoli NA, Italy",
+      "telefono": "+39 345 212 5448",
+      "sitoUfficiale": "https://instagram.com/rdmwatches",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 15
+    },
+    {
+      "id": "realbox-orologeria-rome",
+      "nome": "Realbox orologeria",
+      "comune": "Roma",
+      "indirizzo": "fronte civico 3, Corso Sempione, 00141 Roma RM, Italy",
+      "telefono": "+39 06 824275",
+      "sitoUfficiale": "https://maps.google.com/?q=41.9351172,12.5342132",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "remon-time-rome",
+      "nome": "Remon time",
+      "comune": "Roma",
+      "indirizzo": "Via Ravenna, 19, 00161 Roma RM, Italy",
+      "telefono": "+39 06 3972 5874",
+      "sitoUfficiale": "http://remontime.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "rewatches-torino-turin",
+      "nome": "Rewatches Torino",
+      "comune": "Torino",
+      "indirizzo": "Via Vassalli Eandi, 38/a, 10138 Torino TO, Italy",
+      "telefono": "+39 376 129 3140",
+      "sitoUfficiale": "https://www.rewatches.it/?utm_source=google&amp;utm_medium=wix_google_business_profile&amp;utm_campaign=4495441194984773577",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "riparazione-orologi-baldini-timex-nautica-guess-festina-liujo-ferrari-maserati-jaguar-lotus-florence",
+      "nome": "Riparazione OROLOGI Baldini Timex Nautica Guess Festina LiuJo Ferrari Maserati Jaguar Lotus",
+      "comune": "Firenze",
+      "indirizzo": "V. Baccio da Montelupo, n°22/b, 50142 Firenze FI, Italy",
+      "telefono": "+39 055 732 6285",
+      "sitoUfficiale": "http://www.baldiniorologi.it/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "roberto-capo-snc-di-capo-stefano-c-turin",
+      "nome": "Roberto Capo snc di Capo Stefano & C.",
+      "comune": "Torino",
+      "indirizzo": "C.so Vittorio Emanuele II, 78, 10121 Torino TO, Italy",
+      "telefono": "+39 011 546539",
+      "sitoUfficiale": "http://www.laboratoriocapo.com/",
+      "stato": "DUPLICATO",
+      "duplicatoDi": "capo-torino"
+    },
+    {
+      "id": "roma-time-acquisto-e-vendita-orologi-di-lusso-rolex-audemars-piguet-patek-philippe-rome",
+      "nome": "Roma Time-Acquisto e vendita Orologi di lusso- Rolex- Audemars Piguet-Patek Philippe",
+      "comune": "Roma",
+      "indirizzo": "P.za dell'Esquilino, 28, 00184 Roma RM, Italy",
+      "telefono": "+39 320 112 0680",
+      "sitoUfficiale": "https://www.romatime.net/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 226
+    },
+    {
+      "id": "royal-time-laboratorio-tecnico-orologeria-turin",
+      "nome": "Royal Time Laboratorio Tecnico Orologeria",
+      "comune": "Torino",
+      "indirizzo": "C.so Orbassano, 199/b, 10137 Torino TO, Italy",
+      "telefono": "+39 011 429 7059",
+      "sitoUfficiale": "https://maps.google.com/?q=45.043634,7.641518",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "salvadori-venezia-venice",
+      "nome": "Salvadori Venezia",
+      "comune": "Venezia",
+      "indirizzo": "P.za San Marco, 67, 30124 Venezia VE, Italy",
+      "telefono": "+39 041 523 0609",
+      "sitoUfficiale": "https://www.salvadoridiamondatelier.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "servizi-alta-orologeria-srl-milan",
+      "nome": "Servizi Alta Orologeria S.R.L.",
+      "comune": "Milano",
+      "indirizzo": "Via Nirone, 10, 20123 Milano MI, Italy",
+      "telefono": "+39 02 8646 3420",
+      "sitoUfficiale": "http://www.servizialtaorologeria.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "seven-gioielleria-orologiaio-turin",
+      "nome": "Seven - Gioielleria, Orologiaio",
+      "comune": "Torino",
+      "indirizzo": "Via Asiago, 29, 10142 Torino TO, Italy",
+      "telefono": "+39 392 358 7546",
+      "sitoUfficiale": "https://maps.google.com/?q=45.0699816,7.6146426",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "spartera-giovanni-napoli",
+      "nome": "Spartera Giovanni",
+      "comune": "Napoli",
+      "indirizzo": "Via Pavia, 31, 80143 Napoli NA, Italy",
+      "telefono": "+39 081 283911",
+      "sitoUfficiale": "https://maps.google.com/?q=40.855953799999995,14.2729921",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "stefano-carraro-orologiaio-turin",
+      "nome": "Stefano Carraro orologiaio",
+      "comune": "Torino",
+      "indirizzo": "Via Tunisi, 131/A, 10134 Torino TO, Italy",
+      "telefono": "+39 011 036 0675",
+      "sitoUfficiale": "https://www.instagram.com/stefano_carraro_orologiaio/?hl=it",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 15
+    },
+    {
+      "id": "swatch-cola-di-rienzo-rome",
+      "nome": "Swatch Cola di Rienzo",
+      "comune": "Roma",
+      "indirizzo": "Via Cola di Rienzo, 113/115, 00192 Roma RM, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://maps.google.com/?q=41.9083061,12.466068499999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "swatch-san-marco-venice",
+      "nome": "Swatch San Marco",
+      "comune": "Venezia",
+      "indirizzo": "Marzaria, Campo S. Salvador, 5022, 30123 Venezia VE, Italy",
+      "telefono": null,
+      "sitoUfficiale": "https://www.swatch.com/it_it",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "tag-heuer-venice",
+      "nome": "TAG Heuer",
+      "comune": "Venezia",
+      "indirizzo": "Per S. Marco, 1298, 30124 Venezia VE, Italy",
+      "telefono": "+39 041 521 1401",
+      "sitoUfficiale": "https://tagheuer.com/stores/it-venezia-boutique-tag-heuer-venezia-142464?utm_source=Yext&amp;utm_medium=GMB&amp;y_source=1_MjgwMTIwMzUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 397
+    },
+    {
+      "id": "the-news-clock-venice",
+      "nome": "The News Clock",
+      "comune": "Venezia",
+      "indirizzo": "Merceria Orologio, 267, 30124 Venezia VE, Italy",
+      "telefono": "+39 041 528 7313",
+      "sitoUfficiale": "https://www.venicestores.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "tic-tac-riparazione-orologi-antichi-e-moderni-florence",
+      "nome": "Tic Tac - Riparazione Orologi Antichi e Moderni",
+      "comune": "Firenze",
+      "indirizzo": "Via Cesare Pavese, 5, 50019 Sesto Fiorentino FI, Italy",
+      "telefono": "+39 392 102 0070",
+      "sitoUfficiale": "https://maps.google.com/?q=43.8276449,11.199219399999999",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "tic-tac-vendita-e-riparazione-orologi-roma-rome",
+      "nome": "Tic Tac - Vendita e Riparazione Orologi Roma",
+      "comune": "Roma",
+      "indirizzo": "Via di Tor Pignattara, 79, 00177 Roma RM, Italy",
+      "telefono": "+39 06 2440 1673",
+      "sitoUfficiale": "https://www.orologitictac.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "time-time-turin",
+      "nome": "Time & Time",
+      "comune": "Torino",
+      "indirizzo": "Corso S. Martino, 0/F, 10122 Torino TO, Italy",
+      "telefono": "+39 011 489774",
+      "sitoUfficiale": "http://www.paginegialle.it/time-e-time-torino",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "tourbillon-luxury-watches-rome",
+      "nome": "Tourbillon Luxury Watches",
+      "comune": "Roma",
+      "indirizzo": "Via Licia, 40, 00183 Roma RM, Italy",
+      "telefono": "+39 347 510 7642",
+      "sitoUfficiale": "http://www.tourbillonitalia.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "trucchi-napoli-napoli",
+      "nome": "Trucchi Napoli",
+      "comune": "Napoli",
+      "indirizzo": "Via S. Caterina, 74/75, 80121 Napoli NA, Italy",
+      "telefono": "+39 081 414961",
+      "sitoUfficiale": "https://www.trucchiorologeria.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "trucchi-piazza-dei-martiri-napoli",
+      "nome": "Trucchi Piazza dei Martiri",
+      "comune": "Napoli",
+      "indirizzo": "Piazza dei Martiri, 31/32, 80121 Napoli NA, Italy",
+      "telefono": "+39 081 417874",
+      "sitoUfficiale": "https://www.trucchiorologeria.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "indirizzo"
+    },
+    {
+      "id": "turin-time-srl-turin",
+      "nome": "Turin Time s.r.l.",
+      "comune": "Torino",
+      "indirizzo": "Via S. Secondo, 17, 10128 Torino TO, Italy",
+      "telefono": "+39 011 537847",
+      "sitoUfficiale": "http://www.turintime.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "tuttorologi-di-mellinato-leonardo-venice",
+      "nome": "Tuttorologi di Mellinato Leonardo",
+      "comune": "Venezia",
+      "indirizzo": "Viale Giuseppe Garibaldi, 1, 30173 Venezia VE, Italy",
+      "telefono": "+39 041 534 4350",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4964922,12.2442529",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "unitech-lab-turin",
+      "nome": "UniTech LAB",
+      "comune": "Torino",
+      "indirizzo": "Via Fréjus, 8, 10139 Torino TO, Italy",
+      "telefono": "+39 011 386948",
+      "sitoUfficiale": "http://www.unitechlab.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "venticinquesima-ora-florence",
+      "nome": "Venticinquesima Ora",
+      "comune": "Firenze",
+      "indirizzo": "Viale Giacomo Matteotti, 70, 50132 Firenze FI, Italy",
+      "telefono": "+39 335 614 8154",
+      "sitoUfficiale": "https://www.venticinquesima-ora.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "vintage-crown-italy-napoli",
+      "nome": "Vintage Crown Italy",
+      "comune": "Napoli",
+      "indirizzo": "Via Alessandro Scarlatti, 60, 80129 Napoli NA, Italy",
+      "telefono": "+39 348 246 7537",
+      "sitoUfficiale": "http://www.vintagecrownitaly.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "vintage-watches-milano-milan",
+      "nome": "Vintage Watches Milano",
+      "comune": "Milano",
+      "indirizzo": "Via dell'Orso, 12, 20121 Milano MI, Italy",
+      "telefono": "+39 02 3675 3661",
+      "sitoUfficiale": "http://www.vintagewatchesmilano.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "vintage-watches-napoli-napoli",
+      "nome": "Vintage Watches Napoli",
+      "comune": "Napoli",
+      "indirizzo": "Via Agostino Depretis, 88, 80133 Napoli NA, Italy",
+      "telefono": "+39 333 526 7684",
+      "sitoUfficiale": "http://www.vwnapoli.it/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "watch-co-roma-rome",
+      "nome": "Watch & Co. Roma",
+      "comune": "Roma",
+      "indirizzo": "Via Franco Sacchetti, 53, 00137 Roma RM, Italy",
+      "telefono": "+39 338 893 4241",
+      "sitoUfficiale": "https://watchecoroma.com/",
+      "stato": "NO-SITO"
+    },
+    {
+      "id": "watch-lab-milan",
+      "nome": "Watch & Lab",
+      "comune": "Milano",
+      "indirizzo": "Via Lazzaro Papi, 2, 20135 Milano MI, Italy",
+      "telefono": "+39 02 3943 2869",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4498563,9.2067275",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "watch-roma-orologi-di-lusso-ardeatina-rome",
+      "nome": "Watch Roma - Orologi di Lusso Ardeatina",
+      "comune": "Roma",
+      "indirizzo": "Largo Montanari, 00134 Roma RM, Italy",
+      "telefono": "+39 393 919 8208",
+      "sitoUfficiale": "https://www.watchroma.it/",
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "watch-service-group-srl-napoli",
+      "nome": "Watch Service Group Srl",
+      "comune": "Napoli",
+      "indirizzo": "Zona Industriale, Marcianise, CE 81025, 81020 San Marco Evangelista CE, Italy",
+      "telefono": "+39 0823 513236",
+      "sitoUfficiale": "http://www.watchservice.it/",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 0
+    },
+    {
+      "id": "watches-diamonds-napoli",
+      "nome": "Watches & Diamonds",
+      "comune": "Napoli",
+      "indirizzo": "Via Cavallerizza a Chiaia, 10, 80121 Napoli NA, Italy",
+      "telefono": "+39 081 400050",
+      "sitoUfficiale": "http://www.watchesdiamonds.it/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "watches-in-rome-rome",
+      "nome": "Watches In Rome",
+      "comune": "Roma",
+      "indirizzo": "Via della Fontanella di Borghese, 33, 00186 Roma RM, Italy",
+      "telefono": "+39 06 688 0253",
+      "sitoUfficiale": "https://www.watchesinrome.com/",
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente"
+    },
+    {
+      "id": "watchmaker-milano-milan",
+      "nome": "Watchmaker Milano",
+      "comune": "Milano",
+      "indirizzo": "Via Lanzone, 2, 20123 Milano MI, Italy",
+      "telefono": "+39 02 8707 4310",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4604095,9.1789319",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    },
+    {
+      "id": "zanella-michele-venice",
+      "nome": "Zanella Michele",
+      "comune": "Venezia",
+      "indirizzo": "Piazzetta da Re, 4, 30174 Venezia VE, Italy",
+      "telefono": "+39 349 360 5144",
+      "sitoUfficiale": "https://maps.google.com/?q=45.4942591,12.2410471",
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 139
+    }
+  ]
+}

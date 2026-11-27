@@ -66,7 +66,7 @@ test('Workers AI configurato: modalità ai con risposta del modello e criteri va
   assert.equal(invii[0].model, CLOUDFLARE_AI_MODEL);
 });
 
-test('il modello inventa località e marca: rimosse dopo la validazione, il servizio resta', async () => {
+test('il modello inventa località e marca: rimosse dopo la validazione, il servizio non richiesto è scartato', async () => {
   const { ai } = binding({
     response: { localita: 'citta-inventata', marca: 'MarcaInventata', servizio: 'riparazione' },
   });
@@ -74,7 +74,7 @@ test('il modello inventa località e marca: rimosse dopo la validazione, il serv
   assert.equal(body.modalita, 'ai');
   assert.equal(body.criteri.localita, undefined);
   assert.equal(body.criteri.marca, undefined);
-  assert.equal(body.criteri.servizio, 'riparazione');
+  assert.equal(body.criteri.servizio, undefined);
   assert.equal(body.criteri.localitaNonCensita, 'citta-inventata');
 });
 

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fratelli+Rosselli%2C+7%2C+Monfalcone%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78695530,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3652790215,
+      "lat": "45.8088029",
+      "lon": "13.5323822",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.000059744411383184824,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "7, Via Fratelli Rosselli, Monfalcone, Gorizia, Friuli-Venezia Giulia, 34074, Italia",
+      "address": {
+        "house_number": "7",
+        "road": "Via Fratelli Rosselli",
+        "town": "Monfalcone",
+        "county": "Gorizia",
+        "ISO3166-2-lvl6": "IT-GO",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34074",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8087529",
+        "45.8088529",
+        "13.5323322",
+        "13.5324322"
+      ]
+    }
+  ]
+}

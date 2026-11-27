@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Messapia%2C+41%2C+Martina+Franca%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56273459,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 158447948,
+      "lat": "40.7018621",
+      "lon": "17.3446341",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05338992217898829,
+      "addresstype": "tertiary",
+      "name": "Corso Messapia",
+      "display_name": "Corso Messapia, Martina Franca, Taranto, Puglia, 74015, Italia",
+      "address": {
+        "road": "Corso Messapia",
+        "town": "Martina Franca",
+        "county": "Taranto",
+        "ISO3166-2-lvl6": "IT-TA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "74015",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.7014047",
+        "40.7023365",
+        "17.3437717",
+        "17.3455057"
+      ]
+    }
+  ]
+}

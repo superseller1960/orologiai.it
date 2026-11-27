@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+48%2F50%2C+Montevarchi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81431599,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 40916689,
+      "lat": "43.5231434",
+      "lon": "11.5676569",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339185854886698,
+      "addresstype": "pedestrian",
+      "name": "Via Roma",
+      "display_name": "Via Roma, La Ginestra, Montevarchi, Arezzo, Toscana, 52025, Italia",
+      "address": {
+        "road": "Via Roma",
+        "hamlet": "La Ginestra",
+        "town": "Montevarchi",
+        "county": "Arezzo",
+        "ISO3166-2-lvl6": "IT-AR",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "52025",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.5218236",
+        "43.5245355",
+        "11.5661184",
+        "11.5692457"
+      ]
+    }
+  ]
+}

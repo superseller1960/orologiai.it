@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele%2C+108%2C+Caltanissetta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53560536,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 542322871,
+      "lat": "37.4903125",
+      "lon": "14.0646407",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339439002059965,
+      "addresstype": "tertiary",
+      "name": "Corso Vittorio Emanuele",
+      "display_name": "Corso Vittorio Emanuele, Quartiere Provvidenza, Caltanissetta, Sicilia, 93100, Italia",
+      "address": {
+        "road": "Corso Vittorio Emanuele",
+        "quarter": "Quartiere Provvidenza",
+        "city": "Caltanissetta",
+        "county": "Caltanissetta",
+        "ISO3166-2-lvl6": "IT-CL",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "93100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.4900812",
+        "37.4905544",
+        "14.0635416",
+        "14.0657364"
+      ]
+    }
+  ]
+}

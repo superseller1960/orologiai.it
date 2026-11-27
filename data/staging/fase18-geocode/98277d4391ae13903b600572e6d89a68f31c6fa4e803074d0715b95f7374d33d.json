@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Libert%C3%A0%2C+6%2C+Modica%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53898505,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 341853994,
+      "lat": "36.8418905",
+      "lon": "14.7660113",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672528953994049,
+      "addresstype": "square",
+      "name": "Piazza Libertà",
+      "display_name": "Piazza Libertà, Sacro Cuore, Modica, Ragusa, Sicilia, Italia",
+      "address": {
+        "square": "Piazza Libertà",
+        "suburb": "Sacro Cuore",
+        "town": "Modica",
+        "county": "Ragusa",
+        "ISO3166-2-lvl6": "IT-RG",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "36.8415838",
+        "36.8421944",
+        "14.7655645",
+        "14.7665823"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+dell%E2%80%99Emporio+18%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80930657,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 13475787,
+      "lat": "41.8828092",
+      "lon": "12.4761901",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06675562905317768,
+      "addresstype": "square",
+      "name": "Piazza dell'Emporio",
+      "display_name": "Piazza dell'Emporio, Ripa, Municipio Roma I, Roma, Lazio, Italia",
+      "address": {
+        "square": "Piazza dell'Emporio",
+        "quarter": "Ripa",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.8823226",
+        "41.8833121",
+        "12.4755824",
+        "12.4767324"
+      ]
+    }
+  ]
+}

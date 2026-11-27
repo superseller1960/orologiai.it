@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Feltre%2C+45%2C+Santa+Giustina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 69487612,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 203795422,
+      "lat": "46.0815399",
+      "lon": "12.0379232",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05337396429388873,
+      "addresstype": "primary",
+      "name": "Via Feltre",
+      "display_name": "Via Feltre, Santa Margherita, Santa Giustina, Belluno, Veneto, 32035, Italia",
+      "address": {
+        "road": "Via Feltre",
+        "hamlet": "Santa Margherita",
+        "village": "Santa Giustina",
+        "city": "Santa Giustina",
+        "county": "Belluno",
+        "ISO3166-2-lvl6": "IT-BL",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "32035",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.0802438",
+        "46.0828494",
+        "12.0343892",
+        "12.0414527"
+      ]
+    }
+  ]
+}

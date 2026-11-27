@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Vittorio+Emanuele+1%2C+Montefiascone%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79833298,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 276277420,
+      "lat": "42.5378742",
+      "lon": "12.0306690",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338805600061033,
+      "addresstype": "residential",
+      "name": "Piazza Vittorio Emanuele",
+      "display_name": "Piazza Vittorio Emanuele, Le Mosse, Le Coste, Montefiascone, Viterbo, Lazio, 01027, Italia",
+      "address": {
+        "road": "Piazza Vittorio Emanuele",
+        "suburb": "Le Mosse",
+        "village": "Le Coste",
+        "town": "Montefiascone",
+        "county": "Viterbo",
+        "ISO3166-2-lvl6": "IT-VT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "01027",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.5377914",
+        "42.5380029",
+        "12.0304823",
+        "12.0308268"
+      ]
+    }
+  ]
+}

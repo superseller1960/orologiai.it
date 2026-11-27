@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gabriele+D%E2%80%99Annunzio+8%2FA%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81863008,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2361941837,
+      "lat": "43.7745561",
+      "lon": "11.2874469",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "8a, Via Gabriele D'Annunzio, San Salvi, Quartiere 2, Firenze, Toscana, 50136, Italia",
+      "address": {
+        "house_number": "8a",
+        "road": "Via Gabriele D'Annunzio",
+        "neighbourhood": "San Salvi",
+        "suburb": "Quartiere 2",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50136",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7745061",
+        "43.7746061",
+        "11.2873969",
+        "11.2874969"
+      ]
+    }
+  ]
+}

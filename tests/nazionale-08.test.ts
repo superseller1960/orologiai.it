@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -27,7 +28,7 @@ test('ogni nuova scheda ha fonti ufficiali verificate e non inventa coordinate n
     const b = data.attivita.find(x => x.id === id)!;
     assert.equal(b.attendibilita.stato, 'fonti-verificate');
     assert.equal(b.attendibilita.verificataIl, '2026-10-19');
-    assert.equal(b.posizione.coordinate, null);
+    assertAbsentOrReviewedCoordinate(b);
     // Le sole autorizzazioni ammesse sono quelle documentate dalle fonti ufficiali dei marchi
     // (arricchimento del 25/10/2026): nessuna rivendita o assistenza senza fonte del marchio.
     for (const c of [...b.marchi.assistenzaUfficiale, ...b.marchi.rivenditaUfficiale]) {

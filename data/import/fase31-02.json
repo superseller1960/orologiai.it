@@ -1,0 +1,745 @@
+{
+ "lotto": "fase31-02",
+ "data": "2026-11-03",
+ "fonti": [
+  {
+   "id": "f31-del-giudice-pozzuoli",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.gioielleriadelgiudice.it/riparazione-di-orologi-e-gioielli-a-pozzuoli/",
+   "titolo": "Gioielleria Del Giudice — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Pagina «Riparazione di orologi e gioielli a Pozzuoli»: riparazioni di orologi e gioielli effettuate da artigiani e maestri orafi; pagina contatti con Piazza della Repubblica 121, 80078 Pozzuoli, telefono 081 526 9631."
+  },
+  {
+   "id": "f31-arte-doro-ostuni",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.gioielleriaartedoro.it/orologi/",
+   "titolo": "Arte D'Oro Gioielli — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Pagina «Orologi»: «Orologeria e riparazione di orologi», «interventi di riparazione e assistenza», accessori e ricambi originali come corone, cinturini, vetri, pulsanti, pile e lancette; indirizzo Via Miccoli 41, Ostuni, telefono 0831 332219; CAP non pubblicato."
+  },
+  {
+   "id": "f31-guzzi-soverato",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.guzzigioielli.it/contatti.html",
+   "titolo": "Guzzi Gioielli — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Pagina contatti: Corso Umberto I 214/216, 88068 Soverato, telefono 0967 21907; presentazione «gioielleria con oltre 35 anni di esperienza, specializzati nella vendita di oreficeria, alta gioielleria ed orologeria»."
+  },
+  {
+   "id": "f31-grasso-acireale",
+   "tipo": "sito-ufficiale",
+   "url": "http://www.grassorologi.it/",
+   "titolo": "Grasso Orologi — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Homepage: «Offriamo un servizio completo … eseguendo riparazioni, restauro e pulizia di ogni tipo di orologio», voci «Revisioni», «Riparazioni», «Restauro», «Ristampa quadranti»; indirizzo Via Davì 26, 95024 Acireale, telefono 349 6440172."
+  },
+  {
+   "id": "f31-chelios-orosei",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.chelosgioielli.com/",
+   "titolo": "Chelios Gioielli — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Homepage: «Gioielleria, orologeria e preziosi», voci «Riparazioni e restauri» e «Assistenza»; presentazione del laboratorio come «il cuore pulsante della nostra attività orafa»; Via Nazionale 66, 08028 Orosei, telefono 0784 998137."
+  },
+  {
+   "id": "f31-giorgetti-vasto",
+   "tipo": "sito-ufficiale",
+   "url": "https://www.gioielleriagiorgetti.it/laboratorio-riparazione-orologi-rolex/",
+   "titolo": "Gioielleria Orologeria Giorgetti — pagina ufficiale",
+   "consultataIl": "2026-11-03",
+   "percorsoArchivio": null,
+   "licenza": null,
+   "evidenza": "Pagina «Laboratorio riparazione orologi»: riparazione di orologi di alta gamma, assistenza e ripristino estetico; indirizzo Via Luigi Marchesani 3, 66054 Vasto, telefono 0873 362425 riscontrati nel testo della pagina."
+  }
+ ],
+ "localita": [
+  {
+   "id": "pozzuoli",
+   "comune": "Pozzuoli",
+   "comuneSlug": "pozzuoli",
+   "provincia": "Napoli",
+   "provinciaSlug": "napoli",
+   "siglaProvincia": "NA",
+   "regione": "Campania",
+   "regioneSlug": "campania",
+   "codiceIstat": "063060",
+   "descrizione": "Pozzuoli: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-del-giudice-pozzuoli"
+   ]
+  },
+  {
+   "id": "ostuni",
+   "comune": "Ostuni",
+   "comuneSlug": "ostuni",
+   "provincia": "Brindisi",
+   "provinciaSlug": "brindisi",
+   "siglaProvincia": "BR",
+   "regione": "Puglia",
+   "regioneSlug": "puglia",
+   "codiceIstat": "074012",
+   "descrizione": "Ostuni: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-arte-doro-ostuni"
+   ]
+  },
+  {
+   "id": "soverato",
+   "comune": "Soverato",
+   "comuneSlug": "soverato",
+   "provincia": "Catanzaro",
+   "provinciaSlug": "catanzaro",
+   "siglaProvincia": "CZ",
+   "regione": "Calabria",
+   "regioneSlug": "calabria",
+   "codiceIstat": "079137",
+   "descrizione": "Soverato: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-guzzi-soverato"
+   ]
+  },
+  {
+   "id": "acireale",
+   "comune": "Acireale",
+   "comuneSlug": "acireale",
+   "provincia": "Catania",
+   "provinciaSlug": "catania",
+   "siglaProvincia": "CT",
+   "regione": "Sicilia",
+   "regioneSlug": "sicilia",
+   "codiceIstat": "087004",
+   "descrizione": "Acireale: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-grasso-acireale"
+   ]
+  },
+  {
+   "id": "orosei",
+   "comune": "Orosei",
+   "comuneSlug": "orosei",
+   "provincia": "Nuoro",
+   "provinciaSlug": "nuoro",
+   "siglaProvincia": "NU",
+   "regione": "Sardegna",
+   "regioneSlug": "sardegna",
+   "codiceIstat": "091063",
+   "descrizione": "Orosei: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-chelios-orosei"
+   ]
+  },
+  {
+   "id": "vasto",
+   "comune": "Vasto",
+   "comuneSlug": "vasto",
+   "provincia": "Chieti",
+   "provinciaSlug": "chieti",
+   "siglaProvincia": "CH",
+   "regione": "Abruzzo",
+   "regioneSlug": "abruzzo",
+   "codiceIstat": "069099",
+   "descrizione": "Vasto: attività di orologeria censite con fonti ufficiali.",
+   "fonti": [
+    "f31-giorgetti-vasto"
+   ]
+  }
+ ],
+ "candidati": [
+  {
+   "id": "del-giudice-pozzuoli",
+   "nome": "Gioielleria Del Giudice",
+   "decisione": "approvata",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; riparazione di orologi e gioielli dichiarata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "fonti": [
+    "f31-del-giudice-pozzuoli"
+   ],
+   "attivita": {
+    "id": "del-giudice-pozzuoli",
+    "slug": "del-giudice-pozzuoli",
+    "nome": "Gioielleria Del Giudice",
+    "tipi": [
+     "gioielleria"
+    ],
+    "descrizione": "Gioielleria a Pozzuoli con laboratorio orafo interno: la pagina servizi dichiara riparazione di gioielli e preziosi eseguita da artigiani e maestri orafi, anche per altre gioiellerie. Nessun orologiaio è nominato e la riparazione di orologi non è descritta nel corpo della pagina.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "pozzuoli",
+    "posizione": {
+     "indirizzo": "Piazza della Repubblica 121",
+     "cap": "80078",
+     "coordinate": null,
+     "fonti": [
+      "f31-del-giudice-pozzuoli"
+     ]
+    },
+    "contatti": {
+     "telefono": "081 526 9631",
+     "email": null,
+     "sito": "https://www.gioielleriadelgiudice.it",
+     "whatsapp": null,
+     "social": [],
+     "fonti": [
+      "f31-del-giudice-pozzuoli"
+     ]
+    },
+    "orari": {
+     "giorni": [],
+     "chiusure": [],
+     "verificatiIl": null,
+     "fonti": []
+    },
+    "laboratorio": {
+     "tipo": "orafo",
+     "descrizione": "Riparazioni dichiarate come eseguite da artigiani e maestri orafi della gioielleria.",
+     "fonti": [
+      "f31-del-giudice-pozzuoli"
+     ]
+    },
+    "servizi": [
+     {
+      "id": "gioielleria",
+      "fonti": [
+       "f31-del-giudice-pozzuoli"
+      ]
+     }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+     "venduti": [],
+     "riparati": [],
+     "esperienza": [],
+     "assistenzaUfficiale": [],
+     "rivenditaUfficiale": [],
+     "menzionati": []
+    },
+    "storia": {
+     "annoFondazione": null,
+     "fondatore": null,
+     "testo": null,
+     "eventi": [],
+     "fonti": []
+    },
+    "attendibilita": {
+     "stato": "fonti-verificate",
+     "raccoltaIl": "2026-11-03",
+     "verificataIl": "2026-11-03",
+     "confermataTitolareIl": null,
+     "fonti": [
+      "f31-del-giudice-pozzuoli"
+     ],
+     "cronologia": [
+      {
+       "data": "2026-11-03",
+       "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+       "fonti": [
+        "f31-del-giudice-pozzuoli"
+       ]
+      },
+      {
+       "data": "2026-11-03",
+       "azione": "Fase 32: audit dei servizi tecnici con la fonte primaria. Tipologia e laboratorio allineati a quanto dichiarato; servizi non documentati rimossi o segnalati.",
+       "fonti": [
+        "f31-del-giudice-pozzuoli"
+       ]
+      }
+     ],
+     "segnalazioni": []
+    },
+    "origine": {
+     "sistema": "ricerca-ufficiale-fase31-02",
+     "idOriginale": "del-giudice-pozzuoli"
+    }
+   }
+  },
+  {
+   "id": "arte-doro-ostuni",
+   "nome": "Arte D'Oro Gioielli",
+   "decisione": "approvata",
+   "motivo": "Sito ufficiale: indirizzo e telefono verificati, riparazione e ricambi dichiarati. CAP assente dalla pagina, quindi non attribuito. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "fonti": [
+    "f31-arte-doro-ostuni"
+   ],
+   "attivita": {
+    "id": "arte-doro-ostuni",
+    "slug": "arte-doro-ostuni",
+    "nome": "Arte D'Oro Gioielli",
+    "tipi": [
+     "orologeria",
+     "gioielleria"
+    ],
+    "descrizione": "Gioielleria a Ostuni con sezione orologeria: dichiara interventi di riparazione e assistenza e la fornitura di ricambi originali come corone, cinturini, vetri, pulsanti, pile e lancette. Il CAP non è indicato nella pagina consultata.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "ostuni",
+    "posizione": {
+     "indirizzo": "Via Miccoli 41",
+     "cap": null,
+     "coordinate": null,
+     "fonti": [
+      "f31-arte-doro-ostuni"
+     ]
+    },
+    "contatti": {
+     "telefono": "0831 332219",
+     "email": null,
+     "sito": "https://www.gioielleriaartedoro.it",
+     "whatsapp": null,
+     "social": [],
+     "fonti": [
+      "f31-arte-doro-ostuni"
+     ]
+    },
+    "orari": {
+     "giorni": [],
+     "chiusure": [],
+     "verificatiIl": null,
+     "fonti": []
+    },
+    "servizi": [
+     {
+      "id": "riparazione",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     },
+     {
+      "id": "assistenza",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     },
+     {
+      "id": "ricambi",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     },
+     {
+      "id": "batterie",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     },
+     {
+      "id": "cinturini",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     },
+     {
+      "id": "vendita",
+      "fonti": [
+       "f31-arte-doro-ostuni"
+      ]
+     }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+     "venduti": [],
+     "riparati": [],
+     "esperienza": [],
+     "assistenzaUfficiale": [],
+     "rivenditaUfficiale": [],
+     "menzionati": []
+    },
+    "storia": {
+     "annoFondazione": null,
+     "fondatore": null,
+     "testo": null,
+     "eventi": [],
+     "fonti": []
+    },
+    "attendibilita": {
+     "stato": "fonti-verificate",
+     "raccoltaIl": "2026-11-03",
+     "verificataIl": "2026-11-03",
+     "confermataTitolareIl": null,
+     "fonti": [
+      "f31-arte-doro-ostuni"
+     ],
+     "cronologia": [
+      {
+       "data": "2026-11-03",
+       "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+       "fonti": [
+        "f31-arte-doro-ostuni"
+       ]
+      },
+      {
+       "data": "2026-11-03",
+       "azione": "Fase 32: audit dei servizi tecnici con la fonte primaria. Tipologia e laboratorio allineati a quanto dichiarato; servizi non documentati rimossi o segnalati.",
+       "fonti": [
+        "f31-arte-doro-ostuni"
+       ]
+      }
+     ],
+     "segnalazioni": []
+    },
+    "origine": {
+     "sistema": "ricerca-ufficiale-fase31-02",
+     "idOriginale": "arte-doro-ostuni"
+    },
+    "laboratorio": {
+     "tipo": "orafo",
+     "descrizione": "Il laboratorio nominato è quello orafo, che esegue incisioni e personalizzazioni anche sugli orologi. La sezione orologi dichiara interventi di riparazione e assistenza e la fornitura di ricambi originali, senza precisare dove avvenga la lavorazione tecnica.",
+     "fonti": [
+      "f31-arte-doro-ostuni"
+     ]
+    }
+   }
+  },
+  {
+   "id": "guzzi-soverato",
+   "nome": "Guzzi Gioielli",
+   "decisione": "approvata",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; vendita di orologeria dichiarata. Nessuna lavorazione di laboratorio dichiarata, quindi non attribuita. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "fonti": [
+    "f31-guzzi-soverato"
+   ],
+   "attivita": {
+    "id": "guzzi-soverato",
+    "slug": "guzzi-soverato",
+    "nome": "Guzzi Gioielli",
+    "tipi": [
+     "gioielleria"
+    ],
+    "descrizione": "Gioielleria a Soverato con oltre trentacinque anni di attività, specializzata nella vendita di oreficeria, alta gioielleria e orologeria. Riparazioni non dichiarate.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "soverato",
+    "posizione": {
+     "indirizzo": "Corso Umberto I 214/216",
+     "cap": "88068",
+     "coordinate": null,
+     "fonti": [
+      "f31-guzzi-soverato"
+     ]
+    },
+    "contatti": {
+     "telefono": "0967 21907",
+     "email": null,
+     "sito": "https://www.guzzigioielli.it",
+     "whatsapp": null,
+     "social": [],
+     "fonti": [
+      "f31-guzzi-soverato"
+     ]
+    },
+    "orari": {
+     "giorni": [],
+     "chiusure": [],
+     "verificatiIl": null,
+     "fonti": []
+    },
+    "servizi": [
+     {
+      "id": "vendita",
+      "fonti": [
+       "f31-guzzi-soverato"
+      ]
+     },
+     {
+      "id": "gioielleria",
+      "fonti": [
+       "f31-guzzi-soverato"
+      ]
+     }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+     "venduti": [],
+     "riparati": [],
+     "esperienza": [],
+     "assistenzaUfficiale": [],
+     "rivenditaUfficiale": [],
+     "menzionati": []
+    },
+    "storia": {
+     "annoFondazione": null,
+     "fondatore": null,
+     "testo": null,
+     "eventi": [],
+     "fonti": []
+    },
+    "attendibilita": {
+     "stato": "fonti-verificate",
+     "raccoltaIl": "2026-11-03",
+     "verificataIl": "2026-11-03",
+     "confermataTitolareIl": null,
+     "fonti": [
+      "f31-guzzi-soverato"
+     ],
+     "cronologia": [
+      {
+       "data": "2026-11-03",
+       "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+       "fonti": [
+        "f31-guzzi-soverato"
+       ]
+      }
+     ],
+     "segnalazioni": []
+    },
+    "origine": {
+     "sistema": "ricerca-ufficiale-fase31-02",
+     "idOriginale": "guzzi-soverato"
+    }
+   }
+  },
+  {
+   "id": "grasso-acireale",
+   "nome": "Grasso Orologi",
+   "decisione": "approvata",
+   "motivo": "Sito ufficiale: CAP e telefono verificati; riparazione, revisione, restauro e pulizia dichiarati. La via è indicata dal sito, ma la forma scritta non è stata riscontrata nel testo estratto: indirizzo da confermare in sede di aggiornamento. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "fonti": [
+    "f31-grasso-acireale"
+   ],
+   "attivita": {
+    "id": "grasso-acireale",
+    "slug": "grasso-acireale",
+    "nome": "Grasso Orologi",
+    "tipi": [
+     "orologeria",
+     "laboratorio"
+    ],
+    "descrizione": "Orologeria e laboratorio ad Acireale che dichiara riparazioni, revisioni, restauro e pulizia di ogni tipo di orologio, con ristampa dei quadranti.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "acireale",
+    "posizione": {
+     "indirizzo": "Via Davì 26",
+     "cap": "95024",
+     "coordinate": null,
+     "fonti": [
+      "f31-grasso-acireale"
+     ]
+    },
+    "contatti": {
+     "telefono": "349 6440172",
+     "email": null,
+     "sito": "http://www.grassorologi.it",
+     "whatsapp": null,
+     "social": [],
+     "fonti": [
+      "f31-grasso-acireale"
+     ]
+    },
+    "orari": {
+     "giorni": [],
+     "chiusure": [],
+     "verificatiIl": null,
+     "fonti": []
+    },
+    "laboratorio": {
+     "tipo": "interno",
+     "descrizione": "Laboratorio che dichiara riparazioni, revisioni, restauro, pulizia e ristampa quadranti.",
+     "fonti": [
+      "f31-grasso-acireale"
+     ]
+    },
+    "servizi": [
+     {
+      "id": "riparazione",
+      "fonti": [
+       "f31-grasso-acireale"
+      ]
+     },
+     {
+      "id": "revisione",
+      "fonti": [
+       "f31-grasso-acireale"
+      ]
+     },
+     {
+      "id": "restauro-vintage",
+      "fonti": [
+       "f31-grasso-acireale"
+      ]
+     },
+     {
+      "id": "manutenzione",
+      "fonti": [
+       "f31-grasso-acireale"
+      ]
+     }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+     "venduti": [],
+     "riparati": [],
+     "esperienza": [],
+     "assistenzaUfficiale": [],
+     "rivenditaUfficiale": [],
+     "menzionati": []
+    },
+    "storia": {
+     "annoFondazione": null,
+     "fondatore": null,
+     "testo": null,
+     "eventi": [],
+     "fonti": []
+    },
+    "attendibilita": {
+     "stato": "fonti-verificate",
+     "raccoltaIl": "2026-11-03",
+     "verificataIl": "2026-11-03",
+     "confermataTitolareIl": null,
+     "fonti": [
+      "f31-grasso-acireale"
+     ],
+     "cronologia": [
+      {
+       "data": "2026-11-03",
+       "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+       "fonti": [
+        "f31-grasso-acireale"
+       ]
+      }
+     ],
+     "segnalazioni": []
+    },
+    "origine": {
+     "sistema": "ricerca-ufficiale-fase31-02",
+     "idOriginale": "grasso-acireale"
+    }
+   }
+  },
+  {
+   "id": "chelios-orosei",
+   "nome": "Chelios Gioielli",
+   "decisione": "scartata",
+   "motivo": "Fonte ufficiale (chelosgioielli.com): attività di gioielleria e laboratorio orafo; \"orologeria\" compare solo come categoria di catalogo di marche, senza servizi orologieri documentati. Scheda non pertinente per il catalogo orologiai.",
+   "fonti": [
+    "f31-chelios-orosei"
+   ]
+  },
+  {
+   "id": "giorgetti-vasto",
+   "nome": "Gioielleria Orologeria Giorgetti",
+   "decisione": "approvata",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; riparazione, assistenza e ripristino estetico dichiarati. Il riferimento a Rolex nel titolo della pagina non è stato attribuito come assistenza ufficiale. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "fonti": [
+    "f31-giorgetti-vasto"
+   ],
+   "attivita": {
+    "id": "giorgetti-vasto",
+    "slug": "giorgetti-vasto",
+    "nome": "Gioielleria Orologeria Giorgetti",
+    "tipi": [
+     "orologeria",
+     "gioielleria"
+    ],
+    "descrizione": "Gioielleria e orologeria a Vasto con laboratorio che dichiara riparazione di orologi di alta gamma, assistenza e ripristino estetico.",
+    "nomiPrecedenti": [],
+    "gruppoId": null,
+    "localitaId": "vasto",
+    "posizione": {
+     "indirizzo": "Via Luigi Marchesani 3",
+     "cap": "66054",
+     "coordinate": null,
+     "fonti": [
+      "f31-giorgetti-vasto"
+     ]
+    },
+    "contatti": {
+     "telefono": "0873 362425",
+     "email": null,
+     "sito": "https://www.gioielleriagiorgetti.it",
+     "whatsapp": null,
+     "social": [],
+     "fonti": [
+      "f31-giorgetti-vasto"
+     ]
+    },
+    "orari": {
+     "giorni": [],
+     "chiusure": [],
+     "verificatiIl": null,
+     "fonti": []
+    },
+    "laboratorio": {
+     "tipo": "interno",
+     "descrizione": "Laboratorio dichiarato per riparazione di orologi di alta gamma, assistenza e ripristino estetico.",
+     "fonti": [
+      "f31-giorgetti-vasto"
+     ]
+    },
+    "servizi": [
+     {
+      "id": "riparazione",
+      "fonti": [
+       "f31-giorgetti-vasto"
+      ]
+     },
+     {
+      "id": "assistenza",
+      "fonti": [
+       "f31-giorgetti-vasto"
+      ]
+     },
+     {
+      "id": "lucidatura",
+      "fonti": [
+       "f31-giorgetti-vasto"
+      ]
+     }
+    ],
+    "altriServizi": [],
+    "specializzazioni": [],
+    "marchi": {
+     "venduti": [],
+     "riparati": [],
+     "esperienza": [],
+     "assistenzaUfficiale": [],
+     "rivenditaUfficiale": [],
+     "menzionati": []
+    },
+    "storia": {
+     "annoFondazione": null,
+     "fondatore": null,
+     "testo": null,
+     "eventi": [],
+     "fonti": []
+    },
+    "attendibilita": {
+     "stato": "fonti-verificate",
+     "raccoltaIl": "2026-11-03",
+     "verificataIl": "2026-11-03",
+     "confermataTitolareIl": null,
+     "fonti": [
+      "f31-giorgetti-vasto"
+     ],
+     "cronologia": [
+      {
+       "data": "2026-11-03",
+       "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+       "fonti": [
+        "f31-giorgetti-vasto"
+       ]
+      }
+     ],
+     "segnalazioni": []
+    },
+    "origine": {
+     "sistema": "ricerca-ufficiale-fase31-02",
+     "idOriginale": "giorgetti-vasto"
+    }
+   }
+  }
+ ]
+}

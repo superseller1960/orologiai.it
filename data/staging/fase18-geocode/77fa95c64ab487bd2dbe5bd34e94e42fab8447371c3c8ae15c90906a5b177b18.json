@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+34%2C+Gorizia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78933548,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3800027920,
+      "lat": "45.9419470",
+      "lon": "13.6190728",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006571831845574147,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "34, Corso Italia, Studenec / Studenitz, Borgo Castello, Gorizia, Friuli-Venezia Giulia, 34170, Italia",
+      "address": {
+        "house_number": "34",
+        "road": "Corso Italia",
+        "neighbourhood": "Studenec / Studenitz",
+        "suburb": "Borgo Castello",
+        "city": "Gorizia",
+        "county": "Gorizia",
+        "ISO3166-2-lvl6": "IT-GO",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34170",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.9418970",
+        "45.9419970",
+        "13.6190228",
+        "13.6191228"
+      ]
+    }
+  ]
+}

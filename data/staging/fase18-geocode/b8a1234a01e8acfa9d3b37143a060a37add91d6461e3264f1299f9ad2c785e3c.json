@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rettifilo%2C+61%2C+Fiuggi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80809777,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 122029647,
+      "lat": "41.7939955",
+      "lon": "13.2212153",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053391713588158966,
+      "addresstype": "residential",
+      "name": "Via Rettifilo",
+      "display_name": "Via Rettifilo, Fiuggi, Frosinone, Lazio, 03014, Italia",
+      "address": {
+        "road": "Via Rettifilo",
+        "town": "Fiuggi",
+        "county": "Frosinone",
+        "ISO3166-2-lvl6": "IT-FR",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "03014",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.7919650",
+        "41.7959685",
+        "13.2211361",
+        "13.2214178"
+      ]
+    }
+  ]
+}

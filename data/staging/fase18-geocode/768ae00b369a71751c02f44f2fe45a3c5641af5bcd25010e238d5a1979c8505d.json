@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galileo+Galilei+8%2F1%2C+Pescara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80485920,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7736205454,
+      "lat": "42.4708759",
+      "lon": "14.2114069",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00006785915922784798,
+      "addresstype": "shop",
+      "name": "Orologeria Satolli",
+      "display_name": "Orologeria Satolli, 8/1, Via Galileo Galilei, Porta Nuova, Pescara, Abruzzo, 65122, Italia",
+      "address": {
+        "shop": "Orologeria Satolli",
+        "house_number": "8/1",
+        "road": "Via Galileo Galilei",
+        "suburb": "Porta Nuova",
+        "city": "Pescara",
+        "county": "Pescara",
+        "ISO3166-2-lvl6": "IT-PE",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "postcode": "65122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4708259",
+        "42.4709259",
+        "14.2113569",
+        "14.2114569"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Canevari+264+R%2C+Genova%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76302302,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 78155060,
+      "lat": "44.4074126",
+      "lon": "8.9494129",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.05341155184252686,
+      "addresstype": "primary",
+      "name": "Via Canevari",
+      "display_name": "Via Canevari, Borgo Incrociati, San Fruttuoso, Bassa Val Bisagno, Genova, Liguria, 16129, Italia",
+      "address": {
+        "road": "Via Canevari",
+        "neighbourhood": "Borgo Incrociati",
+        "suburb": "San Fruttuoso",
+        "city": "Genova",
+        "county": "Genova",
+        "ISO3166-2-lvl6": "IT-GE",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "16129",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4073521",
+        "44.4074730",
+        "8.9493609",
+        "8.9494649"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1386 @@
+{
+  "lotto": "fase24-lotto4-20261101",
+  "data": "2026-11-01",
+  "fonti": [
+    {
+      "id": "f24-20261101-orologeria-moderna-firenze-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamoderna.it/",
+      "titolo": "Orologeria Moderna: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Da più di 40 anni effettuiamo la riparazione e assistenza di orologi di tutte le marche»; Viale Eleonora Duse 16/e, 50137 Firenze."
+    },
+    {
+      "id": "f24-20261101-monterisi-prato-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.monterisigioielli.com/Riparazione-Orologi.htm",
+      "titolo": "Fratelli Monterisi Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«specializzati nella revisione, il restauro e la riparazione di orologi di lusso anche antichi»; «orologi a pendolo»; Via F. Ferrucci 61, 59100 Prato."
+    },
+    {
+      "id": "f24-20261101-center-watch-ancona-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.centerwatch.it/",
+      "titolo": "Center Watch di Pandolfi Orietta: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«laboratorio specializzato per la riparazione di qualsiasi tipo di orologio curato personalmente da Roberto»; Via Mario Torresi 8, 60128 Ancona."
+    },
+    {
+      "id": "f24-20261101-scarpato-napoli-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielliscarpato.it/",
+      "titolo": "Gioielli Scarpato: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«La gioielleria napoletana dispone inoltre di un laboratorio di orologeria e un laboratorio orafo, dove si effettuano lucidature, incisioni e riparazioni»; Via De Meis 607, 80147 Napoli."
+    },
+    {
+      "id": "f24-20261101-minuti-preziosi-napoli-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://minutipreziosiorologi.it/",
+      "titolo": "Minuti Preziosi: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Rolex, Patek Philippe e grandi marchi di secondo polso, controllati nel nostro laboratorio al Vomero dal 2002»; Via Solimena 109, 80129 Napoli."
+    },
+    {
+      "id": "f24-20261101-antezza-matera-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.antezza.com/",
+      "titolo": "Antezza Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Assistenza e manutenzione — Laboratorio interno certificato Rolex»; «Servizio Post-Vendita»; Via XX Settembre 23, 75100 Matera."
+    },
+    {
+      "id": "f24-20261101-matranga-palermo-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.matranga.it/",
+      "titolo": "Gioielleria Matranga: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«I nostri tecnici di laboratorio, abilitati alla riparazione e revisione dei vostri orologi di lusso»; «restauro di orologi vintage, d’epoca e… gran complicazioni»; Via Ruggiero Settimo 56/56a, 90141 Palermo."
+    },
+    {
+      "id": "f24-20261101-fontanarosa-catania-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.mariofontanarosa.it/",
+      "titolo": "Mario Fontanarosa — watch’s Lab: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«con annesso un attrezzatissimo laboratorio dotato dei più avanzati strumenti per la riparazione e il restauro di orologi moderni, antichi e per la pendoleria»; Via Gemmellaro 63, 95131 Catania."
+    },
+    {
+      "id": "f24-20261101-cornali-dalmine-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cornali.it/servizi",
+      "titolo": "Cornali Dalmine: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«con il rifacimento del negozio di Dalmine Cornali ha inaugurato il nuovo laboratorio nel 2021»; «test di verifica del funzionamento e dell’impermeabilità»; Largo Europa 17, 24044 Dalmine."
+    },
+    {
+      "id": "f24-20261101-orologi-marche-livraga-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologimarche.com/it/",
+      "titolo": "Orologi Marche — Laboratorio di Orologeria: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Centro assistenza certificato Omega, Longines, Rado, Tissot, Hamilton»; «ricambi originali, garanzia sui lavori»; Via Dante Alighieri 27, 26814 Livraga."
+    },
+    {
+      "id": "f24-20261101-tissot-service-milano-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.tissotwatches.com/it-it/service-center/tissot-italia-customer-service/a1vNN0000020ecEYAQ",
+      "titolo": "Tissot Italia Customer Service: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Tissot Italia Customer Service — Via Washington, 70 — 20146 Milano»; «sostituzione cinturino/batteria, ispezione, manutenzione completa, garanzia»."
+    }
+  ],
+  "localita": [
+    {
+      "id": "dalmine",
+      "comune": "Dalmine",
+      "comuneSlug": "dalmine",
+      "provincia": "Bergamo",
+      "provinciaSlug": "bergamo",
+      "siglaProvincia": "BG",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Dalmine: attività di assistenza orologiera documentata da fonti primarie.",
+      "fonti": [
+        "f24-20261101-cornali-dalmine-fonte"
+      ]
+    },
+    {
+      "id": "livraga",
+      "comune": "Livraga",
+      "comuneSlug": "livraga",
+      "provincia": "Lodi",
+      "provinciaSlug": "lodi",
+      "siglaProvincia": "LO",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Livraga: attività di assistenza orologiera documentata da fonti primarie.",
+      "fonti": [
+        "f24-20261101-orologi-marche-livraga-fonte"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "orologeria-moderna-firenze",
+      "nome": "Orologeria Moderna",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-orologeria-moderna-firenze-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-moderna-firenze",
+        "slug": "orologeria-moderna-firenze",
+        "nome": "Orologeria Moderna",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria fiorentina con oltre quarant’anni di attività che documenta riparazione e assistenza su orologi di tutte le marche, con interventi su meccanici, automatici e cronografi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "firenze",
+        "posizione": {
+          "indirizzo": "Viale Eleonora Duse 16/e",
+          "cap": "50137",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-orologeria-moderna-firenze-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "055 6540507",
+          "email": null,
+          "sito": "https://www.orologeriamoderna.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-orologeria-moderna-firenze-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’attività dichiara riparazione e assistenza su orologi di tutte le marche da più di quarant’anni.",
+          "fonti": [
+            "f24-20261101-orologeria-moderna-firenze-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-orologeria-moderna-firenze-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f24-20261101-orologeria-moderna-firenze-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-orologeria-moderna-firenze-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-orologeria-moderna-firenze-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "orologeria-moderna-firenze"
+        }
+      }
+    },
+    {
+      "id": "monterisi-prato",
+      "nome": "Fratelli Monterisi Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-monterisi-prato-fonte"
+      ],
+      "attivita": {
+        "id": "monterisi-prato",
+        "slug": "monterisi-prato",
+        "nome": "Fratelli Monterisi Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria di Prato con laboratorio specializzato in revisione, restauro e riparazione di orologi di lusso anche antichi, orologi a pendolo, collaudo di impermeabilità e galvanica.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "prato",
+        "posizione": {
+          "indirizzo": "Via F. Ferrucci 61",
+          "cap": "59100",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-monterisi-prato-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0574 591424",
+          "email": null,
+          "sito": "https://www.monterisigioielli.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-monterisi-prato-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio è dichiarato specializzato in revisione, restauro e riparazione di orologi di lusso anche antichi, compresi i pendoli.",
+          "fonti": [
+            "f24-20261101-monterisi-prato-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f24-20261101-monterisi-prato-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-monterisi-prato-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f24-20261101-monterisi-prato-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f24-20261101-monterisi-prato-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-monterisi-prato-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-monterisi-prato-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "monterisi-prato"
+        }
+      }
+    },
+    {
+      "id": "center-watch-ancona",
+      "nome": "Center Watch di Pandolfi Orietta",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-center-watch-ancona-fonte"
+      ],
+      "attivita": {
+        "id": "center-watch-ancona",
+        "slug": "center-watch-ancona",
+        "nome": "Center Watch di Pandolfi Orietta",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di Ancona attivo dal 1985 per la riparazione di qualsiasi tipo di orologio, con lavoro curato personalmente dal titolare.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "ancona",
+        "posizione": {
+          "indirizzo": "Via Mario Torresi 8",
+          "cap": "60128",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-center-watch-ancona-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "071 2803679",
+          "email": null,
+          "sito": "https://www.centerwatch.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-center-watch-ancona-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio è dichiarato specializzato nella riparazione di qualsiasi tipo di orologio, curata personalmente dal titolare.",
+          "fonti": [
+            "f24-20261101-center-watch-ancona-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-center-watch-ancona-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-center-watch-ancona-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-center-watch-ancona-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "center-watch-ancona"
+        }
+      }
+    },
+    {
+      "id": "scarpato-napoli",
+      "nome": "Gioielli Scarpato",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-scarpato-napoli-fonte"
+      ],
+      "attivita": {
+        "id": "scarpato-napoli",
+        "slug": "scarpato-napoli",
+        "nome": "Gioielli Scarpato",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria napoletana con laboratorio di orologeria e laboratorio orafo interni per lucidature, incisioni e riparazioni di orologi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via De Meis 607",
+          "cap": "80147",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-scarpato-napoli-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "081 5550542",
+          "email": null,
+          "sito": "https://gioielliscarpato.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-scarpato-napoli-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La gioielleria dichiara un laboratorio di orologeria e un laboratorio orafo per lucidature, incisioni e riparazioni.",
+          "fonti": [
+            "f24-20261101-scarpato-napoli-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-scarpato-napoli-fonte"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f24-20261101-scarpato-napoli-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-scarpato-napoli-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-scarpato-napoli-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "scarpato-napoli"
+        }
+      }
+    },
+    {
+      "id": "minuti-preziosi-napoli",
+      "nome": "Minuti Preziosi",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-minuti-preziosi-napoli-fonte"
+      ],
+      "attivita": {
+        "id": "minuti-preziosi-napoli",
+        "slug": "minuti-preziosi-napoli",
+        "nome": "Minuti Preziosi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria del Vomero con laboratorio interno attivo dal 2002 per controllo e revisione di Rolex, Patek Philippe e altri marchi di secondo polso.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Solimena 109",
+          "cap": "80129",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-minuti-preziosi-napoli-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://minutipreziosiorologi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-minuti-preziosi-napoli-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio al Vomero è dichiarato sede dei controlli e delle revisioni degli orologi dal 2002.",
+          "fonti": [
+            "f24-20261101-minuti-preziosi-napoli-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f24-20261101-minuti-preziosi-napoli-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-minuti-preziosi-napoli-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-minuti-preziosi-napoli-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-minuti-preziosi-napoli-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "minuti-preziosi-napoli"
+        }
+      }
+    },
+    {
+      "id": "antezza-matera",
+      "nome": "Antezza Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-antezza-matera-fonte"
+      ],
+      "attivita": {
+        "id": "antezza-matera",
+        "slug": "antezza-matera",
+        "nome": "Antezza Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria di Matera che documenta assistenza e manutenzione con laboratorio interno e servizio post vendita. L’attività si dichiara laboratorio certificato Rolex, ma l’autorizzazione non è confermata dalla pagina del marchio e non è registrata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "matera",
+        "posizione": {
+          "indirizzo": "Via XX Settembre 23",
+          "cap": "75100",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-antezza-matera-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0835 335275",
+          "email": null,
+          "sito": "https://www.antezza.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-antezza-matera-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La scheda dichiara assistenza, manutenzione e servizio post vendita con laboratorio interno.",
+          "fonti": [
+            "f24-20261101-antezza-matera-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f24-20261101-antezza-matera-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f24-20261101-antezza-matera-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-antezza-matera-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-antezza-matera-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "antezza-matera"
+        }
+      }
+    },
+    {
+      "id": "matranga-palermo",
+      "nome": "Gioielleria Matranga",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-matranga-palermo-fonte"
+      ],
+      "attivita": {
+        "id": "matranga-palermo",
+        "slug": "matranga-palermo",
+        "nome": "Gioielleria Matranga",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria palermitana del 1896 con laboratorio per riparazione e revisione di orologi di lusso, specializzato nel restauro di vintage e gran complicazioni. L’attività dichiara assistenza autorizzata Cartier, Baume & Mercier e Montblanc, non confermata dai marchi e non registrata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "palermo",
+        "posizione": {
+          "indirizzo": "Via Ruggiero Settimo 56/56a",
+          "cap": "90141",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-matranga-palermo-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.matranga.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-matranga-palermo-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "I tecnici di laboratorio sono dichiarati abilitati alla riparazione e revisione, con specializzazione nel restauro di vintage e gran complicazioni.",
+          "fonti": [
+            "f24-20261101-matranga-palermo-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f24-20261101-matranga-palermo-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-matranga-palermo-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f24-20261101-matranga-palermo-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-matranga-palermo-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-matranga-palermo-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "matranga-palermo"
+        }
+      }
+    },
+    {
+      "id": "fontanarosa-catania",
+      "nome": "Mario Fontanarosa — watch’s Lab",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-fontanarosa-catania-fonte"
+      ],
+      "attivita": {
+        "id": "fontanarosa-catania",
+        "slug": "fontanarosa-catania",
+        "nome": "Mario Fontanarosa — watch’s Lab",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio catanese di via Gemmellaro per riparazione e restauro di orologi moderni e antichi e per la pendoleria, con formazione dichiarata presso Rolex e ETA.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via Gemmellaro 63",
+          "cap": "95131",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-fontanarosa-catania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 311725",
+          "email": null,
+          "sito": "https://www.mariofontanarosa.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-fontanarosa-catania-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio è dichiarato attrezzato per riparazione e restauro di orologi moderni e antichi e per la pendoleria.",
+          "fonti": [
+            "f24-20261101-fontanarosa-catania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-fontanarosa-catania-fonte"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f24-20261101-fontanarosa-catania-fonte"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f24-20261101-fontanarosa-catania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-fontanarosa-catania-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-fontanarosa-catania-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "fontanarosa-catania"
+        }
+      }
+    },
+    {
+      "id": "cornali-dalmine",
+      "nome": "Cornali Dalmine",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-cornali-dalmine-fonte"
+      ],
+      "attivita": {
+        "id": "cornali-dalmine",
+        "slug": "cornali-dalmine",
+        "nome": "Cornali Dalmine",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Sede di Dalmine della gioielleria Cornali, con laboratorio inaugurato nel 2021 per assistenza, riparazioni e test di funzionamento e impermeabilità. Le autorizzazioni Breitling, Omega, Longines, Baume & Mercier e IWC sono dichiarate dall’attività e non registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "dalmine",
+        "posizione": {
+          "indirizzo": "Largo Europa 17",
+          "cap": "24044",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-cornali-dalmine-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "035 561357",
+          "email": null,
+          "sito": "https://www.cornali.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-cornali-dalmine-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La sede di Dalmine ha inaugurato nel 2021 un nuovo laboratorio con test di funzionamento e impermeabilità.",
+          "fonti": [
+            "f24-20261101-cornali-dalmine-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f24-20261101-cornali-dalmine-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f24-20261101-cornali-dalmine-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-cornali-dalmine-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-cornali-dalmine-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-cornali-dalmine-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "cornali-dalmine"
+        }
+      }
+    },
+    {
+      "id": "orologi-marche-livraga",
+      "nome": "Orologi Marche — Laboratorio di Orologeria",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-orologi-marche-livraga-fonte"
+      ],
+      "attivita": {
+        "id": "orologi-marche-livraga",
+        "slug": "orologi-marche-livraga",
+        "nome": "Orologi Marche — Laboratorio di Orologeria",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di Livraga, nel Lodigiano, che documenta assistenza e riparazioni con ricambi originali e garanzia sui lavori. Le certificazioni Omega, Longines, Rado, Tissot e Hamilton sono dichiarate dall’attività e non registrate come autorizzazioni ufficiali.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "livraga",
+        "posizione": {
+          "indirizzo": "Via Dante Alighieri 27",
+          "cap": "26814",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-orologi-marche-livraga-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "0377 987107",
+          "email": null,
+          "sito": "https://www.orologimarche.com/it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-orologi-marche-livraga-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio dichiara assistenza certificata Swatch Group, ricambi originali e garanzia sui lavori.",
+          "fonti": [
+            "f24-20261101-orologi-marche-livraga-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f24-20261101-orologi-marche-livraga-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f24-20261101-orologi-marche-livraga-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f24-20261101-orologi-marche-livraga-fonte"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f24-20261101-orologi-marche-livraga-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-orologi-marche-livraga-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-orologi-marche-livraga-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "orologi-marche-livraga"
+        }
+      }
+    },
+    {
+      "id": "tissot-service-milano",
+      "nome": "Tissot Italia Customer Service",
+      "decisione": "approvata",
+      "motivo": "Sede con civico, recapiti e servizi documentati da fonte primaria il 2026-11-01.",
+      "fonti": [
+        "f24-20261101-tissot-service-milano-fonte"
+      ],
+      "attivita": {
+        "id": "tissot-service-milano",
+        "slug": "tissot-service-milano",
+        "nome": "Tissot Italia Customer Service",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centro assistenza ufficiale Tissot per l’Italia a Milano, in via Washington, per manutenzione completa, ispezione, sostituzione di batteria e cinturino e gestione della garanzia.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Washington 70",
+          "cap": "20146",
+          "coordinate": null,
+          "fonti": [
+            "f24-20261101-tissot-service-milano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 575971",
+          "email": null,
+          "sito": "https://www.tissotwatches.com/it-it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f24-20261101-tissot-service-milano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina ufficiale Tissot indica il centro assistenza italiano per manutenzione completa, ispezione, batteria, cinturino e garanzia.",
+          "fonti": [
+            "f24-20261101-tissot-service-milano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f24-20261101-tissot-service-milano-fonte"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f24-20261101-tissot-service-milano-fonte"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f24-20261101-tissot-service-milano-fonte"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f24-20261101-tissot-service-milano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Tissot",
+              "fonti": [
+                "f24-20261101-tissot-service-milano-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f24-20261101-tissot-service-milano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase24 lotto4: sede, recapiti e servizi letti sulla fonte indicata; autorizzazioni registrate solo se pubblicate dal marchio.",
+              "fonti": [
+                "f24-20261101-tissot-service-milano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase24-20261101",
+          "idOriginale": "tissot-service-milano"
+        }
+      }
+    }
+  ]
+}

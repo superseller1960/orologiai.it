@@ -1,0 +1,1185 @@
+{
+  "belluno": {
+    "nome": "Belluno",
+    "lat": 46.1375185,
+    "lon": 12.2181711,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Belluno&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "firenze": {
+    "nome": "Firenze",
+    "lat": 43.7697955,
+    "lon": 11.2556404,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Firenze&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "roma": {
+    "nome": "Roma",
+    "lat": 41.8933203,
+    "lon": 12.4829321,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Roma&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "milano": {
+    "nome": "Milano",
+    "lat": 45.4641943,
+    "lon": 9.1896346,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&city=Milano&featureType=city",
+    "verificataIl": "2026-10-31"
+  },
+  "scandicci": {
+    "nome": "Scandicci",
+    "lat": 43.7581736,
+    "lon": 11.1816702,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+della+Resistenza%2C+6%2Fc%2C+Scandicci%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "empoli": {
+    "nome": "Empoli",
+    "lat": 43.7191417,
+    "lon": 10.94697,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giuseppe+del+Papa%2C+58%2F60%2C+Empoli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bagno-a-ripoli": {
+    "nome": "Bagno a Ripoli",
+    "lat": 43.7522434,
+    "lon": 11.3195496,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+159%2C+Bagno+a+Ripoli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pontassieve": {
+    "nome": "Pontassieve",
+    "lat": 43.7775285,
+    "lon": 11.4429033,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ghiberti%2C+115%2C+Pontassieve%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "figline-e-incisa-valdarno": {
+    "nome": "Figline e Incisa Valdarno",
+    "lat": 43.6193587,
+    "lon": 11.4705758,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+47+%E2%80%94+Figline+Valdarno%2C+Figline+e+Incisa+Valdarno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pontedera": {
+    "nome": "Pontedera",
+    "lat": 43.6642712,
+    "lon": 10.6312697,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+I%C2%B0+Maggio%2C+6%2C+Pontedera%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "poggibonsi": {
+    "nome": "Poggibonsi",
+    "lat": 43.4682894,
+    "lon": 11.1463791,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Repubblica%2C+102%2F104%2C+Poggibonsi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "colle-di-val-d-elsa": {
+    "nome": "Colle di Val d’Elsa",
+    "lat": 43.4227061,
+    "lon": 11.1259638,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini%2C+27%2C+Colle+di+Val+d%E2%80%99Elsa%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "san-miniato": {
+    "nome": "San Miniato",
+    "lat": 43.6789833,
+    "lon": 10.8478449,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+4+Novembre%2C+14%2C+San+Miniato%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "montevarchi": {
+    "nome": "Montevarchi",
+    "lat": 43.5231434,
+    "lon": 11.5676569,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+48%2F50%2C+Montevarchi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sesto-fiorentino": {
+    "nome": "Sesto Fiorentino",
+    "lat": 43.8339326,
+    "lon": 11.2005283,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gramsci+298%2C+Sesto+Fiorentino%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "campi-bisenzio": {
+    "nome": "Campi Bisenzio",
+    "lat": 43.8215594,
+    "lon": 11.1362041,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santo+Stefano+45%2F47%2C+Campi+Bisenzio%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "san-giovanni-valdarno": {
+    "nome": "San Giovanni Valdarno",
+    "lat": 43.5650042,
+    "lon": 11.5305957,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Cavour+11%2C+San+Giovanni+Valdarno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bologna": {
+    "nome": "Bologna",
+    "lat": 44.4966036,
+    "lon": 11.3432124,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Indipendenza+15%2C+Bologna%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "torino": {
+    "nome": "Torino",
+    "lat": 45.0581202,
+    "lon": 7.6627529,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Alcide+De+Gasperi+5%2FM%2C+Torino%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "vicenza": {
+    "nome": "Vicenza",
+    "lat": 45.5468461,
+    "lon": 11.546209,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzetta+Palladio+2%2C+Vicenza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "napoli": {
+    "nome": "Napoli",
+    "lat": 40.8389781,
+    "lon": 14.2500521,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Brigida+60%2C+Napoli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "salerno": {
+    "nome": "Salerno",
+    "lat": 40.6678004,
+    "lon": 14.7892233,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Posidonia+277%2FB%2C+Salerno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bari": {
+    "nome": "Bari",
+    "lat": 41.1244774,
+    "lon": 16.8695919,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sparano+50%2C+Bari%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "palermo": {
+    "nome": "Palermo",
+    "lat": 38.1202217,
+    "lon": 13.3621221,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gagini+93%2C+Palermo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "genova": {
+    "nome": "Genova",
+    "lat": 44.4074126,
+    "lon": 8.9494129,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Canevari+264+R%2C+Genova%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "alessandria": {
+    "nome": "Alessandria",
+    "lat": 44.9163506,
+    "lon": 8.6129765,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Milano+22%2C+Alessandria%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "viterbo": {
+    "nome": "Viterbo",
+    "lat": 42.4216204,
+    "lon": 12.1051719,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Rocca+13%2C+Viterbo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "latina": {
+    "nome": "Latina",
+    "lat": 41.4659721,
+    "lon": 12.9046551,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Eugenio+di+Savoia+44%2C+Latina%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "montefiascone": {
+    "nome": "Montefiascone",
+    "lat": 42.5378742,
+    "lon": 12.030669,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Vittorio+Emanuele+1%2C+Montefiascone%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "l-aquila": {
+    "nome": "L'Aquila",
+    "lat": 42.3500956,
+    "lon": 13.3998258,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+47%2C+L%27Aquila%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "potenza": {
+    "nome": "Potenza",
+    "lat": 40.6302347,
+    "lon": 15.7916971,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Gallitello+102%2C+Potenza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "trieste": {
+    "nome": "Trieste",
+    "lat": 45.6484543,
+    "lon": 13.7781716,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+Saba+31%2C+Trieste%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "udine": {
+    "nome": "Udine",
+    "lat": 46.0636921,
+    "lon": 13.2296411,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Girardini+20%2FA%2C+Udine%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "trento": {
+    "nome": "Trento",
+    "lat": 46.0581205,
+    "lon": 11.130367,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sant%E2%80%99Antonio+21%2C+Trento%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "civitanova-marche": {
+    "nome": "Civitanova Marche",
+    "lat": 43.3107193,
+    "lon": 13.7271965,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Dalmazia+113%2C+Civitanova+Marche%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "perugia": {
+    "nome": "Perugia",
+    "lat": 43.1116739,
+    "lon": 12.3894411,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Calderini+13%2C+Perugia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "terni": {
+    "nome": "Terni",
+    "lat": 42.5738542,
+    "lon": 12.6704578,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tre+Venezie+17%2C+Terni%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "cagliari": {
+    "nome": "Cagliari",
+    "lat": 39.2185907,
+    "lon": 9.1132195,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Francesco+Fara+15%2C+Cagliari%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "courmayeur": {
+    "nome": "Courmayeur",
+    "lat": 45.7897962,
+    "lon": 6.9733859,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+34%2C+Courmayeur%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "padova": {
+    "nome": "Padova",
+    "lat": 45.3793836,
+    "lon": 11.9030464,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Piovese+79%2C+Padova%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "parma": {
+    "nome": "Parma",
+    "lat": 44.7879762,
+    "lon": 10.2983849,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Golfo+dei+Poeti+1%2FA%2C+Parma%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "termoli": {
+    "nome": "Termoli",
+    "lat": 41.99412,
+    "lon": 14.9978826,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Corsica+180+Bis%2C+Termoli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "campobasso": {
+    "nome": "Campobasso",
+    "lat": 41.5562183,
+    "lon": 14.6606078,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesare+Gazzani+22%2FD%2C+Campobasso%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lodi": {
+    "nome": "Lodi",
+    "lat": 45.3124376,
+    "lon": 9.5006424,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ottone+Morena+11%2C+Lodi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sanremo": {
+    "nome": "Sanremo",
+    "lat": 43.8138948,
+    "lon": 7.7699409,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Imperatrice+3%2C+Sanremo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "olbia": {
+    "nome": "Olbia",
+    "lat": 40.9238531,
+    "lon": 9.5002338,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+29%2C+Olbia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lamezia-terme": {
+    "nome": "Lamezia Terme",
+    "lat": 38.9667621,
+    "lon": 16.2831853,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Fiorentino+20%2C+Lamezia+Terme%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "chieti": {
+    "nome": "Chieti",
+    "lat": 42.3550897,
+    "lon": 14.1381668,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Abruzzo+98%2C+Chieti%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "isernia": {
+    "nome": "Isernia",
+    "lat": 41.5991327,
+    "lon": 14.236958,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi+267%2F271%2C+Isernia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "san-benedetto-del-tronto": {
+    "nome": "San Benedetto del Tronto",
+    "lat": 42.9504096,
+    "lon": 13.8833255,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ugo+Bassi+25%2C+San+Benedetto+del+Tronto%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "novara": {
+    "nome": "Novara",
+    "lat": 45.4471217,
+    "lon": 8.622055,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Cavour+1%2FE%2C+Novara%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "verbania": {
+    "nome": "Verbania",
+    "lat": 45.9356189,
+    "lon": 8.5734861,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Fabiano+5%2C+Verbania%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "asti": {
+    "nome": "Asti",
+    "lat": 44.8999881,
+    "lon": 8.2045365,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Alfieri+270%2C+Asti%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lecco": {
+    "nome": "Lecco",
+    "lat": 45.8540182,
+    "lon": 9.3908349,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+30%2C+Lecco%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pavia": {
+    "nome": "Pavia",
+    "lat": 45.1902613,
+    "lon": 9.1630304,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Sardegna+98%2Fb%2C+Pavia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "cremona": {
+    "nome": "Cremona",
+    "lat": 45.1357514,
+    "lon": 10.0214957,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Campi+21+A%2C+Cremona%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "monza": {
+    "nome": "Monza",
+    "lat": 45.5862963,
+    "lon": 9.275758,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carlo+Alberto+32%2C+Monza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "ancona": {
+    "nome": "Ancona",
+    "lat": 43.618293,
+    "lon": 13.5126848,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Giuseppe+Mazzini+102%2C+Ancona%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "rieti": {
+    "nome": "Rieti",
+    "lat": 42.4010092,
+    "lon": 12.8609883,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+110%2F112%2C+Rieti%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "aosta": {
+    "nome": "Aosta",
+    "lat": 45.7368779,
+    "lon": 7.3194865,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Chanoux+22%2C+Aosta%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "verona": {
+    "nome": "Verona",
+    "lat": 45.4434381,
+    "lon": 10.9966494,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+delle+Erbe+37%2C+Verona%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "treviso": {
+    "nome": "Treviso",
+    "lat": 45.6687885,
+    "lon": 12.2506168,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Borgo+Giuseppe+Mazzini+33%2C+Treviso%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "ferrara": {
+    "nome": "Ferrara",
+    "lat": 44.8347304,
+    "lon": 11.6212551,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Mazzini+7%2C+Ferrara%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "ravenna": {
+    "nome": "Ravenna",
+    "lat": 44.4181027,
+    "lon": 12.1986291,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti+20%2C+Ravenna%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "modena": {
+    "nome": "Modena",
+    "lat": 44.647725,
+    "lon": 10.9278376,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Taglio+3%2C+Modena%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "rovigo": {
+    "nome": "Rovigo",
+    "lat": 45.0706589,
+    "lon": 11.7907132,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Vittorio+Emanuele+30%2C+Rovigo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lucca": {
+    "nome": "Lucca",
+    "lat": 43.8448916,
+    "lon": 10.5043469,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fillungo+187%2C+Lucca%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pistoia": {
+    "nome": "Pistoia",
+    "lat": 43.9315607,
+    "lon": 10.9152526,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cino+da+Pistoia+2%2FD%2C+Pistoia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "aulla": {
+    "nome": "Aulla",
+    "lat": 44.2077812,
+    "lon": 9.9697414,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre+26%2C+Aulla%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "como": {
+    "nome": "Como",
+    "lat": 45.8120571,
+    "lon": 9.0882916,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Monti+34%2C+Como%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "mantova": {
+    "nome": "Mantova",
+    "lat": 45.1605475,
+    "lon": 10.7904478,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Fernelli+8%2C+Mantova%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "botrugno": {
+    "nome": "Botrugno",
+    "lat": 40.0637493,
+    "lon": 18.323974,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Vittorio+Emanuele+11%2C+Botrugno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "catania": {
+    "nome": "Catania",
+    "lat": 37.5176843,
+    "lon": 15.0941909,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gabriele+D%E2%80%99Annunzio+134%2C+Catania%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "gravina-di-catania": {
+    "nome": "Gravina di Catania",
+    "lat": 37.5382751,
+    "lon": 15.070793,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carrubella+191%2C+Gravina+di+Catania%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "messina": {
+    "nome": "Messina",
+    "lat": 38.1825281,
+    "lon": 15.5528862,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+San+Martino+188%2C+Messina%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "nicosia": {
+    "nome": "Nicosia",
+    "lat": 37.7467911,
+    "lon": 14.3963183,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Benedetto+26%2C+Nicosia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sassari": {
+    "nome": "Sassari",
+    "lat": 40.7214478,
+    "lon": 8.5661358,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Zanfarino+9%2C+Sassari%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "canicatti": {
+    "nome": "Canicattì",
+    "lat": 37.3604263,
+    "lon": 13.8502693,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+IV+Novembre+13%2C+Canicatt%C3%AC%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pescara": {
+    "nome": "Pescara",
+    "lat": 42.4708759,
+    "lon": 14.2114069,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galileo+Galilei+8%2F1%2C+Pescara%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "frosinone": {
+    "nome": "Frosinone",
+    "lat": 41.6433573,
+    "lon": 13.3459263,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aldo+Moro%2C+153%2C+Frosinone%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "cuneo": {
+    "nome": "Cuneo",
+    "lat": 44.3879873,
+    "lon": 7.5459963,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Nizza%2C+10%2C+Cuneo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bra": {
+    "nome": "Bra",
+    "lat": 44.6884761,
+    "lon": 7.8538568,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cuneo%2C+84%2C+Bra%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "savona": {
+    "nome": "Savona",
+    "lat": 44.30554,
+    "lon": 8.4814452,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Sandro+Pertini%2C+44%2C+Savona%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "la-spezia": {
+    "nome": "La Spezia",
+    "lat": 44.1077257,
+    "lon": 9.8177218,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Prione%2C+119%2C+La+Spezia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sarzana": {
+    "nome": "Sarzana",
+    "lat": 44.1119099,
+    "lon": 9.9604951,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Landinelli%2C+60%2F62%2C+Sarzana%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "piacenza": {
+    "nome": "Piacenza",
+    "lat": 45.0515787,
+    "lon": 9.6923752,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II%2C+21%2C+Piacenza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bolzano": {
+    "nome": "Bolzano",
+    "lat": 46.4994675,
+    "lon": 11.3522919,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+delle+Erbe%2C+24%2FA%2C+Bolzano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "brunico": {
+    "nome": "Brunico",
+    "lat": 46.7957841,
+    "lon": 11.9383127,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Centrale%2C+44%2C+Brunico%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "monfalcone": {
+    "nome": "Monfalcone",
+    "lat": 45.8094404,
+    "lon": 13.5310711,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Duca+d%E2%80%99Aosta%2C+80%2C+Monfalcone%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "gorizia": {
+    "nome": "Gorizia",
+    "lat": 45.941947,
+    "lon": 13.6190728,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+34%2C+Gorizia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pordenone": {
+    "nome": "Pordenone",
+    "lat": 45.9576152,
+    "lon": 12.6592074,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II%2C+15%2FB%2C+Pordenone%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "conegliano": {
+    "nome": "Conegliano",
+    "lat": 45.8905098,
+    "lon": 12.3108555,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Friuli%2C+45%2C+Conegliano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "forli": {
+    "nome": "Forlì",
+    "lat": 44.2321785,
+    "lon": 12.0102668,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+77%2C+Forl%C3%AC%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "casale-monferrato": {
+    "nome": "Casale Monferrato",
+    "lat": 45.1374422,
+    "lon": 8.4505368,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Aurelio+Saffi%2C+3%2C+Casale+Monferrato%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "vercelli": {
+    "nome": "Vercelli",
+    "lat": 45.323895,
+    "lon": 8.419952,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Libert%C3%A0%2C+41-42%2C+Vercelli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pesaro": {
+    "nome": "Pesaro",
+    "lat": 43.9090376,
+    "lon": 12.9115892,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Branca%2C+15%2C+Pesaro%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "fano": {
+    "nome": "Fano",
+    "lat": 43.8439813,
+    "lon": 13.0162229,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+109%2C+Fano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "porto-san-giorgio": {
+    "nome": "Porto San Giorgio",
+    "lat": 43.1806841,
+    "lon": 13.7948698,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Don+Minzoni%2C+55%2Fa%2C+Porto+San+Giorgio%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "porto-sant-elpidio": {
+    "nome": "Porto Sant'Elpidio",
+    "lat": 43.2598567,
+    "lon": 13.7582261,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Principe+Umberto%2C+2%2C+Porto+Sant%27Elpidio%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sant-egidio-alla-vibrata": {
+    "nome": "Sant'Egidio alla Vibrata",
+    "lat": 42.8255467,
+    "lon": 13.7164102,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Umberto+I%2C+Sant%27Egidio+alla+Vibrata%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "roseto-degli-abruzzi": {
+    "nome": "Roseto degli Abruzzi",
+    "lat": 42.6773369,
+    "lon": 14.0139685,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+34%2C+Roseto+degli+Abruzzi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "citta-di-castello": {
+    "nome": "Città di Castello",
+    "lat": 43.4573145,
+    "lon": 12.243603,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Scipione+Lapi%2C+2%2FC%2C+Citt%C3%A0+di+Castello%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "cerignola": {
+    "nome": "Cerignola",
+    "lat": 41.2647745,
+    "lon": 15.8997111,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Duomo%2C+14%2C+Cerignola%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "barletta": {
+    "nome": "Barletta",
+    "lat": 41.3192114,
+    "lon": 16.2820817,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+81%2C+Barletta%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "andria": {
+    "nome": "Andria",
+    "lat": 41.2278889,
+    "lon": 16.3012736,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Crispi%2C+43%2C+Andria%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "taranto": {
+    "nome": "Taranto",
+    "lat": 40.4706882,
+    "lon": 17.2418201,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Acclavio%2C+38-38%2FB%2C+Taranto%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "castellaneta": {
+    "nome": "Castellaneta",
+    "lat": 40.6269729,
+    "lon": 16.9226826,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+S.+Francesco%2C+21%2C+Castellaneta%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "brindisi": {
+    "nome": "Brindisi",
+    "lat": 40.6363916,
+    "lon": 17.9453657,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+13%2C+Brindisi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "matera": {
+    "nome": "Matera",
+    "lat": 40.6650447,
+    "lon": 16.6087482,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Corso%2C+50%2C+Matera%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "policoro": {
+    "nome": "Policoro",
+    "lat": 40.200436,
+    "lon": 16.670227,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Siris%2C+77%2C+Policoro%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "vibo-valentia": {
+    "nome": "Vibo Valentia",
+    "lat": 38.6739418,
+    "lon": 16.1006647,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+III%2C+197%2C+Vibo+Valentia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "caltanissetta": {
+    "nome": "Caltanissetta",
+    "lat": 37.4903125,
+    "lon": 14.0646407,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele%2C+108%2C+Caltanissetta%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "ragusa": {
+    "nome": "Ragusa",
+    "lat": 36.9206054,
+    "lon": 14.7218658,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Archimede%2C+316%2C+Ragusa%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "modica": {
+    "nome": "Modica",
+    "lat": 36.8418905,
+    "lon": 14.7660113,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Libert%C3%A0%2C+6%2C+Modica%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "iglesias": {
+    "nome": "Iglesias",
+    "lat": 39.3131599,
+    "lon": 8.5349437,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+35%2F37%2C+Iglesias%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "faenza": {
+    "nome": "Faenza",
+    "lat": 44.2865634,
+    "lon": 11.8815148,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Mazzini%2C+43%2C+Faenza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "santa-giustina": {
+    "nome": "Santa Giustina",
+    "lat": 46.0815399,
+    "lon": 12.0379232,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Feltre%2C+45%2C+Santa+Giustina%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "tirano": {
+    "nome": "Tirano",
+    "lat": 46.2176072,
+    "lon": 10.159025,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Italia%2C+24%2C+Tirano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "morbegno": {
+    "nome": "Morbegno",
+    "lat": 46.1334334,
+    "lon": 9.5704665,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ezio+Vanoni%2C+21%2C+Morbegno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "vigevano": {
+    "nome": "Vigevano",
+    "lat": 45.3172376,
+    "lon": 8.8579667,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Ducale%2C+49%2C+Vigevano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "voghera": {
+    "nome": "Voghera",
+    "lat": 44.9928377,
+    "lon": 9.007179,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilia%2C+53%2C+Voghera%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "gallarate": {
+    "nome": "Gallarate",
+    "lat": 45.6592944,
+    "lon": 8.7946841,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Largo+Camussi%2C+1%2C+Gallarate%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "cecina": {
+    "nome": "Cecina",
+    "lat": 43.310695,
+    "lon": 10.5171126,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+57%2C+Cecina%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "follonica": {
+    "nome": "Follonica",
+    "lat": 42.9236554,
+    "lon": 10.7584646,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilio+Bicocchi%2C+36%2C+Follonica%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "portico-di-caserta": {
+    "nome": "Portico di Caserta",
+    "lat": 41.0525306,
+    "lon": 14.2817444,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+10%2C+Portico+di+Caserta%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "santa-maria-capua-vetere": {
+    "nome": "Santa Maria Capua Vetere",
+    "lat": 41.0819963,
+    "lon": 14.2522054,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Aldo+Moro%2C+213%2C+Santa+Maria+Capua+Vetere%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "angri": {
+    "nome": "Angri",
+    "lat": 40.7387054,
+    "lon": 14.5783367,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+124%2C+Angri%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lecce": {
+    "nome": "Lecce",
+    "lat": 40.3524774,
+    "lon": 18.1740585,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roberto+di+Biccari%2C+9%2C+Lecce%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "siracusa": {
+    "nome": "Siracusa",
+    "lat": 37.0719816,
+    "lon": 15.2816,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+17%2C+Siracusa%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "carrara": {
+    "nome": "Carrara",
+    "lat": 44.0385515,
+    "lon": 10.0389248,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Genova%2C+15%2C+Carrara%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "mirano": {
+    "nome": "Mirano",
+    "lat": 45.4925543,
+    "lon": 12.1099553,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Barche%2C+10%2C+Mirano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "rovereto": {
+    "nome": "Rovereto",
+    "lat": 45.8895336,
+    "lon": 11.0443027,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rialto%2C+8%2F9%2C+Rovereto%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "brescia": {
+    "nome": "Brescia",
+    "lat": 45.5285585,
+    "lon": 10.2243739,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gerolamo+Savoldo%2C+3%2C+Brescia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "este": {
+    "nome": "Este",
+    "lat": 45.2284812,
+    "lon": 11.6562948,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Maggiore%2C+23%2C+Este%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "porto-torres": {
+    "nome": "Porto Torres",
+    "lat": 40.8380818,
+    "lon": 8.4021343,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Libio%2C+15%2C+Porto+Torres%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "nuoro": {
+    "nome": "Nuoro",
+    "lat": 40.3209606,
+    "lon": 9.3334987,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre%2C+1%2C+Nuoro%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "mazara-del-vallo": {
+    "nome": "Mazara del Vallo",
+    "lat": 37.6536473,
+    "lon": 12.5927714,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Veneto%2C+55%2C+Mazara+del+Vallo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "erice": {
+    "nome": "Erice",
+    "lat": 38.0290366,
+    "lon": 12.5431985,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cesar%C3%B2%2C+60%2F62%2C+Erice%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "rimini": {
+    "nome": "Rimini",
+    "lat": 44.0664117,
+    "lon": 12.5608613,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+Francesco+Vannoni%2C+4%2C+Rimini%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "riccione": {
+    "nome": "Riccione",
+    "lat": 44.0026561,
+    "lon": 12.6604449,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Ceccarini%2C+16%2C+Riccione%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "desio": {
+    "nome": "Desio",
+    "lat": 45.6149911,
+    "lon": 9.2062589,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Garibaldi%2C+183%2C+Desio%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "villacidro": {
+    "nome": "Villacidro",
+    "lat": 39.456644,
+    "lon": 8.7320848,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Zampillo%2C+5%2C+Villacidro%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "oristano": {
+    "nome": "Oristano",
+    "lat": 39.908487,
+    "lon": 8.5896622,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tirso%2C+117%2C+Oristano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "atri": {
+    "nome": "Atri",
+    "lat": 42.5798226,
+    "lon": 13.9758662,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Elio+Adriano%2C+73%2C+Atri%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "fondi": {
+    "nome": "Fondi",
+    "lat": 41.3570461,
+    "lon": 13.4296135,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Pietrangelo+Leone%2C+30%2C+Fondi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "narni": {
+    "nome": "Narni",
+    "lat": 42.5339118,
+    "lon": 12.518131,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Libert%C3%A0%2C+9%2C+Narni%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "telese-terme": {
+    "nome": "Telese Terme",
+    "lat": 41.2161115,
+    "lon": 14.5230423,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+186%2C+Telese+Terme%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "gallipoli": {
+    "nome": "Gallipoli",
+    "lat": 40.0561352,
+    "lon": 17.9886465,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+82%2C+Gallipoli%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "martina-franca": {
+    "nome": "Martina Franca",
+    "lat": 40.7018621,
+    "lon": 17.3446341,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Messapia%2C+41%2C+Martina+Franca%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "quartu-sant-elena": {
+    "nome": "Quartu Sant’Elena",
+    "lat": 39.2414598,
+    "lon": 9.1836983,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour%2C+68%2C+Quartu+Sant%E2%80%99Elena%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "barcellona-pozzo-di-gotto": {
+    "nome": "Barcellona Pozzo di Gotto",
+    "lat": 38.1471473,
+    "lon": 15.2139688,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+82%2C+Barcellona+Pozzo+di+Gotto%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "marano-vicentino": {
+    "nome": "Marano Vicentino",
+    "lat": 45.6924835,
+    "lon": 11.4288933,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Silva%2C+18%2C+Marano+Vicentino%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "thiene": {
+    "nome": "Thiene",
+    "lat": 45.7032882,
+    "lon": 11.4788403,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi%2C+137%2C+Thiene%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "san-zeno-naviglio": {
+    "nome": "San Zeno Naviglio",
+    "lat": 45.4920865,
+    "lon": 10.2176568,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+39%2C+San+Zeno+Naviglio%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "urgnano": {
+    "nome": "Urgnano",
+    "lat": 45.59709,
+    "lon": 9.6963806,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti%2C+72%2C+Urgnano%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "lendinara": {
+    "nome": "Lendinara",
+    "lat": 45.0863723,
+    "lon": 11.60593,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Maria+Nuova%2C+30%2C+Lendinara%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "domodossola": {
+    "nome": "Domodossola",
+    "lat": 46.1133425,
+    "lon": 8.2918882,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galletti%2C+5%2C+Domodossola%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "saronno": {
+    "nome": "Saronno",
+    "lat": 45.6272774,
+    "lon": 9.0368953,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Cristoforo%2C+9%2C+Saronno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "erba": {
+    "nome": "Erba",
+    "lat": 45.8057308,
+    "lon": 9.2274927,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Filippo+Turati%2C+7%2FF%2C+Erba%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "soliera": {
+    "nome": "Soliera",
+    "lat": 44.7386716,
+    "lon": 10.9235585,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti%2C+39%2C+Soliera%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "sora": {
+    "nome": "Sora",
+    "lat": 41.718246,
+    "lon": 13.6124083,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Napoli%2C+27%2C+Sora%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "fiuggi": {
+    "nome": "Fiuggi",
+    "lat": 41.7939955,
+    "lon": 13.2212153,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Rettifilo%2C+61%2C+Fiuggi%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "livorno": {
+    "nome": "Livorno",
+    "lat": 43.5495487,
+    "lon": 10.3122215,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Cardinale%2C+44%2C+Livorno%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "bergamo": {
+    "nome": "Bergamo",
+    "lat": 45.696145,
+    "lon": 9.6708283,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Monte+Grappa+7%2C+Bergamo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "arezzo": {
+    "nome": "Arezzo",
+    "lat": 43.4654563,
+    "lon": 11.8797274,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+54%2C+Arezzo%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "pieve-di-cento": {
+    "nome": "Pieve di Cento",
+    "lat": 44.7135353,
+    "lon": 11.3051883,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Risorgimento+15%2FA%2C+Pieve+di+Cento%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "besana-in-brianza": {
+    "nome": "Besana in Brianza",
+    "lat": 45.7001267,
+    "lon": 9.285012,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+12%2C+Besana+in+Brianza%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "venezia": {
+    "nome": "Venezia",
+    "lat": 45.4342571,
+    "lon": 12.3386717,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+San+Marco+41%E2%80%9342%2C+Venezia%2C+Italia",
+    "verificataIl": "2026-10-31"
+  },
+  "taormina": {
+    "nome": "Taormina",
+    "lat": 37.8517934,
+    "lon": 15.2860717,
+    "fonte": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+28%2C+Taormina%2C+Italia",
+    "verificataIl": "2026-10-31"
+  }
+}

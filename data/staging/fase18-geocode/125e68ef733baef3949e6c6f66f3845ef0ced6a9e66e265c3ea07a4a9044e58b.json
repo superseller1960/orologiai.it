@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Repubblica%2C+102%2F104%2C+Poggibonsi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81092818,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 193910713,
+      "lat": "43.4682894",
+      "lon": "11.1463791",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338942015716789,
+      "addresstype": "residential",
+      "name": "Via della Repubblica",
+      "display_name": "Via della Repubblica, Montelonti, Poggibonsi, Siena, Toscana, 53036, Italia",
+      "address": {
+        "road": "Via della Repubblica",
+        "suburb": "Montelonti",
+        "town": "Poggibonsi",
+        "county": "Siena",
+        "ISO3166-2-lvl6": "IT-SI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "53036",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.4671498",
+        "43.4694091",
+        "11.1461614",
+        "11.1464285"
+      ]
+    }
+  ]
+}

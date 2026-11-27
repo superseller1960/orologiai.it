@@ -21,7 +21,8 @@
     "import:osm": "tsx scripts/import-osm.ts",
     "fetch:osm:pilot": "tsx scripts/fetch-osm-pilot.ts",
     "integrate:toscana-02": "tsx scripts/integrate-toscana-02.ts",
-    "integrate:reviewed": "tsx scripts/integrate-reviewed-batch.ts"
+    "integrate:reviewed": "tsx scripts/integrate-reviewed-batch.ts",
+    "prebuild": "node scripts/fase40-evidenze-client.mjs && node scripts/fase42-indice.mjs"
   },
   "dependencies": {
     "astro": "7.4.0",

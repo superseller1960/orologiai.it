@@ -1,0 +1,8 @@
+{
+  "site/src/pages/index.astro": "b28e0f972b6b49592af7abf29c2108eae7b5ad52393804544ce6dbc0fa97829f",
+  "site/src/layouts/Layout.astro": "68a035356a379a0757c86eb2d09552fdb4d6ddfc4067f631e7c476f6ab0dc5fa",
+  "site/src/styles/home.css": "372932ffdf405234f2ecfb25a025a82afd4be97e172c78e1585c56d9498895d0",
+  "site/public/home-upgrade.css": "7e3316aeef03e97165027e817f8fbeb419a8750b019bcb20114ff2af56f88237",
+  "site/assets/home-upgrade.css": "7e3316aeef03e97165027e817f8fbeb419a8750b019bcb20114ff2af56f88237",
+  "site/assets/images/editorial-movement-ai.webp": "0a1f1a5f219333b00bab9e7f3a4d29acd65b236a63a92fd7fbfadd2d99c28ff8"
+}

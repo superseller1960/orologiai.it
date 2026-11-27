@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roberto+di+Biccari%2C+9%2C+Lecce%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56379470,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 677696210,
+      "lat": "40.3524774",
+      "lon": "18.1740585",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05340067978942546,
+      "addresstype": "residential",
+      "name": "Via Roberto Di Biccari",
+      "display_name": "Via Roberto Di Biccari, Lecce, Puglia, 73100, Italia",
+      "address": {
+        "road": "Via Roberto Di Biccari",
+        "city": "Lecce",
+        "county": "Lecce",
+        "ISO3166-2-lvl6": "IT-LE",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "73100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.3524617",
+        "40.3524930",
+        "18.1739919",
+        "18.1741252"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Centrale%2C+44%2C+Brunico%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 73951743,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2749654959,
+      "lat": "46.7957841",
+      "lon": "11.9383127",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.0000622484168764327,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "44, Via Centrale, Centro Storico, Bruneck - Brunico, Brunico, Val Pusteria, Bolzano, Trentino-Alto Adige, 39031, Italia",
+      "address": {
+        "house_number": "44",
+        "road": "Via Centrale",
+        "quarter": "Centro Storico",
+        "suburb": "Bruneck - Brunico",
+        "town": "Brunico",
+        "municipality": "Val Pusteria",
+        "county": "Bolzano",
+        "ISO3166-2-lvl6": "IT-BZ",
+        "state": "Trentino-Alto Adige",
+        "ISO3166-2-lvl4": "IT-32",
+        "postcode": "39031",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.7957341",
+        "46.7958341",
+        "11.9382627",
+        "11.9383627"
+      ]
+    }
+  ]
+}

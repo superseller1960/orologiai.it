@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Indipendenza+15%2C+Bologna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78203550,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1704248605,
+      "lat": "44.4966036",
+      "lon": "11.3432124",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007805828946359988,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "15, Via dell'Indipendenza, Quadrilatero, Irnerio, Santo Stefano, Bologna, Emilia-Romagna, 40121, Italia",
+      "address": {
+        "house_number": "15",
+        "road": "Via dell'Indipendenza",
+        "neighbourhood": "Quadrilatero",
+        "suburb": "Irnerio",
+        "city": "Bologna",
+        "county": "Bologna",
+        "ISO3166-2-lvl6": "IT-BO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "40121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4965536",
+        "44.4966536",
+        "11.3431624",
+        "11.3432624"
+      ]
+    }
+  ]
+}

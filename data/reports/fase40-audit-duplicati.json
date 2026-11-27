@@ -1,0 +1,219 @@
+{
+  "data": "2026-11-06",
+  "attivita": 561,
+  "classi": {
+    "possibile-duplicato": 21
+  },
+  "coppie": [
+    {
+      "coppia": [
+        "pisani-scandicci-matteotti",
+        "pisani-scandicci-maschera"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso nello stesso comune: due sedi della stessa insegna"
+      ]
+    },
+    {
+      "coppia": [
+        "agnolucci-signa",
+        "agnolucci-poggio"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "oreoro-poggibonsi",
+        "oreoro-colle"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "monetti-napoli-mille",
+        "monetti-napoli-brigida"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso nello stesso comune: due sedi della stessa insegna"
+      ]
+    },
+    {
+      "coppia": [
+        "astrua-genova",
+        "astrua-torino"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "astrua-genova",
+        "astrua-piacenza"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "astrua-torino",
+        "astrua-piacenza"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "trossello-courmayeur",
+        "eredi-trossello-aosta"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "valenti-parma",
+        "valenti-parma-farini"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso nello stesso comune: due sedi della stessa insegna"
+      ]
+    },
+    {
+      "coppia": [
+        "gioielleria-grande-frosinone",
+        "grande-aldomoro-frosinone"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso nello stesso comune: due sedi della stessa insegna"
+      ]
+    },
+    {
+      "coppia": [
+        "martines-gioielleria-canicatti-canicatti",
+        "martines-agrigento-atenea"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "dobner-gorizia",
+        "dobner-trieste"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "orzelleca-gioielli-benevento",
+        "isi-orzelleca-avellino"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "errani-ravenna",
+        "errani-faenza"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "brugnelli-cremona-campi",
+        "brugnelli-cremona-verdi"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso nello stesso comune: due sedi della stessa insegna"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-catania",
+        "restivo-siracusa"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-catania",
+        "restivo-enna"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-catania",
+        "restivo-taormina-patek"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-siracusa",
+        "restivo-enna"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-siracusa",
+        "restivo-taormina-patek"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    },
+    {
+      "coppia": [
+        "restivo-enna",
+        "restivo-taormina-patek"
+      ],
+      "classe": "possibile-duplicato",
+      "motivi": [
+        "Dominio condiviso in comuni diversi: possibile rete con più sedi"
+      ]
+    }
+  ]
+}

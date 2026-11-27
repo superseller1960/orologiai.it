@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fratelli+Laviny%2C+17%2C+Vercelli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75956659,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12034023596,
+      "lat": "45.3251528",
+      "lon": "8.4214786",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006622796978709113,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "17, Via Giovanni e Ottavio Laviny, Brut Fond, Monrosa, Centro, Vercelli, Piemonte, 13100, Italia",
+      "address": {
+        "house_number": "17",
+        "road": "Via Giovanni e Ottavio Laviny",
+        "neighbourhood": "Brut Fond",
+        "quarter": "Monrosa",
+        "suburb": "Centro",
+        "city": "Vercelli",
+        "county": "Vercelli",
+        "ISO3166-2-lvl6": "IT-VC",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "13100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3251028",
+        "45.3252028",
+        "8.4214286",
+        "8.4215286"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+39%2C+San+Zeno+Naviglio%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74790336,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12892465778,
+      "lat": "45.4920865",
+      "lon": "10.2176568",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.0000620424200808273,
+      "addresstype": "shop",
+      "name": "Gioielleria Rovari",
+      "display_name": "Gioielleria Rovari, 39, Via Armando Diaz, Garza, San Zeno Naviglio, Brescia, Lombardia, 25010, Italia",
+      "address": {
+        "shop": "Gioielleria Rovari",
+        "house_number": "39",
+        "road": "Via Armando Diaz",
+        "hamlet": "Garza",
+        "village": "San Zeno Naviglio",
+        "county": "Brescia",
+        "ISO3166-2-lvl6": "IT-BS",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "25010",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.4920365",
+        "45.4921365",
+        "10.2176068",
+        "10.2177068"
+      ]
+    }
+  ]
+}

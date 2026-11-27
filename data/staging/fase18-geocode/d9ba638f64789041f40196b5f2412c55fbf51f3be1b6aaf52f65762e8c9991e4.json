@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Don+Minzoni%2C+55%2Fa%2C+Porto+San+Giorgio%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79363950,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 47375789,
+      "lat": "43.1806841",
+      "lon": "13.7948698",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338841916533147,
+      "addresstype": "residential",
+      "name": "Viale Don Giovanni Minzoni",
+      "display_name": "Viale Don Giovanni Minzoni, Porto San Giorgio, Fermo, Marche, 63822, Italia",
+      "address": {
+        "road": "Viale Don Giovanni Minzoni",
+        "town": "Porto San Giorgio",
+        "county": "Fermo",
+        "ISO3166-2-lvl6": "IT-FM",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "63822",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.1803158",
+        "43.1810525",
+        "13.7933989",
+        "13.7963407"
+      ]
+    }
+  ]
+}

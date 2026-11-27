@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ruggero+Settimo+66%2C+Palermo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54026560,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9081964098,
+      "lat": "38.1236257",
+      "lon": "13.3561902",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00007561226825355943,
+      "addresstype": "shop",
+      "name": "Fecarotta Gioielli",
+      "display_name": "Fecarotta Gioielli, 66, Via Ruggero Settimo, VIII Circoscrizione, Palermo, Sicilia, 90139, Italia",
+      "address": {
+        "shop": "Fecarotta Gioielli",
+        "house_number": "66",
+        "road": "Via Ruggero Settimo",
+        "suburb": "VIII Circoscrizione",
+        "city": "Palermo",
+        "county": "Palermo",
+        "ISO3166-2-lvl6": "IT-PA",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "90139",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1235757",
+        "38.1236757",
+        "13.3561402",
+        "13.3562402"
+      ]
+    }
+  ]
+}

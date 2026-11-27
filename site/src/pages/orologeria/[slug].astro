@@ -1,34 +1,86 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import BusinessCard from '../../components/BusinessCard.astro';
+import '../../styles/profile.css';
+import { directionsUrl, laboratoryLabel, titoloScheda } from '../../lib/business-presentation';
 import { directory, businessUrl, placeOf, localityUrl } from '../../lib/directory';
-import { services, specializationLabels, macroAreeServizi, statuses, type Business } from '../../lib/schema';
+import { services, specializationLabels, macroAreeServizi, statuses, isUsableCoordinate, type Business } from '../../lib/schema';
+import { evidenzeAttivita, fraseEvidenza, evidenzeAggiornateIl } from '../../lib/evidenze';
+import { etichettaFonte } from '../../lib/evidenza-regole';
 export function getStaticPaths() { return directory.attivita.map(b => ({ params: { slug: b.slug }, props: { business: b } })); }
 interface Props { business: Business; }
 const { business: b } = Astro.props;
 const place = placeOf(b);
-const sources = directory.fonti.filter(s => b.attendibilita.fonti.includes(s.id));
+const allSourceIds = new Set([...b.attendibilita.fonti,...b.posizione.fonti,...b.contatti.fonti,...b.orari.fonti,...b.storia.fonti,...b.servizi.flatMap(s=>s.fonti),...b.altriServizi.flatMap(s=>s.fonti),...b.specializzazioni.flatMap(s=>s.fonti),...Object.values(b.marchi).flat().flatMap(s=>s.fonti),...(b.laboratorio?.fonti ?? []),...(b.posizione.coordinate?.fonti ?? [])]);
+const sources = directory.fonti.filter(s => allSourceIds.has(s.id));
+const related = directory.attivita.filter(other=>other.id!==b.id && other.localitaId===b.localitaId && other.attendibilita.stato!=='chiusa').sort((a,c)=>c.servizi.filter(s=>b.servizi.some(t=>t.id===s.id)).length-a.servizi.filter(s=>b.servizi.some(t=>t.id===s.id)).length).slice(0,3);
 const isLegacy = b.origine.sistema === 'legacy-8dc29a5';
 const roles = { venduti: 'Marchi venduti', riparati: 'Marchi riparati', esperienza: 'Esperienza dichiarata', assistenzaUfficiale: 'Assistenza ufficialmente autorizzata', rivenditaUfficiale: 'Rivendita ufficialmente autorizzata', menzionati: 'Marchi citati nelle fonti storiche' };
 const brandGroups = Object.entries(roles).map(([key, label]) => ({ key, label, claims: b.marchi[key as keyof typeof b.marchi] })).filter(g => g.claims.length > 0);
 const topServices = b.servizi.slice(0, 3);
+// Solo frasi realmente recuperate: una competenza senza citazione non compare in questo blocco.
+const competenze = [...new Map(evidenzeAttivita(b.id)
+  .filter(e => e.stato === 'confermata' && e.estratto.length > 0 && e.servizio in services)
+  .map(e => [e.servizio, e])).values()].slice(0, 6);
+const dataCompetenze = new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${evidenzeAggiornateIl}T12:00:00Z`));
 const specializzazioni = b.specializzazioni.map(s => specializationLabels[s.id]);
 const hasStoria = Boolean(b.storia.testo || b.storia.annoFondazione || b.storia.fondatore || b.storia.eventi.length);
 const telHref = b.contatti.telefono?.replace(/[^+\d]/g, '');
-const indicazioni = b.posizione.indirizzo
-  ? `https://www.openstreetmap.org/search?query=${encodeURIComponent(`${b.posizione.indirizzo}, ${place.comune}, Italia`)}`
-  : null;
-const schema = { '@context': 'https://schema.org', '@type': 'WebPage', name: b.nome, description: b.descrizione, url: new URL(businessUrl(b), Astro.site).href };
+const indicazioni = directionsUrl(b,place.comune);
+const paginaSchema = { '@type': 'WebPage', name: b.nome, description: b.descrizione, url: new URL(businessUrl(b), Astro.site).href };
+// Breadcrumb strutturato sui percorsi realmente pubblicati: nessun dato inventato.
+const bricioleSchema = {
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Orologiai.it', item: new URL('/', Astro.site).href },
+    { '@type': 'ListItem', position: 2, name: `${place.comune}, ${place.regione}`, item: new URL(localityUrl(place), Astro.site).href },
+    { '@type': 'ListItem', position: 3, name: b.nome, item: new URL(businessUrl(b), Astro.site).href },
+  ],
+};
+// Dati strutturati dell'attività: solo campi pubblicati nella scheda, nessuna valutazione o prezzo.
+const giorniSchema = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+const orariSchema = b.orari.giorni.flatMap(g => g.intervalli.map(i => ({
+  '@type': 'OpeningHoursSpecification',
+  dayOfWeek: `https://schema.org/${giorniSchema[g.giorno - 1]}`,
+  opens: i.apertura,
+  closes: i.chiusura,
+})));
+const indirizzoSchema = b.posizione.indirizzo ? {
+  '@type': 'PostalAddress',
+  streetAddress: b.posizione.indirizzo,
+  ...(b.posizione.cap ? { postalCode: b.posizione.cap } : {}),
+  addressLocality: place.comune,
+  addressRegion: place.siglaProvincia,
+  addressCountry: 'IT',
+} : null;
+const coordinate = isUsableCoordinate(b.posizione.coordinate) ? b.posizione.coordinate : null;
+const attivitaSchema = {
+  '@type': 'LocalBusiness',
+  '@id': `${new URL(businessUrl(b), Astro.site).href}#business`,
+  name: b.nome,
+  description: b.descrizione,
+  url: new URL(businessUrl(b), Astro.site).href,
+  ...(b.contatti.telefono ? { telephone: b.contatti.telefono } : {}),
+  ...(b.contatti.email ? { email: b.contatti.email } : {}),
+  ...(indirizzoSchema ? { address: indirizzoSchema } : {}),
+  ...(coordinate ? { geo: { '@type': 'GeoCoordinates', latitude: coordinate.lat, longitude: coordinate.lon } } : {}),
+  ...(orariSchema.length ? { openingHoursSpecification: orariSchema } : {}),
+  ...(b.contatti.sito ? { sameAs: [b.contatti.sito] } : {}),
+};
+const schema = { '@context': 'https://schema.org', '@graph': [paginaSchema, bricioleSchema, attivitaSchema] };
 const report = `mailto:acquistiscardi@gmail.com?subject=${encodeURIComponent(`Correzione scheda: ${b.id}`)}&body=${encodeURIComponent(`Scheda: https://www.orologiai.it${businessUrl(b)}\nRuolo (titolare, cliente, altro):\nDato da correggere:\nFonte pubblica:\n`)}`;
 const aggiornamento = `mailto:acquistiscardi@gmail.com?subject=${encodeURIComponent(`Aggiornamento scheda: ${b.id}`)}&body=${encodeURIComponent(`Scheda: https://www.orologiai.it${businessUrl(b)}\nSono il titolare o mi occupo dell’attività.\nAggiornamento da apportare:\nFonte pubblica che lo conferma:\n`)}`;
 const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURIComponent(`Contestazione dato non documentato: ${b.id}`)}&body=${encodeURIComponent(`Scheda: https://www.orologiai.it${businessUrl(b)}\nInformazione contestata:\nPerché non è documentata o è errata:\n`)}`;
 ---
-<Layout title={`${b.nome} — ${place.comune}`} description={b.descrizione} schema={schema}>
+<Layout title={titoloScheda(b, place.comune)} description={b.descrizione} schema={schema}>
   <section class="page-hero profile-hero"><div class="container">
     <a class="breadcrumb" href={localityUrl(place)}>← {place.comune}, {place.regione}</a>
     <p class="eyebrow">{place.comune} · {place.siglaProvincia} · {b.tipi.join(' / ')}</p>
     <h1>{b.nome}</h1>
     <p class="lead">{b.descrizione}</p>
-    <p class="profile-facts"><span class="status">{statuses[b.attendibilita.stato]}</span>{specializzazioni.slice(0, 2).map(s => <span class="tag">{s}</span>)}{topServices.map(s => <span class="tag">{services[s.id]}</span>)}</p>
+    <p class="profile-facts">{b.storia.annoFondazione && <span>Dal {b.storia.annoFondazione}</span>}{b.laboratorio && <span>{b.storia.annoFondazione ? ' · ' : ''}{laboratoryLabel(b)}</span>}</p>
+    {specializzazioni.length > 0 && <p class="profile-specialty"><span class="label">Specializzazione</span>{specializzazioni.slice(0, 2).join(' · ')}</p>}
+    {topServices.length > 0 && <p class="profile-services"><span class="label">Servizi</span>{topServices.map(s => services[s.id]).join(' · ')}</p>}
     <div class="profile-contact">
       {b.posizione.indirizzo && <p><span class="label">Indirizzo</span>{b.posizione.indirizzo}{b.posizione.cap ? `, ${b.posizione.cap}` : ''} — {place.comune} ({place.siglaProvincia})</p>}
       {b.contatti.telefono && <p><span class="label">Telefono</span><a href={`tel:${telHref}`}>{b.contatti.telefono}</a></p>}
@@ -42,11 +94,24 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     </div>
   </div></section>
   <div class="container section profile-grid"><div>
-    <section class="panel"><h2>Servizi documentati</h2>
+    {b.laboratorio && <section class="panel laboratory-panel"><p class="eyebrow dark">{laboratoryLabel(b)}</p><h2>{b.laboratorio.tipo==='orafo' ? 'La lavorazione dei gioielli' : 'Il laboratorio e gli interventi'}</h2><p>{b.laboratorio.descrizione}</p></section>}
+    <section class="panel"><h2>Servizi e specializzazioni</h2>
       {b.servizi.length ? macroAreeServizi.map(area => { const items = b.servizi.filter(s => area.servizi.includes(s.id)); return items.length ? <div class="fact"><h3>{area.titolo}</h3><div class="tags">{items.map(s => <span class="tag">{services[s.id]}</span>)}</div></div> : null; }) : <p>Nessun servizio specifico è documentato dalle fonti disponibili.</p>}
       {b.altriServizi.length > 0 && <div class="fact"><h3>Altri servizi citati</h3><ul>{b.altriServizi.map(s => <li>{s.nome}</li>)}</ul></div>}
       <p class="small muted">Le competenze compaiono solo quando documentate da una fonte. Non deduciamo specializzazioni da un servizio generico.</p>
     </section>
+    {competenze.length > 0 && <section class="panel" aria-labelledby="competenze-titolo">
+      <p class="eyebrow dark">Documentazione</p>
+      <h2 id="competenze-titolo">Competenze documentate</h2>
+      <p class="small muted">Frasi tratte dalle fonti consultate, aggiornate al {dataCompetenze}. Ogni voce rimanda alla pagina originale: nessuna competenza è dedotta dalla tipologia dell’esercizio.</p>
+      <ul class="competence-list">
+        {competenze.map(c => <li>
+          <p class="competence-service">{services[c.servizio as keyof typeof services]}</p>
+          <blockquote>{fraseEvidenza(c, 150, c.servizio)}</blockquote>
+          <a class="text-link competence-source" href={c.url} rel="noopener noreferrer nofollow" target="_blank">Verifica la fonte<span class="sr-only">: {etichettaFonte(c.titolo, c.url)}</span></a>
+        </li>)}
+      </ul>
+    </section>}
     {brandGroups.length > 0 && <section class="panel"><h2>Marchi e relazioni</h2>
       {brandGroups.map(g => <div class="fact"><h3>{g.label}</h3><ul>{g.claims.map(c => <li>{c.marca}</li>)}</ul></div>)}
       <p class="notice">La citazione di un marchio non prova un’autorizzazione ufficiale, né alla vendita né all’assistenza. Le autorizzazioni sono indicate solo con fonte del marchio.</p>
@@ -58,7 +123,8 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
       {b.storia.eventi.length > 0 && <ul>{b.storia.eventi.map(e => <li><strong>{e.data}</strong> — {e.descrizione}</li>)}</ul>}
       <p class="small muted">{isLegacy ? 'Informazioni provenienti dall’archivio storico, non riconfermate sul sito ufficiale attuale.' : 'I fatti storici sono attribuiti alle fonti citate. La consultazione online non equivale a un controllo archivistico indipendente.'}</p>
     </section>}
-    <details class="panel" id="fonti"><summary><h2>Fonti e verifiche</h2></summary>
+    <details class="sources-panel" id="fonti"><summary>Fonti e verifiche</summary>
+      <p>Stato della scheda: <strong>{statuses[b.attendibilita.stato]}</strong>.</p>
       <p>Raccolta: <time datetime={b.attendibilita.raccoltaIl}>{b.attendibilita.raccoltaIl}</time>. Verifica indipendente: {b.attendibilita.verificataIl ?? 'non ancora eseguita'}. Conferma del titolare: {b.attendibilita.confermataTitolareIl ?? 'non ricevuta'}.</p>
       <p class="small muted">«Fonti pubbliche» indica che i dati provengono da documenti consultabili: non è una certificazione, né una visita all’attività.</p>
       <ul>{sources.map(s => <li><a href={s.url} rel="noreferrer">{s.titolo}</a> · consultazione {s.consultataIl}{s.percorsoArchivio && <span> · archivio conservato: <code>{s.percorsoArchivio}</code></span>}</li>)}</ul>
@@ -73,8 +139,10 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     <h3>Orari</h3>
     {b.orari.giorni.length ? <ul>{b.orari.giorni.map(g => <li>{['Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato','Domenica'][g.giorno - 1]}: {g.intervalli.length ? g.intervalli.map(i => `${i.apertura}–${i.chiusura}`).join(', ') : 'chiuso'}</li>)}</ul> : <p>Orari non disponibili. Non possiamo indicare se l’attività è aperta oggi.</p>}
     {b.orari.verificatiIl && <p class="small muted">Orari riscontrati nella fonte il {b.orari.verificatiIl}. Confermare eventuali variazioni o festività; non mostriamo “aperto oggi”.</p>}
-    {b.posizione.coordinate ? <><p class="small"><strong>Posizione geocodificata e confrontata con l’indirizzo disponibile.</strong> Non è una verifica sul posto.</p><a class="btn secondary" href={`https://www.openstreetmap.org/?mlat=${b.posizione.coordinate.lat}&mlon=${b.posizione.coordinate.lon}#map=17/${b.posizione.coordinate.lat}/${b.posizione.coordinate.lon}`}>Apri la posizione su OSM ↗</a></> : <p class="small muted">Nessuna posizione cartografica pubblicata: l’indirizzo non è ancora confrontato con una geocodifica.</p>}
-    {b.posizione.indirizzo && !b.posizione.coordinate && <p><a href={indicazioni!} rel="noreferrer">Cerca l’indirizzo sulla mappa ↗</a><br /><small>Ricerca testuale esterna, non un punto verificato.</small></p>}
+    {isUsableCoordinate(b.posizione.coordinate) ? <><p class="small"><strong>Posizione geocodificata e confrontata con l’indirizzo disponibile.</strong> Non è una verifica sul posto.</p><a class="btn secondary" href={`https://www.openstreetmap.org/?mlat=${b.posizione.coordinate.lat}&mlon=${b.posizione.coordinate.lon}#map=17/${b.posizione.coordinate.lat}/${b.posizione.coordinate.lon}`}>Apri la posizione su OSM ↗</a></> : <p class="small muted">Nessuna posizione cartografica pubblicata: l’indirizzo non è ancora confrontato con una geocodifica.</p>}
+    {isUsableCoordinate(b.posizione.coordinate) && <p class="coordinate-credit">© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> · <a href="/coordinate-osm.json">Dati geografici ODbL</a></p>}
+    {b.posizione.indirizzo && !isUsableCoordinate(b.posizione.coordinate) && <p><a href={indicazioni!} rel="noreferrer">Cerca l’indirizzo sulla mappa ↗</a><br /><small>Ricerca testuale esterna, non un punto verificato.</small></p>}
     <hr /><h3>È la tua attività?</h3><p>Proponi un aggiornamento, allegando fonti pubbliche. Le modifiche saranno revisionate.</p><ul class="small"><li><a href={aggiornamento}>Aggiorna la scheda della tua attività →</a></li><li><a href={contestazione}>Contesta un dato non documentato →</a></li><li><a href="/privacy/#come-esercitare-i-diritti">Rettifica o cancellazione dei tuoi dati personali →</a></li></ul><p class="small muted">Si risponde via email: non serve creare un account. <a href="/partecipa/">Come funziona la revisione →</a></p>
   </section></aside></div>
+  {related.length>0 && <section class="container profile-related"><p class="eyebrow dark">Prosegui nel territorio</p><h2>Altre botteghe a {place.comune}</h2><p>Indirizzi nello stesso comune, ordinati per servizi condivisi. Confronta gli interventi disponibili nelle singole schede.</p><ul class="grid">{related.map(other=><BusinessCard business={other} compact />)}</ul></section>}
 </Layout>

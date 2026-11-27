@@ -1,0 +1,45 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+San+Martino+188%2C+Messina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54038792,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2524330230,
+      "lat": "38.1825281",
+      "lon": "15.5528862",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00007084992751960048,
+      "addresstype": "shop",
+      "name": "La Motta gioielli",
+      "display_name": "La Motta gioielli, 188, Viale San Martino, Zaera, Maregrosso, IV Circoscrizione, Messina, Sicilia, 98123, Italia",
+      "address": {
+        "shop": "La Motta gioielli",
+        "house_number": "188",
+        "road": "Viale San Martino",
+        "neighbourhood": "Zaera",
+        "quarter": "Maregrosso",
+        "suburb": "IV Circoscrizione",
+        "city": "Messina",
+        "county": "Messina",
+        "ISO3166-2-lvl6": "IT-ME",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "98123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1824781",
+        "38.1825781",
+        "15.5528362",
+        "15.5529362"
+      ]
+    }
+  ]
+}

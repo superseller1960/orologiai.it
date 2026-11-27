@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti%2C+47+%E2%80%94+Figline+Valdarno%2C+Figline+e+Incisa+Valdarno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81542152,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5844107744,
+      "lat": "43.6193587",
+      "lon": "11.4705758",
+      "category": "shop",
+      "type": "stationery",
+      "place_rank": 30,
+      "importance": 0.000056190585183444225,
+      "addresstype": "shop",
+      "name": "Simona Cartoleria",
+      "display_name": "Simona Cartoleria, 47, Corso Giacomo Matteotti, I Cappuccini, Figline Valdarno, Figline e Incisa Valdarno, Firenze, Toscana, 50063, Italia",
+      "address": {
+        "shop": "Simona Cartoleria",
+        "house_number": "47",
+        "road": "Corso Giacomo Matteotti",
+        "hamlet": "I Cappuccini",
+        "town": "Figline Valdarno",
+        "municipality": "Figline e Incisa Valdarno",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50063",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6193087",
+        "43.6194087",
+        "11.4705258",
+        "11.4706258"
+      ]
+    }
+  ]
+}

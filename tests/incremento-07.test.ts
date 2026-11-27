@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -30,7 +31,7 @@ test('ogni nuova scheda ha fonti ufficiali verificate e non inventa coordinate n
     const b = data.attivita.find(x => x.id === id)!;
     assert.equal(b.attendibilita.stato, 'fonti-verificate');
     assert.equal(b.attendibilita.verificataIl, '2026-10-19');
-    assert.equal(b.posizione.coordinate, null);
+    assertAbsentOrReviewedCoordinate(b);
     assert.equal(b.marchi.assistenzaUfficiale.length, 0);
     assert.equal(b.marchi.rivenditaUfficiale.length, 0);
     for (const ref of [

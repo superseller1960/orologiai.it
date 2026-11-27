@@ -1,0 +1,126 @@
+[
+  {
+    "id": "del-giudice-pozzuoli",
+    "ok": true,
+    "dati": [
+      {
+        "url": "https://www.gioielleriadelgiudice.it/contatti-gioielleria-del-giudice-pozzuoli-napoli-numero-di-telefono-e-indirizzo/",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      },
+      {
+        "url": "https://www.gioielleriadelgiudice.it/riparazione-di-orologi-e-gioielli-a-pozzuoli/",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      }
+    ]
+  },
+  {
+    "id": "arte-doro-ostuni",
+    "ok": false,
+    "dati": [
+      {
+        "url": "https://www.gioielleriaartedoro.it/orologi/",
+        "stato": 200,
+        "cap": false,
+        "via": true,
+        "tel": true,
+        "comune": true
+      },
+      {
+        "url": "https://www.gioielleriaartedoro.it/contatti/",
+        "stato": 200,
+        "cap": false,
+        "via": true,
+        "tel": true,
+        "comune": true
+      }
+    ]
+  },
+  {
+    "id": "guzzi-soverato",
+    "ok": true,
+    "dati": [
+      {
+        "url": "https://www.guzzigioielli.it/contatti.html",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      }
+    ]
+  },
+  {
+    "id": "grasso-acireale",
+    "ok": false,
+    "dati": [
+      {
+        "url": "http://www.grassorologi.it/",
+        "stato": 200,
+        "cap": true,
+        "via": false,
+        "tel": true,
+        "comune": true
+      },
+      {
+        "url": "http://www.grassorologi.it/contatti/",
+        "stato": 404,
+        "cap": false,
+        "via": false,
+        "tel": false,
+        "comune": false
+      }
+    ]
+  },
+  {
+    "id": "chelios-orosei",
+    "ok": true,
+    "dati": [
+      {
+        "url": "https://www.chelosgioielli.com/",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      },
+      {
+        "url": "https://www.chelosgioielli.com/contatti",
+        "stato": 404,
+        "cap": false,
+        "via": false,
+        "tel": false,
+        "comune": false
+      }
+    ]
+  },
+  {
+    "id": "giorgetti-vasto",
+    "ok": true,
+    "dati": [
+      {
+        "url": "https://www.gioielleriagiorgetti.it/home/",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      },
+      {
+        "url": "https://www.gioielleriagiorgetti.it/laboratorio-riparazione-orologi-rolex/",
+        "stato": 200,
+        "cap": true,
+        "via": true,
+        "tel": true,
+        "comune": true
+      }
+    ]
+  }
+]

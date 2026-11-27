@@ -2,34 +2,69 @@
 import Layout from '../layouts/Layout.astro';
 import SearchFields from '../components/SearchFields.astro';
 import '../styles/search.css';
-import BusinessCard from '../components/BusinessCard.astro';
-import { directory, localityUrl } from '../lib/directory';
-import { REGIONI_ITALIA } from '../lib/geo';
-const citta = [...directory.localita]
-  .map(p => ({ ...p, attivita: directory.attivita.filter(b => b.localitaId === p.id).length }))
-  .filter(p => p.attivita > 0)
-  .sort((a, b) => b.attivita - a.attivita || a.comune.localeCompare(b.comune, 'it'))
+import '../styles/home.css';
+import '../styles/insights.css';
+import '../../public/home-upgrade.css';
+import { directory, localityUrl, businessUrl } from '../lib/directory';
+import { homePlacements } from '../lib/home-selection';
+
+const positions = homePlacements();
+const featured = positions.filter(p => p.type === 'editorial' && p.display === 'featured');
+const selected = positions.filter(p => p.type === 'editorial' && p.display === 'compact');
+const sponsored = positions.filter(p => p.type === 'sponsored');
+const cities = [...directory.localita]
+  .map(p => ({ ...p, count: directory.attivita.filter(b => b.localitaId === p.id).length }))
+  .filter(p => p.count > 0)
+  .sort((a, b) => b.count - a.count || a.comune.localeCompare(b.comune, 'it'))
   .slice(0, 8);
-const historic = [...directory.attivita].filter(b => b.storia.annoFondazione && ['fonti-verificate', 'confermata-titolare'].includes(b.attendibilita.stato)).sort((a,b) => a.storia.annoFondazione! - b.storia.annoFondazione!).slice(0,3);
-// Conteggi reali dal database: nessun numero inserito a mano, nessuna regione inventata.
-const regioni = Object.values(REGIONI_ITALIA).map(r => {
-  const attivita = directory.attivita.filter(b => directory.localita.find(p => p.id === b.localitaId)?.regioneSlug === r.slug).length;
-  return { ...r, attivita };
-});
 ---
 <Layout title="Trova l’orologiaio giusto, in tutta Italia" description="Orologerie, laboratori e botteghe storiche: cerca per regione, località e servizio, consulta le fonti e scopri i professionisti del tempo.">
-  <section class="hero"><div class="container hero-grid"><div><p class="eyebrow">La guida ai professionisti del tempo</p><h1>Ogni orologio<br />merita le <em>mani giuste.</em></h1><p class="lead">Dal cambio batteria al restauro di un ricordo. Trova botteghe, laboratori e competenze, anche lontano dalle grandi città.</p><form id="cerca" class="hero-search" action="/cerca/" method="get" role="search"><SearchFields prefix="hero" /><div class="search-actions"><button class="btn" type="submit">Mostra risultati</button></div></form><p class="hero-note">Una directory nazionale in costruzione. Dati reali, fonti visibili, nessuna promessa inventata.</p></div><figure class="hero-image"><img src="/images/pratt-workshop-720.webp" srcset="/images/pratt-workshop-720.webp 720w, /images/pratt-workshop-1440.webp 1440w" sizes="(max-width: 700px) 100vw, 42vw" width="720" height="498" alt="Banco e strumenti nel laboratorio dell’orologiaio Derek Pratt a Bellach, Svizzera" fetchpriority="high" /><figcaption>Il laboratorio di Derek Pratt a Bellach, Svizzera, 1985. Foto illustrativa: <a href="https://commons.wikimedia.org/wiki/File:Derek_Pratt%27s_Workshop_in_Bellach,_Switzerland.jpg">Louisetarp / Wikimedia Commons</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>.</figcaption></figure></div></section>
-  <div class="coverage"><div class="container coverage-inner"><strong>{directory.attivita.length} attività nel database</strong><span>{regioni.filter(r => r.attivita > 0).length} regioni su {regioni.length} con schede</span><span>Fonti consultabili in ogni scheda</span><a href="/metodo/">Come verifichiamo →</a></div></div>
-  <section class="container section" id="servizi"><div class="section-heading"><div><p class="eyebrow dark">Parti da quello che ti serve</p><h2>Ogni esigenza, le sue competenze.</h2></div><p class="muted">Confronta i servizi documentati e chiedi conferma direttamente al professionista.</p></div><div class="service-grid">
-    <a class="service-tile path-tile" href="/cerca/?servizio=riparazione"><img class="tile-media" src="/images/riparazione.webp" width="760" height="428" loading="lazy" alt="Un orologiaio al lavoro su un orologio, con lente e attrezzi" /><span class="service-number">01</span><h3>Riparare un orologio</h3><p class="tile-copy">Riparazione, batterie, cinturini e manutenzione documentati.</p><span aria-hidden="true">↗</span></a>
-    <a class="service-tile path-tile" href="/cerca/?servizio=revisione"><img class="tile-media" src="/images/orologio-tasca.webp" width="760" height="506" loading="lazy" alt="Orologio da tasca antico aperto, con il quadrante e le lancette" /><span class="service-number">02</span><h3>Revisionare o restaurare</h3><p class="tile-copy">Revisione dei movimenti, restauro vintage e orologi da tasca.</p><span aria-hidden="true">↗</span></a>
-    <a class="service-tile path-tile" href="/cerca/?servizio=vendita"><img class="tile-media" src="/images/orologio-moderno.webp" width="760" height="1140" loading="lazy" alt="Orologio subacqueo in acciaio con cinturino, fotografato su fondo neutro" /><span class="service-number">03</span><h3>Comprare o vendere</h3><p class="tile-copy">Orologi nuovi e usati, acquisto, permuta e valutazione.</p><span aria-hidden="true">↗</span></a>
-    <a class="service-tile path-tile" href="#botteghe"><img class="tile-media" src="/images/pendola.webp" width="760" height="1040" loading="lazy" alt="Pendola antica in legno con quadrante e pendolo" /><span class="service-number">04</span><h3>Scoprire una bottega</h3><p class="tile-copy">Storie, fondazioni e competenze tramandate, con le fonti.</p><span aria-hidden="true">↗</span></a>
-  </div><p class="small muted">Immagini illustrative: non ritraggono le attività del database. Anche restauro, pendole, vendita di usati e altri servizi sono nella <a href="/cerca/">ricerca completa</a>.</p></section>
-  <section class="container section-how"><p class="eyebrow dark">Come funziona</p><ol class="steps"><li><strong>1. Descrivi l’esigenza</strong><p>Scegli una città e, se vuoi, un servizio. La città basta: regione e provincia sono ricavate dai dati.</p></li><li><strong>2. Confronta le competenze</strong><p>Ogni scheda indica servizi e marchi realmente documentati, con le fonti consultabili.</p></li><li><strong>3. Contatta il professionista</strong><p>Telefono, sito e indicazioni sono nel primo schermo della scheda. Conferma sempre disponibilità e preventivo.</p></li></ol></section>
-  <section class="container section" id="botteghe"><div class="section-heading"><div><p class="eyebrow dark">Memoria artigiana</p><h2>Storie che continuano a segnare il tempo.</h2></div><a href="/blog/">Storie e guide →</a></div><ul class="grid">{historic.map(b => <BusinessCard business={b} />)}</ul><p class="small muted">Una selezione dalle schede con informazioni storiche e verifica delle fonti: non è una classifica.</p></section>
-  <section class="section alt" id="storia"><div class="container story-grid"><figure class="story-media"><img src="/images/pendola.webp" width="760" height="1040" loading="lazy" alt="Pendola antica con cassa in legno, quadrante e pendolo" /><figcaption>Pendola di Jacob Kock. Foto: Christoph Braun / Wikimedia Commons, CC0. Immagine illustrativa.</figcaption></figure><div><p class="eyebrow dark">Il sapere artigiano</p><h2>Il tempo si misura<br />anche in gesti.</h2><p>Smontare un movimento, lavarlo, lubrificare i perni, regolare il battito. Sono passaggi che non si improvvisano e che ogni laboratorio racconta a modo suo.</p><p>La guida non assegna pagelle: documenta ciò che le fonti pubbliche permettono di verificare e lascia al professionista l’ultima parola sull’intervento.</p><p><a class="text-link" href="/metodo/">Come verifichiamo le informazioni →</a></p></div></div></section>
-  <section class="section" id="regioni"><div class="container"><div class="section-heading"><div><p class="eyebrow dark">Tutta Italia</p><h2>Esplora le orologerie d’Italia</h2><p class="muted">Le città con più schede, oppure tutti i territori regione per regione.</p></div><a class="btn" href="/orologerie/">Esplora tutti i territori →</a></div><ul class="city-chips">{citta.map(p => <li><a href={localityUrl(p)}>{p.comune} <span>{p.attivita}</span></a></li>)}</ul></div></section>
-  <section class="container split-panels"><div class="feature-panel"><p class="eyebrow">Laboratori e specializzazioni</p><h2>Prima la competenza.<br />Poi la scelta.</h2><p>Confronta i servizi documentati e distingui le menzioni di un marchio dalle autorizzazioni ufficiali.</p><a class="btn" href="/cerca/?servizio=riparazione">Trova un laboratorio →</a><p><a href="/marchi/rolex/">Esplora il marchio Rolex →</a></p></div><div class="feature-panel pale"><p class="eyebrow dark">Orologiaio</p><h2>Una domanda semplice.<br />Una ricerca precisa.</h2><p>Descrivi il problema in linguaggio naturale: l’Orologiaio consulta il database, spiega ogni risultato e dice quando un’informazione manca. Non inventa negozi né competenze.</p><a class="text-link" href="/orologiaio/">Chiedi all’Orologiaio →</a> · <a class="text-link" href="/cerca/">Ricerca con filtri →</a></div></section>
-  <section class="container section cta" id="aggiungi"><p class="eyebrow dark">Costruiamo una guida attendibile</p><h2>Una piccola bottega merita<br />di essere trovata.</h2><p>Segnala un’attività, proponi una correzione o aiutaci a documentarne la storia. Ogni proposta richiede una verifica prima della pubblicazione.</p><a class="btn" href="/partecipa/">Come partecipare →</a></section>
+  <section class="editorial-hero">
+    <div class="container hero-composition">
+      <div class="hero-copy">
+        <p class="home-kicker"><span>Orologiai.it</span> · Una guida italiana</p>
+        <h1>Il tempo, <em>in buone mani.</em></h1>
+        <p class="hero-intro">Trova orologerie e laboratori, scopri le storie di chi si prende cura dei tuoi orologi.</p>
+        <form id="cerca" class="home-search" action="/cerca/" method="get" role="search">
+          <SearchFields prefix="hero" compact />
+          <button class="home-search-button" type="submit">Trova un orologiaio <span aria-hidden="true">↗</span></button>
+        </form>
+      </div>
+      <figure class="hero-visual">
+        <img src="/images/editorial-movement-ai.webp" width="1130" height="586" alt="Illustrazione editoriale digitale di un movimento meccanico con ruote e pinzette" fetchpriority="high" />
+      </figure>
+    </div>
+  </section>
+
+  <section class="home-section container" id="botteghe">
+    <div class="editorial-heading"><div><p class="home-kicker">01 / Selezione editoriale</p><h2>Le botteghe<br /><em>da conoscere.</em></h2></div><p>Tre storie, tre città. Una selezione indipendente, non una classifica.</p></div>
+    <div class="featured-list">{featured.map((p, i) => <article class={`featured-story featured-story-${i + 1}`}>
+      {p.image ? <figure class="approved-image"><img src={p.image.src} alt={p.image.alt} loading="lazy" /></figure> : <div class="featured-art" aria-hidden="true"><span class="art-index">RITRATTO / 0{i + 1}</span><span class="art-year">{p.business.storia.annoFondazione || '—'}</span><span class="art-city">{p.place.comune}</span></div>}
+      <div class="featured-copy"><p class="home-kicker">{p.place.comune}{p.business.storia.annoFondazione && <> <span> / </span> dal {p.business.storia.annoFondazione}</>}</p><h3><a href={businessUrl(p.business)}>{p.business.nome}</a></h3><p>{p.text}</p><a class="editorial-link" href={businessUrl(p.business)}>Scopri la bottega <span aria-hidden="true">↗</span></a></div>
+    </article>)}</div>
+  </section>
+
+  <section class="paths-section" id="servizi"><div class="container home-section">
+    <div class="editorial-heading"><div><p class="home-kicker">02 / Il tuo prossimo passo</p><h2>Di cosa ha bisogno<br /><em>il tuo orologio?</em></h2></div><p>Quattro modi per cominciare, secondo ciò che cerchi.</p></div>
+    <div class="editorial-paths">
+      <a class="editorial-path path-repair" href="/cerca/?servizio=riparazione"><span class="path-number">01</span><span class="path-symbol" aria-hidden="true">✳</span><span class="path-title">Riparazione</span><span class="path-desc">Interventi e manutenzione</span><span class="path-arrow" aria-hidden="true">↗</span></a>
+      <a class="editorial-path path-restore" href="/cerca/?servizio=revisione"><span class="path-number">02</span><span class="path-symbol" aria-hidden="true">◉</span><span class="path-title">Revisione <i>e</i> restauro</span><span class="path-desc">Cura del movimento</span><span class="path-arrow" aria-hidden="true">↗</span></a>
+      <a class="editorial-path path-history" href="#botteghe"><span class="path-number">03</span><span class="path-symbol" aria-hidden="true">✧</span><span class="path-title">Botteghe storiche</span><span class="path-desc">Storie documentate</span><span class="path-arrow" aria-hidden="true">↗</span></a>
+      <a class="editorial-path path-trade" href="/cerca/?servizio=vendita"><span class="path-number">04</span><span class="path-symbol" aria-hidden="true">◇</span><span class="path-title">Acquisto <i>e</i> vendita</span><span class="path-desc">Nuovo, vintage e usato</span><span class="path-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </div></section>
+
+  <section class="container home-section" id="altre-botteghe">
+    <div class="editorial-heading"><div><p class="home-kicker">03 / Altri indirizzi</p><h2>Altre storie,<br /><em>altri luoghi.</em></h2></div><p>Ancora botteghe e tradizioni da scoprire, da nord a sud.</p></div>
+    <p class="mobile-scroll-cue">Scorri per scoprire altre botteghe <span aria-hidden="true">→</span></p><div class="selected-list">{selected.map((p, i) => <article class="selected-row"><span class="selected-number">0{i + 1}</span><div><p class="home-kicker">{p.place.comune}{p.business.storia.annoFondazione && <> · dal {p.business.storia.annoFondazione}</>}</p><h3><a href={businessUrl(p.business)}>{p.business.nome}</a></h3></div><p>{p.text}</p><a href={businessUrl(p.business)} aria-label={`Scopri ${p.business.nome}`} class="selected-arrow">↗</a></article>)}</div>
+    <p class="selection-note">Scelte per storia documentata e distribuzione geografica. <a href="/metodo/">Il nostro metodo</a></p>
+  </section>
+
+  {sponsored.length > 0 && <section class="container home-section sponsored-section" aria-labelledby="sponsored-title"><p class="home-kicker">Pubblicità</p><h2 id="sponsored-title">Contenuti sponsorizzati</h2><div class="selected-list">{sponsored.map(p => <article class="selected-row"><span class="selected-number">ADV</span><div><p class="home-kicker">Contenuto sponsorizzato · {p.place.comune}</p><h3><a href={businessUrl(p.business)}>{p.business.nome}</a></h3></div><p>{p.text}</p>{p.image && <figure class="approved-image"><img src={p.image.src} alt={p.image.alt} loading="lazy" /></figure>}<a class="selected-arrow" href={businessUrl(p.business)} aria-label={`Scopri ${p.business.nome}`}>↗</a></article>)}</div></section>}
+
+  <section class="cities-section"><div class="container home-section"><div class="editorial-heading"><div><p class="home-kicker">04 / Atlante italiano</p><h2>Una città.<br /><em>Una nuova scoperta.</em></h2></div><p>Comincia da una delle città presenti nella guida, o esplora tutti i territori.</p></div><div class="city-list">{cities.map(city => <a href={localityUrl(city)}>{city.comune}<span aria-hidden="true">↗</span></a>)}</div><a class="editorial-link" href="/orologerie/">Esplora tutti i territori <span aria-hidden="true">↗</span></a></div></section>
+
+  <section class="container home-section journal-section"><figure class="journal-image"><img src="/images/strumento-spirale.jpg" width="960" height="1440" alt="Strumento storico per la regolazione della spirale di un orologio" loading="lazy" /><figcaption class="image-credit"><a href="/crediti/">Crediti immagine</a></figcaption></figure><div class="journal-copy"><p class="home-kicker">05 / Il sapere delle mani</p><h2>Un mondo<br />in <em>miniatura.</em></h2><p>Una spirale sottile, un gesto preciso, il battito di un movimento. Dietro ogni orologio meccanico c’è un sapere fatto di pazienza e strumenti speciali.</p><a class="editorial-link" href="/blog/">Leggi storie e guide <span aria-hidden="true">↗</span></a></div></section>
+
+  <section class="assistant-strip"><div class="container"><div><p class="home-kicker">Una domanda sul tuo orologio?</p><h2>Chiedi all’Orologiaio.</h2></div><a href="/orologiaio/">Parla con l’assistente <span aria-hidden="true">↗</span></a></div></section>
 </Layout>

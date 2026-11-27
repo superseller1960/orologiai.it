@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carrera+15%2FB%2C+Belluno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 69749766,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 25075335,
+      "lat": "46.1399206",
+      "lon": "12.2163372",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339722209506367,
+      "addresstype": "pedestrian",
+      "name": "Via Carrera",
+      "display_name": "Via Carrera, Lambioi, Castion, Belluno, Veneto, 32100, Italia",
+      "address": {
+        "road": "Via Carrera",
+        "neighbourhood": "Lambioi",
+        "village": "Castion",
+        "town": "Belluno",
+        "county": "Belluno",
+        "ISO3166-2-lvl6": "IT-BL",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "32100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.1397416",
+        "46.1400295",
+        "12.2162416",
+        "12.2165139"
+      ]
+    }
+  ]
+}

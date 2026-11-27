@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Nicol%C3%B2+Putignani+54%2C+Bari%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56770278,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12797910956,
+      "lat": "41.1232742",
+      "lon": "16.8700579",
+      "category": "shop",
+      "type": "hairdresser",
+      "place_rank": 30,
+      "importance": 0.00007187228198667914,
+      "addresstype": "shop",
+      "name": "Miró",
+      "display_name": "Miró, 54, Via Nicolò Putignani, Murat, Municipio 1, Bari, Puglia, 70121, Italia",
+      "address": {
+        "shop": "Miró",
+        "house_number": "54",
+        "road": "Via Nicolò Putignani",
+        "suburb": "Murat",
+        "city": "Bari",
+        "county": "Bari",
+        "ISO3166-2-lvl6": "IT-BA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "70121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.1232242",
+        "41.1233242",
+        "16.8700079",
+        "16.8701079"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele%2C+197%2C+Avellino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80145129,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 231522813,
+      "lat": "41.1467646",
+      "lon": "15.0837391",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053394213015945644,
+      "addresstype": "tertiary",
+      "name": "Corso Vittorio Emanuele",
+      "display_name": "Corso Vittorio Emanuele, Ariano Irpino, Avellino, Campania, 83031, Italia",
+      "address": {
+        "road": "Corso Vittorio Emanuele",
+        "residential": "Ariano Irpino",
+        "town": "Ariano Irpino",
+        "county": "Avellino",
+        "ISO3166-2-lvl6": "IT-AV",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "83031",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.1466393",
+        "41.1468899",
+        "15.0836735",
+        "15.0838047"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Arco+d%E2%80%99Augusto%2C+61%2C+Fano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79711345,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6775773212,
+      "lat": "43.8451511",
+      "lon": "13.0169962",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006230182345307115,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "61, Via Arco d'Augusto, Piattelletti, Centro storico, Fano, Pesaro e Urbino, Marche, 61032, Italia",
+      "address": {
+        "house_number": "61",
+        "road": "Via Arco d'Augusto",
+        "neighbourhood": "Piattelletti",
+        "quarter": "Centro storico",
+        "town": "Fano",
+        "county": "Pesaro e Urbino",
+        "ISO3166-2-lvl6": "IT-PU",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "61032",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8451011",
+        "43.8452011",
+        "13.0169462",
+        "13.0170462"
+      ]
+    }
+  ]
+}

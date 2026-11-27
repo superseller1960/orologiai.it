@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+164%2C+Ragusa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54630047,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 31508875,
+      "lat": "36.9252620",
+      "lon": "14.7280633",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.0533945593957427,
+      "addresstype": "pedestrian",
+      "name": "Via Roma",
+      "display_name": "Via Roma, Cappuccini, Ragusa Ibla, Ragusa, Sicilia, 97100, Italia",
+      "address": {
+        "road": "Via Roma",
+        "quarter": "Cappuccini",
+        "suburb": "Ragusa Ibla",
+        "city": "Ragusa",
+        "county": "Ragusa",
+        "ISO3166-2-lvl6": "IT-RG",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "97100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "36.9243933",
+        "36.9261353",
+        "14.7276954",
+        "14.7284206"
+      ]
+    }
+  ]
+}

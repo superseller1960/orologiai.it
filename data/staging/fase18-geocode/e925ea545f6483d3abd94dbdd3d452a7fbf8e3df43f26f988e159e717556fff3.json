@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+delle+Tre+Cannelle%2C+20A%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82275184,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 181029796,
+      "lat": "41.8964976",
+      "lon": "12.4860523",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053422295719844325,
+      "addresstype": "residential",
+      "name": "Via delle Tre Cannelle",
+      "display_name": "Via delle Tre Cannelle, Trevi, Municipio Roma I, Roma, Lazio, 00187, Italia",
+      "address": {
+        "road": "Via delle Tre Cannelle",
+        "quarter": "Trevi",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "00187",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.8962715",
+        "41.8966866",
+        "12.4857910",
+        "12.4862534"
+      ]
+    }
+  ]
+}

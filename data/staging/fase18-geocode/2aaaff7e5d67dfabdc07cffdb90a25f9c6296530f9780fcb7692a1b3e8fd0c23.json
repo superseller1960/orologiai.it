@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tommaso+Campanella+33%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80886107,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 15458824,
+      "lat": "41.9103987",
+      "lon": "12.4509777",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053422295719844325,
+      "addresstype": "residential",
+      "name": "Via Tommaso Campanella",
+      "display_name": "Via Tommaso Campanella, Municipio Roma I, Roma, Lazio, 00100, Italia",
+      "address": {
+        "road": "Via Tommaso Campanella",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "00100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.9099877",
+        "41.9108308",
+        "12.4492303",
+        "12.4527201"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ottone+Morena+11%2C+Lodi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76344413,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6876036528,
+      "lat": "45.3124376",
+      "lon": "9.5006424",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006437705043102186,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "11, Via Ottone Morena, Robadello, Revellino, Lodi, Lombardia, 26900, Italia",
+      "address": {
+        "house_number": "11",
+        "road": "Via Ottone Morena",
+        "quarter": "Robadello",
+        "suburb": "Revellino",
+        "city": "Lodi",
+        "county": "Lodi",
+        "ISO3166-2-lvl6": "IT-LO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "26900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3123876",
+        "45.3124876",
+        "9.5005924",
+        "9.5006924"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Fossi+21r%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81965779,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2361726800,
+      "lat": "43.7716238",
+      "lon": "11.2481944",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "21 R, Via dei Fossi, San Frediano, Quartiere 1, Firenze, Toscana, 50123, Italia",
+      "address": {
+        "house_number": "21 R",
+        "road": "Via dei Fossi",
+        "neighbourhood": "San Frediano",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7715738",
+        "43.7716738",
+        "11.2481444",
+        "11.2482444"
+      ]
+    }
+  ]
+}

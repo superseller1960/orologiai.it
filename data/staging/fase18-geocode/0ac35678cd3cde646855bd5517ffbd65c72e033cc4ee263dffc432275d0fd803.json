@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Gallitello+102%2C+Potenza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80185708,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 224722372,
+      "lat": "40.6302347",
+      "lon": "15.7916971",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339792401007092,
+      "addresstype": "tertiary",
+      "name": "Via del Gallitello",
+      "display_name": "Via del Gallitello, Gallitello, Potenza, Basilicata, 85100, Italia",
+      "address": {
+        "road": "Via del Gallitello",
+        "suburb": "Gallitello",
+        "city": "Potenza",
+        "county": "Potenza",
+        "ISO3166-2-lvl6": "IT-PZ",
+        "state": "Basilicata",
+        "ISO3166-2-lvl4": "IT-77",
+        "postcode": "85100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6301261",
+        "40.6303577",
+        "15.7915814",
+        "15.7918304"
+      ]
+    }
+  ]
+}

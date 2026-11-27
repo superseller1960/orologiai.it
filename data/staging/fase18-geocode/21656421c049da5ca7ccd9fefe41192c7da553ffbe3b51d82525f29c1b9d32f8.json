@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Eugenio+di+Savoia+44%2C+Latina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80827349,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 332857205,
+      "lat": "41.4659721",
+      "lon": "12.9046551",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053396205844205354,
+      "addresstype": "pedestrian",
+      "name": "Via Eugenio di Savoia",
+      "display_name": "Via Eugenio di Savoia, Prampolini, Latina, Lazio, 04100, Italia",
+      "address": {
+        "road": "Via Eugenio di Savoia",
+        "suburb": "Prampolini",
+        "city": "Latina",
+        "county": "Latina",
+        "ISO3166-2-lvl6": "IT-LT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "04100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.4659019",
+        "41.4662240",
+        "12.9039829",
+        "12.9052377"
+      ]
+    }
+  ]
+}

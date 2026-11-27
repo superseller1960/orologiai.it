@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Alfieri%2C+252%2C+Asti%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76439159,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 133621244,
+      "lat": "44.8987768",
+      "lon": "8.1968934",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339917524986645,
+      "addresstype": "residential",
+      "name": "Corso Vittorio Alfieri",
+      "display_name": "Corso Vittorio Alfieri, Rione Cattedrale, Asti, Piemonte, 14100, Italia",
+      "address": {
+        "road": "Corso Vittorio Alfieri",
+        "neighbourhood": "Rione Cattedrale",
+        "city": "Asti",
+        "county": "Asti",
+        "ISO3166-2-lvl6": "IT-AT",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "14100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.8986290",
+        "44.8998156",
+        "8.1941295",
+        "8.2001465"
+      ]
+    }
+  ]
+}

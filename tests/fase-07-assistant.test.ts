@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { directorySchema } from '../site/src/lib/schema.ts';
-import { cercaConContesto, cercaOrologiaio, combinaCriteri, interpretaConProvider, interpretaRichiesta, type Criteri } from '../site/src/lib/assistant.ts';
+import { evidenzaConfermata } from '../site/src/lib/evidenze.ts';
+import { cercaConContesto, cercaOrologiaio, combinaCriteri, etichettaFonti, interpretaConProvider, interpretaRichiesta, type Criteri } from '../site/src/lib/assistant.ts';
 import { searchDirectory } from '../site/src/lib/search.ts';
 import { handleOrologiaio, creaRateLimiter } from '../site/src/lib/orologiaio-api.ts';
 
@@ -202,13 +203,78 @@ test('07A: endpoint senza chiave mantiene la conversazione e distingue il fallba
   assert.deepEqual(body.criteri, { localita: 'firenze', servizio: 'revisione', marca: 'Rolex', specializzazione: 'automatici' });
 });
 
+test('28B: Alassio ISTAT non produce alternative nazionali e offre Savona e Liguria', async () => {
+  const richiesta = 'Cerco un laboratorio di riparazione orologi ad Alassio.';
+  const interp = await interpretaConProvider(richiesta, dir, { interpreta: async () => ({ localita: 'firenze', provincia: 'firenze', regione: 'toscana', risposta: 'Ecco le attività a Firenze.' }) });
+  assert.equal(interp.origine, 'provider');
+  assert.equal(interp.criteri.localitaNonCensita, 'Alassio');
+  assert.equal(interp.criteri.localita, undefined);
+  assert.equal(interp.criteri.provincia, undefined);
+  assert.equal(interp.criteri.regione, undefined);
+  assert.equal(interp.risposta, null);
+  const esito = cercaOrologiaio(dir, interp.criteri);
+  assert.equal(esito.stato, 'localita-non-censita');
+  assert.deepEqual(esito.risultati, []);
+  assert.deepEqual(esito.alternative, []);
+  assert.match(esito.messaggi.join(' '), /provincia di Savona.*Liguria/);
+});
+
+test('28B: allargamento esplicito o accettato cerca solo nella provincia di Savona', async () => {
+  const prima = await turno('Cerco riparazione ad Alassio');
+  for (const msg of ['Sì', 'Amplia alla provincia', 'Cerca nella provincia di Savona']) {
+    const criteri = await turno(msg, prima);
+    assert.equal(criteri.provincia, 'savona', msg);
+    assert.equal(criteri.localitaNonCensita, undefined, msg);
+    const esito = cercaOrologiaio(dir, criteri);
+    assert.ok(esito.risultati.length > 0, msg);
+    for (const r of [...esito.risultati, ...esito.alternative]) {
+      const b = dir.attivita.find(b => b.id === r.id)!;
+      assert.equal(dir.localita.find(l => l.id === b.localitaId)?.provinciaSlug, 'savona', msg);
+    }
+  }
+});
+
+test('28B: assenso e allargamento mantengono il territorio anche se il provider restituisce il contesto precedente', async () => {
+  const prima: Criteri = { localitaNonCensita: 'Alassio', servizio: 'riparazione', tipo: 'laboratorio' };
+  for (const msg of ['Sì', 'Amplia alla provincia', 'Cerca nella provincia di Savona']) {
+    const r = await interpretaConProvider(msg, dir, { interpreta: async () => ({ localitaNonCensita: 'Alassio', localita: 'firenze', regione: 'toscana' }) }, undefined, prima);
+    assert.equal(r.origine, 'provider');
+    assert.equal(r.criteri.provincia, 'savona', msg);
+    assert.equal(r.criteri.localitaNonCensita, undefined, msg);
+    assert.equal(r.criteri.localita, undefined, msg);
+    assert.equal(r.criteri.regione, undefined, msg);
+    assert.ok(cercaOrologiaio(dir, r.criteri).risultati.every(x => dir.localita.find(l => l.id === dir.attivita.find(b => b.id === x.id)?.localitaId)?.provinciaSlug === 'savona'));
+  }
+  const regione = await turno('Amplia alla regione', prima);
+  assert.equal(regione.regione, 'liguria');
+  assert.equal(regione.localitaNonCensita, undefined);
+});
+
+test('28B: città sconosciuta e vincoli di città non producono risultati fuori area', async () => {
+  const criteri = (await interpretaConProvider('Riparazione a Cittainventata', dir, { interpreta: async () => ({ regione: 'toscana', provincia: 'firenze' }) })).criteri;
+  assert.equal(criteri.localitaNonCensita, 'Cittainventata');
+  assert.equal(criteri.regione, undefined);
+  assert.equal(criteri.provincia, undefined);
+  assert.deepEqual(cercaOrologiaio(dir, criteri).alternative, []);
+  assert.match(cercaOrologiaio(dir, criteri).messaggi.join(' '), /Non posso determinare/);
+  for (const comune of ['firenze', 'genova']) {
+    const esito = cercaOrologiaio(dir, { localita: comune, servizio: 'pendoleria', tipo: 'laboratorio' }, { limite: 200 });
+    for (const r of [...esito.risultati, ...esito.alternative]) assert.equal(dir.attivita.find(b => b.id === r.id)?.localitaId, comune);
+  }
+  const uniti: Criteri = { localita: 'poggibonsi', servizio: 'batterie' };
+  const ric = cercaConContesto(dir, uniti, { servizio: 'batterie' }, { precedenti: { localita: 'poggibonsi' } });
+  assert.equal(ric.criteri.localita, 'poggibonsi');
+  assert.ok([...ric.esito.risultati, ...ric.esito.alternative].every(r => dir.attivita.find(b => b.id === r.id)?.localitaId === 'poggibonsi'));
+});
+
 test('07A: un contesto ereditato che svuota i risultati non nasconde le attività della nuova richiesta', async () => {
   // Conversazione reale: dopo una ricerca su Omega vintage, "Ci sono orologiai in Molise?" deve mostrare il Molise.
   const uniti = await turno('Ci sono orologiai in Molise?', { servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage' });
   assert.deepEqual(uniti, { servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage', regione: 'molise' });
   const nuovi = interpretaRichiesta('Ci sono orologiai in Molise?', dir).criteri;
-  const ricerca = cercaConContesto(dir, uniti, nuovi);
+  const ricerca = cercaConContesto(dir, uniti, nuovi, { precedenti: { servizio: 'acquisto-permuta', marca: 'Omega', specializzazione: 'vintage' } });
   assert.equal(ricerca.daSoliNuoviCriteri, true);
+  assert.equal(ricerca.contestoPrecedente, true);
   assert.deepEqual(ricerca.criteri, { regione: 'molise' });
   assert.deepEqual(ricerca.esito.risultati.map(r => r.id).sort(), cercaOrologiaio(dir, { regione: 'molise' }).risultati.map(r => r.id).sort());
 });
@@ -225,4 +291,59 @@ test('07A: senza alternative reali il ripiego non inventa risultati', () => {
   const ricerca = cercaConContesto(dir, { marca: 'MarchioInesistente', servizio: 'revisione' }, { marca: 'MarchioInesistente' });
   assert.equal(ricerca.daSoliNuoviCriteri, false);
   assert.equal(ricerca.esito.risultati.length, 0);
+});
+
+// Prima richiesta e richieste successive: il ripiego sui soli criteri nuovi è lo stesso,
+// ma solo dal secondo messaggio esiste un contesto precedente di cui parlare all'utente.
+test('07A: la prima richiesta non annuncia criteri di una richiesta precedente inesistente', () => {
+  const uniti: Criteri = { localita: 'firenze', terminiNonRiconosciuti: ['MarchioInesistente'] };
+  const nuovi: Criteri = { localita: 'firenze' };
+  const ricerca = cercaConContesto(dir, uniti, nuovi, { precedenti: {} });
+  assert.equal(ricerca.daSoliNuoviCriteri, true, 'Il ripiego sui soli criteri nuovi resta attivo');
+  assert.equal(ricerca.contestoPrecedente, false, 'Al primo messaggio non c’è nulla di ereditato');
+  assert.deepEqual(ricerca.criteri, nuovi);
+  assert.ok(ricerca.esito.risultati.length > 0);
+});
+
+test('07A: dal secondo messaggio il ripiego dichiara il contesto ereditato', () => {
+  const uniti: Criteri = { localita: 'firenze', terminiNonRiconosciuti: ['MarchioInesistente'] };
+  const nuovi: Criteri = { localita: 'firenze' };
+  const ricerca = cercaConContesto(dir, uniti, nuovi, { precedenti: { localita: 'milano' } });
+  assert.equal(ricerca.daSoliNuoviCriteri, true);
+  assert.equal(ricerca.contestoPrecedente, true);
+  assert.deepEqual(ricerca.criteri, nuovi);
+  assert.ok(ricerca.esito.risultati.length > 0);
+});
+
+test('07A: il numero di fonti è declinato e zero fonti non è presentato come documentazione', () => {
+  assert.equal(etichettaFonti(0), 'nessuna fonte registrata');
+  assert.equal(etichettaFonti(1), '1 fonte');
+  assert.equal(etichettaFonti(2), '2 fonti');
+  assert.equal(etichettaFonti(7), '7 fonti');
+  for (const n of [1, 2]) {
+    // Attività senza evidenza recuperata: qui si verifica il conteggio, non la frase della fonte.
+    const b = dir.attivita.find(x => x.servizi.some(s => s.fonti.length === n && !evidenzaConfermata(x.id, s.id)))!;
+    const s = b.servizi.find(s => s.fonti.length === n && !evidenzaConfermata(b.id, s.id))!;
+    const trovato = cercaOrologiaio(dir, { localita: b.localitaId, servizio: s.id }, { limite: 200 }).risultati.find(r => r.id === b.id)!;
+    assert.ok(trovato, `Attività ${b.id} presente nella ricerca del proprio comune`);
+    // Fase 44: senza citazione verificata non si parla di documentazione né di numero di fonti.
+    assert.ok(trovato.motivi.some(m => m.includes('servizio indicato nella scheda, da confermare con l’attività.')), `Formula sobria per ${n} fonti dichiarate`);
+    assert.ok(!trovato.motivi.some(m => /documentat[oi] da|Offre “/.test(m)), 'Un URL registrato non è una prova del servizio');
+    assert.ok(!trovato.motivi.some(m => m.includes('fonte/i')), 'Nessuna forma “fonte/i”');
+  }
+  // Zero fonti: sulla copia del catalogo non si afferma alcuna documentazione.
+  const clone = structuredClone(dir);
+  const target = clone.attivita[0];
+  target.servizi = target.servizi.map((s, i) => i === 0 ? { ...s, fonti: [] } : s);
+  const esito = cercaOrologiaio(clone, { localita: target.localitaId, servizio: target.servizi[0].id }, { limite: 200 });
+  const senzaFonti = esito.risultati.find(r => r.id === target.id);
+  assert.ok(senzaFonti, 'L’attività resta elencata anche senza fonti sul servizio');
+  assert.ok(senzaFonti.motivi.some(m => m.includes('da confermare con l’attività.')), 'Zero fonti resta un servizio da confermare');
+  assert.ok(!senzaFonti.motivi.some(m => /documentat[oi]|Offre “|fonte\/i/.test(m)), 'Nessuna documentazione inventata con zero fonti');
+});
+
+test('30B: Reggio Calabria e Reggio di Calabria risolvono allo stesso comune ISTAT', async () => {
+  const dir = directorySchema.parse(JSON.parse(await readFile(new URL('../site/data/directory.json', import.meta.url), 'utf8')));
+  assert.equal(interpretaRichiesta('orologiaio a Reggio Calabria', dir).criteri.localita, 'reggio-calabria');
+  assert.equal(interpretaRichiesta('orologiaio a Reggio di Calabria', dir).criteri.localita, 'reggio-calabria');
 });

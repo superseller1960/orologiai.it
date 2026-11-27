@@ -17,7 +17,7 @@ test('audit gruppo 5: servizi supportati, cronologie integrate e incertezze regi
   const oro = get('orolab-bra');
   assert.ok(!oro.servizi.some(s => s.id === 'vendita-usati'), 'vendita-usati ancora presente');
   assert.ok(oro.servizi.some(s => s.id === 'valutazioni'));
-  assert.match(oro.attendibilita.cronologia.at(-1)?.azione ?? '', /rimosso il servizio/);
+  assert.ok(oro.attendibilita.cronologia.some(e=>/rimosso il servizio/.test(e.azione)), 'Evento di audit conservato anche dopo successivi arricchimenti');
 
   // Era Ora: storia documentata integrata (2019/2022) e fonte storia presente.
   const era = get('orologeria-era-ora-vercelli');

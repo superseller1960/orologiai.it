@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilia%2C+53%2C+Voghera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76301071,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 49749884,
+      "lat": "44.9928377",
+      "lon": "9.0071790",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339672922865641,
+      "addresstype": "pedestrian",
+      "name": "Via Emilia",
+      "display_name": "Via Emilia, Benvenuti, Voghera, Pavia, Lombardia, 27058, Italia",
+      "address": {
+        "road": "Via Emilia",
+        "suburb": "Benvenuti",
+        "town": "Voghera",
+        "county": "Pavia",
+        "ISO3166-2-lvl6": "IT-PV",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "27058",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.9925576",
+        "44.9933637",
+        "9.0063660",
+        "9.0078075"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Dante+Alighieri%2C+7%2C+Trieste%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79089792,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3635927313,
+      "lat": "45.6039212",
+      "lon": "13.7682821",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005286411840996441,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "7, Via Dante Alighieri, Cul de nave, Borgo San Cristoforo, Riostorto, Muggia, Trieste, Friuli-Venezia Giulia, 34015, Italia",
+      "address": {
+        "house_number": "7",
+        "road": "Via Dante Alighieri",
+        "neighbourhood": "Cul de nave",
+        "hamlet": "Borgo San Cristoforo",
+        "village": "Riostorto",
+        "town": "Muggia",
+        "county": "Trieste",
+        "ISO3166-2-lvl6": "IT-TS",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34015",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6038712",
+        "45.6039712",
+        "13.7682321",
+        "13.7683321"
+      ]
+    }
+  ]
+}

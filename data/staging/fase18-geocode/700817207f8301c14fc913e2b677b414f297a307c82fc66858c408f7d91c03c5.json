@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour%2C+68%2C+Quartu+Sant%E2%80%99Elena%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53440144,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27883738,
+      "lat": "39.2414598",
+      "lon": "9.1836983",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339076447699699,
+      "addresstype": "residential",
+      "name": "Via Camillo Benso Conte di Cavour",
+      "display_name": "Via Camillo Benso Conte di Cavour, Cepola, Quartu Sant'Elena, Cagliari, Sardegna, 09045, Italia",
+      "address": {
+        "road": "Via Camillo Benso Conte di Cavour",
+        "neighbourhood": "Cepola",
+        "town": "Quartu Sant'Elena",
+        "county": "Cagliari",
+        "ISO3166-2-lvl6": "IT-CA",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "09045",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.2408074",
+        "39.2422510",
+        "9.1823643",
+        "9.1849878"
+      ]
+    }
+  ]
+}

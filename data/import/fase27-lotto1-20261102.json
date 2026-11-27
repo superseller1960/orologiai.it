@@ -1,0 +1,3006 @@
+{
+  "lotto": "fase27-lotto1-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f27-moncalieri-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiandomoncalieri.it/contatti",
+      "titolo": "Moncalieri (TO): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Moncalieri (TO), Piemonte, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-porto-potenza-picena-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://watchlabservices.com/",
+      "titolo": "Porto Potenza Picena (MC): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Porto Potenza Picena (MC), Marche, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-velletri-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.manciniorovelletri.it/",
+      "titolo": "Velletri (RM): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Velletri (RM), Lazio, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-crema-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologimombelli.com/contatti",
+      "titolo": "Crema (CR): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Crema (CR), Lombardia, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-capannori-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafrancesconi.it/",
+      "titolo": "Capannori (LU): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Capannori (LU), Toscana, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-fossano-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tallonegioielli.it/contatti",
+      "titolo": "Fossano (CN): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Fossano (CN), Piemonte, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-foligno-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriatictac.com/",
+      "titolo": "Foligno (PG): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Foligno (PG), Umbria, introdotta con le sedi verificate nella campagna Fase 27."
+    },
+    {
+      "id": "f27-gioielli-lori-caltanissetta-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielliloricaltanissetta.it/",
+      "titolo": "Gioielli Lori Caltanissetta: orologeria, riparazione e manutenzione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«La vendita di orologi di marca è uno dei punti di forza della gioielleria di Caltanissetta, la quale offre un servizio completo per la loro riparazione e manutenzione»; Via Redentore 18, +39 0934 581078."
+    },
+    {
+      "id": "f27-gioielleria-manfredi-verbania-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamanfredi.it/contact",
+      "titolo": "Gioielleria Manfredi Verbania: laboratorio e riparazione orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Presso il laboratorio orafo, esperti professionisti dell’arte gioielliera eseguono creazioni personalizzate e offrono un impeccabile servizio di pulitura dei gioielli e riparazione orologi»; Via San Vittore 153, +39 0323 516030."
+    },
+    {
+      "id": "f27-orologiando-moncalieri-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologiandomoncalieri.it/",
+      "titolo": "Orologiando Moncalieri: riparazione e revisione orologi e pendoli",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologiando Moncalieri è negozio di riferimento a livello locale per la riparazione di orologi e pendoli antichi»; tra i servizi «Revisione orologi» e «Prova impermeabilità»; Viale del Castello 36, +39 346 3664687."
+    },
+    {
+      "id": "f27-gioielli-novelli-voghera-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellinovelli.it/19/servizi",
+      "titolo": "Gioielli Novelli Voghera: revisione e riparazione orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Revisione e riparazione orologi. Di tutti i tipi e di tutte le marche, antichi e moderni... Garanzia 12 mesi sulle revisioni complete»; Via Emilia 20, +39 0383 40170."
+    },
+    {
+      "id": "f27-bottega-dell-orafo-pavia-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.labottegadellorafo.biz/",
+      "titolo": "La Bottega dell’Orafo Pavia: assistenza e riparazione orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Dal 1987 offriamo riparazioni, revisioni e consulenza qualificata»; «Accurate riparazione orologi»; Corso Cavour 35, tel. 0382-24147."
+    },
+    {
+      "id": "f27-watch-lab-services-porto-potenza-picena-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://watchlabservices.com/",
+      "titolo": "Watch-Lab Services: laboratorio di orologeria e restauro",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’ampia fornitura di ricambi presente in laboratorio consente di effettuare la maggior parte degli interventi in tempi rapidi... revisioni e riparazioni a regola d’arte»; telefono 348.7351821."
+    },
+    {
+      "id": "f27-mancini-oro-velletri-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.manciniorovelletri.it/",
+      "titolo": "Mancini Oro Velletri: laboratorio e riparazione orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«RIPARAZIONE OROLOGI», «SOSTITUZIONE BATTERIE E CINTURINI OROLOGI», «RIPARAZIONI OROLOGI ANTICHI E LUCIDATURA»; «Oggi il negozio con il suo laboratorio»; Piazza Mazzini 6."
+    },
+    {
+      "id": "f27-monti-decio-bergamo-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.montidecio1912.it/riparazione-orologi",
+      "titolo": "Monti Decio 1912 Bergamo: laboratorio interno di orologeria",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«LABORATORIO INTERNO — ASSISTENZA, REVISIONE E RIPARAZIONE DI OROLOGI... dispone di un attrezzatissimo laboratorio interno per la riparazione, revisione completa e tagliando di orologi da polso»; Via Zambonate 85, +39 035 238154."
+    },
+    {
+      "id": "f27-tempi-moderni-trento-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://tempimoderniorologi.it/content/6-riparazioni",
+      "titolo": "Tempi Moderni Trento: riparazioni e revisione tramite laboratori specializzati",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Per gli interventi di assistenza ci affidiamo da anni a laboratori di fiducia specializzati in orologeria»; «Revisione del movimento: smontaggio, pulizia dei componenti, lubrificazione, rimontaggio e regolazione»; Via Armando Diaz 22, +39 0461 1720900."
+    },
+    {
+      "id": "f27-ctr-lora-esatta-torino-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.loraesatta.it/",
+      "titolo": "C.T.R. L’Ora Esatta Torino: laboratorio di riparazione e revisione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Presso CTR L’ora esatta in Via Volta 3/f tel. 0115069990 a Torino abbiamo un Laboratorio interno di orologeria dotato di ogni attrezzatura indispensabile per eseguire riparazioni orologi e/o revisioni orologi accurate di tutte le marche»."
+    },
+    {
+      "id": "f27-watch-center-torino-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://watchcenter.it/laboratorio/",
+      "titolo": "Watch Center Torino: laboratorio di revisione e restauro",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Watch Center è un laboratorio di orologeria a Torino Centro specializzato nella revisione, restauro e riparazione di orologi di lusso e vintage»; Via Giambattista Bodoni 1/D, +39 011 817 0477."
+    },
+    {
+      "id": "f27-gioielli-romano-torino-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielliromano.com/laboratorio.html",
+      "titolo": "Gioielli Romano Torino: laboratorio di orologeria",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio specializzato si occupa della manutenzione e riparazione di orologi di alta gamma, vintage e moderni»; «Dalla revisione completa del movimento alla sostituzione di componenti originali»; Via Tunisi 89, +39 011 319 7949."
+    },
+    {
+      "id": "f27-colla-orologi-pavia-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.collaorologi.it/assistenza",
+      "titolo": "Colla Orologi Pavia: assistenza e revisione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«tecnici altamente qualificati, che seguono periodici aggiornamenti sono in grado di intervenire e riparare il tuo segnatempo»; «Ogni movimento viene revisionato completamente»; Corso Cavour 32D, +39 0382 20089."
+    },
+    {
+      "id": "f27-mombelli-orologeria-crema-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.riparazioneorologimombelli.com/contatti",
+      "titolo": "Mombelli Orologeria Crema: laboratorio di riparazione e restauro",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«siamo anche laboratorio di orologeria: ripariamo e restauriamo orologi di tutti i modelli e tipi»; «Restauro di Orologi Antichi, Riparazione di Orologi»; Via Piccinardi 14, +39 0373 84375."
+    },
+    {
+      "id": "f27-patrizio-scopigno-terni-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.scopigno.it/",
+      "titolo": "Patrizio Scopigno Terni: assistenza e riparazione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«A disposizione della clientela inoltre la vendita di accessori di ricambio, con un’ampia selezione di cinturini per orologi, servizi di assistenza, riparazione e personalizzazione»; Via Ercole Barbarasa 4-6, +39 0744 401338."
+    },
+    {
+      "id": "f27-gioielleria-bernuzzi-cremona-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://gioielleriabernuzzi.it/",
+      "titolo": "Gioielleria Bernuzzi Cremona: revisione orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Si occupa anche di pulizia e riparazione argenti, riparazione di gioielli e revisione di orologi, anche antichi»; Piazza Stradivari 4, tel. 0372 29315."
+    },
+    {
+      "id": "f27-orologeria-clock-zero-rimini-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriaclock.com/",
+      "titolo": "Orologeria Clock.Zero Rimini: riparazioni e restauri",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«specializzato nelle riparazioni di orologi d’alta gamma»; «In caso di necessità, possiamo eseguire riparazioni o restauri con la massima professionalità»; Via Sigismondo 47, 379 272 8569."
+    },
+    {
+      "id": "f27-gioielleria-francesconi-capannori-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriafrancesconi.it/",
+      "titolo": "Gioielleria Francesconi Marlia: revisione e riparazioni orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«fornendo tutti i servizi, tra cui... revisione e riparazioni di orologi di alta gamma»; Via Paolinelli 56, +39 0583 30004."
+    },
+    {
+      "id": "f27-gioielleria-tallone-fossano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tallonegioielli.it/servizi",
+      "titolo": "Gioielleria Tallone Fossano: laboratorio interno",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio interno è a disposizione della nostra clientela per assistenza e nuove realizzazioni... offriamo un servizio di riparazione di orologi e gioielli di qualsiasi tipologia»; Via Roma 69, +39 0172 636207."
+    },
+    {
+      "id": "f27-la-misura-del-tempo-bari-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lamisuradeltempo.it/",
+      "titolo": "La Misura del Tempo Bari: laboratorio di riparazione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Un laboratorio dove la qualità e la professionalità derivano da anni di esperienza nella riparazione del tempo... assistenza e riparazione di orologi»; Via Calefati 31, +39 320 1863352."
+    },
+    {
+      "id": "f27-orologeria-carlino-giorgio-bologna-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologeriacarlino.jimdofree.com",
+      "titolo": "Carlino Giorgio Bologna: riparazione orologi e gioielli",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’Orologeria Oreficeria Carlino Giorgio è un’attività specializzata nella vendita e nella riparazione di orologi e di gioielli»; Via Augusto Murri 189/A, (+39) 051 6231683."
+    },
+    {
+      "id": "f27-gioielleria-chiodarelli-bolzano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.chiodarelli.it",
+      "titolo": "Gioielleria Chiodarelli Bolzano: laboratorio riparazioni",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Laboratorio riparazioni — Laboratorio specializzato in riparzione di orologi e gioielli di tutte le marche»; Via Milano 36, +39 0471 911021."
+    },
+    {
+      "id": "f27-orologeria-tic-tac-foligno-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriatictac.com/",
+      "titolo": "Orologeria Tic Tac Foligno: riparazione e revisione",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel cuore di Foligno in via Umberto I, 54, la mia Orologeria Tic Tac riserva servizi di riparazione orologi di tutte le marche e modelli»; «Revisione meccanismi e sostituzione componenti»; +39 347 8543247."
+    },
+    {
+      "id": "f27-strumenti-del-tempo-gallarate-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://strumentideltempo.com/",
+      "titolo": "Strumenti del Tempo Gallarate: revisione e restauro",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Tecnico Orologiaio dal 1983. Revisione, restauro e manutenzione di orologi di prestigio»; «Revisione Completa», «Riparazione Mirata», «Manutenzione Programmata»; Piazza Libertà 1, Galleria “La Crocetta”, 21047 Gallarate."
+    }
+  ],
+  "localita": [
+    {
+      "id": "moncalieri",
+      "comune": "Moncalieri",
+      "comuneSlug": "moncalieri",
+      "provincia": "Torino",
+      "provinciaSlug": "torino",
+      "siglaProvincia": "TO",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": null,
+      "descrizione": "Città alle porte di Torino con un laboratorio di riparazione di orologi e pendoli.",
+      "fonti": [
+        "f27-moncalieri-localita"
+      ]
+    },
+    {
+      "id": "porto-potenza-picena",
+      "comune": "Porto Potenza Picena",
+      "comuneSlug": "porto-potenza-picena",
+      "provincia": "Macerata",
+      "provinciaSlug": "macerata",
+      "siglaProvincia": "MC",
+      "regione": "Marche",
+      "regioneSlug": "marche",
+      "codiceIstat": null,
+      "descrizione": "Centro costiero marchigiano con un laboratorio di orologeria di alta gamma.",
+      "fonti": [
+        "f27-porto-potenza-picena-localita"
+      ]
+    },
+    {
+      "id": "velletri",
+      "comune": "Velletri",
+      "comuneSlug": "velletri",
+      "provincia": "Roma",
+      "provinciaSlug": "roma",
+      "siglaProvincia": "RM",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": null,
+      "descrizione": "Città dei Castelli Romani con una gioielleria che ripara orologi in laboratorio.",
+      "fonti": [
+        "f27-velletri-localita"
+      ]
+    },
+    {
+      "id": "crema",
+      "comune": "Crema",
+      "comuneSlug": "crema",
+      "provincia": "Cremona",
+      "provinciaSlug": "cremona",
+      "siglaProvincia": "CR",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Città cremonese con un laboratorio di orologeria che restaura orologi antichi.",
+      "fonti": [
+        "f27-crema-localita"
+      ]
+    },
+    {
+      "id": "capannori",
+      "comune": "Capannori",
+      "comuneSlug": "capannori",
+      "provincia": "Lucca",
+      "provinciaSlug": "lucca",
+      "siglaProvincia": "LU",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Comune della Piana di Lucca con una gioielleria storica di Marlia che revisiona orologi.",
+      "fonti": [
+        "f27-capannori-localita"
+      ]
+    },
+    {
+      "id": "fossano",
+      "comune": "Fossano",
+      "comuneSlug": "fossano",
+      "provincia": "Cuneo",
+      "provinciaSlug": "cuneo",
+      "siglaProvincia": "CN",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": null,
+      "descrizione": "Città cuneese con una gioielleria dotata di laboratorio interno di riparazione.",
+      "fonti": [
+        "f27-fossano-localita"
+      ]
+    },
+    {
+      "id": "foligno",
+      "comune": "Foligno",
+      "comuneSlug": "foligno",
+      "provincia": "Perugia",
+      "provinciaSlug": "perugia",
+      "siglaProvincia": "PG",
+      "regione": "Umbria",
+      "regioneSlug": "umbria",
+      "codiceIstat": null,
+      "descrizione": "Città umbra con un’orologeria che ripara e revisiona orologi e pendoli.",
+      "fonti": [
+        "f27-foligno-localita"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "gioielli-lori-caltanissetta",
+      "nome": "Gioielli Lori",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielli-lori-caltanissetta-fonte"
+      ],
+      "attivita": {
+        "id": "gioielli-lori-caltanissetta",
+        "slug": "gioielli-lori-caltanissetta",
+        "nome": "Gioielli Lori",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria e orologeria di via Redentore a Caltanissetta che dichiara «un servizio completo per la riparazione e manutenzione» degli orologi venduti. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "caltanissetta",
+        "posizione": {
+          "indirizzo": "Via Redentore 18",
+          "cap": "93100",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielli-lori-caltanissetta-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0934 581078",
+          "email": null,
+          "sito": "https://www.gioielliloricaltanissetta.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielli-lori-caltanissetta-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La pagina documenta riparazione e manutenzione degli orologi, senza indicare dove avvenga la lavorazione.",
+          "fonti": [
+            "f27-gioielli-lori-caltanissetta-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f27-gioielli-lori-caltanissetta-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielli-lori-caltanissetta-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielli-lori-caltanissetta-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielli-lori-caltanissetta-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielli-lori-caltanissetta"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-manfredi-verbania",
+      "nome": "Gioielleria Manfredi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-manfredi-verbania-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-manfredi-verbania",
+        "slug": "gioielleria-manfredi-verbania",
+        "nome": "Gioielleria Manfredi",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria attiva dagli anni Settanta in via San Vittore a Verbania, con laboratorio interno che dichiara pulitura dei gioielli e riparazione di orologi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "verbania",
+        "posizione": {
+          "indirizzo": "Via San Vittore 153",
+          "cap": "28921",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-manfredi-verbania-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0323 516030",
+          "email": null,
+          "sito": "https://www.gioielleriamanfredi.it/contact",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-manfredi-verbania-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina indica un laboratorio orafo interno che esegue anche riparazione di orologi.",
+          "fonti": [
+            "f27-gioielleria-manfredi-verbania-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielleria-manfredi-verbania-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-manfredi-verbania-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-manfredi-verbania-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-manfredi-verbania"
+        }
+      }
+    },
+    {
+      "id": "orologiando-moncalieri",
+      "nome": "Orologiando Moncalieri",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-orologiando-moncalieri-fonte"
+      ],
+      "attivita": {
+        "id": "orologiando-moncalieri",
+        "slug": "orologiando-moncalieri",
+        "nome": "Orologiando Moncalieri",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di viale del Castello a Moncalieri specializzata in riparazione e revisione di orologi e pendoli antichi e moderni. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "moncalieri",
+        "posizione": {
+          "indirizzo": "Viale del Castello 36",
+          "cap": "10024",
+          "coordinate": null,
+          "fonti": [
+            "f27-orologiando-moncalieri-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 346 3664687",
+          "email": null,
+          "sito": "https://www.orologiandomoncalieri.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-orologiando-moncalieri-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito elenca revisione e riparazione di orologi e pendoli senza qualificare il laboratorio come interno.",
+          "fonti": [
+            "f27-orologiando-moncalieri-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-orologiando-moncalieri-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-orologiando-moncalieri-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-orologiando-moncalieri-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-orologiando-moncalieri-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "orologiando-moncalieri"
+        }
+      }
+    },
+    {
+      "id": "gioielli-novelli-voghera",
+      "nome": "Gioielli Novelli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielli-novelli-voghera-fonte"
+      ],
+      "attivita": {
+        "id": "gioielli-novelli-voghera",
+        "slug": "gioielli-novelli-voghera",
+        "nome": "Gioielli Novelli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via Emilia a Voghera che dichiara revisione e riparazione di orologi di tutti i tipi e le marche, con preventivi immediati. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "voghera",
+        "posizione": {
+          "indirizzo": "Via Emilia 20",
+          "cap": "27058",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielli-novelli-voghera-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0383 40170",
+          "email": null,
+          "sito": "https://www.gioiellinovelli.it/19/servizi",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielli-novelli-voghera-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La pagina descrive revisioni con ricambi originali e garanzia di dodici mesi, senza indicare la sede della lavorazione.",
+          "fonti": [
+            "f27-gioielli-novelli-voghera-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielli-novelli-voghera-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-gioielli-novelli-voghera-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielli-novelli-voghera-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielli-novelli-voghera-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielli-novelli-voghera"
+        }
+      }
+    },
+    {
+      "id": "bottega-dell-orafo-pavia",
+      "nome": "La Bottega dell’Orafo",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-bottega-dell-orafo-pavia-fonte"
+      ],
+      "attivita": {
+        "id": "bottega-dell-orafo-pavia",
+        "slug": "bottega-dell-orafo-pavia",
+        "nome": "La Bottega dell’Orafo",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Bottega di corso Cavour a Pavia, attiva dal 1919 e rilevata nel 1987, che dichiara riparazioni, revisioni e consulenza sugli orologi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pavia",
+        "posizione": {
+          "indirizzo": "Corso Cavour 35",
+          "cap": "27100",
+          "coordinate": null,
+          "fonti": [
+            "f27-bottega-dell-orafo-pavia-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0382 24147",
+          "email": null,
+          "sito": "https://www.labottegadellorafo.biz/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-bottega-dell-orafo-pavia-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito dichiara riparazioni e revisioni dal 1987 senza specificare se avvengano in laboratorio proprio.",
+          "fonti": [
+            "f27-bottega-dell-orafo-pavia-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-bottega-dell-orafo-pavia-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-bottega-dell-orafo-pavia-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-bottega-dell-orafo-pavia-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-bottega-dell-orafo-pavia-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "bottega-dell-orafo-pavia"
+        }
+      }
+    },
+    {
+      "id": "watch-lab-services-porto-potenza-picena",
+      "nome": "Watch-Lab Services",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-watch-lab-services-porto-potenza-picena-fonte"
+      ],
+      "attivita": {
+        "id": "watch-lab-services-porto-potenza-picena",
+        "slug": "watch-lab-services-porto-potenza-picena",
+        "nome": "Watch-Lab Services",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria artigianale a Porto Potenza Picena che dichiara revisioni, riparazioni, lucidature e restauri su orologi svizzeri di prestigio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "porto-potenza-picena",
+        "posizione": {
+          "indirizzo": null,
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-watch-lab-services-porto-potenza-picena-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 348 7351821",
+          "email": null,
+          "sito": "https://watchlabservices.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-watch-lab-services-porto-potenza-picena-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito si presenta come laboratorio orologiaio artigianale con attrezzature proprie e fornitura di ricambi in sede.",
+          "fonti": [
+            "f27-watch-lab-services-porto-potenza-picena-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-watch-lab-services-porto-potenza-picena-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-watch-lab-services-porto-potenza-picena-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-watch-lab-services-porto-potenza-picena-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-watch-lab-services-porto-potenza-picena-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "watch-lab-services-porto-potenza-picena"
+        }
+      }
+    },
+    {
+      "id": "mancini-oro-velletri",
+      "nome": "Mancini Oro",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-mancini-oro-velletri-fonte"
+      ],
+      "attivita": {
+        "id": "mancini-oro-velletri",
+        "slug": "mancini-oro-velletri",
+        "nome": "Mancini Oro",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Oreficeria di piazza Mazzini a Velletri, fondata nel 1994, che elenca riparazione di orologi, sostituzione di batterie e cinturini e lucidatura di orologi antichi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "velletri",
+        "posizione": {
+          "indirizzo": "Piazza Mazzini 6",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-mancini-oro-velletri-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.manciniorovelletri.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-mancini-oro-velletri-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito descrive un laboratorio artigianale in negozio; la riparazione degli orologi è elencata tra i servizi.",
+          "fonti": [
+            "f27-mancini-oro-velletri-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-mancini-oro-velletri-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-mancini-oro-velletri-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-mancini-oro-velletri-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "mancini-oro-velletri"
+        }
+      }
+    },
+    {
+      "id": "monti-decio-bergamo",
+      "nome": "Monti Decio 1912",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-monti-decio-bergamo-fonte"
+      ],
+      "attivita": {
+        "id": "monti-decio-bergamo",
+        "slug": "monti-decio-bergamo",
+        "nome": "Monti Decio 1912",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria e orologeria di via Zambonate a Bergamo che dichiara un laboratorio interno per assistenza, revisione completa e riparazione degli orologi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bergamo",
+        "posizione": {
+          "indirizzo": "Via Zambonate 85",
+          "cap": "24122",
+          "coordinate": null,
+          "fonti": [
+            "f27-monti-decio-bergamo-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 035 238154",
+          "email": null,
+          "sito": "https://www.montidecio1912.it/riparazione-orologi",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-monti-decio-bergamo-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina dichiara un attrezzato laboratorio interno per riparazione, revisione completa e tagliando degli orologi da polso.",
+          "fonti": [
+            "f27-monti-decio-bergamo-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-monti-decio-bergamo-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-monti-decio-bergamo-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-monti-decio-bergamo-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-monti-decio-bergamo-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-monti-decio-bergamo-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "monti-decio-bergamo"
+        }
+      }
+    },
+    {
+      "id": "tempi-moderni-trento",
+      "nome": "Tempi Moderni",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-tempi-moderni-trento-fonte"
+      ],
+      "attivita": {
+        "id": "tempi-moderni-trento",
+        "slug": "tempi-moderni-trento",
+        "nome": "Tempi Moderni",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di via Diaz a Trento che dichiara revisione del movimento e riparazioni eseguite tramite laboratori specializzati convenzionati, con garanzia di dodici mesi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trento",
+        "posizione": {
+          "indirizzo": "Via Armando Diaz 22",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-tempi-moderni-trento-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0461 1720900",
+          "email": null,
+          "sito": "https://tempimoderniorologi.it/content/6-riparazioni",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-tempi-moderni-trento-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "esterno",
+          "descrizione": "La pagina dichiara di affidarsi a laboratori di fiducia specializzati, non a un laboratorio interno.",
+          "fonti": [
+            "f27-tempi-moderni-trento-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f27-tempi-moderni-trento-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-tempi-moderni-trento-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-tempi-moderni-trento-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-tempi-moderni-trento-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-tempi-moderni-trento-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "tempi-moderni-trento"
+        }
+      }
+    },
+    {
+      "id": "ctr-lora-esatta-torino",
+      "nome": "C.T.R. L’Ora Esatta",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-ctr-lora-esatta-torino-fonte"
+      ],
+      "attivita": {
+        "id": "ctr-lora-esatta-torino",
+        "slug": "ctr-lora-esatta-torino",
+        "nome": "C.T.R. L’Ora Esatta",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria di via Volta a Torino che dichiara riparazioni e revisioni di tutte le marche, dalla pendoleria ai movimenti con complicazioni. Scheda verificata il 2 novembre 2026. Il sito si presenta come centro assistenza certificato per alcuni marchi: la qualifica non è stata inserita perché non confermata da una fonte del marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Volta 3/f",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-ctr-lora-esatta-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 5069990",
+          "email": null,
+          "sito": "https://www.loraesatta.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-ctr-lora-esatta-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito descrive un laboratorio interno di orologeria con attrezzatura per riparazioni, revisioni e pendoleria.",
+          "fonti": [
+            "f27-ctr-lora-esatta-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-ctr-lora-esatta-torino-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-ctr-lora-esatta-torino-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-ctr-lora-esatta-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-ctr-lora-esatta-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-ctr-lora-esatta-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "ctr-lora-esatta-torino"
+        }
+      }
+    },
+    {
+      "id": "watch-center-torino",
+      "nome": "Watch Center Torino",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-watch-center-torino-fonte"
+      ],
+      "attivita": {
+        "id": "watch-center-torino",
+        "slug": "watch-center-torino",
+        "nome": "Watch Center Torino",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria di via Bodoni a Torino, nato dall’evoluzione di Fabio Orologi, specializzato in revisione, restauro e riparazione di orologi di lusso e vintage. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Giambattista Bodoni 1/D",
+          "cap": "10123",
+          "coordinate": null,
+          "fonti": [
+            "f27-watch-center-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 817 0477",
+          "email": null,
+          "sito": "https://watchcenter.it/laboratorio/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-watch-center-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina descrive il laboratorio di via Bodoni con strumentazione professionale e tecnici specializzati.",
+          "fonti": [
+            "f27-watch-center-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f27-watch-center-torino-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-watch-center-torino-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-watch-center-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-watch-center-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-watch-center-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "watch-center-torino"
+        }
+      }
+    },
+    {
+      "id": "gioielli-romano-torino",
+      "nome": "Gioielli Romano",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielli-romano-torino-fonte"
+      ],
+      "attivita": {
+        "id": "gioielli-romano-torino",
+        "slug": "gioielli-romano-torino",
+        "nome": "Gioielli Romano",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via Tunisi a Torino, attiva dal 1971, con laboratorio di orologeria che dichiara manutenzione e riparazione di orologi di alta gamma, vintage e moderni. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "torino",
+        "posizione": {
+          "indirizzo": "Via Tunisi 89",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielli-romano-torino-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 011 319 7949",
+          "email": null,
+          "sito": "https://gioielliromano.com/laboratorio.html",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielli-romano-torino-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La pagina presenta un laboratorio specializzato interno per manutenzione e riparazione di orologi.",
+          "fonti": [
+            "f27-gioielli-romano-torino-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f27-gioielli-romano-torino-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielli-romano-torino-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-gioielli-romano-torino-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielli-romano-torino-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielli-romano-torino-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielli-romano-torino"
+        }
+      }
+    },
+    {
+      "id": "colla-orologi-pavia",
+      "nome": "Colla Orologi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-colla-orologi-pavia-fonte"
+      ],
+      "attivita": {
+        "id": "colla-orologi-pavia",
+        "slug": "colla-orologi-pavia",
+        "nome": "Colla Orologi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di corso Cavour a Pavia che dichiara assistenza e revisione complete dei segnatempo distribuiti, con tecnici che seguono aggiornamenti periodici. Scheda verificata il 2 novembre 2026. Il sito si presenta come assistenza autorizzata Rolex: la qualifica non è stata inserita perché non confermata dal localizzatore del marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pavia",
+        "posizione": {
+          "indirizzo": "Corso Cavour 32D",
+          "cap": "27100",
+          "coordinate": null,
+          "fonti": [
+            "f27-colla-orologi-pavia-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0382 20089",
+          "email": null,
+          "sito": "https://www.collaorologi.it/assistenza",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-colla-orologi-pavia-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La pagina descrive tecnici qualificati e la procedura di revisione; per gli orologi antichi indica la collaborazione con un maestro orologiaio esterno.",
+          "fonti": [
+            "f27-colla-orologi-pavia-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-colla-orologi-pavia-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-colla-orologi-pavia-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-colla-orologi-pavia-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-colla-orologi-pavia-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-colla-orologi-pavia-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "colla-orologi-pavia"
+        }
+      }
+    },
+    {
+      "id": "mombelli-orologeria-crema",
+      "nome": "Mombelli Orologeria",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-mombelli-orologeria-crema-fonte"
+      ],
+      "attivita": {
+        "id": "mombelli-orologeria-crema",
+        "slug": "mombelli-orologeria-crema",
+        "nome": "Mombelli Orologeria",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di via Piccinardi a Crema che si presenta come laboratorio, con riparazione e restauro di orologi antichi e moderni, analogici e digitali. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "crema",
+        "posizione": {
+          "indirizzo": "Via Piccinardi 14",
+          "cap": "26013",
+          "coordinate": null,
+          "fonti": [
+            "f27-mombelli-orologeria-crema-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0373 84375",
+          "email": null,
+          "sito": "https://www.riparazioneorologimombelli.com/contatti",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-mombelli-orologeria-crema-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito dichiara di essere laboratorio di orologeria che ripara e restaura orologi in sede.",
+          "fonti": [
+            "f27-mombelli-orologeria-crema-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f27-mombelli-orologeria-crema-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-mombelli-orologeria-crema-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-mombelli-orologeria-crema-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-mombelli-orologeria-crema-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "mombelli-orologeria-crema"
+        }
+      }
+    },
+    {
+      "id": "patrizio-scopigno-terni",
+      "nome": "Patrizio Scopigno",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-patrizio-scopigno-terni-fonte"
+      ],
+      "attivita": {
+        "id": "patrizio-scopigno-terni",
+        "slug": "patrizio-scopigno-terni",
+        "nome": "Patrizio Scopigno",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Laboratorio orafo e punto vendita di via Barbarasa a Terni che dichiara assistenza, riparazione e personalizzazione, con vendita di cinturini per orologi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "terni",
+        "posizione": {
+          "indirizzo": "Via Ercole Barbarasa 4-6",
+          "cap": "05100",
+          "coordinate": null,
+          "fonti": [
+            "f27-patrizio-scopigno-terni-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0744 401338",
+          "email": null,
+          "sito": "https://www.scopigno.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-patrizio-scopigno-terni-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito descrive un laboratorio orafo e punto vendita che offre assistenza e riparazione di orologi, senza specificare il reparto orologiero.",
+          "fonti": [
+            "f27-patrizio-scopigno-terni-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-patrizio-scopigno-terni-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-patrizio-scopigno-terni-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-patrizio-scopigno-terni-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-patrizio-scopigno-terni-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "patrizio-scopigno-terni"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-bernuzzi-cremona",
+      "nome": "Gioielleria Bernuzzi Enzo",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-bernuzzi-cremona-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-bernuzzi-cremona",
+        "slug": "gioielleria-bernuzzi-cremona",
+        "nome": "Gioielleria Bernuzzi Enzo",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di piazza Stradivari a Cremona che dichiara assistenza post-vendita e revisione di orologi, anche antichi, oltre alla riparazione di gioielli e argenti. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cremona",
+        "posizione": {
+          "indirizzo": "Piazza Stradivari 4",
+          "cap": "26100",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-bernuzzi-cremona-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0372 29315",
+          "email": null,
+          "sito": "https://gioielleriabernuzzi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-bernuzzi-cremona-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito cita un laboratorio orafo interno e la revisione di orologi, senza indicare dove avvenga quest’ultima.",
+          "fonti": [
+            "f27-gioielleria-bernuzzi-cremona-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-gioielleria-bernuzzi-cremona-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-bernuzzi-cremona-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-bernuzzi-cremona-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-bernuzzi-cremona"
+        }
+      }
+    },
+    {
+      "id": "orologeria-clock-zero-rimini",
+      "nome": "Orologeria Clock.Zero",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-orologeria-clock-zero-rimini-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-clock-zero-rimini",
+        "slug": "orologeria-clock-zero-rimini",
+        "nome": "Orologeria Clock.Zero",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di via Sigismondo a Rimini specializzata, secondo il proprio sito, nelle riparazioni di orologi d’alta gamma e nei restauri. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rimini",
+        "posizione": {
+          "indirizzo": "Via Sigismondo 47",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-orologeria-clock-zero-rimini-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 379 272 8569",
+          "email": null,
+          "sito": "https://www.orologeriaclock.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-orologeria-clock-zero-rimini-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito dichiara riparazioni e restauri specializzati in orologi d’alta gamma senza qualificare il laboratorio.",
+          "fonti": [
+            "f27-orologeria-clock-zero-rimini-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f27-orologeria-clock-zero-rimini-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-orologeria-clock-zero-rimini-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-orologeria-clock-zero-rimini-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-orologeria-clock-zero-rimini-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "orologeria-clock-zero-rimini"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-francesconi-capannori",
+      "nome": "Gioielleria Francesconi",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-francesconi-capannori-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-francesconi-capannori",
+        "slug": "gioielleria-francesconi-capannori",
+        "nome": "Gioielleria Francesconi",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Marlia, nel comune di Capannori, attiva dal 1955, che dichiara revisione e riparazioni di orologi di alta gamma e riparazione di gioielli. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "capannori",
+        "posizione": {
+          "indirizzo": "Via Paolinelli 56, Marlia",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-francesconi-capannori-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0583 30004",
+          "email": null,
+          "sito": "https://www.gioielleriafrancesconi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-francesconi-capannori-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito dichiara revisione e riparazioni di orologi di alta gamma senza specificare la sede della lavorazione.",
+          "fonti": [
+            "f27-gioielleria-francesconi-capannori-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielleria-francesconi-capannori-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-gioielleria-francesconi-capannori-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-francesconi-capannori-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-francesconi-capannori-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-francesconi-capannori"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-tallone-fossano",
+      "nome": "Gioielleria Tallone",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-tallone-fossano-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-tallone-fossano",
+        "slug": "gioielleria-tallone-fossano",
+        "nome": "Gioielleria Tallone",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via Roma a Fossano che dichiara un laboratorio interno per assistenza e riparazione di orologi e gioielli di qualsiasi tipologia. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "fossano",
+        "posizione": {
+          "indirizzo": "Via Roma 69",
+          "cap": "12045",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-tallone-fossano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0172 636207",
+          "email": null,
+          "sito": "https://www.tallonegioielli.it/servizi",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-tallone-fossano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito parla esplicitamente di un laboratorio interno a disposizione della clientela per assistenza e realizzazioni.",
+          "fonti": [
+            "f27-gioielleria-tallone-fossano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-gioielleria-tallone-fossano-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielleria-tallone-fossano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-tallone-fossano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-tallone-fossano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-tallone-fossano"
+        }
+      }
+    },
+    {
+      "id": "la-misura-del-tempo-bari",
+      "nome": "La Misura del Tempo",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-la-misura-del-tempo-bari-fonte"
+      ],
+      "attivita": {
+        "id": "la-misura-del-tempo-bari",
+        "slug": "la-misura-del-tempo-bari",
+        "nome": "La Misura del Tempo",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di via Calefati a Bari che dichiara riparazione di orologi meccanici ed elettronici, cronometri e orologi da parete, con assistenza dichiarata per alcuni marchi. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bari",
+        "posizione": {
+          "indirizzo": "Via Calefati 31",
+          "cap": "70121",
+          "coordinate": null,
+          "fonti": [
+            "f27-la-misura-del-tempo-bari-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 320 1863352",
+          "email": null,
+          "sito": "https://www.lamisuradeltempo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-la-misura-del-tempo-bari-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito descrive il proprio laboratorio a conduzione familiare per la riparazione di orologi, cronometri e pendole.",
+          "fonti": [
+            "f27-la-misura-del-tempo-bari-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f27-la-misura-del-tempo-bari-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-la-misura-del-tempo-bari-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-la-misura-del-tempo-bari-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-la-misura-del-tempo-bari-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "la-misura-del-tempo-bari"
+        }
+      }
+    },
+    {
+      "id": "orologeria-carlino-giorgio-bologna",
+      "nome": "Orologeria Oreficeria Carlino Giorgio",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-orologeria-carlino-giorgio-bologna-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-carlino-giorgio-bologna",
+        "slug": "orologeria-carlino-giorgio-bologna",
+        "nome": "Orologeria Oreficeria Carlino Giorgio",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Orologeria e oreficeria di via Murri a Bologna specializzata, secondo il proprio sito, nella vendita e riparazione di orologi e gioielli. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Via Augusto Murri 189/A",
+          "cap": "40137",
+          "coordinate": null,
+          "fonti": [
+            "f27-orologeria-carlino-giorgio-bologna-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 051 6231683",
+          "email": null,
+          "sito": "https://orologeriacarlino.jimdofree.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-orologeria-carlino-giorgio-bologna-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito dichiara riparazione di orologi e gioielli senza indicare dove avvenga la lavorazione.",
+          "fonti": [
+            "f27-orologeria-carlino-giorgio-bologna-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-orologeria-carlino-giorgio-bologna-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-orologeria-carlino-giorgio-bologna-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-orologeria-carlino-giorgio-bologna-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "orologeria-carlino-giorgio-bologna"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-chiodarelli-bolzano",
+      "nome": "Gioielleria Chiodarelli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-chiodarelli-bolzano-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-chiodarelli-bolzano",
+        "slug": "gioielleria-chiodarelli-bolzano",
+        "nome": "Gioielleria Chiodarelli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via Milano a Bolzano con laboratorio riparazioni specializzato in orologi e gioielli di tutte le marche. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bolzano",
+        "posizione": {
+          "indirizzo": "Via Milano 36",
+          "cap": "39100",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-chiodarelli-bolzano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0471 911021",
+          "email": null,
+          "sito": "https://www.chiodarelli.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-chiodarelli-bolzano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito indica un laboratorio riparazioni specializzato in orologi e gioielli di tutte le marche.",
+          "fonti": [
+            "f27-gioielleria-chiodarelli-bolzano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielleria-chiodarelli-bolzano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-chiodarelli-bolzano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-chiodarelli-bolzano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-chiodarelli-bolzano"
+        }
+      }
+    },
+    {
+      "id": "orologeria-tic-tac-foligno",
+      "nome": "Orologeria Tic Tac",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-orologeria-tic-tac-foligno-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-tic-tac-foligno",
+        "slug": "orologeria-tic-tac-foligno",
+        "nome": "Orologeria Tic Tac",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di via Umberto I a Foligno che dichiara riparazione di orologi di tutte le marche, revisione dei meccanismi e sostituzione di movimenti per orologi a muro e a pendolo. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "foligno",
+        "posizione": {
+          "indirizzo": "Via Umberto I 54",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f27-orologeria-tic-tac-foligno-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 347 8543247",
+          "email": null,
+          "sito": "https://www.orologeriatictac.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-orologeria-tic-tac-foligno-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito descrive revisione dei meccanismi e riparazioni senza qualificare il laboratorio.",
+          "fonti": [
+            "f27-orologeria-tic-tac-foligno-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f27-orologeria-tic-tac-foligno-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-orologeria-tic-tac-foligno-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-orologeria-tic-tac-foligno-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-orologeria-tic-tac-foligno-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-orologeria-tic-tac-foligno-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "orologeria-tic-tac-foligno"
+        }
+      }
+    },
+    {
+      "id": "strumenti-del-tempo-gallarate",
+      "nome": "Strumenti del Tempo",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-strumenti-del-tempo-gallarate-fonte"
+      ],
+      "attivita": {
+        "id": "strumenti-del-tempo-gallarate",
+        "slug": "strumenti-del-tempo-gallarate",
+        "nome": "Strumenti del Tempo",
+        "tipi": [
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria di piazza Libertà a Gallarate che dichiara revisione completa, riparazione mirata e manutenzione programmata di orologi di prestigio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "gallarate",
+        "posizione": {
+          "indirizzo": "Piazza Libertà 1, Galleria “La Crocetta”",
+          "cap": "21047",
+          "coordinate": null,
+          "fonti": [
+            "f27-strumenti-del-tempo-gallarate-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://strumentideltempo.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-strumenti-del-tempo-gallarate-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito presenta il laboratorio del tecnico orologiaio Marco Spoldi, attivo dal 1983.",
+          "fonti": [
+            "f27-strumenti-del-tempo-gallarate-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f27-strumenti-del-tempo-gallarate-fonte"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-strumenti-del-tempo-gallarate-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-strumenti-del-tempo-gallarate-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-strumenti-del-tempo-gallarate-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-strumenti-del-tempo-gallarate-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "strumenti-del-tempo-gallarate"
+        }
+      }
+    }
+  ]
+}

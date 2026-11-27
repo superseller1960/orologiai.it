@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Lamarmora%2C+145%2C+Nuoro%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80808402,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4484076171,
+      "lat": "40.2898549",
+      "lon": "9.5908796",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005770580605778618,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "145, Via Alfonso Lamarmora, Dorgali, Nuoro, Sardegna, 08022, Italia",
+      "address": {
+        "house_number": "145",
+        "road": "Via Alfonso Lamarmora",
+        "village": "Dorgali",
+        "county": "Nuoro",
+        "ISO3166-2-lvl6": "IT-NU",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "08022",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.2898049",
+        "40.2899049",
+        "9.5908296",
+        "9.5909296"
+      ]
+    }
+  ]
+}

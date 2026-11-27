@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Campo+di+Pile%2C+L%27Aquila%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80630116,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 62193596,
+      "lat": "42.3535245",
+      "lon": "13.3495110",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339999618524449,
+      "addresstype": "secondary",
+      "name": "Via Campo di Pile",
+      "display_name": "Via Campo di Pile, Nucleo Industriale di Pile, Pile, Colle di Roio, L'Aquila, Abruzzo, Italia",
+      "address": {
+        "road": "Via Campo di Pile",
+        "industrial": "Nucleo Industriale di Pile",
+        "suburb": "Pile",
+        "village": "Colle di Roio",
+        "city": "L'Aquila",
+        "county": "L'Aquila",
+        "ISO3166-2-lvl6": "IT-AQ",
+        "state": "Abruzzo",
+        "ISO3166-2-lvl4": "IT-65",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.3532643",
+        "42.3537934",
+        "13.3494257",
+        "13.3495605"
+      ]
+    }
+  ]
+}

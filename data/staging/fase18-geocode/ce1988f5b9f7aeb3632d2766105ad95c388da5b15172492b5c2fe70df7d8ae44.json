@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+4+Novembre%2C+14%2C+San+Miniato%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82199065,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1106676849,
+      "lat": "43.6789833",
+      "lon": "10.8478449",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339204623483631,
+      "addresstype": "secondary",
+      "name": "Via Quattro Novembre",
+      "display_name": "Via Quattro Novembre, Gargozzi, San Miniato Basso, San Miniato, Pisa, Toscana, 56028, Italia",
+      "address": {
+        "road": "Via Quattro Novembre",
+        "hamlet": "Gargozzi",
+        "village": "San Miniato Basso",
+        "town": "San Miniato",
+        "county": "Pisa",
+        "ISO3166-2-lvl6": "IT-PI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "56028",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6785779",
+        "43.6794323",
+        "10.8474168",
+        "10.8482314"
+      ]
+    }
+  ]
+}

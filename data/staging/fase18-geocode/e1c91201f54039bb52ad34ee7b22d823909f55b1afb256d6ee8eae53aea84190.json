@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+186%2C+Telese+Terme%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80360031,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 231504746,
+      "lat": "41.2161115",
+      "lon": "14.5230423",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.05339109559777215,
+      "addresstype": "secondary",
+      "name": "Via Roma",
+      "display_name": "Via Roma, Telese Terme, Benevento, Campania, 82037, Italia",
+      "address": {
+        "road": "Via Roma",
+        "village": "Telese Terme",
+        "county": "Benevento",
+        "ISO3166-2-lvl6": "IT-BN",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "82037",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.2160521",
+        "41.2162475",
+        "14.5212464",
+        "14.5248421"
+      ]
+    }
+  ]
+}

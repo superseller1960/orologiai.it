@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Leonida+Mastrodicasa%2C+99%2FE%2C+Perugia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79906131,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 217110725,
+      "lat": "43.1317749",
+      "lon": "12.4468027",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05340411917296098,
+      "addresstype": "residential",
+      "name": "Via Leonida Mastrodicasa",
+      "display_name": "Via Leonida Mastrodicasa, Ponte Felcino, Perugia, Umbria, 06134, Italia",
+      "address": {
+        "road": "Via Leonida Mastrodicasa",
+        "village": "Ponte Felcino",
+        "city": "Perugia",
+        "county": "Perugia",
+        "ISO3166-2-lvl6": "IT-PG",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "06134",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.1317674",
+        "43.1319513",
+        "12.4463692",
+        "12.4472646"
+      ]
+    }
+  ]
+}

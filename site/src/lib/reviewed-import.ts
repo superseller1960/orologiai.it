@@ -1,6 +1,6 @@
 import { z } from 'zod';
 import { businessSchema, directorySchema, isUsableCoordinate, localitySchema, slugSchema, sourceSchema, type Business, type Directory } from './schema.ts';
-import { findDuplicates } from './duplicates.ts';
+import { classificaCoppia, findDuplicates } from './duplicates.ts';
 
 const testo = z.string().trim().min(1);
 export const reviewedBatchSchema = z.object({
@@ -97,6 +97,20 @@ export function integrateReviewedBatch(esistente: Directory, input: unknown) {
     }
     prova.attivita.push(b);
     const validata = directorySchema.parse(prova);
+    // Blocco a monte: un duplicato confermato da telefono, indirizzo o dominio non entra mai in catalogo.
+    const confermati = prova.attivita
+      .filter((x) => x.id !== b.id)
+      .map((x) => ({ x, esito: classificaCoppia(b, x) }))
+      .filter((r) => r.esito.classe === 'duplicato-confermato');
+    if (confermati.length) {
+      // Blocco prima della pubblicazione: la scheda non entra, l'integrazione resta riproducibile.
+      decisioni.push({
+        id: b.id, esito: 'in-revisione',
+        motivo: `Duplicato confermato di ${confermati.map((c) => c.x.id).join(', ')} (${confermati[0].esito.motivi.join('; ')}).`,
+        duplicati: confermati.map((c) => c.x.id),
+      });
+      continue;
+    }
     const duplicati = findDuplicates(validata).filter(d => d.esito === 'da-revisionare' && (d.primo === b.id || d.secondo === b.id));
     if (duplicati.length) {
       decisioni.push({ id: b.id, esito: 'in-revisione', motivo: 'Possibile duplicato: nessuna seconda scheda pubblicata.', duplicati: [...new Set(duplicati.map(d => d.primo === b.id ? d.secondo : d.primo))] });

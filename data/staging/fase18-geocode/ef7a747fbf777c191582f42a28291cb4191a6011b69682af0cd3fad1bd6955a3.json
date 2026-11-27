@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Imperatrice+3%2C+Sanremo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 431482035,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1570603897,
+      "lat": "43.8138948",
+      "lon": "7.7699409",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339918745708397,
+      "addresstype": "residential",
+      "name": "Corso Imperatrice",
+      "display_name": "Corso Imperatrice, La Pigna, Sanremo, Imperia, Liguria, 18038, Italia",
+      "address": {
+        "road": "Corso Imperatrice",
+        "suburb": "La Pigna",
+        "town": "Sanremo",
+        "county": "Imperia",
+        "ISO3166-2-lvl6": "IT-IM",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "18038",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8138025",
+        "43.8139579",
+        "7.7697935",
+        "7.7701038"
+      ]
+    }
+  ]
+}

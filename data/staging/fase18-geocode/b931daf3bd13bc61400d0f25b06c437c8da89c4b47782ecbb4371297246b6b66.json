@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Emilio+Bicocchi%2C+36%2C+Follonica%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81411575,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4285015846,
+      "lat": "42.9236554",
+      "lon": "10.7584646",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00005584115358200988,
+      "addresstype": "shop",
+      "name": "F.lli Bracci",
+      "display_name": "F.lli Bracci, 36, Via Emilio Bicocchi, Follonica, Grosseto, Toscana, 58022, Italia",
+      "address": {
+        "shop": "F.lli Bracci",
+        "house_number": "36",
+        "road": "Via Emilio Bicocchi",
+        "town": "Follonica",
+        "county": "Grosseto",
+        "ISO3166-2-lvl6": "IT-GR",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "58022",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.9236054",
+        "42.9237054",
+        "10.7584146",
+        "10.7585146"
+      ]
+    }
+  ]
+}

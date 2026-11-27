@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carrubella+191%2C+Gravina+di+Catania%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53706414,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8406634755,
+      "lat": "37.5382751",
+      "lon": "15.0707930",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007121309224074186,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "191, Via Carrubella, Fasano, Picanello-Ognina-Barriera-Canalicchio, Gravina di Catania, Catania, Sicilia, 95030, Italia",
+      "address": {
+        "house_number": "191",
+        "road": "Via Carrubella",
+        "neighbourhood": "Fasano",
+        "suburb": "Picanello-Ognina-Barriera-Canalicchio",
+        "town": "Gravina di Catania",
+        "county": "Catania",
+        "ISO3166-2-lvl6": "IT-CT",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "95030",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.5382251",
+        "37.5383251",
+        "15.0707430",
+        "15.0708430"
+      ]
+    }
+  ]
+}

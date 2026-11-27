@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+II%2C+21%2C+Piacenza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76053514,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7601262667,
+      "lat": "45.0515787",
+      "lon": "9.6923752",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006882505531390887,
+      "addresstype": "shop",
+      "name": "Gioielleria Volta",
+      "display_name": "Gioielleria Volta, 21, Corso Vittorio Emanuele Secondo, Baia del Re, Piacenza, Emilia-Romagna, 29121, Italia",
+      "address": {
+        "shop": "Gioielleria Volta",
+        "house_number": "21",
+        "road": "Corso Vittorio Emanuele Secondo",
+        "suburb": "Baia del Re",
+        "city": "Piacenza",
+        "county": "Piacenza",
+        "ISO3166-2-lvl6": "IT-PC",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "29121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.0515287",
+        "45.0516287",
+        "9.6923252",
+        "9.6924252"
+      ]
+    }
+  ]
+}

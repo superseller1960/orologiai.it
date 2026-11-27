@@ -1,0 +1,3745 @@
+{
+  "generato": "2026-11-06",
+  "descrizione": "Comuni ISTAT effettivamente usati dalle località del catalogo. Riferimento unico per comune, provincia, sigla, regione e codice ISTAT.",
+  "fonti": [
+    "ISTAT — Elenco dei comuni (https://www.istat.it/storage/codici-unita-amministrative/Elenco-comuni-italiani.csv)",
+    "ISTAT — Codici statistici e denominazioni delle unità amministrative della Sardegna (in vigore dal 1° gennaio 2026)"
+  ],
+  "comuni": [
+    {
+      "codiceIstat": "087004",
+      "nome": "Acireale",
+      "provinciaUfficiale": "Catania",
+      "provincia": "Catania",
+      "sigla": "CT",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "A028",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "acireale"
+      ]
+    },
+    {
+      "codiceIstat": "084001",
+      "nome": "Agrigento",
+      "provinciaUfficiale": "Agrigento",
+      "provincia": "Agrigento",
+      "sigla": "AG",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "agrigento"
+      ]
+    },
+    {
+      "codiceIstat": "006003",
+      "nome": "Alessandria",
+      "provinciaUfficiale": "Alessandria",
+      "provincia": "Alessandria",
+      "sigla": "AL",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "alessandria"
+      ]
+    },
+    {
+      "codiceIstat": "090003",
+      "nome": "Alghero",
+      "provinciaUfficiale": "Sassari",
+      "provincia": "Sassari",
+      "sigla": "SS",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": "A192",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "alghero"
+      ]
+    },
+    {
+      "codiceIstat": "042002",
+      "nome": "Ancona",
+      "provinciaUfficiale": "Ancona",
+      "provincia": "Ancona",
+      "sigla": "AN",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ancona"
+      ]
+    },
+    {
+      "codiceIstat": "110001",
+      "nome": "Andria",
+      "provinciaUfficiale": "Barletta-Andria-Trani",
+      "provincia": "Barletta-Andria-Trani",
+      "sigla": "BT",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "andria"
+      ]
+    },
+    {
+      "codiceIstat": "065007",
+      "nome": "Angri",
+      "provinciaUfficiale": "Salerno",
+      "provincia": "Salerno",
+      "sigla": "SA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "angri"
+      ]
+    },
+    {
+      "codiceIstat": "007003",
+      "nome": "Aosta",
+      "provinciaUfficiale": "Valle d'Aosta/Vallée d'Aoste",
+      "provincia": "Valle d'Aosta",
+      "sigla": "AO",
+      "regioneUfficiale": "Valle d'Aosta/Vallée d'Aoste",
+      "regione": "Valle d'Aosta",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "aosta"
+      ]
+    },
+    {
+      "codiceIstat": "051002",
+      "nome": "Arezzo",
+      "provinciaUfficiale": "Arezzo",
+      "provincia": "Arezzo",
+      "sigla": "AR",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "arezzo"
+      ]
+    },
+    {
+      "codiceIstat": "003008",
+      "nome": "Arona",
+      "provinciaUfficiale": "Novara",
+      "provincia": "Novara",
+      "sigla": "NO",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "arona"
+      ]
+    },
+    {
+      "codiceIstat": "044007",
+      "nome": "Ascoli Piceno",
+      "provinciaUfficiale": "Ascoli Piceno",
+      "provincia": "Ascoli Piceno",
+      "sigla": "AP",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": true,
+      "catastale": "A462",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ascoli-piceno"
+      ]
+    },
+    {
+      "codiceIstat": "005005",
+      "nome": "Asti",
+      "provinciaUfficiale": "Asti",
+      "provincia": "Asti",
+      "sigla": "AT",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "asti"
+      ]
+    },
+    {
+      "codiceIstat": "067004",
+      "nome": "Atri",
+      "provinciaUfficiale": "Teramo",
+      "provincia": "Teramo",
+      "sigla": "TE",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "atri"
+      ]
+    },
+    {
+      "codiceIstat": "045001",
+      "nome": "Aulla",
+      "provinciaUfficiale": "Massa-Carrara",
+      "provincia": "Massa-Carrara",
+      "sigla": "MS",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "aulla"
+      ]
+    },
+    {
+      "codiceIstat": "064008",
+      "nome": "Avellino",
+      "provinciaUfficiale": "Avellino",
+      "provincia": "Avellino",
+      "sigla": "AV",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "avellino"
+      ]
+    },
+    {
+      "codiceIstat": "066006",
+      "nome": "Avezzano",
+      "provinciaUfficiale": "L'Aquila",
+      "provincia": "L'Aquila",
+      "sigla": "AQ",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": false,
+      "catastale": "A515",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "avezzano"
+      ]
+    },
+    {
+      "codiceIstat": "016018",
+      "nome": "Bagnatica",
+      "provinciaUfficiale": "Bergamo",
+      "provincia": "Bergamo",
+      "sigla": "BG",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bagnatica"
+      ]
+    },
+    {
+      "codiceIstat": "048001",
+      "nome": "Bagno a Ripoli",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bagno-a-ripoli"
+      ]
+    },
+    {
+      "codiceIstat": "083005",
+      "nome": "Barcellona Pozzo di Gotto",
+      "provinciaUfficiale": "Messina",
+      "provincia": "Messina",
+      "sigla": "ME",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "barcellona-pozzo-di-gotto"
+      ]
+    },
+    {
+      "codiceIstat": "072006",
+      "nome": "Bari",
+      "provinciaUfficiale": "Bari",
+      "provincia": "Bari",
+      "sigla": "BA",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bari"
+      ]
+    },
+    {
+      "codiceIstat": "110002",
+      "nome": "Barletta",
+      "provinciaUfficiale": "Barletta-Andria-Trani",
+      "provincia": "Barletta-Andria-Trani",
+      "sigla": "BT",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "barletta"
+      ]
+    },
+    {
+      "codiceIstat": "024012",
+      "nome": "Bassano del Grappa",
+      "provinciaUfficiale": "Vicenza",
+      "provincia": "Vicenza",
+      "sigla": "VI",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "A703",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bassano-del-grappa"
+      ]
+    },
+    {
+      "codiceIstat": "025006",
+      "nome": "Belluno",
+      "provinciaUfficiale": "Belluno",
+      "provincia": "Belluno",
+      "sigla": "BL",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "belluno"
+      ]
+    },
+    {
+      "codiceIstat": "062008",
+      "nome": "Benevento",
+      "provinciaUfficiale": "Benevento",
+      "provincia": "Benevento",
+      "sigla": "BN",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "benevento"
+      ]
+    },
+    {
+      "codiceIstat": "016024",
+      "nome": "Bergamo",
+      "provinciaUfficiale": "Bergamo",
+      "provincia": "Bergamo",
+      "sigla": "BG",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bergamo"
+      ]
+    },
+    {
+      "codiceIstat": "108007",
+      "nome": "Bernareggio",
+      "provinciaUfficiale": "Monza e della Brianza",
+      "provincia": "Monza e della Brianza",
+      "sigla": "MB",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "A802",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bernareggio"
+      ]
+    },
+    {
+      "codiceIstat": "108008",
+      "nome": "Besana in Brianza",
+      "provinciaUfficiale": "Monza e della Brianza",
+      "provincia": "Monza e della Brianza",
+      "sigla": "MB",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "besana-in-brianza"
+      ]
+    },
+    {
+      "codiceIstat": "096004",
+      "nome": "Biella",
+      "provinciaUfficiale": "Biella",
+      "provincia": "Biella",
+      "sigla": "BI",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "biella"
+      ]
+    },
+    {
+      "codiceIstat": "037006",
+      "nome": "Bologna",
+      "provinciaUfficiale": "Bologna",
+      "provincia": "Bologna",
+      "sigla": "BO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bologna"
+      ]
+    },
+    {
+      "codiceIstat": "021008",
+      "nome": "Bolzano",
+      "provinciaUfficiale": "Bolzano/Bozen",
+      "provincia": "Bolzano",
+      "sigla": "BZ",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bolzano"
+      ]
+    },
+    {
+      "codiceIstat": "075009",
+      "nome": "Botrugno",
+      "provinciaUfficiale": "Lecce",
+      "provincia": "Lecce",
+      "sigla": "LE",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "botrugno"
+      ]
+    },
+    {
+      "codiceIstat": "004029",
+      "nome": "Bra",
+      "provinciaUfficiale": "Cuneo",
+      "provincia": "Cuneo",
+      "sigla": "CN",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bra"
+      ]
+    },
+    {
+      "codiceIstat": "017029",
+      "nome": "Brescia",
+      "provinciaUfficiale": "Brescia",
+      "provincia": "Brescia",
+      "sigla": "BS",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "brescia"
+      ]
+    },
+    {
+      "codiceIstat": "021011",
+      "nome": "Bressanone",
+      "provinciaUfficiale": "Bolzano/Bozen",
+      "provincia": "Bolzano",
+      "sigla": "BZ",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": false,
+      "catastale": "B160",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "bressanone"
+      ]
+    },
+    {
+      "codiceIstat": "074001",
+      "nome": "Brindisi",
+      "provinciaUfficiale": "Brindisi",
+      "provincia": "Brindisi",
+      "sigla": "BR",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "brindisi"
+      ]
+    },
+    {
+      "codiceIstat": "021013",
+      "nome": "Brunico",
+      "provinciaUfficiale": "Bolzano/Bozen",
+      "provincia": "Bolzano",
+      "sigla": "BZ",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "brunico"
+      ]
+    },
+    {
+      "codiceIstat": "118006",
+      "nome": "Cagliari",
+      "provinciaUfficiale": "Provincia di Cagliari",
+      "provincia": "Cagliari",
+      "sigla": "CA",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "cagliari"
+      ]
+    },
+    {
+      "codiceIstat": "048005",
+      "nome": "Calenzano",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "calenzano"
+      ]
+    },
+    {
+      "codiceIstat": "085004",
+      "nome": "Caltanissetta",
+      "provinciaUfficiale": "Caltanissetta",
+      "provincia": "Caltanissetta",
+      "sigla": "CL",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "caltanissetta"
+      ]
+    },
+    {
+      "codiceIstat": "048006",
+      "nome": "Campi Bisenzio",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "campi-bisenzio"
+      ]
+    },
+    {
+      "codiceIstat": "070006",
+      "nome": "Campobasso",
+      "provinciaUfficiale": "Campobasso",
+      "provincia": "Campobasso",
+      "sigla": "CB",
+      "regioneUfficiale": "Molise",
+      "regione": "Molise",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "campobasso"
+      ]
+    },
+    {
+      "codiceIstat": "084011",
+      "nome": "Canicattì",
+      "provinciaUfficiale": "Agrigento",
+      "provincia": "Agrigento",
+      "sigla": "AG",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "canicatti"
+      ]
+    },
+    {
+      "codiceIstat": "046007",
+      "nome": "Capannori",
+      "provinciaUfficiale": "Lucca",
+      "provincia": "Lucca",
+      "sigla": "LU",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "capannori"
+      ]
+    },
+    {
+      "codiceIstat": "063014",
+      "nome": "Capri",
+      "provinciaUfficiale": "Napoli",
+      "provincia": "Napoli",
+      "sigla": "NA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "capri"
+      ]
+    },
+    {
+      "codiceIstat": "036005",
+      "nome": "Carpi",
+      "provinciaUfficiale": "Modena",
+      "provincia": "Modena",
+      "sigla": "MO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "carpi"
+      ]
+    },
+    {
+      "codiceIstat": "045003",
+      "nome": "Carrara",
+      "provinciaUfficiale": "Massa-Carrara",
+      "provincia": "Massa-Carrara",
+      "sigla": "MS",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "carrara"
+      ]
+    },
+    {
+      "codiceIstat": "006039",
+      "nome": "Casale Monferrato",
+      "provinciaUfficiale": "Alessandria",
+      "provincia": "Alessandria",
+      "sigla": "AL",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "casale-monferrato"
+      ]
+    },
+    {
+      "codiceIstat": "061022",
+      "nome": "Caserta",
+      "provinciaUfficiale": "Caserta",
+      "provincia": "Caserta",
+      "sigla": "CE",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "caserta"
+      ]
+    },
+    {
+      "codiceIstat": "054008",
+      "nome": "Castel Ritaldi",
+      "provinciaUfficiale": "Perugia",
+      "provincia": "Perugia",
+      "sigla": "PG",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "C252",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "castel-ritaldi"
+      ]
+    },
+    {
+      "codiceIstat": "073003",
+      "nome": "Castellaneta",
+      "provinciaUfficiale": "Taranto",
+      "provincia": "Taranto",
+      "sigla": "TA",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "castellaneta"
+      ]
+    },
+    {
+      "codiceIstat": "019025",
+      "nome": "Castelleone",
+      "provinciaUfficiale": "Cremona",
+      "provincia": "Cremona",
+      "sigla": "CR",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "castelleone"
+      ]
+    },
+    {
+      "codiceIstat": "087015",
+      "nome": "Catania",
+      "provinciaUfficiale": "Catania",
+      "provincia": "Catania",
+      "sigla": "CT",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "catania"
+      ]
+    },
+    {
+      "codiceIstat": "079023",
+      "nome": "Catanzaro",
+      "provinciaUfficiale": "Catanzaro",
+      "provincia": "Catanzaro",
+      "sigla": "CZ",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "catanzaro"
+      ]
+    },
+    {
+      "codiceIstat": "058026",
+      "nome": "Cave",
+      "provinciaUfficiale": "Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "C390",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cave"
+      ]
+    },
+    {
+      "codiceIstat": "035017",
+      "nome": "Cavriago",
+      "provinciaUfficiale": "Reggio nell'Emilia",
+      "provincia": "Reggio nell'Emilia",
+      "sigla": "RE",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cavriago"
+      ]
+    },
+    {
+      "codiceIstat": "049007",
+      "nome": "Cecina",
+      "provinciaUfficiale": "Livorno",
+      "provincia": "Livorno",
+      "sigla": "LI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cecina"
+      ]
+    },
+    {
+      "codiceIstat": "038004",
+      "nome": "Cento",
+      "provinciaUfficiale": "Ferrara",
+      "provincia": "Ferrara",
+      "sigla": "FE",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cento"
+      ]
+    },
+    {
+      "codiceIstat": "071020",
+      "nome": "Cerignola",
+      "provinciaUfficiale": "Foggia",
+      "provincia": "Foggia",
+      "sigla": "FG",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cerignola"
+      ]
+    },
+    {
+      "codiceIstat": "039007",
+      "nome": "Cervia",
+      "provinciaUfficiale": "Ravenna",
+      "provincia": "Ravenna",
+      "sigla": "RA",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cervia"
+      ]
+    },
+    {
+      "codiceIstat": "010015",
+      "nome": "Chiavari",
+      "provinciaUfficiale": "Genova",
+      "provincia": "Genova",
+      "sigla": "GE",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "chiavari"
+      ]
+    },
+    {
+      "codiceIstat": "069022",
+      "nome": "Chieti",
+      "provinciaUfficiale": "Chieti",
+      "provincia": "Chieti",
+      "sigla": "CH",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "chieti"
+      ]
+    },
+    {
+      "codiceIstat": "054013",
+      "nome": "Città di Castello",
+      "provinciaUfficiale": "Perugia",
+      "provincia": "Perugia",
+      "sigla": "PG",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "citta-di-castello"
+      ]
+    },
+    {
+      "codiceIstat": "080028",
+      "nome": "Cittanova",
+      "provinciaUfficiale": "Reggio Calabria",
+      "provincia": "Reggio Calabria",
+      "sigla": "RC",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": false,
+      "catastale": "C747",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cittanova"
+      ]
+    },
+    {
+      "codiceIstat": "043013",
+      "nome": "Civitanova Marche",
+      "provinciaUfficiale": "Macerata",
+      "provincia": "Macerata",
+      "sigla": "MC",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "civitanova-marche"
+      ]
+    },
+    {
+      "codiceIstat": "052012",
+      "nome": "Colle di Val d'Elsa",
+      "provinciaUfficiale": "Siena",
+      "provincia": "Siena",
+      "sigla": "SI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "colle-di-val-d-elsa"
+      ]
+    },
+    {
+      "codiceIstat": "013075",
+      "nome": "Como",
+      "provinciaUfficiale": "Como",
+      "provincia": "Como",
+      "sigla": "CO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "como"
+      ]
+    },
+    {
+      "codiceIstat": "026021",
+      "nome": "Conegliano",
+      "provinciaUfficiale": "Treviso",
+      "provincia": "Treviso",
+      "sigla": "TV",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "conegliano"
+      ]
+    },
+    {
+      "codiceIstat": "078157",
+      "nome": "Corigliano-Rossano",
+      "provinciaUfficiale": "Cosenza",
+      "provincia": "Cosenza",
+      "sigla": "CS",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": false,
+      "catastale": "M403",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "corigliano-rossano"
+      ]
+    },
+    {
+      "codiceIstat": "078045",
+      "nome": "Cosenza",
+      "provinciaUfficiale": "Cosenza",
+      "provincia": "Cosenza",
+      "sigla": "CS",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cosenza"
+      ]
+    },
+    {
+      "codiceIstat": "007022",
+      "nome": "Courmayeur",
+      "provinciaUfficiale": "Valle d'Aosta/Vallée d'Aoste",
+      "provincia": "Valle d'Aosta",
+      "sigla": "AO",
+      "regioneUfficiale": "Valle d'Aosta/Vallée d'Aoste",
+      "regione": "Valle d'Aosta",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "courmayeur"
+      ]
+    },
+    {
+      "codiceIstat": "019035",
+      "nome": "Crema",
+      "provinciaUfficiale": "Cremona",
+      "provincia": "Cremona",
+      "sigla": "CR",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "crema"
+      ]
+    },
+    {
+      "codiceIstat": "019036",
+      "nome": "Cremona",
+      "provinciaUfficiale": "Cremona",
+      "provincia": "Cremona",
+      "sigla": "CR",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cremona"
+      ]
+    },
+    {
+      "codiceIstat": "101010",
+      "nome": "Crotone",
+      "provinciaUfficiale": "Crotone",
+      "provincia": "Crotone",
+      "sigla": "KR",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "crotone"
+      ]
+    },
+    {
+      "codiceIstat": "004078",
+      "nome": "Cuneo",
+      "provinciaUfficiale": "Cuneo",
+      "provincia": "Cuneo",
+      "sigla": "CN",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cuneo"
+      ]
+    },
+    {
+      "codiceIstat": "016091",
+      "nome": "Dalmine",
+      "provinciaUfficiale": "Bergamo",
+      "provincia": "Bergamo",
+      "sigla": "BG",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "dalmine"
+      ]
+    },
+    {
+      "codiceIstat": "108023",
+      "nome": "Desio",
+      "provinciaUfficiale": "Monza e della Brianza",
+      "provincia": "Monza e della Brianza",
+      "sigla": "MB",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "desio"
+      ]
+    },
+    {
+      "codiceIstat": "103028",
+      "nome": "Domodossola",
+      "provinciaUfficiale": "Verbano-Cusio-Ossola",
+      "provincia": "Verbano-Cusio-Ossola",
+      "sigla": "VB",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "domodossola"
+      ]
+    },
+    {
+      "codiceIstat": "048014",
+      "nome": "Empoli",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "empoli"
+      ]
+    },
+    {
+      "codiceIstat": "086009",
+      "nome": "Enna",
+      "provinciaUfficiale": "Enna",
+      "provincia": "Enna",
+      "sigla": "EN",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "enna"
+      ]
+    },
+    {
+      "codiceIstat": "013095",
+      "nome": "Erba",
+      "provinciaUfficiale": "Como",
+      "provincia": "Como",
+      "sigla": "CO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "erba"
+      ]
+    },
+    {
+      "codiceIstat": "081008",
+      "nome": "Erice",
+      "provinciaUfficiale": "Trapani",
+      "provincia": "Trapani",
+      "sigla": "TP",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "erice"
+      ]
+    },
+    {
+      "codiceIstat": "028037",
+      "nome": "Este",
+      "provinciaUfficiale": "Padova",
+      "provincia": "Padova",
+      "sigla": "PD",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "este"
+      ]
+    },
+    {
+      "codiceIstat": "039010",
+      "nome": "Faenza",
+      "provinciaUfficiale": "Ravenna",
+      "provincia": "Ravenna",
+      "sigla": "RA",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "faenza"
+      ]
+    },
+    {
+      "codiceIstat": "041013",
+      "nome": "Fano",
+      "provinciaUfficiale": "Pesaro e Urbino",
+      "provincia": "Pesaro e Urbino",
+      "sigla": "PU",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fano"
+      ]
+    },
+    {
+      "codiceIstat": "109006",
+      "nome": "Fermo",
+      "provinciaUfficiale": "Fermo",
+      "provincia": "Fermo",
+      "sigla": "FM",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": true,
+      "catastale": "D542",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fermo"
+      ]
+    },
+    {
+      "codiceIstat": "038008",
+      "nome": "Ferrara",
+      "provinciaUfficiale": "Ferrara",
+      "provincia": "Ferrara",
+      "sigla": "FE",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ferrara"
+      ]
+    },
+    {
+      "codiceIstat": "034014",
+      "nome": "Fidenza",
+      "provinciaUfficiale": "Parma",
+      "provincia": "Parma",
+      "sigla": "PR",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "B034",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fidenza"
+      ]
+    },
+    {
+      "codiceIstat": "048052",
+      "nome": "Figline e Incisa Valdarno",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "figline-e-incisa-valdarno"
+      ]
+    },
+    {
+      "codiceIstat": "048017",
+      "nome": "Firenze",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "firenze"
+      ]
+    },
+    {
+      "codiceIstat": "048018",
+      "nome": "Firenzuola",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "firenzuola"
+      ]
+    },
+    {
+      "codiceIstat": "060035",
+      "nome": "Fiuggi",
+      "provinciaUfficiale": "Frosinone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fiuggi"
+      ]
+    },
+    {
+      "codiceIstat": "071024",
+      "nome": "Foggia",
+      "provinciaUfficiale": "Foggia",
+      "provincia": "Foggia",
+      "sigla": "FG",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "foggia"
+      ]
+    },
+    {
+      "codiceIstat": "053009",
+      "nome": "Follonica",
+      "provinciaUfficiale": "Grosseto",
+      "provincia": "Grosseto",
+      "sigla": "GR",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "follonica"
+      ]
+    },
+    {
+      "codiceIstat": "059007",
+      "nome": "Fondi",
+      "provinciaUfficiale": "Latina",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fondi"
+      ]
+    },
+    {
+      "codiceIstat": "040012",
+      "nome": "Forlì",
+      "provinciaUfficiale": "Forlì-Cesena",
+      "provincia": "Forlì-Cesena",
+      "sigla": "FC",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "forli"
+      ]
+    },
+    {
+      "codiceIstat": "004089",
+      "nome": "Fossano",
+      "provinciaUfficiale": "Cuneo",
+      "provincia": "Cuneo",
+      "sigla": "CN",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "fossano"
+      ]
+    },
+    {
+      "codiceIstat": "060038",
+      "nome": "Frosinone",
+      "provinciaUfficiale": "Frosinone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "frosinone"
+      ]
+    },
+    {
+      "codiceIstat": "012070",
+      "nome": "Gallarate",
+      "provinciaUfficiale": "Varese",
+      "provincia": "Varese",
+      "sigla": "VA",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "gallarate"
+      ]
+    },
+    {
+      "codiceIstat": "075031",
+      "nome": "Gallipoli",
+      "provinciaUfficiale": "Lecce",
+      "provincia": "Lecce",
+      "sigla": "LE",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "gallipoli"
+      ]
+    },
+    {
+      "codiceIstat": "010025",
+      "nome": "Genova",
+      "provinciaUfficiale": "Genova",
+      "provincia": "Genova",
+      "sigla": "GE",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "genova"
+      ]
+    },
+    {
+      "codiceIstat": "031007",
+      "nome": "Gorizia",
+      "provinciaUfficiale": "Gorizia",
+      "provincia": "Gorizia",
+      "sigla": "GO",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "gorizia"
+      ]
+    },
+    {
+      "codiceIstat": "087019",
+      "nome": "Gravina di Catania",
+      "provinciaUfficiale": "Catania",
+      "provincia": "Catania",
+      "sigla": "CT",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "gravina-di-catania"
+      ]
+    },
+    {
+      "codiceIstat": "053011",
+      "nome": "Grosseto",
+      "provinciaUfficiale": "Grosseto",
+      "provincia": "Grosseto",
+      "sigla": "GR",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "grosseto"
+      ]
+    },
+    {
+      "codiceIstat": "054024",
+      "nome": "Gubbio",
+      "provinciaUfficiale": "Perugia",
+      "provincia": "Perugia",
+      "sigla": "PG",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "E256",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "gubbio"
+      ]
+    },
+    {
+      "codiceIstat": "119009",
+      "nome": "Iglesias",
+      "provinciaUfficiale": "Provincia di Sulcis Iglesiente",
+      "provincia": "Sulcis Iglesiente",
+      "sigla": "SU",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "iglesias"
+      ]
+    },
+    {
+      "codiceIstat": "008031",
+      "nome": "Imperia",
+      "provinciaUfficiale": "Imperia",
+      "provincia": "Imperia",
+      "sigla": "IM",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "imperia"
+      ]
+    },
+    {
+      "codiceIstat": "094023",
+      "nome": "Isernia",
+      "provinciaUfficiale": "Isernia",
+      "provincia": "Isernia",
+      "sigla": "IS",
+      "regioneUfficiale": "Molise",
+      "regione": "Molise",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "isernia"
+      ]
+    },
+    {
+      "codiceIstat": "066049",
+      "nome": "L'Aquila",
+      "provinciaUfficiale": "L'Aquila",
+      "provincia": "L'Aquila",
+      "sigla": "AQ",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "l-aquila"
+      ]
+    },
+    {
+      "codiceIstat": "011015",
+      "nome": "La Spezia",
+      "provinciaUfficiale": "La Spezia",
+      "provincia": "La Spezia",
+      "sigla": "SP",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "la-spezia"
+      ]
+    },
+    {
+      "codiceIstat": "079160",
+      "nome": "Lamezia Terme",
+      "provinciaUfficiale": "Catanzaro",
+      "provincia": "Catanzaro",
+      "sigla": "CZ",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lamezia-terme"
+      ]
+    },
+    {
+      "codiceIstat": "059011",
+      "nome": "Latina",
+      "provinciaUfficiale": "Latina",
+      "provincia": "Latina",
+      "sigla": "LT",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "latina"
+      ]
+    },
+    {
+      "codiceIstat": "075035",
+      "nome": "Lecce",
+      "provinciaUfficiale": "Lecce",
+      "provincia": "Lecce",
+      "sigla": "LE",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lecce"
+      ]
+    },
+    {
+      "codiceIstat": "097042",
+      "nome": "Lecco",
+      "provinciaUfficiale": "Lecco",
+      "provincia": "Lecco",
+      "sigla": "LC",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lecco"
+      ]
+    },
+    {
+      "codiceIstat": "015118",
+      "nome": "Legnano",
+      "provinciaUfficiale": "Milano",
+      "provincia": "Milano",
+      "sigla": "MI",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "E514",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "legnano"
+      ]
+    },
+    {
+      "codiceIstat": "029029",
+      "nome": "Lendinara",
+      "provinciaUfficiale": "Rovigo",
+      "provincia": "Rovigo",
+      "sigla": "RO",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lendinara"
+      ]
+    },
+    {
+      "codiceIstat": "049009",
+      "nome": "Livorno",
+      "provinciaUfficiale": "Livorno",
+      "provincia": "Livorno",
+      "sigla": "LI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "livorno"
+      ]
+    },
+    {
+      "codiceIstat": "098030",
+      "nome": "Livraga",
+      "provinciaUfficiale": "Lodi",
+      "provincia": "Lodi",
+      "sigla": "LO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "livraga"
+      ]
+    },
+    {
+      "codiceIstat": "098031",
+      "nome": "Lodi",
+      "provinciaUfficiale": "Lodi",
+      "provincia": "Lodi",
+      "sigla": "LO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lodi"
+      ]
+    },
+    {
+      "codiceIstat": "046017",
+      "nome": "Lucca",
+      "provinciaUfficiale": "Lucca",
+      "provincia": "Lucca",
+      "sigla": "LU",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "lucca"
+      ]
+    },
+    {
+      "codiceIstat": "043023",
+      "nome": "Macerata",
+      "provinciaUfficiale": "Macerata",
+      "provincia": "Macerata",
+      "sigla": "MC",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "macerata"
+      ]
+    },
+    {
+      "codiceIstat": "020030",
+      "nome": "Mantova",
+      "provinciaUfficiale": "Mantova",
+      "provincia": "Mantova",
+      "sigla": "MN",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "mantova"
+      ]
+    },
+    {
+      "codiceIstat": "024056",
+      "nome": "Marano Vicentino",
+      "provinciaUfficiale": "Vicenza",
+      "provincia": "Vicenza",
+      "sigla": "VI",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "marano-vicentino"
+      ]
+    },
+    {
+      "codiceIstat": "061049",
+      "nome": "Marcianise",
+      "provinciaUfficiale": "Caserta",
+      "provincia": "Caserta",
+      "sigla": "CE",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "marcianise"
+      ]
+    },
+    {
+      "codiceIstat": "054027",
+      "nome": "Marsciano",
+      "provinciaUfficiale": "Perugia",
+      "provincia": "Perugia",
+      "sigla": "PG",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "marsciano"
+      ]
+    },
+    {
+      "codiceIstat": "073013",
+      "nome": "Martina Franca",
+      "provinciaUfficiale": "Taranto",
+      "provincia": "Taranto",
+      "sigla": "TA",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "martina-franca"
+      ]
+    },
+    {
+      "codiceIstat": "077014",
+      "nome": "Matera",
+      "provinciaUfficiale": "Matera",
+      "provincia": "Matera",
+      "sigla": "MT",
+      "regioneUfficiale": "Basilicata",
+      "regione": "Basilicata",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "matera"
+      ]
+    },
+    {
+      "codiceIstat": "081012",
+      "nome": "Mazara del Vallo",
+      "provinciaUfficiale": "Trapani",
+      "provincia": "Trapani",
+      "sigla": "TP",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "mazara-del-vallo"
+      ]
+    },
+    {
+      "codiceIstat": "021051",
+      "nome": "Merano",
+      "provinciaUfficiale": "Bolzano/Bozen",
+      "provincia": "Bolzano",
+      "sigla": "BZ",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "merano"
+      ]
+    },
+    {
+      "codiceIstat": "083048",
+      "nome": "Messina",
+      "provinciaUfficiale": "Messina",
+      "provincia": "Messina",
+      "sigla": "ME",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "messina"
+      ]
+    },
+    {
+      "codiceIstat": "015146",
+      "nome": "Milano",
+      "provinciaUfficiale": "Milano",
+      "provincia": "Milano",
+      "sigla": "MI",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "milano"
+      ]
+    },
+    {
+      "codiceIstat": "027024",
+      "nome": "Mirano",
+      "provinciaUfficiale": "Venezia",
+      "provincia": "Venezia",
+      "sigla": "VE",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "mirano"
+      ]
+    },
+    {
+      "codiceIstat": "036023",
+      "nome": "Modena",
+      "provinciaUfficiale": "Modena",
+      "provincia": "Modena",
+      "sigla": "MO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "modena"
+      ]
+    },
+    {
+      "codiceIstat": "088006",
+      "nome": "Modica",
+      "provinciaUfficiale": "Ragusa",
+      "provincia": "Ragusa",
+      "sigla": "RG",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "modica"
+      ]
+    },
+    {
+      "codiceIstat": "001156",
+      "nome": "Moncalieri",
+      "provinciaUfficiale": "Torino",
+      "provincia": "Torino",
+      "sigla": "TO",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "moncalieri"
+      ]
+    },
+    {
+      "codiceIstat": "031012",
+      "nome": "Monfalcone",
+      "provinciaUfficiale": "Gorizia",
+      "provincia": "Gorizia",
+      "sigla": "GO",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "monfalcone"
+      ]
+    },
+    {
+      "codiceIstat": "026046",
+      "nome": "Montebelluna",
+      "provinciaUfficiale": "Treviso",
+      "provincia": "Treviso",
+      "sigla": "TV",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "F443",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "montebelluna"
+      ]
+    },
+    {
+      "codiceIstat": "056036",
+      "nome": "Montefiascone",
+      "provinciaUfficiale": "Viterbo",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "montefiascone"
+      ]
+    },
+    {
+      "codiceIstat": "051026",
+      "nome": "Montevarchi",
+      "provinciaUfficiale": "Arezzo",
+      "provincia": "Arezzo",
+      "sigla": "AR",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "montevarchi"
+      ]
+    },
+    {
+      "codiceIstat": "108033",
+      "nome": "Monza",
+      "provinciaUfficiale": "Monza e della Brianza",
+      "provincia": "Monza e della Brianza",
+      "sigla": "MB",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "monza"
+      ]
+    },
+    {
+      "codiceIstat": "014045",
+      "nome": "Morbegno",
+      "provinciaUfficiale": "Sondrio",
+      "provincia": "Sondrio",
+      "sigla": "SO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "morbegno"
+      ]
+    },
+    {
+      "codiceIstat": "063049",
+      "nome": "Napoli",
+      "provinciaUfficiale": "Napoli",
+      "provincia": "Napoli",
+      "sigla": "NA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "napoli"
+      ]
+    },
+    {
+      "codiceIstat": "055022",
+      "nome": "Narni",
+      "provinciaUfficiale": "Terni",
+      "provincia": "Terni",
+      "sigla": "TR",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "narni"
+      ]
+    },
+    {
+      "codiceIstat": "086012",
+      "nome": "Nicosia",
+      "provinciaUfficiale": "Enna",
+      "provincia": "Enna",
+      "sigla": "EN",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "nicosia"
+      ]
+    },
+    {
+      "codiceIstat": "003106",
+      "nome": "Novara",
+      "provinciaUfficiale": "Novara",
+      "provincia": "Novara",
+      "sigla": "NO",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "novara"
+      ]
+    },
+    {
+      "codiceIstat": "114027",
+      "nome": "Nuoro",
+      "provinciaUfficiale": "Provincia di Nuoro",
+      "provincia": "Nuoro",
+      "sigla": "NU",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "nuoro"
+      ]
+    },
+    {
+      "codiceIstat": "113017",
+      "nome": "Olbia",
+      "provinciaUfficiale": "Provincia di Gallura Nord-Est Sardegna",
+      "provincia": "Gallura Nord-Est Sardegna",
+      "sigla": "OT",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "olbia"
+      ]
+    },
+    {
+      "codiceIstat": "115045",
+      "nome": "Oristano",
+      "provinciaUfficiale": "Provincia di Oristano",
+      "provincia": "Oristano",
+      "sigla": "OR",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "oristano"
+      ]
+    },
+    {
+      "codiceIstat": "055023",
+      "nome": "Orvieto",
+      "provinciaUfficiale": "Terni",
+      "provincia": "Terni",
+      "sigla": "TR",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": false,
+      "catastale": "G148",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "orvieto"
+      ]
+    },
+    {
+      "codiceIstat": "074012",
+      "nome": "Ostuni",
+      "provinciaUfficiale": "Brindisi",
+      "provincia": "Brindisi",
+      "sigla": "BR",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "G187",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ostuni"
+      ]
+    },
+    {
+      "codiceIstat": "028060",
+      "nome": "Padova",
+      "provinciaUfficiale": "Padova",
+      "provincia": "Padova",
+      "sigla": "PD",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "padova"
+      ]
+    },
+    {
+      "codiceIstat": "082053",
+      "nome": "Palermo",
+      "provinciaUfficiale": "Palermo",
+      "provincia": "Palermo",
+      "sigla": "PA",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "palermo"
+      ]
+    },
+    {
+      "codiceIstat": "034027",
+      "nome": "Parma",
+      "provinciaUfficiale": "Parma",
+      "provincia": "Parma",
+      "sigla": "PR",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "parma"
+      ]
+    },
+    {
+      "codiceIstat": "018110",
+      "nome": "Pavia",
+      "provinciaUfficiale": "Pavia",
+      "provincia": "Pavia",
+      "sigla": "PV",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pavia"
+      ]
+    },
+    {
+      "codiceIstat": "054039",
+      "nome": "Perugia",
+      "provinciaUfficiale": "Perugia",
+      "provincia": "Perugia",
+      "sigla": "PG",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "perugia"
+      ]
+    },
+    {
+      "codiceIstat": "041044",
+      "nome": "Pesaro",
+      "provinciaUfficiale": "Pesaro e Urbino",
+      "provincia": "Pesaro e Urbino",
+      "sigla": "PU",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pesaro"
+      ]
+    },
+    {
+      "codiceIstat": "068028",
+      "nome": "Pescara",
+      "provinciaUfficiale": "Pescara",
+      "provincia": "Pescara",
+      "sigla": "PE",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pescara"
+      ]
+    },
+    {
+      "codiceIstat": "033032",
+      "nome": "Piacenza",
+      "provinciaUfficiale": "Piacenza",
+      "provincia": "Piacenza",
+      "sigla": "PC",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "piacenza"
+      ]
+    },
+    {
+      "codiceIstat": "037048",
+      "nome": "Pieve di Cento",
+      "provinciaUfficiale": "Bologna",
+      "provincia": "Bologna",
+      "sigla": "BO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pieve-di-cento"
+      ]
+    },
+    {
+      "codiceIstat": "050026",
+      "nome": "Pisa",
+      "provinciaUfficiale": "Pisa",
+      "provincia": "Pisa",
+      "sigla": "PI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pisa"
+      ]
+    },
+    {
+      "codiceIstat": "047014",
+      "nome": "Pistoia",
+      "provinciaUfficiale": "Pistoia",
+      "provincia": "Pistoia",
+      "sigla": "PT",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pistoia"
+      ]
+    },
+    {
+      "codiceIstat": "052022",
+      "nome": "Poggibonsi",
+      "provinciaUfficiale": "Siena",
+      "provincia": "Siena",
+      "sigla": "SI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "poggibonsi"
+      ]
+    },
+    {
+      "codiceIstat": "100004",
+      "nome": "Poggio a Caiano",
+      "provinciaUfficiale": "Prato",
+      "provincia": "Prato",
+      "sigla": "PO",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "poggio-a-caiano"
+      ]
+    },
+    {
+      "codiceIstat": "077021",
+      "nome": "Policoro",
+      "provinciaUfficiale": "Matera",
+      "provincia": "Matera",
+      "sigla": "MT",
+      "regioneUfficiale": "Basilicata",
+      "regione": "Basilicata",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "policoro"
+      ]
+    },
+    {
+      "codiceIstat": "048033",
+      "nome": "Pontassieve",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pontassieve"
+      ]
+    },
+    {
+      "codiceIstat": "050029",
+      "nome": "Pontedera",
+      "provinciaUfficiale": "Pisa",
+      "provincia": "Pisa",
+      "sigla": "PI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pontedera"
+      ]
+    },
+    {
+      "codiceIstat": "093033",
+      "nome": "Pordenone",
+      "provinciaUfficiale": "Pordenone",
+      "provincia": "Pordenone",
+      "sigla": "PN",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pordenone"
+      ]
+    },
+    {
+      "codiceIstat": "061062",
+      "nome": "Portico di Caserta",
+      "provinciaUfficiale": "Caserta",
+      "provincia": "Caserta",
+      "sigla": "CE",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "portico-di-caserta"
+      ]
+    },
+    {
+      "codiceIstat": "109033",
+      "nome": "Porto San Giorgio",
+      "provinciaUfficiale": "Fermo",
+      "provincia": "Fermo",
+      "sigla": "FM",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "porto-san-giorgio"
+      ]
+    },
+    {
+      "codiceIstat": "109034",
+      "nome": "Porto Sant'Elpidio",
+      "provinciaUfficiale": "Fermo",
+      "provincia": "Fermo",
+      "sigla": "FM",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "porto-sant-elpidio"
+      ]
+    },
+    {
+      "codiceIstat": "112045",
+      "nome": "Porto Torres",
+      "provinciaUfficiale": "Provincia di Sassari",
+      "provincia": "Sassari",
+      "sigla": "SS",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "porto-torres"
+      ]
+    },
+    {
+      "codiceIstat": "076063",
+      "nome": "Potenza",
+      "provinciaUfficiale": "Potenza",
+      "provincia": "Potenza",
+      "sigla": "PZ",
+      "regioneUfficiale": "Basilicata",
+      "regione": "Basilicata",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "potenza"
+      ]
+    },
+    {
+      "codiceIstat": "043043",
+      "nome": "Potenza Picena",
+      "provinciaUfficiale": "Macerata",
+      "provincia": "Macerata",
+      "sigla": "MC",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "porto-potenza-picena"
+      ]
+    },
+    {
+      "codiceIstat": "063060",
+      "nome": "Pozzuoli",
+      "provinciaUfficiale": "Napoli",
+      "provincia": "Napoli",
+      "sigla": "NA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "G964",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pozzuoli"
+      ]
+    },
+    {
+      "codiceIstat": "100005",
+      "nome": "Prato",
+      "provinciaUfficiale": "Prato",
+      "provincia": "Prato",
+      "sigla": "PO",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "prato"
+      ]
+    },
+    {
+      "codiceIstat": "073022",
+      "nome": "Pulsano",
+      "provinciaUfficiale": "Taranto",
+      "provincia": "Taranto",
+      "sigla": "TA",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "H090",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "pulsano"
+      ]
+    },
+    {
+      "codiceIstat": "118038",
+      "nome": "Quartu Sant'Elena",
+      "provinciaUfficiale": "Provincia di Cagliari",
+      "provincia": "Cagliari",
+      "sigla": "CA",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "quartu-sant-elena"
+      ]
+    },
+    {
+      "codiceIstat": "088009",
+      "nome": "Ragusa",
+      "provinciaUfficiale": "Ragusa",
+      "provincia": "Ragusa",
+      "sigla": "RG",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ragusa"
+      ]
+    },
+    {
+      "codiceIstat": "039014",
+      "nome": "Ravenna",
+      "provinciaUfficiale": "Ravenna",
+      "provincia": "Ravenna",
+      "sigla": "RA",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "ravenna"
+      ]
+    },
+    {
+      "codiceIstat": "080063",
+      "nome": "Reggio di Calabria",
+      "provinciaUfficiale": "Reggio Calabria",
+      "provincia": "Reggio Calabria",
+      "sigla": "RC",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "reggio-calabria"
+      ]
+    },
+    {
+      "codiceIstat": "035033",
+      "nome": "Reggio nell'Emilia",
+      "provinciaUfficiale": "Reggio nell'Emilia",
+      "provincia": "Reggio nell'Emilia",
+      "sigla": "RE",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "reggio-emilia"
+      ]
+    },
+    {
+      "codiceIstat": "099013",
+      "nome": "Riccione",
+      "provinciaUfficiale": "Rimini",
+      "provincia": "Rimini",
+      "sigla": "RN",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "riccione"
+      ]
+    },
+    {
+      "codiceIstat": "057059",
+      "nome": "Rieti",
+      "provinciaUfficiale": "Rieti",
+      "provincia": "Rieti",
+      "sigla": "RI",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rieti"
+      ]
+    },
+    {
+      "codiceIstat": "099014",
+      "nome": "Rimini",
+      "provinciaUfficiale": "Rimini",
+      "provincia": "Rimini",
+      "sigla": "RN",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rimini"
+      ]
+    },
+    {
+      "codiceIstat": "058091",
+      "nome": "Roma",
+      "provinciaUfficiale": "Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "roma"
+      ]
+    },
+    {
+      "codiceIstat": "024087",
+      "nome": "Rosà",
+      "provinciaUfficiale": "Vicenza",
+      "provincia": "Vicenza",
+      "sigla": "VI",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "H556",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rosa"
+      ]
+    },
+    {
+      "codiceIstat": "067037",
+      "nome": "Roseto degli Abruzzi",
+      "provinciaUfficiale": "Teramo",
+      "provincia": "Teramo",
+      "sigla": "TE",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "roseto-degli-abruzzi"
+      ]
+    },
+    {
+      "codiceIstat": "022161",
+      "nome": "Rovereto",
+      "provinciaUfficiale": "Trento",
+      "provincia": "Trento",
+      "sigla": "TN",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rovereto"
+      ]
+    },
+    {
+      "codiceIstat": "029041",
+      "nome": "Rovigo",
+      "provinciaUfficiale": "Rovigo",
+      "provincia": "Rovigo",
+      "sigla": "RO",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rovigo"
+      ]
+    },
+    {
+      "codiceIstat": "028072",
+      "nome": "Rubano",
+      "provinciaUfficiale": "Padova",
+      "provincia": "Padova",
+      "sigla": "PD",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rubano"
+      ]
+    },
+    {
+      "codiceIstat": "065116",
+      "nome": "Salerno",
+      "provinciaUfficiale": "Salerno",
+      "provincia": "Salerno",
+      "sigla": "SA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "salerno"
+      ]
+    },
+    {
+      "codiceIstat": "044066",
+      "nome": "San Benedetto del Tronto",
+      "provinciaUfficiale": "Ascoli Piceno",
+      "provincia": "Ascoli Piceno",
+      "sigla": "AP",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-benedetto-del-tronto"
+      ]
+    },
+    {
+      "codiceIstat": "030099",
+      "nome": "San Daniele del Friuli",
+      "provinciaUfficiale": "Udine",
+      "provincia": "Udine",
+      "sigla": "UD",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": false,
+      "catastale": "H816",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-daniele-del-friuli"
+      ]
+    },
+    {
+      "codiceIstat": "027033",
+      "nome": "San Donà di Piave",
+      "provinciaUfficiale": "Venezia",
+      "provincia": "Venezia",
+      "sigla": "VE",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-dona-di-piave"
+      ]
+    },
+    {
+      "codiceIstat": "051033",
+      "nome": "San Giovanni Valdarno",
+      "provinciaUfficiale": "Arezzo",
+      "provincia": "Arezzo",
+      "sigla": "AR",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-giovanni-valdarno"
+      ]
+    },
+    {
+      "codiceIstat": "050032",
+      "nome": "San Miniato",
+      "provinciaUfficiale": "Pisa",
+      "provincia": "Pisa",
+      "sigla": "PI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-miniato"
+      ]
+    },
+    {
+      "codiceIstat": "071051",
+      "nome": "San Severo",
+      "provinciaUfficiale": "Foggia",
+      "provincia": "Foggia",
+      "sigla": "FG",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-severo"
+      ]
+    },
+    {
+      "codiceIstat": "017173",
+      "nome": "San Zeno Naviglio",
+      "provinciaUfficiale": "Brescia",
+      "provincia": "Brescia",
+      "sigla": "BS",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "san-zeno-naviglio"
+      ]
+    },
+    {
+      "codiceIstat": "008055",
+      "nome": "Sanremo",
+      "provinciaUfficiale": "Imperia",
+      "provincia": "Imperia",
+      "sigla": "IM",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sanremo"
+      ]
+    },
+    {
+      "codiceIstat": "067038",
+      "nome": "Sant'Egidio alla Vibrata",
+      "provinciaUfficiale": "Teramo",
+      "provincia": "Teramo",
+      "sigla": "TE",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sant-egidio-alla-vibrata"
+      ]
+    },
+    {
+      "codiceIstat": "010055",
+      "nome": "Sant'Olcese",
+      "provinciaUfficiale": "Genova",
+      "provincia": "Genova",
+      "sigla": "GE",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": false,
+      "catastale": "I346",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "santolcese"
+      ]
+    },
+    {
+      "codiceIstat": "025048",
+      "nome": "Santa Giustina",
+      "provinciaUfficiale": "Belluno",
+      "provincia": "Belluno",
+      "sigla": "BL",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "santa-giustina"
+      ]
+    },
+    {
+      "codiceIstat": "061083",
+      "nome": "Santa Maria Capua Vetere",
+      "provinciaUfficiale": "Caserta",
+      "provincia": "Caserta",
+      "sigla": "CE",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "santa-maria-capua-vetere"
+      ]
+    },
+    {
+      "codiceIstat": "012119",
+      "nome": "Saronno",
+      "provinciaUfficiale": "Varese",
+      "provincia": "Varese",
+      "sigla": "VA",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "saronno"
+      ]
+    },
+    {
+      "codiceIstat": "011027",
+      "nome": "Sarzana",
+      "provinciaUfficiale": "La Spezia",
+      "provincia": "La Spezia",
+      "sigla": "SP",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sarzana"
+      ]
+    },
+    {
+      "codiceIstat": "112050",
+      "nome": "Sassari",
+      "provinciaUfficiale": "Provincia di Sassari",
+      "provincia": "Sassari",
+      "sigla": "SS",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "sassari"
+      ]
+    },
+    {
+      "codiceIstat": "009056",
+      "nome": "Savona",
+      "provinciaUfficiale": "Savona",
+      "provincia": "Savona",
+      "sigla": "SV",
+      "regioneUfficiale": "Liguria",
+      "regione": "Liguria",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "savona"
+      ]
+    },
+    {
+      "codiceIstat": "048041",
+      "nome": "Scandicci",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "scandicci"
+      ]
+    },
+    {
+      "codiceIstat": "042045",
+      "nome": "Senigallia",
+      "provinciaUfficiale": "Ancona",
+      "provincia": "Ancona",
+      "sigla": "AN",
+      "regioneUfficiale": "Marche",
+      "regione": "Marche",
+      "capoluogo": false,
+      "catastale": "I608",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "senigallia"
+      ]
+    },
+    {
+      "codiceIstat": "048043",
+      "nome": "Sesto Fiorentino",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sesto-fiorentino"
+      ]
+    },
+    {
+      "codiceIstat": "001265",
+      "nome": "Settimo Torinese",
+      "provinciaUfficiale": "Torino",
+      "provincia": "Torino",
+      "sigla": "TO",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "settimo-torinese"
+      ]
+    },
+    {
+      "codiceIstat": "048044",
+      "nome": "Signa",
+      "provinciaUfficiale": "Firenze",
+      "provincia": "Firenze",
+      "sigla": "FI",
+      "regioneUfficiale": "Toscana",
+      "regione": "Toscana",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "signa"
+      ]
+    },
+    {
+      "codiceIstat": "114048",
+      "nome": "Siniscola",
+      "provinciaUfficiale": "Provincia di Nuoro",
+      "provincia": "Nuoro",
+      "sigla": "NU",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "siniscola"
+      ]
+    },
+    {
+      "codiceIstat": "089017",
+      "nome": "Siracusa",
+      "provinciaUfficiale": "Siracusa",
+      "provincia": "Siracusa",
+      "sigla": "SR",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "siracusa"
+      ]
+    },
+    {
+      "codiceIstat": "036044",
+      "nome": "Soliera",
+      "provinciaUfficiale": "Modena",
+      "provincia": "Modena",
+      "sigla": "MO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "soliera"
+      ]
+    },
+    {
+      "codiceIstat": "014061",
+      "nome": "Sondrio",
+      "provinciaUfficiale": "Sondrio",
+      "provincia": "Sondrio",
+      "sigla": "SO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sondrio"
+      ]
+    },
+    {
+      "codiceIstat": "060074",
+      "nome": "Sora",
+      "provinciaUfficiale": "Frosinone",
+      "provincia": "Frosinone",
+      "sigla": "FR",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "sora"
+      ]
+    },
+    {
+      "codiceIstat": "079137",
+      "nome": "Soverato",
+      "provinciaUfficiale": "Catanzaro",
+      "provincia": "Catanzaro",
+      "sigla": "CZ",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": false,
+      "catastale": "I872",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "soverato"
+      ]
+    },
+    {
+      "codiceIstat": "083097",
+      "nome": "Taormina",
+      "provinciaUfficiale": "Messina",
+      "provincia": "Messina",
+      "sigla": "ME",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": false,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "taormina"
+      ]
+    },
+    {
+      "codiceIstat": "073027",
+      "nome": "Taranto",
+      "provinciaUfficiale": "Taranto",
+      "provincia": "Taranto",
+      "sigla": "TA",
+      "regioneUfficiale": "Puglia",
+      "regione": "Puglia",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "taranto"
+      ]
+    },
+    {
+      "codiceIstat": "030118",
+      "nome": "Tavagnacco",
+      "provinciaUfficiale": "Udine",
+      "provincia": "Udine",
+      "sigla": "UD",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": false,
+      "catastale": "L065",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "tavagnacco"
+      ]
+    },
+    {
+      "codiceIstat": "062074",
+      "nome": "Telese Terme",
+      "provinciaUfficiale": "Benevento",
+      "provincia": "Benevento",
+      "sigla": "BN",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "telese-terme"
+      ]
+    },
+    {
+      "codiceIstat": "070078",
+      "nome": "Termoli",
+      "provinciaUfficiale": "Campobasso",
+      "provincia": "Campobasso",
+      "sigla": "CB",
+      "regioneUfficiale": "Molise",
+      "regione": "Molise",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "termoli"
+      ]
+    },
+    {
+      "codiceIstat": "055032",
+      "nome": "Terni",
+      "provinciaUfficiale": "Terni",
+      "provincia": "Terni",
+      "sigla": "TR",
+      "regioneUfficiale": "Umbria",
+      "regione": "Umbria",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "terni"
+      ]
+    },
+    {
+      "codiceIstat": "024105",
+      "nome": "Thiene",
+      "provinciaUfficiale": "Vicenza",
+      "provincia": "Vicenza",
+      "sigla": "VI",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": false,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "thiene"
+      ]
+    },
+    {
+      "codiceIstat": "014066",
+      "nome": "Tirano",
+      "provinciaUfficiale": "Sondrio",
+      "provincia": "Sondrio",
+      "sigla": "SO",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "tirano"
+      ]
+    },
+    {
+      "codiceIstat": "001272",
+      "nome": "Torino",
+      "provinciaUfficiale": "Torino",
+      "provincia": "Torino",
+      "sigla": "TO",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "torino"
+      ]
+    },
+    {
+      "codiceIstat": "081021",
+      "nome": "Trapani",
+      "provinciaUfficiale": "Trapani",
+      "provincia": "Trapani",
+      "sigla": "TP",
+      "regioneUfficiale": "Sicilia",
+      "regione": "Sicilia",
+      "capoluogo": true,
+      "catastale": "ITG",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "trapani"
+      ]
+    },
+    {
+      "codiceIstat": "022205",
+      "nome": "Trento",
+      "provinciaUfficiale": "Trento",
+      "provincia": "Trento",
+      "sigla": "TN",
+      "regioneUfficiale": "Trentino-Alto Adige/Südtirol",
+      "regione": "Trentino-Alto Adige",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "trento"
+      ]
+    },
+    {
+      "codiceIstat": "026086",
+      "nome": "Treviso",
+      "provinciaUfficiale": "Treviso",
+      "provincia": "Treviso",
+      "sigla": "TV",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "treviso"
+      ]
+    },
+    {
+      "codiceIstat": "032006",
+      "nome": "Trieste",
+      "provinciaUfficiale": "Trieste",
+      "provincia": "Trieste",
+      "sigla": "TS",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "trieste"
+      ]
+    },
+    {
+      "codiceIstat": "030129",
+      "nome": "Udine",
+      "provinciaUfficiale": "Udine",
+      "provincia": "Udine",
+      "sigla": "UD",
+      "regioneUfficiale": "Friuli-Venezia Giulia",
+      "regione": "Friuli-Venezia Giulia",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "udine"
+      ]
+    },
+    {
+      "codiceIstat": "016222",
+      "nome": "Urgnano",
+      "provinciaUfficiale": "Bergamo",
+      "provincia": "Bergamo",
+      "sigla": "BG",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "urgnano"
+      ]
+    },
+    {
+      "codiceIstat": "065154",
+      "nome": "Vallo della Lucania",
+      "provinciaUfficiale": "Salerno",
+      "provincia": "Salerno",
+      "sigla": "SA",
+      "regioneUfficiale": "Campania",
+      "regione": "Campania",
+      "capoluogo": false,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vallo-della-lucania"
+      ]
+    },
+    {
+      "codiceIstat": "012133",
+      "nome": "Varese",
+      "provinciaUfficiale": "Varese",
+      "provincia": "Varese",
+      "sigla": "VA",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "varese"
+      ]
+    },
+    {
+      "codiceIstat": "069099",
+      "nome": "Vasto",
+      "provinciaUfficiale": "Chieti",
+      "provincia": "Chieti",
+      "sigla": "CH",
+      "regioneUfficiale": "Abruzzo",
+      "regione": "Abruzzo",
+      "capoluogo": false,
+      "catastale": "E372",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vasto"
+      ]
+    },
+    {
+      "codiceIstat": "058111",
+      "nome": "Velletri",
+      "provinciaUfficiale": "Roma",
+      "provincia": "Roma",
+      "sigla": "RM",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": false,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "velletri"
+      ]
+    },
+    {
+      "codiceIstat": "027042",
+      "nome": "Venezia",
+      "provinciaUfficiale": "Venezia",
+      "provincia": "Venezia",
+      "sigla": "VE",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "venezia"
+      ]
+    },
+    {
+      "codiceIstat": "103072",
+      "nome": "Verbania",
+      "provinciaUfficiale": "Verbano-Cusio-Ossola",
+      "provincia": "Verbano-Cusio-Ossola",
+      "sigla": "VB",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "verbania"
+      ]
+    },
+    {
+      "codiceIstat": "002158",
+      "nome": "Vercelli",
+      "provinciaUfficiale": "Vercelli",
+      "provincia": "Vercelli",
+      "sigla": "VC",
+      "regioneUfficiale": "Piemonte",
+      "regione": "Piemonte",
+      "capoluogo": true,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vercelli"
+      ]
+    },
+    {
+      "codiceIstat": "023091",
+      "nome": "Verona",
+      "provinciaUfficiale": "Verona",
+      "provincia": "Verona",
+      "sigla": "VR",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "verona"
+      ]
+    },
+    {
+      "codiceIstat": "102047",
+      "nome": "Vibo Valentia",
+      "provinciaUfficiale": "Vibo Valentia",
+      "provincia": "Vibo Valentia",
+      "sigla": "VV",
+      "regioneUfficiale": "Calabria",
+      "regione": "Calabria",
+      "capoluogo": true,
+      "catastale": "ITF",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vibo-valentia"
+      ]
+    },
+    {
+      "codiceIstat": "024116",
+      "nome": "Vicenza",
+      "provinciaUfficiale": "Vicenza",
+      "provincia": "Vicenza",
+      "sigla": "VI",
+      "regioneUfficiale": "Veneto",
+      "regione": "Veneto",
+      "capoluogo": true,
+      "catastale": "ITH",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vicenza"
+      ]
+    },
+    {
+      "codiceIstat": "018177",
+      "nome": "Vigevano",
+      "provinciaUfficiale": "Pavia",
+      "provincia": "Pavia",
+      "sigla": "PV",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "vigevano"
+      ]
+    },
+    {
+      "codiceIstat": "117025",
+      "nome": "Villacidro",
+      "provinciaUfficiale": "Provincia di Medio Campidano",
+      "provincia": "Medio Campidano",
+      "sigla": "VS",
+      "regioneUfficiale": "Sardegna",
+      "regione": "Sardegna",
+      "capoluogo": false,
+      "catastale": null,
+      "fonte": "ISTAT — nuovi assetti territoriali della Sardegna (in vigore dal 1° gennaio 2026)",
+      "localita": [
+        "villacidro"
+      ]
+    },
+    {
+      "codiceIstat": "056059",
+      "nome": "Viterbo",
+      "provinciaUfficiale": "Viterbo",
+      "provincia": "Viterbo",
+      "sigla": "VT",
+      "regioneUfficiale": "Lazio",
+      "regione": "Lazio",
+      "capoluogo": true,
+      "catastale": "ITI",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "viterbo"
+      ]
+    },
+    {
+      "codiceIstat": "018182",
+      "nome": "Voghera",
+      "provinciaUfficiale": "Pavia",
+      "provincia": "Pavia",
+      "sigla": "PV",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "ITC",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "voghera"
+      ]
+    },
+    {
+      "codiceIstat": "015182",
+      "nome": "Rho",
+      "provinciaUfficiale": "Milano",
+      "provincia": "Milano",
+      "sigla": "MI",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "rho"
+      ]
+    },
+    {
+      "codiceIstat": "108019",
+      "nome": "Cesano Maderno",
+      "provinciaUfficiale": "Monza e della Brianza",
+      "provincia": "Monza e della Brianza",
+      "sigla": "MB",
+      "regioneUfficiale": "Lombardia",
+      "regione": "Lombardia",
+      "capoluogo": false,
+      "catastale": "",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "cesano-maderno"
+      ]
+    },
+    {
+      "codiceIstat": "037032",
+      "nome": "Imola",
+      "provinciaUfficiale": "Bologna",
+      "provincia": "Bologna",
+      "sigla": "BO",
+      "regioneUfficiale": "Emilia-Romagna",
+      "regione": "Emilia-Romagna",
+      "capoluogo": false,
+      "catastale": "",
+      "fonte": "ISTAT — Elenco dei comuni (edizione in vigore)",
+      "localita": [
+        "imola"
+      ]
+    }
+  ]
+}

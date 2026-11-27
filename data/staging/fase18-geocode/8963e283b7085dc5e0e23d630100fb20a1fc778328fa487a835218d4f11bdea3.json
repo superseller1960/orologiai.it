@@ -1,0 +1,45 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Libert%C3%A0%2C+41-42%2C+Vercelli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75699533,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2556934121,
+      "lat": "45.3238950",
+      "lon": "8.4199520",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006622796978709113,
+      "addresstype": "shop",
+      "name": "Gioielleria Biondi",
+      "display_name": "Gioielleria Biondi, 41-42, Corso Libertà, Brut Fond, Monrosa, Centro, Vercelli, Piemonte, 13100, Italia",
+      "address": {
+        "shop": "Gioielleria Biondi",
+        "house_number": "41-42",
+        "road": "Corso Libertà",
+        "neighbourhood": "Brut Fond",
+        "quarter": "Monrosa",
+        "suburb": "Centro",
+        "city": "Vercelli",
+        "county": "Vercelli",
+        "ISO3166-2-lvl6": "IT-VC",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "13100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3238450",
+        "45.3239450",
+        "8.4199020",
+        "8.4200020"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ghiberti%2C+115%2C+Pontassieve%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81918037,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 204837892,
+      "lat": "43.7775285",
+      "lon": "11.4429033",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.05339071717402911,
+      "addresstype": "unclassified",
+      "name": "Via Ghiberti",
+      "display_name": "Via Ghiberti, Pontassieve, Unione di Comuni Valdarno e Valdisieve, Firenze, Toscana, 50065, Italia",
+      "address": {
+        "road": "Via Ghiberti",
+        "town": "Pontassieve",
+        "municipality": "Unione di Comuni Valdarno e Valdisieve",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50065",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7769674",
+        "43.7782185",
+        "11.4422862",
+        "11.4433619"
+      ]
+    }
+  ]
+}

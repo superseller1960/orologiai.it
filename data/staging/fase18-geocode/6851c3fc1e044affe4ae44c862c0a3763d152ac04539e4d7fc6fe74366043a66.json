@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Viale+Sardegna+98%2Fb%2C+Pavia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75928066,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2776107847,
+      "lat": "45.1902613",
+      "lon": "9.1630304",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007074158846413393,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "98b, Viale Sardegna, Santo Spirito, Pavia, Lombardia, 27100, Italia",
+      "address": {
+        "house_number": "98b",
+        "road": "Viale Sardegna",
+        "suburb": "Santo Spirito",
+        "city": "Pavia",
+        "county": "Pavia",
+        "ISO3166-2-lvl6": "IT-PV",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "27100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.1902113",
+        "45.1903113",
+        "9.1629804",
+        "9.1630804"
+      ]
+    }
+  ]
+}

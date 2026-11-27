@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+San+Cristoforo%2C+9%2C+Saronno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 420776752,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13949749508,
+      "lat": "45.6272774",
+      "lon": "9.0368953",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006130846112759621,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "9, Via San Cristoforo, Volta-Prealpi, Saronno, Varese, Lombardia, 21047, Italia",
+      "address": {
+        "house_number": "9",
+        "road": "Via San Cristoforo",
+        "suburb": "Volta-Prealpi",
+        "town": "Saronno",
+        "city": "Saronno",
+        "county": "Varese",
+        "ISO3166-2-lvl6": "IT-VA",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "21047",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6272274",
+        "45.6273274",
+        "9.0368453",
+        "9.0369453"
+      ]
+    }
+  ]
+}

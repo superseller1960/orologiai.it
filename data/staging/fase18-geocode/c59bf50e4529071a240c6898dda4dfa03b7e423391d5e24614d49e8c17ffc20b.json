@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Torrione+1B%2C+Reggio+Calabria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53414376,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26460354,
+      "lat": "38.1103249",
+      "lon": "15.6480478",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053401371023117386,
+      "addresstype": "residential",
+      "name": "Via del Torrione",
+      "display_name": "Via del Torrione, Reggio di Calabria, Reggio Calabria, Calabria, 89125, Italia",
+      "address": {
+        "road": "Via del Torrione",
+        "city": "Reggio di Calabria",
+        "county": "Reggio Calabria",
+        "ISO3166-2-lvl6": "IT-RC",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "89125",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1074479",
+        "38.1132018",
+        "15.6445825",
+        "15.6515132"
+      ]
+    }
+  ]
+}

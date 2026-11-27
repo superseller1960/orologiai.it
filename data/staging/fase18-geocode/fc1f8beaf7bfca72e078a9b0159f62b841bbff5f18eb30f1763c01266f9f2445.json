@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma%2C+6%2C+Matera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 426681705,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 14125062376,
+      "lat": "40.2450096",
+      "lon": "16.4748632",
+      "category": "tourism",
+      "type": "guest_house",
+      "place_rank": 30,
+      "importance": 0.0000527389944304115,
+      "addresstype": "tourism",
+      "name": "An&Gi House",
+      "display_name": "An&Gi House, 6, Via Roma, Rione Sant'Anna o Cev'zit, Tursi, Matera, Basilicata, 75028, Italia",
+      "address": {
+        "tourism": "An&Gi House",
+        "house_number": "6",
+        "road": "Via Roma",
+        "neighbourhood": "Rione Sant'Anna o Cev'zit",
+        "village": "Tursi",
+        "county": "Matera",
+        "ISO3166-2-lvl6": "IT-MT",
+        "state": "Basilicata",
+        "ISO3166-2-lvl4": "IT-77",
+        "postcode": "75028",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.2449596",
+        "40.2450596",
+        "16.4748132",
+        "16.4749132"
+      ]
+    }
+  ]
+}

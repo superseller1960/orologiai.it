@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tevere%2C+17%2C+Siracusa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53710758,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6296836093,
+      "lat": "37.0719816",
+      "lon": "15.2816000",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006980621042186644,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "17, Via Tevere, Santa Lucia, Siracusa, Sicilia, 96100, Italia",
+      "address": {
+        "house_number": "17",
+        "road": "Via Tevere",
+        "quarter": "Santa Lucia",
+        "city": "Siracusa",
+        "county": "Siracusa",
+        "ISO3166-2-lvl6": "IT-SR",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "96100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.0719316",
+        "37.0720316",
+        "15.2815500",
+        "15.2816500"
+      ]
+    }
+  ]
+}

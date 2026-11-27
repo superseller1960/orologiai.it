@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maurizio+Monti+34%2C+Como%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74926081,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 22940464,
+      "lat": "45.8120571",
+      "lon": "9.0882916",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.053402561226825324,
+      "addresstype": "unclassified",
+      "name": "Via Maurizio Monti",
+      "display_name": "Via Maurizio Monti, San Vitale, San Giuliano, Civiglio, Como, Lombardia, 22100, Italia",
+      "address": {
+        "road": "Via Maurizio Monti",
+        "neighbourhood": "San Vitale",
+        "suburb": "San Giuliano",
+        "village": "Civiglio",
+        "city": "Como",
+        "county": "Como",
+        "ISO3166-2-lvl6": "IT-CO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "22100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8113709",
+        "45.8126865",
+        "9.0864856",
+        "9.0901210"
+      ]
+    }
+  ]
+}

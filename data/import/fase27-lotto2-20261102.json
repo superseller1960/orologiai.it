@@ -1,0 +1,152 @@
+{
+  "lotto": "fase27-lotto2-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f27-gioielleria-luciani-marsciano-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialuciani.com/",
+      "titolo": "Gioielleria Luciani Marsciano: riparazioni e revisioni di orologi",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Per le tue riparazioni e revisioni di orologi di qualsiasi marchio con garanzia di 6 mesi sul buon funzionamento»; «V. XX SETTEMBRE, 44 – 06055 MASCIANO (PG) – Tel.0758742917» (il sito scrive «Masciano», il CAP 06055 è del comune di Marsciano)."
+    },
+    {
+      "id": "f27-marsciano-localita",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioiellerialuciani.com/",
+      "titolo": "Marsciano (PG): sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Marsciano (PG), Umbria, introdotta con le sedi verificate nella campagna Fase 27."
+    }
+  ],
+  "localita": [
+    {
+      "id": "marsciano",
+      "comune": "Marsciano",
+      "comuneSlug": "marsciano",
+      "provincia": "Perugia",
+      "provinciaSlug": "perugia",
+      "siglaProvincia": "PG",
+      "regione": "Umbria",
+      "regioneSlug": "umbria",
+      "codiceIstat": null,
+      "descrizione": "Comune umbro della valle del Nestore con una gioielleria che revisiona orologi di qualsiasi marchio.",
+      "fonti": [
+        "f27-marsciano-localita"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "gioielleria-luciani-marsciano",
+      "nome": "Gioielleria Luciani",
+      "decisione": "approvata",
+      "motivo": "Sede (via, civico, CAP, telefono) e servizio di riparazione e revisione orologi documentati sul sito aziendale, verificati il 2026-11-02.",
+      "fonti": [
+        "f27-gioielleria-luciani-marsciano-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-luciani-marsciano",
+        "slug": "gioielleria-luciani-marsciano",
+        "nome": "Gioielleria Luciani",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via XX Settembre a Marsciano che dichiara riparazioni e revisioni di orologi di qualsiasi marchio, con garanzia di sei mesi sul buon funzionamento. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "marsciano",
+        "posizione": {
+          "indirizzo": "Via XX Settembre 44",
+          "cap": "06055",
+          "coordinate": null,
+          "fonti": [
+            "f27-gioielleria-luciani-marsciano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 075 8742917",
+          "email": null,
+          "sito": "https://www.gioiellerialuciani.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f27-gioielleria-luciani-marsciano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La pagina documenta riparazioni e revisioni di orologi senza indicare dove avvenga la lavorazione.",
+          "fonti": [
+            "f27-gioielleria-luciani-marsciano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f27-gioielleria-luciani-marsciano-fonte"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f27-gioielleria-luciani-marsciano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f27-gioielleria-luciani-marsciano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase27: sede e servizi letti sul sito aziendale; nessun servizio o marchio inferito dal nome commerciale.",
+              "fonti": [
+                "f27-gioielleria-luciani-marsciano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase27-20261102",
+          "idOriginale": "gioielleria-luciani-marsciano"
+        }
+      }
+    }
+  ]
+}

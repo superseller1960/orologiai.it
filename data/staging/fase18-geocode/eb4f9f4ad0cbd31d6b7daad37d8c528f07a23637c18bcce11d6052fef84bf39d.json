@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Roma+265%2C+Enna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54115292,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5088192571,
+      "lat": "37.7097418",
+      "lon": "14.5348648",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00004970702677953792,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "265, Via Roma, Gagliano Castelferrato, Enna, Sicilia, 94010, Italia",
+      "address": {
+        "house_number": "265",
+        "road": "Via Roma",
+        "village": "Gagliano Castelferrato",
+        "county": "Enna",
+        "ISO3166-2-lvl6": "IT-EN",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "94010",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.7096918",
+        "37.7097918",
+        "14.5348148",
+        "14.5349148"
+      ]
+    }
+  ]
+}

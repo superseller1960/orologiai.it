@@ -1,0 +1,45 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+degli+Orbi%2C+21%2C+Trento%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 73765090,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 8986484117,
+      "lat": "46.0686162",
+      "lon": "11.1247684",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 0.00007025329976343965,
+      "addresstype": "amenity",
+      "name": "Orologeria M. Groppa",
+      "display_name": "Orologeria M. Groppa, 21, Via degli Orbi, Centro storico, Centro Storico - Piedicastello, Vela, Trento, Territorio Val d'Adige, Trento, Trentino-Alto Adige, 38122, Italia",
+      "address": {
+        "amenity": "Orologeria M. Groppa",
+        "house_number": "21",
+        "road": "Via degli Orbi",
+        "suburb": "Centro storico",
+        "village": "Vela",
+        "city": "Trento",
+        "municipality": "Territorio Val d'Adige",
+        "county": "Trento",
+        "ISO3166-2-lvl6": "IT-TN",
+        "state": "Trentino-Alto Adige",
+        "ISO3166-2-lvl4": "IT-32",
+        "postcode": "38122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.0685662",
+        "46.0686662",
+        "11.1247184",
+        "11.1248184"
+      ]
+    }
+  ]
+}

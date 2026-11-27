@@ -1,0 +1,361 @@
+{
+  "lotto": "fase26-lotto2-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f26-jaeger-lecoultre-roma-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.jaeger-lecoultre.com/eu-it/boutiques/europa/italy/rome/jaeger-lecoultre-boutique-roma-603201",
+      "titolo": "Jaeger-LeCoultre Boutique Roma: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale della boutique: «In Jaeger-LeCoultre rendiamo la manutenzione del suo segnatempo semplice, sicura e immediata»; «Inviare il mio orologio in assistenza»; Piazza di Spagna 92, 00187 Roma, +39 06 69281040."
+    },
+    {
+      "id": "f26-orologeria-foresta-palermo-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/-/media/Files/Italy/Seiko/Centri--Assistenza.pdf",
+      "titolo": "Orologeria Foresta: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "PDF ufficiale Seiko «Centri assistenza autorizzati Seiko in Italia»: «OROLOGERIA FORESTA di Giordano Agata, Via Cavour 65, 90133 Palermo, Telefono +39 091 584496»."
+    },
+    {
+      "id": "f26-pazzaglia-palmiro-perugia-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.seikowatches.com/it-it/-/media/Files/Italy/Seiko/Centri--Assistenza.pdf",
+      "titolo": "Pazzaglia Palmiro: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "PDF ufficiale Seiko «Centri assistenza autorizzati Seiko in Italia»: «PAZZAGLIA PALMIRO SNC di Pazzaglia N. & Curti G., Piazza Ansidei 1, 06123 Perugia, Telefono +39 0755 728205»."
+    }
+  ],
+  "localita": [],
+  "candidati": [
+    {
+      "id": "jaeger-lecoultre-roma",
+      "nome": "Jaeger-LeCoultre Boutique Roma",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 sulla fonte ufficiale del marchio.",
+      "fonti": [
+        "f26-jaeger-lecoultre-roma-fonte"
+      ],
+      "attivita": {
+        "id": "jaeger-lecoultre-roma",
+        "slug": "jaeger-lecoultre-roma",
+        "nome": "Jaeger-LeCoultre Boutique Roma",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Boutique Jaeger-LeCoultre di piazza di Spagna a Roma, che dichiara sul sito del marchio il servizio di manutenzione dei segnatempo e l’invio in assistenza. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Piazza di Spagna 92",
+          "cap": "00187",
+          "coordinate": null,
+          "fonti": [
+            "f26-jaeger-lecoultre-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 69281040",
+          "email": null,
+          "sito": "https://www.jaeger-lecoultre.com/eu-it/boutiques/europa/italy/rome/jaeger-lecoultre-boutique-roma-603201",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-jaeger-lecoultre-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La fonte documenta il servizio ma non specifica dove avvenga la lavorazione.",
+          "fonti": [
+            "f26-jaeger-lecoultre-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f26-jaeger-lecoultre-roma-fonte"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-jaeger-lecoultre-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-jaeger-lecoultre-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-jaeger-lecoultre-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "jaeger-lecoultre-roma"
+        }
+      }
+    },
+    {
+      "id": "orologeria-foresta-palermo",
+      "nome": "Orologeria Foresta",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 sulla fonte ufficiale Seiko.",
+      "fonti": [
+        "f26-orologeria-foresta-palermo-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-foresta-palermo",
+        "slug": "orologeria-foresta-palermo",
+        "nome": "Orologeria Foresta",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di via Cavour a Palermo elencata da Seiko tra i centri assistenza autorizzati del marchio in Sicilia. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "palermo",
+        "posizione": {
+          "indirizzo": "Via Cavour 65",
+          "cap": "90133",
+          "coordinate": null,
+          "fonti": [
+            "f26-orologeria-foresta-palermo-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 091 584496",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-orologeria-foresta-palermo-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La fonte documenta il servizio ma non specifica dove avvenga la lavorazione.",
+          "fonti": [
+            "f26-orologeria-foresta-palermo-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-orologeria-foresta-palermo-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Seiko",
+              "fonti": [
+                "f26-orologeria-foresta-palermo-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-orologeria-foresta-palermo-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-orologeria-foresta-palermo-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "orologeria-foresta-palermo"
+        }
+      }
+    },
+    {
+      "id": "pazzaglia-palmiro-perugia",
+      "nome": "Pazzaglia Palmiro",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 sulla fonte ufficiale Seiko.",
+      "fonti": [
+        "f26-pazzaglia-palmiro-perugia-fonte"
+      ],
+      "attivita": {
+        "id": "pazzaglia-palmiro-perugia",
+        "slug": "pazzaglia-palmiro-perugia",
+        "nome": "Pazzaglia Palmiro",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di piazza Ansidei a Perugia elencato da Seiko tra i centri assistenza autorizzati del marchio in Umbria. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "perugia",
+        "posizione": {
+          "indirizzo": "Piazza Ansidei 1",
+          "cap": "06123",
+          "coordinate": null,
+          "fonti": [
+            "f26-pazzaglia-palmiro-perugia-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 075 5728205",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-pazzaglia-palmiro-perugia-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La fonte documenta il servizio ma non specifica dove avvenga la lavorazione.",
+          "fonti": [
+            "f26-pazzaglia-palmiro-perugia-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-pazzaglia-palmiro-perugia-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Seiko",
+              "fonti": [
+                "f26-pazzaglia-palmiro-perugia-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-pazzaglia-palmiro-perugia-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-pazzaglia-palmiro-perugia-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "pazzaglia-palmiro-perugia"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Tuderte%2C+321%2C+Narni%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79950800,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 258934998,
+      "lat": "42.5397922",
+      "lon": "12.5228542",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.053390941481650994,
+      "addresstype": "primary",
+      "name": "Via Tuderte",
+      "display_name": "Via Tuderte, Narni Scalo, Narni, Terni, Umbria, 05035, Italia",
+      "address": {
+        "road": "Via Tuderte",
+        "village": "Narni Scalo",
+        "town": "Narni",
+        "county": "Terni",
+        "ISO3166-2-lvl6": "IT-TR",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "05035",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.5397305",
+        "42.5399485",
+        "12.5226967",
+        "12.5228859"
+      ]
+    }
+  ]
+}

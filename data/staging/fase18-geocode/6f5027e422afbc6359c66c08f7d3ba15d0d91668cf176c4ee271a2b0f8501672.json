@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+della+Libert%C3%A0%2C+9%2C+Narni%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80624212,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 369478351,
+      "lat": "42.5339118",
+      "lon": "12.5181310",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053390941481650994,
+      "addresstype": "residential",
+      "name": "Via della Libertà",
+      "display_name": "Via della Libertà, Zona Industriale Sant'Anna, Narni Scalo, Narni, Terni, Umbria, 05035, Italia",
+      "address": {
+        "road": "Via della Libertà",
+        "hamlet": "Zona Industriale Sant'Anna",
+        "village": "Narni Scalo",
+        "town": "Narni",
+        "county": "Terni",
+        "ISO3166-2-lvl6": "IT-TR",
+        "state": "Umbria",
+        "ISO3166-2-lvl4": "IT-55",
+        "postcode": "05035",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.5321918",
+        "42.5356431",
+        "12.5170080",
+        "12.5192388"
+      ]
+    }
+  ]
+}

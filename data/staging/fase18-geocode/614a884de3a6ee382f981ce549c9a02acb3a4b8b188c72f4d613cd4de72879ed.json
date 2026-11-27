@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+dei+Calzaiuoli%2C+94%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82287957,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11833445469,
+      "lat": "43.7719412",
+      "lon": "11.2554396",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00008105668726630072,
+      "addresstype": "shop",
+      "name": "Swatch",
+      "display_name": "Swatch, 94, Via dei Calzaiuoli, Quartiere 1, Firenze, Toscana, 50122, Italia",
+      "address": {
+        "shop": "Swatch",
+        "house_number": "94",
+        "road": "Via dei Calzaiuoli",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7718912",
+        "43.7719912",
+        "11.2553896",
+        "11.2554896"
+      ]
+    }
+  ]
+}

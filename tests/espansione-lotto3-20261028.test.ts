@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -62,7 +63,7 @@ test('Lotto 3: rivendite ufficiali solo da locator primari verificati', () => {
 test('Lotto 3: dati incerti registrati, mai inventati', () => {
   for (const id of newIds) {
     const b = data.attivita.find(x => x.id === id)!;
-    assert.equal(b.posizione.coordinate, null, `${id}: nessuna coordinata inventata`);
+    assertAbsentOrReviewedCoordinate(b);
     assert.ok(b.attendibilita.cronologia.length >= 1, `${id}: cronologia presente`);
     assert.equal(b.origine.sistema, 'espansione-lotto3-20261028');
   }

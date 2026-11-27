@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Risorgimento+15%2FA%2C+Pieve+di+Cento%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77600074,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4782458323,
+      "lat": "44.7135353",
+      "lon": "11.3051883",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005780956740668372,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "15a, Via Risorgimento, Pieve di Cento, Unione Reno Galliera, Bologna, Emilia-Romagna, 40066, Italia",
+      "address": {
+        "house_number": "15a",
+        "road": "Via Risorgimento",
+        "village": "Pieve di Cento",
+        "municipality": "Unione Reno Galliera",
+        "county": "Bologna",
+        "ISO3166-2-lvl6": "IT-BO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "40066",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.7134853",
+        "44.7135853",
+        "11.3051383",
+        "11.3052383"
+      ]
+    }
+  ]
+}

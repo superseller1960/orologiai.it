@@ -1,0 +1,2217 @@
+{
+  "lotto": "fase26-lotto1-20261102",
+  "data": "2026-11-02",
+  "fonti": [
+    {
+      "id": "f26-cervia-localita",
+      "tipo": "marchio-ufficiale",
+      "url": "https://guardigli.com/",
+      "titolo": "Cervia: sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Cervia (RA), introdotta con le sedi verificate nella campagna Fase 26."
+    },
+    {
+      "id": "f26-capri-localita",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Capri: sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Capri (NA), introdotta con le sedi verificate nella campagna Fase 26."
+    },
+    {
+      "id": "f26-chiavari-localita",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Chiavari: sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Chiavari (GE), introdotta con le sedi verificate nella campagna Fase 26."
+    },
+    {
+      "id": "f26-viareggio-localita",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Viareggio: sede censita",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Località Viareggio (LU), introdotta con le sedi verificate nella campagna Fase 26."
+    },
+    {
+      "id": "f26-antonio-seta-pescara-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Antonio Seta: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Pescara, «Rivenditore Rolex / Centro assistenza Rolex», Via Cesare Battisti 17-19; ruolo confermato anche dal sito antonioseta.it."
+    },
+    {
+      "id": "f26-auron-merano-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Auron: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Merano, «Rivenditore Rolex / Centro assistenza Rolex», Corso della Libertà 43; indirizzo confermato dal sito auronmerano.com."
+    },
+    {
+      "id": "f26-orologeria-bastiani-trieste-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Orologeria Bastiani: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Trieste, «Rivenditore Rolex / Centro assistenza Rolex», Via San Nicolò 27."
+    },
+    {
+      "id": "f26-bedetti-roma-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Bedetti: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Roma, «Rivenditore Rolex / Centro assistenza Rolex», Piazza di San Silvestro 11; il sito bedetti.it riporta «Rivenditore Rolex / Rolex CPO / Centro Assistenza»."
+    },
+    {
+      "id": "f26-diego-cataldi-roma-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Diego Cataldi: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Roma Prati, «Rolex Retailer / Rolex service centre», Via Cola di Rienzo 95; il sito diegocataldi.it riporta «Centro Assistenza»."
+    },
+    {
+      "id": "f26-f-veronesi-bologna-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "F. Veronesi & Figli: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Bologna, «Rolex Jeweler / Rolex service center», Piazza Maggiore 4/A; indirizzo confermato dal sito ferdinandoveronesi.com."
+    },
+    {
+      "id": "f26-giulio-veronesi-bologna-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Giulio Veronesi: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Bologna, «Official Rolex Retailer & Service Centre», Piazza Re Enzo 1/H."
+    },
+    {
+      "id": "f26-gioielleria-veronelli-como-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Gioielleria Veronelli: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Como, «Official Rolex Jeweler & Service Center», Via Caio Plinio Secondo 20; indirizzo confermato dal sito veronelligioielli.com."
+    },
+    {
+      "id": "f26-giraldo-treviso-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Giraldo: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Treviso, «Rivenditore Rolex / Rolex Certified Pre-Owned / Centro assistenza», Piazza dei Signori 3; indirizzo confermato dal sito giraldo.it."
+    },
+    {
+      "id": "f26-guardigli-cervia-fonte",
+      "tipo": "sito-ufficiale",
+      "url": "https://guardigli.com/",
+      "titolo": "Guardigli: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale guardigli.com: «vendita e manutenzione»; recapiti del laboratorio +39 0544 1589184, negozio +39 0544 994113, Viale Antonio Gramsci 72, Milano Marittima."
+    },
+    {
+      "id": "f26-hausmann-babuino-roma-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Hausmann & Co.: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Roma, «Rivenditore Rolex / Centro assistenza», Via del Babuino 62/63; indirizzo e telefono confermati dal sito hausmann-co.com."
+    },
+    {
+      "id": "f26-la-campanina-capri-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "La Campanina: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Capri, «Official Rolex Retailer & Service Centre», Via Vittorio Emanuele 18/20; il sito lacampaninacapri.com riporta «Rolex Authorised Service Centre»."
+    },
+    {
+      "id": "f26-lucchetti-1873-chiavari-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Lucchetti 1873: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Chiavari, «Rivenditore autorizzato e centro assistenza», Via Martiri della Liberazione 38."
+    },
+    {
+      "id": "f26-mani-boutique-sassari-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Manì Boutique: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Sassari, «Rivenditore autorizzato e centro assistenza», Via Roma 28; il sito mani.boutique cita il laboratorio tecnico."
+    },
+    {
+      "id": "f26-scopagioielli-rovigo-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Scopagioielli: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: voce «Scopagioielli SRL Unip. — SAV Rovigo Laboratorio», Via Manzoni 1. Telefono non confermato su fonte aziendale: non pubblicato."
+    },
+    {
+      "id": "f26-sergio-capone-viareggio-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Sergio Capone: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda Viareggio, «Rivenditore Rolex / Centro assistenza Rolex», Viale Marconi 119."
+    },
+    {
+      "id": "f26-gianni-ferrari-la-spezia-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.rolex.com/it-it/watch-care-and-service/service-locator",
+      "titolo": "Gianni Ferrari: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Localizzatore ufficiale Rolex Italia: scheda La Spezia, «Official Rolex Retailer & Service Centre», Corso Cavour 10. Sito aziendale non individuato."
+    },
+    {
+      "id": "f26-ar-partner-marcianise-fonte",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "A.R. Partner di Antonio Ruocco: sede e qualifica ufficiale",
+      "consultataIl": "2026-11-02",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale Breil «Centri di assistenza»: «A.R. Partner di Antonio Ruocco, c/o Il Tari - Mod. 23, Zona Asi Sud, 81025 Marcianise (CE), Tel. 0823 513403»."
+    }
+  ],
+  "localita": [
+    {
+      "id": "cervia",
+      "comune": "Cervia",
+      "comuneSlug": "cervia",
+      "provincia": "Ravenna",
+      "provinciaSlug": "ravenna",
+      "siglaProvincia": "RA",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Centro romagnolo di Milano Marittima, con una gioielleria che dichiara manutenzione degli orologi.",
+      "fonti": [
+        "f26-cervia-localita"
+      ]
+    },
+    {
+      "id": "capri",
+      "comune": "Capri",
+      "comuneSlug": "capri",
+      "provincia": "Napoli",
+      "provinciaSlug": "napoli",
+      "siglaProvincia": "NA",
+      "regione": "Campania",
+      "regioneSlug": "campania",
+      "codiceIstat": null,
+      "descrizione": "Isola del golfo di Napoli con un centro assistenza ufficiale Rolex.",
+      "fonti": [
+        "f26-capri-localita"
+      ]
+    },
+    {
+      "id": "chiavari",
+      "comune": "Chiavari",
+      "comuneSlug": "chiavari",
+      "provincia": "Genova",
+      "provinciaSlug": "genova",
+      "siglaProvincia": "GE",
+      "regione": "Liguria",
+      "regioneSlug": "liguria",
+      "codiceIstat": null,
+      "descrizione": "Città del Tigullio con una gioielleria storica che è anche centro assistenza Rolex.",
+      "fonti": [
+        "f26-chiavari-localita"
+      ]
+    },
+    {
+      "id": "viareggio",
+      "comune": "Viareggio",
+      "comuneSlug": "viareggio",
+      "provincia": "Lucca",
+      "provinciaSlug": "lucca",
+      "siglaProvincia": "LU",
+      "regione": "Toscana",
+      "regioneSlug": "toscana",
+      "codiceIstat": null,
+      "descrizione": "Città costiera della Versilia con una gioielleria che è centro assistenza Rolex.",
+      "fonti": [
+        "f26-viareggio-localita"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "antonio-seta-pescara",
+      "nome": "Antonio Seta",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-antonio-seta-pescara-fonte"
+      ],
+      "attivita": {
+        "id": "antonio-seta-pescara",
+        "slug": "antonio-seta-pescara",
+        "nome": "Antonio Seta",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Pescara che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pescara",
+        "posizione": {
+          "indirizzo": "Via Cesare Battisti 17/19",
+          "cap": "65122",
+          "coordinate": null,
+          "fonti": [
+            "f26-antonio-seta-pescara-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 085 4212354",
+          "email": null,
+          "sito": "https://www.antonioseta.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-antonio-seta-pescara-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-antonio-seta-pescara-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-antonio-seta-pescara-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-antonio-seta-pescara-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-antonio-seta-pescara-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-antonio-seta-pescara-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "antonio-seta-pescara"
+        }
+      }
+    },
+    {
+      "id": "auron-merano",
+      "nome": "Auron",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-auron-merano-fonte"
+      ],
+      "attivita": {
+        "id": "auron-merano",
+        "slug": "auron-merano",
+        "nome": "Auron",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Merano che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "merano",
+        "posizione": {
+          "indirizzo": "Corso della Libertà 43",
+          "cap": "39012",
+          "coordinate": null,
+          "fonti": [
+            "f26-auron-merano-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0473 236795",
+          "email": null,
+          "sito": "https://auronmerano.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-auron-merano-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-auron-merano-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-auron-merano-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-auron-merano-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-auron-merano-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-auron-merano-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "auron-merano"
+        }
+      }
+    },
+    {
+      "id": "orologeria-bastiani-trieste",
+      "nome": "Orologeria Bastiani",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-orologeria-bastiani-trieste-fonte"
+      ],
+      "attivita": {
+        "id": "orologeria-bastiani-trieste",
+        "slug": "orologeria-bastiani-trieste",
+        "nome": "Orologeria Bastiani",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria triestina che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trieste",
+        "posizione": {
+          "indirizzo": "Via San Nicolò 27",
+          "cap": "34121",
+          "coordinate": null,
+          "fonti": [
+            "f26-orologeria-bastiani-trieste-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 040 630942",
+          "email": null,
+          "sito": "https://www.orologeriabastiani.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-orologeria-bastiani-trieste-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-orologeria-bastiani-trieste-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-orologeria-bastiani-trieste-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-orologeria-bastiani-trieste-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-orologeria-bastiani-trieste-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-orologeria-bastiani-trieste-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "orologeria-bastiani-trieste"
+        }
+      }
+    },
+    {
+      "id": "bedetti-roma",
+      "nome": "Bedetti",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-bedetti-roma-fonte"
+      ],
+      "attivita": {
+        "id": "bedetti-roma",
+        "slug": "bedetti-roma",
+        "nome": "Bedetti",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di piazza San Silvestro a Roma, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Piazza di San Silvestro 11",
+          "cap": "00187",
+          "coordinate": null,
+          "fonti": [
+            "f26-bedetti-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 6797941",
+          "email": null,
+          "sito": "https://www.bedetti.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-bedetti-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-bedetti-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-bedetti-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-bedetti-roma-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-bedetti-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-bedetti-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "bedetti-roma"
+        }
+      }
+    },
+    {
+      "id": "diego-cataldi-roma",
+      "nome": "Diego Cataldi",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-diego-cataldi-roma-fonte"
+      ],
+      "attivita": {
+        "id": "diego-cataldi-roma",
+        "slug": "diego-cataldi-roma",
+        "nome": "Diego Cataldi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di via Cola di Rienzo a Roma, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via Cola di Rienzo 95",
+          "cap": "00192",
+          "coordinate": null,
+          "fonti": [
+            "f26-diego-cataldi-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 89531792",
+          "email": null,
+          "sito": "https://diegocataldi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-diego-cataldi-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-diego-cataldi-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-diego-cataldi-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-diego-cataldi-roma-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-diego-cataldi-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-diego-cataldi-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "diego-cataldi-roma"
+        }
+      }
+    },
+    {
+      "id": "f-veronesi-bologna",
+      "nome": "F. Veronesi & Figli",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-f-veronesi-bologna-fonte"
+      ],
+      "attivita": {
+        "id": "f-veronesi-bologna",
+        "slug": "f-veronesi-bologna",
+        "nome": "F. Veronesi & Figli",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di piazza Maggiore a Bologna, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Piazza Maggiore 4/A",
+          "cap": "40124",
+          "coordinate": null,
+          "fonti": [
+            "f26-f-veronesi-bologna-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 051 224835",
+          "email": null,
+          "sito": "https://ferdinandoveronesi.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-f-veronesi-bologna-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-f-veronesi-bologna-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-f-veronesi-bologna-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-f-veronesi-bologna-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-f-veronesi-bologna-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-f-veronesi-bologna-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "f-veronesi-bologna"
+        }
+      }
+    },
+    {
+      "id": "giulio-veronesi-bologna",
+      "nome": "Giulio Veronesi",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-giulio-veronesi-bologna-fonte"
+      ],
+      "attivita": {
+        "id": "giulio-veronesi-bologna",
+        "slug": "giulio-veronesi-bologna",
+        "nome": "Giulio Veronesi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di piazza Re Enzo a Bologna, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Piazza Re Enzo 1/H",
+          "cap": "40125",
+          "coordinate": null,
+          "fonti": [
+            "f26-giulio-veronesi-bologna-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 051 234237",
+          "email": null,
+          "sito": "https://www.giulioveronesi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-giulio-veronesi-bologna-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-giulio-veronesi-bologna-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-giulio-veronesi-bologna-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-giulio-veronesi-bologna-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-giulio-veronesi-bologna-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-giulio-veronesi-bologna-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "giulio-veronesi-bologna"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-veronelli-como",
+      "nome": "Gioielleria Veronelli",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-gioielleria-veronelli-como-fonte"
+      ],
+      "attivita": {
+        "id": "gioielleria-veronelli-como",
+        "slug": "gioielleria-veronelli-como",
+        "nome": "Gioielleria Veronelli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria comasca che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "como",
+        "posizione": {
+          "indirizzo": "Via Caio Plinio Secondo 20",
+          "cap": "22100",
+          "coordinate": null,
+          "fonti": [
+            "f26-gioielleria-veronelli-como-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 031 263152",
+          "email": null,
+          "sito": "https://veronelligioielli.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-gioielleria-veronelli-como-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-gioielleria-veronelli-como-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-gioielleria-veronelli-como-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-gioielleria-veronelli-como-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-gioielleria-veronelli-como-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-gioielleria-veronelli-como-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "gioielleria-veronelli-como"
+        }
+      }
+    },
+    {
+      "id": "giraldo-treviso",
+      "nome": "Giraldo",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-giraldo-treviso-fonte"
+      ],
+      "attivita": {
+        "id": "giraldo-treviso",
+        "slug": "giraldo-treviso",
+        "nome": "Giraldo",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di piazza dei Signori a Treviso, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "treviso",
+        "posizione": {
+          "indirizzo": "Piazza dei Signori 3",
+          "cap": "31100",
+          "coordinate": null,
+          "fonti": [
+            "f26-giraldo-treviso-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0422 547807",
+          "email": null,
+          "sito": "https://www.giraldo.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-giraldo-treviso-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-giraldo-treviso-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-giraldo-treviso-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-giraldo-treviso-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-giraldo-treviso-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-giraldo-treviso-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "giraldo-treviso"
+        }
+      }
+    },
+    {
+      "id": "guardigli-cervia",
+      "nome": "Guardigli",
+      "decisione": "approvata",
+      "motivo": "Sede e servizi verificati il 2026-11-02 sul sito ufficiale dell’attività.",
+      "fonti": [
+        "f26-guardigli-cervia-fonte"
+      ],
+      "attivita": {
+        "id": "guardigli-cervia",
+        "slug": "guardigli-cervia",
+        "nome": "Guardigli",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Milano Marittima che dichiara sul proprio sito la vendita e la manutenzione degli orologi, con un laboratorio interno. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cervia",
+        "posizione": {
+          "indirizzo": "Viale Antonio Gramsci 72",
+          "cap": "48015",
+          "coordinate": null,
+          "fonti": [
+            "f26-guardigli-cervia-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0544 994113",
+          "email": null,
+          "sito": "https://guardigli.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-guardigli-cervia-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito ufficiale parla di manutenzione ma non specifica dove avvenga il lavoro.",
+          "fonti": [
+            "f26-guardigli-cervia-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f26-guardigli-cervia-fonte"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f26-guardigli-cervia-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-guardigli-cervia-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-guardigli-cervia-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "guardigli-cervia"
+        }
+      }
+    },
+    {
+      "id": "hausmann-babuino-roma",
+      "nome": "Hausmann & Co.",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-hausmann-babuino-roma-fonte"
+      ],
+      "attivita": {
+        "id": "hausmann-babuino-roma",
+        "slug": "hausmann-babuino-roma",
+        "nome": "Hausmann & Co.",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Storica gioielleria di via del Babuino a Roma, rivenditore autorizzato e centro assistenza Rolex secondo il localizzatore del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via del Babuino 62/63",
+          "cap": "00187",
+          "coordinate": null,
+          "fonti": [
+            "f26-hausmann-babuino-roma-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 06 32110100",
+          "email": null,
+          "sito": "https://hausmann-co.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-hausmann-babuino-roma-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-hausmann-babuino-roma-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-hausmann-babuino-roma-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-hausmann-babuino-roma-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-hausmann-babuino-roma-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-hausmann-babuino-roma-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "hausmann-babuino-roma"
+        }
+      }
+    },
+    {
+      "id": "la-campanina-capri",
+      "nome": "La Campanina",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-la-campanina-capri-fonte"
+      ],
+      "attivita": {
+        "id": "la-campanina-capri",
+        "slug": "la-campanina-capri",
+        "nome": "La Campanina",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Capri che il localizzatore Rolex e il proprio sito indicano come centro assistenza ufficiale del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "capri",
+        "posizione": {
+          "indirizzo": "Via Vittorio Emanuele 18/20",
+          "cap": "80073",
+          "coordinate": null,
+          "fonti": [
+            "f26-la-campanina-capri-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 081 8370643",
+          "email": null,
+          "sito": "https://lacampaninacapri.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-la-campanina-capri-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-la-campanina-capri-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-la-campanina-capri-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-la-campanina-capri-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-la-campanina-capri-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-la-campanina-capri-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "la-campanina-capri"
+        }
+      }
+    },
+    {
+      "id": "lucchetti-1873-chiavari",
+      "nome": "Lucchetti 1873",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-lucchetti-1873-chiavari-fonte"
+      ],
+      "attivita": {
+        "id": "lucchetti-1873-chiavari",
+        "slug": "lucchetti-1873-chiavari",
+        "nome": "Lucchetti 1873",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Chiavari che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "chiavari",
+        "posizione": {
+          "indirizzo": "Via Martiri della Liberazione 38",
+          "cap": "16043",
+          "coordinate": null,
+          "fonti": [
+            "f26-lucchetti-1873-chiavari-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0185 040203",
+          "email": null,
+          "sito": "https://lucchetti1873.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-lucchetti-1873-chiavari-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-lucchetti-1873-chiavari-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-lucchetti-1873-chiavari-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-lucchetti-1873-chiavari-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-lucchetti-1873-chiavari-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-lucchetti-1873-chiavari-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "lucchetti-1873-chiavari"
+        }
+      }
+    },
+    {
+      "id": "mani-boutique-sassari",
+      "nome": "Manì Boutique",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-mani-boutique-sassari-fonte"
+      ],
+      "attivita": {
+        "id": "mani-boutique-sassari",
+        "slug": "mani-boutique-sassari",
+        "nome": "Manì Boutique",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Boutique di Sassari che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio, con laboratorio tecnico. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "sassari",
+        "posizione": {
+          "indirizzo": "Via Roma 28",
+          "cap": "07100",
+          "coordinate": null,
+          "fonti": [
+            "f26-mani-boutique-sassari-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 079 231093",
+          "email": null,
+          "sito": "https://www.mani.boutique",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-mani-boutique-sassari-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-mani-boutique-sassari-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-mani-boutique-sassari-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-mani-boutique-sassari-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-mani-boutique-sassari-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-mani-boutique-sassari-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "mani-boutique-sassari"
+        }
+      }
+    },
+    {
+      "id": "scopagioielli-rovigo",
+      "nome": "Scopagioielli",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-scopagioielli-rovigo-fonte"
+      ],
+      "attivita": {
+        "id": "scopagioielli-rovigo",
+        "slug": "scopagioielli-rovigo",
+        "nome": "Scopagioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Rovigo che il localizzatore Rolex elenca come laboratorio, rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rovigo",
+        "posizione": {
+          "indirizzo": "Via Manzoni 1",
+          "cap": "45100",
+          "coordinate": null,
+          "fonti": [
+            "f26-scopagioielli-rovigo-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://scopagioielli.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-scopagioielli-rovigo-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-scopagioielli-rovigo-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-scopagioielli-rovigo-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-scopagioielli-rovigo-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-scopagioielli-rovigo-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-scopagioielli-rovigo-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "scopagioielli-rovigo"
+        }
+      }
+    },
+    {
+      "id": "sergio-capone-viareggio",
+      "nome": "Sergio Capone",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-sergio-capone-viareggio-fonte"
+      ],
+      "attivita": {
+        "id": "sergio-capone-viareggio",
+        "slug": "sergio-capone-viareggio",
+        "nome": "Sergio Capone",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Viareggio che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "viareggio",
+        "posizione": {
+          "indirizzo": "Viale Marconi 119",
+          "cap": "55049",
+          "coordinate": null,
+          "fonti": [
+            "f26-sergio-capone-viareggio-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0584 582776",
+          "email": null,
+          "sito": "https://www.sergiocapone.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-sergio-capone-viareggio-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-sergio-capone-viareggio-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-sergio-capone-viareggio-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-sergio-capone-viareggio-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-sergio-capone-viareggio-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-sergio-capone-viareggio-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "sergio-capone-viareggio"
+        }
+      }
+    },
+    {
+      "id": "gianni-ferrari-la-spezia",
+      "nome": "Gianni Ferrari",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Rolex verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-gianni-ferrari-la-spezia-fonte"
+      ],
+      "attivita": {
+        "id": "gianni-ferrari-la-spezia",
+        "slug": "gianni-ferrari-la-spezia",
+        "nome": "Gianni Ferrari",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria della Spezia che il localizzatore Rolex indica come rivenditore autorizzato e centro assistenza del marchio. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "la-spezia",
+        "posizione": {
+          "indirizzo": "Corso Cavour 10",
+          "cap": "19121",
+          "coordinate": null,
+          "fonti": [
+            "f26-gianni-ferrari-la-spezia-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0187 731353",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-gianni-ferrari-la-spezia-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-gianni-ferrari-la-spezia-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-gianni-ferrari-la-spezia-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Rolex",
+              "fonti": [
+                "f26-gianni-ferrari-la-spezia-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-gianni-ferrari-la-spezia-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-gianni-ferrari-la-spezia-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "gianni-ferrari-la-spezia"
+        }
+      }
+    },
+    {
+      "id": "ar-partner-marcianise",
+      "nome": "A.R. Partner di Antonio Ruocco",
+      "decisione": "approvata",
+      "motivo": "Sede e qualifica di centro assistenza Breil verificate il 2026-11-02 sul localizzatore ufficiale del marchio; nessun servizio ulteriore attribuito.",
+      "fonti": [
+        "f26-ar-partner-marcianise-fonte"
+      ],
+      "attivita": {
+        "id": "ar-partner-marcianise",
+        "slug": "ar-partner-marcianise",
+        "nome": "A.R. Partner di Antonio Ruocco",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Laboratorio di Marcianise elencato da Breil tra i centri di assistenza ufficiali del marchio in Campania. Scheda verificata il 2 novembre 2026.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "marcianise",
+        "posizione": {
+          "indirizzo": "Zona Asi Sud, c/o Il Tari — Mod. 23",
+          "cap": "81025",
+          "coordinate": null,
+          "fonti": [
+            "f26-ar-partner-marcianise-fonte"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0823 513403",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f26-ar-partner-marcianise-fonte"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il localizzatore del marchio qualifica la sede come centro assistenza; non è documentato se le lavorazioni avvengano in sede.",
+          "fonti": [
+            "f26-ar-partner-marcianise-fonte"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f26-ar-partner-marcianise-fonte"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f26-ar-partner-marcianise-fonte"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-02",
+          "verificataIl": "2026-11-02",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f26-ar-partner-marcianise-fonte"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-02",
+              "azione": "Fase26: identità, sede e qualifica lette sulla fonte del marchio o sul sito ufficiale; nessun servizio inferito.",
+              "fonti": [
+                "f26-ar-partner-marcianise-fonte"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase26-20261102",
+          "idOriginale": "ar-partner-marcianise"
+        }
+      }
+    }
+  ]
+}

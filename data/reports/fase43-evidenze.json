@@ -1,0 +1,104 @@
+{
+ "aggiornatoIl": "2026-11-27",
+ "criterio": "un servizio è documentato solo se una citazione descrive il servizio svolto per il cliente; lavorazione interna e negazioni non contano",
+ "nota": "Conteggi riallineati al registro dopo l'inserimento Fase 46; le decisioni di declassamento restano quelle del 2026-11-06.",
+ "conteggi": {
+  "analizzate": 1847,
+  "confermate": 1201,
+  "declassate": 646,
+  "recuperate": 0,
+  "declassateInQuestoLotto": 0
+ },
+ "distribuzioneContesti": {
+  "insufficiente": 938,
+  "commerciale": 37,
+  "storico": 63,
+  "offerto": 150,
+  "ufficiale": 7,
+  "raccolta": 1,
+  "terzi": 1
+ },
+ "perServizio": {
+  "manutenzione": {
+   "analizzate": 83,
+   "offerto": 10,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 69
+  },
+  "revisione": {
+   "analizzate": 135,
+   "offerto": 18,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 114
+  },
+  "riparazione": {
+   "analizzate": 252,
+   "offerto": 50,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 188
+  },
+  "assistenza": {
+   "analizzate": 91,
+   "offerto": 19,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 63
+  },
+  "restauro-vintage": {
+   "analizzate": 82,
+   "offerto": 9,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 67
+  },
+  "pendoleria": {
+   "analizzate": 51,
+   "offerto": 3,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 45
+  },
+  "riparazione-automatici": {
+   "analizzate": 15,
+   "offerto": 4,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 11
+  },
+  "riparazione-meccanici": {
+   "analizzate": 28,
+   "offerto": 5,
+   "interno": 0,
+   "negato": 0,
+   "insufficiente": 22
+  }
+ },
+ "declassate": [
+  {
+   "attivitaId": "zagli-firenze",
+   "servizio": "revisione",
+   "fonteId": "t02-zagli-lab",
+   "contesto": "interno",
+   "estratto": "Il nostro laboratorio artigianale di riparazione orologi dà vita a un usato garantito almeno 24 mesi che, prima di essere venduto, viene sottoposto a una completa revisione comprensiva di restauro…"
+  },
+  {
+   "attivitaId": "lorologiaio-ascione-porto-torres",
+   "servizio": "revisione",
+   "fonteId": "e11-www-lorologiaio-net",
+   "contesto": "interno",
+   "estratto": "Ogni orologio di secondo polso che proponiamo viene sottoposto a un accurato processo di controllo, revisione e ripristino, per offrire ai nostri clienti un segnatempo affidabile, autentico e pronto…"
+  }
+ ],
+ "storico": [
+  {
+   "fase": 42,
+   "declassate": [
+    "zagli-firenze::revisione",
+    "lorologiaio-ascione-porto-torres::revisione"
+   ]
+  }
+ ]
+}

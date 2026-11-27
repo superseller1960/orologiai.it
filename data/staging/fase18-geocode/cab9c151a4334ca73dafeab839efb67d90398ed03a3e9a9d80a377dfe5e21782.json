@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Italia%2C+150%2C+Arezzo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81388929,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12073621055,
+      "lat": "43.5657868",
+      "lon": "11.5294608",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005753948271911219,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "150, Corso Italia, Vetrivecchi, San Giovanni Valdarno, Arezzo, Toscana, 52027, Italia",
+      "address": {
+        "house_number": "150",
+        "road": "Corso Italia",
+        "hamlet": "Vetrivecchi",
+        "town": "San Giovanni Valdarno",
+        "county": "Arezzo",
+        "ISO3166-2-lvl6": "IT-AR",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "52027",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.5657368",
+        "43.5658368",
+        "11.5294108",
+        "11.5295108"
+      ]
+    }
+  ]
+}

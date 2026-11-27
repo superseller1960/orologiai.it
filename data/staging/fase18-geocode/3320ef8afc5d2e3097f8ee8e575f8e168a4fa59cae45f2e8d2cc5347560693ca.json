@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Poerio%2C+3%2C+Catanzaro%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56652484,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 596230126,
+      "lat": "38.9692674",
+      "lon": "16.2835746",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339369878690772,
+      "addresstype": "residential",
+      "name": "Via Poerio",
+      "display_name": "Via Poerio, Miraglia, Sambiase, Gabella, Lamezia Terme, Catanzaro, Calabria, 88046, Italia",
+      "address": {
+        "road": "Via Poerio",
+        "neighbourhood": "Miraglia",
+        "suburb": "Sambiase",
+        "village": "Gabella",
+        "town": "Lamezia Terme",
+        "county": "Catanzaro",
+        "ISO3166-2-lvl6": "IT-CZ",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "88046",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.9689438",
+        "38.9694307",
+        "16.2824369",
+        "16.2846646"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Paganino+da+Sarzana+2%2C+Sarzana%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76732390,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 156357970,
+      "lat": "44.1129926",
+      "lon": "9.9554396",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053392121004043606,
+      "addresstype": "residential",
+      "name": "Via Paganino da Sarzana",
+      "display_name": "Via Paganino da Sarzana, Olmo, Sarzana, La Spezia, Liguria, 19038, Italia",
+      "address": {
+        "road": "Via Paganino da Sarzana",
+        "neighbourhood": "Olmo",
+        "town": "Sarzana",
+        "county": "La Spezia",
+        "ISO3166-2-lvl6": "IT-SP",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "19038",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.1117150",
+        "44.1136857",
+        "9.9530579",
+        "9.9576817"
+      ]
+    }
+  ]
+}

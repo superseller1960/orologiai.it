@@ -114,13 +114,13 @@ test('output del modello con campi sconosciuti o valori invalidi: scartato, ness
   assert.equal(body2.modalita, 'fallback');
 });
 
-test('località o marca inventate dal modello: rimosse dopo la validazione sul database', async () => {
+test('località o marca inventate dal modello: rimosse dopo la validazione sul database, servizio non richiesto scartato', async () => {
   const f = finto(gemini(JSON.stringify({ localita: 'citta-inventata', marca: 'MarcaInventata', servizio: 'riparazione' })));
   const body = await (await handleOrologiaio(richiesta({ messaggio: 'x' }), env(CHIAVE), deps({ fetch: f.fetch }))).json();
   assert.equal(body.modalita, 'ai');
   assert.equal(body.criteri.localita, undefined);
   assert.equal(body.criteri.marca, undefined);
-  assert.equal(body.criteri.servizio, 'riparazione');
+  assert.equal(body.criteri.servizio, undefined);
 });
 
 test('errore HTTP del provider: fallback senza dettagli interni', async () => {

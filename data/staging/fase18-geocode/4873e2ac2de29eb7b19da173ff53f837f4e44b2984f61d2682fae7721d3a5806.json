@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Cavour+11%2C+San+Giovanni+Valdarno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81535818,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183897472,
+      "lat": "43.5650042",
+      "lon": "11.5305957",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053390872816052454,
+      "addresstype": "pedestrian",
+      "name": "Piazza Cavour",
+      "display_name": "Piazza Cavour, Vetrivecchi, San Giovanni Valdarno, Arezzo, Toscana, 52027, Italia",
+      "address": {
+        "road": "Piazza Cavour",
+        "hamlet": "Vetrivecchi",
+        "town": "San Giovanni Valdarno",
+        "county": "Arezzo",
+        "ISO3166-2-lvl6": "IT-AR",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "52027",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.5646715",
+        "43.5652829",
+        "11.5302376",
+        "11.5310327"
+      ]
+    }
+  ]
+}

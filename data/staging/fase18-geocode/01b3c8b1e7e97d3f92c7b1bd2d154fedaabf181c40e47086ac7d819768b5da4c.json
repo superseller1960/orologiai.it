@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Veneto%2C+55%2C+Mazara+del+Vallo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53801511,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1026045176,
+      "lat": "37.6536473",
+      "lon": "12.5927714",
+      "category": "shop",
+      "type": "beauty",
+      "place_rank": 30,
+      "importance": 0.000051136797131258373,
+      "addresstype": "shop",
+      "name": "Idea e Bellezza",
+      "display_name": "Idea e Bellezza, 55, Corso Vittorio Veneto, Giudecca, Makara, Mazara del Vallo, Trapani, Sicilia, 91026, Italia",
+      "address": {
+        "shop": "Idea e Bellezza",
+        "house_number": "55",
+        "road": "Corso Vittorio Veneto",
+        "neighbourhood": "Giudecca",
+        "quarter": "Makara",
+        "town": "Mazara del Vallo",
+        "county": "Trapani",
+        "ISO3166-2-lvl6": "IT-TP",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "91026",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.6535973",
+        "37.6536973",
+        "12.5927214",
+        "12.5928214"
+      ]
+    }
+  ]
+}

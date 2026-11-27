@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+28%2C+Taormina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53729683,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 917522213,
+      "lat": "37.8517934",
+      "lon": "15.2860717",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339648508430606,
+      "addresstype": "pedestrian",
+      "name": "Corso Umberto Primo",
+      "display_name": "Corso Umberto Primo, Villagonia, Taormina, Messina, Sicilia, 98039, Italia",
+      "address": {
+        "road": "Corso Umberto Primo",
+        "hamlet": "Villagonia",
+        "town": "Taormina",
+        "county": "Messina",
+        "ISO3166-2-lvl6": "IT-ME",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "98039",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.8517547",
+        "37.8518407",
+        "15.2859803",
+        "15.2861591"
+      ]
+    }
+  ]
+}

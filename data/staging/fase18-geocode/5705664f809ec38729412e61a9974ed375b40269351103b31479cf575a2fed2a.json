@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giacomo+Matteotti%2C+72%2C+Urgnano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 74972621,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 357197591,
+      "lat": "45.5970900",
+      "lon": "9.6963806",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053395944914930916,
+      "addresstype": "residential",
+      "name": "Via Giacomo Matteotti",
+      "display_name": "Via Giacomo Matteotti, Seriola-Via Basella, Urgnano, Bergamo, Lombardia, 24059, Italia",
+      "address": {
+        "road": "Via Giacomo Matteotti",
+        "hamlet": "Seriola-Via Basella",
+        "village": "Urgnano",
+        "city": "Urgnano",
+        "county": "Bergamo",
+        "ISO3166-2-lvl6": "IT-BG",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "24059",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.5970125",
+        "45.5972314",
+        "9.6952460",
+        "9.6975092"
+      ]
+    }
+  ]
+}

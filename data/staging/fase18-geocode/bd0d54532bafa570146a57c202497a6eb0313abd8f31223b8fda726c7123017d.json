@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Pietrangelo+Leone%2C+30%2C+Fondi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81211538,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 261408103,
+      "lat": "41.3570461",
+      "lon": "13.4296135",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053391126115815944,
+      "addresstype": "residential",
+      "name": "Via Pietrangelo Leone",
+      "display_name": "Via Pietrangelo Leone, Porta Vescovo, Fondi, Latina, Lazio, 04022, Italia",
+      "address": {
+        "road": "Via Pietrangelo Leone",
+        "neighbourhood": "Porta Vescovo",
+        "town": "Fondi",
+        "county": "Latina",
+        "ISO3166-2-lvl6": "IT-LT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "04022",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.3568510",
+        "41.3572448",
+        "13.4292847",
+        "13.4299443"
+      ]
+    }
+  ]
+}

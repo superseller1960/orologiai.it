@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Giuseppe+Garibaldi+9%2C+Como%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75460145,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12138432098,
+      "lat": "45.6991190",
+      "lon": "8.9999436",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00005964217593647696,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "9, Via Giuseppe Garibaldi, Contrada San Rocco, Fenegrò, Como, Lombardia, 22070, Italia",
+      "address": {
+        "house_number": "9",
+        "road": "Via Giuseppe Garibaldi",
+        "neighbourhood": "Contrada San Rocco",
+        "village": "Fenegrò",
+        "county": "Como",
+        "ISO3166-2-lvl6": "IT-CO",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "22070",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6990690",
+        "45.6991690",
+        "8.9998936",
+        "8.9999936"
+      ]
+    }
+  ]
+}

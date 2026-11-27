@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Verdi%2C+22%2C+Viterbo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80064202,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7894673,
+      "lat": "42.4206911",
+      "lon": "12.1078434",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06673276798657206,
+      "addresstype": "square",
+      "name": "Piazza Giuseppe Verdi",
+      "display_name": "Piazza Giuseppe Verdi, La Quercia, Viterbo, Lazio, Italia",
+      "address": {
+        "square": "Piazza Giuseppe Verdi",
+        "village": "La Quercia",
+        "city": "Viterbo",
+        "county": "Viterbo",
+        "ISO3166-2-lvl6": "IT-VT",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "42.4202492",
+        "42.4211263",
+        "12.1073830",
+        "12.1085296"
+      ]
+    }
+  ]
+}

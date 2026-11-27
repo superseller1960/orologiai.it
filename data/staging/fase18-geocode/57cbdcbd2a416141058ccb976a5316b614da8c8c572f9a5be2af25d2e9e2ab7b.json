@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+della+Libert%C3%A0%2C+57%2C+Cecina%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 425087368,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 14072505003,
+      "lat": "43.3106950",
+      "lon": "10.5171126",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00005388036926828439,
+      "addresstype": "shop",
+      "name": "Gioielleria Puccinelli",
+      "display_name": "Gioielleria Puccinelli, 57, Piazza della Libertà, Marina di Cecina, San Pietro In Palazzi, Cecina, Livorno, Toscana, 57023, Italia",
+      "address": {
+        "shop": "Gioielleria Puccinelli",
+        "house_number": "57",
+        "road": "Piazza della Libertà",
+        "suburb": "Marina di Cecina",
+        "village": "San Pietro In Palazzi",
+        "town": "Cecina",
+        "county": "Livorno",
+        "ISO3166-2-lvl6": "IT-LI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "57023",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.3106450",
+        "43.3107450",
+        "10.5170626",
+        "10.5171626"
+      ]
+    }
+  ]
+}

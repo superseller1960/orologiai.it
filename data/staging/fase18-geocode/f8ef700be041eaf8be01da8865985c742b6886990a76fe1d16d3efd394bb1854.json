@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Umberto+I%2C+73%2C+Civitanova+Marche%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79177388,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 31827901,
+      "lat": "43.3084924",
+      "lon": "13.7273220",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.05339091401541158,
+      "addresstype": "tertiary",
+      "name": "Corso Umberto I",
+      "display_name": "Corso Umberto I, Centro, Civitanova Marche, Macerata, Marche, 62012, Italia",
+      "address": {
+        "road": "Corso Umberto I",
+        "suburb": "Centro",
+        "town": "Civitanova Marche",
+        "county": "Macerata",
+        "ISO3166-2-lvl6": "IT-MC",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "62012",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.3075572",
+        "43.3094268",
+        "13.7267434",
+        "13.7278994"
+      ]
+    }
+  ]
+}

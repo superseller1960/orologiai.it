@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Zambonate+55%2C+Bergamo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75211154,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4243013800,
+      "lat": "45.6924183",
+      "lon": "9.6655494",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00007243991760123625,
+      "addresstype": "shop",
+      "name": "Gioielleria Curnis",
+      "display_name": "Gioielleria Curnis, 55, Via Zambonate, Finazzi, Città Alta, Bergamo, Lombardia, 24122, Italia",
+      "address": {
+        "shop": "Gioielleria Curnis",
+        "house_number": "55",
+        "road": "Via Zambonate",
+        "suburb": "Finazzi",
+        "city": "Bergamo",
+        "county": "Bergamo",
+        "ISO3166-2-lvl6": "IT-BG",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "24122",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6923683",
+        "45.6924683",
+        "9.6654994",
+        "9.6655994"
+      ]
+    }
+  ]
+}

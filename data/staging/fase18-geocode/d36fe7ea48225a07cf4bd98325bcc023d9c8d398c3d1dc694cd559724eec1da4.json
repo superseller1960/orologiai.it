@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Jacopo+Carrucci%2C+73%2C+Empoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82010638,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3743712639,
+      "lat": "43.7202165",
+      "lon": "10.9529986",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006248798352021084,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "73, Via Jacopo Carrucci, Naiana, Pontorme, Empoli, Unione dei Comuni Circondario dell'Empolese Valdelsa, Firenze, Toscana, 50053, Italia",
+      "address": {
+        "house_number": "73",
+        "road": "Via Jacopo Carrucci",
+        "neighbourhood": "Naiana",
+        "village": "Pontorme",
+        "town": "Empoli",
+        "municipality": "Unione dei Comuni Circondario dell'Empolese Valdelsa",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50053",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7201665",
+        "43.7202665",
+        "10.9529486",
+        "10.9530486"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1326 @@
+{
+  "lotto": "fase39-lotto1-20261106",
+  "data": "2026-11-06",
+  "fonti": [
+    {
+      "id": "f39-orologeria-magno-bari",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriamagno.it/",
+      "titolo": "Orologeria Magno — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Sito ufficiale: «in grado di riparare qualsiasi tipo di orologio, antico o moderno, da polso, da tasca o a pendolo»; restauro, pendoleria, orologi al diapason."
+    },
+    {
+      "id": "f39-zanoni-preziosi-trento",
+      "tipo": "sito-ufficiale",
+      "url": "https://zanonipreziosi.it/la-tradizione-e-una-garanzia-per-la-riparazione-di-orologi-e-sveglie-a-trento/",
+      "titolo": "Zanoni Preziosi — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Pagina «Riparazione di orologi e sveglie a Trento»: riparazione e restauro di orologi e sveglie, revisione, cucù e pendole."
+    },
+    {
+      "id": "f39-l-orologiaio-sardegna-porto-torres",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologiaiosardegna.com/orologi.php",
+      "titolo": "L'Orologiaio Sardegna — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Sito ufficiale: «laboratorio attrezzato... ricostruire nei minimi particolari... micromeccanica... Restauro orologi e pendoli»."
+    },
+    {
+      "id": "f39-lissi-gioielli-rho",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lissigioielli.it/riparazione-orologi-pendole/",
+      "titolo": "Lissi Gioielli — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Pagina «Riparazione orologi e pendole»: «Il laboratorio è specializzato nella riparazione di orologi a carica manuale, automatici, meccanici e al quarzo e fornisce inoltre ricambi»."
+    },
+    {
+      "id": "f39-gioielleria-spinelli-cesano-maderno",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriaspinelli.it/orologi-cantu/",
+      "titolo": "Gioielleria Spinelli — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Pagina ufficiale: «Laboratorio specializzato: manutenzione, restauro e riparazione di orologi di qualsiasi marca… Revisione completa di orologi automatici, meccanici e al quarzo»."
+    },
+    {
+      "id": "f39-formica-francesco-citta-di-castello",
+      "tipo": "sito-ufficiale",
+      "url": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+      "titolo": "Formica Francesco — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Pagina ufficiale: «siamo dotati di laboratorio per l'assistenza, il restauro e la riparazione di ogni tipo di orologio»."
+    },
+    {
+      "id": "f39-l-orologio-imola-imola",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologioimola.it/",
+      "titolo": "L'Orologio Imola — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Sito ufficiale: «Laboratorio professionale di riparazione e assistenza. Revisioni complete, riparazioni e interventi certificati su tutte le marche»."
+    },
+    {
+      "id": "f39-cm-orologi-alba",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cmorologialba.it/",
+      "titolo": "CM Orologi — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: Sito ufficiale: «Il nostro laboratorio di riparazione orologi… è certificato per le marche Baume&Mercier, Hamilton, Tissot, Seiko, Omega, Longines, Eberhard e Rado»."
+    }
+  ],
+  "localita": [
+    {
+      "id": "rho",
+      "comune": "Rho",
+      "comuneSlug": "rho",
+      "provincia": "Milano",
+      "provinciaSlug": "milano",
+      "siglaProvincia": "MI",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Rho (MI), Lombardia: attività di orologeria censita con la fonte ufficiale dell'esercizio.",
+      "fonti": [
+        "f39-lissi-gioielli-rho"
+      ]
+    },
+    {
+      "id": "cesano-maderno",
+      "comune": "Cesano Maderno",
+      "comuneSlug": "cesano-maderno",
+      "provincia": "Monza e della Brianza",
+      "provinciaSlug": "monza-e-della-brianza",
+      "siglaProvincia": "MB",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": null,
+      "descrizione": "Cesano Maderno (MB), Lombardia: attività di orologeria censita con la fonte ufficiale dell'esercizio.",
+      "fonti": [
+        "f39-gioielleria-spinelli-cesano-maderno"
+      ]
+    },
+    {
+      "id": "imola",
+      "comune": "Imola",
+      "comuneSlug": "imola",
+      "provincia": "Bologna",
+      "provinciaSlug": "bologna",
+      "siglaProvincia": "BO",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": null,
+      "descrizione": "Imola (BO), Emilia-Romagna: attività di orologeria censita con la fonte ufficiale dell'esercizio.",
+      "fonti": [
+        "f39-l-orologio-imola-imola"
+      ]
+    },
+    {
+      "id": "alba",
+      "comune": "Alba",
+      "comuneSlug": "alba",
+      "provincia": "Cuneo",
+      "provinciaSlug": "cuneo",
+      "siglaProvincia": "CN",
+      "regione": "Piemonte",
+      "regioneSlug": "piemonte",
+      "codiceIstat": null,
+      "descrizione": "Alba (CN), Piemonte: attività di orologeria censita con la fonte ufficiale dell'esercizio.",
+      "fonti": [
+        "f39-cm-orologi-alba"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "orologeria-magno-bari",
+      "nome": "Orologeria Magno",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-orologeria-magno-bari"
+      ],
+      "attivita": {
+        "id": "orologeria-magno-bari",
+        "slug": "orologeria-magno-bari",
+        "nome": "Orologeria Magno",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria Magno è un'attività di orologeria a Bari (BA). La fonte ufficiale consultata documenta riparazione, movimenti meccanici, orologi al quarzo, restauro.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bari",
+        "posizione": {
+          "indirizzo": null,
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-orologeria-magno-bari"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.orologeriamagno.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-orologeria-magno-bari"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-orologeria-magno-bari"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-orologeria-magno-bari"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-orologeria-magno-bari"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Orologeria Magno"
+        }
+      }
+    },
+    {
+      "id": "zanoni-preziosi-trento",
+      "nome": "Zanoni Preziosi",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-zanoni-preziosi-trento"
+      ],
+      "attivita": {
+        "id": "zanoni-preziosi-trento",
+        "slug": "zanoni-preziosi-trento",
+        "nome": "Zanoni Preziosi",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Zanoni Preziosi è un'attività di orologeria a Trento (TN). La fonte ufficiale consultata documenta revisione, riparazione, movimenti meccanici, restauro.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trento",
+        "posizione": {
+          "indirizzo": null,
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-zanoni-preziosi-trento"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://zanonipreziosi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-zanoni-preziosi-trento"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-zanoni-preziosi-trento"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-zanoni-preziosi-trento"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-zanoni-preziosi-trento"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Zanoni Preziosi"
+        }
+      }
+    },
+    {
+      "id": "l-orologiaio-sardegna-porto-torres",
+      "nome": "L'Orologiaio Sardegna",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-l-orologiaio-sardegna-porto-torres"
+      ],
+      "attivita": {
+        "id": "l-orologiaio-sardegna-porto-torres",
+        "slug": "l-orologiaio-sardegna-porto-torres",
+        "nome": "L'Orologiaio Sardegna",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "L'Orologiaio Sardegna è un'attività di orologeria a Porto Torres (SS). La fonte ufficiale consultata documenta riparazione, movimenti meccanici, orologi al quarzo, restauro.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "porto-torres",
+        "posizione": {
+          "indirizzo": null,
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-l-orologiaio-sardegna-porto-torres"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.lorologiaiosardegna.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-l-orologiaio-sardegna-porto-torres"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-l-orologiaio-sardegna-porto-torres"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-l-orologiaio-sardegna-porto-torres"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-l-orologiaio-sardegna-porto-torres"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "L'Orologiaio Sardegna"
+        }
+      }
+    },
+    {
+      "id": "lissi-gioielli-rho",
+      "nome": "Lissi Gioielli",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-lissi-gioielli-rho"
+      ],
+      "attivita": {
+        "id": "lissi-gioielli-rho",
+        "slug": "lissi-gioielli-rho",
+        "nome": "Lissi Gioielli",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Lissi Gioielli è un'attività di orologeria a Rho (MI). La fonte ufficiale consultata documenta riparazione, movimenti meccanici, orologi automatici, orologi al quarzo.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rho",
+        "posizione": {
+          "indirizzo": null,
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-lissi-gioielli-rho"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 36729430",
+          "email": null,
+          "sito": "https://www.lissigioielli.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-lissi-gioielli-rho"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          },
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-lissi-gioielli-rho"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-lissi-gioielli-rho"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-lissi-gioielli-rho"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Lissi Gioielli"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-spinelli-cesano-maderno",
+      "nome": "Gioielleria Spinelli",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-gioielleria-spinelli-cesano-maderno"
+      ],
+      "attivita": {
+        "id": "gioielleria-spinelli-cesano-maderno",
+        "slug": "gioielleria-spinelli-cesano-maderno",
+        "nome": "Gioielleria Spinelli",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria Spinelli è un'attività di orologeria a Cesano Maderno (MB). La fonte ufficiale consultata documenta revisione, riparazione, movimenti meccanici, orologi automatici.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cesano-maderno",
+        "posizione": {
+          "indirizzo": "Via A. Volta 27",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-gioielleria-spinelli-cesano-maderno"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0362 504268",
+          "email": null,
+          "sito": "https://www.gioielleriaspinelli.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-gioielleria-spinelli-cesano-maderno"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "automatici",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          },
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-gioielleria-spinelli-cesano-maderno"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-gioielleria-spinelli-cesano-maderno"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-gioielleria-spinelli-cesano-maderno"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Gioielleria Spinelli"
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio interno indicato dalla fonte ufficiale dell'attività.",
+          "fonti": [
+            "f39-gioielleria-spinelli-cesano-maderno"
+          ]
+        }
+      }
+    },
+    {
+      "id": "formica-francesco-citta-di-castello",
+      "nome": "Formica Francesco",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-formica-francesco-citta-di-castello"
+      ],
+      "attivita": {
+        "id": "formica-francesco-citta-di-castello",
+        "slug": "formica-francesco-citta-di-castello",
+        "nome": "Formica Francesco",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Formica Francesco è un'attività di orologeria a Città di Castello (PG). La fonte ufficiale consultata documenta riparazione, movimenti meccanici, orologi al quarzo, restauro.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "citta-di-castello",
+        "posizione": {
+          "indirizzo": "Corso Cavour 13/E",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-formica-francesco-citta-di-castello"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-formica-francesco-citta-di-castello"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-formica-francesco-citta-di-castello"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-formica-francesco-citta-di-castello"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-formica-francesco-citta-di-castello"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Formica Francesco"
+        }
+      }
+    },
+    {
+      "id": "l-orologio-imola-imola",
+      "nome": "L'Orologio Imola",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-l-orologio-imola-imola"
+      ],
+      "attivita": {
+        "id": "l-orologio-imola-imola",
+        "slug": "l-orologio-imola-imola",
+        "nome": "L'Orologio Imola",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "L'Orologio Imola è un'attività di orologeria a Imola (BO). La fonte ufficiale consultata documenta revisione, riparazione, restauro, assistenza.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "imola",
+        "posizione": {
+          "indirizzo": "Via Emilia 230",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-l-orologio-imola-imola"
+          ]
+        },
+        "contatti": {
+          "telefono": "0542 21154",
+          "email": null,
+          "sito": "https://www.lorologioimola.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-l-orologio-imola-imola"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-l-orologio-imola-imola"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-l-orologio-imola-imola"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-l-orologio-imola-imola"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "L'Orologio Imola"
+        }
+      }
+    },
+    {
+      "id": "cm-orologi-alba",
+      "nome": "CM Orologi",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-cm-orologi-alba"
+      ],
+      "attivita": {
+        "id": "cm-orologi-alba",
+        "slug": "cm-orologi-alba",
+        "nome": "CM Orologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "CM Orologi è un'attività di orologeria a Alba (CN). La fonte ufficiale consultata documenta revisione, riparazione, movimenti meccanici, orologi al quarzo.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "alba",
+        "posizione": {
+          "indirizzo": "Via Cavour 17/B",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-cm-orologi-alba"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0173 364113",
+          "email": null,
+          "sito": "https://www.cmorologialba.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-cm-orologi-alba"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "meccanici",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          },
+          {
+            "id": "vintage",
+            "fonti": [
+              "f39-cm-orologi-alba"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-cm-orologi-alba"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-cm-orologi-alba"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "CM Orologi"
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio interno indicato dalla fonte ufficiale dell'attività.",
+          "fonti": [
+            "f39-cm-orologi-alba"
+          ]
+        }
+      }
+    }
+  ]
+}

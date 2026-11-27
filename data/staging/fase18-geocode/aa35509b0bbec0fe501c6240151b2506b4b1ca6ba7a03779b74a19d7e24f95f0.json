@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Matteotti%2C+39%2C+Soliera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77186029,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6177250540,
+      "lat": "44.7386716",
+      "lon": "10.9235585",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.000055001907377691576,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "39, Via Giacomo Matteotti, La Corte, Soliera, Unione delle Terre d'Argine, Modena, Emilia-Romagna, 41019, Italia",
+      "address": {
+        "house_number": "39",
+        "road": "Via Giacomo Matteotti",
+        "hamlet": "La Corte",
+        "town": "Soliera",
+        "district": "Unione delle Terre d'Argine",
+        "county": "Modena",
+        "ISO3166-2-lvl6": "IT-MO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "41019",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.7386216",
+        "44.7387216",
+        "10.9235085",
+        "10.9236085"
+      ]
+    }
+  ]
+}

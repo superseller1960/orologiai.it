@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+82%2C+Gallipoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56258460,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6329249667,
+      "lat": "40.0561352",
+      "lon": "17.9886465",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00003750133516437045,
+      "addresstype": "shop",
+      "name": "Luigi Freddo",
+      "display_name": "Luigi Freddo, 82, Corso Roma, Gallipoli, Lecce, Puglia, 73014, Italia",
+      "address": {
+        "shop": "Luigi Freddo",
+        "house_number": "82",
+        "road": "Corso Roma",
+        "town": "Gallipoli",
+        "county": "Lecce",
+        "ISO3166-2-lvl6": "IT-LE",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "73014",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.0560852",
+        "40.0561852",
+        "17.9885965",
+        "17.9886965"
+      ]
+    }
+  ]
+}

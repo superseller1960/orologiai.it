@@ -1,0 +1,252 @@
+{
+ "attivitaPrima": 510,
+ "attivitaDopo": 510,
+ "fontiPrima": 1110,
+ "fontiDopo": 1110,
+ "fontiAggiunte": [],
+ "modificate": 3,
+ "invariate": 16,
+ "esiti": [
+  {
+   "id": "ranieri-laquila",
+   "nome": "Gioielleria Raffaello Ranieri",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio interno dichiarato dal sito: la tipologia orologeria è documentata, i servizi restano.",
+   "fonti": [
+    "r26-ranieri-laquila"
+   ]
+  },
+  {
+   "id": "fotia-reggio-calabria",
+   "nome": "Fotia Orafo",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Riparazione e restauro di orologi eseguiti nel laboratorio dell’azienda: tipologia corretta.",
+   "fonti": [
+    "r26-fotia-reggio-calabria"
+   ]
+  },
+  {
+   "id": "paccara-terni",
+   "nome": "Gioielleria Paccara Franco",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio di orologeria e maestro orologiaio nominati: tipologia corretta, servizi confermati.",
+   "fonti": [
+    "r26-paccara-terni"
+   ]
+  },
+  {
+   "id": "trossello-courmayeur",
+   "nome": "Gioiellerie Trossello — Courmayeur",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Revisione e ricostruzione ricambi documentate su orologi: tipologia corretta.",
+   "fonti": [
+    "r26-trossello-courmayeur"
+   ]
+  },
+  {
+   "id": "gioielleria-sammartino-campobasso",
+   "nome": "Gioielleria Sammartino",
+   "tipo": "orologeria",
+   "laboratorio": "non-specificato",
+   "rimossi": [
+    "revisione"
+   ],
+   "modifiche": [],
+   "motivo": "Riparazione di orologi dichiarata in forma generica: resta il servizio, rimossa la revisione non documentata.",
+   "fonti": [
+    "molise-sammartino-chisiamo"
+   ]
+  },
+  {
+   "id": "della-rocca-gioielli-bologna",
+   "nome": "Della Rocca Gioielli",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio di orologeria interno con orologiai nominati: tipologia corretta.",
+   "fonti": [
+    "r27-della-rocca",
+    "f-www-dellaroccagioielli-it-esperto-orologi-php"
+   ]
+  },
+  {
+   "id": "gioielleria-rosas-olbia",
+   "nome": "Gioielleria Rosas",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio di revisione e riparazione dichiarato: tipologia corretta; nessuna autorizzazione di marchio attribuita.",
+   "fonti": [
+    "rosas-laboratorio-rolex-20261103"
+   ]
+  },
+  {
+   "id": "orsi-gioielleria-verbania",
+   "nome": "Orsi Gioielleria",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio di orologeria interno dichiarato: tipologia corretta, pendoleria confermata.",
+   "fonti": [
+    "orsi-chisiamo-20261025"
+   ]
+  },
+  {
+   "id": "fasola-gioielleria-como",
+   "nome": "Fasola Gioielleria",
+   "tipo": "orologeria",
+   "laboratorio": "non-specificato",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Riparazione di orologi dichiarata senza laboratorio documentato: tipologia corretta, interno non affermato.",
+   "fonti": [
+    "fasola-sito-20261025"
+   ]
+  },
+  {
+   "id": "florio-folini-srl-sondrio",
+   "nome": "Florio Folini Srl",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Revisione completa in laboratorio documentata: tipologia corretta; assistenza ufficiale non attribuita.",
+   "fonti": [
+    "floriofolini-rolex-20261025"
+   ]
+  },
+  {
+   "id": "gioielleria-iannicelli-caserta",
+   "nome": "Gioielleria Iannicelli",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Manutenzione e revisione con orologiai propri documentate: tipologia corretta; autorizzazione di marchio non attribuita.",
+   "fonti": [
+    "iannicelli-rolex-manutenzione-20261103"
+   ]
+  },
+  {
+   "id": "gioielleria-tebaldi-ferrara",
+   "nome": "Gioielleria Tebaldi",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio interno con orologiai documentato: tipologia corretta.",
+   "fonti": [
+    "tebaldi-sito-20261025"
+   ]
+  },
+  {
+   "id": "vergari-gioielli-botrugno",
+   "nome": "Vergari Gioielli",
+   "tipo": "orologeria",
+   "laboratorio": "non-specificato",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Riparazione di orologi dichiarata senza laboratorio proprio: tipologia corretta, interno non affermato.",
+   "fonti": [
+    "n02-vergari-gioielli-botrugno-1"
+   ]
+  },
+  {
+   "id": "arte-doro-ostuni",
+   "nome": "Arte D'Oro Gioielli",
+   "tipo": "orologeria",
+   "laboratorio": "orafo",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Riparazione e assistenza di orologi dichiarate, laboratorio documentato è quello orafo: tipologia corretta.",
+   "fonti": [
+    "f31-arte-doro-ostuni"
+   ]
+  },
+  {
+   "id": "quaranta-campobasso",
+   "nome": "Gioielleria Stefano Quaranta",
+   "tipo": "orologeria",
+   "laboratorio": "rete",
+   "rimossi": [
+    "riparazione"
+   ],
+   "modifiche": [],
+   "motivo": "La riparazione nel corpo pagina è solo di gioielli: rimosso il servizio orologiero; l’assistenza resta come rete dei marchi.",
+   "fonti": [
+    "f31-quaranta-campobasso"
+   ]
+  },
+  {
+   "id": "musci-catanzaro",
+   "nome": "Gioielleria Musci",
+   "tipo": "orologeria",
+   "laboratorio": "interno",
+   "rimossi": [],
+   "modifiche": [],
+   "motivo": "Laboratorio di orologeria e orologiaio interni documentati: tipologia corretta.",
+   "fonti": [
+    "f31-musci-catanzaro"
+   ]
+  },
+  {
+   "id": "golden-business-potenza",
+   "nome": "Gioielleria Golden Business",
+   "tipo": null,
+   "laboratorio": null,
+   "rimossi": [
+    "riparazione"
+   ],
+   "modifiche": [
+    "cronologia: fonti ripristinate"
+   ],
+   "motivo": "La pagina documenta solo pulizia, batteria e impermeabilità: rimossa la riparazione non sostenuta.",
+   "fonti": []
+  },
+  {
+   "id": "del-giudice-pozzuoli",
+   "nome": "Gioielleria Del Giudice",
+   "tipo": null,
+   "laboratorio": null,
+   "rimossi": [
+    "riparazione"
+   ],
+   "modifiche": [
+    "cronologia: fonti ripristinate"
+   ],
+   "motivo": "Il corpo della pagina documenta solo oreficeria: rimossa la riparazione di orologi non sostenuta.",
+   "fonti": []
+  },
+  {
+   "id": "de-marchi-gianotti-aosta",
+   "nome": "De Marchi Gianotti",
+   "tipo": null,
+   "laboratorio": null,
+   "rimossi": [
+    "riparazione"
+   ],
+   "modifiche": [
+    "cronologia: fonti ripristinate"
+   ],
+   "motivo": "Nessuna fonte primaria leggibile per la riparazione: servizio rimosso e segnalato, vendita confermata dal marchio.",
+   "fonti": []
+  }
+ ],
+ "hashPrima": "a102e5652e57ca7c94df524283d6baf02ad72870963bae0ac6b1059fefd3c1bc",
+ "hashDopo": "3e0e9bb16e47945bc120f363293e232d49a72ea5f5d8953f428f40c38e478600"
+}

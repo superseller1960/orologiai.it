@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cuneo%2C+84%2C+Bra%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 381706927,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 13753718710,
+      "lat": "44.6884761",
+      "lon": "7.8538568",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.0000647112230105595,
+      "addresstype": "shop",
+      "name": "Orolab",
+      "display_name": "Orolab, 84, Via Cuneo, Veneria, Bra, Cuneo, Piemonte, 12042, Italia",
+      "address": {
+        "shop": "Orolab",
+        "house_number": "84",
+        "road": "Via Cuneo",
+        "neighbourhood": "Veneria",
+        "town": "Bra",
+        "county": "Cuneo",
+        "ISO3166-2-lvl6": "IT-CN",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "12042",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.6884261",
+        "44.6885261",
+        "7.8538068",
+        "7.8539068"
+      ]
+    }
+  ]
+}

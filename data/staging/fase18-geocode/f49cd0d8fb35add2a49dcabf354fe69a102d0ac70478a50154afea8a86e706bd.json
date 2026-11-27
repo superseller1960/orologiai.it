@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Regina+Margherita%2C+87%2C+Andria%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56984033,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11449828737,
+      "lat": "41.3202643",
+      "lon": "16.2706735",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006143511100933879,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "87, Via Regina Margherita, San Giacomo - Settefrati, Barletta, Barletta-Andria-Trani, Puglia, 76121, Italia",
+      "address": {
+        "house_number": "87",
+        "road": "Via Regina Margherita",
+        "neighbourhood": "San Giacomo - Settefrati",
+        "city": "Barletta",
+        "province": "Barletta-Andria-Trani",
+        "ISO3166-2-lvl6": "IT-BT",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "76121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.3202143",
+        "41.3203143",
+        "16.2706235",
+        "16.2707235"
+      ]
+    }
+  ]
+}

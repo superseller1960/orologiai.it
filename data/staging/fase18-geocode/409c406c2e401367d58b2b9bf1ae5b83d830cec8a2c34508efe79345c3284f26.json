@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Antonio+Gramsci+298%2C+Sesto+Fiorentino%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82071941,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7306758763,
+      "lat": "43.8339326",
+      "lon": "11.2005283",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.000058412298771603224,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "298, Via Antonio Gramsci, Zambra, Sesto Fiorentino, Firenze, Toscana, 50019, Italia",
+      "address": {
+        "house_number": "298",
+        "road": "Via Antonio Gramsci",
+        "suburb": "Zambra",
+        "town": "Sesto Fiorentino",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50019",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8338826",
+        "43.8339826",
+        "11.2004783",
+        "11.2005783"
+      ]
+    }
+  ]
+}

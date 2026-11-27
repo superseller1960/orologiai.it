@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Nunzio+Morello+18%2FE%2C+Palermo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53549644,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 239727299,
+      "lat": "38.1341965",
+      "lon": "13.3433114",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053408945601586905,
+      "addresstype": "residential",
+      "name": "Via Nunzio Morello",
+      "display_name": "Via Nunzio Morello, Quartiere Matteotti, VIII Circoscrizione, Palermo, Sicilia, 90144, Italia",
+      "address": {
+        "road": "Via Nunzio Morello",
+        "hamlet": "Quartiere Matteotti",
+        "suburb": "VIII Circoscrizione",
+        "city": "Palermo",
+        "county": "Palermo",
+        "ISO3166-2-lvl6": "IT-PA",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "90144",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1335472",
+        "38.1348471",
+        "13.3429313",
+        "13.3436937"
+      ]
+    }
+  ]
+}

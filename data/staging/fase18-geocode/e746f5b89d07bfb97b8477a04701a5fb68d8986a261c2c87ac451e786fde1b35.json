@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Maso+Finiguerra+4%2FA%E2%80%934%2FB%2C+Firenze%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81436526,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 172496052,
+      "lat": "43.7738326",
+      "lon": "11.2450792",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053414390020599646,
+      "addresstype": "residential",
+      "name": "Via Maso Finiguerra",
+      "display_name": "Via Maso Finiguerra, San Frediano, Quartiere 1, Firenze, Toscana, 50100, Italia",
+      "address": {
+        "road": "Via Maso Finiguerra",
+        "neighbourhood": "San Frediano",
+        "suburb": "Quartiere 1",
+        "city": "Firenze",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7735233",
+        "43.7741775",
+        "11.2447431",
+        "11.2453768"
+      ]
+    }
+  ]
+}

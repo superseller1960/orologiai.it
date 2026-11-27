@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre+26%2C+Aulla%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76706218,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 230904277,
+      "lat": "44.2077812",
+      "lon": "9.9697414",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053387322041657095,
+      "addresstype": "pedestrian",
+      "name": "Via Venti Settembre",
+      "display_name": "Via Venti Settembre, Aulla, Unione di comuni Montana Lunigiana, Massa-Carrara, Toscana, 54011, Italia",
+      "address": {
+        "road": "Via Venti Settembre",
+        "town": "Aulla",
+        "municipality": "Unione di comuni Montana Lunigiana",
+        "province": "Massa-Carrara",
+        "ISO3166-2-lvl6": "IT-MS",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "54011",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.2077500",
+        "44.2080840",
+        "9.9690585",
+        "9.9704131"
+      ]
+    }
+  ]
+}

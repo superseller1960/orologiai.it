@@ -29,3 +29,25 @@ test('la ricerca combina un sinonimo di servizio e la località', () => {
   const results = searchDirectory(directory, { q: 'tagliando scandicci' });
   assert.ok(results.some(r => r.business.id === expected.id));
 });
+
+test('livelli di ricerca: esatti separati dai laboratori con servizio generico documentato', async () => {
+  const { searchDirectoryTiered } = await import('../site/src/lib/search.ts');
+  const cities = ['Torino', 'Firenze', 'Milano', 'Roma'];
+  for (const comune of cities) {
+    const place = directory.localita.find(p => p.comune === comune);
+    assert.ok(place, `${comune} deve essere censita`);
+    const { esatti, pertinenti } = searchDirectoryTiered(directory, { localita: place.id, servizio: 'riparazione-meccanici' });
+    const esattiIds = new Set(esatti.map(r => r.business.id));
+    for (const r of esatti) assert.ok(r.business.servizi.some(s => s.id === 'riparazione-meccanici'), `${r.business.nome} deve documentare il servizio esatto`);
+    for (const r of pertinenti) {
+      assert.ok(!esattiIds.has(r.business.id), `${r.business.nome} non deve comparire anche tra gli esatti`);
+      assert.ok(r.business.servizi.some(s => s.id === 'riparazione'), `${r.business.nome} deve documentare la riparazione generica`);
+      assert.ok(!r.business.servizi.some(s => s.id === 'riparazione-meccanici'), `${r.business.nome} non deve essere promosso a esatto`);
+    }
+  }
+  const torino = directory.localita.find(p => p.comune === 'Torino')!;
+  const { esatti, pertinenti } = searchDirectoryTiered(directory, { localita: torino.id, servizio: 'riparazione-meccanici' });
+  assert.equal(esatti.length, 1, 'Torino deve avere una sola corrispondenza esatta per riparazione meccanici');
+  // Almeno le tre attività storiche con riparazione generica: i nuovi lotti possono aggiungerne.
+  assert.ok(pertinenti.length >= 3, 'Torino deve mostrare le attività con riparazione generica come pertinenti');
+});

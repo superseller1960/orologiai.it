@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Fillungo+20%2C+Lucca%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81375596,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 295624595,
+      "lat": "43.8448916",
+      "lon": "10.5043469",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.16273786379520622,
+      "addresstype": "pedestrian",
+      "name": "Via Fillungo",
+      "display_name": "Via Fillungo, Sant'Anna, Monte San Quirico, Lucca, Toscana, 55100, Italia",
+      "address": {
+        "road": "Via Fillungo",
+        "suburb": "Sant'Anna",
+        "village": "Monte San Quirico",
+        "city": "Lucca",
+        "county": "Lucca",
+        "ISO3166-2-lvl6": "IT-LU",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "55100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8438514",
+        "43.8454968",
+        "10.5041207",
+        "10.5052299"
+      ]
+    }
+  ]
+}

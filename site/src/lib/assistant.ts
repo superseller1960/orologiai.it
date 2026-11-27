@@ -1,8 +1,11 @@
 import { z } from 'zod';
+import anagrafica from '../../../data/anagrafica/comuni-italia.json';
 import type { Business, Directory } from './schema.ts';
 import { businessTypes, isUsableCoordinate, services, specializations, statuses } from './schema.ts';
 import { REGIONI_ITALIA } from './geo.ts';
 import { normalize, searchDirectory, type SearchFilters } from './search.ts';
+import { evidenzaServizio, motiviPerRichiesta, servizioDocumentato, servizioSoloInterno, SERVIZI_TECNICI_DA_PROVARE } from './recommendations.ts';
+import { fraseEvidenza } from './evidenze.ts';
 
 // Limiti di input: il messaggio dell'utente è un dato non attendibile e viene sempre misurato.
 export const MAX_MESSAGGIO = 500;
@@ -32,6 +35,8 @@ export const criteriSchema = z.object({
   distanzaMaxKm: z.number().positive().max(500).optional(),
   apertoOggi: z.literal(true).optional(),
   bisognoPosizione: z.literal(true).optional(),
+  // Natura della richiesta: una domanda tecnica non genera filtri commerciali.
+  intento: z.enum(['tecnica', 'ricerca', 'servizio', 'guasto', 'marca-storia', 'aggiornata']).optional(),
 }).strict();
 export type Criteri = z.infer<typeof criteriSchema>;
 
@@ -79,7 +84,7 @@ const SERVIZI_REGOLE: [RegExp, keyof typeof services][] = [
   [/ restaur/, 'restauro-vintage'],
   [/ valut| stima| quotaz| perizi| quanto vale| far valutare| ereditat.*valut/, 'valutazioni'],
   [/ impermeabil| prova sub| tenuta| prende acqua| entra acqua| entrata acqua| infiltrazion| condensa| appannat| guarnizion/, 'manutenzione'],
-  [/ si ferma| fermat| non funziona| non parte| non tiene il tempo| perde tempo| corre troppo| ritarda| anticipa| bloccato| rotto| caduto| urto| cronografo.*ripar| ripar.*cronografo| ripar| guast| aggiust| sistemar/, 'riparazione'],
+  [/ si ferma| fermat| non funziona| non parte| non tiene il tempo| perde tempo| perde (?:dieci|cinque|molti|\d+)\s+(?:minuti|secondi)| guadagna (?:tempo|minuti|secondi)| non tiene l ora| corre troppo| ritarda| anticipa| va avanti| va indietro| bloccato| rotto| caduto| urto| cronografo.*ripar| ripar.*cronografo| ripar| guast| aggiust| sistemar/, 'riparazione'],
   [/ manutenz| controll/, 'manutenzione'],
 ];
 const SPECIALIZZAZIONI_REGOLE: [RegExp, (typeof specializations)[number]][] = [
@@ -110,19 +115,37 @@ const SERVIZI_TECNICI = new Set<keyof typeof services>([
 // Preposizioni che introducono una località; il nome può essere digitato anche in minuscolo.
 // La preposizione "di" è esclusa: "numero di telefono", "prima di venderlo" non sono località.
 const LOCALITA_RE = /\b(?:a|ad|in|vicino a|nei pressi di|nelle vicinanze di)\s+([\p{L}][\p{L}'’-]+(?:\s+[\p{L}'’-]+)?)/iu;
+// Componenti dell'orologio: «ancora», «ponte», «cassa», «ruota» non sono località italiane.
+// Servono a non trasformare «scappamento ad ancora» in una ricerca ad Ancona o a una città inesistente.
+const COMPONENTI_OROLOGERIA = new Set([
+  'ancora', 'corona', 'ponte', 'ruota', 'cassa', 'movimento', 'bilanciere', 'bariletto', 'rotore', 'scappamento',
+  'quadrante', 'lancetta', 'lancette', 'sfere', 'ghiera', 'lunetta', 'molla', 'spirale', 'vetro', 'cristallo',
+  'platina', 'rubino', 'tige', 'pulsante', 'pulsanti', 'cinturino', 'bracciale', 'fibbia', 'carica', 'calibro',
+  'meccanismo', 'ingranaggio', 'perno', 'asse', 'soneria', 'timone', 'pendolo', 'battito', 'datario', 'cronografo',
+]);
 const NON_LOCALITA = new Set([
   'me', 'qui', 'un', 'una', 'uno', 'il', 'lo', 'la', 'gli', 'le',
   'oro', 'acciaio', 'titanio', 'argento', 'platino', 'bronzo',
   'batteria', 'batterie', 'carica', 'polso', 'tasca', 'quarzo', 'automatico', 'meccanico', 'cronografo',
   'vintage', 'lusso', 'orologio', 'orologi', 'riparazione', 'revisione', 'tagliando', 'cinturino', 'cinturini',
-  'notte', 'giorno', 'acqua', 'vetro', 'ereditato', 'casa', 'zona',
+  'notte', 'giorno', 'acqua', 'vetro', 'ereditato', 'casa', 'zona', 'provincia', 'regione',
 ]);
+
+// Riconosce solo denominazioni ISTAT univoche: gli omonimi non ricevono un territorio arbitrario.
+function comuneIstat(nome: string) {
+  const trovati = anagrafica.comuni.filter(c => normalize(c[0]) === normalize(nome));
+  return trovati.length === 1 ? trovati[0] : undefined;
+}
 
 export function interpretaRichiesta(messaggio: string, dir: Directory): Interpretazione {
   const original = messaggio.trim();
   const t = padded(original);
   const criteri: Criteri = {};
   const chiarimenti: string[] = [];
+  // Il contesto della frase decide prima delle parole: una domanda su come funziona un componente
+  // non è una richiesta di un orologiaio in una città chiamata come il componente.
+  const richiestaOperativa = /\b(?:cerco|trova|trovare|dove|chi (?:pu[oò]|ripara)|riparare|riparazione|revisione|revisionare|assistenza|sostituzione|cambio|sostituire|preventivo|appuntamento)\b/i.test(t);
+  const informativaTecnica = /\bcome funziona|\bcome funzionano|\bche cos e|\bche cos'?è|\bche cosa (?:fa|fanno)\b|\bcosa fa\b|\ba che (?:cosa )?serve|\ba cosa serve|\bcosa significa|\bdifferenza\b|\bcome si (?:regola|carica|mantiene|smonta)|\bperch[eé] (?:si|un|una)\b/i.test(t) && !richiestaOperativa;
 
   // Marchi: nomi presenti nel database, non elenco preimpostato.
   const marche = [...new Set(dir.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)))];
@@ -147,12 +170,17 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   let perComuni = t;
   for (const nome of nomiComposti) perComuni = perComuni.replace(new RegExp(` ${escapeRe(nome)} `, 'g'), ' ');
   const comuni = [...dir.localita].sort((a, b) => b.comune.length - a.comune.length);
+  // Il nome amministrativo può contenere «di» («Reggio di Calabria»): se la forma senza «di» compare nel testo, il comune è riconosciuto.
   const comune = comuni.find(p => has(perComuni, new RegExp(` ${escapeRe(normalize(p.comune))} `)))
+    ?? comuni.find(p => normalize(p.comune).includes(' di ') && has(t, new RegExp(` ${escapeRe(normalize(p.comune).replace(/ di /g, ' '))} `)))
     ?? comuni.find(p => {
       const primo = normalize(p.comune).split(' ')[0] ?? '';
       return primo.length >= 5 && !['colle', 'bagno', 'poggio', 'sesto', 'san', 'monte', 'castel'].includes(primo) && has(perComuni, new RegExp(` ${escapeRe(primo)} `));
     });
-  if (comune) criteri.localita = comune.id;
+  // Una provincia richiesta esplicitamente non è il comune capoluogo omonimo.
+  const provinciaEsplicita = dir.localita.find(p => has(t, new RegExp(` provincia (?:di |del |della )?${escapeRe(normalize(p.provincia))} `)));
+  if (provinciaEsplicita) criteri.provincia = provinciaEsplicita.provinciaSlug;
+  else if (comune) criteri.localita = comune.id;
   else {
     // «a <nome>» indica una città esplicita, salvo che il nome sia un territorio composto già
     // censito (es. «a Valle d'Aosta» è una regione, non una località sconosciuta).
@@ -164,16 +192,18 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
       r.alias.some(al => has(t, new RegExp(` ${escapeRe(normalize(al))} `))) ||
       has(t, new RegExp(` ${escapeRe(normalize(r.nome))} `)),
     );
-    if (!cittaEsplicita && prov) criteri.provincia = prov.provinciaSlug;
-    else if (!cittaEsplicita && regDb) criteri.regione = regDb.regioneSlug;
+    // La regione precede la provincia: «in Valle d'Aosta» è il territorio regionale,
+    // non la provincia omonima che coincide con essa.
+    if (!cittaEsplicita && regDb) criteri.regione = regDb.regioneSlug;
     else if (!cittaEsplicita && regItalia) criteri.regione = regItalia.slug;
+    else if (!cittaEsplicita && prov) criteri.provincia = prov.provinciaSlug;
   }
-  if (!comune && !criteri.provincia && !criteri.regione) {
+  if (!informativaTecnica && !comune && !criteri.provincia && !criteri.regione) {
     const m = LOCALITA_RE.exec(original);
     const prima = m ? original.slice(0, m.index) : '';
     const descriveCompetenza = /(?:esperto|esperienza|specializzato|specialista)\s*$/iu.test(prima);
     const nome = m?.[1].split(/\s+(?:per|con|che|oppure|e|durante|quando|prima|dopo)\b/iu)[0].trim();
-    if (nome && !descriveCompetenza && !has(t, / tutta italia | in italia | ovunque /) && !NON_LOCALITA.has(normalize(nome).split(' ')[0]) && !(marca && normalize(nome).includes(normalize(marca)))) {
+    if (nome && !descriveCompetenza && !has(t, / tutta italia | in italia | ovunque /) && !NON_LOCALITA.has(normalize(nome).split(' ')[0]) && !COMPONENTI_OROLOGERIA.has(normalize(nome).split(' ')[0]) && !(marca && normalize(nome).includes(normalize(marca)))) {
       // Non è una località già nota: segnalo che non risulta censita (non la ignoro).
       criteri.localitaNonCensita = nome;
     }
@@ -227,6 +257,15 @@ export function interpretaRichiesta(messaggio: string, dir: Directory): Interpre
   if (criteri.terminiNonRiconosciuti) chiarimenti.push(`Non riconosco “${criteri.terminiNonRiconosciuti.join('”, “')}” tra le località, le marche o i servizi censiti.`);
   if (criteri.bisognoPosizione) chiarimenti.push('Indica una città o un indirizzo, oppure concedi la posizione per cercare vicino a te.');
   if (!haCriteri(criteri)) chiarimenti.push('Indica un servizio, una marca o una località, per esempio “revisione a Firenze”.');
+  // Domanda informativa: «come funziona il rotore» non è una richiesta d'intervento.
+  // Il testo può contenere parole tecniche (rotore, scappamento, ancora): non bastano ad attivare un filtro,
+  // e nessuna di esse può diventare una località non censita.
+  if (informativaTecnica) {
+    delete criteri.servizio;
+    delete criteri.tipo;
+    delete criteri.specializzazione;
+    delete criteri.distanzaMaxKm;
+  }
   return { criteri: criteriSchema.parse(criteri), chiarimenti };
 }
 
@@ -242,6 +281,19 @@ export function combinaCriteri(precedenti: Criteri, nuovi: Criteri, messaggio = 
   const t = padded(messaggio);
   const criteri: Criteri = has(t, / ricomincia| ripartiamo| nuova ricerca| azzera/) ? {} : { ...precedenti };
   const territorio = ['localita', 'provincia', 'regione', 'localitaNonCensita', 'bisognoPosizione'] as const;
+  // L'assenso deve indicare l'area da ampliare, o rispondere affermativamente all'offerta precedente.
+  if (precedenti.localitaNonCensita && !territorio.some(k => nuovi[k] !== undefined)) {
+    const c = comuneIstat(precedenti.localitaNonCensita);
+    const esplicito = /\b(?:amplia|allarga|estendi|cerca)\w*\b/.test(t) || /^\s*(?:si|sì|certo|va bene|ok)\s*[.!]?\s*$/i.test(messaggio);
+    if (c && esplicito) {
+      if (/\bregione\b/.test(t)) {
+        const regione = Object.values(REGIONI_ITALIA).find(r => normalize(r.nome) === normalize(c[3]));
+        if (regione) nuovi = { ...nuovi, regione: regione.slug };
+      } else if (/\bprovincia\b/.test(t) || /^\s*(?:si|sì|certo|va bene|ok)\s*[.!]?\s*$/i.test(messaggio)) {
+        nuovi = { ...nuovi, provincia: normalize(c[1]).replace(/\s+/g, '-') };
+      }
+    }
+  }
   if (territorio.some(k => nuovi[k] !== undefined) || has(t, / tutta italia | tutte le regioni | ovunque /)) {
     for (const k of territorio) delete criteri[k];
   }
@@ -314,17 +366,13 @@ export function cercaOrologiaio(
     (criteri.distanzaMaxKm === undefined || (r.distanzaKm !== null && r.distanzaKm <= criteri.distanzaMaxKm)) &&
     (!criteri.apertoOggi || statoOrari(r.business, now) === 'indicato-oggi'),
   );
-  const descriviRisultati = (risultati: ReturnType<typeof searchDirectory>, c = criteri) =>
-    risultati.map(r => descrivi(dir, r.business, c, now, r.distanzaKm));
-  const { localita: _localita, provincia: _provincia, regione: _regione, ...senzaTerritorio } = filtri;
-  const alternativeTerritoriali = () =>
-    (criteri.servizio || criteri.marca || criteri.specializzazione || criteri.tipo)
-      ? descriviRisultati(cerca(senzaTerritorio).slice(0, 3)) : [];
-
   if (criteri.localitaNonCensita) {
-    const alternative = alternativeTerritoriali();
-    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative, messaggi: [
-      `Non ho attività censite per “${criteri.localitaNonCensita}”: la copertura è ancora incompleta. ${alternative.length ? 'Le alternative rispettano gli altri criteri ma sono in altri comuni e potrebbero essere lontane. Senza coordinate sufficienti non posso indicare la distanza.' : 'Puoi ampliare la ricerca o segnalare un’attività nella zona.'}`,
+    const comune = comuneIstat(criteri.localitaNonCensita);
+    const invito = comune
+      ? `Secondo ISTAT il comune è in provincia di ${comune[1]}, ${comune[3]}. Vuoi ampliare la ricerca alla provincia di ${comune[1]} o alla regione ${comune[3]}?`
+      : 'Non posso determinare provincia o regione con certezza: indica tu l’area in cui ampliare la ricerca.';
+    return { stato: 'localita-non-censita', totale: 0, risultati: [], alternative: [], messaggi: [
+      `Non ho attività censite nel comune di “${criteri.localitaNonCensita}”: la copertura è ancora incompleta. ${invito}`,
     ] };
   }
   if (!haCriteri(criteri)) {
@@ -370,6 +418,15 @@ export function cercaOrologiaio(
   }
 
 
+  // Il servizio è un dato con fonti: chi lo elenca resta un risultato. Se il riepilogo non lo
+  // descrive, il visitatore viene avvisato di verificare la fonte, senza esclusioni silenziose.
+  if (criteri.servizio && SERVIZI_TECNICI_DA_PROVARE.includes(criteri.servizio)) {
+    const senzaDescrizione = trovate.filter(r => !servizioDocumentato(dir, r.business, criteri.servizio as keyof typeof services));
+    if (senzaDescrizione.length) {
+      messaggi.push(`Per ${senzaDescrizione.length} ${senzaDescrizione.length === 1 ? 'attività' : 'attività'} «${services[criteri.servizio]}» è indicato nella scheda, ma il testo della fonte non è stato recuperato: il servizio resta da confermare con l’attività.`);
+    }
+  }
+
   const risultati = trovate.slice(0, limite).map(r => descrivi(dir, r.business, criteri, now, r.distanzaKm));
 
   // Autorizzazioni ufficiali o alternative pertinenti: sempre chiaramente distinte dai risultati esatti.
@@ -403,14 +460,14 @@ export function cercaOrologiaio(
       }
     };
     if (criteri.specializzazione && (criteri.servizio || criteri.marca || criteri.localita)) {
-      aggiungi(searchDirectory(dir, { ...filtri, specializzazione: undefined }), `Non documenta la specializzazione “${criteri.specializzazione}”, ma risponde agli altri criteri.`);
+      aggiungi(cerca({ ...filtri, specializzazione: undefined }), `Non documenta la specializzazione “${criteri.specializzazione}”, ma risponde agli altri criteri.`);
     }
     if (criteri.tipo && (criteri.servizio || criteri.marca || criteri.localita)) {
-      aggiungi(searchDirectory(dir, { ...filtri, tipo: undefined }), `Non ha tipologia “${criteri.tipo}”, ma offre il servizio richiesto.`);
+      aggiungi(cerca({ ...filtri, tipo: undefined }), `Non ha tipologia “${criteri.tipo}”, ma offre il servizio richiesto.`);
     }
     if (criteri.servizio === 'revisione') {
       const PlaceFilter = { ...filtri, servizio: 'riparazione' as const, specializzazione: undefined, tipo: undefined };
-      aggiungi(searchDirectory(dir, PlaceFilter), 'Documenta riparazione e manutenzione, ma non elenca separatamente la voce “Revisione”.');
+      aggiungi(cerca(PlaceFilter), 'Documenta riparazione e manutenzione, ma non elenca separatamente la voce “Revisione”.');
     }
     // Servizi affini: se la voce richiesta (es. pendoleria) non è elencata in zona, proponiamo
     // chi documenta un intervento collegato, dichiarando esplicitamente la differenza.
@@ -418,25 +475,16 @@ export function cercaOrologiaio(
     if (servizioRichiesto) {
       for (const affine of SERVIZI_AFFINI[servizioRichiesto] ?? []) {
         aggiungi(
-          searchDirectory(dir, { ...filtri, servizio: affine, specializzazione: undefined, tipo: undefined }),
+          cerca({ ...filtri, servizio: affine, specializzazione: undefined, tipo: undefined }),
           `Non elenca la voce “${services[servizioRichiesto]}”, ma documenta “${services[affine]}” nella zona richiesta.`,
         );
       }
     }
     if (criteri.marca && (criteri.servizio || criteri.localita)) {
       aggiungi(
-        searchDirectory(dir, { ...filtri, marca: undefined, ruoloMarca: undefined }),
+        cerca({ ...filtri, marca: undefined, ruoloMarca: undefined }),
         `Offre il servizio richiesto nella località indicata, ma non elenca specificamente il marchio ${criteri.marca} nelle fonti.`,
       );
-    }
-    if (criteri.localita && (criteri.servizio || criteri.marca)) {
-      const loc = dir.localita.find(p => p.id === criteri.localita);
-      if (loc) {
-        aggiungi(
-          searchDirectory(dir, { ...filtri, localita: undefined, provincia: loc.provinciaSlug }),
-          `Si trova nella provincia di ${loc.provincia} (fuori dal comune di ${loc.comune}).`,
-        );
-      }
     }
     for (const { voce, nota } of candidatiAlt) {
       if (alternative.length >= 3) break;
@@ -447,26 +495,20 @@ export function cercaOrologiaio(
     }
   }
 
-  // Fallback di territorio: senza risultati né alternative pertinenti, allarghiamo la sola località.
-  // Le opzioni proposte sono in altri comuni censiti e vengono dichiarate come possibilmente lontane.
-  let alternativeFuoriComune = false;
-  if (trovate.length === 0 && alternative.length === 0 && (criteri.localita || criteri.provincia || criteri.regione)) {
-    alternative = alternativeTerritoriali();
-    alternativeFuoriComune = alternative.length > 0;
-  }
-
   if (trovate.length === 0) {
-    messaggi.push(
-      alternativeFuoriComune
-        ? 'Nessuna attività soddisfa tutti i criteri in questa località. Le opzioni sotto sono in altri comuni censiti e potrebbero essere lontane.'
-        : alternative.length > 0
-          ? 'Nessuna attività soddisfa contemporaneamente tutti i criteri esatti; sotto trovi le alternative più vicine per competenza o territorio.'
-          : 'Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.',
-    );
+    messaggi.push(alternative.length > 0
+      ? 'Nessuna attività soddisfa contemporaneamente tutti i criteri esatti; sotto trovi alternative per competenza da verificare.'
+      : 'Nessuna attività soddisfa tutti i criteri. Prova a rimuovere un requisito o a cercare in un’area più ampia.');
   }
   if (trovate.length > limite) messaggi.push(`Mostro ${limite} risultati su ${trovate.length}. Aggiungi un criterio per restringere la ricerca.`);
 
   return { stato: trovate.length === 0 ? 'nessun-risultato' : 'ok', totale: trovate.length, risultati, alternative, messaggi };
+}
+
+// Conteggio delle fonti in italiano corretto: "1 fonte", "2 fonti", e mai "0 fonti" come prova.
+export function etichettaFonti(n: number): string {
+  if (n <= 0) return 'nessuna fonte registrata';
+  return n === 1 ? '1 fonte' : `${n} fonti`;
 }
 
 function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, distanzaKm: number | null = null): RisultatoAttivita {
@@ -475,7 +517,19 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
   const comune = dir.localita.find(p => p.id === b.localitaId)?.comune ?? b.localitaId;
   if (criteri.servizio) {
     const s = b.servizi.find(x => x.id === criteri.servizio);
-    if (s) motivi.push(`Offre “${services[s.id]}”, documentato da ${s.fonti.length} fonte/i.`);
+    if (s) {
+      // Se la fonte è stata consultata, il motivo è la sua frase; altrimenti il conteggio delle fonti.
+      const evidenza = s.fonti.length > 0 ? evidenzaServizio(b, s.id) : undefined;
+      // Fase 43: un servizio solo elencato non viene descritto come offerto o documentato.
+      const soloInterno = servizioSoloInterno(b, s.id);
+      // Fase 44: senza una citazione verificata non si scrive «Offre». Un URL registrato nella
+      // scheda non è una prova: il servizio resta indicato e va confermato con l'attività.
+      motivi.push(evidenza
+        ? fraseEvidenza(evidenza, 140, s.id)
+        : soloInterno
+          ? `Elenca “${services[s.id]}”: la fonte descrive solo una lavorazione interna, non un servizio al cliente. Verifica direttamente.`
+          : `Elenca “${services[s.id]}”: servizio indicato nella scheda, da confermare con l’attività.`);
+    }
   }
   if (criteri.marca) {
     if (criteri.ruoloMarca && criteri.ruoloMarca !== 'qualsiasi') {
@@ -491,7 +545,7 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
       }
     }
   }
-  if (criteri.tipo) motivi.push(`Tipologia dichiarata: ${criteri.tipo}.`);
+  if (criteri.tipo && b.tipi.includes(criteri.tipo)) motivi.push(`Tipologia dichiarata: ${criteri.tipo}.`);
   if (criteri.specializzazione && b.specializzazioni.some(s => s.id === criteri.specializzazione)) {
     motivi.push(`Specializzazione documentata: ${criteri.specializzazione}.`);
   }
@@ -502,6 +556,14 @@ function descrivi(dir: Directory, b: Business, criteri: Criteri, now: Date, dist
   if (!b.posizione.coordinate && distanzaKm === null && (criteri.bisognoPosizione || criteri.distanzaMaxKm)) {
     attenzione.push('Posizione non disponibile per il calcolo della distanza.');
   }
+  // Motivazioni specifiche con la fonte citata: nessun giudizio, nessun punteggio.
+  for (const motivo of motiviPerRichiesta(dir, b, {
+    servizio: criteri.servizio, marca: criteri.marca, tipo: criteri.tipo,
+    specializzazione: criteri.specializzazione, localita: criteri.localita, cap: criteri.cap,
+  })) {
+    if (!motivi.includes(motivo.testo) && !attenzione.includes(motivo.testo)) motivi.push(motivo.testo);
+  }
+
   return {
     id: b.id,
     nome: b.nome,
@@ -526,13 +588,22 @@ export function cercaConContesto(
   dir: Directory,
   criteriUniti: Criteri,
   criteriNuovi: Criteri,
-  opzioni: { origine?: { lat: number; lon: number }; now?: Date; limite?: number } = {},
-): { criteri: Criteri; esito: EsitoRicerca; daSoliNuoviCriteri: boolean } {
+  opzioni: { origine?: { lat: number; lon: number }; now?: Date; limite?: number; precedenti?: Criteri } = {},
+): { criteri: Criteri; esito: EsitoRicerca; daSoliNuoviCriteri: boolean; contestoPrecedente: boolean } {
   const esito = cercaOrologiaio(dir, criteriUniti, opzioni);
-  if (esito.stato !== 'nessun-risultato' || !haCriteri(criteriNuovi)) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false };
+  // Il ripiego scatta anche al primo messaggio se l'interpretazione del modello è troppo stretta,
+  // ma "contestoPrecedente" dice se esisteva davvero una richiesta precedente da cui ereditare:
+  // solo in quel caso la chat può parlarne all'utente.
+  const contestoPrecedente = haCriteri(opzioni.precedenti ?? {});
+  if (esito.stato !== 'nessun-risultato' || !haCriteri(criteriNuovi)) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false, contestoPrecedente };
+  // Non perdere mai un territorio ereditato quando il nuovo messaggio aggiunge solo un servizio.
+  const territorio = ['localita', 'provincia', 'regione', 'localitaNonCensita', 'bisognoPosizione'] as const;
+  if (territorio.some(k => criteriUniti[k] !== undefined) && !territorio.some(k => criteriNuovi[k] !== undefined)) {
+    return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false, contestoPrecedente };
+  }
   const soloNuovi = cercaOrologiaio(dir, criteriNuovi, opzioni);
-  if (soloNuovi.stato !== 'ok' || soloNuovi.risultati.length === 0) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false };
-  return { criteri: criteriNuovi, esito: soloNuovi, daSoliNuoviCriteri: true };
+  if (soloNuovi.stato !== 'ok' || soloNuovi.risultati.length === 0) return { criteri: criteriUniti, esito, daSoliNuoviCriteri: false, contestoPrecedente };
+  return { criteri: criteriNuovi, esito: soloNuovi, daSoliNuoviCriteri: true, contestoPrecedente };
 }
 
 // Interfaccia del provider AI. Il provider restituisce una breve risposta conversazionale
@@ -542,10 +613,24 @@ export interface AssistantProvider {
 }
 
 export type OrigineInterpretazione = 'provider' | 'deterministica';
-export type RisultatoInterpretazione = Interpretazione & { origine: OrigineInterpretazione; avviso: string | null; risposta: string | null };
+export type RisultatoInterpretazione = Interpretazione & {
+  origine: OrigineInterpretazione; avviso: string | null; risposta: string | null;
+  // Servizio suggerito dal modello per la richiesta, se pertinente.
+  consiglio: keyof typeof services | null;
+};
 
 // Out del provider: la risposta è opzionale e con un tetto preciso; i criteri sono validati da criteriSchema.
-const providerOutputSchema = z.looseObject({ risposta: z.string().min(1).max(500).nullable().optional() });
+const providerOutputSchema = z.looseObject({
+  risposta: z.string().min(1).max(500).nullable().optional(),
+  // Suggerimento di filtro: deve essere un servizio del catalogo o assente.
+  consiglioServizio: z.enum(serviceIds).nullable().optional(),
+  intento: z.enum(['tecnica', 'ricerca', 'servizio', 'guasto', 'marca-storia', 'aggiornata']).optional(),
+});
+
+// Criteri che il provider non può introdurre: valgono solo se letti dal messaggio o ereditati dal contesto.
+const FILTRI_SOLO_ESPLICITI = [
+  'servizio', 'tipo', 'specializzazione', 'cap', 'distanzaMaxKm', 'apertoOggi', 'ruoloMarca', 'bisognoPosizione',
+] as const satisfies readonly (keyof Criteri)[];
 
 // Il provider propone criteri; questa funzione li valida e li riduce ai valori esistenti nel database.
 export async function interpretaConProvider(
@@ -564,7 +649,7 @@ export async function interpretaConProvider(
     );
     return { criteri, chiarimenti };
   };
-  if (!provider) return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.', risposta: null };
+  if (!provider) return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Assistente AI non configurato: uso la ricerca interpretata localmente.', risposta: null, consiglio: null };
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -575,11 +660,13 @@ export async function interpretaConProvider(
     ]);
     const out = providerOutputSchema.safeParse(raw);
     if (!out.success) throw new Error('risposta malformata');
-    const { risposta, ...criteriOu } = out.data;
+    const { risposta, consiglioServizio, intento, ...criteriOu } = out.data;
     const parsed = criteriSchema.safeParse(criteriOu);
     if (!parsed.success) throw new Error('risposta malformata');
     const c = parsed.data;
     const ammessi: Criteri = { ...c };
+    // Il modello non aggiunge filtri restrittivi: restano solo quelli del parser o del contesto esplicito.
+    for (const k of FILTRI_SOLO_ESPLICITI) delete ammessi[k];
     // Ancoraggio: il modello può indicare una città solo se è stata letta nel messaggio o nel contesto.
     const ancorata = c.localita === locale.criteri.localita || c.localita === contesto?.localita;
     const censita = dir.localita.some(p => p.id === c.localita);
@@ -588,6 +675,15 @@ export async function interpretaConProvider(
     } else if (c.localita && !censita) {
       delete ammessi.localita;
       ammessi.localitaNonCensita = c.localita;
+    }
+    // Il modello non può scegliere territori non richiesti: solo parser e contesto li ancorano.
+    if (c.provincia !== locale.criteri.provincia && c.provincia !== contesto?.provincia) delete ammessi.provincia;
+    if (c.regione !== locale.criteri.regione && c.regione !== contesto?.regione) delete ammessi.regione;
+    if (locale.criteri.localitaNonCensita) {
+      delete ammessi.localita;
+      delete ammessi.provincia;
+      delete ammessi.regione;
+      ammessi.localitaNonCensita = locale.criteri.localitaNonCensita;
     }
     const sconosciuti = [...(c.terminiNonRiconosciuti ?? [])];
     if (c.provincia && !dir.localita.some(p => p.provinciaSlug === c.provincia)) {
@@ -606,9 +702,22 @@ export async function interpretaConProvider(
       sconosciuti.push(c.marca);
     }
     if (sconosciuti.length) ammessi.terminiNonRiconosciuti = [...new Set(sconosciuti)].slice(0, 3);
-    return { ...risolvi({ ...locale.criteri, ...ammessi }), origine: 'provider', avviso: null, risposta: risposta ?? null };
+    const chiaviTerritorio = ['localita', 'provincia', 'regione', 'localitaNonCensita', 'bisognoPosizione'] as const;
+    const territorioEsplicito = chiaviTerritorio.some(k => locale.criteri[k] !== undefined);
+    const allargamento = contesto?.localitaNonCensita && (/\b(?:amplia|allarga|estendi|cerca)\w*\b/.test(padded(messaggio)) || /^\s*(?:si|sì|certo|va bene|ok)\s*[.!]?\s*$/i.test(messaggio));
+    if (territorioEsplicito || allargamento) for (const k of chiaviTerritorio) delete ammessi[k];
+    // Domanda tecnica o informativa: nessun filtro commerciale e nessun suggerimento di servizio,
+    // salvo che l'utente abbia chiesto esplicitamente un intervento nelle proprie parole.
+    const informativa = intento === 'tecnica' || intento === 'marca-storia' || intento === 'aggiornata';
+    if (informativa && !locale.criteri.servizio) delete ammessi.servizio;
+    const risolto = risolvi({ ...locale.criteri, ...ammessi });
+    return {
+      ...risolto, origine: 'provider', avviso: null,
+      risposta: risolto.criteri.localitaNonCensita ? null : risposta ?? null,
+      consiglio: informativa ? null : consiglioServizio ?? null,
+    };
   } catch {
-    return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.', risposta: null };
+    return { ...risolvi(locale.criteri), origine: 'deterministica', avviso: 'Il servizio di interpretazione non ha risposto correttamente: uso la ricerca interpretata localmente.', risposta: null, consiglio: null };
   } finally {
     clearTimeout(timer);
   }

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Mazzini+3%2C+Belluno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 69627638,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 66058618,
+      "lat": "46.1394362",
+      "lon": "12.2183506",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339722209506367,
+      "addresstype": "residential",
+      "name": "Piazza Giuseppe Mazzini",
+      "display_name": "Piazza Giuseppe Mazzini, Borgo Prà, Castion, Belluno, Veneto, 32100, Italia",
+      "address": {
+        "road": "Piazza Giuseppe Mazzini",
+        "neighbourhood": "Borgo Prà",
+        "village": "Castion",
+        "town": "Belluno",
+        "county": "Belluno",
+        "ISO3166-2-lvl6": "IT-BL",
+        "state": "Veneto",
+        "ISO3166-2-lvl4": "IT-34",
+        "postcode": "32100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.1393318",
+        "46.1395625",
+        "12.2179845",
+        "12.2187082"
+      ]
+    }
+  ]
+}

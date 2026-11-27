@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+della+Resistenza%2C+6%2Fc%2C+Scandicci%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81834688,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 326344237,
+      "lat": "43.7581736",
+      "lon": "11.1816702",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05339198367284653,
+      "addresstype": "pedestrian",
+      "name": "Piazzale della Resistenza",
+      "display_name": "Piazzale della Resistenza, Vingone, Casellina, Scandicci, Firenze, Toscana, 50018, Italia",
+      "address": {
+        "road": "Piazzale della Resistenza",
+        "hamlet": "Vingone",
+        "village": "Casellina",
+        "town": "Scandicci",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50018",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.7577615",
+        "43.7586522",
+        "11.1810610",
+        "11.1823326"
+      ]
+    }
+  ]
+}

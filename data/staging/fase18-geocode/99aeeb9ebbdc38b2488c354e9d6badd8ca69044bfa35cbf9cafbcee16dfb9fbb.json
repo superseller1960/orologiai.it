@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Verdi+6%2C+Cremona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76142076,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2466661508,
+      "lat": "45.3640771",
+      "lon": "9.6843044",
+      "category": "shop",
+      "type": "houseware",
+      "place_rank": 30,
+      "importance": 0.00006250782024867655,
+      "addresstype": "shop",
+      "name": "Stilcasa",
+      "display_name": "Stilcasa, 6, Via Giuseppe Verdi, Crema Nuova, Crema, Cremona, Lombardia, 26013, Italia",
+      "address": {
+        "shop": "Stilcasa",
+        "house_number": "6",
+        "road": "Via Giuseppe Verdi",
+        "suburb": "Crema Nuova",
+        "town": "Crema",
+        "city": "Crema",
+        "county": "Cremona",
+        "ISO3166-2-lvl6": "IT-CR",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "26013",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3640271",
+        "45.3641271",
+        "9.6842544",
+        "9.6843544"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Vittorio+Emanuele+III%2C+197%2C+Vibo+Valentia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56165925,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 171456462,
+      "lat": "38.6739418",
+      "lon": "16.1006647",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.053394525825894525,
+      "addresstype": "pedestrian",
+      "name": "Corso Vittorio Emanuele III",
+      "display_name": "Corso Vittorio Emanuele III, Carmine, Vibo Valentia, Calabria, 89900, Italia",
+      "address": {
+        "road": "Corso Vittorio Emanuele III",
+        "neighbourhood": "Carmine",
+        "town": "Vibo Valentia",
+        "county": "Vibo Valentia",
+        "ISO3166-2-lvl6": "IT-VV",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "89900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.6730663",
+        "38.6748787",
+        "16.0980234",
+        "16.1033265"
+      ]
+    }
+  ]
+}

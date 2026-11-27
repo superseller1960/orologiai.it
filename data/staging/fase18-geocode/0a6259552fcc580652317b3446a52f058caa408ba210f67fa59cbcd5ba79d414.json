@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Roma%2C+13%2C+Brindisi%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56671708,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7403312852,
+      "lat": "40.6363916",
+      "lon": "17.9453657",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006635919737540272,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "13, Corso Roma, Centro, Brindisi, Puglia, 72100, Italia",
+      "address": {
+        "house_number": "13",
+        "road": "Corso Roma",
+        "suburb": "Centro",
+        "city": "Brindisi",
+        "county": "Brindisi",
+        "ISO3166-2-lvl6": "IT-BR",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "72100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.6363416",
+        "40.6364416",
+        "17.9453157",
+        "17.9454157"
+      ]
+    }
+  ]
+}

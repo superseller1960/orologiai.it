@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Mazzini%2C+43%2F45%2C+Cosenza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56329106,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 51017260,
+      "lat": "39.3319223",
+      "lon": "16.1825770",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339482795452808,
+      "addresstype": "residential",
+      "name": "Corso Mazzini",
+      "display_name": "Corso Mazzini, Surdo, Rende, Cosenza, Calabria, 87036, Italia",
+      "address": {
+        "road": "Corso Mazzini",
+        "village": "Surdo",
+        "town": "Rende",
+        "county": "Cosenza",
+        "ISO3166-2-lvl6": "IT-CS",
+        "state": "Calabria",
+        "ISO3166-2-lvl4": "IT-78",
+        "postcode": "87036",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.3314465",
+        "39.3322200",
+        "16.1816665",
+        "16.1835274"
+      ]
+    }
+  ]
+}

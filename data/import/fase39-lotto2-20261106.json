@@ -1,0 +1,411 @@
+{
+  "lotto": "fase39-lotto2-20261106",
+  "data": "2026-11-06",
+  "fonti": [
+    {
+      "id": "f39-watch-clock-milano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.watcheclock.com/it/",
+      "titolo": "Watch & Clock — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: sito ufficiale dell'attività"
+    },
+    {
+      "id": "f39-breitling-roma",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.breitling.com/it-it/stores/breitling-boutiques/it/breitling-boutique-roma/",
+      "titolo": "Breitling — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: sito ufficiale dell'attività"
+    },
+    {
+      "id": "f39-mirolli-follonica",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamirolli.it/",
+      "titolo": "Mirolli — sito ufficiale",
+      "consultataIl": "2026-11-06",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale consultata il 2026-11-06: sito ufficiale dell'attività"
+    }
+  ],
+  "localita": [],
+  "candidati": [
+    {
+      "id": "watch-clock-milano",
+      "nome": "Watch & Clock",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-watch-clock-milano"
+      ],
+      "attivita": {
+        "id": "watch-clock-milano",
+        "slug": "watch-clock-milano",
+        "nome": "Watch & Clock",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Watch & Clock è un'attività di orologeria a Milano (MI). La fonte ufficiale consultata documenta movimenti meccanici, orologi automatici, orologi al quarzo, cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Largo Settimio Severo 3",
+          "cap": "20144",
+          "coordinate": null,
+          "fonti": [
+            "f39-watch-clock-milano"
+          ]
+        },
+        "contatti": {
+          "telefono": "+390248011635",
+          "email": null,
+          "sito": "https://www.watcheclock.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-watch-clock-milano"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "riparazione-automatici",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [
+          {
+            "id": "automatici",
+            "fonti": [
+              "f39-watch-clock-milano"
+            ]
+          }
+        ],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-watch-clock-milano"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-watch-clock-milano"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Watch & Clock"
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio interno indicato dalla fonte ufficiale dell'attività.",
+          "fonti": [
+            "f39-watch-clock-milano"
+          ]
+        }
+      }
+    },
+    {
+      "id": "breitling-roma",
+      "nome": "Breitling",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-breitling-roma"
+      ],
+      "attivita": {
+        "id": "breitling-roma",
+        "slug": "breitling-roma",
+        "nome": "Breitling",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Breitling è un'attività di orologeria a Roma (RM). La fonte ufficiale consultata documenta cinturini, assistenza, vendita.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via del Babuino 61",
+          "cap": "00187",
+          "coordinate": null,
+          "fonti": [
+            "f39-breitling-roma"
+          ]
+        },
+        "contatti": {
+          "telefono": "+390691519104",
+          "email": null,
+          "sito": "https://www.breitling.com/it-it/stores/breitling-boutiques/it/breitling-boutique-roma/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-breitling-roma"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f39-breitling-roma"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f39-breitling-roma"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-breitling-roma"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-breitling-roma"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-breitling-roma"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Breitling"
+        }
+      }
+    },
+    {
+      "id": "mirolli-follonica",
+      "nome": "Mirolli",
+      "decisione": "approvata",
+      "motivo": "Fonte ufficiale verificata il 2026-11-06 (HTTP 200, citazione presente nella pagina).",
+      "fonti": [
+        "f39-mirolli-follonica"
+      ],
+      "attivita": {
+        "id": "mirolli-follonica",
+        "slug": "mirolli-follonica",
+        "nome": "Mirolli",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Mirolli è un'attività di orologeria a Follonica (GR). La fonte ufficiale consultata documenta valutazioni, assistenza, vendita, orologi usati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "follonica",
+        "posizione": {
+          "indirizzo": "Via Roma 11",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f39-mirolli-follonica"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.gioielleriamirolli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f39-mirolli-follonica"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f39-mirolli-follonica"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f39-mirolli-follonica"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f39-mirolli-follonica"
+            ]
+          },
+          {
+            "id": "vendita-usati",
+            "fonti": [
+              "f39-mirolli-follonica"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f39-mirolli-follonica"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-06",
+          "verificataIl": "2026-11-06",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f39-mirolli-follonica"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-06",
+              "azione": "Scheda creata dopo la consultazione dal vivo del sito ufficiale (Fase 39).",
+              "fonti": [
+                "f39-mirolli-follonica"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase39-verifica-fonte",
+          "idOriginale": "Mirolli"
+        }
+      }
+    }
+  ]
+}

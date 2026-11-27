@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Matteotti+78%2C+Siracusa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53532981,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4354397775,
+      "lat": "37.0632222",
+      "lon": "15.2928558",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00003750133516437045,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "78, Corso Giacomo Matteotti, Ortigia, Siracusa, Sicilia, 96100, Italia",
+      "address": {
+        "house_number": "78",
+        "road": "Corso Giacomo Matteotti",
+        "quarter": "Ortigia",
+        "city": "Siracusa",
+        "county": "Siracusa",
+        "ISO3166-2-lvl6": "IT-SR",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "96100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.0631722",
+        "37.0632722",
+        "15.2928058",
+        "15.2929058"
+      ]
+    }
+  ]
+}

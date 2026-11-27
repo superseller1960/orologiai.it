@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Cavour+30%2C+Lecco%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75502209,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5017651072,
+      "lat": "45.8540182",
+      "lon": "9.3908349",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00006445029373612599,
+      "addresstype": "shop",
+      "name": "De Pascalis",
+      "display_name": "De Pascalis, 30, Via Camillo Benso Conte di Cavour, Santo Stefano, Castello, Lecco, Lombardia, 23900, Italia",
+      "address": {
+        "shop": "De Pascalis",
+        "house_number": "30",
+        "road": "Via Camillo Benso Conte di Cavour",
+        "quarter": "Santo Stefano",
+        "suburb": "Castello",
+        "city": "Lecco",
+        "county": "Lecco",
+        "ISO3166-2-lvl6": "IT-LC",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "23900",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.8539682",
+        "45.8540682",
+        "9.3907849",
+        "9.3908849"
+      ]
+    }
+  ]
+}

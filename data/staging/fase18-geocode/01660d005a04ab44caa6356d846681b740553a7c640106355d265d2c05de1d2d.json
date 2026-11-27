@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Domenico+Acclavio%2C+38-38%2FB%2C+Taranto%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56385328,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30493745,
+      "lat": "40.4706882",
+      "lon": "17.2418201",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.0533620332646677,
+      "addresstype": "residential",
+      "name": "Via Domenico Acclavio",
+      "display_name": "Via Domenico Acclavio, Tre Carrare, Borgo Umbertino, Taranto, Puglia, 74100, Italia",
+      "address": {
+        "road": "Via Domenico Acclavio",
+        "quarter": "Tre Carrare",
+        "suburb": "Borgo Umbertino",
+        "city": "Taranto",
+        "county": "Taranto",
+        "ISO3166-2-lvl6": "IT-TA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "74100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.4680854",
+        "40.4732994",
+        "17.2409724",
+        "17.2426420"
+      ]
+    }
+  ]
+}

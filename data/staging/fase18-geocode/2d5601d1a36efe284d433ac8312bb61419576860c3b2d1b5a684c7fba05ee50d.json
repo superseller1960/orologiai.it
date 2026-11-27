@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Archimede%2C+316%2C+Ragusa%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 54134998,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 226886548,
+      "lat": "36.9206054",
+      "lon": "14.7218658",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0533945593957427,
+      "addresstype": "primary",
+      "name": "Via Archimede",
+      "display_name": "Via Archimede, Cappuccini, Selvaggio, Ragusa, Sicilia, 97100, Italia",
+      "address": {
+        "road": "Via Archimede",
+        "quarter": "Cappuccini",
+        "suburb": "Selvaggio",
+        "city": "Ragusa",
+        "county": "Ragusa",
+        "ISO3166-2-lvl6": "IT-RG",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "97100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "36.9200560",
+        "36.9211113",
+        "14.7211286",
+        "14.7225701"
+      ]
+    }
+  ]
+}

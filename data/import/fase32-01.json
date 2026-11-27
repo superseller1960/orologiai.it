@@ -1,0 +1,2348 @@
+{
+  "lotto": "fase32-01",
+  "data": "2026-11-03",
+  "fonti": [
+    {
+      "id": "f32-orologiaio-zaccaria-angelo-pulsano",
+      "tipo": "sito-ufficiale",
+      "url": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+      "titolo": "Orologiaio Zaccaria Angelo — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Revisione completa di orologi meccanici con regolazione di precisione e sostituzione componenti usurati», riparazione di orologi vintage e manutenzione degli automatici; Via Roma 46, 74026 Pulsano, telefono +39 347 4396566."
+    },
+    {
+      "id": "f32-officina4-watchmaking-merano",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.officina4.com/IT---OFFICINA-4.html",
+      "titolo": "Officina4 Watchmaking — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale: «Officina4 Watchmaking è il negozio specializzato in orologeria a Merano per l'assistenza e la riparazione di ogni tipo di orologio»; «Ripariamo orologi al quarzo, automatici e con complicazioni», revisione, vetro, cinturino, lucidatura, prova di impermeabilità; CAP 39012 Merano e telefono +39 351 9616776."
+    },
+    {
+      "id": "f32-poli-maier-bressanone",
+      "tipo": "sito-ufficiale",
+      "url": "https://polimaier.it/it/",
+      "titolo": "Poli Maier — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Paolo Poli è orologiaio di formazione», «Riparazione di movimenti meccanici», pulizia e revisione; indirizzo «Poli Maier di Poli Paolo S.a.s. Portici Minori 8 F Galleria Città · 39042 Bressanone (BZ)», telefono +39 0472 837079."
+    },
+    {
+      "id": "f32-tarondo-orologiai-tavagnacco",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tarondo.it/",
+      "titolo": "Tarondo Orologiai — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: sezioni «Laboratorio», «Assistenza e Marchi», «Centro Assistenza Tecnica», «Struttura innovativa equipaggiata con apparecchiature specialistiche»; «Riparare un orologio è un'operazione complessa»; team con «Marco Orologiaio diplomato Wostep»; Via Udine 77, 33010 Tavagnacco, telefono 0432 42897."
+    },
+    {
+      "id": "f32-tempo-prezioso-bologna",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.tempopreziosobologna.com/",
+      "titolo": "Tempo Prezioso Bologna — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Revisione completa del movimento, lucidatura cassa e bracciale, test di impermeabilità»; restauro vintage e verifica di autenticità; Via G. Bentini 37/C, 40128 Bologna, telefono 051 9985671."
+    },
+    {
+      "id": "f32-arte-orafa-traversi-cave",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.arteorafatraversi.it/it/oreficeria-artigianale-italiana-roma/vendita-e-riparazioni-orologi-742",
+      "titolo": "Arte Orafa Traversi — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Vendita e riparazioni orologi»: «Il settore viene curato da nostro padre Ugo Traversi orologiaio specializzato dal 1963»; manutenzione, revisione, restauri, lucidatura; Viale Pio XII 97, 00033 Cave (RM), telefono 06 9507658."
+    },
+    {
+      "id": "f32-cimafonte-orologi-napoli",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.cimafonteorologi.it/servizi/",
+      "titolo": "Cimafonte Orologi — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Servizi»: «specializzata nella riparazione Lucidatura Pulitura e Restauro di Orologi di Lusso», orologi vintage e moderni; Via Mario Fiore 21, 80129 Napoli, telefono 081 5583888."
+    },
+    {
+      "id": "f32-la-clinica-dell-orologio-bernareggio",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.clinicadellorologio.it/benvenuti-nella-clinica-dellorologio/",
+      "titolo": "La Clinica dell'Orologio — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Benvenuti nella clinica dell'orologio»: «Siamo specializzati nella revisione e nel restauro di orologi meccanici antichi: pendoli… tasca»; Via Franzolino Prinetti 52, 20881 Bernareggio, telefono 039 6900217."
+    },
+    {
+      "id": "f32-legnano-orologeria-paternostro-1972",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.andreapaternostro.it/legnano-orologeria/",
+      "titolo": "Legnano Orologeria Paternostro 1972 — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina ufficiale: «All'interno del punto vendita è presente il laboratorio orologiero, specializzato nei servizi di assistenza post-vendita e revisione di tutti i marchi»; Corso Giuseppe Garibaldi 2/b, 20025 Legnano, telefono +39 0331 452307."
+    },
+    {
+      "id": "f32-sandrone-gioielli-moncalieri",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.sandronegioielli.com/",
+      "titolo": "Sandrone Gioielli — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: voce di servizio «Riparazione Orologi e Preziosi», «assistenza gioielli», «riparazione orologi»; indirizzo Via Montebello, 1, Moncalieri, 10024."
+    },
+    {
+      "id": "f32-parolin-1885-rosa",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.parolinorologi.it/contatti.php",
+      "titolo": "Parolin 1885 — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Riparazioni di orologeria vengono effettuate nel laboratorio interno all'azienda … revisione completa dei movimenti compreso il restauro di orologi d'epoca»; Via Cap. Alessio 35, 36027 Rosà (VI), telefono +39 0424 580115."
+    },
+    {
+      "id": "f32-orologeria-martini-bassano-del-grappa",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologeria-martini.webnode.it/",
+      "titolo": "Orologeria Martini — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Roberto Martini – Proprietario e riparatore di orologi. Riparo e vendo qualsiasi tipo di orologi … Riparo pendole antiche»; Via Beata Giovanna 26, 36061 Bassano del Grappa, telefono +39 0424 525376."
+    },
+    {
+      "id": "f32-otto-gioielli-montebelluna",
+      "tipo": "sito-ufficiale",
+      "url": "https://ottogioielli.it/riparazione-orologi-montebelluna/",
+      "titolo": "Otto Gioielli — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Riparazione orologi Montebelluna»: «Laboratorio di orologeria interno … tecnici riparatori e meccanici restauratori lavorano direttamente in negozio … revisione di orologi automatici e meccanici»; Via Feltrina Centro 137, 31044 Montebelluna, telefono 0423 609492."
+    },
+    {
+      "id": "f32-gioielleria-tomasi-trento",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriatomasi.it/",
+      "titolo": "Gioielleria Tomasi — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «Laboratorio Orologeria … revisione del movimento … ripristino degli orologi … senza trascurare vecchi orologi che necessitano di restauri»; recapiti pubblicati: «Piazza Pasi, 17 38122 Trento», telefono +39 0461 986651."
+    },
+    {
+      "id": "f32-l-orologiaio-sardegna-porto-torres",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.lorologiaiosardegna.com/orologi.php",
+      "titolo": "L'Orologiaio Sardegna — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale: «laboratorio attrezzato... ricostruire nei minimi particolari... micromeccanica... Restauro orologi e pendoli»; Via Libio 15, 07046 Porto Torres; riparazione e assistenza citate nel testo."
+    },
+    {
+      "id": "f32-bellucci-echi-e-luci-martina-franca",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.bellucciechieluci.com/servizi.php?id=95ead5",
+      "titolo": "Bellucci Echi e Luci — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Restauro Orologi da torre»: «la Bellucci Echi e Luci srl esegue il restauro di campane e orologi da torre», «gli orologi da torre vengono completamente scomposti in centinaia di parti che, dopo una serie di accurati controlli, vengono riassemblate»; Via Carlo Pisacane 75, 74015 Martina Franca."
+    },
+    {
+      "id": "f32-capodagli-1937-senigallia",
+      "tipo": "sito-ufficiale",
+      "url": "https://capodagli.net/pages/servizio-assistenza-orologi-e-penne",
+      "titolo": "Capodagli 1937 — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Pagina «Servizio assistenza orologi e penne»: «Facciamo assistenza ufficiale su penne, pelletteria e orologi Montblanc», assistenza sui marchi dei gruppi Swatch, Richemont e LVMH; Corso 2 Giugno 45, 60019 Senigallia, telefono +39 071 60230."
+    },
+    {
+      "id": "f32-r-rubini-arte-del-tempo-fidenza",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.rrubini.com/",
+      "titolo": "R. Rubini Arte del Tempo — pagina ufficiale",
+      "consultataIl": "2026-11-03",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Sito ufficiale (versione inglese): «We repair and appraise watches from all the most prestigious brands (wristwatches, pocket watches, and clocks)»; Via Antonio Gramsci 25, 43036 Fidenza, telefono +39 0524 528157."
+    }
+  ],
+  "localita": [
+    {
+      "id": "pulsano",
+      "comune": "Pulsano",
+      "comuneSlug": "pulsano",
+      "provincia": "Taranto",
+      "provinciaSlug": "taranto",
+      "siglaProvincia": "TA",
+      "regione": "Puglia",
+      "regioneSlug": "puglia",
+      "codiceIstat": "073022",
+      "descrizione": "Pulsano: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-orologiaio-zaccaria-angelo-pulsano"
+      ]
+    },
+    {
+      "id": "bressanone",
+      "comune": "Bressanone",
+      "comuneSlug": "bressanone",
+      "provincia": "Bolzano",
+      "provinciaSlug": "bolzano",
+      "siglaProvincia": "BZ",
+      "regione": "Trentino-Alto Adige",
+      "regioneSlug": "trentino-alto-adige",
+      "codiceIstat": "021011",
+      "descrizione": "Bressanone: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-poli-maier-bressanone"
+      ]
+    },
+    {
+      "id": "tavagnacco",
+      "comune": "Tavagnacco",
+      "comuneSlug": "tavagnacco",
+      "provincia": "Udine",
+      "provinciaSlug": "udine",
+      "siglaProvincia": "UD",
+      "regione": "Friuli-Venezia Giulia",
+      "regioneSlug": "friuli-venezia-giulia",
+      "codiceIstat": "030118",
+      "descrizione": "Tavagnacco: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-tarondo-orologiai-tavagnacco"
+      ]
+    },
+    {
+      "id": "cave",
+      "comune": "Cave",
+      "comuneSlug": "cave",
+      "provincia": "Roma",
+      "provinciaSlug": "roma",
+      "siglaProvincia": "RM",
+      "regione": "Lazio",
+      "regioneSlug": "lazio",
+      "codiceIstat": "058026",
+      "descrizione": "Cave: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-arte-orafa-traversi-cave"
+      ]
+    },
+    {
+      "id": "bernareggio",
+      "comune": "Bernareggio",
+      "comuneSlug": "bernareggio",
+      "provincia": "Monza e della Brianza",
+      "provinciaSlug": "monza-e-della-brianza",
+      "siglaProvincia": "MB",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": "108007",
+      "descrizione": "Bernareggio: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-la-clinica-dell-orologio-bernareggio"
+      ]
+    },
+    {
+      "id": "legnano",
+      "comune": "Legnano",
+      "comuneSlug": "legnano",
+      "provincia": "Milano",
+      "provinciaSlug": "milano",
+      "siglaProvincia": "MI",
+      "regione": "Lombardia",
+      "regioneSlug": "lombardia",
+      "codiceIstat": "015118",
+      "descrizione": "Legnano: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-legnano-orologeria-paternostro-1972"
+      ]
+    },
+    {
+      "id": "rosa",
+      "comune": "Rosà",
+      "comuneSlug": "rosa",
+      "provincia": "Vicenza",
+      "provinciaSlug": "vicenza",
+      "siglaProvincia": "VI",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "024087",
+      "descrizione": "Rosà: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-parolin-1885-rosa"
+      ]
+    },
+    {
+      "id": "bassano-del-grappa",
+      "comune": "Bassano del Grappa",
+      "comuneSlug": "bassano-del-grappa",
+      "provincia": "Vicenza",
+      "provinciaSlug": "vicenza",
+      "siglaProvincia": "VI",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "024012",
+      "descrizione": "Bassano del Grappa: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-orologeria-martini-bassano-del-grappa"
+      ]
+    },
+    {
+      "id": "montebelluna",
+      "comune": "Montebelluna",
+      "comuneSlug": "montebelluna",
+      "provincia": "Treviso",
+      "provinciaSlug": "treviso",
+      "siglaProvincia": "TV",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": "026046",
+      "descrizione": "Montebelluna: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-otto-gioielli-montebelluna"
+      ]
+    },
+    {
+      "id": "senigallia",
+      "comune": "Senigallia",
+      "comuneSlug": "senigallia",
+      "provincia": "Ancona",
+      "provinciaSlug": "ancona",
+      "siglaProvincia": "AN",
+      "regione": "Marche",
+      "regioneSlug": "marche",
+      "codiceIstat": "042045",
+      "descrizione": "Senigallia: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-capodagli-1937-senigallia"
+      ]
+    },
+    {
+      "id": "fidenza",
+      "comune": "Fidenza",
+      "comuneSlug": "fidenza",
+      "provincia": "Parma",
+      "provinciaSlug": "parma",
+      "siglaProvincia": "PR",
+      "regione": "Emilia-Romagna",
+      "regioneSlug": "emilia-romagna",
+      "codiceIstat": "034014",
+      "descrizione": "Fidenza: attività di orologeria censite con fonti ufficiali.",
+      "fonti": [
+        "f32-r-rubini-arte-del-tempo-fidenza"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "orologiaio-zaccaria-angelo-pulsano",
+      "nome": "Orologiaio Zaccaria Angelo",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati nel testo; riparazione, revisione e manutenzione dichiarate. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-orologiaio-zaccaria-angelo-pulsano"
+      ],
+      "attivita": {
+        "id": "orologiaio-zaccaria-angelo-pulsano",
+        "slug": "orologiaio-zaccaria-angelo-pulsano",
+        "nome": "Orologiaio Zaccaria Angelo",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologiaio a Pulsano con laboratorio che dichiara revisione completa di orologi meccanici con regolazione di precisione, riparazione di orologi vintage e manutenzione degli automatici.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pulsano",
+        "posizione": {
+          "indirizzo": "Via Roma 46",
+          "cap": "74026",
+          "coordinate": null,
+          "fonti": [
+            "f32-orologiaio-zaccaria-angelo-pulsano"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 347 4396566",
+          "email": null,
+          "sito": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-orologiaio-zaccaria-angelo-pulsano"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio di orologeria che dichiara revisione completa dei movimenti meccanici, regolazione di precisione e sostituzione dei componenti usurati.",
+          "fonti": [
+            "f32-orologiaio-zaccaria-angelo-pulsano"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-orologiaio-zaccaria-angelo-pulsano"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-orologiaio-zaccaria-angelo-pulsano"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f32-orologiaio-zaccaria-angelo-pulsano"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-orologiaio-zaccaria-angelo-pulsano"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-orologiaio-zaccaria-angelo-pulsano"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "orologiaio-zaccaria-angelo-pulsano"
+        }
+      }
+    },
+    {
+      "id": "officina4-watchmaking-merano",
+      "nome": "Officina4 Watchmaking",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: comune, CAP e telefono riscontrati; riparazione, revisione, lucidatura e cinturini dichiarati. Indirizzo confermato dall'impronta legale del sito (Kurhauspassage Lauben/Portici, 33).",
+      "fonti": [
+        "f32-officina4-watchmaking-merano"
+      ],
+      "attivita": {
+        "id": "officina4-watchmaking-merano",
+        "slug": "officina4-watchmaking-merano",
+        "nome": "Officina4 Watchmaking",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria con laboratorio a Merano specializzata in assistenza e riparazione di ogni tipo di orologio: quarzo, automatici e complicazioni, con revisione, lucidatura e sostituzione di vetri e cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "merano",
+        "posizione": {
+          "indirizzo": "Portici 33 (Galleria Kurhaus, Lauben)",
+          "cap": "39012",
+          "coordinate": null,
+          "fonti": [
+            "f32-officina4-watchmaking-merano"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 351 9616776",
+          "email": null,
+          "sito": "https://www.officina4.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-officina4-watchmaking-merano"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio che dichiara la riparazione di orologi al quarzo, automatici e con complicazioni, con revisione, lucidatura e prova di impermeabilità.",
+          "fonti": [
+            "f32-officina4-watchmaking-merano"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-officina4-watchmaking-merano"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-officina4-watchmaking-merano"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f32-officina4-watchmaking-merano"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f32-officina4-watchmaking-merano"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-officina4-watchmaking-merano"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-officina4-watchmaking-merano"
+              ]
+            },
+            {
+              "data": "2026-11-03",
+              "azione": "Correzione dell'indirizzo: l'impronta legale del sito ufficiale (impressum-privacy.html) indica Kurhauspassage Lauben/Portici, 33 — I-39012 Meran/o. Sostituita la via del record di ricerca.",
+              "fonti": [
+                "f32-officina4-watchmaking-merano"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "officina4-watchmaking-merano"
+        }
+      }
+    },
+    {
+      "id": "poli-maier-bressanone",
+      "nome": "Poli Maier",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati nel testo; riparazione e revisione dei movimenti meccanici dichiarate. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-poli-maier-bressanone"
+      ],
+      "attivita": {
+        "id": "poli-maier-bressanone",
+        "slug": "poli-maier-bressanone",
+        "nome": "Poli Maier",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Bressanone con laboratorio: Paolo Poli è orologiaio di formazione e il negozio dichiara riparazione di movimenti meccanici, pulizia e revisione, oltre a batterie e cinturini.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bressanone",
+        "posizione": {
+          "indirizzo": "Portici Minori 8 F",
+          "cap": "39042",
+          "coordinate": null,
+          "fonti": [
+            "f32-poli-maier-bressanone"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0472 837079",
+          "email": null,
+          "sito": "https://polimaier.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-poli-maier-bressanone"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio di orologeria che dichiara pulizia e revisione dei movimenti meccanici.",
+          "fonti": [
+            "f32-poli-maier-bressanone"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-poli-maier-bressanone"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-poli-maier-bressanone"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f32-poli-maier-bressanone"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f32-poli-maier-bressanone"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-poli-maier-bressanone"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-poli-maier-bressanone"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "poli-maier-bressanone"
+        }
+      }
+    },
+    {
+      "id": "tarondo-orologiai-tavagnacco",
+      "nome": "Tarondo Orologiai",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; riparazione e assistenza tecnica dichiarate, laboratorio interno con orologiai diplomati. Nessuna assistenza ufficiale di marca attribuita.",
+      "fonti": [
+        "f32-tarondo-orologiai-tavagnacco"
+      ],
+      "attivita": {
+        "id": "tarondo-orologiai-tavagnacco",
+        "slug": "tarondo-orologiai-tavagnacco",
+        "nome": "Tarondo Orologiai",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria artigiana a Tavagnacco con laboratorio e centro di assistenza tecnica: squadra di orologiai, tra cui soci diplomati WOSTEP, attrezzature specialistiche e assistenza sui marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "tavagnacco",
+        "posizione": {
+          "indirizzo": "Via Udine 77",
+          "cap": "33010",
+          "coordinate": null,
+          "fonti": [
+            "f32-tarondo-orologiai-tavagnacco"
+          ]
+        },
+        "contatti": {
+          "telefono": "0432 42897",
+          "email": null,
+          "sito": "https://www.tarondo.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-tarondo-orologiai-tavagnacco"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio e centro di assistenza tecnica con apparecchiature specialistiche e un team di orologiai, tra cui soci diplomati WOSTEP.",
+          "fonti": [
+            "f32-tarondo-orologiai-tavagnacco"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-tarondo-orologiai-tavagnacco"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f32-tarondo-orologiai-tavagnacco"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-tarondo-orologiai-tavagnacco"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-tarondo-orologiai-tavagnacco"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "tarondo-orologiai-tavagnacco"
+        }
+      }
+    },
+    {
+      "id": "tempo-prezioso-bologna",
+      "nome": "Tempo Prezioso Bologna",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; revisione, lucidatura e restauro dichiarati. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-tempo-prezioso-bologna"
+      ],
+      "attivita": {
+        "id": "tempo-prezioso-bologna",
+        "slug": "tempo-prezioso-bologna",
+        "nome": "Tempo Prezioso Bologna",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria con laboratorio a Bologna che dichiara revisione completa del movimento, lucidatura di cassa e bracciale con test di impermeabilità, restauro di orologi vintage e verifica di autenticità.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Via G. Bentini 37/C",
+          "cap": "40128",
+          "coordinate": null,
+          "fonti": [
+            "f32-tempo-prezioso-bologna"
+          ]
+        },
+        "contatti": {
+          "telefono": "051 9985671",
+          "email": null,
+          "sito": "https://www.tempopreziosobologna.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-tempo-prezioso-bologna"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio che dichiara revisione completa del movimento, lucidatura di cassa e bracciale, test di impermeabilità e restauro vintage.",
+          "fonti": [
+            "f32-tempo-prezioso-bologna"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-tempo-prezioso-bologna"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-tempo-prezioso-bologna"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f32-tempo-prezioso-bologna"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-tempo-prezioso-bologna"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-tempo-prezioso-bologna"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "tempo-prezioso-bologna"
+        }
+      }
+    },
+    {
+      "id": "arte-orafa-traversi-cave",
+      "nome": "Arte Orafa Traversi",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; riparazione, revisione, restauro e lucidatura dichiarati con laboratorio interno.",
+      "fonti": [
+        "f32-arte-orafa-traversi-cave"
+      ],
+      "attivita": {
+        "id": "arte-orafa-traversi-cave",
+        "slug": "arte-orafa-traversi-cave",
+        "nome": "Arte Orafa Traversi",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Oreficeria artigianale a Cave con sezione orologeria curata da Ugo Traversi, orologiaio specializzato dal 1963: vendita e riparazioni di orologi, manutenzione, revisione, restauri e lucidatura.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "cave",
+        "posizione": {
+          "indirizzo": "Viale Pio XII 97",
+          "cap": "00033",
+          "coordinate": null,
+          "fonti": [
+            "f32-arte-orafa-traversi-cave"
+          ]
+        },
+        "contatti": {
+          "telefono": "06 9507658",
+          "email": null,
+          "sito": "https://www.arteorafatraversi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-arte-orafa-traversi-cave"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio orologiero curato da Ugo Traversi, orologiaio specializzato dal 1963: manutenzione, revisione, restauri e lucidatura.",
+          "fonti": [
+            "f32-arte-orafa-traversi-cave"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-arte-orafa-traversi-cave"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-arte-orafa-traversi-cave"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-arte-orafa-traversi-cave"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f32-arte-orafa-traversi-cave"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-arte-orafa-traversi-cave"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-arte-orafa-traversi-cave"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "arte-orafa-traversi-cave"
+        }
+      }
+    },
+    {
+      "id": "cimafonte-orologi-napoli",
+      "nome": "Cimafonte Orologi",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; riparazione, lucidatura e restauro dichiarati. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-cimafonte-orologi-napoli"
+      ],
+      "attivita": {
+        "id": "cimafonte-orologi-napoli",
+        "slug": "cimafonte-orologi-napoli",
+        "nome": "Cimafonte Orologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria con laboratorio a Napoli specializzata nella riparazione, lucidatura, pulitura e restauro di orologi di lusso, vintage e moderni.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Mario Fiore 21",
+          "cap": "80129",
+          "coordinate": null,
+          "fonti": [
+            "f32-cimafonte-orologi-napoli"
+          ]
+        },
+        "contatti": {
+          "telefono": "081 5583888",
+          "email": null,
+          "sito": "https://www.cimafonteorologi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-cimafonte-orologi-napoli"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio specializzato nella riparazione, lucidatura, pulitura e restauro di orologi di lusso, vintage e moderni.",
+          "fonti": [
+            "f32-cimafonte-orologi-napoli"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-cimafonte-orologi-napoli"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-cimafonte-orologi-napoli"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f32-cimafonte-orologi-napoli"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-cimafonte-orologi-napoli"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-cimafonte-orologi-napoli"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "cimafonte-orologi-napoli"
+        }
+      }
+    },
+    {
+      "id": "la-clinica-dell-orologio-bernareggio",
+      "nome": "La Clinica dell'Orologio",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; revisione, restauro, pendoleria e orologi da tasca dichiarati. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-la-clinica-dell-orologio-bernareggio"
+      ],
+      "attivita": {
+        "id": "la-clinica-dell-orologio-bernareggio",
+        "slug": "la-clinica-dell-orologio-bernareggio",
+        "nome": "La Clinica dell'Orologio",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria a Bernareggio specializzato nella revisione e nel restauro di orologi meccanici antichi, pendoli, orologi da tasca e da parete.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bernareggio",
+        "posizione": {
+          "indirizzo": "Via Franzolino Prinetti 52",
+          "cap": "20881",
+          "coordinate": null,
+          "fonti": [
+            "f32-la-clinica-dell-orologio-bernareggio"
+          ]
+        },
+        "contatti": {
+          "telefono": "039 6900217",
+          "email": null,
+          "sito": "https://www.clinicadellorologio.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-la-clinica-dell-orologio-bernareggio"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio specializzato nella revisione e nel restauro di orologi meccanici antichi: pendoli, orologi da tasca e da parete.",
+          "fonti": [
+            "f32-la-clinica-dell-orologio-bernareggio"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-la-clinica-dell-orologio-bernareggio"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-la-clinica-dell-orologio-bernareggio"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f32-la-clinica-dell-orologio-bernareggio"
+            ]
+          },
+          {
+            "id": "orologi-tasca",
+            "fonti": [
+              "f32-la-clinica-dell-orologio-bernareggio"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-la-clinica-dell-orologio-bernareggio"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-la-clinica-dell-orologio-bernareggio"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "la-clinica-dell-orologio-bernareggio"
+        }
+      }
+    },
+    {
+      "id": "legnano-orologeria-paternostro-1972",
+      "nome": "Legnano Orologeria Paternostro 1972",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; revisione e assistenza post-vendita dichiarate con laboratorio interno. Nessuna assistenza ufficiale di marca attribuita.",
+      "fonti": [
+        "f32-legnano-orologeria-paternostro-1972"
+      ],
+      "attivita": {
+        "id": "legnano-orologeria-paternostro-1972",
+        "slug": "legnano-orologeria-paternostro-1972",
+        "nome": "Legnano Orologeria Paternostro 1972",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria a Legnano attiva dal 1972 con laboratorio orologiero interno al punto vendita, specializzato in assistenza post-vendita e revisione di tutti i marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "legnano",
+        "posizione": {
+          "indirizzo": "Corso Giuseppe Garibaldi 2/b",
+          "cap": "20025",
+          "coordinate": null,
+          "fonti": [
+            "f32-legnano-orologeria-paternostro-1972"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0331 452307",
+          "email": null,
+          "sito": "https://www.andreapaternostro.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-legnano-orologeria-paternostro-1972"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio orologiero interno al punto vendita, specializzato in assistenza post-vendita e revisione di tutti i marchi.",
+          "fonti": [
+            "f32-legnano-orologeria-paternostro-1972"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-legnano-orologeria-paternostro-1972"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f32-legnano-orologeria-paternostro-1972"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-legnano-orologeria-paternostro-1972"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-legnano-orologeria-paternostro-1972"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "legnano-orologeria-paternostro-1972"
+        }
+      }
+    },
+    {
+      "id": "sandrone-gioielli-moncalieri",
+      "nome": "Sandrone Gioielli",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo e CAP riscontrati; riparazione di orologi e assistenza dichiarate. Nessun laboratorio interno documentato, quindi non attribuito. Telefono non pubblicato nella pagina.",
+      "fonti": [
+        "f32-sandrone-gioielli-moncalieri"
+      ],
+      "attivita": {
+        "id": "sandrone-gioielli-moncalieri",
+        "slug": "sandrone-gioielli-moncalieri",
+        "nome": "Sandrone Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria a Moncalieri che dichiara riparazione di orologi e preziosi e assistenza su gioielli. Nessun laboratorio orologiero interno documentato.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "moncalieri",
+        "posizione": {
+          "indirizzo": "Via Montebello 1",
+          "cap": "10024",
+          "coordinate": null,
+          "fonti": [
+            "f32-sandrone-gioielli-moncalieri"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.sandronegioielli.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-sandrone-gioielli-moncalieri"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-sandrone-gioielli-moncalieri"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f32-sandrone-gioielli-moncalieri"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-sandrone-gioielli-moncalieri"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-sandrone-gioielli-moncalieri"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "sandrone-gioielli-moncalieri"
+        }
+      }
+    },
+    {
+      "id": "parolin-1885-rosa",
+      "nome": "Parolin 1885",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; riparazione, revisione e restauro dichiarati. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-parolin-1885-rosa"
+      ],
+      "attivita": {
+        "id": "parolin-1885-rosa",
+        "slug": "parolin-1885-rosa",
+        "nome": "Parolin 1885",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria storica (1885) a Rosà con laboratorio interno che esegue riparazioni di orologeria, revisione completa dei movimenti e restauro di orologi d'epoca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rosa",
+        "posizione": {
+          "indirizzo": "Via Cap. Alessio 35",
+          "cap": "36027",
+          "coordinate": null,
+          "fonti": [
+            "f32-parolin-1885-rosa"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0424 580115",
+          "email": null,
+          "sito": "https://www.parolinorologi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-parolin-1885-rosa"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio interno all'azienda che esegue riparazioni di orologeria, revisione completa dei movimenti e restauro di orologi d'epoca.",
+          "fonti": [
+            "f32-parolin-1885-rosa"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-parolin-1885-rosa"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-parolin-1885-rosa"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-parolin-1885-rosa"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": 1885,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": [
+            "f32-parolin-1885-rosa"
+          ]
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-parolin-1885-rosa"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-parolin-1885-rosa"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "parolin-1885-rosa"
+        }
+      }
+    },
+    {
+      "id": "orologeria-martini-bassano-del-grappa",
+      "nome": "Orologeria Martini",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; riparazione, vendita e riparazione di pendole dichiarate. Nessun laboratorio interno documentato in modo esplicito.",
+      "fonti": [
+        "f32-orologeria-martini-bassano-del-grappa"
+      ],
+      "attivita": {
+        "id": "orologeria-martini-bassano-del-grappa",
+        "slug": "orologeria-martini-bassano-del-grappa",
+        "nome": "Orologeria Martini",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria a Bassano del Grappa: il titolare Roberto Martini si presenta come riparatore di orologi e dichiara la riparazione e la vendita di ogni tipo di orologio, comprese le pendole antiche.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bassano-del-grappa",
+        "posizione": {
+          "indirizzo": "Via Beata Giovanna 26",
+          "cap": "36061",
+          "coordinate": null,
+          "fonti": [
+            "f32-orologeria-martini-bassano-del-grappa"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0424 525376",
+          "email": null,
+          "sito": "https://orologeria-martini.webnode.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-orologeria-martini-bassano-del-grappa"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-orologeria-martini-bassano-del-grappa"
+            ]
+          },
+          {
+            "id": "vendita",
+            "fonti": [
+              "f32-orologeria-martini-bassano-del-grappa"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f32-orologeria-martini-bassano-del-grappa"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-orologeria-martini-bassano-del-grappa"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-orologeria-martini-bassano-del-grappa"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "orologeria-martini-bassano-del-grappa"
+        }
+      }
+    },
+    {
+      "id": "otto-gioielli-montebelluna",
+      "nome": "Otto Gioielli",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; riparazione, revisione e restauro dichiarati. Laboratorio interno dichiarato.",
+      "fonti": [
+        "f32-otto-gioielli-montebelluna"
+      ],
+      "attivita": {
+        "id": "otto-gioielli-montebelluna",
+        "slug": "otto-gioielli-montebelluna",
+        "nome": "Otto Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria con laboratorio di orologeria interno a Montebelluna: tecnici riparatori e meccanici restauratori lavorano in negozio, con riparazione e revisione di orologi automatici e meccanici e restauro.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "montebelluna",
+        "posizione": {
+          "indirizzo": "Via Feltrina Centro 137",
+          "cap": "31044",
+          "coordinate": null,
+          "fonti": [
+            "f32-otto-gioielli-montebelluna"
+          ]
+        },
+        "contatti": {
+          "telefono": "0423 609492",
+          "email": null,
+          "sito": "https://ottogioielli.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-otto-gioielli-montebelluna"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio di orologeria interno al negozio con tecnici riparatori e meccanici restauratori che lavorano direttamente in sede.",
+          "fonti": [
+            "f32-otto-gioielli-montebelluna"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-otto-gioielli-montebelluna"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-otto-gioielli-montebelluna"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-otto-gioielli-montebelluna"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-otto-gioielli-montebelluna"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-otto-gioielli-montebelluna"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "otto-gioielli-montebelluna"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-tomasi-trento",
+      "nome": "Gioielleria Tomasi",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; revisione e restauro dichiarati con laboratorio interno. Nessuna assistenza ufficiale di marca attribuita.",
+      "fonti": [
+        "f32-gioielleria-tomasi-trento"
+      ],
+      "attivita": {
+        "id": "gioielleria-tomasi-trento",
+        "slug": "gioielleria-tomasi-trento",
+        "nome": "Gioielleria Tomasi",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria a Trento con laboratorio di orologeria che dichiara revisione del movimento e ripristino degli orologi, senza trascurare i restauri dei vecchi orologi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "trento",
+        "posizione": {
+          "indirizzo": "Piazza Pasi 17",
+          "cap": "38122",
+          "coordinate": null,
+          "fonti": [
+            "f32-gioielleria-tomasi-trento"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0461 986651",
+          "email": null,
+          "sito": "https://www.gioielleriatomasi.it",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-gioielleria-tomasi-trento"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio di orologeria che dichiara revisione del movimento e ripristino degli orologi, compresi i restauri dei vecchi orologi.",
+          "fonti": [
+            "f32-gioielleria-tomasi-trento"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "revisione",
+            "fonti": [
+              "f32-gioielleria-tomasi-trento"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-gioielleria-tomasi-trento"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-gioielleria-tomasi-trento"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-gioielleria-tomasi-trento"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "gioielleria-tomasi-trento"
+        }
+      }
+    },
+    {
+      "id": "l-orologiaio-sardegna-porto-torres",
+      "nome": "L'Orologiaio Sardegna",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo e CAP riscontrati; restauro, pendoleria e riparazione dichiarati con laboratorio attrezzato. Telefono non pubblicato nella pagina consultata.",
+      "fonti": [
+        "f32-l-orologiaio-sardegna-porto-torres"
+      ],
+      "attivita": {
+        "id": "l-orologiaio-sardegna-porto-torres",
+        "slug": "l-orologiaio-sardegna-porto-torres",
+        "nome": "L'Orologiaio Sardegna",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria con laboratorio a Porto Torres specializzata nel restauro di orologi e pendoli, con lavorazioni di micromeccanica per ricostruire le parti mancanti.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "porto-torres",
+        "posizione": {
+          "indirizzo": "Via Libio 15",
+          "cap": "07046",
+          "coordinate": null,
+          "fonti": [
+            "f32-l-orologiaio-sardegna-porto-torres"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.lorologiaiosardegna.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-l-orologiaio-sardegna-porto-torres"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio attrezzato con lavoro di micromeccanica per ricostruire nei minimi particolari parti di orologi e pendoli.",
+          "fonti": [
+            "f32-l-orologiaio-sardegna-porto-torres"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f32-l-orologiaio-sardegna-porto-torres"
+            ]
+          },
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-l-orologiaio-sardegna-porto-torres"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-l-orologiaio-sardegna-porto-torres"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-l-orologiaio-sardegna-porto-torres"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "l-orologiaio-sardegna-porto-torres"
+        }
+      }
+    },
+    {
+      "id": "bellucci-echi-e-luci-martina-franca",
+      "nome": "Bellucci Echi e Luci",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo e CAP riscontrati; restauro di orologi da torre dichiarato con lavorazione in laboratorio. Telefono non pubblicato nella pagina consultata.",
+      "fonti": [
+        "f32-bellucci-echi-e-luci-martina-franca"
+      ],
+      "attivita": {
+        "id": "bellucci-echi-e-luci-martina-franca",
+        "slug": "bellucci-echi-e-luci-martina-franca",
+        "nome": "Bellucci Echi e Luci",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Impresa artigiana a Martina Franca che esegue installazione e restauro di orologi da torre e campane: gli orologi vengono completamente scomposti in centinaia di parti, controllati e riassemblati.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "martina-franca",
+        "posizione": {
+          "indirizzo": "Via Carlo Pisacane 75",
+          "cap": "74015",
+          "coordinate": null,
+          "fonti": [
+            "f32-bellucci-echi-e-luci-martina-franca"
+          ]
+        },
+        "contatti": {
+          "telefono": null,
+          "email": null,
+          "sito": "https://www.bellucciechieluci.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-bellucci-echi-e-luci-martina-franca"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Laboratorio che smonta completamente gli orologi da torre in centinaia di parti, le controlla e le riassembla per il restauro.",
+          "fonti": [
+            "f32-bellucci-echi-e-luci-martina-franca"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f32-bellucci-echi-e-luci-martina-franca"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-bellucci-echi-e-luci-martina-franca"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-bellucci-echi-e-luci-martina-franca"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "bellucci-echi-e-luci-martina-franca"
+        }
+      }
+    },
+    {
+      "id": "capodagli-1937-senigallia",
+      "nome": "Capodagli 1937",
+      "decisione": "approvata",
+      "motivo": "Pagina ufficiale: indirizzo, CAP e telefono riscontrati; assistenza orologi dichiarata. L'assistenza di marca non è attribuita come ufficiale perché la dichiarazione è del rivenditore e non del marchio.",
+      "fonti": [
+        "f32-capodagli-1937-senigallia"
+      ],
+      "attivita": {
+        "id": "capodagli-1937-senigallia",
+        "slug": "capodagli-1937-senigallia",
+        "nome": "Capodagli 1937",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Negozio storico (1937) a Senigallia con servizio di assistenza orologi e penne e laboratorio interno; dichiara assistenza sui gruppi Swatch, Richemont e LVMH e su Montblanc.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "senigallia",
+        "posizione": {
+          "indirizzo": "Corso 2 Giugno 45",
+          "cap": "60019",
+          "coordinate": null,
+          "fonti": [
+            "f32-capodagli-1937-senigallia"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 071 60230",
+          "email": null,
+          "sito": "https://capodagli.net",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-capodagli-1937-senigallia"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "rete",
+          "descrizione": "Servizio di assistenza orologi con laboratorio interno dichiarato dalla pagina, senza indicazione dei marchi come assistenza ufficiale sul sito del marchio.",
+          "fonti": [
+            "f32-capodagli-1937-senigallia"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f32-capodagli-1937-senigallia"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-capodagli-1937-senigallia"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-capodagli-1937-senigallia"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "capodagli-1937-senigallia"
+        }
+      }
+    },
+    {
+      "id": "r-rubini-arte-del-tempo-fidenza",
+      "nome": "R. Rubini Arte del Tempo",
+      "decisione": "approvata",
+      "motivo": "Sito ufficiale: indirizzo, CAP e telefono riscontrati; riparazione e valutazione di orologi dichiarate. Nessun laboratorio interno documentato, quindi non attribuito.",
+      "fonti": [
+        "f32-r-rubini-arte-del-tempo-fidenza"
+      ],
+      "attivita": {
+        "id": "r-rubini-arte-del-tempo-fidenza",
+        "slug": "r-rubini-arte-del-tempo-fidenza",
+        "nome": "R. Rubini Arte del Tempo",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Boutique di orologeria a Fidenza specializzata in orologi da polso e da tasca: dichiara riparazione e valutazione di orologi dei più prestigiosi marchi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "fidenza",
+        "posizione": {
+          "indirizzo": "Via Antonio Gramsci 25",
+          "cap": "43036",
+          "coordinate": null,
+          "fonti": [
+            "f32-r-rubini-arte-del-tempo-fidenza"
+          ]
+        },
+        "contatti": {
+          "telefono": "+39 0524 528157",
+          "email": null,
+          "sito": "https://www.rrubini.com",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f32-r-rubini-arte-del-tempo-fidenza"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f32-r-rubini-arte-del-tempo-fidenza"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f32-r-rubini-arte-del-tempo-fidenza"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-03",
+          "verificataIl": "2026-11-03",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f32-r-rubini-arte-del-tempo-fidenza"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-03",
+              "azione": "Verifica della pagina ufficiale: indirizzo e recapiti riscontrati nel testo, servizi dichiarati trascritti senza estensioni.",
+              "fonti": [
+                "f32-r-rubini-arte-del-tempo-fidenza"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "ricerca-ufficiale-fase32-01",
+          "idOriginale": "r-rubini-arte-del-tempo-fidenza"
+        }
+      }
+    }
+  ]
+}

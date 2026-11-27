@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Brigida+60%2C+Napoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80725027,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5262035661,
+      "lat": "40.8389781",
+      "lon": "14.2500521",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00008093614099331682,
+      "addresstype": "shop",
+      "name": "Argenterie Fiorentine",
+      "display_name": "Argenterie Fiorentine, 60, Via Santa Brigida, San Ferdinando, Municipalità 1, Napoli, Campania, 80132, Italia",
+      "address": {
+        "shop": "Argenterie Fiorentine",
+        "house_number": "60",
+        "road": "Via Santa Brigida",
+        "suburb": "San Ferdinando",
+        "city": "Napoli",
+        "county": "Napoli",
+        "ISO3166-2-lvl6": "IT-NA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "80132",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.8389281",
+        "40.8390281",
+        "14.2500021",
+        "14.2501021"
+      ]
+    }
+  ]
+}

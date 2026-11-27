@@ -18,6 +18,14 @@ npm-debug.log*
 !/data/staging/toscana-02-review/
 # Incremento 03: risultati di geocodifica di verifica (ODbL, vedi docs/LICENZA-OSM.md)
 !/data/staging/toscana-03-geocode/
+# Fase18: cache geografica pubblica e checkpoint revisionati, nessun segreto
+!/data/staging/fase18-geocode/
+# Fase20: baseline e handoff riproducibili; snapshot HTML esterni non versionati
+!/data/staging/fase20/
+/data/staging/fase20/*
+!/data/staging/fase20/catalog-before.json
+!/data/staging/fase20/handoff.json
+!/data/staging/fase20/production-search.html
 !/data/staging/toscana-04-review/
 !/data/staging/pr6-arricchimento-20261024/
 

@@ -1,0 +1,1408 @@
+{
+ "versione": 1,
+ "baseline": {
+  "attivita": 500,
+  "localita": 219,
+  "fonti": 1094,
+  "coordinate": 82,
+  "sha256Directory": "503a785f89a8e692dc41fadb9e6e09a2f2acd8b7c7053c63c8600d6357462287"
+ },
+ "note": "Registro candidati Fase 31. Stati: verificato, duplicato, sospeso, scartato. Nessuna scheda entra nel catalogo senza sito ufficiale con indirizzo e CAP, controllo ISTAT e deduplica.",
+ "candidati": [
+  {
+   "id": "lorologiaio-biella",
+   "nome": "L'Orologiaio di Liddo",
+   "comune": "Biella",
+   "fonte": "https://www.lorologiaiobiella.it/laboratorio-orologeria",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come orologiaio-di-liddo-biella: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "orsi-gioielleria-verbania",
+   "nome": "Orsi Gioielleria",
+   "comune": "Verbania",
+   "fonte": "https://www.orsigioielleria.com/chi-siamo/",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come orsi-gioielleria-verbania: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "bruni-imperia",
+   "nome": "Orologeria Oreficeria Giacomo Bruni",
+   "comune": "Imperia",
+   "fonte": "http://www.orologeriaoreficeriagiacomobruni.it/page/restauro-orologi",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come giacomo-bruni-imperia: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "dalmasso-1913-imperia",
+   "nome": "Dalmasso 1913",
+   "comune": "Imperia",
+   "fonte": "https://dalmasso1913.it/pages/riparazioni",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale con indirizzo, CAP e telefono riscontrati; in catalogo con il lotto fase31-01. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "dupanloup-savona",
+   "nome": "Gioielleria A. Dupanloup",
+   "comune": "Savona",
+   "fonte": "https://www.dupanloup.it",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come dupanloup-savona: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "satolli-pescara",
+   "nome": "Orologeria Satolli",
+   "comune": "Pescara",
+   "fonte": "https://www.orologeriasatolli.it/dove-siamo/",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come satolli-pescara: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "officine-complicato-pescara",
+   "nome": "Officine Complicato",
+   "comune": "Pescara",
+   "fonte": "https://www.officinecomplicato.it/",
+   "stato": "sospeso",
+   "motivo": "Nessun indirizzo con CAP e via riscontrato sul sito ufficiale, nemmeno su contatti e chi-siamo: dati non attribuibili. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "ranieri-laquila",
+   "nome": "Gioielleria R. Ranieri",
+   "comune": "L'Aquila",
+   "fonte": "https://www.gioielleriaranieri.com/laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come ranieri-laquila: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "quaranta-campobasso",
+   "nome": "Gioielleria Stefano Quaranta",
+   "comune": "Campobasso",
+   "fonte": "https://www.gioielleriastefanoquaranta.com/servizi",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale con indirizzo, CAP e telefono riscontrati; in catalogo con il lotto fase31-01. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": [
+    "assistenza",
+    "vendita"
+   ]
+  },
+  {
+   "id": "pietro-roberto-cosenza",
+   "nome": "Pietro Roberto L'Orologio",
+   "comune": "Cosenza",
+   "fonte": "https://www.pietroroberto.it/",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come pietro-roberto-cosenza: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "musci-catanzaro",
+   "nome": "Gioielleria Musci",
+   "comune": "Catanzaro",
+   "fonte": "https://muscigioielli.it/riparazione-orologi",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale con indirizzo, CAP e telefono riscontrati; in catalogo con il lotto fase31-01. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": [
+    "riparazione",
+    "revisione",
+    "manutenzione",
+    "cinturini"
+   ]
+  },
+  {
+   "id": "liparota-lamezia",
+   "nome": "Gioielleria Liparota",
+   "comune": "Lamezia Terme",
+   "fonte": "https://www.gioiellerialiparota.com/orologi.php",
+   "stato": "duplicato",
+   "motivo": "Scheda già presente in catalogo come gioielleria-liparota-lamezia: nessuna seconda scheda pubblicata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "golden-business-potenza",
+   "nome": "Gioielleria Golden Business",
+   "comune": "Potenza",
+   "fonte": "https://www.gioielleriagoldenbusiness.it/servizi-e-prestazioni/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (golden-business-potenza): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "antezza-matera",
+   "nome": "Antezza",
+   "comune": "Matera",
+   "fonte": "https://www.antezza.com/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (antezza-matera): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "clementi-bolzano",
+   "nome": "Orologiaio Clementi",
+   "comune": "Bolzano",
+   "fonte": "https://www.orologiaio-clementi.it/chi-siamo/revisione-e-restauro/",
+   "stato": "sospeso",
+   "motivo": "Nessun indirizzo con CAP e via riscontrato sul sito ufficiale, nemmeno su contatti e chi-siamo: dati non attribuibili. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "groppa-trento",
+   "nome": "Orologeria Groppa",
+   "comune": "Trento",
+   "fonte": "https://www.orologeriagroppa.it/contatti",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (orologeria-groppa-trento): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "fronza-trento",
+   "nome": "Orologeria Fronza Marco",
+   "comune": "Trento",
+   "fonte": "https://www.orologeriafronzamarco.it/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (fronza-trento): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "mosele-bolzano",
+   "nome": "Mosele Luxury Time",
+   "comune": "Bolzano",
+   "fonte": "https://www.moseleluxurytime.it/",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale con indirizzo, CAP e telefono riscontrati; in catalogo con il lotto fase31-01. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "gasser-brunico",
+   "nome": "V. Gasser",
+   "comune": "Brunico",
+   "fonte": "https://it.vgasser.it/pages/werkstatt",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (v-gasser-brunico): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "mazzonetto-udine",
+   "nome": "Orologeria Mazzonetto Eredi",
+   "comune": "Udine",
+   "fonte": "https://www.orologiaudine.it/",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale con indirizzo, CAP e telefono riscontrati; in catalogo con il lotto fase31-01. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "demarco-belluno",
+   "nome": "Gioielleria De Marco",
+   "comune": "Belluno",
+   "fonte": "https://www.demarco-belluno.it/riparazioni-orologi-a-belluno/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (de-marco-belluno): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "boni-belluno",
+   "nome": "Gioielleria Boni",
+   "comune": "Belluno",
+   "fonte": "https://www.gioielleriaboni.it/riparazione-orologi",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (gioielleria-boni-belluno): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "soprana-vicenza",
+   "nome": "Soprana dal 1910",
+   "comune": "Vicenza",
+   "fonte": "https://www.soprana.com/laboratorio-orologeria/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (soprana-vicenza): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "palladio-vicenza",
+   "nome": "Orologerie Palladio",
+   "comune": "Vicenza",
+   "fonte": "https://www.orologeriepalladio.it/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (orologerie-palladio-vicenza): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "stefani-marano",
+   "nome": "Stefani Fratelli",
+   "comune": "Marano Vicentino",
+   "fonte": "https://stefanifratelli.it/laboratorio-orologeria/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (stefani-fratelli-marano-vicentino): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "laboratorio-del-tempo-perugia",
+   "nome": "Il Laboratorio del Tempo",
+   "comune": "Perugia",
+   "fonte": "https://illaboratoriodeltempo.it/contatti",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (laboratorio-del-tempo-perugia): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "la-meridiana-narni",
+   "nome": "Centro Clinico dell'Orologio La Meridiana",
+   "comune": "Narni",
+   "fonte": "https://www.centroclinicodellorologio.com/riparazione-orologi",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (centro-clinico-orologio-narni): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "paccara-terni",
+   "nome": "Gioielleria Franco Paccara",
+   "comune": "Terni",
+   "fonte": "https://www.gioielleriapaccarafranco.it/orologeria.php",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (paccara-terni): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "wargas-sisti-ancona",
+   "nome": "Wargas Sisti dei F.lli Melani",
+   "comune": "Ancona",
+   "fonte": "https://wargasisti.com/rolex/manutenzione/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (wargas-sisti-ancona): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "fenocchi-san-benedetto",
+   "nome": "Gioielleria Fenocchi",
+   "comune": "San Benedetto del Tronto",
+   "fonte": "https://www.gioielleriafenocchi.com/il-laboratorio",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (fenocchi-san-benedetto-del-tronto): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "miconi-civitanova",
+   "nome": "Laboratorio di Orologeria Miconi",
+   "comune": "Civitanova Marche",
+   "fonte": "https://www.orologeriamiconi.it/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (miconi-civitanova): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "murgia-cagliari",
+   "nome": "Laboratorio Orologeria Giampiero Murgia",
+   "comune": "Cagliari",
+   "fonte": "https://www.giampieromurgia.com/",
+   "stato": "duplicato",
+   "motivo": "Dominio già presente in catalogo (murgia-cagliari): candidato non riaperto. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "officina-del-tempo-olbia",
+   "nome": "Officina del Tempo",
+   "comune": "Olbia",
+   "fonte": "https://www.officinadeltempoolbia.com/",
+   "stato": "sospeso",
+   "motivo": "Nessun indirizzo con CAP e via riscontrato sul sito ufficiale, nemmeno su contatti e chi-siamo: dati non attribuibili. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": null
+  },
+  {
+   "id": "del-giudice-pozzuoli",
+   "nome": "Gioielleria Del Giudice",
+   "comune": null,
+   "fonte": "f31-del-giudice-pozzuoli",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; riparazione di orologi e gioielli dichiarata. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": [
+    "gioielleria"
+   ]
+  },
+  {
+   "id": "arte-doro-ostuni",
+   "nome": "Arte D'Oro Gioielli",
+   "comune": null,
+   "fonte": "f31-arte-doro-ostuni",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale: indirizzo e telefono verificati, riparazione e ricambi dichiarati. CAP assente dalla pagina, quindi non attribuito. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi.",
+   "serviziDocumentati": [
+    "riparazione",
+    "assistenza",
+    "ricambi",
+    "batterie",
+    "cinturini",
+    "vendita"
+   ]
+  },
+  {
+   "id": "guzzi-soverato",
+   "nome": "Guzzi Gioielli",
+   "comune": null,
+   "fonte": "f31-guzzi-soverato",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; vendita di orologeria dichiarata. Nessuna lavorazione di laboratorio dichiarata, quindi non attribuita. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi."
+  },
+  {
+   "id": "grasso-acireale",
+   "nome": "Grasso Orologi",
+   "comune": null,
+   "fonte": "f31-grasso-acireale",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale: CAP e telefono verificati; riparazione, revisione, restauro e pulizia dichiarati. La via è indicata dal sito, ma la forma scritta non è stata riscontrata nel testo estratto: indirizzo da confermare in sede di aggiornamento. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi."
+  },
+  {
+   "id": "chelios-orosei",
+   "nome": "Chelios Gioielli",
+   "comune": null,
+   "fonte": "f31-chelios-orosei",
+   "stato": "scartato",
+   "motivo": "Fonte ufficiale (chelosgioielli.com): attività di gioielleria e laboratorio orafo; \"orologeria\" compare solo come categoria di catalogo di marche, senza servizi orologieri documentati. Scheda non pertinente per il catalogo orologiai. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi."
+  },
+  {
+   "id": "giorgetti-vasto",
+   "nome": "Gioielleria Orologeria Giorgetti",
+   "comune": null,
+   "fonte": "f31-giorgetti-vasto",
+   "stato": "verificato",
+   "motivo": "Sito ufficiale: indirizzo, CAP e telefono verificati; riparazione, assistenza e ripristino estetico dichiarati. Il riferimento a Rolex nel titolo della pagina non è stato attribuito come assistenza ufficiale. Fase 32: tipologia e laboratorio allineati alla pagina primaria; servizi non documentati rimossi."
+  },
+  {
+   "id": "alfio-censi-genova",
+   "nome": "Alfio Censi",
+   "comune": "Genova",
+   "fonte": "https://www.alfiocensi.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (censi-genova)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "antica-orologeria-zamberlan-treviso",
+   "nome": "Antica Orologeria Zamberlan",
+   "comune": "Treviso",
+   "fonte": "http://www.orologeria.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (zamberlan-treviso)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "arte-orafa-traversi-cave",
+   "nome": "Arte Orafa Traversi",
+   "comune": "Cave",
+   "fonte": "https://www.arteorafatraversi.it/it/oreficeria-artigianale-italiana-roma/vendita-e-riparazioni-orologi-742",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Vendita e riparazioni orologi»: «Il settore viene curato da nostro padre Ugo Traversi orologiaio specializzato dal 1963»; manutenzione, revisione, restauri, lucidatura.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "bellucci-echi-e-luci-martina-franca",
+   "nome": "Bellucci Echi e Luci",
+   "comune": "Martina Franca",
+   "fonte": "https://www.bellucciechieluci.com/servizi.php?id=95ead5",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Servizi»: «esegue il restauro di campane e orologi da torre… gli orologi da torre vengono completamente scomposti in centinaia di parti».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "capodagli-1937-senigallia",
+   "nome": "Capodagli 1937",
+   "comune": "Senigallia",
+   "fonte": "https://capodagli.it/pages/servizio-assistenza-orologi-e-penne",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Servizio assistenza orologi e penne»: assistenza ufficiale su orologi dei gruppi Swatch, Richemont e LVMH, laboratorio interno.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "carrieri-mastri-orologiai-bari",
+   "nome": "Carrieri Mastri Orologiai",
+   "comune": "Bari",
+   "fonte": "https://www.orologeriacarrieri.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (carrieri-bari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "casa-del-cronometro-roma",
+   "nome": "Casa del Cronometro",
+   "comune": "Roma",
+   "fonte": "https://www.casadelcronometro.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (casa-cronometro-roma)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "centro-assistenza-benettelli-venezia",
+   "nome": "Centro Assistenza Benettelli",
+   "comune": "Venezia",
+   "fonte": "https://www.orologeriabenettelli.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (centro-assistenza-benettelli-mestre)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "centrorologi-gravina-di-catania",
+   "nome": "Centrorologi",
+   "comune": "Gravina di Catania",
+   "fonte": "https://centrorologi.net/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (centrorologi-gravina-di-catania)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "ciesse-laboratorio-d-orologeria-padova",
+   "nome": "CieSSe Laboratorio d'Orologeria",
+   "comune": "Padova",
+   "fonte": "https://www.ciesse-orologi.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (ciesse-padova)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "cimafonte-orologi-napoli",
+   "nome": "Cimafonte Orologi",
+   "comune": "Napoli",
+   "fonte": "https://www.cimafonteorologi.it/servizi/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Servizi»: «specializzata nella riparazione Lucidatura Pulitura e Restauro di Orologi di Lusso»; orologi vintage e moderni.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "clock-service-catania",
+   "nome": "Clock Service",
+   "comune": "Catania",
+   "fonte": "https://www.clockservice.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (clock-service-catania)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "cm-orologi-alba",
+   "nome": "CM Orologi",
+   "comune": "Alba",
+   "fonte": "https://www.cmorologialba.it/",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP non riscontrato nelle pagine ufficiali consultate. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "cronomania-padova",
+   "nome": "Cronomania",
+   "comune": "Padova",
+   "fonte": "https://www.cronomania.it/il-laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (cronomania-padova)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "ctr-l-ora-esatta-torino",
+   "nome": "CTR L'Ora Esatta",
+   "comune": "Torino",
+   "fonte": "http://www.loraesatta.it/cosa-facciamo.html",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (ctr-lora-esatta-torino)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "dslab-orologeria-narni",
+   "nome": "DsLab Orologeria",
+   "comune": "Narni",
+   "fonte": "https://dslaborologeria.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (dslab-orologeria-narni)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "f-lli-gallo-cosenza",
+   "nome": "F.lli Gallo",
+   "comune": "Cosenza",
+   "fonte": "https://www.fratelligallo.it/rolex/team/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (fratelli-gallo-cosenza)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "formica-francesco-citta-di-castello",
+   "nome": "Formica Francesco",
+   "comune": "Città di Castello",
+   "fonte": "https://formicafrancesco.myadj.it/v/formicafrancesco",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP non riscontrato nella pagina ufficiale. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "giampiero-murgia-cagliari",
+   "nome": "Giampiero Murgia",
+   "comune": "Cagliari",
+   "fonte": "https://www.giampieromurgia.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (murgia-cagliari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielleria-bisciardi-avezzano",
+   "nome": "Gioielleria Bisciardi",
+   "comune": "Avezzano",
+   "fonte": "https://gioielleriabisciardi.wixsite.com/gioielleriaorologeri",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP non pubblicato e non confermabile. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielleria-de-nurra-sassari",
+   "nome": "Gioielleria De Nurra",
+   "comune": "Sassari",
+   "fonte": "https://www.denurra.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (gioielleria-de-nurra-sassari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielleria-rabino-cuneo",
+   "nome": "Gioielleria Rabino",
+   "comune": "Cuneo",
+   "fonte": "https://www.gioielleriarabino.com/orologi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (gioielleria-rabino-cuneo)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielleria-spinelli-cesano-maderno",
+   "nome": "Gioielleria Spinelli",
+   "comune": "Cesano Maderno",
+   "fonte": "https://www.gioielleriaspinelli.it/orologi-cantu",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP non riscontrato nella pagina ufficiale. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielleria-tomasi-trento",
+   "nome": "Gioielleria Tomasi",
+   "comune": "Trento",
+   "fonte": "https://www.gioielleriatomasi.it/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Laboratorio Orologeria … revisione del movimento … ripristino degli orologi … senza trascurare vecchi orologi che necessitano di restauri».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "gioielli-novelli-voghera",
+   "nome": "Gioielli Novelli",
+   "comune": "Voghera",
+   "fonte": "https://www.gioiellinovelli.it/21/orologeria",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (gioielli-novelli-voghera)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "giuseppe-ciletti-foggia",
+   "nome": "Giuseppe Ciletti",
+   "comune": "Foggia",
+   "fonte": "https://giuseppeciletti.it/servizi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (gioielleria-ciletti-foggia)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "horae-orologeria-san-giovanni-valdarno",
+   "nome": "Horae Orologeria",
+   "comune": "San Giovanni Valdarno",
+   "fonte": "https://www.horaeorologeria.it/laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (horae-san-giovanni)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-angolo-d-oro-sant-egidio-alla-vibrata",
+   "nome": "L'Angolo d'Oro",
+   "comune": "Sant'Egidio alla Vibrata",
+   "fonte": "https://www.langolodoroitalia.com/riparazioni-orologi-gioielli.php",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (angolo-d-oro-sant-egidio)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-orologiaio-ascione-porto-torres",
+   "nome": "L'Orologiaio Ascione",
+   "comune": "Porto Torres",
+   "fonte": "https://www.lorologiaio.net/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (lorologiaio-ascione-porto-torres)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-orologiaio-giuliano-genova",
+   "nome": "L'Orologiaio Giuliano",
+   "comune": "Genova",
+   "fonte": "https://www.lorologiaiogiuliano.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologiaio-giuliano-genova)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-orologiaio-sardegna-porto-torres",
+   "nome": "L'Orologiaio Sardegna",
+   "comune": "Porto Torres",
+   "fonte": "https://www.lorologiaiosardegna.com/orologi.php",
+   "stato": "duplicato",
+   "motivo": "Possibile doppione di lorologiaio-ascione-porto-torres: stesso indirizzo a Porto Torres, domini diversi. Nessuna seconda scheda pubblicata finché la titolarità non è chiarita.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-orologiaio-taranto-taranto",
+   "nome": "L'Orologiaio Taranto",
+   "comune": "Taranto",
+   "fonte": "https://orologiaiostore.it/riparazioni-orologi-taranto/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (lorologiaio-taranto)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "l-orologio-imola-imola",
+   "nome": "L'Orologio Imola",
+   "comune": "Imola",
+   "fonte": "https://www.lorologioimola.it/",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP del record (41026) errato per Imola e non confermato dal sito. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "la-clinica-dell-orologio-bernareggio",
+   "nome": "La Clinica dell'Orologio",
+   "comune": "Bernareggio",
+   "fonte": "https://www.clinicadellorologio.it/benvenuti-nella-clinica-dellorologio/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Benvenuti nella clinica dell'orologio»: «Siamo specializzati nella revisione e nel restauro di orologi meccanici antichi: pendoli… tasca».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "la-misura-del-tempo-bari",
+   "nome": "La Misura del Tempo",
+   "comune": "Bari",
+   "fonte": "https://www.lamisuradeltempo.it/Riparazione-orologi",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (la-misura-del-tempo-bari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "laboratorio-curato-brescia",
+   "nome": "Laboratorio Curato",
+   "comune": "Brescia",
+   "fonte": "https://www.laboratoriocurato.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (curato-brescia)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "laboratorio-di-orologeria-miconi-civitanova-marche",
+   "nome": "Laboratorio di Orologeria Miconi",
+   "comune": "Civitanova Marche",
+   "fonte": "https://www.orologeriamiconi.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (miconi-civitanova)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "laboratorio-portanova-bologna",
+   "nome": "Laboratorio PortaNova",
+   "comune": "Bologna",
+   "fonte": "https://www.laboratorioportanova.eu/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (portanova-bologna)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "le-musolesi-bologna",
+   "nome": "Le Musolesi",
+   "comune": "Bologna",
+   "fonte": "https://www.lemusolesi.com/laboratorio-orologeria-bologna",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (le-musolesi-bologna)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "legnano-orologeria-paternostro-1972-legnano",
+   "nome": "Legnano Orologeria Paternostro 1972",
+   "comune": "Legnano",
+   "fonte": "https://www.andreapaternostro.it/legnano-orologeria/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina ufficiale: «All'interno del punto vendita è presente il laboratorio orologiero, specializzato nei servizi di assistenza post-vendita e revisione di tutti i marchi».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "lissi-gioielli-rho",
+   "nome": "Lissi Gioielli",
+   "comune": "Rho",
+   "fonte": "https://www.lissigioielli.it/riparazione-orologi-pendole/",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: indirizzo non pubblicato, CAP non confermato. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "louis-shop-pieve-di-cento",
+   "nome": "Louis Shop",
+   "comune": "Pieve di Cento",
+   "fonte": "https://louisshop.it/it/laboratorio",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (louis-shop-pieve-cento)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "luigi-rosso-orologi-e-gioielli-casale-monferrato",
+   "nome": "Luigi Rosso Orologi e Gioielli",
+   "comune": "Casale Monferrato",
+   "fonte": "https://www.luigirossogioielli.com/it/assistenza",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (luigi-rosso-casale-monferrato)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "maurizio-l-ora-roma",
+   "nome": "Maurizio & L'Ora",
+   "comune": "Roma",
+   "fonte": "https://www.maurizioelora.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (maurizio-lora-rome)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "monetti-orologi-napoli",
+   "nome": "Monetti Orologi",
+   "comune": "Napoli",
+   "fonte": "https://monettiorologi.com/laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (monetti-napoli-brigida)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "natale-fontana-bologna",
+   "nome": "Natale Fontana",
+   "comune": "Bologna",
+   "fonte": "https://www.natalefontana.it/it/laboratorio-gioielleria-orologeria",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (fontana-bologna)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "officina-del-tempo-olbia-olbia",
+   "nome": "Officina del Tempo Olbia",
+   "comune": "Olbia",
+   "fonte": "https://www.officinadeltempoolbia.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (officina-del-tempo-olbia)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "officina4-watchmaking-merano",
+   "nome": "Officina4 Watchmaking",
+   "comune": "Merano",
+   "fonte": "https://www.officina4.com/IT---OFFICINA-4.html",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina ufficiale: «Ripariamo orologi al quarzo, automatici e con complicazioni... Revisione»; vetro, cinturino, lucidatura, prova di impermeabilità.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "old-clock-bari-bari",
+   "nome": "Old Clock Bari",
+   "comune": "Bari",
+   "fonte": "https://www.oldclockbari.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (old-clock-bari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orolab-bra",
+   "nome": "Orolab",
+   "comune": "Bra",
+   "fonte": "https://www.orolab.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orolab-bra)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-bruno-emanuele-palermo",
+   "nome": "Orologeria Bruno Emanuele",
+   "comune": "Palermo",
+   "fonte": "https://brunoemanuele.com/laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (bruno-emanuele-palermo)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-burrascano-messina",
+   "nome": "Orologeria Burrascano",
+   "comune": "Messina",
+   "fonte": "https://gioielleriaburrascano.it/riparazione-orologi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (gioielleria-burrascano-messina)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-casadei-rimini",
+   "nome": "Orologeria Casadei",
+   "comune": "Rimini",
+   "fonte": "https://www.orologeriacasadei.it/servizi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (casadei-rimini)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-di-caro-palermo",
+   "nome": "Orologeria Di Caro",
+   "comune": "Palermo",
+   "fonte": "https://www.orologeriadicaro.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (di-caro-palermo)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-ermanno-salucci-roma",
+   "nome": "Orologeria Ermanno Salucci",
+   "comune": "Roma",
+   "fonte": "https://www.orologeriasalucci.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologeria-salucci-roma)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-lazzini-sarzana",
+   "nome": "Orologeria Lazzini",
+   "comune": "Sarzana",
+   "fonte": "https://www.adjora.it/comelavoriamo/riparazione-orologi.html",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (lazzini-sarzana)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-magno-bari",
+   "nome": "Orologeria Magno",
+   "comune": "Bari",
+   "fonte": "https://www.orologeriamagno.it/",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: CAP, via e telefono non riscontrati nelle pagine ufficiali consultate. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-martini-bassano-del-grappa",
+   "nome": "Orologeria Martini",
+   "comune": "Bassano del Grappa",
+   "fonte": "https://orologeria-martini.webnode.it/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Roberto Martini – Proprietario e riparatore di orologi. Riparo e vendo qualsiasi tipo di orologi … Riparo pendole antiche».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-mazzone-salerno",
+   "nome": "Orologeria Mazzone",
+   "comune": "Salerno",
+   "fonte": "https://www.orologeriamazzonesalerno.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (mazzone-salerno)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-nozzetti-mazara-del-vallo",
+   "nome": "Orologeria Nozzetti",
+   "comune": "Mazara del Vallo",
+   "fonte": "https://orologerianozzetti.wordpress.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologeria-nozzetti-mazara-del-vallo)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-rabiti-firenze",
+   "nome": "Orologeria Rabiti",
+   "comune": "Firenze",
+   "fonte": "https://www.orologeriarabiti.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (rabiti-firenze)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologeria-rafaschieri-bari",
+   "nome": "Orologeria Rafaschieri",
+   "comune": "Bari",
+   "fonte": "https://www.orologirafaschieri.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (rafaschieri-bari)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologiaio-clementi-bolzano",
+   "nome": "Orologiaio Clementi",
+   "comune": "Bolzano",
+   "fonte": "https://www.orologiaio-clementi.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologeria-clementi-bolzano)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologiaio-vincenzo-salerno-ragusa",
+   "nome": "Orologiaio Vincenzo Salerno",
+   "comune": "Ragusa",
+   "fonte": "https://www.orologiaiovincenzosalerno.it/it/servizi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (vincenzo-salerno-ragusa)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologiaio-zaccaria-angelo-pulsano",
+   "nome": "Orologiaio Zaccaria Angelo",
+   "comune": "Pulsano",
+   "fonte": "https://angelozaccariaza.wixsite.com/orologiaio-zaccaria",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Revisione completa di orologi meccanici con regolazione di precisione e sostituzione componenti usurati»; riparazione vintage e manutenzione automatici.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologiando-moncalieri",
+   "nome": "Orologiando",
+   "comune": "Moncalieri",
+   "fonte": "https://www.orologiandomoncalieri.it/chi-siamo-gallery",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologiando-moncalieri)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologiaus-roma",
+   "nome": "Orologiaus",
+   "comune": "Roma",
+   "fonte": "https://www.orologiaus.com/servizi",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologiaus-riparazione-orologi-di-lusso-rome)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "orologica-torino-torino",
+   "nome": "Orologica Torino",
+   "comune": "Torino",
+   "fonte": "https://www.orologicatorino.it/riparazione-orologi-al-quarzo-e-meccanici-in-laboratorio-a-torino/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (orologica-torino)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "otto-gioielli-montebelluna",
+   "nome": "Otto Gioielli",
+   "comune": "Montebelluna",
+   "fonte": "https://ottogioielli.it/riparazione-orologi-montebelluna/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Pagina «Riparazione orologi Montebelluna»: «Laboratorio di orologeria interno … tecnici riparatori e meccanici restauratori lavorano direttamente in negozio … revisione di orologi automatici e meccanici».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "parolin-1885-rosa",
+   "nome": "Parolin 1885",
+   "comune": "Rosà",
+   "fonte": "https://www.parolinorologi.it/contatti.php",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Riparazioni di orologeria vengono effettuate nel laboratorio interno all'azienda … revisione completa dei movimenti compreso il restauro di orologi d'epoca».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "poli-maier-bressanone",
+   "nome": "Poli Maier",
+   "comune": "Bressanone",
+   "fonte": "https://polimaier.it/it/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Paolo Poli è orologiaio di formazione… Riparazione di movimenti meccanici»; pulizia e revisione, quarzo, batteria, cinturini.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "r-rubini-arte-del-tempo-fidenza",
+   "nome": "R. Rubini Arte del Tempo",
+   "comune": "Fidenza",
+   "fonte": "https://www.rrubini.com/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «We repair and appraise watches from all the most prestigious brands (wristwatches, pocket watches, and clocks)».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "rolli-poniz-trieste",
+   "nome": "Rolli Poniz",
+   "comune": "Trieste",
+   "fonte": "https://rolliponiz.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (rolli-poniz-trieste)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "ruben-calistri-firenze",
+   "nome": "Ruben Calistri",
+   "comune": "Firenze",
+   "fonte": "https://www.riparazioneorologifirenze.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (calistri-firenze)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "s-t-s-laboratorio-di-orologeria-conegliano",
+   "nome": "S.T.S. Laboratorio di Orologeria",
+   "comune": "Conegliano",
+   "fonte": "https://stsorologeria.jimdoweb.com/contatti/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (sts-laboratorio-orologeria-conegliano)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "salamena-roma",
+   "nome": "Salamena",
+   "comune": "Roma",
+   "fonte": "https://www.riparazioniorologiroma.it/riparazione-orologi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (salamena-roma)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "sandrone-gioielli-moncalieri",
+   "nome": "Sandrone Gioielli",
+   "comune": "Moncalieri",
+   "fonte": "https://www.sandronegioielli.com/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: voce di servizio «Riparazione Orologi e Preziosi — assistenza gioielli, riparazione orologi».",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "soprana-dal-1910-vicenza",
+   "nome": "Soprana dal 1910",
+   "comune": "Vicenza",
+   "fonte": "https://www.soprana.com/laboratorio-orologeria/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (soprana-vicenza)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "spangaro-co-udine",
+   "nome": "Spangaro & Co",
+   "comune": "Udine",
+   "fonte": "https://spangaroandco.com/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (spangaro-udine)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "tarondo-orologiai-tavagnacco",
+   "nome": "Tarondo Orologiai",
+   "comune": "Tavagnacco",
+   "fonte": "https://www.tarondo.it/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Riparare un orologio è un'operazione complessa… strumentazioni all'avanguardia ed esperta manualità»; assistenza tecnica e centro assistenza.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "tempo-prezioso-bologna-bologna",
+   "nome": "Tempo Prezioso Bologna",
+   "comune": "Bologna",
+   "fonte": "https://www.tempopreziosobologna.com/",
+   "stato": "verificato",
+   "motivo": "Pubblicata nel lotto fase32-01: indirizzo, CAP e recapiti riscontrati sulla pagina ufficiale; servizi trascritti solo se dichiarati.",
+   "serviziDocumentati": "Sito ufficiale: «Revisione completa del movimento, lucidatura cassa e bracciale, test di impermeabilità»; restauro vintage e verifica di autenticità.",
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "tempoidea-viterbo",
+   "nome": "Tempoidea",
+   "comune": "Viterbo",
+   "fonte": "https://www.tempoidea.it/riparazione-orologi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (tempoidea-viterbo)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "time-lab-fiuggi",
+   "nome": "Time Lab",
+   "comune": "Fiuggi",
+   "fonte": "https://www.timelabfiuggi.it/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (time-lab-fiuggi)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "v-gasser-brunico",
+   "nome": "V. Gasser",
+   "comune": "Brunico",
+   "fonte": "https://it.vgasser.it/pages/werkstatt",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (v-gasser-brunico)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "valenti-parma",
+   "nome": "Valenti",
+   "comune": "Parma",
+   "fonte": "https://www.valentiparma.it/laboratorio/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (valenti-parma-farini)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "zagli-gioielli-firenze",
+   "nome": "Zagli Gioielli",
+   "comune": "Firenze",
+   "fonte": "https://zagli.it/laboratorio-orologi/",
+   "stato": "duplicato",
+   "motivo": "Fase 32: stesso sito di una scheda esistente (zagli-firenze)",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  },
+  {
+   "id": "zanoni-preziosi-trento",
+   "nome": "Zanoni Preziosi",
+   "comune": "Trento",
+   "fonte": "https://zanonipreziosi.it/la-tradizione-e-una-garanzia-per-la-riparazione-di-orologi-e-sveglie-a-trento/",
+   "stato": "sospeso",
+   "motivo": "Gate geografico: indirizzo e CAP non pubblicati: collocazione ambigua. Non pubblicata.",
+   "serviziDocumentati": null,
+   "fase": 32,
+   "lotto": "fase32-01"
+  }
+ ],
+ "riepilogo": {
+  "candidati": 126,
+  "verificati": 27,
+  "duplicati": 87,
+  "sospesi": 11,
+  "scartati": 1,
+  "nuoveInCatalogo": 17,
+  "fase32": {
+   "lotto": "fase32-01",
+   "candidati": 87,
+   "pubblicate": 17,
+   "inRevisione": 1,
+   "sospese": 8,
+   "duplicate": 62,
+   "attivitaCatalogo": 527,
+   "localitaCatalogo": 235
+  }
+ },
+ "checkpoint": {
+  "catalogo": {
+   "attivita": 511,
+   "localita": 225,
+   "fonti": 1105,
+   "sha256Directory": "634a7c77f7b879dfee5cad92892c6e456aaf91c6a2bb78581897424c0c6a6c7f"
+  },
+  "lotti": [
+   {
+    "lotto": "fase31-01",
+    "inputSha256": "9d5096ace9547fc4c7892c7583f6c269a4b918ebdb985a00c4224c372c9a6f59",
+    "nuove": 5,
+    "inRevisione": 8,
+    "report": "data/reports/fase31-01-applicato.json"
+   },
+   {
+    "lotto": "fase31-02",
+    "inputSha256": "15cadbdf08fcffe16f0de010cbfca17f63984dacfe5f52c85576441f5ae2e8df",
+    "nuove": 6,
+    "inRevisione": 0,
+    "report": "data/reports/fase31-02-applicato.json"
+   }
+  ],
+  "controlli": {
+   "geografia": {
+    "localita": 225,
+    "errori": 0
+   },
+   "test": {
+    "pass": 278,
+    "fail": 0
+   },
+   "check": {
+    "errori": 0,
+    "warning": 0
+   }
+  },
+  "deploy": {
+   "produzione": {
+    "deployment": "30050018",
+    "url": "https://www.orologiai.it",
+    "verificato": true
+   },
+   "anteprima": {
+    "deployment": "834d5907",
+    "url": "https://834d5907.orologiai-it.pages.dev",
+    "verificato": true
+   },
+   "rollback": {
+    "deployment": "70cd7c93",
+    "branch": "pubblicazione-gratuita-scardi-20261022",
+    "attivita": 500
+   }
+  },
+  "data": "2026-11-03"
+ }
+}

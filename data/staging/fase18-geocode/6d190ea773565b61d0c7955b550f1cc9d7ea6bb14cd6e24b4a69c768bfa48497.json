@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santa+Caterina+12%2C+Besana+in+Brianza%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75198604,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12476287682,
+      "lat": "45.7001267",
+      "lon": "9.2850120",
+      "category": "shop",
+      "type": "jewelry",
+      "place_rank": 30,
+      "importance": 0.00005562752727545613,
+      "addresstype": "shop",
+      "name": "I Gioielli Conti",
+      "display_name": "I Gioielli Conti, 12, Via Santa Caterina, Montesiro, Besana in Brianza, Monza e Brianza, Lombardia, 20842, Italia",
+      "address": {
+        "shop": "I Gioielli Conti",
+        "house_number": "12",
+        "road": "Via Santa Caterina",
+        "village": "Montesiro",
+        "town": "Besana in Brianza",
+        "county": "Monza e Brianza",
+        "ISO3166-2-lvl6": "IT-MB",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "20842",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.7000767",
+        "45.7001767",
+        "9.2849620",
+        "9.2850620"
+      ]
+    }
+  ]
+}

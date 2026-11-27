@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Ducale%2C+49%2C+Vigevano%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75712532,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 33439855,
+      "lat": "45.3172376",
+      "lon": "8.8579667",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.22697289548003588,
+      "addresstype": "pedestrian",
+      "name": "Piazza Ducale",
+      "display_name": "Piazza Ducale, Vigevano, Pavia, Lombardia, 27029, Italia",
+      "address": {
+        "road": "Piazza Ducale",
+        "town": "Vigevano",
+        "county": "Pavia",
+        "ISO3166-2-lvl6": "IT-PV",
+        "state": "Lombardia",
+        "ISO3166-2-lvl4": "IT-25",
+        "postcode": "27029",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.3169028",
+        "45.3175743",
+        "8.8571725",
+        "8.8588617"
+      ]
+    }
+  ]
+}

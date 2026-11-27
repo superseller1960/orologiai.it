@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+del+Prione%2C+119%2C+La+Spezia%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77009189,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 135547601,
+      "lat": "44.1077257",
+      "lon": "9.8177218",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.05340023575188827,
+      "addresstype": "pedestrian",
+      "name": "Via del Prione",
+      "display_name": "Via del Prione, Vicci, Sarbia, La Spezia, Liguria, 19121, Italia",
+      "address": {
+        "road": "Via del Prione",
+        "quarter": "Vicci",
+        "village": "Sarbia",
+        "city": "La Spezia",
+        "county": "La Spezia",
+        "ISO3166-2-lvl6": "IT-SP",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "postcode": "19121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.1071489",
+        "44.1082898",
+        "9.8172484",
+        "9.8181803"
+      ]
+    }
+  ]
+}

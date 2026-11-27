@@ -1,3 +1,4 @@
+import { assertAbsentOrReviewedCoordinate } from './verified-coordinate.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -30,7 +31,7 @@ test('Lotto 2: ogni claim è supportato da fonti esistenti e consultate', () => 
       ...b.storia.eventi.flatMap(e => e.fonti), ...b.attendibilita.cronologia.flatMap(c => c.fonti),
     ];
     for (const ref of refs) assert.ok(sourceIds.has(ref), `fonte mancante ${ref} in ${id}`);
-    for (const s of data.fonti.filter(f => refs.includes(f.id))) assert.equal(s.consultataIl, '2026-10-28', `fonte non consultata il 28/10: ${s.id}`);
+    for (const s of data.fonti.filter(f => refs.includes(f.id))) assert.equal(s.consultataIl, s.id.startsWith('f18-geo-') ? '2026-10-31' : '2026-10-28', `data fonte non coerente con il lotto: ${s.id}`);
   }
 });
 
@@ -68,7 +69,7 @@ test('Lotto 2: autodichiarazioni non promosse a qualifiche ufficiali', () => {
 test('Lotto 2: dati incerti lasciati assenti o marcati, mai inventati', () => {
   for (const id of newIds) {
     const b = data.attivita.find(x => x.id === id)!;
-    assert.equal(b.posizione.coordinate, null, `${id}: nessuna coordinata inventata`);
+    assertAbsentOrReviewedCoordinate(b);
   }
   const nozz = data.attivita.find(b => b.id === 'orologeria-nozzetti-mazara-del-vallo')!;
   assert.equal(nozz.posizione.cap, null, 'CAP assente quando non documentato');
@@ -118,8 +119,21 @@ test('Lotto 2: nessuna regressione sulle province a bassa copertura', () => {
     perProv.set(l.siglaProvincia, (perProv.get(l.siglaProvincia) ?? 0) + 1);
   }
   const monoreddito = [...perProv.entries()].filter(([, n]) => n === 1).map(([s]) => s);
-  assert.deepEqual(monoreddito.sort(), ['AG', 'CL', 'EN', 'IS'], 'restano solo le province senza candidati verificabili');
-  for (const sigla of ['TP', 'CZ', 'KR', 'AP', 'RN', 'CR', 'MB', 'MN', 'BI', 'OT', 'OR', 'SU']) {
+  // Fase 20 ha portato Agrigento a due attività; Fase 27 ha aggiunto Gioielli Lori a Caltanissetta.
+  // Dal 1° gennaio 2026 la riforma sarda divide la Sud Sardegna: le sue due schede (Iglesias e Villacidro)
+  // restano una per nuova provincia, quindi SU e VS sono le sole con copertura singola, senza perdite.
+  const provinceSingole = monoreddito.sort();
+  assert.deepEqual(provinceSingole, ['SU', 'VS'], 'Solo le due nuove province sarde hanno una sola scheda');
+  for (const sigla of provinceSingole) {
+    const luoghi = data.localita.filter(l => l.siglaProvincia === sigla);
+    assert.deepEqual([...new Set(luoghi.map(l => l.regione))], ['Sardegna'], sigla + ': provincia sarda');
+    assert.equal(luoghi.length, 1, sigla + ': una sola località censita');
+    assert.equal(data.attivita.filter(b => b.localitaId === luoghi[0].id).length, 1, sigla + ': una sola scheda, conservata');
+  }
+  assert.ok((perProv.get('AG') ?? 0) >= 2, 'AG: seconda attività di Agrigento documentata in Fase 20');
+  // La vecchia SU (Sud Sardegna) aveva due schede: dal 2026 sono una in SU e una in VS,
+  // entrambe verificate nel blocco precedente. La copertura complessiva resta due.
+  for (const sigla of ['TP', 'CZ', 'KR', 'AP', 'RN', 'CR', 'MB', 'MN', 'BI', 'OT', 'OR']) {
     assert.ok((perProv.get(sigla) ?? 0) >= 2, `${sigla}: portata ad almeno due attività`);
   }
 });

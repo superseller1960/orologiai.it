@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Zampillo%2C+5%2C+Villacidro%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53260584,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1393888760,
+      "lat": "39.4566440",
+      "lon": "8.7320848",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06672545586327916,
+      "addresstype": "square",
+      "name": "Piazza Zampillo",
+      "display_name": "Piazza Zampillo, Villacidro, Medio Campidano, Sardegna, 09039, Italia",
+      "address": {
+        "square": "Piazza Zampillo",
+        "town": "Villacidro",
+        "county": "Medio Campidano",
+        "ISO3166-2-lvl6": "IT-VS",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "09039",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "39.4564439",
+        "39.4568300",
+        "8.7318621",
+        "8.7323013"
+      ]
+    }
+  ]
+}

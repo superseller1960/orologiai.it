@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+XX+Settembre%2C+1%2C+Nuoro%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81307963,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4207202784,
+      "lat": "40.3209606",
+      "lon": "9.3334987",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006165789272903055,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "1, Via Venti Settembre, Seuna, Nuoro, Sardegna, 08100, Italia",
+      "address": {
+        "house_number": "1",
+        "road": "Via Venti Settembre",
+        "neighbourhood": "Seuna",
+        "town": "Nuoro",
+        "county": "Nuoro",
+        "ISO3166-2-lvl6": "IT-NU",
+        "state": "Sardegna",
+        "ISO3166-2-lvl4": "IT-88",
+        "postcode": "08100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.3209106",
+        "40.3210106",
+        "9.3334487",
+        "9.3335487"
+      ]
+    }
+  ]
+}

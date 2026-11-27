@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Terrasanta+61%2C+Palermo%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53712101,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24703838,
+      "lat": "38.1300172",
+      "lon": "13.3447437",
+      "category": "highway",
+      "type": "tertiary",
+      "place_rank": 26,
+      "importance": 0.053408945601586905,
+      "addresstype": "tertiary",
+      "name": "Via Terrasanta",
+      "display_name": "Via Terrasanta, VIII Circoscrizione, Palermo, Sicilia, 90141, Italia",
+      "address": {
+        "road": "Via Terrasanta",
+        "suburb": "VIII Circoscrizione",
+        "city": "Palermo",
+        "county": "Palermo",
+        "ISO3166-2-lvl6": "IT-PA",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "90141",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "38.1279483",
+        "38.1321269",
+        "13.3434664",
+        "13.3460846"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazzale+Francesco+Vannoni%2C+4%2C+Rimini%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78043752,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2718175956,
+      "lat": "44.0664117",
+      "lon": "12.5608613",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00006849240863656089,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "4, Piazzale Francesco Vannoni, San Giuliano, Rimini, Emilia-Romagna, 47921, Italia",
+      "address": {
+        "house_number": "4",
+        "road": "Piazzale Francesco Vannoni",
+        "neighbourhood": "San Giuliano",
+        "city": "Rimini",
+        "county": "Rimini",
+        "ISO3166-2-lvl6": "IT-RN",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "47921",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.0663617",
+        "44.0664617",
+        "12.5608113",
+        "12.5609113"
+      ]
+    }
+  ]
+}

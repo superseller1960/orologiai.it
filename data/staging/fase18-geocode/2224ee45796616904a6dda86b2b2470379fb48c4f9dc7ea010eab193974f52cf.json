@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+di+Tiglio+552%2C+Lucca%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82151139,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 633953902,
+      "lat": "43.8415510",
+      "lon": "10.5198059",
+      "category": "highway",
+      "type": "primary",
+      "place_rank": 26,
+      "importance": 0.0534021660181582,
+      "addresstype": "primary",
+      "name": "Via di Tiglio",
+      "display_name": "Via di Tiglio, San Concordio, Santissima Annunziata, Lucca, Toscana, 55100, Italia",
+      "address": {
+        "road": "Via di Tiglio",
+        "suburb": "San Concordio",
+        "village": "Santissima Annunziata",
+        "city": "Lucca",
+        "county": "Lucca",
+        "ISO3166-2-lvl6": "IT-LU",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "55100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8414027",
+        "43.8416308",
+        "10.5191956",
+        "10.5204037"
+      ]
+    }
+  ]
+}

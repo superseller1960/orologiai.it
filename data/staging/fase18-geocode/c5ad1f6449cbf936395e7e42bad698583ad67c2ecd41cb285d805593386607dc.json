@@ -1,0 +1,40 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Sandro+Pertini%2C+44%2C+Savona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 76416919,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 821492489,
+      "lat": "44.3055400",
+      "lon": "8.4814452",
+      "category": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.06673259861142901,
+      "addresstype": "square",
+      "name": "Piazza Sandro Pertini",
+      "display_name": "Piazza Sandro Pertini, Villetta, Savona, Liguria, Italia",
+      "address": {
+        "square": "Piazza Sandro Pertini",
+        "suburb": "Villetta",
+        "city": "Savona",
+        "county": "Savona",
+        "ISO3166-2-lvl6": "IT-SV",
+        "state": "Liguria",
+        "ISO3166-2-lvl4": "IT-42",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.3051809",
+        "44.3059570",
+        "8.4810118",
+        "8.4816193"
+      ]
+    }
+  ]
+}

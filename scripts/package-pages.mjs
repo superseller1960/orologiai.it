@@ -44,11 +44,15 @@ await build({
   logLevel: 'info',
 });
 
-// Solo le due API invocano il worker; pagine e asset restano statici (stesso criterio di
-// site/assets/_routes.json, ripetuto qui perché l'artefatto deve essere autosufficiente).
+// Le due API e i vecchi percorsi territoriali invocano il worker; tutte le altre pagine
+// restano statiche. I prefissi arrivano dallo stesso registro usato dal worker e dai test.
+const redirect = JSON.parse(await readFile('data/anagrafica/redirect-territoriali.json', 'utf8'));
+const redirectSchede = JSON.parse(await readFile('data/anagrafica/redirect-schede.json', 'utf8'));
+const include = ['/api/orologiaio', '/api/posizione', '/api/fonte',
+  ...new Set([...redirect.regole.map(({ da }) => `${da}*`), ...redirectSchede.regole.map(({ da }) => `${da}*`)])];
 await writeFile(
   `${USCITA}/_routes.json`,
-  `${JSON.stringify({ version: 1, include: ['/api/orologiaio', '/api/posizione'], exclude: [] }, null, 2)}\n`,
+  `${JSON.stringify({ version: 1, include, exclude: [] }, null, 2)}\n`,
 );
 
 const files = (await elenco(USCITA)).sort();

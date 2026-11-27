@@ -1,0 +1,20 @@
+{
+ "aggiornatoIl": "2026-11-06",
+ "criterio": "un servizio è documentato solo se una citazione descrive il servizio svolto per il cliente; lavorazione interna e negazioni non contano",
+ "declassate": [
+  {
+   "attivitaId": "zagli-firenze",
+   "servizio": "revisione",
+   "fonteId": "t02-zagli-lab",
+   "contesto": "interno",
+   "estratto": "Il nostro laboratorio artigianale di riparazione orologi dà vita a un usato garantito almeno 24 mesi che, prima di essere venduto, viene sottoposto a una completa revisione comprensiva di restauro…"
+  },
+  {
+   "attivitaId": "lorologiaio-ascione-porto-torres",
+   "servizio": "revisione",
+   "fonteId": "e11-www-lorologiaio-net",
+   "contesto": "interno",
+   "estratto": "Ogni orologio di secondo polso che proponiamo viene sottoposto a un accurato processo di controllo, revisione e ripristino, per offrire ai nostri clienti un segnatempo affidabile, autentico e pronto…"
+  }
+ ]
+}

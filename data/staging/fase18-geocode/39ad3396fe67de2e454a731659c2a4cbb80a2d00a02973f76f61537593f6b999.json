@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Carducci+49%2C+Gorizia%2C+Italia",
+  "consultataIl": "2026-11-01",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79204428,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3800032012,
+      "lat": "45.9482362",
+      "lon": "13.6263918",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.0000621782253757079,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "49, Via Giosuè Carducci, Carinthia / Gorišček, Borgo Castello, Gorizia, Friuli-Venezia Giulia, 34170, Italia",
+      "address": {
+        "house_number": "49",
+        "road": "Via Giosuè Carducci",
+        "neighbourhood": "Carinthia / Gorišček",
+        "suburb": "Borgo Castello",
+        "city": "Gorizia",
+        "town": "Gorizia",
+        "county": "Gorizia",
+        "ISO3166-2-lvl6": "IT-GO",
+        "state": "Friuli-Venezia Giulia",
+        "ISO3166-2-lvl4": "IT-36",
+        "postcode": "34170",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.9481862",
+        "45.9482862",
+        "13.6263418",
+        "13.6264418"
+      ]
+    }
+  ]
+}

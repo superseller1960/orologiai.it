@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+Trento+e+Trieste%2C+13%2C+Ferrara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77476010,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4761940701,
+      "lat": "44.8355332",
+      "lon": "11.6197871",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007182803082317872,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "13, Piazza Trento e Trieste, Centro storico, Giardino, Ferrara, Emilia-Romagna, 44141, Italia",
+      "address": {
+        "house_number": "13",
+        "road": "Piazza Trento e Trieste",
+        "neighbourhood": "Centro storico",
+        "suburb": "Giardino",
+        "city": "Ferrara",
+        "county": "Ferrara",
+        "ISO3166-2-lvl6": "IT-FE",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "44141",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.8354832",
+        "44.8355832",
+        "11.6197371",
+        "11.6198371"
+      ]
+    }
+  ]
+}

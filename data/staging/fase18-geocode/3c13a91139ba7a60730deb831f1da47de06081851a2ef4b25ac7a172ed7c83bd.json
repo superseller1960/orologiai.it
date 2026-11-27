@@ -1,0 +1,44 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Gabriele+D%E2%80%99Annunzio+134%2C+Catania%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 53919840,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 2276766472,
+      "lat": "37.5176843",
+      "lon": "15.0941909",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007121309224074186,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "134, Via Gabriele D'Annunzio, Monserrato, Borgo, Borgo-Sanzio, Catania, Sicilia, 95127, Italia",
+      "address": {
+        "house_number": "134",
+        "road": "Via Gabriele D'Annunzio",
+        "neighbourhood": "Monserrato",
+        "quarter": "Borgo",
+        "suburb": "Borgo-Sanzio",
+        "city": "Catania",
+        "county": "Catania",
+        "ISO3166-2-lvl6": "IT-CT",
+        "state": "Sicilia",
+        "ISO3166-2-lvl4": "IT-82",
+        "postcode": "95127",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "37.5176343",
+        "37.5177343",
+        "15.0941409",
+        "15.0942409"
+      ]
+    }
+  ]
+}

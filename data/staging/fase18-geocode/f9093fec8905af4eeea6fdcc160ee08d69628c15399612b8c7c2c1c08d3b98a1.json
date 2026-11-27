@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Cavour+15%2C+Novara%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75862450,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9870126121,
+      "lat": "45.4485432",
+      "lon": "8.6219641",
+      "category": "shop",
+      "type": "shoes",
+      "place_rank": 30,
+      "importance": 0.00006781948577091657,
+      "addresstype": "shop",
+      "name": "Snipes",
+      "display_name": "Snipes, 15, Corso Camillo Benso Conte di Cavour, Centro, Novara, Piemonte, 28100, Italia",
+      "address": {
+        "shop": "Snipes",
+        "house_number": "15",
+        "road": "Corso Camillo Benso Conte di Cavour",
+        "suburb": "Centro",
+        "city": "Novara",
+        "county": "Novara",
+        "ISO3166-2-lvl6": "IT-NO",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "28100",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.4484932",
+        "45.4485932",
+        "8.6219141",
+        "8.6220141"
+      ]
+    }
+  ]
+}

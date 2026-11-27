@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Napoli%2C+27%2C+Sora%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80973553,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 37870416,
+      "lat": "41.7182460",
+      "lon": "13.6124083",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053392662699320935,
+      "addresstype": "secondary",
+      "name": "Via Napoli",
+      "display_name": "Via Napoli, Sora, Frosinone, Lazio, 03039, Italia",
+      "address": {
+        "road": "Via Napoli",
+        "town": "Sora",
+        "city": "Sora",
+        "county": "Frosinone",
+        "ISO3166-2-lvl6": "IT-FR",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "03039",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.7181087",
+        "41.7183402",
+        "13.6122266",
+        "13.6126146"
+      ]
+    }
+  ]
+}

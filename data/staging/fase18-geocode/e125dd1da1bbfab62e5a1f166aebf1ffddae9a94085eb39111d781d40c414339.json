@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Sparano+50%2C+Bari%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 56747401,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11497951725,
+      "lat": "41.1244774",
+      "lon": "16.8695919",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007187228198667914,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "50, Via Sparano da Bari, Murat, Municipio 1, Bari, Puglia, 70121, Italia",
+      "address": {
+        "house_number": "50",
+        "road": "Via Sparano da Bari",
+        "suburb": "Murat",
+        "city": "Bari",
+        "county": "Bari",
+        "ISO3166-2-lvl6": "IT-BA",
+        "state": "Puglia",
+        "ISO3166-2-lvl4": "IT-75",
+        "postcode": "70121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.1244274",
+        "41.1245274",
+        "16.8695419",
+        "16.8696419"
+      ]
+    }
+  ]
+}

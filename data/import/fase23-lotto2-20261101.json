@@ -1,0 +1,3596 @@
+{
+  "lotto": "fase23-lotto2-20261101",
+  "data": "2026-11-01",
+  "fonti": [
+    {
+      "id": "f23-costa-cronometri-genova-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.costacronometri.com/",
+      "titolo": "Costa A. e E. Cronometri: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il laboratorio attrezzato di torni, fresatrici, rettifiche tangenziali, puntatrici, trapani sensitivi è specializzato nella riparazione e ricostruzione di parti di ricambio, per cronometri da marina, di bordo e Deck Watch»; «Si effettuano valutazioni, ricerche storiche e acquisti su commissione»; Piazza di Soziglia 1/4, 16123 Genova."
+    },
+    {
+      "id": "f23-memphis-belle-genova-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://memphisbellewatches.shop/customer-service/",
+      "titolo": "Memphis Belle Watches: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Memphis Belle mette a disposizione dei suoi clienti un laboratorio dotato dei più innovativi strumenti e macchinari tecnici, dove operano professionisti qualificati ... riparazione o personalizzazione del proprio orologio»; «Tutte le riparazioni effettuate sono garantite»; Piazza della Vittoria 9 int. 10, 16121 Genova."
+    },
+    {
+      "id": "f23-gioielleria-arlotto-genova-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://arlottogioielleria.it/?page_id=181",
+      "titolo": "Gioielleria Arlotto: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel nostro laboratorio, inoltre, creiamo e incidiamo gioielli su misura su richiesta, oltre a riparare e restaurare orologi»; Via Piacenza 266/R, 16138 Genova."
+    },
+    {
+      "id": "f23-lora-zero-milano-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://lorazero.it/",
+      "titolo": "L’Ora Zero: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio di Milano è certificato per la riparazione dei seguenti marchi: Cartier, Baume & Mercier, Tag Hauer, Omega, Longines, Rado, Tissot, Mido, Hamilton e Certina»; «Intervento completo di manutenzione e riparazione»; «Servizio di lucidatura»; «Sostituzione pila orologio»; Via Speronari 6, 20123 Milano."
+    },
+    {
+      "id": "f23-il-francescone-milano-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://ilfrancesconemilano.it/",
+      "titolo": "Il Francescone — Milano: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«assistenza, revisione e riparazione di orologi meccanici e gioielli»; «Restauriamo tutti i tipi di pendoli e parigine con ricambi autentici»; «Testiamo l’effettiva tenuta all’acqua del vostro orologio»; Via Angelo Poliziano 9, 20154 Milano."
+    },
+    {
+      "id": "f23-aldrighi-brescia-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.aldrighiorologiaio.it/contatti.html",
+      "titolo": "Francesco Aldrighi Orologiaio: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Orologio rotto? Contattami per la riparazione al n° 030.3385541»; «vieni in laboratorio nei seguenti giorni: dal Martedì al Sabato dalle ore 9.00 alle 12.00 in Via Trento 70/B - Borgo trento - Brescia»."
+    },
+    {
+      "id": "f23-real-time-milano-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.realtimesrl.com/",
+      "titolo": "Real Time Srl: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel 2015 ... aprendo il proprio laboratorio interno, dotato di attrezzature all’avanguardia per la riparazione e l’assistenza tecnica degli orologi»; «Real Time è centro assistenza autorizzato per Breil»; Via del Bollo 3, 20123 Milano."
+    },
+    {
+      "id": "f23-breil-real-time",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/store/assistenza-ricambi/real-time-srl/",
+      "titolo": "Breil: Real Time Srl, centro assistenza e ricambi a Milano",
+      "evidenza": "Scheda ufficiale Breil: «Real Time Srl — Via del Bollo, 3, 20123 Milano — Categoria: Assistenza e Ricambi».",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "f23-micheletti-varese-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gioielleriamicheletti.it/",
+      "titolo": "Gioielleria Micheletti: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Nel laboratorio orologiaio vengono fatte riparazioni e revisioni generali di orologi e pendole, sostituzioni della batteria e revisioni generali»; Via Merini 47, 21100 Varese, tel. 0332 288457."
+    },
+    {
+      "id": "f23-costa-gioielli-verona-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.costagioielli.it/riparazione-di-gioielli-e-orologi/",
+      "titolo": "Costa Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Tutte le riparazioni di gioielli vengono eseguite internamente, presso il nostro laboratorio, da maestri artigiani»; pagine «Riparazione Gioielli» e «Riparazione Orologi» con «manutenzione e la riparazione del tuo orologio»; Via Galvani 105, 37138 Verona."
+    },
+    {
+      "id": "f23-andrea-concato-verona-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://andreaconcato.com/",
+      "titolo": "Andrea Concato: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«LABORATORIO RIPARAZIONI»; «manutenzione dei propri orologi e gioielli»; «preventivo per la riparazione»; «Nelle nostre boutique di via Mazzini e viale Stazione»; Via Mazzini 77, 37121 Verona."
+    },
+    {
+      "id": "f23-albertelli-bologna-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.assistenzaorologialbertelli.it/contatti",
+      "titolo": "Centro Assistenza Albertelli Matteo: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’azienda è specializzata nella riparazione di orologi e nella loro manutenzione, come nel caso del cambio delle pile o cinturini»; «Essegue riparazioni agli orologi di ogni genere, anche la messa a nuovo, con un restauro completo del vostro vecchio orologio»; Via Giorgio Ercolani 3/B/C, 40122 Bologna."
+    },
+    {
+      "id": "f23-breil-albertelli",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Breil: elenco ufficiale dei centri di assistenza (Albertelli, Bologna)",
+      "evidenza": "Elenco ufficiale Breil: «Albertelli Matteo — Via Giorgio Ercolani, 3/H — Bologna — Assistenza e Ricambi».",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "f23-oreficeria-tarozzi-bologna-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oreficeriatarozzi.it/orologeria/",
+      "titolo": "Oreficeria Tarozzi: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’Oreficeria Tarozzi mette a disposizione della propria clientela un servizio di riparazione, revisione e test di funzionamento di qualsiasi tipo di orologio»; «Riparazioni di Sveglie, Pendoli da muro, Colonne e Gransaloni»; Via Marco Emilio Lepido 66/5C, 40132 Bologna."
+    },
+    {
+      "id": "f23-cizeta-rubano-sito",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Cizeta Srl: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Cizeta srl — Via Galvani, 20 — 35030 Rubano (PD) — Tel: 0498 712 170 — Categoria: Assistenza e Ricambi»."
+    },
+    {
+      "id": "f23-oro-e-pescatori-roma-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.oroepescatori.com/",
+      "titolo": "Oro è Pescatori: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il laboratorio orafo offre una gamma di servizi esclusivi, tra cui incisioni personalizzate, lucidatura di gioielli, riparazione di orologi e consulenze gemmologiche»; Via di Acqua Bullicante 361, 00177 Roma."
+    },
+    {
+      "id": "f23-orologeria-salucci-roma-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologeriasalucci.it/",
+      "titolo": "Orologeria Ermanno Salucci: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Siamo Centro di Assistenza Ufficiale per Eberhard & Co, Paul Picot, Raymond Weil, Bulova. Centro Assistenza Certificato per Omega, Longines, Rado, Tissot, Hamilton, Mido, CK Watches»; Piazza San Donà di Piave 13, 00182 Roma."
+    },
+    {
+      "id": "f23-laboratorio-del-tempo-perugia-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://illaboratoriodeltempo.it/contatti.html",
+      "titolo": "Il Laboratorio del Tempo: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Siamo specializzati nella riparazione, revisione e restauro di orologi da polso, da tasca e a pendolo»; Via G.B. Pergolesi 65, San Sisto, 06132 Perugia."
+    },
+    {
+      "id": "f23-orologeria-andreoli-perugia-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://orologeriaandreoli.it/",
+      "titolo": "Orologeria Andreoli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Offriamo servizi specializzati di riparazione, revisione e restauro di orologi di ogni epoca e modello»; «Riparazione Orologi», «Cambio Cinturino», «Cambio Pila»; Via dei Filosofi 43 L, 06126 Perugia."
+    },
+    {
+      "id": "f23-gb-gold-pescara-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.gbgoldcomproro.it/riparazione-orologi",
+      "titolo": "GB Gold: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Laboratorio Specializzato nella Riparazione di Orologi Fuori Garanzia: Automatici, Meccanici e al Quarzo»; «Revisione Completa Orologi Automatici e Meccanici»; «Test di Impermeabilità e Sostituzione Guarnizioni»; «Riparazione e Sostituzione Cinturini»; Viale Vittorio Pepe 43/1, 65126 Pescara."
+    },
+    {
+      "id": "f23-cronotime-pescara-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://cronotimepescara.com/orologeria/",
+      "titolo": "Cronotime — Centro Tecnico di Orologeria: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio tecnico di orologeria offre i seguenti servizi: Riparazione orologi di prestigio, Controllo taratura meccanica, Sostituzione batterie, Lucidatura cassa, Sostituzione vetri e componentistica, Cambio molle, Pulizia interna»; Via Trieste 73, 65122 Pescara."
+    },
+    {
+      "id": "f23-gemmy-pescara-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://gemmygioiellerie.it/servizi/",
+      "titolo": "Gemmy Gioiellerie: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio orologiaio, composto da orologiai esperti e certificati dai più prestigiosi produttori, si aggiorna continuamente»; «I nostri tecnici operano all’interno di un moderno laboratorio»; «Revisione e Riparazione», «Valutazione»; Via Nicola Fabrizi 284, Pescara."
+    },
+    {
+      "id": "f23-russo-orologi-napoli-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologirusso1965.it/ricambi-e-accessori/",
+      "titolo": "Russo Orologi: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Disponiamo di un quickservice in negozio per i più comuni interventi. Siamo in grado d’intervenire su qualsivoglia complicazione»; «fornitura di ricambi e accessori di orologi, oltre che per la vendita e la riparazione di orologi meccanici vintage, di lusso e da collezione»; Via Nicola Nisco 9, 80100 Napoli."
+    },
+    {
+      "id": "f23-the-watchmaker-napoli-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.thewatchmaker.net/pages/contact",
+      "titolo": "The Watchmaker: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Riparazione Orologi Quarzo»; «Riparazione Orologi Meccanici»; «Riparazione Pendoli»; «Ricostruzione Vetri»; «Vendita all’ingrosso pezzi di ricambio per orologi»; Via Giambattista Ruoppolo 14, 80128 Napoli."
+    },
+    {
+      "id": "f23-rapisarda-catania-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.srapisarda.com/laboratorio",
+      "titolo": "Sebastiano Rapisarda Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«La gioielleria si occupa anche della riparazione di orologi di ogni tipo, effettuata nel laboratorio interno da orologiai di grande esperienza»; «specializzato nella riparazione di pezzi vintage e di antiquariato ... dalla riparazione delle componenti interne alla sostituzione del cinturino»; Via Giacomo Leopardi 18, 95127 Catania."
+    },
+    {
+      "id": "f23-eclisse-catania-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://eclissegioielli.com/pages/assistenza",
+      "titolo": "Eclisse Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Il nostro laboratorio interno è attrezzato per eseguire lavori di assistenza tecnica su orologi di tutte le marche e servizio di riparazione e creazione di oggetti in oro e argento»; Viale Mario Rapisardi 137, 95123 Catania."
+    },
+    {
+      "id": "f23-punto-watch-palermo-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.puntowatch.it/",
+      "titolo": "Punto Watch Orologi e Gioielli: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«L’Orologeria Punto Watch vi garantisce un servizio completo, offrendovi riparazione e assistenza: visitate il negozio in Via Roma, 286 a Palermo»; «Si effettuano riparazioni di ogni tipologia»."
+    },
+    {
+      "id": "f23-stefano-pirrone-palermo-sito",
+      "tipo": "marchio-ufficiale",
+      "url": "https://www.breil.com/it/centri-di-assistenza/",
+      "titolo": "Laboratorio d’orologeria di Stefano Pirrone: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "Elenco ufficiale Breil: «Pirrone Stefano — Via Nicolò Turrisi, 44 — 90138 Palermo — Assistenza e Ricambi»; repertorio Reteimprese: «Laboratorio d’orologeria di Stefano Pirrone — Assistenza tecnica orologi»."
+    },
+    {
+      "id": "f23-reteimprese-pirrone",
+      "tipo": "directory",
+      "url": "https://www.reteimprese.it/orologerie/palermo/azienda/3111854",
+      "titolo": "Reteimprese: laboratorio d’orologeria di Stefano Pirrone, Palermo",
+      "evidenza": "«Laboratorio d’orologeria di Stefano Pirrone, Palermo. Assistenza tecnica orologi».",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null
+    },
+    {
+      "id": "f23-rafaschieri-bari-sito",
+      "tipo": "sito-ufficiale",
+      "url": "https://www.orologirafaschieri.it/",
+      "titolo": "Orologeria Rafaschieri: servizi, sede e recapiti",
+      "consultataIl": "2026-11-01",
+      "percorsoArchivio": null,
+      "licenza": null,
+      "evidenza": "«Laboratorio di alta orologeria | Rafaschieri | Bari»; «Maestri orologiai in centro a Bari»; Via De Rossi 148, 70122 Bari."
+    }
+  ],
+  "localita": [
+    {
+      "id": "rubano",
+      "comune": "Rubano",
+      "comuneSlug": "rubano",
+      "provincia": "Padova",
+      "provinciaSlug": "padova",
+      "siglaProvincia": "PD",
+      "regione": "Veneto",
+      "regioneSlug": "veneto",
+      "codiceIstat": null,
+      "descrizione": "Rubano: attività di assistenza orologiera documentata da fonte di marchio, con recapiti verificabili.",
+      "fonti": [
+        "f23-cizeta-rubano-sito"
+      ]
+    }
+  ],
+  "candidati": [
+    {
+      "id": "costa-cronometri-genova",
+      "nome": "Costa A. e E. Cronometri",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-costa-cronometri-genova-sito"
+      ],
+      "attivita": {
+        "id": "costa-cronometri-genova",
+        "slug": "costa-cronometri-genova",
+        "nome": "Costa A. e E. Cronometri",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Storica orologeria di Genova con laboratorio attrezzato per cronometri da marina, da bordo e deck watch. Il sito documenta la riparazione e la ricostruzione di parti di ricambio con torni, fresatrici, rettifiche e punzatrici, oltre a valutazioni, ricerche storiche e acquisti su commissione. Non sono dichiarate autorizzazioni di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "genova",
+        "posizione": {
+          "indirizzo": "Piazza di Soziglia 1/4",
+          "cap": "16123",
+          "coordinate": null,
+          "fonti": [
+            "f23-costa-cronometri-genova-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "010 2476111",
+          "email": null,
+          "sito": "https://www.costacronometri.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-costa-cronometri-genova-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio è specializzato nella riparazione e ricostruzione di parti di ricambio per cronometri da marina, da bordo e deck watch, con macchine da orologeria dichiarate dal sito.",
+          "fonti": [
+            "f23-costa-cronometri-genova-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-costa-cronometri-genova-sito"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-costa-cronometri-genova-sito"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f23-costa-cronometri-genova-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-costa-cronometri-genova-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-costa-cronometri-genova-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "costa-cronometri-genova"
+        }
+      }
+    },
+    {
+      "id": "memphis-belle-genova",
+      "nome": "Memphis Belle Watches",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-memphis-belle-genova-sito"
+      ],
+      "attivita": {
+        "id": "memphis-belle-genova",
+        "slug": "memphis-belle-genova",
+        "nome": "Memphis Belle Watches",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Sede genovese del marchio Memphis Belle, con laboratorio dichiarato per riparazione e personalizzazione degli orologi. La pagina di assistenza parla di un laboratorio attrezzato e di riparazioni garantite dal marchio: la scheda non attribuisce assistenza multimarca né autorizzazioni di terzi.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "genova",
+        "posizione": {
+          "indirizzo": "Piazza della Vittoria 9 int. 10",
+          "cap": "16121",
+          "coordinate": null,
+          "fonti": [
+            "f23-memphis-belle-genova-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "010 2543205",
+          "email": null,
+          "sito": "https://memphisbellewatches.shop/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-memphis-belle-genova-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il servizio clienti del marchio dichiara un laboratorio con strumenti e macchinari tecnici in cui operano professionisti qualificati per riparazione e personalizzazione.",
+          "fonti": [
+            "f23-memphis-belle-genova-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-memphis-belle-genova-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-memphis-belle-genova-sito"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Personalizzazione dell’orologio",
+            "fonti": [
+              "f23-memphis-belle-genova-sito"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-memphis-belle-genova-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-memphis-belle-genova-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "memphis-belle-genova"
+        }
+      }
+    },
+    {
+      "id": "gioielleria-arlotto-genova",
+      "nome": "Gioielleria Arlotto",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-gioielleria-arlotto-genova-sito"
+      ],
+      "attivita": {
+        "id": "gioielleria-arlotto-genova",
+        "slug": "gioielleria-arlotto-genova",
+        "nome": "Gioielleria Arlotto",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Genova attiva dal 1958, con laboratorio interno che ripara e restaura orologi e realizza gioielli su misura. L’attività dichiara anche il riscatto di orologi usati in cambio di un buono sconto. Nessuna autorizzazione di marchio è documentata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "genova",
+        "posizione": {
+          "indirizzo": "Via Piacenza 266/R",
+          "cap": "16138",
+          "coordinate": null,
+          "fonti": [
+            "f23-gioielleria-arlotto-genova-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "010 8364661",
+          "email": null,
+          "sito": "https://arlottogioielleria.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-gioielleria-arlotto-genova-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito parla di un laboratorio interno che crea e incide gioielli su misura e ripara e restaura orologi.",
+          "fonti": [
+            "f23-gioielleria-arlotto-genova-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-gioielleria-arlotto-genova-sito"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-gioielleria-arlotto-genova-sito"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f23-gioielleria-arlotto-genova-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-gioielleria-arlotto-genova-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-gioielleria-arlotto-genova-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "gioielleria-arlotto-genova"
+        }
+      }
+    },
+    {
+      "id": "lora-zero-milano",
+      "nome": "L’Ora Zero",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-lora-zero-milano-sito"
+      ],
+      "attivita": {
+        "id": "lora-zero-milano",
+        "slug": "lora-zero-milano",
+        "nome": "L’Ora Zero",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria del centro di Milano con laboratorio proprio per manutenzione, riparazione, lucidatura e sostituzione della pila; il laboratorio orafo interviene su casse e bracciali. Il sito elenca i marchi per cui si dichiara certificato, ma le certificazioni non sono state confermate sulle pagine ufficiali dei marchi e quindi non sono registrate come autorizzazioni.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Speronari 6",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f23-lora-zero-milano-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 47705091",
+          "email": null,
+          "sito": "https://lorazero.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-lora-zero-milano-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio milanese è dichiarato sede di interventi completi di manutenzione e riparazione, lucidatura e sostituzione della pila, con un laboratorio orafo per casse e bracciali.",
+          "fonti": [
+            "f23-lora-zero-milano-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-lora-zero-milano-sito"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-lora-zero-milano-sito"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-lora-zero-milano-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-lora-zero-milano-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [
+            {
+              "marca": "Cartier",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Baume & Mercier",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Omega",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Longines",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Rado",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Tissot",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Mido",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            },
+            {
+              "marca": "Certina",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            }
+          ],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-lora-zero-milano-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-lora-zero-milano-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "lora-zero-milano"
+        }
+      }
+    },
+    {
+      "id": "il-francescone-milano",
+      "nome": "Il Francescone — Milano",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-il-francescone-milano-sito"
+      ],
+      "attivita": {
+        "id": "il-francescone-milano",
+        "slug": "il-francescone-milano",
+        "nome": "Il Francescone — Milano",
+        "tipi": [
+          "orologeria",
+          "gioielleria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria e gioielleria artigianale in zona Portello a Milano, con laboratorio interno per assistenza, revisione e riparazione di orologi meccanici. Il sito documenta il restauro di pendoli e parigine con ricambi autentici e il test di tenuta all’acqua con strumenti certificati. La sede di Cassano Magnago è una seconda bottega della stessa azienda e non è stata importata come scheda separata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via Angelo Poliziano 9",
+          "cap": "20154",
+          "coordinate": null,
+          "fonti": [
+            "f23-il-francescone-milano-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 36740214",
+          "email": null,
+          "sito": "https://ilfrancesconemilano.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-il-francescone-milano-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "La bottega si presenta con laboratorio interno specializzato in assistenza, revisione e riparazione di orologi meccanici, oltre al restauro di pendoli e parigine.",
+          "fonti": [
+            "f23-il-francescone-milano-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-il-francescone-milano-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-il-francescone-milano-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-il-francescone-milano-sito"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-il-francescone-milano-sito"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Prova di impermeabilità",
+            "fonti": [
+              "f23-il-francescone-milano-sito"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-il-francescone-milano-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-il-francescone-milano-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "il-francescone-milano"
+        }
+      }
+    },
+    {
+      "id": "aldrighi-brescia",
+      "nome": "Francesco Aldrighi Orologiaio",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-aldrighi-brescia-sito"
+      ],
+      "attivita": {
+        "id": "aldrighi-brescia",
+        "slug": "aldrighi-brescia",
+        "nome": "Francesco Aldrighi Orologiaio",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologiaio con laboratorio in Borgo Trento a Brescia. La pagina contatti documenta la riparazione degli orologi e gli orari di apertura del laboratorio. Il CAP non è pubblicato nella pagina letta e non è stato inventato.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "brescia",
+        "posizione": {
+          "indirizzo": "Via Trento 70/B",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f23-aldrighi-brescia-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "030 3385541",
+          "email": null,
+          "sito": "https://www.aldrighiorologiaio.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-aldrighi-brescia-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito indica il laboratorio in Via Trento 70/B a Brescia, aperto dal martedì al sabato mattina, come luogo della riparazione.",
+          "fonti": [
+            "f23-aldrighi-brescia-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-aldrighi-brescia-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-aldrighi-brescia-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-aldrighi-brescia-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "aldrighi-brescia"
+        }
+      }
+    },
+    {
+      "id": "real-time-milano",
+      "nome": "Real Time Srl",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-real-time-milano-sito",
+        "f23-breil-real-time"
+      ],
+      "attivita": {
+        "id": "real-time-milano",
+        "slug": "real-time-milano",
+        "nome": "Real Time Srl",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Fornitore storico di ricambi e attrezzature per orologeria a Milano, con laboratorio interno aperto nel 2015 per riparazione e assistenza tecnica. Breil lo indica come centro assistenza autorizzato; il sito elenca anche certificazioni di altri marchi che non sono state confermate sulle pagine ufficiali e per questo non sono registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "milano",
+        "posizione": {
+          "indirizzo": "Via del Bollo 3",
+          "cap": "20123",
+          "coordinate": null,
+          "fonti": [
+            "f23-real-time-milano-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "02 89010325",
+          "email": null,
+          "sito": "https://www.realtimesrl.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-real-time-milano-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’azienda dichiara di aver aperto nel 2015 un laboratorio interno con attrezzature per la riparazione e l’assistenza tecnica degli orologi.",
+          "fonti": [
+            "f23-real-time-milano-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-real-time-milano-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-real-time-milano-sito"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-real-time-milano-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-breil-real-time"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-real-time-milano-sito",
+            "f23-breil-real-time"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Autorizzazione registrata solo dove esiste la pagina ufficiale del marchio.",
+              "fonti": [
+                "f23-real-time-milano-sito",
+                "f23-breil-real-time"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "real-time-milano"
+        }
+      }
+    },
+    {
+      "id": "micheletti-varese",
+      "nome": "Gioielleria Micheletti",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-micheletti-varese-sito"
+      ],
+      "attivita": {
+        "id": "micheletti-varese",
+        "slug": "micheletti-varese",
+        "nome": "Gioielleria Micheletti",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Varese attiva dal 1965, con laboratorio orologiaio interno per riparazioni e revisioni generali di orologi e pendole, sostituzione batterie e revisioni complete. Il sito documenta anche incisioni e perizie gemmologiche. Nessuna autorizzazione di marchio è dichiarata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "varese",
+        "posizione": {
+          "indirizzo": "Via Merini 47",
+          "cap": "21100",
+          "coordinate": null,
+          "fonti": [
+            "f23-micheletti-varese-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "0332 288457",
+          "email": null,
+          "sito": "https://www.gioielleriamicheletti.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-micheletti-varese-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio orologiaio interno esegue riparazioni e revisioni generali di orologi e pendole, sostituzione delle batterie e revisioni complete.",
+          "fonti": [
+            "f23-micheletti-varese-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-micheletti-varese-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-micheletti-varese-sito"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-micheletti-varese-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-micheletti-varese-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-micheletti-varese-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-micheletti-varese-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "micheletti-varese"
+        }
+      }
+    },
+    {
+      "id": "costa-gioielli-verona",
+      "nome": "Costa Gioielli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-costa-gioielli-verona-sito"
+      ],
+      "attivita": {
+        "id": "costa-gioielli-verona",
+        "slug": "costa-gioielli-verona",
+        "nome": "Costa Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria e orologeria di Verona che documenta riparazione e manutenzione degli orologi e un laboratorio interno per i gioielli. La scheda distingue i due ambiti e non attribuisce al laboratorio orafo le lavorazioni orologiere.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "verona",
+        "posizione": {
+          "indirizzo": "Via Galvani 105",
+          "cap": "37138",
+          "coordinate": null,
+          "fonti": [
+            "f23-costa-gioielli-verona-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "045 562341",
+          "email": null,
+          "sito": "https://www.costagioielli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-costa-gioielli-verona-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il laboratorio interno è documentato per le riparazioni di gioielli; per gli orologi il sito parla di «nostri orologiai» senza dichiarare che il laboratorio orologiero sia in sede.",
+          "fonti": [
+            "f23-costa-gioielli-verona-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-costa-gioielli-verona-sito"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-costa-gioielli-verona-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-costa-gioielli-verona-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-costa-gioielli-verona-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "costa-gioielli-verona"
+        }
+      }
+    },
+    {
+      "id": "andrea-concato-verona",
+      "nome": "Andrea Concato",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-andrea-concato-verona-sito"
+      ],
+      "attivita": {
+        "id": "andrea-concato-verona",
+        "slug": "andrea-concato-verona",
+        "nome": "Andrea Concato",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Boutique di orologeria e gioielleria in via Mazzini a Verona, con una seconda sede in viale Stazione. Documenta un laboratorio riparazioni e la manutenzione degli orologi dei clienti, con preventivo per la riparazione. Non sono registrate autorizzazioni ufficiali: i marchi trattati non sono presentati come centri assistenza.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "verona",
+        "posizione": {
+          "indirizzo": "Via Mazzini 77",
+          "cap": "37121",
+          "coordinate": null,
+          "fonti": [
+            "f23-andrea-concato-verona-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "045 8031459",
+          "email": null,
+          "sito": "https://andreaconcato.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-andrea-concato-verona-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito indica un «laboratorio riparazioni» e la manutenzione degli orologi, senza precisare se gli interventi avvengano in sede o presso terzi.",
+          "fonti": [
+            "f23-andrea-concato-verona-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-andrea-concato-verona-sito"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-andrea-concato-verona-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-andrea-concato-verona-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-andrea-concato-verona-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "andrea-concato-verona"
+        }
+      }
+    },
+    {
+      "id": "albertelli-bologna",
+      "nome": "Centro Assistenza Albertelli Matteo",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-albertelli-bologna-sito",
+        "f23-breil-albertelli"
+      ],
+      "attivita": {
+        "id": "albertelli-bologna",
+        "slug": "albertelli-bologna",
+        "nome": "Centro Assistenza Albertelli Matteo",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria a Bologna specializzato in riparazione e manutenzione, con cambio pile e cinturini e restauro completo degli orologi. Breil lo elenca tra i centri di assistenza e ricambi. L’elenco Breil riporta il civico 3/H mentre il sito ufficiale indica 3/B/C: è stata usata la forma del sito.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Via Giorgio Ercolani 3/B/C",
+          "cap": "40122",
+          "coordinate": null,
+          "fonti": [
+            "f23-albertelli-bologna-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "051 554134",
+          "email": null,
+          "sito": "https://www.assistenzaorologialbertelli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-albertelli-bologna-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’azienda si presenta come storico laboratorio di orologeria specializzato in riparazione e manutenzione, con restauro completo degli orologi.",
+          "fonti": [
+            "f23-albertelli-bologna-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-albertelli-bologna-sito"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-albertelli-bologna-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-albertelli-bologna-sito"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-albertelli-bologna-sito"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-albertelli-bologna-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-breil-albertelli"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-albertelli-bologna-sito",
+            "f23-breil-albertelli"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Autorizzazione registrata solo dove esiste la pagina ufficiale del marchio.",
+              "fonti": [
+                "f23-albertelli-bologna-sito",
+                "f23-breil-albertelli"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "albertelli-bologna"
+        }
+      }
+    },
+    {
+      "id": "oreficeria-tarozzi-bologna",
+      "nome": "Oreficeria Tarozzi",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-oreficeria-tarozzi-bologna-sito"
+      ],
+      "attivita": {
+        "id": "oreficeria-tarozzi-bologna",
+        "slug": "oreficeria-tarozzi-bologna",
+        "nome": "Oreficeria Tarozzi",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Oreficeria e orologeria di Bologna che documenta riparazione di orologi moderni e d’epoca, revisione con test di funzionamento, sostituzione di pile e cinturini e riparazione di sveglie, pendoli da muro, colonne e gransaloni. Per i pendoli grandi il sito propone anche il servizio a domicilio, qui riportato come servizio aggiuntivo e non generalizzato.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bologna",
+        "posizione": {
+          "indirizzo": "Via Marco Emilio Lepido 66/5C",
+          "cap": "40132",
+          "coordinate": null,
+          "fonti": [
+            "f23-oreficeria-tarozzi-bologna-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "051 400171",
+          "email": null,
+          "sito": "https://www.oreficeriatarozzi.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-oreficeria-tarozzi-bologna-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito parla di un servizio di riparazione e revisione con test di funzionamento e di un laboratorio proprio, senza precisare se si trovi nei locali del negozio.",
+          "fonti": [
+            "f23-oreficeria-tarozzi-bologna-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-oreficeria-tarozzi-bologna-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-oreficeria-tarozzi-bologna-sito"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-oreficeria-tarozzi-bologna-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-oreficeria-tarozzi-bologna-sito"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-oreficeria-tarozzi-bologna-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-oreficeria-tarozzi-bologna-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-oreficeria-tarozzi-bologna-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "oreficeria-tarozzi-bologna"
+        }
+      }
+    },
+    {
+      "id": "cizeta-rubano",
+      "nome": "Cizeta Srl",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-cizeta-rubano-sito"
+      ],
+      "attivita": {
+        "id": "cizeta-rubano",
+        "slug": "cizeta-rubano",
+        "nome": "Cizeta Srl",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Attività di Rubano, in provincia di Padova, elencata da Breil come centro di assistenza e ricambi. Non è stato reperito un sito aziendale leggibile: la scheda registra solo il servizio di assistenza documentato dal marchio e non attribuisce laboratorio interno né riparazioni multimarca.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "rubano",
+        "posizione": {
+          "indirizzo": "Via Galvani 20",
+          "cap": "35030",
+          "coordinate": null,
+          "fonti": [
+            "f23-cizeta-rubano-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "049 8712170",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-cizeta-rubano-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "La scheda ufficiale Breil classifica l’attività come assistenza e ricambi, senza descrivere un laboratorio interno.",
+          "fonti": [
+            "f23-cizeta-rubano-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-cizeta-rubano-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-cizeta-rubano-sito"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-cizeta-rubano-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Autorizzazione registrata solo dove esiste la pagina ufficiale del marchio.",
+              "fonti": [
+                "f23-cizeta-rubano-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "cizeta-rubano"
+        }
+      }
+    },
+    {
+      "id": "oro-e-pescatori-roma",
+      "nome": "Oro è Pescatori",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-oro-e-pescatori-roma-sito"
+      ],
+      "attivita": {
+        "id": "oro-e-pescatori-roma",
+        "slug": "oro-e-pescatori-roma",
+        "nome": "Oro è Pescatori",
+        "tipi": [
+          "gioielleria",
+          "orologeria"
+        ],
+        "descrizione": "Gioielleria di Roma con laboratorio orafo che, tra i servizi, dichiara anche la riparazione di orologi. La scheda registra la riparazione come servizio offerto e non attribuisce al laboratorio orafo competenze di revisione o restauro orologiero.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Via di Acqua Bullicante 361",
+          "cap": "00177",
+          "coordinate": null,
+          "fonti": [
+            "f23-oro-e-pescatori-roma-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "06 273972",
+          "email": null,
+          "sito": "https://www.oroepescatori.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-oro-e-pescatori-roma-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "orafo",
+          "descrizione": "Il laboratorio dichiarato è orafo e offre incisioni, lucidatura di gioielli, riparazione di orologi e consulenze gemmologiche: non è presentato come laboratorio di orologeria.",
+          "fonti": [
+            "f23-oro-e-pescatori-roma-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-oro-e-pescatori-roma-sito"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f23-oro-e-pescatori-roma-sito"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Consulenze gemmologiche",
+            "fonti": [
+              "f23-oro-e-pescatori-roma-sito"
+            ]
+          },
+          {
+            "nome": "Incisioni personalizzate",
+            "fonti": [
+              "f23-oro-e-pescatori-roma-sito"
+            ]
+          },
+          {
+            "nome": "Lucidatura di gioielli",
+            "fonti": [
+              "f23-oro-e-pescatori-roma-sito"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-oro-e-pescatori-roma-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-oro-e-pescatori-roma-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "oro-e-pescatori-roma"
+        }
+      }
+    },
+    {
+      "id": "orologeria-salucci-roma",
+      "nome": "Orologeria Ermanno Salucci",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-orologeria-salucci-roma-sito"
+      ],
+      "attivita": {
+        "id": "orologeria-salucci-roma",
+        "slug": "orologeria-salucci-roma",
+        "nome": "Orologeria Ermanno Salucci",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di Roma che si presenta come centro di assistenza ufficiale per Eberhard & Co, Paul Picot, Raymond Weil e Bulova e centro assistenza certificato per Omega, Longines, Rado, Tissot, Hamilton, Mido e CK Watches. Le qualifiche sono dichiarate dal sito dell’attività e non sono state confermate sulle pagine dei marchi: la scheda le riporta come esperienza, senza registrare autorizzazioni ufficiali.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "roma",
+        "posizione": {
+          "indirizzo": "Piazza San Donà di Piave 13",
+          "cap": "00182",
+          "coordinate": null,
+          "fonti": [
+            "f23-orologeria-salucci-roma-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "06 7018919",
+          "email": null,
+          "sito": "https://www.orologeriasalucci.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-orologeria-salucci-roma-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito non descrive esplicitamente il laboratorio: dichiara centri di assistenza ufficiale e certificata per diversi marchi.",
+          "fonti": [
+            "f23-orologeria-salucci-roma-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-orologeria-salucci-roma-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-orologeria-salucci-roma-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-orologeria-salucci-roma-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [
+            {
+              "marca": "Eberhard & Co",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Paul Picot",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Raymond Weil",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Bulova",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Omega",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Longines",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Rado",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Tissot",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Hamilton",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            },
+            {
+              "marca": "Mido",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            }
+          ],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-orologeria-salucci-roma-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-orologeria-salucci-roma-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "orologeria-salucci-roma"
+        }
+      }
+    },
+    {
+      "id": "laboratorio-del-tempo-perugia",
+      "nome": "Il Laboratorio del Tempo",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-laboratorio-del-tempo-perugia-sito"
+      ],
+      "attivita": {
+        "id": "laboratorio-del-tempo-perugia",
+        "slug": "laboratorio-del-tempo-perugia",
+        "nome": "Il Laboratorio del Tempo",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio artigianale di orologeria a San Sisto, Perugia, specializzato nella riparazione, revisione e restauro di orologi da polso, da tasca e a pendolo. La scheda riporta solo le lavorazioni dichiarate dal laboratorio, senza autorizzazioni di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "perugia",
+        "posizione": {
+          "indirizzo": "Via G.B. Pergolesi 65, San Sisto",
+          "cap": "06132",
+          "coordinate": null,
+          "fonti": [
+            "f23-laboratorio-del-tempo-perugia-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "340 7090764",
+          "email": null,
+          "sito": "https://illaboratoriodeltempo.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-laboratorio-del-tempo-perugia-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio artigianale di San Sisto è dichiarato sede della riparazione, revisione e restauro di orologi da polso, da tasca e a pendolo.",
+          "fonti": [
+            "f23-laboratorio-del-tempo-perugia-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-laboratorio-del-tempo-perugia-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-laboratorio-del-tempo-perugia-sito"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-laboratorio-del-tempo-perugia-sito"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-laboratorio-del-tempo-perugia-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-laboratorio-del-tempo-perugia-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-laboratorio-del-tempo-perugia-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "laboratorio-del-tempo-perugia"
+        }
+      }
+    },
+    {
+      "id": "orologeria-andreoli-perugia",
+      "nome": "Orologeria Andreoli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-orologeria-andreoli-perugia-sito"
+      ],
+      "attivita": {
+        "id": "orologeria-andreoli-perugia",
+        "slug": "orologeria-andreoli-perugia",
+        "nome": "Orologeria Andreoli",
+        "tipi": [
+          "orologeria"
+        ],
+        "descrizione": "Orologeria di Perugia che offre riparazione, revisione e restauro di orologi di ogni epoca e modello, con cambio pila e cambio cinturino. La scheda non attribuisce un laboratorio interno, che il sito non dichiara.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "perugia",
+        "posizione": {
+          "indirizzo": "Via dei Filosofi 43 L",
+          "cap": "06126",
+          "coordinate": null,
+          "fonti": [
+            "f23-orologeria-andreoli-perugia-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "075 34634",
+          "email": null,
+          "sito": "https://orologeriaandreoli.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-orologeria-andreoli-perugia-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito documenta riparazione, revisione e restauro di orologi di ogni epoca, senza dichiarare se il laboratorio sia interno.",
+          "fonti": [
+            "f23-orologeria-andreoli-perugia-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-orologeria-andreoli-perugia-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-orologeria-andreoli-perugia-sito"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-orologeria-andreoli-perugia-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-orologeria-andreoli-perugia-sito"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-orologeria-andreoli-perugia-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-orologeria-andreoli-perugia-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-orologeria-andreoli-perugia-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "orologeria-andreoli-perugia"
+        }
+      }
+    },
+    {
+      "id": "gb-gold-pescara",
+      "nome": "GB Gold",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-gb-gold-pescara-sito"
+      ],
+      "attivita": {
+        "id": "gb-gold-pescara",
+        "slug": "gb-gold-pescara",
+        "nome": "GB Gold",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di Pescara specializzato nella riparazione di orologi automatici, meccanici e al quarzo fuori garanzia. Documenta revisione completa, riparazione dei movimenti al quarzo, test di impermeabilità con sostituzione guarnizioni, sostituzione vetri e cinturini. Nessuna autorizzazione di marchio è dichiarata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pescara",
+        "posizione": {
+          "indirizzo": "Viale Vittorio Pepe 43/1",
+          "cap": "65126",
+          "coordinate": null,
+          "fonti": [
+            "f23-gb-gold-pescara-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "327 6783472",
+          "email": null,
+          "sito": "https://www.gbgoldcomproro.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-gb-gold-pescara-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito si presenta come laboratorio specializzato nella riparazione di orologi fuori garanzia, senza precisare se il laboratorio sia nei locali dell’attività.",
+          "fonti": [
+            "f23-gb-gold-pescara-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-gb-gold-pescara-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-gb-gold-pescara-sito"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-gb-gold-pescara-sito"
+            ]
+          }
+        ],
+        "altriServizi": [
+          {
+            "nome": "Sostituzione vetri",
+            "fonti": [
+              "f23-gb-gold-pescara-sito"
+            ]
+          },
+          {
+            "nome": "Test di impermeabilità e sostituzione guarnizioni",
+            "fonti": [
+              "f23-gb-gold-pescara-sito"
+            ]
+          }
+        ],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-gb-gold-pescara-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-gb-gold-pescara-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "gb-gold-pescara"
+        }
+      }
+    },
+    {
+      "id": "cronotime-pescara",
+      "nome": "Cronotime — Centro Tecnico di Orologeria",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-cronotime-pescara-sito"
+      ],
+      "attivita": {
+        "id": "cronotime-pescara",
+        "slug": "cronotime-pescara",
+        "nome": "Cronotime — Centro Tecnico di Orologeria",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Centro tecnico di orologeria a Pescara con laboratorio proprio. Documenta riparazione di orologi di prestigio, controllo della taratura meccanica, sostituzione batterie e vetri, lucidatura della cassa, cambio molle e pulizia interna. Il sito rivendica autorizzazioni storiche che non sono state confermate dai marchi e quindi non sono registrate.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pescara",
+        "posizione": {
+          "indirizzo": "Via Trieste 73",
+          "cap": "65122",
+          "coordinate": null,
+          "fonti": [
+            "f23-cronotime-pescara-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "085 4225015",
+          "email": null,
+          "sito": "https://cronotimepescara.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-cronotime-pescara-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito descrive un laboratorio tecnico di orologeria con riparazione, controllo di taratura, sostituzione batterie, lucidatura cassa, vetri e pulizia interna.",
+          "fonti": [
+            "f23-cronotime-pescara-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-cronotime-pescara-sito"
+            ]
+          },
+          {
+            "id": "manutenzione",
+            "fonti": [
+              "f23-cronotime-pescara-sito"
+            ]
+          },
+          {
+            "id": "batterie",
+            "fonti": [
+              "f23-cronotime-pescara-sito"
+            ]
+          },
+          {
+            "id": "lucidatura",
+            "fonti": [
+              "f23-cronotime-pescara-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-cronotime-pescara-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-cronotime-pescara-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "cronotime-pescara"
+        }
+      }
+    },
+    {
+      "id": "gemmy-pescara",
+      "nome": "Gemmy Gioiellerie",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-gemmy-pescara-sito"
+      ],
+      "attivita": {
+        "id": "gemmy-pescara",
+        "slug": "gemmy-pescara",
+        "nome": "Gemmy Gioiellerie",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria di Pescara con laboratorio orologiaio interno per revisione, riparazione e valutazione. Il sito parla di tecnici «certificati dai più prestigiosi produttori» senza nominare i marchi: nessuna autorizzazione è stata registrata. Il CAP non è pubblicato nelle pagine lette.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "pescara",
+        "posizione": {
+          "indirizzo": "Via Nicola Fabrizi 284",
+          "cap": null,
+          "coordinate": null,
+          "fonti": [
+            "f23-gemmy-pescara-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "320 8286128",
+          "email": null,
+          "sito": "https://gemmygioiellerie.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-gemmy-pescara-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito descrive un moderno laboratorio interno con orologiai esperti per revisione, riparazione e valutazione.",
+          "fonti": [
+            "f23-gemmy-pescara-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-gemmy-pescara-sito"
+            ]
+          },
+          {
+            "id": "revisione",
+            "fonti": [
+              "f23-gemmy-pescara-sito"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f23-gemmy-pescara-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-gemmy-pescara-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-gemmy-pescara-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "gemmy-pescara"
+        }
+      }
+    },
+    {
+      "id": "russo-orologi-napoli",
+      "nome": "Russo Orologi",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-russo-orologi-napoli-sito"
+      ],
+      "attivita": {
+        "id": "russo-orologi-napoli",
+        "slug": "russo-orologi-napoli",
+        "nome": "Russo Orologi",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria di Napoli attiva dal 1965, con quickservice in negozio per gli interventi comuni e laboratorio dichiarato per riparazioni e complicazioni. Documenta fornitura di ricambi e accessori, compravendita di orologi di lusso, stima e permuta. Il CAP 80100 è quello pubblicato dal sito.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Nicola Nisco 9",
+          "cap": "80100",
+          "coordinate": null,
+          "fonti": [
+            "f23-russo-orologi-napoli-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "081 427047",
+          "email": null,
+          "sito": "https://www.orologirusso1965.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-russo-orologi-napoli-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito dichiara un quickservice in negozio per gli interventi più comuni, oltre alla capacità di intervenire su complicazioni.",
+          "fonti": [
+            "f23-russo-orologi-napoli-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-russo-orologi-napoli-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-russo-orologi-napoli-sito"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-russo-orologi-napoli-sito"
+            ]
+          },
+          {
+            "id": "valutazioni",
+            "fonti": [
+              "f23-russo-orologi-napoli-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-russo-orologi-napoli-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-russo-orologi-napoli-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "russo-orologi-napoli"
+        }
+      }
+    },
+    {
+      "id": "the-watchmaker-napoli",
+      "nome": "The Watchmaker",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-the-watchmaker-napoli-sito"
+      ],
+      "attivita": {
+        "id": "the-watchmaker-napoli",
+        "slug": "the-watchmaker-napoli",
+        "nome": "The Watchmaker",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria a Napoli che documenta riparazione di orologi al quarzo e meccanici, riparazione di pendoli e kuku, ricostruzione di vetri, ristampa del quadrante e vendita all’ingrosso di ricambi. Il sito non dichiara un laboratorio interno e la scheda non lo attribuisce.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "napoli",
+        "posizione": {
+          "indirizzo": "Via Giambattista Ruoppolo 14",
+          "cap": "80128",
+          "coordinate": null,
+          "fonti": [
+            "f23-the-watchmaker-napoli-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "081 6127116",
+          "email": null,
+          "sito": "https://www.thewatchmaker.net/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-the-watchmaker-napoli-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito elenca le lavorazioni ma non descrive il laboratorio come interno; il titolare risulta come ditta individuale.",
+          "fonti": [
+            "f23-the-watchmaker-napoli-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-the-watchmaker-napoli-sito"
+            ]
+          },
+          {
+            "id": "riparazione-quarzo",
+            "fonti": [
+              "f23-the-watchmaker-napoli-sito"
+            ]
+          },
+          {
+            "id": "riparazione-meccanici",
+            "fonti": [
+              "f23-the-watchmaker-napoli-sito"
+            ]
+          },
+          {
+            "id": "pendoleria",
+            "fonti": [
+              "f23-the-watchmaker-napoli-sito"
+            ]
+          },
+          {
+            "id": "ricambi",
+            "fonti": [
+              "f23-the-watchmaker-napoli-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-the-watchmaker-napoli-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-the-watchmaker-napoli-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "the-watchmaker-napoli"
+        }
+      }
+    },
+    {
+      "id": "rapisarda-catania",
+      "nome": "Sebastiano Rapisarda Gioielli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-rapisarda-catania-sito"
+      ],
+      "attivita": {
+        "id": "rapisarda-catania",
+        "slug": "rapisarda-catania",
+        "nome": "Sebastiano Rapisarda Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria di Catania con laboratorio interno per la riparazione di orologi di ogni tipo, con esperienza dichiarata sui pezzi vintage e di antiquariato, dalla riparazione delle componenti interne alla sostituzione del cinturino. Il sito si presenta come rivenditore autorizzato delle migliori marche senza elencare i marchi: nessuna autorizzazione è registrata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Via Giacomo Leopardi 18",
+          "cap": "95127",
+          "coordinate": null,
+          "fonti": [
+            "f23-rapisarda-catania-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 383949",
+          "email": null,
+          "sito": "https://www.srapisarda.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-rapisarda-catania-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio interno è dichiarato sede della riparazione di orologi di ogni tipo, con orologiai esperti e lavorazione di pezzi vintage e di antiquariato.",
+          "fonti": [
+            "f23-rapisarda-catania-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-rapisarda-catania-sito"
+            ]
+          },
+          {
+            "id": "restauro-vintage",
+            "fonti": [
+              "f23-rapisarda-catania-sito"
+            ]
+          },
+          {
+            "id": "cinturini",
+            "fonti": [
+              "f23-rapisarda-catania-sito"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f23-rapisarda-catania-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-rapisarda-catania-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-rapisarda-catania-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "rapisarda-catania"
+        }
+      }
+    },
+    {
+      "id": "eclisse-catania",
+      "nome": "Eclisse Gioielli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-eclisse-catania-sito"
+      ],
+      "attivita": {
+        "id": "eclisse-catania",
+        "slug": "eclisse-catania",
+        "nome": "Eclisse Gioielli",
+        "tipi": [
+          "gioielleria",
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Gioielleria di Catania con laboratorio interno attrezzato per l’assistenza tecnica su orologi di tutte le marche e per la riparazione di oggetti in oro e argento. Il sito si definisce rivenditore autorizzato in generale, senza indicare marchi: nessuna autorizzazione è stata registrata.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "catania",
+        "posizione": {
+          "indirizzo": "Viale Mario Rapisardi 137",
+          "cap": "95123",
+          "coordinate": null,
+          "fonti": [
+            "f23-eclisse-catania-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "095 361583",
+          "email": null,
+          "sito": "https://eclissegioielli.com/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-eclisse-catania-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il laboratorio interno è dichiarato attrezzato per l’assistenza tecnica su orologi di tutte le marche e per la riparazione di oggetti in oro e argento.",
+          "fonti": [
+            "f23-eclisse-catania-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-eclisse-catania-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-eclisse-catania-sito"
+            ]
+          },
+          {
+            "id": "gioielleria",
+            "fonti": [
+              "f23-eclisse-catania-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-eclisse-catania-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-eclisse-catania-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "eclisse-catania"
+        }
+      }
+    },
+    {
+      "id": "punto-watch-palermo",
+      "nome": "Punto Watch Orologi e Gioielli",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01. Laboratorio interno non dichiarato: non attribuito.",
+      "fonti": [
+        "f23-punto-watch-palermo-sito"
+      ],
+      "attivita": {
+        "id": "punto-watch-palermo",
+        "slug": "punto-watch-palermo",
+        "nome": "Punto Watch Orologi e Gioielli",
+        "tipi": [
+          "orologeria",
+          "gioielleria"
+        ],
+        "descrizione": "Orologeria e gioielleria di via Roma a Palermo che documenta riparazione e assistenza degli orologi. La scheda registra solo i servizi dichiarati: il sito non descrive un laboratorio interno né autorizzazioni di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "palermo",
+        "posizione": {
+          "indirizzo": "Via Roma 286",
+          "cap": "90133",
+          "coordinate": null,
+          "fonti": [
+            "f23-punto-watch-palermo-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "091 581727",
+          "email": null,
+          "sito": "https://www.puntowatch.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-punto-watch-palermo-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "non-specificato",
+          "descrizione": "Il sito parla di riparazione e assistenza senza dichiarare un laboratorio interno.",
+          "fonti": [
+            "f23-punto-watch-palermo-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-punto-watch-palermo-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-punto-watch-palermo-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-punto-watch-palermo-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-punto-watch-palermo-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "punto-watch-palermo"
+        }
+      }
+    },
+    {
+      "id": "stefano-pirrone-palermo",
+      "nome": "Laboratorio d’orologeria di Stefano Pirrone",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-stefano-pirrone-palermo-sito",
+        "f23-reteimprese-pirrone"
+      ],
+      "attivita": {
+        "id": "stefano-pirrone-palermo",
+        "slug": "stefano-pirrone-palermo",
+        "nome": "Laboratorio d’orologeria di Stefano Pirrone",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Laboratorio di orologeria a Palermo in via Nicolò Turrisi, elencato da Breil tra i centri di assistenza e ricambi e presente nei repertori come assistenza tecnica orologi. La scheda registra l’assistenza documentata dal marchio e non attribuisce altre lavorazioni o autorizzazioni.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "palermo",
+        "posizione": {
+          "indirizzo": "Via Nicolò Turrisi 44",
+          "cap": "90138",
+          "coordinate": null,
+          "fonti": [
+            "f23-stefano-pirrone-palermo-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "334 8919022",
+          "email": null,
+          "sito": null,
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-stefano-pirrone-palermo-sito",
+            "f23-reteimprese-pirrone"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "L’insegna e la scheda Breil indicano un laboratorio di orologeria; l’attività è classificata come assistenza tecnica orologi.",
+          "fonti": [
+            "f23-stefano-pirrone-palermo-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-stefano-pirrone-palermo-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [
+            {
+              "marca": "Breil",
+              "fonti": [
+                "f23-stefano-pirrone-palermo-sito"
+              ]
+            }
+          ],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-stefano-pirrone-palermo-sito",
+            "f23-reteimprese-pirrone"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Autorizzazione registrata solo dove esiste la pagina ufficiale del marchio.",
+              "fonti": [
+                "f23-stefano-pirrone-palermo-sito",
+                "f23-reteimprese-pirrone"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "stefano-pirrone-palermo"
+        }
+      }
+    },
+    {
+      "id": "rafaschieri-bari",
+      "nome": "Orologeria Rafaschieri",
+      "decisione": "approvata",
+      "motivo": "Servizi documentati dalla fonte primaria; sede e recapiti verificati il 2026-11-01.",
+      "fonti": [
+        "f23-rafaschieri-bari-sito"
+      ],
+      "attivita": {
+        "id": "rafaschieri-bari",
+        "slug": "rafaschieri-bari",
+        "nome": "Orologeria Rafaschieri",
+        "tipi": [
+          "orologeria",
+          "laboratorio"
+        ],
+        "descrizione": "Orologeria con laboratorio di alta orologeria nel centro di Bari, in via De Rossi. Il sito documenta il laboratorio e i maestri orologiai; la pagina contatti non è leggibile e la scheda non aggiunge lavorazioni specifiche né autorizzazioni di marchio.",
+        "nomiPrecedenti": [],
+        "gruppoId": null,
+        "localitaId": "bari",
+        "posizione": {
+          "indirizzo": "Via De Rossi 148",
+          "cap": "70122",
+          "coordinate": null,
+          "fonti": [
+            "f23-rafaschieri-bari-sito"
+          ]
+        },
+        "contatti": {
+          "telefono": "080 5219493",
+          "email": null,
+          "sito": "https://www.orologirafaschieri.it/",
+          "whatsapp": null,
+          "social": [],
+          "fonti": [
+            "f23-rafaschieri-bari-sito"
+          ]
+        },
+        "orari": {
+          "giorni": [],
+          "chiusure": [],
+          "verificatiIl": null,
+          "fonti": []
+        },
+        "laboratorio": {
+          "tipo": "interno",
+          "descrizione": "Il sito si presenta come laboratorio di alta orologeria nel centro di Bari, con maestri orologiai.",
+          "fonti": [
+            "f23-rafaschieri-bari-sito"
+          ]
+        },
+        "servizi": [
+          {
+            "id": "riparazione",
+            "fonti": [
+              "f23-rafaschieri-bari-sito"
+            ]
+          },
+          {
+            "id": "assistenza",
+            "fonti": [
+              "f23-rafaschieri-bari-sito"
+            ]
+          }
+        ],
+        "altriServizi": [],
+        "specializzazioni": [],
+        "marchi": {
+          "venduti": [],
+          "riparati": [],
+          "esperienza": [],
+          "assistenzaUfficiale": [],
+          "rivenditaUfficiale": [],
+          "menzionati": []
+        },
+        "storia": {
+          "annoFondazione": null,
+          "fondatore": null,
+          "testo": null,
+          "eventi": [],
+          "fonti": []
+        },
+        "attendibilita": {
+          "stato": "fonti-verificate",
+          "raccoltaIl": "2026-11-01",
+          "verificataIl": "2026-11-01",
+          "confermataTitolareIl": null,
+          "fonti": [
+            "f23-rafaschieri-bari-sito"
+          ],
+          "cronologia": [
+            {
+              "data": "2026-11-01",
+              "azione": "Fase23 lotto2: sede, recapiti e servizi letti sulla fonte primaria. Nessuna autorizzazione di marchio attribuita.",
+              "fonti": [
+                "f23-rafaschieri-bari-sito"
+              ]
+            }
+          ],
+          "segnalazioni": []
+        },
+        "origine": {
+          "sistema": "fase23-20261101",
+          "idOriginale": "rafaschieri-bari"
+        }
+      }
+    }
+  ]
+}

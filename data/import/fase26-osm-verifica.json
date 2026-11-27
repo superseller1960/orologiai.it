@@ -1,0 +1,320 @@
+{
+  "fase": "fase26",
+  "data": "2026-11-02",
+  "conteggi": {
+    "SEDE-NON-CONFERMATA": 8,
+    "SITO-NON-SCARICATO": 2,
+    "SENZA-SERVIZIO": 2,
+    "TESTO-ASSENTE": 1,
+    "VERIFIED": 1
+  },
+  "esiti": [
+    {
+      "id": "new-time-milano-milano",
+      "nome": "New Time Milano",
+      "comune": "Milano",
+      "via": "Via Gian Battista Vico",
+      "civico": "11",
+      "cap": "20123",
+      "telefono": null,
+      "sitoUfficiale": "https://www.nt-milano.com/",
+      "localitaEsistente": true,
+      "osm": "node/9366358443",
+      "lat": 45.4632655,
+      "lon": 9.165573,
+      "tags": {
+        "craft": "watchmaker",
+        "shop": null,
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": true
+    },
+    {
+      "id": "oreficeria-luccini-milano",
+      "nome": "Oreficeria Luccini",
+      "comune": "Milano",
+      "via": "Via Andrea Solari",
+      "civico": "23",
+      "cap": "20144",
+      "telefono": "+390239522259",
+      "sitoUfficiale": "https://gioiellerialuccini.it/",
+      "localitaEsistente": true,
+      "osm": "node/10699261081",
+      "lat": 45.4556712,
+      "lon": 9.16466,
+      "tags": {
+        "craft": "watchmaker",
+        "shop": null,
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": true
+    },
+    {
+      "id": "la-misura-del-tempo-bari",
+      "nome": "La Misura del Tempo",
+      "comune": "Bari",
+      "via": "Via Alessandro Maria Calefati",
+      "civico": "31",
+      "cap": "70121",
+      "telefono": null,
+      "sitoUfficiale": "https://www.lamisuradeltempo.it/",
+      "localitaEsistente": true,
+      "osm": "node/13970836251",
+      "lat": 41.1241973,
+      "lon": 16.8707931,
+      "tags": {
+        "craft": "watchmaker",
+        "shop": null,
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": true
+    },
+    {
+      "id": "great-masters-of-time-milano",
+      "nome": "Great Masters of Time",
+      "comune": "Milano",
+      "via": "Corso Magenta",
+      "civico": "11",
+      "cap": "20123",
+      "telefono": null,
+      "sitoUfficiale": "https://www.gmtitalia.com/",
+      "localitaEsistente": true,
+      "osm": "node/4838709945",
+      "lat": 45.4656332,
+      "lon": 9.1796055,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SITO-NON-SCARICATO"
+    },
+    {
+      "id": "gioielleria-paolo-saba-dolianova",
+      "nome": "Gioielleria Paolo Saba",
+      "comune": "Dolianova",
+      "via": "Corso Repubblica",
+      "civico": "68",
+      "cap": "09041",
+      "telefono": "+39 070741528",
+      "sitoUfficiale": "https://www.paolosaba.it/",
+      "localitaEsistente": false,
+      "osm": "node/5165208104",
+      "lat": 39.3778765,
+      "lon": 9.1759603,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": "Vendita al dettaglio gioielli e orologi delle migliori marche. Vendita online di orologi e gioielli."
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale",
+      "comuneOk": true
+    },
+    {
+      "id": "carlino-giorgio-bologna",
+      "nome": "Carlino Giorgio",
+      "comune": "Bologna",
+      "via": "Via Augusto Murri",
+      "civico": "189a",
+      "cap": "40137",
+      "telefono": "+39 051 623 1683",
+      "sitoUfficiale": "https://orologeriacarlino.jimdofree.com",
+      "localitaEsistente": true,
+      "osm": "node/5598676696",
+      "lat": 44.4737595,
+      "lon": 11.3682952,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": "L'Orologeria Oreficeria Carlino Giorgio è una attività specializzata nella vendita e nella riparazione di orologi e di gioielli."
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "parziale",
+      "comuneOk": true
+    },
+    {
+      "id": "watch-clock-milano",
+      "nome": "Watch & Clock",
+      "comune": "Milano",
+      "via": "Largo Settimio Severo",
+      "civico": "3",
+      "cap": "20144",
+      "telefono": "+390248011635",
+      "sitoUfficiale": "https://www.watcheclock.com/",
+      "localitaEsistente": true,
+      "osm": "node/7090354568",
+      "lat": 45.4657009,
+      "lon": 9.1626781,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "biffi-orologi-milano",
+      "nome": "Biffi Orologi",
+      "comune": "Milano",
+      "via": "Piazza Guglielmo Miani",
+      "civico": "3",
+      "cap": "20143",
+      "telefono": "+3902817471;+393474211405",
+      "sitoUfficiale": "https://www.biffigioielli.com/",
+      "localitaEsistente": true,
+      "osm": "node/9461841501",
+      "lat": 45.4377375,
+      "lon": 9.155232,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": false
+    },
+    {
+      "id": "annibali-co-roma",
+      "nome": "Annibali & Co.",
+      "comune": "Roma",
+      "via": "Via del Viminale",
+      "civico": "52",
+      "cap": "00184",
+      "telefono": "+39 06 4825734",
+      "sitoUfficiale": "https://www.annibalieco.it/",
+      "localitaEsistente": true,
+      "osm": "node/10748229391",
+      "lat": 41.9001197,
+      "lon": 12.4957523,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SITO-NON-SCARICATO"
+    },
+    {
+      "id": "breitling-roma",
+      "nome": "Breitling",
+      "comune": "Roma",
+      "via": "Via del Babuino",
+      "civico": "61",
+      "cap": "00187",
+      "telefono": "+390691519104",
+      "sitoUfficiale": "https://www.breitling.com/it-it/stores/breitling-boutiques/it/breitling-boutique-roma/",
+      "localitaEsistente": true,
+      "osm": "node/13039590653",
+      "lat": 41.9079105,
+      "lon": 12.4796905,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SENZA-SERVIZIO",
+      "sede": "telefono"
+    },
+    {
+      "id": "wintex-milano-milano",
+      "nome": "Wintex Milano",
+      "comune": "Milano",
+      "via": "Via Terraggio",
+      "civico": "15",
+      "cap": "20123",
+      "telefono": "+39028063101",
+      "sitoUfficiale": "https://wintexmilano.it/",
+      "localitaEsistente": true,
+      "osm": "node/13430461492",
+      "lat": 45.4652702,
+      "lon": 9.1757941,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": true
+    },
+    {
+      "id": "leoswatches-lecce",
+      "nome": "LeosWatches",
+      "comune": "Lecce",
+      "via": "Via delle Anime",
+      "civico": "2a",
+      "cap": "73100",
+      "telefono": "+39 379 170 7083",
+      "sitoUfficiale": "https://leoswatches.com/",
+      "localitaEsistente": true,
+      "osm": "node/13430812922",
+      "lat": 40.3523349,
+      "lon": 18.162629,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "TESTO-ASSENTE",
+      "lunghezza": 18
+    },
+    {
+      "id": "jaeger-lecoultre-roma",
+      "nome": "Jaeger-LeCoultre",
+      "comune": "Roma",
+      "via": "Piazza di Spagna",
+      "civico": "92",
+      "cap": "00187",
+      "telefono": "+390669281040",
+      "sitoUfficiale": "https://www.jaeger-lecoultre.com/eu-it/boutiques/europa/italy/rome/jaeger-lecoultre-boutique-roma-603201",
+      "localitaEsistente": true,
+      "osm": "node/13449845286",
+      "lat": 41.9062947,
+      "lon": 12.4813772,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "VERIFIED",
+      "sede": "indirizzo",
+      "servizi": [
+        "manutenzione",
+        "pendoleria",
+        "assistenza"
+      ],
+      "evidenza": "«In Jaeger-LeCoultre rendiamo la manutenzione del suo segnatempo semplice, sicura e immediata.»; «Pendole e Atmos Vedere tutte le pendole .»; «Inviare il mio orologio in assistenza .»",
+      "laboratorio": "non-specificato"
+    },
+    {
+      "id": "gioielleria-chiodarelli-bolzano-bozen",
+      "nome": "Gioielleria Chiodarelli",
+      "comune": "Bolzano - Bozen",
+      "via": "Via Milano - Mailandstraße",
+      "civico": "36",
+      "cap": "39100",
+      "telefono": "+39 0471 911021",
+      "sitoUfficiale": "https://www.chiodarelli.it",
+      "localitaEsistente": false,
+      "osm": "node/13789149754",
+      "lat": 46.4897025,
+      "lon": 11.3322238,
+      "tags": {
+        "craft": null,
+        "shop": "watches",
+        "description": null
+      },
+      "stato": "SEDE-NON-CONFERMATA",
+      "sede": "assente",
+      "comuneOk": false
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Bernardino+Galliari+10%2Fa%2C+Biella%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 75183074,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 281412337,
+      "lat": "45.6145857",
+      "lon": "8.0543440",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.053397202258335205,
+      "addresstype": "residential",
+      "name": "Via Bernardino Galliari",
+      "display_name": "Via Bernardino Galliari, Locato Inferiore, Andorno Micca, Biella, Piemonte, 13811, Italia",
+      "address": {
+        "road": "Via Bernardino Galliari",
+        "hamlet": "Locato Inferiore",
+        "village": "Andorno Micca",
+        "county": "Biella",
+        "ISO3166-2-lvl6": "IT-BI",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "13811",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "45.6135583",
+        "45.6157964",
+        "8.0532377",
+        "8.0556131"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Armando+Diaz%2C+10%2C+Portico+di+Caserta%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80589145,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 248675549,
+      "lat": "41.0525306",
+      "lon": "14.2817444",
+      "category": "highway",
+      "type": "unclassified",
+      "place_rank": 26,
+      "importance": 0.053391924162661135,
+      "addresstype": "unclassified",
+      "name": "Via Armando Diaz",
+      "display_name": "Via Armando Diaz, Portico di Caserta, Caserta, Campania, 81047, Italia",
+      "address": {
+        "road": "Via Armando Diaz",
+        "residential": "Portico di Caserta",
+        "village": "Portico di Caserta",
+        "county": "Caserta",
+        "ISO3166-2-lvl6": "IT-CE",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "81047",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.0522079",
+        "41.0528381",
+        "14.2807659",
+        "14.2827181"
+      ]
+    }
+  ]
+}

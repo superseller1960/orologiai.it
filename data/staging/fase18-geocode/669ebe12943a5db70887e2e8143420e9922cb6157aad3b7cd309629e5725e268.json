@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Saragozza+101%2FC%2C+Bologna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77302213,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4793750374,
+      "lat": "44.4904277",
+      "lon": "11.3263438",
+      "category": "place",
+      "type": "house",
+      "place_rank": 30,
+      "importance": 0.00007805828946359988,
+      "addresstype": "place",
+      "name": "",
+      "display_name": "101c, Via Saragozza, Saragozza, Porto-Saragozza, Bologna, Emilia-Romagna, 40134, Italia",
+      "address": {
+        "house_number": "101c",
+        "road": "Via Saragozza",
+        "suburb": "Saragozza",
+        "city": "Bologna",
+        "county": "Bologna",
+        "ISO3166-2-lvl6": "IT-BO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "40134",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4903777",
+        "44.4904777",
+        "11.3262938",
+        "11.3263938"
+      ]
+    }
+  ]
+}

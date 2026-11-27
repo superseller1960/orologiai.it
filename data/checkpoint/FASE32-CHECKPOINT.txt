@@ -1,0 +1,208 @@
+OROLOGIAI.IT — CHECKPOINT FASE 32
+Generato: 2026-11-03T11:25:08.617Z (locale UTC)
+Metodo: sha256 di ogni file sotto elenco; nessun segreto incluso (esclusi .env, .dev.vars, node_modules, build).
+Nota: il Git HEAD non è usato come versione di riferimento.
+
+## Catalogo (1 file)
+09a25e71cbad75c23f4c99c83860d2daebbccdc3d09c800d7f223137b5a98d19    2709039  site/data/directory.json
+
+## Import (41 file)
+5256ed8015923fef3db2ca9943c28a95101fbd2160aaf7bcd91916d7f3b32373     100372  data/import/fase13-lotto4-20261028-reviewed.json
+78a8eb85e3f7f8ff116d013bbc0dff55274e8ac0219da561018f64b0bf04e1a6      68466  data/import/fase13-lotto5-20261028-reviewed.json
+4a5ed0a9fadb211413bed2cba3ebc559d46be329a6eed0a2e6eccbc3b810ae08      45926  data/import/fase18-geocode-review.json
+fd689f91996c8b3a557c784a92722adee2f99e62ddcd226b0ee41d7ba85dbc9d      10606  data/import/fase18-reviewed-report.json
+eb56de71819584fcb0da8a76694413497385a9b34eb0ef31bdbc5eddf19a8939       4245  data/import/fase20-reviewed-report.json
+43d308c999702368dffb8e0f1c3707d825b4a28d3aa086ca87477bcf7d173fb8      49949  data/import/fase22-lotto1-20261101.json
+3c2be842feb5d28845cf2882afb6e2bcc410eb41e635470f23320be45e9a7a76     118013  data/import/fase23-lotto2-20261101.json
+03f6999c8c7b5d5ca8430a5793d284da5dcdbc7e32269eedbd534c1bbbd4952b      81676  data/import/fase23-lotto3-20261101.json
+c10ae103e8909910b450f48b9e3061cf5f5a805c962703aec842a8e3e3813da4      44466  data/import/fase24-lotto4-20261101.json
+d6c36bcf7af183d2df1bfa1d97db62a82f8e1aaf4ec438719694fe168d519500     103405  data/import/fase25-curate.json
+719a4761cae8871e598f7456f51321bf3012e1f0422e471eb3acc1d231112348     187348  data/import/fase25-lotto5-20261102.json
+7b1531064ff551e691c5447fa704a04eaf62852a768c6a62613e067086e31259     195170  data/import/fase25-registry.json
+d78457f2ad185faa05f97f947e9e158315f3a57205f015ef371c0989efb2d635     205459  data/import/fase25-siti.json
+86d750d64bb80d46641daec2a0bce797b10b778673f9ef19002fb0da0b563012     285923  data/import/fase25-verifica.json
+07198c02bffdd8fe8269aeeb6e40f982e818e3facc8bdf9734c33d34df2559b1      70770  data/import/fase26-discovered.json
+89dd682269fa49ede234a99817355b241b088b922f4ba7b633197aa5dca5eed7      71417  data/import/fase26-lotto1-20261102.json
+f74f88400aaf62a9cfab3891517e98d603c1f80d7ea95f731984b854998edd93      11504  data/import/fase26-lotto2-20261102.json
+d9df437351453a720bf45f0e86b363a428a88578162bc5c5a52865daab52f9fa       4040  data/import/fase26-lotto3-20261102.json
+3d654a8b314ac39de19421240b75b3ad9d84fdf2cb8c9082b3c1e0dffd6a72ee       7593  data/import/fase26-osm-candidati.json
+19ae90a339e323519b299211f9e43e6346843f321ae3e8d8c7503b26980b8893       8889  data/import/fase26-osm-verifica.json
+4f990fe4e63e3b034079a54ec8fe95c3aaf7586d1b98d994ec722dd44f09cf1b      62831  data/import/fase26-verifica2.json
+5ad484a94612bf8f2b2a55446d0b3e95f9c68543602db6b4c4ff1521fc8a9814      98390  data/import/fase27-lotto1-20261102.json
+2de1d314d16d7520d514921f4c698a377eafed2558961e5d47d30d23e4a4adbd       4973  data/import/fase27-lotto2-20261102.json
+ec265e16dfbb09ac03148af8dbccfee209f82c098ff14372ced05749ee9471a8      62141  data/import/fase31-01.json
+247bbfd56f52f6feb656ebd98cb9de6b4e649ead1113cb24a6ec87206d5d50ed      21032  data/import/fase31-02.json
+ed5cd9a33ec69e378eaf9a58f713038ce035635ede74ab50890836ea8a24a5f4      77429  data/import/fase32-01.json
+48efe4238174add76b853d557cad444df4d1d4216bffa59e400798a021583b82      22421  data/import/freebuff-national-20261023-reviewed.json
+0702e24930b7b2f3d83ff8b1cd634b5e1dcb6d71f3e4db25f2540e2843fb8fc4      52116  data/import/lazio-07b-reviewed.json
+59623d6a7c821113756c4aa2f4d8a5b382904f3148ef8a6f6346e11d4025d8c1      63508  data/import/national02-a-reviewed.json
+9d4125dd5b728e5c8ecf2ea2945dc913c37de9cc0797ab44cb56969211f2eeca      65275  data/import/national02-b-reviewed.json
+7cc870062aea376fee3f6e525c7dcd44555ddd521fd17e3f398ac3750185a8aa      73516  data/import/national02-c-reviewed.json
+0b529d76d70251dfc09273495a42231e199f9532339383715b2994f99ba14c5f      13794  data/import/national02-d-reviewed.json
+46bdae24ff0f96a547cbf9b6abe99e8c3c7cc4cb2e90e0f1de1f48f876dd2e82        170  data/import/pilot-toscana.json
+1266a88d93c91f5f67ac496c49a23b5af5bea78ad2bce007d90aa4d7bebbe9f7        444  data/import/pilot.overpass
+08839a30ef1529618077c21417b5c50e9d3bce9a5c2392c9204d0b6482b21e36      27900  data/import/pr6-ancona-pescara-20261024-reviewed.json
+10128452a82698abc77f3bd6c07a7f1afda0acd2ecdff5ad72da08fedb57196a      10617  data/import/rilancio-molise-01.json
+a4035ad2848d4e427acbb5d16181f253479972d267fc2804a0dd7aaf87675c9a      85449  data/import/rilancio-nazionale-01.json
+fe7a8a4684ef4767c31272789f790e2a4116fb7ef90c932954c8639ce35cfdf9      53438  data/import/rilancio-nazionale-02.json
+14e06ad4118c4610d8e25e5a6239a4e131f44c0d69e309f8cdde31d5c543659a      28401  data/import/toscana-02-report.json
+cf5eceb4169f0029b442e837d9ad18ff95e1bb0b3d7278658168e2794fb194c9      37074  data/import/toscana-02-reviewed.json
+1bcbc0f4b292952e13f74d9e2251f09c3a9cf32529b7bf15d1b7298edfae11cd       1487  data/import/toscana-03-geocode-targets.json
+
+## Registro candidati (1 file)
+dee107b317387131515a39491a93312123a76bd091940983f6071698bb17bc3a      52721  data/fase31/registro-candidati.json
+
+## Anagrafica (4 file)
+cb074cee0d6398badd250a75bae20eae893742b282764c0e8be29116ec249e4b      12172  data/anagrafica/attivita-fase27.txt
+689e0ffa827ff887b66beeb74ae35782e30f5c11e4b4cdd6e27b716738ba9273      83868  data/anagrafica/comuni-catalogo.json
+69ec508dfd83b85467e47381c8f812fd4b36639bbbd403b2ef1dbb4ec984e4c2     340090  data/anagrafica/comuni-italia.json
+44e02d957f81b27700ee42b2e3eb0ffa8753151a2304758730797c159e8c8301       1400  data/anagrafica/redirect-territoriali.json
+
+## Script (67 file)
+f2a1440a0dc744411f85f79ed49054c95371288ba8e8f21fa983646c7e1dd3f9       5590  scripts/apply-fase18-geocodes.mjs
+2fdf5ddd3106439405bdd4cd243daa791f939c7a8ebf00332dce567b5e6635d9      13364  scripts/audit-dati.ts
+53d72a9c88a1c86406a79e98e9dae2bed07f1e64c35312d34e06d305b7a10fab      12664  scripts/audit-gruppo4-20261027.mjs
+62e7d7f6431b9f4e7065b202f54593ca422ca5bbc670a4243ef3b651dbb13c1b       7927  scripts/audit-gruppo5-20261027.mjs
+ea63828396c0372603071edb0df8273e377185a16751d9775c6816816af9f916      20513  scripts/audit-gruppo6-20261027.mjs
+80d1e6532bb1dd86a1e143264832165e3033d565913cdbf2027870fc5a081190      16720  scripts/audit-gruppo7-20261027.mjs
+5cda71476f632345bcf700a4edbd9096f0d44f657ab91cbc0c529bc8f1b1eeb8       1175  scripts/bundle-vercel-api.mjs
+e11089c744b7581bc4470477ca23d5b987ef00d0d0dd24ba3fc36e7519277cb5       4550  scripts/check-build.ts
+ba8dca1b3811b27208fc269d86b7123182b4f80c8ca3d6fbb811ff82b3c99d71       1891  scripts/check-casi.ts
+e431576ee68dfb791208c901803f1835c29a73ec0a2fb0fe50594efbc433a9a6       2513  scripts/descrizioni-20261025.ts
+588214d524d9f740f373f64fb0a06d1c856ea4a9b98a7d116735d96f1a05203c      36530  scripts/enrich-lotto-08-20261026.ts
+8e25ed91deddf354e81a00dc4bdef037f917b8914e5d97fbe927b96d45fb8217      45449  scripts/espansione-lotto1-20261027.mjs
+4401022e97faa96a83cefa52309791cd1e4e589179ad0efac0d50d673cefdc00      43481  scripts/espansione-lotto2-20261028.mjs
+c2580c8b9cb9257a21fe4a28fbbc73de4c87dbf810f52430d8364060fe7a7686      32460  scripts/espansione-lotto3-20261028.mjs
+abb990b723aa3965885d0f0f4fd9c2ab014c425dde4e807403a51bdc70306fe7       2314  scripts/fase31-aggiorna-anagrafica.ts
+e89368ebd037e6bb41e87684c543cb317576214c703c0e357bd374b8abe128fd       2476  scripts/fase31-citta-libere.ts
+18f0a5e15dc64c8595c888bdf3bce8e83937ad71cb6587088d4ef9773ef33aed       2878  scripts/fase31-controlla.ts
+545abe96d1ef04a2687e15e7867dfd93ec222727cac7615b9c59978077948bbb      19444  scripts/fase31-genera-lotto.ts
+5fa9eb0a71ee7eeb53e2c4b74ec88db71b59977307773e643ee039e272190fa6      10218  scripts/fase31-genera-lotto2.ts
+62c052c20b5a6703cc2f785c92b01cb22140464e997032ae48010aa5aa450f5c       2685  scripts/fase31-recupera-contatti.ts
+adad23baed8ac51b359e77f55f9009e4c7712a7316ac736e506951b5a2e0545a       5152  scripts/fase31-registro.ts
+ecb055576c52c5d4e34c022552eb2a28b6eaace4ce7992d3a2933d7ff9aea9b8        854  scripts/fase31-satolli.ts
+92f860ed06fca7d4bd7ec5a1e8185f708233e0e0701f9eba7aca1c225bba915b       2477  scripts/fase31-servizi.ts
+9264acde0690ec22f028d68075a8e9f8eb8500341814448529863e26d31326a2       3884  scripts/fase31-verifica-2.ts
+6466665372c789eb182338cbccbd65e795aaee79baa95de2afd73a065127f3b0       3104  scripts/fase31-verifica-candidati.ts
+a64bad908ac62098bd04e2f5cfe7572650aa406e3ce316f646f2119f6588c082       2418  scripts/fase31b-hotfix.mjs
+b38077c5bb1abe383117034ce8d611352c383d25f5da4d89f969b060d33fa6f0       1149  scripts/fase31b-valida-servizi.mjs
+5e2df9da9123489c31feccc9b0b325ec5493040753a6bf80823f4a9a04eaa3c0      16675  scripts/fase32-audit-servizi.mjs
+dd14b972ba50419688ae4704c31bce191edd82422320cb17be46390a1d30bbd5       3042  scripts/fase32-checkpoint.mjs
+3882ee413ff9237c7f9412897f558e609618dec6c9b4ca94c0210868300625d8       2240  scripts/fase32-chiudi-localita-vuote.mjs
+46c85339bcc012e3739c658f62eec8ef0a7d20211bc212350cab689856acc165       5817  scripts/fase32-conferma-recapiti.mjs
+e9471837e1e95f6ffddd722ff83ce7e5e942617b3929455da341fcc244b88950      27503  scripts/fase32-genera-lotto.mjs
+79819c18fea6934f46223f65664e4357eac6158c7881ee268cc411fe8aa92648       2759  scripts/fase32-normalizza-localita.mjs
+a4aba4b5f791ed29fb4bf02ec5354b500956cbbba14f66395e75976d12c7502e       3983  scripts/fase32-registro.mjs
+628660055783408162936134db4ddb4420f20761a89e5fe540433cf24cf2700f       3176  scripts/fase32-riconcilia.mjs
+be68567a5f2a0bc577e19d14603f65cb4e760bc5e40be7100040d190a2a55dbb       3402  scripts/fase32-specchia-audit.mjs
+c5f4288c571f053f8a5f9e9784b6d12c7ed17991e279cf4fbd2f2e6776fcec84       6816  scripts/fase32-verifica-candidati.mjs
+24019c25904f442032f3e84830c80b954cf5cdad11c7e76e8e3bd73a759f0d33       2009  scripts/fetch-osm-pilot.ts
+a3142f2c8fa4a7d040e652cb86589ec122b5acede6241ad6d1580a0820cdfc9b       4979  scripts/generate-favicon.mjs
+0ac149b5e50d2e17645f48362e7079fd397d9951dfdfbc6cc0270d50ddf7104e       4771  scripts/geocode-directory.ts
+58dd9c2447ecd62e08cd915dd2e1805708667da8d0831678e2a05994edc22ba0       2787  scripts/geocode-toscana-03.ts
+842d2179c8617d78f5ed4eaf3493db73659c03b07ccc195d709f9441688cca4a       1817  scripts/import-osm.ts
+e02a990b08b7001e8a868eadde054a244954dac6947613551adf7aa2d5b2565f      24175  scripts/integrate-fase18.mjs
+545b841aafc7ff296d95c37f4fee5ffc7cd7b7b71ad247d17c6ab1c7e690cf4c      12800  scripts/integrate-fase20.mjs
+9fc0c7c4a147f180857c3e7d6b22bc6ca5f23bc7257876891835b890334c02f8      17352  scripts/integrate-lotto-01-20261025.ts
+24e81f07e42fb8726c723dc0519c318823ef85fee66fb55e6f144df7923b6f6e      32783  scripts/integrate-lotto-02-20261025.ts
+e4a28d74a805f3c651f58f22d75b772f741843a473cada5a520148ecf250d3c9      46754  scripts/integrate-lotto-03-20261025.ts
+90b3103c70e45f4ee6f070a33760570f5ec1ddc9d8301ca7526765c503fbd620      28050  scripts/integrate-lotto-04-20261025.ts
+3765f584ae64f4117d55f501f678a11ef045ca16d1c7762c5df33d781d7fb6a4      79062  scripts/integrate-lotto-05-20261026.ts
+6553499978d1eee3cf845b9f1ce63e11869845c99644bd1e3171e1f4b6378895      81294  scripts/integrate-lotto-06-20261026.ts
+72b448ab42ccace7205829fbb9b7aa4dda5345130c9daa53b4ba7d4ae7287422      64513  scripts/integrate-lotto-07-20261026.ts
+f7772ab1985f7a666124fc1a3cef3c04f92eb6a2bdc709bb9627dcdb55631167      34076  scripts/integrate-lotto-08-20261026.ts
+d347650b1e1d42cf1e620bb3ece87e82a8c608f11cb336cb19e29554f5b9f0d3      29734  scripts/integrate-nazionale-07.ts
+bd5dc26d67bae328ea9ea89d49396772d8685d1543ed6bcab3f35e486357e7e0      42288  scripts/integrate-nazionale-08.ts
+fd64f1310e88101230a568eec27403023658b38fff0d741ade1cebcf8e9f408e       2054  scripts/integrate-reviewed-batch.ts
+70a9da03821720a6f0d088bf493004d175e2404775c6966f00f59251aa1f7696       8069  scripts/integrate-toscana-02.ts
+c6e8ee09f19cf55b1652f9fd45b5f2f7b4b9c0686b08eb2770ce9c7bb99fdf6d       6890  scripts/integrate-toscana-04.ts
+0edfda085c7e375be04268a4447b8f86929649b9147e3cb45d759725f34f687a      22191  scripts/merge-pr6-20261024.ts
+72b849a30a4eeb4d5e9815200c79ef39f302176866d709c533cd08e3aec7174f       2691  scripts/migrate-legacy.ts
+a01f9de8ec0f425f0ada82e6de1fa29ec8a28576ac73b72cd98b3ca87f0cc619       3387  scripts/package-pages.mjs
+dd4122d9b005c7ef59170a587ecc5cc1620ae126fdfc7b3e6d7168bed0af9127       1606  scripts/pages-worker.ts
+69021a1ab664b6fcfebedc51a3781f5e67327089e43ec4e1995c8288e4032129      13468  scripts/test-assistant-ui.ts
+607f62627a39ea07c01fae507bfdbfc99eca98065404c334b3c8d9a9957a48e0      13038  scripts/test-search-browser.mjs
+483dd03e79266f003da5d61234aace8b9807898f60f0c9f4c6e70123ffb8cf40       7567  scripts/test-ui.ts
+b3b74cec0ee7e97412dcad81834ff1826bd0f674c196edb8ed305e7ff5f786ab       1734  scripts/validate-geografia-fase30.ts
+6e682ba92c1d23fa3be64082f93d7348a13c7b8fefcabc20338317f4c9d812b3       2097  scripts/validate.ts
+95d0388c2284434b2dcb7b71ee6cfbe9d539c311b880946ccb6fffcc5daed6ed       3897  scripts/verify-gemini-live.ts
+
+## Test (45 file)
+aa759db5b0df878210ebbed63a206734f837cda9394aa1e7b4e6de8d9cbed0b1      21756  tests/assistant.test.ts
+7fd353360df3b8f2e4a8ca48966dcf1abc39ac2320710fed69b350a53253299f       2357  tests/audit-gruppo1-20261027.test.ts
+b553f73d0c88b3a74a84862c1d560621996e3d744a920a08c7ba5144b6a46f19       3025  tests/audit-gruppo2-20261027.test.ts
+675366ea1ea474cc1583dad2771e3daecf34af7dcec7633ddfbe1cd36ec0f5f4       2430  tests/audit-gruppo3-20261027.test.ts
+72d367582395a297ec1c8b1acf5581aaa153a630fc1aa9a74e5ede1c998c1352       4064  tests/audit-gruppo4-20261027.test.ts
+9af0b1727fb67ce4784135e1ca67f5ef63ca627b4ce64ee9540c98f78da55254       2677  tests/audit-gruppo5-20261027.test.ts
+36c29c5623182e28b8621d94aa0eca0b3f733780cde25809f7a2712b2a64fda8       5997  tests/audit-gruppo6-20261027.test.ts
+8873ff1d5d203cdd533537f504a2623a5d95855922ef686c693b06a533307f91       5220  tests/audit-gruppo7-20261027.test.ts
+01bdea8d63c2d07c29373bb3dd8bdede85dcc4b796a964e9d9bc33ef9b300b21       9330  tests/cloudflare-ai.test.ts
+f8f6ccba7810712b5dd28d5d2f1e1319d3e291d13863ed1d02b504546a329f34       1577  tests/descrizioni-20261025.test.ts
+96cbe6b747cbf45e3d37d2cf2c647cfeb3f7355b3a1f0c1b364149f9f8bc3fb6       7495  tests/directory.test.ts
+34be749a1d55d2b4892516df1da8b5a9259bf1155bf1b9cd82c6c441faa31e48       1398  tests/espansione-20261027.test.ts
+68b802e57fe34be388bbeeeaff4e3cb8f35df62c04f644e48b289a318e91b22c       8950  tests/espansione-lotto2-20261028.test.ts
+79da2f98559e4b104b952ce1c1113af2c9bbdf59aeec234dd102ee1544a6a651       5599  tests/espansione-lotto3-20261028.test.ts
+7ae67166a66a4815311a6ef11ce3c5c10c0aaf1bb51feaf33005004bac2835fb       6832  tests/espansione-lotto5-20261028.test.ts
+cea2b4582436615dd53ee39ac870fa95af258c230bc40b71c3084b920aa3dc99      20909  tests/fase-07-assistant.test.ts
+b3085874a90b8d0406b27ea3a45e798126ac2dbb669d86280317d7967e3297ba       5944  tests/fase18.test.ts
+c2c7bb185952687085f79aa3437d28b751d08473b22588444780bd8b675bf958       5346  tests/fase20.test.ts
+12aa9778eb2033edd46a42f64119ea83a31fdad9c4709a824706be55c48a2476      11686  tests/fase28-anagrafica.test.ts
+e5f32ceefdfc1150029546c802f2a0b2962963c8bf47cfcdfba6f333d0073c06       1502  tests/fixtures/osm-pilot.json
+d7b37a5bb00d7169bbd543cd023dedc84556f747c89b73fa3e3903ecf2fee787       4581  tests/freebuff-expansion.test.ts
+b9ec64c4ce0f5ded408c5f4ce83baa3444d05e5ba73d00a51c89ec67e7a346e2       2716  tests/geo.test.ts
+9fc7f9e8870e46719902fd2b4a0435572161b7edb355a0cc65001bf7e10cb28e       3665  tests/import.test.ts
+fd4df10de623963fdc949789fcb2971b880986c4d95508909d385dfa49143eba       4635  tests/incremento-04.test.ts
+43fdaee47d3f11f3be748743e475487f875b6865b088628991163f6d9bb219b7       4405  tests/incremento-07.test.ts
+ae1a38bde66cc65e7d9ab6ebbcdf59700188d5a56d19ac24d13b6aff671eb7fc       6597  tests/lotto-01-20261025.test.ts
+1b2c8e20c68762e00e4d1e52e9bb09be5b4ba395aae297febb9c6bde81915b13       6533  tests/lotto-02-20261025.test.ts
+aec11b5a511d9562ddd51e10b4f11cd532ea9e2c7974704bddeaa979e0bedf79       4425  tests/lotto-03-20261025.test.ts
+c09ae1f594e795a13e1fd3cd547004f8f8dae6068ea86538701834decd87e9dc       6549  tests/lotto-04-20261025.test.ts
+5ba9b937598140fa870f6d216bab7abfdad5b8ad7a93331cbd98b456d781b7a7       3348  tests/lotto-05-20261026.test.ts
+281b9d7cd694828bd9bb71c4762d582517fe9a6d6ebb52a71625234559e220d9       3188  tests/lotto-06-20261026.test.ts
+97095b276dbcab3be3ba8b83b6683687c50a42eae130b1634d770bd35500a586       2774  tests/lotto-07-20261026.test.ts
+9a0d511e2ca07d2b2e134e24ed0b2490f788c91290636c91376939ddcfad7632       5665  tests/lotto-08-20261026.test.ts
+573e169d6f2d495243819d8e89a2c1bfceee6bb7873baeca0407d5f4a50b4a6b       5988  tests/national02.test.ts
+37a014b4219f84f9c03f2f7ea63e5d84034ce3bbe1178219339bf835c7c0d4c3       7422  tests/nazionale-08.test.ts
+6f7307a2fcfe7b8a0757e2e275ded122de38191578fa9bb749d4e969aab24aee      17714  tests/orologiaio-api.test.ts
+f1425c140970d9c4def7f5be720969905350bc74101da79d8a026c1f2f4cab95       6323  tests/pr6-20261024.test.ts
+8690f2efd8fd953ff8a3633942e924885c04c8352aa5343630aff34800c090e0       7648  tests/reviewed-import.test.ts
+d4dfe7bcb077073e2962142a34ba20bca0391b372993a32064e62dc176d55135       2834  tests/rilancio-nazionale.test.ts
+7344c7b00b24023f235d7d33faa3b591fadeb34ccb6393ba1116ceba88df7657       1911  tests/search-phase12.test.ts
+78eeab4356bcf092a0fbc8bf1123dd4b687868bdd3d932a52709da1223972545       3112  tests/search-services.test.ts
+bf58e9a699be4fd21842c098a09527645444ea39f042b864bb3107089f0843f0       7457  tests/search-simplified.test.ts
+3403639ca2d01cabaacb4866cbbec8ed737888a0839b9e9e31644624bb082ebf      11874  tests/toscana-02.test.ts
+a166d34b506d4a2b4b3834e5d1b45abe1cb5aedb29ec11bd2bd98f1b26b5ec18      10093  tests/vercel-api.test.ts
+f7adbbce8f1102731c3211eaab4c68c67499d6840af28bad8ce9e8bcd26da804       1166  tests/verified-coordinate.ts
+
+## Worker e funzioni (2 file)
+e19fddfae9d72d3afd32a59704663c44afe1e242b70da89a0f5c26a7459a8747       1482  functions/api/orologiaio.ts
+31f8ea9c001b3caba9b3202324db5f405286dde68e15256b11d1efa35932bc93        262  functions/api/posizione.ts
+
+## Configurazione Pages (5 file)
+c10d8b8f6180852320290587567c8a2065b3158e8c43439e4661d2dfa84fb143       1482  package.json
+f94b71582e8b26843b5e37a16379cabd55b24f1171d0f09af1889cb8d496d355     207514  package-lock.json
+afa0cbe47e47fa8daefa94db22dc75d97db1ae2a87ae5f67808992601283b0a7        179  tsconfig.json
+e20c963c076527a192cb5d685bc1467c7d94840f12aabd2e4b29f5d8e972abd3        374  tsconfig.tools.json
+aee210afc9c0c9a243a35c4e1e787db39e0e24c4385fea63d5ddadc8cb0fd7ad        956  vercel.json
+
+## Libreria applicativa (17 file)
+7fef4104711b2185a6c2be1b87ce765846175d8db179fd10ec5f64adf9ba40ba      38832  site/src/lib/assistant.ts
+70038c2784cfdacd0f4e0361bc7b580fbe436b33379c7a2794b5ce2d40ae6a52       1489  site/src/lib/business-presentation.ts
+11a409733e08ddfaec3fdabadae7307d47d3211af8798119a2bbdf929e90f376       3907  site/src/lib/cloudflare-ai.ts
+ddfcc0cbb4dd8d4871a7e793349654a69c677801fe6c8e488373b1f74b2c29a3       2187  site/src/lib/directory.ts
+81cc26fab6fedcfeb73cf6232f424d2c0e6ef44e63b9e6ff3f75df7f942e6d5d       2872  site/src/lib/duplicates.ts
+bdb4473a3cfad0ce80e9b0538b25eaebbf06bbf223514eadfe01d8a342bdffa6       7717  site/src/lib/gemini.ts
+8a6b75e53922063de1bd20761a6de1cedf6a2aea9393251ef21c4973d145ddb5       5313  site/src/lib/geo.ts
+3062721c28b79659e0e407f1bcee1f0de74728a3702c8b6b77d65c8ededbf036       2387  site/src/lib/geocoding.ts
+26a95aec4921357cb1706913970cd8f90d3ad1834112ab6d21acebe6e1a0cc92       3647  site/src/lib/home-selection.ts
+6177338c7e5abed4ce686a108965f1dd0aea8065c6aaa247e439c01a74a0b2fb        953  site/src/lib/map-state.ts
+5eb2b5811838557308c84bb2c9d74382be38775840c12bf6ecc62db00f1ec6a1       6607  site/src/lib/orologiaio-api.ts
+f84e848ee015ee44d49b5d0b21183664ea40a344f5f187e0a68b173f9efa6dfa       7765  site/src/lib/osm-import.ts
+762e41084e12f47126a35e8742ca07077534b30b5bcea9a3bf4edeff13171239        931  site/src/lib/posizione-api.ts
+718c1cea02aa040d82dd35d587704e9d23c154192a396e0aafc9fa7c257485f9       1156  site/src/lib/redirect-territoriali.ts
+8a15c8092402ad4213b364cd0df67e91cc7184077eb8a1bb8303ac3ca19975d9       7198  site/src/lib/reviewed-import.ts
+caaef79abfd3e01e83f63cebe7108b3905aa2e3481a1df1704b475427d8831a9      11572  site/src/lib/schema.ts
+ca7afc68ccd28d5c294e813b1b8007aa20c7a0b6ae24e093df5e1bf49a173a16       6199  site/src/lib/search.ts
+
+File registrati: 183
+Impronta checkpoint: 3ba73d5f7f711464b7f9cf911aa4e43b624874bc65ae24731a06b203ed99831d

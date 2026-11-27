@@ -1,0 +1,45 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Silla+80%2C+Roma%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 80701898,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 12012318069,
+      "lat": "41.9076623",
+      "lon": "12.4600157",
+      "category": "shop",
+      "type": "watches",
+      "place_rank": 30,
+      "importance": 0.00008896238651097914,
+      "addresstype": "shop",
+      "name": "Casa del Cronometro",
+      "display_name": "Casa del Cronometro, 80, Via Silla, Prati, Municipio Roma I, Roma, Lazio, 00192, Italia",
+      "address": {
+        "shop": "Casa del Cronometro",
+        "house_number": "80",
+        "road": "Via Silla",
+        "neighbourhood": "Prati",
+        "quarter": "Prati",
+        "suburb": "Municipio Roma I",
+        "city": "Roma",
+        "county": "Roma",
+        "ISO3166-2-lvl6": "IT-RM",
+        "state": "Lazio",
+        "ISO3166-2-lvl4": "IT-62",
+        "postcode": "00192",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "41.9076123",
+        "41.9077123",
+        "12.4599657",
+        "12.4600657"
+      ]
+    }
+  ]
+}

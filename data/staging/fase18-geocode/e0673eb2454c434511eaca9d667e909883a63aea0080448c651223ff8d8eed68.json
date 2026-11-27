@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Portanova+10%2FA%2C+Bologna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 78167002,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 33760136,
+      "lat": "44.4942924",
+      "lon": "11.3371715",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341139162279694,
+      "addresstype": "residential",
+      "name": "Via Portanova",
+      "display_name": "Via Portanova, Malpighi, Porto-Saragozza, Bologna, Emilia-Romagna, 40123, Italia",
+      "address": {
+        "road": "Via Portanova",
+        "suburb": "Malpighi",
+        "city": "Bologna",
+        "county": "Bologna",
+        "ISO3166-2-lvl6": "IT-BO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "40123",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4942639",
+        "44.4943250",
+        "11.3368589",
+        "11.3374830"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Corso+Garibaldi+37%2F39%2C+Ancona%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 79629734,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 25786635,
+      "lat": "43.5082717",
+      "lon": "13.0107073",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338943846799417,
+      "addresstype": "residential",
+      "name": "Corso Garibaldi",
+      "display_name": "Corso Garibaldi, Castiglioni, Arcevia, Ancona, Marche, 60011, Italia",
+      "address": {
+        "road": "Corso Garibaldi",
+        "hamlet": "Castiglioni",
+        "village": "Arcevia",
+        "county": "Ancona",
+        "ISO3166-2-lvl6": "IT-AN",
+        "state": "Marche",
+        "ISO3166-2-lvl4": "IT-57",
+        "postcode": "60011",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.5077877",
+        "43.5090843",
+        "13.0098841",
+        "13.0109227"
+      ]
+    }
+  ]
+}

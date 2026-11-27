@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Santo+Stefano+45%2F47%2C+Campi+Bisenzio%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82110492,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 588183820,
+      "lat": "43.8215594",
+      "lon": "11.1362041",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339160219729912,
+      "addresstype": "residential",
+      "name": "Via Santo Stefano",
+      "display_name": "Via Santo Stefano, Santa Maria, Capalle, Campi Bisenzio, Firenze, Toscana, 50013, Italia",
+      "address": {
+        "road": "Via Santo Stefano",
+        "suburb": "Santa Maria",
+        "village": "Capalle",
+        "town": "Campi Bisenzio",
+        "county": "Firenze",
+        "ISO3166-2-lvl6": "IT-FI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "50013",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.8210754",
+        "43.8220434",
+        "11.1349814",
+        "11.1374267"
+      ]
+    }
+  ]
+}

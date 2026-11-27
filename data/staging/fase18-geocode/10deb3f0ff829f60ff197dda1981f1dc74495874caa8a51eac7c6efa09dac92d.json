@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Dei+Mille+27%2C+Napoli%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81018674,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 4103339666,
+      "lat": "40.7574827",
+      "lon": "14.4427462",
+      "category": "amenity",
+      "type": "doctors",
+      "place_rank": 30,
+      "importance": 0.00003750133516437045,
+      "addresstype": "amenity",
+      "name": "Centro Medico Boccia",
+      "display_name": "Centro Medico Boccia, 23, 25 ,27, 29, Via dei Mille, Fuori Porta, Torre Annunziata, Napoli, Campania, 80058, Italia",
+      "address": {
+        "amenity": "Centro Medico Boccia",
+        "house_number": "23, 25 ,27, 29",
+        "road": "Via dei Mille",
+        "suburb": "Fuori Porta",
+        "town": "Torre Annunziata",
+        "county": "Napoli",
+        "ISO3166-2-lvl6": "IT-NA",
+        "state": "Campania",
+        "ISO3166-2-lvl4": "IT-72",
+        "postcode": "80058",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "40.7574327",
+        "40.7575327",
+        "14.4426962",
+        "14.4427962"
+      ]
+    }
+  ]
+}

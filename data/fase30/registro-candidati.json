@@ -1,0 +1,132 @@
+{
+  "versione": 1,
+  "baseline": {
+    "attivita": 500,
+    "localita": 219,
+    "fonti": 1094,
+    "coordinate": 82,
+    "sha256Directory": "503a785f89a8e692dc41fadb9e6e09a2f2acd8b7c7053c63c8600d6357462287"
+  },
+  "note": "Registro candidati Fase 30. Stati: nuovo, scartato, duplicato, sospeso, verificato. Nessuna scheda entra nel catalogo senza verifica geografica ISTAT e fonte primaria.",
+  "candidati": [
+    {
+      "id": "murgia-cagliari",
+      "nome": "Laboratorio Orologeria Giampiero Murgia",
+      "comune": "Cagliari",
+      "codiceIstat": "118006",
+      "stato": "sospeso",
+      "motivo": "Fonte primaria con servizi dichiarati (Zenith, Eberhard, Cartier, B&M, restauro). Telefono non pubblicato: scheda da completare.",
+      "fonte": "https://www.giampieromurgia.com/",
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "lorologiaio-porto-torres",
+      "nome": "L'Orologiaio s.r.l.",
+      "comune": "Porto Torres",
+      "codiceIstat": "112045",
+      "stato": "sospeso",
+      "motivo": "Pendoleria, restauro, riparazione documentati. Indirizzo e telefono solo da post social e reteimprese: da confermare.",
+      "fonte": "https://www.lorologiaiosardegna.com/",
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "de-nurra-sassari",
+      "nome": "Gioielleria De Nurra - Laboratorio Orologeria",
+      "comune": "Sassari",
+      "codiceIstat": "112050",
+      "stato": "sospeso",
+      "motivo": "Laboratorio interno con revisione e restauro dichiarati. CAP non pubblicato.",
+      "fonte": "https://www.denurra.it/",
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "rocca-lab-cagliari",
+      "nome": "Rocca Lab - Laboratorio Orologeria",
+      "comune": "Cagliari",
+      "codiceIstat": "118006",
+      "stato": "sospeso",
+      "motivo": "Solo come centro assistenza Breil: fonte del marchio presente, servizi generici. Non autorizza revisione o restauro.",
+      "fonte": "https://www.breil.com/it/centri-di-assistenza/",
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "rosas-olbia",
+      "nome": "Gioielleria Rosas",
+      "comune": "Olbia",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Rivenditore ufficiale Rolex: laboratorio di marca, non indipendente.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "horae-san-giovanni-valdarno",
+      "nome": "Horae Laboratorio di Orologeria",
+      "comune": "San Giovanni Valdarno",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Fuori regione (Toscana): sede confermata in AR.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "officina-del-tempo-olbia",
+      "nome": "Officina del Tempo",
+      "comune": "Olbia",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Sito non leggibile: servizi non documentati da fonte primaria.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "sotgiu-oristano",
+      "nome": "Laboratorio Orologeria Sotgiu",
+      "comune": "Oristano",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Sito ufficiale irraggiungibile; sola directory.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "pontis-cagliari",
+      "nome": "Assistenza Orologi Aurelio Pontis",
+      "comune": "Cagliari",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Solo pagina Facebook: nessuna fonte primaria.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "pintus-oristano",
+      "nome": "Orologeria Maicol Pintus",
+      "comune": "Oristano",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Solo directory: servizi non documentati.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    },
+    {
+      "id": "l-orologio-cagliari",
+      "nome": "L'Orologio, via della Pineta",
+      "comune": "Cagliari",
+      "codiceIstat": null,
+      "stato": "scartato",
+      "motivo": "Post di chiusura temporanea: sede non verificabile.",
+      "fonte": null,
+      "raccoltoIl": "2026-11-03"
+    }
+  ],
+  "checkpoint": [
+    {
+      "data": "2026-11-03",
+      "regione": "Sardegna",
+      "attivitaApprovateNuove": 0,
+      "candidatiRegistrati": 11,
+      "nota": "Scouting Sardegna: nessuna scheda approvata. Quattro candidati sospesi in attesa di verifica telefono/CAP/indirizzo."
+    }
+  ]
+}

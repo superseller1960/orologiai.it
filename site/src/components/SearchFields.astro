@@ -1,10 +1,11 @@
 ---
 import { directory } from '../lib/directory';
 import { macroAreeServizi, services } from '../lib/schema';
-interface Props { prefix?: string; }
-const { prefix = 'search' } = Astro.props;
+interface Props { prefix?: string; compact?: boolean; }
+const { prefix = 'search', compact = false } = Astro.props;
 const attive = directory.attivita.filter(b => b.attendibilita.stato !== 'chiusa');
 const conteggi = new Map<string, number>();
+// I conteggi corrispondono esattamente alle schede che il filtro restituisce.
 for (const b of attive) for (const s of b.servizi) conteggi.set(s.id, (conteggi.get(s.id) ?? 0) + 1);
 const gruppi = macroAreeServizi
   .map(area => ({ titolo: area.titolo, servizi: area.servizi.filter(id => (conteggi.get(id) ?? 0) > 0) }))
@@ -17,7 +18,7 @@ const gruppi = macroAreeServizi
     <ul id={`${prefix}-suggestions`} class="locality-suggestions" role="listbox" hidden></ul>
     <p id={`${prefix}-hint`} class="locality-hint" role="status" aria-live="polite">Lascia vuoto per cercare in tutta Italia.</p>
   </div>
-  <label for={`${prefix}-service`}>Che servizio cerchi? <span class="optional">Facoltativo</span><select id={`${prefix}-service`} name="servizio" aria-describedby={`${prefix}-service-hint`}><option value="">Qualsiasi servizio</option>{gruppi.map(area => <optgroup label={area.titolo}>{area.servizi.map(id => <option value={id} data-label={services[id]}>{services[id]} ({conteggi.get(id)})</option>)}</optgroup>)}</select></label>
+  {compact ? <details class="hero-service"><summary>+ Aggiungi un servizio <span>(facoltativo)</span></summary><label for={`${prefix}-service`}>Servizio<select id={`${prefix}-service`} name="servizio"><option value="">Qualsiasi servizio</option>{gruppi.map(area => <optgroup label={area.titolo}>{area.servizi.map(id => <option value={id} data-label={services[id]}>{services[id]}</option>)}</optgroup>)}</select></label></details> : <label for={`${prefix}-service`}>Che servizio cerchi? <span class="optional">Facoltativo</span><select id={`${prefix}-service`} name="servizio" aria-describedby={`${prefix}-service-hint`}><option value="">Qualsiasi servizio</option>{gruppi.map(area => <optgroup label={area.titolo}>{area.servizi.map(id => <option value={id} data-label={services[id]}>{services[id]} ({conteggi.get(id)})</option>)}</optgroup>)}</select></label>}
 </div>
-<p id={`${prefix}-service-hint`} class="locality-hint service-hint">Quattro percorsi, con le specializzazioni documentate. Il numero indica le attività disponibili; si aggiorna quando scegli una località.</p>
+{!compact && <p id={`${prefix}-service-hint`} class="locality-hint service-hint">Quattro percorsi, con le specializzazioni documentate. Il numero indica le attività disponibili; si aggiorna quando scegli una località.</p>}
 <script src="../scripts/locality-ui.ts"></script>

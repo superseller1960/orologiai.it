@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Galletti%2C+5%2C+Domodossola%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 72917971,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 35399087,
+      "lat": "46.1133425",
+      "lon": "8.2918882",
+      "category": "highway",
+      "type": "secondary",
+      "place_rank": 26,
+      "importance": 0.053393544670786566,
+      "addresstype": "secondary",
+      "name": "Via Gian Giacomo Galletti",
+      "display_name": "Via Gian Giacomo Galletti, Borgata Baceno, Domodossola, Bannio Anzino, Verbano-Cusio-Ossola, Piemonte, 28845, Italia",
+      "address": {
+        "road": "Via Gian Giacomo Galletti",
+        "hamlet": "Borgata Baceno",
+        "town": "Domodossola",
+        "municipality": "Bannio Anzino",
+        "county": "Verbano-Cusio-Ossola",
+        "ISO3166-2-lvl6": "IT-VB",
+        "state": "Piemonte",
+        "ISO3166-2-lvl4": "IT-21",
+        "postcode": "28845",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "46.1119178",
+        "46.1147551",
+        "8.2909609",
+        "8.2927971"
+      ]
+    }
+  ]
+}

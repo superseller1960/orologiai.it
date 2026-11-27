@@ -1,5 +1,15 @@
 {
   "version": 1,
-  "include": ["/api/orologiaio", "/api/posizione"],
+  "include": [
+    "/api/orologiaio",
+    "/api/posizione",
+    "/api/fonte",
+    "/orologerie/sardegna/olbia-tempio/*",
+    "/orologerie/sardegna/sud-sardegna/iglesias/*",
+    "/orologerie/sardegna/sud-sardegna/villacidro/*",
+    "/orologerie/marche/macerata/porto-potenza-picena/*",
+    "/orologerie/sardegna/nuoro/orosei/*",
+    "/orologerie/lombardia/monza-e-brianza/besana-in-brianza/*"
+  ],
   "exclude": []
 }

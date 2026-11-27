@@ -1,0 +1,39 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+Ricasoli+119%2C+Livorno%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 81482018,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 132757816,
+      "lat": "43.4823966",
+      "lon": "10.4427968",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05338626153963527,
+      "addresstype": "residential",
+      "name": "Via Ricasoli",
+      "display_name": "Via Ricasoli, Gabbro, Rosignano Marittimo, Livorno, Toscana, Italia",
+      "address": {
+        "road": "Via Ricasoli",
+        "village": "Gabbro",
+        "county": "Livorno",
+        "ISO3166-2-lvl6": "IT-LI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.4823218",
+        "43.4824245",
+        "10.4422226",
+        "10.4433652"
+      ]
+    }
+  ]
+}

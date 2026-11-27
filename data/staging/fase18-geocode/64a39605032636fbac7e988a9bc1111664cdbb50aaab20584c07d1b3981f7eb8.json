@@ -1,0 +1,43 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Via+I%C2%B0+Maggio%2C+6%2C+Pontedera%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 82040587,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 58559052,
+      "lat": "43.6642712",
+      "lon": "10.6312697",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05339246585793847,
+      "addresstype": "residential",
+      "name": "Via Primo Maggio",
+      "display_name": "Via Primo Maggio, Bellaria, Magazzini, Romito, Pontedera, Pisa, Toscana, 56025, Italia",
+      "address": {
+        "road": "Via Primo Maggio",
+        "quarter": "Bellaria",
+        "hamlet": "Magazzini",
+        "village": "Romito",
+        "town": "Pontedera",
+        "county": "Pisa",
+        "ISO3166-2-lvl6": "IT-PI",
+        "state": "Toscana",
+        "ISO3166-2-lvl4": "IT-52",
+        "postcode": "56025",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "43.6640318",
+        "43.6644976",
+        "10.6293714",
+        "10.6331663"
+      ]
+    }
+  ]
+}

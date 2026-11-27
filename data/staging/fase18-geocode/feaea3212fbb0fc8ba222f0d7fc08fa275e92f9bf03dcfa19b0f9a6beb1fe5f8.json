@@ -1,0 +1,42 @@
+{
+  "url": "https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&countrycodes=it&limit=1&q=Piazza+dell%E2%80%99Otto+Agosto+4%2Fh%2C+Bologna%2C+Italia",
+  "consultataIl": "2026-10-31",
+  "licenza": "ODbL-1.0",
+  "attribuzione": "© OpenStreetMap contributors",
+  "risultati": [
+    {
+      "place_id": 77686691,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 256406782,
+      "lat": "44.5003158",
+      "lon": "11.3453204",
+      "category": "highway",
+      "type": "pedestrian",
+      "place_rank": 26,
+      "importance": 0.1679799034751623,
+      "addresstype": "pedestrian",
+      "name": "Piazza dell'Otto Agosto",
+      "display_name": "Piazza dell'Otto Agosto, Ghetto ebraico, Irnerio, Santo Stefano, Bologna, Emilia-Romagna, 40121, Italia",
+      "address": {
+        "road": "Piazza dell'Otto Agosto",
+        "neighbourhood": "Ghetto ebraico",
+        "suburb": "Irnerio",
+        "city": "Bologna",
+        "county": "Bologna",
+        "ISO3166-2-lvl6": "IT-BO",
+        "state": "Emilia-Romagna",
+        "ISO3166-2-lvl4": "IT-45",
+        "postcode": "40121",
+        "country": "Italia",
+        "country_code": "it"
+      },
+      "boundingbox": [
+        "44.4996439",
+        "44.5009763",
+        "11.3441380",
+        "11.3461236"
+      ]
+    }
+  ]
+}
