@@ -53,3 +53,15 @@
 .filter-check { flex-direction: row; align-items: center; gap: var(--space-2, .5rem); }
 .filter-check input { width: auto; }
 .search-result-card[data-proof="da-verificare"] .result-reason-label { color: var(--ink-soft, #5b5b52); }
+
+
+/* UX v3: preserve the DOM contract used by search-ui, refine result cards and filter interactions. */
+.search-page .search-flow{border-radius:16px;box-shadow:0 7px 22px #18342e08}
+.search-page .advanced-filters summary{min-height:44px;display:list-item;padding:12px 0}
+.results-panel .search-result-card{border-radius:14px!important}
+.results-panel .search-result-card .tag{border-radius:7px;padding:7px 10px}
+.results-panel .search-result-card .result-primary{background:#123c35;color:#fffdf7;min-height:52px}
+.results-panel .search-result-card .result-primary span{color:#dcc093}
+.results-panel .search-result-card .result-primary:hover{background:#265344}
+.results-panel .search-result-card .result-secondary{background:#f4f3e9}
+.results-panel .search-result-card .result-secondary:hover{background:#e7ece0}
