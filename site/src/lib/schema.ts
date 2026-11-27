@@ -29,8 +29,9 @@ export const brandAliases: Record<string, string> = {
   'Eberhard': 'Eberhard & Co.',
 };
 const brandKeyBase = (name: string) => name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-export const brandKey = (name: string) => brandKeyBase(brandAliases[name] ?? name);
-export const brandLabel = (name: string) => brandAliases[name] ?? name;
+const normalizedBrandAliases = new Map(Object.entries(brandAliases).map(([alias, label]) => [brandKeyBase(alias), label]));
+export const brandLabel = (name: string) => normalizedBrandAliases.get(brandKeyBase(name)) ?? name.trim();
+export const brandKey = (name: string) => brandKeyBase(brandLabel(name));
 export const businessTypes = ['orologeria', 'laboratorio', 'gioielleria', 'professionista'] as const;
 export const specializations = ['lusso', 'vintage', 'antichi', 'meccanici', 'automatici', 'collezione'] as const;
 export const specializationLabels: Record<(typeof specializations)[number], string> = {
