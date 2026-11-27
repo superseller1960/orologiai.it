@@ -22,11 +22,11 @@ const cities = [...directory.localita]
   <section class="atlas-opening" aria-labelledby="atlas-home-title">
     <div class="atlas-opening-art">
       <img src="/images/editorial-movement-ai.webp" width="1130" height="586" alt="Illustrazione editoriale digitale della meccanica di un orologio" fetchpriority="high" />
-      <div class="atlas-opening-text"><p class="atlas-eyebrow atlas-light">OROLOGIAI.IT <span></span> GUIDA INDIPENDENTE</p><h1 id="atlas-home-title">Il tempo.<br/><em>In buone mani.</em></h1><p>Scopri i professionisti dell’orologeria italiana, dalle botteghe storiche ai laboratori specializzati.</p></div>
+      <div class="atlas-opening-text"><p class="atlas-eyebrow atlas-light">OROLOGIAI.IT <span></span> GUIDA INDIPENDENTE</p><h1 id="atlas-home-title">Il tempo ha<br/><em>i suoi maestri.</em></h1><p>Scopri i professionisti dell’orologeria italiana, dalle botteghe storiche ai laboratori specializzati.</p><a class="atlas-hero-explore" href="#servizi">Esplora la guida <span aria-hidden="true">↓</span></a></div>
       <small class="atlas-art-credit">Illustrazione editoriale · <a href="/crediti/">Crediti</a></small>
     </div>
     <div class="atlas-find">
-      <p class="atlas-eyebrow">01 / LA RICERCA</p><h2>Trova il tuo<br/>orologiaio.</h2><p>Riparare, revisionare, acquistare. Comincia da una città.</p>
+      <p class="atlas-eyebrow"><span class="atlas-find-dot"></span> 01 / LA RICERCA</p><h2>Trova il tuo<br/>orologiaio.</h2><p>Riparare, revisionare, acquistare. Comincia da una città.</p>
       <form id="cerca" class="atlas-find-form" action="/cerca/" method="get" role="search">
         <SearchFields prefix="hero" />
         <label class="atlas-brand-field" for="hero-brand">Marchio <small>Facoltativo</small><select id="hero-brand" name="marca"><option value="">Tutti i marchi</option>{brandOptions.map(name=><option value={name}>{name}</option>)}</select></label>
@@ -80,4 +80,28 @@ const cities = [...directory.localita]
 @media(max-width:1050px){.atlas-wrap,.atlas-proofbar{width:calc(100% - 56px)}.atlas-opening{grid-template-columns:minmax(0,1.1fr) minmax(330px,.9fr)}.atlas-opening-art{min-height:540px}.atlas-proofbar>div{flex-direction:column;gap:4px}.atlas-service-card{padding:16px;min-height:225px}.atlas-story-art{min-height:190px}.atlas-story-copy{padding:16px}}
 @media(max-width:720px){.atlas-wrap,.atlas-proofbar{width:calc(100% - 36px)}.atlas-opening{display:flex;flex-direction:column;min-height:0}.atlas-opening-art{min-height:275px;align-items:end}.atlas-opening-art>img{object-position:70% center}.atlas-opening-art:after{background:linear-gradient(90deg,#0a1e1ae0,#0a1e1a45),linear-gradient(0deg,#071b1690,transparent)}.atlas-opening-text{padding:28px 20px 37px}.atlas-opening-text .atlas-eyebrow{margin-bottom:10px;font-size:.58rem!important}.atlas-opening-text h1{font-size:clamp(2.7rem,9.6vw,4rem)}.atlas-opening-text>p:last-child{font-size:.91rem;margin-top:14px;max-width:33ch}.atlas-art-credit{font-size:.57rem;bottom:9px}.atlas-find{padding:23px 18px 24px}.atlas-find h2{font-size:2.15rem}.atlas-find h2 br{display:none}.atlas-find>.atlas-eyebrow{margin-bottom:8px}.atlas-find>p:not(.atlas-eyebrow){margin:8px 0 15px}.atlas-find-form{gap:10px}.atlas-find-form .primary-search-fields{gap:10px}.atlas-proofbar{grid-template-columns:repeat(3,minmax(0,1fr));padding-block:14px}.atlas-proofbar>div{padding-inline:10px}.atlas-proofbar>div:nth-child(3){border:0}.atlas-proofbar strong{font-size:1.85rem}.atlas-proofbar span{font-size:.7rem}.atlas-proofbar>a{grid-column:1/-1;border-top:1px solid var(--ah-rule);padding:10px 0 0;margin-top:13px}.atlas-proofbar>a br{display:none}.atlas-section-head{display:block;margin-bottom:19px}.atlas-section-head h2{font-size:2.4rem}.atlas-section-head>p{margin-top:12px;max-width:none}.atlas-services,.atlas-stories{padding-block:36px}.atlas-service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.atlas-service-card{min-height:185px;padding:13px}.atlas-service-card svg{width:54px;height:54px;margin:3px 0 12px}.atlas-service-card h3{font-size:1.32rem;margin-right:0}.atlas-service-card p{font-size:.75rem}.atlas-card-arrow{top:10px;right:10px;font-size:1.1rem}.atlas-help-strip{gap:10px;font-size:.8rem}.atlas-territory-layout,.atlas-journal-layout,.atlas-more-stories{grid-template-columns:1fr;gap:20px}.atlas-territory-intro h2{font-size:3rem}.atlas-city-grid>a{min-height:96px;padding:14px}.atlas-city-grid strong{font-size:1.4rem}.atlas-story-grid{display:flex;flex-direction:column;gap:12px}.atlas-story-main .atlas-story-art{min-height:190px}.atlas-story-art{min-height:170px;padding:12px}.atlas-story-art strong{font-size:3.2rem}.atlas-story-copy{padding:16px}.atlas-story-copy h3{font-size:1.5rem}.atlas-story-main .atlas-story-copy h3{font-size:1.9rem}.atlas-more-stories{margin-top:28px;padding-top:22px}.atlas-journal{padding-block:24px}.atlas-journal img{height:240px}.atlas-journal h2{font-size:3rem}.atlas-final{grid-template-columns:1fr;padding-block:24px;gap:12px}.atlas-final>div{padding:18px}}
 @media(prefers-reduced-motion:reduce){.atlas-home *{transition:none!important;scroll-behavior:auto!important}}
+</style>
+
+<style is:global>
+.atlas-home .atlas-opening{position:relative;grid-template-columns:minmax(0,1.55fr) minmax(340px,.65fr);background:#142d25;padding:18px;gap:18px;min-height:620px}
+.atlas-home .atlas-opening-art{min-height:600px;border-radius:3px}
+.atlas-home .atlas-opening-art:after{background:linear-gradient(90deg,#071d17df 0%,#0a1e1a85 48%,#071b1615 100%),linear-gradient(0deg,#071b16dd,transparent 70%)}
+.atlas-home .atlas-opening-text{padding:52px clamp(26px,4vw,72px) 70px}
+.atlas-home .atlas-opening-text h1{font-size:clamp(3.4rem,6.8vw,7rem);line-height:.99}
+.atlas-home .atlas-opening-text .atlas-eyebrow{letter-spacing:.22em}
+.atlas-hero-explore{display:inline-flex;align-items:center;gap:16px;border-bottom:1px solid #cfb681;color:#f5e6c5!important;padding:10px 0;margin-top:20px;font-size:.8rem;font-weight:700;text-decoration:none}
+.atlas-home .atlas-find{background:#f9f5eb;border-radius:3px;padding:34px clamp(20px,3vw,48px);box-shadow:0 8px 40px #06161025}
+.atlas-find-dot{display:inline-block;width:7px;height:7px;background:#a27b49;border-radius:50%;margin-right:7px}
+.atlas-home .atlas-find-submit{background:#203e32;box-shadow:0 6px 15px #19392b20}
+.atlas-home .atlas-service-card:nth-child(1){background:#203b31;color:#fffaf0;border-color:#203b31}
+.atlas-home .atlas-service-card:nth-child(1) svg,.atlas-home .atlas-service-card:nth-child(1) .atlas-service-num{color:#d3b982}
+.atlas-home .atlas-service-card:nth-child(1) p{color:#e2e7db}
+.atlas-home .atlas-service-card:nth-child(3){background:#e7ddca}
+.atlas-home .atlas-service-card svg{width:84px;height:84px}
+.atlas-home .atlas-story-main .atlas-story-art{background:radial-gradient(circle at 75% 18%,#54705c,#19352b 75%)}
+.atlas-home .atlas-story-main .atlas-story-art strong{font-size:clamp(3.5rem,8vw,9rem)}
+.atlas-home .atlas-proofbar{padding-block:28px}
+.atlas-home .atlas-final>div:last-child{background:#203b31;color:#fffaf0;border-color:#203b31}.atlas-home .atlas-final>div:last-child p{color:#e2d9c4}.atlas-home .atlas-final>div:last-child .atlas-eyebrow{color:#d3b982}
+@media(max-width:950px){.atlas-home .atlas-opening{grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);padding:12px;gap:12px;min-height:0}.atlas-home .atlas-opening-art{min-height:530px}}
+@media(max-width:720px){.atlas-home .atlas-opening{display:flex;flex-direction:column;padding:0;gap:0}.atlas-home .atlas-opening-art{min-height:290px;border-radius:0}.atlas-home .atlas-opening-text{padding:26px 22px 42px}.atlas-home .atlas-opening-text h1{font-size:clamp(2.65rem,10vw,4.3rem)}.atlas-hero-explore{margin-top:8px;padding-block:6px}.atlas-home .atlas-find{border-radius:0;padding:22px 18px}.atlas-home .atlas-service-card svg{width:54px;height:54px}.atlas-home .atlas-proofbar{padding-block:14px}}
 </style>
