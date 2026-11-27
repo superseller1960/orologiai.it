@@ -23,5 +23,6 @@ test('Atlas UX: local favorites, two-profile comparison and deletion',async()=>{
  const wait=async(selector:string)=>{for(let i=0;i<50;i++){if(doc.querySelector(selector))return;await new Promise(r=>setTimeout(r,10));}throw Error('Missing '+selector);};
  await wait('[data-atlas-list] input');const checks=Array.from(doc.querySelectorAll<HTMLInputElement>('[data-atlas-list] input'));assert.equal(checks.length,2);checks.forEach(x=>x.click());const compare=doc.querySelector<HTMLButtonElement>('[data-atlas-compare]')!;assert.equal(compare.hidden,false);compare.click();await wait('.atlas-compare-card');assert.equal(doc.querySelectorAll('.atlas-compare-card').length,2);
  doc.querySelector<HTMLButtonElement>('[data-remove-saved]')!.click();assert.equal(JSON.parse(w.localStorage.getItem('orologiai-preferiti-v1')??'[]').length,1);
+ await wait('[data-atlas-list] .atlas-saved-row');assert.equal(doc.querySelectorAll('[data-atlas-list] .atlas-saved-row').length,1);assert.equal(doc.querySelectorAll('.atlas-compare-card').length,0);assert.equal(compare.hidden,true);
  }finally{w.close();}
 });
