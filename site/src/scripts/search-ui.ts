@@ -107,6 +107,8 @@ if (form && count && empty && list) {
             const match=Array.from(control.options).find(o=>o.value && brandKey(o.value)===brandKey(value));
             control.value=match?.value ?? value;
             if(!match && value){const option=document.createElement('option');option.value=value;option.textContent=value+' (non censito)';control.append(option);control.value=value;}
+          } else if (control instanceof HTMLSelectElement && control.name === 'servizio' && value && !Array.from(control.options).some(o=>o.value===value)) {
+            const option=document.createElement('option');option.value=value;option.textContent='Servizio non censito';control.append(option);control.value=value;
           } else control.value = value;
         }
       }
@@ -258,13 +260,13 @@ if (form && count && empty && list) {
     const documentate = businesses.filter(b => !nonVerificate.has(b.id)).length;
     heading.textContent = ambiguous ? `Scegli il comune di ${city}` : uncovered ? `0 attività a ${city}` : alternative ? `${n} alternative pertinenti (nessuna corrispondenza esatta)` : `${n} ${n === 1 ? 'attività trovata' : 'attività trovate'}${selected ? ' a ' + selected.comune : ''}`;
     context.textContent = [
-      service.value ? services[service.value as keyof typeof services] : '',
+      service.value ? (services[service.value as keyof typeof services] ?? 'Servizio non censito') : '',
       filters.marca ? 'Marchio: '+filters.marca : '',
       nonVerificate.size ? `${documentate} con prova documentata · ${n - documentate} da verificare` : '',
       alternative ? 'Alternative alla richiesta, non corrispondenze esatte.' : !city && !region.value && !province.value ? 'Ricerca in tutta Italia' : '',
     ].filter(Boolean).join(' · ');
     emptyBox.hidden = n > 0;
-    emptyMessage.textContent = ambiguous ? `Esistono più località chiamate ${city}. Scegli provincia e regione nei suggerimenti.` : uncovered ? `${city} non è ancora censita. Non sostituiamo la città con altre località.${service.value ? ' Servizio richiesto: ' + services[service.value as keyof typeof services] + '.' : ''}` : `Nessuna attività${city ? ' a ' + city : ''} soddisfa tutti i filtri${service.value ? ': ' + services[service.value as keyof typeof services] : ''}. Rimuovi un filtro o modifica la ricerca.`;
+    emptyMessage.textContent = ambiguous ? `Esistono più località chiamate ${city}. Scegli provincia e regione nei suggerimenti.` : uncovered ? `${city} non è ancora censita. Non sostituiamo la città con altre località.${service.value ? ' Servizio richiesto: ' + (services[service.value as keyof typeof services] ?? 'servizio non censito') + '.' : ''}` : `Nessuna attività${city ? ' a ' + city : ''} soddisfa tutti i filtri${service.value ? ': ' + (services[service.value as keyof typeof services] ?? 'servizio non censito') : ''}. Rimuovi un filtro o modifica la ricerca.`;
     removeService.hidden = !service.value;
     const geoOnly = Boolean(filters.localita || filters.regione || filters.provincia || uncovered);
     maybeOfferWiderSearch(n, geoOnly, filters);
@@ -310,14 +312,14 @@ if (form && count && empty && list) {
   }
   function maybeOfferWiderSearch(n: number, geoOnly: boolean, filters: ReturnType<typeof filtersFromParams>) {
     // L'ampliamento è sempre dichiarato: nessun risultato fuori territorio mescolato ai risultati esatti.
-    if (!geoOnly || n > 0 || (!service.value && !filters.marca)) { widen.hidden = true; alternative.hidden = true; return; }
+    if (!geoOnly || n > 0 || (!service.value && !filters.marca && filters.ruoloMarca === 'qualsiasi')) { widen.hidden = true; alternative.hidden = true; return; }
     const altrove = searchDirectory(data, { ...filters, localita: '', regione: '', provincia: '' }).length;
-    const nome = [service.value ? services[service.value as keyof typeof services] : '', filters.marca].filter(Boolean).join(' · ');
+    const nome = [service.value ? (services[service.value as keyof typeof services] ?? 'Servizio non censito') : '', filters.marca].filter(Boolean).join(' · ') || 'Relazione con il marchio selezionata';
     alternative.textContent = altrove
       ? `«${nome}» compare in ${altrove} ${altrove === 1 ? 'attività' : 'attività'} in altre località. Puoi ampliare la ricerca: saranno risultati fuori dal territorio scelto, non corrispondenze nella località.`
       : `«${nome}» non risulta documentata nel database attuale: nessuna attività viene inventata o sostituita.`;
     alternative.hidden = false;
-    widen.textContent = filters.marca ? 'Cerca in tutta Italia mantenendo il marchio' : 'Cerca in tutta Italia con questo servizio';
+    widen.textContent = 'Cerca in tutta Italia mantenendo gli altri filtri';
     widen.hidden = altrove === 0;
   }
   function renderChips() {
@@ -328,7 +330,7 @@ if (form && count && empty && list) {
       const control = searchForm.elements.namedItem(key) as HTMLInputElement | HTMLSelectElement | null;
       const isCity = ['localita', 'localitaNonCensita'].includes(key);
       if (!isCity && key !== 'servizio') advanced++;
-      const text = isCity ? cityInput.value : control instanceof HTMLSelectElement ? control.selectedOptions[0]?.textContent ?? value : value;
+      const text = isCity ? cityInput.value : key === 'soloDocumentate' ? 'Solo prove documentate' : control instanceof HTMLSelectElement ? control.selectedOptions[0]?.textContent ?? value : value;
       const button = document.createElement('button'); button.type = 'button'; button.className = 'filter-chip';
       button.textContent = `${text} ×`; button.setAttribute('aria-label', `Rimuovi filtro ${text}`);
       button.addEventListener('click', () => {
