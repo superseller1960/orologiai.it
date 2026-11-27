@@ -5,7 +5,7 @@ import '../styles/search.css';
 import '../styles/home.css';
 import '../styles/insights.css';
 import '../../public/home-upgrade.css';
-import { directory, localityUrl, businessUrl } from '../lib/directory';
+import { directory, localityUrl, businessUrl, brandOptions } from '../lib/directory';
 import { homePlacements } from '../lib/home-selection';
 
 const positions = homePlacements();
@@ -27,8 +27,14 @@ const cities = [...directory.localita]
         <p class="hero-intro">Trova orologerie e laboratori, scopri le storie di chi si prende cura dei tuoi orologi.</p>
         <form id="cerca" class="home-search" action="/cerca/" method="get" role="search">
           <SearchFields prefix="hero" compact />
+          <label class="hero-brand-filter" for="hero-brand">Marchio <span>(facoltativo)</span><select id="hero-brand" name="marca"><option value="">Tutti i marchi</option>{brandOptions.map(name => <option value={name}>{name}</option>)}</select></label>
           <button class="home-search-button" type="submit">Trova un orologiaio <span aria-hidden="true">↗</span></button>
         </form>
+        <div class="hero-directory-stats" aria-label="Dimensione della guida">
+          <span><strong>{directory.attivita.length}</strong> attività censite</span>
+          <span><strong>{directory.localita.length}</strong> località</span>
+          <span><strong>{new Set(directory.localita.map(p=>p.regioneSlug)).size}</strong> regioni</span>
+        </div>
       </div>
       <figure class="hero-visual">
         <img src="/images/editorial-movement-ai.webp" width="1130" height="586" alt="Illustrazione editoriale digitale di un movimento meccanico con ruote e pinzette" fetchpriority="high" />
@@ -36,6 +42,12 @@ const cities = [...directory.localita]
     </div>
   </section>
 
+  <section class="container home-quick-start" aria-label="Scorciatoie alla ricerca">
+    <a href="/cerca/?servizio=riparazione"><span aria-hidden="true">✳</span><div><strong>Riparare</strong><small>Trova un laboratorio</small></div><span aria-hidden="true">↗</span></a>
+    <a href="/cerca/?servizio=revisione"><span aria-hidden="true">◉</span><div><strong>Revisionare</strong><small>Manutenzione e cura</small></div><span aria-hidden="true">↗</span></a>
+    <a href="/cerca/?servizio=vendita"><span aria-hidden="true">◇</span><div><strong>Acquistare</strong><small>Esplora le orologerie</small></div><span aria-hidden="true">↗</span></a>
+    <a href="/orologiaio/"><span aria-hidden="true">✧</span><div><strong>Chiedi all’AI</strong><small>Una ricerca guidata</small></div><span aria-hidden="true">↗</span></a>
+  </section>
   <section class="home-section container" id="botteghe">
     <div class="editorial-heading"><div><p class="home-kicker">01 / Selezione editoriale</p><h2>Le botteghe<br /><em>da conoscere.</em></h2></div><p>Tre storie, tre città. Una selezione indipendente, non una classifica.</p></div>
     <div class="featured-list">{featured.map((p, i) => <article class={`featured-story featured-story-${i + 1}`}>
@@ -62,7 +74,7 @@ const cities = [...directory.localita]
 
   {sponsored.length > 0 && <section class="container home-section sponsored-section" aria-labelledby="sponsored-title"><p class="home-kicker">Pubblicità</p><h2 id="sponsored-title">Contenuti sponsorizzati</h2><div class="selected-list">{sponsored.map(p => <article class="selected-row"><span class="selected-number">ADV</span><div><p class="home-kicker">Contenuto sponsorizzato · {p.place.comune}</p><h3><a href={businessUrl(p.business)}>{p.business.nome}</a></h3></div><p>{p.text}</p>{p.image && <figure class="approved-image"><img src={p.image.src} alt={p.image.alt} loading="lazy" /></figure>}<a class="selected-arrow" href={businessUrl(p.business)} aria-label={`Scopri ${p.business.nome}`}>↗</a></article>)}</div></section>}
 
-  <section class="cities-section"><div class="container home-section"><div class="editorial-heading"><div><p class="home-kicker">04 / Atlante italiano</p><h2>Una città.<br /><em>Una nuova scoperta.</em></h2></div><p>Comincia da una delle città presenti nella guida, o esplora tutti i territori.</p></div><div class="city-list">{cities.map(city => <a href={localityUrl(city)}>{city.comune}<span aria-hidden="true">↗</span></a>)}</div><a class="editorial-link" href="/orologerie/">Esplora tutti i territori <span aria-hidden="true">↗</span></a></div></section>
+  <section class="cities-section"><div class="container home-section"><div class="editorial-heading"><div><p class="home-kicker">04 / Atlante italiano</p><h2>Una città.<br /><em>Una nuova scoperta.</em></h2></div><p>Comincia da una delle città presenti nella guida, o esplora tutti i territori.</p></div><div class="city-list">{cities.map(city => <a href={localityUrl(city)}><span class="city-name">{city.comune}<small>{city.count} attività</small></span><span aria-hidden="true">↗</span></a>)}</div><a class="editorial-link" href="/orologerie/">Esplora tutti i territori <span aria-hidden="true">↗</span></a></div></section>
 
   <section class="container home-section journal-section"><figure class="journal-image"><img src="/images/strumento-spirale.jpg" width="960" height="1440" alt="Strumento storico per la regolazione della spirale di un orologio" loading="lazy" /><figcaption class="image-credit"><a href="/crediti/">Crediti immagine</a></figcaption></figure><div class="journal-copy"><p class="home-kicker">05 / Il sapere delle mani</p><h2>Un mondo<br />in <em>miniatura.</em></h2><p>Una spirale sottile, un gesto preciso, il battito di un movimento. Dietro ogni orologio meccanico c’è un sapere fatto di pazienza e strumenti speciali.</p><a class="editorial-link" href="/blog/">Leggi storie e guide <span aria-hidden="true">↗</span></a></div></section>
 
