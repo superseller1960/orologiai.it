@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { JSDOM, VirtualConsole } from 'jsdom';
 import { build } from 'esbuild';
 import { directory } from '../site/src/lib/directory.ts';
-import { cercaOrologiaio } from '../site/src/lib/assistant.ts';
+import { cercaOrologiaioPreciso } from '../site/src/lib/assistant.ts';
 
 // La pagina compilata viene eseguita nel DOM simulato insieme ai suoi eventi reali:
 // click sul pulsante, Invio nella textarea, stati di caricamento, errore e ripetizione.
@@ -56,7 +56,7 @@ const testoChat = () => chat!.textContent ?? '';
 // Solo le schede dell'ultima risposta: la conversazione conserva i messaggi precedenti.
 const schede = () => {
   const risposte = Array.from(doc.querySelectorAll<HTMLElement>('.msg-bot')).reverse();
-  const ultima = risposte.find(bolla => bolla.querySelector('.chat-result'));
+  const ultima = risposte[0];
   return ultima ? Array.from(ultima.querySelectorAll<HTMLElement>('.chat-result')).map(el => el.dataset.businessId) : [];
 };
 
@@ -64,7 +64,7 @@ assert.equal(doc.querySelectorAll('h1').length, 1, 'La pagina mantiene un solo t
 assert.match(doc.querySelector('meta[name="viewport"]')!.getAttribute('content')!, /width=device-width/);
 
 // A. Stato iniziale: presentazione, suggerimenti, pulsante non inviabile senza testo.
-assert.match(testoChat(), /Ciao! Ti aiuto a trovare l’orologiaio giusto/);
+assert.match(testoChat(), /Ciao! Che problema ha il tuo orologio/);
 assert.equal(doc.querySelectorAll('[data-suggerimento]').length, 5, 'I suggerimenti iniziali sono disponibili');
 assert.equal(invia!.disabled, true, 'Il pulsante è disabilitato solo quando il campo è vuoto');
 assert.equal(contatore!.textContent, '0 / 500 caratteri');
@@ -97,10 +97,9 @@ assert.equal(chiamate, 2, 'Il pulsante disabilitato e Invio non producono richie
 sblocca!(ai({ localita: 'firenze', servizio: 'revisione' }, [], 'Per la revisione a Firenze ho alcune attività che potrebbero fare al caso tuo.'));
 await attesa(60);
 assert.equal(chat!.getAttribute('aria-busy'), 'false');
-assert.match(testoChat(), /Per la revisione a Firenze ho alcune attività/);
-assert.doesNotMatch(testoChat(), /Ho interpretato la richiesta come/, 'Il formulario tecnico sparisce quando parla il modello');
+assert.match(testoChat(), /corrispondenz[ae] documentat[ae]/, 'La chat non usa una promessa del modello al posto di riscontri');
 assert.equal(modalita!.textContent, 'AI attiva');
-const attesi = cercaOrologiaio(directory, { localita: 'firenze', servizio: 'revisione' }).risultati.map(r => r.id);
+const attesi = cercaOrologiaioPreciso(directory, { localita: 'firenze', servizio: 'revisione' }).risultati.map(r => r.id);
 assert.ok(attesi.length > 0, 'Il motore reale restituisce attività per Firenze e revisione');
 assert.deepEqual(schede(), attesi, 'Le schede mostrate coincidono con il motore di ricerca');
 for (const a of Array.from(doc.querySelectorAll<HTMLAnchorElement>('.chat-result a[href^="/orologeria/"]'))) {
@@ -176,10 +175,9 @@ await scrivi('Ci sono orologiai in Molise?');
 invia!.click();
 await attesa(80);
 assert.match(testoChat(), /regione: Molise\b/, 'Il riepilogo nomina la regione cercata');
-assert.match(testoChat(), /ho cercato solo la nuova richiesta/, 'La chat dichiara di aver ignorato il contesto precedente');
-const molise = cercaOrologiaio(directory, { regione: 'molise' }).risultati.map(r => r.id);
-assert.ok(molise.length > 0, 'Il database ha attività in Molise');
-assert.deepEqual(schede(), molise, 'Le schede mostrate sono quelle del Molise, non un elenco vuoto');
+assert.doesNotMatch(testoChat(), /ho cercato solo la nuova richiesta/, 'La chat non scarta requisiti senza consenso');
+const molise = cercaOrologiaioPreciso(directory, { regione: 'molise',servizio:'acquisto-permuta',marca:'Omega',specializzazione:'vintage' }).risultati.map(r => r.id);
+assert.deepEqual(schede(), molise, 'La chat mantiene marca, servizio e specializzazione anche se non trova corrispondenze');
 
 // I-bis. Prima richiesta: il ripiego sui soli criteri nuovi non deve annunciare un contesto
 // precedente che non esiste. DOM separato per non alterare la conversazione già in corso.
@@ -198,7 +196,8 @@ assert.deepEqual(schede(), molise, 'Le schede mostrate sono quelle del Molise, n
   await new Promise(resolve => pw.setTimeout(resolve, 80));
   const testoPrimo = pdoc.querySelector<HTMLElement>('#assistente-chat')!.textContent ?? '';
   assert.doesNotMatch(testoPrimo, /richiesta precedente/, 'Al primo messaggio non si parla di criteri precedenti');
-  assert.ok(pdoc.querySelectorAll('.chat-result').length > 0, 'Il primo messaggio mostra comunque i risultati dei criteri nuovi');
+  assert.equal(pdoc.querySelectorAll('.chat-result').length,0,'Non mostra risultati se il requisito non è riconosciuto');
+  assert.match(testoPrimo,/Non ho dati sufficienti/);
   assert.deepEqual(erroriPrimo, [], 'Nessun errore JavaScript al primo messaggio');
   pw.close();
 }
