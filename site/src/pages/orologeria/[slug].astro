@@ -89,7 +89,7 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     </div>
     <div class="actions">
       {b.contatti.telefono && <a class="btn" href={`tel:${telHref}`}>Chiama</a>}
-      {indicazioni && <a class="btn secondary" href={indicazioni} rel="noreferrer">Indicazioni</a>}
+      {indicazioni && <a class="btn secondary" href={indicazioni} rel="noreferrer">{coordinate ? "Indicazioni" : "Cerca indirizzo"}</a>}
       {b.contatti.sito && <a class="btn secondary" href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a>}
       {b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}
     </div>
@@ -148,7 +148,7 @@ const contestazione = `mailto:acquistiscardi@gmail.com?subject=${encodeURICompon
     </details>
   </div><aside><section class="panel contact-panel" id="contatti-scheda">
     <p class="eyebrow dark">Prima di metterti in viaggio</p>
-    <h2>Orari e posizione</h2><div class="profile-contact-actions">{b.contatti.telefono && <a class="btn" href={`tel:${telHref}`}>Chiama</a>}{b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}{indicazioni && <a class="btn secondary" href={indicazioni} rel="noreferrer">Indicazioni ↗</a>}{b.contatti.sito && <a class="btn secondary" href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a>}</div>
+    <h2>Orari e posizione</h2><div class="profile-contact-actions">{b.contatti.telefono && <a class="btn" href={`tel:${telHref}`}>Chiama</a>}{b.contatti.email && <a class="btn secondary" href={`mailto:${b.contatti.email}`}>Email</a>}{indicazioni && <a class="btn secondary" href={indicazioni} rel="noreferrer">{coordinate ? "Indicazioni ↗" : "Cerca indirizzo ↗"}</a>}{b.contatti.sito && <a class="btn secondary" href={b.contatti.sito} rel="noreferrer">Sito ufficiale ↗</a>}</div>
     {b.posizione.indirizzo ? <address>{b.posizione.indirizzo}{b.posizione.cap ? <><br />{b.posizione.cap} {place.comune} ({place.siglaProvincia})</> : <><br />{place.comune} ({place.siglaProvincia})</>}<br />{place.regione}</address> : <p>Indirizzo non disponibile nelle fonti consultate.</p>}
     {b.contatti.telefono ? <p><a href={`tel:${telHref}`}>{b.contatti.telefono}</a></p> : <p class="small muted">Telefono non verificato.</p>}
     <h3>Orari</h3>
