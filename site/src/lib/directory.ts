@@ -5,7 +5,7 @@
 // Node ESM nativo richiederebbe l'attributo, ma nessun file viene eseguito con node nativo:
 // script e test passano da tsx, le funzioni Vercel e Pages sono sempre bundlate.
 import raw from '../../data/directory.json';
-import { brandLabel, directorySchema, type Business, type Locality } from './schema.ts';
+import { brandKey, brandLabel, directorySchema, type Business, type Locality } from './schema.ts';
 export const directory = directorySchema.parse(raw);
 export const businessUrl = (b: Pick<Business, 'slug'>) => `/orologeria/${b.slug}/`;
 export const localityUrl = (p: Locality) => `/orologerie/${p.regioneSlug}/${p.provinciaSlug}/${p.comuneSlug}/`;
@@ -18,7 +18,14 @@ export const slugify = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f
 export const brandNames = [...new Set(directory.attivita.flatMap(b => Object.values(b.marchi).flat().map(m => m.marca)))];
 // Opzioni del filtro marchio: una sola voce per denominazioni equivalenti (IWC / IWC Schaffhausen).
 // L'elenco completo brandNames resta per le pagine /marchi/ e la sitemap: nessun URL viene rimosso.
-export const brandOptions = [...new Set(brandNames.map(brandLabel))].sort((a, b) => a.localeCompare(b, 'it'));
+const brandGroups = new Map<string, string[]>();
+for (const name of brandNames) { const key = brandKey(name); const group = brandGroups.get(key) ?? []; group.push(name); brandGroups.set(key, group); }
+export const brandIndex = [...brandGroups.entries()].map(([key,names]) => {
+  const preferred = [...names].sort((a,b)=>Number(b===brandLabel(b))-Number(a===brandLabel(a)) || Number(a===a.toUpperCase())-Number(b===b.toUpperCase()) || Number(b.endsWith('.'))-Number(a.endsWith('.')) || a.localeCompare(b,'it'))[0];
+  const label = brandLabel(preferred);
+  return { key, label, href: '/marchi/'+slugify(preferred)+'/', count: directory.attivita.filter(b=>b.attendibilita.stato!=='chiusa'&&Object.values(b.marchi).flat().some(m=>brandKey(m.marca)===key)).length };
+}).sort((a,b)=>a.label.localeCompare(b.label,'it'));
+export const brandOptions = brandIndex.map(b=>b.label);
 // Regioni con almeno una località e un'attività: sono le sole pagine regionali generate e inserite in sitemap.
 export const regioniConAttivita = [...new Set(directory.localita
   .filter(p => directory.attivita.some(b => b.localitaId === p.id))
