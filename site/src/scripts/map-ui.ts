@@ -44,6 +44,7 @@ if (el) void (async () => {
    const popup = document.createElement('div');
    const link = document.createElement('a');link.href=p.href;link.textContent=p.nome;popup.append(link);
    for (const text of [p.indirizzo,p.comune,selected.related.has(p.id)?'Alternativa · servizio generico documentato':null]) if (text) { const line=document.createElement('div');line.textContent=text;popup.append(line); }
+   const nav=document.createElement('a');nav.href=`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(`${p.lat},${p.lon}`)}`;nav.textContent='Indicazioni ↗';nav.rel='noreferrer';nav.style.display='block';popup.append(nav);
    L.marker([p.lat,p.lon],{icon:verifiedIcon,alt:p.nome,title:p.nome}).bindPopup(popup).addTo(markers);
   }
   if (selected.points.length>1) map.fitBounds(L.latLngBounds(selected.points.map(p=>[p.lat,p.lon] as [number,number])),{padding:[35,35],maxZoom:15});

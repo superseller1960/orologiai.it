@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
+import {JSDOM} from 'jsdom';
 import {directory, placeOf} from '../site/src/lib/directory.ts';
 import {directionsUrl} from '../site/src/lib/business-presentation.ts';
 import {isUsableCoordinate} from '../site/src/lib/schema.ts';
@@ -17,7 +18,11 @@ test('UX: tutte le destinazioni usano coordinate verificate o indirizzo completo
 test('UX: scheda Ciardi conserva sezioni, fonti e link esatti',()=>{
  const html=readFileSync('dist/orologeria/ciardi-firenze/index.html','utf8');
  for(const id of ['panoramica','servizi-scheda','marchi-scheda','contatti-scheda','fonti'])assert.ok(html.includes(`id="${id}"`),id);
- for(const name of ['IWC','Jaeger-LeCoultre','Baume &amp; Mercier','Vulcain','Panerai','055 217900','Via delle Belle Donne'])assert.ok(html.includes(name),name);
+ const doc=new JSDOM(html).window.document;
+ for(const name of ['IWC','Jaeger-LeCoultre','Baume & Mercier','Vulcain','Panerai','055 217900','Via delle Belle Donne'])assert.ok(doc.body.textContent?.includes(name),name);
+ assert.ok(doc.querySelector('details[data-map-src]')?.getAttribute('data-map-src')?.includes('marker=43.7722403%2C11.2505794'));
+ assert.ok(doc.querySelector('[data-share-button]'));
+ assert.ok(doc.querySelector('#fonti'));
  assert.ok(html.includes('destination=43.7722403%2C11.2505794'));
  assert.ok(html.includes('application/ld+json'));
  const home=readFileSync('dist/index.html','utf8');for(const marker of ['hero-brand','hero-directory-stats','home-quick-start','id="botteghe"'])assert.ok(home.includes(marker),marker);
